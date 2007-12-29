@@ -1,11 +1,15 @@
+= Patterns =
+
 Filter out [wiki:entry entries] based on regular expression matches.
 Configuration example:
 
+{{{
 patterns:
   - regular expression
   - another reqular expression
+}}}
 
-Advanced users:
+== Advanced users: ==
 
 It's also possible to specify custom download path for
 pattern and secondary regexp(s) that causes entry to be
@@ -13,6 +17,7 @@ filtered even when primary regexp matches entry.
 
 Examples:
 
+{{{
 pattenrs:
   # simplest way to specify custom path
   - regexp1: ~/custom_path/
@@ -36,3 +41,4 @@ pattenrs:
   # Above examples can be written also as:
   - regexp2: {path: ~/custom_path/, not: regexp3}
   - regexp4: {not: [regexp5, regexp6]}
+}}}
