@@ -1,39 +1,44 @@
-= Welcome to Trac 0.10.4 =
+= Welcome to FlexGet Trac =
 
-Trac is a '''minimalistic''' approach to '''web-based''' management of
-'''software projects'''. Its goal is to simplify effective tracking and handling of software issues, enhancements and overall progress.
+FlexGet is a software that main focus is to automate downloading content from various sources. 
+Most common usage is downloading .torrent files from RSS-feeds, but you can use it to download 
+latest podcasts as well.
 
-All aspects of Trac have been designed with the single goal to 
-'''help developers write great software''' while '''staying out of the way'''
-and imposing as little as possible on a team's established process and
-culture.
+FlexGet is completely modular and all features are actually plugins.
 
-As all Wiki pages, this page is editable, this means that you can
-modify the contents of this page simply by using your
-web-browser. Simply click on the "Edit this page" link at the bottom
-of the page. WikiFormatting will give you a detailed description of
-available Wiki formatting commands.
+== How easy is it to use? ==
 
-"[wiki:TracAdmin trac-admin] ''yourenvdir'' initenv" created
-a new Trac environment, containing a default set of wiki pages and some sample
-data. This newly created environment also contains 
-[wiki:TracGuide documentation] to help you get started with your project.
+Easy configuration was top priority when designing application. However some basic knowledge 
+about regular expression is usually needed for effective usage.
 
-You can use [wiki:TracAdmin trac-admin] to configure
-[http://trac.edgewall.org/ Trac] to better fit your project, especially in
-regard to ''components'', ''versions'' and ''milestones''. 
+FlexGet uses YML in configuration files. 
 
+Short example (config.yml):
 
-TracGuide is a good place to start.
+{{{
+feeds:
+  rss: http://something.com/rss.xml
+  patterns:
+    - serie.name
+  download: ~/series
+}}}
 
-Enjoy! [[BR]]
-''The Trac Team''
+This example would download all .torrent files matching regular expression {{{serie.name}}}.
 
-== Starting Points ==
+== Modules ==
 
- * TracGuide --  Built-in Documentation
- * [http://trac.edgewall.org/ The Trac project] -- Trac Open Source Project
- * [http://trac.edgewall.org/wiki/TracFaq Trac FAQ] -- Frequently Asked Questions
- * TracSupport --  Trac Support
+=== Inputs ===
 
-For a complete list of local wiki pages, see TitleIndex.
+[wiki:InputRSS RSS], [wiki:InputHtml Html], [wiki:InputCSV CSV], [wiki:InputRlsLog RlsLog]
+
+=== Filters ===
+
+[wiki:FilterPatterns Pattenrs], [wiki:FilterImdb Imdb], [wiki:FilterSeen Seen]
+
+=== Download ===
+
+[wiki:FilterSeen Download]
+
+=== Modify ===
+
+[wiki:ModifyRemoveTrackers Remove Trackers]
