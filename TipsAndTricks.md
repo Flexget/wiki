@@ -1,6 +1,6 @@
 = Tips And Tricks =
 
-Here you can find some clever YML tricks to make configuration easier. Check [wiki:GlobalSection global section] for some tips as well.
+Here you can find some YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well.
 
 == Defining locations as variables ==
 
@@ -9,7 +9,7 @@ In case you have multiple download locations, or path is long, you may wish to u
 Example:
 
 {{{
-locations:
+paths:
   &series: ~/torrents/series
   &movies: ~/torrents/movies
 
