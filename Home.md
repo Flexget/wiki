@@ -1,8 +1,10 @@
 = Welcome to !FlexGet Trac =
 
-!FlexGet is a software that main focus is to automate downloading content from various sources. 
+!FlexGet is a software that automates downloading content (.torrent, .mp3, etc.) from various 
+different sources. 
+
 Most common usage is downloading .torrent files from RSS-feeds, but you can use it to download 
-latest podcasts as well.
+for example podcasts as well.
 
 !FlexGet is completely modular and all features are actually plugins.
 
@@ -27,4 +29,3 @@ feeds:
 This example would download all (new) .torrent files matching regular expression {{{serie.name}}} .
 
 For more information about what !FlexGet can do, see [wiki:modules modules documentation].
-
