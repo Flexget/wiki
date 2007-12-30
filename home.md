@@ -1,4 +1,7 @@
-= Quick access =
+= Welcome to !FlexGet Trac =
+
+
+== Quick access ==
 
  * [wiki:WikiStart Introduction]
  * [wiki:modules Modules]
@@ -7,7 +10,7 @@
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Tips and Tricks]
 
-= Welcome to !FlexGet Trac =
+= Introduction =
 
 !FlexGet is a software that automates downloading content (.torrent, .mp3, etc.) from various 
 sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], etc). 
