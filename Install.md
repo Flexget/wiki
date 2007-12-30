@@ -20,21 +20,25 @@ TODO: DOWNLOAD LOCATION
 
 == Depencies ==
 
-!FlexGet depens on single external library on Python2.3 or later.
+!FlexGet depens on single external library on Python2.3 or later. Without this you cannot run application.
 
 * [http://pyyaml.org/ PyYAML]
 
-Optionally if you wish to use modules that process html pages you'll need
+Optionally if you wish to access html pages you'll need:
 
 * [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
+
+And if you want to access RSS feeds you'll need:
+
+* [http://www.feedparser.org/ feedparser]
 
 On debian based linux distros you can use apt-get to install these:
 
 {{{
-sudo apt-get install python-yaml python-beautifulsoup
+sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 }}}
 
-If your distribution does not gave these packages available you can still install them by following instructions from library site.
+If your distribution does not have these packages available you can still install them by following instructions in library site.
 
 = Running =
 
