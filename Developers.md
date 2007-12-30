@@ -36,3 +36,48 @@ Now when keyword {{{ourtest}}} is found from feed configuration, callback method
 {{{
 def execute(self, feed):
 }}}
+
+== Feed class ==
+
+Feed is a class that represents one feed in configuration file.
+
+=== It has following attributes: ===
+
+ name::
+  name of the feed
+
+ config::
+  feed specific configuration (dict)
+
+ session::
+  dictionary for storing persistent information, this is unique for each feed
+
+ global_session::
+  dictionary for storing persistent information, this is not feed specific
+
+ entries::
+  list containing [wiki:Entry entries]
+
+You shouldn't modify name or config as they are used by other modules.
+
+=== Available methods: ===
+
+ filter(entry)::
+  mark entry to be filtered
+
+ failed(entry)::
+  mark entry to be failed
+
+ get_failed_entries()::
+  return set containing all failed entries
+
+ get_succeeded_entries()::
+  return set containing all succeeded entries
+
+ get_input_url(keyword)::
+  Helper method for modules. Return url for a specified keyword.
+  Supports configuration in following forms:[[BR]]
+  ..<keyword>: <address>[[BR]]
+  and[[BR]]
+  ..<keyword>:[[BR]]
+  ....url: <address>
