@@ -24,4 +24,4 @@ csv:
 }}}
 
 Fields title and url are mandatory. First field is 1.
-List of other common (optional) fields can be found from documentation.
+List of other common (optional) fields can be found from [wiki:Entry entries] documentation.
