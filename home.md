@@ -24,22 +24,7 @@ feeds:
     download: ~/series
 }}}
 
-This example would download all .torrent files matching regular expression {{{serie.name}}}.
+This example would download all (new) .torrent files matching regular expression {{{serie.name}}} .
 
-== Modules ==
+For more information about what FlexGet can do, see [wiki:modules modules documentation]
 
-=== Inputs ===
-
-[wiki:InputRSS RSS], [wiki:InputHtml Html], [wiki:InputCSV CSV], [wiki:InputRlsLog RlsLog]
-
-=== Filters ===
-
-[wiki:FilterPatterns Pattenrs], [wiki:FilterImdb Imdb], [wiki:FilterSeen Seen]
-
-=== Download ===
-
-[wiki:FilterSeen Download]
-
-=== Modify ===
-
-[wiki:ModifyRemoveTrackers Remove Trackers]
