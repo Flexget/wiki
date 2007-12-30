@@ -1,3 +1,12 @@
+= Quick access =
+
+ * [wiki:WikiStart Introduction]
+ * [wiki:modules Modules]
+   * [wiki:entries]
+ * [wiki:Configuration]
+   * [wiki:GlobalSection Global Section]
+   * [wiki:TipsAndTricks Tips and Tricks]
+
 = Welcome to !FlexGet Trac =
 
 !FlexGet is a software that automates downloading content (.torrent, .mp3, etc.) from various 
@@ -30,12 +39,3 @@ feeds:
 This example would download all (new) .torrent files matching regular expression {{{serie.name}}} .
 
 For more information about what !FlexGet can do, see [wiki:modules modules documentation].
-
-= Table Of Contents =
-
- * [wiki:WikiStart Introduction]
- * [wiki:modules Modules]
-   * [wiki:entries]
- * [wiki:Configuration]
-   * [wiki:GlobalSection Global Section]
-   * [wiki:TipsAndTricks Tips and Tricks]
