@@ -17,10 +17,11 @@ Short example (config.yml):
 
 {{{
 feeds:
-  rss: http://something.com/rss.xml
-  patterns:
-    - serie.name
-  download: ~/series
+  name of some feed:
+    rss: http://something.com/rss.xml
+    patterns:
+      - serie.name
+    download: ~/series
 }}}
 
 This example would download all .torrent files matching regular expression {{{serie.name}}}.
