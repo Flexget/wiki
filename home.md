@@ -11,9 +11,9 @@ latest podcasts as well.
 Easy configuration was top priority when designing application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
-!FlexGet uses YML in configuration files. 
+!FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration files.
 
-Short example (config.yml):
+Short example:
 
 {{{
 feeds:
