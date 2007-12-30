@@ -4,6 +4,7 @@
 == Quick access ==
 
  * [wiki:WikiStart Introduction]
+ * [wiki:Install Installation and running]
  * [wiki:modules Modules]
    * [wiki:entry entries]
  * [wiki:Configuration]
