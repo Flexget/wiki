@@ -29,7 +29,7 @@ reject_languages:
 accept_languages:
     - language1
 
-# reject all entries which are not imdb-compatible
+# reject all [wiki:entry entries] which are not imdb-compatible
 # this has default value (True) even when key not present
 reject_invalid: True / False
 }}}
@@ -40,12 +40,12 @@ All fields are optional, but lack of required fields will
 result in filtering usually in default configuration (see reject_invalid).
 
 {{{
-    imdb_url       : Most important field, should point to imdb-movie-page (string)
-    imdb_score     : Pre-parsed score/rating value (float)
-    imdb_votes     : Pre-parsed number of votes (int)
-    imdb_year      : Pre-parsed production year (int)
-    imdb_genres    : Pre-parsed genrelist (array)
-    imdb_languages : Pre-parsed languagelist (array)
+imdb_url       : Most important field, should point to imdb-movie-page (string)
+imdb_score     : Pre-parsed score/rating value (float)
+imdb_votes     : Pre-parsed number of votes (int)
+imdb_year      : Pre-parsed production year (int)
+imdb_genres    : Pre-parsed genrelist (array)
+imdb_languages : Pre-parsed languagelist (array)
 }}}
 
 Supplying pre-parsed values may avoid checking and parsing from imdb_url.
