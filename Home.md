@@ -6,7 +6,7 @@
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
  * [wiki:modules Modules]
-   * [wiki:entry entries]
+   * [wiki:Entry entries]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Tips and Tricks]
