@@ -6,7 +6,7 @@ sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], etc).
 Most common usage is downloading .torrent files from RSS-feeds.
 
 !FlexGet is completely modular and all features are actually plugins, it should be easy to 
-extend even with minimal python experience.
+extend even with minimal python experience (see [wiki:DevelopersGuide developers guide]).
 
 == How easy is it to use? ==
 
