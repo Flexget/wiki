@@ -57,3 +57,5 @@ Enter one new line on crontab:
 }}}
 
 This will run !FlexGet every 30 minutes. It is not recommended to run it more frequently since it will cause load on RSS-feeds it checks.
+
+You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
