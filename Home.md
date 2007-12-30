@@ -2,7 +2,7 @@
 
  * [wiki:WikiStart Introduction]
  * [wiki:modules Modules]
-   * [wiki:entries]
+   * [wiki:entry entries]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Tips and Tricks]
