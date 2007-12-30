@@ -3,10 +3,10 @@
 !FlexGet is a software that automates downloading content (.torrent, .mp3, etc.) from various 
 sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], etc). 
 
-Most common usage is downloading .torrent files from RSS-feeds, but you can use it to download 
-for example podcasts as well.
+Most common usage is downloading .torrent files from RSS-feeds.
 
-!FlexGet is completely modular and all features are actually plugins.
+!FlexGet is completely modular and all features are actually plugins, it should be trivial to 
+extend by someone with even minimal python experience.
 
 == How easy is it to use? ==
 
