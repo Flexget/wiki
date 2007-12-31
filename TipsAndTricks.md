@@ -2,7 +2,7 @@
 
 Here you can find some YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well.
 
-== Defining locations as variables ==
+== Defining download paths as variables ==
 
 In case you have multiple download locations, or path is long, you may wish to use variables instead of typing full path on each download location.
 
