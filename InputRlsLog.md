@@ -12,3 +12,16 @@ rlslog-entry to !NewTorrents thus eliminating any potential DDOS effect and or b
 Supports also piratebay links.
 
 In case of movies the module supplies pre-parse IMDB-details (helps when chaining with [wiki:FilterImdb imdb] filter).
+
+=== Example with imdb filtering: ===
+
+{{{
+rlslog: http://www.rlslog.net/category/movies/dvdrip/
+imdb:
+  min_score: 6.1
+  min_votes: 4500
+  reject_genres:
+    - documentary
+    - horror
+download: ~/torrents
+}}}
