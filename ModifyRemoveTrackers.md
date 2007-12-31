@@ -10,4 +10,4 @@ remove_trackers:
 }}}
 
 This will remove all trackers that contain text moviex in their url.
-TIP: You can use [wiki:global global section] in configuration to make this enabled on all feeds.
+TIP: You can use [wiki:GlobalSection global section] in configuration to make this enabled on all feeds.
