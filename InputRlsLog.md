@@ -1,6 +1,6 @@
 = Input !RlsLog =
 
-Adds support for rlslog.net as a source.
+Adds support for [http://rlslog.net rlslog] as a source.
 
 If rlslog entry has !NewTorrents download link then torrent url is parsed from there.
 If rlslog entry has !NewTorrents search link, we try to look from there if any of the results match entry title.
@@ -11,7 +11,7 @@ rlslog-entry to !NewTorrents thus eliminating any potential DDOS effect and or b
 
 Supports also piratebay links.
 
-In case of movies the module supplies pre-parse IMDB-details (helps when chaining with [wiki:FilterImdb imdb] filter).
+In case of movies the module supplies pre-parse IMDB-details (helps when chaining with [wiki:FilterImdb imdb filter]).
 
 === Example with imdb filtering: ===
 
@@ -25,3 +25,5 @@ imdb:
     - horror
 download: ~/torrents
 }}}
+
+This would download all dvdrips that haev atleast 6.1 score on imdb and atleast 4500 votes. Movies with genres documentary or horror are rejected. See [wiki:FilterImdb imdb filter] for more information.
