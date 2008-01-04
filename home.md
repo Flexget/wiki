@@ -32,7 +32,7 @@ Short example:
 
 {{{
 feeds:
-  Feed A:
+  subscribed feed name:
     rss: http://something.com/rss.xml
     patterns:
       - serie.name
