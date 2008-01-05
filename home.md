@@ -26,7 +26,7 @@ extend even with minimal python experience (see [wiki:DevelopersGuide developers
 Easy configuration was top priority when designing application. However some basic knowledge 
 about regular expression is usually needed for effective usage. At least until [wiki:FilterSeries series] filter is implemented.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration files.
+!FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
 
 Short example:
 
