@@ -10,8 +10,8 @@ Example:
 
 {{{
 paths:
-  &series: ~/torrents/series
-  &movies: ~/torrents/movies
+  &series ~/torrents/series
+  &movies ~/torrents/movies
 
 feeds:
   feed A:
@@ -27,3 +27,5 @@ feeds:
       - pattern B: *series
       - pattern C
 }}}
+
+'''Note that there isn't colon character between definition and value!'''
