@@ -39,7 +39,7 @@ sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 }}}
 
 If you are running other distribution check it's package management. If it does not have these packages available you can still install 
-them by following instructions in library site in question.
+them by following instructions at library site in question.
 
 = Running =
 
