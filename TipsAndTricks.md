@@ -26,3 +26,24 @@ feeds:
       - pattern B: *series
       - pattern C
 }}}
+
+
+Variables can also be defined on their first occurrence and then reused as needed.
+
+{{{
+---
+feeds:
+  feed A:
+    download:  &movies ~/torrents/movies
+  feed B:
+    download: *movies
+  feed C:
+    download: &series ~/torrents/series
+  feed D:
+    download: *movies
+    patterns:
+      - pattern A
+      - pattern B: *series
+      - pattern C
+...
+}}}
