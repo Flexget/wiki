@@ -9,9 +9,8 @@ In case you have multiple download locations, or path is long, you may wish to u
 Example:
 
 {{{
-paths:
-  &series ~/torrents/series
-  &movies ~/torrents/movies
+series: &series ~/torrents/series
+movies: &movies ~/torrents/movies
 
 feeds:
   feed A:
@@ -27,5 +26,3 @@ feeds:
       - pattern B: *series
       - pattern C
 }}}
-
-'''Note that there isn't colon character between definition and value! '''
