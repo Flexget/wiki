@@ -28,4 +28,4 @@ feeds:
       - pattern C
 }}}
 
-'''Note that there isn't colon character between definition and value!'''
+'''Note that there isn't colon character between definition and value! '''
