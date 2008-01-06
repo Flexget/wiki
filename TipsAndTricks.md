@@ -49,7 +49,7 @@ feeds:
 
 == Extending feed configuration ==
 
-In case you have similar feed configurations you can use use one of them as template, or create non-used separate template.
+In case you have similar feed configurations you can use use one of them as template, or create non-used separate template outside feeds list.
 
 Example:
 
