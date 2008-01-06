@@ -27,7 +27,6 @@ feeds:
       - pattern C
 }}}
 
-
 Variables can also be defined on their first occurrence and then reused as needed.
 
 {{{
@@ -47,3 +46,25 @@ feeds:
       - pattern C
 ...
 }}}
+
+== Extending feed configuration ==
+
+In case you have similar feed configurations you can use use one of them as template, or create non-used separate template.
+
+Example:
+
+{{{
+feeds:
+  feed A: &template
+    patterns:
+      - pattern A
+      - pattern B
+    download: ~/path
+
+  feed B:
+    <<: *template
+    ignore:
+      - pattern C
+}}}
+
+In above example {{{feed B}}} also has everything configured in {{{feed A}}}. Later value is used in case of duplicate keywords.
