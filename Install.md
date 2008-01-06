@@ -5,7 +5,7 @@ If you're familiar with subversion I recommend getting checkout so you can updat
 == Checkout from SVN ==
 
 {{{
-svn co http://217.112.253.41/svn/flexget <path>
+svn co http://svn.flexget.com/ <path>
 }}}
 
 === Update from SVN ===
@@ -18,7 +18,7 @@ svn update
 
 == Download ==
 
-[http://217.112.253.41/flexget_dist/ temporarily here]
+[http://download.flexget.com here]
 
 == Depencies ==
 
