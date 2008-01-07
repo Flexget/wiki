@@ -5,7 +5,7 @@ If you're familiar with subversion I recommend getting checkout so you can updat
 == Checkout from SVN ==
 
 {{{
-svn co http://svn.flexget.com/ <path>
+svn co http://svn.flexget.com/trunk <path>
 }}}
 
 === Update from SVN ===
