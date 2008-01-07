@@ -10,7 +10,7 @@ svn co http://svn.flexget.com/trunk <path>
 
 === Update from SVN ===
 
-Enter path where checkout and run
+Enter path where you did checkout and run
 
 {{{
 svn update
