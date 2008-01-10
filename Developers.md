@@ -49,11 +49,11 @@ Feed is a class that represents one feed in configuration file.
  config::
   feed specific configuration (dict)
 
- session::
-  dictionary for storing persistent information, this is unique for each feed
+ cache::
+  Cache class for storing persistent information, this is unique for each feed
 
- global_session::
-  dictionary for storing persistent information, this is not feed specific
+ shared_cache::
+  Cache class for storing persistent information, this is not feed specific
 
  entries::
   list containing [wiki:Entry entries]
@@ -81,3 +81,11 @@ You shouldn't modify name or config as they are used by other modules.
   and[[BR]]
   ..<keyword>:[[BR]]
   ....url: <address>
+
+== Cache class ==
+
+  store(key, value, days=30)::
+    Stores key value pair for number of days. Value must be yaml compatible. Default number of days is 30.
+
+  get(key, default=None)::
+    Get stored value, passed default (or None) if not found.
