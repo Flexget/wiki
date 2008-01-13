@@ -5,6 +5,7 @@
 
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
+   * [wiki:Install#download Download]
  * [wiki:modules Modules]
    * [wiki:Entry entries]
  * [wiki:Configuration]
