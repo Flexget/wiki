@@ -18,8 +18,7 @@ sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], etc).
 
 Most common usage is downloading .torrent files from RSS-feeds. Extremely useful in conjunction with [http://libtorrent.rakshasa.no/ rTorrent].
 
-!FlexGet is completely modular and all features are actually plugins, it should be easy to 
-extend even with minimal python experience (see [wiki:DevelopersGuide developers guide]).
+!FlexGet is built as modular as possible, it should be easy to extend even with minimal python experience (see [wiki:DevelopersGuide developers guide]).
 
 == How easy is it to use? ==
 
@@ -28,11 +27,11 @@ about regular expression is usually needed for effective usage. At least until [
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
 
-Short example:
+Short example, complete configuration file for a single rss-feed:
 
 {{{
 feeds:
-  subscribed feed name:
+  feed name:
     rss: http://something.com/rss.xml
     patterns:
       - serie.name
