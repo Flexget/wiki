@@ -27,7 +27,7 @@ about regular expression is usually needed for effective usage. At least until [
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
 
-Short example, complete configuration file for a single rss-feed:
+'''Short example, complete configuration file for a single rss-feed:'''
 
 {{{
 feeds:
