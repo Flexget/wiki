@@ -2,7 +2,7 @@
 
 Making custom modules should be easy for anyone with some python experience.
 
-Each module must have at least one class with register method, using signature below:
+Each module must have at least one class with register method, with following signature:
 
 {{{
 def register(self, manager, parser):
