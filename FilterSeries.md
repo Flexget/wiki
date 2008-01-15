@@ -1,13 +1,44 @@
-= Series =
+= Series (not finished yet) =
 
-Filter that is serie and episode number aware.
+Intelligent filter for tv-series. This solves duplicate downloads problem that occurs when using patterns (regexp) matching since same episode is often released by multiple groups.
 
-Will be extremely easy to use:
+Example configuration:
 
 {{{
 series:
-  - name of the serie
+  - some serie
   - another serie
+}}}          
+
+If "some serie" and "another serie" have understandable episode
+numbering entry is downloaded only once.
+
+So if we get same episode twice:
+        
+Some.Serie.S2E10.More.Text
+Some.Serie.S2E10.Something.Else
+
+Only first file is downloaded.
+
+== Advanced usage ==
+
+In case of multiple different qualities, user may wish to specify minimum quality or timeframe in which best quality is waited.
+
+Example:
+
+{{{
+series:
+  - awesome serie:
+      best_in: 6 hours
 }}}
 
-Will make sure that no duplicate episodes are downloaded.
+This would download best quality that appears in 6 hours from first occurrence of episode.
+
+Example 2:
+
+{{{
+series:
+  - awesome serie:
+      min_quality: HR
+}}}
+
