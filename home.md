@@ -2,7 +2,7 @@
 
 == Status? ==
 
-!FlexGet is not yet in it's prime condition. Some features are incomplete and as a whole application is under constant changes. It should however work mostly fine, so feel free to test it out .. please drop a ticket if you encounter problems!
+!FlexGet is not yet in it's prime condition. Some features are incomplete and application is under constant changes and improvements. It should however work mostly, so feel free to test it out .. please drop a ticket if you encounter problems!
 
 == Quick access ==
 
