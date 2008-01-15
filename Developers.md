@@ -2,15 +2,14 @@
 
 Making custom modules should be easy for anyone with some python experience.
 
-Each module file must have one special variable set, called {{{__instance__}}}. This will tell what class is to be instantiated from module.
-Instantiated class must have method with following signature:
+Each module must have at least one class with register method, using signature below:
 
 {{{
-def register(self, manager):
+def register(self, manager, parser):
 }}}
 
-!FlexGet calls this method after instance has been created. From this method module may register itself roles in which it wishes to function.
-Currently available roles are start, input, filter, download, modify, output and exit. In practice this is only order where modules are executed.
+!FlexGet creates instance of this class and calls the register method. From this method module may register itself events in which it wishes to function.
+Currently available events are start, input, filter, download, modify, output and exit. In practice this is only order where modules are executed.
 
 To register module you must call {{{manager.register}}}, which accepts named arguments.
 
@@ -37,6 +36,11 @@ Now when keyword {{{ourtest}}} is found from feed configuration, callback method
 def execute(self, feed):
 }}}
 
+=== Adding commandline parameters ===
+
+In register you can also add more commandline parameters, parser parameter is Optik class that has simple method for adding parameters. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
+
+
 == Feed class ==
 
 Feed is a class that represents one feed in configuration file.
@@ -47,16 +51,19 @@ Feed is a class that represents one feed in configuration file.
   name of the feed
 
  config::
-  feed specific configuration (dict)
+  feed specific configuration (dict).
 
  cache::
-  Cache class for storing persistent information, this is unique for each feed
+  Cache class for storing persistent information, this is unique for each feed.
 
  shared_cache::
-  Cache class for storing persistent information, this is not feed specific
+  Cache class for storing persistent information, this is not feed specific.
 
  entries::
-  list containing [wiki:Entry entries]
+  list containing [wiki:Entry entries].
+
+ last::
+  True if this is last feed that !FlexGet will execute.
 
 You shouldn't modify name or config as they are used by other modules.
 
