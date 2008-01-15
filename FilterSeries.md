@@ -18,7 +18,7 @@ So if we get same episode twice:
  * Some.Serie.S2E10.More.Text
  * Some.Serie.S2E10.Something.Else
 
-Only first file is downloaded.
+Only first file is downloaded. TODO: or actually the one with better quality ...
 
 == Advanced usage ==
 
