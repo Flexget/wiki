@@ -68,3 +68,21 @@ feeds:
 }}}
 
 In above example {{{feed B}}} also has everything configured in {{{feed A}}}. Later value is used in case of duplicate keywords.
+
+== Making single must have list ==
+
+You can use global section and [wiki:FilterUnconditionally] to make a neat must-have list.
+
+{{{
+global:
+  unconditionally:
+    - must have this
+    - and that
+    - and even this
+feeds:
+  .
+  .
+  .
+}}}
+
+Now these matches are downloaded unconditionally regardless of the feed they occur in.
