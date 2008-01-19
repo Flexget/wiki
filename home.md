@@ -13,7 +13,7 @@
    * [wiki:Entry entries]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
-   * [wiki:TipsAndTricks Tips and Tricks]
+   * [wiki:TipsAndTricks Advanced Tips and Tricks]
 
 = Introduction =
 
