@@ -22,23 +22,14 @@ Only first file is downloaded. TODO: or actually the one with better quality ...
 
 == Advanced usage ==
 
-In case of multiple different qualities, user may wish to specify minimum quality or timeframe in which best quality is waited.
+In case of multiple different qualities, user may wish to specify timeframe after which best quality is downloaded. More configuration options coming in future ...
 
 Example:
 
 {{{
 series:
   - awesome serie:
-      best_in: 6 hours
+      best_in: 6
 }}}
 
 This would download best quality that appears in 6 hours from first occurrence of episode.
-
-Example 2:
-
-{{{
-series:
-  - awesome serie:
-      min_quality: HR
-}}}
-
