@@ -1,8 +1,12 @@
 = How to install !FlexGet =
 
-If you're familiar with subversion I recommend getting checkout so you can update application more easily.
+== Download ==
+
+[http://download.flexget.com Download packages from here]
 
 == Checkout from SVN ==
+
+If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
 
 {{{
 svn co http://svn.flexget.com/trunk <path>
@@ -16,9 +20,6 @@ Enter path where you did checkout and run
 svn update
 }}}
 
-== Download ==
-
-[http://download.flexget.com here]
 
 == Depencies ==
 
@@ -41,7 +42,7 @@ sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 }}}
 
 If you are running other distribution check it's package management. If it does not have these packages available you can still install 
-them by following instructions at library site in question.
+them manually by following instructions at library site in question.
 
 = Running =
 
