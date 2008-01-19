@@ -1,6 +1,6 @@
 = Tips And Tricks =
 
-Here you can find some YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well.
+Here you can find some advanced YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well.
 
 == Defining download paths as variables (yaml-references) ==
 
@@ -49,7 +49,7 @@ feeds:
 
 == Extending feed configuration ==
 
-In case you have similar feed configurations you can use use one of them as template, or create non-used separate template outside feeds list.
+In case you have similar feed configurations you can use use one of them as template, or create separate non-used template outside feeds list.
 
 Example:
 
