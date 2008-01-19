@@ -44,6 +44,12 @@ sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 If you are running other distribution check it's package management. If it does not have these packages available you can still install 
 them manually by following instructions at library site in question.
 
+= Upgrading =
+
+!FlexGet is currently under constant change so upgrading may cause problems, it has built in upgrading warning system but it doesn't count modules, as it is impossible to know if their internal format has been changes.
+
+Safest way to upgrade is to run your old version normally once, then update to new version and run application with --reset parameter. This will reset session and learn all current matches as already downloaded.
+
 = Running =
 
 Running !FlexGet is easy, it's designed to be ran from user crontab (daemon mode later perhaps).
