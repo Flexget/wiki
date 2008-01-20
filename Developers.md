@@ -69,7 +69,7 @@ You shouldn't modify name or config as they are used by other modules.
 
 === Available methods: ===
 
- accept(entry):
+ accept(entry)::
   Mark entry accepted, filtering this later do not affect status. Call this on entries module knows should be downloaded.
 
  filter(entry, [immediately])::
