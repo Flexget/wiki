@@ -69,17 +69,22 @@ You shouldn't modify name or config as they are used by other modules.
 
 === Available methods: ===
 
- filter(entry)::
-  mark entry to be filtered
+ accept(entry):
+  Mark entry accepted, filtering this later do not affect status. Call this on entries module knows should be downloaded.
+
+ filter(entry, [immediately])::
+  Mark entry to be filtered, other modules may still however accept entry.
+  If optional immediately is set to True this entry is removed from entries unconditionally asap. 
+  Use this flag on entries that module has determined that should not be downloaded never, ie. previously already downloaded.
 
  failed(entry)::
-  mark entry to be failed
+  Mark entry to be failed (download)
 
  get_failed_entries()::
-  return set containing all failed entries
+  Return set containing all failed entries.
 
  get_succeeded_entries()::
-  return set containing all succeeded entries
+  Return set containing all succeeded entries.
 
  get_input_url(keyword)::
   Helper method for modules. Return url for a specified keyword.
@@ -93,6 +98,9 @@ You shouldn't modify name or config as they are used by other modules.
 
   store(key, value, days=30)::
     Stores key value pair for number of days. Value must be yaml compatible. Default number of days is 30.
+
+  storedefault(key, value, default, days=30):
+    Similar to dictionary setdefault.
 
   get(key, default=None)::
     Get stored value, passed default (or None) if not found.
