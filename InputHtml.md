@@ -5,7 +5,7 @@ links of any type (mp3, jpg, torrent, ...).
 
 Many anime-fansubbers do not provide RSS-feed, this works well in many cases.
 
-= Example =
+== Example ==
 
 {{{
 html: <url>
@@ -14,7 +14,7 @@ html: <url>
 Note: This returns ALL links on url so you need to configure [wiki:FilterPatterns patterns] filter
 to match only to desired content.
 
-Example:
+== Example with patterns ==
 
 {{{
 html: <url>
