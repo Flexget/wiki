@@ -27,7 +27,7 @@ Most common usage is downloading .torrent files from RSS-feeds. Extremely useful
 == How easy is it to use? ==
 
 Easy configuration was top priority when designing application. However some basic knowledge 
-about regular expression is usually needed for effective usage. At least until [wiki:FilterSeries series] filter is implemented.
+about regular expression is usually needed for effective usage.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
 
