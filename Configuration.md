@@ -34,7 +34,7 @@ key 1:
 
 What's the difference? In last {{{key 1}}} has values {{{key 2}}} and {{{key 3}}}
 
-== File structure ==
+= File structure =
 
 Mandatory file structure has been kept minimal. Each configuration file must have structure of:
 
