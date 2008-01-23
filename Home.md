@@ -2,13 +2,13 @@
 
 == Status? ==
 
-'''!FlexGet is not yet in it's prime condition.''' Some features are incomplete and application is under constant changes and improvements. It should however work without too many troubles so try on, but don't expect it to work perfectly on all situations. Please drop a ticket if you encounter problems / weird behaviour! Or if you have good ideas. You can also help by improving this wiki.
+'''!FlexGet is not yet in it's prime condition.''' Some features are incomplete and application is under constant changes and improvements. It should however work without too many troubles so try on, but don't expect it to work perfectly on all situations. Please drop a ticket if you encounter problems / weird behaviour! Or if you have good ideas. You can also help by improving this poor wiki :).
 
 == Quick access ==
 
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
-   * [wiki:Install#Download Download]
+   * '''[wiki:Install#Download Download]'''
    * [wiki:Parameters]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
