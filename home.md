@@ -9,7 +9,7 @@
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
    * [wiki:Install#Download Download]
- * [wiki:modules Modules]
+ * [wiki:Modules Modules]
    * [wiki:Entry entries]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
