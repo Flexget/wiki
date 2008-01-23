@@ -46,13 +46,13 @@ them manually by following instructions at library site in question.
 
 = Upgrading =
 
-!FlexGet is currently under constant change so upgrading may cause problems, it has built in upgrading warning system but it doesn't count modules, as it is impossible to know if their internal format has been changes.
+!FlexGet is currently under constant change so upgrading may cause problems, it has built in upgrading warning system but it doesn't count modules, as it is impossible to know if their internal format has been changed.
 
-Safest way to upgrade is to run your old version normally once, then update to new version and run application with --reset parameter. This will reset session and learn all current matches as already downloaded.
+Safest way to upgrade is to run your old version normally once, then update to new version and run application with --reset parameter. This will reset session and learn all current matches as already downloaded items.
 
 = Running =
 
-Running !FlexGet is easy, it's designed to be ran from user crontab (daemon mode later perhaps).
+Running !FlexGet should be easy, it's designed to be executed from user crontab (daemon mode later perhaps).
 
 Install it into ~/flexget (or any path) and run:
 
@@ -63,9 +63,9 @@ crontab -e
 Enter one new line on crontab:
 
 {{{
-*/30 * * * * ~/flexget/flexget.py -c <configuration file> -q
+@hourly ~/flexget/flexget.py -q
 }}}
 
-This will run !FlexGet every 30 minutes. It is not recommended to run it more frequently since it will cause load on RSS-feeds it checks.
+This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to.
 
 You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
