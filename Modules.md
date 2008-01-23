@@ -16,7 +16,7 @@ Filter [wiki:Entry entries] based on configuration.
 
 === Download ===
 
-[wiki:FilterSeen Download]
+[wiki:Download Download]
 
 === Modify ===
 
