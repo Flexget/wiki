@@ -14,13 +14,11 @@ Filter [wiki:Entry entries] based on configuration.
 
 [wiki:FilterImdb Imdb], [wiki:FilterPatterns Patterns], [wiki:FilterSeries Series], [wiki:FilterUnconditionally Unconditionally], [wiki:FilterIgnore Ignore], [wiki:FilterSeen Seen]
 
-=== Download ===
+=== Outputs ===
 
 [wiki:OutputDownload Download]
 
-=== Modify ===
-
-Modify downloaded content.
+=== Modify / Other ===
 
 [wiki:ModifyRemoveTrackers Remove Trackers]
 
@@ -39,7 +37,7 @@ feeds:
   vegapunk:
     rss: http://bt.vegapunk.com/rss/rss.xml
     patterns:
-      - vegapunk.*one.piece.*\d\d\d.HD  
+      - \[vegapunk\].*one.piece.*\d\d\d.HD  
     download: ~/torrents
 }}}
 
