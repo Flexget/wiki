@@ -9,11 +9,11 @@
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
    * [wiki:Install#Download Download]
- * [wiki:Modules Modules]
-   * [wiki:Entry entries]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
+ * [wiki:Modules Modules]
+   * [wiki:Entry Entries]
 
 = Introduction =
 
@@ -44,4 +44,4 @@ feeds:
 
 This example would download all (new) .torrent files matching regular expression {{{serie.name}}} .
 
-For more information about how !FlexGet works, continue to [wiki:modules module documentation].
+For more information about how !FlexGet works, continue to [wiki:Configuration configuration].
