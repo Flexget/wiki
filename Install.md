@@ -73,3 +73,5 @@ You should [wiki:Configuration write configuration file] before installing !Flex
 == Manual execution ==
 
 !FlexGet can be tested by executing it manually. See [wiki:Parameters parameters].
+
+''TODO: Improve this section''
