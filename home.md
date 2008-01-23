@@ -9,6 +9,7 @@
  * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
    * [wiki:Install#Download Download]
+   * [wiki:Parameters]
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
