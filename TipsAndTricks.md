@@ -86,3 +86,7 @@ feeds:
 }}}
 
 Now these matches are downloaded unconditionally regardless of the feed they occur in.
+
+== Disable feeds without commenting them out ==
+
+You can disable feeds temporarily by prefixing names with _ character. This is much easier than commenting out all lines.
