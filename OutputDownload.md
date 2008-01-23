@@ -1,3 +1,5 @@
+= Download =
+
 Downloads content from entry url and writes it into a file.
 Simple example:
 
