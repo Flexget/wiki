@@ -55,7 +55,7 @@ feeds:
     rss: <url of rss>
 }}}
 
-And if you don't want to get everything, you'll need to filter out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. If you're looking for specific podcast, you'll need [wiki:FilterPatterns patterns] module.
+And if you don't want to get everything, you'll need to filter out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module.
 
 {{{
 feeds:
