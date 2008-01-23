@@ -69,3 +69,7 @@ Enter one new line on crontab:
 This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to.
 
 You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
+
+== Manual execution ==
+
+!FlexGet can be tested by executing it manually. See [wiki:Parameters parameters].
