@@ -44,4 +44,4 @@ feeds:
 
 This example would download all (new) .torrent files matching regular expression {{{serie.name}}} .
 
-For more information about how !FlexGet works, continue to [wiki:Configuration configuration].
+For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or straight into [wiki:Modules modules] if above configuration example seems clear to you.
