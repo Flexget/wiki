@@ -75,3 +75,5 @@ feeds:
       - my.interesting.show
     download: /home/myself/podcasts/
 }}}
+
+Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file.
