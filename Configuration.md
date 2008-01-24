@@ -1,8 +1,8 @@
 = Configuration =
 
-In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet checks is {{{default.yml}}} but you can have multiple files and different name. Specify configuration file via -c parameter if you're using anything else than {{{default.yml}}}.
+In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet tries to find is {{{default.yml}}}. If you use multiple files or different name you must specify configuration file via -c parameter.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] in configuration file. Quick tutorial about Yaml.
+!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. Quick tutorial about Yaml. ''(TODO: not very user friendly)''
 
 === Key : Value ===
 
@@ -32,7 +32,7 @@ key 1:
   key 3: value 3
 }}}
 
-What's the difference? In last {{{key 1}}} has values {{{key 2}}} and {{{key 3}}}
+So what's the difference? In last {{{key 1}}} has values {{{key 2}}} and {{{key 3}}}. In first it has just {{{value1}}}.
 
 = File structure =
 
