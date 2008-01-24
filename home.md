@@ -28,8 +28,8 @@ Most common usage is downloading .torrent files from RSS-feeds. Extremely useful
 = Features =
 
  * Download from [wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], [wiki:InputRlsLog RlsLog]
- * Download by [wiki:FilterPatterns regular expression] match
- * Download [wiki:FilterSeries tv-series]
+ * Use [wiki:FilterPatterns regular expression] to match desired content
+ * [wiki:FilterSeries TV-series]
    * Episode number aware, does not download same episode twice
    * Quality aware
    * Get episode at best quality in specified time frame
