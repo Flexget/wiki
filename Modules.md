@@ -1,6 +1,6 @@
 = Modules =
 
-Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has integrated documentation features. Run program with {{{--list}}} to list all available modules. By using parameter {{{--doc <module>}}} you can display documentation and configuration examples (more or less identical to the ones in this wiki).
+Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. Display manual and examples by using parameter {{{--doc <module>}}} (similar to this wiki).
 
 === Inputs ===
 
@@ -10,7 +10,7 @@ Produce [wiki:Entry entries] from external source.
 
 === Filters ===
 
-Filter [wiki:Entry entries] based on configuration.
+Filter and accept feeds [wiki:Entry entries] based on configuration.
 
 [wiki:FilterImdb Imdb], [wiki:FilterPatterns Patterns], [wiki:FilterSeries Series], [wiki:FilterUnconditionally Unconditionally], [wiki:FilterIgnore Ignore], [wiki:FilterSeen Seen]
 
@@ -42,7 +42,7 @@ feeds:
 }}}
 
 Here we have a simple configuration file with two feeds called {{{tvrss combined}}}
-and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that accepts url as a parameter.
+and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expects url as a parameter.
 This converts RSS into [wiki:entry entries] for our feed. 
 
 Next we have filter module [wiki:FilterPatterns patterns]
@@ -52,7 +52,7 @@ Last we have download module that simply downloads all remaining [wiki:Entry ent
 
 == Builtin modules ==
 
-Some modules are enabled by default even if they are not mentioned in configuration file. This is because they're
+Some modules are enabled by default even when they are not mentioned in configuration file. This is because they're
 needed in almost all situations ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
 properly and do not intervene in other cases ([wiki:ModifyTorrent torrent]).
 
