@@ -18,12 +18,22 @@
 
 = Introduction =
 
-!FlexGet is a software that automates downloading content (.torrent, .mp3, etc.) from various 
+!FlexGet is a software that automates downloading content (torrent, mp3, etc.) from various 
 sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV] and [wiki:Modules#Inputs more]). 
 
 Most common usage is downloading .torrent files from RSS-feeds. Extremely useful in conjunction with [http://libtorrent.rakshasa.no/ rTorrent].
 
 !FlexGet is built as modular as possible, it should be easy to extend even with minimal python experience (see [wiki:DevelopersGuide developers guide]).
+
+= Features =
+
+ * Download from [wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV], [wiki:InputRlsLog RlsLog]
+ * Download by [wiki:FilterPatterns regular expression] match
+ * Download [wiki:FilterSeries tv-series]
+   * Episode number aware, does not download same episode twice
+   * Quality aware
+   * Get episode at best quality in specified time frame
+ * Choose movies based on [wiki:FilterImdb imdb] ratings and details
 
 == How easy is it to use? ==
 
