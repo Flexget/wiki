@@ -1,11 +1,7 @@
 = Filter IMDB =
 
 This module allows filtering based on IMDB score, votes and genres etc.
-
-Results are cached so modifying configuration does not have an effect
-on already filtered entries. This is done to reduce traffic to
-IMDB now only once per movie. You can disable this TEMPORARILY by using
---no-cache argument. This will potentially affect other modules as well.
+Results are cached so doesn't cause unnecessary load to [http://www.imdb.com imdb].
 
 Configuration:
 
