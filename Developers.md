@@ -2,15 +2,15 @@
 
 Making custom modules should be easy for anyone with some python experience.
 
-If you have good re-usable module under construction I'd be more than happy to include it in official distribution. Contact me for subversion access, see [wiki:Contact contact information].
+If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
 
-Each module must have at least one class with register method, with following signature:
+Each module must have at least one class with register method with following signature:
 
 {{{
 def register(self, manager, parser):
 }}}
 
-!FlexGet creates instance of this class and calls the register method. From this method module may register itself events in which it wishes to function and add new commandline parameters. Currently available events are start, input, filter, download, modify, output and exit. In practice this is only order where modules are executed.
+!FlexGet creates instance of this class and calls the register method. From this method module may register itself events in which it wishes to function and add new commandline parameters. Currently available events are start, input, filter, download, modify, output and exit.
 
 To register module you must call {{{manager.register}}}, which accepts named arguments.
 
@@ -40,7 +40,6 @@ def execute(self, feed):
 === Adding commandline parameters ===
 
 In register you can also add more commandline parameters, parser parameter is Optik class that has simple method for adding parameters. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
-
 
 == Feed class ==
 
