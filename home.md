@@ -27,12 +27,12 @@ Most common usage is downloading torrent-files from RSS-feeds. Extremely useful 
 
  * Download from [wiki:InputRSS RSS], any [wiki:InputHtml html] page, [wiki:InputCSV CSV] or [wiki:InputRlsLog RlsLog]
  * Use [wiki:FilterPatterns regular expression] to match desired content
- * [wiki:FilterSeries TV-series]
+ * Download [wiki:FilterSeries TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
    * Get best quality in specified time frame
  * Choose movies based on [wiki:FilterImdb imdb] ratings and details
- * Modular structure, extend functionality using and writing plugins (see. [wiki:DevelopersGuide developer guide])
+ * Completely modular, extend functionality by using and writing plugins (see. [wiki:DevelopersGuide developer guide])
 
 == How easy is it to use? ==
 
