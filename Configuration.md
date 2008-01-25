@@ -4,10 +4,10 @@ In order to execute !FlexGet you will need to write configuration file. The defa
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. Quick tutorial about Yaml. ''(TODO: not very user friendly)''
 
-=== Key : Value ===
+=== Option : Value ===
 
 {{{
-key: value
+option: value
 }}}
 
 === Lists ===
@@ -21,18 +21,18 @@ key: value
 === Indentation counts ===
 
 {{{
-key 1: value 1
-key 2: value 2
-key 3: value 3
+option 1: value 1
+option 2: value 2
+option 3: value 3
 }}}
 
 {{{
-key 1:
-  key 2: value 2
-  key 3: value 3
+option 1:
+  option 2: value 2
+  option 3: value 3
 }}}
 
-So what's the difference? In last {{{key 1}}} has values {{{key 2}}} and {{{key 3}}}. In first it has just {{{value1}}}.
+So what's the difference? In last {{{option 2}}} and {{{option 3}}} belongs to {{{option 1}}}.
 
 = File structure =
 
