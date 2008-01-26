@@ -1,9 +1,5 @@
 = Welcome to !FlexGet Trac =
 
-== Status? ==
-
-'''!FlexGet is not yet in it's prime condition.''' Some features are incomplete. However I haven't encountered a crash in a while. Please drop a ticket if you encounter problems / weird behaviour! Or if you have good ideas. You can also help by improving this poor wiki :).
-
 == Quick access ==
 
  * [wiki:WikiStart Introduction]
@@ -32,7 +28,7 @@ Most common usage is downloading torrent-files from RSS-feeds. Extremely useful 
    * Quality aware
    * Get best quality in specified time frame
  * Choose movies based on [wiki:FilterImdb imdb] ratings and details
- * Completely modular, extend functionality by using and writing plugins (see. [wiki:DevelopersGuide developer guide])
+ * Completely modular, all features are actually plugins (see. [wiki:DevelopersGuide developer guide])
 
 == How easy is it to use? ==
 
