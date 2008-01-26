@@ -21,7 +21,7 @@ Mandatory arguments:
     instance    - instance of module (self)
     keyword     - maps directly into config
     callback    - method that is called when module is executed
-    type        - specifies when module is executed and implies what it does
+    event       - specifies when module is executed and implies what it does
 Optional arguments:
     order       - when multiple modules are enabled this is used to
                   determine execution order. Default 16384.
@@ -30,7 +30,7 @@ Optional arguments:
 
 Example:
 {{{
-  manager.register(instance=self, keyword='ourtest', callback=self.execute, type='filter')
+  manager.register(instance=self, keyword='ourtest', callback=self.execute, event='filter')
 }}}
 
 Now when keyword {{{ourtest}}} is found from feed configuration, callback method is executed. The callback method must have following signature:
