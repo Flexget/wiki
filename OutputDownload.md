@@ -1,16 +1,19 @@
 = Download =
 
 Downloads content from entry url and writes it into a file.
-Simple example:
 
+'''Example:'''
+
+{{{
 download: ~/torrents/
+}}}
 
-Advanced users:
+== Advanced users ==
 
 Some modules may set alternative download path for entry.
 Prime example is module patterns that can be used to override path.
 
-Configuration example:
+Example with alternative paths:
 
 {{{
 pattenrs:
