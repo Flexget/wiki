@@ -2,37 +2,7 @@
 
 In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet tries to find is {{{default.yml}}}. If you use multiple files or different name you must specify configuration file via -c parameter.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. Quick tutorial about Yaml. ''(TODO: not very user friendly)''
-
-=== Option : Value ===
-
-{{{
-option: value
-}}}
-
-=== Lists ===
-
-{{{
-- value 1
-- value 2
-- value 3
-}}}
-
-=== Indentation counts ===
-
-{{{
-option 1: value 1
-option 2: value 2
-option 3: value 3
-}}}
-
-{{{
-option 1:
-  option 2: value 2
-  option 3: value 3
-}}}
-
-So what's the difference? In last {{{option 2}}} and {{{option 3}}} belongs to {{{option 1}}}.
+!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find [wiki:YamlTutorial here] minimal Yaml tutorial.
 
 = File structure =
 
