@@ -6,7 +6,7 @@ Making custom modules should be easy for anyone with some python experience.
 
 If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
 
-Each module must have at least one class with register method with following signature:
+Each module must have at least one '''unique''' class with register method with following signature:
 
 {{{
 def register(self, manager, parser):
