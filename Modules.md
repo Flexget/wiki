@@ -6,21 +6,21 @@ Modules are !FlexGet essence. They provide all functionality by creating, manipu
 
 Produce [wiki:Entry entries] from external source.
 
-[wiki:InputRSS RSS], [wiki:InputHtml Html], [wiki:InputCSV CSV], [wiki:InputRlsLog RlsLog]
+[wiki:InputRSS rss], [wiki:InputHtml html], [wiki:InputCSV csv], [wiki:InputRlsLog rlslog]
 
 === Filters ===
 
 Filter and accept feeds [wiki:Entry entries] based on configuration.
 
-[wiki:FilterImdb Imdb], [wiki:FilterPatterns Patterns], [wiki:FilterSeries Series], [wiki:FilterUnconditionally Unconditionally], [wiki:FilterIgnore Ignore], [wiki:FilterSeen Seen]
+[wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterSeen seen]
 
 === Outputs ===
 
-[wiki:OutputDownload Download]
+[wiki:OutputDownload download]
 
 === Modify / Other ===
 
-[wiki:ModifyRemoveTrackers Remove Trackers]
+[wiki:ModifyRemoveTrackers remove_trackers]
 
 == So how does it all work? ==
 
