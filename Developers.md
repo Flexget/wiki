@@ -101,7 +101,7 @@ You shouldn't modify name or config as they are used by other modules.
   store(key, value, days=30)::
     Stores key value pair for number of days. Value must be yaml compatible. Default number of days is 30.
 
-  storedefault(key, value, default, days=30):
+  storedefault(key, value, default, days=30)::
     Similar to dictionary setdefault.
 
   get(key, default=None)::
