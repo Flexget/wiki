@@ -42,7 +42,7 @@ sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 }}}
 
 If you are running other distribution check it's package management. If it does not have these packages available you can still install 
-them manually by following instructions at library site in question.
+them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall "Easy Install"] Python installation modul. [http://pyyaml.org/ PyYAML], [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] and [http://www.feedparser.org/ feedparser] are available, Flexget is not (yet).
 
 = Upgrading =
 
