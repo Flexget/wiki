@@ -59,5 +59,5 @@ properly and do not intervene in other cases ([wiki:ModifyTorrent torrent]).
 === How to disable builtins ===
 
 {{{
-disable_builtins: True
+disable_builtins: true
 }}}
