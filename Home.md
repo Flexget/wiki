@@ -14,10 +14,10 @@
 
 = Introduction =
 
-!FlexGet is a software that automates downloading content (torrent, mp3, etc.) from various 
+!FlexGet is a piece of software that automates downloading content (torrent, mp3, etc.) from various 
 sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV] and [wiki:Modules#Inputs more]). 
 
-Most common usage is downloading torrent-files from RSS-feeds. Extremely useful in conjunction with [http://libtorrent.rakshasa.no/ rTorrent].
+Its most common application is downloading torrent-files from RSS-feeds. It is extremely useful in conjunction with [http://libtorrent.rakshasa.no/ rTorrent].
 
 = Features =
 
@@ -32,7 +32,7 @@ Most common usage is downloading torrent-files from RSS-feeds. Extremely useful 
 
 == How easy is it to use? ==
 
-Easy configuration was top priority when designing application. However some basic knowledge 
+Easy configuration was a top priority when designing the application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
@@ -44,10 +44,10 @@ feeds:
   feed name:
     rss: http://something.com/rss.xml
     series:
-      - serie name
+      - series name
     download: ~/series
 }}}
 
-This example would download all episodes of {{{serie name}}}.
+This example would download all episodes of {{{series name}}}.
 
 For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or straight into [wiki:Modules modules] if above configuration example seems clear to you.
