@@ -6,7 +6,7 @@ It contains all the information necessary for modules to perform their job.
 For example [wiki:FilterPatterns patterns] module checks if given regular
 expression matches entry title or url and if not item is filtered.
 
-See [wiki:modules] for more information how entries are used.
+See [wiki:Modules] for more information how entries are used.
 
 == Information for developers ==
 
