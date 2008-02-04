@@ -4,6 +4,8 @@
 
 [http://download.flexget.com Download packages from here]
 
+Please check also [wiki:Install#Depencies depencies] section below.
+
 == Checkout from SVN ==
 
 If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
