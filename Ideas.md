@@ -2,7 +2,7 @@
 
 Collection of ideas, probably never going to see daylight ..
 
-{{
+{{{
 foobar:
 
   patterns:
@@ -15,9 +15,9 @@ foobar:
   chain:
     - patterns
     - series
-}}
+}}}
 
-{{
+{{{
 foobar:
 
   patterns:
@@ -29,4 +29,4 @@ foobar:
 
   condition: patterns AND series
   
-}}
+}}}
