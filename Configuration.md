@@ -17,7 +17,7 @@ feeds:
 
 == Feed configuration ==
 
-Well that really depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module.
+Depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module.
 
 {{{
 feeds:
@@ -45,5 +45,7 @@ feeds:
       - my.interesting.show
     download: /home/myself/podcasts/
 }}}
+
+There you have fully working configuration file, that wasn't so hard was it? :)
 
 Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file.
