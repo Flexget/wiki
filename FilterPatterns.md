@@ -18,7 +18,7 @@ filtered even when primary regexp matches entry.
 Examples:
 
 {{{
-pattenrs:
+patterns:
   # simplest way to specify custom path
   - regexp1: ~/custom_path/
 
@@ -38,7 +38,7 @@ pattenrs:
         - regexp6
 
   # Tip: In yaml you can write dictionaries and lists in inline form.
-  # Above examples can be written also as:
+  # Above examples can be also written as:
   - regexp2: {path: ~/custom_path/, not: regexp3}
   - regexp4: {not: [regexp5, regexp6]}
 }}}
