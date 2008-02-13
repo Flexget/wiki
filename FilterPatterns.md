@@ -6,8 +6,10 @@ Configuration example:
 {{{
 patterns:
   - regular expression
-  - another reqular expression
+  - another regular expression
 }}}
+
+'''Note:''' Regular expression is tested from entry title and url.
 
 == Advanced users: ==
 
