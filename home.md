@@ -27,7 +27,7 @@ Its most common application is downloading torrent-files from RSS-feeds. It is e
    * Episode number aware, doesn't download same episode twice
    * Quality aware
    * Get best quality in specified time frame
- * Choose movies based on [wiki:FilterImdb imdb] ratings and details
+ * Choose movies based on [wiki:FilterImdb imdb] ratings and other details
  * Completely modular, all features are actually plugins (see. [wiki:DevelopersGuide developer guide])
 
 == How easy is it to use? ==
