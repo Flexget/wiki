@@ -23,8 +23,8 @@ Mandatory arguments:
     callback    - method that is called when module is executed
     event       - specifies when module is executed and implies what it does
 Optional arguments:
-    order       - when multiple modules are enabled this is used to
-                  determine execution order. Default 16384.
+    order       - when multiple modules of same event type are enabled for feed
+                  this is used to determine execution order. Default 16384.
     builtin     - set to True if module should be executed always
 }}}
 
