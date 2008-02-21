@@ -19,4 +19,5 @@ options:
   -c CONFIG             Specify configuration file. Default is config.yml
   -q                    Disables stdout and stderr output. Logging is done
                         only to file.
+  -d                    Display detailed process information.
 }}}
