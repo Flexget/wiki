@@ -62,7 +62,7 @@ Feed is a class that represents one feed in configuration file.
   Cache class for storing persistent information, this is not feed specific.
 
  entries::
-  list containing [wiki:Entry entries].
+  list containing [wiki:DevelopersEntry entries].
 
  last::
   True if this is last feed that !FlexGet will execute.
