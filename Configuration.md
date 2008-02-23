@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet tries to find is {{{default.yml}}}. If you use multiple files or different name you must specify configuration file via -c parameter.
+In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet tries to find is {{{default.yml}}}. In case if you decide to use other filename or wish to have multiple different configuration files you must specify configuration file via -c parameter.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find [wiki:YamlTutorial here] minimal Yaml tutorial.
 
@@ -12,10 +12,11 @@ Mandatory file structure has been kept minimal. Each configuration file must hav
 feeds:
   <feed name>:
     <feed configuration here>
+    .
+    .
 }}}
 
-
-== Feed configuration ==
+== Example feed configuration ==
 
 Depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module.
 
