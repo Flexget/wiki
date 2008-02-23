@@ -2,7 +2,7 @@
 
 In order to execute !FlexGet you will need to write configuration file. The default name which !FlexGet tries to find is {{{default.yml}}}. In case if you decide to use other filename or wish to have multiple different configuration files you must specify configuration file via -c parameter.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find [wiki:YamlTutorial here] minimal Yaml tutorial.
+!FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find minimal Yaml tutorial [wiki:YamlTutorial here].
 
 = File structure =
 
