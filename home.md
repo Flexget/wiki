@@ -37,8 +37,7 @@ about regular expression is usually needed for effective usage.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
 
-'''Short example.''' Note that this is complete, fully functional configuration file!
-
+'''Short example.''' Note that this is complete, fully functional configuration file! You don't need more complex setup than this to get started.
 {{{
 feeds:
   feed name:
@@ -48,6 +47,6 @@ feeds:
     download: ~/series
 }}}
 
-This example would download all episodes of {{{series name}}}.
+This example would download all episodes of {{{series name}}} to {{{~/series}}}.
 
 For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or straight into [wiki:Modules modules] if above configuration example seems clear to you.
