@@ -10,7 +10,7 @@ Produce [wiki:Entry entries] from external source.
 
 === Filters ===
 
-Reject or accept feeds [wiki:Entry entries] based on filter configuration. Single feed may have any number of filters chained.
+Filter, Reject or Accept feeds [wiki:Entry entries] based on filter configuration. Single feed may have any number of filters chained.
 
 [wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterSeen seen]
 
@@ -46,7 +46,7 @@ and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expec
 This converts RSS into [wiki:entry entries] for our feed. 
 
 Next we have filter module [wiki:FilterPatterns patterns]
-that expects list of regular expressions. If [wiki:entry] does not match any of the regexps it will be filtered.
+that expects list of regular expressions. If [wiki:entry] does not match any of the regexps it will be filtered otherwise it will be accepted.
 
 Last we have download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
 
