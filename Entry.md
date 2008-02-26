@@ -7,7 +7,7 @@ For example [wiki:FilterPatterns patterns] module checks if given regular expres
 
 '''Example of an entry'''
 ||title||Some.Awesome.Serie.S01E01.XviD-Foo||
-||url||!http://site.com//awesome_serie.torrent||
+||url||!http://site.com/download/Some.Awesome.Serie.S01E01.XviD-Foo.torrent||
 
 === References ===
 
