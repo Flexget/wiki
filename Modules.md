@@ -10,7 +10,7 @@ Produce [wiki:Entry entries] from external source.
 
 === Filters ===
 
-Filter, Reject or Accept feeds [wiki:Entry entries] based on filter configuration. Single feed may have any number of filters chained.
+Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters chained.
 
 [wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterSeen seen]
 
@@ -37,7 +37,7 @@ feeds:
   vegapunk:
     rss: http://bt.vegapunk.com/rss/rss.xml
     patterns:
-      - \[vegapunk\].*one.piece.*\d\d\d.HD  
+      - ^\[vegapunk\].*one.piece.*\d\d\d.HD  
     download: ~/torrents
 }}}
 
