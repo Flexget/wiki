@@ -6,10 +6,10 @@ This approach allows to automate RSS-feeds (or any input) that would be normally
 
 Currently supported sites:
 
- * NewTorrents
- * PirateBay
- * IsoHunt
- * BtJunkie
- * BtChat
- * Mininova
- * TorrentSpy
+ * !NewTorrents
+ * !PirateBay
+ * !IsoHunt
+ * !BtJunkie
+ * !BtChat
+ * !Mininova
+ * !TorrentSpy
