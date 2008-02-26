@@ -11,6 +11,7 @@
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
  * [wiki:Modules Modules]
    * [wiki:Entry Entries]
+   * [wiki:Resolvers Resolvers]
 
 = Introduction =
 
