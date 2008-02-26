@@ -11,5 +11,5 @@ Currently supported sites:
  * !IsoHunt
  * !BtJunkie
  * !BtChat
- * !Mininova
+ * Mininova
  * !TorrentSpy
