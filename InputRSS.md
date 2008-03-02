@@ -17,7 +17,7 @@ rss:
   password: <password>
 }}}
 
-Configuration with saved cookies:
+Configuration with saved cookies: '''UNTESTED AT THE MOMENT'''
 
 {{{
 rss:
