@@ -16,15 +16,3 @@ rss:
   username: <name>
   password: <password>
 }}}
-
-Configuration with saved cookies: '''UNTESTED AT THE MOMENT'''
-
-{{{
-rss:
-  url: <url>
-  cookie:
-    type: mozilla
-    file: /path/to/cookie
-}}}
-
-Possible cookie types are: mozilla, msie, lpw
