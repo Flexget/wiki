@@ -2,13 +2,13 @@
 
 Parses RSS feed.
 
-Short configuration:
+Simple configuration:
 
 {{{
 rss: <url>
 }}}
 
-Configuration with authentication parameters:
+Configuration with basic http authentication:
 
 {{{
 rss:
@@ -16,3 +16,15 @@ rss:
   username: <name>
   password: <password>
 }}}
+
+Configuration with saved cookies:
+
+{{{
+rss:
+  url: <url>
+  cookie:
+    type: mozilla
+    file: /path/to/cookie
+}}}
+
+Possible cookie types are: mozilla, msie, lpw
