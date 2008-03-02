@@ -20,7 +20,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === Outputs ===
 
-[wiki:OutputDownload download]
+[wiki:OutputDownload download], [wiki:ModuleCookies cookies]
 
 === Modify / Other ===
 
