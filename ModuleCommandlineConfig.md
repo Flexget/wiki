@@ -2,7 +2,11 @@
 
 '''NOT IMPLEMENTED. See #20'''
 
-Module that allows passing configuration values from commandline parameter.
+== Description ==
+
+Module that allows passing configuration file values from commandline parameter.
+
+=== Configuration ===
 
 Keywords in configuration file:
 
@@ -13,14 +17,14 @@ feeds:
     download: @path
 }}}
 
-Commandline:
+=== Commandline ===
 
 {{{
   --options "url=http://something, path=~/download"
 }}}
 
 
-Implementation idea:
+=== How-to implement ===
 
  * builtin module, so that does not require setting it in for each feed.
  * register new commandline parameter, --options
