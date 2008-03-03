@@ -26,6 +26,10 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 [wiki:ModifyRemoveTrackers remove_trackers]
 
+=== TODO ===
+
+[wiki:ModuleCommandLineConfig commandline config], [wiki:FilterExists exists]
+
 == So how does it all work? ==
 
 Let's look real world configuration file.
