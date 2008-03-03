@@ -28,7 +28,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === TODO ===
 
-[wiki:ModuleCommandLineConfig commandline config], [wiki:FilterExists exists]
+[wiki:ModuleCommandlineConfig commandline config], [wiki:FilterExists exists]
 
 == So how does it all work? ==
 
