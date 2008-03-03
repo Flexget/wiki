@@ -1,6 +1,7 @@
 = Patterns =
 
-Filter out [wiki:entry entries] based on regular expression matches.
+[wiki:entry Entries] matching any of the given regular expression are accepted. Non-matching entries are filtered.
+
 Configuration example:
 
 {{{
