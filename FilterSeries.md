@@ -1,71 +1,54 @@
-= Series (not finished yet) =
+= Series =
 
-Intelligent filter for tv-series. This solves duplicate downloads problem that occurs when using patterns (regexp) matching since same episode is often released by multiple groups.
+Intelligent filter for tv-series. This solves duplicate downloads
+problem that occurs when using patterns (regexp) matching since same
+episode is often released by multiple groups.
 
-Example configuration:
+'''Example configuration:'''
 
 {{{
 series:
-  - some series
-  - another series
-}}}          
+  - some serie
+  - another serie
+}}}
 
-If "some series" and "another series" have understandable episode
-numbering entry is downloaded only once.
+If "some serie" and "another serie" have understandable episode
+numbering any given episode is downloaded only once.
 
 So if we get same episode twice:
-        
- * Some.Series.S2E10.More.Text
- * Some.Series.S2E10.Something.Else
 
-Only first file is downloaded. TODO: or actually the one with better quality ...
+Some.Serie.S2E10.More.Text
+Some.Serie.S2E10.Something.Else
 
-== Advanced usage ==
+Only first file is downloaded.
 
-In case of multiple different qualities, user may wish to specify timeframe after which best quality is downloaded. More configuration options coming in future ...
+If two different qualities come available at the same moment,
+flexget will always download the better one. (more options coming ..)
 
-Example:
+== Timeframe ==
 
-{{{
-series:
-  - awesome series:
-      best_in: 6
-}}}
+Series filter allows you to specify a timeframe for each serie in which
+flexget waits better quality.
 
-This would download best quality that appears in 6 hours from first occurrence of episode.
-
-
-
-== Ideas to be implemented ==
-
-Accept immediately instead of waiting if quality is expected
+'''Example configuration:'''
 
 {{{
 series:
-  - awesome series:
-      best_in:
-        hours: 6
-        immediately_if: 
-         - hdtv
-         - 720p
-  - another series
+  - some serie:
+      timeframe:
+        hours: 4
+        enough: 720p
+  - another serie
+  - third serie
 }}}
 
-Accept only listed qualities
+In this example when a epsisode of 'some serie' appears, flexget will wait
+for 4 hours incase and then proceeds to download best quality available.
 
-{{{
-series:
-  - awesome series:
-      quality:
-        - hdtv
-        - 720p
-  - another series
-}}}
+The enough parameter will tell the quality that you find good enough to start
+downloading without waiting whole timeframe. If qualities meeting enough parameter
+and above are available, flexget will prefer the enough. Ie. if enough value is set
+to 'hdtv' and qualities dsk, hdtv and 720p are available, hdtv will be chosen.
+If we take hdtv off from list, 720p would be downloaded.
 
-Do not download older episodes than ..
-
-{{{
-series:
-  - awesome series:
-      - min_ep: S05E12
-}}}
+Enough has default value of 720p.
