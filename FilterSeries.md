@@ -17,7 +17,7 @@ numbering any given episode is downloaded only once.
 
 So if we get same episode twice:
 
-Some.Serie.S2E10.More.Text
+Some.Serie.S2E10.More.Text[[BR]]
 Some.Serie.S2E10.Something.Else
 
 Only first file is downloaded.
