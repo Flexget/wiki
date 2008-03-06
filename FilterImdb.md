@@ -1,7 +1,7 @@
 = Filter IMDB =
 
 This module allows filtering based on IMDB score, votes and genres etc.
-Results are cached so doesn't cause unnecessary load to [http://www.imdb.com imdb].
+Results are cached so this doesn't cause unnecessary load to [http://www.imdb.com imdb].
 
 '''Important note:''' [wiki:Entry] must have imdb url present in order to [wiki:FilterImdb] to function properly. Currently only [wiki:InputRlsLog RlsLog] module provides this. In future [wiki:FilterImdb] will be able to use imdb search function to try to overcome missing imdb urls since they're rarely available.
 
