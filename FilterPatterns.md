@@ -1,6 +1,6 @@
 = Patterns =
 
-[wiki:entry Entries] matching any of the given regular expression are accepted. Non-matching entries are filtered.
+[wiki:Entry Entries] matching any of the given regular expression are accepted. Non-matching entries are filtered.
 
 Configuration example:
 
@@ -10,7 +10,7 @@ patterns:
   - another regular expression
 }}}
 
-'''Notes:''' Regular expression is tested from entry title '''and''' url. Regular expression is case-insensitive.
+'''Notes:''' Regular expression is tested from [wiki:Entry] title '''and''' url. Regular expression is case-insensitive.
 
 == Advanced users: ==
 
