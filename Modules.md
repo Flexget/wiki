@@ -2,9 +2,11 @@
 
 Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. You can display manual and examples by using parameter {{{--doc <module>}}} (similar to this wiki).
 
-== Note ==
+== Notes ==
 
 All module documentation examples are on module level, meaning that they need to be under a feed in configuration. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
+
+If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand what effect each module has in chain.
 
 === Inputs ===
 
