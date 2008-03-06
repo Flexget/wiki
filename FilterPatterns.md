@@ -10,7 +10,7 @@ patterns:
   - another regular expression
 }}}
 
-'''Note:''' Regular expression is tested from entry title and url.
+'''Notes:''' Regular expression is tested from entry title '''and''' url. Regular expression is case-insensitive.
 
 == Advanced users: ==
 
