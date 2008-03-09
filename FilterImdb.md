@@ -3,7 +3,7 @@
 This module allows filtering based on IMDB score, votes and genres etc.
 Results are cached so this doesn't cause unnecessary load to [http://www.imdb.com imdb].
 
-'''Important note:''' [wiki:Entry] must have imdb url present in order to [wiki:FilterImdb] to function properly. Currently only [wiki:InputRlsLog RlsLog] module provides this. In future [wiki:FilterImdb] will be able to use imdb search function to try to overcome missing imdb urls since they're rarely available.
+'''Important note:''' If [wiki:Entry] does not have direct imdb url present !FilterImdb will try to use imdb's search function. This does not work on 100% of cases, and in some rare cases it may even get wrong movie details. This module works best when input module provides accurate urls for entries, currently only [wiki:InputRlsLog RlsLog] does that.
 
 === Configuration: ===
 
@@ -29,5 +29,5 @@ accept_languages:
 
 # reject all [wiki:entry entries] which are not imdb-compatible
 # this has default value (True) even when key not present
-reject_invalid: True / False
+filter_invalid: True / False
 }}}
