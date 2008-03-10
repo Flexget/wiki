@@ -16,7 +16,7 @@ Prime example is module patterns that can be used to override path.
 Example with alternative paths:
 
 {{{
-pattenrs:
+patterns:
   - pattern1
   - pattern2
   - pattern3: ~/another_location/
