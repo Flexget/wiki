@@ -30,7 +30,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === TODO ===
 
-[wiki:FilterExists exists]
+[wiki:FilterExists exists], [wiki:FilterPatternsV2 patterns v2]
 
 == So how does it all work? ==
 
