@@ -57,3 +57,4 @@ For more information about how !FlexGet works, continue to [wiki:Configuration c
 
  * Improve this wiki
  * Write and submit more creative modules (must be MIT-license compatible)
+ * Report any errors you encounter
