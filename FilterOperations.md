@@ -1,6 +1,6 @@
 = Filter operations =
 
-Each module may do following operations to [wiki:Entry].
+Modules may do following operations to [wiki:Entry].
 
 ||'''Operation'''||'''Effect'''||
 ||Accept||Entry will be marked as explicitly accepted. Filtering this entry has no effect.||
