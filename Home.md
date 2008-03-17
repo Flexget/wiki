@@ -24,13 +24,13 @@ Its most common application is downloading torrent-files from RSS-feeds. It is e
 = Features =
 
  * Download from [wiki:InputRSS RSS], any [wiki:InputHtml html] page, [wiki:InputCSV CSV] or [wiki:InputRlsLog RlsLog]
- * Most RSS-feeds point to download page instead of content rendering them useless for automation. !FlexGet overcomes this by providing [wiki:Resolvers resolvers] for popular sites that figure out actual download address.
  * Use [wiki:FilterPatterns regular expression] to match desired content
  * Download [wiki:FilterSeries TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
    * Get best quality in specified time frame
  * Choose movies based on [wiki:FilterImdb imdb] ratings and other details
+ * Clean and easy way to add site-specific download scripts. Many supported natively. See [wiki:Resolvers resolvers].
  * Completely modular, all features are actually plugins (see. [wiki:DevelopersGuide developer guide])
 
 == How easy is it to use? ==
