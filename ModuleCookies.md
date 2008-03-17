@@ -12,7 +12,7 @@ cookies:
 
 Possible cookie types are: mozilla, msie, lpw
 
-=== Note ===
+== Note ==
 
 Mozilla cookies-file must begin with following lines or it doesn't load. Usually this is the case, but not always.
 
