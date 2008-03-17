@@ -30,7 +30,7 @@ Its most common application is downloading torrent-files from RSS-feeds. It is e
    * Quality aware
    * Get best quality in specified time frame
  * Choose movies based on [wiki:FilterImdb imdb] ratings and other details
- * Clean and easy way to add site-specific download scripts. Many supported natively. See [wiki:Resolvers resolvers].
+ * Clean and easy way to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are actually plugins (see. [wiki:DevelopersGuide developer guide])
 
 == How easy is it to use? ==
