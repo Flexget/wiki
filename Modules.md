@@ -16,7 +16,7 @@ Produce [wiki:Entry entries] from external source.
 
 === Filters ===
 
-Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters chained.
+Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 [wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterSeen seen]
 
