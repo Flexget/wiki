@@ -27,7 +27,8 @@ reject_languages:
 accept_languages:
     - language1
 
-# reject all [wiki:entry entries] which are not imdb-compatible
-# this has default value (True) even when key not present
-filter_invalid: True / False
+# Reject all entries which are not imdb-compatible
+# this has default value (True) even when key not present.
+# Applies also when using search, if no movie can be found it is considered as invalid.
+reject_invalid: True / False
 }}}
