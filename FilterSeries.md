@@ -1,5 +1,7 @@
 = Series =
 
+== Not yet stable! ==
+
 Intelligent filter for tv-series. This solves duplicate downloads
 problem that occurs when using patterns (regexp) matching since same
 episode is often released by multiple groups.
