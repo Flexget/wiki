@@ -1,12 +1,8 @@
 = Exists =
 
-'''NOT IMPLEMENTED YET'''
-
-=== Description ===
-
 Filter entries if same filename already exists in given path (recursively).
 
-Example:
+== Example: ==
 
 {{{
 exists: /some/storage/path/
