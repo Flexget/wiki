@@ -26,11 +26,11 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === Modify / Other ===
 
-[wiki:ModifyRemoveTrackers remove_trackers], [wiki:ModuleCliConfig cli_config]
+[wiki:ModifyExtension extension], [wiki:ModifyRemoveTrackers remove_trackers], [wiki:ModuleCliConfig cli_config]
 
 === TODO ===
 
-[wiki:ModifyExtension extension], [wiki:FilterPatternsV2 patterns v2]
+[wiki:FilterPatternsV2 patterns v2]
 
 == So how does it all work? ==
 
