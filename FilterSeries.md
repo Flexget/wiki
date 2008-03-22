@@ -1,7 +1,6 @@
 = Series =
 
-== Not yet stable! ==
-== UPDATE: Currently broken, will be fixed soon! ==
+== Not yet stable! If using, update often! ==
 
 Intelligent filter for tv-series. This solves duplicate downloads
 problem that occurs when using patterns (regexp) matching since same
@@ -57,3 +56,29 @@ If we take hdtv off from list, 720p would be downloaded.
 Enough has default value of 720p.
 
 Possible values for enough (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, dsr, dsrip
+
+== Custom path ==
+
+Specify download path for this serie.
+
+Example:
+
+{{{
+series:
+  - some series:
+      path: ~/download/some_series/
+  - another series
+  - third serie
+}}}
+
+Example with timeframe:
+
+{{{
+series:
+  - some series:
+      timeframe:
+        hours: 4
+      path: ~/download/some_series/
+  - another series
+  - third serie
+}}}
