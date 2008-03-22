@@ -59,7 +59,7 @@ Possible values for enough (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, ds
 
 == Custom path ==
 
-Specify download path for this serie.
+Specify download path for this series.
 
 Example:
 
