@@ -18,7 +18,7 @@ Produce [wiki:Entry entries] from external source.
 
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
-[wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterSeen seen]
+[wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterExists exists], [wiki:FilterSeen seen]
 
 === Outputs ===
 
@@ -30,7 +30,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === TODO ===
 
-[wiki:FilterExists exists], [wiki:FilterPatternsV2 patterns v2]
+[wiki:ModifyExtension extension], [wiki:FilterPatternsV2 patterns v2]
 
 == So how does it all work? ==
 
