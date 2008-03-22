@@ -23,7 +23,7 @@ Its most common application is downloading torrent-files from RSS-feeds. !FlexGe
 
 '''Examples'''
 
- * [http://libtorrent.rakshasa.no/ rTorrent] - BitTorrent client
+ * [http://libtorrent.rakshasa.no/ rTorrent] - !BitTorrent client
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
 
 = Features =
