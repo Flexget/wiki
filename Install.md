@@ -48,9 +48,9 @@ them manually by following instructions at library site in question. Or you coul
 
 = Upgrading =
 
-!FlexGet is currently under constant change so upgrading may cause problems. 
+!FlexGet is currently under constant change so upgrading may cause problems. On the other hand, new versions contain most likely bug fixes to existing code and new modules.
 
-Safest way to upgrade is to run your old version normally once, then update to new version and run application with --reset parameter. This will reset session and learn all current matches as already downloaded items.
+Safest way to upgrade is to run your old version normally once, then update to new version and if problems arise run application with --reset parameter. This will reset session and learn all current matches as already downloaded items.
 
 = Running =
 
