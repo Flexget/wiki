@@ -63,4 +63,5 @@ For more information about how !FlexGet works, continue to [wiki:Configuration c
 
  * Improve this wiki
  * Write and submit more creative modules (must be MIT-license compatible)
+   * Tip: Resolvers for [http://torrentfreak.com/bittorrent-sites-show-explosive-growth-080322/ popular sites]
  * Report any errors you encounter
