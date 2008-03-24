@@ -5,5 +5,5 @@ Allows specifying file extension explicitly when all other built-in detection me
 Example:
 
 {{{
-extension: nbz
+extension: nzb
 }}}
