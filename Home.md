@@ -59,7 +59,9 @@ feeds:
 
 This example would download all episodes of {{{series name}}} to {{{~/series}}}.
 
-For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or straight into [wiki:Modules modules] if above configuration example seems clear to you.
+You can find more configuration examples [wiki:MoreExamples here].
+
+For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or straight into [wiki:Modules modules] if configuration example(s) seems clear to you.
 
 == Want to help? ==
 
