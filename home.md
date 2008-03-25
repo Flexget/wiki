@@ -16,10 +16,12 @@
 
 = Introduction =
 
-!FlexGet is a piece of software that automates downloading content (torrent, mp3, etc.) from various 
-sources ([wiki:InputRSS RSS], [wiki:InputHtml html], [wiki:InputCSV CSV] and [wiki:Modules#Inputs more]). 
+!FlexGet is a software aimed to automate downloading content (torrents, podcasts, etc.) from various 
+sources like [wiki:InputRSS RSS-feeds], [wiki:InputHtml html-pages] and [wiki:Modules#Inputs much more].
 
-Its most common application is downloading torrent-files from RSS-feeds. !FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
+It's most often used to download torrent-files from RSS-feeds and works very well in that situation, but there are built-in [wiki:Modules modules] for much more.
+
+!FlexGet is extremely useful in conjunction with applications and clients which have [wiki:WatchDirectory watch directory] support.
 
 '''Examples'''
 
@@ -64,4 +66,4 @@ For more information about how !FlexGet works, continue to [wiki:Configuration c
  * Improve this wiki
  * Write and submit more creative modules (must be MIT-license compatible)
    * Tip: Resolvers for [http://torrentfreak.com/bittorrent-sites-show-explosive-growth-080322/ popular sites]
- * Report any errors you encounter
+ * Report errors you encounter
