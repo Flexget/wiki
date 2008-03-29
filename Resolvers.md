@@ -16,7 +16,6 @@ Resolvers are modules that detect if [wiki:Entry entry] URL points to a download
  * !BtJunkie
  * !BtChat
  * Mininova
- * !TorrentSpy
 
 == Not on list? Make your own ==
 
