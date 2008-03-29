@@ -22,11 +22,11 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === Outputs ===
 
-[wiki:OutputDownload download], [wiki:ModuleCookies cookies]
+[wiki:OutputDownload download]
 
 === Modify / Other ===
 
-[wiki:ModifyExtension extension], [wiki:ModifyRemoveTrackers remove_trackers], [wiki:ModuleCliConfig cli_config]
+[wiki:ModuleCookies cookies], [wiki:ModifyExtension extension], [wiki:ModifyRemoveTrackers remove_trackers], [wiki:ModuleCliConfig cli_config]
 
 === TODO ===
 
