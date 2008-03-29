@@ -45,12 +45,12 @@ series:
 }}}
 
 In this example when a epsisode of 'some series' appears, flexget will wait
-for 4 hours in case and then proceeds to download best quality available.
+for 4 hours other qualities to appear and then proceeds to download best quality available.
 
-The enough parameter will tell the quality that you find good enough to start
+The enough parameter will specify quality that you find good enough to start
 downloading without waiting whole timeframe. If qualities meeting enough parameter
 and above are available, flexget will prefer the enough. Ie. if enough value is set
-to 'hdtv' and qualities dsk, hdtv and 720p are available, hdtv will be chosen.
+to 'hdtv' and qualities dsr, hdtv and 720p are available, hdtv will be chosen.
 If we take hdtv off from list, 720p would be downloaded.
 
 Enough has default value of 720p.
