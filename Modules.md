@@ -22,7 +22,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === Outputs ===
 
-[wiki:OutputDownload download]
+[wiki:OutputDownload download], [wiki:OutputRSS make_rss]
 
 === Modify / Other ===
 
