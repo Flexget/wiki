@@ -2,7 +2,7 @@
 
 Write RSS containing succeeded (downloaded) entries.
 
-Example:
+'''Example:'''
 
 {{{
 make_rss: ~/public_html/flexget.rss
@@ -10,7 +10,7 @@ make_rss: ~/public_html/flexget.rss
 
 You may write into same file in multiple feeds.
 
-Example:
+'''Example:'''
 
 {{{
 my-feed-A:
@@ -28,7 +28,7 @@ entries from both feeds.
 
 Tip: use [wiki:GlobalSection globa_section] to make RSS of every feed without need to configure them individually.
 
-Example:
+'''Example:'''
 
 {{{
 global_section:
