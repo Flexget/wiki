@@ -25,3 +25,20 @@ my-feed-B:
 
 With this example file {{{series.rss}}} would contain succeeded
 entries from both feeds.
+
+Tip: use [wiki:GlobalSection globa_section] to make RSS of every feed without need to configure them individually.
+
+Example:
+
+{{{
+global_section:
+  make_rss: ~/public_html/flexget.rss
+
+feeds:
+  my-feed-A:
+   .
+   .
+  my-feed-B:
+   .
+   .
+}}}
