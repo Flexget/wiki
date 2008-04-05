@@ -6,9 +6,7 @@ Modules are !FlexGet essence. They provide all functionality by creating, manipu
 
 All module documentation examples are on module level, meaning that they need to be under a feed in configuration. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
 
-If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand what effect each module has in chain.
-
-== Current modules ==
+If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
 == Inputs ==
 
@@ -25,12 +23,14 @@ Produce [wiki:Entry entries] from external source.
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
-||[wiki:FilterPatterns patterns]||Accept entries based on regexp.||
-||[wiki:FilterUnconditionally unconditionally]||Unconditionally accept entries based on regexp.||
-||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution||
+||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered.||
+||[wiki:FilterUnconditionally unconditionally]||Accept entries based on regexp.||
 ||[wiki:FilterIgnore ignore]||Reject entries based on regexp||
+||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
+||[wiki:FilterSeries series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem||
+||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution||
+||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled)||
 
 === Outputs ===
