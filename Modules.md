@@ -2,11 +2,11 @@
 
 Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. You can display manual and examples by using parameter {{{--doc <module>}}} (similar to this wiki).
 
-== Notes ==
+Module is enabled by placing keyword and required parameters in configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed.
 
-All module documentation examples are on module level, meaning that they need to be under a feed in configuration. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
-
-If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
+{{{
+rss: http://some.site.com/some_feed.rss
+}}}
 
 == Inputs ==
 
@@ -35,6 +35,8 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 === Outputs ===
 
+Execute actual operation after input has provided entries and filters have chosen what we are interested about.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:OutputDownload download]||Download entries and store them in filesystem||
 ||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries||
@@ -50,6 +52,12 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 === TODO ===
 
 [wiki:FilterPatternsV2 patterns v2]
+
+=== Notes ===
+
+All module documentation examples are on module level, meaning that they need to be under a feed in configuration. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
+
+If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
 == So how does it all work? ==
 
@@ -81,7 +89,7 @@ Last we have download module that simply downloads all remaining [wiki:Entry ent
 
 == Builtin modules ==
 
-Some modules are enabled by default even when they are not mentioned in configuration file. This is because they're
+Some modules are always enabled even when they are not mentioned in configuration file. This is because they're
 needed in almost all situations ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
 properly and do not intervene in other cases ([wiki:ModifyTorrent torrent]).
 
