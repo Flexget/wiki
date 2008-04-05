@@ -23,7 +23,13 @@ svn update
 }}}
 
 
-== Depencies ==
+= Depencies =
+
+== Python ==
+
+!FlexGet executable {{{flexget.py}}} uses Python 2.5 by default. If you cannot install Python 2.5 (ie. debian stable) you may run it with older versions (2.4 works, 2.3 not guaranteed). Easiest way to do this is to execute !FlexGet explicitly with your current python interpreter {{{python flexget.py}}} instead of executing script by command {{{./flexget.py}}}.
+
+== Libraries ==
 
 !FlexGet depens on single external library on Python2.3 or later. Without this you cannot run application.
 
