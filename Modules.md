@@ -8,25 +8,44 @@ All module documentation examples are on module level, meaning that they need to
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand what effect each module has in chain.
 
-=== Inputs ===
+== Current modules ==
+
+== Inputs ==
 
 Produce [wiki:Entry entries] from external source.
 
-[wiki:InputRSS rss], [wiki:InputHtml html], [wiki:InputCSV csv], [wiki:InputRlsLog rlslog]
+||'''Keyword'''||'''Description'''||
+||[wiki:InputRSS rss]||Parse RSS-feed||
+||[wiki:InputHtml html]||Parse any HTML-page||
+||[wiki:InputCSV csv]||Parse any CSV-file from URL||
+||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net]||
 
 === Filters ===
 
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
-[wiki:FilterImdb imdb], [wiki:FilterPatterns patterns], [wiki:FilterSeries series], [wiki:FilterUnconditionally unconditionally], [wiki:FilterIgnore ignore], [wiki:FilterLimitNew limit_new], [wiki:FilterExists exists], [wiki:FilterSeen seen]
+||'''Keyword'''||'''Description'''||
+||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
+||[wiki:FilterPatterns patterns]||Accept entries based on regexp.||
+||[wiki:FilterUnconditionally unconditionally]||Unconditionally accept entries based on regexp.||
+||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution||
+||[wiki:FilterIgnore ignore]||Reject entries based on regexp||
+||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem||
+||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled)||
 
 === Outputs ===
 
-[wiki:OutputDownload download], [wiki:OutputRSS make_rss]
+||'''Keyword'''||'''Description'''||
+||[wiki:OutputDownload download]||Download entries and store them in filesystem||
+||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries||
 
 === Modify / Other ===
 
-[wiki:ModuleCookies cookies], [wiki:ModifyExtension extension], [wiki:ModifyRemoveTrackers remove_trackers], [wiki:ModuleCliConfig cli_config]
+||'''Keyword'''||'''Description'''||
+||[wiki:ModuleCookies cookies]||Enable cookies for all http-requests||
+||[wiki:ModifyExtension extension]||Force file extension||
+||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent||
+||[wiki:ModuleCliConfig cli_config]||Allow using variables in YML-configuration file and set values trough commandline||
 
 === TODO ===
 
