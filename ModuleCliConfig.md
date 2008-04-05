@@ -1,8 +1,8 @@
 = Commandline config =
 
-Allows specifying yml configuration values from commandline parameters.
+Allows specifying YML configuration values from commandline parameters.
 
-Yml variables are prefixed with dollar sign ($).
+Commandline values are specified in YML by variable prefixed with dollar sign ($).
 Commandline parameter must be comma separated list of variable=values.
 
 Configuration example:
