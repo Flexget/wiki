@@ -1,8 +1,8 @@
 = Modules =
 
-Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. You can display manual and examples by using parameter {{{--doc <module>}}} (similar to this wiki).
+Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. You can display module manual with examples by using parameter {{{--doc <module>}}} (similar to this wiki).
 
-Module is enabled by placing keyword and required parameters in configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed.
+Module is enabled by placing keyword and required parameters in configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
 
 {{{
 rss: http://some.site.com/some_feed.rss
@@ -55,7 +55,7 @@ Execute actual operation after input has provided entries and filters have chose
 
 === Notes ===
 
-All module documentation examples are on module level, meaning that they need to be under a feed in configuration. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
+All examples in modules are assumed to be under feed. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
