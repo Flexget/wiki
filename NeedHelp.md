@@ -5,7 +5,7 @@ If you're having problems getting something to work that should clearly work (by
 === Trough IRC ===
 
 I'm on ircnet, efnet, quakenet and wordforge under nick paranoidi. I may not be able to answer immediately.
-You may also have some luck in #rtorrent at irc.worldforge.org.
+You may also have some luck in #rtorrent at freenode.
 
 === Trough Trac ===
 
