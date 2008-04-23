@@ -2,7 +2,7 @@
 
 [wiki:Entry Entries] matching any of the given regular expression are accepted. Non-matching entries are filtered.
 
-Configuration example:
+=== Example ===
 
 {{{
 patterns:
