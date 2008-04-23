@@ -32,3 +32,13 @@ accept_languages:
 # Applies also when using search, if no movie can be found it is considered as invalid.
 reject_invalid: True / False
 }}}
+
+=== Example ===
+
+{{{
+imdb:
+  min_score: 6.2
+  min_votes: 5000
+  reject_genres:
+    - horror
+}}}
