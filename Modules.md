@@ -32,6 +32,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled)||
+||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements||
 
 === Outputs ===
 
