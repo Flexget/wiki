@@ -1,6 +1,6 @@
 = How to make custom modules =
 
-'''API is not yet stabilized. Expect some changes to happen.'''
+'''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a bit messy ...'''
 
 Making custom modules should be easy for anyone with some python experience.
 
@@ -14,7 +14,7 @@ def register(self, manager, parser):
 
 !FlexGet creates instance of this class and calls the register method. From this method module may register itself events in which it wishes to function and add new commandline parameters. Currently available events are start, input, filter, download, modify, output and exit.
 
-To register module you must call {{{manager.register}}}, which accepts named arguments.
+To register your module call {{{manager.register}}}. This method accepts named arguments.
 
 {{{
 Mandatory arguments:
@@ -33,7 +33,9 @@ Example:
   manager.register(instance=self, keyword='ourtest', callback=self.execute, event='filter')
 }}}
 
-Now when keyword {{{ourtest}}} is found from feed configuration, callback method is executed. The callback method must have following signature:
+Now when keyword {{{ourtest}}} is found from feed configuration, callback method is executed. 
+
+=== Callback method signature: ===
 
 {{{
 def execute(self, feed):
@@ -47,7 +49,7 @@ In register you can also add more commandline parameters, parser parameter is Op
 
 Feed is a class that represents one feed in configuration file.
 
-=== It has following attributes: ===
+=== Feed's attributes: ===
 
  name::
   name of the feed
@@ -64,9 +66,6 @@ Feed is a class that represents one feed in configuration file.
  entries::
   list containing [wiki:DevelopersEntry entries].
 
- last::
-  True if this is last feed that !FlexGet will execute.
-
 You shouldn't modify name or config as they are used by other modules.
 
 === Available methods: ===
@@ -74,10 +73,11 @@ You shouldn't modify name or config as they are used by other modules.
  accept(entry)::
   Mark entry accepted, filtering this later do not affect status. Call this on entries module knows should be downloaded.
 
- filter(entry, [immediately])::
+ filter(entry)::
   Mark entry to be filtered, other modules may still however accept entry.
-  If optional immediately is set to True this entry is removed from entries unconditionally asap. 
-  Use this flag on entries that module has determined that should not be downloaded never, ie. previously already downloaded.
+
+ reject(entry)::
+  Mark entry to be removed. It will be removed from feed once module event returns.
 
  failed(entry)::
   Mark entry to be failed (download)
