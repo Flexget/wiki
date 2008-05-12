@@ -3,15 +3,10 @@
 Modules may do following operations to [wiki:Entry].
 
 ||'''Operation'''||'''Effect'''||
-||Accept||Entry will be marked explicitly accepted. Filtering this entry has no effect.||
+||Accept||Entry will be marked explicitly accepted. Filtering this entry has no effect. May still be Rejected.||
 ||Filter||Entry will be marked implicitly removed. However it may still be Accepted or Rejected.||
 ||Reject||Entry will be removed. Other modules may not change this status.||
 ||<none>||Entry is not marked to any category. Entry is implicitly accepted if nobody specifies anything.||
-
-And if error occurs with specific entry (ie. download write fails).
-
-||'''Operation'''||'''Effect'''||
-||Failed||Entry will be marked as failed. Will be displayed with --failed parameter||
 
 == Examples ==
 
