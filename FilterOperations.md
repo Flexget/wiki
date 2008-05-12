@@ -8,6 +8,11 @@ Modules may do following operations to [wiki:Entry].
 ||Reject||Entry will be removed. Other modules may not change this status.||
 ||<none>||Entry is not marked to any category. Entry is implicitly accepted if nobody specifies anything.||
 
+And if error occurs with specific entry (ie. download write fails).
+
+||'''Operation'''||'''Effect'''||
+||Failed||Entry will be marked as failed. Will be displayed with --failed parameter||
+
 == Examples ==
 
 Assuming configuration:
