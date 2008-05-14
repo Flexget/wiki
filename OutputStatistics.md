@@ -1,9 +1,11 @@
 = Output Statistics =
 
-Output graphs about downloaded entries
+Output graphs about downloaded entries. The output is a single HTML file with graphs linked from Google chart API.
 
 '''Example:'''
 
 {{{
-stats: ~/public_html/flexget_stats/
+global:
+   statistics: 
+      file: ~/public_html/flexget_stats/index.html
 }}}
