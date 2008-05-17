@@ -44,8 +44,7 @@ series:
   - third series
 }}}
 
-In this example when a epsisode of 'some series' appears, flexget will wait
-for 4 hours other qualities to appear and then proceeds to download best quality available.
+In this example when a epsisode of 'some series' appears, flexget waits 4 hours for other versions to appear and then proceeds to download best one available.
 
 The enough parameter will specify quality that you find good enough to start
 downloading without waiting whole timeframe. If qualities meeting enough parameter
