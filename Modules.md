@@ -17,6 +17,7 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:InputHtml html]||Parse any HTML-page||
 ||[wiki:InputCSV csv]||Parse any CSV-file from URL||
 ||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net]||
+||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com]||
 
 === Filters ===
 
