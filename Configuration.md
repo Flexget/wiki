@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to execute !FlexGet you will need to write configuration file. By default !FlexGet tries to find {{{default.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in installation directory you don't need to give full path.
+In order to execute !FlexGet you will need to write configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in installation directory you don't need to give full path.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find minimal Yaml tutorial [wiki:YamlTutorial here].
 
