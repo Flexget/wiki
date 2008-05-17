@@ -45,6 +45,14 @@ series:
       id_patterns: (\d\d\d)         # can return any number of groups
 }}}
 
+All above patterns also accept multiple regular expressions.
+
+{{{
+name_patterns:
+  - ^some.series
+  - ^some
+}}}
+
 == Timeframe ==
 
 Series filter allows you to specify a timeframe for each series in which
