@@ -27,6 +27,24 @@ Only first file is downloaded.
 If two different qualities come available at the same moment,
 flexget will always download the better one. (more options coming ..)
 
+
+== Advanced usage with regexps ==
+
+The standard name matching is not perfect, if you're used to working with regexps you can
+specify regexp that is used to test if entry is serie.
+
+You can also give regexps to episode number matching and unique id matching.
+
+Example:
+
+{{{
+series:
+  - some serie:
+      name_patterns: ^some.serie
+      ep_patterns: (\d\d)-(\d\d\d)  # must return TWO groups
+      id_patterns: (\d\d\d)         # can return any number of groups
+}}}
+
 == Timeframe ==
 
 Series filter allows you to specify a timeframe for each series in which
