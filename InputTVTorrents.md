@@ -41,4 +41,4 @@ feeds:
     download: ~/Downloads
 }}}
 
-This would download all torrents in 720p quality for: House, Battlestar Galactica, Grey's Anatomy', Supernatural and CSI.
+This would download all torrents in 720p quality for: House, Battlestar Galactica, Supernatural and CSI.
