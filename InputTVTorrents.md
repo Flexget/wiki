@@ -2,7 +2,7 @@
 
 A customized HTML input module. Parses out full torrent URLs from TVTorrents' page for Recently Aired TV shows.
 
-A bit fragile right now, because it depends heavily on the exact structure of the HTML, as it looked today - 2008-05-17.
+A bit fragile right now, because it depends heavily on the exact structure of the HTML.
 
 Just set '''tvt: true''' in your config, and provide the path to your login cookie by using the cookies module.
 
