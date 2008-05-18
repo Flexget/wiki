@@ -13,7 +13,7 @@ Create ticket and describe your problem, use ticket type help.
 
 === Through mail ===
 
-You can try reach me from marko.koivusalo at gmail.com.
+You can try to reach me at marko.koivusalo at gmail.com.
 
 = Feedback =
 
