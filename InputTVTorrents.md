@@ -34,11 +34,11 @@ feeds:
       file: ~/.mozilla/firefox/profile/cookies.txt
 
     patterns:
-      - (house|battlestar galactica|supernatural|csi ).*?720p
+      - ^(house|battlestar galactica|csi ).*?720p
     ignore:
       - INDI
 
     download: ~/Downloads
 }}}
 
-This would download all torrents in 720p quality for: House, Battlestar Galactica, Supernatural and CSI.
+This would download all torrents in 720p quality whose name starts with: House, Battlestar Galactica or CSI.
