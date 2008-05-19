@@ -1,6 +1,6 @@
 = TVTorrents =
 
-A customized HTML input module. Parses out full torrent URLs from [http://tvtorrents.com TVTorrents]' page for Recently Aired TV shows.
+A customized HTML input module. Parses out full torrent URLs from [http://tvtorrents.com TVTorrents]' page for recently aired TV show episodes.
 
 A bit fragile right now, because it depends heavily on the exact structure of the HTML.
 
