@@ -41,4 +41,4 @@ feeds:
     download: ~/Downloads
 }}}
 
-This would download all torrent files for shows in 720p quality whose name starts with: House, Battlestar Galactica or CSI.
+This would download all torrent files for shows House, Battlestar Galactica and CSI, in 720p quality.
