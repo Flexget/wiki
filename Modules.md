@@ -1,23 +1,25 @@
 = Modules =
 
-Modules are !FlexGet essence. They provide all functionality by creating, manipulating or downloading [wiki:Entry entries]. !FlexGet has internal manual for all modules. Run program with {{{--list}}} to list all available modules. You can display module manual with examples by using parameter {{{--doc <module>}}} (similar to this wiki).
+Modules provide all functionality to !FlexGet by creating, manipulating or downloading [wiki:Entry entries]. 
 
-Module is enabled by placing keyword and required parameters in configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
+Module is enabled by placing keyword and parameters it requires in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
 
 {{{
 rss: http://some.site.com/some_feed.rss
 }}}
+
+Execute !FlexGet with parameter {{{--list}}} to get list of all available modules. You can also view built-in module documentation by using parameter {{{--doc <keyword>}}}.
 
 == Inputs ==
 
 Produce [wiki:Entry entries] from external source.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:InputRSS rss]||Parse RSS-feed||
-||[wiki:InputHtml html]||Parse any HTML-page||
-||[wiki:InputCSV csv]||Parse any CSV-file from URL||
-||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net]||
-||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com]||
+||[wiki:InputRSS rss]||Parse RSS-feed.||
+||[wiki:InputHtml html]||Parse any HTML-page.||
+||[wiki:InputCSV csv]||Parse any CSV-file from URL.||
+||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net].||
+||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com].||
 
 === Filters ===
 
@@ -25,32 +27,32 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered.||
-||[wiki:FilterUnconditionally unconditionally]||Accept entries based on regexp.||
-||[wiki:FilterIgnore ignore]||Reject entries based on regexp||
+||[wiki:FilterUnconditionally accept]||Accept entries based on regexp.||
+||[wiki:FilterIgnore ignore]||Reject entries based on regexp.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
-||[wiki:FilterSeries series]||Accept TV-series episodes. Quality and episode number aware.||
-||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem||
-||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution||
+||[wiki:FilterSeries series]||Accept TV-serie episodes. Quality and episode number aware.||
+||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
+||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
-||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled)||
-||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements||
+||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled).||
+||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements.||
 
 === Outputs ===
 
 Execute actual operation after input has provided entries and filters have chosen what we are interested about.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:OutputDownload download]||Download entries and store them in filesystem||
-||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries||
-||[wiki:OutputStatistics statistics]||Output statistics about downloaded entries||
+||[wiki:OutputDownload download]||Download entries and store them in filesystem.||
+||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries.||
+||[wiki:OutputStatistics statistics]||Output statistics about downloaded entries.||
 
 === Modify / Other ===
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:ModuleCookies cookies]||Enable cookies for all http-requests||
-||[wiki:ModifyExtension extension]||Force file extension||
-||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent||
-||[wiki:ModuleCliConfig cli_config]||Allow using variables in YML-configuration file and set values trough commandline||
+||[wiki:ModuleCookies cookies]||Enable cookies for all http-requests.||
+||[wiki:ModifyExtension extension]||Force file extension.||
+||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent.||
+||[wiki:ModuleCliConfig cli_config]||Allow using variables in YML-configuration file and set values trough commandline.||
 
 === TODO ===
 
