@@ -5,7 +5,17 @@ Results are cached so this doesn't cause unnecessary load to [http://www.imdb.co
 
 '''Important note:''' If [wiki:Entry] does not have direct imdb url present !FilterImdb will try to use imdb's search function. This does not work on 100% of cases, and in some rare cases it may even get wrong movie details. This module works best when input module provides accurate urls for entries, currently only [wiki:InputRlsLog RlsLog] does that.
 
-=== Configuration: ===
+=== Example ===
+
+{{{
+imdb:
+  min_score: 6.2
+  min_votes: 5000
+  reject_genres:
+    - horror
+}}}
+
+=== Configuration ===
 
 {{{
 Note: All parameters are optional. Some are mutually exclusive.
@@ -33,12 +43,3 @@ accept_languages:
 reject_invalid: True / False
 }}}
 
-=== Example ===
-
-{{{
-imdb:
-  min_score: 6.2
-  min_votes: 5000
-  reject_genres:
-    - horror
-}}}
