@@ -2,26 +2,7 @@
 
 == Download ==
 
-[http://download.flexget.com Download packages from here]
-
-Please check also [wiki:Install#Depencies depencies] section below.
-
-== Or checkout from SVN ==
-
-If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
-
-{{{
-svn co http://svn.flexget.com/trunk <path>
-}}}
-
-=== Update from SVN ===
-
-Enter path where you did checkout and run
-
-{{{
-svn update
-}}}
-
+[http://download.flexget.com Download packages from here]. For bleeding edge users, [wiki:Subversion subversion] is available.
 
 = Depencies =
 
