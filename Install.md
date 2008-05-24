@@ -49,7 +49,7 @@ Enter one new line on crontab:
 @hourly ~/flexget/flexget.py -q
 }}}
 
-This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often since it causes unnecessary load to their server.
+This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often.
 
 You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
 
