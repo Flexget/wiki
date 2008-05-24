@@ -14,4 +14,5 @@ feeds:
     rss: <url>
     patterns:
       - another.match
+    download: ~/torrents/
 }}}
