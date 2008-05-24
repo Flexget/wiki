@@ -4,7 +4,7 @@
 
 {{{
 feeds:
-  some_rss_feed:
+  name_of_the_feed:
     rss: <url>
     patterns:
       - ^match.something
