@@ -16,4 +16,4 @@ Enter path where you did checkout and run
 svn update
 }}}
 
-If you're interested improving !FlexGet or maintaining (new) modules, please contact for write access!
+If you're interested improving !FlexGet or maintaining (new) modules, please [wiki:NeedHelp contact] for write access!
