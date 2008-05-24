@@ -88,11 +88,10 @@ and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expec
 This converts RSS into [wiki:entry entries] for our feed. 
 
 Next we have filter module [wiki:FilterPatterns patterns]
-that expects list of regular expressions. If [wiki:entry] does not match any of the regexps it will be filtered otherwise it will be accepted.
-
+that expects list of regular expressions. If [wiki:entry] matches to any of these it will be accepted, if not then patterns module will issue filter command on it.
 Last we have download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
 
-== Builtin modules ==
+== Builtin modules (advanced users) ==
 
 Some modules are always enabled even when they are not mentioned in configuration file. This is because they're
 needed in almost all situations ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
