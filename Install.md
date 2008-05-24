@@ -76,4 +76,12 @@ You should [wiki:Configuration write configuration file] before installing !Flex
 
 !FlexGet can be tested by executing it manually. See [wiki:Parameters parameters].
 
-''TODO: Improve this section''
+To test a configuration file you have written, you can use command:
+
+{{{
+python flexget.py -c <config>
+}}}
+
+Note that this will download all matches as it would when executed from crontab and skips them on next execution. You can use {{{--test}}} to disable downloading and writing session file which is used to keep application state.
+
+If you want to have additional details about the process, use parameter {{{-d}}}.
