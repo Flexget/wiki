@@ -6,7 +6,7 @@
 
 Please check also [wiki:Install#Depencies depencies] section below.
 
-== Checkout from SVN ==
+== Or checkout from SVN ==
 
 If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
 
@@ -25,13 +25,9 @@ svn update
 
 = Depencies =
 
-== Python ==
-
-!FlexGet executable {{{flexget.py}}} uses Python 2.5 by default. If you cannot install Python 2.5 (ie. debian stable) you may run it with older versions (2.4 works, 2.3 not guaranteed). Easiest way to do this is to execute !FlexGet explicitly with your current python interpreter with command {{{python flexget.py}}} instead of executing it as a script {{{./flexget.py}}}.
-
 == Libraries ==
 
-!FlexGet depens on single external library on Python2.3 or later. Without this you cannot run application.
+!FlexGet depens on single external library on Python 2.3 or later. Without this you cannot run application.
 
 * [http://pyyaml.org/ PyYAML]
 
@@ -43,7 +39,7 @@ And if you want to access RSS feeds you'll need:
 
 * [http://www.feedparser.org/ feedparser]
 
-On Debian and Ubuntu you can use apt-get to install these:
+On Debian and Ubuntu you can use apt-get to install all these:
 
 {{{
 sudo apt-get install python-yaml python-beautifulsoup python-feedparser
@@ -53,8 +49,6 @@ If you are running other distribution check it's package management. If it does 
 them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] Python installation module. [http://pyyaml.org/ PyYAML], [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] and [http://www.feedparser.org/ feedparser] are available.
 
 = Upgrading =
-
-!FlexGet is currently under constant change so upgrading may cause problems. On the other hand, new versions contain most likely bug fixes to existing code and new modules.
 
 Safest way to upgrade is to run your old version normally once, then update to new version and if problems arise run application with --reset parameter. This will reset session and learn all current matches as already downloaded items.
 
@@ -74,7 +68,7 @@ Enter one new line on crontab:
 @hourly ~/flexget/flexget.py -q
 }}}
 
-This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to.
+This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often since it causes unnecessary load to their server.
 
 You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
 
