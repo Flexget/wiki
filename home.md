@@ -2,7 +2,6 @@
 
 == Quick access ==
 
- * [wiki:WikiStart Introduction]
  * [wiki:Install Installation and running]
    * '''[wiki:Install#Download Download]'''
    * [wiki:Parameters Commandline parameters]
