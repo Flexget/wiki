@@ -4,8 +4,6 @@ In order to execute !FlexGet you will need to write configuration file. By defau
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. You can find minimal Yaml tutorial [wiki:YamlTutorial here].
 
-= File structure =
-
 Please note that each indentation level in given documentation is required and must be precisely 2 spaces and no must not contain tabs. Why are spaces even required in Yaml? They are used for semantics, example:
 
 {{{
@@ -16,7 +14,12 @@ pets:
   dog:
     name: barks a lot
     age: 2
+    toys:
+      - bone
+      - ball
 }}}
+
+= File structure =
 
 Mandatory file structure has been kept minimal. Each configuration file must have structure of:
 
