@@ -45,6 +45,7 @@ Execute actual operation after input has provided entries and filters have chose
 ||[wiki:OutputDownload download]||Download entries and store them in filesystem.||
 ||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries.||
 ||[wiki:OutputStatistics statistics]||Output statistics about downloaded entries.||
+||[wiki:OutputSubtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com]||
 
 === Modify / Other ===
 
