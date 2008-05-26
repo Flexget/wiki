@@ -2,4 +2,11 @@
 
 Downloads subtitles for downloaded movies
 
-Still in beta.
+{{{
+subtitles:
+  languages:
+     - fin
+     - eng
+  min_sub_rating: 9.0
+  output: ~/torrents/subs/
+}}}
