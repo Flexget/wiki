@@ -10,9 +10,9 @@ format:
   <field>: <python string formatting>
 }}}
 
-Note: each entry must have atleast two fields, title and url
+'''Note:''' each entry must have atleast two fields, title and url
 
-Example:
+=== Example: ===
 
 {{{
 text:
