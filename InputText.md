@@ -1,22 +1,25 @@
-= To be implemented =
+= Text =
+
+Parse any text for entries using regular expression.
+
+{{{
+url: <url>
+entry:
+  <field>: <regexp to match value>
+format:
+  <field>: <python string formatting>
+}}}
+
+Note: each entry must have atleast two fields, title and url
+
+Example:
 
 {{{
 text:
-  url: <url>
+  url: http://www.nbc.com/Heroes/js/novels.js
   entry:
-    title: <regexp>
-    url: <regexp>
+    title: novelTitle = "(.*)"
+    url: novelPrint = "(.*)"
+  format:
+    url: http://www.nbc.com%(url)s
 }}}
-
-Note: should allow setting any of the entry fields, ie.
-
-{{{
-text:
-  url: ...
-  entry:
-    .
-    .
-    imdb_url: <regexp>
-}}}
-
-Note2: Tile and Url fields are mandatory for entry
