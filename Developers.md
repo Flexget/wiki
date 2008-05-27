@@ -2,6 +2,8 @@
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a bit messy ...'''
 
+[[Image(flexget_events.png)]]
+
 Making custom modules should be easy for anyone with some python experience.
 
 If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
