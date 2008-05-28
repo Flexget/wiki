@@ -36,6 +36,7 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
    * Quality aware
    * Get best quality in specified time frame
  * Choose movies based on [wiki:FilterImdb imdb] ratings and other details
+ * Automatically download subtitles for movies from opensubtitles.org
  * Clean and easy way to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are actually plugins (see. [wiki:DevelopersGuide developer guide])
 
