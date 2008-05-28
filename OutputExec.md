@@ -2,7 +2,7 @@
 
 Execute command for entries that reach output.
 
-Example:
+=== Example: ===
 
 {{{
 exec: echo 'found %(title)s at %(url)s' > file
