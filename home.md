@@ -30,7 +30,7 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 = Features =
 
  * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from sites like [wiki:InputRlsLog RlsLog] and [wiki:InputTVTorrents TVTorrents].
- * Use [wiki:FilterPatterns regular expression] to match desired content
+ * Use [wiki:FilterPatterns regular expressions] to match desired content
  * Download [wiki:FilterSeries TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware; get best quality release in a specified time frame
