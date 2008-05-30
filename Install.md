@@ -8,17 +8,15 @@
 
 == Libraries ==
 
-!FlexGet depens on single external library on Python 2.3 or later. Without this you cannot run application.
+=== Required ===
 
-* [http://pyyaml.org/ PyYAML]
+[http://pyyaml.org/ PyYAML]
 
-Optionally if you wish to access html pages you'll need:
+=== Optional ===
 
-* [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
+For RSS sources: [http://www.feedparser.org/ feedparser]
 
-And if you want to access RSS feeds you'll need:
-
-* [http://www.feedparser.org/ feedparser]
+For HTML sources: [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
 
 On Debian and Ubuntu you can use apt-get to install all these:
 
@@ -26,7 +24,7 @@ On Debian and Ubuntu you can use apt-get to install all these:
 sudo apt-get install python-yaml python-beautifulsoup python-feedparser
 }}}
 
-If you are running other distribution check it's package management. If it does not have these packages available you can still install 
+For other distributions check their package management. If it does not have these packages available you can still install 
 them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] Python installation module. [http://pyyaml.org/ PyYAML], [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] and [http://www.feedparser.org/ feedparser] are available.
 
 = Upgrading =
@@ -51,7 +49,7 @@ Enter one new line on crontab:
 
 This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often.
 
-You should [wiki:Configuration write configuration file] before installing !FlexGet in crontab.
+You should [wiki:Configuration write a configuration file] before installing !FlexGet in crontab.
 
 == Manual execution ==
 
