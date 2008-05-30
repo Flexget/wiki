@@ -6,7 +6,7 @@ Many RSS-feeds (or other inputs) do not provide URLs directly to a torrent-file,
 
 == How they work ==
 
-Resolvers are modules that detect if [wiki:Entry entry] URL points to a download page instead of actual content. When such URL is detected resolver will step in modify it so that it points into a content. This is usually archieved by editing URL or by requesting the page and finding the download link from there.
+Resolvers are modules that detect if an [wiki:Entry entry] URL points to a download page instead of actual content. When such an URL is detected, the resolver will step in and modify the URL so that it points to the actual content. This is usually archieved by editing URL or by requesting the page and finding the download link from there.
 
 === Currently supported ===
 
@@ -17,6 +17,6 @@ Resolvers are modules that detect if [wiki:Entry entry] URL points to a download
  * !BtChat
  * Mininova
 
-== Not on list? Make your own ==
+== Not on the list? Make your own ==
 
 If you only need to replace some words from URL to make it work almost anyone should be able to do it by using existing modules as starting point.
