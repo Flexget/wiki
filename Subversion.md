@@ -5,7 +5,7 @@
 If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
 
 {{{
-svn co http://svn.flexget.com/trunk <path>
+svn co http://svn.flexget.com/trunk flexget-dev
 }}}
 
 == Update from SVN ==
