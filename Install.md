@@ -6,13 +6,11 @@
 
 = Depencies =
 
-== Libraries ==
-
-=== Required ===
+== Required ==
 
 [http://pyyaml.org/ PyYAML]
 
-=== Optional ===
+== Optional ==
 
 For RSS sources: [http://www.feedparser.org/ feedparser]
 
