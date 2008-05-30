@@ -11,7 +11,7 @@
  * [wiki:Modules Modules]
    * [wiki:Entry Entries]
    * [wiki:Resolvers Resolvers]
- * [wiki:NeedHelp Having troubles? Help is near]
+ * [wiki:NeedHelp Problems? Help is near!]
 
 = Introduction =
 
