@@ -44,20 +44,23 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 Easy configuration was a top priority when designing the application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/Yml YML-syntax] in configuration file.
+!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration.
 
-'''Short example.''' This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.
+'''Configuration example:''' 
+
+This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.
+
 {{{
 feeds:
   feed name:
-    rss: http://example.com/rss.xml
+    rss: http://example.com/torrents.xml
     series:
       - series name
       - another series
     download: ~/series
 }}}
 
-This example would download all episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
+This example would download all torrents of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
 You can find more configuration examples [wiki:MoreExamples here].
 
