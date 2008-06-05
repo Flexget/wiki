@@ -36,9 +36,27 @@ global:
 
 feeds:
   my-feed-A:
-   .
-   .
+    .
+    .
   my-feed-B:
-   .
-   .
+    .
+    .
+}}}
+
+If using global section you can still disable RSS generation for some feeds by using value '''false'''
+
+'''Example:'''
+
+{{{
+global:
+  make_rss: ~/public_html/flexget.rss
+
+feeds:
+  my-feed-A:
+    .
+    .
+  my-feed-B:
+    make_rss: false
+    .
+    .
 }}}
