@@ -2,11 +2,13 @@
 
 A customized HTML input module. Parses out full torrent URLs from [http://tvtorrents.com TVTorrents]' page for recently aired TV show episodes.
 
-A bit fragile right now, because it depends heavily on the exact structure of the HTML.
-
-Just set '''tvt: true''' in your config, and provide the path to your login cookie by using the cookies module.
+May break in the future, as it depends on the exact structure of the HTML.
 
 Module-specific code by Fredrik Bränström.
+
+== Usage ==
+
+Just set '''tvt: true''' in your config, and provide the path to your login cookie by using the cookies module.
 
 == Example ==
 
@@ -41,4 +43,4 @@ feeds:
     download: ~/Downloads
 }}}
 
-This would download all torrent files for shows House, Battlestar Galactica and CSI, in 720p quality.
+This would download all new torrent files for shows House, Battlestar Galactica and CSI, in 720p quality.
