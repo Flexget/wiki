@@ -19,9 +19,11 @@ Format can be used to modify matched values. All fields that were parsed are usa
 {{{
 text:
   url: http://www.nbc.com/Heroes/js/novels.js
+  # construct our entry with this data
   entry:
     title: novelTitle = "(.*)"
     url: novelPrint = "(.*)"
+  # further format entry
   format:
     url: http://www.nbc.com%(url)s
 }}}
