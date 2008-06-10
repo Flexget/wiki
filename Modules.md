@@ -18,6 +18,7 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:InputRSS rss]||Parse RSS-feed.||
 ||[wiki:InputHtml html]||Parse any HTML-page.||
 ||[wiki:InputCSV csv]||Parse any CSV-file from URL.||
+||[wiki:InputText text]||Parse any text data from URL.||
 ||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net].||
 ||[wiki:InputSceneReleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com].||
