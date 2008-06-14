@@ -58,10 +58,6 @@ Execute actual operation after input has provided entries and filters have chose
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using variables in YML-configuration file and set values trough commandline.||
 
-=== TODO ===
-
-[wiki:FilterPatternsV2 patterns v2]
-
 === Notes ===
 
 All examples in modules are assumed to be under feed. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
