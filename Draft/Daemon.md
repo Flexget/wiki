@@ -6,10 +6,15 @@ Configuration draft:
 
 {{{
 schedule:
+  default:
+    .
+    .
   feed_name:
-    # TODO
+    .
+    .
   another_feed:
-    # TODO
+    .
+    .
 }}}
 
 Note, it should be possible to define interval as minutes, hours, days and ideally all these either per day or every day.
