@@ -31,3 +31,15 @@ schedule:
 }}}
 
 Daemon / schedule mode trough --daemon parameter (status | start | stop | reload).
+
+'''Draft 2:'''
+
+{{{
+schedule:
+  default:
+    interval: 30m # 30 minute interval as default
+  some_feed:
+    interval: 24h # once per day for this one
+  some_other_feed:
+    interval: 30s # and once every 30 seconds (or less if the run takes over 30s to complete)
+}}}
