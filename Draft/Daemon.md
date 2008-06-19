@@ -2,7 +2,7 @@
 
 Implement daemon mode + scheduler.
 
-'''Configuration base draft''':
+'''Configuration draft''':
 
 {{{
 schedule:
