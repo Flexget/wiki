@@ -26,16 +26,16 @@ min_year: <num>
 
 # reject if genre contains any of these
 reject_genres:
-    - genre1
-    - genre2
+  - genre1
+  - genre2
 
 # reject if language contain any of these
 reject_languages:
-    - language1
+  - language1
 
 # accept only this language
 accept_languages:
-    - language1
+  - language1
 
 # Reject all entries which are not imdb-compatible
 # this has default value (True) even when key not present.
