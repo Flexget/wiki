@@ -1,6 +1,6 @@
 = Exists =
 
-Reject entries if same filename already exists in given path (recursively).
+Reject entries if same filename or directory already exists in given path (recursively).
 
 == Example: ==
 
