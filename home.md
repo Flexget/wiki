@@ -13,6 +13,11 @@
    * [wiki:Resolvers Resolvers]
  * [wiki:NeedHelp Problems? Help is near!]
 
+
+= News =
+
+['''19/07/2008'''] Released new version 264. Adds new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. Does not cover 100% of configuration file (yet). May contain some bugs due lack of real world testing.
+
 = Introduction =
 
 !FlexGet is a program aimed to automate downloading content (torrents, podcasts, etc.) from various 
