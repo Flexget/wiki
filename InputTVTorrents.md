@@ -22,8 +22,6 @@ feeds:
       file: ~/.mozilla/firefox/profile/cookies.txt
 }}}
 
-Note: Of yourse, you need to configure a '''patterns''' filter to match only desired content. The '''series filter does NOT''' appear to work well with this module yet - just use a pattern like (lost|csi).*?720p until we figure out why.
-
 == Example with pattern ==
 
 {{{
