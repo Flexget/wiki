@@ -10,11 +10,13 @@
 
 [http://pyyaml.org/ PyYAML]
 
-== Optional ==
+== Recommended ==
 
-For RSS sources: [http://www.feedparser.org/ feedparser]
+For RSS sources:[[BR]]
+[http://www.feedparser.org/ feedparser]
 
-For HTML sources: [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
+For HTML sources and some other modules:[[BR]]
+[http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
 
 On Debian and Ubuntu you can use apt-get to install all these:
 
