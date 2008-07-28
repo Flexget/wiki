@@ -2,14 +2,15 @@
 
 If you're having problems getting something to work that should clearly work (by wiki) do not hesitate to ask help.
 
+== Trac ==
+
+Please report all bugs and errors by using tickets! You can use tickets also to get help. Create ticket and describe your problem, use ticket type help. 
+
 === IRC ===
 
 I'm on ircnet, efnet, quakenet and wordforge under nick paranoidi. I may not be able to answer immediately.
 You may also have some luck in #rtorrent at freenode.
 
-=== Trac ===
-
-Create ticket and describe your problem, use ticket type help.
 
 === Email ===
 
