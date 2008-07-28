@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to execute !FlexGet you will need to write configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in installation directory you don't need to give full path.
+In order to execute !FlexGet you will need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in installation directory you don't need to give full path.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. 
 
@@ -49,15 +49,15 @@ feeds:
     download: /home/myself/podcasts/
 }}}
 
-There you have fully working configuration file, that wasn't so hard was it? :)
+When you create or modify configuration try running !FlexGet with --check parameter. It will go trough configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
 
-Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file. You can also [wiki:Install#Manualexecution test your configuration file] now.
+If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality you may wish to use [wiki:FilterSeries series] filter instead of patterns.
+
+Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file. You can also [wiki:Install#Manualexecution execute your configuration file] now.
 
 == Still confused about Yaml? ==
 
-You can find minimal Yaml tutorial [wiki:YamlTutorial here].
-
-Please note that each indentation level in given documentation is required and must be precisely 2 spaces and no must not contain tabs. Why are spaces even required in Yaml? They are used for semantics, example:
+Please note that each indentation level in given documentation is required and must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are spaces even required in Yaml? They are used for semantics, consider example:
 
 {{{
 pets:
@@ -72,4 +72,4 @@ pets:
       - ball
 }}}
 
-Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys.
+Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys. If we were to use more conventional configuration file format it would be much messier to represent item relations.
