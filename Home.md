@@ -16,8 +16,7 @@
 
 = News =
 
-['''23/07/2008'''] Fixes, revision r273 should be stable.[[BR]]
-['''19/07/2008'''] Released new version r264. Adds new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. Does not cover 100% of configuration file (yet). May contain some bugs due lack of real world testing.
+['''07/2008'''] Added new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. 
 
 = Introduction =
 
