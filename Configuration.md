@@ -10,7 +10,11 @@ Mandatory file structure has been kept minimal. Each configuration file must hav
 
 {{{
 feeds:
-  <feed name>:
+  feed A:
+    <feed configuration here>
+    .
+    .
+  feed B:
     <feed configuration here>
     .
     .
@@ -18,7 +22,8 @@ feeds:
 
 == Feed configuration ==
 
-Depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module. Note that since all modules are given for a feed, they must always be indented by 2 spaces from feed name.
+Depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module. 
+Notice how rss is indented by 2 spaces, this is because it belongs to a feed ("my feed" has "rss").
 
 {{{
 feeds:
