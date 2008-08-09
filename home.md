@@ -69,6 +69,8 @@ This example would download all torrents of {{{series name}}} and {{{another ser
 
 You can find more configuration examples [wiki:MoreExamples here].
 
+At some point in the future there may be web-based user interface for !FlexGet.
+
 For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or [wiki:Modules modules].
 
 == Want to help? ==
