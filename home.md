@@ -49,7 +49,7 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 Easy configuration was a top priority when designing the application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration.
+!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first. Don't be scared! !FlexGet tries to guide you if you make mistakes.
 
 '''Configuration example:''' 
 
