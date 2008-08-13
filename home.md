@@ -32,6 +32,8 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
  * [http://libtorrent.rakshasa.no/ rTorrent] - !BitTorrent client
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
 
+'''Application is still in fast development phase. Bugs appear sometimes, please report all errors trough trac tickets!'''
+
 = Features =
 
  * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from sites like [wiki:InputRlsLog RlsLog] and [wiki:InputTVTorrents TVTorrents].
