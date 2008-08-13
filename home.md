@@ -32,7 +32,7 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
  * [http://libtorrent.rakshasa.no/ rTorrent] - !BitTorrent client
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
 
-'''Application is still in fast development phase. Bugs appear sometimes, please report all errors trough trac tickets!'''
+'''Application is still in fast development phase. Bugs appear sometimes, please report all errors trough trac tickets! '''
 
 = Features =
 
