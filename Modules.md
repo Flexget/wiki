@@ -39,6 +39,8 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled).||
 ||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements.||
 
+If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
+
 === Outputs ===
 
 Execute actual operation after input has provided entries and filters have chosen what we are interested about.
@@ -60,9 +62,7 @@ Execute actual operation after input has provided entries and filters have chose
 
 === Notes ===
 
-All examples in modules are assumed to be under feed. They are not sufficient alone. Look at [wiki:Configuration configuration] or complete examples if you have any open questions.
-
-If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
+All examples in module documentation are assumed to configured under a feed in configuration file. Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
 
 == So how does it all work? ==
 
@@ -72,24 +72,24 @@ Let's look real world configuration file.
 feeds:
   tvrss combined:
     rss: http://tvrss.net/feed/unique/
-    patterns:
-      - south.park
+    series:
+      - south park
     download: ~/torrents
 
   vegapunk:
     rss: http://bt.vegapunk.com/rss/rss.xml
     patterns:
-      - ^\[vegapunk\].*one.piece.*\d\d\d.HD  
+      - ^\[vegapunk\].*one.piece.*\d\d\d.HD
     download: ~/torrents
 }}}
 
 Here we have a simple configuration file with two feeds called {{{tvrss combined}}}
-and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expects url as a parameter.
+and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expects URL as a parameter.
 This converts RSS into [wiki:entry entries] for our feed. 
 
-Next we have filter module [wiki:FilterPatterns patterns]
-that expects list of regular expressions. If [wiki:entry] matches to any of these it will be accepted, if not then patterns module will issue filter command on it.
-Last we have download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
+Vegapunk has a filter module [wiki:FilterPatterns patterns] that expects list of regular expressions. If [wiki:entry] matches to any of these it will be accepted, if not then patterns module will issue filter command on it. TVRSS uses more sophisticated filter that is suitable for episodic tv-series called [wiki:FilterSeries series].
+
+Last both have a download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
 
 == Builtin modules (advanced users) ==
 
