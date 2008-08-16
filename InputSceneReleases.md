@@ -1,4 +1,4 @@
-= SceneReleases =
+= !SceneReleases =
 
 Uses scenereleases.info category url as input.
 
