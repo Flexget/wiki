@@ -15,10 +15,10 @@ Modules may do following operations to [wiki:Entry].
   <td><div style="color:green; font-weight: bold">Accept</div></td>
   <td>Entry will be marked accepted. Filtering this entry has no effect. May still be Rejected.</td>
 </tr><tr>
-  <td><div style="color:#ff6000; font-weight: bold">Filter</div></td>
+  <td><div style="color:#ff7300; font-weight: bold">Filter</div></td>
   <td>Entry will be marked implicitly removed. However it may still be Accepted or Rejected.</td>
 </tr><tr>
-  <td><div style="color:#ffcc00; font-weight: bold">None</div></td>
+  <td><div style="color:#97d000; font-weight: bold">None</div></td>
   <td>Entry is not marked to any category. Entry is implicitly accepted if nobody specifies anything.</td>
 </tr>
 </table>
