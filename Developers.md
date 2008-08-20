@@ -2,8 +2,6 @@
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a bit messy ...'''
 
-[[Image(flexget_events.png)]]
-
 Making custom modules should be easy for anyone with some python experience.
 
 If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
@@ -14,34 +12,49 @@ Each module must have at least one '''unique''' class with register method with 
 def register(self, manager, parser):
 }}}
 
-!FlexGet creates instance of this class and calls the register method. From this method module may register itself events in which it wishes to function and add new commandline parameters. Currently available events are start, input, filter, download, modify, output and exit.
+!FlexGet creates instance of this class and calls the register method. From this method module may register itself.
 
-To register your module call {{{manager.register}}}. This method accepts named arguments.
+To register your module call {{{manager.register}}}. You must at least specify module name:
 
 {{{
-Mandatory arguments:
-    instance    - instance of module (self)
-    keyword     - maps directly into config
-    callback    - method that is called when module is executed
-    event       - specifies when module is executed and implies what it does
+manager.register('new')
+}}}
+
+You can also pass some optional named arguments
+
+{{{
 Optional arguments:
-    order       - when multiple modules of same event type are enabled for feed
-                  this is used to determine execution order. Default 16384.
+    priority    - when multiple modules of same event type are enabled for feed
+                  this is used to determine execution order. Default 0. Larger number, higher priority.
     builtin     - set to True if module should be executed always
+    group       - group name this module belongs to
+    groups      - list of group names this module belongs to
 }}}
 
 Example:
 {{{
-  manager.register(instance=self, keyword='ourtest', callback=self.execute, event='filter')
+  manager.register('new', priority=2)
 }}}
 
-Now when keyword {{{ourtest}}} is found from feed configuration, callback method is executed. 
+Now when keyword {{{new}}} is found from feed configuration, event methods are called.
 
-=== Callback method signature: ===
+=== Event methods (in order): ===
 
-{{{
-def execute(self, feed):
-}}}
+ * feed_start(self, feed)
+ * feed_input(self, feed)
+ * feed_filter(self, feed)
+ * feed_download(self, feed)
+ * feed_modify(self, feed)
+ * feed_output(self, feed)
+ * feed_exit(self, feed)
+
+Modules may create new events, signature is in form of feed_<name>(self, feed).
+
+''TODO: explain event roles?''
+
+=== Application events ===
+
+ * application_terminate(self, feed)
 
 === Adding commandline parameters ===
 
@@ -108,3 +121,12 @@ You shouldn't modify name or config as they are used by other modules.
 
   get(key, default=None)::
     Get stored value, passed default (or None) if not found.
+
+
+== Manager class ==
+
+  Accessible trough feed.manager
+
+  get_module_by_name(name)
+
+  get_modules_by_group(group)
