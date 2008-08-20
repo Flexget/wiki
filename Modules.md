@@ -55,6 +55,8 @@ Execute actual operation after input has provided entries and filters have chose
 === Modify / Other ===
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:ModuleSearch search]||Search for download url from supported sites.||
+||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleCookies cookies]||Enable cookies for all http-requests.||
 ||[wiki:ModifyExtension extension]||Force file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent.||
