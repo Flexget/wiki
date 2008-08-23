@@ -16,7 +16,6 @@
 
 = News =
 
-['''08/2008'''] Current revision in trunk (version control) is broken! Download versions are fine.[[BR]]
 ['''07/2008'''] Added new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. 
 
 = Introduction =
