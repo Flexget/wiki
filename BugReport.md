@@ -1,7 +1,5 @@
 = How to file a bug report =
 
-== How to report ==
-
 Include as much information as possible, preferably the feed configuration and relevant log messages. You wish to remove private information from the details, please feel free to do so. Best way to do this is to replace with *****.
 
 When you include configuration or log lines into ticket, please use `{{{...}}}` wiki-formatting. This is because otherwise all the details appear in single line. Use preview button to see that information is readable.
