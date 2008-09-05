@@ -95,6 +95,8 @@ series:
       name_patterns: ^some.serie
       ep_patterns: (\d\d)-(\d\d\d)  # must return TWO groups
       id_patterns: (\d\d\d)         # can return any number of groups
+  - another series
+  - third series
 }}}
 
 All above patterns also accept multiple regular expressions.
