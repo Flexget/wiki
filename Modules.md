@@ -51,6 +51,7 @@ Execute actual operation after input has provided entries and filters have chose
 ||[wiki:OutputStatistics statistics]||Output statistics about downloaded entries.||
 ||[wiki:OutputSubtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:OutputExec exec]||Execute command for entries reaching output.||
+||[wiki:OutputEmail email]||Send email when new content is downloaded.||
 
 === Modify / Other ===
 
