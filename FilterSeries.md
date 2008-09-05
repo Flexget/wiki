@@ -111,7 +111,7 @@ name_patterns:
 
 ''TODO: document better''
 
-To change serie default settings you can use [wiki:SettingsSection settings section] block which is similar to ([wiki:GlobalSection] global section). This must be in configuration "root level". Validation does not apply to here, and this section may be changed at some point ... 
+To change a serie default settings you can use [wiki:SettingsSection settings section] block which is similar to ([wiki:GlobalSection] global section). This must be in configuration "root level". This removes need to specify desired base-line settings for each serie. Validation does not apply to here, and this section may be changed at some point ...
 
 {{{
 settings:
