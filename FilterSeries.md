@@ -104,3 +104,17 @@ name_patterns:
   - ^some.series
   - ^some
 }}}
+
+== Define default settings for all series ==
+
+''TODO: document better''
+
+To change serie default settings you can use [wiki:SettingsSection settings section] block which is similar to ([wiki:GlobalSection] global section). This must be in configuration "root level". Validation does not apply to here, and this section may be changed at some point ... 
+
+{{{
+settings:
+  series:
+    timeframe:
+      hours: 3
+      quality: 720p
+}}}
