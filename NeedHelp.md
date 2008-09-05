@@ -4,7 +4,9 @@ If you're having problems getting something to work that should clearly work (by
 
 == Trac ==
 
-Please report all bugs and errors by using tickets! You can use tickets also to get help. Create ticket and describe your problem, use ticket type help. 
+'''Please report all bugs and errors by using tickets in this site! ''' For more information see [wiki:BugReport bug report guide].[[BR]]
+
+You can use tickets also to get help. Create ticket and describe your problem, for help request use ticket type help. 
 
 === IRC ===
 
@@ -14,7 +16,7 @@ You may also have some luck in #rtorrent at freenode.
 
 === Email ===
 
-You can try to reach me at marko.koivusalo at gmail.com.
+You can try to reach me at marko.koivusalo at gmail.com. '''Use only as last resort.'''
 
 = Feedback =
 
