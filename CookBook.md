@@ -4,7 +4,7 @@ Feel free to add your own recipes.
 
 == Index ==
 
- * [wiki:CookBook#Download !FlexGet releases]
+ * [wiki:CookBook#DownloadFlexGetreleases Download !FlexGet releases]
 
 
 
