@@ -14,12 +14,12 @@ Feel free to add your own recipes.
 flexget:
   html: http://download.flexget.com
   patterns:
-    - flexget_(r\d*)
+    - flexget_\(r\d*\)
   download: ~/flexget/
   interval: 3 days
 }}}
 
-Execute FlexGet once with parameters:
+Execute !FlexGet once with parameters:
 
 {{{
 flexget.py --feed flexget --learn
