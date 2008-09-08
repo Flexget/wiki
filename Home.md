@@ -69,7 +69,7 @@ feeds:
 
 This example would download all torrents of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
-You can find more configuration examples [wiki:MoreExamples here].
+You can find more configuration examples in [wiki:CookBook cookbook].
 
 At some point in the future there may be web-based user interface for !FlexGet.
 
