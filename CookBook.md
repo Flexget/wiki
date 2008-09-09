@@ -40,6 +40,7 @@ heroes:
       url: novelPrint = "(.*)"
     format:
       url: http://www.nbc.com%(url)s
+  interval: 6 hours
   download: ~/heroes/
 
 }}}
