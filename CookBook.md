@@ -6,6 +6,8 @@ Feel free to add your own recipes.
 
  * [wiki:CookBook#DownloadFlexGetReleases Download FlexGet releases]
  * [wiki:CookBook#DownloadHeroesComics Download Heroes Comics]
+ * [wiki:CookBook#DownloadDVDRipsFromRlsLog Download DVDRips from RlsLog.net]
+
 
 == Download !FlexGet Releases ==
 
@@ -45,7 +47,7 @@ heroes:
 
 }}}
 
-== Download DVDRips From RlsLog ==
+== Download !DVDRips From !RlsLog ==
 
 {{{
 rlslog_dvdrips:
