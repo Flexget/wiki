@@ -47,7 +47,7 @@ heroes:
 
 }}}
 
-== Download !DVDRips From !RlsLog ==
+== Download DVDRips From !RlsLog ==
 
 {{{
 rlslog_dvdrips:
