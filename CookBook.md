@@ -13,12 +13,14 @@ Feel free to add your own recipes.
 
 {{{
 flexget:
+  interval: 3 days
   html: http://download.flexget.com
   patterns:
     - flexget_\(r\d*\)
   download: ~/flexget/
-  interval: 3 days
 }}}
+
+Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
 Execute !FlexGet once with parameters:
 
@@ -35,6 +37,7 @@ Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]
 
 {{{
 heroes:
+  interval: 6 hours
   text:
     url: http://www.nbc.com/Heroes/js/novels.js
     entry:
@@ -42,10 +45,11 @@ heroes:
       url: novelPrint = "(.*)"
     format:
       url: http://www.nbc.com%(url)s
-  interval: 6 hours
   download: ~/heroes/
 
 }}}
+
+Uses: [wiki:ModuleInterval interval], [[wiki:InputText text], wiki:OutputDownload download]
 
 == Download DVDRips From !RlsLog ==
 
@@ -64,3 +68,5 @@ rlslog_dvdrips:
       - biography
   download: ~/torrents/
 }}}
+
+Uses: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
