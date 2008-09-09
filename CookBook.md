@@ -48,7 +48,7 @@ heroes:
 
 }}}
 
-Uses: [wiki:ModuleInterval interval], [[wiki:InputText text], wiki:OutputDownload download]
+Uses: [wiki:ModuleInterval interval], [wiki:InputText text], wiki:OutputDownload download]
 
 == Download DVDRips From !RlsLog ==
 
