@@ -16,6 +16,7 @@
 
 = News =
 
+['''09/2008'''] Various fixes and new modules.[[BR]]
 ['''07/2008'''] Added new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. 
 
 = Introduction =
