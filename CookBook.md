@@ -20,8 +20,6 @@ flexget:
   download: ~/flexget/
 }}}
 
-Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
-
 Execute !FlexGet once with parameters:
 
 {{{
@@ -30,6 +28,7 @@ flexget.py --feed flexget --learn
 
 This will learn all matches as already downloaded, thus avoids downloading old versions.
 
+Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
 == Download Heroes Comics ==
 
