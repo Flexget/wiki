@@ -8,6 +8,7 @@
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
+   * [wiki:CookBook Cook Book]
  * [wiki:Modules Modules]
    * [wiki:Entry Entries]
    * [wiki:Resolvers Resolvers]
