@@ -5,7 +5,7 @@ Feel free to add your own recipes.
 == Index ==
 
  * [wiki:CookBook#DownloadFlexGetReleases Download FlexGet releases]
- * [wiki:CookBook#DownloadHeroesComis Download Heroes Comics]
+ * [wiki:CookBook#DownloadHeroesComics Download Heroes Comics]
 
 == Download !FlexGet Releases ==
 
