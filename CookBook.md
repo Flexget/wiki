@@ -4,9 +4,10 @@ Feel free to add your own recipes.
 
 == Index ==
 
- * [wiki:CookBook#DownloadFlexGetreleases Download FlexGet releases]
+ * [wiki:CookBook#DownloadFlexGetReleases Download FlexGet releases]
+ * [wiki:CookBook#DownloadHeroesComis Download Heroes Comics]
 
-== Download !FlexGet releases ==
+== Download !FlexGet Releases ==
 
 {{{
 flexget:
@@ -24,3 +25,21 @@ flexget.py --feed flexget --learn
 }}}
 
 This will learn all matches as already downloaded, thus avoids downloading old versions.
+
+
+== Download Heroes Comics ==
+
+Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]
+
+{{{
+heroes:
+  text:
+    url: http://www.nbc.com/Heroes/js/novels.js
+    entry:
+      title: novelTitle = "(.*)"
+      url: novelPrint = "(.*)"
+    format:
+      url: http://www.nbc.com%(url)s
+  download: ~/heroes/
+
+}}}
