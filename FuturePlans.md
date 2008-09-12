@@ -14,19 +14,26 @@ This page is used as internal memo :)
 
 Validate:
 
->>> v.validate({'key_name': 'foo' .... })
+>>> config = {'key_name': 'foo' .... }
+>>> v.validate(config)
 
 Return list of errors in some form.
 
+}}}
 
-Query:
+== Add new validators runtime ==
+
+{{{
+  some_base_class?.add_validator('name', Class)
+}}}
+
+== Query configuration from validator ==
 
 This will be used in future web-ui to generate configuration UI
-
+ 
+{{{
 >>> d.accepted()
 >>> {'key_name':'text', 'another_key':'list'}
-
-Query:
 
 >>> l.accepted()
 >>> ['text', 'dict']
