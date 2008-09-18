@@ -1,4 +1,5 @@
 = Welcome to !FlexGet Trac =
+== If you think !FlexGet rocks, spread the word! ==
 
 == Quick access ==
 
@@ -13,7 +14,6 @@
    * [wiki:Entry Entries]
    * [wiki:Resolvers Resolvers]
  * [wiki:NeedHelp Problems? Help is near!]
-
 
 = News =
 
@@ -39,13 +39,13 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 
 = Features =
 
- * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from sites like [wiki:InputRlsLog RlsLog] and [wiki:InputTVTorrents TVTorrents].
- * Use [wiki:FilterPatterns regular expressions] to match desired content
+ * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
+ * Get movies based on [wiki:FilterImdb IMDB] ratings and other details
+ * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
  * Download [wiki:FilterSeries TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware; get best quality release in a specified time frame
- * Choose movies based on [wiki:FilterImdb IMDB] ratings and other details
- * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
+ * Use [wiki:FilterPatterns regular expressions] to match desired content
  * Easy to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
 
@@ -81,6 +81,7 @@ For more information about how !FlexGet works, continue to [wiki:Configuration c
 == Want to help? ==
 
  * Improve this wiki
+ * Enlist as active developer
  * Write and submit more creative modules (must be MIT-license compatible)
    * Tip: Resolvers for [http://torrentfreak.com/bittorrent-sites-show-explosive-growth-080322/ popular sites]
  * Report errors you encounter
