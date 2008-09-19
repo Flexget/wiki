@@ -35,7 +35,8 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
  * [http://utorrent.com uTorrent] - !BitTorrent client
 
-'''Application is still in fast development phase. Bugs appear sometimes, please report all errors trough trac tickets! '''
+'''Application is still in active development phase. ''' 
+New features are added frequently and whole application is being improved in every area. This may however lead to broken builds and bugs at sometimes. Please report all problems trough tickets. If you encounter problem, see if new version appears in the site.
 
 = Features =
 
