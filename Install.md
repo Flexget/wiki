@@ -2,11 +2,11 @@
 
 == Download ==
 
-First you need to download !FlexGet. You can [http://download.flexget.com download FlexGet distributions from here]. For bleeding edge users, [wiki:Subversion subversion] is available.
+First you need to download !FlexGet. You can download FlexGet distributions from [http://download.flexget.com here]. For bleeding edge users, [wiki:Subversion subversion] is available.
 
 = Depencies =
 
-!FlexGet requires some python libraries to work.
+!FlexGet requires few python libraries to work, strictly speaking only PyYAML is needed but other are required by most modules.
 
 == Required ==
 
