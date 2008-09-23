@@ -2,7 +2,7 @@
 
 == Download ==
 
-First you need to download !FlexGet. You can download FlexGet distributions from [http://download.flexget.com here]. For bleeding edge users, [wiki:Subversion subversion] is available.
+First you need to download !FlexGet. You can download !FlexGet distributions from [http://download.flexget.com here]. For bleeding edge users, [wiki:Subversion subversion] is available.
 
 = Depencies =
 
