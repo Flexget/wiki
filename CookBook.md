@@ -90,6 +90,6 @@ feeds:
       - some serie
 }}}
 
-Uses: [wiki:OutputRSS make_rss]
+Uses: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
 
 This will produce rss-feed containing all matches with direct download urls (resolved). This is useful if you wish to hook up !FlexGet with a client that does not have a [wiki:WatchDirectory watch directory] support, or if you wish to perform downloading in a another computer. Only downside is that you need a http server like Apache to host the rss feed.
