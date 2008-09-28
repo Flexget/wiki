@@ -43,7 +43,7 @@ If you plan to use multiple filters per feed, you should look [wiki:FilterOperat
 
 === Outputs ===
 
-Execute desired operation to entries that pass trough filter(s).
+Execute operation(s) to entries that pass trough filter(s).
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:OutputDownload download]||Download entries and store them in filesystem.||
