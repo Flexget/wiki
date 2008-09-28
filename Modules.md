@@ -43,7 +43,7 @@ If you plan to use multiple filters per feed, you should look [wiki:FilterOperat
 
 === Outputs ===
 
-Execute actual operation after input has provided entries and filters have chosen what we are interested about.
+Execute desired operation to entries that pass trough filter(s).
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:OutputDownload download]||Download entries and store them in filesystem.||
@@ -65,7 +65,7 @@ Execute actual operation after input has provided entries and filters have chose
 
 === Notes ===
 
-All examples in module documentation are assumed to configured under a feed in configuration file. Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
+All examples in module documentations are assumed to be configured under a feed in configuration file. Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
 
 == So how does it all work? ==
 
