@@ -53,12 +53,17 @@ New features are added frequently and whole application is being improved in eve
  * Easy to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
 
-== How easy is it to use? ==
+== Distant plans ==
 
-Easy configuration was a top priority when designing the application. However some basic knowledge 
+ * Internal scheduler, currently relies on external one
+ * Web based configuration UI
+
+= How easy is it to use? =
+
+Easy configuration was a high priority when designing the application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first. Don't be scared! !FlexGet tries to guide you if you make mistakes.
+!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first. Don't be scared! !FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
 '''Configuration example:''' 
 
@@ -78,14 +83,13 @@ This example would download all torrents of {{{series name}}} and {{{another ser
 
 You can find more configuration examples in [wiki:CookBook cookbook].
 
-At some point in the future there may be web-based user interface for !FlexGet.
-
 For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or [wiki:Modules modules].
 
-== Want to help? ==
+= Want to help? =
 
  * Improve this wiki
- * Enlist as active developer
  * Write and submit more creative modules (must be MIT-license compatible)
    * Tip: Resolvers for [http://torrentfreak.com/bittorrent-sites-show-explosive-growth-080322/ popular sites]
+ * Enlist as active developer, help is always welcomed!
  * Report errors you encounter
+ * Feedback on areas that you find troublesome
