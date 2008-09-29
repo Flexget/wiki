@@ -35,6 +35,8 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
  * [http://utorrent.com uTorrent] - !BitTorrent client
 
+'''!FlexGet is platform independent, all platforms that have python available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
+
 '''Application is still in active development phase. ''' 
 New features are added frequently and whole application is being improved in every area. This may however lead to broken builds and bugs at sometimes. Please report all problems trough tickets. If you encounter problem, see if new version appears in the site.
 
