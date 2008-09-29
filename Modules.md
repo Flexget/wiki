@@ -1,8 +1,8 @@
 = Modules =
 
-Modules provide all functionality to !FlexGet by creating, manipulating or downloading [wiki:Entry entries]. 
+Modules provide all functionality to !FlexGet. Most modules create, manipulate or download [wiki:Entry entries]. Some modules change way how !FlexGet operates.
 
-Module is enabled by placing keyword and parameters it requires in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
+Module is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
 
 {{{
 rss: http://some.site.com/some_feed.rss
@@ -96,11 +96,13 @@ Last both have a download module that simply downloads all remaining [wiki:Entry
 
 == Builtin modules (advanced users) ==
 
-Some modules are always enabled even when they are not mentioned in configuration file. This is because they're
-needed in almost all situations ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
+When module is ''builtin'' it is always enabled even when it is not present in a configuration file. Builtin modules are 
+needed in almost every situation ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
 properly and do not intervene in other cases ([wiki:ModifyTorrent torrent]).
 
 === How to disable builtins ===
+
+You can disable builtin modules in a feed by placing following keyword.
 
 {{{
 disable_builtins: true
