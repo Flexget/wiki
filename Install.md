@@ -14,8 +14,8 @@ First you need to download !FlexGet. You can download !FlexGet distributions fro
 
 == Recommended ==
 
-For RSS sources: [http://www.feedparser.org/ feedparser]
-For HTML sources and some other modules: [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup]
+[http://www.feedparser.org/ feedparser] - required for RSS sources[[BR]]
+[http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] - required for most modules that use any HTML pages.
 
 == Debian, Ubuntu and similar ==
 
