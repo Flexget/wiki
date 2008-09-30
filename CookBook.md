@@ -5,8 +5,8 @@ Feel free to add your own recipes.
 == Index ==
 
  * [wiki:CookBook#DownloadFlexGetReleases Download FlexGet releases]
- * [wiki:CookBook#DownloadHeroesComics Download Heroes Comics]
  * [wiki:CookBook#DownloadDVDRipsFromRlsLog Download DVDRips from RlsLog.net]
+ * [wiki:CookBook#DownloadHeroesComics Download Heroes Comics]
  * [wiki:CookBook#GenerateRSS Generate RSS feed for other clients]
 
 
@@ -31,26 +31,6 @@ This will learn all matches as already downloaded, thus avoids downloading old v
 
 Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
-== Download Heroes Comics ==
-
-Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]
-
-{{{
-feeds:
-  heroes:
-    interval: 6 hours
-    text:
-      url: http://www.nbc.com/Heroes/js/novels.js
-      entry:
-        title: novelTitle = "(.*)"
-        url: novelPrint = "(.*)"
-      format:
-        url: http://www.nbc.com%(url)s
-    download: ~/heroes/
-}}}
-
-Uses: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
-
 == Download DVDRips From !RlsLog ==
 
 {{{
@@ -71,6 +51,26 @@ feeds:
 }}}
 
 Uses: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
+
+== Download Heroes Comics ==
+
+Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]. This uses advanced text-parsing module and does not represent accurately average usage.
+
+{{{
+feeds:
+  heroes:
+    interval: 6 hours
+    text:
+      url: http://www.nbc.com/Heroes/js/novels.js
+      entry:
+        title: novelTitle = "(.*)"
+        url: novelPrint = "(.*)"
+      format:
+        url: http://www.nbc.com%(url)s
+    download: ~/heroes/
+}}}
+
+Uses: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
 
 == Generate RSS ==
 
