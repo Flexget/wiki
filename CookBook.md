@@ -33,6 +33,8 @@ Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPattern
 
 == Download DVDRips From !RlsLog ==
 
+Uses [http://imdb.com imdb] details to filter out "bad" movies. Customize to your likings.
+
 {{{
 feeds:
   rlslog_dvdrips:
