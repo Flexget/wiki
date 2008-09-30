@@ -88,7 +88,7 @@ This example would download all torrents of {{{series name}}} and {{{another ser
 
 You can find more configuration examples in [wiki:CookBook cookbook].
 
-For more information about how !FlexGet works, continue to [wiki:Configuration configuration] or [wiki:Modules modules].
+For more information about how !FlexGet works, see available [wiki:Modules modules] or more detailed explanation about [wiki:Configuration configuration].
 
 = Want to help? =
 
