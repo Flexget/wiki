@@ -1,5 +1,10 @@
 = Welcome to !FlexGet Trac =
-== If you think !FlexGet rocks, spread the word! ==
+
+{{{
+#!html
+<h1 style="text-align: center; color: red">FlexGet needs more users. Spread the word!</h1>
+}}}
+
 
 == Quick access ==
 
