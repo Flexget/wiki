@@ -2,7 +2,7 @@
 
 {{{
 #!html
-<h1 style="text-align: center; color: red">FlexGet needs more users. Spread the word!</h1>
+<h1 style="text-align: center; color: red">FlexGet wants more users. Spread the word!</h1>
 }}}
 
 
