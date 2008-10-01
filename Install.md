@@ -56,7 +56,7 @@ If you want to have additional details about the process, use parameter {{{-d}}}
 
 == Windows ==
 
-There are few tricks with scheduling !FlexGet under Windows. At first glance "Scheduled Tasks" does not seem to allow execution intervals less than once per day. There is however way to do it, and it is explained very well in [http://lonewolf-online.net/computers/kb/windows/guide-windows-task-scheduler/ here].[[BR]]''Note: Please add more / improve instructions if you install !FlexGet on windows.''
+There are few tricks with scheduling !FlexGet under Windows. At first glance "Scheduled Tasks" does not seem to allow execution intervals more frequently than once per day. There is however way to do it, and it is explained very well in [http://lonewolf-online.net/computers/kb/windows/guide-windows-task-scheduler/ here].[[BR]]''Note: Please add more / improve instructions if you install !FlexGet on windows.''
 
 == Linux, OSX and similar ==
 
