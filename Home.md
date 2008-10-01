@@ -44,7 +44,7 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 ^* = requires thread support, not present on some routers^ 
 
 '''Application is still in active development phase. ''' 
-New features are added frequently and whole application is being improved in every area. This may however lead to broken builds and bugs at sometimes. Please report all problems trough tickets. If you encounter problem, see if new version appears in the site.
+New features are added frequently and whole application is being improved in every area. This may however lead to bugs at sometimes. If you encounter weird behavior please check if updated version is available and if not [wiki:BugReport report it] by using ticket. 
 
 = Features =
 
