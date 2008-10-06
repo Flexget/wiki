@@ -5,11 +5,9 @@
 <h1 style="text-align: center; color: red">FlexGet wants more users. Spread the word!</h1>
 }}}
 
-
 == Quick access ==
 
  * [wiki:Install Installation guide]
-   * '''[wiki:Install#Download Download]'''
  * [wiki:Configuration]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
@@ -20,11 +18,10 @@
    * [wiki:Resolvers Resolvers]
  * [wiki:NeedHelp Problems? Help is near!]
 
-= News =
+= Releases =
 
-['''10/2008'''] --test has been broken for a long time corrupting session file, if you have weird behavior use --reset.[[BR]]
-['''09/2008'''] Various fixes and new modules.[[BR]]
-['''07/2008'''] Added new --check option that verifies that configuration file is in perfect shape and does not contain any typos or such. 
+||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
+||[http://download.flexget.com/flexget_(r325).zip FlexGet r325]||06.10.2008||Few bug fixes.||
 
 = Introduction =
 
