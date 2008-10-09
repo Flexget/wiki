@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to execute !FlexGet you will need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in installation directory you don't need to give full path.
+In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in !FlexGet directory you don't need to give full path.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. 
 
@@ -20,34 +20,35 @@ feeds:
     .
 }}}
 
+Most common mistakes among new users is indentation level and missing semicolon, pay special attention to these when looking examples.
+
 == Feed configuration ==
 
-Depends on what you're trying to accomplish. For example if you're trying to get stuff out from RSS-feed you'll need to add [wiki:InputRSS rss] module. 
-Notice how rss is indented by 2 spaces, this is because it belongs to a feed ("my feed" has "rss").
+This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed ("my feed" has "rss").
 
 {{{
 feeds:
   my feed:
-    rss: <url for rss>
+    rss: http://example.com/rss
 }}}
 
-And if you don't want to get everything, you'll need to filter out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. Notice how patterns parameters are indented once again by 2 additional spaces. This is because they belong to key patterns.
+And if you don't want to get everything in the RSS feed, you'll need to filter out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. Notice how patterns parameters are indented once again by 2 additional spaces. This is because they belong to patterns.
 
 {{{
 feeds:
   my feed:
-    rss: <url of rss>
+    rss: http://example.com/rss
     patterns:
       - my.interesting.show
       - another.interesting.show
 }}}
 
-And you probably want to download the file as well, so let's throw [wiki:OutputDownload download] module in as well.
+And you probably want to download the result as well, so let's throw [wiki:OutputDownload download] module in as well.
 
 {{{
 feeds:
   my feed:
-    rss: <url of rss>
+    rss: http://example.com/rss
     patterns:
       - my.interesting.show
       - another.interesting.show
@@ -62,7 +63,7 @@ Continue into [wiki:Modules modules] to learn all about modules you may use in y
 
 == Still confused about Yaml? ==
 
-Please note that each indentation level in given documentation is required and must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are spaces even required in Yaml? They are used for semantics, consider example:
+Please note that each indentation level in given documentation is required and must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are spaces even required in Yaml? They are used for semantics or '''relation'''. Consider example:
 
 {{{
 pets:
@@ -78,3 +79,15 @@ pets:
 }}}
 
 Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys. If we were to use more conventional configuration file format it would be much messier to represent item relations.
+
+Some other file formats could represent this in form:
+
+{{{
+pets.cat.name=furry
+pets.cat.age=5
+pets.dog.name=barks a lot
+pets.dog.age=2
+pets.dog.toys=bone, ball
+}}}
+
+But this gets quite difficult to follow in more complex situations.
