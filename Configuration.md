@@ -20,7 +20,7 @@ feeds:
     .
 }}}
 
-Most common mistakes among new users is indentation level and missing semicolon, pay special attention to these when looking examples.
+'''Most common mistakes among new users is indentation level and missing semicolons, pay special attention to these when looking examples and documentation.'''
 
 == Feed configuration ==
 
