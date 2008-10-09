@@ -67,7 +67,7 @@ New features are added frequently and whole application is being improved in eve
 Easy configuration was a high priority when designing the application. However some basic knowledge 
 about regular expression is usually needed for effective usage.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first. Don't be scared! !FlexGet is equipped with validator that tries to guide you if you make mistakes.
+!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
 '''Configuration example:''' 
 
