@@ -21,7 +21,7 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/flexget_(r332).zip FlexGet r332]||06.10.2008||Fixes [wiki:OutputStatistics]. Improves Unit Tests.||
+||[http://download.flexget.com/flexget_(r332).zip FlexGet r332]||06.10.2008||Fixes [wiki:OutputStatistics]. Improves Unit Tests. v0.9 Release Candidate.||
 ||[http://download.flexget.com/flexget_(r325).zip FlexGet r325]||05.10.2008||Few bug fixes.||
 [[BR]]
 = Introduction =
