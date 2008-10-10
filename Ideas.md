@@ -1,32 +1,43 @@
-= List of weird ideas =
+= Internal memo =
 
-Collection of ideas, probably never going to see daylight ..
+Currently:
 
 {{{
-foobar:
-
-  patterns:
-    - asdfasdf
-    - asdfasdf
-  series:
-    - asdfasdf
-    - asdfasfdasdf
-  
-  chain:
-    - patterns
-    - series
+series:
+  - some serie:
+      timeframe:
+        hours: 4
+        enough: 720p
+  - another serie
+  - third serie
 }}}
 
+Timeframe indentation causes a lot of problems for new users, also the ''':''' in '''some serie'''.
+
+Alternative implementation:
+
 {{{
-foobar:
+series:
+  - name: some serie
+    timeframe:
+      hours: 4
+      enough: 720p
+  - another serie
+  - third serie
+}}}
 
-  patterns:
-    - asdfasdf
-    - asdfasdf
-  series:
-    - asdfasdf
-    - asdfasfdasdf
+Difference? (in python)
 
-  condition: patterns AND series
-  
+{{{
+Original:
+
+{'some serie': {'timeframe': {'hours': 4, 'enough': '720p'}}}
+another serie
+third serie
+
+VS:
+
+{'name': 'some serie', 'timeframe': {'hours': 4, 'enough': '720p'}}
+another serie
+third serie
 }}}
