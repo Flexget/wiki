@@ -4,7 +4,7 @@ Intelligent filter for tv-series. This solves duplicate downloads
 problem that occurs when using patterns (regexp) matching since same
 episode is often released by multiple groups.
 
-'''Example configuration:'''
+'''Simple configuration:'''
 
 {{{
 series:
@@ -50,13 +50,24 @@ and above are available, !FlexGet will prefer the enough. Ie. if enough value is
 to 'hdtv' and qualities dsr, hdtv and 720p are available, hdtv will be chosen.
 If we take hdtv off from list, 720p would be downloaded.
 
-Enough has default value of 720p.
+Enough has default value of 720p. This can be taken advantage of.
+
+'''Example:''
+
+{{{
+series:
+  - first serie: { timeframe: 48 }
+  - another serie: { timeframe: 16 }
+  - third serie
+}}}
+
+'''Note:''' This is written in yaml in-line form to make it more compact. 
 
 Possible values for enough (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, dsr, dsrip
 
 == Custom path ==
 
-Specify download path for series.
+Specify custom path for a series. Setting a path for series does '''not''' download it, you must use [wiki:OutputDownload download] module to do that.
 
 Example:
 
