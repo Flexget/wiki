@@ -134,5 +134,5 @@ settings:
   series:
     timeframe:
       hours: 3
-      quality: 720p
+      enough: 720p
 }}}
