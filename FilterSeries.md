@@ -123,6 +123,20 @@ name_patterns:
   - ^something.entirely.different
 }}}
 
+== Watched ==
+
+Some feeds may occasionally contain older episodes that have already been watched by user but not seen be !FlexGet. For these you can define watched.
+
+{{{
+series:
+  - some series:
+      watched:
+        season: 3
+        episode: 3
+}}}
+
+This is however quite inconvenient. In future !FlexGet will not download older episodes than what user is "currently watching" automaticly (Ticket #92).
+
 == Define default settings for all series ==
 
 ''TODO: document better''
