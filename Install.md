@@ -64,6 +64,14 @@ Running !FlexGet should be easy, it's designed to be executed from user crontab 
 
 Before installing !FlexGet into crontab must [wiki:Configuration write a configuration file] and test that configuration file works.
 
+To change default editor for crontab, you can use command:
+
+{{{
+export EDITOR=nano
+}}}
+
+^You may wish to add this into your ~/.bashrc so it will be always the default editor^
+
 To edit user crontab execute command:
 
 {{{
