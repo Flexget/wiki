@@ -64,6 +64,8 @@ Running !FlexGet should be easy, it's designed to be executed from user crontab 
 
 Before installing !FlexGet into crontab must [wiki:Configuration write a configuration file] and test that configuration file works.
 
+To edit user crontab execute command:
+
 {{{
 crontab -e
 }}}
