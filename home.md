@@ -23,6 +23,7 @@
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
 ||[http://download.flexget.com/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First stable release.||
 ||[http://download.flexget.com/flexget_(r342).zip FlexGet v0.9.1 BETA1]||21.10.2008||Includes #89, #90, #92.||
+||[http://download.flexget.com/flexget_(r344).zip FlexGet v0.9.1 BETA2]||22.10.2008||Includes #98.||
 [[BR]]
 = Introduction =
 
