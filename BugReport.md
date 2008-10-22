@@ -28,4 +28,4 @@ Which is a bit hard to read ..
 
 == Additional details ==
 
-To get more information about process you can execute !FlexGet with --debug flag, this information may be necessary to resolve the issue. When possible, please include log with --debug.
+To get more information about process you can execute !FlexGet with --debug flag, this information may be necessary sometimes to resolve the issue. Include relevant details in ticket you find any.
