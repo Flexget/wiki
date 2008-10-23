@@ -99,9 +99,7 @@ download: ~/download/
 == Advanced matching with regexps ==
 
 The standard name matching is not perfect, if you're used to working with regexps you can
-specify regexp(s) that are used to test if entry is episode of given serie.
-
-You can also give regexps for episode number matching and unique id matching.
+specify regexp(s) that filter for the show's name, episode number or unique identifier.
 
 Example:
 
@@ -122,6 +120,28 @@ name_patterns:
   - ^some.series
   - ^something.entirely.different
 }}}
+
+
+ep_patterns are useful for shows enumerated by season and episode numbers (eg, S04E01).  The default episode regular expressions used are
+{{{
+ep_patterns:
+  - s(\d+)e(\d+)
+  - s(\d+)ep(\d+)
+  - (\d+)x(\d+)
+}}}
+The two groups returned by the episode regular expression should be numbers.
+
+id_patterns are useful for series with shows that are not enumerated by season/episode numbering.  The default id_patterns regexps are useful for dated episodes.  They are set as
+{{{
+id_patterns:
+  - (\d\d\d\d).(\d+).(\d+)
+  - (\d+).(\d+).(\d\d\d\d)
+  - (\d\d\d\d)x(\d+)\.(\d+)
+}}}
+
+User defined episode or id matching takes priority over the built-in expressions.
+
+
 
 == Watched ==
 
