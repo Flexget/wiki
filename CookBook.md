@@ -95,3 +95,23 @@ feeds:
 }}}
 
 Uses: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
+
+
+== Series example ==
+
+{{{
+feeds:
+  feed_example1:
+    rss: http://example.com/torrents.xml
+    series:
+      - series name
+      - another series
+    download: ~/series
+
+  feed_example2:
+    rss: http://foo.com/torrents.xml
+    series:
+      - third series
+      - fourth series
+    download: ~/series
+}}}
