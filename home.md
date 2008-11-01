@@ -51,7 +51,7 @@ New features are added frequently and whole application is being improved in eve
 = Features =
 
  * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
- * Get movies based on [wiki:FilterImdb IMDB] ratings and other details
+ * Automatically choose movies based on [wiki:FilterImdb IMDB] ratings and other details
  * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
  * Download [wiki:FilterSeries TV-series]
    * Episode number aware, doesn't download same episode twice
