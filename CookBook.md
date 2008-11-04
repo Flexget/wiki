@@ -13,12 +13,13 @@ Feel free to add your own recipes.
 == Download !FlexGet Releases ==
 
 {{{
-flexget:
-  interval: 3 days
-  html: http://download.flexget.com
-  patterns:
-    - flexget_\(r\d*\)
-  download: ~/flexget/
+feeds:
+  flexget:
+    interval: 3 days
+    html: http://download.flexget.com
+    patterns:
+      - flexget_\(r\d*\)
+    download: ~/flexget/
 }}}
 
 Execute !FlexGet once with parameters:
