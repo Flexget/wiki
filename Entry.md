@@ -1,6 +1,6 @@
 = Entry =
 
-Entries represent a item created by input module(s), usually downloadable content.
+Entry represent a single item created by input module(s), usually a downloadable content.
 It contains all the information necessary for modules to perform their job.
 
 For example [wiki:FilterPatterns patterns] module checks if given regular expression matches entries '''title''' or '''url''' and acts accordingly.
