@@ -27,6 +27,7 @@
 ||[http://download.flexget.com/FlexGet_(r347).zip FlexGet v0.9.1 BETA3]||26.10.2008||Various fixes.||
 ||[http://download.flexget.com/FlexGet_(r349).zip FlexGet v0.9.1 BETA4]||01.11.2008||Fixes #113, #114||
 ||[http://download.flexget.com/FlexGet_(r353).zip FlexGet v0.9.1 BETA5]||04.11.2008||Fixes #118, #119, #120||
+[http://download.flexget.com All builds]
 [[BR]]
 = Introduction =
 
