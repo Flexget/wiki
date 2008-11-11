@@ -21,12 +21,13 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First release aiming to be stable.||
+||[http://download.flexget.com/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First release aiming to be stable. Latest beta might be better tough.||
 ||[http://download.flexget.com/flexget_(r342).zip FlexGet v0.9.1 BETA1]||21.10.2008||Fixes #89, #90, #92||
-||[http://download.flexget.com/FlexGet_(r344).zip FlexGet v0.9.1 BETA2]||22.10.2008||Fixes #98.||
+||[http://download.flexget.com/FlexGet_(r344).zip FlexGet v0.9.1 BETA2]||22.10.2008||Fixes #98||
 ||[http://download.flexget.com/FlexGet_(r347).zip FlexGet v0.9.1 BETA3]||26.10.2008||Various fixes.||
 ||[http://download.flexget.com/FlexGet_(r349).zip FlexGet v0.9.1 BETA4]||01.11.2008||Fixes #113, #114||
 ||[http://download.flexget.com/FlexGet_(r353).zip FlexGet v0.9.1 BETA5]||04.11.2008||Fixes #118, #119, #120||
+||[http://download.flexget.com/FlexGet_(r359).zip FlexGet v0.9.1 BETA6]||11.11.2008||Fixes #135, #133||
 [http://download.flexget.com All builds]
 [[BR]]
 = Introduction =
