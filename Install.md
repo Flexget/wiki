@@ -96,6 +96,14 @@ To run more often you may use crontab in form of:
 
 Where 30 is the time between executions.
 
+
+=== GUI way ===
+Instead of editing by hand, you could try one of these.
+
+[http://www.arquired.es/users/aldelgado/proy/gcrontab/ gcrontab] - GTK bases crontab editor
+[[BR]]
+[http://www.kde.org/ kcron] - the KDE crontab editor
+
 = Upgrading =
 
 Safest way to upgrade is to run your old version normally once, then update to new version and if problems arise run application with --reset parameter. This will reset session and learn all current matches as already downloaded items.
