@@ -88,9 +88,9 @@ feeds:
 
 Here we have a simple configuration file with two feeds called {{{tvrss combined}}}
 and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expects URL as a parameter.
-This produces !FlexGet [wiki:entry entries] from RSS feed. 
+This produces !FlexGet [wiki:Entry entries] from RSS feed. 
 
-Vegapunk has a filter module [wiki:FilterPatterns patterns] that expects list of regular expressions. If [wiki:entry] matches to any of these it will be accepted, if not then module will issue a filter command on it. TVRSS uses more sophisticated filter that is suitable for episodic tv-series called [wiki:FilterSeries series].
+Vegapunk has a filter module [wiki:FilterPatterns patterns] that expects list of regular expressions. If [wiki:Entry entry] matches to any of these it will be accepted, if not then module will issue a filter command on it. TVRSS uses more sophisticated filter that is suitable for episodic tv-series called [wiki:FilterSeries series].
 
 Last both have a download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
 
