@@ -26,6 +26,17 @@ configure module to use url from any feedparser entry attribute.
 
 {{{
 rss:
-  url: <ul>
+  url: <url>
   link: guid
+}}}
+
+You can disable few possibly annoying warnings by setting silent value to True on feeds where there are
+frequently invalid items.
+
+=== Example ===
+
+{{{
+rss:
+  url: <url>
+  silent: True
 }}}
