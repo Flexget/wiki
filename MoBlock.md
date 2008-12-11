@@ -1,0 +1,3 @@
+MoBlock is a linux console application that blocks connections from/to hosts listed in a file in one of the following formats: eMule "ipfilter.dat", "peerguardian .p2p text" or "peerguardian .p2b v2 binary.". It uses iptables ipqueue userspace library and it is very light in resource usage (cpu, ram). MoBlock is an open source IP filtering program similar to PeerGuardian for Linux. There are current plans between Phoenix Labs and Moblock to make it the official PeerGuardian for Linux. By default it downloads a very large blocklist in order to protect your privacy.
+
+[http://moblock-deb.sourceforge.net/]
