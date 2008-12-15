@@ -101,7 +101,9 @@ download: ~/download/
 The standard name matching is not perfect, if you're used to working with regexps you can
 specify regexp(s) that filter for the show's name, episode number or unique identifier.
 
-Example:
+'''Note:''' Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
+
+=== Example ===
 
 {{{
 series:
