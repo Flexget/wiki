@@ -1,6 +1,6 @@
-= Tips And Tricks =
+= Advanced Tips And Tricks =
 
-Here you can find some advanced YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well.
+Here you can find some advanced YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well. These are mainly for those who really like to tinker with application.
 
 == Defining download paths as variables (yaml-references) ==
 
@@ -33,7 +33,7 @@ Variables can also be defined on their first occurrence and then reused as neede
 ---
 feeds:
   feed A:
-    download:  &movies ~/torrents/movies
+    download: &movies ~/torrents/movies
   feed B:
     download: *movies
   feed C:
