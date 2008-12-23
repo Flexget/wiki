@@ -2,11 +2,15 @@
 
 == What are they for ==
 
-Many RSS-feeds (or other inputs) do not provide URLs directly to a torrent-file, but instead a download page of some site. This makes these feeds almost useless for automating downloading. !FlexGet overcomes this by providing clean and easy way to add custom functionality for such sites.
+Many RSS-feeds (or other inputs) don't provide URLs directly to a torrent-file, but instead a download page of some another site. This makes these feeds almost useless for automating downloading in most of the applications. !FlexGet overcomes this by providing clean and easy way to add custom functionality for any such site.
+
+== Role ==
+
+It's important to differentiate resolver from input modules. Input modules are configured and create !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss], [wiki:InputHtml html]). Resolvers work without any configuration and only modify [wiki:Entry entries].
 
 == How they work ==
 
-Resolvers are modules that detect if an [wiki:Entry entry] URL points to a download page instead of actual content. When such an URL is detected, the resolver will step in and modify the URL so that it points to the actual content. This is usually archieved by editing URL or by requesting the page and finding the download link from there.
+Resolvers are modules that detect if an any [wiki:Entry entries] in feed point to a download page instead of actual content. When such an [wiki:Entry entry] URL is detected, the resolver will step in and modify the URL so that it points into the actual desired content. This is usually archieved by editing URL or by requesting the download page and finding the correct download link from there.
 
 === Currently supported ===
 
