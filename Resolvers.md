@@ -6,11 +6,11 @@ Many RSS-feeds (or other inputs) don't provide URLs directly to a torrent-file, 
 
 == Role ==
 
-It's important to differentiate resolver from input modules. Input modules are configured and create !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss], [wiki:InputHtml html]). Resolvers work without any configuration and only modify [wiki:Entry entries].
+It's important to differentiate resolver from input modules. Input modules are configured and created !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss], [wiki:InputHtml html]). Resolvers work without any configuration and only modify [wiki:Entry entries].
 
 == How they work ==
 
-Resolvers are modules that detect if an any [wiki:Entry entries] in feed point to a download page instead of actual content. When such an [wiki:Entry entry] URL is detected, the resolver will step in and modify the URL so that it points into the actual desired content. This is usually archieved by editing URL or by requesting the download page and finding the correct download link from there.
+Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed point to a download page instead of actual content. When such a [wiki:Entry entry] is detected, the resolver will step in and modify the URL so that it points into the actual desired content. This is usually archived by editing URL or by requesting the download page and finding the correct download link from there.
 
 === Currently supported ===
 
