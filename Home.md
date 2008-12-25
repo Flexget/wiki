@@ -21,8 +21,8 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First release aiming to be stable. Latest beta might be better tough.||
-||[http://download.flexget.com/FlexGet_(r360).zip FlexGet v0.9.1 BETA7]||04.12.2008||Patches #145, #144 (#135, #133, #118, #119, #120, #113, #114, #89, #90, #92, #98)||
+||[http://download.flexget.com/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First release aiming to be stable. Latest is likely to be better tough.||
+||[http://download.flexget.com/FlexGet_(r368).zip FlexGet v0.9.1 BETA8]||26.12.2008||Patches #124, #129, #150, #151, #153, #93, #91, (#145, #144 #135, #133, #118, #119, #120, #113, #114, #89, #90, #92, #98)||
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 [[BR]]
 = Introduction =
