@@ -96,7 +96,7 @@ For more information about how !FlexGet works, check available [wiki:Modules mod
 
  * Improve this wiki
  * Write and submit more creative modules (must be MIT-license compatible)
-   * Tip: Resolvers for [http://torrentfreak.com/bittorrent-sites-show-explosive-growth-080322/ popular sites]
+   * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
  * Enlist as active developer, help is always welcomed!
  * Report errors you encounter
  * Feedback on areas that you find troublesome
