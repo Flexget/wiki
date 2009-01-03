@@ -24,7 +24,7 @@ feeds:
 
 == Feed configuration ==
 
-This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed ("my feed" has "rss").
+This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entries entries) from entire RSS feed.
 
 {{{
 feeds:
@@ -32,7 +32,7 @@ feeds:
     rss: http://example.com/rss
 }}}
 
-And if you don't want to get everything in the RSS feed, you'll need to filter out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. Notice how patterns parameters are indented once again by 2 additional spaces. This is because they belong to patterns.
+If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. Notice how patterns list is indented once again by 2 additional spaces. This is because they belong to patterns.
 
 {{{
 feeds:
@@ -43,7 +43,7 @@ feeds:
       - another.interesting.show
 }}}
 
-And you probably want to download the result as well, so let's throw [wiki:OutputDownload download] module in as well.
+And you probably want to download the result as well, so let's throw output module [wiki:OutputDownload download] in as well.
 
 {{{
 feeds:
@@ -57,7 +57,7 @@ feeds:
 
 When you create or modify configuration try running !FlexGet with --check parameter. It will go trough configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
 
-If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality you may wish to use [wiki:FilterSeries series] filter instead of patterns.
+If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with tv-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
 
 Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file. You can also [wiki:Install#Manualexecution execute your configuration file] now.
 
