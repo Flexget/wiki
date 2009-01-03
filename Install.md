@@ -56,6 +56,8 @@ If you want to have additional details about the process, use parameter {{{-d}}}
 
 = Scheduling =
 
+Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.
+
 == Windows ==
 
 There are few tricks with scheduling !FlexGet under Windows. At first glance "Scheduled Tasks" does not seem to allow execution intervals more frequently than once per day. There is however way to do it, and it is explained very well in [http://lonewolf-online.net/computers/kb/windows/guide-windows-task-scheduler/ here].[[BR]]''Note: Please add more / improve instructions if you install !FlexGet on windows.''
@@ -63,8 +65,6 @@ There are few tricks with scheduling !FlexGet under Windows. At first glance "Sc
 == Linux, OSX and similar ==
 
 Running !FlexGet should be easy, it's designed to be executed from user crontab (daemon mode later perhaps).
-
-Before installing !FlexGet into crontab must [wiki:Configuration write a configuration file] and test that configuration file works.
 
 To change default editor for crontab, you can use command:
 
@@ -96,8 +96,8 @@ To run more often you may use crontab in form of:
 
 Where 30 is the time between executions.
 
-
 === GUI way ===
+
 Instead of editing by hand, you could try one of these.
 
 [http://www.arquired.es/users/aldelgado/proy/gcrontab/ gcrontab] - GTK bases crontab editor
