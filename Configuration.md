@@ -24,7 +24,7 @@ feeds:
 
 == Feed configuration ==
 
-This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entries entries) from entire RSS feed.
+This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
 
 {{{
 feeds:
