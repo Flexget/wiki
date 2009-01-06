@@ -6,7 +6,7 @@ Many RSS-feeds (or other inputs) don't provide URLs directly to a torrent-file, 
 
 == Role ==
 
-It's important to differentiate resolver from input modules. Input modules are configured and created !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss], [wiki:InputHtml html]). Resolvers work without any configuration and only modify [wiki:Entry entries].
+It's important to differentiate resolver from input modules. Input modules require configuration and create !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss feeds] or [wiki:InputHtml html pages]). Resolvers work without any configuration and only modify [wiki:Entry entries].
 
 == How they work ==
 
@@ -20,6 +20,8 @@ Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed p
  * !BtJunkie
  * !BtChat
  * Mininova
+ * Demonoid
+ * Redskunk
 
 == Not on the list? Make your own ==
 
