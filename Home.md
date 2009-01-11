@@ -23,9 +23,7 @@
 '''0.9.1 BETA8 was completely broken.''' Please switch to older or newer version.
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/0.9/flexget_(r332).zip FlexGet v0.9]||16.10.2008||First release aiming to be stable. Latest beta is likely to be better tough.||
-||[http://download.flexget.com/FlexGet_(r383).zip FlexGet v0.9.1 RC1]||03.01.2009||'''Recommended.''' Patches #148, #149, #166, #163, #165, #159, (#124, #129, #150, #151, #153, #93, #91, #145, #144 #135, #133, #118, #119, #120, #113, #114, #89, #90, #92, #98). If no more bugs are found, this will be 0.9.1 release.||
-
+||[http://download.flexget.com/0.9/FlexGet_0.9.1.zip FlexGet v0.9.1]||12.01.2009||Should be best release so far, a lot of bug fixes went into this.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 [[BR]]
