@@ -20,12 +20,12 @@
 
 = Releases =
 
-'''0.9.1 BETA8 was completely broken.''' Please switch to older or newer version.
-
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
 ||[http://download.flexget.com/0.9/FlexGet_0.9.1.zip FlexGet v0.9.1]||12.01.2009||Should be best release so far, a lot of bug fixes went into this.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
+[[BR]][[BR]]
+'''Old users should check out''' [wiki:ReleaseChanges release and subversion changes].
 [[BR]]
 = Introduction =
 
