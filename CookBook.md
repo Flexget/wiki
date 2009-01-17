@@ -16,9 +16,9 @@ Feel free to add your own recipes.
 feeds:
   flexget:
     interval: 3 days
-    html: http://download.flexget.com
+    html: http://download.flexget.com/0.9/
     patterns:
-      - flexget_\(r\d*\)
+      - flexget
     download: ~/flexget/
 }}}
 
