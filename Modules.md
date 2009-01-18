@@ -46,22 +46,22 @@ If you plan to use multiple filters per feed, you should look [wiki:FilterOperat
 Execute operation(s) to entries that pass trough filter(s).
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:OutputDownload download]||Download entries and store them in filesystem.||
-||[wiki:OutputRSS make_rss]||Generate RSS-feed from passed entries.||
+||[wiki:OutputDownload download]||Download passed entries into given path.||
+||[wiki:OutputRSS make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:OutputStatistics statistics]||Output statistics about downloaded entries.||
 ||[wiki:OutputSubtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
-||[wiki:OutputExec exec]||Execute command for entries reaching output.||
-||[wiki:OutputEmail email]||Send email when new content is downloaded.||
+||[wiki:OutputExec exec]||Execute command for passed entries.||
+||[wiki:OutputEmail email]||Send email when new content is passed.||
 
 === Modify / Other ===
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:ModuleSearch search]||Search for download url from supported sites.||
+||[wiki:ModuleSearch search]||Search for download URL from supported sites.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
-||[wiki:ModuleCookies cookies]||Enable cookies for all http-requests.||
-||[wiki:ModifyExtension extension]||Force file extension.||
-||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from torrent.||
-||[wiki:ModuleCliConfig cli_config]||Allow using variables in YML-configuration file and set values trough commandline.||
+||[wiki:ModuleCookies cookies]||Enable cookies for all HTTP-requests.||
+||[wiki:ModifyExtension extension]||Force a file extension.||
+||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
+||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 
 === Notes ===
 
