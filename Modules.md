@@ -1,6 +1,6 @@
 = Modules =
 
-Modules provide all functionality to !FlexGet. Most modules create, manipulate or download [wiki:Entry entries]. Some modules change way how !FlexGet operates.
+Modules provide most of the functionality in !FlexGet. Modules usually create, manipulate or download [wiki:Entry entries]. Some modules change how !FlexGet operates.
 
 Module is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
 
