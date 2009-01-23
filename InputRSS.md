@@ -8,6 +8,8 @@ Parses RSS feed.
 rss: <url>
 }}}
 
+Note: https supported.
+
 == Basic http authentication ==
 
 {{{
@@ -39,4 +41,15 @@ frequently invalid items.
 rss:
   url: <url>
   silent: True
+}}}
+
+== Read from a file ==
+
+You can also use local file instead of url.
+
+=== Example ===
+
+{{{
+rss:
+  url: /path/to/rss/something.xml
 }}}
