@@ -22,7 +22,7 @@
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
 ||[http://download.flexget.com/0.9/FlexGet_0.9.1.zip FlexGet v0.9.1]||12.01.2009||Should be best release so far, a lot of bug fixes went into this.||
-||[http://download.flexget.com/FlexGet_(r397).zip FlexGet v0.9.2 BETA1]||23.01.2009||Includes fix for FilterSeries settings block and few minor tweaks.||
+||[http://download.flexget.com/FlexGet_(r398).zip FlexGet v0.9.2 Latest BETA]||23.01.2009||Fixes #192. Includes fix for FilterSeries settings block and few minor tweaks.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 [[BR]][[BR]]
