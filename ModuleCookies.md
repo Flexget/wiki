@@ -10,7 +10,9 @@ cookies:
   file: /path/to/cookie
 }}}
 
-Possible cookie types are: mozilla, msie, lpw
+Possible cookie types are: mozilla, ~~msie, lpw~~
+
+'''Note:''' Only mozilla cookies are supported right now, there is a ticket open for this issue (#38).
 
 == Note ==
 
