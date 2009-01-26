@@ -27,6 +27,6 @@ Mozilla cookies-file '''must begin'' with following lines or it doesn't load. Us
 # To delete cookies, use the Cookie Manager.
 }}}
 
-Cookie items in line '''must be separated with tab'', not by spaces.
+Cookie items in line '''must be separated with tab''', not by spaces.
 
 These inconveniences will be addressed in ticket #38, blame pythons cookielib ... 
