@@ -14,7 +14,9 @@ Possible cookie types are: mozilla, ~~msie, lpw~~
 
 '''Note:''' Only mozilla cookies are supported right now, there is a ticket open for this issue (#38).
 
-== Note ==
+== Notes ==
+
+!FireFox3 doesn't store cookies anymore in a {{{cookies.txt}}} so you need to export this by using some sort of utility. Take a look at https://addons.mozilla.org/en-US/firefox/addon/8154.
 
 Mozilla cookies-file must begin with following lines or it doesn't load. Usually this is the case, but not always.
 
