@@ -63,7 +63,7 @@ Continue into [wiki:Modules modules] to learn all about modules you may use in y
 
 == Still confused about Yaml? ==
 
-Please note that each indentation level in given documentation is required and must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are spaces even required in Yaml? They are used for semantics or '''relation'''. Consider example:
+Please note that each indentation level must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are indentation even required in Yaml? It is used for semantics or '''relation'''. Consider example:
 
 {{{
 pets:
