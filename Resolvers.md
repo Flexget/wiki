@@ -10,7 +10,7 @@ It's important to differentiate resolver from input modules. Input modules requi
 
 == How they work ==
 
-Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed point to a download page instead of actual content. When such a [wiki:Entry entry] is detected, the resolver will step in and modify the URL so that it points into the actual desired content. This is usually archived by editing URL or by requesting the download page and finding the correct download link from there.
+Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed point to a download page instead of actual content. When such a [wiki:Entry entry] is detected, the resolver will step in and modify the URL so that it points into the actual desired content. This is usually achieved by editing URL or by requesting the download page and finding the correct download link from there.
 
 === Currently supported ===
 
