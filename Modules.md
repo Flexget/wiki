@@ -31,6 +31,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered.||
 ||[wiki:FilterUnconditionally accept]||Accept entries based on regexp.||
 ||[wiki:FilterIgnore ignore]||Reject entries based on regexp.||
+||[wiki:FilterRegexp regexp]||Second generation regexp filtering module, will replace accept, patterns and ignore modules in future.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterSeries series]||Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
@@ -62,6 +63,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModifyExtension extension]||Force a file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
+||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) in real-time.||
 
 === Notes ===
 
