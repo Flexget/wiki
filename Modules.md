@@ -64,6 +64,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) in real-time.||
+||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
 
 === Notes ===
 
@@ -95,17 +96,3 @@ This produces !FlexGet [wiki:Entry entries] from RSS feed.
 Vegapunk has a filter module [wiki:FilterPatterns patterns] that expects list of regular expressions. If [wiki:Entry entry] matches to any of these it will be accepted, if not then module will issue a filter command on it. TVRSS uses more sophisticated filter that is suitable for episodic tv-series called [wiki:FilterSeries series].
 
 Last both have a download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
-
-== Builtin modules (advanced users, rarely needed) ==
-
-When module is ''builtin'' it is always enabled even when it is not present in a configuration file. Builtin modules are 
-needed in almost every situation ([wiki:FilterSeen seen]) or they make sure specific content is formatted 
-properly and do not intervene in other cases ([wiki:ModifyTorrent torrent]).
-
-=== How to disable builtins ===
-
-You can disable builtin modules in a feed by placing following keyword.
-
-{{{
-disable_builtins: true
-}}}
