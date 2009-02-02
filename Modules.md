@@ -28,9 +28,9 @@ Produce [wiki:Entry entries] from external source.
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered.||
-||[wiki:FilterUnconditionally accept]||Accept entries based on regexp.||
-||[wiki:FilterIgnore ignore]||Reject entries based on regexp.||
+||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered. [wiki:ToBeRemoved Deprecated]||
+||[wiki:FilterUnconditionally accept]||Accept entries based on regexp. [wiki:ToBeRemoved Deprecated]||
+||[wiki:FilterIgnore ignore]||Reject entries based on regexp. [wiki:ToBeRemoved Deprecated]||
 ||[wiki:FilterRegexp regexp]||Second generation regexp filtering module, will replace accept, patterns and ignore modules in future.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterSeries series]||Accept TV-serie episodes. Quality and episode number aware.||
@@ -63,7 +63,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModifyExtension extension]||Force a file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
-||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) in real-time.||
+||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) interactively.||
 ||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
 
 === Notes ===
