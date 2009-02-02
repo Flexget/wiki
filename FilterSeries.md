@@ -172,3 +172,5 @@ settings:
       hours: 3
       enough: 720p
 }}}
+
+[wiki:ToBeRemoved TO BE REMOVED]. Will be replaces with better alternative because of some [wiki:SettingsBlockProblems problems].
