@@ -8,10 +8,10 @@ If you're familiar with subversion and want to stay in bleeding edge you can che
 svn co http://svn.flexget.com/trunk flexget-dev
 }}}
 
-For more stable release you may wish to checkout from branch 0.9 which will be in stable mode until 1.0 is released.
+For more stable release you may wish to checkout from branch 0.9 which will be in more stable mode until 1.0 is released. After 1.0 release this branch will no longer be updated.
 
 {{{
-svn co http://svn.flexget.com/branches/0.9/ flexget-0.9
+svn co http://svn.flexget.com/branches/0.9 flexget-0.9
 }}}
 
 == Update from SVN ==
