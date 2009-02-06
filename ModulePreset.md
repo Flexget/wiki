@@ -32,6 +32,8 @@ feeds:
   third_feed:
     rss: http://example3.com
     preset: [global, movies]
-}}}
 
-Built-in, uses global by default (ie. without any configuration).
+  # this will use global because preset is built in (always enabled) and has default value of global
+  fourth_feed:
+    rss: http://example4.com
+}}}
