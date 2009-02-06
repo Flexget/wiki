@@ -19,4 +19,4 @@ feeds:
     preset: [global, my_series]
 }}}
 
-Built-in, uses global by default.
+Built-in, uses global by default (ie. without any configuration).
