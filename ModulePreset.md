@@ -8,7 +8,7 @@ Works exactly like classic global section, but allows multiple different presets
 global:
   download: ~/download/
 
-my_series:
+tv:
   series:
     - foo
     - bar  
@@ -23,7 +23,7 @@ movies:
 feeds:
   some_feed:
     rss: http://example.com
-    preset: [global, my_series]
+    preset: [global, tv]
 
   another_feed:
     rss: http://example2.com
