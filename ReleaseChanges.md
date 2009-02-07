@@ -20,7 +20,7 @@ If you want to be bleeding edge beta tester feel free to switch or stay on trunk
 
  * Run !FlexGet once before upgrade
  * Issue {{{svn up}}}
- * Execute !FlexGet with {{{--learn}}}
+ * Execute !FlexGet again to verify it works correctly
 
 == Cook book recipe ==
 
