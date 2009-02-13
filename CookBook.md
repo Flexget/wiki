@@ -116,3 +116,35 @@ feeds:
       - fourth series
     download: ~/series
 }}}
+
+
+== Real-world example ==
+
+{{{
+feeds:
+  tvrss combined:
+    rss: http://tvrss.net/feed/unique/
+    series:
+      - south park
+    download: ~/torrents
+
+  vegapunk:
+    rss: http://bt.vegapunk.com/rss/rss.xml
+    patterns:
+      - ^\[vegapunk\].*one.piece.*\d\d\d.HD
+    download: ~/torrents
+
+  baka:
+    rss: 
+      url: http://www.baka-updates.com/rss.php
+      link: feedburner_origlink
+      ascii: True
+    regexp:
+      accept:
+        - SoulEaterFan.*Soul.Eater
+        - ANBU.*Tytania.*HQ.*
+      rest: filter
+    download: ~/torrents
+}}}
+
+Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
