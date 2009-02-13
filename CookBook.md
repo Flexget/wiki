@@ -1,14 +1,8 @@
+[[PageOutline]]
+
 = CookBook = 
 
 Feel free to add your own recipes.
-
-== Index ==
-
- * [wiki:CookBook#DownloadFlexGetReleases Download FlexGet releases]
- * [wiki:CookBook#DownloadDVDRipsFromRlsLog Download DVDRips from RlsLog.net]
- * [wiki:CookBook#DownloadHeroesComics Download Heroes Comics]
- * [wiki:CookBook#GenerateRSS Generate RSS feed for other clients]
-
 
 == Download !FlexGet Releases ==
 
