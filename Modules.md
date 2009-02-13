@@ -87,12 +87,25 @@ feeds:
     patterns:
       - ^\[vegapunk\].*one.piece.*\d\d\d.HD
     download: ~/torrents
+
+  baka:
+    rss: 
+      url: http://www.baka-updates.com/rss.php
+      link: feedburner_origlink
+      ascii: True
+    regexp:
+      accept:
+        - SoulEaterFan.*Soul.Eater
+        - ANBU.*Tytania.*HQ.*
+      rest: filter
+    download: ~/torrents
 }}}
 
-Here we have a simple configuration file with two feeds called {{{tvrss combined}}}
-and {{{vegapunk}}}. Both have single input module [wiki:InputRSS RSS] that expects URL as a parameter.
+Here we have a simple configuration file with three feeds called {{{tvrss combined}}}, {{{vegapunk}}} and {{{baka}}}. They have a single input module [wiki:InputRSS RSS] that expects URL as a parameter.
 This produces !FlexGet [wiki:Entry entries] from RSS feed. 
 
 Vegapunk has a filter module [wiki:FilterPatterns patterns] that expects list of regular expressions. If [wiki:Entry entry] matches to any of these it will be accepted, if not then module will issue a filter command on it. TVRSS uses more sophisticated filter that is suitable for episodic tv-series called [wiki:FilterSeries series].
 
-Last both have a download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
+Baka uses the newer filter module [wiki:FilterRegexp regexp] that expects list of regular expressions to accept, reject or filter. In the example, if an [wiki:Entry entry] matches any of the patterns it will be accepted, if not then module passes it through for other modules to filter. The regular expressions listed are loose and the patterns are searched across the entire strings, so a pattern like 'Soul' will match any [wiki:InputRSS RSS] with the word 'Soul' in it. It also uses parameters for the [wiki:InputRSS RSS] module to force the feed to ASCII and use a different RSS field for the torrent URL.
+
+Last all the examples have a download module that simply downloads all remaining [wiki:Entry entries] and saves them to given path.
