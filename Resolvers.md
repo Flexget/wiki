@@ -2,7 +2,7 @@
 
 == What are they for ==
 
-Many RSS-feeds (or other inputs) don't provide URLs directly to a torrent-file, but instead a download page of some another site. This makes these feeds almost useless for automating downloading in most of the applications. !FlexGet overcomes this by providing clean and easy way to add custom functionality for any such site.
+Many RSS-feeds (and other inputs) don't provide URLs directly to a torrent-file, but instead point into a download page in another site. This makes these feeds almost useless for automating downloading in most of the applications. !FlexGet overcomes this by providing clean and easy way to add custom functionality for such sites.
 
 == Role ==
 
