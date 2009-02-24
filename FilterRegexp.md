@@ -62,7 +62,7 @@ regexp:
     - pattern 3:
         [not]:
           - pattern 4
-        path: <custom path>
+        [path]: <custom path>
   [rest]: <operation>
 }}}
 
