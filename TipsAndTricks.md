@@ -71,14 +71,15 @@ In above example {{{feed B}}} also has everything configured in {{{feed A}}}. La
 
 == Making single must have list ==
 
-You can use global section and [wiki:FilterUnconditionally] to make a neat must-have list.
+You can use global section and [wiki:FilterRegexp] to make a neat must-have list.
 
 {{{
 global:
-  unconditionally:
-    - must have this
-    - and that
-    - and even this
+  regexp:
+    accept:
+      - must have this
+      - and that
+      - and even this
 feeds:
   .
   .
