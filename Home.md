@@ -21,7 +21,7 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/0.9/FlexGet_0.9.2.zip FlexGet v0.9.2]||27.02.2009||Fixes #215, #212, #208, #207, #201, #182, #203, #99, #103, #188, #190, #192, #193, #196. Also includes fixes for FilterSeries settings block and InputRlsLog combined with FilterImdb.||
+||[http://download.flexget.com/0.9/FlexGet_0.9.2.zip FlexGet v0.9.2]||27.02.2009||Fixes #215, #212, #208, #207, #201, #182, #203, #99, #103, #188, #192, #193, #196. Also includes fixes for FilterSeries settings block and InputRlsLog combined with FilterImdb.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 [[BR]][[BR]]
