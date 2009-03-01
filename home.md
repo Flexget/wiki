@@ -21,7 +21,7 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/0.9/FlexGet_0.9.2.1.zip FlexGet v0.9.2.1]||02.03.2009||Fixes download from urls that need encoding. 0.9.2 Fixed #213, #212, #208, #207, #201, #182, #203, #99, #103, #188, #192, #193, #196. Also included fixes for FilterSeries settings block and InputRlsLog combined with FilterImdb.||
+||[http://download.flexget.com/0.9/FlexGet_0.9.2.1.zip FlexGet v0.9.2.1]||02.03.2009||Fixes download from urls that need encoding.0.9.2 Fixed #213, #212, #208, #207, #201, #182, #203, #99, #103, #188, #192, #193, #196.[[BR]]Also included fixes for FilterSeries settings block and InputRlsLog combined with FilterImdb.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 [[BR]][[BR]]
