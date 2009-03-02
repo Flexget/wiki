@@ -59,7 +59,14 @@ When you create or modify configuration try running !FlexGet with --check parame
 
 If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with tv-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
 
-Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file. You can also [wiki:Install#Manualexecution execute your configuration file] now.
+'''Test your configuration file:'''
+
+{{{
+./flexget.py --test
+}}}
+
+Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file.
+
 
 == Still confused about Yaml? ==
 
