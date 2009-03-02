@@ -148,6 +148,7 @@ Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:Fi
 Regexp is used to reject all entries which do '''not''' have 720 in their information.
 
 {{{
+feeds:
   tvrss combined:
     rss: http://tvrss.net/feed/unique/
     regexp:
