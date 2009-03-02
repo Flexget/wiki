@@ -15,18 +15,17 @@ First you need to download !FlexGet. You can download !FlexGet distributions fro
 == Recommended ==
 
 [http://www.feedparser.org/ feedparser] - required for RSS sources[[BR]]
-[http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] - required for most modules that use any HTML pages.
 
 == Debian, Ubuntu and similar ==
 
 On Debian and Ubuntu you can use apt-get to install all these:
 
 {{{
-sudo apt-get install python-yaml python-beautifulsoup python-feedparser
+sudo apt-get install python-yaml python-feedparser
 }}}
 
 For other distributions check their package management. If it does not have these packages available you can still install 
-them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] Python installation module. [http://pyyaml.org/ PyYAML], [http://www.crummy.com/software/BeautifulSoup/ BeautifulSoup] and [http://www.feedparser.org/ feedparser] are available.
+them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] Python installation module. [http://pyyaml.org/ PyYAML] and [http://www.feedparser.org/ feedparser] are available.
 
 == Windows ==
 
