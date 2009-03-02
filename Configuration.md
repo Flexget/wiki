@@ -115,12 +115,4 @@ pets:
           taste: chicken
 }}}
 
-This becomes problematic, perhaps something like ...
-
-{{{
-pets.dog.name=barky
-pets.dog.age=2
-pets.dog.toys=bone:[length=10cm, taste=chicken], ball:[dimensions:[length=10cm, height=2cm], taste=chicken]
-}}}
-
-Which is more readable?
+And you have nice mess in your hands ...
