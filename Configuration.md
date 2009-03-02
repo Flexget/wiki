@@ -115,7 +115,7 @@ pets:
           taste: chicken
 }}}
 
-This would be something like ...
+This becomes problematic, perhaps something like ...
 
 {{{
 pets.dog.name=barky
