@@ -145,7 +145,7 @@ Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:Fi
 
 == Series - get only certain quality ==
 
-This reject all entries which do '''not''' have 720 in their information.
+Regexp is used to reject all entries which do '''not''' have 720 in their information.
 
 {{{
   tvrss combined:
