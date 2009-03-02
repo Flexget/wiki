@@ -91,8 +91,9 @@ feeds:
 
 Uses: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
 
+== Series - simple example ==
 
-== Series example ==
+Just change feed names, rss urls and serie names :)
 
 {{{
 feeds:
@@ -111,6 +112,23 @@ feeds:
     download: ~/series
 }}}
 
+== Series - get only certain quality ==
+
+Regexp is used to reject all entries which do '''not''' have 720 in their information.
+
+{{{
+feeds:
+  tvrss combined:
+    rss: http://tvrss.net/feed/unique/
+    regexp:
+      reject_excluding: [720]
+    series:
+      - dollhouse
+      - chuck
+    download: ~/torrents
+}}}
+
+Uses: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
 
 == Real-world example ==
 
@@ -142,21 +160,3 @@ feeds:
 }}}
 
 Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
-
-== Series - get only certain quality ==
-
-Regexp is used to reject all entries which do '''not''' have 720 in their information.
-
-{{{
-feeds:
-  tvrss combined:
-    rss: http://tvrss.net/feed/unique/
-    regexp:
-      reject_excluding: [720]
-    series:
-      - dollhouse
-      - chuck
-    download: ~/torrents
-}}}
-
-Uses: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
