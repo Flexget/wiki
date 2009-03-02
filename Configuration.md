@@ -78,23 +78,49 @@ pets:
     name: furry
     age: 5
   dog:
-    name: barks a lot
+    name: barky
     age: 2
     toys:
       - bone
       - ball
 }}}
 
-Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys. If we were to use more conventional configuration file format it would be much messier to represent item relations.
+Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys. If we were to use more conventional configuration file format it would be much messier to represent complex relations.
 
-Some other file formats could represent this in form:
+Some other configuration files might represent previous example in following form:
 
 {{{
 pets.cat.name=furry
 pets.cat.age=5
-pets.dog.name=barks a lot
+pets.dog.name=barky
 pets.dog.age=2
 pets.dog.toys=bone, ball
 }}}
 
-But this gets quite difficult to follow in more complex situations.
+But consider more complex situation ...
+
+{{{
+pets:
+  dog:
+    name: barky
+    age: 2
+    toys:
+      - ball:
+          color: blue
+          size: 70mm
+      - bone:
+          dimensions:
+            length: 10cm
+            height: 2cm
+          taste: chicken
+}}}
+
+This would be something like ...
+
+{{{
+pets.dog.name=barky
+pets.dog.age=2
+pets.dog.toys=bone:[length=10cm, taste=chicken], ball:[dimensions:[length=10cm, height=2cm], taste=chicken]
+}}}
+
+Which is more readable?
