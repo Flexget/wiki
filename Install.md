@@ -61,7 +61,7 @@ Before scheduling !FlexGet you must must [wiki:Configuration write a configurati
 
 There are few tricks with scheduling !FlexGet under Windows. At first glance "Scheduled Tasks" does not seem to allow execution intervals more frequently than once per day. There is however way to do it, and it is explained very well in [http://lonewolf-online.net/computers/kb/windows/guide-windows-task-scheduler/ here].[[BR]]''Note: Please add more / improve instructions if you install !FlexGet on windows.''
 
-== Linux, OSX and similar ==
+== Linux, using cron ==
 
 Running !FlexGet should be easy, it's designed to be executed from user crontab (daemon mode later perhaps).
 
@@ -102,6 +102,40 @@ Instead of editing by hand, you could try one of these.
 [http://www.arquired.es/users/aldelgado/proy/gcrontab/ gcrontab] - GTK bases crontab editor
 [[BR]]
 [http://www.kde.org/ kcron] - the KDE crontab editor
+
+== OS X (Tiger, Leopard) using launchd ==
+
+Launchd is what you should be using on OS X.
+
+Create a new file named '''~/Library/LaunchAgents/com.flexget.plist''' and paste the following text into it:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>  
+        <key>Label</key>
+        <string>com.flexget</string>
+        <key>ProgramArguments</key>
+        <array> 
+                <string>/usr/local/lib/flexget/flexget.py</string>
+                <string>-q</string>
+        </array>
+        <key>LowPriorityIO</key>
+        <true/>
+        <key>Nice</key>
+        <integer>1</integer>
+        <key>StartCalendarInterval</key>
+        <dict>  
+                <key>Minute</key>
+                <integer>50</integer>
+        </dict>
+</dict>
+</plist>
+}}}
+
+It will now run each hour at the 50 minute mark. (14.50, 15.50, ...)
 
 = Upgrading =
 
