@@ -114,7 +114,7 @@ Instead of editing by hand, you could try one of these.
 
 == OS X (Tiger, Leopard) using launchd ==
 
-Launchd is what you should be using on OS X.
+[http://en.wikipedia.org/wiki/Launchd Launchd] is what you should be using on OS X.
 
 Create a new file named '''~/Library/LaunchAgents/com.flexget.plist''' and paste the following text into it:
 
