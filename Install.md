@@ -144,6 +144,12 @@ Create a new file named '''~/Library/LaunchAgents/com.flexget.plist''' and paste
 </plist>
 }}}
 
+Now, log out and back in, or run the following:
+
+{{{
+sudo launchctl load ~/Library/LaunchAgents/com.flexget.plist
+}}}
+
 It will now run each hour at the 50 minute mark. (14.50, 15.50, ...)
 
 = Upgrading =
