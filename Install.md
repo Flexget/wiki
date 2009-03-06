@@ -27,6 +27,15 @@ sudo apt-get install python-yaml python-feedparser
 For other distributions check their package management. If it does not have these packages available you can still install 
 them manually by following instructions at library site in question. Or you could use the [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] Python installation module. [http://pyyaml.org/ PyYAML] and [http://www.feedparser.org/ feedparser] are available.
 
+== OS X ==
+
+On Mac OS X, you can use [http://www.macports.org/install.php MacPorts] to install PyYAML:
+
+{{{
+sudo port install py25-yaml
+}}}
+
+
 == Windows ==
 
 Installing libraries on windows may be a bit more troublesome, your best shot is to install [http://peak.telecommunity.com/DevCenter/EasyInstall Easy Install] and install require libraries by using it.[[BR]]''Note: Please add more / improve instructions if you install !FlexGet on windows.''
