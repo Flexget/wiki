@@ -37,7 +37,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
-||[wiki:FilterSeen seen]||Reject already downloaded entries (always enabled).||
+||[wiki:FilterSeen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements.||
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
