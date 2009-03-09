@@ -49,16 +49,16 @@ The enough parameter will specify quality that you find good enough to start
 downloading without waiting whole timeframe. If qualities meeting enough parameter
 and above are available, !FlexGet will prefer the enough. Ie. if enough value is set
 to 'hdtv' and qualities dsr, hdtv and 720p are available, hdtv will be chosen.
-If we take hdtv off from list, 720p would be downloaded.
+If we take hdtv off from list, 720p would be downloaded. Note that the enough value does '''not''' guarantee that the downloaded episode is what has been specified. It can be higher and lower. This is somewhat confusing to use and will be made more user friendly in 1.0 release.
 
-Enough has default value of 720p. If you're only interested in 720p quality you can take advantage of this.
+Enough has default value of 720p. If you're only interested in 720p quality you can take advantage of this and leave enough out completely.
 
 '''Example:''
 
 {{{
 series:
-  - first series: { timeframe: 48 }
-  - another series: { timeframe: 16 }
+  - first series: { timeframe: { hours: 48 } }
+  - another series: { timeframe: { hours: 16 } }
   - third series
 }}}
 
