@@ -16,7 +16,7 @@ Possible cookie types are: mozilla, ~~msie, lpw~~
 
 == Important ==
 
-!FireFox3 doesn't store cookies anymore in a {{{cookies.txt}}} so you need to export this by using some sort of utility. Take a look at https://addons.mozilla.org/en-US/firefox/addon/8154.
+!FireFox3 doesn't store cookies anymore in a {{{cookies.txt}}} so they must be exported by using utility (example: https://addons.mozilla.org/en-US/firefox/addon/8154).
 
 Mozilla cookies-file '''must begin'' with following lines or it doesn't load. Usually this is the case, but not always.
 
@@ -27,6 +27,6 @@ Mozilla cookies-file '''must begin'' with following lines or it doesn't load. Us
 # To delete cookies, use the Cookie Manager.
 }}}
 
-Cookie values in a single line '''must be separated with tab''', not by spaces.
+If you edit the file note that values '''must be separated with tab''', not by spaces.
 
-These inconveniences will be addressed in ticket #38, blame pythons cookielib ... 
+These inconveniences will be addressed in the future ...
