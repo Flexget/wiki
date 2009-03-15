@@ -55,7 +55,7 @@ feeds:
     download: /home/myself/podcasts/
 }}}
 
-When you create or modify configuration try running !FlexGet with --check parameter. It will go trough configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
+When you create or modify configuration try running !FlexGet with --check parameter. It will go through configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
 
 If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with tv-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
 
