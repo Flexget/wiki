@@ -18,6 +18,8 @@ feeds:
 
 Execute !FlexGet once with parameters:
 
+If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] module.
+
 {{{
 flexget.py --feed flexget --learn
 }}}
