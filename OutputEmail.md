@@ -1,5 +1,7 @@
 = Email =
 
+''TODO (anyone): Supports SSL as well, update document''
+
 Send an e-mail with the list of all succeeded (downloaded) entries.
 
 {{{
