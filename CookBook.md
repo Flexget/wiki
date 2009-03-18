@@ -18,13 +18,13 @@ feeds:
 
 Execute !FlexGet once with parameters:
 
-If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] module.
-
 {{{
 flexget.py --feed flexget --learn
 }}}
 
 This will learn all matches as already downloaded, thus avoids downloading old versions.
+
+If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] module.
 
 Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
