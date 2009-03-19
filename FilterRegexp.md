@@ -29,6 +29,18 @@ regexp:
     - pattern
 }}}
 
+Multiple operations. This would be useful when grabbing some shows and they appear with unwanted languages as well.
+
+{{{
+regexp:
+  accept:
+    - show name
+  reject:
+    - german
+    - sweden
+  rest: filter
+}}}
+
 == Set custom path ==
 
 Any regexp rule can set custom path for matching entry.
