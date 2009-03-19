@@ -60,6 +60,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleSearch search]||Search for download URL from supported sites.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleCookies cookies]||Enable cookies for all HTTP-requests.||
+||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
