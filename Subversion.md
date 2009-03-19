@@ -2,16 +2,18 @@
 
 == Checkout from SVN ==
 
-If you're familiar with subversion and want to stay in bleeding edge you can checkout directly from development repository.
+If you're familiar with subversion you can use it to make upgrading etc more easily.
 
-{{{
-svn co http://svn.flexget.com/trunk flexget-dev
-}}}
-
-For more stable release you may wish to checkout from branch 0.9 which will be in more stable mode until 1.0 is released. After 1.0 release this branch will no longer be updated.
+For stable release you should checkout from 0.9 branch which will be in more stable mode until 1.0 is released. After 1.0 release this branch will no longer be updated.
 
 {{{
 svn co http://svn.flexget.com/branches/0.9 flexget-0.9
+}}}
+
+Only ''bleeding edge'' users should checkout from trunk.
+
+{{{
+svn co http://svn.flexget.com/trunk flexget-dev
 }}}
 
 == Update from SVN ==
