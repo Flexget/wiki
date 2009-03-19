@@ -24,9 +24,7 @@
 ||[http://download.flexget.com/0.9/FlexGet_0.9.2.3.zip FlexGet v0.9.2.3]||02.03.2009||'''Critical url encode fixes for 0.9.2.1 and 0.9.2.2'''.[[BR]]v0.9.2 Fixed #213, #212, #208, #207, #201, #182, #203, #99, #103, #188, #192, #193, #196.[[BR]]Also included fixes for FilterSeries settings block and InputRlsLog combined with FilterImdb.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
-[[BR]][[BR]]
-'''Old users should check out''' [wiki:ReleaseChanges release and subversion changes].
-[[BR]]
+
 = Introduction =
 
 !FlexGet is a program aimed to automate downloading content (torrents, podcasts, etc.) from various 
