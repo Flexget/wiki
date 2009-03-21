@@ -24,18 +24,23 @@ Modules may do following operations to [wiki:Entry].
 </table>
 }}}
 
-
 == Examples ==
 
 Assuming configuration:
 
 {{{
-ignore:
-  - CAM
-patterns:
-  - XviD
+regexp:
+  accept:
+    - Something
+  filter:
+    - XviD
+  reject:
+    - CAM
 }}}
 
-And if we encounter file named: '''Something.CAM.XviD'''[[BR]]
-Q: What would happend?[[BR]]
-A: Module patterns would mark it '''accepted''', but later module ignore would mark it as '''rejected'''.
+Q: What would happen to file '''Something.CAM.XviD'''
+A: It would be rejected, since reject operation is stronger than accept.
+
+Q: What would happen to file '''Something.XviD'''
+A: It would be accepted, since filter operation is weaker.
+
