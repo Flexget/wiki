@@ -28,10 +28,7 @@ Produce [wiki:Entry entries] from external source.
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered. [wiki:ToBeRemoved Deprecated]||
-||[wiki:FilterUnconditionally accept]||Accept entries based on regexp. [wiki:ToBeRemoved Deprecated]||
-||[wiki:FilterIgnore ignore]||Reject entries based on regexp. [wiki:ToBeRemoved Deprecated]||
-||[wiki:FilterRegexp regexp]||Second generation regexp filtering module, will replace accept, patterns and ignore modules in future.||
+||[wiki:FilterRegexp regexp]||Reject, Accept and Filter content by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterSeries series]||Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
@@ -39,6 +36,9 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements.||
+||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered. [wiki:ToBeRemoved Deprecated]||
+||[wiki:FilterUnconditionally accept]||Accept entries based on regexp. [wiki:ToBeRemoved Deprecated]||
+||[wiki:FilterIgnore ignore]||Reject entries based on regexp. [wiki:ToBeRemoved Deprecated]||
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
