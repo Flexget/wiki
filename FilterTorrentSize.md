@@ -1,8 +1,15 @@
-Example:
+= Torrent size =
+
+=== Example: ===
+
 {{{
-        torrent_size:
-           min: 12
-           max: 1200
+torrent_size:
+  min: 12
+  max: 1200
 }}}
 
-Untested, may not work!
+Size is given in MB
+
+'''Untested, may not work!'''
+
+Please edit this page and remove it you test it and it seems to work!
