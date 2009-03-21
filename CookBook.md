@@ -114,16 +114,18 @@ feeds:
     download: ~/series
 }}}
 
-== Series - get only certain quality ==
+== Series - get only certain qualities ==
 
-Regexp is used to reject all entries which do '''not''' have 720 in their information.
+Regexp is used to reject all entries which do '''not''' have PDTV or HDTV in their information.
 
 {{{
 feeds:
   tvrss combined:
     rss: http://tvrss.net/feed/unique/
     regexp:
-      reject_excluding: [720]
+      reject_excluding: 
+        - PDTV
+        - HDTV
     series:
       - dollhouse
       - chuck
