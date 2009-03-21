@@ -38,9 +38,9 @@ regexp:
     - CAM
 }}}
 
-Q: What would happen to file '''Something.CAM.XviD'''
+Q: What would happen to file '''Something.CAM.XviD'''[[BR]]
 A: It would be rejected, since reject operation is stronger than accept.
 
-Q: What would happen to file '''Something.XviD'''
+Q: What would happen to file '''Something.XviD'''[[BR]]
 A: It would be accepted, since filter operation is weaker.
 
