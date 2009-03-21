@@ -22,9 +22,11 @@ Some.Series.S2E10.Something.Else
 
 Only one of them is downloaded, which one depends on various options.
 
-If multiple different qualities come available at the same moment, !FlexGet will always download the best one.
+'''Notes:'''
 
-Ideally configured series name should not contain anything else than a name. This is because if you change or reformat name !FlexGet will lose track of already downloaded episodes.
+ * If you wish to get just certain qualities, currently best way to do this is described in [wiki:CookBook#Series-getonlycertainqualities cook book]. Easier and more customizable approaches are being worked on.
+ * If multiple different qualities come available at the same moment, !FlexGet will always download the best one.
+ * Ideally configured series name should not contain anything else than a series name. This is because if you change or reformat name !FlexGet will lose track of already downloaded episodes.
 
 == Timeframe ==
 
