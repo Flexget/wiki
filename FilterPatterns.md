@@ -1,3 +1,10 @@
+{{{
+#!html
+<h1 style="color: red">To be removed</h1>
+}}}
+
+See module [wiki:FilterRegexp regexp]
+
 = Patterns =
 
 [wiki:Entry Entries] matching any of the given regular expression are accepted. Non-matching entries are filtered.
