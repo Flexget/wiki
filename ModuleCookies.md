@@ -1,5 +1,7 @@
 = Cookies =
 
+'''NOTE:''' You may wish to check [wiki:ModuleHeaders headers] module, in my opinion it is currently easier way to set a cookie.
+
 Adds cookie to all requests (rss, resolvers, download). Anything that uses urllib2 to be exact.
 
 Configuration:
