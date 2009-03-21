@@ -1,3 +1,10 @@
+{{{
+#!html
+<h1 style="color: red">To be removed</h1>
+}}}
+
+See module [wiki:FilterRegexp regexp]
+
 = Ignore =
 
 Entries matching regexp will be rejected.
