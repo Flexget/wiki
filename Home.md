@@ -9,6 +9,7 @@
 
  * [wiki:Install Installation guide]
  * [wiki:Configuration]
+   * [wiki:PitFalls Common pitfalls]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
    * [wiki:CookBook Cook Book]
