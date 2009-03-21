@@ -55,19 +55,19 @@ Example:
 
 {{{
 feeds:
-  feed A: &template
+  feed A: &movies
+    rss: http://some.site.com/rss.php
     patterns:
       - pattern A
       - pattern B
-    download: ~/path
+    download: ~/movies/
 
   feed B:
-    <<: *template
-    ignore:
-      - pattern C
+    rss: http://somewhere.else.com/rss.php
+    <<: *movies
 }}}
 
-In above example {{{feed B}}} also has everything configured in {{{feed A}}}. Later value is used in case of duplicate keywords.
+In above example {{{feed B}}} also has everything configured in {{{feed A}}}, but the rss value has been overwritten with another site.
 
 == Making single must have list ==
 
