@@ -13,7 +13,7 @@ series:
 }}}
 
 If {{{some series}}} and {{{another series}}} have understandable episode
-numbering any given episode is downloaded only once.
+numbering any given episode is downloaded only once. !FlexGet should support all known episode numbering schemes without any configuration, including dates.
 
 So if we get same episode twice:
 
