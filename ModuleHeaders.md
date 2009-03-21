@@ -8,5 +8,5 @@ Set cookie:
 
 {{{
 headers:
-  Cookie: uid=3945, pass=f8bae52ca325b14ef2523fabc
+  Cookie: uid=3945; pass=f8bae52ca325b14ef2523fabc
 }}}
