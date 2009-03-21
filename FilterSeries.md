@@ -163,7 +163,9 @@ This is however quite inconvenient. In future !FlexGet will not download older e
 
 == Define default settings for all series ==
 
-''TODO: document better''
+[wiki:ToBeRemoved TO BE REMOVED]. Will be replaces with better alternative because of some [wiki:SettingsBlockProblems problems].
+
+But for 0.9 this is still valid and easy way to customize timeframe globally.
 
 To change a series default settings you can use [wiki:SettingsSection settings section] which is similar to ([wiki:GlobalSection] global section). This must be in configuration "root level". This removes need to specify desired base-line settings for each series. Validation does not apply to here, and this section may be changed at some point ...
 
@@ -175,4 +177,3 @@ settings:
       enough: 720p
 }}}
 
-[wiki:ToBeRemoved TO BE REMOVED]. Will be replaces with better alternative because of some [wiki:SettingsBlockProblems problems].
