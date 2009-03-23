@@ -91,10 +91,14 @@ You can find more configuration examples in [wiki:CookBook cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Modules modules] or detailed [wiki:Configuration configuration].
 
-= Want to help? =
+= Help !FlexGet =
 
  * Improve this wiki
- * Write and submit more creative modules (must be MIT-license compatible)
+   * Make any general improvements
+   * Write good tutorials
+   * Request clearing up confusing parts by adding tag ^''[confusing]''^ (wiki syntax: {{{^''[confusing]''^}}})
+   * Request more information by adding tag ^''[need more info]''^
+ * Submit more creative modules (must be MIT-license compatible)
    * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
  * Enlist as active developer, help is always welcomed!
  * Report errors you encounter
