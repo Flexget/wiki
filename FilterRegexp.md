@@ -13,7 +13,7 @@ regexp:
   rest: filter
 }}}
 
-Filter entries matching regexp(s), they can still be accepted by other filters.
+Filter entries matching regexp(s), they can still be accepted by other modules. This should be used when you want to leave chance of accepting to other modules.
 
 {{{
 regexp:
@@ -21,7 +21,7 @@ regexp:
     - pattern
 }}}
 
-Reject (irreversibly) entries matching regexp(s). This should be used when you never want to download matching entries, even if some other module (ie. FilterImdb) deems them acceptable.
+Reject permanently entries matching regexp(s). This should be used when you absolutely do not want to download matching entries, even if some other module (ie. FilterImdb) would deem them acceptable.
 
 {{{
 regexp:
