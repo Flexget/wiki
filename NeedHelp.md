@@ -10,9 +10,11 @@ You can use tickets also to get help. Create ticket and describe your problem, f
 
 === IRC ===
 
-I'm on ircnet, efnet, quakenet and wordforge under nick paranoidi. I may not be able to answer immediately.
-You may also have some luck in #rtorrent at freenode.
+Join #FlexGet on freenode.
 
+I'm also on ircnet, efnet, quakenet and wordforge under nick paranoidi.
+
+You may also have some luck in #rtorrent at freenode.
 
 === Email ===
 
