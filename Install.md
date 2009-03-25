@@ -42,7 +42,7 @@ Installing libraries on windows may be a bit more troublesome, your best shot is
 
 = Install =
 
-Just extract !FlexGet archive to any folder you like, suggested path is ~/flexget/ which is used in all examples. On Windows "C:\Program Files\FlexGet\" is obvious choice.
+Just extract !FlexGet archive to any folder you like, suggested path is ~/flexget/ which is used in all examples. On Windows {{{"C:\Program Files\FlexGet\"}}} is obvious choice.
 
 = Setup =
 
