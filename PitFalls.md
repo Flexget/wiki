@@ -9,11 +9,11 @@
 ''Feel free to add''
 
 '''cron job did not run - permission problems'''
-1. Check that mta is installed(a mail system). If not install it this way as root:
+1. Check that mta is installed(a mail system). If not, then you need to install the mail system this way as root:
 aptitude install exim4 exim4-daemon-light exim4-config mutt
 and configure it:
 dpkg-reconfigure exim4-config - just use the standart way
-enter mutt to see what if the cron is running and an eventually error.
+Enter mutt as the user you would like to run flexget as to see if cron is running and if eventually throws an error.
 if it says: ~flexget/flexget.py: Permission denied
-make a chmod 775 on the dir flexget
+Make a chmod 775 on the dir flexget.
 
