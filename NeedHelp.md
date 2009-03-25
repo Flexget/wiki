@@ -10,7 +10,7 @@ You can use tickets also to get help. Create ticket and describe your problem, f
 
 === IRC ===
 
-Join #FlexGet on freenode.
+Join #!FlexGet on freenode.
 
 I'm also on ircnet, efnet, quakenet and wordforge under nick paranoidi.
 
