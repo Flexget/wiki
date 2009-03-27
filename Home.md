@@ -44,9 +44,6 @@ It's most often used to download torrent-files from RSS-feeds and works very wel
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
 ^* = requires thread support, not present on some routers^ 
 
-'''Application is still in active development phase. ''' 
-New features are added frequently and whole application is being improved in every area. This may however lead to bugs at sometimes. If you encounter weird behavior please check if updated version is available and if not [wiki:BugReport report it] by using ticket. 
-
 = Features =
 
  * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
@@ -58,6 +55,7 @@ New features are added frequently and whole application is being improved in eve
  * Use [wiki:FilterPatterns regular expressions] to match desired content
  * Easy to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
+ * And much more ...
 
 == Distant plans ==
 
