@@ -2,7 +2,7 @@
 
 {{{
 #!html
-<h1 style="text-align: center; color: red">Join #FlexGet at freenode</h1>
+<h1 style="text-align: center; color: red">#FlexGet @ freenode - discussion and support</h1>
 }}}
 
 == Quick access ==
