@@ -10,6 +10,10 @@ rss: http://some.site.com/some_feed.rss
 
 Execute !FlexGet with parameter {{{--list}}} to get list of all available modules. You can also view built-in module documentation by using parameter {{{--doc <keyword>}}}.
 
+== Notes ==
+
+ * All configuration snipets should be placed under a feed (unless specified otherwise). Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
+
 == Inputs ==
 
 Produce [wiki:Entry entries] from external source.
@@ -66,10 +70,6 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) interactively.||
 ||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
-
-=== Notes ===
-
-All examples in module documentations are assumed to be configured under a feed in configuration file. Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
 
 == So how does it all work? ==
 
