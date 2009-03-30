@@ -27,7 +27,7 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:InputSceneReleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com].||
 
-=== Filters ===
+== Filters ==
 
 Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
@@ -46,7 +46,7 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
-=== Outputs ===
+== Outputs ==
 
 Execute operation(s) to entries that pass trough filter(s).
 
@@ -58,7 +58,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:OutputExec exec]||Execute command for passed entries.||
 ||[wiki:OutputEmail email]||Send email when new content is passed.||
 
-=== Modify / Other ===
+== Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:ModuleSearch search]||Search for download URL from supported sites.||
