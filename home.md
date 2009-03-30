@@ -12,7 +12,7 @@
    * [wiki:PitFalls Common pitfalls]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
-   * [wiki:CookBook Cook Book]
+   * [wiki:CookBook The Cook Book]
    * [wiki:Parameters Commandline parameters]
  * '''[wiki:Modules Modules]'''
    * [wiki:Entry Entries]
@@ -85,7 +85,7 @@ feeds:
 
 This example would download all torrents of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
-You can find more configuration examples in [wiki:CookBook cookbook].
+You can find more configuration examples in [wiki:CookBook the cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Modules modules] or detailed [wiki:Configuration configuration].
 
