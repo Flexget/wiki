@@ -7,7 +7,6 @@ In case of movies the module supplies pre-parse IMDB-details (helps when chainin
 === Problems ===
 
  * Multiple torrent links per entry is untested.
- * Currently only some torrent sites are supported via [wiki:Resolvers resolvers] (!NewTorrents, !PirateBay, !IsoHunt).
  * If one rlslog entry contains multiple different entries (rarely).
  * Untested on other content besides movies.
 
