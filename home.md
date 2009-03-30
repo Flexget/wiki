@@ -53,14 +53,14 @@ It's most often used to download torrent-files from RSS-feeds and works nicely i
    * Episode number aware, doesn't download same episode twice
    * Quality aware; get best quality release in a specified time frame
  * Use [wiki:FilterPatterns regular expressions] to match desired content
- * Easy to add site-specific download scripts. Many sites supported out of the box. See [wiki:Resolvers resolvers].
+ * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
  * And much more ...
 
-== Distant plans ==
+== Future plans ==
 
- * Internal scheduler, currently relies on external one
- * Web based configuration UI
+ * Internal scheduler (soon), currently relies on external one
+ * Web based configuration interface (in distant future)
 
 = How easy is it to use? =
 
