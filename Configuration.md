@@ -11,11 +11,9 @@ Mandatory file structure has been kept minimal. Each configuration file must hav
 {{{
 feeds:
   feed A:
-    <feed configuration here>
     .
     .
   feed B:
-    <feed configuration here>
     .
     .
 }}}
@@ -32,7 +30,7 @@ feeds:
     rss: http://example.com/rss
 }}}
 
-If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. Notice how patterns list is indented once again by 2 additional spaces. This is because they belong to patterns.
+If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. All modules are indented at same level, in this case rss and patterns. But notice how patterns list is indented once again by 2 additional spaces. This is because the list belongs to patterns.
 
 {{{
 feeds:
@@ -66,7 +64,6 @@ If --check does not find any problems you have successfully created fully workin
 }}}
 
 Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file.
-
 
 == Still confused about Yaml? ==
 
