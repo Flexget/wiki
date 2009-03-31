@@ -10,9 +10,25 @@ rss: http://some.site.com/some_feed.rss
 
 Execute !FlexGet with parameter {{{--list}}} to get list of all available modules. You can also view built-in module documentation by using parameter {{{--doc <keyword>}}}.
 
-== Notes ==
+== Examples indentation ==
 
- * All configuration snipets should be placed under a feed (unless specified otherwise). Look at [wiki:Configuration configuration] or complete examples if you're having troubles.
+All configuration examples are assumed to be placed under a feed. So if documentation has example:
+
+{{{
+series:
+  - name
+}}}
+
+In reality this goes in configuration:
+
+{{{
+feeds:
+  feed_name:
+    series:
+      - name
+}}}
+
+This makes examples more compact and reduces unnecessary boilerplate.
 
 == Inputs ==
 
