@@ -26,6 +26,8 @@
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 
+[[BR]]
+
 = Introduction =
 
 !FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different
