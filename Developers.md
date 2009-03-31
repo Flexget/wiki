@@ -73,10 +73,10 @@ Feed is a class that represents one feed in configuration file.
   feed specific configuration (dict).
 
  cache::
-  Cache class for storing persistent information, this is unique for each feed.
+  '''will be gone in 1.0''' Cache class for storing persistent information, this is unique for each feed.
 
  shared_cache::
-  Cache class for storing persistent information, this is not feed specific.
+  '''will be gone in 1.0''' Cache class for storing persistent information, this is not feed specific.
 
  entries::
   list containing [wiki:DevelopersEntry entries].
@@ -85,13 +85,13 @@ You shouldn't modify name or config as they are used by other modules.
 
 === Available methods: ===
 
- accept(entry)::
+ accept(entry, [reason])::
   Mark entry accepted, filtering this later do not affect status. Call this on entries module knows should be downloaded.
 
- filter(entry)::
+ filter(entry, [reason])::
   Mark entry to be filtered, other modules may still however accept entry.
 
- reject(entry)::
+ reject(entry, [reason])::
   Mark entry to be removed. It will be removed from feed once module event returns.
 
  failed(entry)::
@@ -110,8 +110,11 @@ You shouldn't modify name or config as they are used by other modules.
   and[[BR]]
   ..<keyword>:[[BR]]
   ....url: <address>
+  '''Will be moved in 1.0'''
 
 == Cache class ==
+
+  '''Will be removed in 1.0'''
 
   store(key, value, days=30)::
     Stores key value pair for number of days. Value must be yaml compatible. Default number of days is 30.
@@ -122,7 +125,6 @@ You shouldn't modify name or config as they are used by other modules.
   get(key, default=None)::
     Get stored value, passed default (or None) if not found.
 
-
 == Manager class ==
 
   Accessible trough feed.manager
@@ -130,3 +132,6 @@ You shouldn't modify name or config as they are used by other modules.
   get_module_by_name(name)
 
   get_modules_by_group(group)
+
+  unit_test::
+    True when executing unit tests
