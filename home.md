@@ -1,8 +1,6 @@
-= Welcome to !FlexGet Trac =
-
 {{{
 #!html
-<h1 style="text-align: center; color: red">#FlexGet @ freenode - discussion and support</h1>
+<h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support</h1>
 }}}
 
 == Quick access ==
@@ -25,8 +23,6 @@
 ||[http://download.flexget.com/0.9/FlexGet_0.9.2.3.zip FlexGet v0.9.2.3]||02.03.2009||Stable release.||
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
-
-[[BR]]
 
 = Introduction =
 
