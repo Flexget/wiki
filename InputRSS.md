@@ -43,6 +43,16 @@ rss:
   silent: True
 }}}
 
+== Convert to ASCII ??
+
+Some feeds contain unicode characters which may cause problems. To force these into ASCII you set:
+
+{{{
+rss:
+  url: <ul>
+  ascii: true
+}}}
+
 == Read from a file ==
 
 You can also use local file instead of url.
