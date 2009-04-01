@@ -1,4 +1,4 @@
-= List of common pitfalls and answers to them =
+= Common pitfalls and answers =
 
 === mapping values are not allowed here, line [x] column [y] ===
 
