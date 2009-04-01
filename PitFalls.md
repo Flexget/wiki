@@ -36,9 +36,19 @@ and configure it:
 {{{
 dpkg-reconfigure exim4-config
 }}}
-
 Enter mutt as the user you would like to run flexget as to see if cron is running and if eventually throws an error.
-if it says: ~flexget/flexget.py: Permission denied
-[[BR]]Make a chmod 775 on the dir flexget. 
+[[BR]]
+
+Or you can install a lightweight forwarding mail service:
+{{{
+aptitude install ssmtp
+}}}
+and edit {{{/etc/ssmtp/ssmtp.conf}}} you need to set the mail server you use for outgoing mail.
+
+If you get a mail saying {{{../flexget.py: permission denied}}} the script is not executable. You can make the script executable with chmod:
+{{{
+cd /path/to/flexget
+chmod 0755 flexget.py
+}}}
 
 ''Feel free to add more''
