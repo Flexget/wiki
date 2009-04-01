@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case if you decide to use other filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in !FlexGet directory you don't need to give full path.
+In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case you decide to use another filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in !FlexGet directory you don't need to give full path.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. 
 
@@ -22,7 +22,7 @@ feeds:
 
 == Feed configuration ==
 
-This depends largely on what you're trying to accomplish. Let's assume that you're trying to get stuff out from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
+This depends largely on what you're trying to accomplish. Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
 
 {{{
 feeds:
@@ -55,7 +55,7 @@ feeds:
 
 When you create or modify configuration try running !FlexGet with --check parameter. It will go through configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
 
-If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with tv-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
+If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with TV-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
 
 '''Test your configuration file:'''
 
