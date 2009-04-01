@@ -20,7 +20,7 @@
 = Releases =
 
 ||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://download.flexget.com/0.9/FlexGet_0.9.3.zip FlexGet v0.9.3.1]||02.04.2009||Python 2.3 - 2.4 compatibility fixed.||
+||[http://download.flexget.com/0.9/FlexGet_0.9.3.1.zip FlexGet v0.9.3.1]||02.04.2009||Python 2.3 - 2.4 compatibility fixed.||
 ||[http://download.flexget.com/0.9/FlexGet_0.9.3.zip FlexGet v0.9.3]||01.04.2009||Fixes #169, #223, #216. Added module [wiki:ModuleHeaders headers]. Misc tweaking.||
 ||[http://download.flexget.com/0.9/FlexGet_0.9.2.3.zip FlexGet v0.9.2.3]||02.03.2009||||
 
