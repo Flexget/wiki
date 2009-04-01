@@ -23,6 +23,7 @@ series:
         season: 1
 }}}
 
+Note that you need to use an extra indentation after a line that starts with a dash (-) and ends with a colon (:).
 
 === cron job did not run - permission problems ===
 
