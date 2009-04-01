@@ -10,7 +10,7 @@ This is '''invalid'''
 {{{
 series:
   - name:
-      watched:
+    watched:
       season: 1
 }}}
 
