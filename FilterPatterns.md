@@ -1,6 +1,6 @@
 {{{
 #!html
-<h1 style="color: red">To be removed</h1>
+<h1 style="color: red">To be removed in 1.0</h1>
 }}}
 
 See module [wiki:FilterRegexp regexp]
