@@ -41,6 +41,7 @@ Application is most often used to download torrents from RSS-feeds and works nic
  * [http://libtorrent.rakshasa.no/ rTorrent] - !BitTorrent client
  * [http://www.hellanzb.com hellanzb] - Download from usenet using NZB-files
  * [http://utorrent.com uTorrent] - !BitTorrent client
+ * [http://www.transmissionbt.com/ Transmission] - !BitTorrent client
 
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
 ^* = requires thread support, not present on some routers^ 
