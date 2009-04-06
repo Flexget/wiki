@@ -1,3 +1,5 @@
+Damn spammers ...
+
 {{{
 ringtone
 (?i)diethylpropion
@@ -131,4 +133,17 @@ headachetreatment
 buyambiennow
 ghjgssruy7
 jkhjfsfww.com
+cheap
+viagra
+GertRose
+ixwgrf
+DrBryans
+bbs
+loli
+ykhohz
+MsAnna
+boobs
+suyqr
+generic.*viagra.*online
+developerone
 }}}
