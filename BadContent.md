@@ -140,6 +140,7 @@ jkhjfsfww.com
 (?i)DrBryans
 (?i)\sbbs\s
 (?i)\sloli\s
+(?i)\slolita\s
 (?i)ykhohz
 (?i)MsAnna
 (?i)boobs
@@ -149,7 +150,7 @@ jkhjfsfww.com
 (?i)Instant.*Male.*Enhancement
 (?i)hairmaxforum
 (?i)Maxoderm
-virb.com
+(?i)virb.com
 (?i)free.*sex
 (?i)free.*pictures
 (?i)free.*videos
