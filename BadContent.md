@@ -138,8 +138,8 @@ jkhjfsfww.com
 (?i)GertRose
 (?i)ixwgrf
 (?i)DrBryans
-(?i)bbs
-(?i)loli
+(?i)\sbbs\s
+(?i)\sloli\s
 (?i)ykhohz
 (?i)MsAnna
 (?i)boobs
