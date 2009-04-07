@@ -149,7 +149,7 @@ jkhjfsfww.com
 (?i)Instant.*Male.*Enhancement
 (?i)hairmaxforum
 (?i)Maxoderm
-http://virb.com/afraima
+virb.com
 (?i)free.*sex
 (?i)free.*pictures
 (?i)free.*videos
