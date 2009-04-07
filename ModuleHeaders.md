@@ -1,7 +1,6 @@
 = Headers =
 
-Allows editing request headers. This will affect everything that uses urllib2 to do requests, this should include most of the modules.
-To use feeds that require cookies, headers are required! You must find the cookie for the site, and grab UID and pass from it.
+Allows editing request headers. This will affect most of the modules (everything that uses urllib2). To use feeds that require login, setting cookie is usually required. You will need to extract the cookie for site and grab details from it (usually uid, pass).
 
 == Example: ==
 
