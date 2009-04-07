@@ -149,4 +149,11 @@ jkhjfsfww.com
 (?i)Instant.*Male.*Enhancement
 (?i)hairmaxforum
 (?i)Maxoderm
+http://virb.com/afraima
+(?i)free.*sex
+(?i)free.*pictures
+(?i)free.*videos
+(?i)beastiality
+(?i)bondage
+http://www.zillow.com
 }}}
