@@ -140,7 +140,8 @@ jkhjfsfww.com
 (?i)DrBryans
 (?i)\sbbs\s
 (?i)\sloli\s
-(?i)\slolita\s
+(?i)lolita\s
+(?i)\snude
 (?i)ykhohz
 (?i)MsAnna
 (?i)boobs
