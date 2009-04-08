@@ -157,5 +157,8 @@ jkhjfsfww.com
 (?i)free.*videos
 (?i)beastiality
 (?i)bondage
+(?i)mature.*vids
+(?i)xxx.*vids
 http://www.zillow.com
+http://www.linkedin.com/
 }}}
