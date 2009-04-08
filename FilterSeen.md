@@ -1,6 +1,6 @@
 = Seen =
 
-Remembers previously downloaded content across all feeds and skips them in subsequent executions. Without this module !FlexGet would download all non-filtered content on every execution. 
+Remembers globally downloaded entries and rejects on subsequent executions.
 
-This module is enabled on all feeds by default. See module [wiki:ModuleDisableBuiltins disable_builtins] for information how to disable builtin modules.
+This module is enabled on all feeds by default. See module [wiki:ModuleDisableBuiltins disable_builtins] for information how to disable builtin modules. Note that disabling this will cause !FlexGet to download all matches on every execution.
 
