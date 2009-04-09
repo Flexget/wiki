@@ -2,9 +2,10 @@
 
 ''Under work''
 
-== New dependency ==
+== New dependencies ==
 
-!FlexGet 1.0 requires SQLAlchemy 0.5 or newer. Install it from your distribution repository or from http://sqlalchemy.org
+'''Python 2.5''' - older versions will no longer be supported.
+'''SQLAlchemy 0.5''' or newer. Install it from your distribution repository or from http://sqlalchemy.org
 
 Another easy way is to use easy_install (comes with setup tools).
 
