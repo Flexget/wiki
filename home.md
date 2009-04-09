@@ -8,13 +8,10 @@
  * [wiki:Install Installation guide]
  * [wiki:Configuration]
    * [wiki:PitFalls Common pitfalls]
+   * [wiki:CookBook The Cook Book]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
-   * [wiki:CookBook The Cook Book]
-   * [wiki:Parameters Commandline parameters]
  * '''[wiki:Modules Modules]'''
-   * [wiki:Entry Entries]
-   * [wiki:Resolvers Resolvers]
  * [wiki:NeedHelp Problems? Help is near!]
 
 = Releases =
