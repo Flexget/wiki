@@ -161,8 +161,11 @@ jkhjfsfww.com
 (?i)teen.*models
 (?i)mature.*vids
 (?i)xxx.*vids
+(?i)a href.*xxx.*\/a
 (?i)funny.site
+(?i)hillbilly.xxx
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
+http://www.maclife.com
 }}}
