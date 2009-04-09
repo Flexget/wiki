@@ -33,6 +33,8 @@ ignore:
   - yyy
 }}}
 
+Converts into:
+
 {{{
 regexp:
   accept:
@@ -43,6 +45,8 @@ regexp:
     - yyy
   rest: filter
 }}}
+
+Unfortunately a bit more complex, but this is more explicit of what it does and covers a lot more situations.
 
 === Cookies ===
 
