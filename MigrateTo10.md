@@ -1,4 +1,4 @@
-= Migrate from 0.9 to 1.0 =
+= Migrating from 0.9 to 1.0 =
 
 ''Under work''
 
