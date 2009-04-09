@@ -140,7 +140,7 @@ jkhjfsfww.com
 (?i)DrBryans
 (?i)\sbbs\s
 (?i)\sloli\s
-(?i)lolita\s
+(?i)lolita
 (?i)\snude
 (?i)ykhohz
 (?i)MsAnna
@@ -157,8 +157,12 @@ jkhjfsfww.com
 (?i)free.*videos
 (?i)beastiality
 (?i)bondage
+(?i)preteen
+(?i)teen.*models
 (?i)mature.*vids
 (?i)xxx.*vids
+(?i)funny.site
 http://www.zillow.com
 http://www.linkedin.com/
+http://www.ibibo.com
 }}}
