@@ -4,7 +4,7 @@
 
 == New dependencies ==
 
-'''Python 2.5''' - older versions will no longer be supported.
+'''Python 2.5''' - older versions will no longer be supported.[[BR]]
 '''SQLAlchemy 0.5''' or newer. Install it from your distribution repository or from http://sqlalchemy.org
 
 Another easy way is to use easy_install (comes with setup tools).
