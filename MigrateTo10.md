@@ -51,3 +51,8 @@ Unfortunately a bit more complex, but this is more explicit of what it does and 
 === Cookies ===
 
 ''TODO''
+
+
+== First run ==
+
+Your first run with 1.0 should execute all feeds, so use {{{--now}}} if necessary to force feeds with [wiki:ModuleInterval interval] to execute.
