@@ -24,6 +24,10 @@ All modules may do following operations to [wiki:Entry].
 </table>
 }}}
 
+'''Represented as a schematic'''
+
+[[Image(0.9_operations.png)]]
+
 == Scenario ==
 
 Assuming configuration:
