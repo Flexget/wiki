@@ -1,6 +1,8 @@
 = Migrating from 0.9 to 1.0 =
 
- * Under work ..
+'''Notes'''
+
+ * Instructions under work ..
  * 1.0 is still light years away from being released ...
 
 == New dependencies ==
