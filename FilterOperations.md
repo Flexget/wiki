@@ -1,6 +1,6 @@
-= Filter operations =
+= Operations =
 
-Modules may do following operations to [wiki:Entry].
+All modules may do following operations to [wiki:Entry].
 
 {{{
 #!html
