@@ -1,6 +1,7 @@
 = Migrating from 0.9 to 1.0 =
 
-''Under work''
+ * Under work ..
+ * 1.0 is still light years away from being released ...
 
 == New dependencies ==
 
@@ -21,7 +22,7 @@ easy_install sqlalchemy
 
 Some modules have been replaced with new ones.
 
-=== Patterns, Ignore, Accept ===
+=== Patterns, Ignore and Accept ===
 
 These modules have been removed. You'll need to convert these to use new [wiki:FilterRegexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
 
@@ -47,7 +48,7 @@ regexp:
   rest: filter
 }}}
 
-Unfortunately a bit more complex, but this is more explicit of what it does and covers a lot more situations.
+Unfortunately a bit more complex, but this is more explicit in !FlexGet terminology what it does and covers a lot more situations.
 
 === Cookies ===
 
