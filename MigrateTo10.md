@@ -32,12 +32,34 @@ These modules have been removed. You'll need to convert these to use new [wiki:F
 patterns:
   - foo
   - bar
+}}}
+
+Converts into:
+
+{{{
+regexp:
+  accept:
+    - foo
+    - bar
+  rest: filter
+}}}
+
+{{{
 ignore:
   - xxx
   - yyy
 }}}
 
 Converts into:
+
+{{{
+regexp:
+  reject:
+    - xxx
+    - yyy
+}}}
+
+Combination of both would be:
 
 {{{
 regexp:
