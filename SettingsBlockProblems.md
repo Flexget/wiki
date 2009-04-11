@@ -15,34 +15,30 @@ Include settings in series module.
 {{{
 rss: http://example.com
 series:
-  defaults:
-    enough: 720p
-  names:
+  settings:
+    hd:
+      quality: 720p
+    anime:
+      path: ~/torrents/anime/
+
+  hd:
     - some series
     - another series
+  sd:
+    - third series
+    - fourth series
+  anime:
+    - zoom zoom
+    - pew pew
 }}}
 
 Cons:
 
- * Series must be listed in wrapper (names)
- * Wrapper is required even without defaults
+ * A lot of containers (complex)
 
-=== Solution 2 ===
-
-Write a separate module that changes settings for series.
-
-{{{
-rss: http://example.com
-series_defaults:
-  enough: 720p
-series:
-  - some series
-  - another series
-}}}
-
-Cons:
-
- * May be problematic for web-ui if changes are stored in config
+Pros:
+ 
+ * No need to define a lot of per-series settings
 
 === More possible solutions? ===
 
