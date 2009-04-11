@@ -164,8 +164,12 @@ jkhjfsfww.com
 (?i)a href.*xxx.*\/a
 (?i)funny.site
 (?i)hillbilly.xxx
+(?i)cool.site
+(?i)great.site
+(?i)xmovies
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
 http://www.maclife.com
+http://www.planetpapers.com
 }}}
