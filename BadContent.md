@@ -167,9 +167,13 @@ jkhjfsfww.com
 (?i)cool.site
 (?i)great.site
 (?i)xmovies
+(?i)sex.gallery
+(?i)online.sex
+(?i)sex.video
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
 http://www.maclife.com
 http://www.planetpapers.com
+http://videohive.net
 }}}
