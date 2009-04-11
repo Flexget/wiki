@@ -4,7 +4,7 @@
 
 If you're familiar with subversion you can use it to make upgrading etc more easily.
 
-For stable release you should checkout from 0.9 branch which will be in more stable mode until 1.0 is released. After 1.0 release this branch will no longer be updated.
+For stable release you should checkout from 0.9 branch which is kept stable.
 
 {{{
 svn co http://svn.flexget.com/branches/0.9 flexget-0.9
