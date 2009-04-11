@@ -44,5 +44,5 @@ Some feeds contain links that have useless title (like 'DL'). If you need better
 {{{
 html:
   url: <url>
-  url_from_title: true
+  title_from_url: true
 }}}
