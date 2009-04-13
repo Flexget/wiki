@@ -170,10 +170,16 @@ jkhjfsfww.com
 (?i)sex.gallery
 (?i)online.sex
 (?i)sex.video
+(?i)underage.*girls
+(?i)russian.*girls
+(?i)russian.*naked
+(?i)good.material.thanks
+(?i)very.good.site
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
 http://www.maclife.com
 http://www.planetpapers.com
 http://videohive.net
+http://www.dethi.com
 }}}
