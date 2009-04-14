@@ -41,7 +41,6 @@ regexp:
   accept:
     - foo
     - bar
-  rest: filter
 }}}
 
 {{{
@@ -69,15 +68,17 @@ regexp:
   reject:
     - xxx
     - yyy
-  rest: filter
 }}}
 
 Unfortunately a bit more complex, but this is more explicit in !FlexGet terminology what it does and covers a lot more situations.
 
+=== Regexp ===
+
+Filtering system has been simplified a bit in 1.0, this requires few changes in regexp configuration. Remove all {{{rest: filter}}} lines.
+
 === Cookies ===
 
 ''TODO''
-
 
 == First run ==
 
