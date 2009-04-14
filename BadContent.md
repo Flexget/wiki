@@ -175,6 +175,8 @@ jkhjfsfww.com
 (?i)russian.*naked
 (?i)good.material.thanks
 (?i)very.good.site
+(?i)fuck
+(?i)teen\s
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
@@ -182,4 +184,5 @@ http://www.maclife.com
 http://www.planetpapers.com
 http://videohive.net
 http://www.dethi.com
+(?i)http://.*/user
 }}}
