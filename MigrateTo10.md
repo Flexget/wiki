@@ -28,6 +28,8 @@ Some modules have been replaced with new ones.
 
 These modules have been removed. You'll need to convert these to use new [wiki:FilterRegexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
 
+'''Patterns:'''
+
 {{{
 patterns:
   - foo
@@ -42,6 +44,8 @@ regexp:
     - foo
     - bar
 }}}
+
+'''Ignore:'''
 
 {{{
 ignore:
