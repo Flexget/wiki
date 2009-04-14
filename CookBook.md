@@ -134,6 +134,31 @@ feeds:
 
 Uses: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
 
+== Parsing text files ==
+
+Using the text input can be a bit tricky at times. This example shows a bit more complex example how to parse a text input with multiple fields on the same row. Each field is separated by a comma. The text input module isn't really designed for this, so it's a bit tricky.
+
+{{{
+feeds:
+  dattebayo:
+    interval: 6 hours
+    text:
+      url: http://dattebayo.com/t/dump
+      entry:
+        # Match the first column in the beginning of the line
+        url: ^(.+?),
+        # Match the third column.
+        title: ^.+?,.+?,(.+?),
+    patterns:
+      - Pythagoras
+}}}
+
+The {{{.+?}}} is a non-greedy match, which means that it will try to use the shortest possible match.
+
+If you use this example, please respect the interval. In general it's good to try and finetune the interval so that you don't flood the server.
+
+Uses: [wiki:InputText Text], [wiki:ModuleInterval interval], [wiki:FilterPatterns patterns]
+
 == Real-world example ==
 
 {{{
