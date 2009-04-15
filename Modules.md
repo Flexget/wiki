@@ -24,6 +24,7 @@ In reality this goes in configuration:
 {{{
 feeds:
   feed_name:
+    rss: http://example.com
     series:
       - name
 }}}
