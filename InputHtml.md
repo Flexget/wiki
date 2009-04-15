@@ -37,7 +37,7 @@ html:
   dump: file.html
 }}}
 
-Some feeds contain links that have useless title (like 'DL'). If you need better titles you can use option {{{title_from_url}}} to guess better title from url.
+Some feeds contain links that have useless title (like 'DL', '1', '2'..). If you need better titles you can use option {{{title_from_url}}} to guess better title from url.
 
 === Example ===
 
