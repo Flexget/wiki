@@ -177,6 +177,8 @@ jkhjfsfww.com
 (?i)very.good.site
 (?i)fuck
 (?i)teen\s
+(?i)best.job
+(?i)nabble\.com
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
