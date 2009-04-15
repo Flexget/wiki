@@ -1,8 +1,16 @@
 = Configuration =
 
-In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. In case you decide to use another filename, path or wish to use multiple different configuration files you must specify configuration file via -c parameter. If file is in !FlexGet directory you don't need to give full path.
+In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find {{{config.yml}}} from it's installation directory. 
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. 
+
+{{{
+#!html
+<h2 style="color: red">Common mistakes</h2>
+}}}
+
+ * Indentation level. always use '''2 spaces''' and '''never''' use tab-key
+ * Missing colons. Pay special attention to these when looking examples and documentation.
 
 = File structure =
 
@@ -17,8 +25,6 @@ feeds:
     .
     .
 }}}
-
-'''Most common mistakes among new users is indentation level and missing colons, pay special attention to these when looking examples and documentation.'''
 
 == Feed configuration ==
 
