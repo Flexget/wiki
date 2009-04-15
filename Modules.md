@@ -19,7 +19,7 @@ series:
   - name
 }}}
 
-In reality this goes in configuration:
+In full configuration this goes into:
 
 {{{
 feeds:
