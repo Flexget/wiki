@@ -186,5 +186,11 @@ http://www.maclife.com
 http://www.planetpapers.com
 http://videohive.net
 http://www.dethi.com
+http://www.viddler.com
 (?i)http://.*/user
+(?i)free.*xx.*downloads
+(?i)free.*downloads
+(?i)xhamster
+(?i)x.rated
+(?i)sextube
 }}}
