@@ -57,9 +57,9 @@ Filter, Reject or Accept feeds [wiki:Entry entries] based on given rules. Single
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:FilterTorrentSize torrent_size]||Reject torrents that do not meet size requirements.||
-||[wiki:FilterPatterns patterns]||Accept entries based on regexp. Non-matching entries are filtered. [wiki:ToBeRemoved Deprecated]||
-||[wiki:FilterUnconditionally accept]||Accept entries based on regexp. [wiki:ToBeRemoved Deprecated]||
-||[wiki:FilterIgnore ignore]||Reject entries based on regexp. [wiki:ToBeRemoved Deprecated]||
+||[wiki:FilterPatterns patterns]||[wiki:ToBeRemoved Deprecated]. Accept entries based on regexp. Non-matching entries are filtered.||
+||[wiki:FilterUnconditionally accept]||[wiki:ToBeRemoved Deprecated]. Accept entries based on regexp.||
+||[wiki:FilterIgnore ignore]||[wiki:ToBeRemoved Deprecated]. Reject entries based on regexp.||
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
@@ -78,9 +78,8 @@ Execute operation(s) to entries that pass trough filter(s).
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:ModuleSearch search]||Search for download URL from supported sites.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
-||[wiki:ModuleCookies cookies]||Enable cookies for all HTTP-requests.||
+||[wiki:ModuleCookies cookies]||[wiki:ToBeRemoved Deprecated]. Enable cookies for all HTTP-requests.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
