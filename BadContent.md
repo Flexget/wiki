@@ -187,10 +187,15 @@ http://www.planetpapers.com
 http://videohive.net
 http://www.dethi.com
 http://www.viddler.com
+http://www.quizilla.com
 (?i)http://.*/user
 (?i)free.*xx.*downloads
 (?i)free.*downloads
 (?i)xhamster
 (?i)x.rated
 (?i)sextube
+(?i)nude.*celebs
+(?i)free.*hardcore
+(?i)porn.*movies
+(?i)mature.*asians
 }}}
