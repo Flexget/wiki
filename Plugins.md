@@ -82,6 +82,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||'''Keyword'''||'''Description'''||
 ||[wiki:ModuleSearch search]||Search for download URL from supported sites.||
 ||[wiki:ModulePathByExt path_by_ext]||Change (download) path based on file-type (extension).||
+||[wiki:ModulePreset preset]||Provides global configuration and named presets.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
