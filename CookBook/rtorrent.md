@@ -47,6 +47,7 @@ schedule = session_save,240,300,session_save=
 on_finished = move_complete,"execute=mv,-u,$d.get_base_path=,$d.get_custom1= ;d.set_directory=$d.get_custom1="
 on_finished = set_done_var,d.set_custom2=
 
+# remove incomplete downloads from disk that have been deleted from rTorrent
 on_erase = rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base_path=}\""
 }}}
 
