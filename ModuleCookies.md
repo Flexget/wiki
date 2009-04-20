@@ -24,7 +24,7 @@ Possible cookie types are: mozilla, ~~msie, lpw~~
 
 !FireFox3 doesn't store cookies anymore in a {{{cookies.txt}}} so they must be exported by using utility (example: https://addons.mozilla.org/en-US/firefox/addon/8154).
 
-Mozilla cookies-file '''must begin'' with following lines or it doesn't load. Usually this is the case, but not always.
+Mozilla cookies-file '''must begin''' with following lines or it doesn't load. Usually this is the case, but not always.
 
 {{{
 # HTTP Cookie File
