@@ -43,7 +43,7 @@ rss:
   silent: True
 }}}
 
-== Convert to ASCII ??
+== Convert to ASCII ==
 
 Some feeds contain unicode characters which may cause problems. To force these into ASCII you set:
 
