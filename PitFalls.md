@@ -26,7 +26,7 @@ series:
 Note that you need to use an extra indentation after a line that starts with a dash (-) and ends with a colon (:).
 
 
-=== ValueError: unsupported format character '"' (0x22) at .... ==
+=== !ValueError: unsupported format character '"' (0x22) at .... ==
 
 In case you are using RSS input, try forcing it into ASCII.
 
