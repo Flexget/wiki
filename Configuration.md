@@ -9,7 +9,7 @@ In order to use !FlexGet you'll need to create a configuration file. By default 
 <h2 style="color: red">Common mistakes</h2>
 }}}
 
- * Indentation level. always use '''2 spaces''' and '''never''' use tab-key
+ * Indentation level. Always use '''2 spaces''' and '''never''' use tab-key!
  * '''All''' modules are supposed to be indented at the same level (rss, series, download etc)
  * Missing colons. Pay special attention to these when looking examples and documentation. If text value contains colon it must be "quoted".
 
@@ -26,6 +26,8 @@ feeds:
     .
     .
 }}}
+
+^^Note: Modules go where dots are.^^
 
 == Feed configuration ==
 
