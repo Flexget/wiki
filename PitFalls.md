@@ -25,31 +25,19 @@ series:
 
 Note that you need to use an extra indentation after a line that starts with a dash (-) and ends with a colon (:).
 
+
+=== ValueError: unsupported format character '"' (0x22) at .... ==
+
+In case you are using RSS input, try forcing it into ASCII.
+
+{{{
+rss:
+  url: http://example.com
+  ascii: true
+}}}
+
 === cron job did not run - permission problems ===
 
-Check that mta is installed(a mail system). If not, then you need to install the mail system this way as root:
-{{{
-aptitude install exim4 exim4-daemon-light exim4-config mutt
-}}}
-
-and configure it:
-
-{{{
-dpkg-reconfigure exim4-config
-}}}
-Enter mutt as the user you would like to run flexget as to see if cron is running and if eventually throws an error.
-[[BR]]
-
-Or you can install a lightweight forwarding mail service:
-{{{
-aptitude install ssmtp
-}}}
-and edit {{{/etc/ssmtp/ssmtp.conf}}} you need to set the mail server you use for outgoing mail.
-
-If you get a mail saying {{{../flexget.py: permission denied}}} the script is not executable. You can make the script executable with chmod:
-{{{
-cd /path/to/flexget
-chmod 0755 flexget.py
-}}}
+Check that you have working mail system so you receive errors occur during crontab execution.
 
 ''Feel free to add more''
