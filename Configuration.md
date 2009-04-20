@@ -6,7 +6,7 @@ In order to use !FlexGet you'll need to create a configuration file. By default 
 
 {{{
 #!html
-<h2 style="color: red">Common mistakes</h2>
+<h2 style="color: red">Common mistakes, read at least these!</h2>
 }}}
 
  * Indentation level. Always use '''2 spaces''' and '''never''' use tab-key!
@@ -31,7 +31,7 @@ feeds:
 
 == Feed configuration ==
 
-This depends largely on what you're trying to accomplish. Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
+Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
 
 {{{
 feeds:
