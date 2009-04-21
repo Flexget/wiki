@@ -188,6 +188,7 @@ http://videohive.net
 http://www.dethi.com
 http://www.viddler.com
 http://www.quizilla.com
+http://airsoftgunhelp.com
 (?i)http://.*/user
 (?i)free.*xx.*downloads
 (?i)free.*downloads
@@ -198,4 +199,7 @@ http://www.quizilla.com
 (?i)free.*hardcore
 (?i)porn.*movies
 (?i)mature.*asians
+(?i)look.*young.*again
+(?i)GenF20
+(?i)I.*really.like.*your.*site
 }}}
