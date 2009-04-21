@@ -164,3 +164,7 @@ feeds:
 }}}
 
 Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+
+== Complete working example for rTorrent ==
+
+There is also a complete example how to set up an [wiki:CookBook/rtorrent automatic downloader using rTorrent] and !FlexGet on a separate page
