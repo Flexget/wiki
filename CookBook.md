@@ -49,7 +49,7 @@ feeds:
     download: ~/torrents/
 }}}
 
-Uses: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
+Uses modules: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
 
 == Download Heroes Comics ==
 
@@ -69,7 +69,7 @@ feeds:
     download: ~/heroes/
 }}}
 
-Uses: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
+Uses modules: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
 
 == Generate RSS ==
 
@@ -91,7 +91,7 @@ feeds:
       - some serie
 }}}
 
-Uses: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
+Uses modules: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
 
 == Series - simple example ==
 
@@ -116,7 +116,7 @@ feeds:
 
 == Series - get only certain qualities ==
 
-Regexp is used to reject all entries which do '''not''' have PDTV or HDTV in their information.
+Regexp is used to reject all entries which do '''not''' have PDTV or HDTV in their information. ''This will be made easier in 1.0''
 
 {{{
 feeds:
@@ -132,9 +132,9 @@ feeds:
     download: ~/torrents
 }}}
 
-Uses: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+Uses modules: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
 
-== Real-world example ==
+== Multiple feeds ==
 
 {{{
 feeds:
@@ -163,7 +163,7 @@ feeds:
     download: ~/torrents
 }}}
 
-Uses: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+Uses modules: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
 
 == Complete working example for rTorrent ==
 
