@@ -26,7 +26,7 @@ This will learn all matches as already downloaded, thus avoids downloading old v
 
 If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] module.
 
-Uses: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
+Uses modules: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
 == Download DVDRips From !RlsLog ==
 
