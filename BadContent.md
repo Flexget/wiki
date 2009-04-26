@@ -189,6 +189,7 @@ http://www.dethi.com
 http://www.viddler.com
 http://www.quizilla.com
 http://airsoftgunhelp.com
+http://verifiedfile.com
 (?i)http://.*/user
 (?i)free.*xx.*downloads
 (?i)free.*downloads
