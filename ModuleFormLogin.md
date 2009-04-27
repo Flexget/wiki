@@ -17,7 +17,7 @@ The login module just performs the login, you need to use other modules to parse
 
 {{{
 form:
-  url: http://example.com/browse.php
+  url: http://example.com/login.php
   username: <username>
   password: <password>
 html:
