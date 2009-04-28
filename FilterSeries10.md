@@ -1,3 +1,4 @@
+[[PageOutline]]
 = Series =
 
 '''For upcoming 1.0 (under construction)'''
@@ -48,6 +49,35 @@ series:
 }}}
 
 Series may override any settings specified in group settings.
+
+=== Example ===
+
+{{{
+series:
+  settings:
+    720p:
+      timeframe: 12 hours
+      quality: 720p
+
+  720p:
+    - series name
+  normal:
+    - another series
+}}}
+
+There is convenience feature built in. If a group name is known quality, it will automatically generate configuration with that quality.
+
+=== Example ===
+
+{{{
+series:
+  720p:
+    - series name
+  normal:
+    - another series
+}}}
+
+This is in fact same as previous example, except without timeframe.
 
 == Episode advancement ==
 
