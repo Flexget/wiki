@@ -65,7 +65,7 @@ series:
     - another series
 }}}
 
-There is convenience feature built in. If a group name is known quality, it will automatically generate configuration with that quality.
+There is convenience feature built in. If a group name is known quality, it will automatically generate a settings with that quality.
 
 === Example ===
 
@@ -77,7 +77,7 @@ series:
     - another series
 }}}
 
-This is in fact same as previous example, except without timeframe.
+This is same as previous example except without timeframe.
 
 == Episode advancement ==
 
