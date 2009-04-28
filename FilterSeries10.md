@@ -50,7 +50,7 @@ series:
 
 Series may override any settings specified in group settings.
 
-=== Example ===
+'''Example:'''
 
 {{{
 series:
@@ -67,7 +67,7 @@ series:
 
 There is convenience feature built in. If a group name is a known quality, it will automatically generate a settings with that quality.
 
-=== Example ===
+'''Example:'''
 
 {{{
 series:
@@ -88,7 +88,7 @@ This is same as previous example except without timeframe.
 Series filter allows you to specify a timeframe for each series in which
 !FlexGet waits desired quality. If quality does not come available best quality so far is chosen.
 
-'''Example configuration:'''
+'''Example:'''
 
 {{{
 series:
@@ -140,7 +140,7 @@ specify regexp(s) that filter for the show's name, episode number or unique iden
 
 '''Note:''' Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
 
-=== Example ===
+'''Example:'''
 
 {{{
 series:
