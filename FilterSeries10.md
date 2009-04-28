@@ -65,7 +65,7 @@ series:
     - another series
 }}}
 
-There is convenience feature built in. If a group name is known quality, it will automatically generate a settings with that quality.
+There is convenience feature built in. If a group name is a known quality, it will automatically generate a settings with that quality.
 
 === Example ===
 
