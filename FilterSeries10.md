@@ -34,7 +34,7 @@ Only one of them is downloaded, with default configuration best quality is chose
 
  * Configured series name should not contain anything else than a series name. This is because if you change or reformat name !FlexGet will lose track of already downloaded episodes.
 
-== Groups ==
+== Group settings ==
 
 ''Todo: write userfriendly ''
 
