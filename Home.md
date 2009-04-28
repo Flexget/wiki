@@ -52,7 +52,7 @@ Application is most often used to download torrents from RSS-feeds and works nic
    * Episode number aware, doesn't download same episode twice
    * Quality aware; get best quality release in a specified time frame
  * Use [wiki:FilterPatterns regular expressions] to match desired content
- * Keep track of already downloaded content
+ * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
  * And much more ...
