@@ -195,6 +195,7 @@ http://www.ingerweb.com
 http://planar.se
 http://go2tennisladder.com
 http://www.sharktuner.com
+(?i).*viewtopic\.php.*
 (?i)http://.*/user
 (?i)free.*xx.*downloads
 (?i)free.*downloads
@@ -209,3 +210,5 @@ http://www.sharktuner.com
 (?i)GenF20
 (?i)I.*really.like.*your.*site
 }}}
+
+
