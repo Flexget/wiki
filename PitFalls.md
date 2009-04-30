@@ -2,8 +2,18 @@
 
 === mapping values are not allowed here, line [x] column [y] ===
 
- * You have : -character in somewhere where it's not allowed. If you have : in example series name, you must put name in quotes.
- * Indentation error. Thumb rule is that every time line ends with : -character next line must be indented either 2 spaces more or less. 
+'''You have : -character in somewhere where it's not allowed. If you have : in example series name, you must put name in quotes.'''
+
+{{{
+series:
+  - name
+      path: ~/name/
+}}}
+
+Name is missing : at the end.
+
+
+'''Indentation error. Thumb rule is that every time line ends with : -character next line must be indented either 2 spaces more or less.'''
 
 This is '''invalid'''
 
