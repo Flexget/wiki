@@ -34,6 +34,20 @@ Only one of them is downloaded, with default configuration best quality is chose
 
  * Configured series name should not contain anything else than a series name. This is because if you change or reformat name !FlexGet will lose track of already downloaded episodes.
 
+== Episode advancement ==
+
+By default series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
+
+'''Example:'''
+Series Chuck latest episode is S02E22 and suddenly a feed contains S01E01 which series plugin has not seen or downloaded.[[BR]]
+'''Result:'''
+Episode advancement rejects this episode since it's too back in the past.
+
+'''Example:'''
+Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which series plugin has not seen or downloaded.[[BR]]
+'''Result:'''
+Episode advancement does not reject this.
+
 == Group settings ==
 
 ''Todo: write userfriendly ''
@@ -78,10 +92,6 @@ series:
 }}}
 
 This is same as previous example except without timeframe.
-
-== Episode advancement ==
-
-''TODO:''
 
 == Timeframe ==
 
@@ -180,15 +190,3 @@ id_regexp:
 }}}
 
 User defined episode or id matching takes priority over the built-in expressions.
-
-== Watched ==
-
-Some feeds may occasionally contain older episodes that have already been watched by user but not seen be !FlexGet. For these you can define watched.
-
-{{{
-series:
-  - some series:
-      watched:
-        season: 3
-        episode: 3
-}}}
