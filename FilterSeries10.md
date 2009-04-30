@@ -5,7 +5,7 @@
 
 Intelligent filter for TV-series.
 
-=== Features ===
+== Features ==
 
  * Episode tracking, no duplicate downloads
  * Quality aware
