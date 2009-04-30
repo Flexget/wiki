@@ -93,6 +93,20 @@ series:
 
 This is same as previous example except without timeframe.
 
+== Quality ==
+
+Accept only when given quality becomes available.
+
+'''Example:'''
+
+{{{
+series:
+  - some series:
+      quality: 720p
+  - another series
+  - third series
+}}}
+
 == Timeframe ==
 
 Series filter allows you to specify a timeframe for each series in which
