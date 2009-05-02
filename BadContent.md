@@ -195,6 +195,13 @@ http://www.ingerweb.com
 http://planar.se
 http://go2tennisladder.com
 http://www.sharktuner.com
+http://.*/profile/
+(?i)perfect.site
+(?i)russian.*illegal
+(?i)young.*virgin
+(?i)virgin.*
+(?i)cheerleader
+(?i)your.site.is
 (?i).*viewtopic\.php.*
 (?i)http://.*/user
 (?i)free.*xx.*downloads
@@ -208,7 +215,7 @@ http://www.sharktuner.com
 (?i)mature.*asians
 (?i)look.*young.*again
 (?i)GenF20
+(?i)asian.*porn
 (?i)I.*really.like.*your.*site
 }}}
-
 
