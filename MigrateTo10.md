@@ -16,6 +16,10 @@ Another easy way is to use easy_install (comes with setup tools).
 easy_install sqlalchemy
 }}}
 
+== Install ==
+
+Install !FlexGet into new directory and copy session file and your configuration from old installation. '''Do not execute your configuration until --check passes.'''
+
 == Session migration ==
 
 !FlexGet 1.0 imports some information from 0.9 but not all. At the time of writing this only already downloaded content is imported.
