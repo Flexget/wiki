@@ -45,6 +45,14 @@ rss:
   ascii: true
 }}}
 
+== SyntaxError: invalid syntax ==
+
+You are trying to execute configuration file, use command:
+
+{{{
+python flexget.py
+}}}
+
 === cron job did not run - permission problems ===
 
 Check that you have working mail system so you receive errors occur during crontab execution.
