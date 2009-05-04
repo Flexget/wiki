@@ -1,6 +1,7 @@
+[[PageOutline]]
 = Common pitfalls and answers =
 
-=== mapping values are not allowed here, line [x] column [y] ===
+== mapping values are not allowed here, line [x] column [y] ==
 
 '''A) You have : -character in somewhere where it's not allowed.''' If you have : in example series name, you must put name in quotes.
 
@@ -35,7 +36,7 @@ series:
 
 Note that you need to use an extra indentation (kind of) after a line that starts with a dash (-) and ends with a colon (:).
 
-=== !ValueError: unsupported format character '"' (0x22) at .... ===
+== !ValueError: unsupported format character '"' (0x22) at .... ==
 
 In case you are using RSS input, try forcing it into ASCII.
 
@@ -53,7 +54,7 @@ You are trying to execute configuration file, use command:
 python flexget.py
 }}}
 
-=== cron job did not run - permission problems ===
+== cron job did not run - permission problems ==
 
 Check that you have working mail system so you receive errors occur during crontab execution.
 
