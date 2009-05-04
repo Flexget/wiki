@@ -69,25 +69,6 @@ feeds:
 
 In above example {{{feed B}}} also has everything configured in {{{feed A}}}, but the rss value has been overwritten with another site.
 
-== Making single must have list ==
-
-You can use global section and [wiki:FilterRegexp] to make a neat must-have list.
-
-{{{
-global:
-  regexp:
-    accept:
-      - must have this
-      - and that
-      - and even this
-feeds:
-  .
-  .
-  .
-}}}
-
-Now these matches are downloaded unconditionally regardless of the feed they occur in.
-
 == Disable feeds without commenting them out ==
 
 You can disable feeds temporarily by prefixing names with _ character. This is much easier than commenting out all lines.
