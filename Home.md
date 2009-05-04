@@ -11,7 +11,7 @@
    * [wiki:CookBook The Cook Book]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
- * '''[wiki:Modules Modules]'''
+ * '''[wiki:Modules Plugins]'''
  * [wiki:NeedHelp Problems? Help is near!]
 
 = Releases =
@@ -26,7 +26,7 @@
 !FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different
 sources like [wiki:InputRSS RSS-feeds], [wiki:InputHtml html-pages], various sites and [wiki:Modules#Inputs more].
 
-Application is most often used to download torrents from RSS-feeds and works nicely in that environment, but !FlexGet is no way limited just for that. There are numerous [wiki:Modules modules] that allows utilizing !FlexGet in interesting ways and more modules are being added as the application matures.
+Application is most often used to download torrents from RSS-feeds and works nicely in that environment, but !FlexGet is no way limited just for that. There are numerous [wiki:Modules plugins] that allows utilizing !FlexGet in interesting ways and more plugins are being added as the application matures.
 
 !FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
 
@@ -84,7 +84,7 @@ This example would download all torrents of {{{series name}}} and {{{another ser
 
 You can find more configuration examples in [wiki:CookBook the cookbook].
 
-For more information about how !FlexGet works, check available [wiki:Modules modules] or detailed [wiki:Configuration configuration].
+For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
 
 = Help !FlexGet =
 
@@ -93,7 +93,7 @@ For more information about how !FlexGet works, check available [wiki:Modules mod
    * Write good tutorials
    * Request clearing up confusing parts by adding tag ^''[confusing]''^ (wiki syntax: {{{^''[confusing]''^}}})
    * Request more information by adding tag ^''[need more info]''^
- * Submit more creative modules (must be MIT-license compatible)
+ * Submit more creative plugins (must be MIT-license compatible)
    * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
  * Enlist as active developer, help is always welcomed!
  * Report errors you encounter
