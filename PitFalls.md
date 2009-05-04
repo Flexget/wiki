@@ -45,7 +45,7 @@ rss:
   ascii: true
 }}}
 
-== SyntaxError: invalid syntax ==
+== !SyntaxError: invalid syntax ==
 
 You are trying to execute configuration file, use command:
 
