@@ -24,9 +24,9 @@ flexget.py --feed flexget --learn
 
 This will learn all matches as already downloaded, thus avoids downloading old versions.
 
-If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] module.
+If you wish to receive emails when updated version has been downloaded, add [wiki:OutputEmail email] plugin.
 
-Uses modules: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
+Uses plugins: [wiki:ModuleInterval interval], [wiki:InputHtml html], [wiki:FilterPatterns patterns], [wiki:OutputDownload download]
 
 == Download DVDRips From !RlsLog ==
 
@@ -49,11 +49,11 @@ feeds:
     download: ~/torrents/
 }}}
 
-Uses modules: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
+Uses plugins: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
 
 == Download Heroes Comics ==
 
-Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]. This uses advanced text-parsing module and does not represent accurately average usage.
+Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]. This uses advanced text-parsing plugin and does not represent accurately average usage.
 
 {{{
 feeds:
@@ -69,7 +69,7 @@ feeds:
     download: ~/heroes/
 }}}
 
-Uses modules: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
+Uses plugins: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
 
 == Generate RSS ==
 
@@ -91,7 +91,7 @@ feeds:
       - some serie
 }}}
 
-Uses modules: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
+Uses plugins: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
 
 == Series - simple example ==
 
@@ -132,7 +132,7 @@ feeds:
     download: ~/torrents
 }}}
 
-Uses modules: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+Uses plugins: [wiki:InputRSS RSS], [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
 
 == Multiple feeds ==
 
@@ -163,7 +163,27 @@ feeds:
     download: ~/torrents
 }}}
 
-Uses modules: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+Uses plugins: [wiki:InputRSS RSS], [wiki:FilterPatterns patterns] (deprecated), [wiki:FilterSeries series], [wiki:FilterRegexp regexp], [wiki:OutputDownload download]
+
+
+== Making single must have list ==
+
+You can use global section and [wiki:FilterRegexp] to make a neat must-have list.
+
+{{{
+global:
+  regexp:
+    accept:
+      - must have this
+      - and that
+      - and even this
+feeds:
+  .
+  .
+  .
+}}}
+
+Now these matches are downloaded regardless of the feed they occur in.
 
 == Complete working example for rTorrent ==
 
