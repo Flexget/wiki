@@ -1,8 +1,8 @@
-= Modules =
+= Plugins =
 
-Modules provide most of the functionality in !FlexGet. Modules usually create, manipulate or download [wiki:Entry entries]. Some modules change how !FlexGet operates.
+Plugins (or modules) provide most of the functionality in !FlexGet. They usually create, manipulate or download [wiki:Entry entries]. Some plugins change how !FlexGet operates.
 
-Module is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under a feed.
+Plugin is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under a feed.
 
 {{{
 rss: http://some.site.com/some_feed.rss
