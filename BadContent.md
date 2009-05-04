@@ -196,6 +196,10 @@ http://planar.se
 http://go2tennisladder.com
 http://www.sharktuner.com
 http://.*/profile/
+http://compraviagraitalia.com/
+http://relievepain.org/ 
+http://www.buycialis.cc/ 
+http://headachetreatment.net
 (?i)perfect.site
 (?i)russian.*illegal
 (?i)young.*virgin
@@ -218,4 +222,3 @@ http://.*/profile/
 (?i)asian.*porn
 (?i)I.*really.like.*your.*site
 }}}
-
