@@ -10,7 +10,7 @@ In order to use !FlexGet you'll need to create a configuration file. By default 
 }}}
 
  * Indentation level. Always use '''2 spaces''' and '''never''' use tab-key!
- * '''All''' modules are supposed to be indented at the same level (rss, series, download etc)
+ * '''All''' plugins are supposed to be indented at the same level (rss, series, download etc)
  * Missing colons. Pay special attention to these when looking examples and documentation. If text value contains colon it must be "quoted".
 
 = File structure =
@@ -27,11 +27,9 @@ feeds:
     .
 }}}
 
-^^Note: Modules go where dots are.^^
-
 == Feed configuration ==
 
-Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) module. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
+Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) plugin. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
 
 {{{
 feeds:
@@ -39,7 +37,7 @@ feeds:
     rss: http://example.com/rss
 }}}
 
-If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] module. All modules are indented at same level, in this case rss and patterns. But notice how patterns list is indented once again by 2 additional spaces. This is because the list belongs to patterns.
+If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] plugin. All plugins are indented at same level, in this case rss and patterns. But notice how patterns list is indented once again by 2 additional spaces. This is because the list belongs to patterns.
 
 {{{
 feeds:
@@ -50,7 +48,7 @@ feeds:
       - another.interesting.show
 }}}
 
-And you probably want to download the result as well, so let's throw output module [wiki:OutputDownload download] in as well.
+And you probably want to download the result as well, so let's throw output plugin [wiki:OutputDownload download] in as well.
 
 {{{
 feeds:
@@ -72,6 +70,6 @@ If --check does not find any problems you have successfully created fully workin
 ./flexget.py --test
 }}}
 
-Continue into [wiki:Modules modules] to learn all about modules you may use in you configuration file.
+Continue into [wiki:Modules plugins] to learn all about available plugins you may use in you configuration file.
 
 [wiki:StillConfusedYaml Still confused about Yaml syntax]
