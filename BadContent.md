@@ -200,6 +200,8 @@ http://compraviagraitalia.com/
 http://relievepain.org/ 
 http://www.buycialis.cc/ 
 http://headachetreatment.net
+http://www.bestofindya.com
+(?i)hello.and.bye
 (?i)perfect.site
 (?i)russian.*illegal
 (?i)young.*virgin
