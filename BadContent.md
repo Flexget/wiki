@@ -221,6 +221,7 @@ http://www.bestofindya.com
 (?i)mature.*asians
 (?i)look.*young.*again
 (?i)GenF20
+(?i)buy.*online
 (?i)asian.*porn
 (?i)I.*really.like.*your.*site
 }}}
