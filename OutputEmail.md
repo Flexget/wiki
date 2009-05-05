@@ -2,6 +2,8 @@
 
 ''TODO (anyone): Supports SSL as well, update document''
 
+''TODO (anyone):What does the email look like? Subject, body.''^''[need more info]''^
+
 Send an e-mail with the list of all succeeded (downloaded) entries.
 
 {{{
