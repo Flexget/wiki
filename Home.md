@@ -16,8 +16,7 @@
 
 = Releases =
 
-||'''Release''' (version)||'''Date''' (dd.mm.yyy)||'''Notes'''||
-||[http://flexget.com/downloads/1 FlexGet v0.9.3.2]||02.04.2009||Fixed --test. Python 2.3 - 2.4 compatibility fixed.||
+[[ListDownloads]]
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 
