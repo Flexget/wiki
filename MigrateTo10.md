@@ -94,6 +94,23 @@ Filtering system has been simplified a bit in 1.0, this requires few changes in 
 
 ''TODO''
 
+=== Downloading complete feeds ===
+
+In 0.9 feeds were implicitly downloaded completely without any accept. Ie
+
+{{{
+rss: <url>
+download: <path>
+}}}
+
+Would have downloaded everything, this has been changed in 1.0 for various reasons.
+
+{{{
+rss: <url>
+accept_all: true
+download: <path>
+}}}
+
 == First run ==
 
 Your first run with 1.0 should execute all feeds, so use {{{--now}}} if necessary to force feeds with [wiki:ModuleInterval interval] to execute.
