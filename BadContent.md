@@ -224,4 +224,5 @@ http://www.bestofindya.com
 (?i)buy.*online
 (?i)asian.*porn
 (?i)I.*really.like.*your.*site
+(?i)tweenie
 }}}
