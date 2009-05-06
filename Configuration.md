@@ -29,7 +29,7 @@ feeds:
 
 Now let's break that down line by line.
 
-First line is a container which may contain any number of feeds, in our example there is only one feed called {{{tv-shows}}}, which is defined in the next line. The feed name must be indented by 2 spaces because it belongs to feeds. In Yaml relations are represented by indentation level.
+In first line {{{feeds}}} is a container which may contain any number of feeds under it. In our example there is only one feed called {{{tv-shows}}}. The feed name must be indented by 2 spaces because it belongs to {{{feeds}}}. In Yaml relations are represented by indentation level. Pay special attention to {{{:}}} - characters.
 
 === Plugins ===
 
