@@ -13,56 +13,41 @@ In order to use !FlexGet you'll need to create a configuration file. By default 
  * '''All''' plugins are supposed to be indented at the same level (rss, series, download etc)
  * Missing colons. Pay special attention to these when looking examples and documentation. If text value contains colon it must be "quoted".
 
-= File structure =
+== Example ==
 
-Mandatory file structure has been kept minimal. Each configuration file must have structure of:
-
-{{{
-feeds:
-  feed A:
-    .
-    .
-  feed B:
-    .
-    .
-}}}
-
-== Feed configuration ==
-
-Let's assume that you're trying to download from RSS-feed. First you'll need to add [wiki:InputRSS rss] (input) plugin. Notice how RSS is indented by 2 spaces, this is because it belongs to a feed (or think "my feed" has "rss"). This will create items (called [wiki:Entry entries]) from entire RSS feed.
+Here is our example configuration:
 
 {{{
 feeds:
-  my feed:
-    rss: http://example.com/rss
+  tv-shows:
+    rss: http://example.com/rss.xml
+    series:
+      - chuck
+      - southpark
+    download: ~/torrents/
 }}}
 
-If you don't want to get everything from the RSS feed you'll need to sort out the content you're interested about. This happens trough various [wiki:Modules#Filters filters]. Most commonly [wiki:FilterPatterns patterns] plugin. All plugins are indented at same level, in this case rss and patterns. But notice how patterns list is indented once again by 2 additional spaces. This is because the list belongs to patterns.
+Now let's break that down line by line.
 
-{{{
-feeds:
-  my feed:
-    rss: http://example.com/rss
-    patterns:
-      - my.interesting.show
-      - another.interesting.show
-}}}
+First line is a container which may contain any number of feeds, in our example there is only one feed called {{{tv-shows}}}, which is defined in the next line. The feed name must be indented by 2 spaces because it belongs to feeds. In Yaml relations are represented by indentation level.
 
-And you probably want to download the result as well, so let's throw output plugin [wiki:OutputDownload download] in as well.
+Our feed {{{tv-shows}}} has three plugins: [wiki:InputRSS rss], [wiki:FilterSeries series], [wiki:OutputDownload download]. Notice how they are once again indented by additional 2 spaces. This is because they belong to the feed {{{tv-shows}}}. In correct configuration file all plugin keywords appear in same level.
 
-{{{
-feeds:
-  my feed:
-    rss: http://example.com/rss
-    patterns:
-      - my.interesting.show
-      - another.interesting.show
-    download: /home/myself/podcasts/
-}}}
+=== RSS ===
 
-When you create or modify configuration try running !FlexGet with --check parameter. It will go through configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}.
+This is our input plugin which reads RSS-feed and produces processable [wiki:Entry entries]. From plugin [wiki:InputRSS rss] documentation we learn that it accepts URL as a parameter in it's simplest form.
 
-If --check does not find any problems you have successfully created fully working configuration file, that wasn't so hard was it? In reality when dealing with TV-series you may wish to use [wiki:FilterSeries series] filter instead of patterns.
+=== Series ===
+
+This plugin expects a list of series names as a parameter. Notice again how the list is intended by 2 spaces more than series keyword. The list belongs to series plugin. This filters [wiki:Entry entries], it goes trough all of them and accepts those which match to our interest and reject rest of them.
+
+=== Download ===
+
+The process ends at output, in this case we have single output that just downloads all accepted entries into given path.
+
+== Tips ==
+
+When you create or modify configuration try running !FlexGet with --check parameter. It will go through configuration file and report any irregularities. If you used default configuration file name simply execute {{{./flexget.py --check}}}. If this doesn't report any problems you should have fully working configuration file.
 
 '''Test your configuration file:'''
 
