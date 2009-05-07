@@ -2,7 +2,10 @@
 
 = CookBook = 
 
-Feel free to add your own recipes.
+{{{
+#!html
+<div id="login_note" style="width: 45em">Feel free to add your own recipes.<br> To edit wiki you need to login with username: <b>flexget</b> password: <b>anon</b></div>
+}}}
 
 == Download !FlexGet Releases ==
 
