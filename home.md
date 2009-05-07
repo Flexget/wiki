@@ -87,6 +87,12 @@ For more information about how !FlexGet works, check available [wiki:Modules plu
 
 = Help !FlexGet =
 
+{{{
+#!html
+<div id="login_note">To edit wiki you need to login with username: <b>flexget</b> password: <b>anon</b></div>
+}}}
+
+
  * Improve this wiki
    * Make any general improvements
    * Write good tutorials
