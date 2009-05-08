@@ -78,5 +78,5 @@ regexp:
   [rest]: <operation>
 }}}
 
-Available operations: {{{accept, filter, reject, accept_excluding, filter_excluding and reject_excluding}}}.
+Available operations: {{{accept}}}, {{{filter}}}, {{{reject}}}, {{{accept_excluding}}}, {{{filter_excluding}}} and {{{reject_excluding}}}.
 Rest and not parameters are optional. Configuration may contain any number and combination of different operations.
