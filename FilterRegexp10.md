@@ -4,20 +4,11 @@ Use regular expression to Accept, Filter or Reject entries. !FlexGet uses python
 
 === Simple examples ===
 
-Accept entries matching regexp(s) and filter rest of the entries.
+Accept entries matching regexp(s).
 
 {{{
 regexp:
   accept:
-    - pattern
-  rest: filter
-}}}
-
-Filter entries matching regexp(s), they can still be accepted by other modules. This should be used when you want to leave chance of accepting to other modules.
-
-{{{
-regexp:
-  filter:
     - pattern
 }}}
 
@@ -38,7 +29,6 @@ regexp:
   reject:
     - german
     - sweden
-  rest: filter
 }}}
 
 == Set custom path ==
@@ -51,7 +41,6 @@ Any regexp rule can set custom path for matching entry.
 regexp:
   accept: 
     - pattern: ~/custom/path
-  rest: filter
 }}}
 
 or
@@ -61,7 +50,6 @@ regexp:
   accept: 
     - pattern:
         path: ~/custom/path
-  rest: filter
 }}}
 
 == Full syntax ==
