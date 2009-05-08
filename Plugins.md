@@ -56,7 +56,7 @@ Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed ma
 ||'''Keyword'''||'''Description'''||
 ||[wiki:FilterRegexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
-||[wiki:FilterSeries10 series]||Accept TV-serie episodes. Quality and episode number aware.||
+||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
@@ -80,9 +80,9 @@ Execute operation(s) to entries that pass trough filter(s).
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:ModuleSearch search]||[wiki:NewIn10 New] Search for download URL from supported sites.||
-||[wiki:ModulePathByExt path_by_ext]||[wiki:NewIn10 New] Change (download) path based on file-type (extension).||
-||[wiki:ModulePreset preset]||[wiki:NewIn10 New] Provides global configuration and named presets.||
+||[wiki:ModuleSearch search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
+||[wiki:ModulePathByExt path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
+||[wiki:ModulePreset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
@@ -90,4 +90,4 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) interactively.||
 ||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
-||[wiki:ModuleFormLogin formlogin]||[wiki:NewIn10 New] Log in via form.||
+||[wiki:ModuleFormLogin formlogin]||'''{{{NEW}}}''' Log in via form.||
