@@ -37,6 +37,7 @@ Application is most often used to download torrents from RSS-feeds and works nic
 
 '''Usenet (NZB)'''
 
+ * [http://nzbget.sourceforge.net/ nzbget]
  * [http://www.sabnzbd.org/ sabnzb]
  * [http://www.hellanzb.com hellanzb]
 
