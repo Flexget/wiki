@@ -25,4 +25,4 @@ Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed p
 
 == Not on the list? Make your own ==
 
-If you only need to replace some words from URL to make it work almost anyone should be able to do it by using existing modules as starting point.
+If you only need to replace some words from URL to make it work almost anyone should be able to do it by using existing plugins as a starting point.
