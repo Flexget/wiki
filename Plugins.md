@@ -54,6 +54,7 @@ Produce [wiki:Entry entries] from external source.
 Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:FilterAcceptAll accept_all]||'''{{{NEW}}}'''  Accept all entries.||
 ||[wiki:FilterRegexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
