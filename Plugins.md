@@ -1,11 +1,13 @@
+{{{
+#!html
+<h1 style="text-align: left; color: red">Note:</h1>
+<b>This page contains plugins that are available only on bleeding edge.</b> 
+}}}
+For stable release, please look instead [wiki:Modules here].
+
 = Plugins =
 
 Formerly known as modules. Please see [wiki:MigrateTo10 migrate guide] if you have previously used !FlexGet.
-
-{{{
-#!html
-<h1 style="text-align: left; color: red">This page is only for upcoming 1.0</h1>
-}}}
 
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can as well change how !FlexGet operates.
 
