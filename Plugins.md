@@ -1,6 +1,6 @@
 = Plugins =
 
-Formerly known as modules.
+Formerly known as modules. Please see [wiki:MigrateTo10 migrate guide] if you have previously used !FlexGet.
 
 {{{
 #!html
