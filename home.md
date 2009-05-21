@@ -34,6 +34,7 @@ Application is most often used to download torrents from RSS-feeds and works nic
  * [http://libtorrent.rakshasa.no/ rTorrent] (see: [wiki:CookBook/rtorrent how to])
  * [http://utorrent.com uTorrent]
  * [http://www.transmissionbt.com/ Transmission]
+ * [http://deluge-torrent.org/ Deluge]
 
 '''Usenet (NZB)'''
 
