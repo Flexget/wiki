@@ -41,7 +41,7 @@ series:
     hdtv:
       set:
         path: /media/diskb/incomplete/
-        movedone: /media/diskb/TV/%(series_name)s/
+        movedone: /media/diskb/TV/%(series_name)s/Season %(series_season)s/
         label: tv
   720p:
     - pattern1
