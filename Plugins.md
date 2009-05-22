@@ -94,4 +94,5 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) interactively.||
 ||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
-||[wiki:ModuleFormLogin formlogin]||'''{{{NEW}}}''' Log in via form.||
+||[wiki:ModuleFormLogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
+||[wiki:ModifySet set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
