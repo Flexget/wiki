@@ -51,7 +51,7 @@ series:
     - pattern4
         set:
           movedone: /media/diskb/otherfolder/
-          queuetotop: True
+          queuetotop: yes
 deluge: yes
 }}}
 
