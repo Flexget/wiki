@@ -57,4 +57,4 @@ series:
 deluge: yes
 }}}
 
-The more specific set commands will override the less specific ones (i.e. the set command from pattern4 will override the set values from the hdtv group.
+The more specific set commands will override the less specific ones (i.e. the set command from name 4 will override the set values from the hdtv group.
