@@ -32,23 +32,25 @@ Example with set:
 
 {{{
 series:
-  group:
+  settings:
     720p:
+      quality: 720p
       set:
         path: /media/diska/incomplete/
         movedone: /media/diska/TV/%(series_name)s/
         label: 720p
     hdtv:
+      quality: hdtv
       set:
         path: /media/diskb/incomplete/
         movedone: /media/diskb/TV/%(series_name)s/Season %(series_season)s/
         label: tv
   720p:
-    - pattern1
-    - pattern2
+    - name 1
+    - name 2
   hdtv:
-    - pattern3
-    - pattern4
+    - name 3
+    - name 4
         set:
           movedone: /media/diskb/otherfolder/
           queuetotop: yes
