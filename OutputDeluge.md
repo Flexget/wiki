@@ -12,7 +12,7 @@ deluge:
   queuetotop: yes
 }}}
  * path: the download location
- * movedone: the location files will be moved when torrent finishes
+ * movedone: the location files will be moved when torrent finishes NOTE: There is a bug in versions of deluge before 1.1.8 that prevents this from working.
  * label: deluge label
  * queuetotop: if True will move torrent to top of queue when added
 
