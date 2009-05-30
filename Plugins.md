@@ -60,7 +60,7 @@ Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed ma
 ||[wiki:FilterRegexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:FilterExists exists]||Reject entries based on existing files in filesystem.||
+||[wiki:FilterExists10 exists]||'''{{{Upgraded}}}''' Reject entries based on existing files in filesystem.||
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen seen]||Reject already downloaded entries. [wiki:Builtin]||
