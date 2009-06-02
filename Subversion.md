@@ -10,10 +10,24 @@ For stable release you should checkout from 0.9 branch which is kept stable.
 svn co http://svn.flexget.com/branches/0.9 flexget-0.9
 }}}
 
-Only ''bleeding edge'' users should checkout from trunk.
+=== Bleeding edge (upcoming 1.0) ===
+
+Be aware that this is under constant development at the moment.
 
 {{{
 svn co http://svn.flexget.com/trunk flexget-dev
+}}}
+
+After checkout is complete, you need to initialize your environment.
+
+{{{
+python bootstrap.py
+}}}
+
+Now !FlexGet should be executable via:
+
+{{{
+bin/flexget
 }}}
 
 When updating your installation, remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
