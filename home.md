@@ -18,7 +18,7 @@
 
 [[ListDownloads]]
 
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion]
+[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
 
 = Introduction =
 
