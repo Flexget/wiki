@@ -16,6 +16,8 @@ Only ''bleeding edge'' users should checkout from trunk.
 svn co http://svn.flexget.com/trunk flexget-dev
 }}}
 
+When updating your installation, remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
+
 == Update from SVN ==
 
 Enter path where you did checkout and run
