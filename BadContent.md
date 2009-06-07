@@ -225,4 +225,12 @@ http://www.bestofindya.com
 (?i)asian.*porn
 (?i)I.*really.like.*your.*site
 (?i)tweenie
+(?i)Ultracet Online
+(?i)Skelaxin Online
+http://www.levitra.personalfanpages.com
+http://www.ibreathemusic.com
+http://www.seekhotelreviews.com
+http://www.skelaxinpharmacy365.com
+http://www.ultracetpharmacy365.com
+http://vigrx.personalfanpages.com
 }}}
