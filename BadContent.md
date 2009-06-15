@@ -233,4 +233,9 @@ http://www.seekhotelreviews.com
 http://www.skelaxinpharmacy365.com
 http://www.ultracetpharmacy365.com
 http://vigrx.personalfanpages.com
+http://generic.*.com
+http://www.anydatingsite.com/
+http://forums.plexapp.com
+http://greenteasupplier.com
+http://tradingsignals.personalfanpages.com
 }}}
