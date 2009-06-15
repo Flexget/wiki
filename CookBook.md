@@ -15,7 +15,7 @@ feeds:
     interval: 3 days
     html: http://download.flexget.com/0.9/
     patterns:
-      - flexget
+      - flexget.*zip
     download: ~/flexget/
 }}}
 
