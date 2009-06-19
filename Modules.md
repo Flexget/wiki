@@ -76,7 +76,6 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:OutputSubtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:OutputExec exec]||Execute command for passed entries.||
 ||[wiki:OutputEmail email]||Send email when new content is passed.||
-||[wiki:OutputDeluge deluge]||Send torrent files to a deluge daemon.||
 
 == Modify / Other ==
 
