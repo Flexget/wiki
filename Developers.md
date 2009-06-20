@@ -1,24 +1,12 @@
-= How to make custom modules =
+= How to make custom plugins (bleeding edge) =
 
-'''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a bit messy ...'''
+'''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
 
 Making custom modules should be easy for anyone with some python experience.
 
 If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
 
-Each module must have at least one '''unique''' class with register method with following signature:
-
-{{{
-def register(self, manager, parser):
-}}}
-
-!FlexGet creates instance of this class and calls the register method. From this method module may register itself.
-
-To register your module call {{{manager.register}}}. You must at least specify module name:
-
-{{{
-manager.register('new')
-}}}
+''todo: write about registering a plugin''
 
 You can also pass some optional named arguments
 
@@ -72,36 +60,27 @@ Feed is a class that represents one feed in configuration file.
  config::
   feed specific configuration (dict).
 
- cache::
-  '''will be gone in 1.0''' Cache class for storing persistent information, this is unique for each feed.
-
- shared_cache::
-  '''will be gone in 1.0''' Cache class for storing persistent information, this is not feed specific.
-
  entries::
   list containing [wiki:DevelopersEntry entries].
+
+ accepted::
+  list containing accepted entries
+
+ rejected::
+  list containing rejected entries
 
 You shouldn't modify name or config as they are used by other modules.
 
 === Available methods: ===
 
  accept(entry, [reason])::
-  Mark entry accepted, filtering this later do not affect status. Call this on entries module knows should be downloaded.
-
- filter(entry, [reason])::
-  Mark entry to be filtered, other modules may still however accept entry.
+  Mark entry accepted. Can still be rejected
 
  reject(entry, [reason])::
   Mark entry to be removed. It will be removed from feed once module event returns.
 
  failed(entry)::
-  Mark entry to be failed (download)
-
- get_failed_entries()::
-  Return set containing all failed entries.
-
- get_succeeded_entries()::
-  Return set containing all succeeded entries.
+  Mark entry to be failed (ie. download 404 etc)
 
  get_input_url(keyword)::
   Helper method for modules. Return url for a specified keyword.
@@ -112,26 +91,29 @@ You shouldn't modify name or config as they are used by other modules.
   ....url: <address>
   '''Will be moved in 1.0'''
 
-== Cache class ==
-
-  '''Will be removed in 1.0'''
-
-  store(key, value, days=30)::
-    Stores key value pair for number of days. Value must be yaml compatible. Default number of days is 30.
-
-  storedefault(key, value, default, days=30)::
-    Similar to dictionary setdefault.
-
-  get(key, default=None)::
-    Get stored value, passed default (or None) if not found.
-
 == Manager class ==
 
   Accessible trough feed.manager
 
-  get_module_by_name(name)
-
-  get_modules_by_group(group)
-
   unit_test::
     True when executing unit tests
+
+== Plugin class ==
+
+''todo: write ''
+
+== Unit testing ==
+
+=== Run tests ===
+
+{{{
+bin/paver test
+}}}
+
+Argument {{{--online}}} can be used to enable online tests
+
+=== Run a single test ===
+
+{{{
+bin/nosetests tests/__init__.py:TestDisableBuiltins
+}}}
