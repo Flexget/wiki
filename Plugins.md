@@ -87,6 +87,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleSearch search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:ModulePathByExt path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
 ||[wiki:ModulePreset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
+||[wiki:ModuleCookies10 cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
