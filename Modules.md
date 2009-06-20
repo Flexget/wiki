@@ -1,4 +1,4 @@
-= Plugins =
+= Plugins (for 0.9) =
 
 '''Note:''' Bleeding edge users should look [wiki:Plugins here]
 
