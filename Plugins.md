@@ -91,6 +91,7 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
+||[wiki:ResolveRegexp regexp_resolve]||Easy download URL rewriting.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:ModuleCliConfig cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:ModuleTryRegexp try_regexp]||Test how regexps work on feed(s) interactively.||
