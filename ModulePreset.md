@@ -11,12 +11,14 @@ global:
 tv:
   series:
     - foo
-    - bar  
+    - bar
+  download: ~/download/series/
 
 movies:
   imdb:
     min_score: 6.2
     min_votes: 5000
+  download: ~/download/movies/
 
 feeds:
   some_feed:
