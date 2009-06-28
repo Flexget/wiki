@@ -1,12 +1,8 @@
 = Search =
 
-'''To be introduced in 1.0'''
+Use entry title and try to search it from supported sites. Accepts list of search modules in order of priority. If entry is not found from any of the sites it will be rejected.
 
-Search for download URL from supported sites. Accepts list of search modules in order of priority.
-
-Once hit has been found no more searches are performed. Should be used only when
-there is no other way to get working download URL, ie. when input module does not provide
-any downloadable URLs.
+This should be used only when there is no other way to get working download URL, ie. when input module does not provide any relevant URLs.
 
 Example:
 
@@ -15,7 +11,3 @@ search:
   - newtorrents
   - piratebay
 }}}
-
-Notes:
-
- * Some resolvers will use search modules automatically if entry URL points into a search page.
