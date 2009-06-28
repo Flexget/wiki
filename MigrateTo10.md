@@ -8,19 +8,12 @@
 == New dependencies ==
 
 '''Python 2.5''' - older versions will no longer be supported.[[BR]]
-'''SQLAlchemy 0.5''' or newer. Install it from your distribution repository (rarely >0.5 atm.) or from http://sqlalchemy.org
-
-Currently perhaps the easiest way is to use easy_install (comes with python setup tools package).
-
-Then just run:
-
-{{{
-easy_install sqlalchemy
-}}}
 
 == Install ==
 
-Install !FlexGet into new directory and copy session file and your configuration from old installation. '''Do not execute your configuration until --check passes.'''
+''TODO: out of date''
+
+'''Do not execute your configuration until --check passes.'''
 
 == Session migration ==
 
