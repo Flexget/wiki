@@ -18,6 +18,8 @@
 
 [[ListDownloads]]
 
+Note: Bleeding Edge is starting to be quite stable, if you're familiar with subversion you might want to give it a shot.
+
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
 
 = Introduction =
