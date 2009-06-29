@@ -14,7 +14,7 @@
 
 Currently only way to install is to checkout from [wiki:Subversion subversion].
 
-After checkout you must create environment by running:
+After checkout you must initialize environment by running:
 
 {{{
 python bootstrap.py
@@ -25,6 +25,8 @@ Note that flexGet executable has also been relocated, it is now in:
 {{{
 bin/flexget
 }}}
+
+Copy your old session and configuration file to new install.
 
 '''Do not execute your configuration without --test until --check passes.'''
 
