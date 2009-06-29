@@ -104,7 +104,7 @@ Timeframe syntax has been changed, see [http://flexget.com/wiki/FilterSeries10#T
 
 === Cookies ===
 
-''TODO''
+New plugin, see [wiki:ModuleCookies10 cookies]
 
 === Downloading complete feeds ===
 
