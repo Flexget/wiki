@@ -8,12 +8,25 @@
 == New dependencies ==
 
 '''Python 2.5''' - older versions will no longer be supported.[[BR]]
+'''Easy_install'''
 
 == Install ==
 
-''TODO: out of date''
+Currently only way to install is to checkout from [wiki:Subversion subversion].
 
-'''Do not execute your configuration until --check passes.'''
+After checkout you must create environment by running:
+
+{{{
+python bootstrap.py
+}}}
+
+Note that flexGet executable has also been relocated, it is now in:
+
+{{{
+bin/flexget
+}}}
+
+'''Do not execute your configuration without --test until --check passes.'''
 
 == Session migration ==
 
