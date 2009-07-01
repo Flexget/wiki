@@ -1,6 +1,7 @@
 = Deluge =
 
 Downloads content from entry url and loads it into the [http://deluge-torrent.org deluge] bittorrent client.
+Supports Deluge 1.1.x and 1.2.x apis.
 
 '''Example:'''
 
