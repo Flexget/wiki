@@ -12,7 +12,9 @@ svn co http://svn.flexget.com/branches/0.9 flexget-0.9
 
 === Bleeding edge (upcoming 1.0) ===
 
-Be aware that this is under constant development at the moment.
+'''Note:''' Requires Python 2.5 or 2.6
+
+Be aware that this is under development at the moment.
 
 {{{
 svn co http://svn.flexget.com/trunk flexget-dev
@@ -30,7 +32,7 @@ Now !FlexGet should be executable via:
 bin/flexget
 }}}
 
-When updating your installation, remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
+When updating remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
 
 == Update from SVN ==
 
