@@ -12,15 +12,18 @@ svn co http://svn.flexget.com/branches/0.9 flexget-0.9
 
 === Bleeding edge (upcoming 1.0) ===
 
-'''Note:''' Requires Python 2.5 or 2.6
+'''Notes:''' 
 
-Be aware that this is under development at the moment.
+ * Requires Python 2.5 or 2.6
+ * This is under development at the moment
+
+To checkout use command:
 
 {{{
 svn co http://svn.flexget.com/trunk flexget-dev
 }}}
 
-After checkout is complete, you need to initialize your environment.
+After checkout is complete, you need to initialize the environment.
 
 {{{
 python bootstrap.py
