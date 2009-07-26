@@ -11,9 +11,10 @@ First you need to download !FlexGet.
  * [wiki:InstallOSX OSX]
  * [wiki:InstallWindows Windows]
 
-== Future (bleeding edge) ==
+== Bleeding Edge / Upcoming 1.0 ==
 
- * [wiki:InstallVirtualEnv Virtual env]
+ * [wiki:Subversion subversion]
+ * [wiki:InstallVirtualEnv egg in a virtual env] (not yet possible)
 
 = Upgrading =
 
