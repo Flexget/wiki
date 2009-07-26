@@ -191,3 +191,29 @@ Now these matches are downloaded regardless of the feed they occur in.
 == Complete working example for rTorrent ==
 
 There is also a complete example how to set up an [wiki:CookBook/rtorrent automatic downloader using rTorrent] and !FlexGet on a separate page
+
+== Easier series management with preset (1.0) ==
+
+'''Note:''' Works only on bleeding edge / upcoming 1.0
+
+With [wiki:ModulePreset preset] plugin you can avoid having to keep duplicate configuration in multiple feeds. This can be adapted for movies, comics etc easily. See [wiki:ModulePreset preset] documentation for more tips.
+
+{{{
+series:
+  download: ~/torrents/series/
+  exists: ~/storage/series/
+  series:
+    - chuck
+    - myth busters
+
+feeds:
+  some feed:
+    rss: http://example.com/
+    preset: [global, series]
+
+  some another feed:
+    rss: http://foobar.com/
+    preset: [global, series]
+}}}  
+
+Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:OutputDownload download]
