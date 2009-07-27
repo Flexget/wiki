@@ -9,9 +9,9 @@ How duplicate movie detection works:
 
 == Configuration ==
 
-There are two different operating modes, strict and loose.
+There are two different operating modes, {{{strict}}} and {{{loose}}}.
 
-Strict mode will remove all movies that are not imdb-compatible. Loose mode will pass them.
+Strict mode will reject all movies that are not imdb-compatible. Loose mode will not intervene them.
 
 === Example: ===
 
