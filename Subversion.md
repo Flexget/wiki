@@ -29,6 +29,8 @@ After checkout is complete, you need to initialize the environment.
 python bootstrap.py
 }}}
 
+If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}
+
 Now !FlexGet should be executable via:
 
 {{{
