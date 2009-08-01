@@ -125,7 +125,7 @@ series:
 
 When timeframe is specified quality has a default value of 720p.
 
-Possible values for quality (in order): 1080p, 720p, hr, dvd, hdtv, dsr, dsrip
+Possible values for quality (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, pdtv, dsr, dsrip
 
 == Override path ==
 
