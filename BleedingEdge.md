@@ -19,6 +19,8 @@ After updating to this revision you need to run:
 python bootstrap.py
 }}}
 
+If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}
+
 !FlexGet executable has also been relocated, it is now in:
 
 {{{
