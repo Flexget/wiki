@@ -73,3 +73,15 @@ email:
   smtp_username:
   smtp_password:
 }}}
+
+Gmail example:
+{{{
+    from: from@gmail.com
+    to: to@gmail.com
+    smtp_host: smtp.gmail.com
+    smtp_port: 587
+    smtp_login: true
+    smtp_username: gmailUser
+    smtp_password: gmailPassword
+    smtp_tls: true
+}}}
