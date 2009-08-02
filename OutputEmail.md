@@ -1,10 +1,22 @@
 = Email =
 
-''TODO (anyone): Supports SSL as well, update document''
-
-''TODO (anyone):What does the email look like? Subject, body.''^''[need more info]''^
-
 Send an e-mail with the list of all succeeded (downloaded) entries.
+
+The result email will look like this:
+
+
+{{{
+Subject: [FlexGet] feedname : X new entries downloaded
+Content: 
+FlexGet has just downloaded X new entries for feed feedname  :
+- release title (torrent url) => destination folder
+- release title (torrent url) => destination folder
+- release title (torrent url) => destination folder
+- release title (torrent url) => destination folder
+}}}
+
+
+
 
 {{{
 Config:
