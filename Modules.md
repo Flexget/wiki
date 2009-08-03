@@ -1,6 +1,6 @@
 = Plugins (for 0.9) =
 
-'''Note:''' Bleeding edge users should look [wiki:Plugins here]
+'''{{{Note:}}}''' '''Bleeding edge users''' should look [wiki:Plugins here]
 
 Plugins (or modules) provide most of the functionality in !FlexGet. They usually create, manipulate or download [wiki:Entry entries]. Some may change how !FlexGet operates.
 
