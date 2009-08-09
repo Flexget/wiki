@@ -10,7 +10,7 @@ Plugin has few command line options starting from bleeding edge / 1.0
 
 === --forget ===
 
-Option {{{--forget <feed>}}} can be used to forget everything seen from a specific feed.
+Option {{{--forget <feed>}}} can be used to forget everything seen from a specific feed. (#301)
 
 === --seen ===
 
