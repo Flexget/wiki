@@ -1,5 +1,10 @@
 {{{
 #!html
+<div id="login_note">For more permissions (edit wiki, browse sources) login with username: <b>flexget</b> password: <b>anon</b></div>
+}}}
+
+{{{
+#!html
 <h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support</h1>
 }}}
 
@@ -94,12 +99,6 @@ You can find more configuration examples in [wiki:CookBook the cookbook].
 For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
 
 = Help !FlexGet =
-
-{{{
-#!html
-<div id="login_note">To edit wiki you need to login with username: <b>flexget</b> password: <b>anon</b></div>
-}}}
-
 
  * Improve this wiki
    * Make any general improvements
