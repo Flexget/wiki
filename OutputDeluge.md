@@ -17,7 +17,7 @@ deluge:
  * label: deluge label
  * queuetotop: if True will move torrent to top of queue when added
 
-All options are optional and will default to whatever you have set in duluge.
+All options are optional and will default to whatever you have set in deluge.
 If you wish not to set any of the parameters the format is:
 {{{
 deluge: yes
