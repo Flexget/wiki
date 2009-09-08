@@ -2,6 +2,8 @@
 
 Reject already voted entries based on user imdb vote history.
 
+To make this work you need to go ''Change display options'' in your imdb movie list and set display to all.
+
 === Example ===
 
 {{{
