@@ -47,6 +47,7 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:InputHtml html]||Parse any HTML-page.||
 ||[wiki:InputCSV csv]||Parse any CSV-file||
 ||[wiki:InputText text]||Parse any text data||
+||[wiki:InputDirectories directories]||Use any local directory listing as input.||
 ||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net].||
 ||[wiki:InputSceneReleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com].||
@@ -59,6 +60,8 @@ Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed ma
 ||[wiki:FilterAcceptAll accept_all]||'''{{{NEW}}}'''  Accept all entries.||
 ||[wiki:FilterRegexp10 regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
+||[wiki:FilterImdbRated imdb_rated]||Reject already voted entries.||
+||[wiki:FilterImdbRequired imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:FilterExists10 exists]||'''{{{Upgraded}}}''' Reject entries based on existing files in filesystem.||
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
