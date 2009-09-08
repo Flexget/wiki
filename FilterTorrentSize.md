@@ -9,5 +9,3 @@ torrent_size:
 }}}
 
 Size is given in MB
-
-'''Untested, may not work'''
