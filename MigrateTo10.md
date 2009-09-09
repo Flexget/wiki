@@ -95,7 +95,7 @@ Filtering system has been simplified a bit in 1.0, this requires few changes in 
 
 === Imdb ===
 
-{{{filter_invalid}}} has been changed into {{{reject_invalid}}} since filter operation has been removed.
+{{{filter_invalid}}} has been removed, instead use plugin [wiki:FilterImdbRequired imdb_required].
 
 == Series ==
 
