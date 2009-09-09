@@ -1,9 +1,8 @@
-= Migrating from 0.9 to 1.0 (alpha) =
+= Migrating from 0.9 to 1.0 (beta) =
 
 '''Notes'''
 
  * Instructions under work ..
- * 1.0 is still not ready, but begins to be somewhat usable
 
 == New dependencies ==
 
