@@ -11,7 +11,7 @@
 
 == Install ==
 
-Currently only way to install is to checkout from [wiki:Subversion subversion].
+Currently only way to install is to checkout from [wiki:Subversion subversion]. In the future there will be a egg-package that can be installed very easily.
 
 After checkout you must initialize environment by running:
 
