@@ -255,8 +255,9 @@ jlvtajgklvsf
 hdwjrrvonbwf
 wloosuvbmgot
 tajesaxobylz
-http.*hotels.*\.com
-texasholdem
-edexperience
-malerxsolutions
+(?i)http.*hotels.*\.com
+(?i)texasholdem
+(?i)texas.*holdem
+(?i)edexperience
+(?i)malerxsolutions
 }}}
