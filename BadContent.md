@@ -260,4 +260,10 @@ tajesaxobylz
 (?i)texas.*holdem
 (?i)edexperience
 (?i)malerxsolutions
+(?i)istanbul
+(?i)hotels.*\.com
+(?i)erectile.*dysfunction
+www.*porn.*\.com
+male.*rx
+pharmacy
 }}}
