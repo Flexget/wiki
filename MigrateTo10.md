@@ -9,9 +9,9 @@
 '''Python 2.5''' - older versions will no longer be supported.[[BR]]
 '''Easy_install'''
 
-== Install ==
+== With Subversion ==
 
-Currently only way to install is to checkout from [wiki:Subversion subversion]. In the future there will be a egg-package that can be installed very easily.
+If you're familiar with subversion I'd suggest setting up developer sandbox as it is easiest to update.
 
 After checkout you must initialize environment by running:
 
@@ -29,17 +29,23 @@ Copy your old session and configuration file to new install.
 
 '''Do not execute your configuration without --test until --check passes.'''
 
+== Without subversion ==
+
+If subversion scares you ..
+
+Install !FlexGet from egg, preferably in virtualenv ([wiki:InstallVirtualEnv how-to]).
+
 == Session migration ==
 
 !FlexGet 1.0 imports some information from 0.9 but not all. At the time of writing this only already downloaded content is imported.
 
-== Deprecated modules ==
+== Deprecated plugins ==
 
-Some modules have been replaced with new ones.
+Some plugins have been replaced with new ones.
 
 === Patterns, Ignore and Accept ===
 
-These modules have been removed. You'll need to convert these to use new [wiki:FilterRegexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
+These plugins have been removed. You'll need to convert these to use new [wiki:FilterRegexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
 
 '''Patterns:'''
 
