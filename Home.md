@@ -23,7 +23,7 @@
 
 [[ListDownloads]]
 
-Note: Bleeding Edge is starting to be quite stable, if you're familiar with subversion you might want to give it a shot. [wiki:MigrateTo10 How to migrate to bleeding edge environment].
+Note: Bleeding Edge is starting to be quite stable. I'd recommend installing beta eggs in virtualenv ([wiki:InstallVirtualEnv how-to]). Old users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
 
