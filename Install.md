@@ -15,6 +15,7 @@ First you need to download !FlexGet.
 
  * [wiki:Subversion subversion]
  * [wiki:InstallVirtualEnv egg in a virtual env] (not yet possible)
+ * [wiki:InstallNoRoot no root access]
 
 = Upgrading =
 
