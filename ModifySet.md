@@ -21,13 +21,15 @@ series:
 }}}
 {{{
 regexp:
-  - ^Some.Regex:
-      set:
-        path: /download/there/
+  accept:
+    - some regexp:
+        set:
+          path: /download/there/
+    - another regexp
 }}}
 
 Calling set however does not do much unless another plugin uses the information you have set.
-Currently only the deluge plugin will read info from set, here are the available keywords:
+Mostly useful for deluge plugin which will utilize certain values, here are the available keywords:
 
 '''[wiki:OutputDeluge deluge:]'''
 Will read {{{path}}}, {{{movedone}}}, {{{label}}} and {{{queuetotop}}} from set, set info will override those deluge configuration values with the set values.
