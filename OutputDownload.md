@@ -10,16 +10,17 @@ download: ~/torrents/
 
 == Advanced ==
 
-Some modules may set alternative download path for entry.
-Prime example is module patterns that can be used to override path.
+Some plugins may set alternative download path for entry.
+Prime example is [wiki:FilterRegexp regexp] that can be used to override path.
 
 Example with alternative paths:
 
 {{{
-patterns:
-  - pattern1
-  - pattern2
-  - pattern3: ~/another_location/
+regexp:
+  accept:
+    - pattern1
+    - pattern2
+    - pattern3: ~/another_location/
 download: ~/torrents/
 }}}
 
