@@ -101,3 +101,4 @@ Execute operation(s) to entries that pass trough filter(s).
 ||[wiki:ModuleDisableBuiltins disable_builtins]||Disable builtin modules from a feed.||
 ||[wiki:ModuleFormLogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:ModifySet set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
+||[wiki:ModuleManipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
