@@ -1,41 +1,22 @@
 = Migrating from 0.9 to 1.0 (beta) =
 
-'''Notes'''
+Install new version [wiki:Install instructions].
 
- * Instructions under work ..
 
 == New dependencies ==
 
 '''Python 2.5''' - older versions will no longer be supported.[[BR]]
 '''Easy_install'''
 
-== With Subversion ==
-
-If you're familiar with subversion I'd suggest setting up developer sandbox as it is easiest to update.
-
-After checkout you must initialize environment by running:
-
-{{{
-python bootstrap.py
-}}}
-
-Note that flexGet executable has also been relocated, it is now in:
+Note that !FlexGet executable has also been relocated, it is now in:
 
 {{{
 bin/flexget
 }}}
 
+== Migration ==
+
 Copy your old session and configuration file to new install.
-
-'''Do not execute your configuration without --test until --check passes.'''
-
-== Without subversion ==
-
-If subversion scares you ..
-
-Install !FlexGet from egg, preferably in virtualenv ([wiki:InstallVirtualEnv how-to]).
-
-== Session migration ==
 
 !FlexGet 1.0 imports some information from 0.9 but not all. At the time of writing this only already downloaded content is imported.
 
