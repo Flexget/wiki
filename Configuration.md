@@ -41,7 +41,7 @@ This is our input plugin which reads RSS-feed and produces processable [wiki:Ent
 
 === Plugin: Series ===
 
-This plugin expects a list of series names as a parameter. Notice again how the list is intended by 2 spaces more than series keyword. The list belongs to series plugin. This filters [wiki:Entry entries], it goes trough all of them and accepts those which match to our interest and reject rest of them.
+This plugin expects a list of series names as a parameter. Notice again how the list is intended by 2 spaces more than series keyword. The list belongs to series plugin. This filters [wiki:Entry entries], it goes trough all of them and accepts those which match to our interest.
 
 === Plugin: Download ===
 
