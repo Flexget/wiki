@@ -1,8 +1,8 @@
 = Bleeding edge users information =
 
-Important notes for bleeding edge users:
+Important notes for 1.0 / bleeding edge users:
 
-== r663 - dependency changes ==
+== Subversion users: r663 - dependency changes ==
 
 If upgrading to this, run:
 
@@ -11,7 +11,7 @@ bin/paver clean
 python bootstrap.py
 }}}
 
-== r661 - setup tools / pavement ==
+== Subversion users: r661 - setup tools / pavement ==
 
 After updating to this revision you need to run:
 
