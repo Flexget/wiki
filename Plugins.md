@@ -47,14 +47,14 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:InputHtml html]||Parse any HTML-page.||
 ||[wiki:InputCSV csv]||Parse any CSV-file||
 ||[wiki:InputText text]||Parse any text data||
-||[wiki:InputDirectories directories]||'''{{{NEW}}}''' Use any local directory listing as input.||
-||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net].||
+||[wiki:InputDirectories directories]||'''{{{NEW}}}''' Use any local directory listing as a input.||
+||[wiki:InputRlsLog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:InputSceneReleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:InputTVTorrents tvt]||Parse [http://tvtorrents.com].||
 
 == Filters ==
 
-Reject or Accept feeds [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
+Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have any number of filters.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:FilterAcceptAll accept_all]||'''{{{NEW}}}'''  Accept all entries.||
@@ -73,7 +73,7 @@ If you plan to use multiple filters per feed, you should look [wiki:FilterOperat
 
 == Outputs ==
 
-Execute operation(s) to entries that pass trough filter(s).
+Execute operation(s) to accepted entries.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:OutputDownload download]||Download passed entries into given path.||
