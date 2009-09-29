@@ -105,7 +105,7 @@ Would have downloaded everything, this has been changed in 1.0 for various reaso
 
 {{{
 rss: <url>
-accept_all: true
+accept_all: yes
 download: <path>
 }}}
 
