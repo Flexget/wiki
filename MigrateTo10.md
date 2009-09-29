@@ -86,7 +86,7 @@ Filtering system has been simplified a bit in 1.0, this requires few changes in 
 
 == Series ==
 
-Timeframe syntax has been changed, see [http://flexget.com/wiki/FilterSeries10#Timeframe here].
+Timeframe and name_patterns syntax has been changed, see documentation [http://flexget.com/wiki/FilterSeries10#Timeframe here].
 
 === Cookies ===
 
