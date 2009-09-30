@@ -16,7 +16,8 @@
    * [wiki:CookBook The Cook Book]
    * [wiki:GlobalSection Global Section]
    * [wiki:TipsAndTricks Advanced Tips and Tricks]
- * '''[wiki:Modules Plugins]'''
+ * '''[wiki:Modules Plugins] (0.9.x)'''
+ * '''[wiki:Plugins Plugins] (1.0.x)'''
  * [wiki:NeedHelp Problems? Help is near!]
 
 = Releases =
