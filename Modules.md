@@ -81,7 +81,7 @@ Execute operation(s) to entries that pass trough filter(s).
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:ModuleInterval interval]||Maintain minimum poll interval for a feed.||
-||[wiki:ModuleCookies cookies]||[wiki:ToBeRemoved Deprecated]. Enable cookies for all HTTP-requests.||
+||[wiki:ModuleCookies cookies]||Enable cookies for all HTTP-requests.||
 ||[wiki:ModuleHeaders headers]||Modify HTTP headers.||
 ||[wiki:ModifyExtension extension]||Force a file extension.||
 ||[wiki:ModifyRemoveTrackers remove_trackers]||Remove trackers from a torrent.||
