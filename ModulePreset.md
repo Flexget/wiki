@@ -1,8 +1,6 @@
 = Module Preset =
 
-''To be included in 1.0''
-
-Works exactly like classic global section, but allows multiple different presets.
+Works exactly like classic global section, but allows additionally multiple different presets.
 
 {{{
 global:
@@ -23,17 +21,17 @@ movies:
 feeds:
   some_feed:
     rss: http://example.com
-    preset: [global, tv]
+    preset: tv
 
   another_feed:
     rss: http://example2.com
-    preset: [global, movies]
+    preset: movies
 
   third_feed:
     rss: http://example3.com
-    preset: [global, movies]
+    preset: movies
 
-  # Note: This will use global because preset is built in (always enabled) and has default value of global
+  # Note: This feed will use global because preset is built in (always enabled) and has default value of global
   fourth_feed:
     rss: http://example4.com
 }}}
