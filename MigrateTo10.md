@@ -2,21 +2,32 @@
 
 Install new version [wiki:Install instructions].
 
-
 == New dependencies ==
 
 '''Python 2.5''' - older versions will no longer be supported.[[BR]]
 '''Easy_install'''
 
-Note that !FlexGet executable has also been relocated, it is now in:
+Note that !FlexGet executable has also been relocated, location depends on chosen installation method.
+
+With egg:
+
+Anywhere ..
+
+{{{
+flexget
+}}}
+
+With virtualenv:
 
 {{{
 bin/flexget
 }}}
 
+This looks configuration file from current directory, you can use -c to specify configuration file.
+
 == Migration ==
 
-Copy your old session and configuration file to new install.
+Copy your old session and configuration file to virtualenv or basically anywhere, ie. {{{~/.flexget/}}}.
 
 !FlexGet 1.0 imports some information from 0.9 but not all. At the time of writing this only already downloaded content is imported.
 
