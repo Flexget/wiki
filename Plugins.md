@@ -88,6 +88,7 @@ Execute operation(s) to accepted entries.
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:ModuleImdbLookup imdb_lookup]||'''{{{NEW}}}'''  Tries to perform imdb lookup for all entries.||
 ||[wiki:ModuleSearch search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:ModulePathByExt path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
 ||[wiki:ModulePreset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
