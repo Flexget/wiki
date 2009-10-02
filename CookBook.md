@@ -196,7 +196,7 @@ There is also a complete example how to set up an [wiki:CookBook/rtorrent automa
 
 '''Note:''' Works only on bleeding edge / upcoming 1.0
 
-With [wiki:ModulePreset preset] plugin you can avoid having to keep duplicate configuration in multiple feeds. This can be adapted for movies, comics etc easily. See [wiki:ModulePreset preset] documentation for more tips.
+With [wiki:ModulePreset preset] plugin you can avoid having to keep duplicate configuration in multiple feeds. This can be adapted for movies, comics etc. easily. See [wiki:ModulePreset preset] documentation for more tips.
 
 {{{
 series:
@@ -209,11 +209,11 @@ series:
 feeds:
   some feed:
     rss: http://example.com/
-    preset: [global, series]
+    preset: series
 
   some another feed:
     rss: http://foobar.com/
-    preset: [global, series]
+    preset: series
 }}}  
 
 Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:OutputDownload download]
