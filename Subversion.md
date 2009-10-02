@@ -25,20 +25,17 @@ svn co http://svn.flexget.com/trunk flexget-dev
 
 After checkout is complete, you need to initialize the environment.
 
-{{{
-python bootstrap.py
-}}}
 
-If you have upgraded to Python 2.5 or 2.6 using the source tarball, the python executable will be pointing to the earlier version installed. You can check this by running
+Make sure the {{{python}}} command uses python 2.5 or 2.5. On some systems this may be {{{python2.5}}}.
 
 {{{
 python -V
 }}}
 
-To make sure you run bootstrap.py with Python 2.5 or higher use
+If you're running >= 2.5
 
 {{{
-python2.5 bootstrap.py
+python bootstrap.py
 }}}
 
 If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}
