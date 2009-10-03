@@ -7,15 +7,16 @@
 <div id="login_note" style="width: 45em">Feel free to add your own recipes.<br> To edit wiki you need to login with username: <b>flexget</b> password: <b>anon</b></div>
 }}}
 
-== Download !FlexGet Releases ==
+== Download !FlexGet (0.9.x) Releases ==
 
 {{{
 feeds:
   flexget:
     interval: 3 days
     html: http://download.flexget.com/0.9/
-    patterns:
-      - flexget.*zip
+    regexp:
+      accept:
+        - flexget.*zip
     download: ~/flexget/
 }}}
 
