@@ -2,51 +2,67 @@
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
 
-Making custom modules should be easy for anyone with some python experience.
+Resources:
 
-If you have good re-usable module under construction I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
+ * [http://coverage.flexget.com unit test coverage]
+ * [http://doc.flexget.com generated documents] ''not yet up(?)''
 
-''todo: write about registering a plugin''
+Making custom plugins should be easy for anyone with some python experience.
+
+If you're working on good re-usable plugin I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
+
+== Registering plugins ==
+
+Plugins are registered by calling {{{register_plugin}}} method.
+
+{{{
+register_plugin(<class name>, '<keyword>', [parameters])
+}}}
 
 You can also pass some optional named arguments
 
 {{{
 Optional arguments:
-    priority    - when multiple modules of same event type are enabled for feed
+    priority    - when multiple plugins of same event type are enabled for a feed
                   this is used to determine execution order. Default 0. Larger number, higher priority.
-    builtin     - set to True if module should be executed always
-    group       - group name this module belongs to
-    groups      - list of group names this module belongs to
+    builtin     - set to True if plugin should be executed always
+    group       - group name this plugin belongs to
+    groups      - list of group names this plugin belongs to
 }}}
 
 Example:
 {{{
-  manager.register('new', priority=2)
+register_plugin(FilterRegexp, 'regexp', priorities={'filter': 128})
 }}}
 
-Now when keyword {{{new}}} is found from feed configuration, event methods are called.
+=== Event methods ===
 
-=== Event methods (in order): ===
+Listed in order of execution.
 
- * feed_start(self, feed)
- * feed_input(self, feed)
- * feed_filter(self, feed)
- * feed_download(self, feed)
- * feed_modify(self, feed)
- * feed_output(self, feed)
- * feed_exit(self, feed)
+ * on_feed_start(self, feed)
+ * on_feed_input(self, feed)
+ * on_feed_filter(self, feed)
+ * on_feed_download(self, feed)
+ * on_feed_modify(self, feed)
+ * on_feed_output(self, feed)
+ * on_feed_exit(self, feed)
 
-Modules may create new events, signature is in form of feed_<name>(self, feed).
+''TODO: explain event roles? on start and exit there is no feed.session!''
 
-''TODO: explain event roles?''
+=== Registering custom events ===
+
+Plugins may create new feed events, signature is on_feed_<name>(self, feed).
 
 === Application events ===
 
- * application_terminate(self, feed)
+ * on_process_start(self, feed)
+ * on_process_end(self, feed)
+
+These are triggered on startup and shutdown, not between feeds.
 
 === Adding commandline parameters ===
 
-In register you can also add more commandline parameters, parser parameter is Optik class that has simple method for adding parameters. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
+You can also add more commandline parameters. Check existing plugins. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
 
 == Feed class ==
 
@@ -69,9 +85,12 @@ Feed is a class that represents one feed in configuration file.
  rejected::
   list containing rejected entries
 
+ simple_persistence::
+  provides easy key, value persistence for modules that do not require the full SQLAlchemy capabilities.
+
 You shouldn't modify name or config as they are used by other modules.
 
-=== Available methods: ===
+=== Feed methods ===
 
  accept(entry, [reason])::
   Mark entry accepted. Can still be rejected
@@ -93,10 +112,10 @@ You shouldn't modify name or config as they are used by other modules.
 
 == Manager class ==
 
-  Accessible trough feed.manager
+Accessible trough feed.manager
 
-  unit_test::
-    True when executing unit tests
+ unit_test::
+  True when executing unit tests
 
 == Plugin class ==
 
