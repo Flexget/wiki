@@ -6,7 +6,7 @@ Important notes for 1.0 / bleeding edge users:
 
 '''Action required when upgrading'''
 
- * From svn prior to r780
+ * From svn prior to r781
  * From beta egg prior to beta 7
 
 While in beta, no automatic database migration is provided so once in a while change comes along that requires user actions.
