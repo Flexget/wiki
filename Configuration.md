@@ -57,6 +57,8 @@ When you create or modify configuration try running !FlexGet with --check parame
 ./flexget.py --test
 }}}
 
+See [wiki:CookBook/Series how to manage series] for how to refine this simplistic example into real world.
+
 Continue into [wiki:Modules plugins] to learn all about available plugins you may use in you configuration file.
 
-[wiki:StillConfusedYaml Still confused about Yaml syntax]
+[wiki:StillConfusedYaml Still confused about Yaml syntax?]
