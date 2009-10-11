@@ -1,33 +1,10 @@
 = Migrating from 0.9 to 1.0 (beta) =
 
-Install new version [wiki:Install instructions].
-
-== New dependencies ==
-
-'''Python 2.5''' - older versions will no longer be supported.[[BR]]
-'''Easy_install'''
-
-Note that !FlexGet executable has also been relocated, location depends on chosen installation method.
-
-With egg:
-
-Anywhere ..
-
-{{{
-flexget
-}}}
-
-With virtualenv:
-
-{{{
-bin/flexget
-}}}
-
-This looks configuration file from current directory, you can use -c to specify configuration file.
+First install the new version [wiki:Install instructions].
 
 == Migration ==
 
-Copy your old session and configuration file to virtualenv or basically anywhere, ie. {{{~/.flexget/}}}.
+Copy your old session and configuration files to new home, recommended place {{{~/.flexget/}}}.
 
 !FlexGet 1.0 imports some information from 0.9 but not all. At the time of writing this only already downloaded content is imported.
 
