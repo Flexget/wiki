@@ -6,6 +6,8 @@
 {{{
 #!html
 <h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support</h1>
+<h4 style="text-align: left; color: red">Looking for a cowboy coder armed with sqlalchemy-migrate</h4>
+
 }}}
 
 == Quick access ==
