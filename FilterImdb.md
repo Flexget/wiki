@@ -37,6 +37,26 @@ reject_languages:
 accept_languages:
   - language1
 
+# NOTE: all persons are identified by their IMDb ID
+
+# accept movies with any of these actors
+accept_actors:
+    - nm0004695
+    - nm0004754
+
+# reject movie if it has any of these actors
+reject_actors:
+    - nm0001191
+    - nm0002071
+
+# accept all movies by these directors
+accept_directors:
+    - nm0000318
+
+# reject movies by these directors
+reject_directors:
+    - nm0093051
+
 # Reject all entries which are not imdb-compatible
 # this has default value (True) even when key not present.
 # Applies also when using search, if no movie can be found it is considered as invalid.
