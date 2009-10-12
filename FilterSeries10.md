@@ -1,7 +1,7 @@
 [[PageOutline]]
 = Series =
 
-'''For upcoming 1.0 (under construction)'''
+'''Upcoming 1.0 (under construction)'''
 
 Intelligent filter for TV-series.
 
@@ -109,8 +109,7 @@ series:
 
 == Timeframe ==
 
-Series filter allows you to specify a timeframe for each series in which
-!FlexGet waits desired quality. If quality does not come available best quality so far is chosen.
+Specify a timeframe in which !FlexGet waits for best quality. If optional quality is given, this is considered to be satisfactory and proceeded without waiting entire timeframe. If specified quality does not come available within timeframe best quality so far is chosen.
 
 '''Example:'''
 
@@ -122,8 +121,6 @@ series:
   - another series
   - third series
 }}}
-
-When timeframe is specified quality has a default value of 720p.
 
 Possible values for quality (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, pdtv, dsr, dsrip
 
@@ -149,8 +146,8 @@ Series {{{another series, third series}}} will be downloaded into {{{~/downloads
 {{{
 series:
   - some series:
-      quality: 720p
       timeframe: 4 hours
+      quality: 720p
       path: ~/download/some_series/
   - another series
   - third series
@@ -170,7 +167,7 @@ specify regexp(s) that filter for the show's name, episode number or unique iden
 series:
   - some series:
       name_regexp: ^some.series
-      ep_regexp: (\d\d)-(\d\d\d)  # must return TWO groups
+      ep_regexp: (\d\d)-(\d\d\d)  # must return TWO groups, both being numeric values
       id_regexp: (\d\d\d)         # can return any number of groups
   - another series
   - third series
@@ -190,17 +187,18 @@ ep_regexp is for series enumerated by season and episode numbers (eg, S04E01).  
 ep_regexp:
   - s(\d+)e(\d+)
   - s(\d+)ep(\d+)
-  - (\d+)x(\d+)
+  - s(\d+).e(\d+)
+  - [^\d]([\d]{1,2})[\s]?x[\s]?(\d+)
 }}}
-The two groups returned by the episode regular expression must be numbers.
 
 id_regexp is for series that are not enumerated by season/episode numbering.
 
 {{{
 id_regexp:
-  - (\d\d\d\d).(\d+).(\d+)
-  - (\d+).(\d+).(\d\d\d\d)
-  - (\d\d\d\d)x(\d+)\.(\d+)
+ - (\d\d\d\d).(\d+).(\d+)
+ - (\d+).(\d+).(\d\d\d\d)
+ - (\d\d\d\d)x(\d+)\.(\d+)
+ - [^s^\d](\d{1,3})[^p^\d]
 }}}
 
-User defined episode or id matching takes priority over the built-in expressions.
+User defined regexps takes priority over the built-in expressions.
