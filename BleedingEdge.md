@@ -19,7 +19,7 @@ sqlite3 db-config.sqlite "drop table series; drop table series_episodes; drop ta
 
 Then run !FlexGet once with {{{--learn}}} to make sure no series will be re-downloaded.
 
-If {{{sqlite3}}} command is not available, try installing relevant tool packages (ie. apt-get install sqlite3). If all else fail {{{--reset}}} will fix database but may cause some older items to be re-downloaded if they appear in the feed again.
+If {{{sqlite3}}} command is not available, try installing relevant tool packages (ie. apt-get install sqlite3). If all else fail deleting database and running {{{--learn}}} will fix database but may cause some older items to be re-downloaded if they appear in the feed again.
 
 == Subversion users: r663 - dependency changes ==
 
