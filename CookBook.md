@@ -220,3 +220,29 @@ feeds:
 }}}  
 
 Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:OutputDownload download]
+
+== My movie list ==
+
+Generates RSS with imdb details, ordered by imdb score. Throw in [wiki:FilterImdbRated imdb_rated] and you get list of unwatched movies!
+
+{{{
+generate:
+  interval: 4 hours
+  accept_all: yes
+  imdb_lookup: yes
+  disable_builtins: yes
+  sort_by:
+    field: imdb_score
+    reverse: yes
+
+feeds:
+
+  storage_movies:
+    preset: generate
+    directories: /storage/movies/
+    make_rss:
+      file: ~/public_html/movies.rss
+      history: no
+}}}
+
+Uses plugins: [wiki:ModulePreset preset], [wiki:ModuleImdbLookup imdb_lookup], [wiki:OutputRss make_rss]
