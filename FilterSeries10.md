@@ -36,7 +36,7 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 == Episode advancement ==
 
-By default series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
+Series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
 
 '''Example:'''
 Series Chuck latest episode is S02E22 and suddenly a feed contains S01E01 which series plugin has not seen or downloaded.[[BR]]
@@ -46,56 +46,11 @@ Episode advancement rejects this episode since it's too far in the past.
 '''Example:'''
 Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which series plugin has not seen or downloaded.[[BR]]
 '''Result:'''
-Episode advancement does not reject this.
-
-== Group settings ==
-
-''Todo: write userfriendly ''
-
-{{{
-series:
-  [settings]:
-    [group]:
-      [setting]: [value]
-  [group]:
-    - first series
-    - second series
-}}}
-
-Series may override any settings specified in group settings.
-
-'''Example:'''
-
-{{{
-series:
-  settings:
-    720p:
-      timeframe: 12 hours
-      quality: 720p
-
-  720p:
-    - series name
-  normal:
-    - another series
-}}}
-
-There is convenience feature built in. If a group name is a known quality, it will automatically generate a settings with that quality.
-
-'''Example:'''
-
-{{{
-series:
-  720p:
-    - series name
-  normal:
-    - another series
-}}}
-
-This is same as previous example except without timeframe.
+Episode advancement does not reject this. This fits inside grace margin from latest episode.
 
 == Quality ==
 
-Accept only when given quality becomes available.
+Accept only given quality. No other quality will be accepted.
 
 '''Example:'''
 
@@ -153,6 +108,51 @@ series:
   - third series
 download: ~/download/
 }}}
+
+== Group settings ==
+
+''Todo: write userfriendly ''
+
+{{{
+series:
+  [settings]:
+    [group]:
+      [setting]: [value]
+  [group]:
+    - first series
+    - second series
+}}}
+
+Series may override any settings specified in group settings.
+
+'''Example:'''
+
+{{{
+series:
+  settings:
+    720p:
+      timeframe: 12 hours
+      quality: 720p
+
+  720p:
+    - series name
+  normal:
+    - another series
+}}}
+
+There is convenience feature built in. If a group name is a known quality, it will automatically generate a settings with that quality.
+
+'''Example:'''
+
+{{{
+series:
+  720p:
+    - series name
+  normal:
+    - another series
+}}}
+
+This is same as previous example except without timeframe.
 
 == Advanced matching with regexps ==
 
