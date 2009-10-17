@@ -63,7 +63,8 @@ Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have
 ||[wiki:FilterImdbRated imdb_rated]||'''{{{NEW}}}''' Reject already voted entries.||
 ||[wiki:FilterImdbRequired imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:FilterExists10 exists]||'''{{{Upgraded}}}''' Reject entries based on existing files in filesystem.||
+||[wiki:FilterExists10 exists]||Reject entries based on existing files in filesystem.||
+||[wiki:FilterExistsSeries exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:FilterLimitNew limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:FilterSeenMovies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:FilterSeen10 seen]||'''{{{Upgraded}}}''' Reject already downloaded entries. [wiki:Builtin]||
