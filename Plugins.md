@@ -105,5 +105,5 @@ Execute operation(s) to accepted entries.
 ||[wiki:ModuleFormLogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:ModifySet set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
 ||[wiki:ModuleManipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
-||[wiki:ModuleSort sort]||'''{{{NEW}}}'''  Sort entries.||
+||[wiki:ModuleSort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
 ||[wiki:ModuleInclude include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
