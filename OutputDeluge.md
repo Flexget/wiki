@@ -59,3 +59,15 @@ deluge: yes
 }}}
 
 The more specific set commands will override the less specific ones (i.e. the set command from name 4 will override the set values from the hdtv group.
+
+== Twisted in bleeding edge ==
+To install Twisted into bleeding edge, one must install the development version of setuptools, due to a bug in the current stable version:
+{{{
+$ ~/src/flexget-dev/bin/easy_install setuptools==dev
+<snip install output>
+
+$ ~/src/flexget-dev/bin/easy_install twisted
+<snip install output>
+
+$
+}}}
