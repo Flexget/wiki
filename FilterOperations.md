@@ -12,10 +12,10 @@ All plugins may do following operations to [wiki:Entry].
   <td><strong>Effect</strong></td>
 </tr><tr>
   <td><div style="color:red; font-weight: bold">Reject</div></td>
-  <td>Entry will be removed. Other modules may not change this status.</td>
+  <td>Entry will be removed. Other plugins may not change this status.</td>
 </tr><tr>
   <td><div style="color:green; font-weight: bold">Accept</div></td>
-  <td>Entry will be marked accepted. Filtering this entry has no effect. May still be Rejected.</td>
+  <td>Entry will be marked accepted. May still be Rejected.</td>
 </tr><tr>
   <td><div style="color:#666; font-weight: bold">Undecided</div></td>
   <td>Entry is not marked to any category.</td>
