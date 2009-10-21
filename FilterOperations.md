@@ -1,6 +1,6 @@
 = Operations =
 
-All modules may do following operations to [wiki:Entry].
+All plugins may do following operations to [wiki:Entry].
 
 {{{
 #!html
@@ -15,18 +15,15 @@ All modules may do following operations to [wiki:Entry].
   <td><div style="color:green; font-weight: bold">Accept</div></td>
   <td>Entry will be marked accepted. Filtering this entry has no effect. May still be Rejected.</td>
 </tr><tr>
-  <td><div style="color:#ff7300; font-weight: bold">Filter</div></td>
-  <td>Entry will be marked implicitly removed. However it may still be Accepted or Rejected.</td>
-</tr><tr>
-  <td><div style="color:#97d000; font-weight: bold">Default</div></td>
-  <td>Entry is not marked to any category. Entry is implicitly accepted if nobody specifies anything.</td>
+  <td><div style="color:#666; font-weight: bold">Default</div></td>
+  <td>Entry is not marked to any category.</td>
 </tr>
 </table>
 }}}
 
 === Represented as a schematic ===
 
-[[Image(0.9_operations.png)]]
+[[Image(1.0_operations.png)]]
 
 == Scenario ==
 
@@ -36,8 +33,6 @@ Assuming configuration:
 regexp:
   accept:
     - Something
-  filter:
-    - XviD
   reject:
     - CAM
 }}}
@@ -46,5 +41,7 @@ Q: What would happen to file '''Something.CAM.XviD'''[[BR]]
 A: It would be rejected, since reject operation is stronger than accept.
 
 Q: What would happen to file '''Something.XviD'''[[BR]]
-A: It would be accepted, since filter operation is weaker.
+A: It would be accepted
 
+Q: What would happen to file '''Example.XviD'''[[BR]]
+A: It wouldn't be intervened any way, neither accepted nor rejected. Note that output plugins are interested only in accepted plugins.
