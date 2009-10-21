@@ -15,7 +15,7 @@ All plugins may do following operations to [wiki:Entry].
   <td><div style="color:green; font-weight: bold">Accept</div></td>
   <td>Entry will be marked accepted. Filtering this entry has no effect. May still be Rejected.</td>
 </tr><tr>
-  <td><div style="color:#666; font-weight: bold">Default</div></td>
+  <td><div style="color:#666; font-weight: bold">Undecided</div></td>
   <td>Entry is not marked to any category.</td>
 </tr>
 </table>
