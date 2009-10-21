@@ -9,8 +9,6 @@ For example [wiki:FilterRegexp regexp] plugin checks if given regular expression
 ||'''title'''||Some.Awesome.Serie.S01E01.XviD-Foo||
 ||'''url'''||!http://site.com/download/Some.Awesome.Serie.S01E01.XviD-Foo.torrent||
 
-----
-
 ''More resources:''
  * [wiki:FilterOperations Actions for entry]
  * [wiki:DevelopersEntry Detailed entry information]
