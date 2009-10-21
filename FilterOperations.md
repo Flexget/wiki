@@ -46,4 +46,4 @@ Q: What would happen to file '''Something.XviD'''[[BR]]
 A: It would be accepted
 
 Q: What would happen to file '''Example.XviD'''[[BR]]
-A: It wouldn't be intervened any way, neither accepted nor rejected. Note that output plugins are interested only in accepted plugins.
+A: It wouldn't be intervened any way, neither accepted nor rejected. Note that output plugins are interested only in accepted entries.
