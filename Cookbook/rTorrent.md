@@ -53,14 +53,15 @@ on_erase = rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base
 
 === !FlexGet setup ===
 
-This configuration is written for !FlexGet 0.9.3.2, so it might or might not work for you.
+This configuration is just an simple example, see other recipes for more inspiration.
 
 {{{
 feeds:
   debian:
     html: http://cdimage.debian.org/debian-cd/current/i386/bt-dvd/
-    patterns:
-      - torrent
+    regexp:
+      accept:
+        - torrent
     download: /srv/torrent/torrents
 }}}
 
@@ -82,4 +83,4 @@ screen rtorrent
 
 You are all done, your downloads should start and stop automatically. All that is left for you to do is to make sure that you don't run out of disk space. 
 
-[wiki:TheCookBook Back to The Cook Book]
+[wiki:Cookbook Back to The Cook Book]
