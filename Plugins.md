@@ -84,7 +84,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:OutputExec exec]||Execute command for passed entries.||
 ||[wiki:OutputEmail email]||Send email when new content is passed.||
 ||[wiki:OutputDeluge deluge]||'''{{{NEW}}}'''  Pass torrents directly to deluge bittorrent client.||
-||[wiki:OutputSABnzbs sabnzbs]||'''{{{NEW}}}'''  Download nzbs via SABnzbd.||
+||[wiki:OutputSABnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
 
 == Modify / Other ==
 
