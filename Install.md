@@ -14,6 +14,7 @@ First you need to download !FlexGet.
 == 1.0 betas & bleeding edge ==
 
  * [wiki:InstallEgg how to install eggs]
+   * [wiki:InstallEggMac Mac 10.6 notes]
  * [wiki:InstallVirtualEnv how to install egg in a virtual env]
  * [wiki:InstallNoRoot no python 2.5 and no root access]
  * [wiki:Subversion subversion] (bleeding edge)
