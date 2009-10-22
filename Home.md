@@ -6,7 +6,7 @@
 {{{
 #!html
 <h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support</h1>
-<h4 style="text-align: left; color: red">Looking for a cowboy coder armed with sqlalchemy-migrate</h4>
+<h4 style="text-align: left; color: #660000">Looking for a cowboy coder armed with sqlalchemy-migrate</h4>
 <div style="float: right">
 
 <font size="1" width=20px>Support my pizza addiction :)</font> 
@@ -24,23 +24,22 @@
 
 }}}
 
-== Quick access ==
+=== Documentation ===
 
- * [wiki:Install Installation guide]
- * [wiki:Configuration]
+ * '''[wiki:Install Installation guide]'''
+ * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
-   * [wiki:CookBook The Cook Book]
-   * [wiki:GlobalSection Global Section]
-   * [wiki:TipsAndTricks Advanced Tips and Tricks]
- * '''[wiki:Modules Plugins] (0.9.x)'''
+ * '''[wiki:TheCookBook The Cook Book]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
- * [wiki:NeedHelp Problems? Help is near!]
+ * '''[wiki:Modules Plugins] (0.9.x)'''
 
-= Releases =
+[wiki:NeedHelp Having problems? Help is near!]
+
+== Releases ==
 
 [[ListDownloads]]
 
-Note: Bleeding Edge is starting to be quite stable. I'd recommend installing beta eggs in virtualenv ([wiki:InstallVirtualEnv how-to]). Old users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
+'''Note:''' 1.0 / Bleeding Edge is starting to be quite stable. I'd recommend installing beta eggs in virtualenv ([wiki:InstallVirtualEnv how-to]). Older users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
 
