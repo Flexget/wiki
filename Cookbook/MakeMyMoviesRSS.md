@@ -22,4 +22,6 @@ feeds:
       history: no
 }}}
 
+Uses plugins: [wiki:ModulePreset preset], [wiki:ModuleImdbLookup imdb_lookup], [wiki:OutputRss make_rss]
+
 [wiki:TheCookBook Back to The Cook Book]
