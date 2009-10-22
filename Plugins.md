@@ -3,19 +3,13 @@
 <h1 style="text-align: left; color: red">Note:</h1>
 <b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
-For stable release, please look instead [wiki:Modules here].
+For older 0.9.x release, look instead [wiki:Modules here].
 
 = Plugins =
 
-Formerly known as modules. Please see [wiki:MigrateTo10 migrate guide] if you have previously used !FlexGet.
-
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can as well change how !FlexGet operates.
 
-Plugin is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under feed. See [wiki:Configuration configuration] if you are not familiar with the structure.
-
-{{{
-rss: http://some.site.com/some_feed.rss
-}}}
+Plugin is enabled by placing a keyword and required settings in a configuration file.
 
 == Indentation in examples ==
 
