@@ -5,43 +5,17 @@ The CookBook contains tips and recipes for common tasks.
 Feel free to add your own recipes or improve existing ones.[[BR]]
 To edit wiki you need to login with username: '''flexget''' password: '''anon'''
 
-=== Manage series and multiple feeds easily ===
+== Delicious recipes ==
 
-[wiki:Recipe/PresetSeries View recipe]
+ * [wiki:Recipe/PresetSeries Manage series and multiple feeds easily]
+ * [wiki:Recipe/FlexGetUpdater Download FlexGet Releases]
+ * [wiki:Recipe/RlsLogDVDRips Download DVDRips From RlsLog with imdb filtering]
+ * [wiki:Recipe/HeroesComics Download Heroes comics]
+ * [wiki:Recipe/MakeDownloadRSS Generate download RSS for other clients]
+ * [wiki:Recipe/rTorrent Complete working example for rTorrent]
+ * [wiki:Recipe/MakeMyMoviesRSS Generate my movies list]
 
+''todo:''
 
-=== Download !FlexGet Releases ===
-
-Download all new !FlexGet releases and send email when new version is available.
-
-[wiki:Recipe/FlexGetUpdater View recipe]
-
-=== Download DVDRips From !RlsLog ===
-
-Download DVDRips by using http://www.rlslog.net as a source and reject bad movies by using imdb details.
-
-[wiki:Recipe/RlsLogDVDRips View recipe]
-
-=== Download Heroes Comics ===
-
-[wiki:Recipe/HeroesComics View recipe]
-
-=== Generate download RSS ===
-
-Generate RSS for clients lacking watch directory or plugin support.
-
-[wiki:Recipe/MakeDownloadRSS View recipe]
-
-=== Multiple feeds ===
-
-=== Making single must have list ===
-
-=== Complete working example for rTorrent ===
-
-[wiki:Recipe/rTorrent View recipe]
-
-=== Generate my movies list ===
-
-This shows how you can generate RSS feed from your movies.
-
-[wiki:Recipe/MakeMyMoviesRSS View recipe]
+ * Multiple feeds
+ * Making single must have list
