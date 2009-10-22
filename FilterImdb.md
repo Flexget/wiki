@@ -38,6 +38,7 @@ accept_languages:
   - language1
 
 # NOTE: all persons are identified by their IMDb ID
+# You can use names as well but they need to be exact matches.
 
 # accept movies with any of these actors
 accept_actors:
