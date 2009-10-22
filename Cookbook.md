@@ -1,11 +1,4 @@
 = The Cook Book =
-{{{
-#!html
-<script type="text/javascript">
-document.write("Hello World!")
-</script>
-<script src="http://cdn.jquerytools.org/1.1.2/jquery.tools.min.js"></script>
-}}}
 
 From here you can find tips and recipes for common tasks.
 
