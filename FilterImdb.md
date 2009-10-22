@@ -15,7 +15,7 @@ imdb:
     - horror
 }}}
 
-=== Configuration ===
+=== Full configuration ===
 
 {{{
 Note: All parameters are optional. Some are mutually exclusive.
