@@ -3,7 +3,7 @@
 This module allows filtering based on IMDB score, votes and genres etc.
 Results are cached so this doesn't cause unnecessary load to [http://www.imdb.com imdb].
 
-'''Note:''' If [wiki:Entry] does't have imdb url present module will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details. This module works best when input module provides accurate urls for entries, currently only [wiki:InputRlsLog RlsLog] does that.
+'''Note:''' If [wiki:Entry] doesn't have `imdb url` present plugin will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
 
 === Example ===
 
