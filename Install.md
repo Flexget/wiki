@@ -1,9 +1,8 @@
 = How to install !FlexGet =
 
-First you need to download !FlexGet. 
 [[ListDownloads]]
 
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion]
+[http://download.flexget.com All builds] | [wiki:Subversion Subversion] (true bleeding edge)
 
 == 0.9.x - Choose your OS ==
 
