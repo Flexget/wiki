@@ -26,11 +26,11 @@ Download DVDRips by using http://www.rlslog.net as a source and reject bad movie
 
 [wiki:Recipe/HeroesComics View recipe]
 
-=== Generate RSS from downloads ===
+=== Generate download RSS ===
 
-Generate RSS from !FlexGet downloads.
+Generate RSS for clients lacking watch directory or plugin support.
 
-[wiki:Recipe/MakeRSS View recipe]
+[wiki:Recipe/MakeDownloadRSS View recipe]
 
 === Multiple feeds ===
 
