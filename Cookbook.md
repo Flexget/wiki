@@ -2,7 +2,8 @@
 
 The CookBook contains tips and recipes for common tasks.
 
-Feel free to add your own recipes.<br> To edit wiki you need to login with username: '''flexget''' password: '''anon'''
+Feel free to add your own recipes or improve existing ones.[[BR]]
+To edit wiki you need to login with username: '''flexget''' password: '''anon'''
 
 === Manage series and multiple feeds easily ===
 
