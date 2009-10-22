@@ -63,4 +63,4 @@ reject_directors:
 filter_invalid: True / False
 }}}
 
-'''Note:''' In bleeding edge (1.0) filter_invalid is renamed to reject_invalid
+'''Note:''' In bleeding edge (1.0) filter_invalid removed and you should use plugin `imdb_required`
