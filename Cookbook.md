@@ -1,11 +1,11 @@
 = The Cook Book =
 
-The CookBook contains tips and recipes for common tasks.
+From here you can find tips and recipes for common tasks.
 
 Feel free to add your own recipes or improve existing ones.[[BR]]
 To edit wiki you need to login with username: '''flexget''' password: '''anon'''
 
-== Delicious recipes ==
+== Here are the delicious recipes ==
 
  * [wiki:Recipe/PresetSeries Manage series and multiple feeds easily]
  * [wiki:Recipe/FlexGetUpdater Download FlexGet Releases]
