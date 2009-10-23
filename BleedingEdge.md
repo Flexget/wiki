@@ -2,6 +2,10 @@
 
 Important notes for 1.0 / bleeding edge users:
 
+== 23.10.2009 r862 (d.m.yyyy) ==
+
+Renamed `directories` to `listdir`. Update your configs.
+
 == 6.10.2009 (d.m.yyyy) ==
 
 '''Action required when upgrading'''
