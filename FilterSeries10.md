@@ -62,6 +62,20 @@ series:
   - third series
 }}}
 
+== Qualities ==
+
+Download all given qualities.
+
+=== Example ===
+
+{{{
+series:
+  - some series:
+      qualities: 
+        - 720p
+        - pdtv
+}}}
+
 == Timeframe ==
 
 Specify a timeframe in which !FlexGet waits for best quality. If optional quality is given, this is considered to be satisfactory and proceeded without waiting entire timeframe. If specified quality does not come available within timeframe best quality so far is chosen.
