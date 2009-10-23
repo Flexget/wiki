@@ -102,9 +102,9 @@ feeds:
     download: ~/series
 }}}
 
-This example would download all torrents of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
+This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
-You can find more configuration examples in [wiki:CookBook the cookbook].
+You can find more configuration examples in [wiki:TheCookBook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
 
