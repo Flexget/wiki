@@ -55,6 +55,7 @@ Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have
 ||[wiki:FilterRegexp10 regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:FilterImdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:FilterImdbRated imdb_rated]||'''{{{NEW}}}''' Reject already voted entries.||
+||[wiki:FilterImdbQueue imdb_queue]||'''{{{NEW}}}''' Accept images from a predefined queue.||
 ||[wiki:FilterImdbRequired imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:FilterSeries10 series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:FilterExists10 exists]||Reject entries based on existing files in filesystem.||
