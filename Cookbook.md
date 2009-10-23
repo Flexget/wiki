@@ -16,6 +16,8 @@ To edit wiki you need to login with username: '''flexget''' password: '''anon'''
  Useful for clients that do not support watch directories or if downloading is meant to happen in somewhere else than where !FlexGet is running.
  [wiki:Recipe/rTorrent Complete working example for rTorrent]::
  [wiki:Recipe/MakeMyMoviesRSS Generate my movies list]::
+ [wiki:Recipe/SortDownloads Sort downloads]::
+ Use !FlexGet to sort downloads into correct directories. This is not exactly what the program is designed to, but shows the real Flexibility of it :)
 
 ''todo:''
 
