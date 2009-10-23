@@ -66,7 +66,7 @@ series:
 
 Download all given qualities.
 
-=== Example ===
+'''Example'''
 
 {{{
 series:
@@ -75,6 +75,8 @@ series:
         - 720p
         - pdtv
 }}}
+
+'''Note:''' This functionality may be later merged with quality
 
 == Timeframe ==
 
