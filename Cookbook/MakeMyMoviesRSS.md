@@ -16,12 +16,12 @@ feeds:
 
   storage_movies:
     preset: generate
-    directories: /storage/movies/
+    listdir: /storage/movies/
     make_rss:
       file: ~/public_html/movies.rss
       history: no
 }}}
 
-Uses plugins: [wiki:ModulePreset preset], [wiki:ModuleImdbLookup imdb_lookup], [wiki:OutputRss make_rss]
+Uses plugins: [wiki:ModulePreset preset], [wiki:ModuleImdbLookup imdb_lookup], [wiki:OutputRss make_rss], [wiki:InputListdir listdir]
 
-[wiki:TheCookBook Back to The Cook Book]
+[wiki:Cookbook Back to The Cook Book]
