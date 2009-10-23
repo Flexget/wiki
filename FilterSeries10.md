@@ -83,7 +83,7 @@ series:
  * Not (yet) compatible with timeframe
 
 
-== Qualities ==
+== Download multiple qualities ==
 
 Download all given qualities.
 
