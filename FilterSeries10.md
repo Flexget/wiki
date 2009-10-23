@@ -62,6 +62,27 @@ series:
   - third series
 }}}
 
+== Minimum and maximum quality ==
+
+Accept any quality between given range.
+
+'''Example:'''
+
+{{{
+series:
+  - some series:
+      min_quality: hr
+      max_quality: 720p
+  - another series
+  - third series
+}}}
+
+
+'''Notes:''' 
+
+ * Not (yet) compatible with timeframe
+
+
 == Qualities ==
 
 Download all given qualities.
@@ -76,7 +97,10 @@ series:
         - pdtv
 }}}
 
-'''Note:''' This functionality may be later merged with quality
+'''Notes:''' 
+
+ * This functionality may be later merged with quality
+ * Not (yet) compatible with timeframe
 
 == Timeframe ==
 
