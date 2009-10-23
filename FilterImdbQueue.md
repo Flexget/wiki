@@ -16,4 +16,6 @@ You can also list the queue
 flexget --imdb-queue-list
 }}}
 
-TODO: Minimum(/maximum?) quality filtering
+'''TODO''': 
+ * Minimum(/maximum?) quality filtering
+ * Filter by group, default to any group
