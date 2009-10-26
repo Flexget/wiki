@@ -1,6 +1,6 @@
 = How to install !FlexGet =
 
-[[ListDownloads]]
+[[Include(http://download.flexget.com/ui/download.php)]]
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] (true bleeding edge)
 
