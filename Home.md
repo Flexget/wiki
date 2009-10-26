@@ -45,9 +45,9 @@
 
 = Introduction =
 
-!FlexGet is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like [wiki:InputRSS RSS-feeds], [wiki:InputHtml html-pages], various sites etc.
+!FlexGet is a program aimed to automate downloading and/or processing content (podcasts, comics, torrents, etc.) from different sources like [wiki:InputRSS RSS-feeds], [wiki:InputHtml html-pages], various sites etc.
 
-Application is most often used to download torrents from RSS-feeds and works nicely in that environment, but !FlexGet is no way limited just for that. There are numerous [wiki:Modules plugins] that allows utilizing !FlexGet in interesting ways and more plugins are being added continuously.
+Application is most often used to download files from RSS-feeds and works nicely in that environment, but you can use it for other purposes as well. There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more plugins are being added continuously.
 
 !FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
 
@@ -65,11 +65,10 @@ Application is most often used to download torrents from RSS-feeds and works nic
  * [http://www.hellanzb.com hellanzb]
 
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
-^* = requires thread support, not present on some routers^ 
 
 = Features =
 
- * Download from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
+ * Process from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
  * Automatically choose movies based on [wiki:FilterImdb IMDB] ratings and other details
  * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
  * Download [wiki:FilterSeries TV-series]
