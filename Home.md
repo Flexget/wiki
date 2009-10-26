@@ -51,18 +51,36 @@ Application is most often used to download files from RSS-feeds and works nicely
 
 !FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
 
-'''!BitTorrent'''
+{{{
+#!html
+<div>
 
- * [http://libtorrent.rakshasa.no/ rTorrent] (see: [wiki:CookBook/rtorrent how to])
- * [http://utorrent.com uTorrent]
- * [http://www.transmissionbt.com/ Transmission]
- * [http://deluge-torrent.org/ Deluge]
+<div class="download">
+<b>BitTorrent</b>
+<ul>
+  <li><a href="http://libtorrent.rakshasa.no/">rTorrent</a></li>
+  <li><a href="http://utorrent.com">uTorrent</a></li>
+  <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
+  <li><a href="http://deluge-torrent.org/">Deluge</a></li>
+</ul>
+</div>
 
-'''Usenet (NZB)'''
+<div class="download">
+<b>Usenet</b>
+<ul>
+  <li><a href="http://nzbget.sourceforge.net/">nzbget</a></li>
+  <li><a href="http://www.sabnzbd.org/">sabnzb</a></li>
+  <li><a href="http://www.hellanzb.com">hellanzb</a></li>
+</ul>
+</div>
 
- * [http://nzbget.sourceforge.net/ nzbget]
- * [http://www.sabnzbd.org/ sabnzb]
- * [http://www.hellanzb.com hellanzb]
+<div class="clearing">
+
+</div>
+
+}}}
+
+[[BR]]
 
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
 
