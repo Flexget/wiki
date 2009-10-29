@@ -39,7 +39,7 @@
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
-'''Note:''' 1.0 / Bleeding Edge is starting to be quite stable. I'd recommend installing beta eggs in virtualenv ([wiki:InstallVirtualEnv how-to]). Older users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
+'''Note:''' 1.0 / Bleeding Edge is starting to be quite stable and it's quite major overhaul from 0.9.x. Older users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
 
