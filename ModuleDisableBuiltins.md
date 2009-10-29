@@ -8,7 +8,7 @@ Disables all builtins:
 {{{
 disable_builtins: true
 }}}
-Disables just the seen builtin:
+Disables just the [wiki:FilterSeen10 seen] builtin:
 {{{
 disable_builtins: [seen]
 }}}
