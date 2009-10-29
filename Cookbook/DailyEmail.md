@@ -19,7 +19,8 @@ feeds:
       - other show
   emailfeed:
     interval: 1 day
-    rss: file://~/downloaded.rss
+    rss:
+      url: file://~/downloaded.rss
     disable_builtins: [seen]
     accept_all: yes
     email:
