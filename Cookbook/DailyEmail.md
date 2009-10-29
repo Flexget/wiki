@@ -32,3 +32,4 @@ feeds:
       smtp_username: my_smtp_login
       smtp_password: my_smtp_password
 }}}
+(Warning: this has not been fully tested yet, might need some tweaks.)
