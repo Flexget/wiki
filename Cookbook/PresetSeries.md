@@ -5,7 +5,7 @@ With [wiki:ModulePreset preset] plugin you can avoid having to keep duplicate co
 {{{
 series:
   download: ~/torrents/series/
-  exists: ~/storage/series/
+  exists_series: ~/storage/series/
   series:
     - chuck
     - myth busters
@@ -20,6 +20,6 @@ feeds:
     preset: series
 }}}  
 
-Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:OutputDownload download]
+Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:Plugins/exists_series exists_series],[wiki:OutputDownload download]
 
 [wiki:TheCookBook Back to The Cook Book]
