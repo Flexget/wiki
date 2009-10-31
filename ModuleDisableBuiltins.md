@@ -1,14 +1,5 @@
-= Disable builtins =
+= Oops, page moved =
 
-Disables [wiki:Builtin builtin] modules.
+Please update the link!
 
-=== Example ===
-
-Disables all builtins:
-{{{
-disable_builtins: true
-}}}
-Disables just the [wiki:FilterSeen10 seen] builtin:
-{{{
-disable_builtins: [seen]
-}}}
+Continue to [wiki:Plugin/disable_builtin]
