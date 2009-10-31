@@ -1,9 +1,5 @@
-= !SceneReleases =
+= Oops, page moved =
 
-Uses scenereleases.info category url as input.
+Please update the link!
 
-Example:
-
-{{{
-scenereleases: http://www.scenereleases.info/search/label/Movies%20-%20DVD%20Rip
-}}}
+Continue to [wiki:Plugins/scenereleases]
