@@ -1,7 +1,5 @@
-= Sort =
+= Oops, page moved =
 
-Sorts feed entries in order by field. Useful for generating RSS in particular order.
+Please update the link!
 
-=== Example ===
-
-''todo''
+Continue to [wiki:Plugins/sort]
