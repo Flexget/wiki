@@ -1,37 +1,11 @@
 = Plugins (for 0.9) =
 
-'''{{{Note:}}}''' '''Bleeding edge users''' should look [wiki:Plugins here]
-
-Plugins (or modules) provide most of the functionality in !FlexGet. They usually create, manipulate or download [wiki:Entry entries]. Some may change how !FlexGet operates.
-
-Plugin is enabled by placing a keyword and required settings in a configuration file. Example [wiki:InputRSS rss-module] would be used by placing following line under a feed.
-
 {{{
-rss: http://some.site.com/some_feed.rss
+#!html
+<h1 style="text-align: left; color: red">Note: 0.9.x is no longer maintained</h1>
 }}}
 
-See [wiki:Configuration configuration] if you are not familiar with the structure.
-
-== Indentation in examples ==
-
-All configuration examples are assumed to be placed under a feed. So if documentation has example:
-
-{{{
-series:
-  - name
-}}}
-
-In full configuration this goes into:
-
-{{{
-feeds:
-  feed_name:
-    rss: http://example.com
-    series:
-      - name
-}}}
-
-This makes examples more compact and reduces unnecessary boilerplate.
+Due messy wiki (which is being re-organized) many plugin documentations are not available OR are 1.0 specific.
 
 == Inputs ==
 
