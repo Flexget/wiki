@@ -1,9 +1,5 @@
-= Directories =
+= Oops, page moved =
 
-''Please write description''
+Please update the link!
 
-=== Example ===
-
-{{{
-directories: /storage/movies/
-}}}
+Continue to [wiki:Plugins/listdir]
