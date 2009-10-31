@@ -1,20 +1,5 @@
-= Filter Seen Movies =
+= Oops, page moved =
 
-Prevents movies being downloaded twice.
-Works only on entries which have imdb url available. Meaning feed must have [wiki:FilterImdb imdb] module present or input needs to provide imdb urls (rare).
+Please update the link!
 
-How duplicate movie detection works:
- * Remember all imdb urls from downloaded entries.
- * If stored imdb url appears again, entry is rejected.
-
-== Configuration ==
-
-There are two different operating modes, {{{strict}}} and {{{loose}}}.
-
-Strict mode will reject all movies that are not imdb-compatible. Loose mode will not intervene them.
-
-=== Example: ===
-
-{{{
-seen_movies: strict
-}}}
+Continue to [wiki:Plugins/seen_movies]
