@@ -11,7 +11,7 @@ download: ~/torrents/
 == Advanced ==
 
 Some plugins may set alternative download path for entry.
-Prime example is [wiki:FilterRegexp regexp] that can be used to override path.
+Prime example is [wiki:Plugins/regexp regexp] that can be used to override path.
 
 Example with alternative paths:
 
