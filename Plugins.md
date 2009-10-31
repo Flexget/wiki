@@ -1,6 +1,6 @@
 {{{
 #!html
-<h1 style="text-align: left; color: red">Note:</h1>
+<h1 style="text-align: left; color: red">Note: Plugins page is being re-organized so many links are not working</h1>
 <b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
 For older 0.9.x release, look instead [wiki:Modules here].
