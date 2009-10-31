@@ -1,12 +1,5 @@
-= Subtitles =
+= Oops, page moved =
 
-Downloads subtitles for downloaded movies
+Please update the link!
 
-{{{
-subtitles:
-  languages:
-     - fin
-     - eng
-  min_sub_rating: 9.0
-  output: ~/torrents/subs/
-}}}
+Continue to [wiki:Plugins/subtitles]
