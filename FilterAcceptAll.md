@@ -1,4 +1,5 @@
-= Accept all =
+= Oops, page moved =
 
-Really simple plugin, just marks all entries accepted.
+Please update the link!
 
+Continue to [wiki:Plugins/accept_all]
