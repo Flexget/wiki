@@ -1,11 +1,5 @@
-= Torrent size =
+= Oops, page moved =
 
-=== Example: ===
+Please update the link!
 
-{{{
-torrent_size:
-  min: 12
-  max: 1200
-}}}
-
-Size is given in MB
+Continue to [wiki:Plugins/torrent_size]
