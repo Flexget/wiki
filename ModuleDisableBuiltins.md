@@ -2,4 +2,4 @@
 
 Please update the link!
 
-Continue to [wiki:Plugin/disable_builtin]
+Continue to [wiki:Plugins/disable_builtins]
