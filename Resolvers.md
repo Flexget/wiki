@@ -2,11 +2,11 @@
 
 == What are they for ==
 
-Many RSS-feeds (and other inputs) don't provide URLs directly to a torrent-file, but instead point into a download page in another site. This makes these feeds almost useless for automating downloading in most of the applications. !FlexGet overcomes this by providing clean and easy way to add custom functionality for such sites.
+Many RSS-feeds (and other inputs) don't provide URLs directly to a torrent-file, but instead point to a download page in another site. This makes these feeds almost useless for automating downloading in most of the applications. !FlexGet overcomes this by providing clean and easy way to add custom functionality for such sites.
 
 == Role ==
 
-It's important to differentiate resolver from input modules. Input modules require configuration and create !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:InputRSS rss feeds] or [wiki:InputHtml html pages]). Resolvers work without any configuration and only modify [wiki:Entry entries].
+It's important to differentiate resolver from input plugins. Input plugins require configuration and create !FlexGet [wiki:Entry entries] from somewhere external (ie. [wiki:Plugin/rss rss feeds] or [wiki:Plugin/html html pages]). Resolvers work without any configuration and only modify [wiki:Entry entries].
 
 == How they work ==
 
@@ -23,6 +23,10 @@ Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed p
  * Demonoid
  * Redskunk
 
+=== Custom rewriting with regexp ==
+
+In case the download URL is only slightly different from the download page, you can use [wiki:Plugins/regexp_resolver regexp_resolver] plugin to get proper download url.
+
 == Not on the list? Make your own ==
 
-If you only need to replace some words from URL to make it work almost anyone should be able to do it by using existing plugins as a starting point.
+Use existing resolver as a starting point, it should be quite easy if you have any programming experience.
