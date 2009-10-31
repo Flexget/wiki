@@ -1,11 +1,5 @@
-= Cookies =
+= Oops, page moved =
 
-Use cookies straight from !FireFox3 installation.
+Please update the link!
 
-=== Example ===
-
-{{{
-cookies: /path/firefox/profile/something/cookies.sqlite
-}}}
-
-'''Note:''' Cookies are not available in [wiki:InputRSS rss] feeds (See #344).
+Continue to [wiki:Plugins/cookies]
