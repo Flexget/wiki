@@ -11,7 +11,7 @@ To edit wiki you need to login with username: '''flexget''' password: '''anon'''
  [wiki:Recipe/FlexGetUpdater Download FlexGet Releases]::
  [wiki:Recipe/RlsLogDVDRips Download DVDRips From RlsLog with imdb filtering]::
  [wiki:Recipe/HeroesComics Download Heroes comics]::
- Advanced text parsing.
+ Uses advanced text parsing.
  [wiki:Recipe/MakeDownloadRSS Generate download RSS for other clients]::
  Useful for clients that do not support watch directories or if downloading is meant to happen in somewhere else than where !FlexGet is running.
  [wiki:Recipe/rTorrent Complete working example for rTorrent]::
