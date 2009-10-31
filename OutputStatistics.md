@@ -1,17 +1,5 @@
-= Output Statistics =
+= Oops, page moved =
 
-Output graphs about downloaded entries. The output is a single HTML file with graphs linked from Google chart API.
+Please update the link!
 
-'''Example:'''
-
-{{{
-global:
-   statistics: 
-      file: ~/public_html/flexget_stats/index.html
-}}}
-
-== Example charts ==
-
-[[Image(hourly_chart.png)]]
-
-[[Image(weekly_chart.png)]]
+Continue to [wiki:Plugins/statistics]
