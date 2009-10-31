@@ -5,7 +5,7 @@
 <h1 style="text-align: left; color: red">Note: 0.9.x is no longer maintained</h1>
 }}}
 
-Due messy wiki (which is being re-organized) many plugin documentations are not available OR are 1.0 specific.
+Due messy wiki (which is being re-organized) many plugin documentations are not available OR they have 1.0 specific features. You can use `flexget --doc <plugin>` to view FlexGet builtin documentation.
 
 == Inputs ==
 
