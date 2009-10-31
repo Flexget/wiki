@@ -26,6 +26,3 @@ You can also list the queue
 $ flexget --imdb-queue list
 http://www.imdb.com/title/tt1038686 720p
 }}}
-
-'''TODO''': 
- * Filter by group, default to any group
