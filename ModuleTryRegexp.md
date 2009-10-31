@@ -1,5 +1,5 @@
-= Try regexp =
+= Oops, page moved =
 
-''TODO: document better''
+Please update the link!
 
-You can test regular expressions interactively by running !FlexGet with --try
+Continue to [wiki:Plugins/try_regexp]
