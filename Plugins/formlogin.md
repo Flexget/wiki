@@ -13,7 +13,7 @@ form:
 
 === Example 2 ===
 
-The login module just performs the login, you need to use other modules to parse entries from the site:
+The login module just performs the login, you need to use other plugins to process content from the site:
 
 {{{
 form:
