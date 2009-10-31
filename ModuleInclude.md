@@ -1,25 +1,5 @@
-= Include =
+= Oops, page moved =
 
-Allows including configuration from another file into a feed.
+Please update the link!
 
-=== Example ===
-
-
-'''config.yml'''
-
-{{{
-feeds:
-  stuff:
-    include: series.yml
-    download: ~/downloads/
-}}}
-
-'''series.yml'''
-
-{{{
-series:
-  - foo
-  - bar
-}}}
-
-This allows parts of configuration to be shared between multiple configuration files.
+Continue to [wiki:Plugins/include]
