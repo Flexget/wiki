@@ -1,9 +1,5 @@
-= Imdb required =
+= Oops, page moved =
 
-Reject non imdb compatible entries.
+Please update the link!
 
-=== Example ===
-
-{{{
-imdb_required: yes
-}}}
+Continue to [wiki:Plugins/imdb_required]
