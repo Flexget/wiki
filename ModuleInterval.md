@@ -1,11 +1,5 @@
-= Interval =
+= Oops, page moved =
 
-Allows specifying minimum interval for feed execution.
+Please update the link!
 
-Format: [n] [minutes|hours|days|months]
-
-Example:
-
-{{{
-interval: 7 days
-}}}
+Continue to [wiki:Plugins/interval]
