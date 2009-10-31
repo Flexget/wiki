@@ -1,16 +1,21 @@
+= Plugins =
+
 {{{
+#!comment
+
+# just ready for important info
+
 #!html
-<h1 style="text-align: left; color: red">Note: Plugins page is being re-organized so many links are not working</h1>
-<b>This page contains plugins that are available only on bleeding edge.</b> 
+#<h1 style="text-align: left; color: red">Note: Plugins page is being re-organized so many links are not working</h1>
+#<b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
 
 0.9.x users should look [wiki:Modules here].
 
-= Plugins =
 
-Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can as well change how !FlexGet operates.
+Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates.
 
-Plugin is enabled by placing a keyword and required settings in a configuration file.
+Most plugins are enabled by placing a keyword and required settings in a configuration file.
 
 == Indentation in examples ==
 
