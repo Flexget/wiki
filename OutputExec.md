@@ -1,11 +1,5 @@
-= Exec = 
+= Oops, page moved =
 
-Execute command for entries that reach output.
+Please update the link!
 
-=== Example: ===
-
-{{{
-exec: echo "found %(title)s at %(url)s" >> file
-}}}
-
-You can use all (available) entry fields in the command.
+Continue to [wiki:Plugins/exec]
