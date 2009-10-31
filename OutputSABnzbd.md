@@ -1,23 +1,5 @@
-= SABnzbd =
+= Oops, page moved =
 
-=== Example ===
+Please update the link!
 
-{{{
-sabnzbd:
-  apikey: 123456
-  url: http://localhost/sabnzbd/api?
-  category: movies
-}}}
-
-'''Note:''' url has default value of {{{http://localhost:8080/sabnzbd/api?}}}
-
-=== All possible parameters ===
-
-{{{
-sabnzbd:
-  apikey: ...
-  url: ...
-  category: ...
-  script: ...
-  pp: ...
-}}}
+Continue to [wiki:Plugins/sabnzbd]
