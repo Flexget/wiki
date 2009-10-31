@@ -4,7 +4,7 @@ A customized HTML input module. Parses out full torrent URLs from [http://tvtorr
 
 May break in the future, as it depends on the exact structure of the HTML.
 
-Module-specific code by Fredrik Bränström.
+Plugin-specific code by Fredrik Bränström.
 
 == Usage ==
 
