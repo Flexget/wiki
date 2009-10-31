@@ -51,7 +51,7 @@ series:
     - name 2
   hdtv:
     - name 3
-    - name 4
+    - name 4:
         set:
           movedone: /media/diskb/otherfolder/
           queuetotop: yes
