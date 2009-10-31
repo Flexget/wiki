@@ -86,13 +86,17 @@ Application is most often used to download files from RSS-feeds and works nicely
 
 = Features =
 
- * Process from any [wiki:InputRSS RSS] feed, [wiki:InputHtml HTML] page, [wiki:InputCSV CSV] file, or from popular sites like [wiki:InputRlsLog RlsLog].
- * Automatically choose movies based on [wiki:FilterImdb IMDB] ratings and other details
+ * Process from any [wiki:Plugin/rss RSS] feed, [wiki:Plugin/html HTML] page, [wiki:Plugin/csv CSV] file, or from popular sites like [wiki:Plugin/rlslog RlsLog].
+ * Automatically choose movies based on [wiki:Plugin/imdb IMDB] ratings and other details
  * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
- * Download [wiki:FilterSeries TV-series]
+ * Download [wiki:Plugin/series TV-series]
    * Episode number aware, doesn't download same episode twice
-   * Quality aware; get best quality release in a specified time frame
- * Use [wiki:FilterPatterns regular expressions] to match desired content
+   * Quality aware
+     * Get best quality available in a specified time frame
+     * Min / Max quality
+     * Get all specified qualities
+   * Proper / Repack aware. Downloaded automatically.
+ * Use [wiki:Plugin/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
@@ -100,10 +104,9 @@ Application is most often used to download files from RSS-feeds and works nicely
 
 = How easy is it to use? =
 
-Easy configuration was a high priority when designing the application. However some basic knowledge 
-about regular expression is usually needed for effective usage.
+Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified.
 
-!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing for new users at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
+!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing (for new users) at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
 '''Configuration example:''' 
 
