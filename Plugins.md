@@ -94,7 +94,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugin/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:Plugin/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
 ||[wiki:Plugin/preset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
-||[wiki:Plugin/preset disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
+||[wiki:Plugin/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
 ||[wiki:Plugin/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
 ||[wiki:Plugin/interval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:Plugin/headers headers]||Modify HTTP headers.||
