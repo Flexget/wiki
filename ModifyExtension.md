@@ -1,9 +1,5 @@
-= Extension =
+= Oops, page moved =
 
-Allows specifying file extension explicitly when all other built-in detection mechanisms fail.
+Please update the link!
 
-Example:
-
-{{{
-extension: nzb
-}}}
+Continue to [wiki:Plugins/extension]
