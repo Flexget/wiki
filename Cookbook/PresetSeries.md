@@ -20,6 +20,6 @@ feeds:
     preset: series
 }}}  
 
-Uses plugins: [wiki:ModulePreset preset], [wiki:InputRSS RSS], [wiki:FilterSeries10 series], [wiki:Plugins/exists_series exists_series],[wiki:OutputDownload download]
+Uses plugins: [wiki:Plugin/preset preset], [wiki:Plugin/rss RSS], [wiki:FilterSeries10 series], [wiki:Plugins/exists_series exists_series],[wiki:OutputDownload download]
 
 [wiki:TheCookBook Back to The Cook Book]
