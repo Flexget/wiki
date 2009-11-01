@@ -2,7 +2,7 @@
 
 Write RSS containing succeeded (downloaded) entries.
 
-'''Example:'''
+=== Example ===
 
 {{{
 make_rss: ~/public_html/flexget.rss
@@ -10,7 +10,7 @@ make_rss: ~/public_html/flexget.rss
 
 You may write into same file in multiple feeds.
 
-'''Example:'''
+=== Example ===
 
 {{{
 my-feed-A:
@@ -28,7 +28,7 @@ entries from both feeds.
 
 Tip: use a global [wiki:Plugin/preset preset] to make RSS out of every feed without having to configure them individually.
 
-'''Example:'''
+=== Example ===
 
 {{{
 global:
@@ -42,3 +42,50 @@ feeds:
     .
     .
 }}}
+
+
+== Number of days / items ==
+        
+By default output contains items from last 7 days. You can specify
+different perioid, number of items or both. Value -1 means unlimited.
+        
+=== Example ===
+        
+{{{
+make_rss:
+  file: ~/public_html/series.rss
+  days: 2
+  items: 10
+}}}
+          
+Generate RSS that will containg last two days and no more than 10 items.
+        
+=== Example ===
+
+{{{        
+make_rss:
+  file: ~/public_html/series.rss
+  days: -1
+  items: 50
+}}}
+          
+Generate RSS that will contain last 50 items, regardless of dates.
+        
+== RSS link ==
+        
+You can specify what field from entry is used as a link in generated rss feed.
+        
+=== Example ===
+
+{{{        
+make_rss:
+  file: ~/public_html/series.rss
+  link:
+    - imdb_url
+}}}
+            
+List should contain a list of fields in order of preference.
+Note that the url field is always used as last possible fallback
+even without explicitly adding it into the list.
+        
+Default list: imdb_url, input_url, url
