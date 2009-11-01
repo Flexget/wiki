@@ -2,6 +2,14 @@
 
 Important notes for 1.0 / bleeding edge users:
 
+== 02.11.2009 ==
+
+If you managed to add `None` into `--imdb-queue` you can use this to delete it.
+
+{{{
+sqlite3 db-config.sqlite "delete from imdb_queue where imdb_id is NULL;"
+}}}
+
 == 23.10.2009 r862 (d.m.yyyy) ==
 
 Renamed `directories` to `listdir`. Update your configs.
