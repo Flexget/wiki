@@ -14,7 +14,7 @@ Some plugins have been replaced with new ones.
 
 === Patterns, Ignore and Accept ===
 
-These plugins have been removed. You'll need to convert these to use new [wiki:FilterRegexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
+These plugins have been removed. You'll need to convert these to use new [wiki:Plugins/regexp regexp] module. Luckily this is not hard to do since syntax is almost identical.
 
 '''Patterns:'''
 
@@ -70,15 +70,15 @@ Filtering system has been simplified a bit in 1.0, this requires few changes in 
 
 === Imdb ===
 
-{{{filter_invalid}}} has been removed, instead use plugin [wiki:FilterImdbRequired imdb_required].
+{{{filter_invalid}}} has been removed, instead use plugin [wiki:Plugins/imdb_required imdb_required].
 
 == Series ==
 
-Timeframe and name_patterns syntax has been changed, see documentation [http://flexget.com/wiki/FilterSeries10#Timeframe here].
+Timeframe and name_patterns syntax has been changed, see documentation [wiki:Plugins/series#Timeframe here].
 
 === Cookies ===
 
-New plugin, see [wiki:ModuleCookies10 cookies]
+New plugin, see [wiki:Plugins/cookies cookies]
 
 === Downloading complete feeds ===
 
@@ -99,4 +99,4 @@ download: <path>
 
 == First run ==
 
-Your first run with 1.0 should execute all feeds, so use {{{--now}}} if necessary to force feeds with [wiki:ModuleInterval interval] to execute.
+Your first run with 1.0 should execute all feeds, so use {{{--now}}} if necessary to force feeds with [wiki:Plugins/interval interval] to execute.
