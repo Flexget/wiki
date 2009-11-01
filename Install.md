@@ -2,13 +2,7 @@
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion] (true bleeding edge)
-
-== 0.9.x - Choose your OS ==
-
- * [wiki:InstallLinux Linux]
- * [wiki:InstallOSX OSX]
- * [wiki:InstallWindows Windows]
+[http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 
 == 1.0 betas & bleeding edge ==
 
@@ -19,3 +13,9 @@
  * [wiki:Subversion Subversion] (true bleeding edge)
 
 [wiki:MigrateTo10 Migrating existing 0.9.x to 1.0]
+
+== 0.9.x - Choose your OS ==
+
+ * [wiki:InstallLinux Linux]
+ * [wiki:InstallOSX OSX]
+ * [wiki:InstallWindows Windows]
