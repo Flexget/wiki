@@ -6,17 +6,20 @@ This will produce an email containing all downloads accepted from feeds that con
 rssout:
   make_rss: ~/downloaded.rss
     days: 1
+
 feeds:
   realfeeda:
     rss: http://something.com/feed.rss
     preset: rssout
     series:
       - good show
+
   realfeedb:
     rss: http://somethingelse.com/feed.rss
     preset: rssout
     series:
       - other show
+
   emailfeed:
     interval: 1 day
     rss:
@@ -32,4 +35,5 @@ feeds:
       smtp_username: my_smtp_login
       smtp_password: my_smtp_password
 }}}
-(Warning: this has not been fully tested yet, might need some tweaks.)
+
+''Warning: this has not been fully tested yet, might need some tweaks.''
