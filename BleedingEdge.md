@@ -4,7 +4,7 @@ Important notes for 1.0 / bleeding edge users:
 
 If {{{sqlite3}}} command is not available, try installing relevant tool packages (ie. apt-get install sqlite3). If all else fail deleting the database and running {{{--learn}}} will fix it but may cause some older items to be re-downloaded if they appear in the feed(s) again.
 
-== 02.11.2009 r904 ==
+== 02.11.2009 r904 (d.m.yyyy) ==
 
 Due database changes, users must drop download_history table.
 
