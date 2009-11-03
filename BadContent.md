@@ -270,4 +270,6 @@ pharmacy
 (?i)Big.Tits
 (?i)Anal.Sex
 (?i)Public.Nudity
+(?i)3gsm.barcelona
+(?i)birth.control
 }}}
