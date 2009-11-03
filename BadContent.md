@@ -266,4 +266,8 @@ tajesaxobylz
 www.*porn.*\.com
 male.*rx
 pharmacy
+(?i)Penis.Enlargement
+(?i)Big.Tits
+(?i)Anal.Sex
+(?i)Public.Nudity
 }}}
