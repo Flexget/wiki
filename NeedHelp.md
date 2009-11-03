@@ -16,10 +16,6 @@ I'm also on ircnet, efnet, quakenet and wordforge under nick paranoidi.
 
 You may also have some luck in #rtorrent at freenode.
 
-=== Email ===
-
-You can try to reach me at marko.koivusalo at gmail.com. '''Use only as last resort.'''
-
 = Feedback =
 
 I'm always interested in feedback, may it be good or bad. Especially when you decide not to use !FlexGet, tell me why so I can work to resolve those issues.
