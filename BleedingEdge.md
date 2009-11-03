@@ -14,6 +14,8 @@ Execute:
 sqlite3 db-config.sqlite "drop table download_history;"
 }}}
 
+'''Note:''' This will lose only `--downloads` report, nothing more.
+
 == 02.11.2009 ==
 
 If you managed to add `None` into `--imdb-queue` you can use this to delete it.
