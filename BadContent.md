@@ -269,6 +269,7 @@ pharmacy
 (?i)Penis.Enlargement
 (?i)Big.Tits
 (?i)Anal.Sex
+(?i)analsex
 (?i)Public.Nudity
 (?i)3gsm.barcelona
 (?i)birth.control
