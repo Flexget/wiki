@@ -193,12 +193,18 @@ series:
 
 This is same as previous example except without timeframe.
 
+== Exact ==
+
+''TODO: write''
+
 == Advanced matching with regexps ==
 
-The standard name matching is not perfect, if you're used to working with regexps you can
-specify regexp(s) that filter for the show's name, episode number or unique identifier. (See ticket #323).
+The standard name matching is not perfect, if you're used to working with regexps you can specify regexp(s) that for the show's name, episode number or unique identifier.
 
-'''Note:''' Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
+'''Notes:'''
+ 
+ * Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
+ * If specifying name_regexp(s) make sure that these match only to the given series which they are beneath.
 
 '''Example:'''
 
@@ -214,10 +220,13 @@ series:
 
 All above regexps also accept multiple regular expressions in list form.
 
+For example if `some series` appears in two different naming conventions, you can:
+
 {{{
-name_regexp:
-  - ^some.series
-  - ^something.entirely.different
+- some series
+    name_regexp:
+      - ^some.series
+      - ^some.srs
 }}}
 
 ep_regexp is for series enumerated by season and episode numbers (eg, S04E01).  The default episode regular expressions used are
