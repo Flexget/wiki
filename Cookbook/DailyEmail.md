@@ -2,6 +2,11 @@
 
 This will produce an email containing all downloads accepted from feeds that contain the rssout preset. The email will be sent once per day no matter how often flexget is executed.
 
+'''Notes:'''
+
+ * This has not been fully tested yet, might need some tweaks
+ * A bit hackish and prevents you from using `make_rss` for other purposes
+
 {{{
 rssout:
   make_rss: ~/downloaded.rss
@@ -35,5 +40,3 @@ feeds:
       smtp_username: my_smtp_login
       smtp_password: my_smtp_password
 }}}
-
-''Warning: this has not been fully tested yet, might need some tweaks.''
