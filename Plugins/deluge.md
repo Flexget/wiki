@@ -38,13 +38,13 @@ series:
       quality: 720p
       set:
         path: /media/diska/incomplete/
-        movedone: /media/diska/TV/%(series_name)s/
+        movedone: "/media/diska/TV/%(series_name)s/"
         label: 720p
     hdtv:
       quality: hdtv
       set:
         path: /media/diskb/incomplete/
-        movedone: /media/diskb/TV/%(series_name)s/Season %(series_season)s/
+        movedone: "/media/diskb/TV/%(series_name)s/Season %(series_season)s/"
         label: tv
   720p:
     - name 1
