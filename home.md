@@ -55,21 +55,21 @@ Application is most often used to download files from RSS-feeds and works nicely
 #!html
 <div>
 
-<div class="download">
+<div class="supported">
 <b>BitTorrent</b>
 <ul>
   <li><a href="http://libtorrent.rakshasa.no/">rTorrent</a></li>
   <li><a href="http://utorrent.com">uTorrent</a></li>
   <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
-  <li><a href="http://deluge-torrent.org/">Deluge</a></li>
+  <li><a href="http://deluge-torrent.org/">Deluge</a><sup>plugin</sup></li>
 </ul>
 </div>
 
-<div class="download">
+<div class="supported">
 <b>Usenet</b>
 <ul>
   <li><a href="http://nzbget.sourceforge.net/">nzbget</a></li>
-  <li><a href="http://www.sabnzbd.org/">sabnzb</a></li>
+  <li><a href="http://www.sabnzbd.org/">sabnzb</a><sup>plugin</sup></li>
   <li><a href="http://www.hellanzb.com">hellanzb</a></li>
 </ul>
 </div>
