@@ -103,7 +103,7 @@ series:
 
 == Timeframe ==
 
-Specify a timeframe in which !FlexGet waits for best quality. If optional quality is given, this is considered to be satisfactory and proceeded without waiting entire timeframe. If specified quality does not come available within timeframe best quality so far is chosen.
+Specify a timeframe in which !FlexGet waits for best quality. If optional quality is given, this is considered to be satisfactory and will proceed without waiting entire timeframe. If specified quality does not come available within timeframe best quality so far is chosen.
 
 '''Example:'''
 
@@ -223,7 +223,7 @@ All above regexps also accept multiple regular expressions in list form.
 For example if `some series` appears in two different naming conventions, you can:
 
 {{{
-- some series
+- some series:
     name_regexp:
       - ^some.series
       - ^some.srs
