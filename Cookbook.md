@@ -19,6 +19,7 @@ To edit wiki you need to login with username: '''flexget''' password: '''anon'''
  [wiki:Recipe/SortDownloads Sort downloads]::
  Use !FlexGet to sort downloads into correct directories. This is not exactly what the program is designed to, but shows the real Flexibility of it :)
  [wiki:Recipe/DailyEmail Send a daily email of downloaded files]::
+ [wiki:Recipe/SeriesSabNZBd Set category from series name with sabnzbd]::
 
 ''todo:''
 
