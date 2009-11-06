@@ -77,9 +77,9 @@ Application is most often used to download files from RSS-feeds and works nicely
 <div class="clearing">
 </div>
 
-}}}
+<sup>* = supported by plugins</sup>
 
-^^* = plugin support^^
+}}}
 
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
 
