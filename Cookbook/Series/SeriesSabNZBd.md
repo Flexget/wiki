@@ -1,6 +1,6 @@
 = Series name as a category =
 
-When using [wiki:Plugin/sabnzbd sabnzbd] you can use series name as a category by utilizing [wiki:Plugin/set set] plugin. The category name will be exactly the one written in as a series name.
+When using [wiki:Plugins/sabnzbd sabnzbd] you can use series name as a category by utilizing [wiki:Plugins/set set] plugin. The category name will be exactly the one written in as a series name.
 
 {{{
 feeds:
@@ -11,9 +11,9 @@ feeds:
       720p: 
         quality: 720p
         set:
-          category: %(series_name)s
+          category: '%(series_name)s'
 
-      720p
+      720p:
         - chuck
         - south park
 
@@ -21,4 +21,4 @@ feeds:
       key: 1234567890
 }}}
 
-[wiki:TheCookBook Back to The Cookbook]
+[wiki:Cookbook Back to The Cookbook]
