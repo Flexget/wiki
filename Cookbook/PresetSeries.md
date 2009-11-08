@@ -13,13 +13,13 @@ tv:
 feeds:
   some feed:
     rss: http://example.com/
-    preset: series
+    preset: tv
 
   some another feed:
     rss: http://foobar.com/
     preset: tv
 }}}  
 
-Uses plugins: [wiki:Plugin/preset preset], [wiki:Plugin/rss RSS], [wiki:Plugin/series series], [wiki:Plugins/exists_series exists_series],[wiki:Plugin/download download]
+Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/rss RSS], [wiki:Plugins/series series], [wiki:Plugins/exists_series exists_series],[wiki:Plugins/download download]
 
-[wiki:TheCookBook Back to The Cook Book]
+[wiki:The Cookbook Back to The Cook Book]
