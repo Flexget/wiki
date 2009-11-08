@@ -12,4 +12,4 @@ search:
   - piratebay
 }}}
 
-To get list of supported sites run flexget with `--search-supports`
+To get list of supported sites run flexget with `--search-plugins`
