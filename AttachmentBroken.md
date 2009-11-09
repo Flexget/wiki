@@ -287,3 +287,14 @@ drwxrwx--- 2 root     www-data 4096 2009-10-20 22:41 wiki-macros/
 }}}
 
 attachment directory is recursively 0777 and root www-data
+
+
+'''Debug log on adding attachment'''
+
+{{{
+2009-11-09 18:59:41,705 Trac[main] DEBUG: Dispatching <Request "POST u'/attachment/ticket/367/'">
+2009-11-09 18:59:41,723 Trac[chrome] DEBUG: Prepare chrome data for request
+2009-11-09 18:59:41,755 Trac[session] DEBUG: Retrieving session for ID u'username'
+2009-11-09 18:59:41,762 Trac[web_ui] DEBUG: Not tracking TRAC_ADMIN's, returning stream
+2009-11-09 18:59:41,882 Trac[main] DEBUG: 472 unreachable objects found.
+}}}
