@@ -8,8 +8,8 @@ When you include configuration or log lines into ticket, please use `{{{...}}}` 
 
 {{{
 my config:
-  rss: ******.com
-  patterns:
+  rss: http://foobar.com
+  series:
     - foo
     - bar
   download: ~/downloads
@@ -18,8 +18,8 @@ my config:
 '''Without `{{{...}}}` this would look like:'''
 
 my config:
-  rss: ******.com
-  patterns:
+  rss: http://foobar.com
+  series:
     - foo
     - bar
   download: ~/downloads
@@ -28,14 +28,4 @@ Which is a bit hard to read ..
 
 == Additional details (optional) ==
 
-To get more information about process you can execute !FlexGet with --debug flag, this information may be necessary sometimes to resolve the issue. Include relevant details in ticket you find any.
-
-== Unit testing (optional) ==
-
-!FlexGet contains [http://en.wikipedia.org/wiki/Unit_testing unit tests] (unfortunately not for everything). You can try running these tests by using command:
-
-{{{
-python testsuite.py
-}}}
-
-Under normal circumstances this should pass without error messages. If this fails your environment probably has some problems OR developers have messed and forgotten to run tests. If you run this and it fails, please include report in the ticket.
+To get more information about process you can execute !FlexGet with --debug flag, this information may be necessary sometimes to resolve the issue.
