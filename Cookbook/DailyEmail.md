@@ -9,7 +9,8 @@ This will produce an email containing all downloads accepted from feeds that con
 
 {{{
 rssout:
-  make_rss: ~/downloaded.rss
+  make_rss:
+    file: ~/downloaded.rss
     days: 1
 
 feeds:
