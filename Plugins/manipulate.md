@@ -22,4 +22,4 @@ manipulate:
     regexp: \[\d\d\d\d\](.*)
 }}}
 
-Regexp can return any number of groups, value is combination of these (separated with space).
+Regexp can return any number of groups, value is combination of these (separated with a space).
