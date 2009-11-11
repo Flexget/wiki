@@ -103,7 +103,7 @@ series:
 
 == Timeframe ==
 
-Specify a timeframe in which !FlexGet waits for best quality. If optional quality is given, this is considered to be satisfactory and will proceed without waiting entire timeframe. If specified quality does not come available within timeframe best quality so far is chosen.
+Specify a timeframe in which !FlexGet waits for a chosen quality. The desired quality can be given with `quality` directive. If specified quality does not come available within timeframe best quality so far is chosen. `Quality` has default value of 720p.
 
 '''Example:'''
 
@@ -195,7 +195,23 @@ This is same as previous example except without timeframe.
 
 == Exact ==
 
-''TODO: write''
+Enable strict name matching. Useful for series which name start similarly.
+
+'''Example'''
+
+{{{
+series:
+  - Test:
+      exact: yes
+  - ABC
+  - ABC LA
+}}}
+
+Enabling `exact` changes the mechanism so that the series name must be immediately followed by the episode number. With previous example ie. `Test Bar S01E01` would not be considered valid `Test`.
+
+Series plugin will also auto enable exact matching if it detects that there are series configured which need it in order not to be confused with each others. In the example series `ABC` would auto-enable exact matching since that name can be confused to `ABC LA`.
+
+In case you have situation where !FlexGet is downloading episodes from another series with similar name, turn on the `exact` manually. You may also need to reset the series status with `--series-forget NAME` in case wrong episodes have been downloaded and it confuses ''episode advancement''.
 
 == Advanced matching with regexps ==
 
@@ -250,3 +266,5 @@ id_regexp:
 }}}
 
 User defined regexps takes priority over the built-in expressions.
+
+Specifying `ep_regexp` disables all `id_regexp`'s and vice versa.
