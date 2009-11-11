@@ -29,7 +29,7 @@
  * '''[wiki:Install Installation guide]'''
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
- * '''[wiki:TheCookBook The Cook Book]'''
+ * '''[wiki:The Cookbook The Cook Book]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
  * '''[wiki:Modules Plugins] (0.9.x)'''
 
@@ -61,7 +61,7 @@ Application is most often used to download files from RSS-feeds and works nicely
   <li><a href="http://libtorrent.rakshasa.no/">rTorrent</a></li>
   <li><a href="http://utorrent.com">uTorrent</a></li>
   <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
-  <li><a href="http://deluge-torrent.org/">Deluge</a>*</li>
+  <li><a href="http://deluge-torrent.info/">Deluge</a>*</li>
 </ul>
 </div>
 
@@ -85,17 +85,17 @@ Application is most often used to download files from RSS-feeds and works nicely
 
 = Features =
 
- * Process from any [wiki:Plugin/rss RSS] feed, [wiki:Plugin/html HTML] page, [wiki:Plugin/csv CSV] file, or from popular sites like [wiki:Plugin/rlslog RlsLog].
- * Automatically choose movies based on [wiki:Plugin/imdb IMDB] ratings and other details
+ * Process from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
+ * Automatically choose movies based on [wiki:Plugins/imdb IMDB] ratings and other details
  * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
- * Download [wiki:Plugin/series TV-series]
+ * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
      * Get best quality available in a specified time frame
      * Min / Max quality
      * Get all specified qualities
    * Proper / Repack aware. Downloaded automatically.
- * Use [wiki:Plugin/regexp regular expressions] to match desired content
+ * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
  * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
@@ -123,7 +123,7 @@ feeds:
 
 This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
-You can find more configuration examples in [wiki:TheCookBook The Cookbook].
+You can find more configuration examples in [wiki:The Cookbook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
 
