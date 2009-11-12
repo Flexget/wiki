@@ -27,7 +27,7 @@ feeds:
       - other show
 
   emailfeed:
-    interval: 1 day
+    interval: 1 days
     rss:
       url: file://~/downloaded.rss
     disable_builtins: [seen]
