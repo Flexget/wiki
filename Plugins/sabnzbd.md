@@ -9,7 +9,9 @@ sabnzbd:
   category: movies
 }}}
 
-'''Note:''' url has default value of {{{http://localhost:8080/sabnzbd/api?}}}
+'''Notes:'''
+
+ * For some reason `localhost` and `127.0.0.1` doesn't seem to work (anymore). Use real NIC IP instead. ''(Example: 10.0.0.1)''
 
 === All possible parameters ===
 
