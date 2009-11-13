@@ -109,3 +109,4 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugin/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugin/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
 ||[wiki:Plugin/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
+||[wiki:Plugin/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
