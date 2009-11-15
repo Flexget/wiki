@@ -21,6 +21,7 @@ To edit wiki you need to login with username: '''flexget''' password: '''anon'''
  [wiki:Recipe/DailyEmail Send a daily email of downloaded files]::
  [wiki:Recipe/SeriesSabNZBd Set category from series name with sabnzbd]::
  [wiki:Recipe/SetPath Set (download) path from series name]::
+ [wiki:Recipe/ScriptForDownload Run custom script for downloads]::
 
 ''todo:''
 
