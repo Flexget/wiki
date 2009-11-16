@@ -29,7 +29,7 @@
  * '''[wiki:Install Installation guide]'''
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
- * '''[wiki:"The Cookbook" The Cookbook]'''
+ * '''[wiki:Cookbook The Cookbook]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
  * '''[wiki:Modules Plugins] (0.9.x)'''
 
