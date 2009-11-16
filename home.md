@@ -29,7 +29,7 @@
  * '''[wiki:Install Installation guide]'''
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
- * '''[wiki:The Cookbook The Cook Book]'''
+ * '''[wiki:"The Cookbook" The Cookbook]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
  * '''[wiki:Modules Plugins] (0.9.x)'''
 
@@ -123,7 +123,7 @@ feeds:
 
 This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
-You can find more configuration examples in [wiki:The Cookbook The Cookbook].
+You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
 
