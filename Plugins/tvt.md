@@ -8,7 +8,7 @@ Plugin-specific code by Fredrik Bränström.
 
 == Usage ==
 
-Just set '''tvt: yes''' and configure [wiki:Plugin/cookies cookies] plugin.
+Just set '''tvt: yes''' and configure [wiki:Plugins/cookies cookies] plugin.
 
 == Example ==
 
