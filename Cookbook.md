@@ -7,7 +7,7 @@ To edit wiki you need to login with username: '''flexget''' password: '''anon'''
 
 == Here are the delicious recipes ==
 
- [wiki:Recipe/PresetSeries Manage series and multiple feeds easily]::
+ [wiki:Cookbook/PresetSeries Manage series and multiple feeds easily]::
  [wiki:Recipe/FlexGetUpdater Download FlexGet Releases]::
  [wiki:Recipe/RlsLogDVDRips Download DVDRips From RlsLog with imdb filtering]::
  [wiki:Recipe/HeroesComics Download Heroes comics]::
