@@ -26,6 +26,6 @@ sabnzbd:
 
 == Override category ==
 
-By setting entry category you can specify category per item. To set this you can use for example plugins [wiki:Plugin/set set], [wiki:Plugin/manipulate manipulate].
+By setting entry category you can specify category per item. To set this you can use for example plugins [wiki:Plugins/set set], [wiki:Plugins/manipulate manipulate].
 
-See [wiki:Recipe/SeriesSabNZBd this recipe] for example how to set category from series name.
+See [wiki:Cookbook/SeriesSabNZBd this recipe] for example how to set category from series name.
