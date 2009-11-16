@@ -107,6 +107,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin modules from a feed.||
 ||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
+||[wiki:Plugins/priority priority]||Change plugin priorities.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
 ||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
