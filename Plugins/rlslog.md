@@ -21,4 +21,4 @@ imdb:
 download: ~/torrents
 }}}
 
-This would download all dvdrips that have at least 6.1 score on imdb and at least 4500 votes. Movies with genres documentary or horror are rejected. See [wiki:Plugin/imdb imdb filter] for more information.
+This would download all dvdrips that have at least 6.1 score on imdb and at least 4500 votes. Movies with genres documentary or horror are rejected. See [wiki:Plugins/imdb imdb filter] for more information.
