@@ -59,4 +59,4 @@ reject_directors:
     - nm0093051
 }}}
 
-'''Note:''' To reject non imdb compatible entries, use [wiki:Plugin/imdb_required imdb_required] plugin.
+'''Note:''' To reject non imdb compatible entries, use [wiki:Plugins/imdb_required imdb_required] plugin.
