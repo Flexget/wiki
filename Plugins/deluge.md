@@ -12,16 +12,25 @@ deluge:
   label: tv
   queuetotop: yes
 }}}
- * path: the download location
- * movedone: the location files will be moved when torrent finishes NOTE: There is a bug in versions of deluge before 1.1.8 that prevents this from working.
- * label: deluge label
- * queuetotop: if True will move torrent to top of queue when added
+
+== Options ==
 
 All options are optional and will default to whatever you have set in deluge.
 If you wish not to set any of the parameters the format is:
+
 {{{
 deluge: yes
 }}}
+
+'''Options'''
+
+||'''Name'''||'''Description'''||
+||path||The download location||
+||movedone||The location files will be moved when torrent finishes NOTE: There is a bug in versions of deluge before 1.1.8 that prevents this from working||
+||label||Deluge label||
+||queuetotop||If `True` will move torrent to top of queue when added||
+||host||Deluge host (default ''localhost'')||
+||port||Deluge port (default ''58846'')||
 
 == Advanced ==
 
