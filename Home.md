@@ -5,7 +5,7 @@
 
 {{{
 #!html
-<h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support</h1>
+<h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support. Spread the &hearts;</h1>
 <h4 style="text-align: left; color: #660000">Looking for a cowboy coder armed with sqlalchemy-migrate</h4>
 <div style="float: right">
 
