@@ -26,7 +26,7 @@ my-feed-B:
 With this example file `series.rss` would contain succeeded
 entries from both feeds.
 
-Tip: use a global [wiki:Plugin/preset preset] to make RSS out of every feed without having to configure them individually.
+Tip: use a global [wiki:Plugins/preset preset] to make RSS out of every feed without having to configure them individually.
 
 === Example ===
 
