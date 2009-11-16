@@ -135,7 +135,7 @@ download: ~/download/
 
 Series {{{another series, third series}}} will be downloaded into {{{~/downloads}}}. However {{{some series}}} has overridden path and will be downloaded into {{{~/downloads/some_series/}}}.
 
-It's also possible to set path globally from series name with [wiki:Plugin/set set] plugin, see [wiki:Recipe/SetPath this recipe].
+It's also possible to set path globally from series name with [wiki:Plugins/set set] plugin, see [wiki:Cookbook/SetPath this recipe].
 
 '''Example with timeframe:'''
 
