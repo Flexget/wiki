@@ -23,7 +23,7 @@ Resolvers are modules that detect if any of the [wiki:Entry entries] in a feed p
  * Demonoid
  * Redskunk
 
-=== Custom rewriting with regexp ==
+=== Custom rewriting with regexp ===
 
 In case the download URL is only slightly different from the download page, you can use [wiki:Plugins/regexp_resolve regexp_resolver] plugin to get proper download url.
 
