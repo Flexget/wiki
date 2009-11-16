@@ -31,6 +31,8 @@ deluge: yes
 ||queuetotop||If `True` will move torrent to top of queue when added||
 ||host||Deluge host (default ''localhost'')||
 ||port||Deluge port (default ''58846'')||
+||user||Deluged username ''(defaults to automatic client authentication if not specified)''||
+||pass||Deluged password ''(defaults to automatic client authentication if not specified)''||
 
 == Advanced ==
 
