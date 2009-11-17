@@ -83,4 +83,4 @@ screen rtorrent
 
 You are all done, your downloads should start and stop automatically. All that is left for you to do is to make sure that you don't run out of disk space. 
 
-[wiki:Cookbook Back to The Cook Book]
+[wiki:Cookbook Back to The Cookbook]
