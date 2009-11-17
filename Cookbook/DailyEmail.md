@@ -6,6 +6,7 @@ This will produce an email containing all downloads accepted from feeds that con
 
  * This has not been fully tested yet, might need some tweaks
  * A bit hackish and prevents you from using `make_rss` for other purposes
+ * This can't be added in global preset!
 
 {{{
 rssout:
@@ -29,7 +30,7 @@ feeds:
   emailfeed:
     interval: 1 days
     rss:
-      url: file://~/downloaded.rss
+      url: /~/downloaded.rss
     disable_builtins: [seen]
     accept_all: yes
     email:
