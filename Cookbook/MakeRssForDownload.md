@@ -20,5 +20,5 @@ feeds:
 
 Uses plugins: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
 
-[wiki:Cookbook Back to The Cook Book]
+[wiki:Cookbook Back to The Cookbook]
 
