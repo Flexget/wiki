@@ -22,4 +22,4 @@ feeds:
 
 Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/rss RSS], [wiki:Plugins/series series], [wiki:Plugins/exists_series exists_series],[wiki:Plugins/download download]
 
-[wiki:"The Cookbook" Back to The Cookbook]
+[wiki:Cookbook Back to The Cookbook]
