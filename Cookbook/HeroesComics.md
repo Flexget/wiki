@@ -18,4 +18,4 @@ feeds:
 
 Uses plugins: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
 
-[wiki:Cookbook Back to The Cook Book]
+[wiki:Cookbook Back to The Cookbook]
