@@ -99,7 +99,7 @@ You shouldn't modify name or config as they are used by other modules.
  reject(entry, [reason])::
   Mark entry to be removed. It will be removed from feed once module event returns.
 
- failed(entry)::
+ fail(entry)::
   Mark entry to be failed (ie. download 404 etc)
 
  get_input_url(keyword)::
