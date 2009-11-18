@@ -273,4 +273,5 @@ pharmacy
 (?i)Public.Nudity
 (?i)3gsm.barcelona
 (?i)birth.control
+(?i)Hotels\sin\s
 }}}
