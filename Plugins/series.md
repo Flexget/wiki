@@ -29,28 +29,19 @@ Some.Series.S2E10.Something.Else
 
 Only one of them is downloaded, with default configuration best quality is chosen.
 
-'''Notes:'''
+'''Tips:'''
 
- * If series can be written in multiple ways, don't add them all as each own series. Add only one with multiple `name_regexps` !
- * Names should be written in straight
-
-== Episode advancement ==
-
-Series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
-
-'''Example:'''
-Series Chuck latest episode is S02E22 and suddenly a feed contains S01E01 which series plugin has not seen or downloaded.[[BR]]
-'''Result:'''
-Episode advancement rejects this episode since it's too far in the past.
-
-'''Example:'''
-Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which series plugin has not seen or downloaded.[[BR]]
-'''Result:'''
-Episode advancement does not reject this. This fits inside grace margin from latest episode.
+ * If series name can be written in multiple ways, don't add them as separate series. This will confuse episode tracking. Use the most common form and add `name_regexps` that contains all forms!
 
 == Quality ==
 
-Accept only given quality. No other quality will be accepted.
+||'''Name'''||'''Description'''||
+||quality||Accept only given quality. No other quality will be accepted.||
+||min_quality||Accept only qualities equal or above this^*^||
+||max_quality||Accept only qualities equal or below this^*^||
+||qualities||Accept all given qualities, multiple downloads^*^||
+
+^* = Does not work with timeframe (yet)^
 
 '''Example:'''
 
@@ -58,49 +49,14 @@ Accept only given quality. No other quality will be accepted.
 series:
   - some series:
       quality: 720p
-  - another series
-  - third series
-}}}
-
-== Minimum and maximum quality ==
-
-Accept any quality between given range.
-
-'''Example:'''
-
-{{{
-series:
-  - some series:
+  - another series:
       min_quality: hr
       max_quality: 720p
-  - another series
-  - third series
-}}}
-
-
-'''Notes:''' 
-
- * Not (yet) compatible with timeframe
-
-
-== Download multiple qualities ==
-
-Download all given qualities.
-
-'''Example'''
-
-{{{
-series:
-  - some series:
-      qualities: 
-        - 720p
+  - third_series:
+      qualities:
         - pdtv
+        - 720p
 }}}
-
-'''Notes:''' 
-
- * This functionality may be later merged with quality
- * Not (yet) compatible with timeframe
 
 == Timeframe ==
 
@@ -138,34 +94,23 @@ Series {{{another series, third series}}} will be downloaded into {{{~/downloads
 
 It's also possible to set path globally from series name with [wiki:Plugins/set set] plugin, see [wiki:Cookbook/SetPath this recipe].
 
-'''Example with timeframe:'''
-
-{{{
-series:
-  - some series:
-      timeframe: 4 hours
-      quality: 720p
-      path: ~/download/some_series/
-  - another series
-  - third series
-download: ~/download/
-}}}
-
 == Group settings ==
 
-''Todo: write userfriendly ''
+''TODO: improve documentation''
+
+Create series groups which have certain settings for all series in it. This saves you the trouble of specifying some options repeatedly.
+
+'''Syntax:'''
 
 {{{
 series:
   [settings]:
-    [group]:
+    [group name]:
       [setting]: [value]
-  [group]:
+  [group name]:
     - first series
     - second series
 }}}
-
-Series may override any settings specified in group settings.
 
 '''Example:'''
 
@@ -182,21 +127,13 @@ series:
     - another series
 }}}
 
-There is convenience feature built in. If a group name is a known quality, it will automatically generate a settings with that quality.
+Notes:
 
-'''Example:'''
+ * In this example ''normal'' is just a group without any options.
+ * Series may override any settings specified in group settings.
+ * If a group name is a quality, it will automatically have that as a quality.
 
-{{{
-series:
-  720p:
-    - series name
-  normal:
-    - another series
-}}}
-
-This is same as previous example except without timeframe.
-
-== Exact ==
+== Exact mode ==
 
 Enable strict name matching. Useful for series which name start similarly.
 
@@ -215,6 +152,20 @@ Enabling `exact` changes the mechanism so that the series name must be immediate
 Series plugin will also auto enable exact matching if it detects that there are series configured which need it in order not to be confused with each others. In the example series `ABC` would auto-enable exact matching since that name can be confused to `ABC LA`.
 
 In case you have situation where !FlexGet is downloading episodes from another series with similar name, turn on the `exact` manually. You may also need to reset the series status with `--series-forget NAME` in case wrong episodes have been downloaded and it confuses ''episode advancement''.
+
+== Episode advancement ==
+
+Series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
+
+'''Example:'''
+Series Chuck latest episode is S02E22 and suddenly a feed contains S01E01 which series plugin has not seen or downloaded.[[BR]]
+'''Result:'''
+Episode advancement rejects this episode since it's too far in the past.
+
+'''Example:'''
+Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which series plugin has not seen or downloaded.[[BR]]
+'''Result:'''
+Episode advancement does not reject this. This fits inside grace margin from latest episode.
 
 == Advanced matching with regexps ==
 
