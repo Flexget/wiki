@@ -31,6 +31,7 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 '''Notes:'''
 
+ * If series can be written in multiple ways, don't add them all as each own series. Add only one with multiple `name_regexps` !
  * Configured series name should not contain anything else than a series name. This is because if you change or reformat name !FlexGet will lose track of already downloaded episodes.
 
 == Episode advancement ==
