@@ -32,15 +32,15 @@ Make sure the {{{python}}} command uses python 2.5 or 2.5. On some systems this 
 python -V
 }}}
 
-If you're running >= 2.5
+If you're running >= 2.5, continue with:
 
 {{{
 python bootstrap.py
 }}}
 
-If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}
+If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}.
 
-Now !FlexGet should be executable via:
+Once bootstrap is completed you have !FlexGet installed in a virtualenv and executable via:
 
 {{{
 bin/flexget
