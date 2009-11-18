@@ -60,7 +60,7 @@ Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
-||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject already voted entries.||
+||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_queue imdb_queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
