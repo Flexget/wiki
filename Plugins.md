@@ -70,7 +70,7 @@ Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||'''{{{Upgraded}}}''' Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/torrent_size torrent_size]||Reject torrents that do not meet size requirements.||
-||[wiki:Plugins/nzb_size nzb_size]||Reject nzb's that do not meet size requirements.||
+||[wiki:Plugins/nzb_size nzb_size]||'''{{{NEW}}}'''  Reject nzb's that do not meet size requirements.||
 
 If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how filters co-operate.
 
