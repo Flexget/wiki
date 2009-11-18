@@ -40,7 +40,9 @@ python bootstrap.py
 
 If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}.
 
-Once bootstrap is completed you have !FlexGet installed in a virtualenv and executable via:
+Once bootstrap is completed you'll have !FlexGet installed in a virtualenv.
+
+You can execute !FlexGet via:
 
 {{{
 bin/flexget
