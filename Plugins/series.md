@@ -218,12 +218,14 @@ In case you have situation where !FlexGet is downloading episodes from another s
 
 == Advanced matching with regexps ==
 
-The standard name matching is not perfect, if you're used to working with regexps you can specify regexp(s) that for the show's name, episode number or unique identifier.
+The standard name matching is not perfect, some times you may need to specify regexp(s) manually. Usually the `name_regexp`.
 
 '''Notes:'''
  
  * Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
- * If specifying name_regexp(s) make sure that these match only to the given series which they are beneath.
+   * `name_regepx` is useful for series which are written in more than one way
+ * If specifying name_regexp(s) make sure that these match only to the given series
+ * Pay attention to the ''indentation'' here
 
 '''Example:'''
 
