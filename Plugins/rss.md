@@ -50,7 +50,7 @@ Some feeds contain unicode characters which may cause problems. To force these i
 {{{
 rss:
   url: <ul>
-  ascii: true
+  ascii: yes
 }}}
 
 == Read from a file ==
@@ -61,5 +61,5 @@ You can also use local file instead of url.
 
 {{{
 rss:
-  url: /path/to/rss/something.xml
+  url: file:///path/to/rss/something.xml
 }}}
