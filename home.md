@@ -39,15 +39,13 @@
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
-'''Note:''' 1.0 / Bleeding Edge is starting to be quite stable and it's quite major overhaul from 0.9.x. Older users might be interested [wiki:MigrateTo10 how to migrate to bleeding edge environment].
-
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news]
+[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news] | [wiki:MigrateTo10 How to migrate 0.9.x to 1.0]
 
 = Introduction =
 
-!FlexGet is a program aimed to automate downloading and/or processing content (podcasts, comics, torrents, etc.) from different sources like [wiki:InputRSS RSS-feeds], [wiki:InputHtml html-pages], various sites etc.
+!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, etc. !FlexGet is able to handle different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and even [wiki:Plugins/csv csv files], just to name a few.
 
-Application is most often used to download files from RSS-feeds and works nicely in that environment, but you can use it for other purposes as well. There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more plugins are being added continuously.
+There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
 
 !FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
 
@@ -86,15 +84,15 @@ Application is most often used to download files from RSS-feeds and works nicely
 = Features =
 
  * Process from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
- * Automatically choose movies based on [wiki:Plugins/imdb IMDB] ratings and other details
- * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]
+ * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
+ * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]^#227^
  * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
      * Get best quality available in a specified time frame
      * Min / Max quality
      * Get all specified qualities
-   * Proper / Repack aware. Downloaded automatically.
+   * Propers / Repacks are downloaded automatically.
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
@@ -118,17 +116,18 @@ feeds:
     series:
       - series name
       - another series
-    download: ~/series
+    download: ~/torrents/series/
 }}}
 
 This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
 
 You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
-For more information about how !FlexGet works, check available [wiki:Modules plugins] or detailed [wiki:Configuration configuration].
+For more information about how !FlexGet works, check available [wiki:Plugins plugins] or detailed [wiki:Configuration configuration].
 
 = Help !FlexGet =
 
+ * Enlist as active developer, help is always welcomed!
  * Improve this wiki
    * Make any general improvements
    * Write good tutorials
@@ -136,6 +135,5 @@ For more information about how !FlexGet works, check available [wiki:Modules plu
    * Request more information by adding tag ^''[need more info]''^
  * Submit more creative plugins (must be MIT-license compatible)
    * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
- * Enlist as active developer, help is always welcomed!
  * Report errors you encounter
  * Feedback on areas that you find troublesome
