@@ -112,3 +112,4 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
 ||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
 ||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
+||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
