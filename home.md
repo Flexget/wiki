@@ -85,7 +85,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 
  * Process from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
  * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
- * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org]^#227^
+ * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org] (#227)
  * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
