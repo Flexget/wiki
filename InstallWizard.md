@@ -1,4 +1,4 @@
-= Install wizard =
+= Installation Wizard =
 
 Select your operating system:
 
