@@ -104,7 +104,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/cli_config cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/try_regexp try_regexp]||Test how regexps work on feed(s) interactively.||
-||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin modules from a feed.||
+||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
 ||[wiki:Plugins/priority priority]||Change plugin priorities.||
