@@ -6,8 +6,8 @@ Removes trackers from torrent files using regexp matching.
 
 {{{
 remove_trackers:
-  - .*moviex.*
+  - moviex
 }}}
 
 This will remove all trackers that contain text moviex in their url.[[BR]]
-TIP: You can use [wiki:GlobalSection global section] in configuration to make this enabled on all feeds.
+TIP: You can use [wiki:Plugins/preset global preset] in configuration to make this enabled on all feeds.
