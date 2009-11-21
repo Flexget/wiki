@@ -1,6 +1,6 @@
 = Inject =
 
-Allows injecting imaginary entry for FlexGet to process.
+Allows injecting imaginary entry for !FlexGet to process.
 
 '''Syntax:'''
 
