@@ -1,4 +1,4 @@
-= Windows =
+= Installing !FlexGet on Windows =
 
 === Install Python ===
 
@@ -17,3 +17,4 @@ http://pypi.python.org/pypi/setuptools#downloads
 After successfully installing ''Python'' and ''easy_install''
 
 [wiki:InstallWizard/Windows/Egg continue to next step]
+----
