@@ -10,9 +10,9 @@ Install latest Python '''2.6.x''' from [http://python.org/download/ python.org].
 
 http://pypi.python.org/pypi/setuptools#downloads
 
-== Next ==
+== Continue ==
 
 After successfully installing ''Python'' and ''easy_install''
 
-[wiki:InstallWizard/Windows/Egg Continue to next step]
+[wiki:InstallWizard/Windows/Egg Next step]
 
