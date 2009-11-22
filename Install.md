@@ -1,6 +1,4 @@
-= How to install !FlexGet =
-
-[wiki:InstallWizard Launch Tutorial]
+[[Include(wiki:InstallWizard)]]
 
 === I'm hardcore ===
 
