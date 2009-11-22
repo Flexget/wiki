@@ -32,4 +32,4 @@ If your distribution does not have the package available, see further instructio
 
 = Next =
 
-[wiki:InstallWizard/Linux/Egg Install FlexGet]
+[wiki:InstallWizard/Linux/Environment/FlexGet Install FlexGet]
