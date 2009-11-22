@@ -1,4 +1,4 @@
-= Install on Linux =
+= Installing on Linux =
 
 Do you have root / admin access to the machine?
 
