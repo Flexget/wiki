@@ -1,4 +1,4 @@
 = Recipes for movies =
 
- [wiki:Cookbook/Movies/RlslogDVDRips Download DVDRips From RlsLog with imdb filtering]::
- [wiki:Cookbook/Movies/MyMoviesRSS Generate my movies list, with imdb details]::
+ [wiki:Cookbook/Movies/Rlslog Download movies from RlsLog with Imdb filtering]::
+ [wiki:Cookbook/Movies/MyMoviesRSS Generate my movies list, with Imdb details]::
