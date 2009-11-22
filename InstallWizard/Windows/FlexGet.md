@@ -1,4 +1,4 @@
-= Install EGG on windows =
+= Install Egg on windows =
 
 === Download ===
 
