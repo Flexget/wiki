@@ -1,4 +1,4 @@
-= Install !FlexGet =
+= Installing !FlexGet =
 
 [[Include(wiki:InstallWizard/Partial/InstallVirtualenv)]]
 
