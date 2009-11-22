@@ -36,5 +36,5 @@ It should verbose the installed version. When you've reached this step you have 
 
 == Continue ==
 
-[wiki:InstallWizard/Windows/Egg/Scheduling Scheduling]
+[wiki:InstallWizard/Windows/FlexGet/Scheduling Scheduling]
 
