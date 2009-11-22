@@ -1,4 +1,4 @@
-=== Install !FlexGet egg in virtualenv ===
+=== Install !FlexGet egg in the virtualenv ===
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
