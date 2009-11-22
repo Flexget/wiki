@@ -22,7 +22,7 @@ Example:
 easy_install c:\FlexGet-1.0r963-py2.5.egg
 }}}
 
-This will install FlexGet and all the dependencies.
+This will install !FlexGet and all the dependencies.
 
 === Verify ===
 
