@@ -1,6 +1,8 @@
 = Installation Wizard =
 
-Select your operating system:
+This wizard guides you trough installing !FlexGet.
+
+=== Select your operating system ===
 
  * [wiki:InstallWizard/Windows Windows]
  * [wiki:InstallWizard/Linux Linux / BSD]
