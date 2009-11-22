@@ -4,11 +4,11 @@ Follow the [wiki:Configuration configuration tutorial].
 
 Some windows specific tips:
 
-You can place the configuration file where you like. One good place is `C:\Documents and Settings\<your user>\.flexget\config.yml` as this location is automatically checked regardless where you execute `flexget` command. Another logical choice would be `c:\program files\flexget\config.yml`. If you opt later you need to specify the configuration file explicitly with `flexget -c <config>` if you run !FlexGet from anywhere else than this directory.
+You can place the configuration file anywhere you like. One good place is `C:\Documents and Settings\<your user>\.flexget\config.yml` as this location is automatically checked regardless where you execute `flexget` command. Another logical choice would be `c:\program files\flexget\config.yml`. If you opt later you'll need to specify the configuration file explicitly with `flexget -c <config>` if you run !FlexGet from anywhere else than this directory. This applies also if you use different name than `config.yml`.
 
 = Scheduling =
 
-Once you've created basic configuration file, you need to schedule executing !FlexGet command.
+Now, let's get !FlexGet to run once per hour!
 
 Open ''Scheduling Tasks'' from windows ''Control panel''.
 
