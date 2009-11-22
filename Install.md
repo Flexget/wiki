@@ -4,6 +4,13 @@
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion]
 
+== Installation Wizard ==
+
+''Note: incomplete! Works for windows ..''
+
+[wiki:InstallWizard Install wizard]
+
+
 == 1.0 betas & bleeding edge ==
 
  * [wiki:InstallEgg How to install eggs]
@@ -14,7 +21,9 @@
 
 [wiki:MigrateTo10 Migrating existing 0.9.x to 1.0]
 
-== 0.9.x - Choose your OS ==
+== 0.9.x - unmaintained! ==
+
+''Choose your OS''
 
  * [wiki:InstallLinux Linux]
  * [wiki:InstallOSX OSX]
