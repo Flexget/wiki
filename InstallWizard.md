@@ -1,4 +1,4 @@
-= Installation Wizard =
+= Installation Tutorial =
 
 This wizard guides you trough installing !FlexGet.
 
