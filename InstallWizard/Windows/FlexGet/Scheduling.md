@@ -1,6 +1,6 @@
 = Configure =
 
-Follow the [wiki:Configure configuration tutorial].
+Follow the [wiki:Configuration configuration tutorial].
 
 Some windows specific tips:
 
