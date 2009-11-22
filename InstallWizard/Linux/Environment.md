@@ -1,4 +1,4 @@
-= Setup environment =
+= Set up environment =
 
 == Python ==
 
