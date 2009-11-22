@@ -18,20 +18,6 @@ source ~/flexget/bin/activate
 
 [[Include(wiki:InstallWizard/Partial/InstallVirtualenv)]]
 
-=== Running !FlexGet ===
-
-You can either activate the virtualenv with the command:
-
-{{{
-source ~/flexget/bin/activate
-}}}
-
-After that command `flexget` works from anywhere. Or you can run it via:
-
-{{{
-~/flexget/bin/flexget [options]
-}}}
-
 == Continue ==
 
 [wiki:InstallWizard/Linux/NoRoot/Virtualenv/Scheduling Scheduling]
