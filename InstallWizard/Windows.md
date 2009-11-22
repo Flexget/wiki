@@ -1,5 +1,7 @@
 = Installing !FlexGet on Windows =
 
+== Set up environment ==
+
 If you have required Python version and easy_install already, you can continue to next step.
 
 === Install Python ===
@@ -14,5 +16,5 @@ http://pypi.python.org/pypi/setuptools#downloads
 
 After successfully installing ''Python'' and ''easy_install''
 
-[wiki:InstallWizard/Windows/Egg Install FlexGet]
+[wiki:InstallWizard/Windows/FlexGet Install FlexGet]
 
