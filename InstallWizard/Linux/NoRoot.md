@@ -1,19 +1,25 @@
 = Linux - userspace =
 
-Check if you have Python 2.5.x or 2.6.x available with command:
+Check what following commands tell you.
 
 {{{
 python -V
 }}}
 
-If you don't have sufficient Python available, only option left is to [wiki:InstallWizard/Linux/Compile compile python] yourself in your home directory.
+Minimum Python version is 2.5. If you have older version, consider it same as not having at all.
 
-''TODO:''
+{{{
+easy_install -h
+}}}
 
-easy_install?
-virtualenv?
-subversion?
+{{{
+virtualenv --version
+}}}
 
-= Next =
+== Environment: select first that matches ==
 
-''TODO:''
+ * [wiki:InstallWizard/Linux/NoRoot/Virtualenv/ I have virtualenv]
+ * [wiki:InstallWizard/Linux/NoRoot/Py2.6/ I have Python 2.6 but no easy_install or virtualenv]
+ * [wiki:InstallWizard/Linux/NoRoot/Py2.5/ I have Python 2.5 but no easy_install or virtualenv]
+ * [wiki:InstallWizard/Linux/Compile I don't have any of the requirements]
+
