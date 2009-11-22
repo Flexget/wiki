@@ -1,6 +1,8 @@
 = Configure =
 
-Follow the configuration tutorial [wiki:Configure here].
+Follow the [wiki:Configure configuration tutorial].
+
+Some windows specific tips:
 
 You can place the configuration file where you like. One good place is `C:\Documents and Settings\<your user>\.flexget\config.yml` as this location is automatically checked regardless where you execute `flexget` command. Another logical choice would be `c:\program files\flexget\config.yml`. If you opt later you may need to specify the configuration file explicitly with `flexget -c <config>`
 
