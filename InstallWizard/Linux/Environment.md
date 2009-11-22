@@ -8,7 +8,7 @@ Start by making sure you have Python 2.5.x or Python 2.6.x available. Try runnin
 python -V
 }}}
 
-If you do not have required version installed, try installing it from the distribution package manager.
+If you don't have required version already available, install it from the distribution package manager.
 
 With Debian based distributions you can simply run with root privileges:
 
