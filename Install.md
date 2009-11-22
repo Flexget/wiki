@@ -1,12 +1,6 @@
 = How to install !FlexGet =
 
-[[Include(http://download.flexget.com/ui/download.php)]]
-
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion]
-
-== Installation Wizard ==
-
-''Note: incomplete! Works for windows ..''
+''Notes: Unverified! Some information may be absent.. ''
 
 [wiki:InstallWizard Installation wizard]
 
