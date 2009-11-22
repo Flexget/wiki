@@ -1,6 +1,6 @@
 = Install virtualenv =
 
-== Download ==
+=== Download ===
 
 Download the virtualenv `tarball` from:
 
@@ -14,7 +14,7 @@ tar xvfz virtualenv-tip.gz
 
 You can't install the package with the included `setup.py`, but you can still use the `virtualenv.py` in it.
 
-== Create environment ==
+=== Create the environment ===
 
 {{{
 python virtualenv.py ~/flexget/
