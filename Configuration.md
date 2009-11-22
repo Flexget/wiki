@@ -77,6 +77,6 @@ When you create or modify configuration try running !FlexGet with `--check` para
 
 == References ==
 
- * See [wiki:Cookbook/PresetSeries how to manage series] for how to refine this example into real world usage (with multiple feeds).
+ * See [wiki:Cookbook/Series/Preset how to manage series] for how to refine this example into real world usage (with multiple feeds).
  * Continue into [wiki:Plugins plugins] to learn all about available plugins you may use in you configuration file.
  * [wiki:StillConfusedYaml Still confused about Yaml syntax?]
