@@ -32,11 +32,11 @@ Run command:
 flexget -V
 }}}
 
-It should verbose the installed version. When you've reached this step, congratulate your self as the application is already running properly.
+It should verbose the installed version. When you've reached this step you have already application running properly.
 
 == Continue ==
 
 After you've verified !FlexGet installation.
 
-[wiki:InstallWizard/Windows/Egg/Schedule Scheduling]
+[wiki:InstallWizard/Windows/Egg/Scheduling Scheduling]
 
