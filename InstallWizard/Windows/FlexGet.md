@@ -24,7 +24,7 @@ easy_install c:\FlexGet-1.0r963-py2.5.egg
 
 This will install !FlexGet and all the dependencies.
 
-=== Verify ===
+=== Verify installation ===
 
 Run command:
 
@@ -34,7 +34,7 @@ flexget -V
 
 It should verbose the installed version.
 
-== Next ==
+== Next step ==
 
-[wiki:InstallWizard/Windows/Egg/Schedule Configure and schedule]
+[wiki:InstallWizard/Windows/Egg/Schedule Scheduling]
 
