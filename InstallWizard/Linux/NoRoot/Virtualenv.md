@@ -10,28 +10,42 @@ Virtual env is isolated Python environment. Libraries and applications inside it
 virtualenv ~/flexget/
 }}}
 
-=== Download !FlexGet egg ===
+=== Activate virtualenv ===
 
-[[Include(http://download.flexget.com/ui/download.php)]]
-
-And place it in virtualenv directory.
+{{{
+source ~/flexget/bin/activate
+}}}
 
 === Install !FlexGet egg in virtualenv ===
 
-Go into virtualenv directory and:
+[[Include(http://download.flexget.com/ui/download.php)]]
+
+Downloaded egg:
 
 {{{
-bin/easy_install FlexGet-1.0-py2.6.egg
+easy_install FlexGet-1.0-py2.6.egg
 }}}
 
-This will install all required dependencies.
-
-=== Running !FlexGet from virtualenv ===
-
-In virtualenv directory:
+Or straight from the url:
 
 {{{
-bin/flexget [options]
+easy_install http://download.flexget.com/unstable/FlexGet-1.0-py2.6.egg
+}}}
+
+This will install FlexGet and all required dependencies.
+
+=== Running !FlexGet ===
+
+You can either activate the virtualenv with the command:
+
+{{{
+source ~/flexget/bin/activate
+}}}
+
+After that command `flexget` works from anywhere. Or you can run it via:
+
+{{{
+~/flexget/bin/flexget [options]
 }}}
 
 == Continue ==
