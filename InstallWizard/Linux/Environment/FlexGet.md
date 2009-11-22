@@ -1,4 +1,4 @@
-= Installing Egg =
+= Installing FlexGet Egg =
 
 === Download ===
 
