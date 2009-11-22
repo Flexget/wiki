@@ -21,5 +21,5 @@ virtualenv --version
  * [wiki:InstallWizard/Linux/NoRoot/Virtualenv/ I have virtualenv]
  * [wiki:InstallWizard/Linux/NoRoot/Py2.6/ I have Python 2.6 but no easy_install or virtualenv]
  * [wiki:InstallWizard/Linux/NoRoot/Py2.5/ I have Python 2.5 but no easy_install or virtualenv]
- * [wiki:InstallWizard/Linux/Compile I don't have any of the requirements]
+ * [wiki:InstallWizard/Linux/NoRoot/Compile I don't have any of the requirements]
 
