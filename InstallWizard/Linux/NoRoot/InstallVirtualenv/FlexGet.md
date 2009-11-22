@@ -4,4 +4,4 @@
 
 == Continue ==
 
-[wiki:InstallWizard/Linux/NoRoot/InstallVirtualEnv/FlexGet/Scheduling Scheduling]
+[wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/FlexGet/Scheduling Scheduling]
