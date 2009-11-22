@@ -34,4 +34,4 @@ Open ''Scheduling Tasks'' from windows ''Control panel''.
 
 == Installation completed ==
 
-If you encounter problems, feel free to join our IRC channel (#FlexGet) at freenode. Or request help via tickets if IRC isn't your thing.
+If you encounter problems, feel free to join our IRC channel (`#FlexGet`) at freenode. Or request help via tickets if IRC isn't your thing.
