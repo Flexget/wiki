@@ -34,7 +34,7 @@ flexget -V
 
 It should verbose the installed version. When you've reached this step, congratulate your self as the application is already running properly.
 
-== Next step ==
+== Continue ==
 
 [wiki:InstallWizard/Windows/Egg/Schedule Scheduling]
 
