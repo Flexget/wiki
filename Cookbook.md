@@ -3,9 +3,9 @@
 From here you can find tips and recipes for common tasks.
 Feel free to add your own recipes or improve existing ones.[[BR]]
 
-'''To edit wiki:'''
+'''To edit the wiki:'''
 
-You can either [http://flexget.com/register register] or login username: '''flexget''' password: '''anon'''
+You can either [http://flexget.com/register register] or login with username: '''flexget''' password: '''anon'''
 
 == Here are the delicious recipes ==
 
