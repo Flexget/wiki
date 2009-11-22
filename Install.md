@@ -1,8 +1,6 @@
 = How to install !FlexGet =
 
-''Notes: Wizard is unverified and may have some bits missing ...''
-
-[wiki:InstallWizard Installation wizard]
+[wiki:InstallWizard Installation tutorial]
 
 === I'm hardcore ===
 
