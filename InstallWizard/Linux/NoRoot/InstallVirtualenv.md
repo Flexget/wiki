@@ -33,5 +33,6 @@ source ~/flexget/bin/activate
 
 Now your `python` and `easy_install` commands will use this environment.
 
+== Continue ==
 
-
+[wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/FlexGet Install FlexGet]
