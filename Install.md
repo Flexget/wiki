@@ -6,7 +6,8 @@
 
 [wiki:MigrateTo10 Migrating existing 0.9.x to 1.0]
 
-== 0.9.x - unmaintained! ==
+----
+=== 0.9.x - abandoned! ===
 
  * [wiki:InstallLinux Linux]
  * [wiki:InstallOSX OSX]
