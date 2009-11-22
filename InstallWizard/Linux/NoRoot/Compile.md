@@ -42,4 +42,4 @@ After relogin `python2.6` should work nicely for !FlexGet.
 
 == Continue ==
 
-[wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv Continue with normal route]
+[wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv Continue with the normal route]
