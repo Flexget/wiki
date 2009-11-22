@@ -8,7 +8,7 @@
 
 ''Note: incomplete! Works for windows ..''
 
-[wiki:InstallWizard Install wizard]
+[wiki:InstallWizard Installation wizard]
 
 
 == 1.0 betas & bleeding edge ==
