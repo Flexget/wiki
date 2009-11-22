@@ -10,10 +10,10 @@ python -V
 
 If you don't have required version already available, install it from the distribution package manager.
 
-With Debian based distributions you can simply run with root privileges:
+With Debian based distributions you can simply run:
 
 {{{
-apt-get install python2.6
+sudo apt-get install python2.6
 }}}
 
 == easy_install ==
@@ -23,7 +23,7 @@ If you do not have `easy_install` already available, you need to install it.
 With Debian based distributions you can simply run with root privileges:
 
 {{{
-apt-get install python-setuptools
+sudo apt-get install python-setuptools
 }}}
 
 If your distribution does not have the package available, see further instructions from 
