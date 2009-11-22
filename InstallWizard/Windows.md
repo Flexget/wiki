@@ -16,5 +16,5 @@ http://pypi.python.org/pypi/setuptools#downloads
 
 After successfully installing ''Python'' and ''easy_install''
 
-[wiki:InstallWizard/Windows/Egg continue to next step]
+[wiki:InstallWizard/Windows/Egg Continue to next step]
 ----
