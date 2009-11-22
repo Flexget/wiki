@@ -1,14 +1,12 @@
 = Installing !FlexGet on Windows =
 
-=== Install Python ===
+If you have required Python version and easy_install already, you can continue to next step.
 
-You can skip this if you have Python 2.5.x or Python 2.6.x installed.
+=== Install Python ===
 
 Install latest Python '''2.6.x''' from [http://python.org/download/ python.org]. Like many applications today, !FlexGet is '''not''' compatible with new Python 3.0.
 
 === Install easy_install ===
-
-You can skip this if you have easy_install already.
 
 http://pypi.python.org/pypi/setuptools#downloads
 
