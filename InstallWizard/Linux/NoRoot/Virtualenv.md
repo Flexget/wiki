@@ -32,7 +32,7 @@ Or straight from the url:
 easy_install http://download.flexget.com/unstable/FlexGet-1.0-py2.6.egg
 }}}
 
-This will install FlexGet and all required dependencies.
+This will install !FlexGet and all required dependencies.
 
 === Running !FlexGet ===
 
