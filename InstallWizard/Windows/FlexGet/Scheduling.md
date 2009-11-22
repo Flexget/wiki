@@ -20,7 +20,7 @@ Open ''Scheduling Tasks'' from windows ''Control panel''.
 
 [[Image(wiki:WikiPics:scheduling_2.png)]]
 
-'''3.''' Command to execute. If you stored `config.yml` under ''Documents and Settings\<user profile>\.flexget\'' the ''Start in'' is not necessary.
+'''3.''' Command to execute. If you stored `config.yml` under `Documents and Settings\<user profile>\.flexget\` then the `Start in` is not necessary.
 
 [[Image(wiki:WikiPics:scheduling_3.png)]]
 
