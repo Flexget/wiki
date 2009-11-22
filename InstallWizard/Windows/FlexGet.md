@@ -1,12 +1,40 @@
 = Install EGG on windows =
 
-== Download ==
+=== Download ===
 
 Download !FlexGet package, make sure to choose correct Python version:
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
-== Install ==
+Store it somewhere temporarily, let's say `c:\`
 
-''TODO: include egg installation page''
+=== Install ===
+
+Run command:
+
+{{{
+easy_install c:\<downloaded egg>
+}}}
+
+Example:
+
+{{{
+easy_install c:\FlexGet-1.0r963-py2.5.egg
+}}}
+
+This will install FlexGet and all the dependencies.
+
+=== Verify ===
+
+Run command:
+
+{{{
+flexget -V
+}}}
+
+It should verbose the installed version.
+
+== Next ==
+
+[wiki:InstallWizard/Windows/Egg/Schedule Configure and schedule]
 
