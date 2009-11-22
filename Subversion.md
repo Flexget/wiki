@@ -27,7 +27,7 @@ If you're running >= 2.5, continue with:
 python bootstrap.py
 }}}
 
-If you get error about !BeautifulSoup add parameter {{{--no-site-packages}}}.
+If you get error about !BeautifulSoup or any site packages add parameter {{{--no-site-packages}}}.
 
 Once bootstrap is completed you'll have !FlexGet installed in a virtualenv.
 
@@ -37,18 +37,6 @@ You can execute !FlexGet via:
 bin/flexget
 }}}
 
-When updating remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
-
-== Old 0.9.x ==
-
-If you're familiar with subversion you can use it to make upgrading etc more easily.
-
-For stable release you should checkout from 0.9 branch which is kept stable.
-
-{{{
-svn co http://svn.flexget.com/branches/0.9 flexget-0.9
-}}}
-
 == Update from SVN ==
 
 Enter path where you did checkout and run
@@ -56,5 +44,9 @@ Enter path where you did checkout and run
 {{{
 svn update
 }}}
+
+When updating remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
+
+== Become a contributor ==
 
 If you're interested improving !FlexGet or maintaining (new) modules, please [wiki:NeedHelp contact] for write access! Patches are also very much welcomed, just create new ticket with description and attach the patch file.
