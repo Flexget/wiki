@@ -36,7 +36,5 @@ It should verbose the installed version. When you've reached this step you have 
 
 == Continue ==
 
-After you've verified !FlexGet installation.
-
 [wiki:InstallWizard/Windows/Egg/Scheduling Scheduling]
 
