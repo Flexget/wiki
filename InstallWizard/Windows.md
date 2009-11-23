@@ -6,7 +6,7 @@ If you have required Python version and easy_install already, you can continue t
 
 === Install Python ===
 
-Install latest Python '''2.6.x''' from [http://python.org/download/ python.org]. Like many applications today, !FlexGet is '''not''' compatible with new Python 3.0.
+Install latest Python '''2.6.x''' from [http://python.org/download/ python.org]. Like many applications today, !FlexGet is '''not''' compatible with new Python 3.x.
 
 === Install easy_install ===
 
