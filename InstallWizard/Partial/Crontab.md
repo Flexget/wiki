@@ -29,7 +29,7 @@ This will run !FlexGet every hour. You may run it more frequently as well, but I
 To run more often you may use crontab in form of:
 
 {{{
-*/30 * * * * ~/flexget/flexget.py -q
+*/30 * * * * flexget --cron
 }}}
 
 Where 30 is the time between executions.
