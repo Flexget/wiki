@@ -32,7 +32,7 @@ Run command:
 flexget -V
 }}}
 
-It should verbose the installed version. When you've reached this step you have already application running properly.
+It should verbose the installed version.
 
 == Continue ==
 
