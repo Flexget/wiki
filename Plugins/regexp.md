@@ -69,3 +69,17 @@ regexp:
 
 Available operations: {{{accept}}}, {{{reject}}}, {{{accept_excluding}}} and {{{reject_excluding}}}.
 Rest and not parameters are optional. Configuration may contain any number and combination of different operations.
+
+== Operations described ==
+
+=== accept ===
+mark matching entries as accepted
+
+=== reject === 
+mark matching entries as rejected
+
+=== accept_excluding === 
+mark everything else except matches as accepted
+
+=== reject_excluding ===
+mark everything else except matches as rejected
