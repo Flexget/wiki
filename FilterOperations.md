@@ -2,7 +2,7 @@
 
 '''Note:''' For 0.9.x see [wiki:FilterOperations?version=16 older version]
 
-All plugins may do following operations to [wiki:Entry].
+All plugins may do following operations to [wiki:Entry entry].
 
 {{{
 #!html
@@ -12,13 +12,13 @@ All plugins may do following operations to [wiki:Entry].
   <td><strong>Effect</strong></td>
 </tr><tr>
   <td><div style="color:red; font-weight: bold">Reject</div></td>
-  <td>Entry will be removed. Other plugins may not change this status.</td>
+  <td>Entry will be permanently removed. Other plugins may not change this status.</td>
 </tr><tr>
   <td><div style="color:green; font-weight: bold">Accept</div></td>
-  <td>Entry will be marked accepted. May still be Rejected.</td>
+  <td>Entry will be marked accepted. Other plugins may still be reject it.</td>
 </tr><tr>
   <td><div style="color:#666; font-weight: bold">Undecided</div></td>
-  <td>Entry is not marked to any category.</td>
+  <td>Entry is not marked to any category <i>(default)</i></td>
 </tr>
 </table>
 }}}
