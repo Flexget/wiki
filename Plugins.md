@@ -55,7 +55,7 @@ Produce [wiki:Entry entries] from external source.
 == Filters ==
 
 Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have any number of filters.[[BR]]
-If you plan to use multiple filters per feed, you should look [wiki:FilterOperations filter operations] to understand how operations work.
+If you plan to use multiple filters per feed, you should look [wiki:Filtering filtering operations] to understand how they work.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
