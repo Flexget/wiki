@@ -83,3 +83,5 @@ mark everything else except matches as accepted
 
 === reject_excluding ===
 mark everything else except matches as rejected
+
+[[Include(wiki:FilterOperations)]]
