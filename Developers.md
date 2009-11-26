@@ -139,3 +139,11 @@ Argument {{{--online}}} can be used to enable online tests
 {{{
 bin/nosetests tests/__init__.py:TestDisableBuiltins
 }}}
+
+== Running IPython inside FlexGet ==
+
+{{{
+from IPython.Shell import IPShellEmbed
+ipshell = IPShellEmbed()
+ipshell()
+}}}
