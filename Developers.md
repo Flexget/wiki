@@ -1,3 +1,5 @@
+[[PageOutline]]
+
 = How to make custom plugins (bleeding edge) =
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
