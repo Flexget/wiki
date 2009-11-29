@@ -10,15 +10,16 @@ global:
 
 feeds:
   some feed:
-    patterns:
-      - example
+    regexp:
+      accept:
+        - example
 
   another feed:
     series:
-      - some serie
+      - some series
 }}}
 
-Uses plugins: [wiki:GlobalSection global section], [wiki:OutputRSS make_rss]
+Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/make_rss make_rss]
 
 [wiki:Cookbook Back to The Cookbook]
 
