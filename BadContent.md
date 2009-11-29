@@ -275,4 +275,7 @@ pharmacy
 (?i)birth.control
 (?i)Hotels\sin\s
 (?i)Propecia
+(?i)air.jordan
+(?i)jordan.shoes
+(?i)variantkicks.com
 }}}
