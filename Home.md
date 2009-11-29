@@ -1,11 +1,13 @@
 {{{
 #!html
+<!--
 <div id="login_note">For more permissions (edit wiki, browse sources) login with username: <b>flexget</b> password: <b>anon</b></div>
+-->
 }}}
 
 {{{
 #!html
-<h1 style="text-align: left; color: red">Join #FlexGet @ Freenode - Discussion and support. Spread the &hearts;</h1>
+<h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
 <h4 style="text-align: left; color: #660000">Looking for a cowboy coder armed with sqlalchemy-migrate</h4>
 <div style="float: right">
 
