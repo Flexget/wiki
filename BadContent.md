@@ -281,4 +281,6 @@ pharmacy
 (?i)hardy clothes
 (?i)abercrombie
 (?i)uggshoe.co.uk
+(?i)straighter
+(?i)hair\.com
 }}}
