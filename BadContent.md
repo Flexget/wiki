@@ -278,5 +278,6 @@ pharmacy
 (?i)air.jordan
 (?i)jordan.shoes
 (?i)variantkicks.com
-abercrombie
+(?i)hardy clothes
+(?i)abercrombie
 }}}
