@@ -280,4 +280,5 @@ pharmacy
 (?i)variantkicks.com
 (?i)hardy clothes
 (?i)abercrombie
+(?i)uggshoe.co.uk
 }}}
