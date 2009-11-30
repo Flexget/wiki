@@ -98,7 +98,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:Resolvers resolvers].
- * Completely modular, all features are plugins (see. [wiki:DevelopersGuide developer guide] for more information)
+ * Completely modular, all features are plugins (see. [wiki:Developers developer guide] for more information)
  * And much more ...
 
 = How easy is it to use? =
@@ -139,3 +139,7 @@ For more information about how !FlexGet works, check available [wiki:Plugins plu
    * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
  * Report errors you encounter
  * Feedback on areas that you find troublesome
+
+=== Expand stub pages ===
+
+[[ListTagged(stub)]]
