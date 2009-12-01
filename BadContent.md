@@ -285,4 +285,5 @@ pharmacy
 (?i)hair\.com
 (?i)jeanssite\.com
 (?i)edhardyz\.com
+(?i)designersbrand\.com
 }}}
