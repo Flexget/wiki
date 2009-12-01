@@ -283,4 +283,6 @@ pharmacy
 (?i)uggshoe.co.uk
 (?i)straighter
 (?i)hair\.com
+(?i)jeanssite\.com
+(?i)edhardyz\.com
 }}}
