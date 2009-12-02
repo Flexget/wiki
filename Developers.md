@@ -38,7 +38,7 @@ Example:
 register_plugin(FilterRegexp, 'regexp', priorities={'filter': 128})
 }}}
 
-=== Event methods ===
+== Event methods ==
 
 Listed in order of execution.
 
@@ -50,7 +50,29 @@ Listed in order of execution.
  * on_feed_output(self, feed)
  * on_feed_exit(self, feed)
 
-''TODO: explain event roles? on start and exit there is no feed.session!''
+=== Feed execution UML ===
+
+Only most important events shown.
+
+{{{
+#!SequenceDiagram
+participant Feed
+participant Input
+participant Filter
+participant Download
+participant Output
+
+Feed->Input: Execute Input(s)
+Input->Feed: Add entries
+Feed->Feed: Purge Rejected, Failed
+Feed->Filter: Execute Filter(s)
+Filter->Feed: Reject entries
+Filter->Feed: Accept entries
+Feed->Feed: Purge Rejected, Failed
+Feed->Download: Execute Download(s)
+Feed->Feed: Purge Rejected, Failed
+Feed->Output: Execute Output(s)
+}}}
 
 === Registering custom events ===
 
