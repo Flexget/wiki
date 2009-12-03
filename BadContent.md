@@ -286,4 +286,6 @@ pharmacy
 (?i)jeanssite\.com
 (?i)edhardyz\.com
 (?i)designersbrand\.com
+(?i)migraine
+(?i)treatment.*\.com
 }}}
