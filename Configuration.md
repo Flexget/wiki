@@ -1,6 +1,6 @@
 = Configuration =
 
-In order to use !FlexGet you'll need to create a configuration file. By default !FlexGet tries to find `config.yml` from current path ''(pwd)'' and in `~/.flexget/`. Creating the `~./flexget/` directory and placing your `config.yml` in there is considered currently as the best practice.
+In order to use !FlexGet you'll need to create a configuration file. 
 
 !FlexGet uses [http://en.wikipedia.org/wiki/Yaml Yaml] markup in configuration file. 
 
@@ -14,6 +14,10 @@ In order to use !FlexGet you'll need to create a configuration file. By default 
  * Missing colons. Pay special attention to these when looking at the examples and documentation
  * If text value contains any of `{}[]%:` characters it must be quoted with `''`
  * If you want to pass a number as a text (ie. series ''24''), value must be quoted with `''`
+
+=== Location ===
+
+By default !FlexGet tries to find `config.yml` from current path and in `~/.flexget/`. Creating the `~./flexget/` directory and placing your `config.yml` in there is considered currently as the best practice.
 
 == Example ==
 
