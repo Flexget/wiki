@@ -15,6 +15,6 @@ virtualenv --version
 == Environment ==
 
  * [wiki:InstallWizard/Linux/NoRoot/Virtualenv/ I have python and virtualenv]
- * [wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/ I have python but not virtualenv]
+ * [wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/ I have python but no virtualenv]
  * [wiki:InstallWizard/Linux/NoRoot/Compile I don't have any of the requirements]
 
