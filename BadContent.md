@@ -288,4 +288,5 @@ pharmacy
 (?i)designersbrand\.com
 (?i)migraine
 (?i)treatment.*\.com
+(?i)cholesterol
 }}}
