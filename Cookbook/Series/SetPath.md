@@ -11,9 +11,13 @@ feeds:
       - bar
     set:
       path: /series/location/%(series_name)s
-    download: /location/for/rest/
+    download: yes
 }}}
 
+Note: `download: yes` is valid only in recent versions ..
+
 Uses plugins: [wiki:Plugins/rss rss], [wiki:Plugins/series series], [wiki:Plugins/set set], [wiki:Plugins/download download]
+
+
 
 [wiki:Cookbook Back to The Cookbook]
