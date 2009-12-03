@@ -3,6 +3,10 @@
 
 Intelligent filter for TV-series.
 
+=== Open defects ===
+
+[[TicketQuery(keywords=~series, milestone=1.0, type=defect, status=assigned|reopened, compact)]]
+
 == Features ==
 
  * Episode tracking, no duplicate downloads
