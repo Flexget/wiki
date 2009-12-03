@@ -12,6 +12,6 @@
 > got it!
 > :-)
 > flexget with mac ports
-> exportPYTHONPATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages
+> export PYTHONPATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages
 > woot
 }}}
