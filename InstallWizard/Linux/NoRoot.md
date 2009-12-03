@@ -12,9 +12,9 @@ Required Python version is '''2.5.x''' or '''2.6.x'''. If you have different ver
 virtualenv --version
 }}}
 
-== Environment: select first that matches ==
+== Environment ==
 
- * [wiki:InstallWizard/Linux/NoRoot/Virtualenv/ I have virtualenv]
- * [wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/ I have Python 2.6 or 2.5 but no virtualenv]
+ * [wiki:InstallWizard/Linux/NoRoot/Virtualenv/ I have python and virtualenv]
+ * [wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/ I have python but not virtualenv]
  * [wiki:InstallWizard/Linux/NoRoot/Compile I don't have any of the requirements]
 
