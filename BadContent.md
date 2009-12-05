@@ -289,4 +289,6 @@ pharmacy
 (?i)migraine
 (?i)treatment.*\.com
 (?i)cholesterol
+(?i)lose.weight
+(?i)home.improvements
 }}}
