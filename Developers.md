@@ -164,8 +164,17 @@ bin/nosetests tests/__init__.py:TestDisableBuiltins
 
 == Running IPython inside !FlexGet ==
 
+First install IPython
+
+{{{
+bin/easy_install ipython
+}}}
+
+And then place this where you wish to hack:
+
 {{{
 from IPython.Shell import IPShellEmbed
-ipshell = IPShellEmbed()
+args = []
+ipshell = IPShellEmbed(args)
 ipshell()
 }}}
