@@ -4,9 +4,10 @@
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
 
-Resources:
+=== Resources ===
 
  * [wiki:Developers/TDD test driven development how to]
+ * [wiki:Developers/Mock how to use mock data via configuration file]
  * [http://coverage.flexget.com unit test coverage]
  * [http://doc.flexget.com generated documents] ''not yet up(?)''
 
