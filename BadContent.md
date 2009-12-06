@@ -291,4 +291,5 @@ pharmacy
 (?i)cholesterol
 (?i)lose.weight
 (?i)home.improvements
+(?i)celebrity.*\.com
 }}}
