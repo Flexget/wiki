@@ -6,7 +6,7 @@
 
 Resources:
 
- * [wiki:HowToTDD test driven development how to]
+ * [wiki:Developers/TDD test driven development how to]
  * [http://coverage.flexget.com unit test coverage]
  * [http://doc.flexget.com generated documents] ''not yet up(?)''
 
