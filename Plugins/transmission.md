@@ -8,5 +8,7 @@ Passes the url of an entry to Transmission bittorrent client. Can also pass magn
 transmissionrpc:
   host: localhost
   port: 9091
-  netrc: /path/to/netrc/file/with/.password
+  netrc: /home/flexget/.tmnetrc
+  username: myusername
+  password: mypassword
 }}}
