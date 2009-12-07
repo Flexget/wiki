@@ -4,9 +4,13 @@ Passes the url of an entry to Transmission bittorrent client. Can also pass magn
 
 This plugin requires the transmissionrpc libs from http://bitbucket.org/blueluna/transmissionrpc
 
-until version 0.4 is released you need to download the development release which could be done from the get source menu. 
+until version 0.4 is released you need to download the development release:
 
-unpack the source.
+http://bitbucket.org/blueluna/transmissionrpc/get/tip.tar.gz
+
+unpack the source with:
+
+tar zxvf tip.tar.gz
 
 to install it as root go to transmissionrpc/ directory and do:
 
