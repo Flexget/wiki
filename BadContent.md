@@ -290,6 +290,7 @@ pharmacy
 (?i)treatment.*\.com
 (?i)cholesterol
 (?i)lose.weight
+(?i)diet.pills
 (?i)home.improvements
 (?i)celebrity.*\.com
 }}}
