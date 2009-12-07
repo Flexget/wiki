@@ -86,6 +86,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/deluge deluge]||'''{{{NEW}}}'''  Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/sabnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
+||[wiki:Plugins/transmissionrpc transmissionrpc]||'''{{{NEW}}}'''  Pass entries' url to transmission, supporting magnet links.||
 
 == Modify / Other ==
 
