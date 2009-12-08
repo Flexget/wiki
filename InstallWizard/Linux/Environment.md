@@ -8,7 +8,7 @@ Start by making sure you have Python '''2.5.x''' or Python '''2.6.x''' available
 python -V
 }}}
 
-If you don't have required version already available, install it from the distribution package manager.
+If you don't have required version already available, install it from your distribution package manager.
 
 With Debian based distributions you can simply run:
 
