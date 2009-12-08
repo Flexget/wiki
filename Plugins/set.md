@@ -15,7 +15,7 @@ Set is not really that useful at the feed level. Certain plugins enable set comm
 
 {{{
 series:
-  - Some Show
+  - Some Show:
       set:
         path: /download/here/
 }}}
