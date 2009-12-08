@@ -60,7 +60,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 <ul>
   <li><a href="http://libtorrent.rakshasa.no/">rTorrent</a></li>
   <li><a href="http://utorrent.com">uTorrent</a></li>
-  <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
+  <li><a href="http://www.transmissionbt.com/">Transmission</a>*</li>
   <li><a href="http://deluge-torrent.org/">Deluge</a>*</li>
 </ul>
 </div>
