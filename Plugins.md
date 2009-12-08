@@ -62,7 +62,7 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
-||[wiki:Plugins/imdb_queue imdb_queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
+||[wiki:Plugins/--imdb-queue imdb_queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
@@ -103,7 +103,6 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/regexp_resolve regexp_resolve]||Easy download URL rewriting.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/cli_config cli_config]||Allow using values from commandline in YML-configuration file.||
-||[wiki:Plugins/try_regexp try_regexp]||Test how regexps work on feed(s) interactively.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
@@ -113,3 +112,4 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
 ||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
 ||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
+||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
