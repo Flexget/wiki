@@ -37,3 +37,17 @@ feeds:
   fourth_feed:
     rss: http://example4.com
 }}}
+
+== Execute feeds with a given preset ==
+
+To execute all feeds that have certain preset you can use `--preset NAME`
+
+'''Examples:'''
+
+{{{
+--preset movies
+}}}
+
+{{{
+--preset tv
+}}}
