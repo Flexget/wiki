@@ -46,14 +46,6 @@ rss:
   ascii: true
 }}}
 
-== !SyntaxError: invalid syntax ==
-
-You are trying to execute configuration file, use command:
-
-{{{
-python flexget.py
-}}}
-
 == RSS Feed ... is not valid XML ==
 
 Two possibilities, you're not receiving RSS feed for some reason (ie. must be logged in, cookies). Or the feed server sends is made by monkeys and isn't well formed XML. You can use [http://validator.w3.org/feed/ this service] to check if the feed is broken.
