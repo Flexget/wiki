@@ -23,4 +23,4 @@ series:
   - bar
 }}}
 
-This allows parts of configuration to be shared between multiple configuration files.
+This allows parts of configuration to be shared between multiple configuration files (databases).
