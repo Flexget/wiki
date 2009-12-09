@@ -10,6 +10,7 @@ Allows including configuration from another file into a feed.
 {{{
 feeds:
   stuff:
+    rss: ...
     include: series.yml
     download: ~/downloads/
 }}}
