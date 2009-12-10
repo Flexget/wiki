@@ -3,6 +3,7 @@
  [wiki:Cookbook/Series/Preset Manage series and multiple feeds easily]::
  [wiki:Cookbook/Series/DelugeMovedone Set deluge options trough series groups]::
  [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]::
+ [wiki:Cookbook/Series/DelugeMultipleQualities Multiple qualities with different paths and series list + deluge]::
 
 ''TODO: fix location''
 
