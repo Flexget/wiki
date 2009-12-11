@@ -296,4 +296,5 @@ pharmacy
 (?i)xenon.lights
 (?i)hid.lights
 (?i)designer.(handbags|clothes)
+(?i)louboutin
 }}}
