@@ -8,10 +8,6 @@ In windows you might want to take a look at [http://sqliteman.com/ sqliteman] fo
 
 In future manual tweaking should not be needed anymore ... (#288)
 
-== 10.12.2009 r1019 (d.m.yyyy) ==
-
-When setting parameters for the deluge plugin with the set plugin, you will now need to prefix deluge setting name with 'btclient_' (i.e. btclient_movedone The only exception to this is path.) See [wiki:Plugins/deluge deluge plugin] docs. Eventually other bittorent client output plugins will respect these settings.
-
 == 11.11.2009 r948 (d.m.yyyy) ==
 
 Fixed bug that caused database to be created in current path or in flexget binary path. If you're unlucky old user and the database is located in these locations you get a message asking to verify creating new database with `--initdb`. Instead of doing this move the `db-config.sqlite` file to same path as where your configuration file is.
