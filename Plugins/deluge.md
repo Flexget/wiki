@@ -25,6 +25,7 @@ deluge: yes
 '''Options'''
 
 ||'''Name'''||'''Description'''||
+||Deluge daemon connection info||
 ||host||Deluge host (default ''localhost'')||
 ||port||Deluge port (default ''58846'')||
 ||user||Deluged username ''(defaults to automatic client authentication if not specified)''||
@@ -48,7 +49,7 @@ deluge: yes
 == Advanced ==
 
 Some plugins allow set: statements as a subcommand.
-The deluge plugin will read any of the normal parameters from the set: command, however all parameters except for path must be prefixed with 'btclient_' i.e. (path, btclient_movedone, btclient_label, btclient_ratio)
+The deluge plugin will read any of the normal parameters from the set: command, except for deluge daemon info (host, port, user, pass.)
 Here is an example using the series module:
 
 Example with set:
@@ -60,14 +61,14 @@ series:
       quality: 720p
       set:
         path: /media/diska/incomplete/
-        btclient_movedone: "/media/diska/TV/%(series_name)s/"
-        btclient_label: 720p
+        movedone: "/media/diska/TV/%(series_name)s/"
+        label: 720p
     hdtv:
       quality: hdtv
       set:
         path: /media/diskb/incomplete/
-        btclient_movedone: "/media/diskb/TV/%(series_name)s/Season %(series_season)s/"
-        btclient_label: tv
+        movedone: "/media/diskb/TV/%(series_name)s/Season %(series_season)s/"
+        label: tv
   720p:
     - name 1
     - name 2
