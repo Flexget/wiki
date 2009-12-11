@@ -293,4 +293,7 @@ pharmacy
 (?i)diet.pills
 (?i)home.improvements
 (?i)celebrity.*\.com
+(?i)xenon.lights
+(?i)hid.lights
+(?i)designer.(handbags|clothes)
 }}}
