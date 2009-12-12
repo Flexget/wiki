@@ -248,7 +248,8 @@ http://scampkwwpyjs.com/
 http://ckamybzaajoj.com/
 http://pvuksdmenngm.com/
 http://vcholdymjrbr.com/
-http://www.sex6090.com/ 
+http://www.sex6090.com/
+http://www.tiffanyoutlet.com
 (?i)sex6090
 (?i)Levitra
 jlvtajgklvsf
@@ -295,7 +296,8 @@ pharmacy
 (?i)celebrity.*\.com
 (?i)xenon.lights
 (?i)hid.lights
-(?i)designer.(handbags|clothes)
+(?i)designer.(handbags|clothes|dresses)
 (?i)louboutin
 (?i)clothing.*\.com
+(?i)angina
 }}}
