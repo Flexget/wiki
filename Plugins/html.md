@@ -47,4 +47,8 @@ html:
   title_from: url
 }}}
 
-Other possible values are `auto` ''(default)'' and `title`. 
+Other possible values are `auto` ''(default)'', `url` and `title`. 
+
+== Titles are gibberish ==
+
+In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers ..
