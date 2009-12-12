@@ -297,4 +297,5 @@ pharmacy
 (?i)hid.lights
 (?i)designer.(handbags|clothes)
 (?i)louboutin
+(?i)clothing.*\.com
 }}}
