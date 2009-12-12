@@ -301,4 +301,5 @@ pharmacy
 (?i)louboutin
 (?i)clothing.*\.com
 (?i)angina
+(?i)answers\.com
 }}}
