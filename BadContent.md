@@ -304,4 +304,4 @@ pharmacy
 (?i)answers\.com
 }}}
 
-a possible answer to the current spam flood: ^[a-z]+,  .*? [\w]+, [a-zA-Z]+\.$ (not active yet on purpose)
+a possible answer to the current spam flood: {{{^[a-z]+,  .*? [\w]+, [a-zA-Z]+\.$}}} (not active yet on purpose)
