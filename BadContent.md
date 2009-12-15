@@ -1,5 +1,5 @@
 Damn spammers ...
 
 {{{
-^[a-z]+,  .*? [\w]+, [a-zA-Z]+\.$
+[a-z]+,  .*?http.*? [\w]+, [a-zA-Z]+\.
 }}}
