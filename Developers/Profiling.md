@@ -1,4 +1,4 @@
-= How to profile FlexGet =
+= How to profile !FlexGet =
 
 Quick hack:
 
