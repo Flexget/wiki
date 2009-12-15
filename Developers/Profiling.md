@@ -17,3 +17,9 @@ sys.exit(
    load_entry_point('FlexGet==1.0-svn', 'console_scripts', 'flexget')()
 )""")
 }}}
+
+And run it like
+
+{{{
+bin/profile > profile.txt
+}}}
