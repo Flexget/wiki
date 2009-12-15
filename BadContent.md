@@ -6,8 +6,6 @@ This regex is an attempt to match it.
 
 {{{
 [a-z]+,[ ]+http:\/\/.*?\/[ \w]+, [a-zA-Z]+\.
-
-### We need these (for now) to get the spam score low enough, the first regex works =)
 ringtone
 (?i)diethylpropion
 (?i)zelgetbasli
