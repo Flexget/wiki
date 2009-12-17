@@ -307,4 +307,5 @@ pharmacy
 (?i)clothing.*\.com
 (?i)angina
 (?i)answers\.com
+(?i)without.prescription 
 }}}
