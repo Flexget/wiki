@@ -27,6 +27,7 @@ jalert..et
 (?i)Adipex
 (?i)Carisoprodol
 (?i)Cialis
+(?i)vicodin
 noads.biz
 psychologies\.com
 awardspace\.com
