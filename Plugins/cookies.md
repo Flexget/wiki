@@ -5,7 +5,7 @@ Use cookies straight from !FireFox3 installation.
 === Example ===
 
 {{{
-cookies: /path/firefox/profile/something/cookies.sqlite
+cookies: ~/.flexget/cookies.sqlite
 }}}
 
-'''Note:''' Cookies are not available in [wiki:InputRSS rss] feeds (See #344).
+'''Note:''' You cannot read cookies from running Firefox! Shutdown browsed and make a copy from `cookies.sqlite` to somewhere (ie. `~/.flexget`)
