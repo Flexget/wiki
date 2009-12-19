@@ -14,7 +14,9 @@ tar zxvf tip.tar.gz
 
 to install it as root go to transmissionrpc/ directory and do:
 
+{{{
 python ./setup.py install
+}}}
 
 '''Example:'''
 
@@ -26,3 +28,17 @@ transmissionrpc:
   username: myusername
   password: mypassword
 }}}
+
+== Options ==
+
+||'''Name'''||'''Info'''||
+||host||Required||
+||port||Required||
+||netrc||File, Optional||
+||username||Optional||
+||password||Optional||
+||path||Optional||
+||addpaused||[Yes|No], Optional||
+||maxconnections||Number, Optional||
+||maxupspeed||Number, Optional||
+||maxdownspeed||Number, Optional||
