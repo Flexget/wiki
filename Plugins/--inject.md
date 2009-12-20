@@ -8,7 +8,7 @@ Allows injecting imaginary entry for !FlexGet to process.
 --inject <TITLE> [URL] [FORCE]
 }}}
         
-Random url will be generated. All other inputs are disabled.
+Without URL a random url will be generated. All other inputs are disabled.
 
 '''Example use:'''
         
