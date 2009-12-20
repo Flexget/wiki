@@ -5,7 +5,7 @@ Allows injecting imaginary entry for !FlexGet to process.
 '''Syntax:'''
 
 {{{        
---inject <title>
+--inject <TITLE> [URL] [FORCE]
 }}}
         
 Random url will be generated. All other inputs are disabled.
