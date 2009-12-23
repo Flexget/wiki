@@ -94,3 +94,6 @@ $ ~/src/flexget-dev/bin/easy_install twisted
 
 $
 }}}
+
+== Windows Users ==
+The deluge windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get flexget to use the deluge module, you will have to put them there yourself. I would recommend trying to 'import client from deluge.ui.client' in a python shell, and addressing the errors till you get it working. Then once you have all the dependencies, try to run flexget again.
