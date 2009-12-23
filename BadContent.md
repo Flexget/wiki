@@ -257,6 +257,7 @@ http://vcholdymjrbr.com/
 http://www.sex6090.com/
 http://www.tiffanyoutlet.com
 http://www.autopartsprovider.net
+http://www.malecelebs4u.com
 (?i)sex6090
 (?i)Levitra
 jlvtajgklvsf
@@ -308,5 +309,6 @@ pharmacy
 (?i)clothing.*\.com
 (?i)angina
 (?i)answers\.com
-(?i)without.prescription 
+(?i)without.prescription
+(?i)male.celebrities
 }}}
