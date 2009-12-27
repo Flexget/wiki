@@ -9,7 +9,8 @@ Accept entries matching regexp(s).
 {{{
 regexp:
   accept:
-    - pattern
+    - regexp 1
+    - regexp 2
 }}}
 
 Reject permanently entries matching regexp(s). This should be used when you absolutely do not want to download matching entries, even if some other plugin (ie. `imdb`, `series`) would deem them acceptable.
@@ -17,7 +18,8 @@ Reject permanently entries matching regexp(s). This should be used when you abso
 {{{
 regexp:
   reject:
-    - pattern
+    - regexp 1
+    - regexp 2
 }}}
 
 Multiple operations. This would be useful when grabbing some shows and they appear with unwanted languages as well.
@@ -40,7 +42,7 @@ Any regexp rule can set custom path for matching entry.
 {{{
 regexp:
   accept: 
-    - pattern: ~/custom/path
+    - regexp here: ~/custom/path
 }}}
 
 or
@@ -48,7 +50,7 @@ or
 {{{
 regexp:
   accept: 
-    - pattern:
+    - regexp here:
         path: ~/custom/path
 }}}
 
