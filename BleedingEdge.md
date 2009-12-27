@@ -8,6 +8,32 @@ In windows you might want to take a look at [http://sqliteman.com/ sqliteman] fo
 
 In future manual tweaking should not be needed anymore ... (#288)
 
+== 27.12.2009 r1042 (d.m.yyy) ==
+
+Presets are now defined under `presets` (like `feeds`). Update your configs!
+
+Before:
+
+{{{
+movies:
+  ...
+
+feeds:
+  ...
+}}}
+
+After:
+
+{{{
+presets:
+  movies:
+    ...
+
+feeds:
+  ...
+}}}
+
+
 == 11.11.2009 r948 (d.m.yyyy) ==
 
 Fixed bug that caused database to be created in current path or in flexget binary path. If you're unlucky old user and the database is located in these locations you get a message asking to verify creating new database with `--initdb`. Instead of doing this move the `db-config.sqlite` file to same path as where your configuration file is.
