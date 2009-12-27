@@ -12,7 +12,7 @@ regexp:
     - pattern
 }}}
 
-Reject permanently entries matching regexp(s). This should be used when you absolutely do not want to download matching entries, even if some other module (ie. FilterImdb) would deem them acceptable.
+Reject permanently entries matching regexp(s). This should be used when you absolutely do not want to download matching entries, even if some other plugin (ie. `imdb`, `series`) would deem them acceptable.
 
 {{{
 regexp:
