@@ -312,4 +312,6 @@ pharmacy
 (?i)without.prescription
 (?i)male.celebrities
 (?i)alprazolam
+(?i)amateur.porn
+(?i)adult.*.\com
 }}}
