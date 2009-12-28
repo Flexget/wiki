@@ -311,4 +311,5 @@ pharmacy
 (?i)answers\.com
 (?i)without.prescription
 (?i)male.celebrities
+(?i)alprazolam
 }}}
