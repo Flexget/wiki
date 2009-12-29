@@ -314,4 +314,6 @@ pharmacy
 (?i)alprazolam
 (?i)amateur.porn
 (?i)adult.*.\com
+(?i)clonazepam
+(?i)wiki\.openqa\.org
 }}}
