@@ -12,10 +12,6 @@ You can use tickets also to get help. Create ticket and describe your problem, f
 
 Join #!FlexGet on freenode.
 
-I'm also on ircnet, efnet, quakenet and wordforge under nick paranoidi.
-
-You may also have some luck in #rtorrent at freenode.
-
 = Feedback =
 
 I'm always interested in feedback, may it be good or bad. Especially when you decide not to use !FlexGet, tell me why so I can work to resolve those issues.
