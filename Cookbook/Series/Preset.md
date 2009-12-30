@@ -3,12 +3,13 @@
 With [wiki:Plugins/preset preset] plugin you can avoid having to keep duplicate configuration in multiple feeds. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/preset preset] documentation for more tips.
 
 {{{
-tv:
-  download: ~/torrents/series/
-  exists_series: ~/storage/series/
-  series:
-    - chuck
-    - myth busters
+presets:
+  tv:
+    download: ~/torrents/series/
+    exists_series: ~/storage/series/
+    series:
+      - chuck
+      - myth busters
 
 feeds:
   some feed:
