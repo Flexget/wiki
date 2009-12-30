@@ -9,10 +9,11 @@ This will produce an email containing all downloads accepted from feeds that con
  * This can't be added in global preset!
 
 {{{
-rssout:
-  make_rss:
-    file: ~/downloaded.rss
-    days: 1
+presets:
+  rssout:
+    make_rss:
+      file: ~/downloaded.rss
+      days: 1
 
 feeds:
   realfeeda:
