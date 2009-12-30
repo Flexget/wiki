@@ -4,20 +4,21 @@ Allows multiple presets for feeds and a special global preset that is
 applied to every feed.
 
 {{{
-global:
-  download: ~/download/
+presets:
+  global:
+    download: ~/download/
 
-tv:
-  series:
-    - foo
-    - bar
-  download: ~/download/series/
+  tv:
+    series:
+      - foo
+      - bar
+    download: ~/download/series/
 
-movies:
-  imdb:
-    min_score: 6.2
-    min_votes: 5000
-  download: ~/download/movies/
+  movies:
+    imdb:
+      min_score: 6.2
+      min_votes: 5000
+    download: ~/download/movies/
 
 feeds:
   some_feed:
