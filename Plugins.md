@@ -102,7 +102,6 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/regexp_resolve regexp_resolve]||Easy download URL rewriting.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
-||[wiki:Plugins/--cli-config cli_config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
@@ -111,5 +110,6 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
 ||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
 ||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
+||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
