@@ -49,6 +49,7 @@ Listed in order of execution.
 
  * on_feed_start(self, feed)
  * on_feed_input(self, feed)
+ * on_feed_metainfo(self, feed)
  * on_feed_filter(self, feed)
  * on_feed_download(self, feed)
  * on_feed_modify(self, feed)
@@ -79,9 +80,9 @@ Feed->Feed: Purge Rejected, Failed
 Feed->Output: Execute Output(s)
 }}}
 
-=== Registering custom events ===
+=== Other events ===
 
-Plugins may create new feed events, signature is on_feed_<name>(self, feed).
+ * on_feed_abort(self, feed)
 
 === Application events ===
 
@@ -89,6 +90,10 @@ Plugins may create new feed events, signature is on_feed_<name>(self, feed).
  * on_process_end(self, feed)
 
 These are triggered on startup and shutdown, not between feeds.
+
+=== Registering custom events ===
+
+Plugins may create new feed events, signature is on_feed_<name>(self, feed).
 
 === Adding commandline parameters ===
 
