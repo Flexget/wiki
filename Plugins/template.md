@@ -70,8 +70,9 @@ preset-a:
 
 preset-b:
   series:
-    720p:
-      timeframe: 12 hours
+    settings:
+      720p:
+        timeframe: 12 hours
     720p:
       - xxx
       - yyy
@@ -94,8 +95,9 @@ preset-a:
 
 preset-b:
   series:
-    720p:
-      timeframe: 12 hours
+    settings:
+      720p:
+        timeframe: 12 hours
     720p:
       - xxx
       - yyy
@@ -105,7 +107,8 @@ In which case the result is:
 
 {{{
 series:
-  720p:
+  settings:
+    720p:
       timeframe: 12 hours
   720p:
     - xxx
