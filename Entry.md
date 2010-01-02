@@ -16,14 +16,23 @@ For example [wiki:Plugins/regexp regexp] plugin checks if given regular expressi
 Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of them.
 
 ||'''Name'''||'''Created by'''||'''Description'''||
+||path||||Path where this entry should be saved.||
+
 ||series_name||[wiki:Plugins/series series]||Series name||
 ||series_season||[wiki:Plugins/series series]||Series season||
 ||series_episode||[wiki:Plugins/series series]||Series episode||
 ||series_id||[wiki:Plugins/series series]||Series identifier, ie. ''S01E02'' or ''12.01.2009''||
-||imdb_score||[wiki:Plugins/imdb_lookup imdb_lookup]*||Retrieved/cached imdb score||
+||imdb_url||||Retrieved/cached imdb score||
+||imdb_score||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb score||
+||imdb_votes||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb votes||
+||imdb_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb year||
+||imdb_genres||[wiki:Plugins/imdb_lookup imdb_lookup]*||List of imdb genres||
+||imdb_languages||[wiki:Plugins/imdb_lookup imdb_lookup]*||List of imdb languages||
 ||output||[wiki:Plugins/download download]||Downloaded file||
+||torrent||modify_torrent||When entry is a torrent this contains [wiki:TorrentObject Torrent class]||
+||data||[wiki:Plugins/download download]||Internal. Binary content.||
 
-^* = other plugins utilize this as well^
+^* = and other plugins that utilize this plugin^
 
 ''More resources:''
  * [wiki:FilterOperations Actions for entry]
