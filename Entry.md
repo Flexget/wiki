@@ -16,7 +16,7 @@ For example [wiki:Plugins/regexp regexp] plugin checks if given regular expressi
 Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of them.
 
 ||'''Name'''||'''Created by'''||'''Description'''||
-||path||||Path where this entry should be saved.||
+||path||||Path where this entry content should be saved||
 
 ||series_name||[wiki:Plugins/series series]||Series name||
 ||series_season||[wiki:Plugins/series series]||Series season||
