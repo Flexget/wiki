@@ -36,4 +36,3 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 
 ''More resources:''
  * [wiki:FilterOperations Actions for entry]
- * [wiki:DevelopersEntry Entry information for developers]
