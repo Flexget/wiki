@@ -8,7 +8,7 @@ In windows you might want to take a look at [http://sqliteman.com/ sqliteman] fo
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
-== 03.01.2010 r1053 (d.m.yyyy) ==
+== 03.01.2010 r1057 (d.m.yyyy) ==
 
 Some database changes, please run:
 
