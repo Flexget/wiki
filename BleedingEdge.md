@@ -8,7 +8,16 @@ In windows you might want to take a look at [http://sqliteman.com/ sqliteman] fo
 
 In future manual tweaking should not be needed anymore ... (#288)
 
-== 27.12.2009 r1042 (d.m.yyy) ==
+== 03.01.2010 r1053 (d.m.yyyy) ==
+
+Some database changes, please run:
+
+{{{
+sqlite3 db-config.sqlite "ALTER TABLE make_rss ADD rsslink VARCHAR; ALTER TABLE imdb_movies ADD photo VARCHAR;"
+}}}
+
+
+== 27.12.2009 r1042 (d.m.yyyy) ==
 
 Presets are now defined under `presets` (like `feeds`). Update your configs!
 
