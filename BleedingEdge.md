@@ -6,7 +6,7 @@ If {{{sqlite3}}} command is not available, try installing relevant tool packages
 
 In windows you might want to take a look at [http://sqliteman.com/ sqliteman] for executing SQL statements.
 
-In future manual tweaking should not be needed anymore ... (#288)
+In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
 == 03.01.2010 r1053 (d.m.yyyy) ==
 
