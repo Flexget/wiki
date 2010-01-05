@@ -25,7 +25,6 @@ deluge: yes
 '''Options'''
 
 ||'''Name'''||'''Description'''||
-||Deluge daemon connection info||
 ||host||Deluge host (default ''localhost'')||
 ||port||Deluge port (default ''58846'')||
 ||user||Deluged username ''(defaults to automatic client authentication if not specified)''||
@@ -96,4 +95,4 @@ $
 }}}
 
 == Windows Users ==
-The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get FlexGet to use the deluge module, you will have to put them there yourself. You can copy the deluge egg from the deluge install folder (default for rc5 would be C:\Program Files\Deluge\Deluge-Python\deluge-1.2.0_rc5_dev-py2.6.egg) to your python site packages folder (default is C:\Python26\Lib\site-packages)Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'import client from deluge.ui.client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
+The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get !FlexGet to use the deluge module, you will have to put them there yourself. You can copy the deluge egg from the deluge install folder (default for rc5 would be C:\Program Files\Deluge\Deluge-Python\deluge-1.2.0_rc5_dev-py2.6.egg) to your python site packages folder (default is C:\Python26\Lib\site-packages) Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'import client from deluge.ui.client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
