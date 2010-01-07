@@ -318,4 +318,8 @@ pharmacy
 (?i)clonazepam
 (?i)wiki\.openqa\.org
 (?i)zumba
+(?i)ativan
+(?i)klonopin
+(?i)valium
+(?i)ambien
 }}}
