@@ -5,5 +5,10 @@ Really simple plugin, just accepts all entries. Remember that accepted entries c
 '''Example:'''
 
 {{{
-accept_all: yes
+feeds:
+  prefiltered_feed:
+    rss: http://example.com/filtered.rss
+    accept_all: yes
 }}}
+
+This will accept everything from the defined feed. NOTE: you need an output plugin defined to actually download something.
