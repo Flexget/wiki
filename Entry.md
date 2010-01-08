@@ -17,7 +17,8 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 
 ||'''Name'''||'''Created by'''||'''Description'''||
 ||path||||Path where this entry content should be saved||
-
+||feed||metadata_feed||Feed name which this entry belongs to||
+||quality||metadata_quality||Detected quality||
 ||series_name||[wiki:Plugins/series series]||Series name||
 ||series_season||[wiki:Plugins/series series]||Series season||
 ||series_episode||[wiki:Plugins/series series]||Series episode||
