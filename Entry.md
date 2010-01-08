@@ -22,7 +22,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||series_name||[wiki:Plugins/series series]||Series name||
 ||series_season||[wiki:Plugins/series series]||Series season||
 ||series_episode||[wiki:Plugins/series series]||Series episode||
-||series_id||[wiki:Plugins/series series]||Series identifier, ie. ''S01E02'' or ''12.01.2009''||
+||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. ''S01E02'' or ''12.01.2009''||
 ||imdb_url||||Retrieved/cached imdb score||
 ||imdb_score||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb score||
 ||imdb_votes||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb votes||
