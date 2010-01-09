@@ -18,17 +18,23 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||'''Name'''||'''Created by'''||'''Description'''||
 ||path||||Path where this entry content should be saved||
 ||feed||metadata_feed||Feed name which this entry belongs to||
-||quality||metadata_quality||Detected quality||
+||quality||metadata_quality||Detected quality, ie. `720p`||
 ||series_name||[wiki:Plugins/series series]||Series name||
 ||series_season||[wiki:Plugins/series series]||Series season||
 ||series_episode||[wiki:Plugins/series series]||Series episode||
-||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. ''S01E02'' or ''12.01.2009''||
-||imdb_url||||Retrieved/cached imdb score||
+||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. `S01E02` or `12.01.2009`||
+||imdb_url||||Imdb url||
+||imdb_id||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb identifier||
+||imdb_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb name||
+||imdb_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb year||
 ||imdb_score||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb score||
 ||imdb_votes||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb votes||
-||imdb_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb year||
 ||imdb_genres||[wiki:Plugins/imdb_lookup imdb_lookup]*||List of imdb genres||
 ||imdb_languages||[wiki:Plugins/imdb_lookup imdb_lookup]*||List of imdb languages||
+||imdb_photo||[wiki:Plugins/imdb_lookup imdb_lookup]*||Url for photo (hotlinking prevented)||
+||imdb_plot_outline||[wiki:Plugins/imdb_lookup imdb_lookup]*||Plot outline||
+||imdb_actors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (key: imdbid, value: name)||
+||imdb_directors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (imdbid, name)||
 ||output||[wiki:Plugins/download download]||Downloaded file||
 ||torrent||modify_torrent||When entry is a torrent this contains [wiki:TorrentObject Torrent class]||
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
