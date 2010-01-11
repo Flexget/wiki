@@ -2,7 +2,7 @@
 
 Important notes for 1.0 beta / bleeding edge users:
 
-If {{{sqlite3}}} command is not available, try installing relevant tool packages (ie. apt-get install sqlite3). In windows you might want to take a look at [http://sqliteman.com/ sqliteman] for executing SQL statements. If all else fail deleting the database and running {{{--learn}}} will fix it but cause some older items to be re-downloaded if they appear in the feed(s) again.
+If {{{sqlite3}}} command is not available, try installing relevant packages (ie. apt-get install sqlite3). In windows you might want to take a look at [http://sqliteman.com/ sqliteman] for executing SQL statements. If all else fail deleting the database and running {{{--learn}}} will fix it but cause some older items to be re-downloaded if they appear in the feed(s) again.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
