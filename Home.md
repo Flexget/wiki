@@ -39,7 +39,7 @@
 
 == Latest releases ==
 
-'''Alert: 1.0r1076 Py2.5 was incorrectly packaged, it's was really older version! '''
+'''Alert: 1.0r1076 Py2.5 was incorrectly packaged, it was really older version! '''
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
