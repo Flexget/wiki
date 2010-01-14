@@ -60,6 +60,7 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
+||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
@@ -69,7 +70,6 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||'''{{{Upgraded}}}''' Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/torrent_size torrent_size]||Reject torrents that do not meet size requirements.||
 
 == Outputs ==
