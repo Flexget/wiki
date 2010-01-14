@@ -63,7 +63,6 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
-||[wiki:Plugins/--imdb-queue --imdb-queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/nzb_size nzb_size]||'''{{{NEW}}}'''  Reject nzb's that do not meet size requirements.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
@@ -91,7 +90,6 @@ Execute operation(s) to accepted entries.
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
@@ -101,7 +99,6 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||'''{{{NEW}}}'''  Tries to perform imdb lookup for all entries.||
-||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
@@ -112,4 +109,10 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
+
+== Commands ==
+
+||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
+||[wiki:Plugins/--imdb-queue --imdb-queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
+||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
