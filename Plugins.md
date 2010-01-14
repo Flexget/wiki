@@ -43,13 +43,13 @@ This makes examples more compact and reduces unnecessary boilerplate.
 Produce [wiki:Entry entries] from external source.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/rss rss]||Parse RSS-feed.||
-||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
-||[wiki:Plugins/text text]||Parse any text data||
+||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
+||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
+||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/tvt tvt]||Parse [http://tvtorrents.com].||
 
 == Filters ==
@@ -59,57 +59,57 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
-||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
+||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:Plugins/--imdb-queue --imdb-queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
-||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
-||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
+||[wiki:Plugins/nzb_size nzb_size]||'''{{{NEW}}}'''  Reject nzb's that do not meet size requirements.||
+||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||'''{{{Upgraded}}}''' Reject already downloaded entries. [wiki:Builtin]||
+||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
+||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/torrent_size torrent_size]||Reject torrents that do not meet size requirements.||
-||[wiki:Plugins/nzb_size nzb_size]||'''{{{NEW}}}'''  Reject nzb's that do not meet size requirements.||
 
 == Outputs ==
 
 Execute operation(s) to accepted entries.
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/deluge deluge]||'''{{{NEW}}}'''  Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
+||[wiki:Plugins/email email]||Send email when new content is passed.||
+||[wiki:Plugins/exec exec]||Execute command for passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
+||[wiki:Plugins/sabnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
 ||[wiki:Plugins/statistics statistics]||Output statistics about downloaded entries.||
 ||[wiki:Plugins/subtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
-||[wiki:Plugins/exec exec]||Execute command for passed entries.||
-||[wiki:Plugins/email email]||Send email when new content is passed.||
-||[wiki:Plugins/deluge deluge]||'''{{{NEW}}}'''  Pass torrents directly to deluge bittorrent client.||
-||[wiki:Plugins/sabnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmissionrpc transmissionrpc]||'''{{{NEW}}}'''  Pass entries' url to transmission, supporting magnet links.||
 
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/imdb_lookup imdb_lookup]||'''{{{NEW}}}'''  Tries to perform imdb lookup for all entries.||
-||[wiki:Plugins/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
-||[wiki:Plugins/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
-||[wiki:Plugins/preset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
-||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
+||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
-||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
-||[wiki:Plugins/headers headers]||Modify HTTP headers.||
+||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
+||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
+||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
+||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
+||[wiki:Plugins/headers headers]||Modify HTTP headers.||
+||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
+||[wiki:Plugins/imdb_lookup imdb_lookup]||'''{{{NEW}}}'''  Tries to perform imdb lookup for all entries.||
+||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
+||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
+||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
+||[wiki:Plugins/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
+||[wiki:Plugins/priority priority]||Change plugin priorities.||
 ||[wiki:Plugins/regexp_resolve regexp_resolve]||Easy download URL rewriting.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
-||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
-||[wiki:Plugins/formlogin formlogin]||'''{{{NEW}}}'''  Log in via form.||
+||[wiki:Plugins/preset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
+||[wiki:Plugins/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
-||[wiki:Plugins/priority priority]||Change plugin priorities.||
-||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
-||[wiki:Plugins/include include]||'''{{{NEW}}}'''  Include configuration from another yaml file.||
-||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
-||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
-||[wiki:Plugins/--inject --inject]||'''{{{NEW}}}'''  Injects custom entry into feed(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
