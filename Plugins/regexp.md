@@ -72,7 +72,7 @@ regexp:
 ^[] = optional, <> = value^
 
 Available operations: {{{accept}}}, {{{reject}}}, {{{accept_excluding}}} and {{{reject_excluding}}}.
-Rest and not parameters are optional. Configuration may contain any number and combination of different operations.
+Configuration may contain any number and combination of different operations.
 
 == Operations described ==
 
