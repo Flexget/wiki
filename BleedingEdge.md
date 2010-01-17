@@ -6,6 +6,16 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 18.01.2010 (d.m.yyyy) ==
+
+For all old users, execute:
+
+{{{
+sqlite3 db-config.sqlite "create index seen_values_index on seen (value);"
+}}}
+
+This will improve execution speeds.
+
 == 03.01.2010 r1057 (d.m.yyyy) ==
 
 Some database changes, please run:
