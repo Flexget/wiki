@@ -17,14 +17,14 @@ Set is not really that useful at the feed level. Certain plugins enable set comm
 series:
   - Some Show:
       set:
-        path: /download/here/
+        movedone: /download/here/
 }}}
 {{{
 regexp:
   accept:
     - some regexp:
         set:
-          path: /download/there/
+          movedone: /download/there/
     - another regexp
 }}}
 
