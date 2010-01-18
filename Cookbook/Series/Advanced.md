@@ -3,21 +3,21 @@
 How to use most of the series plugin features, with preset:
 
 {{{
+presets:
+  tv:
+    series:
+      settings:
+        720p:
+          timeframe: 12 hours
 
-tv:
-  series:
-    settings:
       720p:
-        timeframe: 12 hours
+        - house
+        - chuck 
+ 
+      normal:
+        - the colbert report
 
-    720p:
-      - house
-      - chuck 
-
-    normal:
-      - the colbert report
-
-  download: ~/watch/torrent/series/
+    download: ~/watch/torrent/series/
 
 feeds:
   my-feed-a:
