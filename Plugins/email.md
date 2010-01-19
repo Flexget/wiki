@@ -51,11 +51,12 @@ email:
 Config multi-feed example:
 
 {{{
-global:
-  email:
-    from: xxx@xxx.xxx
-    to: xxx@xxx.xxx
-    smtp_host: smtp.host.com
+presets:
+  global:
+    email:
+      from: xxx@xxx.xxx
+      to: xxx@xxx.xxx
+      smtp_host: smtp.host.com
 
 feeds:
   feed1:
