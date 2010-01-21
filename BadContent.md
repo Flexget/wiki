@@ -316,6 +316,7 @@ pharmacy
 (?i)amateur.porn
 (?i)adult.*.\com
 (?i)clonazepam
+(?i)lorazepam
 (?i)wiki\.openqa\.org
 (?i)zumba
 (?i)ativan
