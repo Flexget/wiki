@@ -315,6 +315,7 @@ pharmacy
 (?i)alprazolam
 (?i)amateur.porn
 (?i)adult.*.\com
+(?i)lingerie
 (?i)clonazepam
 (?i)lorazepam
 (?i)wiki\.openqa\.org
