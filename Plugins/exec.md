@@ -16,3 +16,5 @@ exec: echo "downloaded file %(output)s" >> file
 
 
 You can use all (available) entry fields in the command.
+
+See [wiki:Entry entry documentation] for list of possible fields.
