@@ -325,4 +325,5 @@ pharmacy
 (?i)valium
 (?i)ambien
 (?i)ortho
+(?i)poker
 }}}
