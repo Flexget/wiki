@@ -326,4 +326,5 @@ pharmacy
 (?i)ambien
 (?i)ortho
 (?i)poker
+(?i)rakeback
 }}}
