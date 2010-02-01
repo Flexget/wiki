@@ -62,6 +62,22 @@ series:
         - 720p
 }}}
 
+Usually best way to specify quality for series is to use groups:
+
+'''Example:'''
+
+{{{
+series:
+  720p:
+    - name 1
+    - name 2
+  hdtv:
+    - name 3
+    - name 4
+}}}
+
+See [wiki:Plugins/series#Groupsettings groups] for more information.
+
 == Timeframe ==
 
 Specify a timeframe in which !FlexGet waits for a chosen quality. The desired quality can be given with `quality` directive. If specified quality does not come available within timeframe best quality so far is chosen. `Quality` has default value of 720p.
