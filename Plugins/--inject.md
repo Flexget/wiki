@@ -22,7 +22,7 @@ assuming feed accepts the injected entry.
 '''Example use 2:'''
         
 {{{
-flexget --feed some.feed --inject "Some.Title" "Some.direct.url" yes yes
+flexget --feed=some.feed --inject "Some.Title" "Some.direct.url" yes yes
 }}}
         
 This would inject imaginary title with direct link to file into a single feed and download it.
