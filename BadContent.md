@@ -327,4 +327,5 @@ pharmacy
 (?i)ortho
 (?i)poker
 (?i)rakeback
+(?i)Celebrity.Pics
 }}}
