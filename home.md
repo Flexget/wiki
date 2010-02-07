@@ -39,8 +39,6 @@
 
 == Latest releases ==
 
-'''Alert: 1.0r1076 Py2.5 was incorrectly packaged, it was really older version! '''
-
 [[Include(http://download.flexget.com/ui/download.php)]]
 
 [http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news] | [wiki:MigrateTo10 How to migrate 0.9.x to 1.0]
