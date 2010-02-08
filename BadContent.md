@@ -328,4 +328,5 @@ pharmacy
 (?i)poker
 (?i)rakeback
 (?i)Celebrity.Pics
+(?i)Vigrx
 }}}
