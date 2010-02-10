@@ -329,4 +329,5 @@ pharmacy
 (?i)rakeback
 (?i)Celebrity.Pics
 (?i)Vigrx
+(?i)Pheromones
 }}}
