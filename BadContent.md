@@ -331,4 +331,5 @@ pharmacy
 (?i)Vigrx
 (?i)Pheromones
 (?i)homebrew
+(?i)nazdar
 }}}
