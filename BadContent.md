@@ -330,4 +330,5 @@ pharmacy
 (?i)Celebrity.Pics
 (?i)Vigrx
 (?i)Pheromones
+(?i)homebrew
 }}}
