@@ -332,4 +332,5 @@ pharmacy
 (?i)Pheromones
 (?i)homebrew
 (?i)nazdar
+(?i)mens.watches
 }}}
