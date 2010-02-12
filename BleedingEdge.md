@@ -6,6 +6,10 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 12.02.2010 r1115 (d.m.yyyy) ==
+
+Subversion users need to delete all `.pyc` files from `flexget/plugins/`
+
 == 18.01.2010 (d.m.yyyy) ==
 
 For all old users, execute:
