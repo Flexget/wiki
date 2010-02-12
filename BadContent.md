@@ -333,4 +333,5 @@ pharmacy
 (?i)homebrew
 (?i)nazdar
 (?i)(mens|womens).(shows|shoes|watches)
+(?i)absinthe
 }}}
