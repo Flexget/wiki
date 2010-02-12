@@ -2,7 +2,7 @@
 
 Remembers downloaded entries across all feeds and rejects them on subsequent executions.
 
-This plugin is enabled on all feeds by default. See plugin [wiki:ModuleDisableBuiltins disable_builtins] for information how to disable builtin plugins. Note that disabling this will (likely) cause !FlexGet to download all matches on every execution!
+This plugin is enabled on all feeds by default. See plugin [wiki:Plugins/disable_builtins disable_builtins] for information how to disable builtin plugins. Note that disabling this will (likely) cause !FlexGet to download all matches on every execution!
 
 == Commanline options ==
 
