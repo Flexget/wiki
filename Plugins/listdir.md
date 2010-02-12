@@ -17,7 +17,7 @@ listdir:
 }}}
 
 === Additional usage ===
-Some times it's better to generate RSS directly from directories instead of the ordinary ones by using make_rss:
+Some times it's better to generate RSS directly from directories instead of the ordinary ones by using [wiki:make_rss]:
 {{{
  listdir: /storage/movies
  accept_all: yes
@@ -26,3 +26,5 @@ Some times it's better to generate RSS directly from directories instead of the 
    days: 1
 }}}
 This will make rss with every input accepted and make dem last one day in the feed.
+
+If you always want to generate complete list you should use [wiki:ModuleDisableBuiltins disable_builtins], "disable_builtins: [seen]".
