@@ -25,7 +25,7 @@ This is especially useful when you have downloaded something manually outside !F
 }}}
 
 
-With feeds using plugin [wiki:FilterSeenMovies seen_movies] you can also use imdb url to mark any movie as already seen!
+With feeds using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb url to mark any movie as already seen!
 
 {{{
 --seen "http://www.imdb.com/title/tt0119698/"
