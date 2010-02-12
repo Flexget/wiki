@@ -332,5 +332,5 @@ pharmacy
 (?i)Pheromones
 (?i)homebrew
 (?i)nazdar
-(?i)mens.watches
+(?i)(mens|womens).(shows|shoes|watches)
 }}}
