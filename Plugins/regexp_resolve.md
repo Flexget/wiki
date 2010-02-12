@@ -1,12 +1,5 @@
-= Configurable regexp resolver =
-   
-''TODO: write better documentation''
-     
-=== Example ===
+== Oops, moved ==
 
-{{{        
-regexp_resolve:
-  demonoid:
-    match: http://www.demonoid.com/files/details/
-    replace: http://www.demonoid.com/files/download/HTTP/
-}}}
+Plugin has been deleted, see
+
+[wiki:Plugins/urlrewrite]
