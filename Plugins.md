@@ -103,12 +103,12 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change plugin priorities.||
-||[wiki:Plugins/regexp_resolve regexp_resolve]||Easy download URL rewriting.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
 ||[wiki:Plugins/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||'''{{{NEW}}}'''  Set 'path' or other info per feed.||
 ||[wiki:Plugins/sort sort]||'''{{{NEW}}}'''  Sort entries in a feed.||
+||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
 == Command line plugins ==
 
