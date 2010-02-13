@@ -334,4 +334,5 @@ pharmacy
 (?i)nazdar
 (?i)(mens|womens).(shows|shoes|watches)
 (?i)absinthe
+(?i)aloha
 }}}
