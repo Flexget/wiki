@@ -5,7 +5,7 @@ All current spam content follows the pattern: <lowercase gibberish>, <url> <one 
 This regex is an attempt to match it.
 
 {{{
-[a-z]+,[ ]+http:\/\/.*?\/[ \w]+, [a-zA-Z]+\.
+[a-z]+,[ ]+https?://+[\w\d:#@%/;$()~_?\+-=\\\.&]* [ \w]+, [a-zA-Z]+\.
 ringtone
 (?i)diethylpropion
 (?i)zelgetbasli
