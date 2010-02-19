@@ -31,7 +31,11 @@ So if we get same episode twice:
 Some.Series.S2E10.More.Text[[BR]]
 Some.Series.S2E10.Something.Else
 
-Only one of them is downloaded, with default configuration best quality is chosen.
+Only one of them is downloaded, with default configuration best quality is chosen^1^.
+
+'''Notes:'''
+
+1. !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
 
 '''Tips:'''
 
