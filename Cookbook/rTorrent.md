@@ -73,7 +73,7 @@ You need to setup a proper crontab entries and start rTorrent to make the magic 
 23 */2 * * * /path/to/flexget/flexget.py -q
 }}}
 
-This will cause !FlexGet to be run twice a day 23 minutes past the hour (00:23 and 12:23), to adjust this read the crontab manual. Also please try to understand the effects of your changes and study the [wiki:ModuleInterval interval] module before you make any changes.
+This will cause !FlexGet to be run twice a day 23 minutes past the hour (00:23 and 12:23), to adjust this read the crontab manual. Also please try to understand the effects of your changes and study the [wiki:Plugins/interval interval] module before you make any changes.
 
 finally you need to start rTorrent:
 
