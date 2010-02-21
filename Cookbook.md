@@ -7,16 +7,19 @@ Feel free to add your own recipes or improve existing ones.[[BR]]
 
 You can either [http://flexget.com/register register] or login with username: '''flexget''' password: '''anon'''
 
-== Here are the delicious recipes ==
+== Delicious recipes ==
 
  [wiki:Cookbook/Series Recipes for series]::
  [wiki:Cookbook/Movies Recipes for movies]::
+
+=== Client guides ===
+
+ [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
 
 === General purpose recipes ===
 
  [wiki:Cookbook/MakeRssForDownload Generate download RSS for other clients]::
  Useful for clients that do not support watch directories or if downloading is meant to happen in somewhere else than where !FlexGet is running.
- [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
  [wiki:Cookbook/FlexGetUpdater Download FlexGet Releases]::
  [wiki:Cookbook/HeroesComics Download Heroes comics]::
  Uses advanced text parsing.
