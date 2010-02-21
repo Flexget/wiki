@@ -42,3 +42,44 @@ transmissionrpc:
 ||maxconnections||Number, Optional||
 ||maxupspeed||Number, Optional||
 ||maxdownspeed||Number, Optional||
+||ratio||Decimal, Optional||
+
+== Advanced ==
+
+Some plugins allow set: statements as a subcommand.
+The transmissionrpc plugin will read any of the normal parameters from the set: command
+
+Here is an example using the series module:
+
+Example with set:
+
+{{{
+series:
+  settings:
+    720p:
+      quality: 720p
+      set:
+        path: /media/diska/incomplete/
+        label: 720p
+    hdtv:
+      quality: hdtv
+      set:
+        path: /media/diskb/incomplete/
+        label: tv
+  720p:
+    - name 1
+    - name 2
+  hdtv:
+    - name 3
+    - name 4:
+        set:
+          ratio: 5.0
+          addpaused: yes
+
+transmissionrpc:
+  host: localhost
+  port: 9091
+  netrc: /home/flexget/.tmnetrc
+  username: myusername
+  password: mypassword
+}}}
