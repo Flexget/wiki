@@ -1,21 +1,10 @@
 = TransmissionRPC =
 
-Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission. 
+Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission.
 
-This plugin requires the transmissionrpc libs from http://bitbucket.org/blueluna/transmissionrpc
-
-until version 0.4 is released you need to download the development release:
-
-http://bitbucket.org/blueluna/transmissionrpc/get/tip.tar.gz
-
-unpack the source with:
-
-tar zxvf tip.tar.gz
-
-to install it as root go to transmissionrpc/ directory and do:
-
+This plugin requires the transmissionrpc library. To install it, run:
 {{{
-python ./setup.py install
+easy_install transmissionrpc
 }}}
 
 '''Example:'''
@@ -82,4 +71,9 @@ transmissionrpc:
   netrc: /home/flexget/.tmnetrc
   username: myusername
   password: mypassword
+}}}
+
+* Note: because this plugin adds torrents using the source urls, it may fail on some private trackers which require the client to set certain login cookies. One solution is to let the download plugin download the torrent, since FlexGet can be configured to send the proper cookies using the [http://flexget.com/wiki/Plugins/headers headers] plugin. Then use the exec plugin to call the `transmission-remote` program to add the torrent. Example:
+{{{
+exec: transmission-remote -a '%(output)s'
 }}}
