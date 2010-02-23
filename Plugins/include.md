@@ -24,3 +24,10 @@ series:
 }}}
 
 This allows parts of configuration to be shared between multiple configuration files (databases).
+
+You can also include multiple files using this format:
+{{{
+include:
+  - include1.yml
+  - include2.yml
+}}}
