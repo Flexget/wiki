@@ -21,8 +21,8 @@ transmissionrpc:
 == Options ==
 
 ||'''Name'''||'''Info'''||
-||host||Required||
-||port||Required||
+||host||Optional (default: localhost)||
+||port||Number, Optional (default: 9091)||
 ||netrc||File, Optional||
 ||username||Optional||
 ||password||Optional||
@@ -31,7 +31,8 @@ transmissionrpc:
 ||maxconnections||Number, Optional||
 ||maxupspeed||Number, Optional||
 ||maxdownspeed||Number, Optional||
-||ratio||Decimal, Optional||
+||ratio||Decimal, Optional (-1 means infinite)||
+||enabled||Boolean, Optional (default: True)||
 
 == Advanced ==
 
