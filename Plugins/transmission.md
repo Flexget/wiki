@@ -73,8 +73,3 @@ transmissionrpc:
   username: myusername
   password: mypassword
 }}}
-
-* Note: because this plugin adds torrents using the source urls, it may fail on some private trackers which require the client to set certain login cookies. One solution is to let the download plugin download the torrent, since FlexGet can be configured to send the proper cookies using the [http://flexget.com/wiki/Plugins/headers headers] plugin. Then use the exec plugin to call the `transmission-remote` program to add the torrent. Example:
-{{{
-exec: transmission-remote -a '%(output)s'
-}}}
