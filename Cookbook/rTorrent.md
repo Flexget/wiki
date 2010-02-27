@@ -38,7 +38,19 @@ schedule = low_diskspace,5,60,close_low_diskspace=50M
 # when also reaching total upload in bytes, or when
 # reaching final upload ratio in percent.
 # example: stop at ratio 3.0 with at least 200 MB uploaded, or else ratio 20.0
+#ratio usage with rtorrent below 0.8.4
 schedule = ratio,60,60,"stop_on_ratio=300,200M,2000"
+
+#ratio usage with rtorrent above 0.8.4
+# Enable the default ratio group.
+ratio.enable=
+# Change the limits, the defaults should be sufficient.
+ratio.min.set=300
+ratio.max.set=2000
+ratio.upload.set=200M
+# Changing the command triggered when the ratio is reached.
+system.method.set = group.seeding.ratio.command, d.close=, d.erase=
+
 
 # Save session data
 schedule = session_save,240,300,session_save=
