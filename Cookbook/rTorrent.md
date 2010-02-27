@@ -43,12 +43,20 @@ schedule = ratio,60,60,"stop_on_ratio=300,200M,2000"
 # Save session data
 schedule = session_save,240,300,session_save=
 
-# Move finished downloads to downloaded
+# Move finished downloads to downloaded - for rtorrent below 0.8.5/12.5
 on_finished = move_complete,"execute=mv,-u,$d.get_base_path=,$d.get_custom1= ;d.set_directory=$d.get_custom1="
 on_finished = set_done_var,d.set_custom2=
 
-# remove incomplete downloads from disk that have been deleted from rTorrent
+# Move finished downloads to downloaded - for rtorrent above 0.8.6/12.6
+system.method.set_key = event.download.finished,move_complete,"d.set_directory=$d.get_custom1=;execute=mv,-u,$d.get_base_path=,$d.get_custom1="
+system.method.set_key = event.download.finished,set_done_var,d.set_custom2=
+
+# remove incomplete downloads from disk that have been deleted from rTorrent - for rtorrent below 0.8.5/12.5
 on_erase = rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base_path=}\""
+
+# remove incomplete downloads from disk that have been deleted from rTorrent - for rtorrent above 0.8.6/12.6
+system.method.set_key = event.download.erased,rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base_path=}\""
+
 }}}
 
 === !FlexGet setup ===
