@@ -335,4 +335,5 @@ pharmacy
 (?i)(mens|womens).(shows|shoes|watches)
 (?i)absinthe
 (?i)aloha
+(?i)e.cigarette
 }}}
