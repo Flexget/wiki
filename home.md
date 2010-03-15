@@ -8,7 +8,6 @@
 {{{
 #!html
 <h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
-<h4 style="text-align: left; color: #660000">Site may be slow at times, hosted on DSL :(</h4>
 <div style="float: right">
 
 <font size="1" width=20px>Support my pizza addiction :)</font> 
