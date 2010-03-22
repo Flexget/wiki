@@ -3,14 +3,15 @@
 Generates RSS with Imdb details, ordered by imdb score. Throw in [wiki:FilterImdbRated imdb_rated] and you get list of unwatched movies!
 
 {{{
-generate:
-  interval: 4 hours
-  accept_all: yes
-  imdb_lookup: yes
-  disable_builtins: yes
-  sort_by:
-    field: imdb_score
-    reverse: yes
+presets:
+  generate:
+    interval: 4 hours
+    accept_all: yes
+    imdb_lookup: yes
+    disable_builtins: yes
+    sort_by:
+      field: imdb_score
+      reverse: yes
 
 feeds:
 
