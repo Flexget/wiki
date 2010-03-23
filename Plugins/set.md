@@ -11,27 +11,47 @@ set:
 
 == Advanced ==
 
-Set is not really that useful at the feed level. Certain plugins enable set commands to be called for a specific subset of entries from a feed. Currently regexp and series support this format. The use of set in these cases is best understandable through an example.
+''' Set as a sub-plugin '''
 
+Set is not really that useful at the feed level. Certain plugins enable set commands to be called for a specific subset of entries from a feed. Currently regexp and series support this format. The use of set in these cases is best understandable through examples.
+ To set the stop ratio option for Some Show:
 {{{
 series:
   - Some Show:
       set:
-        movedone: /download/here/
+        ratio: 2.0
 }}}
+ This example will set the label for this regexp, but not that regexp.
 {{{
 regexp:
   accept:
-    - some regexp:
+    - this regexp:
         set:
-          movedone: /download/there/
-    - another regexp
+          label: pizza
+    - that regexp
 }}}
 
-Calling set however does not do much unless another plugin uses the information you have set.
-Mostly useful for deluge plugin which will utilize certain values, here are the available keywords:
+''' String Replacement '''
 
-'''[wiki:OutputDeluge deluge]''' will read the following settings from the set plugin:
+The set plugin also performs another useful function which can dynamically change an option for each entry accepted by a feed. Using the python string replacement format, a variable from an [wiki:Entry entry] can be substituted into your set option. This can also be explained through an example.
+ This example uses string replacement to place shows in series 'groupa' in their own show title and season folders.
+{{{
+series:
+  settings:
+    groupa:
+      set:
+        movedone: /home/usera/TV/%(series_name)s/Season %(series_season)d/
+  groupa:
+    - Some Show
+    - Some Other Show
+}}}
+
+=== Plugins that accept Set keywords ===
+
+Calling set however does not do much unless another plugin uses the information you have set. The following plugins will use values you have set with this plugin.
+
+'''[wiki:Plugins/deluge Deluge]'''
+
  * {{{path}}}
  * {{{movedone}}}
  * {{{label}}}
@@ -44,7 +64,20 @@ Mostly useful for deluge plugin which will utilize certain values, here are the 
  * {{{ratio}}}
  * {{{removeatratio}}}
  * {{{compact}}}
- * {{{automanaged}}} 
-Options configured from the set plugin will override those deluge configuration values with the set values.
+ * {{{automanaged}}}
 
-Set will throw errors if you attempt to set keywords not supported by any of your loaded plugins for the feed.
+'''[wiki:Plugins/transmissionrpc Transmissionrpc]'''
+
+ * {{{path}}}
+ * {{{addpaused}}}
+ * {{{maxconnections}}}
+ * {{{maxupspeed}}}
+ * {{{maxdownspeed}}}
+ * {{{ratio}}}
+
+'''[wiki:Plugins/download Download]'''
+
+ * {{{path}}}
+
+Options configured from the set plugin will override configuration values set directly in the plugin that is reading them.
+
