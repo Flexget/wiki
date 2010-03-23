@@ -31,7 +31,20 @@ regexp:
 Calling set however does not do much unless another plugin uses the information you have set.
 Mostly useful for deluge plugin which will utilize certain values, here are the available keywords:
 
-'''[wiki:OutputDeluge deluge:]'''
-Will read {{{path}}}, {{{movedone}}}, {{{label}}} and {{{queuetotop}}} from set, set info will override those deluge configuration values with the set values.
+'''[wiki:OutputDeluge deluge]''' will read the following settings from the set plugin:
+ * {{{path}}}
+ * {{{movedone}}}
+ * {{{label}}}
+ * {{{queuetotop}}}
+ * {{{addpaused}}}
+ * {{{maxupspeed}}}
+ * {{{maxdownspeed}}}
+ * {{{maxconnections}}}
+ * {{{maxupslots}}}
+ * {{{ratio}}}
+ * {{{removeatratio}}}
+ * {{{compact}}}
+ * {{{automanaged}}} 
+Options configured from the set plugin will override those deluge configuration values with the set values.
 
 Set will throw errors if you attempt to set keywords not supported by any of your loaded plugins for the feed.
