@@ -120,7 +120,7 @@ feeds:
     download: ~/torrents/series/
 }}}
 
-This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}}.
+This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}} using powerful [wiki:Plugins/series series] plugin.
 
 You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
