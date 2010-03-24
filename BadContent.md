@@ -207,6 +207,7 @@ http://relievepain.org/
 http://www.buycialis.cc/ 
 http://headachetreatment.net
 http://www.bestofindya.com
+(?i)www.hostguide.co.il
 (?i)hello..and.bye
 (?i)perfect.site
 (?i)russian.*illegal
