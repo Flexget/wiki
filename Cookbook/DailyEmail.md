@@ -4,7 +4,7 @@ This will produce an email containing all downloads accepted from feeds that con
 
 '''Notes:'''
 
- * Use this 'only' if you absolutely want to limit emails once per day. For immediate email notification the [wiki:Plugins/email email] plugin alone is sufficient.
+ * Use this only if you absolutely want to limit emails once per day. For immediate email notification the [wiki:Plugins/email email] plugin alone is sufficient.
  * This has not been fully tested yet, might need some tweaks
  * A bit hackish and prevents you from using `make_rss` for other purposes
  * This can't be added in global preset!
