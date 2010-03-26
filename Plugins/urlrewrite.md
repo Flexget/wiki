@@ -4,7 +4,7 @@
 
 {{{
 urlrewrite:
-  imaginary:
+  sitename:
     regexp: 'http://imaginary.org/tor/(?P<id>\d+)/(?P<name>.*)'
     format: 'http://imaginary.org/download/\g<id>/\g<name>'
 }}}
