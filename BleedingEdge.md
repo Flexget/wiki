@@ -6,6 +6,10 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 26.03.2010 r1211 (d.m.yyyy) ==
+
+New dependency, subversion users should run install progressbar (eg. `bin/easy_install progressbar`)
+
 == 15.02.2010 r1119 (d.m.yyyy) ==
 
 This release was packed incorrectly and will complain about duplicate plugins, please upgrade to r1120.
