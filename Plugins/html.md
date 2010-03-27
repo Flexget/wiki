@@ -1,7 +1,6 @@
 = Html =
 
-Parses urls from html page. Usefull on sites which have direct download
-links of any type (mp3, jpg, torrent, ...).
+Parses urls from html page. Usefull on sites which have direct download links of any type (mp3, jpg, torrent, ...).
 
 Many anime-fansubbers do not provide an RSS-feed, this usually works for those cases.
 
@@ -25,7 +24,22 @@ regexp:
 
 This would download all links that have mp3 link with word podcast in them.
 
-== Advanced ==
+== Get only certain links ==
+
+In case page contains too many links, you can use regexps to select only certain links.
+
+=== Example ===
+
+{{{
+html:
+  url: <url>
+  links_re:
+    - domain\.com
+}}}
+
+This will create only entries from links which match any of given regexps.
+
+== Dump ==
 
 You can dump the received HTML into a file by using parameter {{{dump}}}.
 
@@ -37,6 +51,8 @@ html:
   dump: file.html
 }}}
 
+== Title options ==
+
 Some feeds contain links that have useless title (like 'DL', '1', '2'..). If you need better titles you can use option {{{title_from}}} to guess better title from url.
 
 === Example ===
@@ -47,7 +63,7 @@ html:
   title_from: url
 }}}
 
-Other possible values are `auto` ''(default)'', `url` and `title`. 
+Other possible values are: `auto` ''(default)'', `url`, `title` and `link`. 
 
 == Titles are gibberish ==
 
