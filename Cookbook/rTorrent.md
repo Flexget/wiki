@@ -98,7 +98,13 @@ This will cause !FlexGet to be run twice a day 23 minutes past the hour (00:23 a
 finally you need to start rTorrent:
 
 {{{
-screen -R rtorrent rtorrent
+screen -dSm rtorrent rtorrent
+}}}
+
+to attach the screen and check downloads:
+
+{{{
+screen -r rtorrent
 }}}
 
 You are all done, your downloads should start and stop automatically. All that is left for you to do is to make sure that you don't run out of disk space. 
