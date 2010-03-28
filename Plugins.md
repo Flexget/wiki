@@ -59,19 +59,19 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
-||[wiki:Plugins/content_size content_size]||'''{{NEW}}'''  Reject torrents and nzb's that do not meet size requirements.||
+||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
-||[wiki:Plugins/nzb_size nzb_size]||'''{{DEPRECATED}}}'''  Reject nzb's that do not meet size requirements.||
+||[wiki:Plugins/nzb_size nzb_size]||'''{{{DEPRECATED}}}'''  Reject nzb's that do not meet size requirements.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||'''{{{Upgraded}}}''' Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||'''{{{Upgraded}}}''' Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:Plugins/torrent_size torrent_size]||'''{{DEPRECATED}}}''' Reject torrents that do not meet size requirements.||
+||[wiki:Plugins/torrent_size torrent_size]||'''{{{DEPRECATED}}}''' Reject torrents that do not meet size requirements.||
 
 == Outputs ==
 
