@@ -1,5 +1,12 @@
 = Nzb size =
 
+'''Removed in r1202, replaced by [wiki:Plugins/content_size content_size]'''
+
+[[BR]]
+[[BR]]
+[[BR]]
+
+
 === Example: ===
 
 {{{
