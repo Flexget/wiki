@@ -333,7 +333,7 @@ pharmacy
 (?i)Pheromones
 (?i)homebrew
 (?i)nazdar
-(?i)(mens|womens).(shows|shoes|watches)
+(?i)(men|women).{1,4}(shows|shoes|watches)
 (?i)absinthe
 (?i)aloha
 (?i)e.cigarette
