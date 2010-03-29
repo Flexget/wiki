@@ -337,4 +337,5 @@ pharmacy
 (?i)absinthe
 (?i)aloha
 (?i)e.cigarette
+(?i)codeine
 }}}
