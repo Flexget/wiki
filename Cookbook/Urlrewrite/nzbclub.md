@@ -27,3 +27,11 @@ feeds:
         regexp: .*\[\s*(.*)\s*\]-.*
     interval: 10 minutes
 }}}
+[[BR]]
+[[BR]]
+If you even want to keep nicer job names you can add something like this:
+
+{{{
+    exec: "mv %(output)s /home/user/sabnzbd/nzbfiles/series/ /real/watch/dir/path/%(title)s.nzb"
+}}}
+
