@@ -2,8 +2,14 @@ To grab series from NZBClub.com you can use their RSS feed, but it needs some ur
 [[BR]]
 Here an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1 - it's a RSS feed for everything the user teevee posted (you can create your own feed for different subjects at nzbclub.com)[[BR]]
 [[BR]]
-
 {{{
+presets:
+  series:
+    720p:
+      - series 1
+      - series 2
+
+feeds:
   series:
     rss: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1
     download: /home/user/sabnzbd/nzbfiles/series/
