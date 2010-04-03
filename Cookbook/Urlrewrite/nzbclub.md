@@ -10,10 +10,10 @@ presets:
       - series 2
 
 feeds:
-  series:
+  nzbclub:
     rss: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1
     download: /home/user/sabnzbd/nzbfiles/series/
-    preset: [series]
+    preset: series
     content_size:
       min: 150
       max: 3000
@@ -27,8 +27,7 @@ feeds:
         regexp: .*\[\s*(.*)\s*\]-.*
     interval: 10 minutes
 }}}
-[[BR]]
-[[BR]]
+
 If you even want to keep nicer job names you can add something like this:
 
 {{{
