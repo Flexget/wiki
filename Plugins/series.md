@@ -10,7 +10,7 @@ Intelligent filter for TV-series.
 == Features ==
 
  * Episode tracking, no duplicate downloads
- * Quality aware
+ * Plenty of quality options
  * Timeframe, get best quality in given timeframe
  * Episode advancement
  * Proper/Repack aware
