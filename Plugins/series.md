@@ -181,13 +181,18 @@ Forgetting single episode is also possible by `--series-forget NAME" sxxexx, whe
 
 == Specify group (eg. anime fansubs) ==
 
-example:
+'''Example:'''
 
 {{{
 series:
   - fullmetal alchemist brotherhood:
       from_group: eclipse
 }}}
+
+'''Supported notations:'''
+
+ * [Group] Series
+ * Series XviD-Group
 
 == Episode advancement ==
 
