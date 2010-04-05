@@ -1,6 +1,6 @@
 = Scheduling =
 
-Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.
+Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.  The SQLite database file will get created in the same directory with the configuration file, so please make sure the user executing flexget has write access to that path.
 
 !FlexGet is designed to be executed from user crontab (daemon mode later perhaps).
 
