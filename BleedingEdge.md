@@ -6,6 +6,10 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 05.04.2010 r1226 (d.m.yyyy) ==
+
+Plugins `torrent_size` and `nzb_size` have been merged into one [wiki:Plugins/content_size content_size].
+
 == 26.03.2010 r1211 (d.m.yyyy) ==
 
 New dependency, subversion users should run install progressbar (eg. `bin/easy_install progressbar`)
