@@ -82,7 +82,7 @@ deluge: yes
 
 The more specific set commands will override the less specific ones (i.e. the set command from name 4 will override the set values from the hdtv group.)
 
-=== Content Renaming ===
+=== Content Renaming* ===
 The deluge plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in deluge. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
 {{{
 series:
@@ -102,5 +102,6 @@ Together with the movedone command, this means all TV series will be downloaded 
 /home/user/TV/Show Name/Seanson #/Show Name - S##E## - Quality.ext
 }}}
 
+''* This feature is not supported when using deluge 1.1''
 == Windows Users ==
 The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get !FlexGet to use the deluge module, you will have to put them there yourself. You can copy the deluge egg from the deluge install folder (default for rc5 would be C:\Program Files\Deluge\Deluge-Python\deluge-1.2.0_rc5_dev-py2.6.egg) to your python site packages folder (default is C:\Python26\Lib\site-packages) Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'import client from deluge.ui.client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
