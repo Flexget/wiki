@@ -95,11 +95,12 @@ series:
     - Show Name
 deluge: yes
 }}}
-This config uses python [wiki:Plugins/set#string-replacement string replacement] notation to rename the file using information from the series parser. If there was a file called {{{Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv].mkv}}} inside the torrent, it would be renamed to {{{Show Name - S09E15 - 720p.mkv}}}
+This config uses python [wiki:Plugins/set#string-replacement string replacement] notation to rename the file using information from the series parser. If there was a file called {{{Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv].mkv}}} inside the torrent, it would be renamed to {{{Show Name - S09E15 - 720p.mkv}}} If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. {{{Show Name - S09E15 - 720p(2).mkv}}}
 
 Together with the movedone command, this means all TV series will be downloaded to:
 {{{
 /home/user/TV/Show Name/Seanson #/Show Name - S##E## - Quality.ext
 }}}
+
 == Windows Users ==
 The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get !FlexGet to use the deluge module, you will have to put them there yourself. You can copy the deluge egg from the deluge install folder (default for rc5 would be C:\Program Files\Deluge\Deluge-Python\deluge-1.2.0_rc5_dev-py2.6.egg) to your python site packages folder (default is C:\Python26\Lib\site-packages) Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'import client from deluge.ui.client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
