@@ -65,6 +65,7 @@ Calling set however does not do much unless another plugin uses the information 
  * {{{removeatratio}}}
  * {{{compact}}}
  * {{{automanaged}}}
+ * {{{content_filename}}}
 
 '''[wiki:Plugins/transmissionrpc Transmissionrpc]'''
 
