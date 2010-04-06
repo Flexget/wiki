@@ -11,7 +11,7 @@ set:
 
 == Advanced ==
 
-''' Set as a sub-plugin '''
+=== Set as a sub-plugin ===
 
 Set is not really that useful at the feed level. Certain plugins enable set commands to be called for a specific subset of entries from a feed. Currently regexp and series support this format. The use of set in these cases is best understandable through examples.
  To set the stop ratio option for Some Show:
@@ -31,7 +31,7 @@ regexp:
     - that regexp
 }}}
 
-''' String Replacement '''
+=== String Replacement === #string-replacement
 
 The set plugin also performs another useful function which can dynamically change an option for each entry accepted by a feed. Using the python string replacement format, a variable from an [wiki:Entry entry] can be substituted into your set option. This can also be explained through an example.
  This example uses string replacement to place shows in series 'groupa' in their own show title and season folders.
