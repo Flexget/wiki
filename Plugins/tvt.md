@@ -1,5 +1,8 @@
 = TVTorrents =
 
+'''Plugin seems to be broken at the moment and there's nobody to maintain it'''
+[[BR]][[BR]][[BR]]
+
 A customized HTML input module. Parses out full torrent URLs from [http://tvtorrents.com TVTorrents]' page for recently aired TV show episodes.
 
 May break in the future, as it depends on the exact structure of the HTML.
