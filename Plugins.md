@@ -84,7 +84,6 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/exec exec]||Execute command for passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/sabnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
-||[wiki:Plugins/statistics statistics]||Output statistics about downloaded entries.||
 ||[wiki:Plugins/subtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:Plugins/transmissionrpc transmissionrpc]||'''{{{NEW}}}'''  Pass entries' url to transmission, supporting magnet links.||
 
