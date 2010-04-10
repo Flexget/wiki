@@ -1,6 +1,6 @@
 = Output Statistics =
 
-'''UNMAINTAINED - WORKS POORLY'''
+'''UNMAINTAINED - WORKS POORLY. Dropped in r1238'''
 
 
 Output graphs about downloaded entries. The output is a single HTML file with graphs linked from Google chart API.
