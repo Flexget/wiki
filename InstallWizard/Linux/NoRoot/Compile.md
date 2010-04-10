@@ -30,7 +30,7 @@ gdbm               readline           sunaudiodev
 To find the necessary bits, look in setup.py in detect_modules() for the module's name.
 }}}
 
-'''TODO: how to resolve these, at least _sqlite is needed! '''
+'''TODO: how to resolve these, at least _sqlite is needed! PLEASE UPDATE THE WIKI if you succeed! '''
 
 New Python should be now executable with {{{~/python/bin/python}}}, which you can easily add to your .bashrc
 
