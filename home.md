@@ -28,6 +28,7 @@
 === Documentation ===
 
  * '''[wiki:Install Installation guide]'''
+   * [wiki:Upgrade Upgrading]
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
  * '''[wiki:Cookbook The Cookbook]'''
