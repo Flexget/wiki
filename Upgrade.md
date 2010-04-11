@@ -10,7 +10,7 @@ Start by checking what version you currently have with command:
 flexget -V
 }}}
 
-Subversion users must use `svnversion .` instead.
+Subversion users must use `svnversion .` in checkout directory instead.
 
 Write this somewhere down.
 
