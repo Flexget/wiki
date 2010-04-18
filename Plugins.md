@@ -90,6 +90,7 @@ Execute operation(s) to accepted entries.
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/adv_exec adv_exec]||'''{{{NEW}}}'''  Highly customizable exec plugin.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||'''{{{NEW}}}'''  Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
