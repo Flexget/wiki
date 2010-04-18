@@ -74,3 +74,42 @@ transmissionrpc:
   password: mypassword
 }}}
 
+=== Transmission Tips ===
+
+Transmission annoyingly do not have any way to easily remove completed torrents from it's UI.
+Luckily if you have transmission-remote installed you can script it and by using the exec plugin
+FlexGet can help keep it nice and tidy.
+
+Create an executable script named: transmission-cleanup.sh:
+
+{{{
+transmission-remote -l  | grep 100% | grep Done | awk '{print $1}' | xargs -n 1 -J % ./transmission-remote -t % -r
+}}}
+
+Note: if you transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
+
+In case transmisionrpc does not work for you an alternative is to simply just configure it
+as the default application for .torrent files and configure it to save the download at the 
+same location as the torrent file is found.
+
+The following example combine the two tips:
+
+{{{
+feeds:
+  tv-shows:
+    rss: http://showrss.karmorra.info/rss.php
+    series:
+      - Breaking Bad
+  
+    set:
+      timeframe: 4 hours
+      quality: 720p
+      path: /Volumes/BigDrive/series/%(series_name)s/Season %(series_season)d/
+    download: yes
+    # open the torrent -> starts or adds to running transmissoin
+    exec: open %(output)s
+    # cleanup transmission for any 100% complete and fully seeded torrents.
+    adv_exec: 
+      on_start:
+        event: ./transmission-cleanup.sh
+}}}
