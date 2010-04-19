@@ -17,7 +17,7 @@ FlexGet has just downloaded X new entries for feed feedname  :
 {{{
 Config:
   from          : the email address from which the email will be sent (required)
-  to            : the email address of the recipient (required)
+  to            : the email address(es) of the recipient(s) (required)
   smtp_host     : the host of the smtp server
   smtp_port     : the port of the smtp server
   smtp_login    : should we use anonymous mode or login to the smtp server ?
@@ -35,12 +35,14 @@ email:
   smtp_host: smtp.host.com
 }}}
 
-Config example with smtp login:
+Config example with smtp login and multiple recipients:
 
 {{{
 email:
   from: xxx@xxx.xxx
-  to: xxx@xxx.xxx
+  to:
+    - xxx@xxx.xxx
+    - yyy@yyy.yyy
   smtp_host: smtp.host.com
   smtp_port: 25
   smtp_login: true
