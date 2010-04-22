@@ -103,7 +103,8 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||'''{{{NEW}}}'''  Change (download) path based on file-type (extension).||
-||[wiki:Plugins/priority priority]||Change plugin priorities.||
+||[wiki:Plugins/priority priority]||Change feed execution order.||
+||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||'''{{{NEW}}}'''  Provides global configuration and named presets.||
 ||[wiki:Plugins/search search]||'''{{{NEW}}}'''  Search for download URL from supported sites.||
