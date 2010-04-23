@@ -61,7 +61,7 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/accept_all accept_all]||'''{{{NEW}}}'''  Accept all entries.||
 ||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
-||[wiki:Plugins/series_exists exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
+||[wiki:Plugins/exists_series exists_series]||'''{{{New}}}''' Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||'''{{{NEW}}}''' Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||'''{{{NEW}}}''' Reject imdb incompatible entries.||
@@ -83,6 +83,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||Execute command for passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
+||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/sabnzbd sabnzbd]||'''{{{NEW}}}'''  Download nzbs with SABnzbd.||
 ||[wiki:Plugins/subtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:Plugins/transmissionrpc transmissionrpc]||'''{{{NEW}}}'''  Pass entries' url to transmission, supporting magnet links.||
