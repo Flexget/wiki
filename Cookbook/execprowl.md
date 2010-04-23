@@ -1,5 +1,11 @@
 = Use exec and curl to send a Prowl notification =
 
+'''DEPRECATED'''
+
+Use [wiki:Plugins/prowl prowl] plugin instead!
+[[BR]][[BR]]
+
+
 If you have the iPhone app Prowl, you can use the exec plugin and curl to send notifications.
 
 == Example ==
