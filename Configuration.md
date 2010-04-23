@@ -58,7 +58,7 @@ The process ends at output, in this case we have single output that just downloa
 == Common misconceptions ==
 
  * Plugin order doesn't matter, you can list them in any order you like. Most logical order would be `inputs` -> `filters` -> `outputs`.
- * Feed order doesn't matter, feeds are executed in seemingly random order. Use [wiki:Plugin/delay delay] plugin to de-priorize some feeds. ''Better plugins are in the works''
+ * Feed order doesn't matter, feeds are executed in seemingly random order. Use [wiki:Plugins/priority priority] plugin priorize feeds when necessary.
  * You cannot list plugins, ie. [wiki:Plugins/rss rss] twice in a single feed. This is limited by the chosen simpler syntax in the configuration file. Instead see [wiki:Plugins/preset preset] plugin.
 
 == Tips ==
