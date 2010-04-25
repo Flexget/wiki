@@ -28,7 +28,7 @@ manipulate:
 
 Regexp can return any number of groups, value is combination of these (separated with a space).
 
-== Example 2 ===
+=== Example 2 ===
 
 Some badly written site has invalid URLs. Uses &amp; instead of &
 
