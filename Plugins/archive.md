@@ -9,10 +9,10 @@ archive: yes
 Search:
 
 {{{
---archive-search KEYWORDS
+--archive-search KEYWORD
 }}}
 
-Note: multiple keywords must be quoted.
+Note: if keyword has spaces it must be quoted.
 
 Retrieve (inject into feed):
 
