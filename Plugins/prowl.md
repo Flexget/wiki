@@ -20,5 +20,6 @@ All options except for the API key are optional
 
 ||'''Name'''||'''Description'''||
 ||apikey||Your personal API key||
+||application||Application ID (default ''FlexGet'')||
 ||event||Event title shown in Prowl (default ''New release'')||
 ||priority||Message priority from -2 to 2. 2 = emergency ''(default 0)''||
