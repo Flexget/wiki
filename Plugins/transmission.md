@@ -32,6 +32,7 @@ transmissionrpc:
 ||maxupspeed||Number, Optional||
 ||maxdownspeed||Number, Optional||
 ||ratio||Decimal, Optional (-1 means infinite)||
+||removewhendone||Boolean||
 ||enabled||Boolean, Optional (default: True)||
 
 == Advanced ==
@@ -75,6 +76,8 @@ transmissionrpc:
 }}}
 
 === Transmission Tips ===
+
+'''After r1277 you can simply use removedone option'''
 
 Transmission annoyingly do not have any way to easily remove completed torrents from it's UI.
 Luckily if you have transmission-remote installed you can script it.
