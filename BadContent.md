@@ -338,4 +338,5 @@ pharmacy
 (?i)aloha
 (?i)e.cigarette
 (?i)codeine
+(?i)cigarettes
 }}}
