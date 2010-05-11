@@ -97,7 +97,32 @@ series:
   - third series
 }}}
 
-Possible values for quality (in order): 1080p, 1080, 720p, 720, hr, dvd, hdtv, pdtv, dsr, dsrip
+Possible values for quality (in order): 1080p, 1080, web-dl, 720p, 720, hr, dvd, hdtv, pdtv, dsr, dsrip
+Timeframe value: NUM (minutes|hours|days|weeks)
+
+== Propers ==
+
+Default behavior is to download propers always.
+
+To disable propers completely:
+
+{{{
+series:
+  - some series:
+      quality: 720p
+      propers: no
+}}}
+
+To specify timeframe in which propers are accepted:
+
+{{{
+series:
+  - some series:
+      quality: 720p
+      propers: 12 hours
+}}}
+
+Accepted format: NUM (minutes|hours|days|weeks)
 
 == Override path ==
 
