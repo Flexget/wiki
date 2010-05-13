@@ -182,7 +182,7 @@ jkhjfsfww.com
 (?i)good.material.thanks
 (?i)very.good.site
 (?i)fuck
-(?i)teen\s
+(?i)\steen\s
 (?i)best.job
 (?i)nabble\.com
 http://www.zillow.com
