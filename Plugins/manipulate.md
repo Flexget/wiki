@@ -36,6 +36,6 @@ Some badly written site has invalid URLs. Uses &amp; instead of &
 manipulate:
   url:
     replace:
-      regexp: &amp;
-      format: &
+      regexp: '&amp;'
+      format: '&'
 }}}
