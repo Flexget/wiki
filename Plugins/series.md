@@ -169,6 +169,7 @@ series:
     720p:
       timeframe: 12 hours
       quality: 720p
+      propers: 3 days
 
   720p:
     - series name
