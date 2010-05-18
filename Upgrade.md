@@ -26,6 +26,8 @@ easy_install <new egg>
 
 Subversion users can just run `svn up`.
 
+You may also need to remove old !FlexGet from your python site-packages, eg. `rm /usr/local/lib/python2.6/site-packages/FlexGet-1.0r1108-py2.6.egg`
+
 == Changes ==
 
 See [wiki:BleedingEdge bleeding edge news] and see if there are any steps that you must do, if you have several months old version there are almost certainly some changes that need you to take some actions.
