@@ -1,6 +1,6 @@
 == My movie list ==
 
-Generates RSS with Imdb details, ordered by imdb score. Throw in [wiki:FilterImdbRated imdb_rated] and you get list of unwatched movies!
+Generates RSS with Imdb details, ordered by imdb score. Throw in [wiki:Plugins/imdb_rated imdb_rated] and you get list of unwatched movies!
 
 {{{
 presets:
