@@ -339,4 +339,5 @@ pharmacy
 (?i)e.cigarette
 (?i)codeine
 (?i)cigarettes
+(?i)personal.*loans
 }}}
