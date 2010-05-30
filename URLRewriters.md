@@ -21,8 +21,10 @@ URL Rewriters are plugins that detect if any of the [wiki:Entry entries] in a fe
 
 === Custom rewriting with regexp ===
 
-In case the download URL is only slightly different from the download page, you can use [wiki:Plugins/urlrewrite urlrewrite] plugin to get proper download url.
+For unsupported sites you can often rewrite by using regexp. 
+
+This works only when URL is only slightly different from the download page, see [wiki:Plugins/urlrewrite urlrewrite] plugin for more information.
 
 == Not on the list? Make your own ==
 
-Use existing rewriter as a starting point, it should be quite easy if you have any programming experience.
+Use existing rewriter as a starting point, it should be quite easy if you have any programming experience. If you make something, please submit new plugin as a ticket attachment so we can include it in the !FlexGet :)
