@@ -20,6 +20,14 @@ manipulate:
 
 Title is filled with garbage that series plugin does not like.
 
+eg.
+
+{{{
+[48952] The Series S01E01 720p
+}}}
+
+This could be fixed by removing the [48952]
+
 {{{
 manipulate:
   title:
