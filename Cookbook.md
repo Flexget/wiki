@@ -25,7 +25,7 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/HeroesComics Download Heroes comics]::
  Uses advanced text parsing.
  [wiki:Cookbook/SortDownloads Sort downloads]::
- Use !FlexGet to sort downloads into correct directories. This is not exactly what the program is designed to, but shows the real Flexibility of it :)
+ Use !FlexGet to sort downloads into correct directories. This is not exactly what the program is designed to do, but it shows the real Flexibility of it :)
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
  [wiki:Cookbook/ScriptForDownload Run custom script for downloads]::
  [wiki:Cookbook/execprowl Use exec and curl to send a Prowl notification]::
