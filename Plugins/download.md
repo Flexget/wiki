@@ -26,3 +26,15 @@ download: ~/torrents/
 
 This results that entries matching patterns 1 and 2 are saved into
 ~/torrents/ and pattern3 is saved to ~/another_location/.
+
+'''Advanced Options'''
+
+There are a couple of advanced options that can be specefied in this form:
+{{{
+download:
+  path: /path/here
+  overwrite: yes
+  fail_html: no
+}}}
+{{{overwrite}}} If a non-identical file already exists with the given name, it will be overwritten. (defaults to false)[[BR]]
+{{{fail_html}}} If html content is recieved (usually a login page), fail the entry. (defaults to true) 
