@@ -1,6 +1,6 @@
 = Quality =
 
-Allows specifying acceptable qualities. All other qualities will be rejected.
+Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. series, you should use it's built in quality system)
 
 ''' Example: '''
 
