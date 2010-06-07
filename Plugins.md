@@ -67,6 +67,7 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/nzb_size nzb_size]||'''{{{DEPRECATED}}}'''  Reject nzb's that do not meet size requirements.||
+||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
