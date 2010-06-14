@@ -6,6 +6,10 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 13.6.2010 r1294 (d.m.yyyy) ==
+
+[wiki:Plugins/exists_series exists_series] no longer allows multiple qualities by default. See plugin page for details.
+
 == 11.05.2010 r1278 (d.m.yyyy) ==
 
 Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Simply replace `regexp` with `extract`.
