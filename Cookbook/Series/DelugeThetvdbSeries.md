@@ -5,6 +5,7 @@ presets:
   tv:
     thetvdb_favorites:
       account_id: 230B039A30
+      series_group: thetvdb_favs
     series:
       settings:
         thetvdb_favs:
