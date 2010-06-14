@@ -25,3 +25,5 @@ exists_series:
   path: /storage/series/
   allow_qualities: yes
 }}}
+
+NOTE: Advanced format was introduced in r1294. It will not work in earlier versions.
