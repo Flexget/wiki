@@ -18,12 +18,12 @@ exists_series:
 
 == Advanced ==
 
-By default, the exists_series will not allow downloading of multiple qualities of the same episode. If you would like to allow that, you can use the advanced form of configuration, like so:
+By default, the exists_series will not allow downloading of different qualities of the same episode. (If you already have Lost.S01E01.hdtv, Lost.S01E01.720p will be rejected.) If you would like to allow different qualities of the same episode, you can use the advanced form of configuration, like so:
 
 {{{
 exists_series:
   path: /storage/series/
-  allow_qualities: yes
+  allow_different_qualities: yes
 }}}
 
-NOTE: Advanced format was introduced in r1294. It will not work in earlier versions.
+NOTE: Advanced format was introduced in r1301. It will not work in earlier versions.
