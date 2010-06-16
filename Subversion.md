@@ -4,7 +4,7 @@
 
 '''Notes:''' 
 
- * Requires '''Python 2.5 or 2.6'''
+ * Requires '''Python 2.5 or 2.6''' and subversion client
  * This is under development at the moment
 
 To checkout use command:
