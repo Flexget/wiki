@@ -1,10 +1,14 @@
 [[Include(wiki:InstallWizard)]]
 
-=== I'm hardcore ===
+=== Alternative route / Advanced ===
+
+This is useful also if you're having problems with egg installation or have a really small root filesystem.
 
  * [wiki:Subversion Subversion] (true bleeding edge)
 
-[wiki:MigrateTo10 Migrating existing 0.9.x to 1.0]
+=== Upgrading from 0.9.x ===
+
+[wiki:MigrateTo10 Migrating to 1.0]
 
 ----
 === 0.9.x - abandoned! ===
