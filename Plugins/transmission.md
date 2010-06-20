@@ -35,6 +35,11 @@ transmissionrpc:
 ||removewhendone||Boolean||
 ||enabled||Boolean, Optional (default: True)||
 
+To use all default values use this config form:
+{{{
+transmissionrpc: yes
+}}}
+
 == Advanced ==
 
 Some plugins allow set: statements as a subcommand.
@@ -77,7 +82,7 @@ transmissionrpc:
 
 === Transmission Tips ===
 
-'''After r1277 you can simply use removedone option'''
+'''After r1277 you can simply use removewhendone option'''
 
 Transmission annoyingly do not have any way to easily remove completed torrents from it's UI.
 Luckily if you have transmission-remote installed you can script it.
