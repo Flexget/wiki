@@ -6,6 +6,7 @@
  [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]::
  [wiki:Cookbook/Series/DelugeMultipleQualities Multiple qualities with different paths and series list + deluge]::
  [wiki:Cookbook/Series/DelugeThetvdbSeries Advanced deluge/thetvdb config showing many features]::
+ [wiki:Cookbook/Series/DelugeSeriesLabel Set deluge labels to the series name]::
 
 ''TODO: fix location''
 
