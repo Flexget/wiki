@@ -336,8 +336,8 @@ pharmacy
 (?i)(men|women).{1,4}(shows|shoes|watches)
 (?i)absinthe
 (?i)aloha
-(?i)e.cigarette
+(?i)e.cig
 (?i)codeine
-(?i)cigarettes
+(?i)cigarette
 (?i)personal.*loans
 }}}
