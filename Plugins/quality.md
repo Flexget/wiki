@@ -17,3 +17,5 @@ quality:
   - 720p
   - 1080p
 }}}
+
+Possible values for quality are listed under [wiki:Plugins/series#Timeframe series].
