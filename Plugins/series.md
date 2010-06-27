@@ -213,6 +213,10 @@ Forgetting single episode is also possible by `--series-forget NAME" sxxexx, whe
 series:
   - fullmetal alchemist brotherhood:
       from_group: eclipse
+  - naruto:
+      from_group:
+        - horriblesubs
+        - crunchysubs
 }}}
 
 '''Supported notations:'''
