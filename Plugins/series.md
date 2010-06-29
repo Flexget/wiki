@@ -35,11 +35,8 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 '''Notes:'''
 
-1. !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
-
-'''Tips:'''
-
- * If series name can be written in multiple ways, don't add them as separate series. This will confuse episode tracking. Use the most common form and add `name_regexps` that contains all forms!
+ * !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
+ * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. Use the most common form and add `name_regexps` that contains all forms!
 
 == Quality ==
 
@@ -126,7 +123,7 @@ Accepted format: NUM (minutes|hours|days|weeks)
 
 == Override path ==
 
-Specify a custom path for a series. Note that this does '''not''' download it, your feed must use [wiki:OutputDownload download] plugin to do that.
+Specify a custom path for a series. Note that this does '''not''' download it, your feed must have output plugin (eg. [wiki:Plugins/download download], [wiki:Plugins/deluge deluge])
 
 '''Example:'''
 
