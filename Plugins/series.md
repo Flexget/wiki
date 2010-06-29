@@ -238,6 +238,22 @@ Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which 
 '''Result:'''
 Episode advancement does not reject this. This fits inside grace margin from latest episode.
 
+== Identified by ==
+
+Specify how episode number is detected.
+
+'''Example:'''
+
+{{{
+series:
+  - test:
+      identified_by: id
+}}}
+
+Possible values: `ep`, `id`, `auto`
+
+Default value is `auto` which uses episode history to detect what to use. In absence of reliable history both `ep` and `id` format are accepted.
+
 == Advanced matching with regexps ==
 
 The standard name matching is not perfect, some times you may need to specify regexp(s) manually. Usually the `name_regexp`.
