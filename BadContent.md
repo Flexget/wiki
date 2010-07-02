@@ -325,6 +325,9 @@ pharmacy
 (?i)klonopin
 (?i)valium
 (?i)ambien
+(?i)diflucan
+(?i)prostate
+(?i)ringworm
 (?i)ortho
 (?i)poker
 (?i)rakeback
