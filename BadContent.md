@@ -185,6 +185,7 @@ jkhjfsfww.com
 (?i)\steen\s
 (?i)best.job
 (?i)nabble\.com
+(?i)cum.?shot
 http://www.zillow.com
 http://www.linkedin.com/
 http://www.ibibo.com
@@ -344,5 +345,5 @@ pharmacy
 (?i)e.cig
 (?i)codeine
 (?i)cigarette
-(?i)personal.*loans
+(?i)(personal|commercial).*loan
 }}}
