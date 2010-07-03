@@ -311,7 +311,7 @@ pharmacy
 (?i)without.prescription
 (?i)male.celebrities
 (?i)alprazolam
-(?i)amateur.*(porn|sex)
+(?i)amateur.*(porn|sex|xxx)
 (?i)adult.*.\com
 (?i)ienlarge
 (?i)justchillz
