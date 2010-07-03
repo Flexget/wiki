@@ -316,6 +316,8 @@ pharmacy
 (?i)alprazolam
 (?i)amateur.porn
 (?i)adult.*.\com
+(?i)ienlarge
+(?i)justchillz
 (?i)lingerie
 (?i)clonazepam
 (?i)lorazepam
