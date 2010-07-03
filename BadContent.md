@@ -126,7 +126,6 @@ hhfgdgdf
 http://www.gamegoldbest.us
 http://www.green-litehk.com
 haha;
-porn(?:hub|tube)
 nikeshoeswholesale
 nike-trainer
 http://www.sneakercool.com
@@ -173,9 +172,7 @@ jkhjfsfww.com
 (?i)cool.site
 (?i)great.site
 (?i)xmovies
-(?i)sex.gallery
 (?i)online.sex
-(?i)sex.video
 (?i)underage.*girls
 (?i)russian.*girls
 (?i)russian.*naked
@@ -222,10 +219,9 @@ http://www.bestofindya.com
 (?i)free.*downloads
 (?i)xhamster
 (?i)x.rated
-(?i)sextube
+(?i)(sex|xxx|porn).*(tube|hub|vid|movie|gallery)
 (?i)nude.*celebs
 (?i)free.*hardcore
-(?i)porn.*movies
 (?i)mature.*asians
 (?i)look.*young.*again
 (?i)GenF20
@@ -315,7 +311,7 @@ pharmacy
 (?i)without.prescription
 (?i)male.celebrities
 (?i)alprazolam
-(?i)amateur.porn
+(?i)amateur.*(porn|sex)
 (?i)adult.*.\com
 (?i)ienlarge
 (?i)justchillz
