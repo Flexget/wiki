@@ -6,6 +6,7 @@ This regex is an attempt to match it.
 
 {{{
 [a-z]+,[ ]+https?://+[\w\d:#@%/;$()~_?\+-=\\\.&]* [ \w]+, [a-zA-Z]+\.
+^[a-z]{18,}
 ringtone
 (?i)diethylpropion
 (?i)zelgetbasli
