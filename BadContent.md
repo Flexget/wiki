@@ -343,4 +343,5 @@ pharmacy
 (?i)codeine
 (?i)cigarette
 (?i)(personal|commercial).*loan
+(?i)http:\/\/www\..*\.co\.il
 }}}
