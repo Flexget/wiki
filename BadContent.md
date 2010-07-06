@@ -344,4 +344,5 @@ pharmacy
 (?i)cigarette
 (?i)(personal|commercial).*loan
 (?i)http:\/\/www\..*\.co\.il
+(?i)http:\/\/.*\.co\.il
 }}}
