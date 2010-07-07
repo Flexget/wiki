@@ -19,7 +19,12 @@ easy_install ~/tmp/<downloaded egg>
 Example:
 
 {{{
-easy_install ~/tmp/FlexGet-1.0r963-py2.5.egg
+easy_install ~/tmp/FlexGet-1.0r1305-py2.5.egg
+}}}
+
+easy_install also supports the parsing and download of files via url, like so:
+{{{
+easy_install http://download.flexget.com/unstable/FlexGet-1.0r1305-py2.5.egg
 }}}
 
 This will install !FlexGet and all additional components it requires.
