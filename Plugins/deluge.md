@@ -44,6 +44,7 @@ deluge: yes
 ||removeatratio||If yes, torrent will be removed from deluge when ratio is reached.||
 ||compact||If yes, will allocate torrent in compact mode.||
 ||automanaged||If set to false torrents will be added to deluge without the automanaged flag.||
+||content_filename||This can be used to rename the main file inside the torrent. [wiki:Plugins/deluge#ContentRenaming see here]||
 
 
 
