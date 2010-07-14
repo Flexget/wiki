@@ -220,7 +220,7 @@ http://www.bestofindya.com
 (?i)free.*downloads
 (?i)xhamster
 (?i)x.rated
-(?i)(sex|xxx|porn).*(tube|hub|vid|movie|gallery)
+(?i)(sex|xxx|porn).*(tube|hub|vid|movie|gallery|toy)
 (?i)nude.*celebs
 (?i)free.*hardcore
 (?i)mature.*asians
