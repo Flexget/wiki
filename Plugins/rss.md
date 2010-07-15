@@ -61,5 +61,5 @@ You can also use local file instead of url.
 
 {{{
 rss:
-  url: file:///path/to/rss/something.xml
+  url: /path/to/rss/something.xml
 }}}
