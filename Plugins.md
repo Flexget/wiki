@@ -112,7 +112,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
 ||[wiki:Plugins/search search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per feed.||
-||[wiki:Plugins/sort sort]||Sort entries in a feed.||
+||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
 == Command line plugins ==
