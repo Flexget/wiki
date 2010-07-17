@@ -37,7 +37,7 @@ The following qualities are known, and listed in decending order of quality. The
 ||dvdscr||
 ||sdtv||pdtv||
 ||dsr||dsrip||
-||r5||
+||!r5||
 ||tc||
 ||preair||
 ||cam||
