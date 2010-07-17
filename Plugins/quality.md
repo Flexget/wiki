@@ -18,4 +18,27 @@ quality:
   - 1080p
 }}}
 
-Possible values for quality are listed under [wiki:Plugins/series#Timeframe series].
+
+=== Known Qualities ===
+
+The following qualities are known, and listed in decending order of quality. The second column contains alternate formats that are recognized.
+
+||1080p||1080, 1920x1080||
+||1080i||
+||web-dl||
+||720p||720, 1280x720||
+||720i||
+||hr||
+||bdrip||
+||dvdrip||dvd||
+||480p||480||
+||hdtv||
+||bdscr||
+||dvdscr||
+||sdtv||pdtv||
+||dsr||dsrip||
+||r5||
+||tc||
+||preair||
+||cam||
+||workprint||
