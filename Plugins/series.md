@@ -48,6 +48,8 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 ^* = Does not work with timeframe (yet)^
 
+Possible values for quality can be found [wiki:Plugins/quality#KnownQualities here.]
+
 '''Example:'''
 
 {{{
