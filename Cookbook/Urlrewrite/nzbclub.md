@@ -1,36 +1,31 @@
-To grab series from NZBClub.com you can use their RSS feed, but it needs some urlrewrite.[[BR]]
+To grab series from NZBClub.com you can use their RSS feed, but it needs some urlrewrite and the filenames are absolutely terrible by default. Requires version r1333 or newer.[[BR]]
 [[BR]]
 Here an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1 - it's a RSS feed for everything the user teevee posted (you can create your own feed for different subjects at nzbclub.com)[[BR]]
 [[BR]]
 {{{
 presets:
-  series:
+  tv:
     720p:
       - series 1
       - series 2
+    content_size:
+      min: 150
+      max: 1500
+    download: /home/user/sabnzbd/nzbfiles/series/
 
 feeds:
   nzbclub:
-    rss: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1
-    download: /home/user/sabnzbd/nzbfiles/series/
-    preset: series
-    content_size:
-      min: 150
-      max: 3000
+    preset: tv
+    rss: 
+      url: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1
+      filename: no                                                 # prevent ugly names from the start
     urlrewrite:
       nzbclub:
         regexp: http://nzbclub.com/nzb_view.aspx
         format: http://nzbclub.com/nzb_download.aspx
-    manipulate:
+    manipulate:                                                    # remove all crap from the title
       title:
-        from: title
-        regexp: .*\[\s*(.*)\s*\]-.*
-    interval: 10 minutes
+        extract: .*\[\s*(.*)\s*\]-.*
+    set:                                                           # prevent content-disposition being used, causing filename to fallback to title
+      content-disposition: no
 }}}
-
-If you even want to keep nicer job names you can add something like this:
-
-{{{
-    exec: "mv %(output)s /real/watch/dir/path/%(title)s.nzb"
-}}}
-
