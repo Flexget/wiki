@@ -13,7 +13,6 @@ easy_install transmissionrpc
 transmissionrpc:
   host: localhost
   port: 9091
-  netrc: /home/flexget/.tmnetrc
   username: myusername
   password: mypassword
 }}}
@@ -75,7 +74,6 @@ series:
 transmissionrpc:
   host: localhost
   port: 9091
-  netrc: /home/flexget/.tmnetrc
   username: myusername
   password: mypassword
 }}}
