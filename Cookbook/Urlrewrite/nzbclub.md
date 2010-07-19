@@ -5,9 +5,10 @@ Here an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1
 {{{
 presets:
   tv:
-    720p:
-      - series 1
-      - series 2
+    series:
+      720p:
+        - series 1
+        - series 2
     content_size:
       min: 150
       max: 1500
