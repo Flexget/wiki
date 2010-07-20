@@ -227,7 +227,6 @@ http://www.bestofindya.com
 (?i)look.*young.*again
 (?i)GenF20
 (?i)buy.*online
-(?i)asian.*porn
 (?i)I.*really.like.*your.*site
 (?i)tweenie
 (?i)Ultracet Online
@@ -312,7 +311,7 @@ pharmacy
 (?i)without.prescription
 (?i)male.celebrities
 (?i)alprazolam
-(?i)amateur.*(porn|sex|xxx)
+(?i)(asian|amateur|cartoon).*(porn|sex|xxx)
 (?i)adult.*.\com
 (?i)ienlarge
 (?i)justchillz
