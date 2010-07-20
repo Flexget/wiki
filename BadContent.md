@@ -328,6 +328,9 @@ pharmacy
 (?i)diflucan
 (?i)prostate
 (?i)ringworm
+(?i)arthritis
+(?i)Hypothyroidism
+(?i)swine.flu
 (?i)ortho
 (?i)poker
 (?i)rakeback
