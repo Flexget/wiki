@@ -96,7 +96,6 @@ series:
   - third series
 }}}
 
-Possible values for quality (in order): 1080p, 1080, web-dl, 720p, 720, hr, dvd, hdtv, pdtv, dsr, dsrip
 Timeframe value: NUM (minutes|hours|days|weeks)
 
 == Propers ==
