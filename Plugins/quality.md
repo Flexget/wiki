@@ -42,7 +42,7 @@ The following qualities are known, and listed in decending order of quality. The
  ||720p||720, 1280x720||
  ||720i||
  ||hr||
- ||bdrip||
+ ||bdrip||brrip, bluray||
  ||dvdrip||dvd||
  ||480p||480||
  ||hdtv||
