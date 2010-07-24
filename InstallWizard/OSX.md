@@ -22,3 +22,7 @@ You can then use the InstallEggMac guide to get the dependencies, and install th
 > export PYTHONPATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages
 > woot
 }}}
+
+== Installing through Fink ==
+
+[http://www.finkproject.org/ Fink] has FlexGet in unstable, as of 2010-07-24.  You should just need to run 'fink install flexget' with unstable enabled and it will install all dependencies.
