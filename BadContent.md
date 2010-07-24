@@ -271,6 +271,11 @@ tajesaxobylz
 (?i)istanbul
 (?i)hotels.*\.com
 (?i)erectile.*dysfunction
+(?i)sexual.health
+(?i)psoriasis
+(?i)hepatitis
+(?i)heart.disease
+(?i)urinary.infection
 www.*porn.*\.com
 male.*rx
 pharmacy
