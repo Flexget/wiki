@@ -2,6 +2,8 @@
 
 Read [wiki:URLRewriters how URL rewriting works].
 
+Allows manipulating download pages into proper download URLs. If information required to generate the URL is not present, the site needs urlrewriting plugin.
+
 '''Example'''
 
 {{{
