@@ -1,6 +1,8 @@
 = URL Rewrite =
 
-''TODO: write ... ''
+Read [wiki:URLRewriters how URL rewriting works].
+
+'''Example'''
 
 {{{
 urlrewrite:
@@ -9,7 +11,7 @@ urlrewrite:
     format: 'http://imaginary.org/download/\g<id>/\g<name>'
 }}}
 
-This would rewrite url
+This would rewrite URL
 
 {{{
 http://imaginary.org/tor/1234/test.torrent
