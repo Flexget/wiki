@@ -352,4 +352,8 @@ pharmacy
 (?i)(personal|commercial).*loan
 (?i)http:\/\/www\..*\.co\.il
 (?i)http:\/\/.*\.co\.il
+(?i)http://hyncmdjkizsc.com
+(?i)http://igbpjmkqeaur.com
+(?i)http://nmbdophnemxw.com
+(?i)http://nxclvnzlmkfj.com
 }}}
