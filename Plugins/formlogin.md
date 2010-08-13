@@ -26,3 +26,18 @@ regexp:
   accept:
     - Paddy.Obrien
 }}}
+
+
+
+== Options ==
+
+All options except for the API key are optional
+
+'''Options'''
+
+||'''Name'''||'''Description'''||
+||form||URL to the login form||
+||username||Username to the site||
+||password||Password||
+||userfield||Name of the username field if not 'username'||
+||passfield||Name of the password field if not 'password'||
