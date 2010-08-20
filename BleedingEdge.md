@@ -6,6 +6,14 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 20.8.2010 r1372 (d.m.yyyy) ==
+
+Database schema changes. Please run:
+
+{{{
+sqlite3 db-config.sqlite "ALTER TABLE imdb_queue ADD title VARCHAR;"
+}}}
+
 == 13.6.2010 r1294 (d.m.yyyy) ==
 
 [wiki:Plugins/exists_series exists_series] no longer allows multiple qualities by default. See plugin page for details.
