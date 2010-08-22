@@ -34,6 +34,8 @@ flexget -V
 
 It should verbose the installed version.
 
+'''NOTE:''' If you plan on using the [wiki:Plugins/deluge deluge] plugin on Windows, you must do some [wiki:Plugins/deluge#WindowsUsers additional steps.]
+
 == Continue ==
 
 [wiki:InstallWizard/Windows/FlexGet/Scheduling Scheduling]
