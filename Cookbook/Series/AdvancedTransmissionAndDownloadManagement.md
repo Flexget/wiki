@@ -18,7 +18,7 @@ presets:
       smtp_tls: true
   # configuration of transmission parameters
   # -> each accepted feed item will be piped to transmission
-  # -> if you will connect to a remote host you must use svn-rev: 1370 (trac# 654)
+  # -> if you will connect to a remote host you must use svn-rev: r1370 (trac# 654)
   transmission:
     transmissionrpc:
       host: <host or ip address>
@@ -37,14 +37,14 @@ presets:
     # -> for each missed volume in ~/.flexget/exists_series/folder[0|1|2|...]
     adv_exec:
       on_start:
-        event: ~/.flexget/manage_exists_series.sh
+        event: /Users/flexget/.flexget/manage_exists_series.sh
     # configuration of exists_series parameter
     # -> check each accepted entry in the feed against these folders of series
     # -> if the item exists in one of the folders, it wouldn't be dowloaded again.
     exists_series:
-      - ~/.flexget/exists_series/folder0
-      - ~/.flexget/exists_series/folder1
-      - ~/.flexget/exists_series/folder2
+      - /Users/flexget/.flexget/exists_series/folder0
+      - /Users/flexget/.flexget/exists_series/folder1
+      - /Users/flexget/.flexget/exists_series/folder2
     # configuration of series parameters
     # -> this lists represents my series I would automaticly downlaoded via transmission
     series:
@@ -71,6 +71,8 @@ presets:
 }}}
 
 = config.yml > feeds: =
+Thanks to user gazpachoking and his patch in r1367 we can now use [wiki:Plugins/set Plugin/set] to set the path for each entry in feed manage-series and manage-series-remote.
+
 {{{
 feeds:
   EZTV:
@@ -156,12 +158,14 @@ feeds:
           format: 'share'
     # for each accepted and rejected video file we open a ssh connection and move
     # the downloaded file from the completed torrent directory to the destination
-	# Please note: you must connect to the remote host without a password!
-	#              use a public key instead!
+    # Please note: you must connect to the remote host without a password!
+    #              use a public key instead!
+    set:
+      path: /share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d
     adv_exec:
       on_output:
-        for_accepted: ssh root@<host or ip address> 'mkdir -p "/share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d/"; mv "%(location)s" "/share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d/%(title)s"'
-        for_rejected: ssh root@<host or ip address> 'mkdir -p "/share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d/"; mv "%(location)s" "/share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d/%(title)s"'
+        for_rejected: ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"'
+        for_entries:  ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"'
     # please send no email with the result so deactivate this function from the preset
     email:
       active: False
@@ -169,7 +173,7 @@ feeds:
   manage-series:
     # use as the feed input a local directory where my series are located
     listdir:
-      - ~/Downloads/_Torrents/complete/
+      - /Users/flexget/Downloads/_Torrents/complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
     disable_builtins: [seen]
@@ -191,12 +195,14 @@ feeds:
       - Two and a Half Men
       - V
       - Warehouse 13
+    set:
+      path: /Users/flexget/Movies/Series/%(series_name)s/Season %(series_season)02d
     # for each accepted and rejected video file we open a ssh connection and move
     # the downloaded file from the completed torrent directory to the destination
     adv_exec:
       on_output:
-        for_accepted: mkdir -p '~/Movies/Series/%(series_name)s/Season %(series_season)02d/' ; mv '%(location)s' '~/Movies/Series/%(series_name)s/Season %(series_season)02d/%(title)s'
-        for_rejected: mkdir -p '~/Movies/Series/%(series_name)s/Season %(series_season)02d/' ; mv '%(location)s' '~/Movies/Series/%(series_name)s/Season %(series_season)02d/%(title)s'
+        for_entries:  mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
+        for_rejected: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
     # please send no email with the result so deactivate this function from the preset
     email:
       active: False
@@ -210,9 +216,9 @@ Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Pl
 {{{
 #!/bin/sh
 
-EXISTS_SERIES="~/.flexget/exists_series"
+EXISTS_SERIES="/Users/flexget/.flexget/exists_series"
 VOLUMES=(
-"~/Movies/Series/"
+"/Users/flexget/Movies/Series/"
 "/Volumes/media.video/TV-Series/"
 "/Volumes/My Book Media/00 Series/"
 )
