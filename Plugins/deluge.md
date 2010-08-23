@@ -114,4 +114,5 @@ The Deluge Windows installer does not install deluge or it's dependencies to the
 Here are a list of dependencies you probably need to install:
  - Twisted, Zope.Interface, and pyopenssl can be found at the [http://twistedmatrix.com/trac/wiki/Downloads twisted download page].
  - pywin32 can be found [http://sourceforge.net/projects/pywin32/files/ here.]
- - pyxdg can be installed using the command 'easy_install !http://www.freedesktop.org/~lanius/pyxdg-0.18.tar.gz' (pyxdg will not be necessary after deluge 1.3rc2) 
+ - pyxdg can be installed using the command 'easy_install !http://www.freedesktop.org/~lanius/pyxdg-0.18.tar.gz' (pyxdg will not be necessary after deluge 1.3rc2)
+ - chardet can be installed with 'easy_install chardet'
