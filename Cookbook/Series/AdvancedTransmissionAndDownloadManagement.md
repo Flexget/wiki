@@ -198,6 +198,10 @@ feeds:
       active: False
 }}}
 
+Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Plugins/transmissionrpc transmissionrpc], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
+
+[wiki:Cookbook Back to The Cookbook]
+
 = helper script: manage_exists_series.sh =
 {{{
 #!/bin/sh
@@ -221,3 +225,5 @@ for i in ${!VOLUMES[@]}; do
     fi
 done
 }}}
+
+[wiki:Cookbook Back to The Cookbook]
