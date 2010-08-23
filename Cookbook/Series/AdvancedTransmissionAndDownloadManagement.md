@@ -197,3 +197,27 @@ feeds:
     email:
       active: False
 }}}
+
+= helper script: manage_exists_series.sh =
+{{{
+#!/bin/sh
+
+EXISTS_SERIES="~/.flexget/exists_series"
+VOLUMES=(
+"~/Movies/Series/"
+"/Volumes/media.video/TV-Series/"
+"/Volumes/My Book Media/00 Series/"
+)
+
+rm -rf "$EXISTS_SERIES/"
+mkdir -p "$EXISTS_SERIES/"
+
+for i in ${!VOLUMES[@]}; do
+    VOLUME=${VOLUMES[$i]}
+    if [ -d "$VOLUME" ]; then
+        ln -s "$VOLUME" "$EXISTS_SERIES/folder$i"
+    else
+        mkdir -p "$EXISTS_SERIES/folder$i"
+    fi
+done
+}}}
