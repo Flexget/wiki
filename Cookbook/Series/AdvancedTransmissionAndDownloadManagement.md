@@ -1,4 +1,5 @@
-= Using transmission plugin =
+
+= config.yml > presets: =
 {{{
 presets:
   global:
@@ -67,7 +68,10 @@ presets:
     # -> I don't need the 720p files > 1 GB in size
     # -> so I defined HDTV as my preferred quality
     quality: hdtv
+}}}
 
+= config.yml > feeds: =
+{{{
 feeds:
   EZTV:
     rss: <feed url>
