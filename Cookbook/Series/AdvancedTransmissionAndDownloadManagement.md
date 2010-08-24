@@ -1,5 +1,8 @@
+== Download series with transmission (advanced) ==
 
-= config.yml > presets: =
+
+
+'''config.yml''' - preset section:
 {{{
 presets:
   global:
@@ -70,7 +73,8 @@ presets:
     quality: hdtv
 }}}
 
-= config.yml > feeds: =
+'''config.yml''' - feeds section:
+
 Thanks to user gazpachoking and his patch in r1367 we can now use [wiki:Plugins/set Plugin/set] to set the path for each entry in feed manage-series and manage-series-remote.
 
 {{{
@@ -210,9 +214,12 @@ feeds:
 
 Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Plugins/transmissionrpc transmissionrpc], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
 
+[wiki:Cookbook/Series Back to The Cookbook/Series]
+
 [wiki:Cookbook Back to The Cookbook]
 
-= helper script: manage_exists_series.sh =
+== referenced helper script(s) in config.yml ==
+'''manage_exists_series.sh''':
 {{{
 #!/bin/sh
 
@@ -235,5 +242,7 @@ for i in ${!VOLUMES[@]}; do
     fi
 done
 }}}
+
+[wiki:Cookbook/Series Back to The Cookbook/Series]
 
 [wiki:Cookbook Back to The Cookbook]
