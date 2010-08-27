@@ -39,6 +39,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||torrent||modify_torrent||When entry is a torrent this contains [wiki:TorrentObject Torrent class]||
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
+||location||[wiki:Plugins/listdir listdir]||The local filename of the entry.||
 
 ^* = and other plugins that utilize this plugin^
 
