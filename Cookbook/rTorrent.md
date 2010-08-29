@@ -73,7 +73,7 @@ system.method.set_key = event.download.erased,rm_incomplete,"branch=d.get_custom
 
 === !FlexGet setup ===
 
-This configuration is just an simple example, see other recipes for more inspiration.
+This configuration is just a simple example, see other recipes for more inspiration.
 
 {{{
 feeds:
