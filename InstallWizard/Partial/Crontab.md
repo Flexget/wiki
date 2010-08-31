@@ -2,7 +2,19 @@
 
 Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.  The SQLite database file will get created in the same directory with the configuration file, so please make sure the user executing flexget has write access to that path.
 
-!FlexGet is designed to be executed from user crontab (daemon mode later perhaps).
+!FlexGet is designed to be executed from user crontab (daemon mode coming later).
+
+=== Detemine full path to executable ===
+
+To determine where !FlexGet command resides run:
+
+{{{
+which flexget
+}}}
+
+Example output: `/usr/local/bin/flexget`. This may be different in your environment!
+
+=== Edit crontab ===
 
 To change default editor for crontab, you can use command:
 
@@ -11,14 +23,6 @@ export EDITOR=nano
 }}}
 
 ^You may wish to add this into your ~/.bashrc so it will be always the default editor^
-
-To determine full path for !FlexGet run:
-
-{{{
-which flexget
-}}}
-
-Example output: '''/usr/local/bin/flexget'''. This may be different in your environment!
 
 To edit user crontab execute command (Note: [https://help.ubuntu.com/community/CronHowto#Enable%20User%20Level%20Cron ubuntu]):
 
