@@ -10,7 +10,7 @@ This wizard guides you trough installing !FlexGet.
  * [wiki:InstallWizard/Linux Linux / BSD]
  * [wiki:InstallWizard/OSX Mac OSX]
 
-== Hardware specific instructions ==
+=== Hardware specific instructions ===
 
  * [wiki:InstallWizard/Plugbox Plugbox]
  * [wiki:InstallWizard/ReadyNAS ReadyNAS]
