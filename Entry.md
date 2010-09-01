@@ -1,9 +1,9 @@
 = Entry =
 
-Entry represent a single item created by input(s), usually a downloadable content.
+Entry represents a single item created by input(s), usually a downloadable content.
 It contains all the information necessary for [wiki:Plugins plugins] to perform their job.
 
-For example [wiki:Plugins/regexp regexp] plugin checks if given regular expression matches entries '''title''' or '''url''' and acts accordingly.
+For example, the [wiki:Plugins/regexp regexp] plugin checks whether the given regular expression matches the entry's '''title''' or '''url''' and acts accordingly.
 
 '''Example of an entry:'''
 
