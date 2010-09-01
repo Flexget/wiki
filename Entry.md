@@ -7,9 +7,12 @@ For example [wiki:Plugins/regexp regexp] plugin checks if given regular expressi
 
 '''Example of an entry:'''
 
+These are mandatory fields
+
 ||'''Name'''||'''Value'''||
 ||title||Some.Awesome.Series.S01E01.XviD-Foo||
 ||url||!http://site.com/download/Some.Awesome.Series.S01E01.XviD-Foo.torrent||
+||id||4be9694b5408e5d69a20ab2c0841edbf||
 
 == Known fields ==
 
@@ -17,6 +20,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 
 ||'''Name'''||'''Created by'''||'''Description'''||
 ||path||||Path where this entry content should be saved||
+||description||[wiki:Plugins/rss rss]||Item description||
 ||feed||metadata_feed||Feed name which this entry belongs to||
 ||quality||metadata_quality||Detected quality, ie. `720p`||
 ||series_name||[wiki:Plugins/series series]||Series name||
