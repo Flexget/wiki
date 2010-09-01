@@ -20,6 +20,7 @@ URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlr
  * Mininova
  * Demonoid
  * Redskunk
+ * Torrentz
 
 === Custom rewriting with regexp ===
 
