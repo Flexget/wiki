@@ -24,3 +24,19 @@ to:
 {{{
 http://imaginary.org/download/1234/test.torrent
 }}}
+
+== Escaping ==
+
+Few regexp characters absolutely need to be escaped with `\` (in context of urls). At least + and ? metacharacters.
+
+'''Example'''
+
+{{{
+http://example.com/?id=1234
+}}}
+
+should be
+
+{{{
+http://example.com/\?id=(?P<id>\d+)
+}}}
