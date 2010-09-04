@@ -21,6 +21,7 @@ URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlr
  * Demonoid
  * Redskunk
  * Torrentz
+ * BakaBT
 
 === Custom rewriting with regexp ===
 
