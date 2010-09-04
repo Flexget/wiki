@@ -1,5 +1,5 @@
 = Using download plugin =
-This recipe uses the series plugin to download torrents from an rss feed to a specefied path.
+This recipe uses the series plugin to download torrents from an rss feed to a specified path.
 {{{
 feeds:
   feed_name:
