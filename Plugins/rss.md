@@ -43,6 +43,19 @@ rss:
   silent: True
 }}}
 
+If the feed has several links by item, you can set the "group links" value to True. This way, only one entry will be generated for the item, with all links attached to it.
+Links are enclosures plus item fields given by the "link" value, in that order.
+
+The download plugin will then try to download each link until one works.
+
+=== Example ===
+
+{{{
+rss:
+  url: <url>
+  group links: True
+}}}
+
 == Convert to ASCII ==
 
 Some feeds contain unicode characters which may cause problems. To force these into ASCII you set:
