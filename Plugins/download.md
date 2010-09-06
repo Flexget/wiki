@@ -27,6 +27,11 @@ download: ~/torrents/
 This results that entries matching patterns 1 and 2 are saved into
 ~/torrents/ and pattern3 is saved to ~/another_location/.
 
+'''Multiple urls'''
+
+Some plugins (currently only [wiki:Plugins/rss rss], see "group link" value) can store multiple urls, to be tolerant to broken urls. If several urls are available, they will be tried sequentially until one works.
+
+
 '''Advanced Options'''
 
 There are a couple of advanced options that can be specefied in this form:
