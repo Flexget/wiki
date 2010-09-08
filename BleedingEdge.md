@@ -6,6 +6,10 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 8.9.2010 r1395 (d.m.yyyy) ==
+
+Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Now accepts a list of single item dicts, see plugin page for details.
+
 == 20.8.2010 r1372 (d.m.yyyy) ==
 
 Database schema changes. Please run:
