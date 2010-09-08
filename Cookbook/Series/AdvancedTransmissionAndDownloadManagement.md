@@ -156,10 +156,10 @@ feeds:
     # -> my volumes are locally mounted under /Volumes/...
     # -> and on my remote storage hdd they are located in /share/...
     manipulate:
-      location:
-        replace:
-          regexp: 'Volumes'
-          format: 'share'
+      - location:
+          replace:
+            regexp: 'Volumes'
+            format: 'share'
     # for each accepted and rejected video file we open a ssh connection and move
     # the downloaded file from the completed torrent directory to the destination
     # Please note: you must connect to the remote host without a password!
