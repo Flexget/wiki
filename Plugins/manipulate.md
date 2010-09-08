@@ -8,12 +8,12 @@ Syntax:
 
 {{{
 manipulate:
-  <destination field>:
-    [from]: <source field>
-    [extract]: <regexp>
-    [replace]:
-      regexp: <regexp>
-      format: <regexp>
+  - <destination field>:
+      [from]: <source field>
+      [extract]: <regexp>
+      [replace]:
+        regexp: <regexp>
+        format: <regexp>
 }}}
 
 === Example 1 ===
@@ -30,8 +30,8 @@ This could be fixed by removing the [48952]
 
 {{{
 manipulate:
-  title:
-    extract: \[\d\d\d\d\](.*)
+  - title:
+      extract: \[\d\d\d\d\](.*)
 }}}
 
 Regexp can return any number of groups, value is combination of these (separated with a space).
@@ -42,8 +42,8 @@ Some badly written site has invalid URLs. Uses &amp; instead of &
 
 {{{
 manipulate:
-  url:
-    replace:
-      regexp: '&amp;'
-      format: '&'
+  - url:
+      replace:
+        regexp: '&amp;'
+        format: '&'
 }}}
