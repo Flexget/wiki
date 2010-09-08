@@ -8,11 +8,11 @@ feeds:
       - Series One
       - Series Two
     manipulate:
-      label:
-        from: series_name
-        replace:
-          regexp: ' '
-          format: '_'
+      - label:
+          from: series_name
+          replace:
+            regexp: ' '
+            format: '_'
     plugin_priority:
       manipulate: 0
     deluge: yes
