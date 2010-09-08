@@ -25,8 +25,8 @@ feeds:
         regexp: http://nzbclub.com/nzb_view.aspx
         format: http://nzbclub.com/nzb_download.aspx
     manipulate:                                                  # remove all crap from the title
-      title:
-        extract: .*\[\s*(.*)\s*\]-.*
+      - title:
+          extract: .*\[\s*(.*)\s*\]-.*
     set:                                                         # prevent content-disposition being used, causing filename to fallback to (now clean) title
       content-disposition: no
 }}}
