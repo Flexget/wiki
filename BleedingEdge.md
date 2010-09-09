@@ -8,7 +8,7 @@ In future (after official 1.0 release) manual tweaking should not be needed anym
 
 == 8.9.2010 r1395 (d.m.yyyy) ==
 
-Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Now accepts a list of single item dicts, see plugin page for details.
+Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Now accepts a list of single item dicts, see plugin page for details. ([wiki:Cookbook/Series/DelugeSeriesLabel?action=diff&version=3 example config diff])
 
 == 20.8.2010 r1372 (d.m.yyyy) ==
 
