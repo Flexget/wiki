@@ -47,3 +47,19 @@ manipulate:
         regexp: '&amp;'
         format: '&'
 }}}
+
+=== Example 3 ===
+
+You can do multiple manipulates in a row, and they will be executed in order. You can also do multiple manipulates on the same field.
+
+{{{
+manipulate:
+  - title:
+      extract: .*\[\s*(.*)\s*\]-.*
+  - filename:
+      from: title
+  - title:
+      replace:            
+        regexp: '[\.-]'
+        format: ' '
+}}}
