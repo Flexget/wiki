@@ -15,3 +15,4 @@ This wizard guides you trough installing !FlexGet.
  * [wiki:InstallWizard/Plugbox Plugbox]
  * [wiki:InstallWizard/ReadyNAS ReadyNAS]
  * [wiki:InstallWizard/SynologyNAS SynologyNAS]
+ * [wiki:InstallWizard/QNAP QNAP NAS]
