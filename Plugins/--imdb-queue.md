@@ -7,7 +7,7 @@ You need to manually add movies to the queue from the commandline.
 === Usage ===
 
 {{{
-flexget --imdb-queue (add|del|list) [IMDB_URL] [QUALITY]
+flexget --imdb-queue (add|del|list) [IMDB_URL|NAME] [QUALITY] [FORCE]
 }}}
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
