@@ -48,6 +48,8 @@ manipulate:
         format: '&'
 }}}
 
+Starting from r1420 these are fixed automatically by [wiki:Plugins/urlfix urlfix] plugin.
+
 === Example 3 ===
 
 You can do multiple manipulates in a row, and they will be executed in order. You can also do multiple manipulates on the same field.
