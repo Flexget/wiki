@@ -68,3 +68,17 @@ Other possible values are: `auto` ''(default)'', `url`, `title` and `link`.
 == Titles are gibberish ==
 
 In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers ..
+
+== Basic Authentication ==
+
+This plugin supports baisic authentication, it can be specified in the url:
+{{{
+html: http://username:password@url.com
+}}}
+Or as parameters:
+{{{
+html:
+  url: <url>
+  username: <username>
+  password: <password>
+}}}
