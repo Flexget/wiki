@@ -1,4 +1,3 @@
-
 == Complete rTorrent example ==
 
 This is a complete example for hooking up rTorrent with !FlexGet for automatic downloads. This setup will download releases automatically and seed them until the given percentage (here 300%) and then stop seeding. This is important to keep the torrent alive but still avoid overloading your connection. If you delete the torrent from rTorrent the incomplete data is deleted and the torrent directory is cleaned.
@@ -90,7 +89,7 @@ feeds:
 You need to setup a proper crontab entries and start rTorrent to make the magic happen. Setting up crontab is done by running the command {{{crontab -e}}} and adding this line:
 
 {{{
-23 */2 * * * /path/to/flexget/flexget.py -q
+23 */2 * * * /path/to/flexget/flexget.py --cron
 }}}
 
 This will cause !FlexGet to be run twice a day 23 minutes past the hour (00:23 and 12:23), to adjust this read the crontab manual. Also please try to understand the effects of your changes and study the [wiki:Plugins/interval interval] module before you make any changes.
