@@ -65,3 +65,15 @@ manipulate:
         regexp: '[\.-]'
         format: ' '
 }}}
+
+=== Example 4 ===
+
+You can control how the regex hits are output using \1, \2, etc in format.
+
+{{{
+manipulate:
+  - title:
+      replace:            
+        regexp: '(.*)/(.*)/(.*)'
+        format: '\2.\1.\3'
+}}}
