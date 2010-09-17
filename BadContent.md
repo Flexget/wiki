@@ -343,7 +343,7 @@ pharmacy
 (?i)Pheromones
 (?i)homebrew
 (?i)nazdar
-(?i)(men|women|d.g).{1,4}(show|shoe|watche?)s?
+(?i)(men|women|d.g).{1,4}(show|shoe|watche?|wedding)s?
 (?i)absinthe
 (?i)aloha
 (?i)e.cig
