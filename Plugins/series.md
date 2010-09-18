@@ -38,6 +38,62 @@ Only one of them is downloaded, with default configuration best quality is chose
  * !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
  * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. Use the most common form and add `name_regexps` that contains all forms!
 
+= Settings =
+The series plugin supports a number of settings to customize it's behavior. All settings can be applied in either of the following formats.
+==== Per series settings ====
+
+When specifying a setting for a series, you must add a colon to the end of the series name, and add 4 more spaces before the setting name:
+{{{
+series:
+  - series name:
+      [setting]: [value]
+}}}
+For example, with [wiki:Plugins/series#Quality quality] settings:
+{{{
+series:
+  - Series 1
+  - Series 2:
+      quality: hdtv
+  - Series 3:
+      quality: 720p
+}}}
+==== Group settings ====
+
+Many times, you will want to apply a setting to more than one show at once. In this instance, you can use a more advanced config format, to define groups, and settings that apply to the whole group.
+{{{
+series:
+  [settings]:
+    [group name]:
+      [setting]: [value]
+  [group name]:
+    - first series
+    - second series
+}}}
+An example, setting [wiki:Plugins/series#Propers propers] for ''group 1'':
+{{{
+series:
+  settings:
+    group 1:
+      propers: 3 days
+  group 1:
+    - Series 1
+    - Series 2
+  720p:
+    - Series 3
+    - Series 4:
+        quality: 1080p
+  normal:
+    - Series 5
+}}}
+Notes:
+
+ * The names of the groups are arbitrary, so you can pick whatever you want.[[BR]]
+ In this example ''normal'' is just a group without any options.
+ * If a group name is a quality, it will automatically have that as a quality.[[BR]]
+ In this example ''Series 3'' has it's quality set to 720p, because 720p is a [wiki:Plugins/quality#KnownQualities known quality name.]
+ * Series may override any settings specified in group settings.[[BR]]
+ In this example ''Series 4'' overrides the quality setting of it's group with 1080p.
+----
 == Quality ==
 
 ||'''Name'''||'''Description'''||
@@ -140,46 +196,6 @@ download: ~/download/
 Series {{{another series, third series}}} will be downloaded into {{{~/downloads}}}. However {{{some series}}} has overridden path and will be downloaded into {{{~/downloads/some_series/}}}.
 
 It's also possible to set path globally from series name with [wiki:Plugins/set set] plugin, see [wiki:Cookbook/SetPath this recipe].
-
-== Group settings ==
-
-''TODO: improve documentation''
-
-Create series groups which have certain settings for all series in it. This saves you the trouble of specifying some options repeatedly.
-
-'''Syntax:'''
-
-{{{
-series:
-  [settings]:
-    [group name]:
-      [setting]: [value]
-  [group name]:
-    - first series
-    - second series
-}}}
-
-'''Example:'''
-
-{{{
-series:
-  settings:
-    720p:
-      timeframe: 12 hours
-      quality: 720p
-      propers: 3 days
-
-  720p:
-    - series name
-  normal:
-    - another series
-}}}
-
-Notes:
-
- * In this example ''normal'' is just a group without any options.
- * Series may override any settings specified in group settings.
- * If a group name is a quality, it will automatically have that as a quality.
 
 == Exact mode ==
 
