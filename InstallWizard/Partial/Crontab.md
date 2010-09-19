@@ -16,6 +16,8 @@ Example output: `/usr/local/bin/flexget`. This may be different in your environm
 
 === Edit crontab ===
 
+!FlexGet is meant to be executed from users own crontab, '''not''' from /etc/crontab (root). Although this is possible it is highly discouraged.
+
 To change default editor for crontab, you can use command:
 
 {{{
