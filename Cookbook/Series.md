@@ -22,4 +22,14 @@
 
 ''NZB Feeds''
 
- * http://www.tvnzb.com/tvnzb_new.rss
+ * [http://www.nzbs.org/ www.nzbs.org] (See footnote^1^)
+ * ~~http://www.tvnzb.com/tvnzb_new.rss~~ (See footnote^2^)
+
+'''Footnotes'''
+
+ 1. The RSS URL for '''www.nzbs.org''' needs authentication data.[[BR]]
+ First you need to [http://nzbs.org/user.php?action=register register] with the site.[[BR]]
+ Then follow these [http://nzbs.org/index.php?action=rss instructions].[[BR]]
+ Example: !http://nzbs.org/rss.php?type=1&i=<uid>&h=<hash>&num=100&dl=1[[BR]]
+ Both the '''i''' and '''h''' values are required and account-specific.[[BR]] 
+ 2. '''DEAD.'''  Their DNS was hijacked.
