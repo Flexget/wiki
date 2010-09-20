@@ -356,4 +356,12 @@ pharmacy
 (?i)http://igbpjmkqeaur.com
 (?i)http://nmbdophnemxw.com
 (?i)http://nxclvnzlmkfj.com
+(?i)golfgamesnow
+(?i)minigolfgamesnow
+(?i)fenderfatstrat
+(?i)surfinggamesnow
+(?i)flyinggamesnow
+(?i)find-lyrics
+(?i)skiinggamesnow
+(?i)onicgamesnow
 }}}
