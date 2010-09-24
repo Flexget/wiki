@@ -113,6 +113,7 @@ Execute operation(s) to accepted entries.
 ||[wiki:Plugins/search search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
+||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
 == Command line plugins ==
