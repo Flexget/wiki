@@ -364,4 +364,5 @@ pharmacy
 (?i)find-lyrics
 (?i)skiinggamesnow
 (?i)onicgamesnow
+(?i)Crohn.*Disease
 }}}
