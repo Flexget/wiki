@@ -33,7 +33,6 @@
    * [wiki:PitFalls Common pitfalls]
  * '''[wiki:Cookbook The Cookbook]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
- * '''[wiki:Modules Plugins] (0.9.x)'''
 
 [wiki:NeedHelp Having problems? Help is near!]
 
