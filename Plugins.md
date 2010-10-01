@@ -43,6 +43,7 @@ This makes examples more compact and reduces unnecessary boilerplate.
 Produce [wiki:Entry entries] from external source.
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
