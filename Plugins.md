@@ -93,6 +93,7 @@ Execute operation(s) to accepted entries.
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/add_trackers add_trackers]||'''{{{NEW}}}'''  Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{NEW}}}'''  Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/adv_exec adv_exec]||'''{{{NEW}}}'''  Highly customizable exec plugin.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
