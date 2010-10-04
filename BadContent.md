@@ -365,4 +365,5 @@ pharmacy
 (?i)skiinggamesnow
 (?i)onicgamesnow
 (?i)Crohn.*Disease
+(?i)http.*facelift
 }}}
