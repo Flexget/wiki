@@ -366,4 +366,5 @@ pharmacy
 (?i)onicgamesnow
 (?i)Crohn.*Disease
 (?i)http.*facelift
+(&#\d{4};){5}
 }}}
