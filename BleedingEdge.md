@@ -6,6 +6,18 @@ If {{{sqlite3}}} command is not available, try installing relevant packages (ie.
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 7.10.2010 r1486 (d.m.yyyy) ==
+
+The manipulate plugin now has a parameter for what event the manipulate should be run in. The default event to run on has also been changed from the filter event to the metainfo event. If this causes issues with how you use manipulate, you can specify 'event: filter' for your manipulates to restore the old behavior. This is how the event setting should be defined:
+{{{
+manipulate:
+  - series_name:
+      event: filter
+      replace:
+        regexp: ' '
+        format: '.'
+}}}
+
 == 8.9.2010 r1395 (d.m.yyyy) ==
 
 Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Now accepts a list of single item dicts, see plugin page for details. ([wiki:Cookbook/Series/DelugeSeriesLabel?action=diff&version=3 example config diff])
