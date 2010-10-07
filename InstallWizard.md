@@ -1,6 +1,6 @@
 = Installation Tutorial =
 
-This wizard guides you trough installing !FlexGet.
+This wizard guides you through installing !FlexGet.
 
 ''Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated! ''
 
