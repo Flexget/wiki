@@ -6,7 +6,7 @@
 
 See [http://forum.synology.com/enu/viewtopic.php?f=39&t=13473] for details of how to setup scheduling for users other than root.
 
-Add a new user, crontab. As root, create a file named 'crontab' in crontab's home directory containing:
+Create a new user, crontab. As root, create a file named 'crontab' in crontab's home directory containing:
 {{{
 @hourly crontab /path/to/flexget --cron
 }}}
