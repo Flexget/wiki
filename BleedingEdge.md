@@ -11,8 +11,9 @@ In future (after official 1.0 release) manual tweaking should not be needed anym
 The manipulate plugin now has a parameter for what event the manipulate should be run in. The default event to run on has also been changed from the filter event to the metainfo event. If this causes issues with how you use manipulate, you can specify 'event: filter' for your manipulates to restore the old behavior. This is how the event setting should be defined:
 {{{
 manipulate:
-  - series_name:
+  - series_name_dots:
       event: filter
+      from: series_name
       replace:
         regexp: ' '
         format: '.'
