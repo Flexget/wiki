@@ -9,6 +9,7 @@ Syntax:
 {{{
 manipulate:
   - <destination field>:
+      [event]: <event>
       [from]: <source field>
       [extract]: <regexp>
       [replace]:
