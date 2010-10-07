@@ -32,7 +32,7 @@ In the following steps, replace /path/to/flexget with the actual path on your sy
 Run command:
 
 {{{
-/path/to/flexget -version
+/path/to/flexget --version
 }}}
 
 !FlexGet should display it's version number.
