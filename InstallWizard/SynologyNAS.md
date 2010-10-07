@@ -36,7 +36,7 @@ ipkg install sqlite
 
 == Transmission ==
 
-If you wish to use the Transmission BitTorrent client (recommended) instead of the built-in client then follow the instructions at:
+If you wish to use the Transmission !BitTorrent client (recommended) instead of the built-in client then follow the instructions at:
 
 {{{
 [http://forum.synology.com/wiki/index.php/Transmission_HowTo]
