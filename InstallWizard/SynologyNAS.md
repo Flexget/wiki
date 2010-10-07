@@ -1,6 +1,6 @@
-= Set up environment =
-
 ''These instruction were written from memory some time after successfully installing !FlexGet on a Synology DS210j. If any packages fail to install then check the output messages for missing dependencies, version numbers, etc, and install the required packages. If you install !FlexGet following these instructions then please correct any errors, add missing information and delete this paragraph.''
+
+= Set up environment =
 
 You will need to be logged into the Synology NAS as root to install packages.
 
