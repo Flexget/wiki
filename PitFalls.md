@@ -55,3 +55,23 @@ Two possibilities, you're not receiving RSS feed for some reason (ie. must be lo
 Check that you have working mail system so you receive errors occur during crontab execution.
 
 ''Feel free to add more''
+
+== Error in the cookie files ==
+
+If you get an error like: 
+
+{{{
+/usr/lib/python2.6/_MozillaCookieJar.py:109: UserWarning: cookielib bug!
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/_MozillaCookieJar.py", line 82, in _really_load
+    assert domain_specified == initial_dot
+AssertionError
+
+  _warn_unhandled_exception()
+}}}
+
+And you know your Netscape cookie file is properly formatted, but you just can't get it to work, try rewriting the cookie file with curl:
+
+{{{
+curl -b oldcookiefile.txt --cookie-jar newcookiefile.txt http://url
+}}}
