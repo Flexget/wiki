@@ -40,7 +40,7 @@
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:BleedingEdge Bleeding edge news] | [wiki:MigrateTo10 How to migrate 0.9.x to 1.0]
+[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:UpgradeActions Upgrade actions]
 
 = Introduction =
 
