@@ -1,5 +1,7 @@
 = Required upgrading actions =
 
+Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
+
 If {{{sqlite3}}} command is not available, try installing relevant packages (ie. apt-get install sqlite3). In windows you might want to take a look at [http://sqliteman.com/ sqliteman] for executing SQL statements. If all else fail deleting the database and running {{{--learn}}} will fix it but may cause some older items to be re-downloaded if they appear in the feed(s) again.
 
 Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` file is located (eg. ~/.flexget).
