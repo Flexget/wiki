@@ -17,6 +17,7 @@ manipulate:
         format: <regexp>
 }}}
 
+Valid values for event are: metainfo and filter, metainfo is the default behaviour and filter is the old behaviour of build r1395
 === Example 1 ===
 
 Title is filled with garbage that series plugin does not like.
