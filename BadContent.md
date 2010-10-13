@@ -366,5 +366,7 @@ pharmacy
 (?i)onicgamesnow
 (?i)Crohn.*Disease
 (?i)http.*facelift
+(?i)cyberblogging
+(?i)hair.removal
 (&#\d{4};){5}
 }}}
