@@ -368,5 +368,6 @@ pharmacy
 (?i)http.*facelift
 (?i)cyberblogging
 (?i)hair.removal
+(?i)fielddressed
 (&#\d{4};){5}
 }}}
