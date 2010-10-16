@@ -2,11 +2,11 @@
 
 == Set up environment ==
 
-If you already have '''Python 2.6.x''' and '''easy_install''', you can continue to next step.
+If you already have '''Python 2.5.x - 2.7.x''' and '''easy_install''', you can continue to next step.
 
 === Install Python ===
 
-Install latest '''Python 2.6.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
+Install latest '''Python 2.7.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
 
 === Install easy_install ===
 
