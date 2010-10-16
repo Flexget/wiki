@@ -10,7 +10,7 @@ Save it somewhere temporarily, let's say `c:\tmp\`
 
 === Install ===
 
-Run command:
+Run command (shortcut windows key + r):
 
 {{{
 easy_install c:\tmp\<downloaded egg>
