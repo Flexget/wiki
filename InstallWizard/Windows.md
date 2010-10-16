@@ -14,7 +14,7 @@ Install latest '''Python 2.7.x''' from [http://python.org/download/ python.org].
 
 http://pypi.python.org/pypi/setuptools#downloads
 
-'''Note:''' If you're running 64-bit windows the installer fill not work. You will need to download [http://peak.telecommunity.com/dist/ez_setup.py ez_setup.py] and run that. This will place the easy_install executable in c:\Python2X\Scripts\.
+'''Note:''' If you're running 64-bit windows the installer may not work. You will need to download [http://peak.telecommunity.com/dist/ez_setup.py ez_setup.py] and run that. This will place the easy_install executable in c:\Python2X\Scripts\.
 
 Since this will not put easy_install in your [http://en.wikipedia.org/wiki/Environment_variable#System_path_variables PATH] environment variable you will have either add it there or use full path to the command (meaning c:\Python2X\Scripts\easy_install instead of easy_install).
 
