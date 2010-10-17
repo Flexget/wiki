@@ -369,5 +369,6 @@ pharmacy
 (?i)cyberblogging
 (?i)hair.removal
 (?i)fielddressed
+(?i)blackjack
 (&#\d{4};){5}
 }}}
