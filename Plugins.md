@@ -63,17 +63,16 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 ||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/exists_series exists_series]||Reject entries based on existing series in filesystem.||
+||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_rated imdb_rated]||Reject movies you've already voted on imdb.||
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
-||[wiki:Plugins/nzb_size nzb_size]||'''{{{DEPRECATED}}}'''  Reject nzb's that do not meet size requirements.||
 ||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||Accept TV-serie episodes. Quality and episode number aware.||
-||[wiki:Plugins/torrent_size torrent_size]||'''{{{DEPRECATED}}}''' Reject torrents that do not meet size requirements.||
 
 == Outputs ==
 
