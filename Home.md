@@ -8,28 +8,6 @@
 {{{
 #!html
 <h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
-<div style="float: right">
-
-<font size="1" width=20px>Support my pizza addiction :)</font> 
-<div style="text-align: center">
-
-<div>
-<a class="FlattrButton" style="display:none;"
-href="http://flexget.com"></a>
-</div>
-
-<div>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="8984492">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
-
-</div>
-</div>
-
 }}}
 
 === Documentation ===
