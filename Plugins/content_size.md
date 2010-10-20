@@ -8,7 +8,7 @@ Allow specifying minimum and maximum sizes for contents such as torrents and nzb
 content_size:
   min: 12
   max: 1200
-  strict: false
+  strict: no
 }}}
 
 Size is given in MB
