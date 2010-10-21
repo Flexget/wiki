@@ -1,10 +1,23 @@
 = Installing !FlexGet on OSX =
 
-''TODO: Someone needs to write this ...''
-Until someone do, follow the Linux description.
+''TODO: Someone needs to write this neatly ...''
 
-OSX 10.5 uses python 2.5
-OSX 10.6 uses python 2.6
+== Installing with PIP ==
+
+''Unverified, but this should be the best way''
+
+http://py-pip.darwinports.com/
+
+after that you should be able to install !FlexGet simply with
+
+{{{
+py-pip install flexget
+}}}
+
+= Other / Deprecated =
+
+ * OSX 10.5 uses python 2.5
+ * OSX 10.6 uses python 2.6
 
 Easy install tools needs to be compiled.
 You can then use the InstallEggMac guide to get the dependencies, and install the egg.
@@ -26,3 +39,5 @@ You can then use the InstallEggMac guide to get the dependencies, and install th
 == Installing through Fink ==
 
 [http://www.finkproject.org/ Fink] has !FlexGet in unstable, as of 2010-07-24.  You should just need to run 'fink install flexget' with unstable enabled and it will install all dependencies.
+
+The version in fink seems to be quite old.
