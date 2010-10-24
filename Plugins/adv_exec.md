@@ -1,5 +1,7 @@
 = Advanced exec =
 
+'''As of r1552 adv_exec has become [wiki:Plugins/exec#AdvancedConfiguration exec plugin advanced configuration].'''
+
 Execute commands.
 
 '''Format:'''
