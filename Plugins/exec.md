@@ -32,7 +32,7 @@ Execute commands.
 '''Format:'''
 
 {{{
-adv_exec:
+exec:
   [ON_EVENT]:
     [event]: CMD
     [FOR_ENTRIES]: CMD
@@ -47,7 +47,7 @@ Available ''FOR_ENTRIES'': for_entries, for_accepted and for_rejected
 '''Example:'''
 
 {{{    
-adv_exec: 
+exec: 
   on_start: 
     event: echo "Started"
   on_input:
@@ -59,7 +59,7 @@ adv_exec:
 You can use all (available) entry fields in the command. If you would like an entry to fail if entry field is not available, you can set the fail_entries option to yes, like this:
 
 {{{
-adv_exec:
+exec:
   fail_entries: yes
   on_output: 
     for_accepted: echo 'accepted %(title)s - %(url)s' > file
