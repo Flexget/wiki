@@ -8,6 +8,10 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 24.10.2010 r1552 (d.m.yyyy) ==
+
+The [wiki:Plugins/exec exec] and [wiki:Plugins/adv_exec adv_exec] plugins have been merged. Both configuration formats are still accepted, so you only have to change 'adv_exec' to 'exec' in your config if you were using the adv_exec plugin.
+
 == 7.10.2010 r1486 (d.m.yyyy) ==
 
 The manipulate plugin now has a parameter for what event the manipulate should be run in. The default event to run on has also been changed from the filter event to the metainfo event. If this causes issues with how you use manipulate, you can specify 'event: filter' for your manipulates to restore the old behavior. This is how the event setting should be defined:
