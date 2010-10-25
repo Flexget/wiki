@@ -370,5 +370,7 @@ pharmacy
 (?i)hair.removal
 (?i)fielddressed
 (?i)blackjack
+(?i)mesothelioma
+(?i)asbestos
 (&#\d{4};){5}
 }}}
