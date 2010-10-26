@@ -1,32 +1,18 @@
 = Install Egg on windows =
 
-=== Download ===
-
-Download !FlexGet 1.0 package, make sure to choose correct Python version:
-
-[[Include(http://download.flexget.com/ui/download.php)]]
-
-Save it somewhere temporarily, let's say `c:\tmp\`
-
 === Install ===
 
 Run command (shortcut windows key + r):
 
 {{{
-easy_install c:\tmp\<downloaded egg>
-}}}
-
-Example:
-
-{{{
-easy_install c:\tmp\FlexGet-1.0r963-py2.5.egg
+easy_install flexget
 }}}
 
 This will install !FlexGet and all additional components it requires.
 
 === Verify installation ===
 
-Run command:
+Run command on prompt (cmd):
 
 {{{
 flexget -V
