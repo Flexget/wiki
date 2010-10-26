@@ -372,5 +372,6 @@ pharmacy
 (?i)blackjack
 (?i)mesothelioma
 (?i)asbestos
+(?i)household.?insurance
 (&#\d{4};){5}
 }}}
