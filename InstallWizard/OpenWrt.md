@@ -6,7 +6,7 @@ OpenWrt is described as a Linux distribution for embedded devices.
 
 == Python ==
 
-Python, !FlexGet and dependencies need ~7mb of free space:
+Python, !FlexGet and dependencies need ~7mb of free space. python-openssl is only necessary for https connections, python-expat for the nzb-plugin.
 
 {{{
 opkg install python
