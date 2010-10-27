@@ -12,7 +12,8 @@ This wizard guides you through installing !FlexGet.
 
 === Hardware specific instructions ===
 
+ * [wiki:InstallWizard/OpenWrt OpenWrt]
  * [wiki:InstallWizard/Plugbox Plugbox]
+ * [wiki:InstallWizard/QNAP QNAP NAS]
  * [wiki:InstallWizard/ReadyNAS ReadyNAS]
  * [wiki:InstallWizard/SynologyNAS SynologyNAS]
- * [wiki:InstallWizard/QNAP QNAP NAS]
