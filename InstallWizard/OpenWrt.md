@@ -11,6 +11,8 @@ Python, !FlexGet and dependencies need ~7mb of free space:
 {{{
 opkg install python
 opkg install python-sqlite3
+opkg install python-expat
+opkg install python-openssl
 opkg install pyyaml
 }}}
 
@@ -46,11 +48,6 @@ FlexGet 1.0r1565
 [wiki:InstallWizard/Linux/Environment/FlexGet/Scheduling Scheduling]
 
 == Notes ==
-
-I needed to disable prowl:
-{{{
-mv /usr/lib/python2.6/site-packages/FlexGet-1.0r1565-py2.6.egg/flexget/plugins/output_prowl* /tmp
-}}}
 
 dependencies which will be installed with easy_install:
 
