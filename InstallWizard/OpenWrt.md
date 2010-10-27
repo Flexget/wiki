@@ -11,6 +11,7 @@ Python, !FlexGet and dependencies need ~7mb of free space:
 {{{
 opkg install python
 opkg install python-sqlite3
+opkg install pyyaml
 }}}
 
 == easy_install ==
@@ -59,7 +60,6 @@ pynzb-0.1.0
 PyRSS2Gen-1.0.0
 html5lib-0.90
 BeautifulSoup-3.1.0.1
-PyYAML-3.09
 SQLAlchemy-0.6.5
 feedparser-4.1
 }}}
