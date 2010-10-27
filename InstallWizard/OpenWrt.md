@@ -1,4 +1,6 @@
 OpenWrt is described as a Linux distribution for embedded devices.
+[[BR]]
+[[BR]]
 
 = Set up environment =
 
@@ -38,7 +40,11 @@ Run command:
 FlexGet 1.0r1565
 }}}
 
-=== Notes ===
+== Continue ==
+
+[wiki:InstallWizard/Linux/Environment/FlexGet/Scheduling Scheduling]
+
+== Notes ==
 
 I needed to disable prowl:
 {{{
