@@ -19,6 +19,7 @@
 ''Torrent feeds''
 
  * http://rss.bt-chat.com/?group=3
+ * http://showrss.karmorra.info/feeds/all.rss
 
 ''NZB Feeds''
 
