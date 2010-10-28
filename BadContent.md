@@ -1,22 +1,14 @@
 Damn spammers ...
 
-All current spam content follows the pattern: <lowercase gibberish>, <url> <one or two keywords>, <mixed case gibberish>.
-
-This regex is an attempt to match it.
-
 {{{
-[a-z]+,[ ]+https?://+[\w\d:#@%/;$()~_?\+-=\\\.&]* [ \w]+, [a-zA-Z]+\.
-^[a-z]{18,}
-ringtone
 (?i)diethylpropion
 (?i)zelgetbasli
-www\.leddisplay\.net\.cn
-www\.LEDdisplay\.net\.cn
+(?i)leddisplay
 (?i)greatwall
 (?i)phentermine
 online.*casino
 online.*gambling
-quick-adult-links\.com
+(?i)quick-adult-links
 antyspam
 im fine, gl all!
 olnevhost.net
@@ -91,7 +83,6 @@ MESSAGE
 shahui
 aphp
 haolp
-\[http:[^]]*\]\s*\[http:[^]]*\]\s*\[http:[^]]*\]
 ionolsen\d+
 Cool Guest Book
 usfine.net
@@ -105,8 +96,8 @@ incest
 dildo
 mike18-movs.ifrance
 lazaridis
-http://www.torrentmania.info
-http://www.seed.pl
+torrentmania
+seed.pl
 makegamegold\.com
 wow gold
 spielkartenwelt
@@ -214,7 +205,6 @@ http://www.bestofindya.com
 (?i)virgin.*
 (?i)cheerleader
 (?i)your.site.is
-(?i).*viewtopic\.php.*
 (?i)http://.*/user
 (?i)free.*xx.*downloads
 (?i)free.*downloads
@@ -373,5 +363,4 @@ pharmacy
 (?i)mesothelioma
 (?i)asbestos
 (?i)household.?insurance
-(&#\d{4};){5}
 }}}
