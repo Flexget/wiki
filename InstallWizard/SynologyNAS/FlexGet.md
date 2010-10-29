@@ -1,14 +1,10 @@
 = Installing !FlexGet =
 
-=== Download/Install ===
-
-Find the latest version of !FlexGet at http://download.flexget.com/unstable, download and install it by running:
+=== Install ===
 
 {{{
-easy_install http://download.flexget.com/unstable/FlexGet-<insert latest version here>-py2.6.egg
+easy_install flexget
 }}}
-
-Note: In future, to update !FlexGet when new versions are released, run the above command with the latest egg.
 
 === Determine full path to executable ===
 
