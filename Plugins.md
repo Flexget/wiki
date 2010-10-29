@@ -55,8 +55,8 @@ Produce [wiki:Entry entries] from external source.
 
 == Filters ==
 
-Reject or Accept [wiki:Entry entries] based on given rules. Single feed may have any number of filters.[[BR]]
-If you plan to use multiple filters per feed, you should look [wiki:Filtering filtering operations] to understand how they work.
+Reject or Accept [wiki:Entry entries] based on given rules. A single feed may have any number of filters.[[BR]]
+If you plan to use multiple filters per feed, you should look at [wiki:Filtering filtering operations] to understand how they work.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
@@ -76,7 +76,7 @@ If you plan to use multiple filters per feed, you should look [wiki:Filtering fi
 
 == Outputs ==
 
-Execute operation(s) to accepted entries.
+Execute operation(s) on accepted entries.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client.||
