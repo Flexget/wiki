@@ -20,7 +20,7 @@ quality:
   - 1080p
 }}}
 
-== Min/Max Support ==
+== !Min/Max Support ==
 
 If you would like to specify a range of qualities, you can use this form:
 
