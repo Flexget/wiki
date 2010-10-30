@@ -36,14 +36,16 @@ This will reject all qualities worse than hdtv, and better than 1080p. It is not
 
 The following qualities are known, and listed in decending order of quality. The second column contains alternate formats that are recognized.
  ||'''Name'''||'''Alternate Forms'''||
+ ||1080p web-dl||
  ||1080p||1080, 1920x1080||
  ||1080i||
- ||web-dl||
+ ||720p web-dl||
  ||720p||720, 1280x720||
  ||720i||
  ||hr||
  ||bdrip||brrip, bluray||
  ||dvdrip||dvd||
+ ||web-dl||webdl, web dl||
  ||480p||480||
  ||hdtv||
  ||bdscr||
