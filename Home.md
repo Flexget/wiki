@@ -17,6 +17,7 @@
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
  * '''[wiki:Cookbook The Cookbook]'''
+ * '''[wiki:Developers Developer resources]'''
  * '''[wiki:Plugins Plugins] (1.0.x)'''
 
 [wiki:NeedHelp Having problems? Help is near!]
@@ -82,7 +83,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:URLRewriters URLRewriters].
- * Completely modular, all features are plugins (see. [wiki:Developers developer guide] for more information)
+ * Completely modular, all features are plugins
  * And much more ...
 
 = How easy is it to use? =
