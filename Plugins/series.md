@@ -13,7 +13,7 @@ Intelligent filter for TV-series.
  * Plenty of quality options
  * Timeframe, get best quality in given timeframe
  * Episode advancement
- * Proper/Repack aware
+ * !Proper/Repack aware
 
 '''Simple configuration:'''
 
