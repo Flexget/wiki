@@ -102,7 +102,7 @@ Notes:
 ||max_quality||Accept only qualities equal or below this^*^||
 ||qualities||Accept all given qualities, multiple downloads^*^||
 
-^* = Does not work with timeframe (yet)^
+^* = Does not work with [#Timeframe timeframe] (but there is a [wiki:Cookbook/Series/TimeframeWithMinMaxQuality workaround])^
 
 Possible values for quality can be found [wiki:Plugins/quality#KnownQualities here.]
 
