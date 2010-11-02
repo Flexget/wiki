@@ -364,5 +364,6 @@ pharmacy
 (?i)asbestos
 (?i)household.?insurance
 (?i)seizure.disorder
+(?i)aspergers?
 (?i)robo.?call
 }}}
