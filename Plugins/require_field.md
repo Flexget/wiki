@@ -1,6 +1,6 @@
 = Require field =
 
-This plugin will reject any [wiki:Entry entries] that do not have the specified [wiki:Entry#Knownfields fields].
+This plugin will reject any [wiki:Entry entries] that do not have the specified [wiki:Entry#Knownfields fields]. Also rejects if specefied field is present, but is an empty string.
 
 '''Example:'''
 
