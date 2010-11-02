@@ -363,4 +363,5 @@ pharmacy
 (?i)mesothelioma
 (?i)asbestos
 (?i)household.?insurance
+(?i)seizure.disorder
 }}}
