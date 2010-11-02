@@ -1,4 +1,4 @@
-= Installing !FlexGet Egg =
+= Installing !FlexGet =
 
 === Install ===
 
