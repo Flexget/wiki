@@ -11,4 +11,4 @@ feeds:
     accept_all: yes
 }}}
 
-This will accept everything from the defined feed. NOTE: you need an output plugin defined to actually download something.
+This will accept everything from the defined feed. NOTE: you need an [wiki:Plugins#Outputs output plugin] defined to actually download something.
