@@ -65,8 +65,9 @@ regexp:
         [not]:
           - pattern 4
         [path]: <custom path>
-        [from]: <entry field>
+        [from]: <entry field> # applies to this pattern
   [rest]: <operation>
+  [from]: <entry field> # applies to all patterns
 }}}
 
 ^[] = optional, <> = value^
