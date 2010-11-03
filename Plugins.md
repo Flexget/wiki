@@ -107,6 +107,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Tries to perform imdb lookup for all entries.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
+||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the a feed when explicitly specified.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
