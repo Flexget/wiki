@@ -8,6 +8,27 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 3.11.2010 r1582 (d.m.yyyy) ==
+
+There were some changes to how the _excluding operations work when multiple regexps have been defined in the [wiki:Plugins/regexp regexp] plugin.
+Before, reject_excluding would reject if an entry omitted ''all'' of the listed regexps, now it will reject if an entry omits ''any'' of the listed regexps. (same goes for accept_excluding)
+
+For example, this config:
+{{{
+regexp:
+  reject_excluding:
+    - titleA
+    - groupA
+}}}
+Will now reject an entry called {{{titleA.something}}} but not {{{titleA.groupB}}}
+
+If you were using the old behavior, you can achieve the same thing by altering your regexp to be like this:
+{{{
+  reject_excluding:
+    - titleA|groupB
+}}}
+Which would not reject either {{{titleA.something}}} or {{{groupB.something}}}
+
 == 30.10.2010 r1570 (d.m.yyyy) ==
 
 Two new qualities were added, {{{720p web-dl}}} and {{{1080p web-dl}}}. In addition, the plain {{{web-dl}}} quality has been lowered in priority. You might need to update your config to match the new [wiki:Plugins/quality#KnownQualities quality hierarchy].
