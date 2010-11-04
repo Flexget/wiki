@@ -84,7 +84,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
-||[wiki:Plugins/exec exec]||Execute command for passed entries.||
+||[wiki:Plugins/exec exec]||'''{{{UPGRADED}}}'''  Executes commands on entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
@@ -96,8 +96,7 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/add_trackers add_trackers]||'''{{{NEW}}}'''  Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{NEW}}}'''  Archive all seen entries for searchable database for later retrieval.||
-||[wiki:Plugins/adv_exec adv_exec]||'''{{{NEW}}}'''  Highly customizable exec plugin.||
-||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use !FireFox3 cookies.||
+||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
