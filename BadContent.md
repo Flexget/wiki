@@ -264,7 +264,7 @@ tajesaxobylz
 (?i)sexual.health
 (?i)psoriasis
 (?i)hepatitis
-(?i)heart.disease
+(?i)(heart|coeliac|crohn).*disease
 (?i)urinary.infection
 www.*porn.*\.com
 male.*rx
@@ -354,7 +354,6 @@ pharmacy
 (?i)find-lyrics
 (?i)skiinggamesnow
 (?i)onicgamesnow
-(?i)Crohn.*Disease
 (?i)http.*facelift
 (?i)cyberblogging
 (?i)hair.removal
