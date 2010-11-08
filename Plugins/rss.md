@@ -90,3 +90,14 @@ rss:
   url: <url>
   ascii: yes
 }}}
+
+=== Private trackers ===
+
+Some trackers are private and require that you use some form of authentication. One might want to try using the header plugin
+
+{{{
+header:
+  cookie: 'uid=XXXXXXXXXXXXXXXX;pass=XXXXXXXXXXXXXXXXXXX'
+rss:
+  url: <url>
+}}}
