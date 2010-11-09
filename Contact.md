@@ -1,11 +1,9 @@
-= Contact author =
-
-You can reach me:
+= Contact author(s) =
 
 IRC:
 
 {{{
+#FlexGet @ freenode
 Paranoidi @ IRCNet
 Paranoidi @ QuakeNet
-Paranoidi (or something along) on #rtorrent @ freenode
 }}}
