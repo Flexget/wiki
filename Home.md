@@ -22,6 +22,10 @@
 
 [wiki:NeedHelp Having problems? Help is near!]
 
+== Javascript / jQuery developers wanted ==
+
+We're currently implementing web interface to !FlexGet and would love to have someone with plenty of JS knowledge join the effort! Join the IRC-channel if you're up for the task.
+
 == Latest releases ==
 
 [[Include(http://download.flexget.com/ui/download.php)]]
