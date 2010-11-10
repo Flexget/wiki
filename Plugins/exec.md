@@ -8,18 +8,16 @@ This plugin can take two configuration formats [#SimpleConfiguration simple] and
 
 With this configuration, your command is executed on all accepted entries that reach output.
 
-Note that " characters need to be escaped or they are lost.
-
 === Example ===
 
 {{{
-exec: echo \"found %(title)s at %(url)s\" >> file
+exec: echo "found %(title)s at %(url)s" >> file
 }}}
 
 === Example 2 ===
 
 {{{
-exec: echo \"downloaded file %(output)s\" >> file
+exec: echo "downloaded file %(output)s" >> file
 }}}
 
 
@@ -51,11 +49,11 @@ Available ''FOR_ENTRIES'': for_entries, for_accepted and for_rejected
 {{{    
 exec: 
   on_start: 
-    event: echo \"Started\"
+    event: echo "Started"
   on_input:
-    for_entries: echo \"got %(title)s\"
+    for_entries: echo "got %(title)s"
   on_output: 
-    for_accepted: echo \"accepted %(title)s - %(url)s\" > file
+    for_accepted: echo "accepted %(title)s - %(url)s" > file
 }}}
     
 You can use all (available) entry fields in the command. If you would like an entry to fail if entry field is not available, you can set the fail_entries option to yes, like this:
@@ -64,7 +62,7 @@ You can use all (available) entry fields in the command. If you would like an en
 exec:
   fail_entries: yes
   on_output: 
-    for_accepted: echo \"accepted %(title)s - %(url)s\" > file
+    for_accepted: echo "accepted %(title)s - %(url)s" > file
 }}}
 
 Setting the fail_entries option to yes will also cause the entry to fail if the executed command has a non-zero return code.
