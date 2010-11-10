@@ -1,6 +1,6 @@
 = Text =
 
-Parse any text for entries using regular expression.
+Parse any text for entries using regular expression. This doesn't work well with HTML, please use [wiki:Plugins/html html] instead.
 
 {{{
 text:
