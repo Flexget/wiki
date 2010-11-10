@@ -76,6 +76,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||Accept TV-serie episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||'''{{{NEW}}}'''  Accept any entry that appears to be the first episode of a series.||
+||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||'''{{{NEW}}}'''  Automatically configures the series plugin with all the shows you have marked as favorites at http://thetvdb.com.||
 
 == Outputs ==
 
