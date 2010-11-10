@@ -8,6 +8,10 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 9.11.2010 r1617 (d.m.yyyy) ==
+
+The [wiki:Plugins/exec exec] plugin no longer tries to do any automatic quoting on string replaced variables. Instead, the values that get replaced will have any contained quotes escaped with a backslash. This means the command now gets passed as it appears in your config to the shell to be executed. If you are using a variable that may contain spaces, you have to manually add quotes around that argument in your command now. Alternatively, you may have to stop escaping quotes in your command if you were doing so to have them to have them survive the automatic quoting process. (see #800)
+
 == 3.11.2010 r1582 (d.m.yyyy) ==
 
 There were some changes to how the _excluding operations work when multiple regexps have been defined in the [wiki:Plugins/regexp regexp] plugin.
