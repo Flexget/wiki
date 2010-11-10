@@ -50,8 +50,8 @@ Produce [wiki:Entry entries] from external source.
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
-||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
+||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
 
 == Filters ==
