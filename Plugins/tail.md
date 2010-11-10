@@ -8,6 +8,6 @@ Similar to the [wiki:Plugins/text text] plugin but remembers the file position a
 tail:
   file: ~/irclogs/some/log
   entry:
-    title: TITLE: (.*) URL:"
-    url: URL: (.*)
+    title: 'TITLE: (.*) URL:'
+    url: 'URL: (.*)'
 }}}
