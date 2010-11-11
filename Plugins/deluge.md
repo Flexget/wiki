@@ -45,6 +45,7 @@ deluge: yes
 ||compact||If yes, will allocate torrent in compact mode.||
 ||automanaged||If set to false torrents will be added to deluge without the automanaged flag.||
 ||content_filename||This can be used to rename the main file inside the torrent. [wiki:Plugins/deluge#ContentRenaming see here]||
+||main_file_only||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'do not download'||
 
 
 
@@ -102,10 +103,11 @@ This config uses python [wiki:Plugins/set#string-replacement string replacement]
 
 Together with the movedone command, this means all TV series will be downloaded to:
 {{{
-/home/user/TV/Show Name/Seanson #/Show Name - S##E## - Quality.ext
+/home/user/TV/Show Name/Seanson #/Show Name - S##E## - quality.ext
 }}}
 
 ''* This feature requires Deluge 1.2 or newer and !FlexGet r1227 or newer.''
+
 == Windows Users ==
 ''(This should be done after you [wiki:InstallWizard/Windows install] !FlexGet)''
 
