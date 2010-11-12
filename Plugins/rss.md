@@ -93,7 +93,7 @@ rss:
 
 === Private trackers ===
 
-Some trackers are private and require that you use some form of authentication. One might want to try using the header plugin
+Some trackers are private and require that you use some form of authentication. One might want to try using the [wiki:Plugins/headers headers] plugin.
 
 {{{
 header:
