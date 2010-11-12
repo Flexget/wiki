@@ -43,14 +43,14 @@ The following qualities are known, and listed in decending order of quality. The
  ||720p||720, 1280x720||
  ||720i||
  ||hr||
- ||bdrip||brrip, bluray||
+ ||bdrip||brrip, bluray, blurayrip||
  ||dvdrip||dvd||
  ||web-dl||webdl, web dl||
  ||480p||480||
  ||hdtv||
  ||bdscr||
  ||dvdscr||
- ||sdtv||pdtv||
+ ||sdtv||pdtv, dvb, tvrip, ppvrip||
  ||dsr||dsrip||
  ||!r5||
  ||tc||
