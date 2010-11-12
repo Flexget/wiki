@@ -1,7 +1,8 @@
 = Thetvdb favorites =
 
-This plugin will automatically configuring the [wiki:Plugins/series series] plugin with all the shows you have marked as favorites at [http://thetvdb.com].
+This plugin will automatically configuring the [wiki:Plugins/series series] plugin with all the shows you have marked as favorites at [http://thetvdb.com]. If thetvdb goes down, the last known list of favorites will be used until it comes back online.
 
+You configure thetvdb_favorites plugin with your account id at thetvdb. You can find it on the [http://thetvdb.com/?tab=userinfo account tab] after you log in.
 === Example ===
 
 {{{
