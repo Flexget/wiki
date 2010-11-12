@@ -26,5 +26,6 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
  [wiki:Cookbook/ScriptForDownload Run custom script for downloads]::
  [wiki:Cookbook/execprowl Use exec and curl to send a Prowl notification]::
+ [wiki:Cookbook/QueueSubtitles Queue Subtitle Downloads]::
  [wiki:Cookbook/FlexGetUpdater Download FlexGet Releases]::
  Since we now have automated builds for every commit this might not be wanted at the moment. Useful once again when we start making stable releases.
