@@ -1,6 +1,6 @@
 = Directories =
 
-Parses any simple directory and use it as input.
+Parses any simple directory and use it as input. If you need more control, also see the [wiki:Plugins/find find] plugin.
 
 === Example ===
 
