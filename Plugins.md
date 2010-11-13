@@ -45,6 +45,7 @@ Produce [wiki:Entry entries] from external source.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
+||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
@@ -61,6 +62,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
+||[wiki:Plugins/content_filter content_filter]||'''{{{NEW}}}'''  Reject based on filenames within torrents.||
 ||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/exists_series exists_series]||Reject entries based on existing series in filesystem.||
