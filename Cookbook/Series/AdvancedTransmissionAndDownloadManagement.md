@@ -23,7 +23,7 @@ presets:
   # -> each accepted feed item will be piped to transmission
   # -> if you will connect to a remote host you must use svn-rev: r1370 (trac# 654)
   transmission:
-    transmissionrpc:
+    transmission:
       host: <host or ip address>
       port: 9091
       removewhendone: True
@@ -212,7 +212,7 @@ feeds:
       active: False
 }}}
 
-Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Plugins/transmissionrpc transmissionrpc], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
+Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
 
 [wiki:Cookbook/Series Back to The Cookbook/Series]
 
