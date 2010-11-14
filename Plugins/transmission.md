@@ -1,4 +1,4 @@
-= TransmissionRPC =
+= Transmission =
 
 Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission.
 
@@ -10,7 +10,7 @@ easy_install transmissionrpc
 '''Example:'''
 
 {{{
-transmissionrpc:
+transmission:
   host: localhost
   port: 9091
   username: myusername
@@ -36,13 +36,13 @@ transmissionrpc:
 
 To use all default values use this config form:
 {{{
-transmissionrpc: yes
+transmission: yes
 }}}
 
 == Advanced ==
 
 Some plugins allow set: statements as a subcommand.
-The transmissionrpc plugin will read any of the normal parameters from the set: command
+The transmission plugin will read any of the normal parameters from the set: command
 
 Here is an example using the series module:
 
@@ -71,7 +71,7 @@ series:
           ratio: 5.0
           addpaused: yes
 
-transmissionrpc:
+transmission:
   host: localhost
   port: 9091
   username: myusername
