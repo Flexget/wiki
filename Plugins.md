@@ -93,7 +93,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/subtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
-||[wiki:Plugins/transmissionrpc transmissionrpc]||Pass entries' url to transmission, supporting magnet links.||
+||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 
 == Modify / Other ==
 
