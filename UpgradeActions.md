@@ -8,6 +8,10 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 14.11.2010 r1639 (d.m.yyyy) ==
+
+The transmissionrpc plugin has been renamed to [wiki:Plugins/transmission transmission]. Your config must be updated to reflect this.
+
 == 10.11.2010 r1620 (d.m.yyyy) ==
 
 [wiki:Plugins/exec Exec] plugin no longer escapes anything by default during string substitution. If your fields might contain something that needs escaped, you can use the [wiki:Plugins/exec?version=9#Autoescapeoption auto_escape] option to have all non word characters escaped with backslash.
