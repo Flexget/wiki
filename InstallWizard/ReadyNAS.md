@@ -126,7 +126,7 @@ presets:
       - Csi
     set:
       path: /c/media/BitTorrent/%(series_name)s
-    transmissionrpc:
+    transmission:
       host: localhost
       port: 9091
       username: xxxxxxxxxxxx
