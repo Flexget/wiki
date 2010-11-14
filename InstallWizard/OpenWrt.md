@@ -52,12 +52,12 @@ FlexGet 1.0r1565
 dependencies which will be installed with easy_install:
 
 {{{
-progressbar-2.3
-pynzb-0.1.0
-PyRSS2Gen-1.0.0
-html5lib-0.90
-BeautifulSoup-3.1.0.1
-SQLAlchemy-0.6.5
-feedparser-4.1
+progressbar
+pynzb
+PyRSS2Gen
+html5lib
+BeautifulSoup
+SQLAlchemy
+feedparser
 }}}
 
