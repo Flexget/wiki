@@ -40,7 +40,8 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 == Inputs ==
 
-Produce [wiki:Entry entries] from external source.
+Produce [wiki:Entry entries] from external source.[[BR]]
+Most requests are cached so there is no penalty for example using same RSS URL multiple times in the configuration.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
