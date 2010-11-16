@@ -63,6 +63,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
+||[wiki:Plugins/all_series all_series]||'''{{{NEW}}}'''  Accepts any entry that appears to be an episode of a series.||
 ||[wiki:Plugins/content_filter content_filter]||'''{{{NEW}}}'''  Reject based on filenames within torrents.||
 ||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
