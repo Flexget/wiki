@@ -10,7 +10,7 @@ all_series: yes
 
 == Series Settings ==
 
-Behind the scenes, series_premieres just configures the [wiki:Plugins/series series] plugin with all the series it sees in the feed.''*'' You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin for series_premire.
+Behind the scenes, all_series just configures the [wiki:Plugins/series series] plugin with all the series it sees in the feed.''*'' You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin for all_series.
 
 ''' Example '''
 
