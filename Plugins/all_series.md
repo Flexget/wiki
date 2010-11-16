@@ -1,5 +1,5 @@
 = All Series =
-Accepts any entry that appears to be an episode of a series.''*''
+Automatically configures the [wiki:Plugins/series series] plugin for all series that appear in the feed.''*'' 
 
 '''Examples:'''
 
