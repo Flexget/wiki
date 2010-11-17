@@ -18,10 +18,8 @@ Write this somewhere down.
 
 If you have short cron interval, comment !FlexGet out from the cron. After you've ran successfully manually, put it back.
 
-Install new version like you installed it first place
-
 {{{
-easy_install <new egg>
+easy_install --upgrade flexget
 }}}
 
 Subversion users can just run `svn up`.
