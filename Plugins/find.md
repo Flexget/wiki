@@ -16,6 +16,6 @@ This example searches recursively and uses regexp to find any avi or mkv files. 
 {{{
 find:
   path: /home/me/downloads
-  regexp: '.*\.(avi|mkv)'
+  regexp: '.*\.(avi|mkv)$'
   recursive: yes
 }}}
