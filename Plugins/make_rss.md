@@ -89,3 +89,15 @@ Note that the url field is always used as last possible fallback
 even without explicitly adding it into the list.
         
 Default list: imdb_url, input_url, url
+
+== Encoding ==
+
+Since some clients do not support RSS properly (ahem, uTorrent). Starting from r1648 you can specify encoding.
+
+=== Example ===
+
+{{{
+make_rss:
+  file: ~/public_html/series.rss
+  encoding: utf-8
+}}}
