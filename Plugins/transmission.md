@@ -27,6 +27,8 @@ transmission:
 ||password||Optional||
 ||path||Optional||
 ||addpaused||[Yes|No], Optional||
+||bandwidthpriority||[-1,0,1], Optional||
+||honourlimits||Boolean, Optional||
 ||maxconnections||Number, Optional||
 ||maxupspeed||Number, Optional||
 ||maxdownspeed||Number, Optional||
