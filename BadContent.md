@@ -293,7 +293,7 @@ pharmacy
 (?i)treatment.*\.com
 (?i)cholesterol
 (?i)lose.weight
-(?i)diet.pills
+(?i)diet.(pills?|com)
 (?i)home.improvements
 (?i)celebrity.*\.com
 (?i)xenon.lights
