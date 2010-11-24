@@ -8,6 +8,13 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 24.11.2010 r1661 (d.m.yyyy) ==
+
+metainfo_series is no longer a builtin. This should only affect you if you aren't using one of the series plugins (series, all_series, thetvdb_favorites, or series_premiere.) If you need to enable metainfo_series manually for a feed it can be done like so:
+{{{
+  metainfo_series: yes
+}}}
+
 == 16.11.2010 r1643 (d.m.yyyy) ==
 The [wiki:Plugins/series series] plugin {{{all}}} mode has been moved in to it's own plugin, [wiki:Plugins/all_series all_series]. The config format for both [wiki:Plugins/thetvdb_favorites thetvdb_favorites] and [wiki:Plugins/series_premiere series_premiere] has been changed to allow all settings from the [wiki:Plugins/series series] plugin. Specifically, if you were using this format for the series_premiere plugin:
 {{{
