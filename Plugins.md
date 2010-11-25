@@ -94,7 +94,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
-||[wiki:Plugins/subtitles subtitles]||Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
+||[wiki:Plugins/subtitles subtitles]||UNFINISHED. Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 
 == Modify / Other ==
