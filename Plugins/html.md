@@ -26,7 +26,7 @@ This would download all links that have mp3 link with word podcast in them.
 
 == Title options ==
 
-Some feeds contain links that have useless names (like 'DL', '1', '2'..). To get more useful titles use option {{{title_from}}}.
+By default html plugin will try to guess where link titles should be captured from but in some cases this goes wrong and you end up with useless titles like 'DL', '1', '2'. In case automatic selection does not work you will need to specify where titles should be captured from. Note that it may not always be possible to get good titles if the the title is nowhere near the link.
 
 === Example ===
 
