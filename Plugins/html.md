@@ -38,21 +38,21 @@ html:
 
 Other possible values are: `auto` ''(default)'', `url`, `title` and `link`. 
 
-=== url ===
+=== Example: url ===
 
-Example: If captured URL is "!http://some.domain.com/download/Podcast.2010-01-02.mp3" the extracted title would be "Podcast.2010-01-02.mp3"
+If captured URL is "!http://some.domain.com/download/Podcast.2010-01-02.mp3" the extracted title would be "Podcast.2010-01-02.mp3"
 
-=== title ===
+=== Example: title ===
 
-Example: If html contains links in form of <a href="!http://some.domain.com/download?id=1245932" title="Podcast.2010-01-02.mp3">Download</a> the extracted title would be "Podcast.2010-01-02.mp3"
+If html contains links in form of <a href="!http://some.domain.com/download?id=1245932" title="Podcast.2010-01-02.mp3">Download</a> the extracted title would be "Podcast.2010-01-02.mp3"
 
-=== link ===
+=== Example: link ===
 
-Example: If html contains links in form of <a href="!http://some.domain.com/download?id=1245932">Podcast.2010-01-02.mp3</a> the extracted title would be "Podcast.2010-01-02.mp3"
+If html contains links in form of <a href="!http://some.domain.com/download?id=1245932">Podcast.2010-01-02.mp3</a> the extracted title would be "Podcast.2010-01-02.mp3"
 
 == Titles are gibberish ==
 
-In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers ..
+In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers. Of course when titles are useless filtering becomes much more troublesome.
 
 == Get only certain links ==
 
