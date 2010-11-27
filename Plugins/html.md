@@ -1,6 +1,6 @@
 = Html =
 
-Parses urls from html page. Usefull on sites which have direct download links of any type (mp3, jpg, torrent, ...).
+Parses URLs from html page. Useful on sites which have direct download links of any type (mp3, jpg, torrent, ...).
 
 Many anime-fansubbers do not provide an RSS-feed, this usually works for those cases.
 
@@ -23,6 +23,36 @@ regexp:
 }}}
 
 This would download all links that have mp3 link with word podcast in them.
+
+== Title options ==
+
+Some feeds contain links that have useless names (like 'DL', '1', '2'..). To get better titles you must use option {{{title_from}}} to get better titles.
+
+=== Example ===
+
+{{{
+html:
+  url: <url>
+  title_from: url
+}}}
+
+Other possible values are: `auto` ''(default)'', `url`, `title` and `link`. 
+
+=== url ===
+
+Example: If captured URL is "http://some.domain.com/download/Podcast.2010-01-02.mp3" the extracted title would be "Podcast.2010-01-02.mp3"
+
+=== title ===
+
+Example: If html contains links in form of <a href="http://some.domain.com/download?id=1245932" title="Podcast.2010-01-02.mp3">Download</a> the extracted title would be "Podcast.2010-01-02.mp3"
+
+=== link ===
+
+Example: If html contains links in form of <a href="http://some.domain.com/download?id=1245932">Podcast.2010-01-02.mp3</a> the extracted title would be "Podcast.2010-01-02.mp3"
+
+== Titles are gibberish ==
+
+In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers ..
 
 == Get only certain links ==
 
@@ -51,31 +81,16 @@ html:
   dump: file.html
 }}}
 
-== Title options ==
-
-Some feeds contain links that have useless title (like 'DL', '1', '2'..). If you need better titles you can use option {{{title_from}}} to guess better title from url.
-
-=== Example ===
-
-{{{
-html:
-  url: <url>
-  title_from: url
-}}}
-
-Other possible values are: `auto` ''(default)'', `url`, `title` and `link`. 
-
-== Titles are gibberish ==
-
-In some cases the titles are completely useless, however you may still get good filenames when entry is downloaded. This is because servers often send the correct filename in http headers ..
-
 == Basic Authentication ==
 
 This plugin supports baisic authentication, it can be specified in the url:
+
 {{{
 html: http://username:password@url.com
 }}}
+
 Or as parameters:
+
 {{{
 html:
   url: <url>
