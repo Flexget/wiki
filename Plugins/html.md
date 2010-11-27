@@ -26,7 +26,7 @@ This would download all links that have mp3 link with word podcast in them.
 
 == Title options ==
 
-Some feeds contain links that have useless names (like 'DL', '1', '2'..). To get better titles you must use option {{{title_from}}} to get better titles.
+Some feeds contain links that have useless names (like 'DL', '1', '2'..). To get more useful titles use option {{{title_from}}}.
 
 === Example ===
 
@@ -69,18 +69,6 @@ html:
 
 This will create only entries from links which match any of given regexps. Do NOT use this for filtering content, just limit selecting to correct type of links and use real filtering plugins like [wiki:Plugins/regexp regexp] to do actual filtering.
 
-== Dump ==
-
-You can dump the received HTML into a file by using parameter {{{dump}}}.
-
-=== Example ===
-
-{{{
-html:
-  url: <url>
-  dump: file.html
-}}}
-
 == Basic Authentication ==
 
 This plugin supports baisic authentication, it can be specified in the url:
@@ -96,4 +84,16 @@ html:
   url: <url>
   username: <username>
   password: <password>
+}}}
+
+== Dump ==
+
+You can dump the received HTML into a file by using parameter {{{dump}}}. Useful for debugging.
+
+=== Example ===
+
+{{{
+html:
+  url: <url>
+  dump: file.html
 }}}
