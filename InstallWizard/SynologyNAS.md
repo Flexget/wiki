@@ -52,6 +52,12 @@ If you will be using Transmission, then install the transmissionrpc package by r
 easy_install transmissionrpc
 }}}
 
+if you get an error along the lines of
+{{{
+/opt/local/lib/python2.5/site-packages (in --site-dirs) does not exist
+}}}
+you have to edit distutils.cfg (located in /opt/lib/python2.6/distutils) to point to the correct path.
+
 = Next =
 
 [wiki:InstallWizard/SynologyNAS/FlexGet Install FlexGet]
