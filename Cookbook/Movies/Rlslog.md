@@ -19,4 +19,4 @@ feeds:
     download: ~/torrents/
 }}}
 
-Uses plugins: [wiki:InputRlsLog rlslog], [wiki:FilterImdb imdb], [wiki:OutputDownload download]
+Uses plugins: [wiki:InputRlsLog rlslog], [wiki:Plugins/imdb imdb], [wiki:OutputDownload download]
