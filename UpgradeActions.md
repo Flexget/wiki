@@ -8,6 +8,16 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+
+== 30.11.2010 r1675 (d.m.yyyy) ==
+
+Database schema changes. Please run:
+
+{{{
+sqlite3 db-config.sqlite "ALTER TABLE imdb_movies ADD updated DateTime;"
+sqlite3 db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
+}}}
+
 == 30.11.2010 r1674 (d.m.yyyy) ==
 
 Database schema changes. Please run:
