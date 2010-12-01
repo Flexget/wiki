@@ -23,7 +23,7 @@ sqlite3 db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
 Database schema changes. Please run:
 
 {{{
-sqlite3 db-config.sqlite "ALTER TABLE thetvdb_favorites ADD series_id Unicode;"
+sqlite3 db-config.sqlite "ALTER TABLE thetvdb_favorites ADD series_id VARCHAR;"
 }}}
 
 == 24.11.2010 r1661 (d.m.yyyy) ==
