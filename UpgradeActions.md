@@ -8,6 +8,14 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 30.11.2010 r1674 (d.m.yyyy) ==
+
+Database schema changes. Please run:
+
+{{{
+sqlite3 db-config.sqlite "ALTER TABLE thetvdb_favorites ADD series_id Unicode;"
+}}}
+
 == 24.11.2010 r1661 (d.m.yyyy) ==
 
 metainfo_series is no longer a builtin. This should only affect you if you aren't using one of the series plugins (series, all_series, thetvdb_favorites, or series_premiere.) If you need to enable metainfo_series manually for a feed it can be done like so:
