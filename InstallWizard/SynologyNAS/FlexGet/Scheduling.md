@@ -25,8 +25,8 @@ Add the crontab to /usr/syno/etc/rc.d/S04crond.sh as described in the link above
 
 To start or stop cron, use the commands:
 {{{
-/usr/syno/etc.defaults/rc.d/S04crond.sh start
 /usr/syno/etc.defaults/rc.d/S04crond.sh stop 
+/usr/syno/etc.defaults/rc.d/S04crond.sh start
 }}}
 
 Note that cron will need to be restarted after making changes to a crontab.
