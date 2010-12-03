@@ -23,6 +23,7 @@ imdb:
         min_score: <num>
         min_votes: <num>
         min_year: <num>
+        max_year: <num>
 
         # reject if genre contains any of these
         reject_genres:
