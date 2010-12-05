@@ -40,7 +40,7 @@ exec:
 
 Available ''ON_EVENTS'': on_start, on_input, on_filter, on_output and on_exit
 [[BR]]
-Available ''FOR_ENTRIES'': for_entries, for_accepted and for_rejected
+Available ''FOR_ENTRIES'': for_entries, for_accepted, for_rejected and for_failed
 [[BR]]
 [[BR]]
     
