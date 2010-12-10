@@ -69,6 +69,6 @@ imdb:
             - TV_Y
 }}}
 
-Notice that the MPAA ratings all have _ instead of - and TV ratings are also applicable.
+Notice that the MPAA ratings all have _ instead of - and TV ratings are also applicable. "NONE" is also an acceptable rating, and will catch anything without an MPAA rating attached.
 
 '''Note:''' To reject non imdb compatible entries, use [wiki:Plugins/imdb_required imdb_required] plugin.
