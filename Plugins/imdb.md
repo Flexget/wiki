@@ -34,7 +34,7 @@ imdb:
         reject_languages:
             - language1
 
-        # accept only this language
+        # accept only these languages, if movie has any other languages listed it will be ignored
         accept_languages:
             - language1
 
