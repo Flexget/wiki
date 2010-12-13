@@ -22,9 +22,9 @@
 
 [wiki:NeedHelp Having problems? Help is near!]
 
-== Javascript / jQuery developers wanted ==
+== Developers wanted ==
 
-We're currently implementing web interface to !FlexGet and would love to have someone with plenty of JS knowledge join the effort! Join the IRC-channel if you're up for the task.
+We're currently implementing web interface to !FlexGet and would love to have more people join the effort! Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
 
 == Latest releases ==
 
