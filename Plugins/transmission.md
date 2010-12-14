@@ -19,7 +19,7 @@ transmission:
 
 == Options ==
 
-||'''Name'''||'''Info'''||
+||'''Name'''||'''Info'''||'''Description'''||
 ||host||Optional (default: localhost)||
 ||port||Number, Optional (default: 9091)||
 ||netrc||File, Optional||
