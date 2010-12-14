@@ -5,11 +5,7 @@ presets:
   tv:
     thetvdb_favorites:
       account_id: 230B039A30
-      series_group: thetvdb_favs
-    series:
-      settings:
-        thetvdb_favs:
-          quality: 720p
+      quality: 720p
     exists_series:
       - /media/tv
       - /media/incomplete
@@ -31,8 +27,7 @@ feeds:
 }}}
 
 First we create a preset called 'tv' that holds all the plugin information we need to grab our series. Inside the tv preset here is what is happening:
- - The [wiki:Plugins/thetvdb_favorites thetvdb_favorites] plugin automatically configures the series plugin to download all the shows you have marked as a favorite on thetvdb.com Your account_id can be found on your account page at thetvdb.com
- - We configure the [wiki:Plugins/series series] plugin with a series group called 'thetvdb_favs'. This is the name of the series group that thetvdb_favorites will merge your series into. We do this, so that we can define the quality that we want for the series.
+ - The [wiki:Plugins/thetvdb_favorites thetvdb_favorites] plugin automatically configures the [wiki:Plugins/series series] plugin to download all the shows you have marked as a favorite on thetvdb.com. You can specify all of the options of the series plugin here, this example shows the quality option. Your account_id can be found on your account page at thetvdb.com
  - The [wiki:Plugins/exists_series exists_series] plugin will make sure we don't already have this episode in our tv library or currently downloading folder
  - We enable the [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin to pull the name of the episode from thetvdb.com, we use this info below in content_filename
  - We use the [wiki:Plugins/set set] plugin to configure the:
