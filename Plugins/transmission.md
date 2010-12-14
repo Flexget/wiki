@@ -25,14 +25,14 @@ transmission:
 ||netrc||File, Optional||
 ||username||Optional||
 ||password||Optional||
-||path||Optional||destination for downloaded file(s)||
+||path||Optional||destination for downloaded file(s), string replacement OK||
 ||addpaused||[Yes|No], Optional||
 ||bandwidthpriority||[-1,0,1], Optional||
 ||honourlimits||Boolean, Optional||
 ||maxconnections||Number, Optional||
 ||maxupspeed||Number, Optional||
 ||maxdownspeed||Number, Optional||
-||ratio||Decimal, Optional (-1 means infinite)||
+||ratio||Decimal, Optional (-1 means infinite)||the ratio to stop seeding at||
 ||removewhendone||Boolean||
 ||enabled||Boolean, Optional (default: True)||
 
