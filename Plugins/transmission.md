@@ -25,7 +25,7 @@ transmission:
 ||netrc||File, Optional||
 ||username||Optional||
 ||password||Optional||
-||path||Optional||
+||path||Optional||destination for downloaded file(s)||
 ||addpaused||[Yes|No], Optional||
 ||bandwidthpriority||[-1,0,1], Optional||
 ||honourlimits||Boolean, Optional||
