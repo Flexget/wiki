@@ -22,6 +22,8 @@ For imdb-queue to look for matches in any feeds, there must be an entry in the c
 imdb_queue: yes
 }}}
 
+Movies get purged from queue when they reach output successfully.
+
 === Examples ===
 
 The following will queue [http://www.imdb.com/title/tt1038686/ Legion (2010)] with quality 720p
