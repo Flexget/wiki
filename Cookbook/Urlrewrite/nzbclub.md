@@ -22,7 +22,7 @@ feeds:
       filename: no                                               # prevent ugly names from the rss
     urlrewrite:
       nzbclub:
-        regexp: http://nzbclub.com/nzb_view
+        regexp: http://?(www.)nzbclub.com/nzb_view
         format: http://nzbclub.com/nzb_download
     manipulate:                                                  # remove all crap from the title
       - title:
