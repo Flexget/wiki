@@ -22,8 +22,8 @@ feeds:
       filename: no                                               # prevent ugly names from the rss
     urlrewrite:
       nzbclub:
-        regexp: http://nzbclub.com/nzb_view.aspx
-        format: http://nzbclub.com/nzb_download.aspx
+        regexp: http://nzbclub.com/nzb_view
+        format: http://nzbclub.com/nzb_download
     manipulate:                                                  # remove all crap from the title
       - title:
           extract: .*\[\s*(.*)\s*\]-.*
