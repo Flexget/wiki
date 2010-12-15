@@ -22,6 +22,7 @@
 
  * http://rss.bt-chat.com/?group=3
  * http://showrss.karmorra.info/feeds/all.rss
+ * http://ezrss.it/feed/
 
 ''NZB Feeds''
 
