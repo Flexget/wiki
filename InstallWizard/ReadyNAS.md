@@ -1,6 +1,9 @@
 = Readynas !FlexGet installation =
 
-This is just collected info from various sources and a bit of my own ideas. The guide will lead you through the installation of development files on your Readynas box to enable compilation of python and pysqlite which are necessary to install flexget on your Readynas machine.
+17/12-2010:
+This is second revision of the guide. Something did break and people had trouble getting sqlite support to work. This is tested on a readynas Duo box running Radiator 4.1.7 released November 12, 2010. This new release may have caused the breakage. I've removed some packages that is not used for this install. Warning, this is experimental at least. Use at your own risk :-)
+
+This is just collected info from various sources and a bit of my own ideas. The guide will lead you through the installation of development files on your Readynas box to enable compilation of python and sqlite which are necessary to install flexget on your Readynas machine.
 
 = Requirements =
 
@@ -10,30 +13,30 @@ Basic linux knowledge you will need to access your readynas machine using a term
 
 {{{
 apt-get update
-apt-get install libc6-dev
-apt-get install gcc
-apt-get install libtag1-dev
-apt-get install uuid-dev
-apt-get install unrar unzip
-apt-get install par2 parchive
-apt-get install gpp
-apt-get install libssl-dev
-apt-get install zlibc
-apt-get install zlib1g-dev
+apt-get install libc6-dev gcc libtag1-dev libssl-dev zlibc zlib1g-dev
 
 }}}
 
-= Install Python 2.5 =
+= Install sqlite =
 
 {{{
 mkdir /c/src
 cd /c/src
-wget http://www.python.org/ftp/python/2.5.4/Python-2.5.4.tgz
-gzip -d Python-2.5.4.tgz
-tar xf Python-2.5.4.tar
-cd Python-2.5.4
+wget http://www.sqlite.org/sqlite-autoconf-3070400.tar.gz
+tar xzf sqlite-autoconf-3070400.tar.gz 
+cd sqlite-autoconf-3070400
 ./configure --build=sparc-linux
-make
+make install
+cd ..
+}}}
+
+= Install Python 2.7.1 =
+
+{{{
+wget http://www.python.org/ftp/python/2.7.1/Python-2.7.1.tgz
+tar xzf Python-2.7.1.tgz
+cd Python-2.7.1
+./configure --build=sparc-linux
 make install
 cd ..
 }}}
@@ -43,36 +46,28 @@ cd ..
 When python is installed, I assume it is running the ldconfig command which will break most programs that reside in /usr/local/bin which is dependant from /usr/local/lib. It is because the readynas enviroment does not ship with a ld.so.conf file which tells the system where to look for libraries. This will take care of this.
 
 {{{
-echo /lib/ > /etc/ld.so.conf
-echo /usr/lib >> /etc/ld.so.conf
 echo /usr/local/lib >> /etc/ld.so.conf
 ldconfig
 }}}
 
-= Install pysqlite =
-
-{{{
-wget http://pysqlite.googlecode.com/files/pysqlite-2.5.6.tar.gz
-gzip -d -f pysqlite-2.5.6.tar.gz
-tar xf pysqlite-2.5.6.tar
-cd pysqlite-2.5.6
-python setup.py build_static install
-cd ..
-}}}
-
-= Install python easy_install =
+= Install Python setuptools =
 
 {{{
 wget http://peak.telecommunity.com/dist/ez_setup.py
-python2.5 ez_setup.py
+python ez_setup.py
 }}}
 
 = Installing Flexget itself =
 
-You could just head directly to [http://flexget.com/wiki/InstallWizard/Linux/Environment/FlexGet Link] Which is the generic linux installation page. Or read ahead for direct instructions:
-
 {{{
 easy_install flexget
+}}}
+
+
+= Transmission support (optional) =
+
+{{{
+easy_install transmissionrpc
 }}}
 
 = Verify flexget =
