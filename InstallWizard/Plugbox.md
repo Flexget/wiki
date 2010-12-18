@@ -1,4 +1,4 @@
-== TODO: write instructions here ==
+== Plugbox ==
 
 Wiki explaining installation [http://plugapps.com/index.php5?title=Application:Flexget here].
 
