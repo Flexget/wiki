@@ -1,7 +1,7 @@
 = Filter Seen Movies =
 
 Prevents movies being downloaded twice.
-Works only on entries which have imdb url available. Meaning feed must have [wiki:Plugins/imdb imdb] module present or input needs to provide imdb urls (rare).
+Works only on entries which have imdb_url available, if imdb_url is already not present imdb lookup will be tried.
 
 How duplicate movie detection works:
  * Remember all imdb urls from downloaded entries.
