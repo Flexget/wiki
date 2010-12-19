@@ -15,14 +15,12 @@ If you get message "FATAL: SQLAlchemy 0.6.0 or newer required. Please upgrade yo
 Run:
 
 {{{
-bin/pip install --upgrade sqlalchemy
+bin/paver clean
+python bootstrap.py
 }}}
 
-If bin/pip is not available, then run first:
+This will re-bootstrap the environment from clean state and install all new dependencies etc.
 
-{{{
-bin/easy_install pip
-}}}
 
 == 30.11.2010 r1675 (d.m.yyyy) ==
 
