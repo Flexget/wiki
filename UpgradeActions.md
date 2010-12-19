@@ -8,6 +8,21 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== Subversion users: 17.12.2010   ==
+
+If you get message "FATAL: SQLAlchemy 0.6.0 or newer required. Please upgrade your SQLAlchemy." 
+
+Run:
+
+{{{
+bin/pip install --upgrade sqlalchemy
+}}}
+
+If bin/pip is not available, then run first:
+
+{{{
+bin/easy_install pip
+}}}
 
 == 30.11.2010 r1675 (d.m.yyyy) ==
 
