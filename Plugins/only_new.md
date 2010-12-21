@@ -9,3 +9,5 @@ This should not be needed on most feeds, and may cause problems in instances whe
 {{{
 only_new: yes
 }}}
+
+You can disable only_new for a single run with the {{{--no-only-new}}} cli option. In addition, only_new will be automatically disabled if the configuration for the feed has changed since the last run.
