@@ -1,5 +1,5 @@
 = Format Field =
-This plugin lets you use [http://jinja.pocoo.org/ jinja2] template strings to create or modify [wiki:Entry entry fields]. This is similar to the [wiki:Plugins/set set] plugin, but allows for more advanced formatting.
+This plugin lets you use [http://jinja.pocoo.org/templates/ jinja2 template] strings to create or modify [wiki:Entry entry fields]. This is similar to the [wiki:Plugins/set set] plugin, but allows for more advanced formatting.
 
 '''NOTES:'''
  - All the fields from the entry are available in the jinja template context.
