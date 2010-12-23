@@ -108,6 +108,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
+||[wiki:Plugins/format_field format_field]||'''{{{NEW}}}'''  Sets entry fields based on jinja2 template strings.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
