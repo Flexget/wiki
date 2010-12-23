@@ -10,7 +10,6 @@ This plugin lets you use [http://jinja.pocoo.org/ jinja2] template strings to cr
 This example sets the {{{content_filename}}} using the information parsed by the [wiki:Plugins/series series] plugin. The [wiki:Plugins/deluge deluge] plugin uses the {{{content_filename}}} field to rename a file inside the torrent.
 {{{
 format_field:
-  content_filename: |
-    {{ series_name|replace(' ','.') }}.{{ series_id }}.{{ quality|upper }}{% if proper %}-proper{% endif %}
+  content_filename: "{{ series_name|replace(' ','.') }}.{{ series_id }}.{{ quality|upper }}{% if proper %}-proper{% endif %}"
 }}}
 This will result in filenames like: The.Show.S02E03.HDTV and Other.Show.S02E04.720P-proper
