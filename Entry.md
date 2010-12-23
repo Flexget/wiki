@@ -22,11 +22,12 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||path||||Path where this entry content should be saved||
 ||description||[wiki:Plugins/rss rss]||Item description||
 ||feed||metainfo_feed||Feed name which this entry belongs to||
-||quality||metainfo_quality||Detected quality, ie. `720p`||
+||quality||metainfo_quality, [wiki:Plugins/series series]||Detected quality, ie. `720p`||
 ||series_name||[wiki:Plugins/series series], metainfo_series||Series name||
 ||series_season||[wiki:Plugins/series series], metainfo_series||Series season||
 ||series_episode||[wiki:Plugins/series series], metainfo_series||Series episode||
 ||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. `S01E02` or `12.01.2009`||
+||proper||[wiki:Plugins/series series]||Whether this entry is a proper or repack release||
 ||imdb_url||||Imdb url||
 ||imdb_id||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb identifier||
 ||imdb_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb name||
