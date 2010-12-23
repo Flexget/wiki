@@ -1,6 +1,6 @@
 = Set =
 
-Stores info in an entry
+Stores info in an entry.
 
 '''Example:'''
 
@@ -31,7 +31,7 @@ regexp:
     - that regexp
 }}}
 
-=== String Replacement === #string-replacement
+=== String Replacement* === #string-replacement
 
 The set plugin also performs another useful function which can dynamically change an option for each entry accepted by a feed. Using the [http://docs.python.org/library/stdtypes.html#string-formatting-operations python string replacement] format, a variable from an [wiki:Entry entry] can be substituted into your set option. This can also be explained through an example.
  This example uses string replacement to place shows in series 'groupa' in their own show title and season folders.
@@ -45,6 +45,8 @@ series:
     - Some Show
     - Some Other Show
 }}}
+
+''* If you need more advanced formatting options, see the [wiki:Plugins/format_field format_field] plugin.''
 
 === Plugins that accept Set keywords ===
 
