@@ -99,7 +99,7 @@ ln -s /c/flexget/ /root/.flexget
 }}}
 
 This will ensure that flexget has enough space for even the most space demanding feeds :-)
-
+8
 = Configuration example =
 
 {{{
@@ -130,30 +130,32 @@ feeds:
     rss: http://www.ezrss.it/feed/
     preset: tv
 
-ding:
+  ding:
     rss: http://vpodcast.dr.dk/feeds/soeindingrss.xml
     preset: soeinding
     exists: /c/media/BitTorrent/SoEinDing/
 }}}
 
-This will use rss feed from [http://www.ezrss.it http://www.ezrss.it] and inject all episodes of Mythbusters, Csi and Fifth gear to a running [http://www.readynas.com/forum/viewtopic.php?f=47&t=24271 transmission] daemon. Path is set to series name to not clutter up your download directory. Use rss feed for the danish television DR2 and download all new episodes of a podcast show called So Ein Ding.
+This will use RSS feed from [http://www.ezrss.it http://www.ezrss.it] and inject all episodes of Mythbusters, Csi and Fifth gear to a running [http://www.readynas.com/forum/viewtopic.php?f=47&t=24271 transmission] daemon. Path is set to series name to not clutter up your download directory. Use rss feed for the danish television DR2 and download all new episodes of a podcast show called So Ein Ding.
 
 = Upgrading =
-Flexget is in development and changes are frequent. If you ever need to update the script it is very simple. Issue this at the shell prompt:
+
+!FlexGet is in development and changes are frequent. If you ever need to update the script it is very simple. Issue this at the shell prompt:
+
 {{{
 easy_install --upgrade flexget
 }}}
-This will upgrade flexget. Visit http://flexget.com/wiki/UpgradeActions to see if any actions are needed to finish the upgrade.
+
+This will upgrade !FlexGet. Visit http://flexget.com/wiki/UpgradeActions to see if any actions are needed to finish the upgrade.
 
 = Feedback =
 Feedback can be directed to this thread: http://www.readynas.com/forum/viewtopic.php?f=35&t=48774
 
 = Final thoughts =
 
-!FlexGet is a great tool for downloading files. Both torrents and podcasts and can really get anything you would like. With the built in prowl support you can have notifications sent directly to your iPhone. I have been using several tools to accomplish the same tasks but none of them worked really well. Flexget does and it comes in one package. I do recommend going through this guide and install it. It may look difficult but it really isn't. 
+!FlexGet is a great tool for downloading files. Both torrents and podcasts and can really get anything you would like. With the built in prowl support you can have notifications sent directly to your iPhone. I have been using several tools to accomplish the same tasks but none of them worked really well. !FlexGet does and it comes in one package. I do recommend going through this guide and install it. It may look difficult but it really isn't. 
 
-Running tools with your root account could lead to disaster. If you are really into security you should add a local user to run flexget.
-
+Running tools with your root account could lead to disaster. If you are really into security you should add a local user to run !FlexGet.
 
 Thanks go out to [http://www.readynas.com/forum/viewtopic.php?f=36&t=41478 Meso_Tech] who wrote the thread on compiling and installing python on a readynas box and to [http://www.readynas.com/forum/viewtopic.php?f=36&t=42794#p257270 Riokmij]
 
