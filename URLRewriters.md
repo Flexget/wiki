@@ -6,6 +6,8 @@ Many RSS-feeds (and other inputs) don't provide URLs directly to a torrent-file,
 
 == How they work ==
 
+Foremost: automatically and in the background!
+
 URL Rewriters are special type of plugins that detect if any of the [wiki:Entry entries] in a feed point to a download page instead of actual content. When such a [wiki:Entry entry] is detected, the rewriter will step in and modify the URL so that it points into the actual desired content. This is usually achieved by editing URL or by requesting the download page and finding the correct download link from there.
 
 URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlrewrite urlrewrite]. URL rewriting happens automatically in the background for all supported sites.
@@ -22,6 +24,7 @@ URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlr
  * Redskunk
  * Torrentz
  * BakaBT
+ * !DeadFrog
 
 === Custom rewriting with regexp ===
 
