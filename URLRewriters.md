@@ -34,4 +34,4 @@ This works only when URL is only slightly different from the download page, see 
 
 == Not on the list? Make your own ==
 
-Use existing rewriter as a starting point, it should be quite easy if you have any programming experience. If you make something, please submit new plugin as a ticket attachment so we can include it in the !FlexGet :)
+Use existing rewriter as a starting point, it should be quite easy if you have any programming experience. !DeadFrog rewriter is a good one to make a copy of and start hacking with it. If you make something, please submit new plugin as a ticket attachment so we can include it in the !FlexGet :)
