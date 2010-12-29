@@ -5,13 +5,13 @@ This plugin will reject all entries that represent an movie that is already on d
 === Example ===
 
 {{{
-exists_movies: /storage/movies/
+exists_movie: /storage/movies/
 }}}
 
 === Example ===
 
 {{{
-exists_movies: 
+exists_movie: 
   - /storage/movies-sd/
   - /storage/movies-hd/
 }}}
