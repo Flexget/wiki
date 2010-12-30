@@ -79,7 +79,7 @@ For example, this config:
 regexp:
   reject_excluding:
     - titleA
-    - groupA
+    - groupB
 }}}
 Will now reject an entry called {{{titleA.something}}} but not {{{titleA.groupB}}}
 
