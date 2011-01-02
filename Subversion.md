@@ -15,7 +15,7 @@ svn co http://svn.flexget.com/trunk ~/flexget-dev
 
 After checkout is complete, you need to initialize the environment.
 
-Make sure the {{{python}}} command uses python 2.5 - 2.6. On some systems this may be eg. {{{python2.5}}} or {{{python25}}}.
+Make sure the {{{python}}} command uses python 2.5 - 2.7. On some systems this may be eg. {{{python2.5}}} or {{{python25}}}.
 
 {{{
 python -V
