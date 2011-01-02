@@ -37,6 +37,12 @@ You can execute !FlexGet via:
 bin/flexget
 }}}
 
+Experimental webui can be launched via
+
+{{{
+bin/flexget-webui
+}}}
+
 == Update from SVN ==
 
 Enter path where you did checkout and run
@@ -49,4 +55,4 @@ When updating remember to check [wiki:BleedingEdge bleeding edge news] in case t
 
 == Become a contributor ==
 
-If you're interested improving !FlexGet or maintaining (new) modules, please [wiki:NeedHelp contact] for write access! Patches are also very much welcomed, just create new ticket with description and attach the patch file.
+If you're interested improving !FlexGet or maintaining (new) plugins, please [wiki:NeedHelp contact] for write access! Patches are also very much welcomed, just create new ticket with description and attach the patch file.
