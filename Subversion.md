@@ -8,8 +8,10 @@
 To checkout use command:
 
 {{{
-svn co http://svn.flexget.com/trunk flexget-dev
+svn co http://svn.flexget.com/trunk ~/flexget-dev
 }}}
+
+^You can use whatever you like in place of ~/flexget-dev^
 
 After checkout is complete, you need to initialize the environment.
 
@@ -22,6 +24,7 @@ python -V
 If you're running 2.5 - 2.7, continue with:
 
 {{{
+cd ~/flexget-dev/
 python bootstrap.py
 }}}
 
