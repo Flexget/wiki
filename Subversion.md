@@ -1,10 +1,8 @@
 = !FlexGet subversion =
 
-== Bleeding edge (upcoming 1.0) ==
-
 '''Notes:''' 
 
- * Requires '''Python 2.5 or 2.6''' and subversion client
+ * Requires '''Python 2.5 - 2.7''' and subversion client
  * This is under development at the moment
 
 To checkout use command:
@@ -15,13 +13,13 @@ svn co http://svn.flexget.com/trunk flexget-dev
 
 After checkout is complete, you need to initialize the environment.
 
-Make sure the {{{python}}} command uses python 2.5 or 2.6. On some systems this may be {{{python2.5}}}.
+Make sure the {{{python}}} command uses python 2.5 - 2.6. On some systems this may be eg. {{{python2.5}}} or {{{python25}}}.
 
 {{{
 python -V
 }}}
 
-If you're running >= 2.5, continue with:
+If you're running 2.5 - 2.7, continue with:
 
 {{{
 python bootstrap.py
@@ -37,21 +35,11 @@ You can execute !FlexGet via:
 bin/flexget
 }}}
 
-Experimental webui can be launched via
+Experimental webui can be launched via:
 
 {{{
 bin/flexget-webui
 }}}
-
-== Update from SVN ==
-
-Enter path where you did checkout and run
-
-{{{
-svn update
-}}}
-
-When updating remember to check [wiki:BleedingEdge bleeding edge news] in case there are changes that require actions.
 
 == Become a contributor ==
 
