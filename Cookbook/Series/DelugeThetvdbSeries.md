@@ -39,7 +39,7 @@ First we create a preset called 'tv' that holds all the plugin information we ne
  - We enable the [wiki:Plugins/deluge deluge] plugin, to recieve our torrents
 
 The result of setting the movedone and content_filename using string replacement means that all your shows will end up like this example:
- /media/tv/Lost/Season 1/Lost - S01E03 - Tabula Rasa - 720p.avi
+ /media/tv/Lost/Season 1/Lost - S01E03 - Tabula Rasa - 720p.mkv
 You can adjust those lines to match your naming standard.
 
 In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
