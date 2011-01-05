@@ -13,13 +13,15 @@ presets:
     set:
       path: /media/incomplete
       movedone: /media/tv/%(series_name)s/Season %(series_season)d
-      content_filename: "%(series_name)s - S%(series_season)02dE%(series_episode)02d - %(ep_name)s - %(quality)s"
+      content_filename: '%(series_name)s - %(series_id)s - %(ep_name)s - %(quality)s'
     deluge: yes
+
 feeds:
   betterfeed:
     priority: 1
     preset: tv
     rss: http://feed1.com/feed.xml
+
   backupfeed:
     priority: 2
     preset: tv
@@ -40,4 +42,4 @@ The result of setting the movedone and content_filename using string replacement
  /media/tv/Lost/Season 1/Lost - S01E03 - Tabula Rasa - 720p.avi
 You can adjust those lines to match your naming standard.
 
-In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when flexget is run.
+In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
