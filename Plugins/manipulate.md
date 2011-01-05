@@ -17,7 +17,10 @@ manipulate:
         format: <regexp>
 }}}
 
-Valid values for event are: metainfo and filter, metainfo is the default behaviour and filter is the old behaviour of build r1395
+Valid values for event are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
+
+To see what results your configuration has, use [wiki:Plugins/--dump --dump] plugin to display all entries after execution.
+
 === Example 1 ===
 
 Title is filled with garbage that series plugin does not like.
