@@ -87,29 +87,34 @@ deluge: yes
 The more specific set commands will override the less specific ones (i.e. the set command from name 4 will override the set values from the hdtv group.)
 
 === Content Renaming* ===
+
 The deluge plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in deluge. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
+
 {{{
 series:
   settings:
     groupa:
       set:
-        content_filename: "%(series_name)s - S%(series_season)02dE%(series_episode)02d - %(quality)s"
+        content_filename: "%(series_name)s - %(series_id)s - %(quality)s"
         movedone: /home/user/TV/%(series_name)s/Season %(series_season)d/
   groupa:
     - Show Name
 deluge: yes
 }}}
+
 This config uses python [wiki:Plugins/set#string-replacement string replacement] notation to rename the file using information from the series parser. If there was a file called {{{Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv].mkv}}} inside the torrent, it would be renamed to {{{Show Name - S09E15 - 720p.mkv}}} If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. {{{Show Name - S09E15 - 720p(2).mkv}}}
 
 Together with the movedone command, this means all TV series will be downloaded to:
+
 {{{
-/home/user/TV/Show Name/Seanson #/Show Name - S##E## - quality.ext
+/home/user/TV/Show Name/Season #/Show Name - S##E## - quality.ext
 }}}
 
 ''* This feature requires Deluge 1.2 or newer and !FlexGet r1227 or newer.''
 
 == Windows Users ==
-''(This should be done after you [wiki:InstallWizard/Windows install] !FlexGet)''
+
+''This should be done after you [wiki:InstallWizard/Windows install] !FlexGet''
 
 The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get !FlexGet to use the deluge module, you will have to use easy_install to get them there. Go to a command prompt at C:\Program Files\Deluge\Deluge-Python\ (or wherever your deluge install is) and typed 'easy_install deluge-1.3.0_rc1-py2.6.egg' obviously, this is for 1.3 rc1, adjust the command for whatever version you are using. Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'from deluge.ui.client import client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
 
