@@ -12,7 +12,7 @@ These are mandatory fields
 ||'''Name'''||'''Value'''||
 ||title||Some.Awesome.Series.S01E01.XviD-Foo||
 ||url||!http://site.com/download/Some.Awesome.Series.S01E01.XviD-Foo.torrent||
-||id||4be9694b5408e5d69a20ab2c0841edbf||
+||uid||4be9694b5408e5d69a20ab2c0841edbf||
 
 == Known fields ==
 
