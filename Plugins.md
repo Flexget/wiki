@@ -130,6 +130,7 @@ Execute operation(s) on accepted entries.
 == Command line plugins ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
+||[wiki:Plugins/--dump --dump]||Display all entries after feed execution.||
 ||[wiki:Plugins/--feed --feed]||Executes only the specified feed(s)||
 ||[wiki:Plugins/--imdb-queue --imdb-queue]||'''{{{NEW}}}''' Accept movies from a predefined queue.||
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into feed(s).||
