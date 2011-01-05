@@ -33,5 +33,6 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 The most common use is to look up an episode title that can be used to format a pretty filename. This example uses {{{ep_name}}} as parsed by thetvdb_lookup in the [wiki:Plugins/format_field format_field] plugin to set {{{content_filename}}} (which the [wiki:Plugins/deluge deluge] plugin uses to rename the main file within a torrent.)
 {{{
 thetvdb_lookup: yes
-format_field: "{{ series_name }} - {{ series_id }} - {{ ep_name }}  - {{ quality|upper }}"
+format_field:
+  content_filename: "{{ series_name }} - {{ series_id }} - {{ ep_name }}  - {{ quality|upper }}"
 }}}
