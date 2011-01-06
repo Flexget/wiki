@@ -14,7 +14,7 @@ presets:
       movedone: "/media/tv/{{ series_name }}/Season {{ series_season }}"
       content_filename: >
         {{ series_name }} - {{ series_id }}
-        {% if ep_name %}- {{ ep_name }}{% endif %} - {{ quality|upper }}
+        {% if ep_name %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
         {% if proper %}- proper{% endif %}
     deluge:
       path: /media/incomplete
