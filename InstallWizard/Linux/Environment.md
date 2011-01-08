@@ -2,7 +2,7 @@
 
 == Python ==
 
-Start by making sure you have Python '''2.5.x''' or Python '''2.6.x''' available. Try running commands:
+Start by making sure you have Python '''2.5.x - 2.7.x''' available. Try running commands:
 
 {{{
 python -V
@@ -13,6 +13,7 @@ In some distributions the newer python may be available trough commands:
 {{{
 python25 -V
 python26 -V
+python27 -V
 }}}
 
 If you don't have required version already available, install it from your distribution package manager.
