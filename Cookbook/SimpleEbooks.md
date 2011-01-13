@@ -12,3 +12,5 @@ feeds:
         - Some Magazine
     download: /path/to/torrents/
 }}}
+
+Uses plugins:  [wiki:Plugins/regexp regexp],[wiki:Plugins/download download]
