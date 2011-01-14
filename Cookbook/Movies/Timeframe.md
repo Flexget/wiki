@@ -19,7 +19,6 @@ feeds:
     priority: 1
     rss: http://example.com/feed.rss
     quality: 1080p
-    delay: 10 hours
   
   feed-720p:
     priority: 2
