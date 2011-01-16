@@ -1,4 +1,4 @@
-= Simple Ebook Recipies =
+= Simple Ebook Recipes =
 
 = Using download plugin =
 This recipe uses the regexp plugin to download torrents from an rss feed to a specified path.
