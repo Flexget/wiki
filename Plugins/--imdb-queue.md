@@ -14,7 +14,7 @@ If no quality is specified, it will add the movie with a quality of ANY. This wi
 
 Recognized qualities are 1080p, 1080, 720p, 720, hr, dvd, bdrip, dvdrip, 480p, 480, bdscr, dvdscr, hdtv, pdtv, dsr, dsrip, r5, cam, unknown, ANY
 
-Quality matches are EXACT. There is no "better than the quality specified" logic.
+Quality matches are no longer exact. There is "better than the quality specified" logic now added. Qualities above are from best to worst.
 
 For imdb-queue to look for matches in any feeds, there must be an entry in the configuration for that feed, matching the below.
 
