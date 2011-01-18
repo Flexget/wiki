@@ -9,6 +9,7 @@
  [wiki:Cookbook/Series/DelugeSeriesLabel Set deluge labels to the series name]::
  [wiki:Cookbook/Series/AdvancedTransmissionAndDownloadManagement Download series with transmission (advanced)]::
  [wiki:Cookbook/Series/TimeframeWithMinMaxQuality Timeframe with min and max qualities]::
+ [wiki:Cookbook/Series/PremieresGenres Get serier premieres with genre filtering]::
  [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]::
 
 ''TODO: fix location''
