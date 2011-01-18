@@ -128,6 +128,12 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
+== Metainfo ==
+
+These are automatic, you don't need to configure these.
+
+||[wiki:Plugins/metainfo/quality quality]||Parses quality from the entry||
+
 == Command line plugins ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
