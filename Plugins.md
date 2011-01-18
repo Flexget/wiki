@@ -132,7 +132,7 @@ Execute operation(s) on accepted entries.
 
 These are automatic, you don't need to configure these.
 
-||[wiki:Plugins/metainfo/quality quality]||Parses quality from the entry||
+||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry||
 
 == Command line plugins ==
 
