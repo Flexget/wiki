@@ -2,7 +2,7 @@
 
 This plugin looks up more information from thetvdb.com about any entries that !FlexGet has identified as series. (with a season and episode number) thetvdb_lookup will populate several more entry fields that can be used in other plugins.
 
-||series_name_thetvdb||Series name provided by thetvdb||
+||series_name_tvdb||Series name provided by thetvdb||
 ||series_rating||Series rating||
 ||series_status||Series status(Continuing or Ended)||
 ||series_runtime||Series runtime in minutes)||
