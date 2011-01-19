@@ -169,7 +169,7 @@ Argument {{{--online}}} can be used to enable online tests
 === Run a single test ===
 
 {{{
-bin/nosetests tests/__init__.py:TestDisableBuiltins
+bin/nosetests tests/__init__.py:TestDisableBuiltins --where tests
 }}}
 
 == Running IPython inside !FlexGet ==
