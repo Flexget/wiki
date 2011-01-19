@@ -45,7 +45,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
 ||location||[wiki:Plugins/listdir listdir]||The local filename of the entry.||
-||series_name_thetvdb||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
+||series_name_tvdb||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
 ||series_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
 ||series_status||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series status(Continuing or Ended)||
 ||series_runtime||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series runtime in minutes)||
