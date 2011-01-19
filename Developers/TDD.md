@@ -1,11 +1,11 @@
 = How to create plugins in test driven way =
 
-First create some kind of plugin. In our example: module_hello.py
+Create (beginning of) new plugin. In our example: plugin_hello.py
 
 {{{
-from flexget.plugin import *
+from flexget.plugin import register_plugin
 
-class PluginHello:
+class PluginHello(object):
 
     def on_feed_filter(self, feed):
         for entry in feed.entries:
@@ -41,7 +41,7 @@ class TestHello(FlexGetBase):
 And to run the newly added test:
 
 {{{
-bin/nosetests tests/test_hello.py:TestHello.test_feature
+bin/nosetests tests/test_hello.py:TestHello.test_feature --where tests
 }}}
 
 Note that {{{:TestHello}}} and {{{.testFeature}}} are optional, you can run just whole file as well.
