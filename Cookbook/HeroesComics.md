@@ -16,6 +16,6 @@ feeds:
     download: ~/heroes/
 }}}
 
-Uses plugins: [wiki:ModuleInterval interval], [wiki:InputText text], [wiki:OutputDownload download]
+Uses plugins: [wiki:Plugins/interval interval], [wiki:Plugins/text text], [wiki:Plugins/download download]
 
 [wiki:Cookbook Back to The Cookbook]
