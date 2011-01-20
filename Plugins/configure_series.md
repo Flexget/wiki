@@ -32,7 +32,3 @@ import_series:
     listdir:
       - /media/series/
 }}}
-
-Notes:
-
-Added very recently (2011.19.01). Not well tested and does NOT currently validate configuration so if you make mistakes it will not complain about it.
