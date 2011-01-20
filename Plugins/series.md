@@ -14,6 +14,7 @@ Intelligent filter for TV-series.
  * Timeframe, get best quality in given timeframe
  * Episode advancement
  * !Proper/Repack aware
+ * Specials aware (grabs episodes with the series title and the word 'special')
 
 '''Simple configuration:'''
 
