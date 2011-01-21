@@ -10,14 +10,14 @@ presets:
       - /media/tv
       - /media/incomplete
     thetvdb_lookup: yes
-    format_field:
+    set:
+      path: /media/incomplete
       movedone: "/media/tv/{{ series_name }}/Season {{ series_season }}"
       content_filename: >
         {{ series_name }} - {{ series_id }}
         {% if ep_name %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
         {% if proper %}- proper{% endif %}
     deluge:
-      path: /media/incomplete
       main_file_only: yes
 
 feeds:
@@ -36,7 +36,7 @@ First we create a preset called 'tv' that holds all the plugin information we ne
  - The [wiki:Plugins/thetvdb_favorites thetvdb_favorites] plugin automatically configures the [wiki:Plugins/series series] plugin to download all the shows you have marked as a favorite on thetvdb.com. You can specify all of the options of the series plugin here, this example shows the quality option. Your account_id can be found on your account page at thetvdb.com
  - The [wiki:Plugins/exists_series exists_series] plugin will make sure we don't already have this episode in our tv library or currently downloading folder
  - We enable the [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin to pull the name of the episode from thetvdb.com, we use this info below in {{{content_filename}}}
- - We use the [wiki:Plugins/format_field format_field] plugin to define templates for:
+ - We use the [wiki:Plugins/set set] plugin to define templates for:
   - {{{movedone}}}: Deluge will move the completed files to this location. We use variable substitution to put the files in their own series and season folders
   - [wiki:Plugins/deluge#ContentRenaming content_filename]: This will cause the largest file inside the torrent (the actual show) to be renamed to our naming standard. An alternative [http://www.yaml.org/spec/current.html#id2503232 yaml syntax] for multi-line strings without quotes is used here. With this syntax each newline in the string becomes a space. We use more of the jinja2 features to format the name depending on whether an ep_name was actually retrieved, and whether this episode was a proper. 
  - We enable the [wiki:Plugins/deluge deluge] plugin, to recieve our torrents. Options:
