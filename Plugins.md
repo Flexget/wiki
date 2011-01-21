@@ -111,12 +111,11 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/add_trackers add_trackers]||'''{{{NEW}}}'''  Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{NEW}}}'''  Archive all seen entries for searchable database for later retrieval.||
-||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
+||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}'''  Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
-||[wiki:Plugins/format_field format_field]||'''{{{NEW}}}'''  Sets entry fields based on jinja2 template strings.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
@@ -130,7 +129,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
 ||[wiki:Plugins/search search]||Search for download URL from supported sites.||
-||[wiki:Plugins/set set]||Set 'path' or other info per feed.||
+||[wiki:Plugins/set set]||'''{{{UPGRADED}}}'''  Set 'path' or other info per feed. Can be dynamic per entry.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
