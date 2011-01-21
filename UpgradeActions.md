@@ -8,6 +8,10 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 21.1.2011 r1877 (d.m.yyyy) ==
+
+The format_field plugin has been removed. Its functionality has been taken over by the [wiki:Plugins/set set] plugin, so your config must be updated to use that instead.
+
 == Subversion users: 17.12.2010   ==
 
 If you get message "FATAL: SQLAlchemy 0.6.0 or newer required. Please upgrade your SQLAlchemy." 
