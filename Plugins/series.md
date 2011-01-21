@@ -3,10 +3,6 @@
 
 Intelligent filter for TV-series.
 
-=== Open defects ===
-
-[[TicketQuery(keywords=~series, milestone=1.0, type=defect, status=assigned|reopened, compact)]]
-
 == Features ==
 
  * Episode tracking, no duplicate downloads
@@ -39,17 +35,33 @@ Only one of them is downloaded, with default configuration best quality is chose
  * !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
  * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. Use the most common form and add `name_regexps` that contains all forms!
 
+'''Related plugins:'''
+
+ * [wiki:Plugins/all_series all series]
+ * [wiki:Plugins/import_series import series]
+ * [wiki:Plugins/thetvdb_favorites thetvdb_favorites]
+ * [wiki:Plugins/series_premiere series_premiere]
+
+'''Open tickets:'''
+
+[[TicketQuery(keywords=~series, milestone=1.0, type=defect, status=assigned|reopened, compact)]]
+
 = Settings =
+
 The series plugin supports a number of settings to customize it's behavior. All settings can be applied in either of the following formats.
+
 ==== Per series settings ====
 
 When specifying a setting for a series, you must add a colon to the end of the series name, and add 4 more spaces before the setting name:
+
 {{{
 series:
   - series name:
       [setting]: [value]
 }}}
+
 For example, with [wiki:Plugins/series#Quality quality] settings:
+
 {{{
 series:
   - Series 1
@@ -58,9 +70,11 @@ series:
   - Series 3:
       quality: 720p
 }}}
+
 ==== Group settings ====
 
 Many times, you will want to apply a setting to more than one show at once. In this instance, you can use a more advanced config format, to define groups, and settings that apply to the whole group.
+
 {{{
 series:
   [settings]:
@@ -70,7 +84,9 @@ series:
     - first series
     - second series
 }}}
+
 An example, setting [wiki:Plugins/series#Propers propers] for ''group 1'':
+
 {{{
 series:
   settings:
@@ -86,6 +102,7 @@ series:
   normal:
     - Series 5
 }}}
+
 Notes:
 
  * The names of the groups are arbitrary, so you can pick whatever you want.[[BR]]
@@ -95,6 +112,7 @@ Notes:
  * Series may override any settings specified in group settings.[[BR]]
  In this example ''Series 4'' overrides the quality setting of it's group with 1080p.
 ----
+
 == Quality ==
 
 ||'''Name'''||'''Description'''||
