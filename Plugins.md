@@ -85,7 +85,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 
 == Configuration ==
 
-These plugins configure other from external sources like 3rd party sites.
+These plugins configure other plugins from external sources like 3rd party sites.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||'''{{{NEW}}}'''  Configures the series plugin with all the shows you have marked as favorites at http://thetvdb.com.||
@@ -114,7 +114,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}'''  Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
-||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}'''  Disable plugins from presets.||
+||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
@@ -136,9 +136,12 @@ Execute operation(s) on accepted entries.
 
 == Metainfo ==
 
-These are automatic, you don't need to configure these.
+These are automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry], you don't need to configure these.
 
-||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry||
+||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
+||[wiki:Plugins/metainfo_feed metainfo_feed]||Populates feed field for entries.||
+||[wiki:Plugins/metainfo_series metainfo_series]||Populates series related fields for entries.||
+||[wiki:Plugins/metainfo_imdb metainfo_imdb]||Detects imdb urls from description.||
 
 == Command line plugins ==
 
