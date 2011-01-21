@@ -40,7 +40,7 @@ Use [http://jinja.pocoo.org/templates/ jinja2 template] strings to create or mod
 '''NOTES:'''
  - All the fields from the entry are available in the jinja template context.
  - You can use [http://jinja.pocoo.org/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
- - If a referenced field is not available, nothing will be inserted, but the template rendering will still succeed.
+ - If a referenced field is not available, the target field will be set to an empty string. If you would like to change this, you can use the jinja 'default' filter.
 
 '''Example:'''
 
