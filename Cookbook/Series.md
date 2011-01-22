@@ -1,7 +1,12 @@
 = Series recipes =
 
+=== Good starting points ===
+
  [wiki:Cookbook/Series/SimpleSeries Very basic series configuration]::
  [wiki:Cookbook/Series/Preset Manage series and multiple feeds easily]::
+
+=== More advanced recipes ===
+
  [wiki:Cookbook/Series/DelugeMovedone Set deluge options trough series groups]::
  [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]::
  [wiki:Cookbook/Series/DelugeMultipleQualities Multiple qualities with different paths and series list + deluge]::
