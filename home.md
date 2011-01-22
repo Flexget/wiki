@@ -22,10 +22,6 @@
 
 [wiki:NeedHelp Having problems? Help is near!]
 
-== Developers wanted ==
-
-We're currently implementing web interface to !FlexGet and would love to have more people join the effort! Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
-
 == Latest releases ==
 
 [[Include(http://download.flexget.com/ui/download.php)]]
@@ -72,6 +68,10 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 
 '''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
 
+== Developers wanted ==
+
+We're currently implementing web interface to !FlexGet and would love to have more people join the effort! Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
+
 = Features =
 
  * Process from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
@@ -116,19 +116,3 @@ You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Plugins plugins] or detailed [wiki:Configuration configuration].
 
-= Help !FlexGet =
-
- * Enlist as active developer, help is always welcomed!
- * Improve this wiki
-   * Make any general improvements
-   * Write good tutorials
-   * Request clearing up confusing parts by adding tag ^''[confusing]''^ (wiki syntax: {{{^''[confusing]''^}}})
-   * Request more information by adding tag ^''[need more info]''^
- * Submit more creative plugins (must be MIT-license compatible)
-   * Tip: Resolvers for unsupported [http://torrentfreak.com/top-10-torrent-sites-of-2008-081228/ popular sites]
- * Report errors you encounter
- * Feedback on areas that you find troublesome
-
-=== Expand stub pages ===
-
-[[ListTagged(stub)]]
