@@ -8,6 +8,11 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+
+== 23.1.2011 r1888 (d.m.yyyy) ==
+
+Plugins exec and manipulate configuration was slightly changed due refactoring, if you've used `event` option it needs to be changed to `phase`.
+
 == 21.1.2011 r1877 (d.m.yyyy) ==
 
 The format_field plugin has been removed. Its functionality has been taken over by the [wiki:Plugins/set set] plugin, so your config must be updated to use that instead.
