@@ -23,7 +23,7 @@ exec: echo "downloaded file %(output)s" >> file
 
 You can use all (available) [wiki:Entry entry] fields in the command.
 
-== Advanced Configuration^^^*^^^ ==
+== Advanced Configuration^^^1, 2^^^ ==
 
 If you need more control over what entries and when the command gets executed, you can use the advanced configuration format. This requires some understanding of how the [wiki:Developers internals] of !FlexGet work.
 
@@ -33,12 +33,12 @@ Execute commands.
 
 {{{
 exec:
-  [ON_EVENT]:
-    [event]: CMD
+  [ON_PHASE]:
+    [phase]: CMD
     [FOR_ENTRIES]: CMD
 }}}
 
-Available ''ON_EVENTS'': on_start, on_input, on_filter, on_output and on_exit
+Available ''ON_PHASE'': on_start, on_input, on_filter, on_output and on_exit
 [[BR]]
 Available ''FOR_ENTRIES'': for_entries, for_accepted, for_rejected and for_failed
 [[BR]]
@@ -49,7 +49,7 @@ Available ''FOR_ENTRIES'': for_entries, for_accepted, for_rejected and for_faile
 {{{    
 exec: 
   on_start: 
-    event: echo "Started"
+    phase: echo "Started"
   on_input:
     for_entries: echo "got %(title)s"
   on_output: 
@@ -59,8 +59,10 @@ exec:
 See [wiki:Entry entry documentation] for list of possible fields.
 
 === Fail entries option ===
+
 Setting the {{{fail_entries}}} option to yes will cause the entry to fail if the executed command has a non-zero return code.
 This option will also cause entries to fail that do not contain all of the variables needed for string substitution.
+
 {{{
 exec:
   fail_entries: yes
@@ -89,4 +91,7 @@ exec:
     for_accepted: get_flash_videos %(url)s &
 }}}
 
-^^^* Prior to r1552 advanced configuration was it's own plugin, adv_exec.^^^
+=== Footnotes ===
+
+ 1. Prior to r1552 advanced configuration was it's own plugin, adv_exec.
+ 2. Prior to r1888 ''phase'' was called ''event''
