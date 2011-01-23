@@ -4,12 +4,12 @@ Mainly for advanced users only. Allows setting and cleaning entry fields with re
 
 For revisions prior r1395 see [wiki:Plugins/manipulate?version=8 older version].
 
-Syntax:
+Syntax:^1^
 
 {{{
 manipulate:
   - <destination field>:
-      [event]: <event>
+      [phase]: <phase>
       [from]: <source field>
       [extract]: <regexp>
       [replace]:
@@ -82,3 +82,7 @@ manipulate:
         regexp: '(.*)/(.*)/(.*)'
         format: '\2.\1.\3'
 }}}
+
+=== Footnotes ===
+
+ 1. Prior r1888 ''phase'' was called ''event''
