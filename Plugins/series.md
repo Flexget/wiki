@@ -1,4 +1,4 @@
-[[PageOutline]]
+[[PageOutline(1-2)]]
 = Series =
 
 Intelligent filter for TV-series.
@@ -259,6 +259,25 @@ series:
 
 To disallow certain groups use [wiki:Plugins/regexp regexp] plugin to reject them.
 
+== Set entry fields ==
+
+Setting this key uses the [wiki:Plugins/set set] plugin to attach some information to each entry that matches the [#Perseriessettings series] or [#Groupsettings series group]. Other plugins may use this information to override their default settings for these entries. For example here is how it might be used to set the [wiki:Plugins/deluge deluge] {{{movedone}}} option for different series groups:
+
+{{{
+series:
+  settings:
+    720p:
+      set:
+        movedone: /media/TV/HD
+    hdtv:
+      set:
+        movedone: /media/TV/SD
+  720p:
+    - Good Shows
+  hdtv:
+    - OK Shows
+}}}
+
 == Episode advancement ==
 
 Series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past. Small margin from latest episode is allowed.
@@ -323,45 +342,24 @@ For example if `some series` appears in two different naming conventions, you ca
       - ^some.srs
 }}}
 
-ep_regexp is for series enumerated by season and episode numbers (eg, S04E01).  The default episode regular expressions used are
+=== Episode numbering matching ===
+
+ep_regexp is for series enumerated by season and episode numbers (eg, S04E01). Naive example:
 
 {{{
 ep_regexp:
   - s(\d+)e(\d+)
   - s(\d+)ep(\d+)
-  - s(\d+).e(\d+)
-  - [^\d]([\d]{1,2})[\s]?x[\s]?(\d+)
 }}}
 
-id_regexp is for series that are not enumerated by season/episode numbering.
+id_regexp is for series that are not enumerated by season/episode numbering. Naive example:
 
 {{{
 id_regexp:
- - (\d\d\d\d).(\d+).(\d+)
- - (\d+).(\d+).(\d\d\d\d)
- - (\d\d\d\d)x(\d+)\.(\d+)
- - [^s^\d](\d{1,3})[^p^\d]
+  - (\d\d\d\d).(\d+).(\d+)
+  - (\d+).(\d+).(\d\d\d\d)
 }}}
 
 User defined regexps takes priority over the built-in expressions.
 
 Specifying `ep_regexp` disables all `id_regexp`'s and vice versa.
-
-== Set entry fields ==
-
-Setting this key uses the [wiki:Plugins/set set] plugin to attach some information to each entry that matches the [#Perseriessettings series] or [#Groupsettings series group]. Other plugins may use this information to override their default settings for these entries. For example here is how it might be used to set the [wiki:Plugins/deluge deluge] {{{movedone}}} option for different series groups:
-
-{{{
-series:
-  settings:
-    720p:
-      set:
-        movedone: /media/TV/HD
-    hdtv:
-      set:
-        movedone: /media/TV/SD
-  720p:
-    - Good Shows
-  hdtv:
-    - OK Shows
-}}}
