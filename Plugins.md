@@ -136,12 +136,14 @@ Execute operation(s) on accepted entries.
 
 == Metainfo ==
 
-These are automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry], you don't need to configure these.
+These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry].
 
 ||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
 ||[wiki:Plugins/metainfo_feed metainfo_feed]||Populates feed field for entries.||
-||[wiki:Plugins/metainfo_series metainfo_series]||Populates series related fields for entries.||
+||[wiki:Plugins/metainfo_series metainfo_series]^1^||Populates series related fields for entries, even without [wiki:Plugins/series series] plugin.||
 ||[wiki:Plugins/metainfo_imdb metainfo_imdb]||Detects imdb urls from description.||
+
+^1. Not a builtin, configuration required to enable.^
 
 == Command line plugins ==
 
