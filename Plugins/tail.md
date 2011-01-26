@@ -11,3 +11,7 @@ tail:
     title: 'TITLE: (.*) URL:'
     url: 'URL: (.*)'
 }}}
+
+If the log file is detected to be smaller than in previous scan the position is reseted.
+
+To reset file position manually use `--tail-reset FILE`
