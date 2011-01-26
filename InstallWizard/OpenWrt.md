@@ -6,7 +6,9 @@ OpenWrt is described as a Linux distribution for embedded devices.
 
 == Python ==
 
-Python, !FlexGet and dependencies need ~7mb of free space. python-openssl is only necessary for https connections, python-expat for the nzb-plugin.
+Python, !FlexGet and dependencies need ~7MB^1^ of free space. python-openssl is only necessary for https connections, python-expat for the nzb-plugin.
+
+^1. FlexGet has now few dependencies that are fairly large (~10MB) .. These are only needed for future webui so it would be possible to run FlexGet without them. However easy_install will install them too.^
 
 {{{
 opkg install python
@@ -29,7 +31,7 @@ Beware of this ticket: https://dev.openwrt.org/ticket/8135
 Run command:
 
 {{{
-python /usr/lib/python2.6/site-packages/easy_install.py http://download.flexget.com/unstable/FlexGet-1.0rXXXX-py2.6.egg
+python /usr/lib/python2.6/site-packages/easy_install.py flexget
 }}}
 
 This will install !FlexGet and all additional components it requires.
@@ -60,4 +62,6 @@ BeautifulSoup
 SQLAlchemy
 feedparser
 }}}
+
+Out of Date
 
