@@ -45,6 +45,19 @@ rss:
   link: guid
 }}}
 
+You can also configure link with a list of fields. This will cause the download, deluge, and transmission plugins to fall back to later urls if there is a problem with the first. This can be especially useful if you are using the deluge or transmission plugin, and your feed provides a magneturi field. This example falls back on a magnet link if there is an error grabbing the direct torrent download. 
+
+'''Example'''
+
+{{{
+rss:
+  url: <url>
+  link:
+    - link
+    - magneturi
+}}}
+'''Note:''' This example requires your feed provides the magneturi field, and that you are using an output plugin that can handle magnet uris.
+
 === Silent mode ===
 You can disable few possibly annoying warnings by setting {{{silent}}} value to {{{yes}}} on feeds where there are
 frequently invalid items.
@@ -58,8 +71,8 @@ rss:
 }}}
 
 === Group Links ===
-If the feed has several links by item, you can set the {{{group links}}} value to {{{yes}}}. This way, only one entry will be generated for the item, with all links attached to it.
-Links are enclosures plus item fields given by the {{{link}}} value, in that order.
+If the feed has several links by item, you can set the {{{group_links}}} value to {{{yes}}}. This way, only one entry will be generated for the item, with all links attached to it.
+Links are fields given by the {{{link}}} value plus enclosures, in that order.
 
 The download plugin will then try to download each link until one works.
 
@@ -68,7 +81,7 @@ The download plugin will then try to download each link until one works.
 {{{
 rss:
   url: <url>
-  group links: yes
+  group_links: yes
 }}}
 
 === Capture other fields ===
