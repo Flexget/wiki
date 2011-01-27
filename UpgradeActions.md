@@ -9,6 +9,10 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
 
+== 27.1.2011 r1891 (d.m.yyyy) ==
+
+[wiki:Plugins/rss rss] plugin option {{{group links}}} has been changed to {{{group_links}}} to be consistent with the other options. Update your config if you are using it.
+
 == 23.1.2011 r1888 (d.m.yyyy) ==
 
 Plugins exec and manipulate configuration was slightly changed due refactoring, if you've used `event` option it needs to be changed to `phase`.
