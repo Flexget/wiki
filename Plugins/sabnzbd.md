@@ -9,10 +9,6 @@ sabnzbd:
   category: movies
 }}}
 
-'''Notes:'''
-
- * For some reason `localhost` and `127.0.0.1` doesn't seem to work (anymore). Use real NIC IP instead. ''(Example: 10.0.0.1)''
-
 === All possible parameters ===
 
 {{{
