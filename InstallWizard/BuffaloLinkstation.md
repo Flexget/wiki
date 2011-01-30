@@ -1,3 +1,4 @@
+= Python set-up =
 Assuming you are using the IPKG package manager, you will first need to set up python by using:
 
 {{{
@@ -13,7 +14,9 @@ ipkg install py25-feedparser
 ipkg install py25-yaml
 }}}
 ''(please note: you can also use Python 2.6)''
-You now can either download FlexGet from the [http://flexget.com/ FlexGet homepage] and copy this to your shared directory or use easy_install directly with the correct URL:
+
+= flexget setup =
+You now can either download FlexGet from the FlexGet homepage and copy this to your shared directory or use easy_install directly with the correct URL:
 
 {{{
 #(method 1) direct download:
@@ -26,6 +29,7 @@ You can check your installation using
 
 {{{
 python /opt/local/bin/flexget -V
+-1.0r<your version>
 }}}
 
 To call FlexGet directly you can go for:
@@ -34,6 +38,9 @@ To call FlexGet directly you can go for:
 python /opt/local/bin/flexget
 }}}
 
+You will need a configuration file, whereas the most simple version you find on the homepage and more complete versions in the cookbook, linked below.
+
+= Cron job =
 If you want FlexGet to automatically run e.g. every 45 minutes you can include the following in your crontab:
 
 {{{
