@@ -8,6 +8,23 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 30.1.2011 r1899 (d.m.yyyy) ==
+
+[wiki:Plugins/thetvdb_favorites thetvdb_favorites] has been refactored into an input plugin for use with [wiki:Plugins/import_series import_series]. To upgrade your config, if it used to be:
+{{{
+thetvdb_favorites:
+  account_id: xxxx
+  quality: 720p
+}}}
+It should now be:
+{{{
+import_series:
+  settings:
+    quality: 720p
+  from:
+    thetvdb_favorites:
+      account_id: xxxx
+}}}
 
 == 27.1.2011 r1891 (d.m.yyyy) ==
 
