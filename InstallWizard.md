@@ -17,3 +17,4 @@ This wizard guides you through installing !FlexGet.
  * [wiki:InstallWizard/QNAP QNAP NAS]
  * [wiki:InstallWizard/ReadyNAS ReadyNAS]
  * [wiki:InstallWizard/SynologyNAS SynologyNAS]
+ * [wiki:InstallWizard/BuffaloLinkstation Buffalo Linkstation]
