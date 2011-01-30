@@ -16,7 +16,7 @@ ipkg install py25-yaml
 ''(please note: you can also use Python 2.6)''
 
 = flexget setup =
-You now can either download FlexGet from the FlexGet homepage and copy this to your shared directory or use easy_install directly with the correct URL:
+You now can either download FlexGet from the homepage and copy this to your shared directory or use easy_install directly with the correct URL:
 
 {{{
 #(method 1) direct download:
@@ -57,4 +57,4 @@ crontab -e
 #so you basically would load edit the crontab file (crontab -e), hit i, insert the new line, hit ESC, :wq, done
 }}}
 
-For sample FlexGet configurations, check out the [wiki:Cookbook Cookbook].
+For sample configurations, check out the [wiki:Cookbook Cookbook].
