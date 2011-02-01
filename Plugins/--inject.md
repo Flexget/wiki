@@ -5,7 +5,7 @@ Allows injecting imaginary entry for !FlexGet to process.
 '''Syntax:'''
 
 {{{        
---inject <TITLE> [URL] [FORCE]
+--inject <TITLE> [URL] [ACCEPT] [FORCE]
 }}}
         
 Without URL a random url will be generated. All other inputs are disabled.
@@ -25,4 +25,4 @@ assuming feed accepts the injected entry.
 flexget --feed=some.feed --inject "Some.Title" "Some.direct.url" yes yes
 }}}
         
-This would inject imaginary title with direct link to file into a single feed and download it.
+This would inject imaginary title with direct link to file into a single feed, accept it and force it trough even if some filter tries to reject it.
