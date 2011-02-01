@@ -25,19 +25,21 @@ feeds:
     download: ...
 
   sort-series:
-    listdir: /storage/downloads
+    find:
+      path: /storage/downloads/
+      regexp: '.*\.(avi|mkv)$'
     disable_builtins: [seen]
     preset: tv-series
     set:
       path: /storage/series/%(series_name)s/Season %(series_season)02d
-    adv_exec:
+    exec:
       on_output:
         for_rejected: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
         for_entries: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
 }}}
 '''Uses Plugins:'''
 
- - [wiki:Plugins/listdir listdir]: In this recipe, we use listdir which creates an entry for each file in the specified path (/storage/downloads/ in this case.)
+ - [wiki:Plugins/find find]: In this recipe, we use find which creates an entry for each file in the specified path (/storage/downloads/ in this case,) that match the regexp pattern specified.
  - [wiki:Plugins/disable_builtins disable_builtins]: We disable the builtin seen plugin so that the series plugin will still parse titles that flexget has already seen (while downloading the first time.)
  - [wiki:Plugins/series series]: The series plugin is used to grab the series info (name, season, episode) from each file. We must list out all the series we want sorted.
  - [wiki:Plugins/set set]: We use the set plugin to build the new path for the files, using the variables added by the series plugin.*
