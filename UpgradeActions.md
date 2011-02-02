@@ -8,6 +8,16 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 2.2.2011 (d.m.yyyy) ==
+
+If you have very old installation / database, you might want to run:
+
+{{{
+CREATE INDEX movie_url_index on imdb_movies (url);
+}}}
+
+This will improve performance with imdb lookups from the cache.
+
 == 30.1.2011 r1899 (d.m.yyyy) ==
 
 [wiki:Plugins/thetvdb_favorites thetvdb_favorites] has been refactored into an input plugin for use with [wiki:Plugins/import_series import_series]. To upgrade your config, if it used to be:
