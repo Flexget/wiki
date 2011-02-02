@@ -13,7 +13,7 @@ In future (after official 1.0 release) manual tweaking should not be needed anym
 If you have very old installation / database, you might want to run:
 
 {{{
-CREATE INDEX ix_imdb_movies_url ON imdb_movies (url);
+sqlite3 db-config.sqlite "CREATE INDEX ix_imdb_movies_url ON imdb_movies (url);"
 }}}
 
 This will improve performance with imdb lookups from the cache.
