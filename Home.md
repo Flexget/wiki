@@ -22,12 +22,6 @@
 
 [wiki:NeedHelp Having problems? Help is near!]
 
-== Latest releases ==
-
-[[Include(http://download.flexget.com/ui/download.php)]]
-
-[http://download.flexget.com All builds] | [wiki:Subversion Subversion] | [wiki:UpgradeActions Upgrade actions]
-
 = Introduction =
 
 !FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, etc. !FlexGet is able to handle different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds.
