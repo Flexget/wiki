@@ -17,16 +17,24 @@ presets:
 feeds:
   nzbclub:
     preset: tv
+
     rss: 
       url: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1
-      filename: no                                               # prevent ugly names from the rss
+      # prevent ugly names from the rss
+      filename: no
+
+    # proper download links via urlrewrite
     urlrewrite:
       nzbclub:
         regexp: http://(www.)?nzbclub.com/nzb_view
         format: http://nzbclub.com/nzb_download
-    manipulate:                                                  # remove all crap from the title
+
+    # remove all crap from the title
+    manipulate:                                                  
       - title:
-          extract: .*\[\s*(.*)\s*\]-.*
-    set:                                                         # prevent content-disposition being used, causing filename to fallback to (now clean) title
+          extract: \[\s(.*)\s\]
+
+    # prevent content-disposition being used, causing filename to fallback to (now clean) title
+    set:
       content-disposition: no
 }}}
