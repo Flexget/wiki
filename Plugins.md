@@ -10,9 +10,6 @@
 #<b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
 
-0.9.x users should look [wiki:Modules here].
-
-
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates.
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file.
