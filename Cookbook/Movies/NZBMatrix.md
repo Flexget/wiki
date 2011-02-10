@@ -1,7 +1,9 @@
-== Input: NZBMatrix RSS Feed ==
+== Download movies from NZBMatrix using IMDB filtering and SABnzbd using Usenet ==
+
+=== Input: NZBMatrix RSS Feed ===
 This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requires a VIP account with them. In this case, I am pulling all english HD x264 encoded movies. You can create your own [http://rss.nzbmatrix.com/ personalized RSS feed] for other categories as well. 
 
-== Filters: ==
+=== Filters ===
 [[Plugins/content_size|content_size]]: is probably not needed, but can be used to reject movies with file size that are obviously too big or small (# is in MB). 
 
 [[Plugins/quality|quality]]: allows controls what quality of movie you want. Here I indicate 720p.
@@ -16,13 +18,13 @@ This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requir
 
 [[Plugins/seen_movies|seen_movies]]: rejects movies that have already been downloaded but might be from a different group/release
 
-== Download: SABnzbd ==
+=== Download: SABnzbd ===
 Finally any movies that make it through all filtering is then downloaded with [http://sabnzbd.org/ SABnzbd].
 
 [[Plugins/sabnzbd|SABnzbd plugin]] requires key and url whereas the other fields are optional based on your set up. 
 
 
-== config.yml ==
+=== config.yml ===
 
 {{{
 feeds:
@@ -52,5 +54,5 @@ feeds:
 }}}
 
 
-== Optional: Create your own RSS feed ==
+=== Optional: Create your own RSS feed ===
 Interesting option would be to instead output to your own [[Plugins/make_rss|RSS feed]], which many sabnzbd servers could then use to automatically download from. You could create a ''Bob's top horror movies'' list that your friends/family could subscribe to. 
