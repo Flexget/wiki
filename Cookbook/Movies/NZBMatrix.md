@@ -19,7 +19,7 @@ This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requir
 == Download: SABnzbd ==
 Finally any movies that make it through all filtering is then downloaded with [http://sabnzbd.org/ SABnzbd].
 
-[[Plugins/sabnzbd SABnzbd plugin]] requires key and url whereas the other fields are optional based on your set up. 
+[[Plugins/sabnzbd|SABnzbd plugin]] requires key and url whereas the other fields are optional based on your set up. 
 
 
 == config.yml ==
@@ -53,4 +53,4 @@ feeds:
 
 
 == Optional: Create your own RSS feed ==
-Interesting option would be to instead output to your own [[PLugins/rss|RSS feed]], which many sabnzbd servers could then use to automatically download from. You could create a ''Bob's top horror movies'' list that your friends/family could subscribe to. 
+Interesting option would be to instead output to your own [[Plugins/make_rss|RSS feed]], which many sabnzbd servers could then use to automatically download from. You could create a ''Bob's top horror movies'' list that your friends/family could subscribe to. 
