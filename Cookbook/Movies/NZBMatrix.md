@@ -23,7 +23,7 @@ This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requir
 === Download: SABnzbd ===
 Finally any movies that make it through all filtering is then downloaded with [http://sabnzbd.org/ SABnzbd].
 
-[[Plugins/sabnzbd|SABnzbd plugin]] requires key and url whereas the other fields are optional based on your set up. 
+[[Plugins/sabnzbd|SABnzbd plugin]] requires key and url whereas the category field is optional. 
 
 
 === config.yml ===
@@ -50,8 +50,6 @@ feeds:
       key: <your sabnzbd api key>
       url: http://<your ip>/sabnzbd/api?
       category: movies
-      username: <your username>
-      password: <your password>
 
 }}}
 
