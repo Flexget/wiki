@@ -1,4 +1,6 @@
-== Download movies from NZBMatrix using IMDB filtering and SABnzbd using Usenet ==
+== Download movies from NZBMatrix using IMDB filtering and SABnzbd over Usenet ==
+
+----
 
 === Input: NZBMatrix RSS Feed ===
 This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requires a VIP account with them. In this case, I am pulling all english HD x264 encoded movies. You can create your own [http://rss.nzbmatrix.com/ personalized RSS feed] for other categories as well. 
