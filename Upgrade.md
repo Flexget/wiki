@@ -19,7 +19,7 @@ Write this somewhere down.
 If you have short cron interval, comment !FlexGet out from the cron. After you've ran successfully manually, put it back.
 
 {{{
-easy_install --upgrade flexget
+easy_install --upgrade Flexget
 }}}
 
 Subversion users can just run `svn up`.
