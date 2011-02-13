@@ -3,7 +3,7 @@
 === Install ===
 
 {{{
-easy_install flexget
+easy_install Flexget
 }}}
 
 === Determine full path to executable ===
