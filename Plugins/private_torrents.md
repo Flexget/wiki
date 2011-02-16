@@ -1,5 +1,7 @@
 = Private Torrents =
 
+'''Syntax:'''
+
 {{{
 private_torrents: yes|no
 }}}
