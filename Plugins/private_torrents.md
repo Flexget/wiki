@@ -1,5 +1,7 @@
 = Private Torrents =
 
+Uses private flag in torrent file to determine what to do with private torrents.
+
 '''Syntax:'''
 
 {{{
