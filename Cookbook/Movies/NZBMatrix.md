@@ -52,7 +52,3 @@ feeds:
       category: movies
 
 }}}
-
-
-=== Optional: Create your own RSS feed ===
-Interesting option would be to instead output to your own [[Plugins/make_rss|RSS feed]], which many sabnzbd servers could then use to automatically download from. You could create a ''Bob's top horror movies'' list that your friends/family could subscribe to. 
