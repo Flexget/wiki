@@ -73,6 +73,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/imdb_queue imdb_queue]||Accept movies from imdb queue.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the feed on the previous run to be rejected at the input phase.||
+||[wiki:Plugins/private_torrents private_torrents]||'''{{{NEW}}}'''  Reject private or public torrents.||
 ||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/require_field require_field]||'''{{{NEW}}}'''  Reject entries that do not have the specified fields.||
