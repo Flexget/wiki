@@ -4,7 +4,7 @@
 private_torrents: yes|no
 }}}
 
-===Example===
+=== Example ===
 
 {{{
 private_torrents: no
@@ -12,7 +12,7 @@ private_torrents: no
 
 This would reject all torrent entries with private flag.
 
-===Example===
+=== Example ===
 
 {{{
 private_torrents: yes
