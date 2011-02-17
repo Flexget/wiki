@@ -9,7 +9,7 @@ import_series:
   [settings]:
     # any series option
   from:
-    # any input
+    # any input(s)
 }}}
 
 '''Example:'''
