@@ -116,11 +116,12 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
+||[wiki:Plugins/free_space free_space]||'''{{{NEW}}}''' Abort feed when drive space is low.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Tries to perform imdb lookup for all entries.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
-||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}'''  Allows regexp manipulation for entries.||
+||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}''' Allows regexp manipulation for entries.||
 ||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the a feed when explicitly specified.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
