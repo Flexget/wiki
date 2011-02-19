@@ -43,9 +43,9 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
+||[wiki:Plugins/emit_imdb_queue emit_imdb_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/imdb_queue imdb_queue], useful for example with [wiki:Plugins/search search].||
 ||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
-||[wiki:Plugins/input_imdb_queue imdb_queue_input]||'''{{{NEW}}}''' Get entries from IMDB queue to pass to search plugin||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
