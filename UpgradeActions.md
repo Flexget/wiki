@@ -8,6 +8,16 @@ Note: Run all sqlite3 commands from the directory where your `db-config.sqlite` 
 
 In future (after official 1.0 release) manual tweaking should not be needed anymore ... (#288)
 
+== 20.2.2011 r1954 (d.m.yyyy) ==
+
+There were some changes in the remember_rejected database. You may need to drop the table so it is re-created properly.
+
+Execute:
+
+{{{
+sqlite3 db-config.sqlite "drop table remember_rejected_entry;"
+}}}
+
 == 2.2.2011 (d.m.yyyy) ==
 
 If you have very old installation / database, you might want to run:
