@@ -10,15 +10,16 @@
 <h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
 }}}
 
-=== Documentation ===
+=== Important pages ===
 
  * '''[wiki:Install Installation guide]'''
    * [wiki:Upgrade Upgrading]
+   * [wiki:Download Manual Download]
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
  * '''[wiki:Cookbook The Cookbook]'''
- * '''[wiki:Developers Developer resources]'''
- * '''[wiki:Plugins Plugins] (1.0.x)'''
+ * '''[wiki:Developers Developers]'''
+ * '''[wiki:Plugins Plugins]'''
 
 [wiki:NeedHelp Having problems? Help is near!]
 
