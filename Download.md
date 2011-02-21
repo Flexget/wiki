@@ -1,6 +1,6 @@
 = Download =
 
-Manual downloading is not usually needed, please see [wiki:Install Install Guide] instead.
+'''NOTE:''' Manual downloading is not usually needed, please see [wiki:Install Install Guide] instead.
 
 [[Include(http://download.flexget.com/ui/download.php)]]
 
