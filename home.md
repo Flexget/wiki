@@ -10,6 +10,8 @@
 <h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
 }}}
 
+[[Include(http://download.flexget.com/ui/version.php)]]
+
 === Important pages ===
 
  * '''[wiki:Install Installation guide]'''
