@@ -18,11 +18,13 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 ||series_actors||Series actors||
 ||series_language||Series language(en, fr, etc.)||
 ||imdb_url||Series imdb url||
+||imdb_id||||
 ||zap2it_id||||
+||thetvdb_id||||
 ||ep_name||Episode name||
 ||ep_overview||Episode plot||
-||ep_director||Episode director||
-||ep_writer||Episode writer||
+||ep_directors||Episode directors||
+||ep_writers||Episode writers||
 ||ep_air_date||Episode air date||
 ||ep_rating||Episode rating||
 ||ep_guest_stars||Episode guest stars||
