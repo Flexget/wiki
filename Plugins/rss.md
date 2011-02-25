@@ -109,8 +109,8 @@ rss:
 Some trackers are private and require that you use some form of authentication. One might want to try using the [wiki:Plugins/headers headers] plugin.
 
 {{{
-header:
-  cookie: 'uid=XXXXXXXXXXXXXXXX;pass=XXXXXXXXXXXXXXXXXXX'
+headers:
+  Cookie: 'uid=XXXXXXXXXXXXXXXX;pass=XXXXXXXXXXXXXXXXXXX'
 rss:
   url: <url>
 }}}
