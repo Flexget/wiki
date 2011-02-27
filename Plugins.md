@@ -130,6 +130,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
 ||[wiki:Plugins/search search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||'''{{{UPGRADED}}}'''  Set 'path' or other info per feed. Can be dynamic per entry.||
+||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
