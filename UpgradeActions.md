@@ -6,11 +6,12 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 !FlexGet doesn't yet have automatic database upgrading functionality so users are required to modify the database manually when upgrading to version where the database structure has changed.
 
-Luckily this is not very hard, usually you just need to run one command which is in latest changes reported by !FlexGet.
+Luckily this is not very hard, usually you just need to run one command which is usually reported when you try to run !FlexGet with old database. For some older changes you need to look the command from this page.
 
 '''Example:'''
 
 {{{
+2011-02-27 14:11 CRITICAL change You're running old database! Please see 'Upgrade Actions' at flexget.com for necessary actions!
 2011-02-27 14:11 CRITICAL change Please run : sqlite3 /home/user/.flexget/db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
 }}}
 
