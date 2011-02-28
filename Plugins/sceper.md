@@ -1,9 +1,11 @@
 = !SceneReleases =
 
-Uses scenereleases.info category url as input.
+Uses sceper.eu category url as input.
 
 Example:
 
 {{{
-scenereleases: http://www.scenereleases.info/search/label/Movies%20-%20DVD%20Rip
+scenereleases: http://sceper.eu/category/tv-shows/tv-shows-x264?themedemo=SceneRLSv3
 }}}
+
+Note that you have to append {{{?themedemo=SceneRLSv3}}} to category URL in your config.
