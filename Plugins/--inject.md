@@ -26,3 +26,12 @@ flexget --feed=some.feed --inject "Some.Title" "Some.direct.url" yes yes
 }}}
         
 This would inject imaginary title with direct link to file into a single feed, accept it and force it trough even if some filter tries to reject it.
+
+=== Setting Entry Fields ===
+You can also set arbitrary [wiki:Entry entry fields] when injecting. This is done in entryfield=value format. These can be listed at any point after the url.
+
+'''Example:'''
+
+{{{
+flexget --feed=some.feed --inject "Some Title" "Some.direct.url" yes yes imdb_id=tt33333
+}}}
