@@ -19,3 +19,8 @@ You should almost certainly use imdb_queue: yes with this, like below. As above,
 {{{
 imdb_queue: yes
 }}}
+
+=== Notes ===
+
+ * Somewhat poorly tested
+ * Emits names in IMDB translated form, making this pretty useless with [wiki:Plugins/search search] if you live somewhere where english isn't primary language.
