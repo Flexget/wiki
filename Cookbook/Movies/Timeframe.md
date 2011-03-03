@@ -10,7 +10,7 @@ preset:
     imdb:
       min_score: 6.2
       min_votes: 5000
-    seen_movies: yes
+    seen_movies: strict
     download: ~/torrents/movies/
 
 feeds:
