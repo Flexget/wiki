@@ -5,7 +5,7 @@ The [wiki:Plugins/series series] plugin has timeframe functionality which allows
 '''Example:'''
 
 {{{
-preset:
+presets:
   movies:
     imdb:
       min_score: 6.2
