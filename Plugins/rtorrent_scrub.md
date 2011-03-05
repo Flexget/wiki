@@ -22,7 +22,7 @@ feeds:
     rtorrent_scrub: resume
 }}}
 
-If you want to be sure that all feed are scrubbed, because you can never know, use this:
+If you want to be sure that all feeds are scrubbed, because you can never know, use this:
 {{{
 presets:
   global:
