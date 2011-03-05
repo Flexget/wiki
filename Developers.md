@@ -116,13 +116,16 @@ Feed is a class that represents one feed in configuration file.
   feed specific configuration (dict).
 
  entries::
-  list containing [wiki:DevelopersEntry entries].
+  list containing undecided and accepted [wiki:DevelopersEntry entries].
 
  accepted::
   list containing accepted entries
 
  rejected::
   list containing rejected entries
+
+ failed::
+  list containing failed entries
 
  simple_persistence::
   provides easy key, value persistence for modules that do not require the full SQLAlchemy capabilities.
