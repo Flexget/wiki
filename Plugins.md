@@ -129,6 +129,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
+||[wiki:Plugins/rtorrent_scrub rtorrent_scrub] || Removes resume information from downloads that prevent the torrent from properly starting in Rtorrent.||
 ||[wiki:Plugins/search search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/set set]||'''{{{UPGRADED}}}'''  Set 'path' or other info per feed. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
