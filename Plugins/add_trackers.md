@@ -1,6 +1,6 @@
 = Add Trackers =
 
-Adds the listed trackers to any torrents grabbed by the feed.
+Adds the listed trackers to any torrents grabbed by the feed. Also works on magnet urls.
 
 === Example ===
 
