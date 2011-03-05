@@ -6,6 +6,8 @@ Create (beginning of) new plugin. In our example: plugin_hello.py
 from flexget.plugin import register_plugin
 
 class PluginHello(object):
+    """Short description of what this plugin does.
+    """
 
     def on_feed_filter(self, feed):
         for entry in feed.entries:
