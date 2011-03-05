@@ -49,6 +49,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
+||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
