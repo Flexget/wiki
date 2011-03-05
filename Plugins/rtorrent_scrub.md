@@ -15,8 +15,16 @@ To prevent the typical problems caused by improper uploads of torrents created b
 
 == Examples ==
 
+To scrub one feed:
 {{{
 feeds:
   rutorrent-fast-resume-infected-feed:
+    rtorrent_scrub: resume
+}}}
+
+If you want to be sure that all feed are scrubbed, because you can never know, use this:
+{{{
+presets:
+  global:
     rtorrent_scrub: resume
 }}}
