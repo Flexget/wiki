@@ -1,10 +1,22 @@
 = Rtorrent connector =
 
-Opens a Rtorrent XMLRPC connection and allows you to feed the session into FlexGet, or ''later'' load output items directly into the client, including the transfer of metadata available in FlexGet.
+Opens a Rtorrent XMLRPC connection and allows you to feed the session into FlexGet, or (''not yet implemented'') load output items directly into the client, including the transfer of metadata available in FlexGet.
 
 If you use this plugin, you '''MUST''' `easy_install pyrocore` as an additional dependency. Follow the [http://code.google.com/p/pyroscope/wiki/QuickStartGuide installation guide] and [http://code.google.com/p/pyroscope/wiki/UserConfiguration configuration instructions] of PyroScope before adding the plugin configuration to FlexGet.
 
-'''''NOTE:''' This is a new plugin that has not yet matured, which doesn't imply that the code is not quite stable, but the feature-set is lacking so far.''
+'''''NOTE:''' This is a new plugin that has not yet matured, which doesn't imply that the code is not quite stable, but the feature-set is lacking so far, and in flux.''
+
+
+== Configuration ==
+
+The following settings control some basic behaviour:
+ enabled:: Enable the plugin?
+
+These keys are used to control reading the session memory of Rtorrent, i.e. using it as a feed:
+ view:: The Rtorrent view that is used as a source of the feed items (default is `main`).
+ feed_query:: A pyrocore [http://code.google.com/p/pyroscope/wiki/RtControlExamples#Fundamentals filter expression] that selects the item to pass on to FlexGet.
+
+
 
 == Examples ==
 
