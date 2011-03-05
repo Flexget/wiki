@@ -108,4 +108,8 @@ screen -r rtorrent
 
 You are all done, your downloads should start and stop automatically. All that is left for you to do is to make sure that you don't run out of disk space. 
 
+=== Further improvements ===
+
+The [wiki:Plugins/rtorrent rtorrent] plugin can be used to optimize the above setup (when it's ready), and [wiki:Plugins/rtorrent_scrub rtorrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in Rtorrent.
+
 [wiki:Cookbook Back to The Cookbook]
