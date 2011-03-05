@@ -14,7 +14,7 @@ The following settings control some basic behaviour:
 
 These keys are used to control reading the session memory of Rtorrent, i.e. using it as a feed:
  view:: The Rtorrent view that is used as a source of the feed items (default is `main`).
- feed_query:: A pyrocore [http://code.google.com/p/pyroscope/wiki/RtControlExamples#Fundamentals filter expression] that selects the item to pass on to FlexGet.
+ feed_query:: A pyrocore [http://code.google.com/p/pyroscope/wiki/RtControlExamples#Fundamentals filter expression] that selects the items to pass on to FlexGet.
 
 
 
