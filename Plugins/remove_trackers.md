@@ -1,6 +1,6 @@
 = Remove Trackers =
 
-Removes trackers from torrent files using regexp matching.
+Removes trackers from torrent files using regexp matching. Also works on magnet urls.
 
 === Example ===
 
