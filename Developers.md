@@ -31,8 +31,6 @@ You can also pass some optional named arguments
 
 {{{
 Optional arguments:
-    priority    - when multiple plugins of same event type are enabled for a feed
-                  this is used to determine execution order. Default 0. Larger number, higher priority.
     builtin     - set to True if plugin should be executed always
     group       - group name this plugin belongs to
     groups      - list of group names this plugin belongs to
@@ -43,7 +41,7 @@ Example:
 register_plugin(FilterRegexp, 'regexp', priorities={'filter': 128})
 }}}
 
-== Event methods ==
+== Phase methods ==
 
 Listed in order of execution.
 
@@ -56,9 +54,15 @@ Listed in order of execution.
  * on_feed_output(self, feed)
  * on_feed_exit(self, feed)
 
+When multiple plugins of same phase type are enabled for a feed, the priority decorator can be used to define execution order. Default is 128. Larger number, higher priority. e.g.
+{{{
+@priority(120)
+on_feed_filter(self, feed):
+    pass
+}}}
 === Feed execution UML ===
 
-Only most important events shown.
+Only most important phases shown.
 
 {{{
 #!SequenceDiagram
@@ -80,20 +84,20 @@ Feed->Feed: Purge Rejected, Failed
 Feed->Output: Execute Output(s)
 }}}
 
-=== Other events ===
+=== Other phases ===
 
  * on_feed_abort(self, feed)
 
-=== Application events ===
+=== Application phases ===
 
  * on_process_start(self, feed)
  * on_process_end(self, feed)
 
 These are triggered on startup and shutdown, not between feeds.
 
-=== Registering custom events ===
+=== Registering custom phases ===
 
-Plugins may create new feed events, signature is on_feed_<name>(self, feed).
+Plugins may create new feed phases, signature is on_feed_<name>(self, feed).
 
 === Adding commandline parameters ===
 
