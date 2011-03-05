@@ -30,7 +30,7 @@ presets:
       overrides:
         rtorrent_rc: ~/bittorrent/rtorrent.rc
 }}}
-Note that you '''MUST''' do this in the `global` preset.
+Note that you '''MUST''' do this in the `global` preset, because right now, only a connection to ''one'' Rtorrent instance per FlexGet configuration is supported.
 
 
 == Roadmap ==
