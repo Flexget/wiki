@@ -5,16 +5,17 @@ Create (beginning of) new plugin. In our example: plugin_hello.py
 {{{
 from flexget.plugin import register_plugin
 
-class PluginHello(object):
-    """Short description of what this plugin does.
-    """
 
-    def on_feed_filter(self, feed):
+class PluginHello(object):
+    """Short description of what this plugin does."""
+
+    def on_feed_filter(self, feed, config):
+        """Work on entries in the filter phase."""
         for entry in feed.entries:
             log.debug('hello there %s' % entry['title'])
 
 
-register_plugin(PluginHello, 'hello')
+register_plugin(PluginHello, 'hello', api_ver=2)
 }}}
 
 Now, how can you test how this plugin works? Easy, create a test case for it.
@@ -23,6 +24,7 @@ Add new testcase file into tests. In our case: test_hello.py
 
 {{{
 from tests import FlexGetBase
+
 
 class TestHello(FlexGetBase):
     
@@ -41,13 +43,18 @@ class TestHello(FlexGetBase):
 }}}
 
 And to run the newly added test:
-
 {{{
-bin/nosetests tests/test_hello.py:TestHello.test_feature --where tests
+bin/nosetests test_hello.py:TestHello.test_feature
+}}}
+Note that {{{:TestHello}}} and {{{.testFeature}}} are optional, you can run just test the whole file as well:
+{{{
+bin/nosetests test_hello.py
+}}}
+To run all project tests (a good thing to do before committing changes):
+{{{
+bin/paver test
 }}}
 
-Note that {{{:TestHello}}} and {{{.testFeature}}} are optional, you can run just whole file as well.
+Once the plugin is starting to work like it should, you can add more actual real tests. See existing tests for more tips.
 
-Once plugin is starting to work like it should, you can add more actual real tests. See existing tests for more tips.
-
-Happy coding :)
+Happy coding! :)
