@@ -110,6 +110,6 @@ You are all done, your downloads should start and stop automatically. All that i
 
 === Further improvements ===
 
-The [wiki:Plugins/rtorrent rtorrent] plugin can be used to optimize the above setup (when it's ready), and [wiki:Plugins/rtorrent_scrub rtorrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in Rtorrent.
+The [wiki:Plugins/rtorrent rtorrent] plugin can be used to optimize the above setup (when it's ready), and [wiki:Plugins/torrent_scrub torrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in Rtorrent.
 
 [wiki:Cookbook Back to The Cookbook]
