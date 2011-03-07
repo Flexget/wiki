@@ -30,8 +30,9 @@ presets:
 
 To scrub a list of keys you provide:
 {{{
-torrent_scrub:
-  - comment
-  - info.source
+...
+    torrent_scrub:
+      - comment
+      - info.source
 }}}
 Again, anything that changes the "info" dict, like the 2nd entry above, changes the info hash, which isn't wise for downloading purposes.
