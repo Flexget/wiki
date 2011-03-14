@@ -292,6 +292,9 @@ Series Chuck latest episode is S02E22 and suddenly a feed contains S02E20 which 
 '''Result:'''
 Episode advancement does not reject this. This fits inside grace margin from latest episode.
 
+
+Advancement can sometimes be problematic if you have huge gap of recent episodes in `--series` database. You can temporarily disable this feature with `--disable-advancement` option allowing !FlexGet to grab latest episode and continue properly from there.
+
 == Identified by ==
 
 Specify how episode number is detected.
