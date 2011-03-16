@@ -12,3 +12,20 @@ This plugin creates an [wiki:Entry entry] for each torrent that is currently loa
 ||'''Filter options'''||
 ||label||Match torrents with the specified label.||
 ||state||Can be 'active', 'downloading', 'seeding', 'queued' or 'paused'||
+
+== Output ==
+The [wiki:Entry entries] that this plugin creates will have the following entry fields:
+||deluge_state||Current state in Deluge, e.g. 'Downloading'||
+||deluge_label||Label from Deluge||
+||deluge_path||Deluge download location||
+||deluge_movedone||Deluge move completed path||
+||deluge_ratio||Deluge stop ratio||
+||torrent_info_hash||The info hash for the torrent||
+||torrent_seeds||The current number of seeds for the torrent||
+||torrent_peers||The current number of peers for the torrent||
+||torrent_private||A flag that indicates if this torrent is private||
+||content_size||Size in MB of the content||
+||content_files||List of the filenames in the torrent||
+||||''(the following fields are only available if {{{config_path}}} is specified)''||
+||location||Path to torrent file||
+||url||Path to torrent file in '!file://' format||
