@@ -13,7 +13,7 @@ This plugin creates an [wiki:Entry entry] for each torrent that is currently loa
 ||label||Match torrents with the specified label.||
 ||state||Can be 'active', 'downloading', 'seeding', 'queued' or 'paused'||
 
-== Output ==
+== Entry Fields ==
 The [wiki:Entry entries] that this plugin creates will have the following entry fields:
 ||deluge_state||Current state in Deluge, e.g. 'Downloading'||
 ||deluge_label||Label from Deluge||
