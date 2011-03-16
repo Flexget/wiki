@@ -14,12 +14,12 @@ Possible values for quality can be found [wiki:Plugins/quality#KnownQualities he
 
 {{{
 series:
-  - some series:
+  - name of series 1:
       quality: 720p
-  - another series:
+  - name of series 2:
       min_quality: hr
       max_quality: 720p
-  - third_series:
+  - name of series 3:
       qualities:
         - pdtv
         - 720p
@@ -32,11 +32,11 @@ Usually best way to specify quality for series is to use groups:
 {{{
 series:
   720p:
-    - name 1
-    - name 2
+    - name of series 1
+    - name of series 2
   hdtv:
-    - name 3
-    - name 4
+    - name of series 3
+    - name of series 4
 }}}
 
 See [wiki:Plugins/series#Groupsettings groups] for more information.
