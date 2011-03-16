@@ -46,6 +46,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/emit_imdb_queue emit_imdb_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/imdb_queue imdb_queue], useful for example with [wiki:Plugins/search search].||
 ||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
+||[wiki:Plugins/input_deluge input_deluge]||'''{{{NEW}}}''' Use torrents loaded in a Deluge daemon as input.||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
