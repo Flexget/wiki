@@ -27,6 +27,6 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 ||joshuajonah||NAME||<USER@DOMAIN>||
 ||limon||NAME||<USER@DOMAIN>||
 ||paranoidi||Marko Koivusalo||marko.koivusalo@gmail.com||
-||pyroscope||NAME||<USER@DOMAIN>||
+||pyroscope||pyroscope||pyroscope.project@gmail.com||
 ||ressu||NAME||<USER@DOMAIN>||
 ||shrike||NAME||<USER@DOMAIN>||
