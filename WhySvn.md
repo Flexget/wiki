@@ -5,6 +5,7 @@
  * !GitHub and !BitBucket don't really allow making nice site for a project like Trac wiki does (current flexget.com). Who writes us new site?
  * We have SVN hooks .. who remakes them with callbacks?
  * Hudson needs to be reconfigured .. who does that?
+ * Trac sucks with !GitHub, the integration is not just at the level where it is with svn.
 
 === How about some !GitHub presence? ===
 
