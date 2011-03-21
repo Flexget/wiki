@@ -12,3 +12,21 @@
 Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would slightly more patches being present in !GitHub.
 
 '''In short, change requires more effort than we are / I am willing to put into it at the moment! '''
+
+=== Github svn sync ===
+
+[https://github.com/balboah Balboah] is working on having a maintained copy of the svn repository in github, to have the commits pretty and dandy with the correct commiter and everything, we need your git commit name and e-mail. Please edit this list:
+{{{
+branstrom = NAME <USER@DOMAIN>
+bryanforbes = NAME <USER@DOMAIN>
+dragonfyre13 = NAME <USER@DOMAIN>
+egolost = NAME <USER@DOMAIN>
+gazpachoking = NAME <USER@DOMAIN>
+gray = NAME <USER@DOMAIN>
+joshuajonah = NAME <USER@DOMAIN>
+limon = NAME <USER@DOMAIN>
+paranoidi = NAME <USER@DOMAIN>
+pyroscope = NAME <USER@DOMAIN>
+ressu = NAME <USER@DOMAIN>
+shrike = NAME <USER@DOMAIN>
+}}}
