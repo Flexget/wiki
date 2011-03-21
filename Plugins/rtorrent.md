@@ -2,7 +2,7 @@
 
 Opens a Rtorrent XMLRPC connection and allows you to feed the session into FlexGet, or (''not yet implemented'') load output items directly into the client, including the transfer of metadata available in FlexGet.
 
-If you use this plugin, you '''MUST''' `easy_install pyrocore` as an additional dependency. Follow the [http://code.google.com/p/pyroscope/wiki/QuickStartGuide installation guide] and [http://code.google.com/p/pyroscope/wiki/UserConfiguration configuration instructions] of PyroScope before adding the plugin configuration to FlexGet.
+If you use this plugin, you '''MUST''' `easy_install pyrocore` as an additional dependency. Follow the [http://code.google.com/p/pyroscope/wiki/QuickStartGuide installation guide] and [http://code.google.com/p/pyroscope/wiki/UserConfiguration configuration instructions] of PyroScope before adding the plugin configuration to FlexGet. Also see the [http://code.google.com/p/pyroscope/wiki/FlexGetPlugins PyroScope FlexGet Plugins] page.
 
 '''''NOTE:''' This is a new plugin that has not yet matured, which doesn't imply that the code is not quite stable, but the feature-set is lacking so far, and in flux.''
 
