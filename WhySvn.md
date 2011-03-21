@@ -16,17 +16,17 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 === Github svn sync ===
 
 [https://github.com/balboah Balboah] is working on having a maintained copy of the svn repository in github, to have the commits pretty and dandy with the correct committer and everything, we need your git commit name and e-mail (preferably one that matches your github account). Please edit this list:
-{{{
-branstrom = NAME <USER@DOMAIN>
-bryanforbes = NAME <USER@DOMAIN>
-dragonfyre13 = NAME <USER@DOMAIN>
-egolost = NAME <USER@DOMAIN>
-gazpachoking = NAME <USER@DOMAIN>
-gray = NAME <USER@DOMAIN>
-joshuajonah = NAME <USER@DOMAIN>
-limon = NAME <USER@DOMAIN>
-paranoidi = NAME <USER@DOMAIN>
-pyroscope = NAME <USER@DOMAIN>
-ressu = NAME <USER@DOMAIN>
-shrike = NAME <USER@DOMAIN>
-}}}
+
+||username||Firstname Lastname||email||
+||branstrom||NAME||<USER@DOMAIN>||
+||bryanforbes||NAME||<USER@DOMAIN>||
+||dragonfyre13||NAME||<USER@DOMAIN>||
+||egolost||NAME||<USER@DOMAIN>||
+||gazpachoking||NAME||<USER@DOMAIN>||
+||gray||NAME||<USER@DOMAIN>||
+||joshuajonah||NAME||<USER@DOMAIN>||
+||limon||NAME||<USER@DOMAIN>||
+||paranoidi||Marko Koivusalo||marko.koivusalo@gmail.com||
+||pyroscope||NAME||<USER@DOMAIN>||
+||ressu||NAME||<USER@DOMAIN>||
+||shrike||NAME||<USER@DOMAIN>||
