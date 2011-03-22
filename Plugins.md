@@ -50,7 +50,6 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
-||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
@@ -135,7 +134,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
-||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
 == Metainfo ==
@@ -156,3 +154,8 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 ||[wiki:Plugins/--feed --feed]||Executes only the specified feed(s)||
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into feed(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
+
+== 3rd party plugins ==
+
+||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
+||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
