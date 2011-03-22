@@ -15,7 +15,7 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 
 === Github svn sync ===
 
-[https://github.com/balboah Balboah] is working on having a maintained copy of the svn repository in github, to have the commits pretty and dandy with the correct committer and everything, we need your git commit name and e-mail (preferably one that matches your github account). Please edit this list:
+[https://github.com/balboah Balboah] is working on having a [https://github.com/Flexget/Flexget maintained copy] of the svn repository in github, to have the commits pretty and dandy with the correct committer and everything, we need your git commit name and e-mail (preferably one that matches your github account). Please edit this list:
 
 ||'''Username'''||'''Firstname Lastname'''||'''Email'''||
 ||branstrom||NAME||<USER@DOMAIN>||
