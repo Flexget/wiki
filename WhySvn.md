@@ -29,4 +29,4 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 ||paranoidi||Marko Koivusalo||marko.koivusalo@gmail.com||
 ||pyroscope||pyroscope||pyroscope.project@gmail.com||
 ||ressu||NAME||<USER@DOMAIN>||
-||shrike||NAME||<USER@DOMAIN>||
+||shrike||lepinkainen||shrike@addiktit.net||
