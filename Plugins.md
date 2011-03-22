@@ -134,6 +134,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
+||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
 == Metainfo ==
@@ -158,4 +159,3 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 == 3rd party plugins ==
 
 ||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
-||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
