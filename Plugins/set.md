@@ -51,6 +51,26 @@ set:
 }}}
 This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E04.720P-proper.mkv
 
+
+=== Jinja2 Filters ===
+When using Jinja2 templates, you can use the following custom filters in addition to the built-in ones.
+
+ pathbase:: Base name of a path.
+ pathname:: Base name of a path, without its extension.
+ pathext:: Extension of a path (including the '.').
+ pathdir:: Directory containing the given path.
+ pathscrub(ascii=False):: Replace problematic characters in a path.
+
+Example:
+{{{
+presets:
+  global:
+    set:
+      # Replace filename by scrubbed title and keep the extension
+      filename: '{{title | pathscrub}}{{filename | pathext}}'
+}}}
+
+
 === String Replacement === #string-replacement
 
 Using the [http://docs.python.org/library/stdtypes.html#string-formatting-operations python string replacement] format, a variable from an [wiki:Entry entry] can be substituted into your set option.
