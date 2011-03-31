@@ -10,7 +10,7 @@ In order to use !FlexGet you'll need to create a configuration file.
 }}}
 
  * Indentation level. Always use (multiples of) '''2 spaces''' and '''never''' use tab-key!
- * '''All''' plugins are supposed to be indented at the same level (rss, series, download etc)
+ * Plugins are supposed to be indented at the same level (rss, series, download etc). Some plugins may allow other plugins inside of them.
  * Missing colons. Pay special attention to these when looking at the examples and documentation
  * If text value contains any of `{}[]%:` characters it must be quoted with `''`
  * If you want to pass a number as a text (ie. series ''24''), value must be quoted with `''`
@@ -30,7 +30,7 @@ feeds:
   tv-shows:
     rss: http://example.com/rss.xml
     series:
-      - chuck
+      - pioneer one
       - south park
     download: ~/torrents/
 }}}
