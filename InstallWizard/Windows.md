@@ -8,9 +8,7 @@ If you already have '''Python 2.5.x - 2.6.x''' and '''easy_install''', you can c
 
 === Install Python ===
 
-Install latest '''Python 2.6.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
-
-'''NOTE:''' There are also currently some issues with Python 2.7 so avoid that as well.
+Install latest '''Python 2.7.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
 
 === Install easy_install ===
 
