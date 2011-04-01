@@ -38,7 +38,7 @@ Optional arguments:
 
 Example:
 {{{
-register_plugin(FilterRegexp, 'regexp', priorities={'filter': 128})
+register_plugin(FilterRegexp, 'regexp')
 }}}
 
 == Phase methods ==
