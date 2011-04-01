@@ -28,6 +28,10 @@ In (distant) future manual tweaking should not be needed anymore ... (#288)
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
 
+=== 1.4.2011 r2125 (d.m.yyyy) ===
+
+Upgrade movie related qualities from config, eg. `720p` to `720p bluray` and `1080p` to `1080p bluray`. Also use these qualities with `--imdb-queue´ from now on.
+
 === 22.2.2011 r1960 (d.m.yyyy) ===
 
 There were some changes in the thetvdb_favorites database. You may need to drop the table so it is re-created properly.
