@@ -17,9 +17,8 @@ import_series:
 Lets say you have a directory where all your series are stored in each in the own folder. Something like:
 
 {{{
-/media/series/name of series/
-/media/series/name of series/
-/media/series/name of series/
+/media/series/pioneer one/
+/media/series/south park/
 }}}
 
 To automatically configure series plugin with all these you could do following:
