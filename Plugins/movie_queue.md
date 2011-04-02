@@ -12,7 +12,7 @@ flexget --imdb-queue (add|del|list) [IMDB_URL|NAME] [QUALITY] [FORCE]
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
 
-Recognized qualities are 1080p, 1080, 720p, 720, hr, dvd, bdrip, dvdrip, 480p, 480, bdscr, dvdscr, hdtv, pdtv, dsr, dsrip, r5, cam, unknown, ANY
+See [wiki:Qualities qualities] for valid quality list.
 
 Quality matches are no longer exact. There is "better than the quality specified" logic now added. Qualities above are from best to worst.
 
@@ -21,10 +21,9 @@ Quality matches are no longer exact. There is "better than the quality specified
 The following will queue [http://www.imdb.com/title/tt1038686/ Legion (2010)] with quality 720p
 
 {{{
-$ flexget --imdb-queue add http://www.imdb.com/title/tt1038686/ 720p
-Added tt1038686 to queue with quality 720p
+$ flexget --imdb-queue add http://www.imdb.com/title/tt1038686/ "720p bluray"
+Added tt1038686 to queue with quality 720p bluray
 }}}
-
 
 You can also list the queue
 
