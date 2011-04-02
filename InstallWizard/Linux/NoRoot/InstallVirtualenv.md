@@ -22,13 +22,13 @@ python virtualenv.py ~/flexget/
 
 Now you have created isolated python environment (virtualenv).
 
-To activate the virtualenv, run command:
+You also '''MUST''' activate the virtualenv, so run this command:
 
 {{{
 source ~/flexget/bin/activate
 }}}
 
-Now your `python` and `easy_install` commands will use this environment, instead the one you possibly had earlier.
+Now your `python` and `easy_install` commands will use this environment, instead of the one you possibly had earlier.
 
 == Continue ==
 
