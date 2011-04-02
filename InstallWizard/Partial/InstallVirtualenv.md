@@ -1,7 +1,7 @@
 === Install !FlexGet egg in the virtualenv ===
 
 {{{
-~/flexget/bin/easy_install flexget
+cd ~/flexget; ./bin/easy_install flexget
 }}}
 
 This will install !FlexGet and all the required dependencies.
