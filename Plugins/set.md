@@ -53,13 +53,14 @@ This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E
 
 
 === Jinja2 Filters ===
-When using Jinja2 templates, you can use the following custom filters in addition to the built-in ones.
+When using Jinja2 templates, you can use the following custom filters in addition to the [http://jinja.pocoo.org/templates/#builtin-filters built-in ones].
 
  pathbase:: Base name of a path.
  pathname:: Base name of a path, without its extension.
  pathext:: Extension of a path (including the '.').
  pathdir:: Directory containing the given path.
  pathscrub(ascii=False):: Replace problematic characters in a path.
+ re_replace(pattern, replacement):: Do regexp substitution on the string.
 
 Example:
 {{{
@@ -120,6 +121,7 @@ Calling set however does not do much unless another plugin uses the information 
 '''[wiki:Plugins/download Download]'''
 
  * {{{path}}}
+ * {{{filename}}}
 
 Options configured from the set plugin will override configuration values set directly in the plugin that is reading them.
 
