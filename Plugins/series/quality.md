@@ -39,4 +39,4 @@ series:
     - name of series 4
 }}}
 
-See [wiki:Plugins/series#Groupsettings groups] for more information.
+See [wiki:Plugins/series/per_group_settings groups] for more information.
