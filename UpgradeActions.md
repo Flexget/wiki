@@ -176,7 +176,7 @@ Which would not reject either {{{titleA.something}}} or {{{groupB.something}}}
 
 === 30.10.2010 r1570 (d.m.yyyy) ===
 
-Two new qualities were added, {{{720p web-dl}}} and {{{1080p web-dl}}}. In addition, the plain {{{web-dl}}} quality has been lowered in priority. You might need to update your config to match the new [wiki:Plugins/quality#KnownQualities quality hierarchy].
+Two new qualities were added, {{{720p web-dl}}} and {{{1080p web-dl}}}. In addition, the plain {{{web-dl}}} quality has been lowered in priority. You might need to update your config to match the new [wiki:Plugins/quality#Supportedqualities quality hierarchy].
 
 === 24.10.2010 r1552 (d.m.yyyy) ===
 
