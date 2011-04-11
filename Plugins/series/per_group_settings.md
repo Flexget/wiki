@@ -35,6 +35,6 @@ Notes:
  * The names of the groups are arbitrary, so you can pick whatever you want.[[BR]]
  In this example ''normal'' is just a group without any options.
  * If a group name is a quality, it will automatically have that as a quality.[[BR]]
- In this example ''Series 3'' has it's quality set to 720p, because 720p is a [wiki:Plugins/quality#KnownQualities known quality name.]
+ In this example ''Series 3'' has it's quality set to 720p, because 720p is a [wiki:Plugins/quality#Supportedqualities known quality name.]
  * Series may override any settings specified in group settings.[[BR]]
  In this example ''Series 4'' overrides the quality setting of it's group with 1080p.
