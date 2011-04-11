@@ -8,7 +8,7 @@
 
 ^* = Does not work with [#Timeframe timeframe] (but there is a [wiki:Cookbook/Series/TimeframeWithMinMaxQuality workaround])^
 
-Possible values for quality can be found [wiki:Plugins/quality#KnownQualities here.]
+Possible values for quality can be found [wiki:Plugins/quality#Supportedqualities here.]
 
 '''Example:'''
 
