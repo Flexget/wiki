@@ -1,5 +1,9 @@
 = Better alternative =
 
+== !! This is for for old 0.9 version !! ==
+
+Please see [wiki:Plugins plugins] page for current version.
+
 You may wish to check [wiki:ModuleHeaders headers] module, in my opinion it is currently easier way to set a cookie.
 
 = Cookies =
