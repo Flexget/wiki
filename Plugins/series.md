@@ -34,10 +34,10 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 These plugins are complementary to the series plugin.
 
- * [wiki:Plugins/all_series all_series]
- * [wiki:Plugins/import_series import_series]
- * [wiki:Plugins/thetvdb_favorites thetvdb_favorites]
- * [wiki:Plugins/series_premiere series_premiere]
+ * [wiki:Plugins/all_series all_series] (Grab all series in the feed)
+ * [wiki:Plugins/import_series import_series] (Configures series from other inputs (eg. [wiki:Plugins/listdir listdir]))
+ * [wiki:Plugins/thetvdb_favorites thetvdb_favorites] (Input source for import_series)
+ * [wiki:Plugins/series_premiere series_premiere] (Download all premieres)
 
 == Settings ==
 
