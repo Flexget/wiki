@@ -1,6 +1,6 @@
 = Import series =
 
-Generates [wiki:Plugins/series series] plugin configuration from any (upgraded) input.
+Generates [wiki:Plugins/series series] plugin configuration from any (upgraded) input. Enabling this doesn't prevent configuring [wiki:Plugins/series series] plugin too. 
 
 '''Syntax:'''
 
