@@ -1,5 +1,9 @@
 == Regexp ==
 
+== !! This is for for old 0.9 version !! ==
+
+Please see [wiki:Plugins plugins] page for current version.
+
 Use regular expression to Accept, Filter or Reject entries. !FlexGet uses python regexp format and all matching is done case insensitive. This module may look a bit scary but in reality you rarely want anything more than what simple examples describe.
 
 === Simple examples ===
