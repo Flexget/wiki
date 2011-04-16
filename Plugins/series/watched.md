@@ -1,6 +1,6 @@
 == Watched ==
 
-This is generally not needed as series plugin will not download backwards from latest episode because of ''episode advancement''.
+This is generally not needed as series plugin will not download backwards from latest episode because of [wiki:Plugins/series/advancement episode advancement] functionality.
 
 You can also use [wiki:Plugins/--inject inject] plugin to add some episode to history, thus preventing older ones being downloaded.
 
