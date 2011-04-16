@@ -1,12 +1,13 @@
 == Advanced matching with regexps ==
 
-The standard name matching is not perfect, some times you may need to specify regexp(s) manually. Usually the `name_regexp`.
+The standard name matching works quite well, but in some cases you may need to specify regexp(s) manually. Usually the `name_regexp` when series is written in multiple different ways.
 
 '''Notes:'''
  
- * Use this only if you're having problems with matching, it should be able to handle 99% of cases without any regexp tweaking.
-   * `name_regepx` is useful for series which are written in more than one way
- * If specifying name_regexp(s) make sure that these match only to the given series
+ * '''Use these only if you're having problems with matching'''. Built in logic should be able to handle 99% of cases without any need for manual regexp tweaking.
+   * If you have titles with confusing crap in them, use [wiki:Plugins/manipulate manipulate] plugin to clean them!
+ * `name_regepx` is useful for series which are written in more than one way
+ * If specifying name_regexp(s) make sure that these match '''only to the given series.'''
  * Pay attention to the ''indentation'' here
 
 '''Example:'''
@@ -14,22 +15,24 @@ The standard name matching is not perfect, some times you may need to specify re
 {{{
 series:
   - some series:
-      name_regexp: ^some.series
-      ep_regexp: (\d\d)-(\d\d\d)  # must return TWO groups, both being numeric values
-      id_regexp: (\d\d\d)         # can return any number of groups
+      ep_regexp: (\d\d)-(\d\d\d)     # must return TWO groups, both being numeric values
+      id_regexp: (\d\d\d)            # can return any number of groups
   - another series
   - third series
 }}}
 
 All above regexps also accept multiple regular expressions in list form.
 
-For example if `some series` appears in two different naming conventions, you can:
+== Name regexp ==
+
+For example if `some series` appears in multiple different naming conventions, you can give list of regexps that match to series name.
 
 {{{
 - some series:
     name_regexp:
       - ^some.series
       - ^some.srs
+      - ^some.series.2011
 }}}
 
 === Episode numbering matching ===
@@ -50,6 +53,6 @@ id_regexp:
   - (\d+).(\d+).(\d\d\d\d)
 }}}
 
-User defined regexps takes priority over the built-in expressions.
+User defined regexps takes priority over the built-in expressions, but do not disable them.
 
 Specifying `ep_regexp` disables all `id_regexp`'s and vice versa.
