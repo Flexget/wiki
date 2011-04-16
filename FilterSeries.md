@@ -1,5 +1,9 @@
 = Series =
 
+== !! This is for for old 0.9 version !! ==
+
+Please see [wiki:Plugins plugins] page for current version.
+
 Intelligent filter for tv-series. This solves duplicate downloads
 problem that occurs when using patterns (regexp) matching since same
 episode is often released by multiple groups.
