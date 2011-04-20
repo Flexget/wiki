@@ -35,7 +35,7 @@ feeds:
     exec:
       on_output:
         for_rejected: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
-        for_entries: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
+        for_accepted: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
 }}}
 '''Uses Plugins:'''
 
