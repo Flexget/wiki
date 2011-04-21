@@ -31,7 +31,7 @@
 
 There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
 
-!FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support.
+!FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support or provide interface for external utilities like !FlexGet.
 
 {{{
 #!html
