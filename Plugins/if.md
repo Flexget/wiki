@@ -25,8 +25,14 @@ Simple actions (accept, reject, and fail) can be specified directly after the co
 {{{
 thetvdb_lookup: yes
 if:
-  - "'horror' in series_genres": reject
+  - "'Reality' in series_genres": reject
   - ep_air_date < now - timedelta(days=10): reject
+}}}
+'''Example:''' Here is a more advanced example to reject multiple imdb_genres.
+{{{
+imdb_lookup: yes
+if:
+  - "any(genre in ['horror', 'documentary'] for genre in imdb_genres)": reject
 }}}
 
 === Run Another Filter ===
