@@ -21,11 +21,12 @@ The if plugin allows a limited subset of python. If statements can contain:
 === Accept, Rejcet, Fail ===
 Simple actions (accept, reject, and fail) can be specified directly after the colon following the if statement.
 
-'''Example:''' This will reject any series that have the 'horror' genre. 
+'''Example:''' This will reject any series that have the 'horror' genre, and any episodes that aired more than 10 days ago.
 {{{
 thetvdb_lookup: yes
 if:
   - "'horror' in series_genres": reject
+  - ep_air_date < now - timedelta(days=10): reject
 }}}
 
 === Run Another Filter ===
