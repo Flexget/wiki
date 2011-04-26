@@ -87,5 +87,3 @@ You can then use the InstallEggMac guide to get the dependencies, and install th
 == Installing through Fink ==
 
 [http://www.finkproject.org/ Fink] has !FlexGet in unstable, as of 2010-07-24.  You should just need to run 'fink install flexget' with unstable enabled and it will install all dependencies.
-
-The version in fink seems to be quite old.
