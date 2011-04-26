@@ -1,7 +1,8 @@
 === Install !FlexGet egg in the virtualenv ===
 
 {{{
-cd ~/flexget; ./bin/easy_install flexget
+cd ~/flexget
+bin/easy_install flexget
 }}}
 
 This will install !FlexGet and all the required dependencies.
@@ -19,4 +20,5 @@ After that command `flexget` works from anywhere. Or you can run it via:
 {{{
 ~/flexget/bin/flexget [options]
 }}}
-Also use this explicit path in crontabs!
+
+Also use remember to use this explicit path in the crontab!
