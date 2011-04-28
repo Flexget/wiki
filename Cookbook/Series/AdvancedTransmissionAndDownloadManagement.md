@@ -22,7 +22,7 @@ presets:
   # configuration of transmission parameters
   # -> each accepted feed item will be piped to transmission
   # -> if you will connect to a remote host you must use svn-rev: r1370 (trac# 654)
-  transmission:
+  transmissionrpc:
     transmission:
       host: <host or ip address>
       port: 9091
@@ -82,28 +82,28 @@ feeds:
   EZTV:
     rss: <feed url>
     preset:
-      - transmission
+      - transmissionrpc
       - tv
     priority: 10
 
   BTCHAT_EZTV:
     rss: <feed url>
     preset:
-      - transmission
+      - transmissionrpc
       - tv
     priority: 20
 
   BTCHAT_VTV:
     rss: <feed url>
     preset:
-      - transmission
+      - transmissionrpc
       - tv
     priority: 30
 
   SHOWRSS:
     rss: <feed url>
     preset:
-      - transmission
+      - transmissionrpc
       - tv
     priority: 40
 
@@ -116,7 +116,7 @@ feeds:
       url: <html url>
       title_from: url
     preset:
-      - transmission
+      - transmissionrpc
       - tv
     priority: 50
     
