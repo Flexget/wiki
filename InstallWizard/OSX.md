@@ -38,6 +38,8 @@ Create /Users/USERNAME/Library/LaunchAgents/com.flexget.plist with:
 </plist>
 }}}
 
+'''Note''': On some systems, FlexGet installs itself into {{{/bin/flexget}}} instead of {{{/usr/local/bin/flexget}}}; type {{{which flexget}}} to find out where the FlexGet binary is located and modify {{{com.flexget.plist}}} accordingly.
+
 Then:
 
 {{{
@@ -45,7 +47,6 @@ launchctl load -w /Users/USERNAME/Library/LaunchAgents/com.flexget.plist
 }}}
 
 Check the launchd man page for other options.
-
 
 = Other / Deprecated =
 
