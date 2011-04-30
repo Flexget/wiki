@@ -58,6 +58,16 @@ rss:
 }}}
 '''Note:''' This example requires your feed provides the magneturi field, and that you are using an output plugin that can handle magnet uris.
 
+=== Title field ===
+If you would like to use a different field from the rss as the title of the flexget entry, (or if your feed does not provide titles for the entries,) you can use the {{{title}}} option to specify any feedparser entry attribute.
+
+'''Example'''
+{{{
+rss:
+  url: <url>
+  title: date
+}}}
+
 === Silent mode ===
 You can disable few possibly annoying warnings by setting {{{silent}}} value to {{{yes}}} on feeds where there are
 frequently invalid items.
