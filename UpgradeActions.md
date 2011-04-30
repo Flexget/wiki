@@ -4,56 +4,13 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 == Instructions ==
 
-'''{{{NEW}}}''' !FlexGet can now upgrade the database automatically. You should no longer need to run any of the actions related to the database, (the ones using sqlite3,) when upgrading to a version after r2179. You will still have to follow any instructions regarding config changes when upgrading.
-
-~~!FlexGet doesn't yet have automatic database upgrading functionality so users are required to modify the database manually when upgrading to version where the database structure has changed.~~
-
-
-Luckily this is not very hard, usually you just need to run one command which is usually reported when you try to run !FlexGet with old database. For some older changes you need to look the command from this page.
-
-'''Example:'''
-
-{{{
-2011-02-27 14:11 CRITICAL change You're running old database! Please see 'Upgrade Actions' at flexget.com for necessary actions!
-2011-02-27 14:11 CRITICAL change Please run : sqlite3 /home/user/.flexget/db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
-}}}
-
-To upgrade database, simply run:
-
-{{{
-sqlite3 /home/user/.flexget/db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
-}}}
-
-If {{{sqlite3}}} command is not available, try installing relevant packages (ie. apt-get install sqlite3). In windows you might want to take a look at [http://sqliteman.com/ sqliteman] for executing SQL statements. If all else fail deleting the database and running {{{--learn}}} will fix it but may cause some older items to be re-downloaded if they appear in the feed(s) again.
-
-In (distant) future manual tweaking should not be needed anymore ... (#288)
+'''{{{NEW}}}''' !FlexGet can now upgrade the database automatically. You should no longer need to run any of the actions related to the database, (the ones using sqlite3,) when upgrading to a version after r2179. You will still have to follow any instructions regarding config changes when upgrading. If you need to see the old sqlite3 upgrading instructions, look older version of this page.
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
-
 
 === 1.4.2011 r2125 (d.m.yyyy) ===
 
 Upgrade movie related qualities from config, eg. `720p` to `720p bluray` and `1080p` to `1080p bluray`. Also use these qualities with `--imdb-queue´ from now on.
-
-=== 22.2.2011 r1960 (d.m.yyyy) ===
-
-There were some changes in the thetvdb_favorites database. You may need to drop the table so it is re-created properly.
-
-Execute:
-
-{{{
-sqlite3 db-config.sqlite "DROP TABLE thetvdb_favorites;"
-}}}
-
-=== 20.2.2011 r1954 (d.m.yyyy) ===
-
-There were some changes in the remember_rejected database. You may need to drop the table so it is re-created properly.
-
-Execute:
-
-{{{
-sqlite3 db-config.sqlite "DROP TABLE remember_rejected_entry;"
-}}}
 
 === 2.2.2011 (d.m.yyyy) ===
 
@@ -108,37 +65,24 @@ python bootstrap.py
 
 This will re-bootstrap the environment from clean state and install all new dependencies etc.
 
-
-=== 30.11.2010 r1675 (d.m.yyyy) ===
-
-Database schema changes. Please run:
-
-{{{
-sqlite3 db-config.sqlite "ALTER TABLE imdb_movies ADD updated DateTime;"
-sqlite3 db-config.sqlite "ALTER TABLE imdb_movies ADD mpaa_rating VARCHAR;"
-}}}
-
-=== 30.11.2010 r1674 (d.m.yyyy) ===
-
-Database schema changes. Please run:
-
-{{{
-sqlite3 db-config.sqlite "ALTER TABLE thetvdb_favorites ADD series_id VARCHAR;"
-}}}
-
 === 24.11.2010 r1661 (d.m.yyyy) ===
 
 metainfo_series is no longer a builtin. This should only affect you if you aren't using one of the series plugins (series, all_series, thetvdb_favorites, or series_premiere.) If you need to enable metainfo_series manually for a feed it can be done like so:
+
 {{{
-  metainfo_series: yes
+metainfo_series: yes
 }}}
 
 === 16.11.2010 r1643 (d.m.yyyy) ===
+
 The [wiki:Plugins/series series] plugin {{{all}}} mode has been moved in to it's own plugin, [wiki:Plugins/all_series all_series]. The config format for both [wiki:Plugins/thetvdb_favorites thetvdb_favorites] and [wiki:Plugins/series_premiere series_premiere] has been changed to allow all settings from the [wiki:Plugins/series series] plugin. Specifically, if you were using this format for the series_premiere plugin:
+
 {{{
 series_premiere: <path>
 }}}
+
 you must update to:
+
 {{{
 series_premiere:
   path: <path>
@@ -162,24 +106,28 @@ There were some changes to how the _excluding operations work when multiple rege
 Before, reject_excluding would reject if an entry omitted ''all'' of the listed regexps, now it will reject if an entry omits ''any'' of the listed regexps. (same goes for accept_excluding)
 
 For example, this config:
+
 {{{
 regexp:
   reject_excluding:
     - titleA
     - groupB
 }}}
+
 Will now reject an entry called {{{titleA.something}}} but not {{{titleA.groupB}}}
 
 If you were using the old behavior, you can achieve the same thing by altering your regexp to be like this:
+
 {{{
   reject_excluding:
     - titleA|groupB
 }}}
+
 Which would not reject either {{{titleA.something}}} or {{{groupB.something}}}
 
 === 30.10.2010 r1570 (d.m.yyyy) ===
 
-Two new qualities were added, {{{720p web-dl}}} and {{{1080p web-dl}}}. In addition, the plain {{{web-dl}}} quality has been lowered in priority. You might need to update your config to match the new [wiki:Plugins/quality#Supportedqualities quality hierarchy].
+Two new qualities were added, {{{720p web-dl}}} and {{{1080p web-dl}}}. In addition, the plain {{{web-dl}}} quality has been lowered in priority. You might need to update your config to match the new [wiki:Qualities quality hierarchy].
 
 === 24.10.2010 r1552 (d.m.yyyy) ===
 
@@ -188,6 +136,7 @@ The [wiki:Plugins/exec exec] and [wiki:Plugins/adv_exec adv_exec] plugins have b
 === 7.10.2010 r1486 (d.m.yyyy) ===
 
 The manipulate plugin now has a parameter for what event the manipulate should be run in. The default event to run on has also been changed from the filter event to the metainfo event. If this causes issues with how you use manipulate, you can specify 'event: filter' for your manipulates to restore the old behavior. This is how the event setting should be defined:
+
 {{{
 manipulate:
   - series_name_dots:
@@ -201,14 +150,6 @@ manipulate:
 === 8.9.2010 r1395 (d.m.yyyy) ===
 
 Changes to [wiki:Plugins/manipulate manipulate] plugin configuration. Now accepts a list of single item dicts, see plugin page for details. ([wiki:Cookbook/Series/DelugeSeriesLabel?action=diff&version=3 example config diff])
-
-=== 20.8.2010 r1372 (d.m.yyyy) ===
-
-Database schema changes. Please run:
-
-{{{
-sqlite3 db-config.sqlite "ALTER TABLE imdb_queue ADD title VARCHAR;"
-}}}
 
 === 13.6.2010 r1294 (d.m.yyyy) ===
 
@@ -232,7 +173,7 @@ This release was packed incorrectly and will complain about duplicate plugins, p
 
 === 12.02.2010 r1115 (d.m.yyyy) ===
 
-Subversion users need to delete all `.pyc` files from `flexget/plugins/`
+Subversion users need to delete all `.pyc` files from `flexget/plugins/`. You can also try `bin/paver clean_compiled` if that does it for you.
 
 === 18.01.2010 (d.m.yyyy) ===
 
@@ -243,15 +184,6 @@ sqlite3 db-config.sqlite "create index seen_values_index on seen (value);"
 }}}
 
 This will improve execution speeds.
-
-=== 03.01.2010 r1057 (d.m.yyyy) ===
-
-Some database changes, please run:
-
-{{{
-sqlite3 db-config.sqlite "ALTER TABLE make_rss ADD rsslink VARCHAR; ALTER TABLE imdb_movies ADD photo VARCHAR;"
-}}}
-
 
 === 27.12.2009 r1042 (d.m.yyyy) ===
 
@@ -278,22 +210,11 @@ feeds:
   ...
 }}}
 
-
 === 11.11.2009 r948 (d.m.yyyy) ===
 
 Fixed bug that caused database to be created in current path or in flexget binary path. If you're unlucky old user and the database is located in these locations you get a message asking to verify creating new database with `--initdb`. Instead of doing this move the `db-config.sqlite` file to same path as where your configuration file is.
 
-=== 02.11.2009 r904 (d.m.yyyy) ===
-
-Due database changes, users must drop download_history table.
-
-Execute:
-
-{{{
-sqlite3 db-config.sqlite "drop table download_history;"
-}}}
-
-'''Note:''' This will lose only `--downloads` report, nothing more.
+'''Note:''' `--initdb´ was later removed so you might not get this alert if you upgrade from older than r948 straight to latest version, if you get fresh database and you'd rather maintain old history please find the incorrectly placed database and move it to same path as where your configuration file is.
 
 === 02.11.2009 ===
 
