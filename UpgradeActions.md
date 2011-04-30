@@ -4,7 +4,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 == Instructions ==
 
-!FlexGet doesn't yet have automatic database upgrading functionality so users are required to modify the database manually when upgrading to version where the database structure has changed.
+'''{{{NEW}}}''' !FlexGet can now upgrade the database automatically. You should no longer need to run any of the actions related to the database, (the ones using sqlite3,) when upgrading to a version after r2179. You will still have to follow any instructions regarding config changes when upgrading.
+
+~~!FlexGet doesn't yet have automatic database upgrading functionality so users are required to modify the database manually when upgrading to version where the database structure has changed.~~
+
 
 Luckily this is not very hard, usually you just need to run one command which is usually reported when you try to run !FlexGet with old database. For some older changes you need to look the command from this page.
 
