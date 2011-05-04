@@ -37,9 +37,7 @@ feeds:
       set: 255
     if:
       - has_field('series_name'): accept
-    exec:
-      on_output:
-        for_accepted: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
+    exec: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
 }}}
 '''Uses Plugins:'''
 
