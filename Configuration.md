@@ -37,7 +37,7 @@ feeds:
 
 Now let's break that down line by line.
 
-In first line `feeds` is a container which may contain any number of feeds under it. In our example there is only one feed called `tv-shows`. The feed name must be indented by 2 spaces because it belongs to `feeds`. In Yaml relations are represented by indentation level. Pay special attention to `:` - characters.
+In first line `feeds` is a container which may contain any number of feeds under it. In our example there is only one feed called `tv-shows`. The feed name must be indented by 2 spaces because it belongs to `feeds`. In Yaml relations are represented by indentation level. Pay special attention to `:` `-` characters.
 
 === Plugins ===
 
@@ -45,11 +45,11 @@ Our feed `tv-shows` has three plugins: [wiki:Plugins/rss rss], [wiki:Plugins/ser
 
 === Plugin: RSS ===
 
-This is our input plugin which reads RSS-feed and produces processable [wiki:Entry entries]. By lookign at plugin [wiki:Plugins/rss rss] documentation we learn that it accepts URL as a parameter in it's simplest form.
+This is our input plugin which reads RSS-feed and produces processable [wiki:Entry entries]. By looking at plugin [wiki:Plugins/rss rss] documentation we learn that it accepts URL as a parameter in it's simplest form.
 
 === Plugin: Series ===
 
-This plugin expects a list of series names as a parameter. Notice again how the list is intended by 2 spaces more than series keyword. The list belongs to series plugin. This filters [wiki:Entry entries], it goes trough all of them and accepts those which match to our interest.
+This plugin expects a list of series names as a parameter. Notice again how the list is intended by 2 spaces more than series keyword. The list belongs to series plugin. This filters [wiki:Entry entries], it goes through all of them and accepts those which match our interest.
 
 === Plugin: Download ===
 
