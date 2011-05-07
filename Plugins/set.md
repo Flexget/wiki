@@ -39,6 +39,7 @@ Use [http://jinja.pocoo.org/templates/ jinja2 template] strings to create or mod
 
 '''NOTES:'''
  - All the fields from the entry are available in the jinja template context.
+ - {{{now}}} is also available, which is a python datetime object representing the current time.
  - You can use [http://jinja.pocoo.org/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
  - If a referenced field is not available, the target field will be set to an empty string. If you would like to change this, you can use the jinja 'default' filter.
 
@@ -61,6 +62,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
  pathdir:: Directory containing the given path.
  pathscrub(ascii=False):: Replace problematic characters in a path.
  re_replace(pattern, replacement):: Do regexp substitution on the string.
+ formatdate(format):: Do string formatting on datetime objects according to [http://docs.python.org/library/datetime.html#strftime-strptime-behavior strftime] format string.
 
 Example:
 {{{
