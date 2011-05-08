@@ -27,8 +27,8 @@ feeds:
       password: <password>
     series:
       - human target:
-        set:
-          myepisodes_id: 5111 
+          set:
+            myepisodes_id: 5111 
       - chuck
 }}}
  
