@@ -33,3 +33,4 @@ feeds:
 }}}
  
 
+Have a look at the attached image for how to find the correct series ID on the MyEpisodes homepage.
