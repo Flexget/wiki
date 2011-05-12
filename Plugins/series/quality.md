@@ -2,11 +2,9 @@
 
 ||'''Name'''||'''Description'''||
 ||quality||Accept only given quality. No other quality will be accepted.||
-||min_quality||Accept only qualities equal or above this^*^||
-||max_quality||Accept only qualities equal or below this^*^||
-||qualities||Accept all given qualities, multiple downloads^*^||
-
-^* = Does not work with [#Timeframe timeframe] (but there is a [wiki:Cookbook/Series/TimeframeWithMinMaxQuality workaround])^
+||min_quality||Accept only qualities equal or above this||
+||max_quality||Accept only qualities equal or below this||
+||qualities||Accept all given qualities, multiple downloads||
 
 Possible values for quality can be found [wiki:Plugins/quality#Supportedqualities here.]
 
