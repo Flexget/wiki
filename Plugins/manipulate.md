@@ -11,6 +11,7 @@ manipulate:
   - <destination field>:
       [phase]: <phase>
       [from]: <source field>
+      [separator]: <value>
       [extract]: <regexp>
       [replace]:
         regexp: <regexp>
@@ -20,6 +21,8 @@ manipulate:
 Valid values for event are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
 
 To see what results your configuration has, use [wiki:Plugins/--dump --dump] plugin to display all entries after execution.
+
+When using extract functionality manipulate will join all returned groups together with separator. The default separator is single space.
 
 === Example 1 ===
 
