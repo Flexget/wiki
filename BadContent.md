@@ -365,4 +365,5 @@ pharmacy
 (?i)seizure.disorder
 (?i)aspergers?
 (?i)robo.?call
+(?i)contact.?lens
 }}}
