@@ -59,7 +59,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 <div class="clearing">
 </div>
 
-<sup>* = natively supported by plugins</sup>
+<sup>* = integrates neatly with a plugin</sup>
 
 }}}
 
@@ -67,29 +67,32 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 
 == Developers wanted ==
 
-We're currently implementing web interface to !FlexGet and would love to have more people join the effort! Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
+We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would love to have more people join the effort! Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
 
 = Features =
 
- * Process from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
+ * Grab from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
  * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
- * Automatically download subtitles for movies from [http://opensubtitles.org opensubtitles.org] (#227)
  * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
      * Get best quality available in a specified time frame
      * Min / Max quality
      * Get all specified qualities
-   * Propers / Repacks are downloaded automatically.
+     * Upgrade qualities retrospectively
+   * Propers / Repacks are downloaded automatically or within certain given time
+ * Modfy torrents real time, [wiki:Plugins/add_trackers add] or [wiki:Plugins/remove_trackers remove] trackers.
+ * Filter based on torrent/nzb [wiki:Plugins/content_filter content] or [wiki:Plugins/content_size size].
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:URLRewriters URLRewriters].
+ * Search queued movies or episodes from search sites like piratebay and nzbmatrix (experimental).
  * Completely modular, all features are plugins
  * And much more ...
 
 = How easy is it to use? =
 
-Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified.
+Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental [wiki:Web-UI] coming along.
 
 !FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing (for new users) at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
@@ -102,12 +105,12 @@ feeds:
   feed name:
     rss: http://example.com/torrents.xml
     series:
-      - series name
-      - another series
+      - pioneer one
+      - some series
     download: ~/torrents/series/
 }}}
 
-This example would download new episodes of {{{series name}}} and {{{another series}}} to {{{~/series}}} using powerful [wiki:Plugins/series series] plugin.
+This example would download new episodes of `pioneer one` and `some series` to {{{~/series}}} using powerful [wiki:Plugins/series series] plugin.
 
 You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
