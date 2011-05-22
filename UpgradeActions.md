@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 22.5.2011 r2238 (d.m.yyyy) ===
+
+[wiki:Plugins/imdb_queue imdb_queue] plugin has been replaced by [wiki:Plugins/movie_queue movie_queue]. Movies in the imdb queue will automatically be transferred to movie queue, your config will need manually updated. From now on --movie-queue should be used instead of --imdb-queue.
+
 === 1.4.2011 r2125 (d.m.yyyy) ===
 
 Upgrade movie related qualities from config, eg. `720p` to `720p bluray` and `1080p` to `1080p bluray`. Also use these qualities with `--imdb-queue´ from now on.
