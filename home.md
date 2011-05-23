@@ -27,7 +27,7 @@
 
 = Introduction =
 
-!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, etc. !FlexGet is able to handle different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds.
+!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. !FlexGet is able to handle different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds.
 
 There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
 
