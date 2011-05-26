@@ -66,6 +66,8 @@ regexp:
           - pattern 4
         [path]: <custom path>
         [from]: <entry field> # applies to this pattern
+        [set]:
+            <entry field>: <value>
   [rest]: <operation>
   [from]: <entry field> # applies to all patterns
 }}}
