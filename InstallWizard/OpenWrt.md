@@ -4,18 +4,16 @@ OpenWrt is described as a Linux distribution for embedded devices.
 
 = Set up environment =
 
-Python, !FlexGet and dependencies need ~7MB^1^ of free space. python-openssl is only necessary for https connections, python-expat for the nzb-plugin.
-
-^1. FlexGet has now few dependencies that are fairly large (~10MB) .. These are only needed for future webui so it would be possible to run FlexGet without them. However easy_install will install them too.^
+Python, !FlexGet and dependencies currently need ~7MB of free space. It can be trimmed down, because there are dependencies only needed for future webui so it would be possible to run FlexGet without them. However easy_install will install them too.
 
 == Python ==
 
+Install python with sqlite3 and yaml. Python-openssl is only necessary for https connections, python-expat for the nzb-plugin.
+
 {{{
-opkg install python
-opkg install python-sqlite3
+opkg install python python-sqlite3 pyyaml
 opkg install python-expat
 opkg install python-openssl
-opkg install pyyaml
 }}}
 
 == easy_install ==
