@@ -8,6 +8,14 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2x.5.2011 r2xxx (d.m.yyyy) ===
+
+If you're running subversion and get this error #1112 run
+
+{{{
+bin/pip install --upgrade sqlalchemy
+}}}
+
 === 22.5.2011 r2238 (d.m.yyyy) ===
 
 [wiki:Plugins/imdb_queue imdb_queue] plugin has been replaced by [wiki:Plugins/movie_queue movie_queue]. Movies in the imdb queue will automatically be transferred to movie queue, your config will need manually updated. From now on --movie-queue should be used instead of --imdb-queue.
