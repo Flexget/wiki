@@ -48,3 +48,89 @@ The result of setting the movedone and content_filename using string replacement
 You can adjust those lines to match your naming standard.
 
 In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
+
+= Advanced Deluge and thetvdb features run on ver. 1.0r2245 =
+
+{{{
+presets:
+  tv:
+    import_series:
+
+      from:
+        thetvdb_favorites:
+          account_id: 230B039A30
+          #strip_dates: yes #optional
+          #quality: 720p #quality does not work here#
+    exists_series:
+      - /media/tv
+      - /media/incomplete
+    thetvdb_lookup: yes
+    set:
+      quality:
+
+        min: sdtv
+
+        max: 720p
+      path: /media/incomplete
+      movedone: "/media/tv/{{ series_name }}/Season {{ series_season }}"
+      content_filename: >
+        {{ series_name }} - {{ series_id }}
+        {% if ep_name|default(False) %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
+        {% if proper %}- proper{% endif %}
+    deluge:
+      main_file_only: yes
+      user: xxxx
+      pass: yyyy
+
+feeds:
+  betterfeed:
+    priority: 1
+    preset: tv
+    rss: http://feed1.com/feed.xml
+
+  backupfeed:
+    priority: 2
+    preset: tv
+    rss: http://feed2.com/feed.xml
+}}}
+
+= Thetvdb Favorites =
+
+This plugin will create a list of entries for all the shows you have marked as favorites at [http://thetvdb.com]. If thetvdb goes down, the last known list of favorites will be used until it comes back online. This plugin can be used from the [wiki:Plugins/import_series import_series] plugin to automatically configure !FlexGet to download all of your tvdb favorites.
+
+You configure thetvdb_favorites plugin with your account id at thetvdb. You can find it on the [http://thetvdb.com/?tab=userinfo account tab] after you log in.
+
+''' Example '''
+
+{{{
+import_series:
+  from:
+    thetvdb_favorites:
+      account_id: 320D93B3A1
+}}}
+
+== Strip Dates Option ==
+If the {{{strip_dates}}} option is specified, the trailing year will be stripped from series names that include them. For example, "Merlin (2008)" would become just "Merlin".
+
+''' Example '''
+{{{
+thetvdb_favorites:
+  account_id: 320D93B3A1
+  strip_dates: yes
+}}}
+
+== Series Settings ==
+You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin with the [wiki:Plugins/import_series import_series] plugin, as shown below.
+
+''' Example '''
+
+{{{
+import_series:
+  from:
+    thetvdb_favorites:
+      account_id: 320D93B3A1
+  settings:
+    timeframe: 12 hours
+    quality: 720p
+    propers: 3 days
+}}}
