@@ -55,7 +55,6 @@ In the feeds section, we define 2 feeds in case one is faster, or one goes down.
 presets:
   tv:
     import_series:
-
       from:
         thetvdb_favorites:
           account_id: 230B039A30
@@ -67,10 +66,9 @@ presets:
     thetvdb_lookup: yes
     set:
       quality:
-
         min: sdtv
-
         max: 720p
+      #quality: 720p  #you could accept one quality only if you want#
       path: /media/incomplete
       movedone: "/media/tv/{{ series_name }}/Season {{ series_season }}"
       content_filename: >
