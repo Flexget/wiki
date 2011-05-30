@@ -19,7 +19,7 @@ presets:
       content_filename: >
         {{ series_name }} - {{ series_id }}
         {% if ep_name|default(False) %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
-        {% if proper %}- proper{{ proper_count|default('',) }}{% endif %}
+        {% if proper_count %}- proper{% if proper_count > 1 %}{{ proper_count }}{% endif %}{% endif %}
     deluge:
       main_file_only: yes
 
