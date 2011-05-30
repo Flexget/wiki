@@ -43,7 +43,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
-||[wiki:Plugins/emit_imdb_queue emit_imdb_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/imdb_queue imdb_queue], useful for example with [wiki:Plugins/search search].||
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/search search].||
 ||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/input_deluge input_deluge]||'''{{{NEW}}}''' Use torrents loaded in a Deluge daemon as input.||
