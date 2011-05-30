@@ -3,9 +3,12 @@
 {{{
 presets:
   tv:
-    thetvdb_favorites:
-      account_id: 230B039A30
-      quality: 720p
+    import_series:
+      from:
+        thetvdb_favorites:
+          account_id: 230B039A30
+      settings:
+        quality: 720p
     exists_series:
       - /media/tv
       - /media/incomplete
@@ -16,7 +19,7 @@ presets:
       content_filename: >
         {{ series_name }} - {{ series_id }}
         {% if ep_name|default(False) %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
-        {% if proper %}- proper{% endif %}
+        {% if proper %}- proper{{ proper_count|default('',) }}{% endif %}
     deluge:
       main_file_only: yes
 
@@ -33,7 +36,7 @@ feeds:
 }}}
 
 First we create a preset called 'tv' that holds all the plugin information we need to grab our series. Inside the tv preset here is what is happening:
- - The [wiki:Plugins/thetvdb_favorites thetvdb_favorites] plugin automatically configures the [wiki:Plugins/series series] plugin to download all the shows you have marked as a favorite on thetvdb.com. You can specify all of the options of the series plugin here, this example shows the quality option. Your account_id can be found on your account page at thetvdb.com
+ - The [wiki:Plugins/import_series import_series] plugin automatically configures the [wiki:Plugins/series series] plugin to download all the shows provided by another input plugin. We are using [wiki:Plugins/thetvdb_favorites thetvdb_favorites] under the {{{from}}} key to input any shows you have marked as a favorite on thetvdb.com. Your account_id can be found on your account page at thetvdb.com You can specify all of the options of the series plugin under the {{{settings}}} key, this example shows the quality option.
  - The [wiki:Plugins/exists_series exists_series] plugin will make sure we don't already have this episode in our tv library or currently downloading folder
  - We enable the [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin to pull the name of the episode from thetvdb.com, we use this info below in {{{content_filename}}}
  - We use the [wiki:Plugins/set set] plugin to define templates for:
@@ -48,87 +51,3 @@ The result of setting the movedone and content_filename using string replacement
 You can adjust those lines to match your naming standard.
 
 In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
-
-= Advanced Deluge and thetvdb features run on ver. 1.0r2245 =
-
-{{{
-presets:
-  tv:
-    import_series:
-      from:
-        thetvdb_favorites:
-          account_id: 230B039A30
-          #strip_dates: yes #optional
-          #quality: 720p #quality does not work here#
-    exists_series:
-      - /media/tv
-      - /media/incomplete
-    thetvdb_lookup: yes
-    set:
-      quality:
-        min: sdtv
-        max: 720p
-      #quality: 720p  #you could accept one quality only if you want#
-      path: /media/incomplete
-      movedone: "/media/tv/{{ series_name }}/Season {{ series_season }}"
-      content_filename: >
-        {{ series_name }} - {{ series_id }}
-        {% if ep_name|default(False) %}- {{ ep_name }} {% endif %}- {{ quality|upper }}
-        {% if proper %}- proper{% endif %}
-    deluge:
-      main_file_only: yes
-      user: xxxx
-      pass: yyyy
-
-feeds:
-  betterfeed:
-    priority: 1
-    preset: tv
-    rss: http://feed1.com/feed.xml
-
-  backupfeed:
-    priority: 2
-    preset: tv
-    rss: http://feed2.com/feed.xml
-}}}
-
-= Thetvdb Favorites =
-
-This plugin will create a list of entries for all the shows you have marked as favorites at [http://thetvdb.com]. If thetvdb goes down, the last known list of favorites will be used until it comes back online. This plugin can be used from the [wiki:Plugins/import_series import_series] plugin to automatically configure !FlexGet to download all of your tvdb favorites.
-
-You configure thetvdb_favorites plugin with your account id at thetvdb. You can find it on the [http://thetvdb.com/?tab=userinfo account tab] after you log in.
-
-''' Example '''
-
-{{{
-import_series:
-  from:
-    thetvdb_favorites:
-      account_id: 320D93B3A1
-}}}
-
-== Strip Dates Option ==
-If the {{{strip_dates}}} option is specified, the trailing year will be stripped from series names that include them. For example, "Merlin (2008)" would become just "Merlin".
-
-''' Example '''
-{{{
-thetvdb_favorites:
-  account_id: 320D93B3A1
-  strip_dates: yes
-}}}
-
-== Series Settings ==
-You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin with the [wiki:Plugins/import_series import_series] plugin, as shown below.
-
-''' Example '''
-
-{{{
-import_series:
-  from:
-    thetvdb_favorites:
-      account_id: 320D93B3A1
-  settings:
-    timeframe: 12 hours
-    quality: 720p
-    propers: 3 days
-}}}
