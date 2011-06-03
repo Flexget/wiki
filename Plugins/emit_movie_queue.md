@@ -14,7 +14,7 @@ search:
       catid: 2
 }}}
 
-You should almost certainly use imdb_queue: yes with this, like below. As above, you should use the search plugin, or another plugin that adds a URL given a title, as this input does not have a url associated with each entry (like a normal input plugin).
+You should almost certainly use movie_queue: yes with this, like below. As above, you should use the search plugin, or another plugin that adds a URL given a title, as this input does not have a url associated with each entry (like a normal input plugin).
 
 {{{
 movie_queue: yes
