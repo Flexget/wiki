@@ -54,7 +54,9 @@ Check the launchd man page for other options.
 
 ''Unverified, but this should be the best way''
 
-http://py-pip.darwinports.com/
+Install the Python pip module using !MacPorts:
+
+http://www.macports.org/ports.php?by=name&substr=py%25-pip
 
 after that you should be able to install !FlexGet simply with
 
