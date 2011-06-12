@@ -45,7 +45,7 @@ Our feed `tv-shows` has three plugins: [wiki:Plugins/rss rss], [wiki:Plugins/ser
 
 === Plugin: RSS ===
 
-This is our input plugin which reads RSS-feed and produces processable [wiki:Entry entries]. By looking at plugin [wiki:Plugins/rss rss] documentation we learn that it accepts URL as a parameter in it's simplest form.
+This is our input plugin which reads RSS-feed and produces processable [wiki:Entry entries]. By looking at plugin [wiki:Plugins/rss rss] documentation we learn that it accepts URL as a parameter in its simplest form.
 
 === Plugin: Series ===
 
