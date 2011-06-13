@@ -18,6 +18,8 @@ Ordered by quality value.
 ||dvdrip||dvd||
 ||web-dl||webdl, web dl||
 ||480p||480||
+||368p||368||||
+||360p||
 ||hdtv||||
 ||dvdrip r5||||
 ||bdscr||||
@@ -32,4 +34,4 @@ Ordered by quality value.
 
 === Notes ===
 
- * `720p` should not be used in movie context since all such movies are usually `720p bluray` or `720p bluray rc`.
+ * `720p` should not be used in movie context since all movies are usually `720p bluray` or `720p bluray rc`.
