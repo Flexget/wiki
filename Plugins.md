@@ -81,6 +81,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/require_field require_field]||'''{{{NEW}}}'''  Reject entries that do not have the specified fields.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
+||[wiki:Plugins/seen_info_hash seen_info_hash]||Rejects already downloaded torrents (detected by torrent info hash). [wiki:Builtin]||
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||'''{{{NEW}}}'''  Accept any entry that appears to be the first episode of a series.||
