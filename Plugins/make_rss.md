@@ -73,7 +73,7 @@ Generate RSS that will contain last 50 items, regardless of dates.
         
 == RSS link ==
         
-You can specify what field from entry is used as a link in generated rss feed.
+You can specify what [wiki:Entry field] from entry is used as a link in generated rss feed.
         
 === Example ===
 
@@ -84,7 +84,7 @@ make_rss:
     - imdb_url
 }}}
             
-List should contain a list of fields in order of preference.
+List should contain a list of [wiki:Entry fields] in order of preference.
 Note that the url field is always used as last possible fallback
 even without explicitly adding it into the list.
         
