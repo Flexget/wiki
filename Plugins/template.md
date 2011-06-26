@@ -41,6 +41,17 @@ feeds:
     rss: http://example4.com
 }}}
 
+The global preset can be disabled on a specific feed by including the special preset {{{no_global}}} i.e.
+{{{
+preset: no_global
+}}}
+or, if you also need to include other presets
+{{{
+preset:
+  - no_global
+  - preset_b
+}}}
+
 == Execute feeds with a given preset ==
 
 To execute all feeds that have certain preset you can use `--preset NAME`
