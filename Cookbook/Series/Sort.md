@@ -5,7 +5,7 @@ This recipe is to sort your already downloaded series into their own folders.
 {{{
 presets:
 
-  # this preset cannot have any other configuration or else it will affect our sort-series
+  # NOTE!! This preset cannot have any other configuration or else it will affect our sort-series
   tv-series:
     series:
       - Chuck
