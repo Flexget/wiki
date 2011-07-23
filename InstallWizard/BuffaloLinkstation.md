@@ -24,6 +24,11 @@ easy_install-2.5 http://download.flexget.com/unstable/FlexGet-1.0<input correct 
 #(method 2) download first, then execute
 easy_install-2.5 /mnt/disk1/share/FlexGet-1.0<input correct version here>.egg
 }}}
+If you get a 'No space left on device' error this is due to the fact that the /tmp directory is held in RAM. In this case use the following workaround:
+{{{
+mkdir /tmp2
+TEMP=/tmp2 easy_install-2.5 /mnt/disk1/share/FlexGet-1.0<input correct version here>.egg
+}}}
 
 You can check your installation using
 
