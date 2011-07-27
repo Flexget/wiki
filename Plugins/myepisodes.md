@@ -33,3 +33,20 @@ feeds:
 }}}
  
 Have a look at the attached image for how to find the correct series ID on the !MyEpisodes homepage. 
+
+== Usage without series related plugins ==
+
+!Myepisodes plugin needs certain entry fields in order to work properly, namely series_name, series_season and series_episode. When you use [wiki:Plugins/series series] plugin or related they are available automatically. If you want to use myepisode plugin with pure regexp or accept_all you must enable [wiki:Plugins/metainfo_series metainfo_series] which will try to guess those fields.
+
+'''Example'''
+
+{{{
+feeds:
+  tvshows:
+    rss: <url>
+    accept_all: yes
+    metainfo_series: yes
+    myepisodes:
+      username: <username>
+      password: <password>
+}}}
