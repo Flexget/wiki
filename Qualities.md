@@ -18,8 +18,8 @@ Ordered by quality value.
 ||dvdrip||dvd||
 ||web-dl||webdl, web dl||
 ||480p||480||
-||368p||368||||
-||360p||
+||368p||368||
+||360p||||
 ||hdtv||||
 ||dvdrip r5||||
 ||bdscr||||
