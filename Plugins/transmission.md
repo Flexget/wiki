@@ -3,6 +3,7 @@
 Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission.
 
 This plugin requires the transmissionrpc library. To install it, run:
+
 {{{
 easy_install transmissionrpc
 }}}
@@ -43,12 +44,10 @@ transmission: yes
 
 == Advanced ==
 
-Some plugins allow set: statements as a subcommand.
-The transmission plugin will read any of the normal parameters from the set: command
+Some plugins allow setting entry field values with set plugin as a subcommand.
+Transmission plugin will utilize options from entry fields. This allow more refined configuration per entries.
 
-Here is an example using the series module:
-
-Example with set:
+Here is an example using the series plugin:
 
 {{{
 series:
