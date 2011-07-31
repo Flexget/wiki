@@ -4,7 +4,7 @@ OpenWrt is described as a Linux distribution for embedded devices.
 
 = Set up environment =
 
-Python, !FlexGet and dependencies currently need ~7MB of free space. It can be trimmed down, because there are dependencies only needed for future webui so it would be possible to run FlexGet without them. However easy_install will install them too.
+!FlexGet and dependencies currently need ~7MB of free space, plus the stuff you install with opkg (another ~3MB). It can be trimmed down, because there are dependencies only needed for future webui so it would be possible to run FlexGet without them. However easy_install will install them too.
 
 == Python ==
 
