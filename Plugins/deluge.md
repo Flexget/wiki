@@ -114,4 +114,4 @@ Together with the movedone command, this means all TV series will be downloaded 
 
 == Windows Users ==
 
-As of r2297 !FlexGet should be able to detect Deluge in it's install directory and the old instructions are no longer necessary.
+As of r2297 !FlexGet should be able to detect Deluge in it's install directory and the [wiki:Plugins/deluge?version=31#WindowsUsers old instructions] are no longer necessary.
