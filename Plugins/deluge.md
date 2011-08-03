@@ -114,12 +114,4 @@ Together with the movedone command, this means all TV series will be downloaded 
 
 == Windows Users ==
 
-''This should be done after you [wiki:InstallWizard/Windows install] !FlexGet''
-
-The Deluge Windows installer does not install deluge or it's dependencies to the python site-packages folder. This means, in order to get !FlexGet to use the deluge module, you will have to use easy_install to get them there. Go to a command prompt at C:\Program Files\Deluge\ (or wherever your deluge install is) and typed 'easy_install deluge-1.3.0_rc1-py2.6.egg' obviously, this is for 1.3 rc1, adjust the command for whatever version you are using. Remember you also need to install dependencies too. If you want to see what dependency is failing try to 'from deluge.ui.client import client' in a python shell, the resulting error will usually give you a pretty good idea of what you are missing. Install that, then try the import again till it works successfully. Then once you have all the dependencies, try to run flexget again.
-
-Here are a list of dependencies you probably need to install:
- - Twisted, Zope.Interface, and pyopenssl can be found at the [http://twistedmatrix.com/trac/wiki/Downloads twisted download page].
- - pywin32 can be found [http://sourceforge.net/projects/pywin32/files/ here.]
- - pyxdg can be installed using the command 'easy_install !http://www.freedesktop.org/~lanius/pyxdg-0.18.tar.gz' (pyxdg is not needed with Deluge 1.3+)
- - chardet can be installed with 'easy_install chardet'
+As of r2297 !FlexGet should be able to detect Deluge in it's install directory and the old instructions are no longer necessary.
