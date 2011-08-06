@@ -4,6 +4,11 @@ Accept movies based on a predefined queue. After a movie is in the queue, it wil
 
 You need to manually add movies to the queue from the commandline.
 
+== Related plugins ==
+
+ * [wiki:Plugins/proper_movies proper_movies]
+ * [wiki:Plugins/seen_movies seen_movies]
+
 == Queueing ==
 
 {{{
@@ -34,10 +39,12 @@ http://www.imdb.com/title/tt1038686 720p
 
 == Enabling the filter ==
 
-For movie-queue to look for matches in any feeds, there must be an entry in the configuration for that feed, matching the below.
+Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which feeds the queue is used. This is done simply by enabling `movie_queue`.
 
 {{{
 movie_queue: yes
 }}}
+
+Since this will also cause imdb and/or tmdb queries it would be best to use it on feeds where there are only movies.
 
 Movies get purged from queue when they reach output successfully.
