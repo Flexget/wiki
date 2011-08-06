@@ -77,6 +77,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
 ||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the feed on the previous run to be rejected at the input phase.||
 ||[wiki:Plugins/private_torrents private_torrents]||'''{{{NEW}}}'''  Reject private or public torrents.||
+||[wiki:Plugins/proper_movies proper_movies]||'''{{{NEW}}}'''  Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/require_field require_field]||'''{{{NEW}}}'''  Reject entries that do not have the specified fields.||
