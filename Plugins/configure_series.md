@@ -2,6 +2,9 @@
 
 Generates [wiki:Plugins/series series] plugin configuration from any (upgraded) input. Using this doesn't prevent configuring [wiki:Plugins/series series] plugin additionally. 
 
+Most commonly used with [wiki:/Plugins/thetvdb_favorites thetvdb_favorites] or [wiki:Plugins/listdir listdir].
+
+
 '''Syntax:'''
 
 {{{
@@ -12,9 +15,9 @@ import_series:
     # any input(s)
 }}}
 
-'''Example:'''
+'''Example with listdir:'''
 
-Lets say you have a directory where all your series are stored in each in the own folder. Something like:
+Let's say you have a directory where all your series are stored in each in the own folder. Something like:
 
 {{{
 /media/series/pioneer one/
@@ -31,3 +34,5 @@ import_series:
     listdir:
       - /media/series/
 }}}
+
+This will make adding new series easy too, just create new directory there :)
