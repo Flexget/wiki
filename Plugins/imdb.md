@@ -3,7 +3,12 @@
 This module allows filtering based on IMDB score, votes and genres etc.
 Results are cached so this doesn't cause unnecessary load to [http://www.imdb.com imdb].
 
-'''Note:''' If [wiki:Entry] doesn't have `imdb url` present plugin will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
+
+'''Notes:''' 
+
+ * If [wiki:Entry] doesn't have `imdb url` present plugin will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
+ * To reject non imdb compatible entries, use [wiki:Plugins/imdb_required imdb_required] plugin.
+ * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [wiki:Plugins/seen_movies seen_movies] plugin alongside.
 
 === Example ===
 
@@ -70,5 +75,3 @@ imdb:
 }}}
 
 Notice that the MPAA ratings all have _ instead of - and TV ratings are also applicable. "NONE" is also an acceptable rating, and will catch anything without an MPAA rating attached.
-
-'''Note:''' To reject non imdb compatible entries, use [wiki:Plugins/imdb_required imdb_required] plugin.
