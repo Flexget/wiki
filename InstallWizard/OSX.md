@@ -1,6 +1,6 @@
 = Installing !FlexGet on OSX =
 
-''TODO: Works on 10.6.  Someone needs to verify this on earlier versions ...''
+''TODO: Works on 10.6 and 10.7.  Someone needs to verify this on earlier versions ...''
 
 {{{
 sudo easy_install flexget
