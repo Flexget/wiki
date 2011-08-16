@@ -109,6 +109,8 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/subtitles subtitles]||UNFINISHED. Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
+||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
+
 
 == Modify / Other ==
 
