@@ -8,5 +8,5 @@ Useful with the imdb_watchlist plugin to add all movies in your imdb watchlist t
     username: myimdbuser
     password: mypass
   accept_all: yes
-  movie_queue: yes
+  queue_movies: yes
 }}}
