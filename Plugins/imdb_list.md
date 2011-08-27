@@ -9,3 +9,5 @@ This plugin is most useful when used in a feed with the [wiki:Plugins/queue_movi
     username: imdbusername
     password: mypassword
 }}}
+
+'''Note:''' Adding this to your "movies feed(s)" will NOT cause movies in imdb_watchlist to be accepted since this is an input, not a filter.
