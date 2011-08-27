@@ -1,12 +1,33 @@
 = Queue Movies =
-This plugin adds a movie to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a feed.
+
+This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a feed. 
+
+With this you could for example queue all movies in your imdb_watchlist by creating following feed.
 
 '''Example:'''
-Useful with the imdb_watchlist plugin to add all movies in your imdb watchlist to your movie queue.
+
 {{{
-  imdb_watchlist:
-    username: myimdbuser
-    password: mypass
-  accept_all: yes
-  queue_movies: yes
+feeds:
+  queue_from_imdb:
+    imdb_watchlist:
+      username: myimdbuser
+      password: mypass
+    accept_all: yes
+    queue_movies: yes
 }}}
+
+Or from RSS feed.
+
+'''Example:'''
+
+{{{
+feeds:
+  queue_from_foobar:
+    rss: http://foobar.com/rss.xml # input
+    accept_all: yes                # filter which accepts everything
+    queue_movies: yes              # output entries to movie queue
+}}}
+
+These are not feeds in traditional !FlexGet sense as they don't download anything. Instead they are more like utility tasks.
+
+Queue movies will work best with entries containing imdb_id/url or tmdb, if they're not available it will try to get them on it's own. Relying on this will mean that some of the entries may not be added to the [wiki:Plugins/movie_queue movie_queue].
