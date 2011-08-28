@@ -21,6 +21,8 @@ See [wiki:Qualities qualities] for valid quality list.
 
 Quality matches are no longer exact. There is "better than the quality specified" logic now added. Qualities above are from best to worst.
 
+If force flag is given (values: yes|no) it will cause movie to be marked as immortal and forced trough other possible filters.
+
 === Examples ===
 
 The following will queue [http://www.imdb.com/title/tt1038686/ Legion (2010)] with quality 720p
@@ -30,16 +32,23 @@ $ flexget --movie-queue add imdb_id=tt1038686 "720p bluray"
 Added tt1038686 to queue with quality 720p bluray
 }}}
 
+Adding with name works too, if name can be queried from imdb/tmdb successfully.
+
+{{{
+$ flexget --movie-queue add legion "720p bluray"
+}}}
+
+
 You can also list the queue
 
 {{{
 $ flexget --movie-queue list
-http://www.imdb.com/title/tt1038686 720p
+http://www.imdb.com/title/tt1038686 720p bluray
 }}}
 
 == Enabling the filter ==
 
-Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which feeds the queue is used. This is done simply by enabling `movie_queue`.
+Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which feeds the queue is used on. This is done simply by enabling `movie_queue` on them.
 
 {{{
 movie_queue: yes
