@@ -67,6 +67,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/all_series all_series]||'''{{{NEW}}}'''  Accepts any entry that appears to be an episode of a series.||
 ||[wiki:Plugins/content_filter content_filter]||'''{{{NEW}}}'''  Reject based on filenames within torrents.||
 ||[wiki:Plugins/content_size content_size]||'''{{{NEW}}}'''  Reject torrents and nzb's that do not meet size requirements.||
+||[wiki:Plugins/crossmatch crossmatch]||'''{{{NEW}}}'''  Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history).||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/exists_series exists_series]||Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
