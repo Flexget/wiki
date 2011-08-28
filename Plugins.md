@@ -46,7 +46,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/search search].||
 ||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
-||[wiki:Plugins/imdb_watchlist imdb_watchlist]||Use movies in your IMDb watchlist as an input.||
+||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/input_deluge input_deluge]||'''{{{NEW}}}''' Use torrents loaded in a Deluge daemon as input.||
 ||[wiki:Plugins/inputs inputs]||'''{{{NEW}}}''' Configure the same input plugin multiple times in one feed.||
 ||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
