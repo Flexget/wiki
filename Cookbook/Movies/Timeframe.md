@@ -16,11 +16,13 @@ presets:
 feeds:
 
   feed-1080p:
+    preset: movies
     priority: 1
     rss: http://example.com/feed.rss
     quality: 1080p
   
   feed-720p:
+    preset: movies
     priority: 2
     rss: http://example.com/feed.rss
     quality: 720p
