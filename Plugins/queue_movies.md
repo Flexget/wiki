@@ -31,3 +31,11 @@ feeds:
 These are not feeds in traditional !FlexGet sense as they don't download anything. Instead they are more like utility tasks.
 
 Queue movies will work best with entries containing imdb_id/url or tmdb, if they're not available it will try to get them on it's own. Relying on this will mean that some of the entries may not be added to the [wiki:Plugins/movie_queue movie_queue].
+
+== Options ==
+You can also specify options for items being added to the movie queue. {{{quality}}} and {{{force}}} fields will be respected from entries, or they can be specified in the queue_movies config like so:
+{{{
+queue_movies:
+  quality: 720p
+  force: no
+}}}
