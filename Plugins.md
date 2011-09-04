@@ -55,6 +55,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
+||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
 
 == Filters ==
