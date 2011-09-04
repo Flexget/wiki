@@ -1,6 +1,6 @@
 = Trakt list =
 
-This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available trakt.tv lists.
+This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
 This plugin is useful for example when used in a feed with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]
 
