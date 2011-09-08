@@ -8,8 +8,7 @@ This plugin is useful for example when used in a feed with the [wiki:Plugins/que
 
 {{{
 imdb_list:
-  username: imdbusername
-  password: mypassword
+  user_id: ur9999999
   list: watchlist
 }}}
 
