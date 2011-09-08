@@ -12,4 +12,15 @@ imdb_list:
   list: watchlist
 }}}
 
+'''Example:'''
+
+If your list is private, you will also need to specify your imdb username and password.
+{{{
+imdb_list:
+  user_id: ur9999999
+  list: watchlist
+  username: me@somewhere.com
+  password: mypassword
+}}}
+
 '''Note:''' Adding this to your movie feeds or preset will NOT cause movies in imdb's watchlist to be accepted since this is an input, not a filter.
