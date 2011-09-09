@@ -11,6 +11,7 @@ imdb_list:
   user_id: ur9999999
   list: watchlist
 }}}
+Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in. (look in the url)
 
 '''Example:'''
 
