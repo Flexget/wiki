@@ -12,3 +12,4 @@ trakt_acquired:
   api_key: <trakt api key>
   type: <movies|series>
 }}}
+Your trakt api key can be found [http://trakt.tv/settings/api here].
