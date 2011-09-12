@@ -11,14 +11,15 @@ imdb_list:
   user_id: ur9999999
   list: watchlist
 }}}
+
 Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in. (look in the url)
 
 '''Example:'''
 
-If your list is private, you will also need to specify your imdb username and password.
+If your list is private, you will need to specify your imdb username and password. User_id is then not mandatory as plugin will figure it out for you.
+
 {{{
 imdb_list:
-  user_id: ur9999999
   list: watchlist
   username: me@somewhere.com
   password: mypassword
