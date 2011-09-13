@@ -42,6 +42,8 @@ manipulate:
       extract: \[\d\d\d\d\](.*)
 }}}
 
+The (.*) part is what this regexp is extracting (capture group), so everything after those numbers.
+
 Regexp can return any number of groups, value is combination of these (separated with a space).
 
 === Example 2 ===
