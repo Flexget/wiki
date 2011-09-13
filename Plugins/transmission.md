@@ -21,21 +21,21 @@ transmission:
 == Options ==
 
 ||'''Name'''||'''Info'''||'''Description'''||
-||host||Optional (default: localhost)||
-||port||Number, Optional (default: 9091)||
-||netrc||File, Optional||
-||username||Optional||
-||password||Optional||
-||path||Optional||destination for downloaded file(s), string replacement OK||
-||addpaused||[Yes|No], Optional||
-||bandwidthpriority||[-1,0,1], Optional||
-||honourlimits||Boolean, Optional||
-||maxconnections||Number, Optional||
-||maxupspeed||Number, Optional||
-||maxdownspeed||Number, Optional||
-||ratio||Decimal, Optional (-1 means infinite)||the ratio to stop seeding at||
-||removewhendone||Boolean||
-||enabled||Boolean, Optional (default: True)||
+||host||Text||Where transmission is listening (default: localhost)||
+||port||Number||Connected port (default: 9091)||
+||netrc||File||||
+||username||Text||||
+||password||Text||||
+||path||Directory||Destination for downloaded file(s). Supports [wiki:ValueReplacement value replacement].||
+||addpaused||[Yes|No]||||
+||bandwidthpriority||[-1,0,1]||||
+||honourlimits||[Yes|No]||||
+||maxconnections||Number||||
+||maxupspeed||Number||||
+||maxdownspeed||Number||||
+||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
+||removewhendone||[Yes|No]||||
+||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 
 To use all default values use this config form:
 {{{
@@ -44,21 +44,18 @@ transmission: yes
 
 == Advanced ==
 
-Some plugins allow setting entry field values with set plugin as a subcommand.
-Transmission plugin will utilize options from entry fields. This allow more refined configuration per entries.
+Transmission plugin will also utilize options from [wiki:Entry entry] fields. This allow more refined configuration per entries.
 
-Here is an example using the series plugin:
+Here is an example feed using the series plugin:
 
 {{{
 series:
   settings:
     720p:
-      quality: 720p
       set:
         path: /media/diska/incomplete/
         label: 720p
     hdtv:
-      quality: hdtv
       set:
         path: /media/diskb/incomplete/
         label: tv
@@ -71,7 +68,6 @@ series:
         set:
           ratio: 5.0
           addpaused: yes
-
 transmission:
   host: localhost
   port: 9091
