@@ -169,4 +169,6 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 
 == 3rd party plugins ==
 
+Plugins can be installed by simply placing them in `~/.flexget/plugins/`
+
 ||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
