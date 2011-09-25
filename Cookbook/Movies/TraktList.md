@@ -1,5 +1,5 @@
 = Seed movie_queue from trakt.tv watchlist =
-This feed will cause all of the movies you add to your [http://trakt.tv trakt.tv] watchlist to your [wiki:Plugins/movie_queue movie_queue]. It will not actually download anything, you will have to set up another feed with the movie_queue plugin to do the actual downloading.
+This feed will cause all of the movies you add to your [http://trakt.tv trakt.tv] watchlist to your [wiki:Plugins/movie_queue movie_queue]. It will not actually download anything, you will have to set up another feed with the [wiki:Plugins/movie_queue movie_queue] plugin to do the actual downloading. You can also use the [wiki:Plugins/imdb_list imdb_list] plugin instead of, or along with the [wiki:Plugins/trakt_list trakt_list] plugin.
 {{{
 feeds:
   seed_watchlist:
