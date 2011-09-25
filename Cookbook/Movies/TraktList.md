@@ -15,3 +15,4 @@ feeds:
       quality: 720p bluray
       force: no
 }}}
+Plugins used: [wiki:Plugins/priority priority], [wiki:Plugins/interval interval], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies]
