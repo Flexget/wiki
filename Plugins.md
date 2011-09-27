@@ -92,9 +92,10 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 == Site integration & Auto configuration ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/imdb_lookup imdb_lookup]||Tries to perform imdb lookup for all entries.||
+||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
 ||[wiki:Plugins/myepisodes myepisodes]||'''{{{NEW}}}''' Mark accepted episodes as acquired on !MyEpisodes.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
+||[wiki:Plugins/tmdb_lookup tmdb_lookup]||'''{{{NEW}}}''' Enable http://www.themoviedb.org/ parsing for imdb fields on-demand.||
 ||[wiki:Plugins/trakt_acquired trakt_acquired]||'''{{{NEW}}}''' Mark accepted episodes/movies as acquired on trakt.tv.||
 
 These plugins configure other plugins from external sources like 3rd party sites.
