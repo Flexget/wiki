@@ -89,7 +89,13 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||'''{{{NEW}}}'''  Accept any entry that appears to be the first episode of a series.||
 
-== Configuration ==
+== Site integration & Auto configuration ==
+
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/imdb_lookup imdb_lookup]||Tries to perform imdb lookup for all entries.||
+||[wiki:Plugins/myepisodes myepisodes]||'''{{{NEW}}}''' Mark accepted episodes as acquired on !MyEpisodes.||
+||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
+||[wiki:Plugins/trakt_acquired trakt_acquired]||'''{{{NEW}}}''' Mark accepted episodes/movies as acquired on trakt.tv.||
 
 These plugins configure other plugins from external sources like 3rd party sites.
 
@@ -114,26 +120,23 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
 
-
 == Modify / Other ==
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/add_trackers add_trackers]||'''{{{NEW}}}'''  Add trackers to torrents.||
-||[wiki:Plugins/archive archive]||'''{{{NEW}}}'''  Archive all seen entries for searchable database for later retrieval.||
+||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
+||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}'''  Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
-||[wiki:Plugins/free_space free_space]||'''{{{NEW}}}''' Abort feed when drive space is low.||
+||[wiki:Plugins/free_space free_space]||Abort feed when drive space is low.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
-||[wiki:Plugins/imdb_lookup imdb_lookup]||Tries to perform imdb lookup for all entries.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}''' Allows regexp manipulation for entries.||
 ||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the a feed when explicitly specified.||
-||[wiki:Plugins/myepisodes myepisodes]||'''{{{NEW}}}''' Mark accepted episodes as acquired on !MyEpisodes.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
@@ -143,8 +146,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/set set]||'''{{{UPGRADED}}}'''  Set 'path' or other info per feed. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
-||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
-||[wiki:Plugins/trakt_acquired trakt_acquired]||'''{{{NEW}}}''' Mark accepted episodes/movies as acquired on trakt.tv.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
