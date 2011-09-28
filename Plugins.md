@@ -88,6 +88,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||'''{{{NEW}}}'''  Accept any entry that appears to be the first episode of a series.||
+||[wiki:Plugins/torrent_alive torrent_alive]||'''{{{NEW}}}''' Reject any torrents that do not have an active tracker with seeds.||
 
 == Site integration & Auto configuration ==
 
