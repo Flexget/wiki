@@ -14,7 +14,7 @@ trakt_list:
   <media type>: <list type>
 }}}
 
-{{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series' or 'movies'. {{{list type}}} can be one of the following: 'all', 'collection', 'hated', 'loved', or 'watchlist'.
+{{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series', 'movies' or 'custom'. {{{list type}}} can be one of the following for series and movies lists: 'all', 'collection', 'hated', 'loved', or 'watchlist'. For custom lists, {{{list_type}}} should be the name of the custom list.
 
 '''Example:'''
 
