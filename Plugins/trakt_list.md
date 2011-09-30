@@ -32,14 +32,14 @@ queue_movies:
 
 '''Example:'''
 
-This example shows how the trakt_list plugin could be used with the [wiki:Plugins/import_series import_series] plugin in order to download all of the series you have marked as loved on trakt.
+This example shows how the trakt_list plugin could be used with the [wiki:Plugins/import_series import_series] plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
 {{{
 import_series:
   from:
     trakt_list:
       username: traktusername
       api_key: a098ae0eae09ae67ea
-      series: loved
+      custom: following shows
   settings:
     quality: 720p
 }}}
