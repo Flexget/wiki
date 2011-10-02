@@ -4,7 +4,7 @@ This plugin creates an [wiki:Entry Entry] for each movie/show in one of the avai
 
 This plugin is useful for example when used in a feed with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue][[BR]]
 
-'''Note:''' as with other APIs used by flexget the trakt.tv list is cached for 6 hours to avoid hammering.
+'''Note:''' as with other APIs used by flexget the trakt.tv list is cached for 2 hours to avoid hammering.
 
 
 [[BR]]
@@ -35,6 +35,7 @@ Use a Series category list as the input, options here are:
 * hated
 * collection
 * watchlist
+* watched
 }}}
 |----------------
 ||= '''custom'''=|| Uses a custom list name as the input (This custom list '''must''' be set as '''Public''') ||
