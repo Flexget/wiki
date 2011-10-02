@@ -12,7 +12,7 @@ This plugin is useful for example when used in a feed with the [wiki:Plugins/que
 Currently the following settings are supported:
 {{{#!div style="margin-left: 25px"
 ||= '''username'''=||This is your username at [http://trakt.tv trakt.tv] ||
-||= '''password'''=||Your [http://trakt.tv trakt.tv] password. This is only required to get private custom lists. ||
+||= '''password'''=||Your [http://trakt.tv trakt.tv] password. This is only required if your profile is protected, or to get private custom lists. ||
 ||= '''api_key'''=|| Your [http://trakt.tv trakt.tv] API key, this can be found at [http://trakt.tv/settings/api http://trakt.tv/settings/api] (if logged into trakt.tv) ||
 {{{#!th align=right valign=top
 '''movies'''
