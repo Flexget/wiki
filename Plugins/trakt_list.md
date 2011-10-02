@@ -3,9 +3,44 @@
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
 This plugin is useful for example when used in a feed with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue][[BR]]
-Please note that as with other APIs used by flexget the trakt.tv list is cached for 6 hours to avoid hammering.
 
-'''Config format:'''
+'''Note:''' as with other APIs used by flexget the trakt.tv list is cached for 6 hours to avoid hammering.
+
+
+[[BR]]
+== Plugin Settings ==
+Currently the following settings are supported:
+{{{#!div style="margin-left: 25px"
+||= '''username'''=||This is your username at [http://trakt.tv trakt.tv] ||
+||= '''api_key'''=|| Your [http://trakt.tv trakt.tv] API key, this can be found at [http://trakt.tv/settings/api http://trakt.tv/settings/api] (if logged into trakt.tv) ||
+{{{#!th align=right valign=top
+'''movies'''
+}}}
+{{{#!td
+Use a Movies category list as the input, options here are:
+* all
+* loved
+* hated
+* collection
+* watchlist
+}}}
+|----------------
+{{{#!th align=right valign=top
+'''series'''
+}}}
+{{{#!td Use a Series category list as the input, options here are:
+* all
+* loved
+* hated
+* collection
+* watchlist
+}}}
+|----------------
+||= '''custom'''=|| Uses a custom list name as the input (This custom list '''must''' be set as '''Public''') ||
+}}}
+
+
+== Config format ==
 
 {{{
 trakt_list:
@@ -16,7 +51,7 @@ trakt_list:
 
 {{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series', 'movies' or 'custom'. {{{list type}}} can be one of the following for series and movies lists: 'all', 'collection', 'hated', 'loved', or 'watchlist'. For custom lists, {{{list_type}}} should be the name of the custom list.
 
-'''Example:'''
+=== Example ===
 
 This example shows how you would use trakt_list plugin with [wiki:Plugins/queue_movies queue_movies], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]. This example should be in its own feed, not combined with your movie downloading feed.
 
@@ -30,7 +65,7 @@ queue_movies:
   quality: 720p bluray
 }}}
 
-'''Example:'''
+=== Example ===
 
 This example shows how the trakt_list plugin could be used with the [wiki:Plugins/import_series import_series] plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
 {{{
