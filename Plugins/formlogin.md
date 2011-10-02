@@ -2,6 +2,12 @@
 
 Log in to a site using a webform
 
+This plugin requires the mechanize library. To install it, run:
+
+{{{
+easy_install mechanize
+}}}
+
 === Example ===
 
 {{{
