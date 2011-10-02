@@ -28,7 +28,8 @@ Use a Movies category list as the input, options here are:
 {{{#!th align=right valign=top
 '''series'''
 }}}
-{{{#!td Use a Series category list as the input, options here are:
+{{{#!td 
+Use a Series category list as the input, options here are:
 * all
 * loved
 * hated
