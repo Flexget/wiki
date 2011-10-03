@@ -36,3 +36,4 @@ These recipes are not representing the normal use cases. Abandon sanity.
  [wiki:Cookbook/FlexGetUpdater Download FlexGet Releases]::
  Since we now have automated builds for every commit this might not be wanted at the moment. Useful once again when we start making stable releases.
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
+ [wiki:Cookbook/ForceStrictMatching Force Strict Matching]::
