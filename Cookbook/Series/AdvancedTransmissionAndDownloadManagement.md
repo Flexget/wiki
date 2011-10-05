@@ -165,11 +165,11 @@ feeds:
     # Please note: you must connect to the remote host without a password!
     #              use a public key instead!
     set:
-      path: /share/media.video/TV-Series/%(series_name)s/Season %(series_season)02d
+      path: /share/media.video/TV-Series/{{series_name}}/Season {{"%02d"|format(series_season)}}
     adv_exec:
       on_output:
-        for_rejected: ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"'
-        for_entries:  ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"'
+        for_rejected: ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"'
+        for_entries:  ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"'
     # please send no email with the result so deactivate this function from the preset
     email:
       active: False
@@ -200,13 +200,13 @@ feeds:
       - V
       - Warehouse 13
     set:
-      path: /Users/flexget/Movies/Series/%(series_name)s/Season %(series_season)02d
+      path: /Users/flexget/Movies/Series/{{series_name}}/Season {{"%02d"|format(series_season)}}
     # for each accepted and rejected video file we open a ssh connection and move
     # the downloaded file from the completed torrent directory to the destination
     adv_exec:
       on_output:
-        for_entries:  mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
-        for_rejected: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
+        for_entries:  mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"
+        for_rejected: mkdir -p "{{path}}" && mv "{{location}}" "{{path)}}"
     # please send no email with the result so deactivate this function from the preset
     email:
       active: False
