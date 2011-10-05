@@ -82,6 +82,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/proper_movies proper_movies]||'''{{{NEW}}}'''  Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
+||[wiki:Plugins/reject_failed reject_failed]||Reject entries that have failed too many times in the past. [wiki:Builtin]||
 ||[wiki:Plugins/require_field require_field]||'''{{{NEW}}}'''  Reject entries that do not have the specified fields.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen_info_hash seen_info_hash]||Rejects already downloaded torrents (detected by torrent info hash). [wiki:Builtin]||
