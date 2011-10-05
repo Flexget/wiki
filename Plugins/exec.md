@@ -11,13 +11,13 @@ With this configuration, your command is executed on all accepted entries that r
 === Example ===
 
 {{{
-exec: echo "found %(title)s at %(url)s" >> file
+exec: echo "found {{title}} at {{url}}" >> file
 }}}
 
 === Example 2 ===
 
 {{{
-exec: echo "downloaded file %(output)s" >> file
+exec: echo "downloaded file {{output}}" >> file
 }}}
 
 
@@ -51,9 +51,9 @@ exec:
   on_start: 
     phase: echo "Started"
   on_input:
-    for_entries: echo "got %(title)s"
+    for_entries: echo "got {{title}}"
   on_output: 
-    for_accepted: echo "accepted %(title)s - %(url)s" > file
+    for_accepted: echo "accepted {{title}} - {{url}}" > file
 }}}
     
 See [wiki:Entry entry documentation] for list of possible fields.
@@ -67,7 +67,7 @@ This option will also cause entries to fail that do not contain all of the varia
 exec:
   fail_entries: yes
   on_output: 
-    for_accepted: echo "accepted %(title)s - %(url)s" > file
+    for_accepted: echo "accepted {{title}} - {{url}}" > file
 }}}
 
 === Auto escape option ===
@@ -77,7 +77,7 @@ If one of your variables may contain characters that need to be escaped for the 
 exec:
   auto_escape: yes
   on_output: 
-    for_accepted: echo accepted\ %(title)s\ -\ %(url)s > file
+    for_accepted: echo accepted\ {{title}}\ -\ {{url}} > file
 }}}
 
 === Allow background option ===
@@ -88,7 +88,7 @@ exec:
   allow_background: yes
   auto_escape: yes
   on_output:
-    for_accepted: get_flash_videos %(url)s &
+    for_accepted: get_flash_videos {{url}} &
 }}}
 
 === Footnotes ===
