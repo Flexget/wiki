@@ -64,13 +64,13 @@ series:
       quality: 720p
       set:
         path: /media/diska/incomplete/
-        movedone: "/media/diska/TV/%(series_name)s/"
+        movedone: "/media/diska/TV/{{series_name}}/"
         label: 720p
     hdtv:
       quality: hdtv
       set:
         path: /media/diskb/incomplete/
-        movedone: "/media/diskb/TV/%(series_name)s/Season %(series_season)d/"
+        movedone: "/media/diskb/TV/{{series_name}}/Season {{series_season}}/"
         label: tv
   720p:
     - name 1
@@ -95,14 +95,14 @@ series:
   settings:
     groupa:
       set:
-        content_filename: "%(series_name)s - %(series_id)s - %(quality)s"
-        movedone: /home/user/TV/%(series_name)s/Season %(series_season)d/
+        content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
+        movedone: /home/user/TV/{{series_name}}/Season {{series_season}}/
   groupa:
     - Show Name
 deluge: yes
 }}}
 
-This config uses python [wiki:Plugins/set#string-replacement string replacement] notation to rename the file using information from the series parser. If there was a file called {{{Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv].mkv}}} inside the torrent, it would be renamed to {{{Show Name - S09E15 - 720p.mkv}}} If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. {{{Show Name - S09E15 - 720p(2).mkv}}}
+This config uses [wiki:Plugins/set#DynamicFormatting jinja2] notation to rename the file using information from the series parser. If there was a file called {{{Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv].mkv}}} inside the torrent, it would be renamed to {{{Show Name - S09E15 - 720p.mkv}}} If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. {{{Show Name - S09E15 - 720p(2).mkv}}}
 
 Together with the movedone command, this means all TV series will be downloaded to:
 
