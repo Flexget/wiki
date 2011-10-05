@@ -1,6 +1,6 @@
 = Set download path =
 
-Set series download path globally with set plugin, instead of specifying a path for each series.
+Set series download path using the series_name field, instead of specifying a path for each series.
 
 {{{
 feeds:
@@ -9,14 +9,10 @@ feeds:
     series:
       - foo
       - bar
-    set:
-      path: /series/location/%(series_name)s
-    download: yes
+    download: /series/location/{{series_name}}
 }}}
 
-Note: `download: yes` is valid only in recent versions ..
-
-Uses plugins: [wiki:Plugins/rss rss], [wiki:Plugins/series series], [wiki:Plugins/set set], [wiki:Plugins/download download]
+Uses plugins: [wiki:Plugins/rss rss], [wiki:Plugins/series series], [wiki:Plugins/download download]
 
 
 
