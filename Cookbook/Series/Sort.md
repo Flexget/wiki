@@ -32,12 +32,12 @@ feeds:
     preset: tv-series
     set:
       immortal: yes
-      path: /storage/series/%(series_name)s/Season %(series_season)02d
+      path: /storage/series/{{series_name}}/Season {{"%02d"|format(series_season)}}
     plugin_priority:
       set: 255
     if:
       - has_field('series_name'): accept
-    exec: mkdir -p "%(path)s" && mv "%(location)s" "%(path)s/"
+    exec: mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"
 }}}
 '''Uses Plugins:'''
 
