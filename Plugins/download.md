@@ -38,7 +38,7 @@ For even more customization you can use [wiki:Plugins/set set] plugin to manuall
 series:
   - pioneer one
 set:
-  path: /home/usera/TV/%(series_name)s/Season %(series_season)d/
+  path: /home/usera/TV/{{series_name}}/Season {{series_season}}/
 download: yes
 }}}
 
