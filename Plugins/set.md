@@ -31,11 +31,7 @@ regexp:
 
 == Dynamic Formatting ==
 
-The set plugin peforms another useful function in that it can dynamically format it's values based on other [wiki:Entry entry fields]. There are two methods for this, using the more powerful jinja2 template system, or if jinja2 is not available, simple replacement can be done with python string replacement.
-
-=== Jinja2 Templates ===
-
-Use [http://jinja.pocoo.org/templates/ jinja2 template] strings to create or modify [wiki:Entry entry fields].
+The set plugin peforms another useful function in that it can dynamically format it's values based on other [wiki:Entry entry fields]. This is done using the powerful [http://jinja.pocoo.org/templates/ jinja2 template] system to create or modify [wiki:Entry entry fields].
 
 '''NOTES:'''
  - All the fields from the entry are available in the jinja template context.
@@ -71,23 +67,6 @@ presets:
     set:
       # Replace filename by scrubbed title and keep the extension
       filename: '{{title | pathscrub}}{{filename | pathext}}'
-}}}
-
-
-=== String Replacement === #string-replacement
-
-Using the [http://docs.python.org/library/stdtypes.html#string-formatting-operations python string replacement] format, a variable from an [wiki:Entry entry] can be substituted into your set option.
-
-This example uses string replacement to place shows in series 'groupa' in their own show title and season folders.
-{{{
-series:
-  settings:
-    groupa:
-      set:
-        movedone: /home/usera/TV/%(series_name)s/Season %(series_season)d/
-  groupa:
-    - Some Show
-    - Some Other Show
 }}}
 
 == Plugins that accept Set keywords ==
