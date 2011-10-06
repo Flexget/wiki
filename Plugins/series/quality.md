@@ -6,7 +6,7 @@
 ||max_quality||Accept only qualities equal or below this||
 ||qualities||Accept all given qualities, multiple downloads||
 
-Possible values for quality can be found [wiki:Plugins/quality#Supportedqualities here.]
+Possible values for quality can be found [wiki:Qualities here.]
 
 '''Example:'''
 
