@@ -13,7 +13,7 @@ feeds:
     inputs:
       - find:
           path: F:\Torrent\Completed
-          regexp: '.*\.(rar)$'
+          mask: '*.rar'
           recursive: yes
 
     # Looks and accepts the first rar file of every archive set
@@ -39,7 +39,7 @@ feeds:
       fail_entries: yes
       on_output:
         for_accepted: >
-          "C:\Program Files\WinRAR\UnRAR.exe" x -o- -y "%(location)s" "%(output_path)s"
+          "C:\Program Files\WinRAR\UnRAR.exe" x -o- -y "{{location}}" "{{output_path}}"
 }}}
 
-Paths are windows specific of course, but part from that it should work for other platforms just fine.
+Paths are windows specific of course, but apart from that it should work for other platforms just fine.
