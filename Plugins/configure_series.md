@@ -36,3 +36,5 @@ import_series:
 }}}
 
 This will make adding new series easy too, just create new directory there :)
+
+'''NOTE:''' If you need to set different options for individual series, you can do so using the [wiki:Plugins/series series] plugin alongside import_series as shown in this [wiki:Cookbook/ForceStrictMatching recipe.]
