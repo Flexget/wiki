@@ -1,11 +1,6 @@
-= Force Strict Matching =
+= Force Exact Matching =
 
-''Developers thought:''[[BR]]
-Not sure when this is needed, better idea would be to specify `exact` option manually for series name instead of using similar name to force FlexGet enabling it.
-
-----
-
-Certain time you might want to force Flexget into strict matching for a tv series. Generally Flexget will handle this quite well, but in some cases it might fail to recognise very slight differences in series names.
+Certain times, when using [wiki:Plugins/import_series import_series] you might want to force !FlexGet into exact matching for a TV series.
 
 == An Example ==
 
@@ -14,16 +9,17 @@ Say a user follows a series named Seriesname, this series is broadcasted in nati
 * Seriesname
 * Seriesname UK
 
-In this case Flexget for some reason is failing to understand the difference here and you are recieving episodes from both series.
+By default !FlexGet will consider both of these series the same, if 'Seriesname' is the title provided by import_series.
 
-== The Hack ==
+== The Workaround ==
 
-To solve this we can introduce a hack into the Flexget config via [wiki:Plugins/series/regexps#Nameregexp name_regexp] to force strict matching for Seriesname
+To solve this we can manually specify [wiki:Plugins/series/exact exact] mode for this series using the regular [wiki:Plugins/series series] plugin.
 
 {{{
+# Use import_series as normal, and also include the series plugin like this:
 series:
-  blocklist:
-    - Seriesname UK:
-        name_regexp: ^z{20}
-
+  # The series name specified here should be exactly the same as it comes from import_series
+  - Seriesname:
+      exact: yes
 }}}
+The exact option will be merged into this specific series, along with any options you have specified for all series using import_series plugin.
