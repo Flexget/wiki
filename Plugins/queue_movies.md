@@ -9,9 +9,10 @@ With this you could for example queue all movies in your imdb_watchlist by creat
 {{{
 feeds:
   queue_from_imdb:
-    imdb_watchlist:
+    imdb_list:
       username: myimdbuser
       password: mypass
+      list: watchlist
     accept_all: yes
     queue_movies: yes
 }}}
