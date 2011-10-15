@@ -2,7 +2,7 @@
 
 This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a feed. 
 
-With this you could for example queue all movies in your imdb_watchlist by creating following feed.
+With this you could for example queue all movies in your imdb watchlist by creating following feed.
 
 '''Example:'''
 
