@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 16.10.2011 r2430 (d.m.yyyy) ===
+
+input_deluge plugin has been renamed from_deluge
+
 === 2x.5.2011 r2xxx (d.m.yyyy) ===
 
 If you're running subversion and get this error #1112 run
