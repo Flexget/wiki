@@ -1,7 +1,7 @@
 = Entry =
 
 Entry represents a single item created by input(s), usually a downloadable content.
-It contains all the information necessary for [wiki:Plugins plugins] to perform their job.
+It contains all the information necessary for [wiki:Plugins plugins] to perform their job. Usually some [wiki:FilterOperations action for entry].
 
 For example, the [wiki:Plugins/regexp regexp] plugin checks whether the given regular expression matches the entry's '''title''' or '''url''' and acts accordingly.
 
@@ -72,6 +72,3 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
 
 ^* = and other plugins that utilize this plugin^
-
-''More resources:''
- * [wiki:FilterOperations Actions for entry]
