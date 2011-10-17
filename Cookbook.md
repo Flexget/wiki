@@ -38,3 +38,9 @@ These recipes are not representing the normal use cases. Abandon sanity.
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
  [wiki:Cookbook/ForceStrictMatching Force Strict Matching]::
  [wiki:Cookbook/AutomaticRarUnpack Unpack rar files automatically]::
+
+=== Complete user configurations ===
+
+These are the complete configurations of actual end users. Feel free to add your own so others may learn from it.
+
+ [wiki:Cookbook/UserAtlanta800 Atlanta800]::
