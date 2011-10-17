@@ -116,11 +116,11 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||'''{{{UPGRADED}}}'''  Executes commands on entries.||
+||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
-||[wiki:Plugins/subtitles subtitles]||UNFINISHED. Download subtitles for movies from [http://opensubtitles.com opensubtitles.com].||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
 
