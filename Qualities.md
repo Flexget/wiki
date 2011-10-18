@@ -21,6 +21,7 @@ Ordered by quality value.
 ||bdrip||brrip, bluray, blurayrip||
 ||dvdrip||dvd||
 ||web-dl||webdl, web dl||
+||576p||||
 ||480p 10bit||||
 ||480p||480||
 ||368p||368||
