@@ -31,7 +31,7 @@ If you get a 'No space left on device' error this is due to the fact that the /t
 
 {{{
 mkdir /tmp2
-TEMP=/tmp2 easy_install-2.5 /mnt/disk1/share/FlexGet-1.0<input correct version here>.egg
+TEMP=/tmp2 easy_install-2.5 flexget
 }}}
 
 You can check your installation using
@@ -50,6 +50,7 @@ python /opt/local/bin/flexget
 You will need a configuration file, whereas the most simple version you find on the homepage and more complete versions in the cookbook, linked below.
 
 = Cron job =
+
 If you want FlexGet to automatically run e.g. every 45 minutes you can include the following in your crontab:
 
 {{{
