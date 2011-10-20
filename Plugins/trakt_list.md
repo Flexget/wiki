@@ -4,12 +4,12 @@ This plugin creates an [wiki:Entry Entry] for each movie/show in one of the avai
 
 This plugin is useful for example when used in a feed with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/import_series import_series].[[BR]]
 
-'''Note:''' as with other APIs used by flexget the trakt.tv list is cached for 2 hours to avoid hammering.
+'''Note:''' as with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
 
-
-[[BR]]
 == Plugin Settings ==
+
 Currently the following settings are supported:
+
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
@@ -43,7 +43,6 @@ Use a Series category list as the input, options here are:
 ||'''custom'''|| Uses a custom list name as the input. (You must also specify password to retrieve private lists.) ||
 }}}
 
-
 == Config format ==
 
 {{{
@@ -54,6 +53,8 @@ trakt_list:
 }}}
 
 {{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series', 'movies' or 'custom'. {{{list type}}} can be one of the following for series and movies lists: 'all', 'collection', 'hated', 'loved', or 'watchlist'. For custom lists, {{{list_type}}} should be the name of the custom list.
+
+'''Note:''' Adding this to your movie feeds or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
 
 === Example ===
 
@@ -82,5 +83,3 @@ import_series:
   settings:
     quality: 720p
 }}}
-
-'''Note:''' Adding this to your movie feeds or preset will NOT cause movies in the trakt list to be accepted since this is an input, not a filter.
