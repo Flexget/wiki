@@ -68,7 +68,7 @@ All settings can be applied in either of the formats.
 
 == Notes ==
 
- * If the series appears in feed(s) with slightly different naming conventions like !FooBar and !FooBar US or !FooBar 2005 read [wiki:Plugins/series/closematch this guide]. 
+ * If the series appears in feed(s) with slightly different naming conventions and spinoffs like !FooBar and !FooBar US read [wiki:Plugins/series/closematch this guide]. 
  * !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
  * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. 
  * Check [wiki:Cookbook/Series series cookbook] for more complete examples and advanced uses.
