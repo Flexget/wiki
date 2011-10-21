@@ -52,6 +52,7 @@ This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E
 === Jinja2 Filters ===
 When using Jinja2 templates, you can use the following custom filters in addition to the [http://jinja.pocoo.org/templates/#builtin-filters built-in ones].
 
+ pad(length):: Pad a number with 0s to the specified length.
  pathbase:: Base name of a path.
  pathname:: Base name of a path, without its extension.
  pathext:: Extension of a path (including the '.').
