@@ -27,10 +27,10 @@ This is especially useful when you have downloaded something manually outside !F
 }}}
 
 
-With feeds using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb url to mark any movie as already seen!
+With feeds using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb id to mark any movie as already seen!
 
 {{{
---seen "http://www.imdb.com/title/tt0119698/"
+--seen tt0119698
 }}}
 
 '''Protip:''' In case you wish to forget manually seen stuff you can use {{{--forget "--seen"}}}
