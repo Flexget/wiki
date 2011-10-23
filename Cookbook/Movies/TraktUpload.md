@@ -40,7 +40,7 @@ feeds:
       - update-movies
 }}}
 
-Upload TV collection to [http://trakt.tv trakt.tv].
+Upload TV collection to [http://trakt.tv trakt.tv]. Uses global preset from above.
 This does not work yet. Still figuring out how to get the upload to trigger.
 {{{
   update-tv:
