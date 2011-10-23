@@ -30,8 +30,6 @@ presets:
     imdb_lookup: yes
     trakt_acquired:
       type: movies
-    queue_movies: yes
-    movie_queue:  yes
 
 feeds:
   Update-Movies:
