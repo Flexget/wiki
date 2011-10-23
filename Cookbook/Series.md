@@ -17,6 +17,7 @@
  [wiki:Cookbook/Series/TimeframeWithMinMaxQuality Timeframe with min and max qualities]::
  [wiki:Cookbook/Series/PremieresGenres Get serier premieres with genre filtering]::
  [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]::
+ [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]::
 
 ''TODO: fix location''
 
