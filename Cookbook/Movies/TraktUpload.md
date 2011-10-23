@@ -31,15 +31,6 @@ presets:
     trakt_acquired:
       type: movies
 
-feeds:
-  Update-Movies:
-    preset:
-      - global
-      - update-movies
-}}}
-
-Upload TV collection to [http://trakt.tv trakt.tv]. Uses global preset from above.
-{{{
   update-tv:
     find:
       path:
@@ -52,9 +43,12 @@ Upload TV collection to [http://trakt.tv trakt.tv]. Uses global preset from abov
       type: series
 
 feeds:
+  Update-Movies:
+    preset:
+      - update-movies
+
   Update-TV:
     preset:
-      - global
       - update-tv
 }}}
 
