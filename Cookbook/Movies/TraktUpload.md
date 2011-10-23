@@ -41,7 +41,6 @@ feeds:
 }}}
 
 Upload TV collection to [http://trakt.tv trakt.tv]. Uses global preset from above.
-This does not work yet. Still figuring out how to get the upload to trigger.
 {{{
   update-tv:
     find:
@@ -50,6 +49,7 @@ This does not work yet. Still figuring out how to get the upload to trigger.
         - /mnt/NMVideo/TV
         - /mnt/NMVideo/TV Anime
         - /mnt/NMVideo/TV Food
+    all_series: yes
     trakt_acquired:
       type: series
 
