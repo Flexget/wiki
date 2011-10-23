@@ -9,6 +9,7 @@ presets:
   global:
     # Setup defaults for trakt.tv collection updates
     find:
+      # Regex to match all video with these extensions in your collection
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
     accept_all: yes
