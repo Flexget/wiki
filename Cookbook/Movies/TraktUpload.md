@@ -60,4 +60,4 @@ feeds:
       - update-tv
 }}}
 
-Plugins used: [wiki:Plugins/accept_all accept_all], [wiki:Plugins/find find], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/movie_queue movie_queue], [wiki:Plugins/preset preset], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/trakt_acquired trakt_acquired], 
+Plugins used: [wiki:Plugins/accept_all accept_all], [wiki:Plugins/all_series all_series], [wiki:Plugins/find find], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/movie_queue movie_queue], [wiki:Plugins/preset preset], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/trakt_acquired trakt_acquired], 
