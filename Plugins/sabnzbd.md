@@ -26,4 +26,4 @@ sabnzbd:
 
 By setting [wiki:Entry entry] category you can override / specify sabnzbd category per item. To set it you can use plugins like [wiki:Plugins/set set], [wiki:Plugins/manipulate manipulate].
 
-See [wiki:Cookbook/SeriesSabNZBd this recipe] for example how to set category from a series name.
+See [wiki:Cookbook/Series/SeriesSabNZBd this recipe] for example how to set category from a series name.
