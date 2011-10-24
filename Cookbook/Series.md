@@ -18,10 +18,7 @@
  [wiki:Cookbook/Series/PremieresGenres Get serier premieres with genre filtering]::
  [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]::
  [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]::
-
-''TODO: fix location''
-
- [wiki:Cookbook/SeriesSabNZBd Set category from series name with sabnzbd]::
+ [wiki:Cookbook/Series/SeriesSabNZBd Set category from series name with sabnzbd]::
 
 == Resources ==
 
