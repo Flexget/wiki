@@ -4,6 +4,7 @@
 
  [wiki:Cookbook/Series/SimpleSeries Very basic series configuration]::
  [wiki:Cookbook/Series/Preset Manage series and multiple feeds easily]::
+ [wiki:Cookbook/Series/SetPath Set torrent client download path from series name]::
 
 === More advanced recipes ===
 
@@ -21,7 +22,6 @@
 ''TODO: fix location''
 
  [wiki:Cookbook/SeriesSabNZBd Set category from series name with sabnzbd]::
- [wiki:Cookbook/SetPath Set (download) path from series name]::
 
 == Resources ==
 
