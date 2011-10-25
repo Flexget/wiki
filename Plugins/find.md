@@ -1,4 +1,5 @@
 = Find =
+
 This plugin searches through a directory (optionally recursively) and creates entries that match a file mask, or regexp.
 
 ''' Example '''
@@ -13,9 +14,12 @@ find:
 ''' Example '''
 
 This example searches recursively and uses regexp to find any avi or mkv files. This input could be used in a sorting recipe.
+
 {{{
 find:
-  path: /home/me/downloads
+  path: 
+    - /storage/torrents/done
+    - /storage/usenet/done
   regexp: '.*\.(avi|mkv)$'
   recursive: yes
 }}}
