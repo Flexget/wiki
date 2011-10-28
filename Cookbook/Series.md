@@ -15,7 +15,7 @@
  [wiki:Cookbook/Series/DelugeSeriesLabel Set deluge labels to the series name]::
  [wiki:Cookbook/Series/AdvancedTransmissionAndDownloadManagement Download series with transmission (advanced)]::
  [wiki:Cookbook/Series/TimeframeWithMinMaxQuality Timeframe with min and max qualities]::
- [wiki:Cookbook/Series/PremieresGenres Get serier premieres with genre filtering]::
+ [wiki:Cookbook/Series/PremieresGenres Get series premieres with genre filtering]::
  [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]::
  [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]::
  [wiki:Cookbook/Series/SeriesSabNZBd Set category from series name with sabnzbd]::
