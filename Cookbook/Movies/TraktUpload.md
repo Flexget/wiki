@@ -28,7 +28,8 @@ feeds:
         - /mnt/NMVideo/TV
         - /mnt/NMVideo/TV Anime
         - /mnt/NMVideo/TV Food
-    all_series: yes
+    metainfo_series: yes
+    accept_all: yes
     trakt_acquired:
       type: series
 
@@ -46,4 +47,4 @@ feeds:
       type: movies
 }}}
 
-Plugins used: [wiki:Plugins/accept_all accept_all], [wiki:Plugins/all_series all_series], [wiki:Plugins/find find], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/movie_queue movie_queue], [wiki:Plugins/preset preset], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/trakt_acquired trakt_acquired], 
+Plugins used: [wiki:Plugins/find find], [wiki:Plugins/listdir listdir], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/metainfo_series metainfo_series], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/preset preset], [wiki:Plugins/trakt_acquired trakt_acquired]
