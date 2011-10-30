@@ -6,4 +6,4 @@
 * [wiki:Cookbook/Movies/Timeframe Quality timeframe for movies]
 * [wiki:Cookbook/Movies/NZBMatrix Download movies from NZBMatrix with IMDB filtering and SABnzbd]
 * [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]
-* [wiki:Cookbook/AppleTrailers Recipes for Apple Trailers]
+* [wiki:Cookbook/Movies/AppleTrailers Recipes for Apple Trailers]
