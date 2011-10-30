@@ -15,6 +15,7 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/Movies Recipes for movies]::
  [wiki:Cookbook/Urlrewrite Recipes for URL rewriting]::
  [wiki:Cookbook/Ebooks Recipes for Ebooks]::
+ [wiki:Cookbook/AppleTrailers Recipes for Apple Trailers]::
 
 === Client guides ===
 
