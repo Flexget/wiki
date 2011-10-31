@@ -15,6 +15,7 @@ Currently the following settings are supported:
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
 ||'''password'''||Your [http://trakt.tv trakt.tv] password. This is only required if your profile is protected, or to get private custom lists. ||
 ||'''api_key'''|| Your [http://trakt.tv trakt.tv] API key, this can be found at [http://trakt.tv/settings/api http://trakt.tv/settings/api] (if logged into trakt.tv) ||
+||'''strip_dates'''||If set to {{{yes}}} the year will be removed from the end of titles that contain them.||
 {{{#!td valign=top
 '''movies'''
 }}}
@@ -80,6 +81,7 @@ import_series:
       username: traktusername
       api_key: a098ae0eae09ae67ea
       custom: following shows
+      strip_dates: yes
   settings:
     quality: 720p
 }}}
