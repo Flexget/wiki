@@ -57,3 +57,13 @@ movie_queue: yes
 Since this will also cause imdb and/or tmdb queries it would be best to use it on feeds where there are only movies.
 
 Movies get purged from queue when they reach output successfully.
+
+== Clearing the movie list ==
+
+In the event that you have accidentally managed to fill your movie_queue with a bunch of movies (perhaps with wrong settings), this little (linux) snippet will clear the list while we wait for a --movie clear command :)
+
+
+{{{
+for i in `flexget --movie list|grep tt|cut -d" " -f1`; do flexget --movie del $i; done
+}}}
+
