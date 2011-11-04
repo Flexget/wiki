@@ -57,6 +57,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
+||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||'''{{{NEW}}}''' Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
 
@@ -105,7 +106,6 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 These plugins configure other plugins from external sources like 3rd party sites.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||'''{{{NEW}}}'''  Configures the series plugin with all the shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/import_series import_series]||'''{{{NEW}}}'''  Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 
 == Outputs ==
