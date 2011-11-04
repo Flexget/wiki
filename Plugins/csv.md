@@ -19,7 +19,7 @@ Example DB-fansubs:
 csv:
   url: http://www.dattebayo.com/t/dump
   values:
-    title: 3  # title is in 3th field
+    title: 3  # title is in 3rd field
     url: 1    # download url is in 1st field
 }}}
 
