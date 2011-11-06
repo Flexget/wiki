@@ -135,6 +135,8 @@ Which downloads the subtitle and moves it to
 the file from legendas.tv page. If you want it to use a better name,
 you can change the last step "Renaming".
 
+You will then need to call 'flexget -c subs-config.yml' to download the subtitles,
+and don't forget --cron if you register it in crontab.
 
 Hope this helps,
 
