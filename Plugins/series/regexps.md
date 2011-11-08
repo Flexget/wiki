@@ -25,7 +25,7 @@ All above regexps also accept multiple regular expressions in list form.
 
 == Name regexp ==
 
-For example if `some series` appears in multiple different naming conventions, you can give list of regexps that match to series name.
+For example if `some series` appears in multiple different naming conventions, you can give list of regexps that match to series name. The match is tried from title AND description fields.
 
 {{{
 - some series:
