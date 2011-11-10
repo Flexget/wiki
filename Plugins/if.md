@@ -20,7 +20,7 @@ The if plugin allows a limited subset of python. If statements can contain:
 ||timedelta||From the python standard library [http://docs.python.org/library/datetime.html#datetime.timedelta datetime.timedelta]||
 
 == Actions ==
-=== Accept, Rejcet, Fail ===
+=== Accept, Reject, Fail ===
 
 Simple actions (accept, reject, and fail) can be specified directly after the colon following the if statement.
 
