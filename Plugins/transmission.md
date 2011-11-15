@@ -8,6 +8,8 @@ This plugin requires the transmissionrpc library. To install it, run:
 easy_install transmissionrpc
 }}}
 
+You may be required to upgrade this after upgrading transmission, for that just add `--upgrade` to previous command.
+
 '''Example:'''
 
 {{{
@@ -17,6 +19,8 @@ transmission:
   username: myusername
   password: mypassword
 }}}
+
+If you're having authentication issues, see ticket ticket:1066#comment:1 if it helps (feel free to improve this wiki page).
 
 == Options ==
 
