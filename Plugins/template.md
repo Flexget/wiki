@@ -128,3 +128,5 @@ series:
     - foo
     - bar
 }}}
+
+Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within feed & preset.
