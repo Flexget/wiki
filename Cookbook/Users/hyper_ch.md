@@ -28,7 +28,7 @@ Some of the thoughts I put into it:
 
 - the series.yml just contains the series and group tag and then the according entries
 
-
+Also at the end you'll find a little movies.sh bash script which I use to add movies to the movie_queue from the shell.
 
 
 
@@ -126,6 +126,9 @@ feeds:
 
 }}}
 
+
+
+
 {{{
 ##########################################################################################################################################################
 #                                                                                                                                                        #
@@ -150,4 +153,39 @@ series:
     - Fringe
     - Supernatural
     - [.... add more shows ....]
+}}}
+
+
+
+
+{{{
+##########################################################################################################################################################
+#                                                                                                                                                        #
+#                                                                                                                                                        #
+#                                                        movies.sh                                                                                       #
+#                                                                                                                                                        #
+#                                                                                                                                                        #
+##########################################################################################################################################################
+#!/bin/bash
+
+FLEXGET="~/flexget-svn/bin/flexget"                     # Path to the flexget binary
+QUALITY="ANY"                                           # Set quality to any as flexget will do it with min/max quality
+CONFIG_LOCK="~/.flexget/.config-lock"                   # Set config lock file for flexget
+FORCE="False"                                           # Set True or False
+
+while [ -f "$CONFIG_LOCK" ] ;
+do
+        echo "Flexget is doing its run... waiting...."
+        sleep 5
+done
+
+
+if [ -z "$1" ]; then
+        echo "Add movies to queueu  ./movies.sh IMDB_URL  or  ./movies.sh TMDB_ID"
+        echo "List movies in queue:";
+        $FLEXGET --movie-queue list
+        exit
+fi
+
+$FLEXGET --movie-queue add $1 $QUALITY $FORCE
 }}}
