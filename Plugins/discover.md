@@ -13,6 +13,8 @@ discover:
   [type]: <normal|exact|movies>
 }}}
 
+For a list of installed search plugins run "flexget --search-plugins" from the cli.
+
 '''Example:'''
 
 This example would produce results from the torrentz search engine based on the movies currently in your [wiki:Plugins/movie_queue movie_queue].
