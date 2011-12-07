@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 7.12.2011 r2493 (d.m.yyyy) ===
+
+Feeds and presets are no longer allowed to be named the same as any plugins.
+
 === 16.10.2011 r2430 (d.m.yyyy) ===
 
 input_deluge plugin has been renamed from_deluge
