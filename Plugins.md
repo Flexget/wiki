@@ -119,6 +119,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/exec exec]||'''{{{UPGRADED}}}'''  Executes commands on entries.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
+||[wiki:Plugins/move move]||'''{{{NEW}}}''' Move local files.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
