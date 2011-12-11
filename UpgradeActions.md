@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 11.12.2011 r2513 (d.m.yyyy) ===
+
+The search plugin has been renamed to urlrewrite_search.
+
 === 7.12.2011 r2493 (d.m.yyyy) ===
 
 Feeds and presets are no longer allowed to be named the same as any plugins.
