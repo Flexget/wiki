@@ -1,6 +1,6 @@
 = Search Plugins =
 
-The urlrewrite_search & discover plugins have a set of their own private plugins. These plugins act like options for their parent plugins. This page lists these options and gives a brief description of their function.
+The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover discover] plugins have a set of their own private plugins. These plugins act like options for their parent plugins. This page lists these options and gives a brief description of their function.
 
 
 == Overview == 
