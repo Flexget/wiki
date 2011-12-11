@@ -6,7 +6,7 @@ The urlrewrite_search & discover plugins have a set of their own private plugins
 == Overview == 
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/Searches/search_rss search_rss]||Generates query based rss feeds||
+||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||piratebay||Generates entries from [http://thepiratebay.org/ the piratebay]||
 ||newzleech||broken as Newzleech.com is no more||
 ||flexget_archive||Searches within previously archived entries||
