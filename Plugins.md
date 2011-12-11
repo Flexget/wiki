@@ -63,7 +63,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 
 === Search Plugins ===
 
-These plugins are utilized by the plugins[wiki:Plugins/discover discover] and [wiki:Plugins/urlrewrite_search urlrewrite_search]
+These plugins are utilized by the plugins [wiki:Plugins/discover discover] and [wiki:Plugins/urlrewrite_search urlrewrite_search]
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plguns/search_rss search_rss]||A plugin that can generate entries from a query based rss feed||
 
