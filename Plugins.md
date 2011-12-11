@@ -61,12 +61,6 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
 
-=== Search Plugins ===
-
-These plugins are utilized by the plugins [wiki:Plugins/discover discover] and [wiki:Plugins/urlrewrite_search urlrewrite_search]
-||'''Keyword'''||'''Description'''||
-||[wiki:Plguns/search_rss search_rss]||A plugin that can generate entries from a query based rss feed||
-
 == Filters ==
 
 Reject or Accept [wiki:Entry entries] based on given rules. A single feed may have any number of filters.[[BR]]
