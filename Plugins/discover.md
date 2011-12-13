@@ -13,7 +13,10 @@ discover:
   [type]: <normal|exact|movies>
 }}}
 
-For a list of installed search plugins run "flexget --search-plugins" from the cli.
+An overview of available search plugins can be found [wiki:Searches here].
+
+For a list of installed search plugins run "flexget --search-plugins" from the cli
+
 
 '''Example:'''
 
