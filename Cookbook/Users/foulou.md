@@ -128,9 +128,13 @@ presets:
       360p:
         - One Piece
     thetvdb_lookup: yes
-    set: # I order them with deluge also, and moreover, I rename them to be compatible with XBMC so SxxExx is needed
+    set: 
+
+# I order them with deluge also, and moreover, I rename them to be compatible with XBMC so SxxExx is needed
 # I know i can use ordered numbering into XBMC but i prefer it to be in season.
-# I need to use http://flexget.com/ticket/1151 to have this work
+
+# '''I need to use http://flexget.com/ticket/1151 to have this work'''
+
       path: /home/seb/media/Downloads/Torrent/Downloading/
       movedone: "/home/seb/media/Animes/{{ series_name }}/S{{ series_season }}"
       label: Animes
