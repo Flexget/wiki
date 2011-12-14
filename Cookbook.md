@@ -46,3 +46,4 @@ These are the complete configurations of actual end users. Feel free to add your
 
  [wiki:Cookbook/UserAtlanta800 Atlanta800]::
  [wiki:Cookbook/Userhyper_ch hyper_ch]::
+ [wiki:Cookbook/Userfoulou foulou]::
