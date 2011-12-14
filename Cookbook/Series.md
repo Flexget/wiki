@@ -19,7 +19,8 @@
  [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]::
  [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]::
  [wiki:Cookbook/Series/SeriesSabNZBd Set category from series name with sabnzbd]::
-
+ [wiki:Cookbook/Series/pogdesign Use pogdesign.co.uk/cat as input for import_series]::
+ 
 == Resources ==
 
 ''Torrent feeds''
