@@ -10,7 +10,7 @@ discover:
   from:
     - <search plugin>
   [limit]: <max results from each search engine>
-  [type]: <normal|exact|movies>
+  [type]: <normal|exact|movies|any>
 }}}
 
 An overview of available search plugins can be found [wiki:Searches here].
