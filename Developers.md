@@ -191,6 +191,13 @@ bin/easy_install ipython
 And then place this where you wish to hack:
 
 {{{
+from flexget.utils.ipython import shell
+shell()
+}}}
+
+For older 0.10 IPython this works ..
+
+{{{
 from IPython.Shell import IPShellEmbed
 ipshell = IPShellEmbed([])
 ipshell()
