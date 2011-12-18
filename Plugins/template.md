@@ -5,8 +5,6 @@ applied to every feed.
 
 {{{
 presets:
-  global:
-    download: ~/download/
 
   tv:
     series:
