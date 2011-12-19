@@ -10,7 +10,7 @@ All valid [wiki:Plugins/rss rss] plugin config options are valid here, just plac
 
 === Simple configuration ===
 {{{
-search_rss: http://url{{<search_term>}}trailing url
+search_rss: http://url{{search_term}}trailing url
 }}}
 
 === Complex configuration ===
@@ -20,7 +20,7 @@ Search_rss supports all the advanced options from [wiki:Plugins/rss rss]
 ''' Example '''
 {{{
 search_rss:
-  url: http://url{{<search_term>}}trailing url
+  url: http://url{{search_term}}trailing url
   link:
     - link
     - magneturi
