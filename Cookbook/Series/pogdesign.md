@@ -7,11 +7,8 @@ First you need to set up your account at pogdesign.co.uk and select your series.
 {{{
 presets:
   tv:
-    set:
-      category: tv
     import_series:
       settings:
-        upgrade: yes
         min_quality: dsr
         max_quality: 720p
         quality: 720p
