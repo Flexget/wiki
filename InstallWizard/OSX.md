@@ -1,6 +1,6 @@
 = Installing !FlexGet on OSX =
 
-''TODO: Works on 10.6 and 10.7.  Someone needs to verify this on earlier versions ...''
+''NOTE: Works on 10.6 and 10.7. It also works in 10.5, but after easy_install'ing flexget, you also need to install "simplejson" the same way.''
 
 {{{
 sudo easy_install flexget
