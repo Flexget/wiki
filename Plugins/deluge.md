@@ -32,7 +32,7 @@ deluge: yes
 ||user||Deluged username ''(defaults to automatic client authentication if not specified)''||
 ||pass||Deluged password ''(defaults to automatic client authentication if not specified)''||
 ||path||The download location||
-||movedone||The location files will be moved when torrent finishes.||
+||movedone||The location files will be moved when torrent finishes (the location will be created if it doesn't exist).||
 ||label||Deluge label||
 ||queuetotop||If yes will move torrent to top of queue when added, if no will move to bottom.||
 ||addpaused||If yes, will add the torrents to deluge in the paused state.||
