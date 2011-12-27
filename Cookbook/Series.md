@@ -20,6 +20,7 @@
  [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]::
  [wiki:Cookbook/Series/SeriesSabNZBd Set category from series name with sabnzbd]::
  [wiki:Cookbook/Series/pogdesign Use pogdesign.co.uk/cat as input for import_series]::
+ [wiki:Cookbook/Series/next-episode Use next-episode.net as input for import_series]::
  
 == Resources ==
 
