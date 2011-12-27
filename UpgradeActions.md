@@ -10,7 +10,7 @@ This page will also contain information about configuration file format changes.
 
 === 27.12.2011 r2601 (d.m.yyyy) ===
 
-The python requests library has been added as a dependency. SVN users will need to manually install it to their virtualenv:
+The python [http://docs.python-requests.org/en/latest/ requests library] has been added as a dependency. SVN users will need to manually install it to their virtualenv:
 {{{
 bin/pip install requests
 }}}
