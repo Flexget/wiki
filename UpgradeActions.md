@@ -8,6 +8,13 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 27.12.2011 r2601 (d.m.yyyy) ===
+
+The python requests library has been added as a dependency. SVN users will need to manually install it to their virtualenv:
+{{{
+bin/pip install requests
+}}}
+
 === 11.12.2011 r2513 (d.m.yyyy) ===
 
 The search plugin has been renamed to urlrewrite_search.
