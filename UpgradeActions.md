@@ -8,6 +8,13 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 27.12.2011 r2607 (d.m.yyyy) ===
+
+SVN users should make sure feedparser is at least version 5.1 due to a bug exposed in lower versions. see #1405
+{{{
+bin/easy_install --upgrade feedparser
+}}}
+
 === 27.12.2011 r2601 (d.m.yyyy) ===
 
 The python [http://docs.python-requests.org/en/latest/ requests library] has been added as a dependency. SVN users will need to manually install it to their virtualenv:
