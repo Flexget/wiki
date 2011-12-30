@@ -75,3 +75,20 @@ And you know your Netscape cookie file is properly formatted, but you just can't
 {{{
 curl -b oldcookiefile.txt --cookie-jar newcookiefile.txt http://url
 }}}
+
+== Distribution Not Found ==
+
+{{{
+Traceback (most recent call last):
+  File "/usr/local/bin/flexget", line 5, in <module>
+    from pkg_resources import load_entry_point
+  File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 2707, in <module>
+    working_set.require(__requires__)
+  File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 686, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 584, in resolve
+    raise DistributionNotFound(req)
+pkg_resources.DistributionNotFound: FlexGet==1.0r2175
+}}}
+
+This may happen when you upgrade your linux distribution and python version gets replaced with newer one, for example 2.6 with 2.7. Now when you try to run `flexget` command it will use newer version of python and !FlexGet is not installed on that. To fix the problem just reinstall !FlexGet.
