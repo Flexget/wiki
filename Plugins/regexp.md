@@ -2,6 +2,8 @@
 
 Use regular expression to Accept or Reject entries. !FlexGet uses python regexp format and all matching is done case insensitive. This plugin may look a bit scary but in reality you rarely want anything more than what simple examples describe.
 
+'''Note:''' If you are having trouble figuring out how to create your desired regexp, [http://www.gskinner.com/RegExr/ RegExr] is a very helpful tool.
+
 === Simple examples ===
 
 Accept entries matching regexp(s).
