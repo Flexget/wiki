@@ -135,6 +135,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
+||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in via form.||
 ||[wiki:Plugins/free_space free_space]||Abort feed when drive space is low.||
