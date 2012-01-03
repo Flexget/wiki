@@ -80,6 +80,7 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
 
  * Grab from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
  * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
+ * [wiki:Cookbook/Movies/discoverfeed Search for] and download movies from your IMDb or trakt.tv watchlist.
  * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
@@ -88,12 +89,12 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
      * Get all specified qualities
      * Upgrade qualities retrospectively
    * Propers / Repacks are downloaded automatically or within certain given time
+   * Can be [wiki:Plugins/import_series configured] to use an external source for shows, such as trakt.tv
  * Modfy torrents real time, [wiki:Plugins/add_trackers add] or [wiki:Plugins/remove_trackers remove] trackers.
  * Filter based on torrent/nzb [wiki:Plugins/content_filter content] or [wiki:Plugins/content_size size].
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
  * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:URLRewriters URLRewriters].
- * Search queued movies or episodes from search sites like piratebay and nzbmatrix (experimental).
  * Completely modular, all features are plugins
  * And much more ...
 
