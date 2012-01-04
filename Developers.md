@@ -6,7 +6,7 @@
 
 === Resources ===
 
- * [http://doc.flexget.com generated API documents]
+ * [http://doc.flexget.com Generated Sphinx API documents]
  * [wiki:Developers/Mock how to use mock data via configuration file]
  * [wiki:Developers/TDD test driven development how to]
  * [http://coverage.flexget.com unit test coverage]
@@ -18,7 +18,7 @@
 
 Making custom plugins should be easy for anyone with some python experience.
 
-If you're working on good re-usable plugin I'd be more than happy to include it in official distribution. [wiki:Contact] me for subversion write permissions.
+If you're working on good re-usable plugin I'd be more than happy to include it in official distribution. [wiki:Contact] for subversion write permissions or fork on [https://github.com/Flexget/Flexget github] and send pull request.
 
 == Registering plugins ==
 
@@ -104,66 +104,6 @@ Plugins may create new feed phases, signature is on_feed_<name>(self, feed).
 
 You can also add more commandline parameters. Check existing plugins. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
 
-== Feed class ==
-
-Feed is a class that represents one feed in configuration file.
-
-=== Feed's attributes: ===
-
- name::
-  name of the feed
-
- config::
-  feed specific configuration (dict).
-
- entries::
-  list containing undecided and accepted [wiki:DevelopersEntry entries].
-
- accepted::
-  list containing accepted entries
-
- rejected::
-  list containing rejected entries
-
- failed::
-  list containing failed entries
-
- simple_persistence::
-  provides easy key, value persistence for modules that do not require the full SQLAlchemy capabilities.
-
-You shouldn't modify name or config as they are used by other modules.
-
-=== Feed methods ===
-
- accept(entry, [reason])::
-  Mark entry accepted. Can still be rejected
-
- reject(entry, [reason])::
-  Mark entry to be removed. It will be removed from feed once module event returns.
-
- fail(entry)::
-  Mark entry to be failed (ie. download 404 etc)
-
- get_input_url(keyword)::
-  Helper method for modules. Return url for a specified keyword.
-  Supports configuration in following forms:[[BR]]
-  ..<keyword>: <address>[[BR]]
-  and[[BR]]
-  ..<keyword>:[[BR]]
-  ....url: <address>
-  '''Will be moved in 1.0'''
-
-== Manager class ==
-
-Accessible trough feed.manager
-
- unit_test::
-  True when executing unit tests
-
-== Plugin class ==
-
-''todo: write ''
-
 == Unit testing ==
 
 === Run tests ===
@@ -177,7 +117,7 @@ Argument {{{--online}}} can be used to enable online tests
 === Run a single test ===
 
 {{{
-bin/nosetests tests/__init__.py:TestDisableBuiltins --where tests
+bin/nosetests test_file
 }}}
 
 == Running IPython inside !FlexGet ==
