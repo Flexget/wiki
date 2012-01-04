@@ -4,4 +4,4 @@ Experimental web-ui can be started with `flexget-webui` command, see `flexget-we
 
 '''More motivated python capable web-ui developers is needed! '''
 
-Join our irc-channel to participate in the project!
+Join our irc-channel to participate in the project! The technology stack behind the webui is flask, jinja2 and cherrypy as server.
