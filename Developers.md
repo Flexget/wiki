@@ -4,6 +4,22 @@
 
 '''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
 
+=== Technologies used ===
+
+ * Core
+   * SQLAlchemy
+   * !BeautifulSoup
+   * !FeedParser
+   * Python-Requests
+   * !PyNzb
+   * Jinja2
+   * !PyYaml
+   * Some smaller misc libraries
+ * WebUI
+   * Flask
+   * Jinja2
+   * Cherrypy
+
 === Resources ===
 
  * [http://doc.flexget.com Generated Sphinx API documents] - see especially core section!
