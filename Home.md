@@ -27,7 +27,7 @@
 
 = Introduction =
 
-!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. !FlexGet is able to handle different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds.
+!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds and support for search engines.
 
 There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
 
@@ -90,7 +90,7 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
      * Upgrade qualities retrospectively
    * Propers / Repacks are downloaded automatically or within certain given time
    * Can be [wiki:Plugins/import_series configured] to use an external source for shows, such as trakt.tv
- * Modfy torrents real time, [wiki:Plugins/add_trackers add] or [wiki:Plugins/remove_trackers remove] trackers.
+ * Modify torrents real time, [wiki:Plugins/add_trackers add] or [wiki:Plugins/remove_trackers remove] trackers.
  * Filter based on torrent/nzb [wiki:Plugins/content_filter content] or [wiki:Plugins/content_size size].
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
@@ -100,7 +100,7 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
 
 = How easy is it to use? =
 
-Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental [wiki:Web-UI] coming along.
+Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental [wiki:Web-UI] coming along (slowly).
 
 !FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing (for new users) at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
