@@ -16,32 +16,29 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/Urlrewrite Recipes for URL rewriting]::
  [wiki:Cookbook/Ebooks Recipes for Ebooks]::
 
-=== Client guides ===
+== Client guides ==
 
  [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
 
-=== General purpose recipes ===
+== General purpose recipes ==
 
  [wiki:Cookbook/MakeRssForDownload Generate download RSS for other clients]::
  Useful for clients that do not support watch directories or if downloading is meant to happen in somewhere else than where !FlexGet is running.
  [wiki:Cookbook/HeroesComics Download Heroes comics]::
  Uses advanced text parsing.
- [wiki:Cookbook/ScriptForDownload Run custom script for downloads]::
 
-=== Advanced hacks ===
+== Advanced hacks ==
 
 These recipes are not representing the normal use cases. Abandon sanity.
 
  [wiki:Cookbook/QueueSubtitles Queue Subtitle Downloads]::
- [wiki:Cookbook/FlexGetUpdater Download FlexGet Releases]::
- Since we now have automated builds for every commit this might not be wanted at the moment. Useful once again when we start making stable releases.
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
  [wiki:Cookbook/ForceStrictMatching Force Strict Matching]::
  [wiki:Cookbook/AutomaticRarUnpack Unpack rar files automatically]::
  [wiki:Cookbook/Legendastv How to automatically download subtitles from legendas.tv]::
  [wiki:Cookbook/CLISearch Create a manual CLI based Search for a Series]::
 
-=== Complete user configurations ===
+== Complete user configurations ==
 
 These are the complete configurations of actual end users. Feel free to add your own so others may learn from it.
 
