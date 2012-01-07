@@ -4,7 +4,11 @@ This plugin creates an [wiki:Entry Entry] for each movie/show in one of the avai
 
 This plugin is useful for example when used in a feed with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/import_series import_series].[[BR]]
 
-'''Note:''' as with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
+'''Notes:''' 
+
+ * Like with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
+ * Adding this plugin to your movie feeds or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
+ * If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration. 
 
 == Plugin Settings ==
 
@@ -55,8 +59,6 @@ trakt_list:
 
 {{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series', 'movies' or 'custom'. {{{list type}}} can be one of the following for series and movies lists: 'all', 'collection', 'hated', 'loved', or 'watchlist'. For custom lists, {{{list_type}}} should be the name of the custom list.
 
-'''Note:''' Adding this to your movie feeds or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
-
 === Example ===
 
 This example shows how you would use trakt_list plugin with [wiki:Plugins/queue_movies queue_movies], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]. This example should be in its own feed, not combined with your movie downloading feed.
@@ -85,6 +87,3 @@ import_series:
   settings:
     quality: 720p
 }}}
-
-
-'''Note:''' If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration.
