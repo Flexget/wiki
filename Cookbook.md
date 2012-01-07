@@ -39,6 +39,7 @@ These recipes are not representing the normal use cases. Abandon sanity.
  [wiki:Cookbook/ForceStrictMatching Force Strict Matching]::
  [wiki:Cookbook/AutomaticRarUnpack Unpack rar files automatically]::
  [wiki:Cookbook/Legendastv How to automatically download subtitles from legendas.tv]::
+ [wiki:Cookbook/CLISearch Create a manual CLI based Search for a Series]::
 
 === Complete user configurations ===
 
