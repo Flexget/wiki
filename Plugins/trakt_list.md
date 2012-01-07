@@ -45,7 +45,7 @@ Use a Series category list as the input, options here are:
 * watched
 }}}
 |----------------
-||'''custom'''|| Uses a custom list name as the input. (You must also specify password to retrieve private lists.) ||
+||'''custom'''|| Uses a custom list name as the input. ||
 }}}
 
 == Config format ==
@@ -53,6 +53,7 @@ Use a Series category list as the input, options here are:
 {{{
 trakt_list:
   username: <trakt username>
+  password: <trakt password> (this is required if the list is not publicly available)
   api_key: <api key>
   <media type>: <list type>
 }}}
