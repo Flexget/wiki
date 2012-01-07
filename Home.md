@@ -59,14 +59,14 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 <div class="supported">
 <b>Other</b>
 <ul>
-  <li><a href="http://pyload.org/">pyLoad</a></li>
+  <li><a href="http://pyload.org/">pyLoad</a>*</li>
 </ul>
 </div>
 
 <div class="clearing">
 </div>
 
-<sup>* = integrates neatly with a plugin</sup>
+<sup>* = directly supported via build in plugin</sup>
 
 }}}
 
