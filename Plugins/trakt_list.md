@@ -85,3 +85,6 @@ import_series:
   settings:
     quality: 720p
 }}}
+
+
+'''Note:''' If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration.
