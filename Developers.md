@@ -136,6 +136,7 @@ Argument {{{--online}}} can be used to enable online tests
 === Run a single test ===
 
 {{{
+# NOTE: don't use the pathname for the file, e.g. tests/test_file.py
 bin/nosetests test_file
 }}}
 
