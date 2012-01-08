@@ -80,7 +80,7 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
 
  * Grab from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
  * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
- * [wiki:Cookbook/Movies/discoverfeed Search for] and download movies from your IMDb or trakt.tv watchlist.
+ * Search for and download movies from your IMDb or trakt.tv watchlist.
  * Download [wiki:Plugins/series TV-series]
    * Episode number aware, doesn't download same episode twice
    * Quality aware
