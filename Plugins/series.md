@@ -7,7 +7,7 @@ Intelligent filter for TV-series.
  * Episode tracking, no duplicate downloads
  * Plenty of [wiki:Plugins/series/quality quality] options
  * [wiki:Plugins/series/timeframe Timeframe], get best quality in given timeframe
- * Episode [wiki:Plugins/series/advancement advancement]
+ * Episode [wiki:Plugins/series/advancement advancement] (for season, episode).
  * [wiki:Plugins/series/propers Proper & Repack] aware
  * Specials aware (grabs episodes with the series title and the word 'special')
  * Tries to ignore season packs, you can use [wiki:Plugins/content_size content_size] for extra insurance against them.
