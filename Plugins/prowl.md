@@ -16,8 +16,6 @@ prowl:
 
 All options except for the API key are optional
 
-'''Options'''
-
 ||'''Name'''||'''Description'''||
 ||apikey||Your personal API key||
 ||application||Application ID (default ''!FlexGet'')||
