@@ -1,8 +1,9 @@
 = Discover =
 
-Creates entries based on search results. Queries are produced by another input plugin.
+Creates entries based on search results. Queries are produced based on another input plugin(s).
 
-=== Config Format ===
+== Config Format ==
+
 {{{
 discover:
   what:
@@ -17,10 +18,10 @@ An overview of available search plugins can be found [wiki:Searches here].
 
 For a list of installed search plugins run "flexget --search-plugins" from the cli
 
-
-'''Example:'''
+=== Example: Search movie queue ===
 
 This example would produce results from the torrentz search engine based on the movies currently in your [wiki:Plugins/movie_queue movie_queue].
+
 {{{
 discover:
   what:
