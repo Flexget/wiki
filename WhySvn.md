@@ -23,7 +23,7 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 ||dragonfyre13||NAME||<USER@DOMAIN>||
 ||egolost||NAME||<USER@DOMAIN>||
 ||gazpachoking||Chase Sterling||chase.sterling@gmail.com||
-||gray||NAME||<USER@DOMAIN>||
+||gray||NAME||gray@cpan.org||
 ||joshuajonah||NAME||<USER@DOMAIN>||
 ||limon||NAME||<USER@DOMAIN>||
 ||paranoidi||Marko Koivusalo||marko.koivusalo@gmail.com||
