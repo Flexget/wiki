@@ -23,11 +23,9 @@
  * '''[wiki:Developers Developers]'''
  * '''[wiki:Plugins Plugins]'''
 
-[wiki:NeedHelp Having problems? Help is near!]
-
 = Introduction =
 
-!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages] and [wiki:Plugins/csv csv files]. There are even some plugins for sites that do not provide any kind of useful feeds and support for search engines.
+!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages], [wiki:Plugins/csv csv files], search engines and there are even plugins for sites that do not provide any kind of useful feeds.
 
 There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
 
@@ -70,7 +68,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 
 }}}
 
-'''!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).'''[[BR]]
+!FlexGet is platform independent, all platforms that have python* available are supported (Linux, Windows, OSX, even some routers and NAS boxes).[[BR]]
 
 == Developers wanted ==
 
@@ -81,20 +79,19 @@ We're currently implementing [wiki:Web-UI web interface] to !FlexGet and would l
  * Grab from any [wiki:Plugins/rss RSS] feed, [wiki:Plugins/html HTML] page, [wiki:Plugins/csv CSV] file, or from popular sites like [wiki:Plugins/rlslog RlsLog].
  * Filter movies based on [wiki:Plugins/imdb IMDB] ratings and other details, or even by your rating [wiki:Plugins/imdb_rated history].
  * Search for and download movies from your IMDb or trakt.tv watchlist.
- * Download [wiki:Plugins/series TV-series]
+ * Very powerful [wiki:Plugins/series TV-series] processing.
    * Episode number aware, doesn't download same episode twice
    * Quality aware
      * Get best quality available in a specified time frame
-     * Min / Max quality
-     * Get all specified qualities
+     * Min / Max quality, get all specified qualities
      * Upgrade qualities retrospectively
-   * Propers / Repacks are downloaded automatically or within certain given time
-   * Can be [wiki:Plugins/import_series configured] to use an external source for shows, such as trakt.tv
+   * Propers / Repacks are downloaded automatically or only within certain given time
+   * Can be [wiki:Plugins/import_series configured] to use an external source for shows, such as [wiki:Plugins/trakt_list trakt.tv] and [wiki:Plugins/thetvdb_favorites thetvdb.com favorites]
  * Modify torrents real time, [wiki:Plugins/add_trackers add] or [wiki:Plugins/remove_trackers remove] trackers.
  * Filter based on torrent/nzb [wiki:Plugins/content_filter content] or [wiki:Plugins/content_size size].
  * Use [wiki:Plugins/regexp regular expressions] to match desired content
  * Keeps track of already downloaded content
- * Easy to add site-specific download scripts / URL re-writers. Many sites supported out of the box. See [wiki:URLRewriters URLRewriters].
+ * Easy to add site-specific download scripts / URL rewriters. Many sites supported out of the box. See [wiki:URLRewriters URLRewriters].
  * Completely modular, all features are plugins
  * And much more ...
 
@@ -118,9 +115,8 @@ feeds:
     download: ~/torrents/series/
 }}}
 
-This example would download new episodes of `pioneer one` and `some series` to {{{~/series}}} using powerful [wiki:Plugins/series series] plugin.
+This example would download new episodes of `pioneer one` and `some series` to {{{~/series}}} using [wiki:Plugins/series series] plugin.
 
 You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Plugins plugins] or detailed [wiki:Configuration configuration].
-
