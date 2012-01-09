@@ -64,7 +64,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 <div class="clearing">
 </div>
 
-<sup>* = directly supported via build in plugin</sup>
+<sup>* = directly supported via built in plugin</sup>
 
 }}}
 
