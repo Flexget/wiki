@@ -34,10 +34,12 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 These plugins are complementary to the series plugin.
 
- * [wiki:Plugins/all_series all_series] (Grab all series in the feed)
- * [wiki:Plugins/import_series import_series] (Configures series from other inputs (eg. [wiki:Plugins/listdir listdir]))
- * [wiki:Plugins/thetvdb_favorites thetvdb_favorites] (Input source for import_series)
- * [wiki:Plugins/series_premiere series_premiere] (Download all premieres)
+ * [wiki:Plugins/all_series all_series] - Grab all series in the feed
+ * [wiki:Plugins/import_series import_series] - Automatically configures series by using another input, some examples:
+   * [wiki:Plugins/thetvdb_favorites thetvdb_favorites] - [http://thetvdb.com TheTVDB.com] favorites
+   * [wiki:Plugins/trakt_list trakt_list] - [http://trakt.tv Trakt.tv] lists
+   * [wiki:Plugins/listdir listdir] - You local directory listing
+ * [wiki:Plugins/series_premiere series_premiere] - Download all premieres
 
 == Settings ==
 
