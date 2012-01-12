@@ -31,7 +31,7 @@ Ordered by quality value.
 ||bdscr||||
 ||dvdscr||||
 ||sdtv||pdtv, dvb, tvrip, ppvrip||
-||dsr||dsrip||
+||dsr||dsrip, webrip||
 ||!r5||||
 ||tc||||
 ||preair||||
