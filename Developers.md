@@ -2,7 +2,7 @@
 
 = Developer related material =
 
-'''API is not yet stabilized. Expect some changes to happen. Yes, documentation is a very messy ... feel free to improve'''
+'''API is not yet stabilized. Expect some changes to happen. Yes, documentation is not very good at the moment.'''
 
 === Technologies used ===
 
@@ -22,7 +22,8 @@
 
 === Resources ===
 
- * [http://doc.flexget.com Generated Sphinx API documents] - see especially core section!
+ * [http://doc.flexget.com Generated Sphinx API documents] 
+  * This is where we will add all technical documentation in the future - see especially core section!
  * [wiki:Developers/Mock how to use mock data via configuration file]
  * [wiki:Developers/TDD test driven development how to]
  * [http://coverage.flexget.com unit test coverage]
@@ -80,6 +81,7 @@ When multiple plugins of same phase type are enabled for a feed, the priority de
 on_feed_filter(self, feed):
     pass
 }}}
+
 === Feed execution UML ===
 
 Only most important phases shown.
@@ -117,13 +119,15 @@ These are triggered on startup and shutdown, not between feeds.
 
 === Registering custom phases ===
 
-Plugins may create new feed phases, signature is on_feed_<name>(self, feed).
+Plugins may create new feed phases, signature is `on_feed_<name>(self, feed, ....)` (parameters depend on api version).
 
 === Adding commandline parameters ===
 
 You can also add more commandline parameters. Check existing plugins. See [http://optik.sourceforge.net/ Optik homepage] for documentation.
 
 == Unit testing ==
+
+!FlexGet has over 200 unit tests so changes are that if your modifications pass the tests nothing major has been broken. We also have CI at [http://hudson.flexget.com].
 
 === Run tests ===
 
