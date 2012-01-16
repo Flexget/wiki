@@ -51,7 +51,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/inputs inputs]||'''{{{NEW}}}''' Configure the same input plugin multiple times in one feed.||
-||[wiki:Plugins/listdir listdir]||'''{{{NEW}}}''' Use any local directory listing as a input.||
+||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
@@ -83,7 +83,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the feed on the previous run to be rejected at the input phase.||
 ||[wiki:Plugins/private_torrents private_torrents]||'''{{{NEW}}}'''  Reject private or public torrents.||
 ||[wiki:Plugins/proper_movies proper_movies]||'''{{{NEW}}}'''  Keep track of downloaded movies and force re-download proper versions.||
-||[wiki:Plugins/quality quality]||'''{{{NEW}}}'''  Reject entries not of the specified quality.||
+||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 ||[wiki:Plugins/reject_failed reject_failed]||Reject entries that have failed too many times in the past. [wiki:Builtin]||
 ||[wiki:Plugins/require_field require_field]||'''{{{NEW}}}'''  Reject entries that do not have the specified fields.||
@@ -116,7 +116,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
-||[wiki:Plugins/exec exec]||'''{{{UPGRADED}}}'''  Executes commands on entries.||
+||[wiki:Plugins/exec exec]||Executes commands on entries.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/move move]||'''{{{NEW}}}''' Move local files.||
@@ -130,27 +130,27 @@ Execute operation(s) on accepted entries.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
-||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
-||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}'''  Use FireFox3 cookies.||
+||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
+||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
 ||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
-||[wiki:Plugins/formlogin formlogin]||Log in via form.||
+||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/free_space free_space]||Abort feed when drive space is low.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
-||[wiki:Plugins/interval interval]||Maintain minimum poll interval for a feed.||
+||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}''' Allows regexp manipulation for entries.||
-||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the a feed when explicitly specified.||
+||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the feed when explicitly specified.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
-||[wiki:Plugins/set set]||'''{{{UPGRADED}}}'''  Set 'path' or other info per feed. Can be dynamic per entry.||
-||[wiki:Plugins/sleep sleep]||'''{{{NEW}}}'''  Causes a pause to occur before execution of a feed.||
+||[wiki:Plugins/set set]||Set 'path' or other info per feed. Can be dynamic per entry.||
+||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a feed.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
