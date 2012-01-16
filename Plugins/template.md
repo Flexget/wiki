@@ -1,7 +1,6 @@
 = Preset =
 
-Allows multiple presets for feeds and a special global preset that is
-applied to every feed.
+Allows multiple presets for feeds and a special "global" preset that is applied to every feed. Avoid using global preset as it will easily shoot arrow into your knee.
 
 {{{
 presets:
@@ -33,21 +32,6 @@ feeds:
       - tv
       - movies
 
-  # Note: This feed will use global because preset is built in (always
-  # enabled) and has default value of global
-  fourth_feed:
-    rss: http://example4.com
-}}}
-
-The global preset can be disabled on a specific feed by including the special preset {{{no_global}}} i.e.
-{{{
-preset: no_global
-}}}
-or, if you also need to include other presets
-{{{
-preset:
-  - no_global
-  - preset_b
 }}}
 
 == Execute feeds with a given preset ==
@@ -128,3 +112,32 @@ series:
 }}}
 
 Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within feed & preset. Include accepts list format for files so that can be used instead. 
+
+== Global preset ==
+
+{{{
+presets:
+  global:
+    download: ~/torrents/
+feeds:
+  feed-a:
+    rss: ...
+  feed-b:
+    rss: ...
+}}}
+
+Both feeds feed-a and feed-b use automatically global preset.
+
+The global preset can be disabled on a specific feed by including the special preset {{{no_global}}} i.e.
+
+{{{
+preset: no_global
+}}}
+
+or, if you also need to include other presets
+
+{{{
+preset:
+  - no_global
+  - preset_b
+}}}
