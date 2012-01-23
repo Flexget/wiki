@@ -15,3 +15,6 @@ feeds:
 }}}
 
 In this example order is ''feed c, feed a, feed b''.
+
+You don't need to give priority to all feeds in your config. Just up the ones you wish to execute first. You can even put multiple feeds with same priority number, in which case they will be executed with same priority but order is random within that priority.
+
