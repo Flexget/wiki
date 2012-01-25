@@ -4,6 +4,7 @@ Output plugin for [http://pyload.org pyLoad] download manager.
 
 == Features ==
   * Scan the accepted feeds for urls
+  * Scan the feed's html page for additional urls
   * Check for prefered hoster
   * Add found links as package to pyLoad
 
@@ -16,9 +17,11 @@ pyload:
   queue: [yes|no]
   username: <user>
   password: <pwd>
+  folder: <folder>
+  parse_url: [yes|no]
   hoster:
     - List of prefered Hoster
-  multihoster: [yes|no]
+  multiple_hoster: [yes|no]
   enabled: [yes|no]
 }}}
 
@@ -29,12 +32,13 @@ pyload:
   api: http://localhost:8000/api
   queue: yes
   hoster: ALL
-  multihoster: yes
+  parse_url: no
+  multiple_hoster: yes
   enabled: yes
 }}}
 
 == Prerequisites ==
-Make sure [http://pyload.org pyLoad] is running and you have at least version '''0.4.8'''. The webinterface needs to be activated and accessible, so FlexGet can use the API.
+Make sure [http://pyload.org pyLoad] is running and you have at least version '''0.4.9'''. The webinterface needs to be activated and accessible, so FlexGet can use the API.
 
 The '''api''' parameter should be the address of the webinterface followed by "/api", in case the webinterface runs locally on port 8000 the default value will be ok.
 Don't forget to set correct '''username''' and '''password'''.
@@ -50,6 +54,11 @@ hoster:
 }}}
 
 When a prefered hoster is found only these links will be added, if not remaining hosters gets added.
-To only add the first found prefered hoster set '''multihoster''' to off.
+To only add the first found prefered hoster set '''multiple_hoster''' to off.
 
 If '''queue''' is activated downloads will start immediately, otherwise go to collector and wait for user interaction.
+
+When '''parse_url''' is activated pyload will load the html page at the feed url and check it for additional links. This is useful for hoster who don't include any links in the feed content. This requires that the feed url to link at an article or page related to the entry and '''not''' on a general page or front page. You should first make sure that this is the case so no wrong links gets added.
+
+You can configure the download folder with the '''folder''' option. When no folder is supplied pyload will choose the folder name (Usually the package name)
+
