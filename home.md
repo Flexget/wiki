@@ -3,6 +3,10 @@
 <!--
 <div id="login_note">For more permissions (edit wiki, browse sources) login with username: <b>flexget</b> password: <b>anon</b></div>
 -->
+
+<div style="border: 2px solid red; padding: 1em; text-align:center; margin: 1em; background: #ffeeee; font-size: 14pt">Trac is slightly broken after server upgrade, I'll fix it soon ...</div>
+
+
 }}}
 
 {{{
