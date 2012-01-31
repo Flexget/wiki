@@ -64,6 +64,6 @@ In the event that you have accidentally managed to fill your movie_queue with a 
 
 
 {{{
-for i in `flexget --movie list|grep tt|cut -d" " -f1`; do flexget --movie del $i; done
+for i in `flexget --movie-queue list|grep tt|cut -d" " -f1`; do flexget --movie-queue del $i; done
 }}}
 
