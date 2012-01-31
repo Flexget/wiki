@@ -63,7 +63,7 @@ Movies get moved from queue to the downloaded list when they reach output succes
 This command will tell you what the movie_queue list has downloaded.
 
 {{{
-flexget --movie-queue downloaded
+$ flexget --movie-queue downloaded
 }}}
 
 == Clearing the movie Queue list ==
@@ -72,6 +72,6 @@ In the event that you have accidentally managed to fill your movie_queue with a 
 
 
 {{{
-flexget --movie-queue clear
+$ flexget --movie-queue clear
 }}}
 
