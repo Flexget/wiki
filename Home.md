@@ -2,11 +2,8 @@
 #!html
 <!--
 <div id="login_note">For more permissions (edit wiki, browse sources) login with username: <b>flexget</b> password: <b>anon</b></div>
--->
-
 <div style="border: 2px solid red; padding: 0.5em; text-align:center; margin: 0.5em; background: #ffeeee; font-size: 14pt">Due server upgrade, there may be some problems with the Trac.</div>
-
-
+-->
 }}}
 
 {{{
