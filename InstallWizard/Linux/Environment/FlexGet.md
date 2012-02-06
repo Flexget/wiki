@@ -5,11 +5,11 @@
 Run command:
 
 {{{
-easy_install flexget
+pip install flexget
 }}}
 or (from a normal user's shell)
 {{{
-sudo easy_install flexget
+sudo pip install flexget
 }}}
 
 This will install !FlexGet and all additional components it requires.
