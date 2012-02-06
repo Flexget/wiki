@@ -24,19 +24,19 @@ With Debian based distributions you can simply run:
 sudo apt-get install python2.6
 }}}
 
-== easy_install ==
+== pip ==
 
-If you do not have `easy_install` already available, you need to install it.
+If you do not have `pip` already available, you need to install it.
 
 With Debian based distributions you can simply run with root privileges:
 
 {{{
-sudo apt-get install python-setuptools
+sudo apt-get install python-pip
 }}}
 
 If your distribution does not have the package available, see further instructions from 
 
-[http://pypi.python.org/pypi/setuptools]
+[http://www.pip-installer.org/en/latest/installing.html#using-the-installer]
 
 = Next =
 
