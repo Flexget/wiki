@@ -2,8 +2,10 @@
 
 {{{
 cd ~/flexget
-bin/easy_install flexget
+bin/pip install flexget
 }}}
+
+(If your virtualenv does not include pip, run `bin/easy_install pip` first.)
 
 This will install !FlexGet and all the required dependencies.
 
