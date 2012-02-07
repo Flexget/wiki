@@ -8,6 +8,23 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== xx.02.2012 r2700 (d.m.yyyy) ===
+
+Latest SQLAlchemy and Request libraries are currently not working with !FlexGet so you may need to downgrade them if you get errors like.
+
+{{{
+pkg_resources.DistributionNotFound?: requests>=0.10,!=0.10.1,<0.11 
+}}}
+
+You can use pip / easy_install to install specific version.
+
+{{{
+pip --upgrade install requests==0.10.0
+pip --upgrade install sqlalchemy==0.7.4
+}}}
+
+We will try to make application compatible with latest versions soon.
+
 === 27.12.2011 r2607 (d.m.yyyy) ===
 
 SVN users should make sure feedparser is at least version 5.1 due to a bug exposed in lower versions. see #1405
