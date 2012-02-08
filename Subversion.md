@@ -28,8 +28,6 @@ cd ~/flexget-dev/
 python bootstrap.py
 }}}
 
-If you get error about !BeautifulSoup or any site packages add parameter {{{--no-site-packages}}}.
-
 Once bootstrap is completed you'll have !FlexGet installed in a virtualenv.
 
 You can execute !FlexGet via:
