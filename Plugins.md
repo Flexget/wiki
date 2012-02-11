@@ -144,6 +144,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the feed.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}''' Allows regexp manipulation for entries.||
 ||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the feed when explicitly specified.||
+||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
