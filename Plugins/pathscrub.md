@@ -2,7 +2,7 @@
 
 This plugin is used by plugins that create files. (currently: download, move, deluge, transmission) It automatically removes any invalid characters for the current OS from generated filenames.
 
-'''Note:''' You do not need to include this plugin in your config, unless you would like the generated filenames to be compatible with another OS that the one !FlexGet is running on. (e.g. files are accessed over a samba share from a Windows machine, or you are adding files to a remote deluge/transmission daemon on another OS)
+'''Note:''' You do not need to include this plugin in your config, unless you would like the generated filenames to be compatible with another OS that the one !FlexGet is running on. (e.g. files need valid Windows names to be accessed over a samba share, or you are adding files to a remote deluge/transmission daemon on another OS)
 
 To make filenames compatible with another OS, it can be configured like this:
 {{{
