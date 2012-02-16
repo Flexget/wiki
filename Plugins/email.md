@@ -1,23 +1,25 @@
 = Email =
 
-Send an e-mail with the list of all succeeded (downloaded) entries.
+Send an e-mail based on a jinja2 template with feed results.
 
-The result email will look like this:
+The default template will list of all succeeded (downloaded) entries and look like this:
 
 {{{
-Subject: [FlexGet] feedname : X new entries downloaded
+Subject: [FlexGet] feedname: X new entries downloaded
 Content: 
-FlexGet has just downloaded X new entries for feed feedname  :
-- release title (torrent url) => destination folder
-- release title (torrent url) => destination folder
-- release title (torrent url) => destination folder
-- release title (torrent url) => destination folder
+FlexGet has just downloaded X new entries for feed feedname:
+- release title (torrent url)
+- release title (torrent url)
+- release title (torrent url)
+- release title (torrent url)
 }}}
 
 {{{
 Config:
   from          : the email address from which the email will be sent (required)
   to            : the email address(es) of the recipient(s) (required)
+  subject       : the subject for the email (jinja replacement is supported)
+  template      : name of the template file to use (default will be used if not specified)
   smtp_host     : the host of the smtp server
   smtp_port     : the port of the smtp server
   smtp_username : the username to use to connect to the smtp server
