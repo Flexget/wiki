@@ -7,13 +7,14 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
-||piratebay||Generates entries from [http://thepiratebay.org/ the piratebay]||
-||newzleech||broken as Newzleech.com is no more||
+||[wiki:Searches/demonoid demonoid]||Generates entries from [http://demonoid.me demonoid.me]||
 ||flexget_archive||Searches within previously archived entries||
-||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
-||torrentz||Generates entries from [http://torrentz.eu Torrentz.eu]||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
+||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
+||newzleech||broken as Newzleech.com is no more||
 ||nzbmatrix||Generates entries from [http://nzbmatrix.com Nzbmatrix.com]||
+||piratebay||Generates entries from [http://thepiratebay.org/ the piratebay]||
+||torrentz||Generates entries from [http://torrentz.eu Torrentz.eu]||
 
 You can always get an up to date overview of the available search plugins by using the command line option --search-plugins
 
