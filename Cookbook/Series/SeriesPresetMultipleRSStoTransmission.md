@@ -25,7 +25,7 @@ Edit the Transmission configuration file below to ensure that Transmission RPC s
     "rpc-whitelist": "127.0.0.1,10.*.*.*",
 }}}
 
-Create a new FlexGet config.yml to specify your settings.  Change the download path, list of Series to download, and list of RSS feeds to download from.  Feel free to downgrade the or remove the quality setting from 720p to hdtv to capture standard-quality shows.  (It is highly recommend that you create the configuration file under the home path of a regular, non-root, user account for security reasons.)
+Create a new FlexGet config.yml to specify your settings.  Change the download path from "/mnt/data/Series/{{series_name}}" to where ever you want to store your files, change list of series to download, and change list of RSS feeds to download from.  Feel free to downgrade or remove the quality setting from 720p to hdtv to capture standard-quality shows.  (It is highly recommend that you create the configuration file under the home path of a regular, non-root, user account for security reasons.)
 
 '''~/.flexget/config.yml'''
 {{{
