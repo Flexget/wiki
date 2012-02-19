@@ -62,8 +62,6 @@ presets:
         - Real Time with Bill Maher
         - South Park
         - True Blood
-        - Weeds
-        - Sons of Guns
 
 feeds:
   bt-chat.com-tv:
