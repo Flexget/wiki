@@ -2,9 +2,9 @@ Execute commands below as Root with "sudo su -" command to install the Transmiss
 
 '''Commands - (As Root)'''
 {{{
-apt-get install transmission
-apt-get install transmission-daemon
-apt-get install python-pip
+apt-get -y install transmission
+apt-get -y install transmission-daemon
+apt-get -y install python-pip
 pip install flexget
 pip install transmissionrpc
 }}}
