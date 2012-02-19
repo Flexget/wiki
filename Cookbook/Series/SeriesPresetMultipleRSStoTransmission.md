@@ -100,8 +100,10 @@ Use the command below to edit your crontab file for the user account where FlexG
 '''Commands - (As User)'''
 {{{
 crontab -e
+}}}
 
-Add line below to crontab file:
+Add line below to the user's crontab file.
 
+{{{
 @hourly /usr/local/bin/flexget --cron
 }}}
