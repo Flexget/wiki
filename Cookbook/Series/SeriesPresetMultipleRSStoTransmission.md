@@ -10,13 +10,13 @@ pip install transmissionrpc
 }}}
 
 
-Edit file below to ensure that Transmission RPC settings are correct and will match values in the FlexGet config.yml file.
+Edit the Transmission configuration file below to ensure that Transmission RPC settings are correct and will match values in the FlexGet config.yml file.  (PS: The rpc-password field will change from plain-text to hashed value when transmission-daemon is restarted or reloaded to one-way encrypt the password.  That's okay and how it is supposed to work, don't change it back after that.)
 
 '''/etc/transmission-daemon/settings.json'''
 {{{
     "rpc-enabled": true,
-    "rpc-username"''': "user",
-    "rpc-password"''': "transmission",
+    "rpc-username": "user",
+    "rpc-password": "transmission",
     "rpc-authentication-required": true,
     "rpc-bind-address": "0.0.0.0",
     "rpc-port": 9091,
