@@ -149,6 +149,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change feed execution order.||
+||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
