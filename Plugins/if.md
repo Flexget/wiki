@@ -16,6 +16,7 @@ The if plugin allows a limited subset of python. If statements can contain:
 ||len(<iterable>)||Returns the length of the iterable||
 ||any(<iterable>)||Returns true if any of the items in the iterable are true.||
 ||all(<iterable>)||Returns true if all items in the iterable are true.||
+||sorted(<iterable>)||Return a new sorted list from the items in iterable.||
 ||now||This is a python datetime object equal to the time the if statement was evaluated.||
 ||timedelta||From the python standard library [http://docs.python.org/library/datetime.html#datetime.timedelta datetime.timedelta]||
 
