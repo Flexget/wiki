@@ -8,9 +8,13 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 28.2.2012 r2757 (d.m.yyyy) ===
+
+The series parser has been upgraded to support two new modes, {{{sequence}}} and {{{date}}}. If you are using {{{identified_by: id}}} in your config to match dated or absolutely numbered series, you will have to change it to the appropriate new mode. In addition, for series that were auto detected as identified_by id, they will need to be re-detected based on the upcoming episodes. You may get a few weird matches until it decides upon the new mode. See [wiki:Plugins/series/identified_by here] for more information.
+
 === xx.02.2012 r2700 (d.m.yyyy) ===
 
-Latest SQLAlchemy and Request libraries are currently not working with !FlexGet so you may need to downgrade them if you get errors like.
+Certain SQLAlchemy and Request libraries are currently not working with !FlexGet so you may need to downgrade them if you get errors like.
 
 {{{
 pkg_resources.DistributionNotFound?: requests>=0.10,!=0.10.1,<0.11 
