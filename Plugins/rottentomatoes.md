@@ -7,7 +7,7 @@ Results are cached so this doesn't cause unnecessary load to [http://www.rottent
 '''Notes:''' 
 
  * If [wiki:Entry] doesn't have `rt_id` present plugin will try to use Rotten Tomatoes's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
- * To reject non imdb compatible entries, use [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup] and [wiki:Plugins/require_field require_field] with `rt_id`.
+ * To reject non Rotten Tomato compatible entries, use [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup] and [wiki:Plugins/require_field require_field] with `rt_id`.
  * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [wiki:Plugins/seen_movies seen_movies] plugin alongside.
  * The `require_certified_fresh` option will reject torrents even if they are accepted by other plugins.
 
