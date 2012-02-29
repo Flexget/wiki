@@ -12,6 +12,8 @@ This page will also contain information about configuration file format changes.
 
 The series parser has been upgraded to support two new modes, {{{sequence}}} and {{{date}}}. If you are using {{{identified_by: id}}} in your config to match dated or absolutely numbered series, you will have to change it to the appropriate new mode. In addition, for series that were auto detected as identified_by id, they will need to be re-detected based on the upcoming episodes. You may get a few weird matches until it decides upon the new mode. See [wiki:Plugins/series/identified_by here] for more information.
 
+'''SVN users:''' You will have to run {{{bin/paver clean}}} and {{{python bootstrap.py}}} to make sure all dependencies are installed correctly in your virtualenv.
+
 === xx.02.2012 r2700 (d.m.yyyy) ===
 
 Certain SQLAlchemy and Request libraries are currently not working with !FlexGet so you may need to downgrade them if you get errors like.
