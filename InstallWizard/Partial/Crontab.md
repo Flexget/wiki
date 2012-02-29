@@ -47,3 +47,7 @@ To run more often you may use crontab in form of:
 }}}
 
 Where 30 is the time between executions.
+
+=== Verification ===
+
+Once !FlexGet runs successfully from crontab it will log this few times into the log file. The log file is located in same directory as your configuration file.
