@@ -96,3 +96,7 @@ Gmail example:
     smtp_password: gmailPassword
     smtp_tls: yes
 }}}
+
+== Custom Templates ==
+
+You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [http://flexget.com/browser/trunk/flexget/templates/email/default.template default template] for an example.
