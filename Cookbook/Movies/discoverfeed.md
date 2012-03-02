@@ -4,16 +4,6 @@ How to create a feed that queues movies from entries in your [http://trakt.tv tr
 
 This cookbook goes one step further and also uses the [wiki:Plugins/discover discover plugin] in conjunction with the [wiki:Plugins/search_rss search_rss] plugin to dynamically create feeds from which entries can be harvested. The [wiki:Plugins/torrent_alive torrent_alive plugin] cycles the feed until it finds an entry with an acceptalbe amount of seeds. This is required since most of the query based feeds do not guarantee that the torrents have enough seeds or any kind of sorting.
 {{{
-presets:
-
-  dlvector:
-    # localhost is whitelisted so doesn't need password
-    transmission:
-      host: localhost
-      port: 9091
-      ratio: 1.50
-      removewhendone: True
-
 feeds:
   #feed to pull movies from trakt.tv watchlist and add to the movie queue
   trakt_movie_queue_fill:
@@ -41,8 +31,12 @@ feeds:
         - torrentz
       type: movies
     movie_queue: yes
-    # Setting the path field tells the transmission plugin where we want to save
-    set:
+    transmission:
+      # localhost is whitelisted so doesn't need password
+      host: localhost
+      port: 9091
+      ratio: 1.50
+      removewhendone: True
       path: /mnt/cloud/share/film/{{movie_name}}/{{quality}}
     trakt_acquired:
       username: myusername
