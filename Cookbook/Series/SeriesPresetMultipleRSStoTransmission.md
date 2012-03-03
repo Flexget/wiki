@@ -29,10 +29,20 @@ Create a new FlexGet config.yml to specify your settings.  Change the download p
 
 Warning: If the "removewhendone" field is set to "yes" then any the torrents in Transmission client, even ones not from FlexGet, will be automatically deleted once they are completed or incomplete and paused or stopped.  Be careful with it because if FlexGet gets executed hourly by cron and you have any incomplete paused torrents they will be deleted also even if they are not from FlexGet.  It is better to leave this setting as "no" so you can figure out what was downloaded by FlexGet by using the Transmission web interface on port 9091 and the completed torrents there and removing them manually if you wish.  (The code in "plugin_transmission.py" is currently (2012-02-26) broken because of the check "if transfer.status == 'stopped' and transfer.uploadRatio >= transfer.seedRatioLimit:" which happens to delete incomplete torrents that you have been trying to download for a long time and you happened to seed more data than the upload ratio that is globally set in Transmission by default.  Happened to me.)
 
+Note: If the Manipulate section is uncommented it will remove the leading "The" from all feed results in the metainfo phase before any of the other plugins start processing creating a preferred way of series since so many of them start with "The".  If this is uncommented this will also require all TV series names specified below to be modified remove the leading "The" in the name to match the manipulated results, so that if you uncomment this you would also change "The Office" to "Office" below to match the newly manipulated results.  (This is a personal preference and it is up to you.)
+
 '''~/.flexget/config.yml'''
 {{{
 presets:
   tv:
+#    manipulate:
+#      - title: &the
+#          replace:
+#            regexp: '^The\W'
+#            format: ''
+#      - filename: *the
+#      - series_name: *the
+
     private_torrents: no
 
     series:
