@@ -38,7 +38,7 @@ If you're having authentication issues, see ticket ticket:1066#comment:1 if it h
 ||maxupspeed||Number||||
 ||maxdownspeed||Number||||
 ||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
-||removewhendone||[Yes|No]||||
+||removewhendone||[Yes|No]||Removes ALL stopped or incomplete paused Torrents in the Transmission client, not just the ones added in by FlexGet, if the seed ratio is higher than the global upload ratio. (Caution, will remove almost all all non-active torrents!)||
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 
 To use all default values use this config form:
