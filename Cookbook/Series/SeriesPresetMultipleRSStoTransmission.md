@@ -35,14 +35,6 @@ presets:
   tv:
     private_torrents: no
 
-    transmission:
-      enabled: yes
-      host: localhost
-      port: 9091
-      username: user
-      password: transmission
-      removewhendone: no
-
     series:
       settings:
         tv:
@@ -60,38 +52,53 @@ presets:
         - Game of Thrones
         - Mad Men
         - MythBusters
-        - Office
+        - The Office
         - Real Time with Bill Maher
         - South Park
         - True Blood
 
+    transmission:
+      enabled: yes
+      host: localhost
+      port: 9091
+      username: user
+      password: transmission
+      removewhendone: no
+
 feeds:
   bt-chat.com-tv:
+    priority: 1
     rss: http://rss.bt-chat.com/?group=3
     preset: tv
 
   ezrss.it:
+    priority: 2
     rss: http://ezrss.it/feed/
     preset: tv
 
-  extratorrent.com-tv:
-    rss: http://extratorrent.com/rss.xml?cid=8
-    preset: tv
-
-  kat.ph-tv:
-    rss: http://kat.ph/tv/?rss=1
-    preset: tv
-
-  showrss.karmorra.info-tv:
-    rss: http://showrss.karmorra.info/feeds/all.rss
-    preset: tv
-
   thepiratebay.org-tv:
+    priority: 3
     rss: http://rss.thepiratebay.org/208
     preset: tv
 
+  kat.ph-tv:
+    priority: 4
+    rss: http://kat.ph/tv/?rss=1
+    preset: tv
+
+  extratorrent.com-tv:
+    priority: 5
+    rss: http://extratorrent.com/rss.xml?cid=8
+    preset: tv
+
   torrentz.eu-tv:
+    priority: 6
     rss: http://torrentz.eu/feed
+    preset: tv
+
+  showrss.karmorra.info-tv:
+    priority: 7
+    rss: http://showrss.karmorra.info/feeds/all.rss
     preset: tv
 }}}
 
