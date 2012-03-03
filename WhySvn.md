@@ -30,3 +30,4 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 ||pyroscope||pyroscope||pyroscope.project@gmail.com||
 ||ressu||NAME||<USER@DOMAIN>||
 ||shrike||lepinkainen||shrike@addiktit.net||
+||davidblewett||David Blewett||david@dawninglight.net||
