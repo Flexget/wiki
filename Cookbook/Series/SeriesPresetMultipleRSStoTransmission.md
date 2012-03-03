@@ -35,6 +35,7 @@ Note: If the Manipulate section is uncommented it will remove the leading "The" 
 {{{
 presets:
   tv:
+
 #    manipulate:
 #      - title: &the
 #          replace:
