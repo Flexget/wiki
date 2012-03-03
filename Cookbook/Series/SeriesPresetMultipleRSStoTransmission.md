@@ -38,6 +38,7 @@ presets:
     series:
       settings:
         tv:
+          exact: yes
           propers: 3 days
           min_quality: 720p
           set:
