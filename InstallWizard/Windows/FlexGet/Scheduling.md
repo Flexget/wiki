@@ -4,7 +4,7 @@ Follow the [wiki:Configuration configuration tutorial] and make some basic confi
 
 Some windows specific tips:
 
-You can place the configuration file anywhere you like. One good place is `C:\Documents and Settings\<your user>\.flexget\config.yml` as this location is automatically checked regardless where you execute `flexget` command. Another logical choice would be `c:\program files\flexget\config.yml`. If you opt later you'll need to specify the configuration file explicitly with `flexget -c <config>` if you run !FlexGet from anywhere else than this directory. This applies also if you use different name than `config.yml`.
+You can place the configuration file anywhere you like. One good place is `C:\Documents and Settings\<your user>\flexget\config.yml` as this location is automatically checked regardless where you execute `flexget` command. Another logical choice would be `c:\program files\flexget\config.yml`. If you opt later you'll need to specify the configuration file explicitly with `flexget -c <config>` if you run !FlexGet from anywhere else than this directory. This applies also if you use different name than `config.yml`.
 
 = Scheduling =
 
