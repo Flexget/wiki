@@ -17,7 +17,7 @@ In order to use !FlexGet you'll need to create a configuration file.
 
 === Location ===
 
-By default !FlexGet tries to find `config.yml` from current path and in `~/.flexget/`. Creating the `~/.flexget/` directory and placing your `config.yml` in there is considered currently as the best practice.
+By default !FlexGet tries to find `config.yml` from current path and in `~/.flexget/` (`C:\Users\YOURUSER\flexget\` on Windows 7, and `C:\Documents and Settings\YOURUSER\flexget\` on XP). Creating the `~/.flexget/` directory and placing your `config.yml` in there is considered currently as the best practice.
 
 == Example ==
 
