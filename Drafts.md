@@ -2,4 +2,4 @@
 
 Just some ideas ...
 
-[[ListTagged(draft)]] 
+[[TitleIndex(Drafts/)]]
