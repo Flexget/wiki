@@ -1,5 +1,5 @@
 == Basic Configuration Layout and Overview ==
-The configuration is a hierarchy constructed of various components. The main component of any config are the feeds, so we will start there.
+The configuration is a hierarchy constructed of various components. The main component of any config are the feeds, so we will start there. (Do not confuse this with an RSS feed. A 'feed' in !FlexGet is more akin to a 'task', and may be renamed as such in the future.)
 {{{
 feeds:
 }}}
@@ -54,3 +54,28 @@ feeds:
       - Another Good Show:
           quality: 720p
 }}}
+Now that we have an input and a filter plugin, we need to tell !FlexGet what we want to do with the entries that are accepted by our filter. We do this with an [wiki:Plugins#output output plugin]. One common output plugin is the [wiki:Plugins/download download] plugin, which we could use to save our items to a watch directory from a bittorrent or nzb client. (if you are using [wiki:Plugins/deluge deluge] or [wiki:Plugins/transmission transmission] you may want to consider using its dedicated output plugin instead)
+{{{
+feeds:
+  test feed:
+    rss: http://mysite.com/myfeed.rss
+    series:
+      - My Favorite Show
+      - Another Good Show:
+          quality: 720p
+    download:
+}}}
+The [wiki:Plugins/download download] plugin also has a very simple configuration option, in which we can just define the path where we would like it to save our content.
+{{{
+feeds:
+  test feed:
+    rss: http://mysite.com/myfeed.rss
+    series:
+      - My Favorite Show
+      - Another Good Show:
+          quality: 720p
+    download: /home/me/watchdir/
+}}}
+Congratulations, we now have a fully functioning config file. You can continue to add more feeds to your config file to complete different tasks, or customize this one further. Remember to consult the [wiki:Plugins plugins] wiki page to choose your plugins, and read the individual page for each plugin to figure out how to configure that specific plugin.
+
+'''Now just sit back, and let !FlexGet do the work for you! '''
