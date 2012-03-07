@@ -118,7 +118,7 @@ flexget --test
 
 === Display more process details ===
 
-Adding `-v` parameter will display really useful information about feed(s) content and filtering rules that are applied.
+Adding `-v` parameter will display useful information about feed(s) content.
 
 === Check configuration syntax ===
 
