@@ -66,6 +66,11 @@ This command will tell you what the movie_queue list has downloaded.
 $ flexget --movie-queue downloaded
 }}}
 
+If you would like to get a different copy of a movie that has already been downloaded, you can use the forget command to remove the downloaded flag and allow another copy to be accepted.
+{{{
+$ flexget --movie-queue forget "The Movie"
+}}}
+
 == Clearing the movie Queue list ==
 
 In the event that you have accidentally managed to fill your movie_queue with a bunch of movies (perhaps with wrong settings), this command will clear the queue list, but leaves intact the downloaded list.
