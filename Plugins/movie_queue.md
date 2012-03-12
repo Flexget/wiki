@@ -81,11 +81,15 @@ $ flexget --movie-queue clear
 }}}
 
 == Command Line Interface ==
-The movie queue can be controlled via the command line interface. The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345.
+The movie queue can be controlled via the command line interface. 
+{{{
+flexget --movie-queue <ACTION> [PARAMETERS]
+}}}
+The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345.
 ||'''Action'''||'''Parameters'''||'''Description'''||
 ||add||<IDENTIFIER> [QUALITY] [FORCE]||Add a movie to the queue.||
 ||del||<IDENTIFIER>||Remove a movie from the queue.||
 ||forget||<IDENTIFIER>||Mark an already downloaded queue item as wanted again.||
 ||list||None||Lists all wanted movies in the queue.||
 ||downloaded||None||List all queue movies that have already been acquired.||
-||clear||None||Removes all movies (downloaded or not) from the queue.||
+||clear||None||Removes all movies from the pending queue.||
