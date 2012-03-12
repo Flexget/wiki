@@ -12,7 +12,7 @@ You need to manually add movies to the queue from the commandline, or set up a s
 == Queueing ==
 
 {{{
-flexget --movie-queue (add|del|list|downloaded|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY] [FORCE]
+flexget --movie-queue (add|del|forget|list|downloaded|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY] [FORCE]
 }}}
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
@@ -79,4 +79,3 @@ In the event that you have accidentally managed to fill your movie_queue with a 
 {{{
 $ flexget --movie-queue clear
 }}}
-
