@@ -27,7 +27,7 @@ feeds:
       what:
         - emit_movie_queue: yes
       from:
-        - search_rss: http://isohunt.com/js/rss/{{search_term}}?iht=
+        - isohunt: movies
         - torrentz
       type: movies
     movie_queue: yes
@@ -44,4 +44,4 @@ feeds:
       api_key: myapikey
       type: movies
 }}}
-Plugins used: [wiki:Plugins/preset preset], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover],[wiki:Plugins/search_rss search_rss]      
+Plugins used: [wiki:Plugins/preset preset], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
