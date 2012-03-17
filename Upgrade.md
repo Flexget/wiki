@@ -48,3 +48,4 @@ Start by removing traces of old !FlexGet from your python site-packages, eg.
 rm /usr/local/lib/python2.6/site-packages/FlexGet-1.0r1108-py2.6.egg
 }}}
 
+If you receive errors about database upgrades please report them via a [http://flexget.com/newticket ticket]. If you do not care about the history for that plugin, you can reset the database for that plugin with {{{--reset-plugin PLUGINNAME}}} to get it working again.
