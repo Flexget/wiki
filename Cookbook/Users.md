@@ -6,3 +6,4 @@ These are the complete configurations of actual end users. Feel free to add your
  [wiki:Cookbook/Userhyper_ch hyper_ch]::
  [wiki:Cookbook/Userfoulou foulou]::
  [https://github.com/gray/dotfiles/blob/master/.flexget/config.yml gray]::
+ [wiki:Cookbook/Useradrellias adrellias]::
