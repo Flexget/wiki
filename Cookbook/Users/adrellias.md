@@ -44,8 +44,6 @@ feeds:
   # All of the TV-related feeds pull in the tv-global preset, this gives
   # all of the necessary rss sources and a few extra configs
 
-  # There are 4 My_TV Shows feeds, the first, tries to get the most wanted qualities
-
   Auto_TV_Shows:
     priority: 1
     preset:
