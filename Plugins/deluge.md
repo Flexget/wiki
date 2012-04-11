@@ -116,5 +116,5 @@ Together with the movedone command, this means all TV series will be downloaded 
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
 - Deluge is installed in <program files>\Deluge
-- !FlexGet is installed with the same Python version Deluge is using (currently 32-bit 2.6, as of Delgue 1.3.3)
+- !FlexGet is installed with the same Python version Deluge is using (currently 32-bit 2.6, as of Delgue 1.3.5)
 The [wiki:Plugins/deluge?version=31#WindowsUsers old instructions] are no longer necessary.
