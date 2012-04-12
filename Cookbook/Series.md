@@ -12,7 +12,6 @@
 * [wiki:Cookbook/Series/DelugeMovedone Set deluge options trough series groups]
 * [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]
 * [wiki:Cookbook/Series/DelugeThetvdbSeries Advanced deluge/thetvdb config showing many features]
-* [wiki:Cookbook/Series/DelugeSeriesLabel Set deluge labels to the series name]
 * [wiki:Cookbook/Series/AdvancedTransmissionAndDownloadManagement Download series with transmission (advanced)]
 * [wiki:Cookbook/Series/TimeframeWithMinMaxQuality Timeframe with min and max qualities]
 * [wiki:Cookbook/Series/PremieresGenres Get series premieres with genre filtering]
