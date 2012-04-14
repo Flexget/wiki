@@ -1,14 +1,14 @@
 {{{#!th
-== Resolutions ==
+''' Resolutions '''
 }}}
 {{{#!th
-== Sources ==
+''' Sources '''
 }}}
 {{{#!th
-== Codecs ==
+''' Codecs '''
 }}}
 {{{#!th
-== Audio ==
+''' Audio '''
 }}}
 |--------
 {{{
