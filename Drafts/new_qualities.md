@@ -1,3 +1,4 @@
+= Qualities =
 Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
 
 {{{#!th
