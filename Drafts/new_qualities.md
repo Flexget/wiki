@@ -1,3 +1,5 @@
+Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
+
 {{{#!th
 ''' Resolutions '''
 }}}
@@ -57,4 +59,47 @@
 - aac
 - dd5.1
 - mp3
+}}}
+
+== Requirements ==
+In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
+
+'''Ranges:'''
+To specify a range in a given category, write the lower and upper bound, with a dash in between. Examples:
+{{{
+720p-1080p
+hdtv-bluray
+}}}
+
+'''Open ended range:'''
+If you would just like to specify a lower bound on the category, you can follow it with a plus. Examples:
+{{{
+480p+
+tvrip+
+}}}
+
+'''Discrete values:'''
+If you would like to specify one value, multiple acceptable values for a category, but nothing inbetween them, you can use a pipe to join them. Examples:
+{{{
+720p
+sdtv|hdtv
+dd5.1|dts|aac
+}}}
+
+'''Disallowing values:'''
+If you just want to block certain values from being acceptable, you can prefix them with an exclamation mark. Examples:
+{{{
+!dts
+!cam
+!10bit
+}}}
+
+=== Putting it together ===
+So, any time a quality range needs to be specified in the config, you can combine these techniques to define the acceptable values for each category. Here are some examples of complete quality requirements that could be used in your config:
+{{{
+hdtv
+720p
+720p hdtv+
+360p-720p hdtv divx|xvid
+360p !dts
 }}}
