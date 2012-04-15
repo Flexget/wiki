@@ -39,7 +39,7 @@ Qualities are split into four separate categories: resolution, source, codec, an
 - tvrip
 - preair
 - ppvrip
-- r5
+- !r5
 - tc
 - ts
 - cam
