@@ -66,7 +66,7 @@ Qualities are split into four separate categories: resolution, source, codec, an
 In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
 
 '''Ranges:'''
-To specify a range in a given category, write the lower and upper bound, with a dash in between. Examples:
+To specify a range in a given category, write the lower and upper bound, with a dash in between. Note that a range must be between two items of the same category (in the same column above.) Examples:
 {{{
 720p-1080p
 hdtv-bluray
