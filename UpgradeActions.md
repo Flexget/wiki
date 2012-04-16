@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== Still Upcoming ===
+== '''{{{ATTENTION:}}}''' ==
+There is a major change in how !FlexGet will handle qualities coming up soon. You _will_ need to update your configuration to make sure everything works properly in the new system. If you would like to get an idea of what is coming, you can look at the current [wiki:Drafts/new_qualities draft documentation.] Full documentation on the changes, and instructions will be provided when the new changes are released.
+
 === 28.2.2012 r2757 (d.m.yyyy) ===
 
 The series parser has been upgraded to support two new modes, {{{sequence}}} and {{{date}}}. If you are using {{{identified_by: id}}} in your config to match dated or absolutely numbered series, you will have to change it to the appropriate new mode. In addition, for series that were auto detected as identified_by id, they will need to be re-detected based on the upcoming episodes. You may get a few weird matches until it decides upon the new mode. See [wiki:Plugins/series/identified_by here] for more information.
