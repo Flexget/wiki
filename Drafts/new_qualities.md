@@ -107,3 +107,50 @@ hdtv
 
 == Series Plugin Changes ==
 The {{{min_quality}}} and {{{max_qaulity}}} options have been removed. These are replaced by the normal {{{quality}}} option, as it now supports ranges directly. The other major change is to the {{{timeframe}}} feature. Instead of defining your desired quality with the {{{quality}}} option, you define it in the new option {{{enough}}}. Your {{{quality}}} setting will continue to be respected, even after the timeframe has expired.
+
+Here is an example config change that would be required.
+Old way:
+{{{
+series:
+  settings:
+    groupa:
+      quality: 720p
+      timeframe: 6 hours
+      min_quality: hdtv
+      max_quality: 720p
+}}}
+New way:
+{{{
+series:
+  settings:
+    groupa:
+      enough: 720p
+      timeframe: 6 hours
+      quality: hdtv+ <=720p
+}}}
+
+== Quality Plugin Changes ==
+{{{min}}} and {{{max}}} options have been removed, ranges can be specified without them now.
+Config, old way:
+{{{
+quality:
+  min: 720p
+  max: 1080p
+}}}
+New way: (You probably want to add the a source requirement, like dsr+ bit here so that you don't get 'cam' or 'workprint' etc. sources)
+{{{
+quality: 720p-1080p dsr+
+}}}
+
+== Movie Queue Plugin (and Queue Movies) Changes ==
+
+When adding a movie to the queue, either via CLI or through queue_movies plugin, you can now specify quality in the new manner.
+
+Examples:
+{{{
+flexget --movie-queue add "A Good Movie" "720p+ bluray+"
+}}}
+{{{
+queue_movies:
+  quality: 720p-1080p bluray
+}}}
