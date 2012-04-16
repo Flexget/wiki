@@ -104,3 +104,6 @@ hdtv
 360p-720p hdtv divx|xvid
 360p !dts
 }}}
+
+== Series Plugin Changes ==
+The {{{min_quality}}} and {{{max_qaulity}}} options have been removed. These are replaced by the normal {{{quality}}} option, as it now supports ranges directly. The other major change is to the {{{timeframe}}} feature. Instead of defining your desired quality with the {{{quality}}} option, you define it in the new option {{{enough}}}. Your {{{quality}}} setting will continue to be respected, even after the timeframe has expired.
