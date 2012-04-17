@@ -120,6 +120,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
+||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/move move]||'''{{{NEW}}}''' Move local files.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
