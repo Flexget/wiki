@@ -11,7 +11,7 @@ series:
   - foobar (uk)
 }}}
 --------------
-'''{{{NOTE:}}}''' The above parentheses method can solve most of the issues with similarly named series. The following methods were used before the above technique was developed, and should not be needed any more in the majority of cases.
+'''{{{NOTE:}}}''' The above parentheses method can solve most of the issues with similarly named series. The following methods were used before the above technique was developed, and should not be needed anymore in the majority of cases.
 === Case: Other series confuses the one I want ===
 You want to add series "foobar" into your configuration but there's also spinoff series called "foobar us" which you are not interested. Simplest way to prevent !FlexGet getting confused about the "foobar s02e01" and "foobar us s01e01" is to specify [wiki:Plugins/series/exact exact] option.
 
