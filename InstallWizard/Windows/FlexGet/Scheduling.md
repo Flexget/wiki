@@ -20,7 +20,8 @@ Open ''Scheduling Tasks'' from windows ''Control panel''.
 
 [[Image(wiki:WikiPics:scheduling_2.png)]]
 
-'''3.''' Command to execute. If you stored `config.yml` under `Documents and Settings\<user profile>\flexget\` then the `Start in` is not necessary.
+'''3.''' Command to execute. If you stored `config.yml` under `Documents and Settings\<user profile>\flexget\` then the `Start in` is not necessary. \\
+'''NOTE:''' If you would like to avoid the cmd window popup, you can use the {{{flexget-headless}}} executable instead of plain {{{flexget}}}.
 
 [[Image(wiki:WikiPics:scheduling_3.png)]]
 
