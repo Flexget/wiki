@@ -2,6 +2,8 @@
 
 This is unnecessarily complicated at the moment, easier methods for installing are planned.
 
+'''NOTE:''' If you plan on using the [wiki:Plugins/deluge deluge] plugin on Windows, you must use a specific version of Python, [wiki:Plugins/deluge#WindowsUsers read more.]
+
 == Set up environment ==
 
 If you already have '''Python 2.5.x - 2.6.x''' and '''easy_install''', you can continue to next step.
@@ -23,4 +25,3 @@ Since this will not put easy_install in your [http://en.wikipedia.org/wiki/Envir
 After successfully installing ''Python'' and ''easy_install''
 
 [wiki:InstallWizard/Windows/FlexGet Install FlexGet]
-
