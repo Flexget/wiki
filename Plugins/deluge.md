@@ -5,6 +5,8 @@ Downloads content from entry url and loads it into the [http://deluge-torrent.or
 '''{{{Requirements:}}}'''
 Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon seperately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the user and pass options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
 
+If you are installing to a virtualenv, you have to create the virtualenv with the {{{--system-site-packages}}} option. This also applies to an SVN install when running bootstrap.py.
+
 '''Example:'''
 
 {{{
