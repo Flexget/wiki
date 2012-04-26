@@ -35,6 +35,8 @@ flexget --feed "tv*"
 
 '''Grouping feeds by poll frequency:'''
 
+'''NOTE''' You can accomplish a similar effect with the [wiki:Plugins/interval interval] plugin. With this method you must be aware that two instances of !FlexGet cannot run at the same time due to a lock file.
+
 Another very useful application of the pattern selection is to have cron schedules like this:
 {{{
 */5     * * * *         nice flexget --cron --feed "*-5"
