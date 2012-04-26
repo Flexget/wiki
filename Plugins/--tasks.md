@@ -31,17 +31,14 @@ If you would like to select a number of feeds that have similar names:
 {{{
 flexget --feed "tv*"
 }}}
-{{{
-#!comment
-pyroscope: Not sure this is a good idea, won't one of the entries have a conflict for the 15 minute interval due to the lock file? I think interval plugin is a better solution for this.
+
 
 '''Grouping feeds by poll frequency:'''
 
 Another very useful application of the pattern selection is to have cron schedules like this:
 {{{
 */5     * * * *         nice flexget --cron --feed "*-5"
-*/15    * * * *         nice flexget --cron --feed "*-15"
+*/14    * * * *         nice flexget --cron --feed "*-14"
 }}}
 
-You just need to append one of the supported poll intervals to your feed names, and they'll get  automatically polled with that frequency.
-}}}
+You just need to append one of the supported poll intervals to your feed names, and they'll get  automatically polled with that frequency. Note that the schedules are never triggered at the same minute, so they can never directly collide (if you have very slow feeds, some executions ''might'' be skipped due to the lock of a still running process).
