@@ -26,4 +26,10 @@ exists_series:
   allow_different_qualities: yes
 }}}
 
-NOTE: Advanced format was introduced in r1301. It will not work in earlier versions.
+If you would only like to allow qualities that are better than what is currently on disk, you can use this format:
+
+{{{
+exists_series:
+  path: /storage/series/
+  allow_different_qualities: better
+}}}
