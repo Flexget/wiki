@@ -1,6 +1,6 @@
 = Preset =
 
-Allows multiple presets for feeds and a special "global" preset that is applied to every feed. Avoid using global preset as it will easily shoot arrow into your knee.
+Allows defining presets for feeds and re-using them in feeds.
 
 {{{
 presets:
@@ -114,6 +114,8 @@ series:
 Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within feed & preset. Include accepts list format for files so that can be used instead. 
 
 == Global preset ==
+
+Allow specifying plugins for every feed without being explicitly told so. Avoid using this since it WILL shoot you in the feet at some point if you're not careful.
 
 {{{
 presets:
