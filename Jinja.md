@@ -3,22 +3,25 @@
 Some options can have dynamically formatted values based on other [wiki:Entry entry fields]. This is done using the powerful [http://jinja.pocoo.org/templates/ jinja2 template] system to create or modify [wiki:Entry entry fields].
 
 '''NOTES:'''
- - All the fields from the entry are available in the jinja template context.
- - {{{now}}} is also available, which is a python datetime object representing the current time.
- - You can use [http://jinja.pocoo.org/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
- - If a referenced field is not available, the target field will be set to an empty string. If you would like to change this, you can use the jinja 'default' filter.
+
+- All the fields from the entry are available in the jinja template context.
+- {{{now}}} is also available, which is a python datetime object representing the current time.
+- You can use [http://jinja.pocoo.org/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
+- If a referenced field is not available, the target field will be set to an empty string. If you would like to change this, you can use the jinja 'default' filter.
 
 '''Example:'''
 
 This example sets the {{{content_filename}}} using the information parsed by the [wiki:Plugins/series series] plugin. The [wiki:Plugins/deluge deluge] plugin uses the {{{content_filename}}} field to rename a file inside the torrent.
+
 {{{
 set:
   content_filename: "{{ series_name|replace(' ','.') }}.{{ series_id }}.{{ quality|upper }}{% if proper %}-proper{% endif %}"
 }}}
+
 This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E04.720P-proper.mkv
 
-
 === Jinja2 Filters ===
+
 When using Jinja2 templates, you can use the following custom filters in addition to the [http://jinja.pocoo.org/templates/#builtin-filters built-in ones].
 
  pad(length):: Pad a number with 0s to the specified length.
@@ -32,9 +35,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
 
 Example:
 {{{
-presets:
-  global:
-    set:
-      # Replace filename by scrubbed title and keep the extension
-      filename: '{{title | pathscrub}}{{filename | pathext}}'
+set:
+  # Replace filename by scrubbed title and keep the extension
+  filename: '{{title | pathscrub}}{{filename | pathext}}'
 }}}
