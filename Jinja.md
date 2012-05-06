@@ -36,6 +36,6 @@ When using Jinja2 templates, you can use the following custom filters in additio
 Example:
 {{{
 set:
-  # Replace filename by scrubbed title and keep the extension
-  filename: '{{title | pathscrub}}{{filename | pathext}}'
+  # Replace filename by title and keep the extension
+  filename: '{{title}}{{filename | pathext}}'
 }}}
