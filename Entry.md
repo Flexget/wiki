@@ -26,7 +26,8 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||series_name||[wiki:Plugins/series series], metainfo_series||Series name||
 ||series_season||[wiki:Plugins/series series], metainfo_series||Series season||
 ||series_episode||[wiki:Plugins/series series], metainfo_series||Series episode||
-||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. `S01E02` or `12.01.2009`||
+||series_id||[wiki:Plugins/series series]||Series episode identifier, ie. `S01E02` or `2009-12-1`||
+||series_date||[wiki:Plugins/series series]||The date of the episode. (only available for date based series)||
 ||proper||[wiki:Plugins/series series]||Whether this entry is a proper or repack release||
 ||imdb_url||[wiki:Plugins/imdb_lookup imdb_lookup]+others||Imdb url||
 ||imdb_id||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb identifier||
