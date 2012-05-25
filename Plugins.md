@@ -52,6 +52,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/inputs inputs]||'''{{{NEW}}}''' Configure the same input plugin multiple times in one feed.||
 ||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
+||[wiki:Plugins/pogcal pogcal]||'''{{{NEW}}}''' Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
