@@ -47,8 +47,6 @@ The series plugin supports a number of settings to customize it's behavior.
 
 ||'''Option'''||'''Description'''||
 ||[wiki:Plugins/series/quality quality]||Required quality.||
-||[wiki:Plugins/series/quality min_quality]||Accept only qualities equal or above this.||
-||[wiki:Plugins/series/quality max_quality]||Accept only qualities equal or below this.||
 ||[wiki:Plugins/series/qualities qualities]||Download all listed qualities when they become available.||
 ||[wiki:Plugins/series/upgrade upgrade]||Keeps getting the better qualities as they become available.||
 ||[wiki:Plugins/series/timeframe timeframe]||Wait given amount of time for specified quality to become available, after that fall back to best so far.||
