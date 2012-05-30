@@ -7,29 +7,17 @@ Allows specifying acceptable qualities. All other qualities will be rejected. (N
 With the simple usage, you just specify which quality you want.
 
 {{{
-quality: 1080p
+quality: 720p+ hdtv
 }}}
 
-This would reject all entries that are not 1080p.
+Any valid [wiki:Plugins/quality#Requirements quality requirements] string can be used here.
 
-If you want to specify multiple acceptable qualities it can be done like this:
+You can also use a list form to specify multiple quality requirement strings that are acceptable.
 
 {{{
 quality:
-  - 720p
-  - 1080p
+  - 720p hdtv
+  - 1080p webdl
 }}}
-
-== !Min/Max Support ==
-
-If you would like to specify a range of qualities, you can use this form:
-
-{{{
-quality:
-  min: hdtv
-  max: 1080p
-}}}
-
-This will reject all qualities worse than hdtv, and better than 1080p. It is not required to specify both min and max, you can specify an open ended range using just one of them.
 
 [[Include(wiki:Qualities)]]
