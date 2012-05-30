@@ -8,9 +8,8 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page will also contain information about configuration file format changes. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
-=== Still Upcoming ===
-== '''{{{ATTENTION:}}}''' ==
-There is a major change in how !FlexGet will handle qualities coming up soon. You _will_ need to update your configuration to make sure everything works properly in the new system. If you would like to get an idea of what is coming, you can look at the current [wiki:Drafts/new_qualities draft documentation.] Full documentation on the changes, and instructions will be provided when the new changes are released.
+=== 30.5.2012 r2893 ===
+'''{{{ATTENTION:}}}''' This is a major change in how !FlexGet handles qualities. You '''will''' need to update your configuration to make sure everything works properly in the new system. A summary of all the changes and how to use them can be found [wiki:Drafts/new_qualities here.]
 
 === 28.2.2012 r2757 (d.m.yyyy) ===
 
