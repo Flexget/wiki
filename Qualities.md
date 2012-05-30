@@ -1,43 +1,101 @@
-== Supported qualities ==
+= Qualities =
+Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
 
-Ordered by quality value.
+{{{#!th
+''' Resolutions '''
+}}}
+{{{#!th
+''' Sources '''
+}}}
+{{{#!th
+''' Codecs '''
+}}}
+{{{#!th
+''' Audio '''
+}}}
+|--------
+{{{
+#!td style="vertical-align: top"
+- 1080p
+- 1080i
+- 720p
+- 720i
+- hr
+- 576p
+- 480p
+- 368p
+- 360p
+}}}
+{{{
+#!td style="vertical-align: top"
+- bluray
+- dvdrip
+- webdl
+- hdtv
+- bdscr
+- dvdscr
+- sdtv
+- webrip
+- dsr
+- tvrip
+- preair
+- ppvrip
+- !r5
+- tc
+- ts
+- cam
+- workprint
+}}}
+{{{
+#!td style="vertical-align: top"
+- 10bit
+- h264
+- xvid
+- divx
+}}}
+{{{
+#!td style="vertical-align: top"
+- dts
+- ac3
+- aac
+- dd5.1
+- mp3
+}}}
 
-||'''Name'''||'''Recognized also from'''||
-||1080p bluray 10bit||||
-||1080p bluray||||
-||1080p web-dl||||
-||1080p 10bit||||
-||1080p||1080, 1920x1080||
-||1080i||||
-||720p bluray 10bit||||
-||720p bluray||||
-||720p web-dl||||
-||720p 10bit||||
-||720p||720, 1280x720||
-||720i||||
-||1080p bluray rc||||
-||720p bluray rc||||
-||hr||||
-||bdrip||brrip, bluray, blurayrip||
-||dvdrip||dvd||
-||web-dl||webdl, web dl||
-||576p||||
-||480p 10bit||||
-||480p||480||
-||368p||368||
-||360p||||
-||hdtv||||
-||dvdrip !r5||||
-||bdscr||||
-||dvdscr||||
-||sdtv||pdtv, dvb, tvrip, ppvrip||
-||dsr||dsrip, webrip||
-||!r5||||
-||tc||||
-||preair||||
-||cam||||
-||workprint||||
+== Requirements ==
+In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
 
-=== Notes ===
+'''Ranges:'''
+To specify a range in a given category, write the lower and upper bound, with a dash in between. Note that a range must be between two items of the same category (in the same column above.) Examples:
+{{{
+720p-1080p
+hdtv-bluray
+}}}
 
- * `720p` should not be used in movie context since all movies are usually `720p bluray` or `720p bluray rc`.
+'''Open ended range:'''
+If you would just like to specify a lower bound on the category, you can follow it with a plus. Examples:
+{{{
+480p+
+tvrip+
+}}}
+If you would like to place just an upper bound, this is also possible with the <= symbol.
+{{{
+<=720p
+<=bluray
+}}}
+
+'''Discrete values:'''
+If you would like to specify one value, multiple acceptable values for a category, but nothing inbetween them, you can use a pipe to join them. Examples:
+{{{
+720p
+sdtv|hdtv
+dd5.1|dts|aac
+}}}
+
+'''Disallowing values:'''
+If you just want to block certain values from being acceptable, you can prefix them with an exclamation mark. Examples:
+{{{
+!dts
+!cam
+!10bit
+}}}
