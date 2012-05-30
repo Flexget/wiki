@@ -17,9 +17,7 @@ flexget --movie-queue (add|del|forget|list|downloaded|clear) [NAME|imdb_id=IMDB_
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
 
-See [wiki:Qualities qualities] for valid quality list.
-
-Quality matches are no longer exact. There is "better than the quality specified" logic now added. Qualities above are from best to worst.
+See [wiki:Qualities qualities] for valid quality requirements.
 
 If force flag is given (values: yes|no) it will cause movie to be marked as immortal and forced trough other possible filters.
 
