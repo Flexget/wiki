@@ -1,26 +1,21 @@
 == Quality ==
 
 ||'''Name'''||'''Description'''||
-||quality||Accept only given quality. No other quality will be accepted.||
-||min_quality||Accept only qualities equal or above this||
-||max_quality||Accept only qualities equal or below this||
+||quality||Accept only qualities that match this quality requirement. No other quality will be accepted.||
 ||qualities||Accept all given qualities, multiple downloads||
 
-Possible values for quality can be found [wiki:Qualities here.]
+Values should all be specified as a valid [wiki:Qualities#Requirements quality requirement] string.
 
 '''Example:'''
 
 {{{
 series:
   - name of series 1:
-      quality: 720p
+      quality: 720p+
   - name of series 2:
-      min_quality: hr
-      max_quality: 720p
-  - name of series 3:
       qualities:
-        - pdtv
-        - 720p
+        - pdtv !h264
+        - 720p hdtv|webdl
 }}}
 
 Usually best way to specify quality for series is to use groups:
