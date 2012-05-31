@@ -39,6 +39,8 @@ You can also specify options for items being added to the movie queue. {{{qualit
 
 {{{
 queue_movies:
-  quality: 720p bluray
+  quality: 720p+ bluray
   force: no
 }}}
+
+See [wiki:Qualities qualities] page for valid quality requirements.
