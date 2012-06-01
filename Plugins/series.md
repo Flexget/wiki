@@ -11,6 +11,7 @@ Intelligent filter for TV-series.
  * [wiki:Plugins/series/propers Proper & Repack] aware
  * Specials aware (grabs episodes with the series title and the word 'special')
  * Tries to ignore season packs, you can use [wiki:Plugins/content_size content_size] for extra insurance against them.
+ * Supports double episodes. i.e. S01E01-E02
 
 '''Simple configuration:'''
 
