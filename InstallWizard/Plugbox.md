@@ -12,7 +12,9 @@ easy_install-2.7 pip
 pip install flexget
 }}}
 
-And to verify installation:
+'''Note:''' There will be some GCC compiler complaints about optional speedups. Ignore these, those will fall back to pure python.
+
+To verify installation:
 
 {{{
 flexget -V
