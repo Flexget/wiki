@@ -86,7 +86,7 @@ If you would like to place just an upper bound, this is also possible with the <
 }}}
 
 '''Discrete values:'''
-If you would like to specify one value, multiple acceptable values for a category, but nothing inbetween them, you can use a pipe to join them. Examples:
+If you would like to specify one value, multiple acceptable values for a category, but nothing inbetween them, you can use a pipe to join them. The pipe essentially means 'or'. Examples:
 {{{
 720p
 sdtv|hdtv
