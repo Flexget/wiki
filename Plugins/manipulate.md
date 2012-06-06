@@ -16,6 +16,7 @@ manipulate:
       [replace]:
         regexp: <regexp>
         format: <regexp>
+      [remove]: <boolean>
 }}}
 
 Valid values for event are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
@@ -86,6 +87,16 @@ manipulate:
       replace:            
         regexp: '(.*)/(.*)/(.*)'
         format: '\2.\1.\3'
+}}}
+
+=== Example 5 ===
+
+The series plugin operates on both the title and description fields. If you want to exclude the description field, you can simply remove it:
+
+{{{
+manipulate:
+  - description:
+      remove: yes
 }}}
 
 === Footnotes ===
