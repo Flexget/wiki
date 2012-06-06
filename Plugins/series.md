@@ -44,7 +44,10 @@ These plugins are complementary to the series plugin.
 
 == Settings ==
 
-The series plugin supports a number of settings to customize it's behavior.
+The series plugin supports a number of settings to customize it's behavior. Though the examples show the settings being applied to a single series, they can all be applied to a group of series as well.
+
+[wiki:Plugins/series/per_series_settings How to configure settings per series][[BR]]
+[wiki:Plugins/series/per_group_settings How to configure settings with groups]
 
 ||'''Option'''||'''Description'''||
 ||[wiki:Plugins/series/quality quality]||Required quality.||
@@ -64,10 +67,6 @@ The series plugin supports a number of settings to customize it's behavior.
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
 
-All settings can be applied in either of the formats.
-
-[wiki:Plugins/series/per_series_settings How to configure settings per series][[BR]]
-[wiki:Plugins/series/per_group_settings How to configure settings with groups]
 
 == Notes ==
 
