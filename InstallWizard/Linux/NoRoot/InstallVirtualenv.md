@@ -19,6 +19,7 @@ You can't install the package with the included `setup.py`, but you can still us
 {{{
 python virtualenv.py ~/flexget/
 }}}
+'''Note:''' if you plan to use the [wiki:Plugins/deluge deluge] plugin, you need to build your virtualenv with the --system-site-packages option: {{{python virtualenv.py --system-site-packages ~/flexget/}}}
 
 Now you have created isolated python environment (virtualenv).
 
