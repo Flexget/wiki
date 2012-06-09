@@ -10,7 +10,7 @@ Virtual env is isolated Python environment. Libraries and applications inside it
 virtualenv ~/flexget/
 }}}
 
-'''Note:''' if you plan to use deluge, you need to build your virtualenv with the --system-site-packages option: {{{virtualenv --system-site-packages ~/flexget/}}}
+'''Note:''' if you plan to use the [wiki:Plugins/deluge deluge] plugin, you need to build your virtualenv with the --system-site-packages option: {{{virtualenv --system-site-packages ~/flexget/}}}
 
 [[Include(wiki:InstallWizard/Partial/InstallVirtualenv)]]
 
