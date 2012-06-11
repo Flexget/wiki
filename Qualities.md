@@ -112,3 +112,4 @@ hdtv
 "!h264 !dts"
 "<=720p"
 }}}
+'''NOTE:''' Requirement strings that begin with a symbol need to be quoted, as in the above examples.
