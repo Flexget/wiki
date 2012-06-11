@@ -32,11 +32,13 @@ feeds:
       regexp: '.*\.(avi|mkv)$'
     disable_builtins: [seen]
     preset: tv-series
-    # NOTE: You must set the parse_only option for all of the series groups you have configured in your preset
+    # NOTE: You must set the parse_only option for all of the series groups you have configured in your preset.
+    # This option prevents the series plugin from accepting or rejecting anything in this feed.
     series:
       settings:
         agroup:
           parse_only: yes
+    # With the require_field and accept_all plugins, we accept anything that the series plugin has successfully parsed.
     require_field: series_name
     accept_all: yes
     move:
