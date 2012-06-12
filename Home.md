@@ -8,7 +8,7 @@
 
 {{{
 #!html
-<h1 style="text-align: left; color: #000">Join #FlexGet @ Freenode - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
+<h1 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> - Discussion and support. Spread the FlexGet <font style="color: red">&hearts;</font></h1>
 }}}
 
 [[Include(http://download.flexget.com/ui/version.php)]]
