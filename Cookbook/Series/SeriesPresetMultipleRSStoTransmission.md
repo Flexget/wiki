@@ -51,7 +51,7 @@ presets:
         tv:
           exact: yes
           propers: 3 days
-          min_quality: 720p
+          quality: 720p+
           set:
             path: /mnt/data/Series/{{series_name}}
       tv:
