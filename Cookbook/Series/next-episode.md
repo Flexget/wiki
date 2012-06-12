@@ -19,9 +19,8 @@ presets:
       - /home/public/TV/
     import_series:
       settings:
-        min_quality: hdtv
-        max_quality: 720p web-dl
-        quality: 720p
+        quality: webdl|hdtv <=720p
+        enough: 720p
         timeframe: 36 hours
         set:
           path: /home/public/TV/{{series_name}}/Season {{"%02d"|format(series_season)}}
