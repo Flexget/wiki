@@ -69,8 +69,8 @@ presets:
       - Warehouse 13
     # configuration of quality parameters
     # -> I don't need the 720p files > 1 GB in size
-    # -> so I defined HDTV as my preferred quality
-    quality: hdtv
+    # -> so I defined HDTV <720p as my preferred quality
+    quality: hdtv <720p
 }}}
 
 '''config.yml''' - feeds section:
