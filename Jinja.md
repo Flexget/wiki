@@ -29,7 +29,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
  pathname:: Base name of a path, without its extension.
  pathext:: Extension of a path (including the '.').
  pathdir:: Directory containing the given path.
- pathscrub(ascii=False, windows=<currentos>):: Replace problematic characters in a path. {{{windows}}} can be forced to True to replace invalid characters in Windows paths. \\ '''NOTE:''' This should rarely be needed due to the builtin [wiki:Plugins/pathscrub pathscrub] plugin.
+ pathscrub(os):: Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [wiki:Plugins/pathscrub pathscrub] plugin will be used.\\ '''NOTE:''' This should rarely be needed due to the builtin [wiki:Plugins/pathscrub pathscrub] plugin.
  re_replace(pattern, replacement):: Do regexp substitution on the string.
  formatdate(format):: Do string formatting on datetime objects according to [http://docs.python.org/library/datetime.html#strftime-strptime-behavior strftime] {{{format}}} string.
 
