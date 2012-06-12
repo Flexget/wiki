@@ -6,7 +6,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 {{{#!comment
-=== 12.6.2012 rXXXX (not implemented yet) ===
+=== 12.6.2012 r2943 ===
 By default the [wiki:Plugins/rss rss] plugin will no longer produce the same entries more than once. If you want all of the entries to be produced every run, you can use the {{{all_entries: yes}}} option. This option also replaces the old {{{etag}}} option, so {{{etag: no}}} will need to be changed to {{{all_entries: yes}}} in your config.
 
 The [wiki:Jinja#Jinja2Filters pathscrub jinja filter] has been refactored to use the [wiki:Plugins/pathscrub pathscrub] plugin. You os setting with the pathscrub plugin will be respected when you use the pathscrub jinja filter, and the parameters to the jinja filter have been changed so that you can override the os.
