@@ -59,7 +59,6 @@ feeds:
           custom: tvshows
           strip_dates: yes
       settings:
-        max_quality: 720p
-        min_quality: HDTV
+        quality: hdtv <=720p
         propers: no
 }}}
