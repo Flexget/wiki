@@ -21,8 +21,6 @@ Behind the scenes, all_series just configures the [wiki:Plugins/series series] p
 {{{
 all_series:
   path: /media/TV
-  min_quality: hdtv
-  max_quality: 720p
+  quality: 720p hdtv
   propers: no
 }}}
-
