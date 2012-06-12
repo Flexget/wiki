@@ -33,6 +33,16 @@ rss:
 
 There are more advanced options that can be used with the rss plugin if you need them.
 
+=== All Entries ===
+By default this plugin only outputs each entry from the rss one time. If you need all entries from the feed to be created every run, use the {{{all_entries}}} configuration option.
+
+'''Note:''' Due to this behavior, the [wiki:Plugins/only_new only_new] plugin is not needed along with this input, and in fact should not be used, as it is less efficient.
+{{{
+rss:
+  url: http://example.com
+  all_entries: yes
+}}}
+
 === Link field ===
 Incase RSS-feed uses some nonstandard field for {{{link}}} urls (ie. guid) you can
 configure module to use url from any feedparser entry attribute.
