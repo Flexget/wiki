@@ -63,13 +63,13 @@ Example with set:
 series:
   settings:
     720p:
-      quality: 720p
+      quality: 720p hdtv|webdl
       set:
         path: /media/diska/incomplete/
         movedone: "/media/diska/TV/{{series_name}}/"
         label: 720p
     hdtv:
-      quality: hdtv
+      quality: hdtv <720p
       set:
         path: /media/diskb/incomplete/
         movedone: "/media/diskb/TV/{{series_name}}/Season {{series_season}}/"
