@@ -17,8 +17,7 @@ Behind the scenes, series_premieres just configures the [wiki:Plugins/series ser
 {{{
 series_premiere:
   path: /media/TV/Premieres
-  min_quality: hdtv
-  max_quality: 720p
+  quality: hdtv <=720p
   propers: no
 }}}
 
