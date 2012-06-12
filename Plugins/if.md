@@ -53,12 +53,10 @@ Here is how might use a few plugins together to require that newer movies have a
 {{{
 imdb_lookup: yes
 seen_movies: strict
-quality:
-  min: dvdrip
+quality: dvdrip+
 if:
   - imdb_year > now.year - 2:
-      quality:
-        min: 720p
+      quality: dvdrip+ 720p+
 }}}
 
 === Set field values ===
