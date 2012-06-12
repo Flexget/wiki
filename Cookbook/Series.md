@@ -13,7 +13,6 @@
 * [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]
 * [wiki:Cookbook/Series/DelugeThetvdbSeries Advanced deluge/thetvdb config showing many features]
 * [wiki:Cookbook/Series/AdvancedTransmissionAndDownloadManagement Download series with transmission (advanced)]
-* [wiki:Cookbook/Series/TimeframeWithMinMaxQuality Timeframe with min and max qualities]
 * [wiki:Cookbook/Series/PremieresGenres Get series premieres with genre filtering]
 * [wiki:Cookbook/Urlrewrite/nzbclub Fix the nzbclub feed to get series]
 * [wiki:Cookbook/Movies/TraktUpload Upload movie/tv collection to trakt.tv]
