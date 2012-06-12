@@ -1,9 +1,9 @@
 == Complete user configurations ==
 
-These are the complete configurations of actual end users. Feel free to add your own so others may learn from it.
+These are the complete configurations of actual end users. Feel free to add your own so others may learn from it. Some of them are horribly complex, if you're new user do not tempt to conjure such feats at start. In fact, always try to make simplest and cleanest possible configuration.
 
- [https://github.com/atlanta800/dotfiles/tree/master/flexget atlanta800] (now on github, old page [wiki:Cookbook/Users/Atlanta800 here])::
- [wiki:Cookbook/Users/hyper_ch hyper_ch]::
- [wiki:Cookbook/Users/foulou foulou]::
- [https://github.com/gray/dotfiles/blob/master/.flexget/config.yml gray]::
- [wiki:Cookbook/Users/adrellias adrellias]::
+* [https://github.com/atlanta800/dotfiles/tree/master/flexget atlanta800] (now on github, old page [wiki:Cookbook/Users/Atlanta800 here])
+* [wiki:Cookbook/Users/hyper_ch hyper_ch]
+* [wiki:Cookbook/Users/foulou foulou]
+* [https://github.com/gray/dotfiles/blob/master/.flexget/config.yml gray]
+* [wiki:Cookbook/Users/adrellias adrellias]
