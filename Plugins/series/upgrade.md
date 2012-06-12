@@ -10,5 +10,5 @@ series:
       upgrade: yes
       qualities:
         - hdtv
-        - 720p
+        - hdtv 720p
 }}}
