@@ -1,6 +1,6 @@
 = TheTVDB Lookup =
 
-This plugin looks up more information from thetvdb.com about any entries that !FlexGet has identified as series. (with a season and episode number) thetvdb_lookup will populate several more entry fields that can be used in other plugins.
+This plugin looks up more information from thetvdb.com about any entries that !FlexGet has identified as series. thetvdb_lookup will populate several more entry fields that can be used in other plugins.
 
 ||series_name_tvdb||Series name provided by thetvdb||
 ||series_rating||Series rating||
