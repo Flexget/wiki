@@ -2,6 +2,8 @@
 
 Process only new entries.
 
+'''NOTE:''' This plugin is not needed on feeds just using the rss plugin as input. The rss plugin has (more efficient) built-in functionality that makes this plugin redundant.
+
 All undecided entries are rejected at the end of the feed execution and will be rejected by the remember_rejected plugin on all future executions of the feed.
 
 This should not be needed on most feeds, and may cause problems in instances where processing an entry on the second run is desired (e.g. lookup was not available first run.) It is most helpful in cases where performance is an issue.
