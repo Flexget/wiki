@@ -1,6 +1,6 @@
 = Preset =
 
-Allows defining presets for feeds and re-using them in feeds.
+Allows defining presets for feeds and re-using them in feeds. Note that presets are not executed separately. All included presets will be merged into the feed before it is run.
 
 {{{
 presets:
