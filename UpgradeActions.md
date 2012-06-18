@@ -28,6 +28,8 @@ series:
       timeframe: 6 hours
       min_quality: hdtv
       max_quality: 720p
+    groupb:
+      quality: hdtv
 }}}
 New way:
 {{{
@@ -37,6 +39,9 @@ series:
       enough: 720p
       timeframe: 6 hours
       quality: hdtv+ <=720p
+    groupb:
+      # Since source and resolution are different categories now, you need to define that you don't want 720p and above in order to approximate old 'hdtv' quality.
+      quality: hdtv <720p 
 }}}
 
 ''' [wiki:Plugins/quality Quality] Plugin Changes '''
