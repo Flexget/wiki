@@ -29,6 +29,10 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 ||ep_rating||Episode rating||
 ||ep_guest_stars||Episode guest stars||
 ||ep_image_url||Episode image url||
+||tvdb_season||Season number of this episode.||
+||tvdb_episode||Episode number.||
+||tvdb_ep_id||Season and episode in SxxEyy format.||
+||tvdb_absolute_number||Absolute number of this episode.||
 
 '''Example:'''
 
