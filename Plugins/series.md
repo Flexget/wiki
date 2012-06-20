@@ -54,7 +54,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/qualities qualities]||Download all listed qualities when they become available.||
 ||[wiki:Plugins/series/upgrade upgrade]||Keeps getting the better qualities as they become available.||
 ||[wiki:Plugins/series/timeframe timeframe]||Wait given amount of time for specified quality to become available, after that fall back to best so far.||
-||[wiki:Plugins/series/timeframe enough]||An acceptable quality that should be downloaded without waiting for {{{timeframe}}} to complete.||
+||[wiki:Plugins/series/timeframe target]||The target quality that should be downloaded without waiting for {{{timeframe}}} to complete.||
 ||[wiki:Plugins/series/path path]||Set ''path'' field for this series.||
 ||[wiki:Plugins/series/set set]||Use [wiki:Plugins/set set] plugin to set any fields for this series.||
 ||[wiki:Plugins/series/exact exact]||Configure exact matching behavior. Needed for series which have similar named series. Uses 'auto' mode as default.||
