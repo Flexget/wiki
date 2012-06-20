@@ -20,7 +20,7 @@ presets:
     import_series:
       settings:
         quality: webdl|hdtv <=720p
-        enough: 720p
+        target: 720p
         timeframe: 36 hours
         set:
           path: /home/public/TV/{{series_name}}/Season {{"%02d"|format(series_season)}}
