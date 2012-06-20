@@ -16,7 +16,7 @@ The [wiki:Jinja#Jinja2Filters pathscrub jinja filter] has been refactored to use
 
 ''' [wiki:Plugins/series Series] Plugin Changes '''
 
-The {{{min_quality}}} and {{{max_qaulity}}} options have been removed. These are replaced by the normal {{{quality}}} option, as it now supports ranges directly. The other major change is to the {{{timeframe}}} feature. Instead of defining your desired quality with the {{{quality}}} option, you define it in the new option {{{enough}}}. Your {{{quality}}} setting will continue to be respected, even after the timeframe has expired.
+The {{{min_quality}}} and {{{max_qaulity}}} options have been removed. These are replaced by the normal {{{quality}}} option, as it now supports ranges directly. The other major change is to the {{{timeframe}}} feature. Instead of defining your desired quality with the {{{quality}}} option, you define it in the new option {{{target}}}. Your {{{quality}}} setting will continue to be respected, even after the timeframe has expired.
 
 Here is an example config change that would be required.
 Old way:
@@ -36,7 +36,7 @@ New way:
 series:
   settings:
     groupa:
-      enough: 720p
+      target: 720p
       timeframe: 6 hours
       quality: hdtv+ <=720p
     groupb:
