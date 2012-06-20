@@ -8,7 +8,7 @@ Alternatively you can use [wiki:Plugins/--inject inject] plugin to add some epis
 flexget --inject "Pioneer.One.S01E03.Imaginary.720p" --feed <some series feed> --learn
 }}}
 
-This has the advantage of not cluttering your configuration file.
+This has the advantage of not cluttering your configuration file and it works with [wiki:Plugins/all_series all_series] and other solutions that do not list series in the configuration file.
 
 === Example ===
 
