@@ -37,6 +37,6 @@ import_series:
       account_id: 320D93B3A1
   settings:
     timeframe: 12 hours
-    enough: 720p
+    target: 720p
     propers: 3 days
 }}}
