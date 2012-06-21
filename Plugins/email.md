@@ -97,6 +97,12 @@ Gmail example:
     smtp_tls: yes
 }}}
 
+== Built-In Templates ==
+
+There are two templates that come built in.
+ default:: This will send emails with a list of accepted entries, and/or a list of failed entries. (this template is used automatically if you do not specify one.)
+ failed:: This will only send emails when there are entries that have failed.
+
 == Custom Templates ==
 
 You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [http://flexget.com/browser/trunk/flexget/templates/email/default.template default template] for an example.
