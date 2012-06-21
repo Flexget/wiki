@@ -14,7 +14,7 @@ Results are cached so this doesn't cause unnecessary load to [http://www.rottent
 === Example ===
 
 {{{
-rotten_tomatoes:
+rottentomatoes:
   min_critics_score: 75
   require_certified_fresh: yes
   reject_mpaa_ratings:
@@ -29,7 +29,7 @@ rotten_tomatoes:
         min_critics_score: <num>
         min_audience_score: <num>
         min_average_score: <num>
-        require_certified_fresh: <num>
+        require_certified_fresh: <yes/no>
         min_year: <num>
         max_year: <num>
 
