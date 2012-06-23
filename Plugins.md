@@ -118,7 +118,7 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
-||[wiki:Plugins/email email]||Send email when new content is passed.||
+||[wiki:Plugins/email email]||'''{{{UPDATED}}}''' Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
