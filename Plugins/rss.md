@@ -20,6 +20,7 @@ rss:
 }}}
 
 === Read from a file ===
+
 You can also use local file instead of url.
 
 ''' Example '''
@@ -69,6 +70,7 @@ rss:
 '''Note:''' This example requires your feed provides the magneturi field, and that you are using an output plugin that can handle magnet uris.
 
 === Title field ===
+
 If you would like to use a different field from the rss as the title of the flexget entry, (or if your feed does not provide titles for the entries,) you can use the {{{title}}} option to specify any feedparser entry attribute.
 
 '''Example'''
@@ -79,6 +81,7 @@ rss:
 }}}
 
 === Silent mode ===
+
 You can disable few possibly annoying warnings by setting {{{silent}}} value to {{{yes}}} on feeds where there are
 frequently invalid items.
 
@@ -91,6 +94,7 @@ rss:
 }}}
 
 === Group Links ===
+
 If the feed has several links by item, you can set the {{{group_links}}} value to {{{yes}}}. This way, only one entry will be generated for the item, with all links attached to it.
 Links are fields given by the {{{link}}} value plus enclosures, in that order.
 
@@ -105,6 +109,7 @@ rss:
 }}}
 
 === Capture other fields ===
+
 If you want to keep information in another rss field attached to the flexget [wiki:Entry entry], you can use the {{{other_fields}}} option.
 
 '''Example'''
@@ -124,13 +129,6 @@ rss:
   ascii: yes
 }}}
 
-=== Private trackers ===
+=== Authentication ===
 
-Some trackers are private and require that you use some form of authentication. One might want to try using the [wiki:Plugins/headers headers] plugin.
-
-{{{
-headers:
-  Cookie: 'uid=XXXXXXXXXXXXXXXX;pass=XXXXXXXXXXXXXXXXXXX'
-rss:
-  url: <url>
-}}}
+Some trackers are private and require that you use some form of authentication, try [wiki:Plugins/headers headers] or  [wiki:Plugins/cookies cookies] plugins.
