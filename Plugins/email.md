@@ -1,21 +1,13 @@
 = Email =
 
-Send an e-mail based on a jinja2 template with feed results.
+The email plugin can be used to notify you of feed results and/or failures. There are two built in templates, or you can make your own template using the Jinja2 templating language.
 
-The default template will list of all succeeded (downloaded) entries and look like this:
+The {{{default}}} template will notify you of all downloaded entries, and of any failed entries or feed aborts. There is also an included {{{failed}}} template to just notify when there are problems with a feed.
 
-{{{
-Subject: [FlexGet] feedname: X new entries downloaded
-Content: 
-FlexGet has just downloaded X new entries for feed feedname:
-- release title (torrent url)
-- release title (torrent url)
-- release title (torrent url)
-- release title (torrent url)
-}}}
+== Config ==
+The email plugin is special, in that it can be configured for a feed directly, or it can be set up at the root of the config, in order to receive one email with the results of all of your feeds. The configuration options for both of these locations are the same:
 
 {{{
-Config:
   from          : the email address from which the email will be sent (required)
   to            : the email address(es) of the recipient(s) (required)
   subject       : the subject for the email (jinja replacement is supported)
@@ -24,12 +16,32 @@ Config:
   smtp_port     : the port of the smtp server
   smtp_username : the username to use to connect to the smtp server
   smtp_password : the password to use to connect to the smtp server
-  smtp_tls      : should we use TLS to connect to the smtp server ?
-  smtp_ssl      : should we use SSL to connect to the smtp server ?
-  active        : is this module active or not ?
+  smtp_tls      : should we use TLS to connect to the smtp server?
+  smtp_ssl      : should we use SSL to connect to the smtp server?
+  active        : should this feed be included in the global email?
+}}}
+'''Default values for the config elements'''
+
+{{{
+  active: True
+  smtp_host: localhost
+  smtp_port: 25
+  smtp_username:
+  smtp_password:
 }}}
 
-Config basic example:
+=== Built-In Templates ===
+
+There are two templates that come built in.
+ default:: This will send emails with a list of accepted entries, and/or a list of failed entries. (this template is used automatically if you do not specify one.)
+ failed:: This will only send emails when there are entries that have failed.
+
+=== Custom Templates ===
+
+You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [http://flexget.com/browser/trunk/flexget/templates/email/default.template default template] for an example.
+
+=== Examples ===
+'''Config basic example'''
 
 {{{
 email:
@@ -38,7 +50,7 @@ email:
   smtp_host: smtp.host.com
 }}}
 
-Config example with smtp login and multiple recipients:
+'''Config example with smtp login and multiple recipients'''
 
 {{{
 email:
@@ -52,41 +64,28 @@ email:
   smtp_password: my_smtp_password
 }}}
 
-Config multi-feed example:
+'''Config multi-feed example using the failed template'''
+A single email will be sent with only the failures from any of the feeds except for feed3, where it is turned off.
 
 {{{
-presets:
-  global:
-    email:
-      from: xxx@xxx.xxx
-      to: xxx@xxx.xxx
-      smtp_host: smtp.host.com
+email:
+  from: xxx@xxx.xxx
+  to: xxx@xxx.xxx
+  smtp_host: smtp.host.com
+  template: failed
 
 feeds:
   feed1:
     rss: http://xxx
   feed2:
     rss: http://yyy
-    email:
-      active: False
   feed3:
     rss: http://zzz
     email:
-      to: zzz@zzz.zzz
+      active: False
 }}}
 
-Default values for the config elements:
-
-{{{
-email:
-  active: True
-  smtp_host: localhost
-  smtp_port: 25
-  smtp_username:
-  smtp_password:
-}}}
-
-Gmail example:
+'''Gmail example'''
 {{{
     from: from@gmail.com
     to: to@gmail.com
@@ -96,13 +95,3 @@ Gmail example:
     smtp_password: gmailPassword
     smtp_tls: yes
 }}}
-
-== Built-In Templates ==
-
-There are two templates that come built in.
- default:: This will send emails with a list of accepted entries, and/or a list of failed entries. (this template is used automatically if you do not specify one.)
- failed:: This will only send emails when there are entries that have failed.
-
-== Custom Templates ==
-
-You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [http://flexget.com/browser/trunk/flexget/templates/email/default.template default template] for an example.
