@@ -7,6 +7,50 @@ This is an example how to use uTorrent with flexget and take advantage of dynami
 Let's start with config:
 
 {{{
+   
+    # Download path defined here can be used later as %(path)s variable
+    set:
+      path: C:\Movies
+
+    ## Output files to utorrent
+    # /DIRECTORY takes to arguments:
+    # 1. Save path (now set as %(path)s
+    # 2. Torrent file path ( set as %(output)s )
+    # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
+    exec:
+      on_output:
+        for_accepted: C:\Progam Files\uTorrent.exe /DIRECTORY "%(path)s" "%(output)s"
+}}}
+
+This should be fine for flexget. Replace folders according to your system. Check your configuration with flexget --check.
+
+== Windows 7, uTorrent and Scheduled Tasks  ==
+
+Running uTorrent in Windows 7 can be done either in normal desktop GUI mode (utorrent.exe process type Console) or uTorrent can be run as a Service (utorrent.exe process type Service) on the background and can be accessed only via WebUI interface. Both ways should work fine.
+
+= Console mode =
+
+1. Create new task at Scheduled Tasks with option "Run only when user is logged on". See attached file.
+2. Add trigger e.g. once every hour
+3. Add action: "c:\path\to\flexget\flexget-headless.exe" and with argument "--cron"
+4. Modify Conditions and Settings anyway you like
+
+This way flexget is run every hour and new torrents are added to existing uTorrent GUI session. Headless version of flexget avoids command prompt pop-up appearing every time flexget is executed. You need to be logged in to Windows.
+
+There is one downside in this method. Utorrent will be brought up every time new torrent is added to utorrent by scheduled flexget tasks. This can't be avoided with /HIDE or /MINIMIZED or Boss key methods. If there's a way to avoid this downside, don't hesitate to update this wiki.
+
+= Service mode =
+
+1. Create new task at Scheduled Tasks with option "Run wheter user is logged on or not"
+2. Add trigger e.g. once every hour
+3. Add action: "c:\path\to\flexget\flexget.exe" and with argument "--cron"
+4. Modify Conditions and Settings anyway you like
+
+This way flexget is run every hour and new torrents are added to existing uTorrent background session. Easy way to create background session is to run newly created Scheduled Task rule manually. Before running, remember to enable WebUI access from uTorrent GUI, otherwise you will lose control to uTorrent.
+
+= Example config =
+
+{{{
 feeds:
   movies:
     rss: http://some.tracker.feed.com
@@ -52,31 +96,3 @@ feeds:
         for_accepted: C:\Progam Files\uTorrent.exe /DIRECTORY "%(path)s" "%(output)s"
     
 }}}
-
-This should be fine for flexget. Replace folders according to your system. Check your configuration with flexget --check.
-
-== Windows 7, uTorrent and Scheduled Tasks  ==
-
-Running uTorrent in Windows 7 can be done either in normal desktop GUI mode (utorrent.exe process type Console) or uTorrent can be run as a Service (utorrent.exe process type Service) on the background and can be accessed only via WebUI interface. Both ways should work fine.
-
-= Console mode =
-
-1. Create new task at Scheduled Tasks with option "Run only when user is logged on". See attached file.
-2. Add trigger e.g. once every hour
-3. Add action: "c:\path\to\flexget\flexget-headless.exe" and with argument "--cron"
-4. Modify Conditions and Settings anyway you like
-
-This way flexget is run every hour and new torrents are added to existing uTorrent GUI session. Headless version of flexget avoids command prompt pop-up appearing every time flexget is executed. You need to be logged in to Windows.
-
-There is one downside in this method. Utorrent will be brought up every time new torrent is added to utorrent by scheduled flexget tasks. This can't be avoided with /HIDE or /MINIMIZED or Boss key methods. If there's a way to avoid this downside, don't hesitate to update this wiki.
-
-= Service mode =
-
-1. Create new task at Scheduled Tasks with option "Run wheter user is logged on or not"
-2. Add trigger e.g. once every hour
-3. Add action: "c:\path\to\flexget\flexget.exe" and with argument "--cron"
-4. Modify Conditions and Settings anyway you like
-
-This way flexget is run every hour and new torrents are added to existing uTorrent background session. Easy way to create background session is to run newly created Scheduled Task rule manually. Before running, remember to enable WebUI access from uTorrent GUI, otherwise you will lose control to uTorrent.
-
-
