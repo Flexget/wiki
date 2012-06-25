@@ -9,6 +9,8 @@ This page contains information about configuration file format changes, as well 
 === 24.6.2012 r2977 ===
 The {{{reject_failed}}} plugin has been refactored into the [wiki:Plugins/retry_failed retry_failed] plugin. If you were changing the retry count, or otherwise using the plugin in your config, you will need to update it. Please read the [wiki:Plugins/retry_failed retry_failed] docs for more info.
 
+Sometimes the upgrade does not delete the old files, if you are getting an error like {{{sqlalchemy.exc.InvalidRequestError: Table 'failed' is already defined for this MetaData instance.}}} You'll have to manually delete the old files. <installdir>/plugins/filter/reject_failed.py and .pyc need to be deleted.
+
 === 12.6.2012 r2943 ===
 By default the [wiki:Plugins/rss rss] plugin will no longer produce the same entries more than once. If you want all of the entries to be produced every run, you can use the {{{all_entries: yes}}} option. This option also replaces the old {{{etag}}} option, so {{{etag: no}}} will need to be changed to {{{all_entries: yes}}} in your config. If you were using the [wiki:Plugins/only_new only_new] plugin to accomplish this before, you should now remove it from the feed, as the rss plugin's built in handling is much more efficient.
 
