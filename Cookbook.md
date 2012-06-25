@@ -21,8 +21,8 @@ You can either [http://flexget.com/register register] or login with username: ''
 == Client guides ==
 
  [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
+ [wiki:Cookbook/uTorrent Brief working example for uTorrent]::
 
 == User configurations ==
 
  [wiki:Cookbook/Users Complete user configurations]::
-
