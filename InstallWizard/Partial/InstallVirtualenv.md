@@ -1,4 +1,4 @@
-=== Install !FlexGet egg in the virtualenv ===
+=== Install !FlexGet in the virtualenv ===
 
 {{{
 cd ~/flexget
