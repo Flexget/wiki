@@ -54,6 +54,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
 ||[wiki:Plugins/pogcal pogcal]||'''{{{NEW}}}''' Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
+||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
