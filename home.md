@@ -13,6 +13,8 @@
 
 [[Include(http://download.flexget.com/ui/version.php)]]
 
+= '''{{{We need a logo, submit your ideas!}}}''' [wiki:LogoContest ->]=
+
 === Important pages ===
 
  * '''[wiki:Install Installation guide]'''
