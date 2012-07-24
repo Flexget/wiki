@@ -15,7 +15,7 @@ Let's start with config:
       ut_path: C:\Movies
 
     ## Output files to utorrent
-    # /DIRECTORY takes to arguments:
+    # /DIRECTORY takes two arguments:
     # 1. Save path (now set as {{ut_path}} )
     # 2. Torrent file path ( set as {{output}} )
     # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
@@ -64,7 +64,7 @@ feeds:
       path: C:\Movies
       overwrite: yes
 
-    ## Output files to utorrent
+    ## Output files two utorrent
     # /DIRECTORY takes to arguments:
     # 1. Save path (now set as {{ut_path}} )
     # 2. Torrent file path ( set as {{output}} )
