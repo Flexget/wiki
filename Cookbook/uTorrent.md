@@ -10,18 +10,16 @@ Let's start with config:
     # You must tell FlexGet to download the torrent file to some directory, so that it can be passed to uTorrent
     download: C:\torrents
 
-    # Download path defined here can be used later as %(path)s variable
+    # Download path defined here can be used later as {{ut_path}} variable
     set:
-      path: C:\Movies
+      ut_path: C:\Movies
 
     ## Output files to utorrent
     # /DIRECTORY takes to arguments:
-    # 1. Save path (now set as %(path)s
-    # 2. Torrent file path ( set as %(output)s )
+    # 1. Save path (now set as {{ut_path}} )
+    # 2. Torrent file path ( set as {{output}} )
     # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
-    exec:
-      on_output:
-        for_accepted: C:\Progam Files\uTorrent.exe /DIRECTORY "%(path)s" "%(output)s"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
 }}}
 
 This should be fine for flexget. Replace folders according to your system. Check your configuration with flexget --check.
@@ -57,9 +55,9 @@ feeds:
   movies:
     rss: http://some.tracker.feed.com
     
-    # Download path defined here can be used later as %(path)s variable
+    # Download path defined here can be used later as {{ut_path}} variable
     set:
-      path: C:\Movies
+      ut_path: C:\Movies
 
     # Download torrents to
     download: 
@@ -68,12 +66,10 @@ feeds:
 
     ## Output files to utorrent
     # /DIRECTORY takes to arguments:
-    # 1. Save path (now set as %(path)s
-    # 2. Torrent file path ( set as %(output)s )
+    # 1. Save path (now set as {{ut_path}} )
+    # 2. Torrent file path ( set as {{output}} )
     # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
-    exec:
-      on_output:
-        for_accepted: C:\Progam Files\uTorrent.exe /DIRECTORY "%(path)s" "%(output)s"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
 
   tv:
     rss: http://some.other.tracker.com
@@ -86,15 +82,14 @@ feeds:
           account_id: <my_account_id>
       settings:
         quality: 720p+
-        path: C:\Series\%(series_name)s\Season %(series_season)d\
+        set:
+          ut_path: C:\Series\{{series_name}}\Season {{series_season}}\
       
     download: 
       path: C:\torrents\
       overwrite: yes
     
     # Output series to uTorrent
-    exec:
-      on_output:
-        for_accepted: C:\Progam Files\uTorrent.exe /DIRECTORY "%(path)s" "%(output)s"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
     
 }}}
