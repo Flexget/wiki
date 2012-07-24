@@ -7,7 +7,9 @@ This is an example how to use uTorrent with flexget and take advantage of dynami
 Let's start with config:
 
 {{{
-   
+    # You must tell FlexGet to download the torrent file to some directory, so that it can be passed to uTorrent
+    download: C:\torrents
+
     # Download path defined here can be used later as %(path)s variable
     set:
       path: C:\Movies
