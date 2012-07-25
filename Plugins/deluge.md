@@ -112,8 +112,6 @@ Together with the movedone command, this means all TV series will be downloaded 
 /home/user/TV/Show Name/Season #/Show Name - S##E## - quality.ext
 }}}
 
-''* This feature requires Deluge 1.2 or newer and !FlexGet r1227 or newer.''
-
 == Windows Users ==
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
