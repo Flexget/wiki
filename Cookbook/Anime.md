@@ -1,33 +1,40 @@
-{{{To the author:}}} Does series plugin not work for you? [wiki:Plugins/series/identified_by Sequence mode] should handle anime fine, (and should be auto-detected even without specifying it.) You can use [wiki:Plugins/series/from_groups from_groups] to specify sub group. [wiki:Plugins/series/quality Quality] option can be used to specify 720p only.
-
 For a long time, I would organize my anime collection as I would acquire it.  Each series would go directly into it's own folder.  And then my HDD died, presumably due to all the stress of constantly serving files.
 
 So now, I have a smaller HDD that I use to simply dump files into.  Once the series is complete, I transfer it all over to storage, which remains blissfully unstressed.  My torrent client is set up to watch the Temp directory where the torrent files are downloaded.  I'm not using Deluge in Windows 7 since I've had it crash on me multiple times.  From R:\Temp, the client saves all of the files into a Videos folder.  Viewing this folder in Windows Explorer works out pretty well, when sorted by timestamp.
 
 {{{
 presets:
-    anime:
+    global:
         download: R:\Temp
+        notifymyandroid:
+            apikey: YOUR_API_KEY_HERE
+    anime:
+        series:
+            - Rinne no Lagrange: {from_group: Commie}
+            - Koi to Senkyo to Chocolate: {from_group: WhyNot}
+            - Natsuyuki Rendezvous: {from_group: Taka, quality: 720p}
+            - Sword Art Online: {from_group: UTWoots}
+            - Accel World: {from_group: UTW}
+            - Space Brothers: {from_group: Commie}
+            - Before Green Gables: {from_group: ray=out}
+            - Hyouka: {from_group: Commie}
+            - Binbougami ga: {from_group: gg}
+            - Eureka Seven AO: {from_group: gg}
+            - Junrui Wa Suitai Shimashita: {from_group: Doki, quality: 720p}
+            - Kokoro Connect: {from_group: Doki-Chihiro}
+            - Tari Tari: {from_group: Doki}
+            - Yuru Yuri S2: {from_group: FFF}
 feeds:
-    Nyaa Torrents:
-        rss: http://www.nyaa.eu/?page=rss&cats=1_37&filter=2
+    Anime:
+        inputs:
+            #- rss: http://tokyotosho.info/rss.php?filter=1
+            - rss: http://www.nyaa.eu/?page=rss&cats=1_37&filter=2
         preset: anime
-        regexp:
-            accept:
-                - '\[Commie\].Rinne.*mkv'
-                - '\[WhyNot\].Koi.to.Senkyo.to.Chocolate.*mkv'
-                - '\[Taka\].Natsuyuki.Rendezvous.*720.*mkv'
-                - '\[UTWoots\].Sword.Art.Online.*mkv'
-                - '\[UTW\].*Accel.*World.*mkv'
-                - '\[Commie\].*Hyouka.*mkv'
-                - '\[gg.*\].*Jormungand.*mkv'
-                - '\[Commie\].*Space.Brothers.*mkv'
-                - '\[ray=out\].*Before.*Green.*Gables.*HD.*mkv'
+
     Doki Anime Index:
         html: 
             url: http://tracker.anime-index.org/index.php?page=torrents&search=doki&category=5&active=1
             title_from: url
-        preset: anime
         regexp:
             accept:
                 - '\[Doki\].*Junrui.Wa.Suitai.Shimashita.*720.*mkv.torrent'
