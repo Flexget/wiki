@@ -29,17 +29,10 @@ feeds:
         inputs:
             #- rss: http://tokyotosho.info/rss.php?filter=1
             - rss: http://www.nyaa.eu/?page=rss&cats=1_37&filter=2
+            - html: 
+                url: http://tracker.anime-index.org/index.php?page=torrents&search=doki&category=5&active=1
+                title_from: url
         preset: anime
-
-    Doki Anime Index:
-        html: 
-            url: http://tracker.anime-index.org/index.php?page=torrents&search=doki&category=5&active=1
-            title_from: url
-        regexp:
-            accept:
-                - '\[Doki\].*Junrui.Wa.Suitai.Shimashita.*720.*mkv.torrent'
-                - '\[Doki-Chihiro\].Kokoro.Connect.*720.*mkv.torrent'
-                - '\[Doki\].Tari.Tari.*720.*mkv.torrent'
 }}}
 
 Since Tokyo Toshokan has been kind of flaky lately, and Doki doesn't show up on Nyaa, I'm using their own tracker.  The tracker doesn't support RSS yet, so I'm ripping the torrent links from it directly.
