@@ -1,4 +1,4 @@
-{{{To the author:}}} Does series plugin not work for you?
+{{{To the author:}}} Does series plugin not work for you? [wiki:Plugins/series/identified_by Sequence mode] should handle anime fine, (and should be auto-detected even without specifying it.) You can use [wiki:Plugins/series/from_groups from_groups] to specify sub group. [wiki:Plugins/series/quality Quality] option can be used to specify 720p only.
 
 For a long time, I would organize my anime collection as I would acquire it.  Each series would go directly into it's own folder.  And then my HDD died, presumably due to all the stress of constantly serving files.
 
