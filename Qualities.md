@@ -114,3 +114,13 @@ hdtv
 "<=720p"
 }}}
 '''NOTE:''' Requirement strings that begin with a symbol need to be quoted, as in the above examples.
+
+=== Common Requirements ===
+
+There has been some confusion as to how to use this new system to specify some common release types, here are some examples.
+
+'''Standard HDTV Release'''
+  If you want to only download 'standard' HDTV releases, you also have to specify a resolution requirement, so that your filter does not include 720p HDTV releases as well: {{{hdtv <720p}}}
+
+'''720p Release'''
+  Just using {{{720p}}} as the requirement will work out well in most cases, but you may also want to also exclude things like preair releases. In this case you can make a minimum source requirement in addition to the resolution requirement: {{{720p hdtv+}}}
