@@ -22,7 +22,6 @@ Here is an example of usage in a more comprehensive context
 feeds:
   move-episodes:
     metainfo_series: yes 
-    thetvdb_lookup: yes 
     accept_all: yes 
     find:
       path: /filestorage1/
