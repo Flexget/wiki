@@ -7,7 +7,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
 === 3.8.2012 r3061 ===
-{{{feeds}}} have now been renamed to {{{tasks}}} you need to update your config to use the new term. Also, if you have any custom templates that used feed properties, you'll need to update them as well. If you notice any problems related to this refactoring, please submit a bug ticket.
+{{{feeds}}} have now been renamed to {{{tasks}}}. You need to update your config to use the new term. Also, if you have any custom templates that used feed properties, you'll need to update them as well. If you notice any problems related to this refactoring, please submit a bug ticket.
 
 If past problems are any indication, some users may also need to delete feed.py and .pyc from their install directory manually.
 
