@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 3.8.2012 r3061 ===
+{{{feeds}}} have now been renamed to {{{tasks}}} you need to update your config to use the new term. Also, if you have any custom templates that used feed properties, you'll need to update them as well. If you notice any problems related to this refactoring, please submit a bug ticket.
+
 === 24.6.2012 r2977 ===
 The {{{reject_failed}}} plugin has been refactored into the [wiki:Plugins/retry_failed retry_failed] plugin. If you were changing the retry count, or otherwise using the plugin in your config, you will need to update it. Please read the [wiki:Plugins/retry_failed retry_failed] docs for more info.
 
