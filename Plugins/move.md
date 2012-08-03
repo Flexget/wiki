@@ -15,3 +15,21 @@ move:
 [] = optional
 
 Entry field "to" can be used to override given path.
+
+Here is an example of usage in a more comprehensive context
+
+{{{
+feeds:
+  move-episodes:
+    metainfo_series: yes 
+    thetvdb_lookup: yes 
+    accept_all: yes 
+    find:
+      path: /filestorage1/
+      recursive: yes 
+    move:
+      to: "/filestorage2/{{series_name}}/"
+      filename: '{{ series_name }} - {{ series_id }}{{title | pathext}}'
+}}}
+
+It is important to note that the files are moved as single files and no checks are made if multiple files match the same name. The files already present in the directory (even if moved during the same pass) are overwritten.
