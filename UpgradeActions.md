@@ -11,6 +11,10 @@ This page contains information about configuration file format changes, as well 
 
 If past problems are any indication, some users may also need to delete feed.py and .pyc from their install directory manually.
 
+=== 10.7.2012 r3021 ===
+
+Svn & git users need to install argparse manually, either rerun {{{bootstrap.py}}} or simply run {{{bin/pip install argparse}}} on checkout dir.
+
 === 24.6.2012 r2977 ===
 The {{{reject_failed}}} plugin has been refactored into the [wiki:Plugins/retry_failed retry_failed] plugin. If you were changing the retry count, or otherwise using the plugin in your config, you will need to update it. Please read the [wiki:Plugins/retry_failed retry_failed] docs for more info.
 
