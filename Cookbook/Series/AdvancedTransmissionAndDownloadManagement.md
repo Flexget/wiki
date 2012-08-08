@@ -165,7 +165,7 @@ feeds:
     # Please note: you must connect to the remote host without a password!
     #              use a public key instead!
     set:
-      path: /share/media.video/TV-Series/{{series_name}}/Season {{"%02d"|format(series_season)}}
+      path: /share/media.video/TV-Series/{{series_name}}/Season {{series_season|pad(2)}}
     adv_exec:
       on_output:
         for_rejected: ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"'
@@ -206,7 +206,7 @@ feeds:
     adv_exec:
       on_output:
         for_entries:  mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"
-        for_rejected: mkdir -p "{{path}}" && mv "{{location}}" "{{path)}}"
+        for_rejected: mkdir -p "{{path}}" && mv "{{location}}" "{{path}}"
     # please send no email with the result so deactivate this function from the preset
     email:
       active: False
