@@ -7,6 +7,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
 === 3.8.2012 r3061 ===
+
 {{{feeds}}} have now been renamed to {{{tasks}}}. You need to update your config to use the new term. Also, if you have any custom templates that used feed properties, you'll need to update them as well. If you notice any problems related to this refactoring, please submit a bug ticket.
 
 If past problems are any indication, some users may also need to delete feed.py and .pyc from their install directory manually.
@@ -16,9 +17,10 @@ If past problems are any indication, some users may also need to delete feed.py 
 Svn & git users need to install argparse manually, either rerun {{{bootstrap.py}}} or simply run {{{bin/pip install argparse}}} on checkout dir.
 
 === 24.6.2012 r2977 ===
+
 The {{{reject_failed}}} plugin has been refactored into the [wiki:Plugins/retry_failed retry_failed] plugin. If you were changing the retry count, or otherwise using the plugin in your config, you will need to update it. Please read the [wiki:Plugins/retry_failed retry_failed] docs for more info.
 
-Sometimes the upgrade does not delete the old files, if you are getting an error like {{{sqlalchemy.exc.InvalidRequestError: Table 'failed' is already defined for this MetaData instance.}}} You'll have to manually delete the old files. <installdir>/plugins/filter/reject_failed.py and .pyc need to be deleted.
+Sometimes the upgrade does not delete the old files, if you are getting an error like {{{sqlalchemy.exc.InvalidRequestError: Table 'failed' is already defined for this MetaData instance}}} or {{{Two different schema versions recieved for plugin failed}}}. You'll have to manually delete the old files. <installdir>/plugins/filter/reject_failed.py and .pyc need to be deleted.
 
 === 12.6.2012 r2943 ===
 By default the [wiki:Plugins/rss rss] plugin will no longer produce the same entries more than once. If you want all of the entries to be produced every run, you can use the {{{all_entries: yes}}} option. This option also replaces the old {{{etag}}} option, so {{{etag: no}}} will need to be changed to {{{all_entries: yes}}} in your config. If you were using the [wiki:Plugins/only_new only_new] plugin to accomplish this before, you should now remove it from the feed, as the rss plugin's built in handling is much more efficient.
