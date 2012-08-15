@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 14.8.2012 r3078 ===
+!BeautifulSoup 4 is now needed as well as BS3. If you are on svn or virtualenv install, you will need to install it: {{{bin/pip install beautifulsoup4}}} (easy_install/pip users don't need to do anything special)
+
 === 3.8.2012 r3061 ===
 
 {{{feeds}}} have now been renamed to {{{tasks}}}. You need to update your config to use the new term. Also, if you have any custom templates that used feed properties, you'll need to update them as well. If you notice any problems related to this refactoring, please submit a bug ticket.
