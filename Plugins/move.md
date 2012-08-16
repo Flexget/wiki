@@ -19,7 +19,7 @@ Entry field "to" can be used to override given path.
 Here is an example of usage in a more comprehensive context
 
 {{{
-feeds:
+tasks:
   move-episodes:
     metainfo_series: yes 
     accept_all: yes 
