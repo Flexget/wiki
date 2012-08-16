@@ -1,8 +1,8 @@
 = Seen =
 
-Remembers downloaded entries across all feeds and rejects them on subsequent executions.
+Remembers downloaded entries across all tasks and rejects them on subsequent executions.
 
-This plugin is enabled on all feeds by default. See plugin [wiki:Plugins/disable_builtins disable_builtins] for information how to disable builtin plugins. Note that disabling this will (likely) cause !FlexGet to download all matches on every execution!
+This plugin is enabled on all tasks by default. See plugin [wiki:Plugins/disable_builtins disable_builtins] for information how to disable builtin plugins. Note that disabling this will (likely) cause !FlexGet to download all matches on every execution!
 
 == Commanline options ==
 
@@ -10,7 +10,7 @@ Plugin has few command line options starting from bleeding edge / 1.0
 
 === --forget ===
 
-Option {{{--forget <feed>}}} can be used to forget everything seen from a specific feed. (#301)
+Option {{{--forget <task>}}} can be used to forget everything seen from a specific task. (#301)
 
 Option {{{--forget <value>}}} which can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again.
 
@@ -27,7 +27,7 @@ This is especially useful when you have downloaded something manually outside !F
 }}}
 
 
-With feeds using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb id to mark any movie as already seen!
+With tasks using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb id to mark any movie as already seen!
 
 {{{
 --seen tt0119698
