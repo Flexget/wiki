@@ -21,7 +21,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||path||multiple plugins||Path where this entry content should be saved||
 ||description||[wiki:Plugins/rss rss]||Item description||
 ||rss_pubdate||[wiki:Plugins/rss rss]||Date the RSS item was published||
-||feed||metainfo_feed||Feed name which this entry belongs to||
+||task||metainfo_task||Task name which this entry belongs to||
 ||quality||metainfo_quality, [wiki:Plugins/series series]||Detected quality, ie. `720p`||
 ||series_name||[wiki:Plugins/series series], metainfo_series||Series name||
 ||series_season||[wiki:Plugins/series series], metainfo_series||Series season||
