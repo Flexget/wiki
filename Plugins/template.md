@@ -1,6 +1,6 @@
 = Preset =
 
-Allows defining presets for feeds and re-using them in feeds. Note that presets are not executed separately. All included presets will be merged into the feed before it is run.
+Allows defining presets configs for plugins and re-using them in multiple tasks. Note that presets are not executed separately. All included presets will be merged into the task before it is run.
 
 {{{
 presets:
@@ -17,16 +17,16 @@ presets:
       min_votes: 5000
     download: ~/download/movies/
 
-feeds:
-  some_feed:
+tasks:
+  some_task:
     rss: http://example.com
     preset: tv
 
-  another_feed:
+  another_task:
     rss: http://example2.com
     preset: movies
 
-  third_feed:
+  third_task:
     rss: http://example3.com
     preset: 
       - tv
@@ -34,9 +34,9 @@ feeds:
 
 }}}
 
-== Execute feeds with a given preset ==
+== Execute tasks with a given preset ==
 
-To execute all feeds that have certain preset you can use `--preset NAME`
+To execute all tasks that have certain preset you can use `--preset NAME`
 
 '''Examples:'''
 
@@ -50,7 +50,7 @@ To execute all feeds that have certain preset you can use `--preset NAME`
 
 == Merging limitations ==
 
-In case you're using multiple presets in a feed and more than one preset has same plugin, they must be
+In case you're using multiple presets in a task and more than one preset has same plugin, they must be
 configured in same format for merge to be possible.
 
 '''Incompatible:'''
@@ -111,26 +111,26 @@ series:
     - bar
 }}}
 
-Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within feed & preset. Include accepts list format for files so that can be used instead. 
+Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within task & preset. Include accepts list format for files so that can be used instead. 
 
 == Global preset ==
 
-Allow specifying plugins for every feed without being explicitly told so. Avoid using this since it WILL shoot you in the feet at some point if you're not careful.
+Allow specifying plugins for every task without being explicitly told so. Avoid using this since it WILL shoot you in the feet at some point if you're not careful.
 
 {{{
 presets:
   global:
     download: ~/torrents/
-feeds:
-  feed-a:
+tasks:
+  task-a:
     rss: ...
-  feed-b:
+  task-b:
     rss: ...
 }}}
 
-Both feeds feed-a and feed-b use automatically global preset.
+Both tasks task-a and task-b use automatically global preset.
 
-The global preset can be disabled on a specific feed by including the special preset {{{no_global}}} i.e.
+The global preset can be disabled on a specific task by including the special preset {{{no_global}}} i.e.
 
 {{{
 preset: no_global
