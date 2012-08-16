@@ -3,14 +3,14 @@ Accepts any entry that appears to be the first episode of a series.''*''
 
 '''Examples:'''
 
-Turns on the plugin for a feed.
+Turns on the plugin for a task.
 {{{
 series_premiere: yes
 }}}
 
 == Series Settings ==
 
-Behind the scenes, series_premieres just configures the [wiki:Plugins/series series] plugin with all the premieres it sees in the feed.''*'' You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin for series_premire.
+Behind the scenes, series_premieres just configures the [wiki:Plugins/series series] plugin with all the premieres it sees in the task.''*'' You can use any of the [wiki:Plugins/series#Settings settings] of the series plugin for series_premire.
 
 ''' Example '''
 
