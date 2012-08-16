@@ -20,7 +20,7 @@ timeframe:
 }}}
 'target' is a bit awkward wording in this situation though...
 
-Behind the scenes, timeframe plugin would record the first time an accepted item comes through the feed with a given content_id. Before 'wait' time had expired, it would let the 'target' filter plugin do its rejection on those items. (and store them to backlog if rejected) After 'wait' time expires, it would simply stop running the 'target' filter plugin.
+Behind the scenes, timeframe plugin would record the first time an item comes through the feed with a given content_id. Before 'wait' time had expired, it would let the 'target' filter plugin do its rejection on those items. (and store them to backlog if rejected) After 'wait' time expires, it would simply stop running the 'target' filter plugin.
 
 You could even set up multiple level timeframe with this system:
 {{{
@@ -33,3 +33,5 @@ timeframe:
   wait: 2 days
 }}}
 Meaning, only accept 1080ps on the first day, accept 720ps on the second day, and anything after that.
+
+A potential issue: content_id would need to be tagged before timeframe plugin runs, but actual plugin that accepts based on that id will need to be run after, so that it can pick from remaining items that pass the current timeframe filter. This should probably not be a problem, content_id will just have to be tagged on metainfo phase.
