@@ -2,11 +2,11 @@
 
 Process only new entries.
 
-'''NOTE:''' This plugin is not needed on feeds just using the rss plugin as input. The rss plugin has (more efficient) built-in functionality that makes this plugin redundant.
+'''NOTE:''' This plugin is not needed on tasks just using the rss plugin as input. The rss plugin has (more efficient) built-in functionality that makes this plugin redundant.
 
-All undecided entries are rejected at the end of the feed execution and will be rejected by the remember_rejected plugin on all future executions of the feed.
+All undecided entries are rejected at the end of the task execution and will be rejected by the remember_rejected plugin on all future executions of the task.
 
-This should not be needed on most feeds, and may cause problems in instances where processing an entry on the second run is desired (e.g. lookup was not available first run.) It is most helpful in cases where performance is an issue.
+This should not be needed on most tasks, and may cause problems in instances where processing an entry on the second run is desired (e.g. lookup was not available first run.) It is most helpful in cases where performance is an issue.
 
 '''Example:'''
 
@@ -14,4 +14,4 @@ This should not be needed on most feeds, and may cause problems in instances whe
 only_new: yes
 }}}
 
-You can allow old entries to be processed again by using the {{{--forget-rejected}}} option. In addition, rejections will be automatically forgotten if the configuration for the feed has changed since the last run.
+You can allow old entries to be processed again by using the {{{--forget-rejected}}} option. In addition, rejections will be automatically forgotten if the configuration for the task has changed since the last run.
