@@ -1,11 +1,11 @@
 = Email =
 
-The email plugin can be used to notify you of feed results and/or failures. There are two built in templates, or you can make your own template using the Jinja2 templating language.
+The email plugin can be used to notify you of task results and/or failures. There are two built in templates, or you can make your own template using the Jinja2 templating language.
 
-The {{{default}}} template will notify you of all downloaded entries, and of any failed entries or feed aborts. There is also an included {{{failed}}} template to just notify when there are problems with a feed.
+The {{{default}}} template will notify you of all downloaded entries, and of any failed entries or task aborts. There is also an included {{{failed}}} template to just notify when there are problems with a task.
 
 == Config ==
-The email plugin is special, in that it can be configured for a feed directly, or it can be set up at the root of the config, in order to receive one email with the results of all of your feeds. The configuration options for both of these locations are the same:
+The email plugin is special, in that it can be configured for a task directly, or it can be set up at the root of the config, in order to receive one email with the results of all of your tasks. The configuration options for both of these locations are the same:
 
 {{{
   from          : the email address from which the email will be sent (required)
@@ -18,7 +18,7 @@ The email plugin is special, in that it can be configured for a feed directly, o
   smtp_password : the password to use to connect to the smtp server
   smtp_tls      : should we use TLS to connect to the smtp server?
   smtp_ssl      : should we use SSL to connect to the smtp server?
-  active        : should this feed be included in the global email?
+  active        : should this task be included in the global email?
 }}}
 '''Default values for the config elements'''
 
@@ -64,8 +64,8 @@ email:
   smtp_password: my_smtp_password
 }}}
 
-'''Config multi-feed example using the failed template'''
-A single email will be sent with only the failures from any of the feeds except for feed3, where it is turned off.
+'''Config multi-task example using the failed template'''
+A single email will be sent with only the failures from any of the tasks except for task3, where it is turned off.
 
 {{{
 email:
@@ -74,12 +74,12 @@ email:
   smtp_host: smtp.host.com
   template: failed
 
-feeds:
-  feed1:
+tasks:
+  task1:
     rss: http://xxx
-  feed2:
+  task2:
     rss: http://yyy
-  feed3:
+  task3:
     rss: http://zzz
     email:
       active: False
