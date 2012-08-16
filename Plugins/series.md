@@ -35,7 +35,7 @@ Only one of them is downloaded, with default configuration best quality is chose
 
 These plugins are complementary to the series plugin.
 
- * [wiki:Plugins/all_series all_series] - Grab all series in the feed
+ * [wiki:Plugins/all_series all_series] - Grab all series in the task
  * [wiki:Plugins/import_series import_series] - Automatically configures series by using another input, some examples:
    * [wiki:Plugins/thetvdb_favorites thetvdb_favorites] - [http://thetvdb.com TheTVDB.com] favorites
    * [wiki:Plugins/trakt_list trakt_list] - [http://trakt.tv Trakt.tv] lists
@@ -70,7 +70,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 
 == Notes ==
 
- * If the series appears in feed(s) with slightly different naming conventions and spinoffs like !FooBar and !FooBar US read [wiki:Plugins/series/closematch this guide]. 
+ * If the series appears in task(s) with slightly different naming conventions and spinoffs like !FooBar and !FooBar US read [wiki:Plugins/series/closematch this guide]. 
  * !FlexGet respects ''propers'' which means that the same episode will be downloaded twice if the second one contains words such as {{{proper}}}, {{{repack}}}, {{{rerip}}}, or {{{real}}}.
  * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. 
  * Check [wiki:Cookbook/Series series cookbook] for more complete examples and advanced uses.
