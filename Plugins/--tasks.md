@@ -1,46 +1,46 @@
-= Command Line --feed option =
+= Command Line --task option =
 
-Allows running only selected feeds from the config.
+Allows running only selected tasks from the config.
 
 '''Syntax:'''
 
 {{{        
---feed <FEED>[,FEED]
+--task <TASK>[,TASK]
 }}}
 
-where the given feed names can also be glob patterns (i.e. using `*`, `?` or `[charsets]`).
+where the given task names can also be glob patterns (i.e. using `*`, `?` or `[charsets]`).
 
 
 '''Example:'''
 
-If you want to only execute a feed called {{{myfeed}}} run flexget like so:
+If you want to only execute a task called {{{mytask}}} run flexget like so:
 {{{
-flexget --feed myfeed
+flexget --task mytask
 }}}
 
-'''Multiple feeds example:'''
+'''Multiple tasks example:'''
 
-If you would like to run multiple feeds you can list them with comma separators (and no space.) This example runs {{{myfeed}}} and {{{yourfeed}}}:
+If you would like to run multiple tasks you can list them with comma separators (and no space.) This example runs {{{mytask}}} and {{{yourtask}}}:
 {{{
-flexget --feed myfeed,yourfeed
+flexget --task mytask,yourtask
 }}}
 
 '''Pattern example:'''
 
-If you would like to select a number of feeds that have similar names:
+If you would like to select a number of tasks that have similar names:
 {{{
-flexget --feed "tv*"
+flexget --task "tv*"
 }}}
 
 
-'''Grouping feeds by poll frequency:'''
+'''Grouping tasks by poll frequency:'''
 
 '''NOTE''' You can accomplish a similar effect with the [wiki:Plugins/interval interval] plugin. With this method you must be aware that two instances of !FlexGet cannot run at the same time due to a lock file.
 
 Another very useful application of the pattern selection is to have cron schedules like this:
 {{{
-*/5     * * * *         nice flexget --cron --feed "*-5"
-*/14    * * * *         nice flexget --cron --feed "*-14"
+*/5     * * * *         nice flexget --cron --task "*-5"
+*/14    * * * *         nice flexget --cron --task "*-14"
 }}}
 
-You just need to append one of the supported poll intervals to your feed names, and they'll get  automatically polled with that frequency. Note that the schedules are never triggered at the same minute, so they can never directly collide (if you have very slow feeds, some executions ''might'' be skipped due to the lock of a still running process).
+You just need to append one of the supported poll intervals to your task names, and they'll get  automatically polled with that frequency. Note that the schedules are never triggered at the same minute, so they can never directly collide (if you have very slow tasks, some executions ''might'' be skipped due to the lock of a still running process).
