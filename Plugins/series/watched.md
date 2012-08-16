@@ -5,7 +5,7 @@ This is generally not needed as series plugin will not download backwards from l
 Alternatively you can use [wiki:Plugins/--inject inject] plugin to add some episode into history, thus preventing older ones being downloaded. If you have specified quality requirements for the series, make sure to include the appropriate quality in the episode name.
 
 {{{
-flexget --inject "Pioneer.One.S01E03.Imaginary.720p" --feed <some series feed> --learn
+flexget --inject "Pioneer.One.S01E03.Imaginary.720p" --task <some series task> --learn
 }}}
 
 This has the advantage of not cluttering your configuration file and it works with [wiki:Plugins/all_series all_series] and other solutions that do not list series in the configuration file.
