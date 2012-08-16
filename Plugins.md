@@ -16,7 +16,7 @@ Most plugins are enabled by placing a keyword and required settings in a configu
 
 == Indentation in examples ==
 
-All configuration examples are assumed to be placed under a feed. So if documentation has example:
+All configuration examples are assumed to be placed under a task. So if documentation has example:
 
 {{{
 series:
@@ -26,8 +26,8 @@ series:
 In full configuration this goes into:
 
 {{{
-feeds:
-  feed_name:
+tasks:
+  task_name:
     rss: http://example.com
     series:
       - name
@@ -50,7 +50,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/from_transmission from_transmission]||'''{{{NEW}}}''' Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
-||[wiki:Plugins/inputs inputs]||'''{{{NEW}}}''' Configure the same input plugin multiple times in one feed.||
+||[wiki:Plugins/inputs inputs]||'''{{{NEW}}}''' Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
 ||[wiki:Plugins/pogcal pogcal]||'''{{{NEW}}}''' Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
@@ -65,8 +65,8 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 
 == Filters ==
 
-Reject or Accept [wiki:Entry entries] based on given rules. A single feed may have any number of filters.[[BR]]
-If you plan to use multiple filters per feed, you should look at [wiki:Filtering filtering operations] to understand how they work.
+Reject or Accept [wiki:Entry entries] based on given rules. A single task may have any number of filters.[[BR]]
+If you plan to use multiple filters per task, you should look at [wiki:Filtering filtering operations] to understand how they work.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
@@ -82,7 +82,7 @@ If you plan to use multiple filters per feed, you should look at [wiki:Filtering
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
-||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the feed on the previous run to be rejected at the input phase.||
+||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the task on the previous run to be rejected at the input phase.||
 ||[wiki:Plugins/private_torrents private_torrents]||'''{{{NEW}}}'''  Reject private or public torrents.||
 ||[wiki:Plugins/proper_movies proper_movies]||'''{{{NEW}}}'''  Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
@@ -137,39 +137,39 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
-||[wiki:Plugins/delay delay]||Adds artificial delay into a feed.||
-||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a feed.||
+||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
+||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a task.||
 ||[wiki:Plugins/disable_plugin disable_plugin]||'''{{{NEW}}}''' Disable plugins from presets.||
 ||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
-||[wiki:Plugins/free_space free_space]||Abort feed when drive space is low.||
+||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
-||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the feed.||
+||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
 ||[wiki:Plugins/manipulate manipulate]||'''{{{NEW}}}''' Allows regexp manipulation for entries.||
-||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the feed when explicitly specified.||
+||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the task when explicitly specified.||
 ||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
-||[wiki:Plugins/priority priority]||Change feed execution order.||
+||[wiki:Plugins/priority priority]||Change task execution order.||
 ||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
-||[wiki:Plugins/set set]||Set 'path' or other info per feed. Can be dynamic per entry.||
-||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a feed.||
-||[wiki:Plugins/sort_by sort_by]||Sort entries in a feed.||
+||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
+||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
+||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
-||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a feed.||
+||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
 
 == Metainfo ==
 
 These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry].
 
 ||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
-||[wiki:Plugins/metainfo_feed metainfo_feed]||Populates feed field for entries.||
+||[wiki:Plugins/metainfo_task metainfo_task]||Populates task field for entries.||
 ||[wiki:Plugins/metainfo_series metainfo_series]^1^||Populates series related fields for entries, even without [wiki:Plugins/series series] plugin.||
 ||[wiki:Plugins/metainfo_imdb metainfo_imdb]||Detects imdb urls from description.||
 
@@ -178,10 +178,10 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 == Command line plugins ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
-||[wiki:Plugins/--dump --dump]||Display all entries after feed execution.||
-||[wiki:Plugins/--feed --feed]||Executes only the specified feed(s)||
-||[wiki:Plugins/--inject --inject]||Injects custom entry into feed(s).||
-||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on feed(s) interactively.||
+||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
+||[wiki:Plugins/--task --task]||Executes only the specified task(s)||
+||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
+||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
 
 == 3rd party plugins ==
 
