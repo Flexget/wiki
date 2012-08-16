@@ -2,7 +2,7 @@ Ideas for a generic timeframe plugin, decoupled from series plugin.
 
 Entries would need to be tagged with a unique content id field to work with this. For example, series plugin might add content_id field set to seriesname.seriesid, and movie content id might be imdb id.
 
-It would also be nice to be able to use any filter plugin to define 'target' criteria. Example config:
+It would also be nice to be able to use any (rejecting) filter plugin to define 'target' criteria. Example config:
 {{{
 timeframe:
 - target:
