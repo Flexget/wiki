@@ -110,8 +110,8 @@ Easy configuration was a high priority when designing the application. If you ha
 This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.
 
 {{{
-feeds:
-  feed name:
+tasks:
+  task name:
     rss: http://example.com/torrents.xml
     series:
       - pioneer one
