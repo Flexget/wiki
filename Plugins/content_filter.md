@@ -1,6 +1,8 @@
 = Content Filter =
 This allows filtering based on the filenames inside of torrents. You can specify either an acceptable file mask, a file mask to reject, or both. You can also specify a list of masks for either option.
 
+'''Note:''' content_filter doesn't work with magnet links, as it works by analyzing the file list present in the .torrent file.
+
 ''' Example '''
 
 {{{
