@@ -19,7 +19,7 @@ If you get a 'No space left on device' error this is due to the fact that the /t
 
 {{{
 mkdir /tmp2
-export TEMP=/tmp2 easy_install-2.5 flexget
+export TEMP=/tmp2 pip install flexget
 }}}
 
 You can check your installation using
