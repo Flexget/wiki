@@ -3,6 +3,7 @@
 Assuming you are using the IPKG package manager, you will first need to set up python by using:
 {{{
 ipkg install python27 py27-setuptools
+easy_install-2.7 pip
 }}}
 
 You might want to remove old version of python25 (including py25* packages and /opt/local/lib/python2.5/ directory) before going any further.
@@ -19,7 +20,8 @@ If you get a 'No space left on device' error this is due to the fact that the /t
 
 {{{
 mkdir /tmp2
-export TEMP=/tmp2 pip install flexget
+export TEMP=/tmp2
+pip install flexget
 }}}
 
 You can check your installation using
