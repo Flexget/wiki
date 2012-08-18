@@ -16,15 +16,12 @@ ipkg install py25-yaml
 }}}
 ''(please note: you can also use Python 2.6)''
 
-= FlexGet setup =
+= !FlexGet setup =
 
-You now can either download FlexGet from the homepage and copy this to your shared directory or use easy_install directly with the correct URL:
+You now can use easy_install to install !FlexGet:
 
 {{{
-#(method 1) automatically from pypi:
 easy_install-2.5 flexget
-#(method 2) download first, then execute
-easy_install-2.5 /mnt/disk1/share/FlexGet-1.0<input correct version here>.egg
 }}}
 
 If you get a 'No space left on device' error this is due to the fact that the /tmp directory is held in RAM. In this case use the following workaround:
