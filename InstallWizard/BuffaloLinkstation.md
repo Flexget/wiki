@@ -27,6 +27,7 @@ pip install flexget
 You can check your installation using
 
 {{{
+/opt/local/bin/flexget --check
 /opt/local/bin/flexget -V
 }}}
 
