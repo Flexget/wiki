@@ -1,3 +1,4 @@
+'''{{{This page needs updated to use python 2.6 or 2.7 (and preferably pip.) Please feel free to do so.}}}'''
 = Python set-up =
 
 Assuming you are using the IPKG package manager, you will first need to set up python by using:
