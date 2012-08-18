@@ -2,7 +2,7 @@
 
 == Python ==
 
-Start by making sure you have Python '''2.5.x - 2.7.x''' available. Try running commands:
+Start by making sure you have Python '''2.6.x - 2.7.x''' available. Try running commands:
 
 {{{
 python -V
