@@ -1,8 +1,9 @@
+'''{{{This page needs updated to use python 2.6 or 2.7 (and preferably pip.) Please feel free to do so.}}}'''
 = TODO: write =
 
 {{{
 ipkg install py25-setuptools
-easy_install URL or PATH to latest FlexGet egg
+easy_install flexget
 }}}
 
 This should work, but for some it doesn't.
