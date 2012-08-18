@@ -1,28 +1,18 @@
-'''{{{This page needs updated to use python 2.6 or 2.7 (and preferably pip.) Please feel free to do so.}}}'''
 = Python set-up =
 
 Assuming you are using the IPKG package manager, you will first need to set up python by using:
-
 {{{
-ipkg install python
+ipkg install python27 py27-setuptools
 }}}
 
-if you would now just go ahead, download the setuptools, you would run out of space on your small Linkstation - hence you will need to do the following:
-
-{{{
-ipkg install py25-setuptools
-ipkg install py25-sqlalchemy
-ipkg install py25-feedparser
-ipkg install py25-yaml
-}}}
-''(please note: you can also use Python 2.6)''
+You might want to remove old version of python25 (including py25* packages and /opt/local/lib/python2.5/ directory) before going any further.
 
 = !FlexGet setup =
 
-You now can use easy_install to install !FlexGet:
+You now can use pip to install !FlexGet:
 
 {{{
-easy_install-2.5 flexget
+pip install flexget
 }}}
 
 If you get a 'No space left on device' error this is due to the fact that the /tmp directory is held in RAM. In this case use the following workaround:
@@ -35,14 +25,13 @@ export TEMP=/tmp2 easy_install-2.5 flexget
 You can check your installation using
 
 {{{
-python /opt/local/bin/flexget -V
--1.0r<your version>
+/opt/local/bin/flexget -V
 }}}
 
 To call FlexGet directly you can go for:
 
 {{{
-python /opt/local/bin/flexget
+/opt/local/bin/flexget
 }}}
 
 You will need a configuration file, whereas the most simple version you find on the homepage and more complete versions in the cookbook, linked below.
