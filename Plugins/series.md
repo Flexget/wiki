@@ -58,7 +58,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/path path]||Set ''path'' field for this series.||
 ||[wiki:Plugins/series/set set]||Use [wiki:Plugins/set set] plugin to set any fields for this series.||
 ||[wiki:Plugins/series/exact exact]||Configure exact matching behavior. Needed for series which have similar named series. Uses 'auto' mode as default.||
-||[wiki:Plugins/series/from_groups from_groups]||Accept series only from given groups.||
+||[wiki:Plugins/series/from_group from_group]||Accept series only from given groups.||
 ||[wiki:Plugins/series/identified_by identified_by]||Configure how episode numbering is detected. Uses 'auto' mode as default.||
 ||[wiki:Plugins/series/propers propers]||Configure how propers are handled.||
 ||[wiki:Plugins/series/specials specials]||Turn off specials support for series. (on by default)||
