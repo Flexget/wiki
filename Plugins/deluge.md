@@ -1,9 +1,9 @@
 = Deluge =
 
-Downloads content from entry url and loads it into the [http://deluge-torrent.org deluge] bittorrent client.
+Downloads content from entry URL and loads it into the [http://deluge-torrent.org deluge] bittorrent client.
 
 '''{{{Requirements:}}}'''
-Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon seperately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the user and pass options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
+Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the user and pass options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
 
 If you are installing to a virtualenv, you have to create the virtualenv with the {{{--system-site-packages}}} option. This also applies to an SVN install when running bootstrap.py.
 
@@ -38,7 +38,7 @@ deluge: yes
 ||label||Deluge label||
 ||queuetotop||If yes will move torrent to top of queue when added, if no will move to bottom.||
 ||addpaused||If yes, will add the torrents to deluge in the paused state.||
-||maxupspeed||Sets the maximum upload speed. Must be specefied as a decimal (i.e. 1.0)||
+||maxupspeed||Sets the maximum upload speed. Must be specified as a decimal (i.e. 1.0)||
 ||maxdownspeed||Sets the maximum download speed.||
 ||maxconnections||Sets the maximum connections.||
 ||maxupslots||Sets the maximum upload slots.||
@@ -116,5 +116,5 @@ Together with the movedone command, this means all TV series will be downloaded 
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
 - Deluge is installed in <program files>\Deluge
-- !FlexGet is installed with the same Python version Deluge is using (currently [http://python.org/ftp/python/2.6.6/python-2.6.6.msi 32-bit 2.6], as of Delgue 1.3.5)
+- !FlexGet is installed with the same Python version Deluge is using (currently [http://python.org/ftp/python/2.6.6/python-2.6.6.msi 32-bit 2.6], as of Deluge 1.3.5)
 The [wiki:Plugins/deluge?version=31#WindowsUsers old instructions] are no longer necessary.
