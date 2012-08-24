@@ -3,7 +3,7 @@
 === Install ===
 
 {{{
-pip install Flexget
+easy_install Flexget
 }}}
 
 === Determine full path to executable ===
