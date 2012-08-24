@@ -18,16 +18,11 @@ Install Python 2.6 by running:
 ipkg install python26
 }}}
 
-== pip ==
+== easy_install ==
 
 Install the Python setuptools package. This includes `easy_install` which will be used to install Python packages/eggs. To install, run:
 {{{
 ipkg install py26-setuptools
-}}}
-
-Now you can use easy_install to install pip.
-{{{
-easy_install pip
 }}}
 
 == SQLite ==
