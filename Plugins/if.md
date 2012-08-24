@@ -25,7 +25,7 @@ The if plugin allows a limited subset of python. If statements can contain:
 
 Simple actions (accept, reject, and fail) can be specified directly after the colon following the if statement.
 
-'''Example:''' This will reject any series that have the 'horror' genre, and any episodes that aired more than 10 days ago.
+'''Example:''' This will reject any series that have the 'Reality' genre, and any episodes that aired more than 10 days ago.
 
 {{{
 thetvdb_lookup: yes
