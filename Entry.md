@@ -55,7 +55,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||series_content_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series content ration||
 ||series_genres||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series genres||
 ||series_network||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series network||
-||series_banner_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series banenr url||
+||series_banner_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series banner url||
 ||series_fanart_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series fanart url||
 ||series_poster_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series poster url||
 ||series_airs_day_of_week||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series airs date of the week||
