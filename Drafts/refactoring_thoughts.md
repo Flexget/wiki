@@ -24,3 +24,6 @@ ideas:
     - dynamic flow between plugins would be better, entries do not all have to follow the same path.
   - problems:
     - plugins that choose based on all the possibilities. series plugin chooses the best quality among all available that fulfils quality requirement. episode advancement could be an issue if many episodes come at once out of order if series plugin cannot see them all at once.
+- plugins can be registered to receive a custom list of entries to process. This is how I am implementing things in new_timeframe branch.
+  - good:
+    - easy for plugins to register subplugins on a subset of entries from a task, even if subplugin must run on a later phase
