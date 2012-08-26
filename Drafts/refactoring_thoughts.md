@@ -18,7 +18,7 @@ ideas:
   - good:
     - calling subplugins is much easier
   - problems:
-    - how do we deal with plugins that need to run at later times, e.g. content_size. We could have them register for later entry events, rather than task phases, content_size could register for changes to content_size field. It could register for some other entry phase, such as before_output, to enforce strict mode.
+    - how do we deal with plugins that need to run at later times, e.g. content_size. We could have them register for later entry events, rather than task phases. content_size could register for changes to content_size field. It could register for some other entry phase, such as before_output, to enforce strict mode.
 - plugins process a single entry at a time:
   - good:
     - dynamic flow between plugins would be better, entries do not all have to follow the same path.
