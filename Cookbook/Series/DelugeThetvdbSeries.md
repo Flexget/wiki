@@ -23,7 +23,7 @@ presets:
     deluge:
       main_file_only: yes
 
-feeds:
+tasks:
   betterfeed:
     priority: 1
     preset: tv
