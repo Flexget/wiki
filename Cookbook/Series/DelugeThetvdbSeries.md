@@ -50,4 +50,4 @@ The result of setting the movedone and content_filename using string replacement
  /media/tv/Lost/Season 1/Lost - S01E03 - Tabula Rasa - 720P.mkv
 You can adjust those lines to match your naming standard.
 
-In the feeds section, we define 2 feeds in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
+In the tasks section, we define 2 tasks in case one is faster, or one goes down. The [wiki:Plugins/priority priority] plugin is used to make sure that your preferred feed is checked before your backup feed when !FlexGet is run.
