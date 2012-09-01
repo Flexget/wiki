@@ -9,7 +9,7 @@ This can be used when there is no other way to get working download URL, ie. whe
 {{{
 urlrewrite_search:
   - newtorrents
-  - piratebay
+  - piratebay: yes
   - nzbmatrix:
       apikey: myapikeyfromnzbmatrix
       username: myznbmatrixusername
