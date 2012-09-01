@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 1.9.2012 r3130 ===
+Options have been added to the [wiki:Searches/piratebay piratebay] search plugin. To continue using it the same way you are now, you must change {{{piratebay}}} in your config to {{{piratebay: yes}}}. You can also specify category and sort options instead of the default if you choose.
+
 === 14.8.2012 r3078 ===
 !BeautifulSoup 4 is now needed as well as BS3. If you are on svn or virtualenv install, you will need to install it: {{{bin/pip install beautifulsoup4}}} (easy_install/pip users don't need to do anything special)
 
