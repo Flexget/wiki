@@ -9,6 +9,7 @@ flexget --inject "Pioneer.One.S01E03.Imaginary.720p" --task <some series task> -
 }}}
 
 This has the advantage of not cluttering your configuration file and it works with [wiki:Plugins/all_series all_series] and other solutions that do not list series in the configuration file.
+'''Note:''' If you already have other episodes in the series history, you may also need to add the {{{--disable-advancement}}} flag to this command.
 
 === Example ===
 
