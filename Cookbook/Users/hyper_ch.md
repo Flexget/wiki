@@ -162,12 +162,9 @@ series:
 #                                                                                                                                                        #
 ##########################################################################################################################################################
 
-#!/bin/bash
-
 FLEXGET="/home/hyper/flexget-svn/bin/flexget"           # Path to the flexget binary
 QUALITY="hdtv 360p 480p web-dl dvdrip bdrip hr"         # Set desired qualities
 QUALITY="ANY"
-QUALITY="<=720p r5+"
 CONFIG_LOCK="/home/hyper/.flexget/.config-lock"         # Set config lock file for flexget
 FORCE="False"                                           # Set True or False
 
@@ -188,5 +185,6 @@ fi
 imdb1=${1##http*title}
 imdb2=${imdb1//\//}
 
+echo "$FLEXGET --movie-queue add imdb_id=${imdb2} $QUALITY $FORCE"
 $FLEXGET --movie-queue add imdb_id=${imdb2} "${QUALITY}" ${FORCE}
 }}}
