@@ -1,10 +1,10 @@
 = Prowl =
 
-Send messages to your iPhone using [http://prowl.weks.net/ Prowl].
+Send messages to your iPhone using [http://prowlapp.com Prowl].
 
 === Example ===
 
-Get your unique API key from [https://prowl.weks.net/settings.php]
+Get your unique API key from [https://prowlapp.com/api_settings.php]
 
 {{{
 prowl:
