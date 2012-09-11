@@ -6,3 +6,5 @@ Here is a quick mockup of an idea I had to get the ball rolling.
  - [[Image(http://i.imgur.com/KA2fs.png, 150)]] by gazpachoking
 
  - [[Image(http://i.imgur.com/uwDZc.jpg, 150)]] by Zundrium
+
+ - [[Image(http://i.imgur.com/NyB4j.png, 150)]] by mrskitch
