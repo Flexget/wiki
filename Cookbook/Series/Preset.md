@@ -11,7 +11,7 @@ presets:
       - pioneer one
       - south park
 
-feeds:
+tasks:
   some feed:
     rss: http://example.com/
     preset: tv
