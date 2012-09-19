@@ -6,6 +6,17 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 18.9.2012 r3147 ===
+The [wiki:Searches/torrentz torrentz] search plugin now takes a single option, the reputation required of the results. See wiki page for options. You must change your config from:
+{{{
+torrentz
+}}}
+to
+{{{
+torrentz: good
+}}}
+(or any other valid reputation) upon upgrade.
+
 === 7.9.2012 r3139 ===
 Svn & git users need to install a newer version or requests (0.14+) manually, either rerun {{{bootstrap.py}}} or simply run {{{bin/pip install --upgrade requests}}} on checkout dir.
 
