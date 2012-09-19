@@ -8,7 +8,7 @@ This plugin requires the transmissionrpc library. To install it, run:
 easy_install transmissionrpc
 }}}
 
-You may be required to upgrade this plugin after upgrading transmission, for that just add `--upgrade` to the previous command.
+You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 
 '''Example:'''
 
