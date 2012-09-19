@@ -8,7 +8,7 @@ This plugin requires the transmissionrpc library. To install it, run:
 easy_install transmissionrpc
 }}}
 
-You may be required to upgrade this after upgrading transmission, for that just add `--upgrade` to previous command.
+You may be required to upgrade this plugin after upgrading transmission, for that just add `--upgrade` to the previous command.
 
 '''Example:'''
 
@@ -22,7 +22,7 @@ transmission:
 
 If you're having authentication issues, see ticket ticket:1066#comment:1 if it helps (feel free to improve this wiki page). The username and password can be set from the GUI, but if you're using the headless version you must change it in `/home/<user>/.config/transmission-daemon/settings.json`. First stop transmissiond, edit settings.json and enter a password in clear text; it will be overwritten with its hash once transmissiond is started again.
 
-Also make sure that rpc-whitelist isn't preventing flexget from connecting from localhost or whatever ip number it's using. These settings will permit clients connecting from localhost and 192.168.*.*, assuming they also provide the correct credentials, and deny all other ip ranges:
+Also make sure that rpc-whitelist isn't preventing flexget from connecting to localhost or whatever IP address it's using. The settings below will permit clients connecting from localhost and 192.168.*.*, assuming they also provide the correct credentials, it will also deny all other IP ranges:
 
 {{{
     ...
@@ -57,7 +57,7 @@ transmission: yes
 
 == Advanced ==
 
-Transmission plugin will also utilize options from [wiki:Entry entry] fields. This allow more refined configuration per entries.
+Transmission plugin will also utilize options from [wiki:Entry entry] fields. This allows more refined configuration per entry field selection.
 
 Here is an example feed using the series plugin:
 
@@ -90,7 +90,7 @@ transmission:
 
 === Transmission Tips ===
 
-'''After r1277 you can simply use removewhendone option'''
+'''After r1277 you can simply use the removewhendone option'''
 
 Transmission annoyingly does not have any way to easily remove completed torrents from it's UI.
 Luckily if you have transmission-remote installed you can script it.
@@ -101,6 +101,6 @@ Create an executable script named: transmission-cleanup.sh:
 transmission-remote -l  | grep 100% | grep Done | awk '{print $1}' | xargs -n 1 -J % ./transmission-remote -t % -r
 }}}
 
-Note: if you transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
+Note: if your transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
 
 Add this script to your crontab.
