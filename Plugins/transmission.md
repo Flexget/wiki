@@ -92,7 +92,7 @@ transmission:
 
 '''After r1277 you can simply use removewhendone option'''
 
-Transmission annoyingly do not have any way to easily remove completed torrents from it's UI.
+Transmission annoyingly does not have any way to easily remove completed torrents from it's UI.
 Luckily if you have transmission-remote installed you can script it.
 
 Create an executable script named: transmission-cleanup.sh:
