@@ -7,7 +7,6 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
-||[wiki:Searches/demonoid demonoid]||Generates entries from [http://demonoid.me demonoid.me]||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
@@ -28,7 +27,6 @@ flexget --search-plugins
  flexget_archive
  newtorrents
  torrentz
- 
  nzbmatrix
 -------------------------------------------------------------------------------
 }}}
