@@ -13,7 +13,7 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 ||newzleech||broken as Newzleech.com is no more||
 ||nzbmatrix||Generates entries from [http://nzbmatrix.com Nzbmatrix.com]||
 ||[wiki:Searches/piratebay piratebay]||Generates entries from [http://thepiratebay.org/ the piratebay]||
-||torrentz||Generates entries from [http://torrentz.eu Torrentz.eu]||
+||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 
 You can always get an up to date overview of the available search plugins by using the command line option --search-plugins
 
