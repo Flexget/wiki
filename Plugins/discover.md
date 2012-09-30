@@ -27,6 +27,6 @@ discover:
   what:
     - emit_movie_queue: yes
   from:
-    - torrentz
+    - torrentz: verified
   type: movies
 }}}
