@@ -30,3 +30,4 @@ discover:
     - torrentz: verified
   type: movies
 }}}
+Be aware, that discover plugin just produces entries, if you want movies from your movie queue accepted you must still also include the [wiki:Plugins/movie_queue movie_queue] plugin in your task.
