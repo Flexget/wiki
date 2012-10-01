@@ -7,3 +7,4 @@ These are the complete configurations of actual end users. Feel free to add your
 * [wiki:Cookbook/Users/foulou foulou]
 * [https://github.com/gray/dotfiles/blob/master/.flexget/config.yml gray]
 * [wiki:Cookbook/Users/adrellias adrellias]
+* [wiki:Cookbook/Users/AlexTz AlexTz] trakt.tv integration for series and movies, torrentz search
