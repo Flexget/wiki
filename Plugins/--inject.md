@@ -33,5 +33,5 @@ You can also set arbitrary [wiki:Entry entry fields] when injecting. This is don
 '''Example:'''
 
 {{{
-flexget --task=some.task --inject "Some Title" "Some.direct.url" yes yes imdb_id=tt33333
+flexget --task=some.task --inject "Some Title" "Some.direct.url" no no imdb_id=tt33333
 }}}
