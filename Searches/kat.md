@@ -1,5 +1,5 @@
 = KAT =
-Generate entries from KAT search results.
+Generate entries from [http://kat.ph kat.ph] search results.
 
 === Config Format ===
 {{{
