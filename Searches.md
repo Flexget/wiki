@@ -9,6 +9,7 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
+||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
 ||newzleech||broken as Newzleech.com is no more||
 ||nzbmatrix||Generates entries from [http://nzbmatrix.com Nzbmatrix.com]||
