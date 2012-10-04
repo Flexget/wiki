@@ -29,4 +29,6 @@ imdb_list:
   password: mypassword
 }}}
 
+'''{{{WARNING:}}}''' If you are using a list other than the watchlist, you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
+
 '''Note:''' Adding this to your movie feeds or preset will NOT cause movies in imdb's watchlist to be accepted since this is an input, not a filter.
