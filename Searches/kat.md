@@ -3,7 +3,9 @@ Generate entries from KAT search results.
 
 === Config Format ===
 {{{
-kat: <category>
+kat:
+  category: <category>
+  verified: yes/no
 }}}
 
 ||= Categories =||
