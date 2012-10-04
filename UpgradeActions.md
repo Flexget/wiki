@@ -6,6 +6,16 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 4.10.2012 r3158 ===
+The [wiki:Searches/kat kat] search plugin was updated to use {{{verified}}} option. You will need to update your conifg if you are using it.
+{{{
+# Old way
+kat: <category>
+# New way
+kat:
+  category: <category>
+}}}
+
 === 18.9.2012 r3147 ===
 The [wiki:Searches/torrentz torrentz] search plugin now takes a single option, the reputation required of the results. See wiki page for options. You must change your config from:
 {{{
