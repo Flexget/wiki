@@ -95,3 +95,19 @@ exec:
 
  1. Prior to r1552 advanced configuration was it's own plugin, adv_exec.
  2. Prior to r1888 ''phase'' was called ''event''
+
+== Notes for Windows Users ==
+
+You may encounter problems on Windows machines with escaping and backgrounding.  Here are a few tips:
+
+* Specifying a path for the executable itself is problematic.  The simplest solution is to place it in your path.  For example, this will result in parse errors even if you try using backslashes to escape the double quote, path backslashes, or both:
+{{{
+        for_accepted: "d:\Program Files\Aria\aria2c.exe" --log=aria.log <snip> "{{url}}"
+}}}
+
+* If you experience problems backgrounding your task, try using the "start" command.  In the above example, setting "allow_background: yes" and appending the & still wouldn't background the process.  This type of syntax should work:
+{{{
+      allow_background: yes
+      on_output:
+        for_accepted: start aria2c.exe --log=aria.log <snip> "{{url}}" &
+}}}
