@@ -97,7 +97,11 @@ To delete whole series, use:
 
 === --disable-advancement ===
 
-If episode advancement is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily.
+If episode advancement is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `--inject` and `--learn`. Example:
+
+{{{
+flexget --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-advancement --task NAME
+}}}
 
 === --stop-waiting ===
 
