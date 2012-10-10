@@ -85,7 +85,6 @@ import_series:
       username: traktusername
       api_key: a098ae0eae09ae67ea
       custom: following shows
-      strip_dates: yes
   settings:
     quality: 720p
 }}}
