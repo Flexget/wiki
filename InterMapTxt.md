@@ -66,5 +66,5 @@ WhoIs            http://www.whois.sc/
 Why              http://clublet.com/c/c/why?
 c2Wiki             http://c2.com/cgi/wiki?
 WikiPedia        http://en.wikipedia.org/wiki/
-pull             https://github.com/Flexget/Flexget/pull
+pull             https://github.com/Flexget/Flexget/pull/
 }}}
