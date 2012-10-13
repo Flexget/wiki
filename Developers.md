@@ -166,3 +166,7 @@ from IPython.Shell import IPShellEmbed
 ipshell = IPShellEmbed([])
 ipshell()
 }}}
+-------------------------
+Thanks to !JetBrains for the free open source !PyCharm license!
+
+[[Image(pycharm_logo.gif, 200px, link=http://www.jetbrains.com/pycharm/)]]
