@@ -15,4 +15,4 @@ tasks:
 }}}
 Now, you can run {{{flexget --task seed_series_db}}} to run this task and let the series plugin learn about your existing episodes. This should only need to be done when you first set up !FlexGet, or when you add a new show to your config which you already have episodes downloaded for.
 
-You can test to see if it worked by running a --series report.
+You can test to see if it worked by running a [wiki:Plugins/series#a--series --series] report.
