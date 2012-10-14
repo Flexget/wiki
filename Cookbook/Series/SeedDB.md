@@ -1,5 +1,5 @@
 = Seed series DB with existing episodes =
-Sometimes when you first set up !FlexGet, it is useful to seed the series database with the episodes you already have for your shows. This helps !FlexGet learn what type of series numbering your shows have, as well as what episodes you already have. This can be accomplished by making a special tag which you will run after setting up !FlexGet.
+Sometimes when you first set up !FlexGet, it is useful to seed the series database with the episodes you already have for your shows. This helps !FlexGet learn what type of series numbering your shows have, as well as what episodes you already have. This can be accomplished by making a special task which you will run after setting up !FlexGet.
 {{{
 presets:
   presetwithyourseriesconfig:
