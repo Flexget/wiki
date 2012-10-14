@@ -8,6 +8,7 @@
 
 === More advanced recipes ===
 
+* [wiki:Cookbook/Series/SeedDB Get your FlexGet series database started with the files you already have]
 * [wiki:Cookbook/Series/Sort Sort Downloads with FlexGet]
 * [wiki:Cookbook/Series/DelugeMovedone Set deluge options trough series groups]
 * [wiki:Cookbook/Series/Advanced Advanced example with setting groups and qualities]
