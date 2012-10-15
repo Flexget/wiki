@@ -4,6 +4,12 @@ Remembers downloaded entries across all tasks and rejects them on subsequent exe
 
 This plugin is enabled on all tasks by default. See plugin [wiki:Plugins/disable_builtins disable_builtins] for information how to disable builtin plugins. Note that disabling this will (likely) cause !FlexGet to download all matches on every execution!
 
+== Local Mode ==
+You may not want entries seen on some tasks to affect other tasks. Seen plugin can be put into local mode, such that it will only reject entries that have been accepted previously in the same task. You can use the following configuration to enable this mode:
+{{{
+seen: local
+}}}
+
 == Commanline options ==
 
 Plugin has few command line options starting from bleeding edge / 1.0
