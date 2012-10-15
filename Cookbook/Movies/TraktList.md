@@ -16,6 +16,7 @@ tasks:
       username: me@somewhere.com
       password: mypassword
     accept_all: yes
+    seen: local  # We don't want accepted movies on this feed to affect actual download feed
     queue_movies:
       quality: 720p bluray
       force: no
