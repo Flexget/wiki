@@ -21,6 +21,7 @@ AppleTrailers:
   download: J:\FTP\Trailers
   set:
     filename: '{{title}} - Trailer - 720p.mov'
+  seen: local  # We don't want accepted entries from this feed to affect actual movie download feeds.
 }}}
 
 
