@@ -29,8 +29,8 @@ feeds:
   sort-series:
     find:
       path: /storage/downloads/
-      regexp: '.*\.(avi|mkv)$'
-    disable_builtins: [seen]
+      regexp: '.*\.(avi|mkv|mp4)$'
+    seen: local
     preset: tv-series
     # NOTE: You must set the parse_only option for all of the series groups you have configured in your preset.
     # This option prevents the series plugin from accepting or rejecting anything in this feed.
@@ -47,7 +47,7 @@ feeds:
 '''Uses Plugins:'''
 
  - [wiki:Plugins/find find]: In this recipe, we use find which creates an entry for each file in the specified path (/storage/downloads/ in this case,) that match the regexp pattern specified.
- - [wiki:Plugins/disable_builtins disable_builtins]: We disable the builtin seen plugin so that the series plugin will still parse titles that flexget has already seen (while downloading the first time.)
+ - [wiki:Plugins/seen seen]: The seen plugin is enabled by default on all tasks, however we need to enable local mode to make sure that entries are not rejected because they were already seen in our normal download task.
  - [wiki:Plugins/series series]: The series plugin is used to grab the series info (name, season, episode) from each file. We must list out all the series we want sorted.
  - [wiki:Plugins/set set]: We set the immortal flag to prevent the series plugin from rejecting any entries. This is a bit hacky, and there should be a better way in the future.
  - [wiki:Plugins/move move]: We use the move plugin to move the file to a dynamic path based on the parsed series name and season. If there are other files in the input directory that the series plugin cannot parse, they will be skipped and remain in the original directory.
