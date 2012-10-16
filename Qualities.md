@@ -103,7 +103,9 @@ If you just want to block certain values from being acceptable, you can prefix t
 }}}
 
 === Putting it together ===
-So, any time a quality range needs to be specified in the config, you can combine these techniques to define the acceptable values for each category. If your quality string starts with a symbol, instead of a letter or number, you have to place quotes around the whole thing. Here are some examples of complete quality requirements that could be used in your config:
+
+So, any time a quality (range) needs to be specified in the config, you can combine these techniques to define the acceptable values for each category. If your quality string starts with a symbol, instead of a letter or number, you have to place quotes around the whole thing. Here are some examples of complete quality requirements that could be used in your config:
+
 {{{
 hdtv
 720p
@@ -113,6 +115,7 @@ hdtv
 "!h264 !dts"
 "<=720p"
 }}}
+
 '''NOTE:''' Requirement strings that begin with a symbol need to be quoted, as in the above examples.
 
 === Common Requirements ===
