@@ -82,6 +82,7 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
+||[wiki:Plugins/magnets magnets]||Rejects entries with only magnet links.||
 ||[wiki:Plugins/only_new only_new]||'''{{{NEW}}}'''  Causes all entries that were in the task on the previous run to be rejected at the input phase.||
 ||[wiki:Plugins/private_torrents private_torrents]||'''{{{NEW}}}'''  Reject private or public torrents.||
 ||[wiki:Plugins/proper_movies proper_movies]||'''{{{NEW}}}'''  Keep track of downloaded movies and force re-download proper versions.||
