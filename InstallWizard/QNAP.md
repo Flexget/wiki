@@ -38,3 +38,11 @@ If you want to use Transmission then enter the command
 easy_install27 transmissionrpc
 }}}
 
+To test it is working use the command
+{{{
+python2.7 /opt/local/bin/flexget -V
+}}}
+
+Create your config.yml file in the directory /opt/local/
+
+Put an entry in your cron to lauch flexget every 10 mins
