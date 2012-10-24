@@ -30,12 +30,12 @@ For Python 2.7 on QNAP perform the following steps,
 {{{
 ipkg install python27
 ipkg install py27-setuptools
-easy_install27 flexget
+easy_install-2.7 flexget
 }}}
 
 If you want to use Transmission then enter the command
 {{{
-easy_install27 transmissionrpc
+easy_install-2.7 transmissionrpc
 }}}
 
 To test it is working use the command
