@@ -16,3 +16,25 @@ On some systems the /tmp folder is not big enough to allow the installation to c
 {{{
 mount -oremount,size=128M /tmp
 }}}
+
+= NO8080: write =
+
+For Python 2.7 on QNAP perform the following steps,
+
+1) Install the QNAP Optware QPKG from the web GUI
+
+2) Log in to your NAS via ssh
+
+3) Enter the commands
+
+{{{
+ipkg install python27
+ipkg install py27-setuptools
+easy_install27 flexget
+}}}
+
+If you want to use Transmission then enter the command
+{{{
+easy_install27 transmissionrpc
+}}}
+
