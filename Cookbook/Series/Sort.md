@@ -22,7 +22,7 @@ feeds:
 
   download-rss:
     rss: ...
-    presets:
+    preset:
       - tv-series
     download: ...
 
