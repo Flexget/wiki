@@ -18,7 +18,7 @@ presets:
         - House
         - Persons Unknown
   
-feeds:
+tasks:
 
   download-rss:
     rss: ...
