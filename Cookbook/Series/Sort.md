@@ -30,6 +30,7 @@ tasks:
     find:
       path: /storage/downloads/
       regexp: '.*\.(avi|mkv|mp4)$'
+      recursive: yes
     seen: local
     preset: tv-series
     # NOTE: You must set the parse_only option for all of the series groups you have configured in your preset.
