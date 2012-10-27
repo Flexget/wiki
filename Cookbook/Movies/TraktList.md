@@ -22,6 +22,8 @@ tasks:
       force: no
 }}}
 
+'''NOTE:''' Make sure you don't have download/deluge/transmission plugin in this task, (or in a global preset,) you aren't actually downloading anything here.
+
 == Plugins used ==
 
 ||=Plugin=||=Reason=||
