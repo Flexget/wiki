@@ -11,6 +11,7 @@ tasks:
     find:
       regexp: .*(avi|mkv|mp4)$
       path: /my/series
+      recursive: yes
     preset: presetwithyourseriesconfig
     # We use the manual plugin so that this task only runs when explicitly called
     manual: yes
