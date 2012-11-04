@@ -13,7 +13,7 @@ You might want to remove old version of python25 (including py25* packages and /
 You now can use pip to install !FlexGet:
 
 {{{
-pip install flexget
+/opt/local/bin/pip install flexget
 }}}
 
 If you get a 'No space left on device' error this is due to the fact that the /tmp directory is held in RAM. In this case use the following workaround:
