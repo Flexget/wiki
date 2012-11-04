@@ -21,7 +21,7 @@ If you get a 'No space left on device' error this is due to the fact that the /t
 {{{
 mkdir /tmp2
 export TEMP=/tmp2
-pip install flexget
+/opt/local/bin/pip install flexget
 }}}
 
 You can check your installation using
@@ -38,6 +38,13 @@ To call FlexGet directly you can go for:
 }}}
 
 You will need a configuration file, whereas the most simple version you find on the homepage and more complete versions in the cookbook, linked below.
+
+= !FlexGet upgrade =
+
+Run the following command:
+{{{
+/opt/local/bin/pip install --upgrade flexget
+}}}
 
 = Cron job =
 
