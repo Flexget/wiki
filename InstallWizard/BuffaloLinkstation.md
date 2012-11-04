@@ -44,6 +44,7 @@ You will need a configuration file, whereas the most simple version you find on 
 Run the following command:
 {{{
 /opt/local/bin/pip install --upgrade flexget
+/opt/local/bin/flexget --check
 }}}
 
 = Cron job =
