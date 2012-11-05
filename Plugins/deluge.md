@@ -88,7 +88,7 @@ deluge: yes
 
 The more specific set commands will override the less specific ones (i.e. the set command from name 4 will override the set values from the hdtv group.)
 
-=== Content Renaming* ===
+=== Content Renaming ===
 
 The deluge plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in deluge. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
 
