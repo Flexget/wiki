@@ -14,3 +14,5 @@ Here is a quick mockup of an idea I had to get the ball rolling.
  - [[Image(http://i.imgur.com/OqDaB.png, 150)]] by voods
 
  - [[Image(flexget-logo.png,150)]] by anscarlett
+
+ - [[Image(http://i.imgur.com/bW2ZO.jpg, 150)]] by lispington
