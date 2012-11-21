@@ -1,7 +1,7 @@
 = Entry =
 
 Entry represents a single item created by input(s), usually a downloadable content.
-It contains all the information necessary for [wiki:Plugins plugins] to perform their job. Usually some [wiki:FilterOperations action for entry].
+It contains all the information necessary for [wiki:Plugins plugins] to perform their job (usually some [wiki:FilterOperations operation] on the entry).
 
 For example, the [wiki:Plugins/regexp regexp] plugin checks whether the given regular expression matches the entry's '''title''' or '''url''' and acts accordingly.
 
