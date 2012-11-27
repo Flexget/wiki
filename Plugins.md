@@ -127,6 +127,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/move move]||'''{{{NEW}}}''' Move local files.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
+||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
