@@ -67,4 +67,5 @@ Why              http://clublet.com/c/c/why?
 c2Wiki             http://c2.com/cgi/wiki?
 WikiPedia        http://en.wikipedia.org/wiki/
 pull             https://github.com/Flexget/Flexget/pull/    # GitHub pull request $1
+github           https://github.com/Flexget/Flexget/issues/  # GitHub issue $1
 }}}
