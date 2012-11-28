@@ -1,4 +1,6 @@
 = Pushover =
+Available from `r3203`.
+
 == Overview ==
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [http://pushover.net/ Pushover].
 
