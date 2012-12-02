@@ -24,6 +24,8 @@ If you have short cron interval, comment !FlexGet out from the cron. After you'v
 pip install --upgrade flexget
 }}}
 
+[wiki:PipProblems Problems with pip?]
+
 Subversion users can just run `svn up`.
 
 == Verify ==
