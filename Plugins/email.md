@@ -32,9 +32,11 @@ The email plugin is special, in that it can be configured for a task directly, o
 
 === Built-In Templates ===
 
-There are two templates that come built in.
+Here are the templates that come built in.
  default:: This will send emails with a list of accepted entries, and/or a list of failed entries. (this template is used automatically if you do not specify one.)
  failed:: This will only send emails when there are entries that have failed.
+ accepted:: This will only send emails about accepted entries.
+ html:: This attempts to make html formatted emails with images for series and movies.
 
 === Custom Templates ===
 
