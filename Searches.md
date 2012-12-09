@@ -12,7 +12,6 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 ||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
 ||newzleech||broken as Newzleech.com is no more||
-||nzbmatrix||Generates entries from [http://nzbmatrix.com Nzbmatrix.com]||
 ||[wiki:Searches/piratebay piratebay]||Generates entries from [http://thepiratebay.org/ the piratebay]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 
@@ -28,6 +27,5 @@ flexget --search-plugins
  flexget_archive
  newtorrents
  torrentz
- nzbmatrix
 -------------------------------------------------------------------------------
 }}}
