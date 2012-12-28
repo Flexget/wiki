@@ -10,7 +10,7 @@ options:
   --test                Verbose what would happend on normal execution.
   --learn               Matches are not downloaded but will be skipped in the
                         future.
-  --feed=ONLYFEED       Run only specified feed from config.
+  --task=ONLYFEED       Run only specified feed from config.
   --no-cache            Disable caches. Works only in modules that have
                         explicit support.
   --reset-session       Forgets everything that has been downloaded and learns
