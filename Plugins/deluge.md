@@ -112,6 +112,9 @@ Together with the movedone command, this means all TV series will be downloaded 
 /home/user/TV/Show Name/Season #/Show Name - S##E## - quality.ext
 }}}
 
+== Mac OSX Users ==
+Should you wish to use the Deluge plugin, Flexget currently requires Deluge to be installed via [http://dev.deluge-torrent.org/wiki/Installing/MacOSX/ macports] (or source). Flexget is currently unable to interact with a deluge.app installation (as per ticket [http://flexget.com/ticket/1686/ 1686] and [http://flexget.com/ticket/1886/ 1886]). 
+
 == Windows Users ==
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
