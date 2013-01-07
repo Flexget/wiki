@@ -7,7 +7,7 @@ With this you could for example queue all movies in your imdb watchlist by creat
 '''Example:'''
 
 {{{
-feeds:
+tasks:
   queue_from_imdb:
     imdb_list:
       username: myimdbuser
@@ -22,7 +22,7 @@ Or from RSS feed.
 '''Example:'''
 
 {{{
-feeds:
+tasks:
   queue_from_foobar:
     rss: http://foobar.com/rss.xml # input
     accept_all: yes                # filter which accepts everything
