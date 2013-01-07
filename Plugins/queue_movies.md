@@ -1,6 +1,6 @@
 = Queue Movies =
 
-This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a feed. 
+This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a task. This plugin alone is not useful. To accept the queued movies you will need a task with [wiki:Plugins/movie_queue movie_queue] in it.
 
 With this you could for example queue all movies in your imdb watchlist by creating following feed.
 
