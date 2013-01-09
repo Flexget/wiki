@@ -25,6 +25,7 @@ URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlr
  * Torrentz
  * BakaBT
  * !DeadFrog
+ * NewPCT
 
 === Custom rewriting with regexp ===
 
