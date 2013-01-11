@@ -44,6 +44,15 @@ download: yes
 
 Note that in this example we did not specify path for download as we expect every entry to have a download `path`. If entry without `path` is tried to be downloaded it will be marked as failed.
 
+== Filename (advanced) ==
+
+You can also override filename that is saved by `filename` field. Here's an example that sets it based on title.
+
+{{{
+set:
+  filename: {{title|pathscrub}}.torrent
+}}}
+
 == Options (advanced) ==
 
 There are a couple of options that can be specified when using full syntax:
