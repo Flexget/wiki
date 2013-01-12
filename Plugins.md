@@ -107,6 +107,7 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/tmdb_lookup tmdb_lookup]||'''{{{NEW}}}''' Enable http://www.themoviedb.org/ parsing for imdb fields on-demand.||
 ||[wiki:Plugins/trakt_acquired trakt_acquired]||'''{{{NEW}}}''' Mark accepted episodes/movies as acquired on trakt.tv.||
+||[wiki:Plugins/pogcal_acquired pogcal_acquired]||'''{{{NEW}}}''' Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
 
 These plugins configure other plugins from external sources like 3rd party sites.
 
