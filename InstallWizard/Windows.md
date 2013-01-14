@@ -18,7 +18,7 @@ http://pypi.python.org/pypi/setuptools#downloads
 
 '''Note:''' If you're running 64-bit windows the installer may not work. If so you will need to download [http://peak.telecommunity.com/dist/ez_setup.py ez_setup.py] and run that (eg. python ez_setup.py). This will place the easy_install executable in c:\Python2X\Scripts\.
 
-Since this will not put easy_install in your [http://en.wikipedia.org/wiki/Environment_variable#System_path_variables PATH] environment variable you will have either add it there or use full path to the command (meaning c:\Python2X\Scripts\easy_install instead of easy_install).
+Since this will not put easy_install in your [http://en.wikipedia.org/wiki/Environment_variable#System_path_variables PATH] environment variable you will have to either add it there or use full path to the command (meaning c:\Python2X\Scripts\easy_install instead of easy_install).
 
 == Continue ==
 
