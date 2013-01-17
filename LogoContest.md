@@ -18,3 +18,5 @@ Here is a quick mockup of an idea I had to get the ball rolling.
  - [[Image(http://i.imgur.com/bW2ZO.jpg, 150)]] by lispington
 
  - [[Image(logo_alto.svg,150)]] by alto
+
+ - [[Image(flexgetlogo_1024.png,150)]] by shtimn
