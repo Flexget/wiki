@@ -1,4 +1,4 @@
-= !FlexGet GitHub install =
+= !FlexGet !GitHub install =
 
 '''Notes:''' 
 
