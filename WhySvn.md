@@ -1,4 +1,8 @@
-= Why Trac and svn ? =
+= Deprecated = 
+
+We now use !GitHub as primary repository. Left page for history.
+
+== Why Trac and svn ? ==
 
  * !FlexGet was started before !GitHub or !BitBucket even existed in relevant form.
  * Our build system is integrated with svn revision numbering, of course this could be changed but it requires effort.
