@@ -4,15 +4,13 @@ If you're still using 0.9 see [wiki:MigrateTo10 this].
 
 == Check current version ==
 
-'''''[[Include(http://download.flexget.com/ui/version.php)]]'''''
-
 Start by checking what version you currently have with command:
 
 {{{
 flexget -V
 }}}
 
-Subversion users must use `svnversion .` in checkout directory instead.
+'''TODO:''' Some way for git users to figure which build they have.
 
 Write this down somewhere.
 
