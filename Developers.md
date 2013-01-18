@@ -65,61 +65,61 @@ register_plugin(FilterRegexp, 'regexp')
 
 Listed in order of execution.
 
- * on_feed_start(self, feed)
- * on_feed_input(self, feed)
- * on_feed_metainfo(self, feed)
- * on_feed_filter(self, feed)
- * on_feed_download(self, feed)
- * on_feed_modify(self, feed)
- * on_feed_output(self, feed)
- * on_feed_exit(self, feed)
+ * on_task_start(self, task, config)
+ * on_task_input(self, task, config)
+ * on_task_metainfo(self, task, config)
+ * on_task_filter(self, task, config)
+ * on_task_download(self, task, config)
+ * on_task_modify(self, task, config)
+ * on_task_output(self, task, config)
+ * on_task_exit(self, task, config)
 
-When multiple plugins of same phase type are enabled for a feed, the priority decorator can be used to define execution order. Default is 128. Larger number, higher priority. e.g.
+When multiple plugins of same phase type are enabled for a task, the priority decorator can be used to define execution order. Default is 128. Larger number, higher priority. e.g.
 
 {{{
 @priority(120)
-on_feed_filter(self, feed):
+on_task_filter(self, task, config):
     pass
 }}}
 
-=== Feed execution UML ===
+=== Task execution UML ===
 
 Only most important phases shown.
 
 {{{
 #!SequenceDiagram
-participant Feed
+participant Task
 participant Input
 participant Filter
 participant Download
 participant Output
 
-Feed->Input: Execute Input(s)
-Input->Feed: Add entries
-Feed->Feed: Purge Rejected, Failed
-Feed->Filter: Execute Filter(s)
-Filter->Feed: Reject entries
-Filter->Feed: Accept entries
-Feed->Feed: Purge Rejected, Failed
-Feed->Download: Execute Download(s)
-Feed->Feed: Purge Rejected, Failed
-Feed->Output: Execute Output(s)
+Task->Input: Execute Input(s)
+Input->Task: Add entries
+Task->Task: Purge Rejected, Failed
+Task->Filter: Execute Filter(s)
+Filter->Task: Reject entries
+Filter->Task: Accept entries
+Task->Task: Purge Rejected, Failed
+Task->Download: Execute Download(s)
+Task->Task: Purge Rejected, Failed
+Task->Output: Execute Output(s)
 }}}
 
 === Other phases ===
 
- * on_feed_abort(self, feed)
+ * on_task_abort(self, task, config)
 
 === Application phases ===
 
- * on_process_start(self, feed)
- * on_process_end(self, feed)
+ * on_process_start(self, task, config)
+ * on_process_end(self, task, config)
 
-These are triggered on startup and shutdown, not between feeds.
+These are triggered on startup and shutdown, not between tasks.
 
 === Registering custom phases ===
 
-Plugins may create new feed phases, signature is `on_feed_<name>(self, feed, ....)` (parameters depend on api version).
+Plugins may create new task phases, signature is `on_task_<name>(self, task, ....)` (parameters depend on api version).
 
 === Adding commandline parameters ===
 
