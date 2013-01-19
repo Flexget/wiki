@@ -9,9 +9,9 @@ from flexget.plugin import register_plugin
 class PluginHello(object):
     """Short description of what this plugin does."""
 
-    def on_feed_filter(self, feed, config):
+    def on_task_filter(self, task, config):
         """Work on entries in the filter phase."""
-        for entry in feed.entries:
+        for entry in task.entries:
             log.debug('hello there %s' % entry['title'])
 
 
@@ -29,7 +29,7 @@ from tests import FlexGetBase
 class TestHello(FlexGetBase):
     
     __yaml__ = """
-        feeds:
+        tasks:
           test:
             mock:                 # let's use this plugin to create test data
               - {title: 'foobar'} # we can omit url if we do not care about it, in this case mock will add random url
@@ -37,8 +37,8 @@ class TestHello(FlexGetBase):
     """
     
     def test_feature(self):
-        # run the feed
-        self.execute_feed('test')
+        # run the task
+        self.execute_task('test')
         assert False, 'incomple tests' # causes test to fail and log to be displayed
 }}}
 
