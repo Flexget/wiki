@@ -127,7 +127,13 @@ You can also add more commandline parameters. Check existing plugins. See [http:
 
 == Unit testing ==
 
-!FlexGet has over 200 unit tests so changes are that if your modifications pass the tests nothing major has been broken. We also have CI at [http://hudson.flexget.com].
+!FlexGet has over 200 unit tests so changes are that if your modifications pass the tests nothing major has been broken. We also have CI at [http://ci.flexget.com].
+
+=== Install tools ===
+You can install needed testing tools with:
+{{{
+bin/paver install_tools
+}}}
 
 === Run tests ===
 
