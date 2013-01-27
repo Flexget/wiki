@@ -8,8 +8,8 @@ Commandline parameter must be comma separated list of variable=values.
 Configuration example:
 
 {{{
-feeds:
-  my feed:
+tasks:
+  my task:
     rss: $url
     download: $path
 }}}
