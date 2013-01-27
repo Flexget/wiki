@@ -26,7 +26,7 @@ regexp:
 
 === Examples ===
 
-Require something to be in the title by rejecting anything that does '''not''' have it.
+Require something to be in the title by rejecting everything that does '''not''' have it.
 
 {{{
 regexp:
