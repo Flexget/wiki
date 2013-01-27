@@ -11,7 +11,7 @@ set:
 
 == Set as a sub-plugin ==
 
-Set is not really that useful at the feed level. Certain plugins enable set commands to be called for a specific subset of entries from a feed. Currently [wiki:Plugins/regexp regexp] and [wiki:Plugins/series series] support this format. The use of set in these cases is best understandable through examples.
+Set is not really that useful at the task level. Certain plugins enable set commands to be called for a specific subset of entries from a task. Currently [wiki:Plugins/regexp regexp] and [wiki:Plugins/series series] support this format. The use of set in these cases is best understandable through examples.
  To set the stop ratio option for Some Show:
 {{{
 series:
