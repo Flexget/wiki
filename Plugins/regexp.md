@@ -43,7 +43,7 @@ regexp:
 movie_queue: yes
 }}}
 
-This would only let queued movies pass that have FooBar in their title.
+This would only let queued movies pass that have !FooBar in their title.
 
 
 Multiple operations. This would be useful when grabbing some shows and they appear with unwanted languages as well.
