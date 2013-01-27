@@ -24,6 +24,28 @@ regexp:
     - regexp 2
 }}}
 
+=== Examples ===
+
+Require something to be in the title by rejecting anything that does '''not''' have it.
+
+{{{
+regexp:
+  reject_excluding:
+    - regexp
+}}}
+
+This can be combined with some other accepting filter, example [wiki:Plugins/movie_queue movie_queue].
+
+{{{
+regexp:
+  reject_excluding:
+    - FooBar
+movie_queue: yes
+}}}
+
+This would only let queued movies pass that have FooBar in their title.
+
+
 Multiple operations. This would be useful when grabbing some shows and they appear with unwanted languages as well.
 
 {{{
