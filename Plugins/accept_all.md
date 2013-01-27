@@ -5,7 +5,7 @@ Really simple plugin, just accepts all entries. Remember that accepted entries c
 '''Example:'''
 
 {{{
-feeds:
+tasks:
   prefiltered_feed:
     rss: http://example.com/filtered.rss
     accept_all: yes
