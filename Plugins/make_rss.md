@@ -8,25 +8,25 @@ Write RSS containing succeeded (downloaded) entries.
 make_rss: ~/public_html/flexget.rss
 }}}
 
-You may write into same file in multiple feeds.
+You may write into same file in multiple tasks.
 
 === Example ===
 
 {{{
-my-feed-A:
+my-task-A:
   make_rss: ~/public_html/series.rss
   .
   .
-my-feed-B:
+my-task-B:
   make_rss: ~/public_html/series.rss
   .
   .
 }}}
 
 With this example file `series.rss` would contain succeeded
-entries from both feeds.
+entries from both tasks.
 
-Tip: use a global [wiki:Plugins/preset preset] to make RSS out of every feed without having to configure them individually.
+Tip: use a global [wiki:Plugins/preset preset] to make RSS out of every task without having to configure them individually.
 
 === Example ===
 
@@ -35,10 +35,10 @@ global:
   make_rss: ~/public_html/flexget.rss
 
 feeds:
-  my-feed-A:
+  my-task-A:
     .
     .
-  my-feed-B:
+  my-task-B:
     .
     .
 }}}
