@@ -59,7 +59,7 @@ transmission: yes
 
 Transmission plugin will also utilize options from [wiki:Entry entry] fields. This allows more refined configuration per entry field selection.
 
-Here is an example feed using the series plugin:
+Here is an example task using the series plugin:
 
 {{{
 series:
