@@ -2,7 +2,7 @@
 
 Accept movies based on a predefined queue. After a movie is in the queue, it will be forcibly accepted when seen, disregarding all other filters.
 
-You need to manually add movies to the queue from the commandline, or set up a separate feed with the [wiki:Plugins/queue_movies queue_movies] plugin.
+You need to manually add movies to the queue from the commandline, or set up a separate task with the [wiki:Plugins/queue_movies queue_movies] plugin.
 
 == Related plugins ==
 
@@ -46,7 +46,7 @@ http://www.imdb.com/title/tt1038686 720p bluray
 
 == Enabling the filter ==
 
-Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which feeds the queue is used on. This is done simply by enabling `movie_queue` on them.
+Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which tasks the queue is used on. This is done simply by enabling `movie_queue` on them.
 
 {{{
 movie_queue: yes
