@@ -23,7 +23,7 @@ These keys are used to control reading the session memory of Rtorrent, i.e. usin
 === Dump HDTV downloads of the last 2 days ===
 Dump torrents matching a filter condition, note that both PyroScope (`feed_query`) and FlexGet (`quality`) filtering is used:
 {{{
-feeds:
+tasks:
   pyrotest:
     rtorrent:
       feed_query: 'loaded=-2d'
