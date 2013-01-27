@@ -1,6 +1,6 @@
 = Headers =
 
-Allows editing request headers. This will affect most of the plugins in a feed (everything that uses urllib2).
+Allows editing request headers. This will affect most of the plugins in a task (everything that uses urllib2).
 
 '''Example: cookies'''
 
@@ -23,4 +23,4 @@ headers:
 
 == Security warning ==
 
-Setting headers in a feed will affect most of the HTTP request made in it the feed. This means that the values you set in the headers can be leaked to some unintended services as well.
+Setting headers in a task will affect most of the HTTP request made in the task. This means that the values you set in the headers can be leaked to some unintended services as well.
