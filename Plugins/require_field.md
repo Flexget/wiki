@@ -4,7 +4,7 @@ This plugin will reject any [wiki:Entry entries] that do not have the specified 
 
 '''Example:'''
 
-This example does the same thing as the [wiki:Plugins/imdb_required imdb_required] plugin. (As long as [wiki:Plugins/imdb_lookup imdb_lookup] is also enabled on the feed.)
+This example does the same thing as the [wiki:Plugins/imdb_required imdb_required] plugin. (As long as [wiki:Plugins/imdb_lookup imdb_lookup] is also enabled on the task.)
 {{{
 require_field: imdb_url
 }}}
