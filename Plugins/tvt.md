@@ -16,7 +16,7 @@ Just set '''tvt: yes''' and configure [wiki:Plugins/cookies cookies] plugin.
 == Example ==
 
 {{{
-feeds:
+tasks:
   TVTorrents:
     tvt: yes
 }}}
