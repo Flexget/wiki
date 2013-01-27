@@ -1,6 +1,6 @@
 = Interval =
 
-Allows specifying minimum interval for feed execution.
+Allows specifying minimum interval for task execution.
 
 Format: [n] [minutes|hours|days|months]
 
