@@ -20,7 +20,7 @@ Search:
 
 Note: if keyword has spaces it must be quoted.
 
-Retrieve (inject into feed):
+Retrieve (inject into task):
 
 {{{
 --archive inject ID [FORCE]
