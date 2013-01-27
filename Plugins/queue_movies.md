@@ -2,7 +2,7 @@
 
 This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a task. This plugin alone is not useful. To accept the queued movies you will need a task with [wiki:Plugins/movie_queue movie_queue] in it.
 
-With this you could for example queue all movies in your imdb watchlist by creating following feed.
+With this you could for example queue all movies in your imdb watchlist by creating following task.
 
 '''Example:'''
 
@@ -29,7 +29,7 @@ tasks:
     queue_movies: yes              # output entries to movie queue (with quality any)
 }}}
 
-These are not feeds in traditional !FlexGet sense as they don't download anything. Instead they are more like utility tasks.
+These are not tasks in traditional !FlexGet sense as they don't download anything. Instead they are more like utility tasks.
 
 Queue movies will work best with entries containing imdb_id/url or tmdb, if they're not available it will try to get them on it's own. Relying on this will mean that some of the entries may not be added to the [wiki:Plugins/movie_queue movie_queue].
 
