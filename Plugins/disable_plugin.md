@@ -12,7 +12,7 @@ movies:
     .
     .
 
-feeds:
+tasks:
   nzbs:
     preset: movies
     disable_plugin:
@@ -22,4 +22,4 @@ feeds:
       .
 }}}
 
-Feed nzbs uses all other configuration from preset movies but removes the download plugin and instead uses [wiki:Plugins/sabnzbd sabnzbd].
+Task nzbs uses all other configuration from preset movies but removes the download plugin and instead uses [wiki:Plugins/sabnzbd sabnzbd].
