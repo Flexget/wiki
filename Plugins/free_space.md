@@ -1,5 +1,5 @@
 = Free Space =
-This plugin will abort a feed if free space on a given drive is getting low.
+This plugin will abort a task if free space on a given drive is getting low.
 
 ||'''Option'''||'''Description'''||
 ||path||The path that you want to monitor for space.||
