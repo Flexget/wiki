@@ -14,14 +14,14 @@ Rtorrent users should use `rtorrent`, so that incoming torrents never contain ke
 
 == Examples ==
 
-To scrub one feed:
+To scrub one task:
 {{{
-feeds:
-  rutorrent-fast-resume-infected-feed:
+tasks:
+  rutorrent-fast-resume-infected-task:
     torrent_scrub: rtorrent
 }}}
 
-If you want to be sure that all feeds are scrubbed, because you can never know, use this:
+If you want to be sure that all tasks are scrubbed, because you can never know, use this:
 {{{
 presets:
   global:
