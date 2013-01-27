@@ -6,7 +6,7 @@ Plugin expects the title format to start with the series name followed by the ep
 
 '''Examples:'''
 
-Turns on the plugin for a feed.
+Turns on the plugin for a task.
 
 {{{
 all_series: yes
