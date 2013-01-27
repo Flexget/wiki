@@ -1,6 +1,6 @@
 = Include =
 
-Allows including configuration from another file into a feed.
+Allows including configuration from another file into a task.
 
 === Example ===
 
@@ -8,7 +8,7 @@ Allows including configuration from another file into a feed.
 '''config.yml'''
 
 {{{
-feeds:
+tasks:
   stuff:
     rss: ...
     include: series.yml
