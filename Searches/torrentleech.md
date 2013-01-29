@@ -9,11 +9,10 @@ torrentleech:
   username: xxxxxx
   password: xxxxxx
 }}}
-If you would like to define a custom category, you can use the following options:
+If you would like to define a custom category, you can use the following option:
  category::
  Can be one of the following: \\
-      all, Cam, TS, R5, DVDRip, DVDR, HD, BDRip, Boxsets, Documentaries \\
-
+      all, Cam, TS, R5, DVDRip, DVDR, HD, BDRip, Boxsets, Documentaries \\\\
  You can also specify the category number directly from Torrentleech if it is not listed above. \\
  
 Example:
