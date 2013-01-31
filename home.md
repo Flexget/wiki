@@ -49,7 +49,7 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
 <div class="supported">
 <b>Usenet</b>
 <ul>
-  <li><a href="http://nzbget.sourceforge.net/">nzbget</a></li>
+  <li><a href="http://nzbget.sourceforge.net/">nzbget</a>*</li>
   <li><a href="http://www.sabnzbd.org/">sabnzb</a>*</li>
   <li><a href="http://www.hellanzb.com">hellanzb</a></li>
 </ul>
