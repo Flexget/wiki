@@ -4,13 +4,13 @@ This plugin will scan accepted items that haven't been downloaded for magnet URI
 
 === Example ===
 
-The most common example of using this plugin is to simply set up a default download path
+Save magnet link to rTorrent watch directory as a file.
 
 {{{
 rtorrent_magnet: ~/torrents/
 }}}
 
-However, you can also override the path used on a per item basis (just like the download plugin)
+However, you can also override the path where magnet file is saved per entry basis (just like the download plugin)
 
 === External Links ===
 
