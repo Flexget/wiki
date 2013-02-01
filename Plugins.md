@@ -130,7 +130,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pushover pushover]||'''{{{NEW}}}''' Send Pushover notifications (iPhone and Android).||
-||[wiki:Plugins/rapidpush rapidpush]||'''{{{NEW}}}''' RapidPush is an easy-to-use push notification service. (Android).||
+||[wiki:Plugins/rapidpush rapidpush]||'''{{{NEW}}}''' An easy-to-use push notification service. (Android).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
