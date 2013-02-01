@@ -131,6 +131,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pushover pushover]||'''{{{NEW}}}''' Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
+||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
@@ -192,7 +193,6 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 ||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
-||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[https://github.com/atlanta800/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific custom movie filter by atlanta800.||
 ||[https://github.com/nikdoof/flexget-twitter flexget-twitter]||'''{{{NEW}}}''' Twitter output plugin, allowing posting to twitter when entries are accepted.||
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
