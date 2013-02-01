@@ -101,3 +101,15 @@ make_rss:
   file: ~/public_html/series.rss
   encoding: utf-8
 }}}
+
+== Templates ==
+
+RSS plugin now supports templating the content and title. These can be achieved via following configuration.
+
+''TODO: improve this section''
+
+{{{
+make_rss:
+  template: <file? or jinja2 template as inline>
+  title: <jinja2 template>
+}}}
