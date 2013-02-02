@@ -20,5 +20,17 @@ rapidpush:
 
 All options marked in `[]` are optional.
 
+==== Example ====
+{{{
+rapidpush:
+  priority: 3
+  group: mydevices
+  title: 'New Entries from: {{task}}'
+  message: 'Downloaded: {{title}}'
+  apikey: QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr
+}}}
+
+
 If you do not provide a group, the notification is send to all your registered devices. If you want to filter out some devices you can create a group or setup a filter within our user interface.
 If you decided to create a group, just provide the group name within the configuration.
+
