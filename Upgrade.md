@@ -4,6 +4,8 @@ If you're still using 0.9 see [wiki:MigrateTo10 this].
 
 == Check current version ==
 
+'''''[[Include(http://download.flexget.com/latestversion)]]'''''
+
 Start by checking what version you currently have with command:
 
 {{{
