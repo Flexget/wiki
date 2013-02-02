@@ -26,7 +26,7 @@ pip install --upgrade flexget
 
 [wiki:PipProblems Problems with pip?]
 
-Subversion users can just run `svn up`.
+Git users can just run `git pull`.
 
 == Verify ==
 
