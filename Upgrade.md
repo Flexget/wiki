@@ -12,7 +12,7 @@ Start by checking what version you currently have with command:
 flexget -V
 }}}
 
-'''TODO:''' Some way for git users to figure which build they have.
+'''''Git Users:''''' You can check the latest release you have by getting new tags with {{{git fetch --tags}}} then running {{{git describe}}}
 
 Write this down somewhere.
 
