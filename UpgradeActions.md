@@ -6,6 +6,16 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.2.2 ===
+
+If you get critical error:
+
+{{{
+Error while registering plugin metainfo_task. A plugin with the name metainfo_task is already registered
+}}}
+
+The upgrade has left "feed.pyc" behind in python's site-packages. Find it and delete it to resolve the issue.
+
 === 4.10.2012 r3158 ===
 The [wiki:Searches/kat kat] search plugin was updated to use {{{verified}}} option. You will need to update your conifg if you are using it.
 {{{
