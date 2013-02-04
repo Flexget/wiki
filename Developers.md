@@ -164,13 +164,6 @@ And then place this where you wish to hack:
 import IPython; IPython.embed()
 }}}
 
-For older 0.10 IPython this works ..
-
-{{{
-from IPython.Shell import IPShellEmbed
-ipshell = IPShellEmbed([])
-ipshell()
-}}}
 -------------------------
 Thanks to !JetBrains for the free open source !PyCharm license!
 
