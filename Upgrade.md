@@ -36,9 +36,9 @@ Check if your configuration file is still valid, there may have been some change
 flexget --check
 }}}
 
-If your configuration doesn't pass check, Have a look at [wiki:UpgradeActions upgrade actions] to see if there are any actions you must take. 
+If your configuration doesn't pass check, Have a look at [wiki:UpgradeActions upgrade actions] to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [wiki:UpgradeActions upgrade actions] even if your config is passing.
 
-For example, if you were running r904 follow all the steps from this revision upwards.
+For example, if you were running r904 follow all the steps above this revision.
 
 === Problems ? ===
 
