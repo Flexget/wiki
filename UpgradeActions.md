@@ -6,6 +6,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.2.4 1.0.3334 ===
+
+The {{{all_entries}}} option for [wiki:Plugins/rss rss] plugin has been changed to be on by default. If you would like to improve performance on your task by having the rss plugin only emit entries once, you must manually turn this option on.
+
 === 2013.2.2 ===
 
 If you get critical error:
