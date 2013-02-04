@@ -41,7 +41,7 @@ By default this plugin outputs each entry from the rss on every run. If you woul
 {{{
 rss:
   url: http://example.com
-  all_entries: yes
+  all_entries: no
 }}}
 
 === Link field ===
