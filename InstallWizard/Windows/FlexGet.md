@@ -5,7 +5,7 @@
 Run command (shortcut windows key + r):
 
 {{{
-easy_install flexget
+pip flexget
 }}}
 
 This will install !FlexGet and all additional components it requires.
