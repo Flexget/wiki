@@ -75,7 +75,7 @@ system.method.set_key = event.download.erased,rm_incomplete,"branch=d.get_custom
 This configuration is just a simple example, see other recipes for more inspiration.
 
 {{{
-feeds:
+tasks:
   debian:
     html: http://cdimage.debian.org/debian-cd/current/i386/bt-dvd/
     regexp:
@@ -110,6 +110,7 @@ You are all done, your downloads should start and stop automatically. All that i
 
 === Further improvements ===
 
-The [wiki:Plugins/rtorrent rtorrent] plugin can be used to optimize the above setup (when it's ready), and [wiki:Plugins/torrent_scrub torrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in Rtorrent.
+[wiki:Plugins/torrent_scrub torrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in rTorrent.
+[wiki:Plugins/rtorrent_magnet] allows saving magnet links in rTorrent format.
 
 [wiki:Cookbook Back to The Cookbook]
