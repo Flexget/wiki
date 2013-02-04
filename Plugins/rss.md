@@ -35,7 +35,7 @@ rss:
 There are more advanced options that can be used with the rss plugin if you need them.
 
 === All Entries ===
-By default this plugin only outputs each entry from the rss one time. If you need all entries from the feed to be created every run, use the {{{all_entries}}} configuration option.
+By default this plugin outputs each entry from the rss on every run. If you would like to improve the performance of a task using this plugin, you can set {{{all_entries: no}}} to have each entry only created on the first run it is seen.
 
 '''Note:''' Due to this behavior, the [wiki:Plugins/only_new only_new] plugin is not needed along with this input, and in fact should not be used, as it is less efficient.
 {{{
