@@ -136,6 +136,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
+||[wiki:Plugins/notify_osd notify_osd]||'''{{{NEW}}}''' Send notifications to notify-osd.(linux only. Ubuntu tested)||
 
 == Modify / Other ==
 
