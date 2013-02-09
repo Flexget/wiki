@@ -39,3 +39,16 @@ for entry in (e.accepted for e in entries):
 for entry in (e.accepted or e.undecided for e in entries):
   e.reject()
 }}}
+
+
+=== Option 3 - properties ===
+
+If/since our entries is custom list class, we could use properties from it.
+
+{{{
+for entry in entries.accepted:
+  entry.reject()
+}}}
+
+* Similar problem, how to loop through old task.entries
+* I'm not aware of any other python iterable that has built in filtering methods
