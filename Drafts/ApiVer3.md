@@ -32,8 +32,8 @@ for entry in (e.accepted for e in entries):
 }}}
 
 * Slightly more verbose
-* Iterating the old task.entries is even more verbose
 * Feels very pythonic and is very explicit
+* Iterating the old task.entries is even more verbose - and we do this most
 
 {{{
 for entry in (e.accepted or e.undecided for e in entries):
