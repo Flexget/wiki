@@ -10,7 +10,7 @@ After you have logged in to your account, goto your user interface and click on 
 === Configuration ===
 {{{
 rapidpush:
-    apikey: xxxxxxx
+    apikey: xxxxxxx,[bbbbb,....]
     [category: category, default FlexGet]
     [title: title, default New release]
     [group: device group, default no group]
@@ -30,7 +30,16 @@ rapidpush:
   apikey: QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr
 }}}
 
+==== Example with multiple API-Key ====
+{{{
+rapidpush:
+  priority: 3
+  group: mydevices
+  title: 'New Entries from: {{task}}'
+  message: 'Downloaded: {{title}}'
+  apikey: QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr,180b2042d270a23c902176ca582121ee180b2042d270a23c902176ca582121ee
+}}}
+
 
 If you do not provide a group, the notification is send to all your registered devices. If you want to filter out some devices you can create a group or setup a filter within our user interface.
 If you decided to create a group, just provide the group name within the configuration.
-
