@@ -18,7 +18,15 @@ If you get critical error:
 Error while registering plugin metainfo_task. A plugin with the name metainfo_task is already registered
 }}}
 
-The upgrade has left "feed.py" and/or "feed.pyc" behind in python's site-packages. Find them and delete them to resolve the issue.
+or
+
+{{{
+File "/usr/local/lib/python2.7/dist-packages/flexget/plugins/metainfo/feed.py", line 7, in <module>
+    class MetainfoTask(plugin.BuiltinPlugin):
+AttributeError: 'module' object has no attribute 'BuiltinPlugin'
+}}}
+
+The upgrade has left "feed.py" behind in python's site-packages. Remove !FlexGet directory from site-packages or dist-packages and reinstall !FlexGet.
 
 === 4.10.2012 r3158 ===
 The [wiki:Searches/kat kat] search plugin was updated to use {{{verified}}} option. You will need to update your conifg if you are using it.
