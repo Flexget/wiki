@@ -46,30 +46,30 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
 ||location||[wiki:Plugins/listdir listdir]||The local filename of the entry.||
-||series_name_tvdb||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
-||series_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
-||series_status||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series status(Continuing or Ended)||
-||series_runtime||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series runtime in minutes)||
-||series_first_air_date||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series premier date||
-||series_air_time||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series air time||
-||series_content_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series content ration||
-||series_genres||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series genres||
-||series_network||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series network||
-||series_banner_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series banner url||
-||series_fanart_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series fanart url||
-||series_poster_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series poster url||
-||series_airs_day_of_week||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series airs date of the week||
-||series_actors||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series actors||
-||series_language||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series language(en, fr, etc.)||
+||tvdb_series_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
+||tvdb_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
+||tvdb_status||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series status(Continuing or Ended)||
+||tvdb_runtime||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series runtime in minutes)||
+||tvdb_first_air_date||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series premier date||
+||tvdb_air_time||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series air time||
+||tvdb_content_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series content ration||
+||tvdb_genres||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series genres||
+||tvdb_network||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series network||
+||tvdb_banner_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series banner url||
+||tvdb_fanart_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series fanart url||
+||tvdb_poster_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series poster url||
+||tvdb_airs_day_of_week||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series airs date of the week||
+||tvdb_actors||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series actors||
+||tvdb_language||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series language(en, fr, etc.)||
 ||imdb_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series imdb url||
 ||zap2it_id||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||||
-||ep_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode name||
-||ep_overview||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode plot||
-||ep_director||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode director||
-||ep_writer||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode writer||
-||ep_air_date||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode air date||
-||ep_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode rating||
-||ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode guest stars||
-||ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
+||tvdb_ep_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode name||
+||tvdb_ep_overview||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode plot||
+||tvdb_ep_director||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode director||
+||tvdb_ep_writer||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode writer||
+||tvdb_ep_air_date||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode air date||
+||tvdb_ep_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode rating||
+||tvdb_ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode guest stars||
+||tvdb_ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
 
 ^* = and other plugins that utilize this plugin^
