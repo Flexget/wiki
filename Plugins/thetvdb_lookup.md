@@ -1,12 +1,12 @@
 = TheTVDB Lookup =
 
-For most purposes, the series name is sufficient to get a match on TheTVDB. If you can't get a match (e.g., multiple IDs defined for a series name) then you can provide the thetvdb_id from their website to bypass the matching process.
+For most purposes, the series name is sufficient to get a match on TheTVDB. If you can't get a match (e.g., multiple IDs defined for a series name) then you can provide the tvdb_id from their website to bypass the matching process.
 
 {{{
 series:
   - some_series:
       set:
-        thetvdb_id: <thetvdb_id>
+        tvdb_id: <tvdb_id>
 }}}
 
 This plugin looks up more information from thetvdb.com about any entries that !FlexGet has identified as series. thetvdb_lookup will populate several more entry fields that can be used in other plugins.
