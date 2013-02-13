@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.2.12 1.0.3348 ===
+All entry fields provided by [wiki:Plugins/thetvdb_lookup thetvdb_lookup] have been updated to have a 'tvdb_' prefix. If you are using these fields in your config or custom template, you will need to update them. For the most part fields with a 'series_' prefix have been replaced with 'tvdb_' prefix, and fields with an 'ep_' prefix have had the 'tvdb_' prefix added. 'thetvdb_id' has been renamed to 'tvdb_id' and 'series_name_tvdb' has been renamed to 'tvdb_series_name'. The updated list of fields can be found on the [wiki:Plugins/thetvdb_lookup thetvdb_lookup] page.
+
 === 2013.2.4 1.0.3334 ===
 
 The {{{all_entries}}} option for [wiki:Plugins/rss rss] plugin has been changed to be on by default. If you would like to improve performance on your task by having the rss plugin only emit entries once, you must manually turn this option on.
