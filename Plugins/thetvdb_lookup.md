@@ -45,7 +45,7 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 
 '''Example:'''
 
-The most common use is to look up an episode title that can be used to format a pretty filename. This example uses {{{ep_name}}} as parsed by thetvdb_lookup in the [wiki:Plugins/set set] plugin to set {{{content_filename}}} (which the [wiki:Plugins/deluge deluge] plugin uses to rename the main file within a torrent.) The 'default' jinja filter is used to insert 'Unknown' if thetvdb_lookup fails to get an ep_name for the entry.
+The most common use is to look up an episode title that can be used to format a pretty filename. This example uses {{{tvdb_ep_name}}} as parsed by thetvdb_lookup in the [wiki:Plugins/set set] plugin to set {{{content_filename}}} (which the [wiki:Plugins/deluge deluge] plugin uses to rename the main file within a torrent.) The 'default' jinja filter is used to insert 'Unknown' if thetvdb_lookup fails to get an tvdb_ep_name for the entry.
 {{{
 thetvdb_lookup: yes
 set:
