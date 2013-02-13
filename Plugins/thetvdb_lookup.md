@@ -11,33 +11,33 @@ series:
 
 This plugin looks up more information from thetvdb.com about any entries that !FlexGet has identified as series. thetvdb_lookup will populate several more entry fields that can be used in other plugins.
 
-||series_name_tvdb||Series name provided by thetvdb||
-||series_rating||Series rating||
-||series_status||Series status(Continuing or Ended)||
-||series_runtime||Series runtime in minutes)||
-||series_first_air_date||Series premier date||
-||series_air_time||Series air time||
-||series_content_rating||Series content ration||
-||series_genres||Series genres||
-||series_network||Series network||
-||series_banner_url||Series banenr url||
-||series_fanart_url||Series fanart url||
-||series_poster_url||Series poster url||
-||series_airs_day_of_week||Series airs date of the week||
-||series_actors||Series actors||
-||series_language||Series language(en, fr, etc.)||
+||tvdb_series_name||Series name provided by thetvdb||
+||tvdb_rating||Series rating||
+||tvdb_status||Series status(Continuing or Ended)||
+||tvdb_runtime||Series runtime in minutes)||
+||tvdb_first_air_date||Series premier date||
+||tvdb_air_time||Series air time||
+||tvdb_content_rating||Series content ration||
+||tvdb_genres||Series genres||
+||tvdb_network||Series network||
+||tvdb_banner_url||Series banenr url||
+||tvdb_fanart_url||Series fanart url||
+||tvdb_poster_url||Series poster url||
+||tvdb_airs_day_of_week||Series airs date of the week||
+||tvdb_actors||Series actors||
+||tvdb_language||Series language(en, fr, etc.)||
 ||imdb_url||Series imdb url||
 ||imdb_id||||
 ||zap2it_id||||
-||thetvdb_id||||
-||ep_name||Episode name||
-||ep_overview||Episode plot||
-||ep_directors||Episode directors||
-||ep_writers||Episode writers||
-||ep_air_date||Episode air date||
-||ep_rating||Episode rating||
-||ep_guest_stars||Episode guest stars||
-||ep_image_url||Episode image url||
+||tvdb_id||||
+||tvdb_ep_name||Episode name||
+||tvdb_ep_overview||Episode plot||
+||tvdb_ep_directors||Episode directors||
+||tvdb_ep_writers||Episode writers||
+||tvdb_ep_air_date||Episode air date||
+||tvdb_ep_rating||Episode rating||
+||tvdb_ep_guest_stars||Episode guest stars||
+||tvdb_ep_image_url||Episode image url||
 ||tvdb_season||Season number of this episode.||
 ||tvdb_episode||Episode number.||
 ||tvdb_ep_id||Season and episode in SxxEyy format.||
