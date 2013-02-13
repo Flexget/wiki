@@ -49,5 +49,5 @@ The most common use is to look up an episode title that can be used to format a 
 {{{
 thetvdb_lookup: yes
 set:
-  content_filename: "{{ series_name }} - {{ series_id }} - {{ ep_name|default('Unknown') }}  - {{ quality|upper }}"
+  content_filename: "{{ tvdb_series_name }} - {{ series_id }} - {{ tvdb_ep_name|default('Unknown') }}  - {{ quality|upper }}"
 }}}
