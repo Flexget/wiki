@@ -10,7 +10,7 @@ After you have logged in to your account, goto your user interface and click on 
 === Configuration ===
 {{{
 rapidpush:
-    apikey: xxxxxxx,[bbbbb,....]
+    apikey: xxxxxxx (or a list of api keys)
     [category: category, default FlexGet]
     [title: title, default New release]
     [group: device group, default no group]
@@ -37,7 +37,9 @@ rapidpush:
   group: mydevices
   title: 'New Entries from: {{task}}'
   message: 'Downloaded: {{title}}'
-  apikey: QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr,180b2042d270a23c902176ca582121ee180b2042d270a23c902176ca582121ee
+  apikey:
+    - QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr
+    - 180b2042d270a23c902176ca582121ee180b2042d270a23c902176ca582121ee
 }}}
 
 
