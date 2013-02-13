@@ -9,7 +9,7 @@ The if plugin allows a limited subset of python. If statements can contain:
 - All python operators are usable, e.g. + - / * and or in == < >
 - Python literals, e.g. True False 1 2 'some string' ['a', 'list, 'of', 'strings'] {'a': 1, 'dictionary', 2}
 - Basic builtin types are also available (for casting): str unicode int float
-- Any of the methods of objects available are useable with the exception of !__doubleunderscore!__ ones. e.g series_genres![0].upper()
+- Any of the methods of objects available are useable with the exception of !__doubleunderscore!__ ones. e.g tvdb_genres![0].upper()
 - There are several other functions and objects available:
 ||'''Object'''||'''Decscription'''||
 ||has_field('<field_name>')||Returns true if the entry has the field field_name.||
@@ -30,8 +30,8 @@ Simple actions (accept, reject, and fail) can be specified directly after the co
 {{{
 thetvdb_lookup: yes
 if:
-  - "'Reality' in series_genres": reject
-  - ep_air_date < now - timedelta(days=10): reject
+  - "'Reality' in tvdb_genres": reject
+  - tvdb_ep_air_date < now - timedelta(days=10): reject
 }}}
 
 '''Example:''' Here is a more advanced example to reject multiple imdb_genres.
