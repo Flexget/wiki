@@ -82,12 +82,12 @@ regexp:
 By default, regexp plugin will only try to match in the title and description fields of the entry. If you would like to specify custom fields to search in, you can do so either per regexp, or for the whole plugin at once. You can either list a single field to search from, or a list of fields.
 
 === Examples ===
-Reject drama from the series_genre field which is filled by thetvdb_lookup plugin.
+Reject drama from the tvdb_genre field which is filled by [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin.
 {{{
 regexp:
   reject:
     - drama:
-        from: series_genres
+        from: tvdb_genres
 }}}
 Make sure all regexps only apply to title field.
 {{{
