@@ -6,7 +6,7 @@ This is unnecessarily complicated at the moment, easier methods for installing a
 
 == Set up environment ==
 
-If you already have '''Python 2.6.x - 2.7.x''' and '''easy_install''', you can continue to next step.
+If you already have '''Python 2.6.x - 2.7.x''' and '''pip''', you can continue to next step.
 
 === Install Python ===
 
