@@ -20,6 +20,6 @@ Since this might not put pip in your [http://en.wikipedia.org/wiki/Environment_v
 
 == Continue ==
 
-After successfully installing ''Python'' and ''easy_install''
+After successfully installing ''Python'' and ''pip''
 
 [wiki:InstallWizard/Windows/FlexGet Install FlexGet]
