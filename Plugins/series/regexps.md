@@ -8,6 +8,7 @@ The standard name matching works quite well, but in some cases you may need to s
    * If you have titles with confusing crap in them, use [wiki:Plugins/manipulate manipulate] plugin to clean them!
  * `name_regepx` is useful for series which are written in more than one way
  * If specifying name_regexp(s) make sure that these match '''only to the given series.'''
+ * If specifying ep_regexp or id_regexp you will most likely want to lock that series into that format with [wiki:Plugins/series/identified_by identified_by] option.
  * Pay attention to the ''indentation'' here
 
 '''Example:'''
@@ -16,8 +17,8 @@ The standard name matching works quite well, but in some cases you may need to s
 series:
   - some series:
       ep_regexp: (\d\d)-(\d\d\d)     # must return TWO groups, both being numeric values
-      id_regexp: (\d\d\d)            # can return any number of groups
   - another series
+      id_regexp: (\d\d\d)            # can return any number of groups
   - third series
 }}}
 
