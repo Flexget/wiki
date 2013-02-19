@@ -15,7 +15,7 @@ presets:
       password: mypassword
       api_key: myapikey
 
-feeds:
+tasks:
 
   Update-TV:
     preset: [acquired]
