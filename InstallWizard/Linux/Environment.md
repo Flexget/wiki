@@ -11,7 +11,6 @@ python -V
 In some distributions the newer python may be available trough commands:
 
 {{{
-python25 -V
 python26 -V
 python27 -V
 }}}
