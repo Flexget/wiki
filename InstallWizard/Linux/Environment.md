@@ -18,10 +18,16 @@ python27 -V
 
 If you don't have required version already available, install it from your distribution package manager.
 
-With Debian based distributions you can simply run:
+With Debian based distributions you can simply run with root privileges:
 
 {{{
 sudo apt-get install python2.6
+}}}
+
+With Arch Linux based distributions you can simply run with root privileges:
+
+{{{
+sudo pacman -S python2
 }}}
 
 == pip ==
@@ -32,6 +38,12 @@ With Debian based distributions you can simply run with root privileges:
 
 {{{
 sudo apt-get install python-pip
+}}}
+
+With Arch Linux based distributions you can simply run with root privileges:
+
+{{{
+sudo pacman -S python2-pip
 }}}
 
 If your distribution does not have the package available, see further instructions from 
