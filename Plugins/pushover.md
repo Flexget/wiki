@@ -23,6 +23,8 @@ More advanced configuration provides the ability to:
 * override the notification message body (`message`)
 * override the notification priority (`priority`)
 * override the URL sent in the notification (`url`)
+* override the default sound (`sound`)
+* use multiple userkeys with a list for (`userkey`)
 
  device::
   (string) device name as specified in the Pushover configuration
@@ -38,11 +40,14 @@ More advanced configuration provides the ability to:
 ==== Example ====
 {{{
 pushover:
-  userkey: o23ywmAaaxTYxn00jY2JAwQ2EeYXGt
+  userkey: 
+    - o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
+    - 0ydnaF3023jKadfkja9fjdkjaXfdfsaySGa
   apikey: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
   device: mobile
   title: Downloading {{series_name}}
   message: Episode {{series_id}}
   priority: 1
   url: http://server.example.com/path/to/downloader/ui
+  sound: incoming
 }}}
