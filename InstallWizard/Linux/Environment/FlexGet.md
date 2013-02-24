@@ -14,15 +14,7 @@ sudo pip install flexget
 
 This will install !FlexGet and all additional components it requires.
 
-In some cases, your system might says ''pip: command not found''. In that case, try to run:
-
-{{{
-pip2 install flexget
-}}}
-or (from a normal user's shell)
-{{{
-sudo pip2 install flexget
-}}}
+If you get ''pip: command not found'' pip was not installed correctly in previous step.
 
 === Verify installation ===
 
