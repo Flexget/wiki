@@ -35,3 +35,13 @@ We could also provide endpoints for the set of plugins that only act on a certai
 = Errors =
 Errors need some thought as well. jsonschema provides us with a path to the problem very similar to what we already show (e.g. /tasks/atask/accept_all/), and in some cases has an error message very similar to what we already have. Other cases though the error messages will not be user friendly at all (e.g. "anyOf" validator will print the full schemas that needed to be matched.)
 We need to come up with some way for cleaner user facing errors, possibly extend jsonschema with some sort of error keywords, haven't thought of anything really great yet though.
+
+= Endpoints =
+Here's what I'm thinking for endpoints to get schemas:
+- /schemas/plugin/<nameofplugin>: The schema for an individual plugin
+- /schemas/plugins/all: A schema which allows all plugins in dict form, i.e. what a task accepts.
+These would be dict validators, like all, but for a subset of plugins:
+- /schemas/plugins/group/<groupname>
+- /schemas/plugins/phase/<phasename>
+
+
