@@ -45,4 +45,6 @@ These would be dict validators, like all, but for a subset of plugins:
 - /schemas/plugins/phase/<phasename>
 - /schemas/plugins/context/<contextname>
 
+I guess we should have an endpoint for getting the root schema as well
+- /schemas/root
 
