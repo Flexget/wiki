@@ -11,6 +11,7 @@ Most commonly used with [wiki:Plugins/thetvdb_favorites thetvdb_favorites], [wik
 import_series:
   [settings]:
     # any series option
+    # e.g. quality, timeframe etc
   from:
     # any input(s)
 }}}
