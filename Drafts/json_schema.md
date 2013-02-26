@@ -43,5 +43,6 @@ Here's what I'm thinking for endpoints to get schemas:
 These would be dict validators, like all, but for a subset of plugins:
 - /schemas/plugins/group/<groupname>
 - /schemas/plugins/phase/<phasename>
+- /schemas/plugins/context/<contextname>
 
 
