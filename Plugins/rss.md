@@ -10,7 +10,9 @@ rss: <url>
 
 Note: https supported.
 
-=== Basic http authentication ===
+=== Authentication ===
+
+'''Basic http authentication'''
 
 {{{
 rss:
@@ -18,6 +20,8 @@ rss:
   username: <name>
   password: <password>
 }}}
+
+Some feeds are private and require that you use some form of authentication, try [wiki:Plugins/headers headers] or  [wiki:Plugins/cookies cookies] plugins.
 
 === Read from a file ===
 
@@ -128,7 +132,3 @@ rss:
   url: <url>
   ascii: yes
 }}}
-
-=== Authentication ===
-
-Some trackers are private and require that you use some form of authentication, try [wiki:Plugins/headers headers] or  [wiki:Plugins/cookies cookies] plugins.
