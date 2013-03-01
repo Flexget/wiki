@@ -48,3 +48,16 @@ These would be dict validators, like all, but for a subset of plugins:
 I guess we should have an endpoint for getting the root schema as well
 - /schemas/root
 
+= Issues =
+Started implementing this [https://github.com/Flexget/Flexget/tree/jsonschema here]. Ran in to a couple issues so far.
+- I removed the {"$ref": "/schema/plugins?context=input"} style refs for the moment in favor calling a function directly to create that schema.
+This is an issue because when plugins are registered, the list of plugins is incomplete, so the generated schema is incomplete.
+I'm thinking we add that back in by allowing functions to be passed to [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L13 register_schema] which will be evaluated by [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L17 resolve_local] when accessed.
+- Validating dict keys.
+There are a couple spots where we validate dict keys. (regexp plugin allows only valid regexps as keys, if plugin makes sure keys don't contain some words)
+Json schema only has methods to do this with regex. This will work for some of our current uses (if plugin) but not others (regexp). There are a few options:
+We can define our own validation keywords, extending json schema. This may not be desirable if we want to be able to use our schemas in any external tools, like a config editor.
+Relax some of the validation on these in favor of runtime errors.
+Rethink the config format to avoid having to validate keys.
+- Errors.
+They suck right now. We need to come up with what our requirements are, and how best to display both general errors, and custom errors that can be defined by plugins.
