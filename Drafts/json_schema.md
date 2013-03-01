@@ -52,7 +52,7 @@ I guess we should have an endpoint for getting the root schema as well
 Started implementing this [https://github.com/Flexget/Flexget/tree/jsonschema here]. Ran in to a couple issues so far.
 - I removed the {"$ref": "/schema/plugins?context=input"} style refs for the moment in favor calling a function directly to create that schema.
 This is an issue because when plugins are registered, the list of plugins is incomplete, so the generated schema is incomplete.
-I'm thinking we add that back in by allowing functions to be passed to [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L13 register_schema] which will be evaluated by [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L17 resolve_local] when accessed.
+I'm thinking we add that back in by allowing functions to be passed to [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L13 register_schema] which will be evaluated by [https://github.com/Flexget/Flexget/blob/jsonschema/flexget/config_schema.py#L17 resolve_local] when accessed. EDIT: Did this [https://github.com/Flexget/Flexget/commit/1d764c1d997457a34414871f9a3b8ca53ef29de8 here]
 - Validating dict keys.
 There are a couple spots where we validate dict keys. (regexp plugin allows only valid regexps as keys, if plugin makes sure keys don't contain some words)
 Json schema only has methods to do this with regex. This will work for some of our current uses (if plugin) but not others (regexp). There are a few options:
