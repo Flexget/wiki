@@ -37,7 +37,7 @@ tasks:
       - Adventure Time
     move:
       # this is where the series will be put
-      to: /home/TV/{{ tvdb_series_name }}
+      to: /home/solenoid/TV/{{ tvdb_series_name }}
       # save the file as "Series Name - SxxEyy - Episode Name.ext"
       filename: '{{ tvdb_series_name }} - {{ series_id }} - {{ tvdb_ep_name }}{{ title | pathext }}'
 }}}
