@@ -19,9 +19,11 @@ from flexget.entry import accepted, rejected, undecided
 for entry in accepted(entries):
   pass
 
+for entry in accepted(undecided(entries)):
+  pass
 }}}
 
-* Old task.entries contained undecided AND accepted, how would this be with the new system? Default entries implicitly to accepted and undecided? Not very obvious!
+* Old task.entries contained undecided AND accepted, iterating them like this feels messy
 * Requires imports
 
 === Option 2 - generator expression ===
