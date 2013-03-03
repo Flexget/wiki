@@ -45,7 +45,7 @@ for entry in (e.accepted or e.undecided for e in entries):
 This could be alleviated with new property, but it might just make things more confusing, explicit is better than implicit .. right?
 
 {{{
-for entry in (e.active in entries):
+for entry in (e.active for e in entries):
   e.reject()
 }}}
 
