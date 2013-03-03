@@ -42,6 +42,12 @@ for entry in (e.accepted or e.undecided for e in entries):
   e.reject()
 }}}
 
+This could be alleviated with new property, but it might just make things more confusing, explicit is better than implicit .. right?
+
+{{{
+for entry in (e.active in entries):
+  e.reject()
+}}}
 
 === Option 3 - properties ===
 
@@ -54,3 +60,4 @@ for entry in entries.accepted:
 
 * Similar problem, how to loop through old task.entries
 * I'm not aware of any other python iterable that has built in filtering methods
+
