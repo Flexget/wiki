@@ -36,6 +36,12 @@ We could also provide endpoints for the set of plugins that only act on a certai
 Errors need some thought as well. jsonschema provides us with a path to the problem very similar to what we already show (e.g. /tasks/atask/accept_all/), and in some cases has an error message very similar to what we already have. Other cases though the error messages will not be user friendly at all (e.g. "anyOf" validator will print the full schemas that needed to be matched.)
 We need to come up with some way for cleaner user facing errors, possibly extend jsonschema with some sort of error keywords, haven't thought of anything really great yet though.
 
+Came up with some ideas for this, a couple parts:
+- I am adding more info to the exceptions that jsonschema gives us, which will be enough for us to create our own custom error messages. We'll be able to define our own errors for each of the validation keywords (e.g. in type validator, 'object' sucks when referring to a dict)
+- For anyOf keywords, we'll be able to look at each of the errors from the subschemas, and try to determine the best course of action for which errors to show. This is still a tough problem if we can't figure out which form the user meant to be using, but that was a problem with the old validator as well, so at least it shouldn't get any worse.
+- I'm thinking we also add an 'error' keyword, and/or 'error_xxx' keywords where xxx is the validation keyword that failed. Plugins could define these in their schemas to further customize errors for individual plugins. These would be ignored if the schema was used outside of our validator, but that shouldn't be as much of a problem, as if there is a config editor, it should be guiding input such that errors are less likely to begin with.
+
+
 = Endpoints =
 Here's what I'm thinking for endpoints to get schemas:
 - /schemas/plugin/<nameofplugin>: The schema for an individual plugin
