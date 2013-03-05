@@ -49,7 +49,7 @@ Submit your logo ideas [wiki:LogoContest here]!
   <li>
     <h4>URL rewriting</h4>
     <p>
-       Grabs download link from supported download pages, utilize search engines.
+       Grabs download link from supported download pages, utilize search engines. Read <a href="http://flexget.com/wiki/URLRewriters">more details ...</a>
     </p>
   </li>
   <li>
