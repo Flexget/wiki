@@ -47,6 +47,12 @@ Submit your logo ideas [wiki:LogoContest here]!
     </p>
   </li>
   <li>
+    <h4>URL rewriting</h4>
+    <p>
+       Grabs download link from supported download pages, utilize search engines.
+    </p>
+  </li>
+  <li>
     <h4>Content and client agnostic</h4>
     <p>
        Not built for any specific client or purpose. Use FlexGet to automate all kinds of content processing.
