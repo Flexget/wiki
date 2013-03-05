@@ -67,3 +67,5 @@ Relax some of the validation on these in favor of runtime errors.
 Rethink the config format to avoid having to validate keys.
 - Errors.
 They suck right now. We need to come up with what our requirements are, and how best to display both general errors, and custom errors that can be defined by plugins.
+- 'interval' and possibly other validators
+The could be validated with the 'pattern' keyword, using the regex for a valid interval, this would mean other implementations can validate them. It would be much easier to add them to a plugin's schema if it is a custom 'format', as well as make it easier to give custom error messages about them. I think the latter is a better plan, but we'll have to figure how that works out (and our other custom formats) when used from a webui config editor.
