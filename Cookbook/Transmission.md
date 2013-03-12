@@ -80,9 +80,11 @@ log into your boxcar account and create a new provider at http://boxcar.io/site/
 open up the newly created provider and make note of the "Your API key is:" field.
 }}}
 ----
+'''PREPARE TRANSMISSION'''
 
 ----
 '''MISC STUFF'''
+
 if/when you get a notification saying that transmission is not running, you have to do the following to make sure you wont miss any torrents:
 {{{
 1.) start the transmission daemon manually or restart the machine.
@@ -90,4 +92,3 @@ if/when you get a notification saying that transmission is not running, you have
 3.) run flexget once manually
 4.) undo the change u did above to your config.yml
 }}}
- 
