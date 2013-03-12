@@ -8,16 +8,17 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
 - auto download movie torrents matching your imdb watchlists:
  - remember downloaded movies and never download the same movie twice.
  - 2 different watchlists: 
-  - main imdb watchlist for downloading torrents that are dvdrips or bdrips with a resolution lower than 720p
-  - hd watchlist for downloading torrents that are bdrips with a resolution of exactly 720p
+  - main imdb watchlist for downloading torrents that are 'dvdrips' or 'bdrips' with a resolution lower than '720p'
+  - hd watchlist for downloading torrents that are 'bdrips' with a resolution of exactly '720p'
 
-- send a push notification to your mobile device via boxcar when a new torrent is added to transmission
-
-- auto download tv torrents that match your thetvdb favorites list. and remember already downloaded episodes so that the same episode wont get downloaded twice.
-
-- ability to exclude tv torrents from release groups that you dont like.
+- auto download tv torrents that match your thetvdb favorites list.
+ - remember already downloaded episodes so that the same episode wont get downloaded twice.
+ - only download torrents that are 'hdtv' source and resolution is below '720p'
+ - ability to exclude tv torrents from release groups that you dont like.
 
 - download movie and tv torrents into 2 separate folders.
+
+- send a push notification to your mobile device via boxcar when a new torrent is added to transmission
 
 - ignore propers and repacks for both tv and movies.
 
@@ -424,7 +425,7 @@ tasks:
       list: watchlist
     accept_all: yes
     queue_movies:
-      quality: bluray xvid|divx <720p
+      quality: dvdrip|bluray xvid|divx <720p
     priority: 2
 
   hd-watchlist:
@@ -434,7 +435,7 @@ tasks:
       list: YOUR_IMDB_HDWATCHLIST_ID
     accept_all: yes
     queue_movies:
-      quality: bluray xvid|divx|h264 720p
+      quality: dvdrip|bluray xvid|divx|h264 720p
     priority: 3
 
   ipt-movies:
