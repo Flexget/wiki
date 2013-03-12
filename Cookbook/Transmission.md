@@ -1,5 +1,6 @@
+[[BR]]
+this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.
 
-the following setup is what i use everyday on my VPS that acts as a seedbox but you can adapt it to suit your needs.
 it is a complete A-Z guide/cookbook for setting up flexget with transmission that has the following features:
 ----
 - auto download movie torrents matching your imdb watchlists:
