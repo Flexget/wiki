@@ -29,5 +29,11 @@ if/when you get a notification saying that transmission is not running, you have
 3.) run flexget once manually
 4.) undo the change u did above to your config.yml
 }}}
-
 ----
+
+special requirements:
+
+- imdb account (https://secure.imdb.com/register-imdb/form-v2)
+- thetvdb account (http://thetvdb.com/?tab=register)
+- boxcar provider account (http://boxcar.io/site/providers)
+- linux os to run scheduled cron jobs
