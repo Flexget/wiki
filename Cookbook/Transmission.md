@@ -1,7 +1,6 @@
 this is a complete configuration setup for flexget with transmission that has the following features:
 ----
 - auto download movie torrents matching your imdb watchlists:
-
  - 2 different watchlists: 
   - main imdb watchlist for downloading torrents that are dvdrips or bdrips with a resolution lower than 720p
   - hd watchlist for downloading torrents that are bdrips with a resolution of exactly 720p
@@ -11,6 +10,8 @@ this is a complete configuration setup for flexget with transmission that has th
 - auto download tv torrents that match your thetvdb favorites list. and remember already downloaded episodes so that the same episode wont get downloaded twice.
 
 - ability to exclude tv torrents from release groups that you dont like.
+
+- download movie and tv torrents into 2 separate folders.
 
 - a custom cron script to run flexget periodically that has the following features:
  - run every 30 mins
