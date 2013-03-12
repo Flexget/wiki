@@ -76,7 +76,7 @@ make note of the "Account Identifier".
 '''BOXCAR:'''
 {{{
 install the boxcar app on your idevice.
-log into your boxcar account and create a new provider at http://boxcar.io/site/providers.
+log into your boxcar account and create a new provider at http://boxcar.io/site/providers
 open up the newly created provider and make note of the "Your API key is:" field.
 }}}
 ----
