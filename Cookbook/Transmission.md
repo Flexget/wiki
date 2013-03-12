@@ -137,8 +137,93 @@ chmod 777 -R /home/djnitehawk/Ready
 
 echo "Folder prep done..."
 }}}
+save and exit nano by pressing CTRL+X and Y and enter.
 
+and then run the following commands one after the other:
+{{{
+./prep-dirs.sh
+sudo service transmission-daemon stop
+sudo echo "" > /etc/transmission-daemon/settings.json
+sudo nano /etc/transmission-daemon/settings.json
+}}}
+then copy and paste the following text into nano:
 
+'''note:''' replace "djnitehawk" with your username.
+'''note:''' replace "YOUR_PASSWORD_GOES_HERE" with a password of your choice.
+{{{
+{
+    "alt-speed-down": 1024, 
+    "alt-speed-enabled": false, 
+    "alt-speed-time-begin": 540, 
+    "alt-speed-time-day": 127, 
+    "alt-speed-time-enabled": false, 
+    "alt-speed-time-end": 1020, 
+    "alt-speed-up": 1024, 
+    "bind-address-ipv4": "0.0.0.0", 
+    "bind-address-ipv6": "::", 
+    "blocklist-enabled": false, 
+    "blocklist-url": "http://www.example.com/blocklist", 
+    "cache-size-mb": 4, 
+    "dht-enabled": false, 
+    "download-dir": "/home/djnitehawk/Downloads/OTHER", 
+    "download-limit": 100, 
+    "download-limit-enabled": 0, 
+    "download-queue-enabled": true, 
+    "download-queue-size": 3, 
+    "encryption": 1, 
+    "idle-seeding-limit": 60, 
+    "idle-seeding-limit-enabled": false, 
+    "incomplete-dir": "", 
+    "incomplete-dir-enabled": false, 
+    "lpd-enabled": true, 
+    "max-peers-global": 300, 
+    "message-level": 2, 
+    "peer-congestion-algorithm": "", 
+    "peer-limit-global": 300, 
+    "peer-limit-per-torrent": 100, 
+    "peer-port": 54321, 
+    "peer-port-random-high": 65535, 
+    "peer-port-random-low": 43211, 
+    "peer-port-random-on-start": false, 
+    "peer-socket-tos": "default", 
+    "pex-enabled": false, 
+    "port-forwarding-enabled": false, 
+    "preallocation": 0, 
+    "prefetch-enabled": 1, 
+    "queue-stalled-enabled": true, 
+    "queue-stalled-minutes": 60, 
+    "ratio-limit": 5, 
+    "ratio-limit-enabled": false, 
+    "rename-partial-files": true, 
+    "rpc-authentication-required": true, 
+    "rpc-bind-address": "0.0.0.0", 
+    "rpc-enabled": true, 
+    "rpc-password": "YOUR_PASSWORD_GOES_HERE", 
+    "rpc-port": 12345, 
+    "rpc-url": "/transmission/", 
+    "rpc-username": "djnitehawk", 
+    "rpc-whitelist": "127.0.0.1", 
+    "rpc-whitelist-enabled": false, 
+    "scrape-paused-torrents-enabled": true, 
+    "script-torrent-done-enabled": true, 
+    "script-torrent-done-filename": "/home/djnitehawk/tex/tex.sh", 
+    "seed-queue-enabled": false, 
+    "seed-queue-size": 10, 
+    "speed-limit-down": 1024, 
+    "speed-limit-down-enabled": false, 
+    "speed-limit-up": 1024, 
+    "speed-limit-up-enabled": false, 
+    "start-added-torrents": true, 
+    "trash-original-torrent-files": true, 
+    "umask": 0, 
+    "upload-limit": 1024, 
+    "upload-limit-enabled": 0, 
+    "upload-slots-per-torrent": 100, 
+    "utp-enabled": true, 
+    "watch-dir": "", 
+    "watch-dir-enabled": false
+}
+}}}
 ----
 '''MISC STUFF'''
 
