@@ -148,7 +148,7 @@ sudo nano /etc/transmission-daemon/settings.json
 }}}
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk" with your username.
+'''note:''' replace "djnitehawk" with your username.[[BR]]
 '''note:''' replace "YOUR_PASSWORD_GOES_HERE" with a password of your choice.
 {{{
 {
@@ -223,6 +223,30 @@ then copy and paste the following text into nano:
     "watch-dir": "", 
     "watch-dir-enabled": false
 }
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+and then run the following commands one after the other:
+{{{
+sudo service transmission-daemon start
+rm prep-dirs.sh
+}}}
+----
+'''PREPARE THE POSTPROCESSING SCRIPT'''
+
+run the following commands one after the other:
+{{{
+cd ~/
+sudo apt-get install unrar
+sudo apt-get install curl
+mkdir tex
+cd tex
+echo "" > tex.sh
+nano tex.sh
+}}}
+then copy and paste the following text into nano:
+{{{
+
 }}}
 ----
 '''MISC STUFF'''
