@@ -270,9 +270,9 @@ TMP_DIR="$SRC_DIR/tmp"
 DST_DIR="$ELS_DIR/$TR_TORRENT_NAME"
 
 if [[ $TR_TORRENT_DIR == *RATIO* ]] ; then
-	echo " " >> $LOG_FILE
-	echo "Skiped: $TR_TORRENT_NAME" >> $LOG_FILE
-	exit 0
+  echo " " >> $LOG_FILE
+  echo "Skiped: $TR_TORRENT_NAME" >> $LOG_FILE
+  exit 0
 fi
 
 if [[ $TR_TORRENT_DIR == *MOVIES* ]] ; then
@@ -312,33 +312,33 @@ if [ -d "$SRC_DIR" ]; then
     for RAR_FILE in "${RAR_FILES[@]}"; do
       unrar x $RAR_FILE $TMP_DIR
       if [ $? -gt 0 ]; then
-		rm -f -R $TMP_DIR
-		echo " " >> $LOG_FILE
-		echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> $LOG_FILE
-		BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
-		curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" $BOXCAR
-		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
-		sleep 10s
-		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
-		sleep 10s
-		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
+        rm -f -R $TMP_DIR
+        echo " " >> $LOG_FILE
+        echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> $LOG_FILE
+        BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
+        curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" $BOXCAR
+        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
+        sleep 10s
+        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
+        sleep 10s
+        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
         unset IFS
-		rm -f -R $DST_DIR
+        rm -f -R $DST_DIR
         exit 0
       fi
     done
-	sleep 10s
+    sleep 10s
     T="$TMP_DIR/*"
     mv $T -t $DST_DIR
     rm -f -R $TMP_DIR
     chmod 777 -R $DST_DIR
-	echo " " >> $LOG_FILE
+    echo " " >> $LOG_FILE
     echo "Unrard: $TR_TORRENT_NAME" >> $LOG_FILE
   else
     TT="$SRC_DIR/*"
     cp -r $TT $DST_DIR
     chmod 777 -R $DST_DIR
-	echo " " >> $LOG_FILE
+    echo " " >> $LOG_FILE
     echo "Copied: $TR_TORRENT_NAME" >> $LOG_FILE
   fi
   
