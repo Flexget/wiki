@@ -1,4 +1,6 @@
-this is a complete configuration setup for flexget with transmission that has the following features:
+
+the following setup is what i use everyday on my VPS that acts as a seedbox but you can adapt it to suit your needs.
+it is a complete A-Z guide/cookbook for setting up flexget with transmission that has the following features:
 ----
 - auto download movie torrents matching your imdb watchlists:
  - remember downloaded movies and never download the same movie twice.
@@ -29,6 +31,9 @@ if/when you get a notification saying that transmission is not running, you have
 3.) run flexget once manually
 4.) undo the change u did above to your config.yml
 }}}
+
+- a custom post-processing script for transmission that will run when each torrent is complete:
+ - leaves the original files alone and extracts rars to a final folder
 ----
 special requirements:
 
