@@ -19,6 +19,8 @@ it is a complete A-Z guide/cookbook for setting up flexget with transmission tha
 
 - ignore propers and repacks for both tv and movies.
 
+- only downloads new items from rss feeds.
+
 - a custom cron script to run flexget periodically that has the following features:
  - run every 30 mins
  - check if flexget is still running from the previous cron cos sometimes flexget just hangs and subsequent cron runs fail.
@@ -40,7 +42,17 @@ if/when you get a notification saying that transmission is not running, you have
  - sends a push notification if extracting rars fails.
  - verify and restart the torrent once, if extracting rars fails.
  - logs unrar'ed, copied and error'ed torrent names to a text file.
- - 
+
+- a custom download manager script you can use to download files to your local computer from your VPS/seedbox
+ - uses aria2 download manager with 10 simultaneous connections
+ - resumes broken downloads
+ - automatically times out and retries stalled downloads
+ - uses SSL with a self signed certificate so your ISP cant spy on what you are downloading.
+ - can limit the bandwidth used for downloading files
+ - removes the successfully downloaded files from your VPS/seedbox
+ - no need for SSH access to the VPS/SB as the file listing and deletion is done via php.
+ - ability to display a list of files that are on the final folder at your VPS/SB without actually downloading them.
+
 ----
 special requirements:
 
