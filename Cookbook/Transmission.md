@@ -57,7 +57,7 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
 - thetvdb account (http://thetvdb.com/?tab=register)
 - boxcar provider account (http://boxcar.io/site/providers)
 - an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
-- this cookbook is ubuntu/linux based but you can adapt it to your non linux needs if you know what you are doing :-)
+- this recipe is ubuntu/linux based but you can adapt it to your non linux needs if you know what you are doing :-)
 ----
 '''GET THE 3RD PARTY STUFF READY:'''
 
@@ -541,6 +541,6 @@ if/when you get a notification saying that transmission is not running, you have
 ----
 '''FEEDBACK & SUPPORT:'''
 
-if you have any questions or have any ideas to improve this cookbook, please send me a message via [http://djnitehawk.com facebook] and i will try my best to get back to you. no guarantees though :-)
+if you have any questions or have any ideas to improve this recipe, please send me a message via [http://djnitehawk.com facebook] and i will try my best to get back to you. no guarantees though :-)
 ----
 [wiki:Cookbook Back to The Cookbook]
