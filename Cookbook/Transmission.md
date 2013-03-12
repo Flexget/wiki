@@ -1,6 +1,6 @@
 [[BR]]
-this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.
-it is a complete A-Z guide/cookbook for setting up flexget with transmission with a whole bunch of features that makes torrenting much less tedious.
+this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
+it is a complete A-Z guide/cookbook for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
 ----
 '''FEATURES:'''
 
@@ -56,7 +56,7 @@ if/when you get a notification saying that transmission is not running, you have
  - logs failures to a text file.
 
 ----
-'''SPECIAL REQUIREMENTS'''
+'''SPECIAL REQUIREMENTS:'''
 
 - rss feed urls from either private or public trackers that support passwordless downloading. (i use IPTorrents in this guide)
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
@@ -65,3 +65,13 @@ if/when you get a notification saying that transmission is not running, you have
 - an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
 - this cookbook is ubuntu/linux based but you can adapt it to your non linux needs if you know what you are doing :-)
 ----
+'''GET THE 3RD PARTY STUFF READY:'''
+
+'''IMDB:''' 
+{{{
+log into your imdb account and add a few movies to your default "Watchlist".[[BR]]
+then create a new watchlist called "HDWatchlist" and add a couple of movies to that too.[[BR]]
+then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/'''''XXXXX'''''/[[BR]]
+write down or make a note of the string of characters that's at the XXXXX 
+}}}
+ 
