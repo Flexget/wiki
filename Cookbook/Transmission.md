@@ -381,16 +381,14 @@ presets:
       password: YOUR_PASSWORD_GOES_HERE
       addpaused: no
       path: /home/djnitehawk/Downloads/TV-SHOWS
-    series:
-      settings:
-        tv:
-          propers: no
-          quality: hdtv <720p
     regexp:
       reject:
         - mSD
         - AFG
     import_series:
+      settings:
+        quality: hdtv <720p
+        propers: no
       from:
         thetvdb_favorites:
           account_id: YOUR_THETVDB_ACCOUNT_ID
