@@ -28,14 +28,6 @@ it is a complete A-Z guide/cookbook for setting up flexget with transmission wit
  - check for an orphaned config lock file cos if there's an orphaned config lock file, flexget wont run.
  - check if transmission is running and inform you via push notification if it's crashed.
 
-if/when you get a notification saying that transmission is not running, you have to do the following to make sure you wont miss any torrents:
-{{{
-1.) start the transmission daemon manually or restart the machine.
-2.) edit your config.yml and find and replace "all_entries: no" with "all_entries: yes"
-3.) run flexget once manually
-4.) undo the change u did above to your config.yml
-}}}
-
 - a custom post-processing script for transmission that will run when each torrent is complete:
  - leaves the original files alone and extracts rars to a final folder so u can keep seeding the original content.
  - if the content is not rar'ed, makes a copy at the final folder so u can keep seeding the original content.
@@ -71,7 +63,21 @@ if/when you get a notification saying that transmission is not running, you have
 {{{
 log into your imdb account and add a few movies to your default "Watchlist".[[BR]]
 then create a new watchlist called "HDWatchlist" and add a couple of movies to that too.[[BR]]
-then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/'''''XXXXX'''''/[[BR]]
-write down or make a note of the string of characters that's at the XXXXX 
+then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/XXXXX/[[BR]]
+write down or make a note of the string of characters that's at the XXXXX part. we need this ID as flexget doesnt support additional watchlists by their name.
+}}}
+
+
+
+
+
+----
+'''MISC STUFF'''
+if/when you get a notification saying that transmission is not running, you have to do the following to make sure you wont miss any torrents:
+{{{
+1.) start the transmission daemon manually or restart the machine.
+2.) edit your config.yml and find and replace "all_entries: no" with "all_entries: yes"
+3.) run flexget once manually
+4.) undo the change u did above to your config.yml
 }}}
  
