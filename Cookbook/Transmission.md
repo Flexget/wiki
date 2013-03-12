@@ -36,4 +36,4 @@ special requirements:
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
 - thetvdb account (http://thetvdb.com/?tab=register)
 - boxcar provider account (http://boxcar.io/site/providers)
-- linux os to run scheduled cron jobs
+- an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
