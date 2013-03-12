@@ -411,7 +411,7 @@ presets:
 tasks:
   ipt-tv:
     rss:
-      url: http://www.iptorrents.com/torrents/rss?download;l78;l66;l79;l5;l4;u=XXXXX;tp=XXXXX
+      url: http://www.XXXXX.com/torrents/rss?download;l78;l66;l79;l5;l4;u=XXXXX;tp=XXXXX
       all_entries: no
     preset: tv
     priority: 1
@@ -438,11 +438,87 @@ tasks:
 
   ipt-movies:
     rss:
-      url: http://www.iptorrents.com/torrents/rss?download;l48;l62;l7;l77;u=XXXXX;tp=XXXXX
+      url: http://www.XXXXX.com/torrents/rss?download;l48;l62;l7;l77;u=XXXXX;tp=XXXXX
       all_entries: no
     preset: movie
     priority: 4
 }}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+and then run the following command to check if the config file has any errors:
+if any errors are found, edit the config.yml again and double check your work.
+{{{
+flexget --check
+}}}
+----
+'''PREPARE THE CRON SCRIPT'''
+
+first run the following command and note down the full path to the flexget binary:
+{{{
+which flexget
+}}}
+then run the following commands one after the other:
+{{{
+cd ~/.flexget
+echo "" > cron.sh
+chmod 777 cron.sh
+nano cron.sh
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.
+'''note:''' also check if the path of the flexget binary (/usr/local/bin/flexget) is the same as the output from the "which flexget" command you ran earlier. if not, change it in the script below after pasting it into nano.
+{{{
+#!/bin/bash
+
+EMAIL="MY_EMAIL@EMAIL_DOMAIN.COM"
+BOX_KEY="MY_BOXCAR_API_KEY"
+FILE="/home/djnitehawk/.flexget/.config-lock"
+LOG="/home/djnitehawk/.flexget/cron.log"
+
+F=$(pidof -s -x flexget)
+T=$(pidof -s -x transmission-daemon)
+
+if [ $F ]; then
+	kill $F
+	echo "flexget was still running... so killed it..." >> $LOG
+fi
+
+if [ -f $FILE ]; then
+	echo "lock file was there. so deleting lock file..." >> $LOG
+	rm -f $FILE
+fi
+
+if [ -z $T ]; then
+	echo "transmission is not running... calling dj nitehawk now..." >> $LOG
+	BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
+	curl -d "email=$EMAIL" -d "&notification[from_screen_name]=FLEX-CRON" -d "&notification[message]=Transmission isn't running. Please restart VPS." $BOXCAR
+else
+	D=$(date)
+	echo "$D - running flexget cron now..." >> $LOG
+	echo " "
+	/usr/local/bin/flexget --cron
+fi
+
+exit 0
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+then run the following command:
+{{{
+crontab -e
+}}}
+then copy and paste the following line (at the end) into nano:
+{{{
+*/30 * * * * /home/djnitehawk/.flexget/cron.sh
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+now run flexget manually in verbose mode to see everything is running ok:
+{{{
+flexget --verbose
+}}}
+
 ----
 '''MISC STUFF'''
 
