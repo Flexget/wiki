@@ -1,6 +1,7 @@
-[[BR]]
+== A Complete Transmission Recipe ==
+
 this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
-it is a complete A-Z guide/cookbook for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
+it is a complete A-Z recipe for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
 ----
 '''FEATURES:'''
 
@@ -541,3 +542,5 @@ if/when you get a notification saying that transmission is not running, you have
 '''FEEDBACK & SUPPORT:'''
 
 if you have any questions or have any ideas to improve this cookbook, please send me a message via [http://djnitehawk.com facebook] and i will try my best to get back to you. no guarantees though :-)
+----
+[wiki:Cookbook Back to The Cookbook]
