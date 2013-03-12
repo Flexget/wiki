@@ -35,6 +35,7 @@ it is a complete A-Z guide/cookbook for setting up flexget with transmission wit
  - sends a push notification if extracting rars fails.
  - verify and restart the torrent once, if extracting rars fails.
  - logs unrar'ed, copied and error'ed torrent names to a text file.
+ - skip postprocessing on any torrents that are added to a folder called "RATIO" which you can place manually added torrents in for building up your ratio, and wont need to download to your local machine.
 
 - a custom download manager script you can use to download files to your local computer from your VPS/seedbox
  - uses aria2 download manager with 10 simultaneous connections
