@@ -30,10 +30,11 @@ if/when you get a notification saying that transmission is not running, you have
 4.) undo the change u did above to your config.yml
 }}}
 ----
-
 special requirements:
 
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
 - thetvdb account (http://thetvdb.com/?tab=register)
 - boxcar provider account (http://boxcar.io/site/providers)
 - an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
+- this cookbook is ubuntu/linux based but you can adapt it to your non linux needs if you know what you are doing :-)
+----
