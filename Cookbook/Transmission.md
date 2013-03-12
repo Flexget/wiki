@@ -510,6 +510,8 @@ then run the following command:
 crontab -e
 }}}
 then copy and paste the following line (at the end) into nano:
+
+'''note:''' replace "djnitehawk" with your username.
 {{{
 */30 * * * * /home/djnitehawk/.flexget/cron.sh
 }}}
@@ -523,7 +525,7 @@ that's all you need to automate your torrents with flexget and transmission. you
 
 once transmission finishes a torrent, give a bit of time for the postprocessing script to send the extracted content to your "Ready" folder (/home/djnitehawk/Ready). you can download and remove any torrent from the "Ready" folder without having to worry about seeding the original torrent as it is a separate copy from the original torrent data. once you finish seeding a torrent in transmission, simply right click a torrent and choose "trash data and remove from list" in the webui or remote clients and your disk space will be freed up.
 
-the following section will describe how to setup an automated download manager which will grab everything from the "Ready" folder with the directory structure intact. Once a file is downloaded, it will remove the file from the VPS/SD to free up space. once, all files from the "Ready" folder are downloaded, it will clean up any empty folders from the VPS/SD also.
+the following section will describe how to setup an automated download manager which will grab everything from the "Ready" folder with the directory structure intact. Once a file is downloaded, it will remove the file from the VPS/SB to free up space. once, all files from the "Ready" folder are downloaded, it will clean up any empty folders from the VPS/SB also.
 ----
 '''PREPARE THE DOWNLOAD MANAGER SCRIPT'''
 
