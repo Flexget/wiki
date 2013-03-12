@@ -20,6 +20,7 @@ You can either [http://flexget.com/register register] or login with username: ''
 
 == Client guides ==
 
+ [wiki:Cookbook/Transmission Complete working example for Transmission ]::
  [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
  [wiki:Cookbook/uTorrent Brief working example for uTorrent]::
 
