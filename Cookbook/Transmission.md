@@ -34,10 +34,17 @@ if/when you get a notification saying that transmission is not running, you have
 }}}
 
 - a custom post-processing script for transmission that will run when each torrent is complete:
- - leaves the original files alone and extracts rars to a final folder
+ - leaves the original files alone and extracts rars to a final folder so u can keep seeding the original content.
+ - if the content is not rar'ed, makes a copy at the final folder so u can keep seeding the original content.
+ - deletes sample video files at the final folder.
+ - sends a push notification if extracting rars fails.
+ - verify and restart the torrent once, if extracting rars fails.
+ - logs unrar'ed, copied and error'ed torrent names to a text file.
+ - 
 ----
 special requirements:
 
+- rss feed urls from either private or public trackers that support passwordless downloading. (i use IPTorrents in this guide)
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
 - thetvdb account (http://thetvdb.com/?tab=register)
 - boxcar provider account (http://boxcar.io/site/providers)
