@@ -245,8 +245,112 @@ echo "" > tex.sh
 nano tex.sh
 }}}
 then copy and paste the following text into nano:
-{{{
 
+'''note:''' replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.
+{{{
+#! /bin/bash
+
+IFS=$'\n'
+sleep 10s
+
+MOV_DIR="/home/djnitehawk/Ready/MEDIA/MOVIES"
+XXX_DIR="/home/djnitehawk/Ready/MEDIA/STORAGE"
+TVS_DIR="/home/djnitehawk/Ready/MEDIA/TV-SHOWS"
+ELS_DIR="/home/djnitehawk/Ready/Completed"
+LOG_FILE="/home/djnitehawk/tex/tex.log"
+TR_SERVER="127.0.0.1:12345"
+TR_USERNAME="djnitehawk"
+TR_PASSWORD="YOUR_PASSWORD_GOES_HERE"
+EMAIL="MY_EMAIL@EMAIL_DOMAIN.COM"
+BOX_KEY="MY_BOXCAR_API_KEY"
+
+SRC_DIR="$TR_TORRENT_DIR/$TR_TORRENT_NAME"
+TMP_DIR="$SRC_DIR/tmp"
+DST_DIR="$ELS_DIR/$TR_TORRENT_NAME"
+
+if [[ $TR_TORRENT_DIR == *RATIO* ]] ; then
+	echo " " >> $LOG_FILE
+	echo "Skiped: $TR_TORRENT_NAME" >> $LOG_FILE
+	exit 0
+fi
+
+if [[ $TR_TORRENT_DIR == *MOVIES* ]] ; then
+  DST_DIR="$MOV_DIR/$TR_TORRENT_NAME"
+fi
+
+if [[ $TR_TORRENT_DIR == *STORAGE* ]] ; then
+  DST_DIR="$XXX_DIR/$TR_TORRENT_NAME"
+fi
+
+if [[ $TR_TORRENT_DIR == *TV-SHOWS* ]] ; then
+  DST_DIR="$TVS_DIR/$TR_TORRENT_NAME"
+fi
+
+cd $TR_TORRENT_DIR
+
+if [ -d "$SRC_DIR" ]; then
+
+  unset RAR_FILES i
+  for RAR in $(find "$SRC_DIR" -type f -iname "*.rar"); do
+    if [[ $RAR == *.part*.rar ]]; then
+      if [[ $RAR =~ .*part0*1.rar ]] || [[ $RAR =~ .*part1.rar ]]; then
+        RAR_FILES[i++]=$RAR
+      fi
+    else
+      RAR_FILES[i++]=$RAR
+    fi
+  done
+  
+  rm -f -R $DST_DIR
+  mkdir $DST_DIR
+
+  if [ ${#RAR_FILES[@]} -gt 0 ]; then
+    rm -f -R $TMP_DIR
+    mkdir $TMP_DIR
+    find $SRC_DIR -type f  ! -name "*.r??" -execdir cp {} $TMP_DIR \;
+    for RAR_FILE in "${RAR_FILES[@]}"; do
+      unrar x $RAR_FILE $TMP_DIR
+      if [ $? -gt 0 ]; then
+		rm -f -R $TMP_DIR
+		echo " " >> $LOG_FILE
+		echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> $LOG_FILE
+		BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
+		curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" $BOXCAR
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
+		sleep 10s
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
+		sleep 10s
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
+        unset IFS
+		rm -f -R $DST_DIR
+        exit 0
+      fi
+    done
+	sleep 10s
+    T="$TMP_DIR/*"
+    mv $T -t $DST_DIR
+    rm -f -R $TMP_DIR
+    chmod 777 -R $DST_DIR
+	echo " " >> $LOG_FILE
+    echo "Unrard: $TR_TORRENT_NAME" >> $LOG_FILE
+  else
+    TT="$SRC_DIR/*"
+    cp -r $TT $DST_DIR
+    chmod 777 -R $DST_DIR
+	echo " " >> $LOG_FILE
+    echo "Copied: $TR_TORRENT_NAME" >> $LOG_FILE
+  fi
+  
+  find $DST_DIR -type f \( -name "*sample*.avi" -o -name "*sample*.mp4" -o -name "*sample*.mkv" \) -delete
+  
+fi
+unset IFS
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+and then run the following command:
+{{{
+chmod 777 tex.sh
 }}}
 ----
 '''MISC STUFF'''
