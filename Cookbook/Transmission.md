@@ -82,6 +82,63 @@ open up the newly created provider and make note of the "Your API key is:" field
 ----
 '''PREPARE TRANSMISSION'''
 
+ssh or log in to your ubuntu box and run the following commands one after the other:
+
+'''note:''' replace "djnitehawk" with your username
+{{{
+cd ~/
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:transmissionbt/ppa
+sudo apt-get update
+sudo apt-get install transmission-daemon
+sudo useradd -g transmission-daemon djnitehawk
+echo "" > prep-dirs.sh
+chmod +x prep-dirs.sh
+nano prep-dirs.sh
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk" with your username
+{{{
+#! /bin/bash
+
+mkdir /home/djnitehawk/Downloads
+echo "dont delete this dir" > /home/djnitehawk/Downloads/.lock
+mkdir /home/djnitehawk/Downloads/MOVIES
+echo "dont delete this dir" > /home/djnitehawk/Downloads/MOVIES/.lock
+mkdir /home/djnitehawk/Downloads/OTHER
+echo "dont delete this dir" > /home/djnitehawk/Downloads/OTHER/.lock
+mkdir /home/djnitehawk/Downloads/STORAGE
+echo "dont delete this dir" > /home/djnitehawk/Downloads/STORAGE/.lock
+mkdir /home/djnitehawk/Downloads/TV-SHOWS
+echo "dont delete this dir" > /home/djnitehawk/Downloads/TV-SHOWS/.lock
+
+mkdir /home/djnitehawk/Ready
+echo "dont delete this dir" > /home/djnitehawk/Ready/.lock
+mkdir /home/djnitehawk/Ready/Completed
+echo "dont delete this dir" > /home/djnitehawk/Ready/Completed/.lock
+mkdir /home/djnitehawk/Ready/MEDIA
+echo "dont delete this dir" > /home/djnitehawk/Ready/MEDIA/.lock
+mkdir /home/djnitehawk/Ready/MEDIA/MOVIES
+echo "dont delete this dir" > /home/djnitehawk/Ready/MEDIA/MOVIES/.lock
+mkdir /home/djnitehawk/Ready/MEDIA/STORAGE
+echo "dont delete this dir" > /home/djnitehawk/Ready/MEDIA/STORAGE/.lock
+mkdir /home/djnitehawk/Ready/MEDIA/TV-SHOWS
+echo "dont delete this dir" > /home/djnitehawk/Ready/MEDIA/TV-SHOWS/.lock
+
+mkdir /home/djnitehawk/Downloads/RATIO
+echo "dont delete this dir" > /home/djnitehawk/Downloads/RATIO/.lock
+
+chown -R djnitehawk:debian-transmission /home/djnitehawk/Downloads
+chown -R djnitehawk:debian-transmission /home/djnitehawk/Ready
+
+chmod 777 -R /home/djnitehawk/Downloads
+chmod 777 -R /home/djnitehawk/Ready
+
+echo "Folder prep done..."
+}}}
+
+
 ----
 '''MISC STUFF'''
 
