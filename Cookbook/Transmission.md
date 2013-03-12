@@ -59,17 +59,27 @@ it is a complete A-Z guide/cookbook for setting up flexget with transmission wit
 ----
 '''GET THE 3RD PARTY STUFF READY:'''
 
-'''IMDB:''' 
+'''IMDB:'''  
 {{{
-log into your imdb account and add a few movies to your default "Watchlist".[[BR]]
-then create a new watchlist called "HDWatchlist" and add a couple of movies to that too.[[BR]]
-then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/XXXXX/[[BR]]
+log into your imdb account and add a few movies to your default "Watchlist".
+then create a new watchlist called "HDWatchlist" and add a couple of movies to that too.
+then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/XXXXX/
 write down or make a note of the string of characters that's at the XXXXX part. we need this ID as flexget doesnt support additional watchlists by their name.
 }}}
 
+'''THETVDB:'''
+{{{
+log into the site and visit the following url: http://thetvdb.com/?tab=userinfo
+make note of the "Account Identifier".
+}}}
 
-
-
+'''BOXCAR:'''
+{{{
+install the boxcar app on your idevice.
+log into your boxcar account and create a new provider at http://boxcar.io/site/providers.
+open up the newly created provider and make note of the "Your API key is:" field.
+}}}
+----
 
 ----
 '''MISC STUFF'''
