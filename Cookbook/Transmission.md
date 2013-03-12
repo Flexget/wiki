@@ -354,6 +354,96 @@ and then run the following command:
 chmod 777 tex.sh
 }}}
 ----
+'''PREPARE FLEXGET'''
+
+run the following commands one after the other:
+{{{
+cd ~/
+sudo apt-get install python-pip
+sudo pip install flexget
+easy_install transmissionrpc
+cd .flexget
+echo "" > config.yml
+nano config.yml
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "YOUR_THETVDB_ACCOUNT_ID", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY", "YOUR_IMDB_USERNAME", "YOUR_IMDB_PASSWORD", "YOUR_IMDB_HDWATCHLIST_ID", "XXXXX" with your information.
+{{{
+presets:
+  tv:
+    transmission:
+      host: localhost
+      port: 12345
+      username: djnitehawk
+      password: YOUR_PASSWORD_GOES_HERE
+      addpaused: no
+      path: /home/djnitehawk/Downloads/TV-SHOWS
+    series:
+      settings:
+        tv:
+          propers: no
+          quality: hdtv <720p
+    regexp:
+      reject:
+        - mSD
+        - AFG
+    import_series:
+      from:
+        thetvdb_favorites:
+          account_id: YOUR_THETVDB_ACCOUNT_ID
+          strip_dates: yes
+    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name]=FlexGet" -d "&notification[message]={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
+
+  movie:
+    transmission:
+      host: localhost
+      port: 12345
+      username: djnitehawk
+      password: YOUR_PASSWORD_GOES_HERE
+      addpaused: no
+      path: /home/djnitehawk/Downloads/MOVIES
+    movie_queue: yes
+    seen_movies: strict
+    proper_movies: no
+    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name]=FlexGet" -d "&notification[message]={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
+
+tasks:
+  ipt-tv:
+    rss:
+      url: http://www.iptorrents.com/torrents/rss?download;l78;l66;l79;l5;l4;u=XXXXX;tp=XXXXX
+      all_entries: no
+    preset: tv
+    priority: 1
+
+  imdb-watchlist:
+    imdb_list:
+      username: YOUR_IMDB_USERNAME
+      password: YOUR_IMDB_PASSWORD
+      list: watchlist
+    accept_all: yes
+    queue_movies:
+      quality: bluray xvid|divx <720p
+    priority: 2
+
+  hd-watchlist:
+    imdb_list:
+      username: YOUR_IMDB_USERNAME
+      password: YOUR_IMDB_PASSWORD
+      list: YOUR_IMDB_HDWATCHLIST_ID
+    accept_all: yes
+    queue_movies:
+      quality: bluray xvid|divx|h264 720p
+    priority: 3
+
+  ipt-movies:
+    rss:
+      url: http://www.iptorrents.com/torrents/rss?download;l48;l62;l7;l77;u=XXXXX;tp=XXXXX
+      all_entries: no
+    preset: movie
+    priority: 4
+}}}
+----
 '''MISC STUFF'''
 
 if/when you get a notification saying that transmission is not running, you have to do the following to make sure you wont miss any torrents:
