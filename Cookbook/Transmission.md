@@ -540,3 +540,4 @@ if/when you get a notification saying that transmission is not running, you have
 ----
 '''FEEDBACK & SUPPORT:'''
 
+if you have any questions or have any ideas to improve this cookbook, please send me a message via [http://djnitehawk.com facebook] and i will try my best to get back to you. no guarantees though :-)
