@@ -46,7 +46,7 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
  - uses SSL with a self signed certificate so your ISP cant spy on what you are downloading.
  - can limit the bandwidth used for downloading files
  - removes the successfully downloaded files from your VPS/seedbox
- - no need for SSH access to the VPS/SB as the file listing and deletion is done via php.
+ - no need to SSH into your VPS/SB as the file listing/transfers/deletion is done via lighttpd webserver and php.
  - ability to display a list of files that are on the final folder at your VPS/SB without actually downloading them.
  - logs failures to a text file.
 
