@@ -1,8 +1,9 @@
 [[BR]]
 this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.
-
-it is a complete A-Z guide/cookbook for setting up flexget with transmission that has the following features:
+it is a complete A-Z guide/cookbook for setting up flexget with transmission with a whole bunch of features that makes torrenting much less tedious.
 ----
+'''FEATURES:'''
+
 - auto download movie torrents matching your imdb watchlists:
  - remember downloaded movies and never download the same movie twice.
  - 2 different watchlists: 
@@ -52,9 +53,10 @@ if/when you get a notification saying that transmission is not running, you have
  - removes the successfully downloaded files from your VPS/seedbox
  - no need for SSH access to the VPS/SB as the file listing and deletion is done via php.
  - ability to display a list of files that are on the final folder at your VPS/SB without actually downloading them.
+ - logs failures to a text file.
 
 ----
-special requirements:
+'''SPECIAL REQUIREMENTS'''
 
 - rss feed urls from either private or public trackers that support passwordless downloading. (i use IPTorrents in this guide)
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
