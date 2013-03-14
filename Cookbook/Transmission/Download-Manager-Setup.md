@@ -198,17 +198,17 @@ nano downer
 }}}
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk" with your username
+'''note:''' replace "djnitehawk", "FROM-SEEDBOX", "vps.mydomain.com", "A_STRONG_PASSWORD_FOR_YOUR_WEB_SERVER" with your information.
 {{{
 #!/bin/bash
 
 clear
 
 SRC_DIR="/home/djnitehawk/Ready"
-DST_DIR="/home/djnitehawk/Downloads/VPS"
+DST_DIR="/home/djnitehawk/FROM-SEEDBOX"
 HTTP="https://vps.mydomain.com"
-USR=""
-PASS=""
+USR="djnitehawk"
+PASS="A_STRONG_PASSWORD_FOR_YOUR_WEB_SERVER"
 
 if [ -z $1 ]; then
 	BW="0"
@@ -347,3 +347,28 @@ and then run the following command:
 {{{
 chmod +x downer
 }}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+that's it....
+----
+to test the download manager script, first make sure that your VPS/seedbox has some files in the "~/Ready" folder.
+
+then log in to your local ubuntu box and issue the following command to start downloading files from your VPS/SB server:
+{{{
+./downer
+}}}
+to cancel the downloading, simply press CTRL+C
+
+to display a list of files that are on the VPS/SB in the "~/Ready" folder, simply run:
+{{{
+./downer list
+}}}
+to limit the bandwidth used up by the download manager, simply run:
+{{{
+./downer 100
+}}}
+the 100 above is to set the download bandwidth limit to 100 KB/s. to limit the bandwidth to 1 MB/s, use 1024 like so:
+{{{
+./downer 1024
+}}}
+that's all there is to it... enjoy!!!
