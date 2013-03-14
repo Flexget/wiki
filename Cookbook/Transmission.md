@@ -528,7 +528,7 @@ the following section will describe how to setup an automated download manager w
 ----
 '''PREPARE THE DOWNLOAD MANAGER SCRIPT'''
 
-the download manager setup has been moved to a separate page here: [wiki:Cookbook/Transmission/Download Manager Setup/ Download Manager Setup]
+the download manager setup has been moved to a separate page here: [wiki:Cookbook/Transmission/DownloadManagerSetup Download Manager Setup]
 ----
 '''MISC STUFF'''
 
