@@ -346,11 +346,9 @@ and then run the following command:
 {{{
 chmod +x downer
 }}}
-save and exit nano by pressing CTRL+X and Y and enter.
-
-that's it....
+that's it. the setup is now complete...
 ----
-to test the download manager script, first make sure that your VPS/seedbox has some files in the "~/Ready" folder.
+to test the download manager, first make sure that your VPS/seedbox has some files in the "~/Ready" folder.
 
 then log in to your local ubuntu box and issue the following command to start downloading files from your VPS/SB server:
 {{{
