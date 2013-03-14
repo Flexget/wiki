@@ -369,3 +369,17 @@ the 100 above is to set the download bandwidth limit to 100 KB/s. to limit the b
 ./downer 1024
 }}}
 that's all there is to it... enjoy!!!
+----
+'''TIPS & TRICKS'''
+
+to run the download manager in the background, so you can close/disconnect from your terminal session, use as follows:
+{{{
+screen -R x
+./downer
+}}}
+at this point, you can either close your terminal session or detach from the download manager by pressing CTRL+A+D and it will still keep downloading your files from the VPS/SB.
+
+to reconnect to an already running download manager, issue the screen command again like so:
+{{{
+screen -R x
+}}}
