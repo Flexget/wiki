@@ -182,3 +182,4 @@ sudo shutdown -r 0
 ----
 '''PREPARE THE LOCAL COMPUTER'''
 
+the following has to be done on your local ubuntu computer. if your local computer is a windows box, you can look into running ubuntu on a virtual machine (ex: http://www.virtualbox.org) until someone converts this whole recipe into windows.
