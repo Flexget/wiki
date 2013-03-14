@@ -173,7 +173,7 @@ to verify that your newly installed web server is running with SSL, visit your V
 {{{
 https://vps.mydomain.com
 }}}
-if everything works correctly, it should now prompt you for a username and password with some text like: "Protected Area. Get Lost." :-)
+if everything works correctly, it should now prompt you for a username and password with some text like: "Password protected area... Get lost!" :-)
 
 if it's not working, go back and double check your work. optionally try restarting your VPS/seedbox with:
 {{{
