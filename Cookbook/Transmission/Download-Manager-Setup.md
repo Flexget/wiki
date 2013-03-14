@@ -206,9 +206,9 @@ clear
 
 SRC_DIR="/home/djnitehawk/Ready"
 DST_DIR="/home/djnitehawk/Downloads/VPS"
-HTTP="https://v.djnitehawk.com"
-USR="nitehawk"
-PASS="{36&7TG)mh"
+HTTP="https://vps.mydomain.com"
+USR=""
+PASS=""
 
 if [ -z $1 ]; then
 	BW="0"
