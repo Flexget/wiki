@@ -74,4 +74,96 @@ fastcgi.server = ( ".php" => ((
 }}}
 save and exit nano by pressing CTRL+X and Y and enter.
 
+and then run the following command:
+{{{
+sudo nano /etc/lighttpd/pass.txt
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk" with your username and replace "A_STRONG_PASSWORD_FOR_YOUR_WEB_SERVER" with a strong password.
+{{{
+djnitehawk:A_STRONG_PASSWORD_FOR_YOUR_WEB_SERVER
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
 and then run the following commands one after the other:
+{{{
+sudo chmod 777 /etc/lighttpd/pass.txt
+sudo openssl req -new -x509 -keyout server.pem -out server.pem -days  36500 -nodes
+}}}
+at this point, it will ask you for some personal details. just enter the appropriate values for generating your own self signed SSL certificate. pay special attention when it asks for your "'''Common Name (e.g. server FQDN or YOUR name)'''". you have to enter your domain or subdomain name you have setup for your VPS/seedbox. i have not tried entering an IP address in this field, but you can try.
+
+after the wizard finishes, run the following commands one after the other:
+
+'''note:''' replace "djnitehawk" with your username.
+{{{
+sudo chmod 777 server.pem
+sudo mv server.pem /etc/lighttpd/
+sudo lighty-enable-mod ssl
+nano ~/Ready/index.php
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk" with your username.
+{{{
+<?php
+
+$src = "/home/djnitehawk/Ready";
+
+$del = $_GET['delete'];
+$clean = $_GET['clean'];
+
+if (!empty($del)){
+	$file = "$src$del";
+	unlink($file);
+	echo "File Deleted: $file";
+	exit;
+}
+
+if (!empty($clean)){
+	if ($clean == 'yes') {
+		RemoveEmptySubFolders($src);
+		echo "Empty folders have been cleaned...";
+	}
+	exit;
+}
+
+$res = ListIn($src, "$src/");
+echo implode('|',$res);
+
+function RemoveEmptySubFolders($path)
+{
+  $empty=true;
+  foreach (glob($path.DIRECTORY_SEPARATOR."*") as $file)
+  {
+     $empty &= is_dir($file) && RemoveEmptySubFolders($file);
+  }
+  return $empty && rmdir($path);
+}
+
+function ListIn($dir, $prefix) {
+  $dir = rtrim($dir, '\\/');
+  $result = array();
+
+    foreach (scandir($dir) as $f) {
+      if ($f !== '.' and $f !== '..' and $f !== '.lock' and $f !== 'index.php') {
+        if (is_dir("$dir/$f")) {
+          $result = array_merge($result, ListIn("$dir/$f", "$prefix$f/"));
+        } else {
+          $result[] = $prefix.$f;
+        }
+      }
+    }
+
+  return $result;
+}
+
+?>
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+and then run the following commands one after the other:
+{{{
+chmod 777 ~/Ready/index.php
+sudo service lighttpd restart
+}}}
