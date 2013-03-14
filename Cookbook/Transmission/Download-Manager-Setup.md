@@ -14,4 +14,9 @@ sudo apt-get install php5-cgi
 sudo nano "" > /etc/lighttpd/lighttpd.conf
 sudo nano /etc/lighttpd/lighttpd.conf
 }}}
+then copy and paste the following text into nano:
 
+'''note:''' replace "djnitehawk" with your username
+{{{
+...
+}}}
