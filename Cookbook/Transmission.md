@@ -539,6 +539,13 @@ if/when you get a notification saying that transmission is not running, you have
 3.) run flexget once manually
 4.) undo the change u did above to your config.yml
 }}}
+
+if you have a firewall enabled on your VPS/SB, make sure the following ports are open for business:
+{{{
+port: 80 (web server)
+port: 54321 (transmission daemon)
+port: 12345 (transmission webui/remote/clients)
+}}}
 ----
 '''FEEDBACK & SUPPORT:'''
 
