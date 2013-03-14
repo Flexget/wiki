@@ -183,3 +183,167 @@ sudo shutdown -r 0
 '''PREPARE THE LOCAL COMPUTER'''
 
 the following has to be done on your local ubuntu computer. if your local computer is a windows box, you can look into running ubuntu on a virtual machine (ex: http://www.virtualbox.org) until someone converts this whole recipe into windows.
+
+ok, lets get started...
+
+log into your local ubuntu box and run the followings commands one after the other:
+
+{{{
+sudo apt-add-repository ppa:t-tujikawa/ppa
+sudo apt-get update
+sudo apt-get install aria2
+sudo apt-get install curl
+cd ~/
+nano downer
+}}}
+then copy and paste the following text into nano:
+
+'''note:''' replace "djnitehawk" with your username
+{{{
+#!/bin/bash
+
+clear
+
+SRC_DIR="/home/djnitehawk/Ready"
+DST_DIR="/home/djnitehawk/Downloads/VPS"
+HTTP="https://v.djnitehawk.com"
+USR="nitehawk"
+PASS="{36&7TG)mh"
+
+if [ -z $1 ]; then
+	BW="0"
+	LIST="no"
+else
+	if [ $1 == "list" ]; then
+		BW="0"
+		LIST="yes"
+	else
+		BW="${1}K"
+		LIST="no"
+	fi
+fi
+
+trap 'chmod 777 -R $DST_DIR;echo "Exiting...";exit;' SIGTERM SIGINT
+
+echo " "
+echo "Getting a list of files to download from server..."
+echo " "
+
+RES=$(wget --timeout=60 --waitretry=10 --tries=10 --no-check-certificate --user=$USR --password=$PASS -q -O - $HTTP)
+
+OLDIFS="$IFS"
+	IFS='|' read -a LST <<< "$RES"
+IFS="$OLDIFS"
+
+unset i
+for F in "${LST[@]}";do
+	F=${F/$SRC_DIR/$HTTP}
+	LST[i++]="$F"
+done
+
+if [ ${#LST[@]} -eq 0 ]; then
+
+	echo " "
+	echo " "
+	echo " "
+	echo "No files received from server... So exiting..."
+	exit 0
+
+fi
+
+if [ $LIST == "yes" ]; then
+	clear
+	echo " "
+	echo "The list of files to be downloaded from the server:"
+	echo "==================================================="
+	
+	unset i
+	for FL in "${LST[@]}";do
+		FL=${FL/$HTTP/}
+		MD="/MEDIA/"
+		FL=${FL/$MD/}
+		FL=$(dirname "$FL")
+		GET_LST[i++]="$FL"
+	done
+	
+	printf '\v\t%s\n' "${GET_LST[@]}" | sort -u
+	echo " "
+		
+	exit 0
+fi
+
+false
+
+while [ $? -ne 0 ]; do
+	
+	ALL_OK=false
+	c=1
+	
+	for FILE in "${LST[@]}";do
+
+		DEST=${FILE/$HTTP/$DST_DIR}
+		DEST=$(dirname "$DEST")
+		
+		echo " "
+		echo " "
+		echo "Downloading file $c of ${#LST[@]}..."
+		echo " "
+		echo "File: $FILE"
+		echo " "
+		echo " "
+		echo " "		
+		aria2c -d "$DEST" -c -k 1M -s 10 -x 10 -m 60 --retry-wait=60 --max-overall-download-limit=$BW --summary-interval=0 --check-certificate=false --http-user=$USR --http-passwd=$PASS "$FILE"
+		if [ $? -ne 0 ]; then
+			echo " "
+			echo " "
+			echo "Error: Something went wrong. Gonna retry..."
+			echo " "
+			TIME=$(date +%R)
+			echo " " >> downer.log
+			echo "$TIME - Failed: $FILE" >> downer.log
+			break
+		else
+			ALL_OK=true
+			echo " "
+			echo " "
+			echo "File downloaded fine. Deleting from server now..."
+			echo " "
+			DEL=${FILE/$HTTP\//}
+			DEL_URL="$HTTP/?delete=/$DEL"
+			echo " "
+			wget --timeout=60 --waitretry=10 --tries=10 --no-check-certificate --user=$USR --password=$PASS -q -O - "$DEL_URL"
+			echo " "
+			echo " "
+		fi
+		
+		c=$(($c+1))
+	done
+	
+	if $ALL_OK ; then
+		echo " "
+		echo "Cleaning up empty folders from server. Please wait..."
+		echo " "
+		CLEAN="$HTTP/?clean=yes"
+		wget --timeout=60 --waitretry=10 --tries=10 --no-check-certificate --user=$USR --password=$PASS -q -O - $CLEAN
+		echo " "
+		echo " "
+		echo " "
+		echo "All files have been downloaded and empty folders cleaned from server."
+		echo " "
+		echo "Run this script again to make sure no new files have been added to the server..."
+		chmod 777 -R $DST_DIR
+		true
+	else
+		false
+	fi
+	
+done
+
+read sdlkdjf
+}}}
+save and exit nano by pressing CTRL+X and Y and enter.
+
+and then run the following command:
+{{{
+chmod +x downer
+}}}
