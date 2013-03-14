@@ -95,7 +95,6 @@ at this point, it will ask you for some personal details. just enter the appropr
 
 after the wizard finishes, run the following commands one after the other:
 
-'''note:''' replace "djnitehawk" with your username.
 {{{
 sudo chmod 777 server.pem
 sudo mv server.pem /etc/lighttpd/
