@@ -167,3 +167,18 @@ and then run the following commands one after the other:
 chmod 777 ~/Ready/index.php
 sudo service lighttpd restart
 }}}
+that's all you have to do on your VPS/seedbox.
+
+to verify that your newly installed web server is running with SSL, visit your VPS/seedbox in a web browser like so:
+{{{
+https://vps.mydomain.com
+}}}
+if everything works correctly, it should now prompt you for a username and password with some text like: "Protected Area. Get Lost." :-)
+
+if it's not working, go back and double check your work. optionally try restarting your VPS/seedbox with:
+{{{
+sudo shutdown -r 0
+}}}
+----
+'''PREPARE THE LOCAL COMPUTER'''
+
