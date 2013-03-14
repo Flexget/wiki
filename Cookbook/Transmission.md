@@ -1,6 +1,6 @@
 == A Complete Transmission Recipe ==
 
-this is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
+this is a user contributed recipe. it is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
 it is a complete A-Z recipe for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
 ----
 '''FEATURES:'''
@@ -73,7 +73,7 @@ write down or make a note of the string of characters that's at the XXXXX part. 
 '''THETVDB:'''
 {{{
 log into the site and visit the following url: http://thetvdb.com/?tab=userinfo
-make note of the "Account Identifier".
+make note of the "Account Identifier". also dont forget to add a few tv series to your favorites while you are there.
 }}}
 
 '''BOXCAR:'''
