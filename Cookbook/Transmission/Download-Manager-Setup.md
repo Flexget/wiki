@@ -11,4 +11,7 @@ on your VPS/seedbox, run the following commands one after the other:
 {{{
 sudo apt-get install lighttpd
 sudo apt-get install php5-cgi
+sudo nano "" > /etc/lighttpd/lighttpd.conf
+sudo nano /etc/lighttpd/lighttpd.conf
 }}}
+
