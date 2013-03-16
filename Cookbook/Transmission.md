@@ -58,7 +58,7 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
 - thetvdb account (http://thetvdb.com/?tab=register)
 - boxcar provider account (http://boxcar.io/site/providers)
 - an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
-- this recipe is ubuntu/linux based but you can adapt it to your non linux needs if you know what you are doing :-)
+- everything is tested and works perfectly on ubuntu 12.04 and your results may vary with other versions.
 ----
 '''GET THE 3RD PARTY STUFF READY:'''
 
@@ -347,6 +347,14 @@ if [ -d "$SRC_DIR" ]; then
   find $DST_DIR -type f \( -name "*sample*.avi" -o -name "*sample*.mp4" -o -name "*sample*.mkv" \) -delete
   
 fi
+
+if [ -e "$SRC_DIR" ]; then
+    cp --remove-destination $SRC_DIR $DST_DIR
+    chmod 777 $DST_DIR
+    echo " " >> $LOG_FILE
+    echo "Copied: $TR_TORRENT_NAME" >> $LOG_FILE
+fi
+
 unset IFS
 }}}
 save and exit nano by pressing CTRL+X and Y and enter.
