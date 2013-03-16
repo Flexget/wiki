@@ -332,6 +332,7 @@ if [ -d "$SRC_DIR" ]; then
     done
     sleep 10s
     mv --target-directory="$DST_DIR" "$TMP_DIR"/*
+    rm -f -R "$TMP_DIR"
     chmod 777 -R "$DST_DIR"
     echo " " >> "$LOG_FILE"
     echo "Unrard: $TR_TORRENT_NAME" >> "$LOG_FILE"
