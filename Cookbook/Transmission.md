@@ -273,9 +273,9 @@ TMP_DIR="$SRC_DIR/tmp"
 DST_DIR="$ELS_DIR/$TR_TORRENT_NAME"
 
 if [[ "$TR_TORRENT_DIR" == *RATIO* ]] ; then
-	echo " " >> "$LOG_FILE"
-	echo "Skiped: $TR_TORRENT_NAME" >> "$LOG_FILE"
-	exit 0
+  echo " " >> "$LOG_FILE"
+  echo "Skiped: $TR_TORRENT_NAME" >> "$LOG_FILE"
+  exit 0
 fi
 
 if [[ "$TR_TORRENT_DIR" == *MOVIES* ]] ; then
@@ -325,31 +325,31 @@ if [ -d "$SRC_DIR" ]; then
 		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
 		sleep 10s
 		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
-        IFS="$OLD_IFS"
+		IFS="$OLD_IFS"
 		rm -f -R "$DST_DIR"
-        exit 0
+		exit 0
       fi
     done
-	sleep 10s
+    sleep 10s
     mv --target-directory="$DST_DIR" "$TMP_DIR"/*
     chmod 777 -R "$DST_DIR"
-	echo " " >> "$LOG_FILE"
+    echo " " >> "$LOG_FILE"
     echo "Unrard: $TR_TORRENT_NAME" >> "$LOG_FILE"
   else
-	cp -r --target-directory="$DST_DIR" "$SRC_DIR"/*
-	chmod 777 -R "$DST_DIR"
-	echo " " >> "$LOG_FILE"
-	echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
+    cp -r --target-directory="$DST_DIR" "$SRC_DIR"/*
+    chmod 777 -R "$DST_DIR"
+    echo " " >> "$LOG_FILE"
+    echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
   fi
 
   find "$DST_DIR" -type f \( -name "*sample*.avi" -o -name "*sample*.mp4" -o -name "*sample*.mkv" \) -delete
 fi
 
 if [ -f "$SRC_DIR" ]; then
-	cp --remove-destination "$SRC_DIR" "$DST_DIR"
-	chmod 777 "$DST_DIR"
-	echo " " >> "$LOG_FILE"
-	echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
+  cp --remove-destination "$SRC_DIR" "$DST_DIR"
+  chmod 777 "$DST_DIR"
+  echo " " >> "$LOG_FILE"
+  echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
 fi
 
 IFS="$OLD_IFS"
