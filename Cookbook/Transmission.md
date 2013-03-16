@@ -253,6 +253,7 @@ then copy and paste the following text into nano:
 {{{
 #! /bin/bash
 
+OLD_IFS="$IFS"
 IFS=$'\n'
 sleep 10s
 
@@ -271,91 +272,87 @@ SRC_DIR="$TR_TORRENT_DIR/$TR_TORRENT_NAME"
 TMP_DIR="$SRC_DIR/tmp"
 DST_DIR="$ELS_DIR/$TR_TORRENT_NAME"
 
-if [[ $TR_TORRENT_DIR == *RATIO* ]] ; then
-  echo " " >> $LOG_FILE
-  echo "Skiped: $TR_TORRENT_NAME" >> $LOG_FILE
-  exit 0
+if [[ "$TR_TORRENT_DIR" == *RATIO* ]] ; then
+	echo " " >> "$LOG_FILE"
+	echo "Skiped: $TR_TORRENT_NAME" >> "$LOG_FILE"
+	exit 0
 fi
 
-if [[ $TR_TORRENT_DIR == *MOVIES* ]] ; then
+if [[ "$TR_TORRENT_DIR" == *MOVIES* ]] ; then
   DST_DIR="$MOV_DIR/$TR_TORRENT_NAME"
 fi
 
-if [[ $TR_TORRENT_DIR == *STORAGE* ]] ; then
+if [[ "$TR_TORRENT_DIR" == *STORAGE* ]] ; then
   DST_DIR="$XXX_DIR/$TR_TORRENT_NAME"
 fi
 
-if [[ $TR_TORRENT_DIR == *TV-SHOWS* ]] ; then
+if [[ "$TR_TORRENT_DIR" == *TV-SHOWS* ]] ; then
   DST_DIR="$TVS_DIR/$TR_TORRENT_NAME"
 fi
 
-cd $TR_TORRENT_DIR
+cd "$TR_TORRENT_DIR"
 
 if [ -d "$SRC_DIR" ]; then
 
   unset RAR_FILES i
   for RAR in $(find "$SRC_DIR" -type f -iname "*.rar"); do
-    if [[ $RAR == *.part*.rar ]]; then
-      if [[ $RAR =~ .*part0*1.rar ]] || [[ $RAR =~ .*part1.rar ]]; then
-        RAR_FILES[i++]=$RAR
+    if [[ "$RAR" == *.part*.rar ]]; then
+      if [[ "$RAR" =~ .*part0*1.rar ]] || [[ "$RAR" =~ .*part1.rar ]]; then
+        RAR_FILES[i++]="$RAR"
       fi
     else
-      RAR_FILES[i++]=$RAR
+      RAR_FILES[i++]="$RAR"
     fi
   done
   
-  rm -f -R $DST_DIR
-  mkdir $DST_DIR
+  rm -f -R "$DST_DIR"
+  mkdir "$DST_DIR"
 
   if [ ${#RAR_FILES[@]} -gt 0 ]; then
-    rm -f -R $TMP_DIR
-    mkdir $TMP_DIR
-    find $SRC_DIR -type f  ! -name "*.r??" -execdir cp {} $TMP_DIR \;
+    rm -f -R "$TMP_DIR"
+    mkdir "$TMP_DIR"
+    find "$SRC_DIR" -type f  ! -name "*.r??" -execdir cp {} "$TMP_DIR" \;
     for RAR_FILE in "${RAR_FILES[@]}"; do
-      unrar x $RAR_FILE $TMP_DIR
+      unrar x "$RAR_FILE" "$TMP_DIR"
       if [ $? -gt 0 ]; then
-        rm -f -R $TMP_DIR
-        echo " " >> $LOG_FILE
-        echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> $LOG_FILE
-        BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
-        curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" $BOXCAR
-        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
-        sleep 10s
-        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
-        sleep 10s
-        transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
-        unset IFS
-        rm -f -R $DST_DIR
+		rm -f -R "$TMP_DIR"
+		echo " " >> "$LOG_FILE"
+		echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> "$LOG_FILE"
+		BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
+		curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" "$BOXCAR"
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
+		sleep 10s
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
+		sleep 10s
+		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --start
+        IFS="$OLD_IFS"
+		rm -f -R "$DST_DIR"
         exit 0
       fi
     done
-    sleep 10s
-    T="$TMP_DIR/*"
-    mv $T -t $DST_DIR
-    rm -f -R $TMP_DIR
-    chmod 777 -R $DST_DIR
-    echo " " >> $LOG_FILE
-    echo "Unrard: $TR_TORRENT_NAME" >> $LOG_FILE
+	sleep 10s
+    mv --target-directory="$DST_DIR" "$TMP_DIR"/*
+    chmod 777 -R "$DST_DIR"
+	echo " " >> "$LOG_FILE"
+    echo "Unrard: $TR_TORRENT_NAME" >> "$LOG_FILE"
   else
-    TT="$SRC_DIR/*"
-    cp -r $TT $DST_DIR
-    chmod 777 -R $DST_DIR
-    echo " " >> $LOG_FILE
-    echo "Copied: $TR_TORRENT_NAME" >> $LOG_FILE
+	cp -r --target-directory="$DST_DIR" "$SRC_DIR"/*
+	chmod 777 -R "$DST_DIR"
+	echo " " >> "$LOG_FILE"
+	echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
   fi
-  
-  find $DST_DIR -type f \( -name "*sample*.avi" -o -name "*sample*.mp4" -o -name "*sample*.mkv" \) -delete
-  
+
+  find "$DST_DIR" -type f \( -name "*sample*.avi" -o -name "*sample*.mp4" -o -name "*sample*.mkv" \) -delete
 fi
 
 if [ -f "$SRC_DIR" ]; then
-    cp --remove-destination $SRC_DIR $DST_DIR
-    chmod 777 $DST_DIR
-    echo " " >> $LOG_FILE
-    echo "Copied: $TR_TORRENT_NAME" >> $LOG_FILE
+	cp --remove-destination "$SRC_DIR" "$DST_DIR"
+	chmod 777 "$DST_DIR"
+	echo " " >> "$LOG_FILE"
+	echo "Copied: $TR_TORRENT_NAME" >> "$LOG_FILE"
 fi
 
-unset IFS
+IFS="$OLD_IFS"
 }}}
 save and exit nano by pressing CTRL+X and Y and enter.
 
