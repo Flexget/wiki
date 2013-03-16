@@ -348,7 +348,7 @@ if [ -d "$SRC_DIR" ]; then
   
 fi
 
-if [ -e "$SRC_DIR" ]; then
+if [ -f "$SRC_DIR" ]; then
     cp --remove-destination $SRC_DIR $DST_DIR
     chmod 777 $DST_DIR
     echo " " >> $LOG_FILE
