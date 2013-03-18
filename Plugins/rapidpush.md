@@ -7,6 +7,8 @@ To use this Plugin you need the Android application "!RapidPush" which can be fo
 You need also an account at http://rapidpush.net .[[BR]]
 After you have logged in to your account, goto your user interface and click on the tab "API-Keys". Then create a new or use an already existing one with this Plugin.
 
+You can now also use the channel feature, to send broadcast notifications to your subscribers.
+
 === Configuration ===
 {{{
 rapidpush:
@@ -15,6 +17,7 @@ rapidpush:
     [title: title, default New release]
     [group: device group, default no group]
     [message: the message, to include the title from flexget insert {{title}} at the wanted position, default {{title}}]
+    [channel: the broadcast notification channel, if provided it will be send to the channel subscribers instead of your devices, default no channel]
     [priority: 0 - 6 (6 = highest), default 2 (normal)]
     [notify_accepted: boolean true or false, default true]
     [notify_rejected: boolean true or false, default false]
@@ -84,4 +87,13 @@ rapidpush:
   notify_rejected: true
   notify_failed: true
   notify_undecided: true
+}}}
+
+==== Example to broadcast ====
+{{{
+rapidpush:
+  channel: MY_CHANNEL
+  title: 'New Entries from: {{task}}'
+  message: 'News: {{title}}'
+  apikey: QwRJHc96BlbWZmCy1uBweVsGgikdzemDILTgoWUxlWyZkiUGeKsvwEDtGF9S0tr
 }}}
