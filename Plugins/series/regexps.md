@@ -17,7 +17,7 @@ The standard name matching works quite well, but in some cases you may need to s
 series:
   - some series:
       ep_regexp: (\d\d)-(\d\d\d)     # must return TWO groups, both being numeric values
-  - another series
+  - another series:
       id_regexp: (\d\d\d)            # can return any number of groups
   - third series
 }}}
