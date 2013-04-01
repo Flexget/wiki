@@ -39,7 +39,7 @@ Also make sure that rpc-whitelist isn't preventing flexget from connecting to lo
 ||netrc||File||||
 ||username||Text||||
 ||password||Text||||
-||path||Directory||Destination for downloaded file(s). Supports [wiki:ValueReplacement value replacement].||
+||path||Directory||Destination for downloaded file(s). Supports [wiki:Jinja jinja replacement].||
 ||addpaused||[Yes|No]||||
 ||bandwidthpriority||[-1,0,1]||||
 ||honourlimits||[Yes|No]||||
