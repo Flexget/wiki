@@ -32,3 +32,14 @@ content_filter:
 }}}
 
 Reject torrent if it doesn't have avi OR mkv in it. Reject also if there are wmv files.
+
+''' Example '''
+
+{{{
+content_filter:
+  require_all: 
+    - '*.mkv'
+    - '*.nfo'
+}}}
+
+Reject torrents that don't have a matroska container AND a nfo file.
