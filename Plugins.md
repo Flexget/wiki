@@ -62,6 +62,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
+||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 
 == Filters ==
 
