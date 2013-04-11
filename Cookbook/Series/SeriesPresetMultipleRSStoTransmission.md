@@ -77,7 +77,7 @@ presets:
       password: transmission
       removewhendone: no
 
-feeds:
+tasks:
   bt-chat.com-tv:
     priority: 1
     rss: http://rss.bt-chat.com/?group=3
@@ -92,6 +92,7 @@ feeds:
     priority: 3
     rss: http://rss.thepiratebay.org/208
     preset: tv
+    verify_ssl_certificates: no
 
   kat.ph-tv:
     priority: 4
