@@ -16,10 +16,10 @@ Let's start with config:
 
     ## Output files to utorrent
     # /DIRECTORY takes two arguments:
-    # 1. Save path (now set as {{ut_path}} )
-    # 2. Torrent file path ( set as {{output}} )
+    # 1. Save path (now set as {{ut_path}} ). pathscrub to delete unacceptable characters.
+    # 2. Torrent file path ( set as {{output}} ). pathscrub done by default.
     # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
-    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path|pathscrub}}" "{{output}}"
 }}}
 
 This should be fine for flexget. Replace folders according to your system. Check your configuration with flexget --check.
@@ -69,7 +69,7 @@ feeds:
     # 1. Save path (now set as {{ut_path}} )
     # 2. Torrent file path ( set as {{output}} )
     # Detailed description: http://forum.utorrent.com/viewtopic.php?id=53988&p=1
-    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path|pathscrub}}" "{{output}}"
 
   tv:
     rss: http://some.other.tracker.com
@@ -90,6 +90,6 @@ feeds:
       overwrite: yes
     
     # Output series to uTorrent
-    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path}}" "{{output}}"
+    exec: C:\Progam Files\uTorrent.exe /DIRECTORY "{{ut_path|pathscrub}}" "{{output}}"
     
 }}}
