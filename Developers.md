@@ -22,7 +22,7 @@
 
 === Resources ===
 
- * [http://doc.flexget.com Generated Sphinx API documents] 
+ * [http://flexget.readthedocs.org/ Generated Sphinx API documents] 
   * This is where we will add all technical documentation in the future - see especially core section!
  * [wiki:Developers/Mock how to use mock data via configuration file]
  * [wiki:Developers/TDD test driven development how to]
