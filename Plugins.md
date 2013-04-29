@@ -183,6 +183,11 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 
 ^1. Not a builtin, configuration required to enable.^
 
+== Search ==
+
+||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
+
+
 == Command line plugins ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
