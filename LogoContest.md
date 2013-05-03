@@ -23,4 +23,6 @@ Here is a quick mockup of an idea I had to get the ball rolling.
 
  - [[Image(flexget.png,150)]] by PrDatur
 
--  [[Image(FlexGet_gears.svg)]] by Ron Casey
+ - [[Image(FlexGet_gears.svg)]] by Ron Casey
+
+ - [[Image(flexget logo.png)]] by Nmaib0
