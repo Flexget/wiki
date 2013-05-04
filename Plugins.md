@@ -12,7 +12,7 @@
 
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates.
 
-Most plugins are enabled by placing a keyword and required settings in a configuration file.
+Most plugins are enabled by placing a keyword and required settings in a configuration file. All these plugins are included in the !FlexGet package with the exception of ones in 3rd party plugins section.
 
 == Indentation in examples ==
 
