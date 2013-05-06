@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== Any Version ===
+If you get an error like `XXX keywords must be strings`, this is an issue with python versions less than 2.6.5. Try upgrading python to that or above, or use python 2.7.
+
 === 2013.3.29 1.0.3374 ===
 {{{webrip}}} source has been moved above {{{sdtv}}} in the [wiki:Qualities quality] system, depending on what you are using you may need to adjust your ranges to achieve the same results.
 
