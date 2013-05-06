@@ -1,0 +1,5 @@
+Ideas for improvements to the discover plugin: (all names are open for improvements)
+
+Add an `est_release` plugin, which would be used by the discover plugin to predict a release date for a given search entry. This would be an interface to media specific plugins, e.g. `series_release` or `movie_release`. Discover plugin would then check `est_release(entry)`, and if a date in the future was returned, it would not perform a search for that entry.
+
+A more generic rate limiting system would be in place for any entries that did not get a result from `est_release`. This would be an option given to discover plugin as an interval, maybe `try_every`, or some better name. Unique entries in the `from` section of discover would have their last search time recorded, and would not be searched again until `try_every` has passed.
