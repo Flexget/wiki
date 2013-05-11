@@ -16,10 +16,21 @@ opkg install python-expat
 opkg install python-openssl
 }}}
 
+{{{
+opkg install python-sqlite 
+}}}
+
 == easy_install ==
 
 {{{
 opkg install distribute
+}}}
+
+== pip ==
+[http://www.pip-installer.org/en/latest/usage.html pip usage:]
+
+{{{
+easy_install pip
 }}}
 
 == Install ==
@@ -27,11 +38,20 @@ opkg install distribute
 Run command:
 
 {{{
-easy_install flexget
+pip install flexget
 }}}
+
+If you decide to unpack your packages on an extroot (**recommended**), use the following command:
+
+{{{
+pip install flexget -b /your/path/to/extroot/tmp
+}}}
+
 
 This will install !FlexGet and all additional components it requires.
 
+If the installation fails (IOError's, End of file...), it's related to a full filesystem, review your extroot.
+ 
 == Verify installation ==
 
 Run command:
