@@ -30,9 +30,9 @@ Remote server with Myplex authentication:
 plex:
   section: 3
   server: my.remote.plex.server.com
-      selection: recentlyAdded
-      username: myplexusername
-      password: myplexpassword
+  selection: recentlyAdded
+  username: myplexusername
+  password: myplexpassword
 download:
   path: /mnt/downloads/
 }}}
