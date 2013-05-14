@@ -27,4 +27,4 @@ Here is a quick mockup of an idea I had to get the ball rolling.
 
  - [[Image(flexget logo.png)]] by Nmaib0
 
- - [[Image(PastedGraphic-3.png)]] by Linus Olsson
+ - [[Image(PastedGraphic-3.png, 600)]] by Linus Olsson
