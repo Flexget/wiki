@@ -1,7 +1,12 @@
-= Logo Wanted =
-We are looking for a nice logo for !FlexGet. Something suitable for favicon, program icon, and website use (does not all have to be the same version of logo.) Please submit your ideas! There is no particular deadline, nor a winner guaranteed. We are just looking for some help coming up with a good logo. You can edit this page.
+= Logo ~~Wanted~~ Picked! =
 
-Here is a quick mockup of an idea I had to get the ball rolling.
+We picked a logo! Thank you everybody for your contributions, we got a lot of nice ones. After some discussion decided to go with the logo by Linus Olsson, thank you Linus!
+
+[[Image(PastedGraphic-3.png, 600)]]
+
+We'll be rolling it out coming up.
+
+~~We are looking for a nice logo for !FlexGet. Something suitable for favicon, program icon, and website use (does not all have to be the same version of logo.) Please submit your ideas! There is no particular deadline, nor a winner guaranteed. We are just looking for some help coming up with a good logo. You can edit this page.~~
 
  - [[Image(http://i.imgur.com/KA2fs.png, 150)]] by gazpachoking
 
