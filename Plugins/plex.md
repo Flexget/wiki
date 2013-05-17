@@ -5,12 +5,15 @@ Produces an entry for each show present in a  [http://www.plexapp.com Plex Media
 == Configuration ==
 Available configuration parameters:
 ||Name||Default||Mandatory||Description||
-||server||localhost||No||IP of PMS||
+||server||localhost||No||IP or host of PMS||
 ||port||32400||No||Port that PMS listens on||
 ||selection||all||No||Default selection to use, listing can be found at http://<yourplexserver>:32400/library/sections/<section>/||
 ||section||N/A||Yes||Section number to use as input, locate it at http://<yourplexserver>:32400/library/sections/||
 ||username||N/A||No||Myplex username, for logging in to remote servers||
 ||password||N/A||No||Myplex password, see above||
+||lowercase_title||No||No||Convert filename (title) to lower case.||
+||strip_year||Yes||No||Remove year from title, ex: Show Name (2012) 01x01 => Show Name 01x01||
+||original_filename||No||No||Use filename stored in PMS instead of transformed name. lowercase_title and strip_year will be ignored.||
 
 Using selection 'all' or 'recentlyViewedShows' will only produce a list of show names while the others will produce filename and download url.
 
