@@ -4,7 +4,7 @@ We picked a logo! Thank you everybody for your contributions, we got a lot of ni
 
 [[Image(PastedGraphic-3.png, 600)]]
 
-We'll be rolling it out coming up.
+See LogoAndIcons for assets.
 
 ~~We are looking for a nice logo for !FlexGet. Something suitable for favicon, program icon, and website use (does not all have to be the same version of logo.) Please submit your ideas! There is no particular deadline, nor a winner guaranteed. We are just looking for some help coming up with a good logo. You can edit this page.~~
 
