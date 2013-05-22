@@ -37,7 +37,7 @@ Submit your logo ideas [wiki:LogoContest here]!
   <li>
     <h4>trakt.tv</h4>
     <p>
-       Manage and track your series directly from <a href="http://trakt.tv/">trakt.tv</a>.
+       Manage and track your series and movies directly from <a href="http://trakt.tv/">trakt.tv</a>.
     </p>
   </li>
   <li>
