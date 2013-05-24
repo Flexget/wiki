@@ -6,10 +6,8 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
-{{{#!comment
-=== TODO once discover_refactor merged ===
+=== 2013.5.24 1.0.3414 ===
 Discover plugin has been refactored. The `type` option has been removed, and all search results are now returned all the time. An interval between searches for the same thing has also been implemented to reduce quantity of searches needed.
-}}}
 
 === Any Version ===
 If you get an error like `XXX keywords must be strings`, this is an issue with python versions less than 2.6.5. Try upgrading python to that or above, or use python 2.7.
