@@ -11,7 +11,6 @@ discover:
   from:
     - <search plugin>
   [limit]: <max results from each search engine>
-  [type]: <normal|exact|movies|any>
 }}}
 
 An overview of available search plugins can be found [wiki:Searches here].
@@ -28,6 +27,5 @@ discover:
     - emit_movie_queue: yes
   from:
     - torrentz: verified
-  type: movies
 }}}
 Be aware, that discover plugin just produces entries, if you want movies from your movie queue accepted you must still also include the [wiki:Plugins/movie_queue movie_queue] plugin in your task.
