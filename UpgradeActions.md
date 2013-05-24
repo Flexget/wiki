@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.5.24 1.1.0 ===
+Our config validation system has been completely refactored. If you find that your config is no longer valid and think it should be, or if you find configs that should not be valid but are, please report it. If the error messages for invalid configs have become less clear in any situations, please also report that, along with suggestions for improvement.
+
 === 2013.5.24 1.0.3414 ===
 Discover plugin has been refactored. The `type` option has been removed, and all search results are now returned all the time. An interval between searches for the same thing has also been implemented to reduce quantity of searches needed.
 
