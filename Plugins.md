@@ -43,7 +43,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
-||[wiki:Plugins/discover discover]||Produce entries from search results.||
+||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/from_deluge from_deluge]||'''{{{NEW}}}''' Use torrents loaded in a Deluge daemon as input.||
@@ -62,7 +62,6 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
-||[wiki:Plugins/tvt tvt]||'''BROKEN''' Parse [http://tvtorrents.com].||
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 
 == Filters ==
@@ -125,20 +124,24 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/email email]||'''{{{UPDATED}}}''' Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
-||[wiki:Plugins/notifymyandroid notifymyandroid]||'''{{{NEW}}}'''  Send notifications to android.||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
-||[wiki:Plugins/move move]||'''{{{NEW}}}''' Move local files.||
+||[wiki:Plugins/move move]||Move local files.||
 ||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
-||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
-||[wiki:Plugins/pushover pushover]||'''{{{NEW}}}''' Send Pushover notifications (iPhone and Android).||
-||[wiki:Plugins/rapidpush rapidpush]||'''{{{NEW}}}''' An easy-to-use push notification service. (Android).||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass entries' url to transmission, supporting magnet links.||
-||[wiki:Plugins/queue_movies queue_movies]||'''{{{NEW}}}'''  Add to movie queue.||
-||[wiki:Plugins/notify_osd notify_osd]||'''{{{NEW}}}''' Send notifications to notify-osd.(linux only. Ubuntu tested)||
+||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
+
+== Outputs (notification) ==
+
+||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
+||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
+||[wiki:Plugins/rapidpush rapidpush]||An easy-to-use push notification service. (Android).||
+||[wiki:Plugins/notify_osd notify_osd]||Send notifications to notify-osd.(linux only. Ubuntu tested)||
+||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
+
 
 == Modify / Other ==
 
