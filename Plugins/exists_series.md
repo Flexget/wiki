@@ -35,7 +35,7 @@ exists_series:
 }}}
 
 == Performance ==
-If you have a large collection of series, this plugin can be slow to parse all of your files. If you have your episodes organized into folders, you can optimize the performance of the plugin by specifying the specific series folder with jinja:
+If you have a large collection of series, this plugin can be slow to parse all of your files. If you have your episodes organized into folders, you can optimize the performance of the plugin by specifying the specific series folder with [wiki:Jinja]:
 {{{
 exists_series: /storage/series/{{series_name}}
 }}}
