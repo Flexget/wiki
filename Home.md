@@ -3,8 +3,6 @@
 <h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> for discussion and support</font></h2>
 }}}
 
-Submit your logo ideas [wiki:LogoContest here]!
-
 == Feature highlights ==
 
 {{{
