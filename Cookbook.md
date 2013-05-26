@@ -23,6 +23,7 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/Transmission Complete working example for Transmission ]::
  [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
  [wiki:Cookbook/uTorrent Brief working example for uTorrent]::
+ [wiki:Cookbook/TransmissionToDeluge Transfer torrents from Transmission to Deluge]::
 
 == User configurations ==
 
