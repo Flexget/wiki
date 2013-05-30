@@ -43,3 +43,23 @@ tasks:
 }}}
 
 For the complete configuration with Transmission refer to [wiki:Series/SeriesPresetMultipleRSStoTransmission Transmission setup] and use this configuration in ''~/.flexget/config.yml'' file.
+
+
+
+
+== Alternative simple setup ==
+
+
+{{{
+tasks:
+  task-a:
+    rss: http://showrss.karmorra.info/rss.php?user_id=USERID&hd=2&proper=0
+    all_series: yes
+    transmission:
+      host: localhost
+      port: 9091
+      username: USERNAME
+      password: PASSWORD
+      path: /home/xbian/TV/{{series_name}}/Season {{series_season}}
+      addpaused: no
+}}}
