@@ -125,7 +125,7 @@ rss:
 
 === Convert to ASCII ===
 
-Some feeds contain unicode characters which may cause problems. To force these into ASCII you set the {{{ascii}}} option to {{{yes}}}.
+Some feeds contain unicode characters which may cause problems. To force these into ASCII (and strip characters that can't) you set the {{{ascii}}} option to {{{yes}}}.
 
 {{{
 rss:
