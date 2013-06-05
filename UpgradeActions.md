@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.5.30 1.1.24 ===
+The find and listdir plugins no longer include the filename extension in the created entry title. If you were using that somehow, you can use the 'location' field instead, which will be the full path to the file including extension.
+
 === 2013.5.24 1.1.0 ===
 Our config validation system has been completely replaced. If you find that your config is no longer valid and think it should be, or if you find configs that should not be valid but are, please report it. If the error messages for invalid configs have become less clear in any situations, please also report that, along with suggestions for improvement.
 
