@@ -39,7 +39,7 @@ tasks:
       # this is where the series will be put
       to: /home/solenoid/TV/{{ tvdb_series_name }}
       # save the file as "Series Name - SxxEyy - Episode Name.ext"
-      filename: '{{ tvdb_series_name }} - {{ series_id }} - {{ tvdb_ep_name }}{{ title | pathext }}'
+      filename: '{{ tvdb_series_name }} - {{ series_id }} - {{ tvdb_ep_name }}{{ location | pathext }}'
 }}}
 
 For the complete configuration with Transmission refer to [wiki:Series/SeriesPresetMultipleRSStoTransmission Transmission setup] and use this configuration in ''~/.flexget/config.yml'' file.
