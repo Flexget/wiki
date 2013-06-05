@@ -28,7 +28,7 @@ tasks:
       recursive: yes 
     move:
       to: "/filestorage2/{{series_name}}/"
-      filename: '{{ series_name }} - {{ series_id }}{{title | pathext}}'
+      filename: '{{ series_name }} - {{ series_id }}{{location | pathext}}'
 }}}
 
 It is important to note that the files are moved as single files and no checks are made if multiple files match the same name. The files already present in the directory (even if moved during the same pass) are overwritten.
