@@ -126,9 +126,54 @@ presets:
       label: Movies
       path: /home/seb/media/Downloads/Torrent/Downloading
       movedone: "/home/seb/media/Movies/"
+  spectacles:
+    set:
+      label: Spectacles
+      path: /home/seb/media/Downloads/Torrent/Downloading
+      movedone: "/home/seb/media/HDD2_1To/Spectacles"
+  ebook:
+    deluge:
+      ratio: 0.1
+      removeatratio: yes
+    exists:
+      - /home/seb/media/Downloads/Torrent/Downloaded
+      - /home/seb/media/HDD2_1To/Ebooks
+    accept_all: yes
+    set:
+      path: /home/seb/media/Downloads/Torrent/Downloading
+      movedone: "/home/seb/media/HDD2_1To/Ebooks"
+      label: Ebooks
 tasks:
+#  T411_EBOOK:
+#    inputs:
+#      - rss: http://www.t411.me/rss/?cat=410
+#      - rss: http://www.t411.me/rss/?cat=408
+#    preset:
+#      - ebook
+#      - t411_cookie
+  T411_TV:
+    regexp:
+      from: title
+      reject:
+        - LOL
+        - FRENCH
+        - ASAP
+        - DIMENSION
+        - AFG
+        - IMMERSE
+        - EVOLVE
+    inputs:
+      - rss: http://www.t411.me/rss/?cat=433
+    preset:
+      - tv
+      - t411_cookie
+#  FTDB_EBOOKS:
+#    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxx/ebook.rss
+#    preset:
+#      - ebook
+#      - ftdb_cookie
   FTDB_TV:
-    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxxx/tv_vostfr.rss
+    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxxxx/tv_vostfr.rss
     preset:
       - tv
       - ftdb_cookie
@@ -140,10 +185,69 @@ tasks:
         - V O S T F R
         - V O S T FR
         - Sub FR
-    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxxx/dvdrip.rss
+    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxx/dvdrip.rss
     preset:
       - movies
       - ftdb_cookie
+  NyaaTorrents:
+    rss: http://www.nyaa.eu/?page=rss&cats=1_37&term=horriblesubs&filter=2
+    preset: animes
+  KAT:
+    verify_ssl_certificates: no
+    private_torrents: no
+    inputs:
+      - rss:
+          url: http://kat.ph/music/tag/rock/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/heavy-metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/progressive-rock/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/power-metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/melodic-metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/progressive-metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/music/tag/symphonic-metal/?rss=1
+          other_fields: [hash]
+      - rss:
+          url: http://kat.ph/search/heavytorrent/?rss=1
+          other_fields: [hash]
+    preset: zik
+  ZIK:
+    verify_ssl_certificates: no
+    private_torrents: no
+    inputs:
+#      - rss: http://rss.thepiratebay.org/100
+      - rss: http://www.torrentbox.com/rssfeed.php
+    preset: zik
+  METAL.IPLAY:
+    torrent_alive: no
+    rss: http://metal.iplay.ro/rss.php?feed=dl&cat=63,74,41,75,53,2,52&passkey=xxxxxxxxxxxxxxxxxxxxxxxxx
+    preset: zik
+  PSYCHOCYDD:
+    html:
+      url: http://www.psychocydd.co.uk/torrents.php
+      title_from: link
+      links_re:
+        - www.psychocydd\.co\.uk/details.php
+    preset: zik
+#  FTDB_MUSIC:
+#    torrent_alive: no
+#    rss: http://www.frenchtorrentdb.com/rss/musiques.rss
+#    preset:
+#      - zik
+#      - ftdb_cookie
   ADDSERIE:
     listdir: /home/seb/tor/series
     accept_all: yes
