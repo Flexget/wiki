@@ -1,7 +1,7 @@
 This is the personal configuration of user foulou . I will try to remember to update this page when I make changes.
 
 Updated Config if this one is outdated : http://pastebin.com/CsSLVCJA
-
+Trakt Config : http://pastebin.com/uupakwR6
 
 {{{
 presets:
