@@ -124,15 +124,15 @@ Configuration may contain any number and combination of different operations.
 == Operations described ==
 
 === accept ===
-mark matching entries as accepted
+If any of the regexps from the list match, accept the entry.
 
 === reject === 
-mark matching entries as rejected
+If any of the regexps from the list match, reject the entry.
 
 === accept_excluding === 
-mark everything else except matches as accepted
+If any of the regexps from the list do not match, accept the entry.
 
 === reject_excluding ===
-mark everything else except matches as rejected
+If any of the regexps from the list do not match, reject the entry.
 
 [[Include(wiki:FilterOperations)]]
