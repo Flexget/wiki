@@ -33,7 +33,7 @@ series:
 
 === Behavior with qualities option ===
 
-If the [wiki:Plugins/series/quality qualities] option is defined alongside timeframe, the timeframe will only kick in if ''none'' of your defined qualities have been downloaded within the timeframe.
+If the [wiki:Plugins/series/quality qualities] option is defined alongside timeframe (instead of {{{target}}}), the timeframe will only kick in if ''none'' of your defined qualities have been downloaded within the timeframe.
 
 === Behavior with upgrade option ===
 
