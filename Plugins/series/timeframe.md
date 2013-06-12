@@ -34,3 +34,7 @@ series:
 === Behavior with qualities option ===
 
 If the [wiki:Plugins/series/quality qualities] option is defined alongside timeframe, the timeframe will only kick in if ''none'' of your defined qualities have been downloaded within the timeframe.
+
+=== Behavior with upgrade option ===
+
+If the [wiki:Plugins/series/upgrade upgrade] option is defined along with {{{target}}}, the target quality will still be allowed to download if it becomes available after a fallback quality has already been accepted.
