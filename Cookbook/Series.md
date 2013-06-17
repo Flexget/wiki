@@ -29,7 +29,7 @@
 
  * http://rss.bt-chat.com/?group=3
  * http://showrss.karmorra.info/feeds/all.rss
- * http://ezrss.it/feed/  -- Currently Down
+ * http://ezrss.it/feed/
  * http://kat.ph/tv/?rss=1
  * http://torrentz.eu/feed
  * http://extratorrent.com/rss.xml?cid=8
