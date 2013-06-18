@@ -46,6 +46,12 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
 ||location||[wiki:Plugins/listdir listdir]||The local filename of the entry.||
+||plex_server||[wiki:Plugins/plex plex]||If set, PMS hostname. Otherwise PMS IP.||
+||plex_server_ip||[wiki:Plugins/plex plex]||PMS IP.||
+||plex_port||[wiki:Plugins/plex plex]||PMS port.||
+||plex_section||[wiki:Plugins/plex plex]||Section number.||
+||plex_section_name||[wiki:Plugins/plex plex]||Section name.||
+||plex_path||[wiki:Plugins/plex plex]||Entry path on PMS.||
 ||tvdb_series_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
 ||tvdb_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
 ||tvdb_status||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series status(Continuing or Ended)||
