@@ -8,7 +8,7 @@ Available configuration parameters:
 ||server||localhost||No||IP or host of PMS||
 ||port||32400||No||Port that PMS listens on||
 ||selection||all||No||Default selection to use, listing can be found at http://<yourplexserver>:32400/library/sections/<section>/||
-||section||N/A||Yes||Section number to use as input, locate it at http://<yourplexserver>:32400/library/sections/||
+||section||N/A||Yes||Section to use as input, numerical (/library/sections/<num>) or section name.||
 ||username||N/A||No||Myplex username, for logging in to remote servers||
 ||password||N/A||No||Myplex password, see above||
 ||lowercase_title||No||No||Convert filename (title) to lower case.||
