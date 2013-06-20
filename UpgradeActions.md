@@ -6,6 +6,11 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.6.20 1.1.37 ===
+The `watched` option for series plugin has been replaced by [wiki:Plugins/series/begin begin] option. (slightly different behavior too, you now specify the first episode you want, not the last you have)
+
+Series plugin episode advancement rules have been changed, for 'ep' type series, it will now allow any episode from the current season that has not been previously downloaded.
+
 === 2013.5.30 1.1.24 ===
 The find and listdir plugins no longer include the filename extension in the created entry title. If you were using that somehow, you can use the 'location' field instead, which will be the full path to the file including extension.
 
