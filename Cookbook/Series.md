@@ -23,7 +23,7 @@
 * [wiki:Cookbook/Series/SeriesPresetMultipleRSStoTransmission Transmission - Single series list in one preset from multiple RSS feeds to Transmission with propers, quality, separate path per series]
 * [wiki:Cookbook/Series/SeriesTransmissionshowRSS Transmission with showRSS: manage your series from showRSS website without messing with the configuration file]
 * [wiki:Cookbook/Series/PlexToPlexDownload Download episodes from a remote PMS by using local PMS as input]
-* [wiki:Cookbook/Series/DiscoverWithNewznab Download nzb from a newznab website]
+* [wiki:Cookbook/Series/DiscoverSeriesWithNewznab Download nzb for series episodes from a newznab website]
  
 == Resources ==
 
