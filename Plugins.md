@@ -191,6 +191,7 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 == Search ==
 
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
+||[wiki:Plugins/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
 
 
 == Command line plugins ==
