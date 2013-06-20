@@ -62,7 +62,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/identified_by identified_by]||Configure how episode numbering is detected. Uses 'auto' mode as default.||
 ||[wiki:Plugins/series/propers propers]||Configure how propers are handled.||
 ||[wiki:Plugins/series/specials specials]||Turn off specials support for series. (on by default)||
-||[wiki:Plugins/series/watched watched]||Manually specify minimum season and episode from where to continue.||
+||[wiki:Plugins/series/begin begin]||Manually specify first episode to start series on.||
 ||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
