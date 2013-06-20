@@ -44,10 +44,11 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||'''{{{NEW}}}''' Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
-||[wiki:Plugins/find find]||'''{{{NEW}}}''' Search through a local directory looking for files as a input.||
-||[wiki:Plugins/from_deluge from_deluge]||'''{{{NEW}}}''' Use torrents loaded in a Deluge daemon as input.||
-||[wiki:Plugins/from_transmission from_transmission]||'''{{{NEW}}}''' Use torrents loaded in Transmission as input.||
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
+||[wiki:Plugins/emit_series emit_series]||'''{{{NEW}}}''' Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
+||[wiki:Plugins/find find]||Search through a local directory looking for files as a input.||
+||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
+||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
