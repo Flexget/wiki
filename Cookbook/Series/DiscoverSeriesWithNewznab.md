@@ -1,6 +1,6 @@
 = Discover nzb files from Newznab =
 
-This recipe will cause !FlexGet to search for series episode using a newznab website rather than using a RSS feed. This can be helpful if you want to download series episode from older episodes that wouldn't normally appear in a newznab RSS.
+This recipe will cause !FlexGet to search for series episode using a newznab website rather than using a RSS feed. This can be helpful if you want to download series episode for older Series that wouldn't normally appear in a newznab RSS, but are indexed by the newznab website.
 
 First in your task you need to set which series you want to download, then we will use the discover episode to search on newznab our episodes (through the emit_series plugins).
 
