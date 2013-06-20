@@ -9,8 +9,7 @@ discover:
   what:
   - emit_movie_queue: yes
   from:
-  - torrentz
-  type: movies
+  - torrentz: verified
 movie_queue: yes
 }}}
 
