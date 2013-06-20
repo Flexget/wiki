@@ -1,7 +1,8 @@
 = Newnzab plugin =
 
-The newznab plugins i used in conjunction with the discover plugins.
+The newznab plugins is used in conjunction with the [wiki:Plugins/discover discover] plugins.
 
+With the [wiki:Plugins/emit_series emit_series]
 {{{
 discover:
   what:
@@ -10,7 +11,7 @@ discover:
     - newnab:
 }}}
 
-or 
+or the [wiki:Plugins/emit_movie_queue emit_movie_queue]
 
 {{{
 discover:
