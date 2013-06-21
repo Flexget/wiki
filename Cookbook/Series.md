@@ -8,7 +8,7 @@
 
 === More advanced recipes ===
 
-* [wiki:Cookbook/Series/Search Have !FlexGet search for the episodes you need rather than monitoring an RSS feed]
+* [wiki:Cookbook/Series/Search Have FlexGet search for the episodes you need rather than monitoring an RSS feed]
 * [wiki:Cookbook/Series/SeedDB Get your FlexGet series database started with the files you already have]
 * [wiki:Cookbook/Series/Sort Sort Downloads with FlexGet]
 * [wiki:Cookbook/Series/DelugeMovedone Set deluge options trough series groups]
