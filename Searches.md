@@ -1,6 +1,6 @@
 = Search Plugins =
 
-The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover discover] plugins have a set of their own private plugins. These plugins act like options for their parent plugins. This page lists these options and gives a brief description of their function.
+!FlexGet provides framework for plugins meant for querying searches from supported sites. These can be used with the [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover discover] plugins where they act like options for their parent plugins. This page lists these options and gives a brief description of their function.
 
 
 == Overview == 
@@ -17,7 +17,6 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 ||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 ||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
-
 
 You can always get an up to date overview of the available search plugins by using the command line option --search-plugins
 
