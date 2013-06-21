@@ -16,6 +16,8 @@ The [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover 
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
+||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
+
 
 You can always get an up to date overview of the available search plugins by using the command line option --search-plugins
 
