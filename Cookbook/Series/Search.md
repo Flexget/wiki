@@ -6,7 +6,7 @@ The [wiki:Plugins/emit_series emit_series] plugin is used within the [wiki:Plugi
 
 If !FlexGet does not already have a history of a given show, the [wiki:Plugins/series/begin begin] option must be specified for the series in order for emit_series to start working. In this example we set begin to be S01E01 for every show in our series config, so that !FlexGet will start looking for the episodes starting at the first one.
 
-{{{
+{{{ #!python
 tasks:
   search series:
     series:
@@ -22,7 +22,7 @@ tasks:
         - emit_series: yes
       from:
         - torrentz: verified
-      interval: 1 hour # Search for expected episodes again every hour
+      interval: 1 hour  # Search for expected episodes again every hour
 }}}
 
 This snippet does not include an [wiki:Plugins#Outputs output] plugin. You will need to add the appropriate one to the task when implementing this recipe.
