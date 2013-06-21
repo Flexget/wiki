@@ -22,6 +22,7 @@ tasks:
         - emit_series: yes
       from:
         - torrentz: verified
+      interval: 1 hour # Search for expected episodes again every hour
 }}}
 
 This snippet does not include an [wiki:Plugins#Outputs output] plugin. You will need to add the appropriate one to the task when implementing this recipe.
