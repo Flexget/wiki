@@ -1,8 +1,7 @@
 = Movie queue =
 
-Accept movies based on a predefined queue. After a movie is in the queue, it will be forcibly accepted when seen, disregarding all other filters.
-
-You need to manually add movies to the queue from the commandline, or set up a separate task with the [wiki:Plugins/queue_movies queue_movies] plugin.
+Maintains internal list of movies with quality information and accepts them when they're seen on the task.
+You need to manually add movies to the queue from the commandline, or set up a separate task with the [wiki:Plugins/queue_movies queue_movies] plugin which allows automatic queueing from numerous sources like imdb watchlist etc.
 
 == Related plugins ==
 
@@ -26,16 +25,15 @@ If force flag is given (values: yes|no) it will cause movie to be marked as immo
 The following will queue [http://www.imdb.com/title/tt1038686/ Legion (2010)] with quality 720p
 
 {{{
-$ flexget --movie-queue add imdb_id=tt1038686 "720p bluray"
-Added tt1038686 to queue with quality 720p bluray
-}}}
-
-Adding with name works too, if name can be queried from imdb/tmdb successfully.
-
-{{{
 $ flexget --movie-queue add legion "720p bluray"
 }}}
 
+Alternatively you can queue by imdb_id or tmdb_id.
+
+{{{
+$ flexget --movie-queue add imdb_id=tt1038686 "720p bluray"
+Added tt1038686 to queue with quality 720p bluray
+}}}
 
 You can also list the queue
 
@@ -79,11 +77,15 @@ $ flexget --movie-queue clear
 }}}
 
 == Command Line Interface ==
+
 The movie queue can be controlled via the command line interface. 
+
 {{{
 flexget --movie-queue <ACTION> [PARAMETERS]
 }}}
+
 The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345.
+
 ||'''Action'''||'''Parameters'''||'''Description'''||
 ||add||<IDENTIFIER> [QUALITY] [FORCE]||Add a movie to the queue.||
 ||del||<IDENTIFIER>||Remove a movie from the queue.||
