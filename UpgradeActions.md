@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.6.23 1.1.49 ===
+The [wiki:Plugins/move move] plugin now automatically appends the proper extension to filenames. You can take out any `{{location|pathext}}` or `{{title|pathext}}` (which doesn't work anymore anyway) you may have been using previously.
+
 === 2013.6.20 1.1.37 ===
 The `watched` option for series plugin has been replaced by [wiki:Plugins/series/begin begin] option. (slightly different behavior too, you now specify the first episode you want, not the last you have)
 
