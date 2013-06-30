@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2013.6.30 1.1.60 ===
+[wiki:Plugins/apple_trailers apple_trailers] plugin is fixed, but now only supports `480p` and `720p` resolutions.
+
 === 2013.6.23 1.1.49 ===
 The [wiki:Plugins/move move] plugin now automatically appends the proper extension to filenames. You can take out any `{{location|pathext}}` or `{{title|pathext}}` (which doesn't work anymore anyway) you may have been using previously.
 
