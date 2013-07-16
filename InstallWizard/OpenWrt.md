@@ -33,6 +33,12 @@ opkg install distribute
 easy_install pip
 }}}
 
+== Paver ==
+
+{{{
+pip install Paver
+}}}
+
 == Install ==
 
 Run command:
