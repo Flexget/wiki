@@ -1,7 +1,7 @@
 
 == Rationale ==
 
-It's impossible to have sane defaults that suit everyone. At the same time, having extensive configurability makes for a steep learning curve that not everyone wan'ts to go through.
+It's impossible to have sane defaults that suit everyone. At the same time, having extensive configurability makes for a steep learning curve that not everyone wants to go through.
 
 But there's a way to provide both user-friendliness and complete cutomizability: a template repository.
 
