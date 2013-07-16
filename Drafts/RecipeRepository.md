@@ -10,7 +10,7 @@ But there's a way to provide both user-friendliness and complete cutomizability:
 A recipe is a set of sane defaults with few configuration options. Through a GUI, the user should be able to choose a '''single''' ''base'' recipe for each task. A recipe might call another sub-recipe of certain category, e.g. output, filtering, etc. So, after adding a new task, something like this might appear:
 
 ||  [[Image(http://i6.minus.com/i1jHjOYdm7ga6.png)]]  ||
-||  ''Mockup of the UI. Advanced Configuration points to the fancy YAML editor.''  ||
+||  ''Mockup of the UI. Advanced Configuration points to the fancy [[Drafts/ConfigEditor]].''  ||
 
 
 
