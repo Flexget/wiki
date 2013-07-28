@@ -5,7 +5,7 @@ We very much appreciate any contributions to the project, you don't even necessa
 For code submissions we accept (in order of preference):
 
 * !GitHub pull requests
-* Patch files as ticket 
+* Patch files as ticket attachments
 * Just plain file attachments if above are too intimidating
 
 If you really want to make us happy, make sure your changes pass PEP8 guidelines. We have task for checking them. You can run it via
@@ -19,3 +19,7 @@ Any & additional unit tests are also huge bonus.
 !GitHub repo is located at:
 
 [https://github.com/Flexget/Flexget https://github.com/Flexget/Flexget]
+
+Development tutorials and documentation:
+
+[https://readthedocs.org/projects/flexget/ https://readthedocs.org/projects/flexget/]
