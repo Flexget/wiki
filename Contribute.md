@@ -22,4 +22,4 @@ Any & additional unit tests are also huge bonus.
 
 Development tutorials and documentation:
 
-[https://readthedocs.org/projects/flexget/ https://readthedocs.org/projects/flexget/]
+[https://flexget.readthedocs.org/en/latest/ https://flexget.readthedocs.org/en/latest/]
