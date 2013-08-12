@@ -19,26 +19,15 @@ tasks:
   # task that automatically generates an rss feed based on entries from the movie_queue
   movies search:
     priority: 10 # run after the movie queue fill task
-    torrent_alive: 10
     discover:
       what:
         - emit_movie_queue: yes
       from:
         - isohunt: movies
         - torrentz: verified
+    torrent_alive: 10 # Will reject results with less than 10 seeds
+    quality: dvdrip+ # Make sure no screeners or cams are downloaded
     movie_queue: yes
-    quality: dvdrip+
-    transmission: # You could use another output plugin instead of this (deluge, download)
-      # localhost is whitelisted so doesn't need password
-      host: localhost
-      port: 9091
-      ratio: 1.50
-      removewhendone: True
-      path: /mnt/cloud/share/film/{{movie_name}}/{{quality}}
-    trakt_acquired:
-      username: myusername
-      password: mypassword
-      api_key: myapikey
-      type: movies
+    transmission: yes # You could use another output plugin instead of this (deluge, download)
 }}}
 Plugins used: [wiki:Plugins/preset preset], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
