@@ -1,8 +1,9 @@
 This recipe aims to allow adding of movies as simple as adding a movie to your trakt.tv watchlist.
 
-How to create a feed that queues movies from entries in your [http://trakt.tv trakt.tv] watchlist is explained in this [wiki:Cookbook/Movies/TraktList cookbook]. So that part won't be explained in detail here.
+How to create a task that queues movies from entries in your [http://trakt.tv trakt.tv] watchlist is explained in this [wiki:Cookbook/Movies/TraktList cookbook]. This is the 'trakt_movie_queue_fill' task in this recipe. So that part won't be explained in detail here.
 
-This cookbook goes one step further and also uses the [wiki:Plugins/discover discover plugin] in conjunction with some [wiki:Searches search plugins] to dynamically search for the desired movies. The [wiki:Plugins/torrent_alive torrent_alive plugin] cycles the feed until it finds an entry with an acceptalbe amount of seeds. This is required since most of the query based feeds do not guarantee that the torrents have enough seeds or any kind of sorting.
+This recipe goes one step further and also uses the [wiki:Plugins/discover discover plugin]] to dynamically search for the desired movies. The [wiki:Plugins/torrent_alive torrent_alive plugin] is used to reject results that do not have at least a minimum number of seeds, which usually improves the quality of the results.
+
 {{{
 tasks:
   #task to pull movies from trakt.tv watchlist and add to the movie queue
