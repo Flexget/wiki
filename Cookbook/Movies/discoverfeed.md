@@ -4,34 +4,31 @@ How to create a feed that queues movies from entries in your [http://trakt.tv tr
 
 This cookbook goes one step further and also uses the [wiki:Plugins/discover discover plugin] in conjunction with the [wiki:Plugins/search_rss search_rss] plugin to dynamically create feeds from which entries can be harvested. The [wiki:Plugins/torrent_alive torrent_alive plugin] cycles the feed until it finds an entry with an acceptalbe amount of seeds. This is required since most of the query based feeds do not guarantee that the torrents have enough seeds or any kind of sorting.
 {{{
-feeds:
-  #feed to pull movies from trakt.tv watchlist and add to the movie queue
+tasks:
+  #task to pull movies from trakt.tv watchlist and add to the movie queue
   trakt_movie_queue_fill:
-    priority: 1
+    priority: 1 # run before the movie search task
     trakt_list:
       username: myusername
       api_key: myapikey
       movies: watchlist
     accept_all: yes
     queue_movies:
-      quality: dvdrip
       force: no
 
-  # feed that automatically generates an rss feed based on entries from the movie_queue
-  isohuntmovies search:
-    priority: 10
-    preset:
-      - dlvector
+  # task that automatically generates an rss feed based on entries from the movie_queue
+  movies search:
+    priority: 10 # run after the movie queue fill task
     torrent_alive: 10
     discover:
       what:
         - emit_movie_queue: yes
       from:
         - isohunt: movies
-        - torrentz
-      type: movies
+        - torrentz: verified
     movie_queue: yes
-    transmission:
+    quality: dvdrip+
+    transmission: # You could use another output plugin instead of this (deluge, download)
       # localhost is whitelisted so doesn't need password
       host: localhost
       port: 9091
