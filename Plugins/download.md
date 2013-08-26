@@ -62,10 +62,12 @@ download:
   path: /path/here
   overwrite: yes
   fail_html: no
+  temp: /path/for/temp
 }}}
 
 {{{overwrite}}} If a non-identical file already exists with the given name, it will be overwritten. (defaults to false)[[BR]]
-{{{fail_html}}} If html content is recieved (usually a login page), fail the entry. (defaults to true) 
+{{{fail_html}}} If html content is recieved (usually a login page), fail the entry. (defaults to true)[[BR]]
+{{{temp}}} Downloads are saved in a temporary location before being moved to their final path. You can override the default temporary folder with this option.
 
 == Multiple urls ==
 
