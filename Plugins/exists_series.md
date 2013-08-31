@@ -39,3 +39,7 @@ If you have a large collection of series, this plugin can be slow to parse all o
 {{{
 exists_series: /storage/series/{{series_name}}
 }}}
+
+
+''Note: As of version 1.1.97 plugin will follow symbolically linked directories.
+''
