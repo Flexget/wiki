@@ -15,3 +15,7 @@ exists_movie:
   - /storage/movies-sd/
   - /storage/movies-hd/
 }}}
+
+
+''Note: As of version 1.1.98 plugin will follow symbolically linked directories.
+''
