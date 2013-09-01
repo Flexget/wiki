@@ -1,3 +1,6 @@
+This is my current flexget configuration. I'll update this to add comments and explanations soon.
+
+config.yml:
 {{{
 presets:
   clairetransmission:
@@ -148,4 +151,14 @@ tasks:
     preset:
       - emailinfo
 
+}}}
+
+templates/showrss.template:
+{{{
+{% if task.accepted -%}
+{{task.accepted|length}} new torrent(s) has/have just been added:
+{%- for entry in task.accepted %}
+- {{entry.title}} {% if entry.output|d(false) %} => {{entry.output}}{% endif %}
+{% endfor %}
+{% endif -%}
 }}}
