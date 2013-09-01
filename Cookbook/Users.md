@@ -9,3 +9,4 @@ These are the complete configurations of actual end users. Feel free to add your
 * [wiki:Cookbook/Users/adrellias adrellias]
 * [wiki:Cookbook/Users/AlexTz AlexTz] trakt.tv integration for series and movies, torrentz search
 * [https://github.com/blsmit5728/flexget_files blsmit5728]
+* [wiki:Cookbook/Users/jordan0321 jordan0321]
