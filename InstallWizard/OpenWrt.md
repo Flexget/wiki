@@ -12,6 +12,7 @@ Install python with sqlite3 and yaml. Python-openssl is only necessary for https
 
 {{{
 opkg install python python-sqlite3 pyyaml
+opkg install python-sqlite
 opkg install python-expat
 opkg install python-openssl
 }}}
