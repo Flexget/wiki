@@ -16,9 +16,6 @@ opkg install python-expat
 opkg install python-openssl
 }}}
 
-{{{
-opkg install python-sqlite 
-}}}
 
 == easy_install ==
 
@@ -33,11 +30,6 @@ opkg install distribute
 easy_install pip
 }}}
 
-== Paver ==
-
-{{{
-pip install Paver
-}}}
 
 == Install ==
 
@@ -47,10 +39,10 @@ Run command:
 pip install flexget
 }}}
 
-If you decide to unpack your packages on an extroot (**recommended**), use the following command:
+If you decide to unpack your packages on an external storage (**recommended**), use the following command:
 
 {{{
-pip install flexget -b /your/path/to/extroot/tmp
+pip install flexget -b /your/path/to/extstorage/tmp
 }}}
 
 
