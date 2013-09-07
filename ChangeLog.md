@@ -1,4 +1,4 @@
-= !FlexGet Change Log =
+= Change Log =
 
 '''{{{NOTE}}}''' This is an automatically generated log, based on git commits.
 
