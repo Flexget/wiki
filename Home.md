@@ -109,3 +109,4 @@ We're seeking new developers for [wiki:Web-UI web interface]. Python, Javascript
  * '''[wiki:Cookbook The Cookbook]'''
  * '''[wiki:Developers Developers]'''
  * '''[wiki:Plugins Plugins]'''
+ * '''[wiki:ChangeLog Change Log]'''
