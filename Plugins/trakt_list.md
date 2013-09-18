@@ -30,6 +30,7 @@ Use a Movies category list as the input, options here are:
 * hated
 * collection
 * watchlist
+* watched
 }}}
 |----------------
 {{{#!td valign=top
