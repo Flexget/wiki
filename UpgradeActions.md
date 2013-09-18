@@ -6,6 +6,19 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+{{{#!comment
+=== 2013.X.X 1.2? ===
+'''''CLI Interface'''''
+
+The CLI interface has completely changed, we now have a subcommand based system. To execute flexget tasks, the `exec` subcommand is now used, e.g. `flexget exec`. The CLI utilities which did not run tasks (e.g. --series, --movie-queue --history) have been refactored into their own subcommands. `--help` should be much more useful now in determining how to use the CLI. You can see available subcommands with `flexget --help`, and get information about each subcommand like `flexget exec --help`
+
+''Note:'' Flags must be placed in the appropriate location in the command. For example the `-c` option needs to go before any subcommand now, whereas the `--now` option modifies the `exec` subcommand, and so must go after it, i.e. `flexget -c otherconfig.yml exec --now`
+
+'''''Lock File'''''
+
+The lock file is now created only when needed, and not for the whole !FlexGet run. This means you can run some reports and other things while another instance of !FlexGet is running. Lock files are now ignored if the PID which created it is no longer running, and the 10 hour lock file expiration has been removed.
+}}}
+
 === 2013.6.30 1.1.60 ===
 [wiki:Plugins/apple_trailers apple_trailers] plugin is fixed, but now only supports `480p` and `720p` resolutions.
 
