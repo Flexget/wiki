@@ -7,7 +7,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
 {{{#!comment
-=== 2013.X.X 1.2? ===
+=== 2013.X.X 1.2.0 ===
 '''''CLI Interface'''''
 
 The CLI interface has completely changed, we now have a subcommand based system. To execute flexget tasks, the `exec` subcommand is now used, e.g. `flexget exec`. The CLI utilities which did not run tasks (e.g. --series, --movie-queue --history) have been refactored into their own subcommands. `--help` should be much more useful now in determining how to use the CLI. You can see available subcommands with `flexget --help`, and get information about each subcommand like `flexget exec --help`
@@ -17,6 +17,10 @@ The CLI interface has completely changed, we now have a subcommand based system.
 '''''Lock File'''''
 
 The lock file is now created only when needed, and not for the whole !FlexGet run. This means you can run some reports and other things while another instance of !FlexGet is running. Lock files are now ignored if the PID which created it is no longer running, and the 10 hour lock file expiration has been removed.
+
+'''''Movie Queue'''''
+
+The `force` option has been removed completely. If you were relying on this, you'll have to split your movie task into two separate tasks: one with `movie_queue`, and the other with the filters which shouldn't affect `movie_queue`. You'll also need to remove the `force` option from your config in the [wiki:Plugins/queue_movies queue_movies] plugin.
 }}}
 
 === 2013.6.30 1.1.60 ===
