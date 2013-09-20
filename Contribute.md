@@ -4,7 +4,7 @@ We very much appreciate any contributions to the project, you don't even necessa
 
 For code submissions we accept (in order of preference):
 
-* !GitHub pull requests
+* !GitHub pull requests ([https://help.github.com/articles/fork-a-repo guide])
 * Patch files as ticket attachments
 * Just plain file attachments if above are too intimidating
 
