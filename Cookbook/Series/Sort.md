@@ -5,7 +5,7 @@ This recipe is to sort your already downloaded series into their own folders. No
 {{{
 presets:
 
-  # NOTE!! This preset cannot have any other configuration or else it will affect our sort-series.
+  # NOTE!! This preset cannot have any other plugins or else it will affect our sort-series.
   # Also, you must use series groups, so that we can turn off filtering with the parse_only option in our sort feed.
   tv-series:
     series:
