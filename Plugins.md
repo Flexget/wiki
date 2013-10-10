@@ -123,7 +123,6 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
-||[wiki:Plugins/email email]||'''{{{UPDATED}}}''' Send email when new content is passed.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
@@ -137,6 +136,7 @@ Execute operation(s) on accepted entries.
 
 == Outputs (notification) ==
 
+||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/rapidpush rapidpush]||An easy-to-use push notification service. (Android).||
