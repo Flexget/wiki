@@ -57,7 +57,9 @@ Qualities are split into four separate categories: resolution, source, codec, an
 }}}
 {{{
 #!td style="vertical-align: top"
+- truehd
 - dts
+- dts-hd
 - flac
 - ac3
 - aac
