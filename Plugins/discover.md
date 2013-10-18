@@ -14,9 +14,39 @@ discover:
   [interval]: <time between trying each search again>
 }}}
 
-An overview of available search plugins can be found [wiki:Searches here].
+An overview of available search plugins can be found [wiki:Searches here]. For a list of installed search plugins run "flexget --search-plugins" from the cli.
 
-For a list of installed search plugins run "flexget --search-plugins" from the cli
+=== Example: Input configs ===
+
+It's advised to have inputs queued to series or movies list (via for example a task doing '[wiki:Plugins/import_series import_series]:' or '[wiki:Plugins/queue_movies queue_movies]: yes'). Then use either:
+
+{{{
+discover:
+      what:
+        - emit_series: yes
+        # OR
+        - emit_movie_queue: yes
+      from:
+        ...
+}}}
+
+It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
+
+{{{
+discover:
+      what:
+        - imdb_list:
+            list: watchlist
+            username: USERNAME
+            password: PASSWORD
+        - trakt_list:
+            username: USERNAME
+            password: PASSWORD
+            api_key: API_KEY
+            movies: watchlist
+      from:
+        ...
+}}}
 
 === Example: Search movie queue ===
 
@@ -27,6 +57,12 @@ discover:
   what:
     - emit_movie_queue: yes
   from:
+    - kat:
+        category: movies
+        verified: yes
+    - piratebay:
+        category: "highres movies"
+        sort_by: seeds
     - torrentz: verified
   interval: 1 day
 }}}
