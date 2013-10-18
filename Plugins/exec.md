@@ -6,7 +6,7 @@ This plugin can take two configuration formats [#SimpleConfiguration simple] and
 
 == Simple Configuration ==
 
-With this configuration, your command is executed on all accepted entries that reach output.
+With this configuration, your command is executed on all accepted entries that //reach output//.
 
 === Example ===
 
@@ -14,35 +14,47 @@ With this configuration, your command is executed on all accepted entries that r
 exec: echo "found {{title}} at {{url}}" >> file
 }}}
 
-=== Example 2 ===
-
-{{{
-exec: echo "downloaded file {{output}}" >> file
-}}}
-
-
 You can use all (available) [wiki:Entry entry] fields in the command.
 
 == Advanced Configuration^^^1, 2^^^ ==
 
 If you need more control over what entries and when the command gets executed, you can use the advanced configuration format. This requires some understanding of how the [wiki:Developers internals] of !FlexGet work.
 
-Execute commands.
+For example the simple form:
+
+{{{
+exec: echo "downloaded file {{output}}" >> file
+}}}
+
+is equivalent to the advanced form:
+
+{{{
+exec:
+  on_output:
+    for_accepted: echo "downloaded file {{output}}" >> file
+}}}
 
 '''Format:'''
 
 {{{
 exec:
-  [ON_PHASE]:
-    [phase]: CMD
-    [FOR_ENTRIES]: CMD
+  ON_PHASE_NAME:
+    [phase: CMD]
+    [FOR_ITEMS_NAME: CMD]
 }}}
 
-Available ''ON_PHASE'': on_start, on_input, on_filter, on_output and on_exit
-[[BR]]
-Available ''FOR_ENTRIES'': for_entries, for_accepted, for_rejected and for_failed
-[[BR]]
-[[BR]]
+Where ''ON_PHASE_NAME'' must be one of:
+- `on_start`
+- `on_input`
+- `on_filter`
+- `on_output`
+- `on_exit`
+
+Where ''FOR_ITEMS_NAME'' must be one of:
+- `for_entries`
+- `for_accepted`
+- `for_rejected`
+- `for_failed`
     
 '''Example:'''
 
