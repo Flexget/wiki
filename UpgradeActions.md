@@ -21,6 +21,11 @@ The lock file is now created only when needed, and not for the whole !FlexGet ru
 '''''Movie Queue'''''
 
 The `force` option has been removed completely. If you were relying on this, you'll have to split your movie task into two separate tasks: one with `movie_queue`, and the other with the filters which shouldn't affect `movie_queue`. You'll also need to remove the `force` option from your config in the [wiki:Plugins/queue_movies queue_movies] plugin.
+
+'''''Presets'''''
+The `preset` plugin was changed into the [wiki:Plugins/template template] plugin in order to clarify its function. The root level `presets` needs to be renamed to `templates`, and the task level `preset` plugin needs to be replaced with `template`.
+
+Partially configured plugins are no longer allowed in either tasks or templates. Both tasks and templates may only include valid fully configured plugins now.
 }}}
 
 === 2013.6.30 1.1.60 ===
