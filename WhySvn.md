@@ -29,7 +29,7 @@ Sure, if someone provides us scripts to sync !GitHub <-> SVN ... I know we would
 ||gazpachoking||Chase Sterling||chase.sterling@gmail.com||
 ||gray||NAME||gray@cpan.org||
 ||joshuajonah||NAME||<USER@DOMAIN>||
-||limon||NAME||<USER@DOMAIN>||
+||limon||Levent Dane||limon@verj.us||
 ||paranoidi||Marko Koivusalo||marko.koivusalo@gmail.com||
 ||pyroscope||pyroscope||pyroscope.project@gmail.com||
 ||ressu||NAME||<USER@DOMAIN>||
