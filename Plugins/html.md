@@ -97,3 +97,54 @@ html:
   url: <url>
   dump: file.html
 }}}
+
+== Increment ==
+
+You can perform multiple request by using the increment option.
+
+=== Example ===
+{{{
+html:
+  url: "www.somesite.com/search/?category=10&page={{i}}"
+  increment: True
+}}}
+This will grab entries from 
+{{{
+www.somesite.com/search/?category=10&page=0
+www.somesite.com/search/?category=10&page=1
+www.somesite.com/search/?category=10&page=2
+}}}
+... and so on, until a total of 200 entries are retrieved, or no entry is retrieved on one request.
+
+{{{
+html:
+  url: "www.somesite.com/search/?category=10&from={{i}}&to={{i+49}}"
+  increment: 
+    from: 0
+    to: 10
+    step : 50
+}}}
+
+This configuration will grab entries from those URLs
+{{{
+www.somesite.com/search/?category=10&from=0&to=49
+www.somesite.com/search/?category=10&from=50&to=99
+www.somesite.com/search/?category=10&from=100&to=149
+www.somesite.com/search/?category=10&from=150&to=199
+www.somesite.com/search/?category=10&from=200&to=249
+www.somesite.com/search/?category=10&from=250&to=299
+www.somesite.com/search/?category=10&from=300&to=349
+www.somesite.com/search/?category=10&from=350&to=399
+www.somesite.com/search/?category=10&from=400&to=449
+www.somesite.com/search/?category=10&from=450&to=499
+}}}
+
+==== Additionnal increment Options ====
+
+||'''Option'''||'''Description'''||'''type'''||'''default'''||
+||from||Required quality.||integer||0||
+||to||If defined, plugin will stop when increment reach this value||integer||None||
+||name||Name of the variable used in {{...}} jinja2 blocks||string||"i"||
+||step||The value that will be added to the variable, for each iteration (Can be negative)||integer||1||
+||stop_when_empty||If True, plugin will stop when a page retrieves no entry||boolean||True||
+||entries_count||If total entries count exceed this value, plugin will stop||integer||200||
