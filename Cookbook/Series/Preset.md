@@ -1,6 +1,6 @@
 = Manage series easier with a preset =
 
-With [wiki:Plugins/preset preset] plugin you can avoid having to duplicate configuration in multiple feeds. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/preset preset] documentation for more tips.
+With [wiki:Plugins/preset preset] plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/preset preset] documentation for more tips.
 
 {{{
 presets:
