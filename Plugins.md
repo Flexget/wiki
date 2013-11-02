@@ -42,6 +42,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
+||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
