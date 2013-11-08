@@ -104,3 +104,6 @@ transmission-remote -l  | grep 100% | grep Done | awk '{print $1}' | xargs -n 1 
 Note: if your transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
 
 Add this script to your crontab.
+[http://awesomeweddingspeeches.com awesome wedding speech]
+[http://ultrasoundtechnicianexpert.com ultrasound tech expert]
+[http://typingblaze.com typingblaze]
