@@ -87,7 +87,8 @@ open up the newly created provider and make note of the "Your API key is:" field
 
 ssh or log in to your ubuntu box and run the following commands one after the other:
 
-'''note:''' replace "djnitehawk" with your username
+'''note 1:''' replace "djnitehawk" with your username
+'''note 2:''' if the "useradd" command says the group doesn't exist, restart the machine first and try "sudo adduser djnitehawk debian-transmission"
 {{{
 cd ~/
 sudo apt-get install python-software-properties
