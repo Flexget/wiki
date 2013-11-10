@@ -87,8 +87,7 @@ open up the newly created provider and make note of the "Your API key is:" field
 
 ssh or log in to your ubuntu box and run the following commands one after the other:
 
-'''note 1:''' replace "djnitehawk" with your username
-'''note 2:''' if the "useradd" command says the group doesn't exist, restart the machine first and try "sudo adduser djnitehawk debian-transmission"
+'''note:''' replace "djnitehawk" with your username[[BR]]
 {{{
 cd ~/
 sudo apt-get install python-software-properties
@@ -100,6 +99,8 @@ echo "" > prep-dirs.sh
 chmod +x prep-dirs.sh
 nano prep-dirs.sh
 }}}
+'''troubleshooting:''' if the "useradd" command above says the group doesn't exist, restart the machine first and try "sudo adduser djnitehawk debian-transmission"
+
 then copy and paste the following text into nano:
 
 '''note:''' replace "djnitehawk" with your username
