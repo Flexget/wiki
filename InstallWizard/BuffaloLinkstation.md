@@ -47,6 +47,15 @@ Run the following command:
 /opt/local/bin/flexget --check
 }}}
 
+Sometimes upgrading doesn't work, especially when you have multiple version of PHP installed. In that case you need to reinstall. Run the following to uninstall flexget (no worries, your settings stay where they are):
+{{{
+/opt/local/bin/pip uninstall flexget
+}}}
+
+After that make sure that the /opt/local/lib/python<version>/site-packages does not contain references to flexget anymore. Also make sure that your $TEMP folder doesn't contain any flexget references (delete them).
+
+After deleting everything, just reinstall.
+
 = Cron job =
 
 If you want FlexGet to automatically run e.g. every 45 minutes you can include the following in your crontab:
