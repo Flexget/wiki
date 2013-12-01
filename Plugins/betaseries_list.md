@@ -23,7 +23,7 @@ You Api key can be requested freely at http://www.betaseries.com/api.
 
 '''Example:'''
 
-If you want to download the series followed my multiple members
+If you want to download the series followed by multiple members
 
 {{{
         import_series:
