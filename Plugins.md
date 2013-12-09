@@ -65,6 +65,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
+||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
 
 == Filters ==
 
@@ -135,6 +136,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
+||[wiki:Plugins/ftp_download ftp_download]||'''{{{NEW}}}''' Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
 
 == Outputs (notification) ==
 
