@@ -1,13 +1,12 @@
 
 == ftp_download ==
-Downloads content from a ftp and saves it into a path. Path is retrieved from entry plugin receives, or if path is not set in entry, it takes the path set in the plugin config.
+Downloads content from a ftp and saves it into a local path. Path is retrieved from an entry plugin. The Entry URL must contain the FTP username and password
 
 '''Example:'''
 {{{
 ftp_download:
   use-ssl: False
-  use-secure: False
-  skiplist: \.message|\.diz$|Sample
+  delete_origin: False
   path: /home/dl/tv
 }}}
 
