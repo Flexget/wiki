@@ -40,3 +40,6 @@ With tasks using plugin [wiki:Plugins/seen_movies seen_movies] you can also use 
 }}}
 
 '''Protip:''' In case you wish to forget manually seen stuff you can use {{{--forget "--seen"}}}
+
+=== --learn ===
+The option {{{--learn}}} (optionally combined with {{{--task}}}) can be used to mark all entries that would be accepted as seen.
