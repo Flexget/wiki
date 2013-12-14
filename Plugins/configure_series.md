@@ -17,7 +17,7 @@ import_series:
 
 === Settings ===
 
-You can use any of the [wiki:Plugins/series#Settings settings for the series plugin] within the 'settings' block in import_series. These settings will be applied to every show imported.
+You can use any of the [wiki:Plugins/series#Settings settings for the series plugin] within the 'settings' block in import_series. This section is optional, but if included, the settings will be applied to every show imported.
 
 === From ===
 
