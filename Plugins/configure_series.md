@@ -24,7 +24,7 @@ You can use any of the [wiki:Plugins/series#Settings settings for the series plu
 In this section you must include one or more configured [wiki:Plugins#Input input plugins]. The titles of the entries created by this plugin will be used as the names of the series that you desire.
 
 
-'''Example with listdir:'''
+== Example ==
 
 Let's say you have a directory where all your series are stored in each in the own folder. Something like:
 
