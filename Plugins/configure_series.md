@@ -16,6 +16,10 @@ import_series:
     # any input(s)
 }}}
 
+=== Settings ===
+
+You can use any of the [wiki:Plugins/series#Settings settings for the series plugin] within the 'settings' block in import_series. These settings will be applied to every show imported.
+
 '''Example with listdir:'''
 
 Let's say you have a directory where all your series are stored in each in the own folder. Something like:
