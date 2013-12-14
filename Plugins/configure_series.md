@@ -4,8 +4,7 @@ Generates [wiki:Plugins/series series] plugin configuration from any (upgraded) 
 
 Most commonly used with [wiki:Plugins/thetvdb_favorites thetvdb_favorites], [wiki:Plugins/trakt_list trakt_list], or [wiki:Plugins/listdir listdir].
 
-
-'''Syntax:'''
+== Syntax ==
 
 {{{
 import_series:
@@ -19,6 +18,11 @@ import_series:
 === Settings ===
 
 You can use any of the [wiki:Plugins/series#Settings settings for the series plugin] within the 'settings' block in import_series. These settings will be applied to every show imported.
+
+=== From ===
+
+In this section you must include one or more configured [wiki:Plugins#Input input plugins]. The titles of the entries created by this plugin will be used as the names of the series that you desire.
+
 
 '''Example with listdir:'''
 
