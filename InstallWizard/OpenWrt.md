@@ -15,6 +15,8 @@ opkg install python python-sqlite3 pyyaml
 opkg install python-sqlite
 opkg install python-expat
 opkg install python-openssl
+
+opkg install python-bzip2
 }}}
 
 
