@@ -26,6 +26,7 @@ tasks:
       from:
         - isohunt: movies
         - torrentz: verified
+      interval: 7 days
     torrent_alive: 10 # Will reject results with less than 10 seeds
     quality: dvdrip+ # Make sure no screeners or cams are downloaded
     movie_queue: yes
