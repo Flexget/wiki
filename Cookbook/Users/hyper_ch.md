@@ -15,15 +15,15 @@ Some of the thoughts I put into it:
 
 - The reason for chosing to put the tv shows into a seperate file was to make the main config smaller and more readable.
 
-- In the tv section I did set a max. file size of 800MB. Mainly because I prefer xvid as I just watch a show usually once. And if there is a double episode, it should be around 700MB. So 800MB is a save margin.
+- In the both sections I enforce a lq and hq size limit. That's to reflect "low quality" and "high quality". If there's a hq result found and within 2h not a lq result posted, then it'll use the hq result. I do this because I usually watch things once and then just delete stuff. No need to high quality.
 
-- I also set no propers because often shows get replaced with a "clean" version. Hoever most of the times those replacements don't make any sense or are a really minor improvement. If you just watch the show once, you don't need proper.
+- I also set no propers because often shows get replaced with a "clean" version. However most of the times those replacements don't make any sense or are a really minor improvement. If you just watch the show once, you don't need proper.
 
 - The settings and group are necessary so that you can apply desired settings.
 
 - only_new makes previous undecided entries to reject. I use this to speed up the lookups.
 
-- the premiers are pretty much like the followed tv shows except I have flexget make a lookup on the genres. It will reject unwanted genres. Unfortunatley TMDB isn't that up-to-date on new shows, I hope TVRage will be added for lookup soon
+- the premiers are pretty much like the followed tv shows except I have flexget make a lookup on the genres. It will reject unwanted genres. Unfortunatley TVDB isn't that up-to-date on new shows, I hope TVRage will be added for lookup soon
 
 - the movie_queue makes it use the movie queue
 
@@ -56,13 +56,10 @@ presets:
 
   tv_common:
     inputs:
-      - rss: http://www.tv-feed1.com/rss.php
-      - rss: http://www.tv-feed2.com/rss.php
-      - rss: http://www.tv-feed3.com/rss.php
-    content_size:
-      max: 800
+      - rss: https://www.rss1.com
+      - rss: https://www.rss2.com
+      - rss: http://www.rss3.com
     download: ~/rtorrent/Watch/
-    quality: "<=1080p r5+"
     exists_series:
       - ~/rtorrent/Completed/
       - ~/rtorrent/Downloads/
@@ -72,9 +69,10 @@ presets:
 
   movies:
     inputs:
-      - rss: http://www.movie-feed1.com/rss.php
-      - rss: http://www.movie-feed2.com/rss.php
-      - rss: http://www.movie-feed3.com/rss.php
+      - rss: http://www.rss4.com
+      - rss: https://www.rss5.com
+      - rss: http://www.rss6.com
+      - rss: http://www.rss7.com
     content_size:
       max: 1700
     download: ~/rtorrent/Movies_Watch/
@@ -82,37 +80,73 @@ presets:
       - ~/rtorrent/Movies
       - ~/rtorrent/Downloads
       - ~/rtorrent/Movies_Watch
-    quality: "<=1080p r5+"
+    quality:
+      - <=1080p hdrip+
     movie_queue: yes
     proper_movies: no
     verify_ssl_certificates: no
     interval: 15 minutes
 
 tasks:
-  tv_feeds:
+  tv_feeds_lq:
     preset: tv_common
     series:
       settings:
         group 1:
           propers: no
+    content_size:
+      max: 500
+      strict: no
     include: series.yml
 
-  premiers:
+  tv_feeds_hq:
+    preset: tv_common
+    series:
+      settings:
+        group 1:
+          propers: no
+    content_size:
+      max: 1500
+      strict: no
+    delay: 2 hours
+    include: series.yml
+
+  premiers_lq:
     preset: tv_common
     series_premiere:
       propers: no
+      allow_seasonless: yes
+    content_size:
+      max: 500
+      strict: no
     thetvdb_lookup: yes
-    if:
-      - not has_field('series_genres'): reject
-      - series_id == 'S01E01':  
-          regexp:
-            reject:
-              - documentary
-              - talk show
-              - game show
-              - reality
-              - news
-            from: series_genres
+    require_field: tvdb_genres
+    regexp:
+      reject:
+        - documentary: {from: tvdb_genres}
+        - talk show: {from: tvdb_genres}
+        - game show: {from: tvdb_genres}
+        - reality: {from: tvdb_genres}
+        - news: {from: tvdb_genres}
+
+  premiers_hq:
+    preset: tv_common
+    series_premiere:
+      propers: no
+      allow_seasonless: yes
+    content_size:
+      max: 1500
+      strict: no
+    delay: 2 hours
+    thetvdb_lookup: yes
+    require_field: tvdb_genres
+    regexp:
+      reject:
+        - documentary: {from: tvdb_genres}
+        - talk show: {from: tvdb_genres}
+        - game show: {from: tvdb_genres}
+        - reality: {from: tvdb_genres}
+        - news: {from: tvdb_genres}
 
   movie_feeds:
     preset: movies
