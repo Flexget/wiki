@@ -6,13 +6,30 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
-{{{#!comment
-=== 2013.X.X 1.2.0 ===
+=== 2014.1.2 1.2.0 ===
 '''''CLI Interface'''''
 
-The CLI interface has completely changed, we now have a subcommand based system. To execute flexget tasks, the `exec` subcommand is now used, e.g. `flexget exec`. The CLI utilities which did not run tasks (e.g. --series, --movie-queue --history) have been refactored into their own subcommands. `--help` should be much more useful now in determining how to use the CLI. You can see available subcommands with `flexget --help`, and get information about each subcommand like `flexget exec --help`
+The CLI interface has completely changed, we now have a command based system. To execute flexget tasks, the `execute` command is now used, e.g. `flexget execute`. The CLI utilities which did not run tasks (e.g. --series, --movie-queue --history) have been refactored into their own commands. `--help` should be much more useful now in determining how to use the CLI. You can see available commands with `flexget --help`, and get information about each subcommand like `flexget execute --help`
 
-''Note:'' Flags must be placed in the appropriate location in the command. For example the `-c` option needs to go before any subcommand now, whereas the `--now` option modifies the `exec` subcommand, and so must go after it, i.e. `flexget -c otherconfig.yml exec --now`
+''Note:'' Flags must be placed in the appropriate location in the command. For example the `-c` option needs to go before any command now, whereas the `--now` option modifies the `execute` command, and so must go after it, i.e. `flexget -c otherconfig.yml execute --now`
+
+'''''Daemon Mode'''''
+
+!FlexGet now has a daemon mode, launched with `flexget daemon`, which can be used instead of scheduling it to be run periodically with a tool like cron. While a daemon is running, running a `flexget execute` command will cause the execution to be forwarded to the running daemon. Example of new schedules block in config for daemon mode:
+{{{
+schedules:
+  - tasks: [task1, task2]
+    interval:
+      weeks: 1
+      on_day: monday
+  - tasks: task3
+    interval:
+      minutes: 30
+      
+}}}
+
+
+Full wiki page is forthcoming.
 
 '''''Lock File'''''
 
@@ -23,10 +40,14 @@ The lock file is now created only when needed, and not for the whole !FlexGet ru
 The `force` option has been removed completely. If you were relying on this, you'll have to split your movie task into two separate tasks: one with `movie_queue`, and the other with the filters which shouldn't affect `movie_queue`. You'll also need to remove the `force` option from your config in the [wiki:Plugins/queue_movies queue_movies] plugin.
 
 '''''Presets'''''
+
 The `preset` plugin was changed into the [wiki:Plugins/template template] plugin in order to clarify its function. The root level `presets` needs to be renamed to `templates`, and the task level `preset` plugin needs to be replaced with `template`.
 
 Partially configured plugins are no longer allowed in either tasks or templates. Both tasks and templates may only include valid fully configured plugins now.
-}}}
+
+'''''import_series'''''
+
+The {{{import_series}}} plugin was renamed [wiki:Plugins/configure_series configure_series]. It will need to be changed in your config.
 
 === 2013.6.30 1.1.60 ===
 [wiki:Plugins/apple_trailers apple_trailers] plugin is fixed, but now only supports `480p` and `720p` resolutions.
