@@ -35,7 +35,7 @@ crontab -e
 Enter one new line on crontab:
 
 {{{
-@hourly /usr/local/bin/flexget --cron
+@hourly /usr/local/bin/flexget execute --cron
 }}}
 
 This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often.
@@ -43,7 +43,7 @@ This will run !FlexGet every hour. You may run it more frequently as well, but I
 To run more often you may use crontab in form of:
 
 {{{
-*/30 * * * * /usr/local/bin/flexget --cron
+*/30 * * * * /usr/local/bin/flexget execute --cron
 }}}
 
 Where 30 is the time between executions.
