@@ -117,7 +117,7 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 These plugins configure other plugins from external sources like 3rd party sites.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/import_series import_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
+||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 
 == Outputs ==
 
