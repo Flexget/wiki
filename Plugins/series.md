@@ -77,32 +77,44 @@ The series plugin supports a number of settings to customize it's behavior. Thou
  * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. 
  * Check [wiki:Cookbook/Series series cookbook] for more complete examples and advanced uses.
 
-== Commandline Arguments ==
+== `series` Commandline Arguments ==
 
-The series plugin provides following commandline arguments.
+The series plugin has several features available at the command line via the `flexget series` command:
 
-=== --series ===
+=== list ===
 
-Display series summary. To get more details from any listed series you can use --series <name>.
+Display series summary. `flexget series list`
 
-=== --series-forget ===
+=== show ===
+
+Displays the releases for a given show that the series plugin has seen. `flexget series show <name>`
+
+=== forget ===
 
 Delete episodes from database or whole series completely.
 
 To delete single episode, use:
 
---series-forget <name> <id>
+`flexget series forget <name> <id>`
 
 To delete whole series, use:
 
---series-forget <name>
+`flexget series forget <name>`
+
+=== begin ===
+
+Sets the first episode of a show that the series plugin should look for. `flexget series begin <name> <id>`
+
+== `execute` Commandline Arguments ==
+
+There are also options to the `flexget execute` command which affect the series plugin:
 
 === --disable-advancement ===
 
 If episode advancement is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `--inject` and `--learn`. Example:
 
 {{{
-flexget --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-advancement --task NAME
+flexget execute --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-advancement --tasks NAME
 }}}
 
 === --stop-waiting ===
