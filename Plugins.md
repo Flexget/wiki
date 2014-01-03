@@ -156,7 +156,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a task.||
-||[wiki:Plugins/disable_plugin disable_plugin]||Disable plugins from presets.||
+||[wiki:Plugins/disable_plugin disable_plugin]||Disable plugins from templates.||
 ||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
@@ -172,10 +172,10 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
-||[wiki:Plugins/preset preset]||Provides global configuration and named presets.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
+||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
