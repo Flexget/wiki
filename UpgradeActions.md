@@ -13,6 +13,8 @@ The CLI interface has completely changed, we now have a command based system. To
 
 ''Note:'' Flags must be placed in the appropriate location in the command. For example the `-c` option needs to go before any command now, whereas the `--now` option modifies the `execute` command, and so must go after it, i.e. `flexget -c otherconfig.yml execute --now`
 
+If you wish to continue to run !FlexGet with cron, you'll have to update your cron entry to the new CLI syntax.
+
 '''''Daemon Mode'''''
 
 !FlexGet now has a daemon mode, launched with `flexget daemon`, which can be used instead of scheduling it to be run periodically with a tool like cron. While a daemon is running, running a `flexget execute` command will cause the execution to be forwarded to the running daemon. Example of new schedules block in config for daemon mode:
