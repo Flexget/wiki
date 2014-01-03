@@ -1,9 +1,9 @@
-= Preset =
+= Template =
 
-Allows defining presets configs for plugins and re-using them in multiple tasks. Note that presets are not executed separately. All included presets will be merged into the task before it is run.
+Allows defining config templates containing one or more plugins and re-using them in multiple tasks. Note that templates are not executed separately. All included templates will be merged into the task before it is run.
 
 {{{
-presets:
+templates:
 
   tv:
     series:
@@ -20,48 +20,48 @@ presets:
 tasks:
   some_task:
     rss: http://example.com
-    preset: tv
+    template: tv
 
   another_task:
     rss: http://example2.com
-    preset: movies
+    template: movies
 
   third_task:
     rss: http://example3.com
-    preset: 
+    template: 
       - tv
       - movies
 
 }}}
 
-== Execute tasks with a given preset ==
+== Execute tasks with a given template ==
 
-To execute all tasks that have certain preset you can use `--preset NAME`
+To execute all tasks that have certain template you can use `--template NAME`
 
 '''Examples:'''
 
 {{{
---preset movies
+--template movies
 }}}
 
 {{{
---preset tv
+--template tv
 }}}
 
 == Merging limitations ==
 
-In case you're using multiple presets in a task and more than one preset has same plugin, they must be
+In case you're using multiple templates in a task and more than one template has same plugin, they must be
 configured in same format for merge to be possible.
 
 '''Incompatible:'''
 
 {{{
-preset-a:
+template-a:
   series:
     - foo
     - bar
 
-preset-b:
+template-b:
   series:
     settings:
       720p:
@@ -73,20 +73,20 @@ preset-b:
 
 Why is it incompatible?
 
-''Preset-a'' has list under series where as ''preset-b'' has key value-pairs.
+''Template-a'' has list under series where as ''template-b'' has key value-pairs.
 
 For merging to work they need to be in same format:
 
 '''Compatible:'''
 
 {{{
-preset-a:
+template-a:
   series:
     normal:
       - foo
       - bar
 
-preset-b:
+template-b:
   series:
     settings:
       720p:
@@ -111,14 +111,14 @@ series:
     - bar
 }}}
 
-Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within task & preset. Include accepts list format for files so that can be used instead. 
+Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within task & template. Include accepts list format for files so that can be used instead. 
 
-== Global preset ==
+== Global template ==
 
 Allow specifying plugins for every task without being explicitly told so. Avoid using this since it WILL shoot you in the feet at some point if you're not careful.
 
 {{{
-presets:
+templates:
   global:
     download: ~/torrents/
 tasks:
@@ -128,18 +128,18 @@ tasks:
     rss: ...
 }}}
 
-Both tasks task-a and task-b use automatically global preset.
+Both tasks task-a and task-b use automatically global template.
 
-The global preset can be disabled on a specific task by including the special preset {{{no_global}}} i.e.
+The global template can be disabled on a specific task by including the special template {{{no_global}}} i.e.
 
 {{{
-preset: no_global
+template: no_global
 }}}
 
-or, if you also need to include other presets
+or, if you also need to include other templates
 
 {{{
-preset:
+template:
   - no_global
-  - preset_b
+  - template_b
 }}}
