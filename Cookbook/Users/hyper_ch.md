@@ -44,7 +44,7 @@ Also at the end you'll find a little movies.sh bash script which I use to add mo
 #                                                                                                                                                        #
 ##########################################################################################################################################################
 
-presets:
+templates:
   global:
     cookies: ~/.flexget/cookies.sqlite
     regexp:
@@ -89,7 +89,7 @@ presets:
 
 tasks:
   tv_feeds_lq:
-    preset: tv_common
+    template: tv_common
     series:
       settings:
         group 1:
@@ -100,7 +100,7 @@ tasks:
     include: series.yml
 
   tv_feeds_hq:
-    preset: tv_common
+    template: tv_common
     series:
       settings:
         group 1:
@@ -112,7 +112,7 @@ tasks:
     include: series.yml
 
   premiers_lq:
-    preset: tv_common
+    template: tv_common
     series_premiere:
       propers: no
       allow_seasonless: yes
@@ -130,7 +130,7 @@ tasks:
         - news: {from: tvdb_genres}
 
   premiers_hq:
-    preset: tv_common
+    template: tv_common
     series_premiere:
       propers: no
       allow_seasonless: yes
@@ -149,8 +149,7 @@ tasks:
         - news: {from: tvdb_genres}
 
   movie_feeds:
-    preset: movies
-
+    template: movies
 
 }}}
 
@@ -199,7 +198,6 @@ series:
 FLEXGET="~/flexget-git/bin/flexget"                     # Path to the flexget binary
 QUALITY="ANY"                                           # Let flexget handle the quality
 CONFIG_LOCK="~/.flexget/.config-lock"                   # Set config lock file for flexget
-FORCE="False"                                           # Set True or False
 
 while [ -f "$CONFIG_LOCK" ] ;
 do
@@ -219,6 +217,6 @@ imdb1=${1##http*title}
 imdb2=${imdb1//\//}
 
 #$FLEXGET --movie-queue add $1 $QUALITY
-echo "$FLEXGET --movie-queue add imdb_id=${imdb2} $QUALITY $FORCE"
-$FLEXGET --movie-queue add imdb_id=${imdb2} "${QUALITY}" ${FORCE}
+echo "$FLEXGET --movie-queue add imdb_id=${imdb2} $QUALITY"
+$FLEXGET --movie-queue add imdb_id=${imdb2} "${QUALITY}"
 }}}
