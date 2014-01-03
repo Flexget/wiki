@@ -51,7 +51,7 @@ To execute all tasks that have certain template you can use `--template NAME`
 == Merging limitations ==
 
 In case you're using multiple templates in a task and more than one template has same plugin, they must be
-configured in same format for merge to be possible.
+configured in same format for merge to be possible. Additionally (as of 1.2), all plugins, whether configured in a task or a preset, must be valid on their own, before merging. This means that all required fields must be included anywhere a plugin is configured, rather than having multiple presets merged to create a complete one.
 
 '''Incompatible:'''
 
