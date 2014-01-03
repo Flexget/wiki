@@ -197,11 +197,11 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
 
-== Command line plugins ==
+== Command line plugins for `execute` command ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
-||[wiki:Plugins/--task --task]||Executes only the specified task(s)||
+||[wiki:Plugins/--tasks --tasks]||Executes only the specified task(s)||
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
 
