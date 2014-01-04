@@ -33,7 +33,7 @@ Git users can just run `git pull`.
 Check if your configuration file is still valid, there may have been some changes to it.
 
 {{{
-flexget --check
+flexget check
 }}}
 
 If your configuration doesn't pass check, Have a look at [wiki:UpgradeActions upgrade actions] to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [wiki:UpgradeActions upgrade actions] even if your config is passing.
