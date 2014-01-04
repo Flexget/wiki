@@ -35,12 +35,11 @@ Queue movies will work best with entries containing imdb_id/url or tmdb, if they
 
 == Options ==
 
-You can also specify options for items being added to the movie queue. {{{quality}}} and {{{force}}} fields will be respected from entries, or they can be specified in the queue_movies config like so:
+You can also specify options for items being added to the movie queue. The {{{quality}}} field will be respected from entries, or can be specified in the queue_movies config like so:
 
 {{{
 queue_movies:
   quality: 720p+ bluray
-  force: no
 }}}
 
 See [wiki:Qualities qualities] page for valid quality requirements.
