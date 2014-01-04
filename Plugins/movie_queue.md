@@ -11,34 +11,32 @@ You need to manually add movies to the queue from the commandline, or set up a s
 == Queueing ==
 
 {{{
-flexget --movie-queue (add|del|forget|list|downloaded|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY] [FORCE]
+flexget movie-queue (add|del|forget|list|downloaded|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY]
 }}}
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
 
 See [wiki:Qualities qualities] for valid quality requirements.
 
-If force flag is given (values: yes|no) it will cause movie to be marked as immortal and forced trough other possible filters.
-
 === Examples ===
 
 The following will queue [http://www.imdb.com/title/tt1038686/ Legion (2010)] with quality 720p
 
 {{{
-$ flexget --movie-queue add legion "720p bluray"
+$ flexget movie-queue add legion "720p bluray"
 }}}
 
 Alternatively you can queue by imdb_id or tmdb_id.
 
 {{{
-$ flexget --movie-queue add imdb_id=tt1038686 "720p bluray"
+$ flexget movie-queue add imdb_id=tt1038686 "720p bluray"
 Added tt1038686 to queue with quality 720p bluray
 }}}
 
 You can also list the queue
 
 {{{
-$ flexget --movie-queue list
+$ flexget movie-queue list
 http://www.imdb.com/title/tt1038686 720p bluray
 }}}
 
@@ -59,12 +57,12 @@ Movies get moved from queue to the downloaded list when they reach output succes
 This command will tell you what the movie_queue list has downloaded.
 
 {{{
-$ flexget --movie-queue downloaded
+$ flexget movie-queue downloaded
 }}}
 
 If you would like to get a different copy of a movie that has already been downloaded, you can use the forget command to remove the downloaded flag and allow another copy to be accepted.
 {{{
-$ flexget --movie-queue forget "The Movie"
+$ flexget movie-queue forget "The Movie"
 }}}
 
 == Clearing the movie Queue list ==
@@ -73,7 +71,7 @@ In the event that you have accidentally managed to fill your movie_queue with a 
 
 
 {{{
-$ flexget --movie-queue clear
+$ flexget movie-queue clear
 }}}
 
 == Command Line Interface ==
@@ -81,13 +79,13 @@ $ flexget --movie-queue clear
 The movie queue can be controlled via the command line interface. 
 
 {{{
-flexget --movie-queue <ACTION> [PARAMETERS]
+flexget movie-queue <ACTION> [PARAMETERS]
 }}}
 
 The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345.
 
 ||'''Action'''||'''Parameters'''||'''Description'''||
-||add||<IDENTIFIER> [QUALITY] [FORCE]||Add a movie to the queue.||
+||add||<IDENTIFIER> [QUALITY]||Add a movie to the queue.||
 ||del||<IDENTIFIER>||Remove a movie from the queue.||
 ||forget||<IDENTIFIER>||Mark an already downloaded queue item as wanted again.||
 ||list||None||Lists all wanted movies in the queue.||
