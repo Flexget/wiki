@@ -115,7 +115,7 @@ Congratulations, we now have a fully functioning config file. You can continue t
 Executes all tasks, but doesn't write anything into disk.
 
 {{{
-flexget --test
+flexget --test execute
 }}}
 
 === Display more process details ===
@@ -124,7 +124,7 @@ Adding `-v` parameter will display useful information about task(s) content.
 
 === Check configuration syntax ===
 
-When you create or modify configuration try running !FlexGet with `--check` parameter. It will go through the configuration file and report any irregularities found. If you used recommended configuration name and location, simply executing `flexget --check` will do this. If this doesn't report any problems you should have fully working configuration file.
+When you create or modify configuration try running !FlexGet with `check` parameter. It will go through the configuration file and report any irregularities found. If you used recommended configuration name and location, simply executing `flexget check` will do this. If this doesn't report any problems you should have fully working configuration file.
 
 == References ==
 
