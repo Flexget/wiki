@@ -47,9 +47,18 @@ The `preset` plugin was changed into the [wiki:Plugins/template template] plugin
 
 Partially configured plugins are no longer allowed in either tasks or templates. Both tasks and templates may only include valid fully configured plugins now.
 
-'''''import_series'''''
+'''''Import Series'''''
 
 The {{{import_series}}} plugin was renamed [wiki:Plugins/configure_series configure_series]. It will need to be changed in your config.
+
+'''''Errors'''''
+
+If you are getting either of the following errors:
+{{{
+ImportError: cannot import name register_plugin
+ImportError: cannot import name register_config_key
+}}}
+It means there is an un-upgraded plugin somewhere. If you have any custom plugins, you will need to upgrade them to the new plugin and argument registration syntax using events. If you do not have any custom plugins, this may be because pip has left behind files that should have been deleted. If you delete the `flexget` folder from your `site-packages` (or `dist-packages`) folder, and re-install flexget it should fix the issue.
 
 === 2013.6.30 1.1.60 ===
 [wiki:Plugins/apple_trailers apple_trailers] plugin is fixed, but now only supports `480p` and `720p` resolutions.
