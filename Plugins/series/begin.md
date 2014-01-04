@@ -13,9 +13,9 @@ The begin option can be set on series that are use 'ep', 'sequence', or 'date' `
 
 === Setting from CLI ===
 
-To set begin for a show from the CLI, use the `--series-begin` flag. e.g.
+To set begin for a show from the CLI, use the `series begin` command. e.g.
 {{{
-flexget --series-begin "name of series" S02E01
+flexget series begin "name of series" S02E01
 }}}
 
 
