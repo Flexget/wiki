@@ -17,7 +17,7 @@ If you wish to continue to run !FlexGet with cron, you'll have to update your cr
 
 '''''Daemon Mode'''''
 
-!FlexGet now has a daemon mode, launched with `flexget daemon`, which can be used instead of scheduling it to be run periodically with a tool like cron. While a daemon is running, running a `flexget execute` command will cause the execution to be forwarded to the running daemon. Example of new schedules block in config for daemon mode:
+!FlexGet now has a [wiki:Daemon daemon mode], launched with `flexget daemon`, which can be used instead of scheduling it to be run periodically with a tool like cron. While a daemon is running, running a `flexget execute` command will cause the execution to be forwarded to the running daemon. Example of new schedules block in config for daemon mode:
 {{{
 schedules:
   - tasks: [task1, task2]
@@ -30,8 +30,6 @@ schedules:
       
 }}}
 
-
-Full wiki page is forthcoming.
 
 '''''Lock File'''''
 
