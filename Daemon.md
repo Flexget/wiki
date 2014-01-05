@@ -6,6 +6,10 @@ To launch the !FlexGet daemon, use the command:
 {{{
 flexget daemon start
 }}}
+To stop a currently running daemon you can use:
+{{{
+flexget daemon stop
+}}}
 
 == Scheduling ==
 
