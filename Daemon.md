@@ -2,13 +2,21 @@
 
 !FlexGet can be run in daemon mode, which means it will always run in the background, periodically running tasks on a schedule, or running the tasks initiated by another instance of !FlexGet.
 
-To launch the !FlexGet daemon, use the command:
+To launch the !FlexGet daemon, use the `start` command:
+
+''(Note: Using the optional `-d` switch will send the !FlexGet daemon to the background.)''
 {{{
-flexget daemon start
+flexget daemon start [-d]
 }}}
-To stop a currently running daemon you can use:
+
+
+To stop a currently running daemon you can use `stop`:
 {{{
 flexget daemon stop
+}}}
+To check the status of the flexget daemon you can use `status`:
+{{{
+flexget daemon status
 }}}
 
 == Scheduling ==
