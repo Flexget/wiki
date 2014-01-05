@@ -57,7 +57,7 @@ Movies get moved from queue to the downloaded list when they reach output succes
 This command will tell you what the movie_queue list has downloaded.
 
 {{{
-$ flexget movie-queue downloaded
+$ flexget movie-queue list downloaded
 }}}
 
 If you would like to get a different copy of a movie that has already been downloaded, you can use the forget command to remove the downloaded flag and allow another copy to be accepted.
