@@ -18,6 +18,10 @@ To check the status of the flexget daemon you can use `status`:
 {{{
 flexget daemon status
 }}}
+To restart the flexget daemon you can use `restart`: (Not yet implemented)
+{{{
+flexget daemon restart
+}}}
 
 == Scheduling ==
 
