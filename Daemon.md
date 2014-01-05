@@ -4,7 +4,7 @@
 
 To launch the !FlexGet daemon, use the `start` command:
 [[BR]]
-''(Note: Using the optional `-d` switch will send the !FlexGet daemon to the background.)''
+^''Note: Using the optional `-d` switch will send the !FlexGet daemon to the background.''^
 {{{
 flexget daemon start [-d]
 }}}
