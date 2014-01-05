@@ -88,6 +88,5 @@ The following actions are supported. {{{<IDENTIFIER>}}} can be either the title 
 ||add||<IDENTIFIER> [QUALITY]||Add a movie to the queue.||
 ||del||<IDENTIFIER>||Remove a movie from the queue.||
 ||forget||<IDENTIFIER>||Mark an already downloaded queue item as wanted again.||
-||list||None||Lists all wanted movies in the queue.||
-||downloaded||None||List all queue movies that have already been acquired.||
+||list||waiting|downloaded||Lists all waiting/downloaded movies in the queue.||
 ||clear||None||Removes all movies from the pending queue.||
