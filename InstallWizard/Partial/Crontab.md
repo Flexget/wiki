@@ -2,7 +2,7 @@
 
 Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.  The SQLite database file will get created in the same directory with the configuration file, so please make sure the user executing flexget has write access to that path.
 
-!FlexGet is designed to be executed from user crontab (daemon mode coming later).
+!FlexGet is designed to be executed from user crontab.
 
 === Detemine full path to executable ===
 
@@ -51,3 +51,13 @@ Where 30 is the time between executions.
 === Verification ===
 
 Once !FlexGet runs successfully from crontab it will log this few times into the log file. The log file is located in same directory as your configuration file.
+
+=== Daemon Mode ===
+
+With !FlexGet running in [wiki:Daemon daemon mode] you can [wiki:Daemon#Scheduling schedule] your tasks to run inside the !FlexGet config.yml
+
+To start the daemon at system boot you would use:
+
+{{{
+@reboot /usr/local/bin/flexget daemon start -d
+}}}
