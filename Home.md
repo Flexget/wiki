@@ -9,6 +9,12 @@
 #!html
 <ul id="features">
   <li>
+    <h4>Daemon Mode</h4>
+    <p>
+       You can now run FlexGet in <a href="http://flexget.com/wiki/Daemon">daemon mode</a>, and handle scheduling directly in your FlexGet config. Traditional cron scheduling is also supported.
+    </p>
+  </li>
+  <li>
     <h4>Usenet clients</h4>
     <p>
        Integrates with <a href="http://sabnzbd.org/">SABnzbd</a>, and <a href="http://nzbget.sourceforge.net/">nzbget</a> directly, and others via watchdirs.
@@ -33,15 +39,9 @@
     </p>
   </li>
   <li>
-    <h4>trakt.tv</h4>
+    <h4>Site Integration</h4>
     <p>
-       Manage and track your series and movies directly from <a href="http://trakt.tv/">trakt.tv</a>.
-    </p>
-  </li>
-  <li>
-    <h4>thetvdb.com</h4>
-    <p>
-       Manage and track your series directly from <a href="http://thetvdb.com">thetvdb.com</a>. Use the banners, art and information with FlexGet.
+       Manage and track your series and/or movies directly from <a href="http://trakt.tv/">trakt.tv</a>, <a href="http://thetvdb.com">thetvdb.com</a> or <a href="http://imdb.com">imdb.com</a>.
     </p>
   </li>
   <li>
