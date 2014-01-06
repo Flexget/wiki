@@ -16,14 +16,14 @@ series:
 
 series.yml
 {{{
-presets:
+templates:
   tv:
     include: tv.yml
 
 feeds:
   rss_tv:
     rss: http:// ...
-    preset: tv
+    template: tv
     download: ~/Download
 }}}
 
@@ -41,7 +41,7 @@ feeds:
 
 legendas.yml
 {{{
-presets:
+templates:
   tv:
     include: tv.yml
   legendas:
@@ -59,13 +59,13 @@ presets:
 feeds:
   series_subs:
     rss: http:// ...
-    preset:
+    template:
       - tv
       - legendas
     download: ~/Download
   movies_subs:
     rss: http:// ...
-    preset: legendas
+    template: legendas
     imdb_queue: yes
     download: ~/Download
 
