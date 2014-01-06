@@ -5,7 +5,7 @@ This is a complete work in progress.
 
 
 {{{
-presets:
+templates:
   global:
 #download path
     download: /path/to/utorrent/watch/folder/
@@ -84,14 +84,14 @@ tasks:
 #populating movie_queue
   moviesFromTrakt: 
     priority: 1
-    preset: 
+    template: 
       - no_global
       - trakt_movies_input
 
 #getting the series rss      
   freshonTV:
     rss: http://series.private.tracker
-    preset:
+    template:
       - tv
       - trakt_seen_series
     priority: 10
@@ -101,7 +101,7 @@ tasks:
     priority: 30
     rss: http://movies.private.tracker
     movie_queue: yes
-    preset:
+    template:
       - movies_imdb_filter
       - trakt_seen_movies
 
@@ -122,7 +122,7 @@ tasks:
 #        - piratebay: yes
 #        - search_rss: http://torrentz.eu/feed_verifiedP?q={{search_term}}
 #    delay: 24 hours
-    preset:
+    template:
       - trakt_seen_movies
 
 }}}
