@@ -33,7 +33,7 @@ Note: If the Manipulate section is uncommented it will remove the leading "The" 
 
 '''~/.flexget/config.yml'''
 {{{
-presets:
+templates:
   tv:
 
 #    manipulate:
@@ -81,38 +81,38 @@ tasks:
   bt-chat.com-tv:
     priority: 1
     rss: http://rss.bt-chat.com/?group=3
-    preset: tv
+    template: tv
 
   ezrss.it:
     priority: 2
     rss: http://ezrss.it/feed/
-    preset: tv
+    template: tv
 
   thepiratebay.org-tv:
     priority: 3
     rss: http://rss.thepiratebay.org/208
-    preset: tv
+    template: tv
     verify_ssl_certificates: no
 
   kat.ph-tv:
     priority: 4
     rss: http://kat.ph/tv/?rss=1
-    preset: tv
+    template: tv
 
   extratorrent.com-tv:
     priority: 5
     rss: http://extratorrent.com/rss.xml?cid=8
-    preset: tv
+    template: tv
 
   torrentz.eu-tv:
     priority: 6
     rss: http://torrentz.eu/feed
-    preset: tv
+    template: tv
 
   showrss.karmorra.info-tv:
     priority: 7
     rss: http://showrss.karmorra.info/feeds/all.rss
-    preset: tv
+    template: tv
 }}}
 
 Use the command below to edit your crontab file for the user account where FlexGet will run so that it polls the RSS feeds hourly.
@@ -125,5 +125,5 @@ crontab -e
 Add line below to the user's crontab file.
 
 {{{
-@hourly /usr/local/bin/flexget --cron
+@hourly /usr/local/bin/flexget execute --cron
 }}}
