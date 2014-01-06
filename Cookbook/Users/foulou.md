@@ -4,7 +4,7 @@ Updated Config if this one is outdated : http://pastebin.com/CsSLVCJA
 Trakt Config : http://pastebin.com/uupakwR6
 
 {{{
-presets:
+templates:
   global:
     make_rss: /var/www/rss/flexget.rss
     email:
@@ -148,7 +148,7 @@ tasks:
 #    inputs:
 #      - rss: http://www.t411.me/rss/?cat=410
 #      - rss: http://www.t411.me/rss/?cat=408
-#    preset:
+#    template:
 #      - ebook
 #      - t411_cookie
   T411_TV:
@@ -164,17 +164,17 @@ tasks:
         - EVOLVE
     inputs:
       - rss: http://www.t411.me/rss/?cat=433
-    preset:
+    template:
       - tv
       - t411_cookie
 #  FTDB_EBOOKS:
 #    rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxx/ebook.rss
-#    preset:
+#    template:
 #      - ebook
 #      - ftdb_cookie
   FTDB_TV:
     rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxxxx/tv_vostfr.rss
-    preset:
+    template:
       - tv
       - ftdb_cookie
   FTDB_DVDRIP:
@@ -186,12 +186,12 @@ tasks:
         - V O S T FR
         - Sub FR
     rss: http://www.frenchtorrentdb.com/rss/xxxxxxxxxxxxxxxxxxxx/dvdrip.rss
-    preset:
+    template:
       - movies
       - ftdb_cookie
   NyaaTorrents:
     rss: http://www.nyaa.eu/?page=rss&cats=1_37&term=horriblesubs&filter=2
-    preset: animes
+    template: animes
   KAT:
     verify_ssl_certificates: no
     private_torrents: no
@@ -223,59 +223,59 @@ tasks:
       - rss:
           url: http://kat.ph/search/heavytorrent/?rss=1
           other_fields: [hash]
-    preset: zik
+    template: zik
   ZIK:
     verify_ssl_certificates: no
     private_torrents: no
     inputs:
 #      - rss: http://rss.thepiratebay.org/100
       - rss: http://www.torrentbox.com/rssfeed.php
-    preset: zik
+    template: zik
   METAL.IPLAY:
     torrent_alive: no
     rss: http://metal.iplay.ro/rss.php?feed=dl&cat=63,74,41,75,53,2,52&passkey=xxxxxxxxxxxxxxxxxxxxxxxxx
-    preset: zik
+    template: zik
   PSYCHOCYDD:
     html:
       url: http://www.psychocydd.co.uk/torrents.php
       title_from: link
       links_re:
         - www.psychocydd\.co\.uk/details.php
-    preset: zik
+    template: zik
 #  FTDB_MUSIC:
 #    torrent_alive: no
 #    rss: http://www.frenchtorrentdb.com/rss/musiques.rss
-#    preset:
+#    template:
 #      - zik
 #      - ftdb_cookie
   ADDSERIE:
     listdir: /home/seb/tor/series
     accept_all: yes
     manual: yes
-    preset: tv
+    template: tv
   ADDMOVIE:
     listdir: /home/seb/tor/movies
     accept_all: yes
     manual: yes
-    preset: movies
+    template: movies
   ADDSPECTACLE:
     listdir: /home/seb/tor/spectacles
     accept_all: yes
     manual: yes
-    preset: spectacles
+    template: spectacles
   ADDZIK:
     listdir: /home/seb/tor/zik
     accept_all: yes
     manual: yes
-    preset: zik
+    template: zik
   ADDEBOOK:
     listdir: /home/seb/tor/ebook
     accept_all: yes
     manual: yes
-    preset: ebook
+    template: ebook
   ADDANIME:
     listdir: /home/seb/tor/animes
     accept_all: yes
     manual: yes
-    preset: animes
+    template: animes
 }}}
