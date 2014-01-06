@@ -1,7 +1,7 @@
 = Advanced Deluge and thetvdb features =
 
 {{{
-presets:
+templates:
   tv:
     import_series:
       from:
@@ -26,16 +26,16 @@ presets:
 tasks:
   betterfeed:
     priority: 1
-    preset: tv
+    template: tv
     rss: http://feed1.com/feed.xml
 
   backupfeed:
     priority: 2
-    preset: tv
+    template: tv
     rss: http://feed2.com/feed.xml
 }}}
 
-First we create a preset called 'tv' that holds all the plugin information we need to grab our series. Inside the tv preset here is what is happening:
+First we create a template called 'tv' that holds all the plugin information we need to grab our series. Inside the tv template here is what is happening:
  - The [wiki:Plugins/import_series import_series] plugin automatically configures the [wiki:Plugins/series series] plugin to download all the shows provided by another input plugin. We are using [wiki:Plugins/thetvdb_favorites thetvdb_favorites] under the {{{from}}} key to input any shows you have marked as a favorite on thetvdb.com. Your account_id can be found on your account page at thetvdb.com You can specify all of the options of the series plugin under the {{{settings}}} key, this example shows the quality option.
  - The [wiki:Plugins/exists_series exists_series] plugin will make sure we don't already have this episode in our tv library or currently downloading folder
  - We enable the [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin to pull the name of the episode from thetvdb.com, we use this info below in {{{content_filename}}}
