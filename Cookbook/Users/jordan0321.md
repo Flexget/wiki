@@ -9,7 +9,7 @@ Here are some things to know about my motivation for this configuration:
 
 {{{
 jordan@claire:~/.flexget$ cat config.yml
-presets:
+templates:
   clairetransmission:
     transmission:
       host: localhost
@@ -38,7 +38,7 @@ tasks:
     accept_all: yes
     all_series:
       upgrade: yes
-    preset:
+    template:
       - clairetransmission
       - emailinfo
     email:
@@ -50,7 +50,7 @@ tasks:
     accept_all: yes
     all_series:
       upgrade: yes
-    preset:
+    template:
       - clairetransmission
       - emailinfo
     email:
@@ -67,7 +67,7 @@ tasks:
         - jets
       reject:
         - french
-    preset:
+    template:
       - clairetransmission
       - emailinfo
       - privatetracker
@@ -87,7 +87,7 @@ tasks:
         - jets
       reject:
         - french
-    preset:
+    template:
       - clairetransmission
       - emailinfo      
       - privatetracker
@@ -107,7 +107,7 @@ tasks:
         upgrade: yes
       from:
         listdir: /mnt/big1/tvshows/~Series_To_RSS
-    preset:
+    template:
       - clairetransmission
       - emailinfo
       - privatetracker
@@ -133,7 +133,7 @@ tasks:
       sitename:
         regexp: details.php\?id=(?P<id>\d+).*
         format: download.php?torrent=\g<id>
-    preset:
+    template:
 #      - clairetransmission
       - emailinfo
 #    transmission:
@@ -155,7 +155,7 @@ tasks:
       to:
         - jordan@xxxxxxxx.ca
         - christy@xxxxxxxx.ca 
-    preset:
+    template:
       - emailinfo
 
 }}}
