@@ -380,7 +380,7 @@ then copy and paste the following text into nano:
 
 '''note:''' replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "YOUR_THETVDB_ACCOUNT_ID", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY", "YOUR_IMDB_USERNAME", "YOUR_IMDB_PASSWORD", "YOUR_IMDB_HDWATCHLIST_ID", "XXXXX" with your information.
 {{{
-presets:
+templates:
   tv:
     transmission:
       host: localhost
@@ -421,7 +421,7 @@ tasks:
     rss:
       url: http://www.XXXXX.com/torrents/rss?download;l78;l66;l79;l5;l4;u=XXXXX;tp=XXXXX
       all_entries: no
-    preset: tv
+    template: tv
     priority: 1
 
   imdb-watchlist:
@@ -448,7 +448,7 @@ tasks:
     rss:
       url: http://www.XXXXX.com/torrents/rss?download;l48;l62;l7;l77;u=XXXXX;tp=XXXXX
       all_entries: no
-    preset: movie
+    template: movie
     priority: 4
 }}}
 save and exit nano by pressing CTRL+X and Y and enter.
