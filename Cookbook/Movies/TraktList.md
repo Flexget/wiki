@@ -17,11 +17,10 @@ tasks:
       password: mypassword
     accept_all: yes
     seen: local  # We don't want accepted movies on this feed to affect actual download feed
-    queue_movies:
-      force: no
+    queue_movies: yes
 }}}
 
-'''NOTE:''' Make sure you don't have download/deluge/transmission plugin in this task, (or in a global preset,) you aren't actually downloading anything here.
+'''NOTE:''' Make sure you don't have download/deluge/transmission plugin in this task, (or in a global template,) you aren't actually downloading anything here.
 
 == Plugins used ==
 
