@@ -2,9 +2,9 @@
 
 
 
-'''config.yml''' - preset section:
+'''config.yml''' - template section:
 {{{
-presets:
+templates:
   global:
     # configuration of email parameters
     # -> each feed will send an email with the accepted entries
@@ -81,28 +81,28 @@ Thanks to user gazpachoking and his patch in r1367 we can now use [wiki:Plugins/
 feeds:
   EZTV:
     rss: <feed url>
-    preset:
+    template:
       - transmissionrpc
       - tv
     priority: 10
 
   BTCHAT_EZTV:
     rss: <feed url>
-    preset:
+    template:
       - transmissionrpc
       - tv
     priority: 20
 
   BTCHAT_VTV:
     rss: <feed url>
-    preset:
+    template:
       - transmissionrpc
       - tv
     priority: 30
 
   SHOWRSS:
     rss: <feed url>
-    preset:
+    template:
       - transmissionrpc
       - tv
     priority: 40
@@ -115,7 +115,7 @@ feeds:
     html:
       url: <html url>
       title_from: url
-    preset:
+    template:
       - transmissionrpc
       - tv
     priority: 50
@@ -128,13 +128,13 @@ feeds:
     # use as the feed input a local directory where my series are located
     # TODO: this is a remote folder and it is not always mounted
     #       and listdir exits with an error and the scripts execution stopped
-    # -> maybe use a similar solution like in the preset with the custom check script
+    # -> maybe use a similar solution like in the template with the custom check script
     listdir:
       - /Volumes/media.video/TV-Series/_complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
     disable_builtins: [seen]
-    # the same list of series like in the tv preset section
+    # the same list of series like in the tv template section
     series:
       - Caprica
       - Chuck
@@ -170,7 +170,7 @@ feeds:
       on_output:
         for_rejected: ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"'
         for_entries:  ssh flexget@192.168.1.2 'umask 0000 && mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"'
-    # please send no email with the result so deactivate this function from the preset
+    # please send no email with the result so deactivate this function from the template
     email:
       active: False
 
@@ -181,7 +181,7 @@ feeds:
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
     disable_builtins: [seen]
-    # the same list of series like in the tv preset section
+    # the same list of series like in the tv template section
     series:
       - Caprica
       - Chuck
@@ -207,12 +207,12 @@ feeds:
       on_output:
         for_entries:  mkdir -p "{{path}}" && mv "{{location}}" "{{path}}/"
         for_rejected: mkdir -p "{{path}}" && mv "{{location}}" "{{path}}"
-    # please send no email with the result so deactivate this function from the preset
+    # please send no email with the result so deactivate this function from the template
     email:
       active: False
 }}}
 
-Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
+Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
 
 [wiki:Cookbook/Series Back to The Cookbook/Series]
 
