@@ -5,7 +5,7 @@ The [wiki:Plugins/series series] plugin has timeframe functionality which allows
 '''Example:'''
 
 {{{
-presets:
+templates:
   movies:
     imdb:
       min_score: 6.2
@@ -16,13 +16,13 @@ presets:
 feeds:
 
   feed-1080p:
-    preset: movies
+    template: movies
     priority: 1
     rss: http://example.com/feed.rss
     quality: 1080p
   
   feed-720p:
-    preset: movies
+    template: movies
     priority: 2
     rss: http://example.com/feed.rss
     quality: 720p
