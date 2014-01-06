@@ -14,8 +14,7 @@ tasks:
       api_key: myapikey
       movies: watchlist
     accept_all: yes
-    queue_movies:
-      force: no
+    queue_movies: yes
 
   # task that automatically generates an rss feed based on entries from the movie_queue
   movies search:
@@ -32,4 +31,4 @@ tasks:
     movie_queue: yes
     transmission: yes # You could use another output plugin instead of this (deluge, download)
 }}}
-Plugins used: [wiki:Plugins/preset preset], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
+Plugins used: [wiki:Plugins/template template], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
