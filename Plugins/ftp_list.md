@@ -1,14 +1,19 @@
 
 == ftp_list ==
-Lists the content of a remote FTP server
+Generate entries from a remote FTP server
 
-'''Example:'''
+'''Configuration:'''
 {{{
 ftp_list:
-  name: alias
-  username: ''ftp username''
-  password: ''ftp password''
-  host: 127.0.0.1
-  port: 21
-  use-ssl: False
+  config:
+    use-ssl: no
+    name: <ftp name>
+    username: <username>
+    password: <password>
+    host: <host to connect>
+    port: <port>
+  dirs:
+    - <directory 1>
+    - <directory 2>
+    - ....
 }}}
