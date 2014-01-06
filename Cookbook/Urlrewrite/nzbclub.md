@@ -3,7 +3,7 @@ To grab a series from NZBClub.com you can use their RSS feed, but it needs some 
 Here is an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1 - it's a RSS feed for everything the user teevee posted (you can create your own feed for different subjects at nzbclub.com).[[BR]]
 [[BR]]
 {{{
-presets:
+templates:
   tv:
     series:
       720p:
@@ -16,7 +16,7 @@ presets:
 
 feeds:
   nzbclub:
-    preset: tv
+    template: tv
 
     rss: 
       url: http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1
