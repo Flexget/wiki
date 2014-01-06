@@ -12,7 +12,7 @@ So i use the discover plugin with trakt_list to generate input feeds rss searche
 This is just a extract of what i have changed in atlanta800's config file
 
 {{{
-  # This preset is a "global" preset for all TV-related feeds.
+  # This template is a "global" template for all TV-related feeds.
   # We keep all of the RSS feeds that list tv-related torrents here
   # as well as where to check existing shows.
   tv-global:
@@ -34,19 +34,19 @@ This is just a extract of what i have changed in atlanta800's config file
       type: any
 }}}
 
-This is the only thing i have in my feeds for series.
+This is the only thing i have in my tasks for series.
 
 
 {{{
 # This is where we pull everything together
-feeds:
+tasks:
 
-  # All of the TV-related feeds pull in the tv-global preset, this gives
+  # All of the TV-related feeds pull in the tv-global template, this gives
   # all of the necessary rss sources and a few extra configs
 
   Auto_TV_Shows:
     priority: 1
-    preset:
+    template:
       - tv-global
       - tv-my_shows
     import_series:
