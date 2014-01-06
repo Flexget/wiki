@@ -1,13 +1,13 @@
 This example is missing an output, but it was designed to use Deluge since movedone and content_filename are included.
-This feed was created to do two things:
+This task was created to do two things:
 1. Grab / Start a folder for a series
 2. Catch up a Series if episodes where missing.
 
-Because manual: yes is set this feed will not run normally you will have to call it directly, and that is needed because it depends on the --cli-config so it has something to search for
+Because manual: yes is set this task will not run normally you will have to call it directly, and that is needed because it depends on the --cli-config so it has something to search for
 
-To run the feed you would do one of the following note that the season number is optional but useful since the rss feed will only return so many results, --disable-advancement is used since exists_series will be used to prevent dup episodes:
-flexget --test --feed SearchEZTV --cli-config "show=[Yourshowname],season=[number]" --disable-advancement
-flexget --test --feed SearchEZTV --cli-config "show=[Yourshowname]" --disable-advancement
+To run the task you would do one of the following note that the season number is optional but useful since the rss feed will only return so many results, --disable-advancement is used since exists_series will be used to prevent dup episodes:
+flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname],season=[number]" --disable-advancement
+flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname]" --disable-advancement
 
 {{{
   SearchEZTV:
