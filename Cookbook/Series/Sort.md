@@ -3,9 +3,9 @@
 This recipe is to sort your already downloaded series into their own folders. Note that !FlexGet is not really made for sorting so this is a bit complicated and hackish.
 
 {{{
-presets:
+templates:
 
-  # NOTE!! This preset cannot have any other plugins or else it will affect our sort-series.
+  # NOTE!! This template cannot have any other plugins or else it will affect our sort-series.
   # Also, you must use series groups, so that we can turn off filtering with the parse_only option in our sort feed.
   tv-series:
     series:
@@ -22,7 +22,7 @@ tasks:
 
   download-rss:
     rss: ...
-    preset:
+    template:
       - tv-series
     download: ...
 
@@ -32,8 +32,8 @@ tasks:
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
     seen: local
-    preset: tv-series
-    # NOTE: You must set the parse_only option for all of the series groups you have configured in your preset.
+    template: tv-series
+    # NOTE: You must set the parse_only option for all of the series groups you have configured in your template.
     # This option prevents the series plugin from accepting or rejecting anything in this feed.
     series:
       settings:
