@@ -3,7 +3,7 @@
 Generates RSS with Imdb details, ordered by imdb score. Throw in [wiki:Plugins/imdb_rated imdb_rated] and you get list of unwatched movies!
 
 {{{
-presets:
+templates:
   generate:
     interval: 4 hours
     accept_all: yes
@@ -16,11 +16,11 @@ presets:
 feeds:
 
   storage_movies:
-    preset: generate
+    template: generate
     listdir: /storage/movies/
     make_rss:
       file: ~/public_html/movies.rss
       history: no
 }}}
 
-Uses plugins: [wiki:Plugins/preset preset], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/make_rss make_rss], [wiki:Plugins/listdir listdir]
+Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/make_rss make_rss], [wiki:Plugins/listdir listdir]
