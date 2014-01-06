@@ -51,7 +51,7 @@ This way flexget is run every hour and new torrents are added to existing uTorre
 = Example config =
 
 {{{
-feeds:
+tasks:
   movies:
     rss: http://some.tracker.feed.com
     
