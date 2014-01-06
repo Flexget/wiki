@@ -1,9 +1,9 @@
 = Advanced example =
 
-How to use most of the series plugin features, with preset:
+How to use most of the series plugin features, with template:
 
 {{{
-presets:
+templates:
   tv:
     series:
       settings:
@@ -22,10 +22,10 @@ presets:
 feeds:
   my-feed-a:
     rss: http://example.com/feed-a.rss
-    preset: tv
+    template: tv
 
   my-feed-b:
     rss: http://example.com/feed-b.rss
-    preset: tv
+    template: tv
 
 }}}
