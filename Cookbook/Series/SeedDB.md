@@ -10,10 +10,10 @@ This is rather complicated and mostly useless as series plugin will continue fro
 This helps !FlexGet learn what type of series numbering your shows have, as well as what episodes you already have. This can be accomplished by making a special task which you will run after setting up !FlexGet.
 
 {{{
-presets:
+templates:
   tv:
     # your series config, (or import_series) goes here
-    # this preset can then be used for the seed_series_db task, as well as your normal downloading tasks
+    # this template can then be used for the seed_series_db task, as well as your normal downloading tasks
 tasks:
   seed_series_db:
     # The find plugin will find all of your existing episodes
@@ -21,7 +21,7 @@ tasks:
       regexp: .*(avi|mkv|mp4)$
       path: /my/series
       recursive: yes
-    preset: tv
+    template: tv
     # We use the manual plugin so that this task only runs when explicitly called
     manual: yes
 }}}
@@ -30,4 +30,4 @@ Now, you can run {{{flexget --task seed_series_db --disable-advancement --learn}
 
 You can test to see if it worked by running a [wiki:Plugins/series#a--series --series] report.
 
-'''NOTE:''' Be careful if you are using a global preset. We do not want any output plugins (or any other plugins) to be run on this task.
+'''NOTE:''' Be careful if you are using a global template. We do not want any output plugins (or any other plugins) to be run on this task.
