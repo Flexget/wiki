@@ -15,7 +15,7 @@ archive: [torrent, tv]
 Search:
 
 {{{
---archive search [@TAG] [@TAG] KEYWORD
+archive search [@TAG] [@TAG] KEYWORD
 }}}
 
 Note: if keyword has spaces it must be quoted.
@@ -23,7 +23,7 @@ Note: if keyword has spaces it must be quoted.
 Retrieve (inject into task):
 
 {{{
---archive inject ID [FORCE]
+archive inject ID [FORCE]
 }}}
 
 == Urlrewriter ==
