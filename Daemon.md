@@ -38,7 +38,7 @@ The `at_time` option can only be used when the interval is `days` or larger, and
 {{{
 schedules:
   # Run every task once an hour
-  - tasks: *
+  - tasks: "*"
     interval:
       hours: 1
   # Run task_a and task_b every 30 minutes
