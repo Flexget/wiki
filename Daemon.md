@@ -25,7 +25,7 @@ flexget daemon restart
 
 == Scheduling ==
 
-To tell !FlexGet how often it should execute your tasks, you can set up the `schedules` block in the config file. Each schedule consists of a list of tasks to run, and an interval which they should be run at. When specifying tasks, wildcards such as `*` (any characters), or `?` (any single character) can be used. If you run the daemon without specifying a schedules block, a default schedule The configuration format is as follows:
+To tell !FlexGet how often it should execute your tasks, you can set up the `schedules` block in the config file. Each schedule consists of a list of tasks to run, and an interval which they should be run at. When specifying tasks, wildcards such as `*` (any characters), or `?` (any single character) can be used. If you run the daemon without specifying a schedules block, a default schedule of Every task, every hour is assumed. The configuration format is as follows:
 {{{
 schedules:
   - tasks: [list, of, tasks]
