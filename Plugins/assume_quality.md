@@ -1,7 +1,7 @@
 = Assume Quality =
 
 Applies [wiki:Qualities quality components] to [wiki:Entry entries] that match specified quality requirements.
-When a quality is applied, any components which are unknown in the entry are filled from the applied quality. Quality requirements are tested in order of decreasing precision (the number of components matched, ie "720p h264" is more precise than "1080p" so gets tested first), and applied as matches are found. A pseudo-requirement "any" is also supported, which will match all qualities and be tested last. Using the simple configuration is the same as specifying an "any" rule.
+When a quality is applied, any components which are unknown in the entry are filled from the applied quality. Quality requirements are tested in order of decreasing precision (the number of components matched, i.e. "720p h264" is more precise than "1080p" so gets tested first), and applied as matches are found. A pseudo-requirement "any" is also supported, which will match all qualities and be tested last. Using the simple configuration is the same as specifying an "any" rule.
 
 == Examples ==
 === Simple configuration ===
