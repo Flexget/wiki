@@ -38,7 +38,7 @@ The `at_time` option can only be used when the interval is `days` or larger, and
 {{{
 schedules:
   # Run every task once an hour
-  - tasks: "*"
+  - tasks: '*'
     interval:
       hours: 1
   # Run task_a and task_b every 30 minutes
@@ -46,15 +46,21 @@ schedules:
     interval:
       minutes: 30
   # Run any task starting with 'weekly_' on tuesdays at 1 pm
-  - tasks: weekly_*
+  - tasks: 'weekly_*'
     interval:
       weeks: 1
       on_day: tuesday
       at_time: 1:00 pm
 }}}
+
 If you would like to run the daemon without any builtin schedules, (perhaps you are still sending executions from cron, or some other source,) you can configure it with an empty list, like so:
 {{{
 schedules: []
+}}}
+
+'''Please Note:''' You may see a warning like the following when using schedules, for now you can safely ignore it.
+{{{
+2014-01-07 10:28 WARNING  manager                       Config line 11 is likely missing ':' at the end
 }}}
 
 == Remote Execution ==
