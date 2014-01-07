@@ -153,6 +153,7 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
+||[wiki:Plugins/assume_quality assume_quality]||'''{{{NEW}}}''' Make assumptions about the qualities of releases.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
 ||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a task.||
