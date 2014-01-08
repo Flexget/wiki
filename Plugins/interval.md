@@ -9,3 +9,5 @@ Example:
 {{{
 interval: 7 days
 }}}
+
+'''{{{NOTE:}}}''' This is probably not useful in daemon mode. If you would like to set up the frequency of task execution in daemon mode, see [wiki:Daemon#scheduling scheduling].
