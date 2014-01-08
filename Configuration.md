@@ -110,6 +110,58 @@ Congratulations, we now have a fully functioning config file. You can continue t
 
 == Tips ==
 
+=== Task Naming ===
+
+Take special care when naming your tasks, as this could be very helpful later on. Say you want to use a [wiki:Daemon#Scheduling schedule], or call several tasks in one call to do similar things. With a little thought to task naming and the use of wildcard calls, this can be very simple. This makes setting up schedules and batch task calls easy.
+
+Take the following tasks list as an example:
+
+{{{
+tasks:
+  Series-Primary:
+    #find configured series in the given inputs..
+  Series-Premieres:
+    #find series premieres from given inputs..
+  Update-Queue:
+    #update movie queue...
+  Movies-Queue:
+    #check for movie queued items from given inputs..
+  Movies-All:
+    #filtered movies based on settings given... 
+  Update-trakt-TV:
+    #update trakt series list using trakt_acquired..
+  Update-trakt-Movies:
+    #Update trakt movie list using trakt_acquired...
+}}}
+
+As you can see above, there are seven (7) tasks listed, but instead of calling each task individual, or all of them at once, you could make calls like this:
+
+{{{
+flexget execute --tasks Series-*
+flexget execute --tasks Update-Queue
+flexget execute --tasks Movies-*
+flexget execute --tasks Update-trakt-*
+}}}
+
+or setup a [wiki:Daemon#Scheduling schedule]:
+
+{{{
+schedules:
+  - tasks: 'Update-Queue'
+    interval:
+      hours: 3
+  - tasks: 'Series-*'
+    interval:
+      minutes: 30
+  - tasks: 'Movies-*'
+    interval:
+      hours: 1
+  - tasks: 'Update-trakt-*'
+    interval:
+      days: 1
+      at_time: 4:43 am
+}}}
+
 === Test execution ===
 
 Executes all tasks, but doesn't write anything into disk.
