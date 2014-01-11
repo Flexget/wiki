@@ -65,3 +65,39 @@ schedules: []
 
 == Remote Execution ==
 If you run `flexget execute` while a daemon is running, the execution will be sent to the running daemon, and either run immediately, or queued for execution after the current running task has finished. The log results of this execution will be sent back to the calling terminal for viewing as well. This means that if you are running a daemon, you need not worry about concurrent calls of `flexget execute` having problems due to the lock file.
+
+== Upstart script (Ubuntu family) ==
+To have flexget daemon automatically start on system boot
+
+sudo vim /etc/init/flexget.conf
+{{{
+# Flexget daemon autostart                                                                                                                                                      
+
+description "Flexget daemon"
+author "Kempe"
+
+start on (filesystem and networking) or runlevel [2345]
+stop on runlevel [016]
+
+respawn
+respawn limit 5 30
+
+env uid=<USER_TO_RUN_AS>
+env gid=<GROUP_TO_RUN_AS>
+
+exec start-stop-daemon -S -c $uid:$gid -x /usr/local/bin/flexget -- daemon start
+}}}
+
+Read log: 
+{{{ 
+sudo tail -f /var/log/upstart/flexget.log
+}}}
+
+Control daemon:
+
+{{{
+sudo status flexget
+sudo stop flexget
+sudo start flexget
+}}}
+
