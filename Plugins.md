@@ -127,16 +127,17 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
+||[wiki:Plugins/ftp_download ftp_download]||'''{{{NEW}}}''' Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/move move]||Move local files.||
 ||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
+||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
-||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
-||[wiki:Plugins/ftp_download ftp_download]||'''{{{NEW}}}''' Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
+||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
 
 == Outputs (notification) ==
 
