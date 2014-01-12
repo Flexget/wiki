@@ -195,9 +195,10 @@ series:
 #                                                                                                                                                        #
 ##########################################################################################################################################################
 
-FLEXGET="~/flexget-git/bin/flexget"                     # Path to the flexget binary
-QUALITY="ANY"                                           # Let flexget handle the quality
-CONFIG_LOCK="~/.flexget/.config-lock"                   # Set config lock file for flexget
+#!/bin/bash
+
+FLEXGET="/home/hyper/flexget-git/bin/flexget"           # Path to the flexget binary
+QUALITY="ANY"
 
 while [ -f "$CONFIG_LOCK" ] ;
 do
@@ -217,6 +218,6 @@ imdb1=${1##http*title}
 imdb2=${imdb1//\//}
 
 #$FLEXGET --movie-queue add $1 $QUALITY
-echo "$FLEXGET --movie-queue add imdb_id=${imdb2} $QUALITY"
-$FLEXGET --movie-queue add imdb_id=${imdb2} "${QUALITY}"
+echo "$FLEXGET movie-queue add imdb_id=${imdb2} $QUALITY"
+$FLEXGET movie-queue add imdb_id=${imdb2} "${QUALITY}"
 }}}
