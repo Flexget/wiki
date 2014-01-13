@@ -15,7 +15,7 @@ Available configuration parameters:
 ||strip_year||Yes||No||Remove year from title, ex: Show Name (2012) 01x01 => Show Name 01x01||
 ||original_filename||No||No||Use filename stored in PMS instead of transformed name. lowercase_title and strip_year will be ignored.||
 ||unwatched_only||No||No||Only request unwatched media from PMS.||
-||fetch||file||No||Run flexget doc plex for options.||
+||fetch||file||No||Run "flexget doc plex" for options.||
 Using selection 'all' or 'recentlyViewedShows' will only produce a list of show names while the others will produce filename and download url.
 
 == Sample configuration ==
