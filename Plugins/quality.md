@@ -1,6 +1,6 @@
 = Quality =
 
-Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. series, it might offer more functionality. Also mixing series quality options and quality plugin will cause weird behaviour.)
+Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. [wiki:series series], it might offer more functionality. Also mixing series quality options and quality plugin will cause weird behaviour.)
 
 == Simple Usage ==
 
