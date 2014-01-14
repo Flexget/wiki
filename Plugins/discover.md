@@ -14,7 +14,7 @@ discover:
   [interval]: <time between trying each search again>
 }}}
 
-An overview of available search plugins can be found [wiki:Searches here]. For a list of installed search plugins run "flexget --search-plugins" from the cli.
+An overview of available search plugins can be found [wiki:Searches here]. For a list of installed search plugins run "flexget --search-plugins" (`flexget plugins --group search` on Flexget>=1.2) from the cli.
 
 === Example: Input configs ===
 
