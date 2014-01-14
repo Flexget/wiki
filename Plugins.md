@@ -173,6 +173,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/priority priority]||Change task execution order.||
 ||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
+||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloadin torrents from rutracker.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
