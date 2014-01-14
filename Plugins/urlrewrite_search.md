@@ -16,6 +16,6 @@ urlrewrite_search:
       catid: 2
 }}}
 
-To get list of supported sites run `flexget --search-plugins`
+To get list of supported sites run `flexget --search-plugins` (`flexget plugins --group search` on Flexget>=1.2).
 
 For the nzbmatrix search plugin, it requires apikey and username. All other arguments from http://nzbmatrix.com/api-info.php search API can also be set, with the exception of the "search" parameter.
