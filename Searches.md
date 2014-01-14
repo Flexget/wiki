@@ -18,11 +18,11 @@
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 ||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
 
-You can always get an up to date overview of the available search plugins by using the command line option --search-plugins. On Flexget>=1.2, the command is now 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
+You can always get an up to date overview of the available search plugins by using the command line. On Flexget>=1.2, the command is now 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
 ''' Example '''
 {{{
-flexget --search-plugins
+flexget plugins --group search
 -- Supported search plugins: --------------------------------------------------
  search_rss
  piratebay
