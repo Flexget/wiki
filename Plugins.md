@@ -136,6 +136,8 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
+||[wiki:Plugins/periscope periscope]||Download subtitles with Periscope.||
+||[wiki:Plugins/subliminal subliminal]||Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
 
