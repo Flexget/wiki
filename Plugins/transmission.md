@@ -47,7 +47,6 @@ Also make sure that rpc-whitelist isn't preventing flexget from connecting to lo
 ||maxupspeed||Number||||
 ||maxdownspeed||Number||||
 ||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
-||removewhendone||[Yes|No]||Removes ALL stopped or incomplete paused Torrents in the Transmission client, not just the ones added in by FlexGet, if the seed ratio is higher than the global upload ratio. (Caution, will remove almost all all non-active torrents!)||
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 
 To use all default values use this config form:
@@ -89,6 +88,8 @@ transmission:
 }}}
 
 === Transmission Tips ===
+
+'''After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [wiki:clean_transmission clean_transmission] plugin'''
 
 '''After r1277 you can simply use the removewhendone option'''
 
