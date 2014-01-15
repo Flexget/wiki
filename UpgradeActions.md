@@ -6,6 +6,11 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{--check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.1.2 1.2.34 ===
+'''''Transmission'''''
+
+Parameter `removewhendone` has been removed from [wiki:Plugins/transmission transmission] plugin. Update your configs. To clean the Transmission queue now you can use the brand new plugin [wiki:Plugins/clean_transmission clean_transmission].
+
 === 2014.1.2 1.2.0 ===
 '''''CLI Interface'''''
 
