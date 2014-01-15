@@ -1,6 +1,6 @@
 = Plex  =
 
-Produces an entry for each show present in a  [http://www.plexapp.com Plex Media Server] TV section. Can be used with [wiki:Plugins/import_series import_series] plugin or an output plugin.
+Produces an entry for each show present in a  [http://www.plexapp.com Plex Media Server] TV section. Can be used with [wiki:Plugins/configure_series configure_series] plugin or an output plugin.
 
 == Configuration ==
 Available configuration parameters:
@@ -21,7 +21,7 @@ Using selection 'all' or 'recentlyViewedShows' will only produce a list of show 
 == Sample configuration ==
 Server on local network used as input for show listing:
 {{{
-import_series:
+configure_series:
   from:
     plex:
       section: 3
