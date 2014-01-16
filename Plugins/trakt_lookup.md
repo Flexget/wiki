@@ -40,7 +40,7 @@ This plugin populates fields on entries that have been identified as series by !
 ----
 [[BR]]
 '''Episode Metainfo'''
-----
+
 ||trakt_ep_name||Episode name||
 ||trakt_ep_first_aired_epoch||Episode premier date in epoch||
 ||trakt_ep_first_aired_iso||Episode premier date time stamp||
