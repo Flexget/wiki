@@ -10,6 +10,7 @@ move:
   [filename]: the actual filename inside the 'to' directory to name the entries, allows value replacement
   [unpack_safety]: enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry
   [clean_source]: delete source directory if it has less MB left than given after move
+  [along]: Move additional files such as subtitles
 }}}
 
 [] = optional
@@ -29,6 +30,8 @@ tasks:
     move:
       to: "/filestorage2/{{series_name}}/"
       filename: '{{ series_name }} - {{ series_id }}{{location | pathext}}'
+      along:
+        - srt
 }}}
 
 It is important to note that the files are moved as single files and no checks are made if multiple files match the same name. The files already present in the directory (even if moved during the same pass) are overwritten.
