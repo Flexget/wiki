@@ -52,7 +52,6 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_ep_tvdb_id||TVDB ID of episode||
 ----
 [[BR]]
-----
 '''Example'''[[BR]]
 
 The most common uses we'll see are using it for [wiki:Plugins/make_rss make_rss] and making pretty filenames using [wiki:Plugins/set set] to set {{{content_filename}}} in the [wiki:Plugins/deluge deluge]. The 'default' jinja filter is used to insert 'Unknown' if trakt_lookup failes to get an entry field.
