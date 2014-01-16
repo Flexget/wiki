@@ -20,10 +20,9 @@ easy_install subliminal
     accept_all: yes
     subliminal:
       languages:
-        - it
+        - ita
       alternatives:
-        - en
-        - fr
+        - eng
       exact_match: yes
 }}}
 
