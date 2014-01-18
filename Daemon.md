@@ -159,6 +159,8 @@ SETTINGS="/etc/default/$NAME"
 DESC="Flexget"
 PIDFILE="/var/run/$NAME.pid"
 
+set -e
+
 . /lib/lsb/init-functions
 
 unset FGUSER CONFIG LOG LEVEL
@@ -195,17 +197,16 @@ run_check()
 
 # Function to define config file, log file and log level
 conf_check() {
-        BASEDIR="/home/$FGUSER/.flexget"
         if [ -z $CONFIG ]; then
-                CONFIGFILE="$BASEDIR/config.yml"
+                CONFIGFILE=""
         else
-                CONFIGFILE=$CONFIG
+                CONFIGFILE="-c $CONFIG"
         fi
 
         if [ -z $LOG ]; then
-                LOGFILE="$BASEDIR/flexget.log"
+                LOGFILE=""
         else
-                LOGFILE="$LOG/flexget.log"
+                LOGFILE="-l $LOG/flexget.log"
                 if [ ! -d $LOG ]; then 
                         mkdir -p -m 750 $LOG
                 fi
@@ -213,9 +214,9 @@ conf_check() {
         fi
 
         if [ -z $LEVEL ]; then
-                LOGLEVEL='info'
+                LOGLEVEL=""
         else
-                LOGLEVEL="$LEVEL"
+                LOGLEVEL="-L $LEVEL"
         fi
 }
 
@@ -228,7 +229,7 @@ start_flexget() {
                 conf_check
                 log_daemon_msg "$DESC: Starting the daemon."
                 if start-stop-daemon --start --background --quiet --pidfile $PIDFILE --make-pidfile --chuid $FGUSER \
-                --user $FGUSER --exec $DAEMON -- -c $CONFIGFILE -l $LOGFILE -L $LOGLEVEL daemon start; then
+                --user $FGUSER --exec $DAEMON -- $CONFIGFILE $LOGFILE $LOGLEVEL daemon start; then
                         log_end_msg 0
                 else
                         log_end_msg 1
