@@ -1,7 +1,5 @@
 = Tmdb lookup =
 
-Currently not working due to the deprecation of the currently used API! Please view [http://flexget.com/ticket/2123 this ticket] to get more information on how you could help. 
-
 '''Example:'''
 
 {{{
