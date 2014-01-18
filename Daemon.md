@@ -101,3 +101,209 @@ sudo stop flexget
 sudo start flexget
 }}}
 
+== Insserv script (Debian compatible) ==
+This script allows the flexget daemon to automatically start on system boot.
+
+All of the following should be done as the root user.
+
+First, create a /etc/default/flexget file with the following content :
+
+{{{
+# Configuration for /etc/init.d/flexget
+
+# User to run flexget as.
+# Daemon will not start if left empty.
+FGUSER=""
+
+# Path to the flexget config.yml file to use.
+# Defaults to /home/$FGUSER/.flexget/config.yml
+CONFIG=""
+
+# Path to where flexget should log. Do not add trailing slash.
+# Defaults to /home/$FGUSER/.flexget/flexget.log
+LOG=""
+
+# Log verbosity 
+# Available options : none critical error warning info verbose debug trace
+# Defaults to 'info'
+LEVEL=""
+}}}
+
+Please note that FGUSER needs to be defined for the daemon to start. It can be set to your current user, or you can run flexget as its own user.
+
+Then, create the /etc/init.d/flexget file :
+
+{{{
+#!/bin/bash
+
+### BEGIN INIT INFO
+# Provides:          flexget
+# Required-Start:    $network $remote_fs
+# Required-Stop:     $network $remote_fs
+# Should-Start:      
+# Should-Stop:       
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Flexget
+# Description:       FlexGet is a multipurpose automation tool 
+#                    for content like torrents, nzbs, podcasts,
+#                    comics, series, movies, etc.
+### END INIT INFO
+
+# Author: Antoine Joubert, 19/01/2014
+
+NAME="flexget"
+DAEMON="/usr/local/bin/flexget"
+SETTINGS="/etc/default/$NAME"
+
+DESC="Flexget"
+PIDFILE="/var/run/$NAME.pid"
+
+. /lib/lsb/init-functions
+
+unset FGUSER CONFIG LOG LEVEL
+
+# Exit if flexget not installed
+if [ ! -x "$DAEMON" ]; then
+        echo "$DESC: Could not find flexget executable. Exiting."
+        exit 2
+fi
+
+# Read configuration variables
+if [ -r /etc/default/$NAME ]; then
+        . /etc/default/$NAME
+else
+        echo "$DESC: /etc/default/$NAME not found. Exiting."
+        exit 2
+fi
+
+# Exit if FGUSER has not been set in /etc/default/flexget
+if [ -z $FGUSER ]; then
+        echo "$DESC: FGUSER not set in /etc/default/$NAME. Exiting."
+        exit 2
+fi
+
+# Function to verify if flexget is already running
+run_check()
+{
+        if [ -e $PIDFILE ]; then
+               status_of_proc -p $PIDFILE $DAEMON $NAME > /dev/null && RETVAL=0 || RETVAL="$?"
+        else
+                RETVAL="2"
+        fi
+}
+
+# Function to define config file, log file and log level
+conf_check() {
+        BASEDIR="/home/$FGUSER/.flexget"
+        if [ -z $CONFIG ]; then
+                CONFIGFILE="$BASEDIR/config.yml"
+        else
+                CONFIGFILE=$CONFIG
+        fi
+
+        if [ -z $LOG ]; then
+                LOGFILE="$BASEDIR/flexget.log"
+        else
+                LOGFILE="$LOG/flexget.log"
+                if [ ! -d $LOG ]; then 
+                        mkdir -p -m 750 $LOG
+                fi
+                chown $FGUSER $LOG
+        fi
+
+        if [ -z $LEVEL ]; then
+                LOGLEVEL='info'
+        else
+                LOGLEVEL="$LEVEL"
+        fi
+}
+
+start_flexget() {
+        run_check
+        if [ $RETVAL = 0 ]; then
+                echo "$DESC: Already running with PID $(cat $PIDFILE). Aborting."
+                exit 2
+        else
+                conf_check
+                log_daemon_msg "$DESC: Starting the daemon."
+                if start-stop-daemon --start --background --quiet --pidfile $PIDFILE --make-pidfile --chuid $FGUSER \
+                --user $FGUSER --exec $DAEMON -- -c $CONFIGFILE -l $LOGFILE -L $LOGLEVEL daemon start; then
+                        log_end_msg 0
+                else
+                        log_end_msg 1
+                fi
+        fi
+}
+
+stop_flexget() {
+        run_check
+        if [ $RETVAL = 0 ]; then
+                log_daemon_msg "$DESC: Stopping the daemon."
+                if start-stop-daemon --stop --quiet --chuid "$FGUSER" --pidfile "$PIDFILE" --retry 30; then 
+                        [ -e "$PIDFILE" ] && rm -f "$PIDFILE"
+                        log_end_msg 0
+                else
+                        log_end_msg 1
+                fi
+        else
+                echo "$DESC: Not currently running. Aborting."
+        fi
+}
+
+status_flexget() {
+        run_check
+        if [ $RETVAL = 0 ]; then
+                echo "$DESC: Currently running with PID $(cat $PIDFILE)."
+        else
+                echo "$DESC: Not currently running."
+        fi
+}
+
+case "$1" in
+        start)
+                start_flexget
+        ;;
+        stop)
+                stop_flexget
+        ;;
+        restart)
+                stop_flexget && sleep 2 && start_flexget
+        ;;
+        status)
+                status_flexget
+        ;;
+        *)
+                echo "Usage: $0 {start|stop|restart|status}"
+esac
+
+exit 0
+}}}
+
+Then, give executions rights to the script :
+
+{{{
+chmod +x /etc/init.d/flexget
+}}}
+
+And then, generate the necessary symlinks for the service to start on boot :
+{{{
+insserv -d flexget
+
+OR
+
+update-rc.d flexget defaults
+}}}
+
+To start, stop or check if the daemon is running :
+{{{
+/etc/init.d/flexget start
+/etc/init.d/flexget stop
+/etc/init.d/flexget status
+
+OR
+
+service flexget start
+service flexget stop
+service flexget status
+}}}
