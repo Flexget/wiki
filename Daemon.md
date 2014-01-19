@@ -116,7 +116,7 @@ First, create a /etc/default/flexget file with the following content :
 FGUSER=""
 
 # Path to the flexget config.yml file to use.
-# Defaults to /home/$FGUSER/.flexget/config.yml
+# Defaults to the FGUSER $HOME/.flexget/config.yml
 CONFIG=""
 
 # Path to where flexget should log. Do not add trailing slash.
