@@ -115,17 +115,17 @@ First, create a /etc/default/flexget file with the following content :
 # Daemon will not start if left empty.
 FGUSER=""
 
-# Path to the flexget config.yml file to use.
+# Full path to the flexget config.yml file to use.
 # Defaults to the FGUSER $HOME/.flexget/config.yml
 CONFIG=""
 
-# Path to where flexget should log. Do not add trailing slash.
-# Defaults to /home/$FGUSER/.flexget/flexget.log
+# Path to the directory where flexget should log. Do not add trailing slash.
+# Defaults to /home/$FGUSER/.flexget
 LOG=""
 
 # Log verbosity 
 # Available options : none critical error warning info verbose debug trace
-# Defaults to 'info'
+# Defaults to info
 LEVEL=""
 }}}
 
