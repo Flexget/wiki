@@ -32,7 +32,7 @@ pip install --upgrade flexget
 
 [wiki:PipProblems Problems with pip?]
 
-Git users can just run `git pull`.
+Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bootstrap.py` again to upgrade them.
 
 == Verify ==
 
