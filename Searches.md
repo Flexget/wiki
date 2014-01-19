@@ -13,6 +13,7 @@
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
 ||newzleech||broken as Newzleech.com is no more||
 ||[wiki:Searches/piratebay piratebay]||Generates entries from [http://thepiratebay.gl/ the piratebay]||
+||[wiki:Searches/publichd publichd]||Generates entries from [http://publichd.se/ PublicHD]||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
