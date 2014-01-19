@@ -3,6 +3,8 @@
 <h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> for discussion and support</font></h2>
 }}}
 
+'''{{{ATTENTION:}}}''' 1.2 release contains several changes, see [wiki:UpgradeActions]!
+
 == Feature highlights ==
 
 {{{
