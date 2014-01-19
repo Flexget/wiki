@@ -167,7 +167,7 @@ unset FGUSER CONFIG LOG LEVEL
 
 # Exit if flexget not installed
 if [ ! -x "$DAEMON" ]; then
-        echo "$DESC: Could not find flexget executable. Exiting."
+        log_action_msg "$DESC: Could not find flexget executable. Exiting."
         exit 2
 fi
 
@@ -175,19 +175,18 @@ fi
 if [ -r /etc/default/$NAME ]; then
         . /etc/default/$NAME
 else
-        echo "$DESC: /etc/default/$NAME not found. Exiting."
+        log_action_msg "$DESC: /etc/default/$NAME not found. Exiting."
         exit 2
 fi
 
 # Exit if FGUSER has not been set in /etc/default/flexget
 if [ -z $FGUSER ]; then
-        echo "$DESC: FGUSER not set in /etc/default/$NAME. Exiting."
+        log_action_msg "$DESC: FGUSER not set in /etc/default/$NAME. Exiting."
         exit 2
 fi
 
 # Function to verify if flexget is already running
-run_check()
-{
+run_check() {
         if [ -e $PIDFILE ]; then
                status_of_proc -p $PIDFILE $DAEMON $NAME > /dev/null && RETVAL=0 || RETVAL="$?"
         else
@@ -195,45 +194,52 @@ run_check()
         fi
 }
 
+end_log() {
+        if [ $RETVAL -eq 0 ]; then
+                log_end_msg 0
+                return 0
+        else
+                log_end_msg 1
+                exit 1
+        fi
+}
+
 # Function to define config file, log file and log level
 conf_check() {
         if [ -z $CONFIG ]; then
-                CONFIGFILE=""
+                OPTIONS="$OPTIONS"
         else
-                CONFIGFILE="-c $CONFIG"
+                OPTIONS="-c $CONFIG"
         fi
-
         if [ -z $LOG ]; then
-                LOGFILE=""
+                OPTIONS="$OPTIONS"
         else
-                LOGFILE="-l $LOG/flexget.log"
+                OPTIONS="$OPTIONS -l $LOG/flexget.log"
                 if [ ! -d $LOG ]; then 
                         mkdir -p -m 750 $LOG
+                        chown $FGUSER $LOG
                 fi
-                chown $FGUSER $LOG
         fi
 
         if [ -z $LEVEL ]; then
-                LOGLEVEL=""
+                OPTIONS="$OPTIONS"
         else
-                LOGLEVEL="-L $LEVEL"
+                OPTIONS="$OPTIONS -L $LEVEL"
         fi
 }
 
 start_flexget() {
         run_check
         if [ $RETVAL = 0 ]; then
-                echo "$DESC: Already running with PID $(cat $PIDFILE). Aborting."
+                log_action_msg "$DESC: Already running with PID $(cat $PIDFILE). Aborting."
                 exit 2
         else
                 conf_check
                 log_daemon_msg "$DESC: Starting the daemon."
-                if start-stop-daemon --start --background --quiet --pidfile $PIDFILE --make-pidfile --chuid $FGUSER \
-                --user $FGUSER --exec $DAEMON -- $CONFIGFILE $LOGFILE $LOGLEVEL daemon start; then
-                        log_end_msg 0
-                else
-                        log_end_msg 1
-                fi
+                start-stop-daemon --start --background --quiet --pidfile $PIDFILE --make-pidfile --chuid $FGUSER \
+                --user $FGUSER --exec $DAEMON -- $OPTIONS daemon start
+                RETVAL=$?
+                end_log
         fi
 }
 
@@ -241,24 +247,24 @@ stop_flexget() {
         run_check
         if [ $RETVAL = 0 ]; then
                 log_daemon_msg "$DESC: Stopping the daemon."
-                if start-stop-daemon --stop --quiet --chuid "$FGUSER" --pidfile "$PIDFILE" --retry 30; then 
-                        [ -e "$PIDFILE" ] && rm -f "$PIDFILE"
-                        log_end_msg 0
-                else
-                        log_end_msg 1
-                fi
+                start-stop-daemon --stop --quiet --chuid "$FGUSER" --pidfile "$PIDFILE" --retry 30
+                RETVAL=$?
+                [ -e "$PIDFILE" ] && rm -f "$PIDFILE"
+                end_log
         else
-                echo "$DESC: Not currently running. Aborting."
+                log_action_msg "$DESC: Not currently running. Aborting."
+                exit 2
         fi
 }
 
 status_flexget() {
         run_check
         if [ $RETVAL = 0 ]; then
-                echo "$DESC: Currently running with PID $(cat $PIDFILE)."
+                log_action_msg "$DESC: Currently running with PID $(cat $PIDFILE)."
         else
-                echo "$DESC: Not currently running."
+                log_action_msg "$DESC: Not currently running."
         fi
+        exit $RETVAL
 }
 
 case "$1" in
