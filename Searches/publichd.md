@@ -29,5 +29,5 @@ publichd:
 '''Advanced:''' You can also use categories ID directly, you can find them on PublicHD if you hover over category link. (eg. publichd.se/index.php?page=torrents&'''category=2''')
 {{{
 publichd: 
-  category: 2
+  category: [2, 5, 8, 9, 20, 15, 16]
 }}}
