@@ -29,6 +29,7 @@ clean_transmission:
 ||password||Text||||
 ||finished_for||Interval||(optional) remove only torrents finished for at least the specified time (1 hours, 2 days, etc).||
 ||min_ratio||Number||(optional) remove only torrents uploaded at least this ratio (0=0%, 0.5=50%, 1=100% etc)||
+||enabled||[Yes|No]||Plugin enabled (default: yes)||
 
 '''Note:'''
 
