@@ -56,4 +56,15 @@ Start by removing traces of old !FlexGet from your python site-packages, eg.
 rm /usr/local/lib/python2.6/site-packages/FlexGet-*
 }}}
 
+Also make sure you are running the latest package of pip.
+
+{{{
+pip install --upgrade pip
+}}}
+
+Special note for Arch Linux users. Yours is different.
+{{{
+pip2 install --upgrade pip
+}}}
+
 If you receive errors about database upgrades please report them via a [http://flexget.com/newticket ticket]. If you do not care about the history for that plugin, you can reset the database for that plugin with {{{--reset-plugin PLUGINNAME}}} to get it working again.
