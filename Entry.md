@@ -53,12 +53,12 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||plex_section_name||[wiki:Plugins/plex plex]||Section name.||
 ||plex_path||[wiki:Plugins/plex plex]||Entry path on PMS.||
 ||plex_duration||[wiki:Plugins/plex plex]||Entry length in seconds.||
-||plex_episode_thumb||[wiki:Plugins/plex plex]||Episode thumbnail URL from PMS.||
-||plex_series_art||[wiki:Plugins/plex plex]||Series cover URL from PMS.||
-||plex_season_cover||[wiki:Plugins/plex plex]||Season cover URL from PMS.||
-||plex_episode_title||[wiki:Plugins/plex plex]||Episode name as indexed on PMS.||
+||plex_thumb||[wiki:Plugins/plex plex]||Episode thumbnail, series only.||
+||plex_art||[wiki:Plugins/plex plex]||Series or movie art as configured in PMS||
+||plex_cover||[wiki:Plugins/plex plex]||Series cover for series, movie cover for movies.||
+||plex_season_cover||[wiki:Plugins/plex plex]||Season cover, series only. If used in movies, movie cover will be set.||
+||plex_title||[wiki:Plugins/plex plex]||Episode name as indexed on PMS.||
 ||plex_episode_summary||[wiki:Plugins/plex plex]||Episode summary.||
-||plex_series_art||[wiki:Plugins/plex plex]||Series coverart URL from PMS.||
 ||plex_url||[wiki:Plugins/plex plex]||Original plex url.||
 ||tvdb_series_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
 ||tvdb_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
