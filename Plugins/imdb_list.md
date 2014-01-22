@@ -29,7 +29,7 @@ imdb_list:
   password: mypassword
 }}}
 
-If for some reason it's still not getting your '''private''' list properly, use both ''IMDB ID'' and ''Username'' along with your password..
+If for some reason it's still not getting your '''private''' list properly, use both ''user_id'' and ''username'' along with your password..
 
 {{{
 imdb_list:
