@@ -27,3 +27,13 @@ rss:
       type: mozilla
 }}}
 Then rss plugin would do something like call: `session = authframework.prepare_session(config['auth'])` and use the returned session for network requests
+- Define auth plugins per site, rather than per plugin
+{{{
+authentication:
+- site: "http://mysite.com/*"
+  auth:
+    cookies:
+      file: /path/to/cookies.foo
+      type: mozilla
+}}}
+We could then customize our requests session subclass to act accordingly.
