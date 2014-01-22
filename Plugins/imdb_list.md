@@ -29,6 +29,16 @@ imdb_list:
   password: mypassword
 }}}
 
+If for some reason it's still not getting your '''private''' list properly, use both ''IMDB ID'' and ''Username'' along with your password..
+
+{{{
+imdb_list:
+  list: watchlist
+  user_id: ur123456
+  username: me@somewhere.com
+  password: mypassword
+}}}
+
 '''{{{WARNING:}}}''' If you are using a list other than the watchlist, you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
 
 '''Note:''' Adding this to your movie tasks or preset will NOT cause movies in imdb's watchlist to be accepted since this is an input, not a filter.
