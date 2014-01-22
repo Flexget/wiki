@@ -1,6 +1,6 @@
 = Web UI =
 
-Experimental web-ui can be started with `flexget-webui` command, see `flexget-webui --help` for default port and usernames and options for setting them.
+Experimental web-ui can be started with `flexget webui` command, see `flexget webui --help` for default port and usernames and options for setting them.
 
 '''NOTES:'''
 - You will lose the formatting of your config file if you edit it through the web-ui.
