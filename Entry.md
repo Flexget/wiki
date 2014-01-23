@@ -58,7 +58,8 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||plex_cover||[wiki:Plugins/plex plex]||Series cover for series, movie cover for movies.||
 ||plex_season_cover||[wiki:Plugins/plex plex]||Season cover, series only. If used in movies, movie cover will be set.||
 ||plex_title||[wiki:Plugins/plex plex]||Episode name as indexed on PMS.||
-||plex_episode_summary||[wiki:Plugins/plex plex]||Episode summary.||
+||plex_summary||[wiki:Plugins/plex plex]||Entry summary.||
+||plex_status||[wiki:Plugins/plex plex]||Entry status: seen, inprogress or unwatched.||
 ||plex_url||[wiki:Plugins/plex plex]||Original plex url.||
 ||tvdb_series_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series name provided by thetvdb||
 ||tvdb_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series rating||
