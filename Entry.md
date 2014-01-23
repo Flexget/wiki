@@ -86,5 +86,33 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvdb_ep_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode rating||
 ||tvdb_ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode guest stars||
 ||tvdb_ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
+||trakt_series_name||[wiki:Plugins/trakt_lookup trakt_lookup]||Series name provided by trakt||
+||trakt_series_runtime||[wiki:Plugins/trakt_lookup trakt_lookup]||Series runtime in minutes||
+||trakt_series_first_aired_epoch||[wiki:Plugins/trakt_lookup trakt_lookup]||Series premier data in epoch time||
+||trakt_series_first_aired_iso||[wiki:Plugins/trakt_lookup trakt_lookup]||Time stamp of premier date||
+||trakt_series_air_time||[wiki:Plugins/trakt_lookup trakt_lookup]||Time the series ran||
+||trakt_series_content_rating||[wiki:Plugins/trakt_lookup trakt_lookup]||Content rating ex: TV-14||
+||trakt_series_genres||[wiki:Plugins/trakt_lookup trakt_lookup]||Series genres||
+||trakt_series_netowrk||[wiki:Plugins/trakt_lookup trakt_lookup]||Series network||
+||trakt_series_banner_url||[wiki:Plugins/trakt_lookup trakt_lookup]||Series banner||
+||trakt_series_fanart_url||[wiki:Plugins/trakt_lookup trakt_lookup]||Series Fanart||
+||trakt_series_poster_url||[wiki:Plugins/trakt_lookup trakt_lookup]||Series poster||
+||trakt_series_imdb_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Series IMDB ID||
+||trakt_series_tvdb_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Series TVDB ID||
+||trakt_series_tvrage_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Series TVRage ID||
+||trakt_series_actors||[wiki:Plugins/trakt_lookup trakt_lookup]||Series actors||
+||trakt_series_country||[wiki:Plugins/trakt_lookup trakt_lookup]||Production Country||
+||trakt_series_year||[wiki:Plugins/trakt_lookup trakt_lookup]||Series release year||
+||trakt_series_status||[wiki:Plugins/trakt_lookup trakt_lookup]||Series status(ex: Airing)||
+||trakt_series_overview||[wiki:Plugins/trakt_lookup trakt_lookup]||Series overview||
+||trakt_ep_name||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode name||
+||trakt_ep_first_aired_epoch||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode premier date in epoch||
+||trakt_ep_first_aired_iso||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode premier date time stamp||
+||trakt_ep_image_url||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode screenshot||
+||trakt_ep_overview||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode overview||
+||trakt_season||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode season||
+||trakt_episode||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode Number||
+||trakt_ep_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode id string 'S01E01'||
+||trakt_ep_tvdb_id||[wiki:Plugins/trakt_lookup trakt_lookup]||TVDB ID of episode||
 
 ^* = and other plugins that utilize this plugin^
