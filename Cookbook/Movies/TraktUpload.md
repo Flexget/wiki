@@ -8,17 +8,9 @@ This is likely to generate errors and not work 100%. This is because of issues w
 I would recommend making this a separate configuration file which you manually run only once or when needed. You can set up tract_acquired updating to your normal configuration file. If you put these into your config that is ran by cron, specify [wiki:Plugins/interval interval] for update feeds. Something along once per day or week.
 
 {{{
-templates:
-  acquired:
-    trakt_acquired:
-      username: myusername
-      password: mypassword
-      api_key: myapikey
-
 tasks:
 
   Update-TV:
-    template: [acquired]
     find:
       # Regex to match all video with these extensions in your collection
       regexp: '.*\.(avi|mkv|mp4)$'
@@ -31,10 +23,12 @@ tasks:
     metainfo_series: yes
     accept_all: yes
     trakt_acquired:
+      username: myusername
+      password: mypassword
+      api_key: myapikey
       type: series
 
   Update-Movies:
-    template: [acquired]
     # For movies we use listdir instead of find since movies are (often) 
     # stored in directories and their names are generally much 
     # better than filenames.
@@ -44,6 +38,9 @@ tasks:
     accept_all: yes
     imdb_lookup: yes
     trakt_acquired:
+      username: myusername
+      password: mypassword
+      api_key: myapikey
       type: movies
 }}}
 
