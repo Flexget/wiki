@@ -4,7 +4,7 @@ We very much appreciate any contributions to the project, you don't even necessa
 
 For code submissions we accept (in order of preference):
 
-* !GitHub pull requests (These are strongly preferred! It is much easier for us to do code reviews and merge these in. You can find a [https://help.github.com/articles/fork-a-repo guide] here.)
+* !GitHub pull requests to the develop branch (These are strongly preferred! It is much easier for us to do code reviews and merge these in. You can find a [https://help.github.com/articles/fork-a-repo guide] here.)
 * Patch files as ticket attachments
 * Just plain file attachments if above are too intimidating
 
