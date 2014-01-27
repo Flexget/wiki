@@ -46,7 +46,7 @@ templates:
         - '*.avi'
         - '*.mkv'
         - '*.mp4'
-    import_series:
+    configure_series:
       from:
         inputs:
           - trakt_list:
