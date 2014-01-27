@@ -9,17 +9,17 @@ Say a user follows a series named Seriesname, this series is broadcasted in nati
 * Seriesname
 * Seriesname UK
 
-By default !FlexGet will consider both of these series the same, if 'Seriesname' is the title provided by import_series.
+By default !FlexGet will consider both of these series the same, if 'Seriesname' is the title provided by configure_series.
 
 == The Workaround ==
 
 To solve this we can manually specify [wiki:Plugins/series/exact exact] mode for this series using the regular [wiki:Plugins/series series] plugin.
 
 {{{
-# Use import_series as normal, and also include the series plugin like this:
+# Use configure_series as normal, and also include the series plugin like this:
 series:
-  # The series name specified here should be exactly the same as it comes from import_series
+  # The series name specified here should be exactly the same as it comes from configure_series
   - Seriesname:
       exact: yes
 }}}
-The exact option will be merged into this specific series, along with any options you have specified for all series using import_series plugin.
+The exact option will be merged into this specific series, along with any options you have specified for all series using configure_series plugin.
