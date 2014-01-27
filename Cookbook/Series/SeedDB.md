@@ -12,7 +12,7 @@ This helps !FlexGet learn what type of series numbering your shows have, as well
 {{{
 templates:
   tv:
-    # your series config, (or import_series) goes here
+    # your series config, (or configure_series) goes here
     # this template can then be used for the seed_series_db task, as well as your normal downloading tasks
 tasks:
   seed_series_db:
