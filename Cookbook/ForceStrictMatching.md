@@ -1,6 +1,6 @@
 = Force Exact Matching =
 
-Certain times, when using [wiki:Plugins/import_series import_series] you might want to force !FlexGet into exact matching for a TV series.
+Certain times, when using [wiki:Plugins/configure_series configure_series] you might want to force !FlexGet into exact matching for a TV series.
 
 == An Example ==
 
