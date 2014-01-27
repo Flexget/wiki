@@ -2,7 +2,7 @@
 
 Generates [wiki:Plugins/series series] plugin configuration from titles produced by any input. Using this doesn't prevent configuring [wiki:Plugins/series series] plugin additionally. 
 
-Most commonly used with [wiki:Plugins/thetvdb_favorites thetvdb_favorites], [wiki:Plugins/trakt_list trakt_list], or [wiki:Plugins/listdir listdir].
+Most commonly used with [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/listdir listdir], or [wiki:Plugins/thetvdb_favorites thetvdb_favorites].
 
 == Syntax ==
 
