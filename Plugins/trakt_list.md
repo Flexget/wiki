@@ -2,7 +2,7 @@
 
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
-This plugin is useful for example when used in a task with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/import_series import_series].[[BR]]
+This plugin is useful for example when used in a task with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
 
 '''Notes:''' 
 
@@ -77,10 +77,10 @@ queue_movies:
 
 === Example: Autoconfigure series ===
 
-This example shows how the trakt_list plugin could be used with the [wiki:Plugins/import_series import_series] plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
+This example shows how the trakt_list plugin could be used with the [wiki:Plugins/configure_series configure_series] plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
 
 {{{
-import_series:
+configure_series:
   from:
     trakt_list:
       username: traktusername
