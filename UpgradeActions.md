@@ -8,7 +8,7 @@ This page contains information about configuration file format changes, as well 
 
 === 2014.1.24 1.2.66 ===
 
-The search paths for config files have been altered. !FlexGet will now search the following directories, in this order: current directory, then the virtualenv directory, (only if !FlexGet is installed in a virtualenv,) then `~/.flexget`, and finally `~/flexget` (on Windows), and `~/.config/flexget` (on linux). You may need to alter how you use the `-c` flag when running !FlexGet to accommodate for this change. When setting up
+The search paths for config files have been altered. !FlexGet will now search the following directories, in this order: current directory, then the virtualenv directory, (only if !FlexGet is installed in a virtualenv,) then `~/.flexget`, and finally `~/flexget` (on Windows), and `~/.config/flexget` (on linux). You may need to alter how you use the `-c` flag when running !FlexGet to accommodate for this change.
 
 === 2014.1.2 1.2.34 ===
 '''''Transmission'''''
