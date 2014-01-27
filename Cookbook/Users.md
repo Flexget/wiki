@@ -2,6 +2,10 @@
 
 These are the complete configurations of actual end users. Feel free to add your own so others may learn from it. Some of them are horribly complex, if you're new user do not tempt to conjure such feats at start. In fact, always try to make simplest and cleanest possible configuration.
 
+'''Note for users adding their config:'''
+[[BR]]
+Please post the version of !FlexGet that your config was designed for, so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
+
 * [https://github.com/jawilson/dotfiles/tree/master/flexget jawilson] (atlanta800)
 * [wiki:Cookbook/Users/hyper_ch hyper_ch]
 * [wiki:Cookbook/Users/foulou foulou]
