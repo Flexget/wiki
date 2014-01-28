@@ -14,3 +14,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/AlexTz AlexTz] trakt.tv integration for series and movies, torrentz search
 * [https://github.com/blsmit5728/flexget_files blsmit5728]
 * [wiki:Cookbook/Users/jordan0321 jordan0321]
+* [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
