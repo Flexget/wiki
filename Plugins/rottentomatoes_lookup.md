@@ -10,7 +10,7 @@ Example:
 rottentomatoes_lookup: yes
 }}}
 
-'''{{{NOTICE:}}}''' With the shared api key included with !FlexGet, rate limiting can be a problem, causing lookups to fail. You can sign up for your own api key [http://developer.rottentomatoes.com/ here]. And specify it in the config:
+An api key is included with !FlexGet, but if you would like to specify an alternate one you can do so with the following config format:
 {{{
 rottentomatoes_lookup: XXXXXXXXXXXXXXXX
 }}}
