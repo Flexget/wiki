@@ -28,4 +28,8 @@ metainfo_providers:
     - tmdb
 }}}
 
+=== Questions ===
+- Can a plugin request a specific field be looked up? Perhaps movie_queue wants to check the tmdb_id of an entry? What if the user has only specified imdb?
+- Related: How do we handle lazy fields? If the framework doesn't know what fields each metainfo plugin provides beforehand, it can't register lazy fields.
+
 ''TODO: MORE''
