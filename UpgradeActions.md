@@ -5,11 +5,11 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 == Instructions ==
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
-{{{#!comment
+
 === 2014.1.28 1.2.70 ===
 
 [wiki:Plugins/deluge deluge] plugin `user` and `pass` options have been renamed `username` and `password` for consistency with other plugins. You should update your config.
-}}}
+
 === 2014.1.24 1.2.66 ===
 
 The search paths for config files have been altered. !FlexGet will now search the following directories, in this order: current directory, then the virtualenv directory, (only if !FlexGet is installed in a virtualenv,) then `~/.flexget`, and finally `~/flexget` (on Windows), and `~/.config/flexget` (on linux). You may need to alter how you use the `-c` flag when running !FlexGet to accommodate for this change.
