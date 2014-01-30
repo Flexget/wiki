@@ -14,9 +14,11 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/que
 imdb_list:
   user_id: ur9999999
   list: watchlist
+  username: me@somewhere.com
+  password: mypassword
 }}}
 
-Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in. (look in the url)
+Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in. (look in the url). Username and password is now required even for accessing public lists. Any account credentials will work as long as the list is public.
 
 '''Example:'''
 
