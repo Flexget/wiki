@@ -3,7 +3,7 @@
 Downloads content from entry URL and loads it into the [http://deluge-torrent.org deluge] bittorrent client.
 
 '''{{{Requirements:}}}'''
-Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the user and pass options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
+Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
 
 If you are installing to a virtualenv, you have to create the virtualenv with the {{{--system-site-packages}}} option. This also applies to an SVN install when running bootstrap.py.
 
@@ -31,8 +31,8 @@ deluge: yes
 ||'''Name'''||'''Description'''||
 ||host||Deluge host (default ''localhost'')||
 ||port||Deluge port (default ''58846'')||
-||user||Deluged username ''(defaults to automatic client authentication if not specified)''||
-||pass||Deluged password ''(defaults to automatic client authentication if not specified)''||
+||username||Deluged username ''(defaults to automatic client authentication if not specified)''||
+||password||Deluged password ''(defaults to automatic client authentication if not specified)''||
 ||path||The download location||
 ||movedone||The location files will be moved when torrent finishes (the location will be created if it doesn't exist).||
 ||label||Deluge label||
@@ -54,7 +54,7 @@ deluge: yes
 == Advanced ==
 
 Some plugins allow [wiki:Plugins/set set:] statements as a subcommand.
-The deluge plugin will read any of the normal parameters from the set: command, except for deluge daemon info (host, port, user, pass.)
+The deluge plugin will read any of the normal parameters from the set: command, except for deluge daemon info (host, port, username, password.)
 Here is an example using the series module:
 
 Example with set:
