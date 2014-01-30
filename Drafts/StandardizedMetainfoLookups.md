@@ -4,6 +4,11 @@
 - Let the user customize priority and which providers are allowed in the task.
 - Allow requesting a metainfo lookup for a certain category (series, movies, etc.)
 
+== Places that might use it ==
+- generic metainfo lookup plugin to provide lazily looked up entry fields, perhaps used in a template, or by another plugin
+- cli utilities, e.g. movie-queue cli command wants to look up a movie title to enqueue
+- If an user has not specified an explicit metainfo lookup in task, plugins like imdb or movie_queue still want to access some of those fields
+
 == Configuration ==
 
 Suggested formats:
