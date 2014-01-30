@@ -13,5 +13,19 @@ metainfo:
   type: series
   provider: trakt
 }}}
+----------------
+Alternate idea: metainfo providers are configured at the root of the config. This way, even things like cli utilities (movie queue) can request a lookup which can use the users settings.
+{{{
+tasks:
+  a:
+    metainfo: series
+# Optional customization of metainfo providers:
+metainfo_providers:
+  series:
+    - trakt
+  movies:
+    - imdb
+    - tmdb
+}}}
 
 ''TODO: MORE''
