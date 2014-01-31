@@ -10,6 +10,10 @@ This page contains information about configuration file format changes, as well 
 
 [wiki:Plugins/deluge deluge] plugin `user` and `pass` options have been renamed `username` and `password` for consistency with other plugins. You should update your config.
 
+=== 2014.1.25 1.2.68 ===
+
+`username` and `password` are now required options for the [wiki:Plugins/imdb_list imdb_list] plugin, due to changes at imdb.
+
 === 2014.1.24 1.2.66 ===
 
 The search paths for config files have been altered. !FlexGet will now search the following directories, in this order: current directory, then the virtualenv directory, (only if !FlexGet is installed in a virtualenv,) then `~/.flexget`, and finally `~/flexget` (on Windows), and `~/.config/flexget` (on linux). You may need to alter how you use the `-c` flag when running !FlexGet to accommodate for this change.
