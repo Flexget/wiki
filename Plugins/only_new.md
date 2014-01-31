@@ -14,4 +14,4 @@ This should not be needed on most tasks, and may cause problems in instances whe
 only_new: yes
 }}}
 
-You can allow old entries to be processed again by using the {{{--forget-rejected}}} option. In addition, rejections will be automatically forgotten if the configuration for the task has changed since the last run.
+You can allow old entries to be processed again by running the `flexget database reset-plugin remember_rejected` command. In addition, rejections will be automatically forgotten if the configuration for the task has changed since the last run.
