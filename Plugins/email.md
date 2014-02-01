@@ -40,7 +40,7 @@ Here are the templates that come built in.
 
 === Custom Templates ===
 
-You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [http://flexget.com/browser/trunk/flexget/templates/email/default.template default template] for an example.
+You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the {{{template}}} option. See the [https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template default template] for an example.
 
 === Examples ===
 '''Config basic example'''
