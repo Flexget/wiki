@@ -92,7 +92,6 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
-||[wiki:Plugins/reject_failed reject_failed]||Reject entries that have failed too many times in the past. [wiki:Builtin]||
 ||[wiki:Plugins/require_field require_field]||Reject entries that do not have the specified fields.||
 ||[wiki:Plugins/rottentomatoes rottentomatoes]||Accept movie entries based on Rotten Tomatoes details.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
@@ -179,7 +178,9 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloadin torrents from rutracker.||
+||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
+||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried. [wiki:Builtin]||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
@@ -188,8 +189,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
-||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried.||
-||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
 
 == Metainfo ==
 
