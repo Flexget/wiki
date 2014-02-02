@@ -70,6 +70,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
+||[wiki:Plugins/series/assume_special assume_special]||Assume any entry with no series numbering detected is a special and treat it accordingly.||
 
 
 == Notes ==
