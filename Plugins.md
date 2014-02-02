@@ -189,6 +189,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
 ||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried.||
+||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
 
 == Metainfo ==
 
