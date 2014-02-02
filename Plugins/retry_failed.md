@@ -11,4 +11,4 @@ retry_failed:
   max_retries: 5 # Number of times the entry will be retried
 }}}
 
-Command line argument `--clear` can be used to clear list and retry items currently in the feed.
+Command line argument `failed` can be used to list and clear items currently in the feed.
