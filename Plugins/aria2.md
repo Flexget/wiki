@@ -1,7 +1,7 @@
 = aria2 =
 Passes URIs in entries to the [http://aria2.sourceforge.net aria2 downloader].
 
-```Requirements:``` aria2 running and in daemon mode. Daemon mode was introduced over 3 years ago, so any recent version should work.
+```Requirements:``` aria2 running and in daemon mode, with XML-RPC enabled in the configuration file. Daemon mode was introduced over 3 years ago, so any recent version should work.
 == Configuration ==
 Available configuration parameters:
 
