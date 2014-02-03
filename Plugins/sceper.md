@@ -1,11 +1,9 @@
-= !SceneReleases =
+= !Sceper =
 
-Uses sceper.eu category url as input.
+Uses sceper.ws category url as input.
 
 Example:
 
 {{{
-scenereleases: http://sceper.eu/category/tv-shows/tv-shows-x264?themedemo=SceneRLSv3
+sceper: http://sceper.ws/category/tv-shows/tv-shows-x264
 }}}
-
-Note that you have to append {{{?themedemo=SceneRLSv3}}} to category URL in your config.
