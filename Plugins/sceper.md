@@ -1,4 +1,4 @@
-= !Sceper =
+= Sceper =
 
 Uses sceper.ws category url as input.
 
