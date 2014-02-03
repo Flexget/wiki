@@ -71,6 +71,7 @@ To have flexget daemon automatically start on system boot
 
 sudo vim /etc/init/flexget.conf
 {{{
+#!/bin/bash
 # Flexget daemon autostart                                                                                                                                                      
 
 description "Flexget daemon"
