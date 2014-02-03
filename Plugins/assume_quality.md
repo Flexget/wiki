@@ -26,3 +26,12 @@ assume_quality:
 ||720p and hdtv         ||10bit    ||
 ||Neither ac3 nor mp3   ||bluray   ||
 ||any                   ||720p h264||
+
+=== Usage ===
+
+{{{#!yaml
+exampletask:
+  rss: http://idontbelieve.in/qualitiesinfilenames.rss
+  assume_quality: 720p
+  template: tv
+}}}
