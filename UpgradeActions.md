@@ -6,6 +6,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.2.3 1.2.76 ===
+
+The `scenereleases` plugin was renamed [wiki:Plugins/sceper sceper] due to the new site name. If you are using this plugin, your config file will need to be updated.
+
 === 2014.1.28 1.2.70 ===
 
 [wiki:Plugins/deluge deluge] plugin `user` and `pass` options have been renamed `username` and `password` for consistency with other plugins. You should update your config.
