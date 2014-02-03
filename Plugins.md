@@ -59,7 +59,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
-||[wiki:Plugins/scenereleases scenereleases]||Parse [http://scenereleases.info].||
+||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
