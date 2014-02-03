@@ -124,6 +124,7 @@ These plugins configure other plugins from external sources like 3rd party sites
 Execute operation(s) on accepted entries.
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/aria2 aria2]||Pass URIs to be downloaded to a local computer to the aria2 downloader.||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
