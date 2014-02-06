@@ -6,6 +6,12 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.2.6 1.2.80 ===
+
+The `trakt_acquired` plugin was replaced by the [wiki:Plugins/trakt_add trakt_add] plugin, which is now capable of adding to any list on trakt. Specify `list: library` in the `trakt_add` options to achieve old `trakt_acquired` behavior.
+
+The `type` option was taken away from the [wiki:Plugins/trakt_remove trakt_remove] plugin, the type will now be auto-detected based on the type of entries in the task.
+
 === 2014.2.3 1.2.76 ===
 
 The `scenereleases` plugin was renamed [wiki:Plugins/sceper sceper] due to the new site name. If you are using this plugin, your config file will need to be updated.
