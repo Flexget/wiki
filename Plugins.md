@@ -106,13 +106,13 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
 ||[wiki:Plugins/myepisodes myepisodes]||'''{{{NEW}}}''' Mark accepted episodes as acquired on !MyEpisodes.||
+||[wiki:Plugins/pogcal_acquired pogcal_acquired]||'''{{{NEW}}}''' Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
 ||[wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]||Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
-||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for imdb fields on-demand.||
-||[wiki:Plugins/trakt_acquired trakt_acquired]||'''{{{NEW}}}''' Mark accepted episodes/movies as acquired on trakt.tv.||
-||[wiki:Plugins/trakt_remove trakt_remove]||'''{{{NEW}}}''' Remove accepted movies from your trakt.tv list.||
-||[wiki:Plugins/pogcal_acquired pogcal_acquired]||'''{{{NEW}}}''' Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
+||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
+||[wiki:Plugins/trakt_add trakt_add]||'''{{{NEW}}}''' Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable series information from trakt.tv||
+||[wiki:Plugins/trakt_remove trakt_remove]||'''{{{NEW}}}''' Remove accepted episodes/movies from a list on trakt.tv.||
 
 These plugins configure other plugins from external sources like 3rd party sites.
 
