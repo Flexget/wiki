@@ -1,6 +1,6 @@
 {{{
 #!html
-<h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> for discussion and support</font></h2>
+<h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
 }}}
 
 '''{{{ATTENTION:}}}''' 1.2 release contains several changes, see [wiki:UpgradeActions]!
@@ -111,4 +111,5 @@ We're seeking new developers for [wiki:Web-UI web interface]. Python, Javascript
  * '''[wiki:Cookbook The Cookbook]'''
  * '''[wiki:Developers Developers]'''
  * '''[wiki:Plugins Plugins]'''
+ * '''[http://discuss.flexget.com Forum]'''
  * '''[wiki:ChangeLog Change Log]'''
