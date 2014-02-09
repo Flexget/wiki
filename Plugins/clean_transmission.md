@@ -1,5 +1,5 @@
 = Clean Transmission =
-This plugin cleans the Transmission's queue of finished torrents (=the torrents that have completed the download process and are in stopped or seeding state).
+This plugin cleans the Transmission's queue of finished torrents (=the torrents that have completed the download process and are in '''stopped, finished or seeding''' state).
 
 This plugin requires the transmissionrpc library. To install it, run:
 
