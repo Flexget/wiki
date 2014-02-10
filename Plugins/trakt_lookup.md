@@ -23,7 +23,7 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_series_air_time||Time the series ran||
 ||trakt_series_content_rating||Content rating ex: TV-14||
 ||trakt_series_genres||Series genres||
-||trakt_series_netowrk||Series network||
+||trakt_series_network||Series network||
 ||trakt_series_banner_url||Series banner||
 ||trakt_series_fanart_url||Series Fanart||
 ||trakt_series_poster_url||Series poster||
