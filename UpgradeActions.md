@@ -6,6 +6,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.2.15 1.2.91 ===
+
+Series identifier format `YYYYxMM.DD` is now properly identified as a date. If you are tracking series with this style identifier, you'll probably need to explicitly specify `identified_by: date` mode to have !FlexGet continue tracking. (it was formerly [wiki:Plugins/series/identified_by identified_by] id)
+
 === 2014.2.6 1.2.80 ===
 
 The `trakt_acquired` plugin was replaced by the [wiki:Plugins/trakt_add trakt_add] plugin, which is now capable of adding to any list on trakt. Specify `list: library` in the `trakt_add` options to achieve old `trakt_acquired` behavior.
