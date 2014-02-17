@@ -61,3 +61,5 @@ To start the daemon at system boot you would use:
 {{{
 @reboot /usr/local/bin/flexget daemon start -d
 }}}
+
+There are also some other methods available, listed [wiki:Daemon/Startup here].
