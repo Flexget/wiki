@@ -2,10 +2,17 @@
 
 Keep track of downloaded movies and force re-download if proper version from same quality appears.
 
-'''Example:'''
+Configuration:
+
+
+{{{
+proper_movies: n <minutes|hours|days|weeks>
+}}}
+
+or permanently:
 
 {{{
 proper_movies: yes
 }}}
 
-''TODO: write more documentation''
+Value no will disable plugin.
