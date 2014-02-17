@@ -13,7 +13,7 @@ templates:
     seen_movies: strict
     download: ~/torrents/movies/
 
-feeds:
+tasks:
 
   feed-1080p:
     template: movies
