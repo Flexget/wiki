@@ -24,6 +24,7 @@
 * [wiki:Cookbook/Series/SeriesTransmissionshowRSS Transmission with showRSS: manage your series from showRSS website without messing with the configuration file]
 * [wiki:Cookbook/Series/PlexToPlexDownload Download episodes from a remote PMS by using local PMS as input]
 * [wiki:Cookbook/Series/DiscoverSeriesWithNewznab Download nzb for series episodes from a newznab website]
+* [wiki:Cookbook/Series/RemoveByExtension Remove and forget episodes by file extension]
  
 == Resources ==
 
