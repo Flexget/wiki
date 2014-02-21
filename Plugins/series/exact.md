@@ -1,6 +1,6 @@
 == Exact mode ==
 
-Enable strict name matching. Useful for series which name start similarly.
+Enable strict name matching. Useful for differentiating between series whose names start similarly.
 
 '''Example'''
 
