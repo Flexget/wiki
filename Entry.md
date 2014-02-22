@@ -47,6 +47,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
 ||location||[wiki:Plugins/listdir listdir]/[wiki:Plugins/find find]||The local filename of the entry.||
 ||timestamp||[wiki:Plugins/find find]||The local file update time of the entry.||
+||subtitles||[wiki:Plugins/check_subtitles check_subtitles]||A list of languages about subtitles founds on disk (local files only)||
 ||plex_server||[wiki:Plugins/plex plex]||If set, PMS hostname. Otherwise PMS IP.||
 ||plex_server_ip||[wiki:Plugins/plex plex]||PMS IP.||
 ||plex_port||[wiki:Plugins/plex plex]||PMS port.||
@@ -115,5 +116,6 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||trakt_episode||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode Number||
 ||trakt_ep_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode id string 'S01E01'||
 ||trakt_ep_tvdb_id||[wiki:Plugins/trakt_lookup trakt_lookup]||TVDB ID of episode||
+||trakt_watched||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||Episode marked seen (true/false)||
 
 ^* = and other plugins that utilize this plugin^
