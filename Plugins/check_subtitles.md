@@ -1,6 +1,6 @@
 = Check subtitles =
 
-Set the '''subtitles''' field on all [wiki:Entry entries] about local files found having subtitles. The field is a list of available languages.
+Set the '''subtitles''' field on all [wiki:Entry entries] about local files having subtitles. The field is a list of available languages.
 
 === Example ===
 
