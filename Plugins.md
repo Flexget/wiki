@@ -63,6 +63,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
+||[wiki:Plugins/trakt_emit trakt_emit]||'''{{{NEW}}}''' Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
@@ -113,6 +114,7 @@ If you plan to use multiple filters per task, you should look at [wiki:Filtering
 ||[wiki:Plugins/trakt_add trakt_add]||'''{{{NEW}}}''' Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable series information from trakt.tv||
 ||[wiki:Plugins/trakt_remove trakt_remove]||'''{{{NEW}}}''' Remove accepted episodes/movies from a list on trakt.tv.||
+||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||'''{{{NEW}}}''' Enable episodes watched status from trakt.tv user activity||
 
 These plugins configure other plugins from external sources like 3rd party sites.
 
@@ -138,6 +140,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
+||[wiki:Plugins/set_series_begin set_series_begin]||'''{{{NEW}}}''' Set the first episode to download for series.||
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
