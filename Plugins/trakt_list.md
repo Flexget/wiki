@@ -9,6 +9,7 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/que
  * Like with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
  * Adding this plugin to your movie tasks or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
  * If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration. 
+ * IMPORTANT: [http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after- Trakt removes shows from watchlist if you watch them, so DO NOT use watchlist as your primary series source, use a custom list instead!]
 
 == Plugin Settings ==
 
