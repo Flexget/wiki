@@ -20,7 +20,7 @@ Currently the following settings are supported:
 
 === Example: set series begin ===
 
-This example shows how the trakt_emit plugin could be used with the [wiki:Plugins/set_series_begin set_series_begin] plugin in order to set teh first episode to download for the series in the my_tv_show list on [http://trakt.tv trakt.tv].
+This example shows how the trakt_emit plugin could be used with the [wiki:Plugins/set_series_begin set_series_begin] plugin in order to set the first episode to download for the series in the my_tv_show list on [http://trakt.tv trakt.tv].
 
 {{{
   set_begin:
