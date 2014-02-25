@@ -35,27 +35,6 @@ This example shows how the trakt_emit plugin could be used with the [wiki:Plugin
 }}}
 
 [[BR]]
-=== Example: download next episode ===
-
-This example shows how the trakt_emit plugin could be used with the [wiki:Plugins/discover discover] plugin in order to download the next episodes to watch.
-
-{{{
-  get_next:
-    discover:
-      what:
-        - trakt_emit:
-            username: your_username
-            password: your_password
-            api_key: a098ae0eae09ae67ea
-      from:
-        - torrentz: good
-      interval: 2 hours
-    quality: 720p+
-    accept_all: yes
-    transmission: yes
-}}}
-
-[[BR]]
 '''Notes:'''
 
 [http://trakt.tv trakt.tv] will not emit any info for series the user has never marked seen or collected, even if the '''list''' option is used and the actual custom list contains them. However, when this situation occurs, the plugin will emit a default S01E01 episode id, but only with the '''list''' option and '''position'''='''next'''.
