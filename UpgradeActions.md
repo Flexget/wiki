@@ -86,6 +86,7 @@ If you are getting either of the following errors:
 {{{
 ImportError: cannot import name register_plugin
 ImportError: cannot import name register_config_key
+ImportError: cannot import name register_parser_option
 }}}
 It means there is an un-upgraded plugin somewhere. If you have any custom plugins, you will need to upgrade them to the new plugin and argument registration syntax using events. If you do not have any custom plugins, this may be because pip has left behind files that should have been deleted. If you delete the `flexget` folder from your `site-packages` (or `dist-packages`) folder, and re-install flexget it should fix the issue.
 
