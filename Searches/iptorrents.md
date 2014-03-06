@@ -14,9 +14,7 @@ If you would like to define a custom category, you can use the following option:
  Can be one of the following: \\
       all, Movie-3D, Movie-480p,Movie-BD-R, Movie-BD-Rip, Movie-DVD-R,
       Movie-HD-Bluray, Movie-Kids, Movie-MP4,
-      Movie-Non-English, Movie-Packs, Movie-XviD,
-
-      TV-all, TV-Sports, TV-480p, TV-MP4, TV-Non-English, TV-Packs, TV-Packs-Non-English, TV-SD-x264, TV-x264,	TV-XVID \\\\
+      Movie-Non-English, Movie-Packs, Movie-XviD,TV-all, TV-Sports, TV-480p, TV-MP4, TV-Non-English, TV-Packs, TV-Packs-Non-English, TV-SD-x264, TV-x264,	TV-XVID \\\\
  You can also specify the category number directly from iptorrents if it is not listed above. \\
  
 Example:
