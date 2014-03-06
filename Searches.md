@@ -8,6 +8,7 @@
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Searches/btn btn]||Searches private torrent site BTN||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
+||[wiki:Searches/iptorrents iptorrents]||Generates entries from [http://iptorrents.com iptorrents.com]||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
 ||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
