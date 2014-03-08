@@ -24,3 +24,11 @@ If you would like to start emitting every show automatically without setting the
 emit_series:
   from_start: yes
 }}}
+
+Additionally, if you want flexget to attempt to retrieve any episodes you're missing from any season, you can configure emit_series like this:
+{{{
+emit_series:
+  backfill: yes
+}}}
+
+Note that with this setting, you must also set the allow_backfill option on each series you want to backfill in the [wiki:Plugins/series series] plugin
