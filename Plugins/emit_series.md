@@ -31,4 +31,4 @@ emit_series:
   backfill: yes
 }}}
 
-Note that with this setting, you must also set the allow_backfill option on each series you want to backfill in the [wiki:Plugins/series series] plugin
+Note that with this setting, you must also set the allow_backfill option on each series you want to allow_backfill in the [wiki:Plugins/series series] plugin
