@@ -67,6 +67,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/special_ids special_ids]||Defines other IDs which will cause entries to be flagged as specials.||
 ||[wiki:Plugins/series/prefer_specials prefer_specials]||Flag entries matching both special and a normal ID type as specials.||
 ||[wiki:Plugins/series/begin begin]||Manually specify first episode to start series on.||
+||[wiki:Plugins/series/allow_backfill allow_backfill]||Allow releases from any season for this series.||
 ||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
