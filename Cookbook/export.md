@@ -25,15 +25,11 @@ Go to the old directory to export the data...
 {{{
 sqlite3 db-config.sqlite
 
-sqlite> .mode insert seen_entry
-sqlite> .out seen.sql
-sqlite> select title,reason, feed, added, local from seen_entry ;
+sqlite> .mode csv
+sqlite> .out seen.csv
+sqlite> select title from seen_entry ;
 sqlite> .exit
-}}}
 
-Go to the new directory to import the data...
-
-{{{
-sqlite3 db-config.sqlite < ../.flexget_back/seen.sql
-
+awk -F "," '{ print "flexget seen add "$1 }' seen.csv >> insert_seen.sh
+bash insert_seen.sh
 }}}
