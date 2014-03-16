@@ -2,7 +2,7 @@ Because upgrade 1.x > 2.x broke some functions, I must reset all the config dire
 
 So i have backup my config directory.
 
-==== first export series TV have show ====
+==== The Series plugin ====
 
 Go to the old directory to export the data...
 
@@ -33,3 +33,5 @@ sqlite> .exit
 awk -F "," '{ print "flexget seen add "$1 }' seen.csv >> insert_seen.sh
 bash insert_seen.sh
 }}}
+
+kiss sor4.
