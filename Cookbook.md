@@ -30,4 +30,4 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/Users Complete user configurations]::
 
 == Database managment ==
- [wiki:Cookbook/export import senarios]::
+ [wiki:Cookbook/export Export and re Import TvShow and Seen Data]::
