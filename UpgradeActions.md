@@ -6,6 +6,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.3.20 1.2.117 ===
+
+[wiki:Plugins/series series] plugin 'episode advancement' has been renamed 'episode tracking'. The CLI option `--disable-advancement` has been renamed `--disable-tracking` to match. The `tracking` option has been added to series plugin, setting `tracking: no` for a series will have the same effect as the old `--disable-advancement` option, but can be applied on a per series basis. The `allow_backfill` option has also been removed, the behavior can be kept by using the tracking option in backfill mode (`tracking: backfill. )
+
 === 2014.2.15 1.2.91 ===
 
 Series identifier format `YYYYxMM.DD` is now properly identified as a date. If you are tracking series with this style identifier, you'll probably need to explicitly specify `identified_by: date` mode to have !FlexGet continue tracking. (it was formerly [wiki:Plugins/series/identified_by identified_by] id)
