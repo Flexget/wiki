@@ -8,7 +8,7 @@ This page contains information about configuration file format changes, as well 
 
 === 2014.3.20 1.2.117 ===
 
-[wiki:Plugins/series series] plugin 'episode advancement' has been renamed 'episode tracking'. The CLI option `--disable-advancement` has been renamed `--disable-tracking` to match. The `tracking` option has been added to series plugin, setting `tracking: no` for a series will have the same effect as the old `--disable-advancement` option, but can be applied on a per series basis. The `allow_backfill` option has also been removed, the behavior can be kept by using the tracking option in backfill mode (`tracking: backfill. )
+[wiki:Plugins/series series] plugin 'episode advancement' has been renamed 'episode tracking'. The CLI option `--disable-advancement` has been renamed `--disable-tracking` to match. The `tracking` option has been added to series plugin, setting `tracking: no` for a series will have the same effect as the old `--disable-advancement` option, but can be applied on a per series basis. The `allow_backfill` option has also been removed, the behavior can be kept by using the tracking option in backfill mode (`tracking: backfill`. )
 
 === 2014.2.15 1.2.91 ===
 
