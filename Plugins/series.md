@@ -4,10 +4,10 @@ Intelligent filter for TV-series.
 
 == Features ==
 
- * Episode tracking, no duplicate downloads
+ * Episode history aware, no duplicate downloads
  * Plenty of [wiki:Plugins/series/quality quality] options
  * [wiki:Plugins/series/timeframe Timeframe], get best quality in given timeframe
- * Episode [wiki:Plugins/series/advancement advancement] (for season, episode).
+ * Episode [wiki:Plugins/series/tracking tracking] (for season, episode).
  * [wiki:Plugins/series/propers Proper & Repack] aware
  * Specials aware (grabs episodes with the series title and the word 'special')
  * Tries to ignore season packs, you can use [wiki:Plugins/content_size content_size] for extra insurance against them.
@@ -67,7 +67,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 ||[wiki:Plugins/series/special_ids special_ids]||Defines other IDs which will cause entries to be flagged as specials.||
 ||[wiki:Plugins/series/prefer_specials prefer_specials]||Flag entries matching both special and a normal ID type as specials.||
 ||[wiki:Plugins/series/begin begin]||Manually specify first episode to start series on.||
-||[wiki:Plugins/series/allow_backfill allow_backfill]||Allow releases from any season for this series.||
+||[wiki:Plugins/series/tracking tracking]||Turn latest episode tracking off, or put into backfill mode.||
 ||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
@@ -113,12 +113,12 @@ Sets the first episode of a show that the series plugin should look for. `flexge
 
 There are also options to the `flexget execute` command which affect the series plugin:
 
-=== --disable-advancement ===
+=== --disable-tracking ===
 
-If episode advancement is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `--inject` and `--learn`. Example:
+If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `--inject` and `--learn`. Example:
 
 {{{
-flexget execute --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-advancement --tasks NAME
+flexget execute --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-tracking --tasks NAME
 }}}
 
 === --stop-waiting ===
