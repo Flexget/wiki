@@ -154,7 +154,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/notify_osd notify_osd]||Send notifications to notify-osd.(linux only. Ubuntu tested)||
 ||[wiki:Plugins/notify_xmpp notify_xmpp]||'''{{{NEW}}}''' Send notifications via XMPP.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
-
+||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android).||
 
 == Modify / Other ==
 
