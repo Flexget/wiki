@@ -65,7 +65,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_emit trakt_emit]||'''{{{NEW}}}''' Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
 ||[wiki:Plugins/trakt_list trakt_list]||'''{{{NEW}}}''' Create entries from one of your trakt.tv lists.||
-||[wiki:Plugins/twitterfeed]||'''{{{NEW}}}''' Create entries from a twitter account.||
+||[wiki:Plugins/twitterfeed twitterfeed]||'''{{{NEW}}}''' Create entries from a twitter account.||
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
 
