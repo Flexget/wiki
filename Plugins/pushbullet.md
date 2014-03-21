@@ -2,7 +2,10 @@
 == Overview ==
 This plugin provides the ability to send flexget notifications via the Android notification system called [https://www.pushbullet.com/ Pushbullet].
 
-> Pushbullet is a platform for sending and receiving push notifications.  On the server end, it provides an HTTP API for queueing messages to deliver to clients. On the client end, the Android clients receive those push notifications, show them to the user, and store them for offline viewing.  Due to the design of the systems, it does not store messages on the servers once they have been reliably received by the device client.
+> Pushbullet shows you all of your phone's notifications right on your computer so you never miss a notification again!
+> Pushbullet also lets you send push notifications to yourself and to your friends!
+> Why send push notifications with Pushbullet? Because it's the easiest and fastest way to send almost anything to your phone or to your friends.
+> What can you push with Pushbullet? Send links, pictures, files, lists, notes, and more right into your phone's notification tray, to your computer, or to a friend, really fast.
 
 == Configuration ==
 {{{
