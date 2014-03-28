@@ -19,6 +19,7 @@ clean_transmission:
   password: mypassword
   finished_for: 2 hours
   min_ratio: 1
+  disable_builtins: [details]
 }}}
 
 ||'''Name'''||'''Info'''||'''Description'''||
@@ -33,4 +34,5 @@ clean_transmission:
 
 '''Note:'''
 
-If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
+- If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
+- `disabled_builtins: [details] this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
