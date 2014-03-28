@@ -49,15 +49,13 @@ pyload:
   enabled: yes
 }}}
 
-
-
+[[br]]
 === API Access ===
 
 The '''api''' parameter should be the address of the webinterface followed by "/api", in case the webinterface runs locally on port 8000 the default value will suffice.
 Don't forget to set the correct '''username''' and '''password'''.
 
-
-
+[[br]]
 === How to Add Downloads ===
 
 You can define the naming format for the packages to be added with every entry by specifying the '''package''' parameter accordingly. It is [http://flexget.com/wiki/Jinja Jinja] enabled and, therefore, allows for a dynamic formatting by applying the [http://flexget.com/wiki/Entry entry]'s field values.
@@ -71,12 +69,12 @@ pyload:
 
 If no package formatting is defined, Flexget uses the name of the entry.
 
+[[br]]
 This is not yet possible for the definition of the '''folder''' parameter, which can be used to define a certain download folder. When no folder is supplied pyload will choose the folder name (Usually the package name).
 
 The '''queue''' parameter specifies whether new packages should be queued immediately or added to the collection instead.
 
-
-
+[[br]]
 === Hosters and URL Parsing  ===
 
 By default this plugin will accept all hoster, if you want to filter prefered ones lookup the names at pyloads [http://pyload.org/hoster plugin overview] first.
