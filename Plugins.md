@@ -68,7 +68,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/twitterfeed twitterfeed]||'''{{{NEW}}}''' Create entries from a twitter account.||
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
-||[wiki:Plugins/whatcd whatcd]||'''{{{NEW}}}''' Produce entries for content on what.cd||
+||[wiki:Plugins/whatcd whatcd]||'''{{{NEW}}}''' Produce entries for content on [https://what.cd]||
 
 == Filters ==
 
