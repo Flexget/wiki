@@ -20,7 +20,7 @@ If you don't have required version already available, install it from your distr
 With Debian based distributions you can simply run with root privileges:
 
 {{{
-sudo apt-get install python2.6
+sudo apt-get install python2.7
 }}}
 
 With Arch Linux based distributions you can simply run with root privileges:
