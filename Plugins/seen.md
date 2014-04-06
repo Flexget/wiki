@@ -14,32 +14,32 @@ seen: local
 
 Plugin has few command line options starting from bleeding edge / 1.0
 
-=== --forget ===
+=== forget ===
 
-Option {{{--forget <task>}}} can be used to forget everything seen from a specific task. (#301)
+Option {{{seen forget <task>}}} can be used to forget everything seen from a specific task. (#301)
 
-Option {{{--forget <value>}}} which can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again.
+Option {{{seen forget <value>}}} which can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again.
 
-=== --seen ===
+=== add ===
 
-Option {{{--seen <value>}}} which can be used to add any url, title or even imdb url as already seen effectively preventing them to be downloaded.
+Option {{{seen add <value>}}} which can be used to add any url, title or even imdb url as already seen effectively preventing them to be downloaded.
 
 '''Examples:'''
 
 This is especially useful when you have downloaded something manually outside !FlexGet.
 
 {{{
---seen "http://some.site.com/torrents/1235321"
+seen add "http://some.site.com/torrents/1235321"
 }}}
 
 
 With tasks using plugin [wiki:Plugins/seen_movies seen_movies] you can also use imdb id to mark any movie as already seen!
 
 {{{
---seen tt0119698
+seen add tt0119698
 }}}
 
 '''Protip:''' In case you wish to forget manually seen stuff you can use {{{--forget "--seen"}}}
 
 === --learn ===
-The option {{{--learn}}} (optionally combined with {{{--task}}}) can be used to mark all entries that would be accepted as seen.
+The `execute` option {{{--learn}}} (optionally combined with {{{--tasks}}}) can be used to mark all entries that would be accepted as seen.
