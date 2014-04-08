@@ -23,4 +23,4 @@ DEVICE_IDEN can by found by running:
 curl -u <API_KEY>: https://api.pushbullet.com/api/devices
 }}}
 
-DEVICE_IDEN can also be a list if you would like to send the same notification to multiple devices. Alternatively if you do not specify any DEVICE_IDENs, the push will be delivered to all the devices associated with your APK_KEY.
+DEVICE_IDEN can also be a list if you would like to send the same notification to multiple devices. Alternatively if you do not specify any DEVICE_IDENs, the push will be delivered to all the devices associated with your API_KEY.
