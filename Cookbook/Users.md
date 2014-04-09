@@ -15,3 +15,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/blsmit5728/flexget_files blsmit5728]
 * [wiki:Cookbook/Users/jordan0321 jordan0321]
 * [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
+* [https://github.com/tarzasai/.flexget tarzasai] (v1.2.125)
