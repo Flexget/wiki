@@ -40,7 +40,7 @@ This could be fixed by removing the [48952]
 {{{
 manipulate:
   - title:
-      extract: \[\d\d\d\d\](.*)
+      extract: \[\d\d\d\d\d\](.*)
 }}}
 
 The (.*) part is what this regexp is extracting (capture group), so everything after those numbers.
