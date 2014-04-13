@@ -271,3 +271,36 @@ service flexget start
 service flexget stop
 service flexget status
 }}}
+
+=== Systemd user unit (Arch Linux, Fedora, etc) ===
+To have flexget by accessible as a systemd user unit.
+See [https://wiki.archlinux.org/index.php/Systemd/User#User_Services here] for more.
+
+sudo vim /usr/lib/systemd/user/flexget.service
+Then an administration could copy it to /etc/systemd/user, and then an end-user could copy to ~/.config/systemd/user.
+{{{
+[Unit]
+Description=FlexGet Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/flexget daemon start
+ExecStop=/usr/bin/flexget daemon stop
+ExecReload=/usr/bin/flexget daemon reload
+
+[Install]
+WantedBy=default.target
+}}}
+
+Read log: 
+{{{ 
+journalctl -u flexget
+}}}
+
+Control daemon:
+
+{{{
+systemctl --user status flexget
+systemctl --user stop flexget
+systemctl --user start flexget
+}}}
