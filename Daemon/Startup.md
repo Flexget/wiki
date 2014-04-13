@@ -294,7 +294,7 @@ WantedBy=default.target
 
 Read log: 
 {{{ 
-journalctl -u flexget
+journalctl --user --user-unit flexget
 }}}
 
 Control daemon:
