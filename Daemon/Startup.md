@@ -273,7 +273,10 @@ service flexget status
 }}}
 
 === Systemd user unit (Arch Linux, Fedora, etc) ===
+From @mkaito, Trac #[http://flexget.com/ticket/2526 2526].
+
 To have flexget by accessible as a systemd user unit.
+
 See [https://wiki.archlinux.org/index.php/Systemd/User#User_Services here] for more.
 
 sudo vim /usr/lib/systemd/user/flexget.service
