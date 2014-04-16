@@ -35,7 +35,7 @@ Also make sure that rpc-whitelist isn't preventing flexget from connecting to lo
 }}}
 
 == Transmission-GTK ==
-If you are running Ubuntu or any modern distribution, chances you have transmission-gtk instead of transmission-daemon are great. In this case: Open transmission-gtk, go to Edit > Preferences, and navigate to the Remote tab. Check "Allow remote access" and set your username and password. If "Only allow these IP addresses" is checked, be sure to have your IP included. Test connection clicking on "Open web client" button. If you can authenticate from the web client, you should have no problems authenticating with your flexget configuration file as follows:
+If you are running Ubuntu, or most any modern distribution, chances are great that you have transmission-gtk instead of transmission-daemon. In this case: Open transmission-gtk, go to Edit > Preferences, and navigate to the Remote tab. Check "Allow remote access" and set your username and password. If "Only allow these IP addresses" is checked, be sure to have your IP included. Test the connection by clicking on "Open web client" button. If you can authenticate from the web client, you should have no problems authenticating with your flexget configuration file as follows:
 {{{
 transmission:
   host: localhost
