@@ -36,4 +36,4 @@ clean_transmission:
 '''Note:'''
 
 - If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
-- `disabled_builtins: [details] this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
+- `disabled_builtins: [details]` this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
