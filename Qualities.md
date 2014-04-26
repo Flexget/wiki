@@ -41,7 +41,6 @@ Qualities are split into four separate categories: resolution, source, codec, an
 - tvrip
 - preair
 - ppvrip
-- pdtv
 - hdrip
 - !r5
 - tc
