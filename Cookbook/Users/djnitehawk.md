@@ -1,6 +1,6 @@
 this is my personal config.yml which does the following:
 
-* download tv shows that are in a custom trakt.tv list of choice.
+* download tv shows that are in a custom trakt.tv list.
 * download movies watchlisted on your imdb a/c.
 * uses transmission as the client to download torrents.
 * uses multiple rss feeds per template
