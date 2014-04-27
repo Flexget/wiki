@@ -1,11 +1,11 @@
 this is my personal config.yml which does the following:
 
 * download tv shows that are in a custom trakt.tv list.
-* download movies watchlisted on your imdb a/c.
+* download movies watchlisted in my imdb a/c.
 * uses transmission as the client to download torrents.
-* uses multiple rss feeds per template
-* sends a push notification with pushbullet when a torrent is added to transmission
-* both tv shows and movies are downloaded in 720p resolution
+* uses multiple rss feeds per template.
+* sends a push notification with pushbullet when a torrent is added to transmission.
+* both tv shows and movies are downloaded in 720p resolution.
 
 replace everything in ALL_CAPS with your relevant information and you should be good to go.
 
