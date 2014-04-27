@@ -16,3 +16,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/jordan0321 jordan0321]
 * [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
 * [https://github.com/tarzasai/.flexget tarzasai] (v1.2.125)
+* [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.126) simple movie & tv downloading config
