@@ -17,4 +17,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
 * [https://github.com/tarzasai/.flexget tarzasai] (v1.2.125)
 * [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.126) simple movie & tv downloading config
-* [http://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt minerva] RSS monitoring plus track.tv movies and tv intergration and pushover notfications
+* [http://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt minerva] RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
