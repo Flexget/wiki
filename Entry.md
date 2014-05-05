@@ -41,6 +41,8 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||imdb_plot_outline||[wiki:Plugins/imdb_lookup imdb_lookup]*||Plot outline||
 ||imdb_actors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (key: imdbid, value: name)||
 ||imdb_directors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (imdbid, name)||
+||movie_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Movie title||
+||movie_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Movie release year||
 ||output||[wiki:Plugins/download download]||Downloaded file||
 ||torrent||modify_torrent||When entry is a torrent this contains [wiki:TorrentObject Torrent class]||
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
