@@ -18,4 +18,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/tarzasai/.flexget tarzasai] (v1.2.125)
 * [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.126) simple movie & tv downloading config
 * [http://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt minerva] RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
-* [http://flexget.com/wiki/Cookbook/Users/jorricks jorricks] Discover and RSS, trakt_list and set_series_beginning with trakt_emit.
+* [http://flexget.com/wiki/Cookbook/Users/jorricks jorricks] (v1.2.125) Discover and RSS, trakt_list and set_series_beginning with trakt_emit.
