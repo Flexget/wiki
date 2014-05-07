@@ -1,8 +1,12 @@
-My config is very easy.
+My config is very basic.
+
 The only thing it consists of is downloading all series in my trakt list in 480p.
+
 I used the site torrentshack for it.
 
+
 This is also a clear example of how to use set_begin.
+
 set_begin is very useful when using the discover plugin to avoid it from downloading episodes you have already seen.
 
 
