@@ -105,3 +105,5 @@ schedules:
     interval:
       hours: 4
 }}}
+
+I will update this page in the future with my home config.
