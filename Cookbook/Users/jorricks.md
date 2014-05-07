@@ -11,7 +11,7 @@ set_begin is very useful when using the discover plugin to avoid it from downloa
 
 
 {{{
-# For flexget V1.2.117
+# For flexget V1.2.125
 # Using trakt to find your series.
 # This is with the discover series plugin and just the rss plugin.
 # Note that I used torrentshack but you can just as well use any other site for it.
