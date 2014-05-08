@@ -37,14 +37,14 @@ templates:
         quality: 480p
       from:
         trakt_list:
-          username: jorricks
-          api_key: c035fd136005a6803c45a69329dd9d89
+          username: xxxx
+          api_key:xxxxx
           custom: Series
           strip_dates: yes
     trakt_emit:
-      username: jorricks
-      password: 1j0rkyporky1
-      api_key: c035fd136005a6803c45a69329dd9d89
+      username: xxx
+      password: xxxxxx
+      api_key: xxxxx
       list: Series
     set_series_begin: yes
 
