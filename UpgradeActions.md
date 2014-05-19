@@ -6,6 +6,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.5.19 1.2.128 ===
+
+IMDb has added a captcha requirement to their login necessitating a change in how [wiki:Plugins/imdb_list imdb_list] plugin works. `user_id` is now a required option in the config, and `username` and `password` options have been removed. This also means that the plugin will only work with public lists now. One more limitation with the way the lists are available is that !FlexGet can only receive the first 250 items from a list.
+
 === 2014.3.20 1.2.117 ===
 
 [wiki:Plugins/series series] plugin 'episode advancement' has been renamed 'episode tracking'. The CLI option `--disable-advancement` has been renamed `--disable-tracking` to match. The `tracking` option has been added to series plugin, setting `tracking: no` for a series will have the same effect as the old `--disable-advancement` option, but can be applied on a per series basis. The `allow_backfill` option has also been removed, the behavior can be kept by using the tracking option in backfill mode (`tracking: backfill`. )
