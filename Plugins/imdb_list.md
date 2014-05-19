@@ -7,6 +7,8 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/que
 '''Notes:''' 
 
  * Like with other APIs used by !FlexGet the IMDb list is cached for 2 hours to avoid hammering.
+ * List must be public.
+ * IMDb will truncate lists with more than 250 items.
 
 '''Example:'''
 
@@ -14,32 +16,9 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/que
 imdb_list:
   user_id: ur9999999
   list: watchlist
-  username: me@somewhere.com
-  password: mypassword
 }}}
 
-Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in. (look in the url). Username and password is now required even for accessing public lists. Any account credentials will work as long as the list is public.
-
-'''Example:'''
-
-If your list is private, you will need to specify your imdb username and password. User_id is then not mandatory as plugin will figure it out for you.
-
-{{{
-imdb_list:
-  list: watchlist
-  username: me@somewhere.com
-  password: mypassword
-}}}
-
-If for some reason it's still not getting your '''private''' list properly, use both ''user_id'' and ''username'' along with your password..
-
-{{{
-imdb_list:
-  list: watchlist
-  user_id: ur123456
-  username: me@somewhere.com
-  password: mypassword
-}}}
+Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in.
 
 '''{{{WARNING:}}}''' If you are using a list other than the watchlist, you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
 
