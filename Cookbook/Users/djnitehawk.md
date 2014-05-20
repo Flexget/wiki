@@ -79,8 +79,7 @@ tasks:
 
   IMPORT-MOVIES:
     imdb_list:
-      username: IMDB_USERNAME
-      password: IMDB_PASSWORD
+      user_id: IMDB_USER_ID
       list: watchlist
     accept_all: yes
     queue_movies:
