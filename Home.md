@@ -25,7 +25,7 @@
   <li>
     <h4>Torrent clients</h4>
     <p>
-       Integrates with <a href="http://deluge-torrent.org/">Deluge</a>, and <a href="http://www.transmissionbt.com/">transmission</a> directly, and other clients like rTorrent and uTorrent via watchdirs.
+       Integrates with <a href="http://deluge-torrent.org/">Deluge</a>, <a href="http://www.transmissionbt.com/">transmission</a>, and uTorrent directly, and other clients like rTorrent via watchdirs.
     </p>
   </li>
   <li>
