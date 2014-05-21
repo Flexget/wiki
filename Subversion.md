@@ -8,7 +8,7 @@
 To checkout use command:
 
 {{{
-svn co http://svn.flexget.com/trunk ~/flexget-dev
+svn co http://svn.flexget.com/ ~/flexget-dev
 }}}
 
 ^You can use whatever you like in place of ~/flexget-dev^
