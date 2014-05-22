@@ -165,7 +165,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/assume_quality assume_quality]||'''{{{NEW}}}''' Make assumptions about the qualities of releases.||
-||[wiki:Plugins/check_subtitles check_subtitles]||Check subtitles presence for local files.||
 ||[wiki:Plugins/clean_transmission clean_transmission]||'''{{{NEW}}}''' Clean Transmission queue.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
@@ -195,7 +194,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
-||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||'''{{{NEW}}}''' Enable episodes watched status from trakt.tv user activity||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
@@ -204,11 +202,13 @@ Execute operation(s) on accepted entries.
 
 These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry].
 
+||[wiki:Plugins/check_subtitles check_subtitles]||Check subtitles presence for local files.||
 ||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
 ||[wiki:Plugins/metainfo_task metainfo_task]||Populates task field for entries.||
 ||[wiki:Plugins/metainfo_series metainfo_series]^1^||Populates series related fields for entries, even without [wiki:Plugins/series series] plugin.||
 ||[wiki:Plugins/metainfo_imdb metainfo_imdb]||Detects imdb urls from description.||
-
+||[wiki:Plugins/trakt_collected_lookup trakt_collected_lookup]||'''{{{NEW}}}''' Enable episodes collected status from trakt.tv user activity||
+||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||'''{{{NEW}}}''' Enable episodes watched status from trakt.tv user activity||
 ^1. Not a builtin, configuration required to enable.^
 
 == Search ==
