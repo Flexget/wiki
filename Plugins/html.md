@@ -19,7 +19,7 @@ html: <url>
 regexp:
   accept:
     - podcast.*\.mp3
-  rest: filter
+  rest: reject
 }}}
 
 This would download all links that have mp3 link with word podcast in them.
