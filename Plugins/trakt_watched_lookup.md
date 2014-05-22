@@ -11,7 +11,7 @@ Set the '''trakt_watched''' flag on all [wiki:Entry entries] about episodes you 
         - D:\Media\Incoming\series
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
-    trakt_watched:
+    trakt_watched_lookup:
       username: your_username
       password: your_password
       api_key: your_api_key
