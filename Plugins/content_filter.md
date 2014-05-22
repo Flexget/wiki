@@ -43,3 +43,12 @@ content_filter:
 }}}
 
 Reject torrents that don't have a matroska container AND a nfo file.
+
+''' Example '''
+
+{{{
+content_filter:
+  require_mainfile: yes
+}}}
+
+Reject multifile torrents that don't have one file at least 90% of total size (single-file torrents are not affected).
