@@ -1,8 +1,8 @@
 = PtN =
-This plugin searches the private bittorent site PtN. Note the 3 config options are cookie values, not your actual login information. You can look these up in your browser, called ptn_uid, ptn_pass, and ptn_hashv.
+This plugin searches the private bittorent site PtN. You'll need to enter your username, password, as well as your login key, which can be found on your profile page.
 {{{
 ptn:
-  uid: xxxx
-  pass: xxxx
-  hashv: xxxx
+  username: xxxx
+  password: xxxx
+  login_key: xxxx
 }}}
