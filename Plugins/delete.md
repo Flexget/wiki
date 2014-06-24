@@ -1,5 +1,7 @@
 = Delete =
 
+''TODO: Improve documentation''
+
 Syntax:
 
 {{{
