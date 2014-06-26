@@ -2,6 +2,12 @@
 
 Make sure your `pip` command uses python 2.6-2.7. Some distributions now use python 3.x as a default and !FlexGet does not work with that. 
 Python 2.6-2.7 pip may be available under `pip2.7` or other means. If you receive traceback that mentions python3.x you're using wrong pip.
+To verify which version pip is using you can use:
+
+{{{
+pip --version
+}}}
+
 
 == Default python version switched ==
 
