@@ -28,4 +28,10 @@ Which is a bit hard to read ..
 
 == Additional details (optional) ==
 
-To get more information about process you can execute !FlexGet with --debug flag, this information may be necessary sometimes to resolve the issue.
+To get more information about process you can execute the problematic task with --debug flag, this information may be necessary sometimes to resolve the issue.
+
+Example:
+
+{{{
+flexget exec --task NAME --debug
+}}}
