@@ -5,8 +5,8 @@ This plugin creates an [wiki:Entry entry] for each torrent that is currently loa
 ||||'''Main options'''||
 ||host||Hostname or IP of Deluge daemon. (default localhost)||
 ||port||Port to connect to Deluge daemon. (default 58846)||
-||user||Deluge username (defaults to automatic local client authentication if not specified)||
-||pass||Deluge password (defaults to automatic local client authentication if not specified)||
+||username||Deluge username (defaults to automatic local client authentication if not specified)||
+||password||Deluge password (defaults to automatic local client authentication if not specified)||
 ||config_path||The path to your Deluge config folder. (must be specified for .torrent files to be available)||
 ||filter||Criteria can be specified to limit which items from Deluge will have entries created.||
 ||||'''Filter options'''||
