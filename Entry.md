@@ -15,7 +15,7 @@ These are mandatory fields
 
 == Known fields ==
 
-Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of them.
+Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of them. It may have other fields as well depending on configuration. Use {{{--dump}}} option to see your task content.
 
 ||'''Name'''||'''Created by'''||'''Description'''||
 ||path||multiple plugins||Path where this entry content should be saved||
