@@ -61,6 +61,8 @@ transmission:
 ||maxdownspeed||Number||||
 ||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
+||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'skip'||
+||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
 
 To use all default values use this config form:
 {{{
