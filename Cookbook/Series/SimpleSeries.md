@@ -9,6 +9,7 @@ tasks:
       - Another Show
     download: /path/to/torrents/
 }}}
+
 = Using deluge plugin =
 This will do the same, but load the torrents into deluge instead of saving them.
 {{{
