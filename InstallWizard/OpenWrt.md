@@ -42,7 +42,7 @@ Run command:
 pip install flexget
 }}}
 
-If you decide to unpack your packages on an external storage (**recommended**), use the following command:
+If you decide to unpack your packages on an external storage (**recommended**), use the following command: (this is needed if you get a 'No space left on device' error)
 
 {{{
 pip install flexget -b /your/path/to/extstorage/tmp
