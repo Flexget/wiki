@@ -1,12 +1,12 @@
 = Jinja2 Templating =
 
-Some options can have dynamically formatted values based on other [wiki:Entry entry fields]. This is done using the powerful [http://jinja.pocoo.org/templates/ jinja2 template] system to create or modify [wiki:Entry entry fields].
+Some options can have dynamically formatted values based on other [wiki:Entry entry fields]. This is done using the powerful [http://jinja.pocoo.org/docs/templates/ jinja2 template] system to create or modify [wiki:Entry entry fields].
 
 '''NOTES:'''
 
 - All the fields from the entry are available in the jinja template context.
 - {{{now}}} is also available, which is a python datetime object representing the current time.
-- You can use [http://jinja.pocoo.org/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
+- You can use [http://jinja.pocoo.org/docs/templates/#builtin-filters jinja filters] to do formatting on fields from the entry.
 - If a referenced field is not available, the target field will be set to an empty string. If you would like to change this, you can use the jinja 'default' filter.
 
 '''Example:'''
