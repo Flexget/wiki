@@ -63,6 +63,7 @@ transmission:
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 ||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'skip'||
 ||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
+||content_filename||Text||This can be used to rename the main file inside the torrent. [wiki:Plugins/transmission#ContentRenaming see here]||
 
 To use all default values use this config form:
 {{{
@@ -120,3 +121,30 @@ transmission-remote -l  | grep 100% | grep Done | awk '{print $1}' | xargs -n 1 
 Note: if your transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
 
 Add this script to your crontab.
+
+=== Content Renaming ===
+
+The transmission plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in transmission. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
+
+{{{
+templates:
+  torrent:
+    transmission:
+      host: localhost
+      port: 9091
+      ratio: 4
+  tv:
+    template: torrent
+    thetvdb_lookup: yes
+    exists_series:
+      - /mnt/storage/Series/{{ tvdb_series_name }}
+    series:
+      - serie 1
+      - serie 2
+      - serie 3
+    set:
+      path: /mnt/storage/Series/{{ tvdb_series_name }}
+      content_filename: "{{ tvdb_series_name }} - {{ tvdb_season }}x{{ tvdb_episode|pad(2) }} - {{ tvdb_ep_name|default('Missing title') }}"
+}}}
+
+This config uses [wiki:Plugins/set#Jinja2Templating jinja2] notation to rename the file using information from the series parser.
