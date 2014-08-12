@@ -10,7 +10,11 @@ You can use tickets also to get help. Create ticket and describe your problem, f
 
 === IRC ===
 
-Join #!FlexGet on freenode.
+Join [http://webchat.freenode.net/?channels=#flexget #FlexGet @ Freenode] for chat.
+
+=== Forum ===
+
+Join the [http://discuss.flexget.com/ Forum] for discussion and support
 
 = Feedback =
 
