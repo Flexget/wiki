@@ -8,7 +8,6 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/que
 
  * Like with other APIs used by !FlexGet the IMDb list is cached for 2 hours to avoid hammering.
  * List must be public.
- * IMDb will truncate lists with more than 250 items.
 
 '''Example:'''
 
@@ -20,6 +19,6 @@ imdb_list:
 
 Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in.
 
-'''{{{WARNING:}}}''' If you are using a list other than the watchlist, you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
+'''{{{WARNING:}}}''' If you are using a list other than the 'watchlist', 'ratings' or 'checkins', you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
 
 '''Note:''' Adding this to your movie tasks or preset will NOT cause movies in imdb's watchlist to be accepted since this is an input, not a filter.
