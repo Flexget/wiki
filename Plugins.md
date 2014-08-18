@@ -191,7 +191,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried. [wiki:Builtin]||
-||[wiki:Plugins/secrets secrets]||Replace specific jinja2 values in config before executing tasks.||
+||[wiki:Plugins/secrets secrets]||'''{{{NEW}}}''' Replace specific jinja2 values in config before executing tasks.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
