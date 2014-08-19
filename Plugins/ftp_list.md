@@ -11,7 +11,7 @@ ftp_list:
     password: <password>
     host: <host to connect>
     port: <port>
-    [use-ssl: <yes/no>]
+    [use-ssl: <no/yes>]
     [encoding: <auto/utf8/ascii>]
   dirs:
     - <directory 1>
