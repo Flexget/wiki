@@ -6,12 +6,13 @@ Generate entries from a remote FTP server
 {{{
 ftp_list:
   config:
-    use-ssl: no
     name: <ftp name>
     username: <username>
     password: <password>
     host: <host to connect>
     port: <port>
+    [use-ssl: no]
+    [encoding: auto]
   dirs:
     - <directory 1>
     - <directory 2>
