@@ -64,6 +64,9 @@ transmission:
 ||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'skip'||
 ||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
 ||content_filename||Text||This can be used to rename the main file inside the torrent. [wiki:Plugins/transmission#ContentRenaming see here]||
+||rename_like_files||[Yes|No]||If enabled, file patterns matching the main file will be renamed according to 'content_filename'||
+||include_files||Pattern [Single|List]||Will include file patterns if they have been excluded by 'main_file_only'. For patterns [wiki:content_filter see here]||
+||skip_files||Pattern [Single|List]||Will 'skip' file patterns if main_file_only is not enabled OR the main_file_only requirement isn't met in the torrent. For patterns [wiki:content_filter see here]||
 
 To use all default values use this config form:
 {{{
@@ -144,7 +147,59 @@ templates:
       - serie 3
     set:
       path: /mnt/storage/Series/{{ tvdb_series_name }}
+      main_file_only: yes
       content_filename: "{{ tvdb_series_name }} - {{ tvdb_season }}x{{ tvdb_episode|pad(2) }} - {{ tvdb_ep_name|default('Missing title') }}"
 }}}
 
 This config uses [wiki:Plugins/set#Jinja2Templating jinja2] notation to rename the file using information from the series parser.
+
+=== Selective File Downloading ===
+
+The Transmission Plugin also supports selective file downloading using the settings below.
+
+**NOTE:** Due to the way BitTorrent functions, selecting some files to skip_files may not prevent them from downloading. Torrents are transferred in full chunks; these chunks may cover one or more files and may overlap into files you do not wish to download. The result is that small files in size are likely to download, in full, regardless of your settings. This is not a bug, the developers of Transmission may or may not collect this "junk" data in the future thereby changing this result.
+
+**Example:**
+
+{{{
+...
+  set:
+    path: /mnt/storage/Series/{{ tvdb_series_name }}
+    main_file_only: yes
+    content_filename: "{{ tvdb_series_name }} - {{ tvdb_season }}x{{ tvdb_episode|pad(2) }} - {{ tvdb_ep_name|default('Missing title') }}"
+    rename_like_files: yes
+    skip_files:
+      - '*.nfo'
+      - '*.sfv'
+      - '*[sS]ample*'
+      - '*.txt'
+    include_files:
+      - '*.txt'
+    include_subs: yes
+...
+}}}
+
+The result of the above settings depend if the main file is found.
+
+If the main file is NOT found it will exclude any file matching the patterns listed in exclude_files.
+
+If a main file IS found any *.txt file will be downloaded.
+Because include_subs is set any *.srt, *.sub, *.idx, *.ass, *.ssa will also be downloaded.
+
+Setting include_subs to yes is the same as:
+{{{
+...
+  set:
+    include_files:
+      - '*.srt'
+      - '*.sub'
+      - '*.idx'
+      - '*.ass'
+      - '*.ssa'
+...
+}}}
+
+
+**NOTE:** include_files and skip_files will NEVER apply to the same torrent, finding the main file will always use the include_files config and the skip_files config will be used otherwise.
+
+It is not necessary to enable main_file_only if you only wish to use the skip_files config.
