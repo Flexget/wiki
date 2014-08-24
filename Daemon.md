@@ -60,9 +60,9 @@ schedules:
       at_time: 1:00 pm
 }}}
 
-If you would like to run the daemon without any builtin schedules, (perhaps you are still sending executions from cron, or some other source,) you can configure it with an empty list, like so:
+If you would like to run the daemon without any builtin schedules, (perhaps you are still sending executions from cron, or some other source,) you can turn off the scheduler like so:
 {{{
-schedules: []
+schedules: no
 }}}
 
 '''Please Note:''' You may see a warning like the following when using schedules, for now you can safely ignore it.
