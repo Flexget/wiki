@@ -8,6 +8,8 @@ To pull the webui dependencies, use `pip install flexget[webui]` when installing
 
 '''More motivated python capable web-ui developers are needed! '''
 
+Some mockup plans [https://flexget.mybalsamiq.com/projects]
+
 Join our irc-channel to participate in the project! The technology stack behind the webui is flask, jinja2 and cherrypy as server.
 Here are a couple of drafts for things we would like to work on in the webui:
 - Drafts/ConfigEditor A fully featured editor for config files.
