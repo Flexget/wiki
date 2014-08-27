@@ -8,7 +8,7 @@ To verify which version pip is using you can use:
 pip --version
 }}}
 
-If this crashes you will need to reinstall pip. If possible, remove it first from operating system package manager. Then verify that `python -V` reports 2.6-2.7. Continue with [https://pip.pypa.io/en/latest/installing.html pip install].
+If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run "which pip" and delete the script. Open fresh shell and verify that `python -V` reports 2.6-2.7. Continue with [https://pip.pypa.io/en/latest/installing.html pip install].
 
 
 == Default python version switched ==
