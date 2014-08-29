@@ -2,6 +2,7 @@
 
 These recipes are not representing the normal use cases. Abandon sanity.
 
+ [wiki:Cookbook/SyncImdbTraktList Sync from an imdb list to a trakt list]::
  [wiki:Cookbook/QueueSubtitles Queue Subtitle Downloads]::
  [wiki:Cookbook/DailyEmail Send a daily email of downloaded files]::
  [wiki:Cookbook/ForceStrictMatching Force Strict Matching]::
