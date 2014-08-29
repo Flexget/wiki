@@ -14,7 +14,7 @@ tasks:
       username: myusername
       password: mypassword
       movies: watchlist
-    disable_builtins: [seen]
+    disable_builtins: [seen]  # If you wish to be able to remove things from the trakt list directly, without them being re-added, remove this line
 
   imdb_to_trakt_remove:  # This task removes anything in your trakt watchlist which is no longer in your imdb watchlist
     trakt_list:
