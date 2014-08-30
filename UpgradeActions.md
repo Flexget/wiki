@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.8.28 1.2.170 ===
+[https://pypi.python.org/pypi/path.py path.py] has been added as a dependency to help dealing with unicode paths on the filesystem in several plugins. If you are running on a git checkout, you'll need to install it to your environment, or run `bootstrap.py` again.
+
 === 2014.5.19 1.2.128 ===
 
 IMDb has added a captcha requirement to their login necessitating a change in how [wiki:Plugins/imdb_list imdb_list] plugin works. `user_id` is now a required option in the config, and `username` and `password` options have been removed. This also means that the plugin will only work with public lists now. One more limitation with the way the lists are available is that !FlexGet can only receive the first 250 items from a list.
