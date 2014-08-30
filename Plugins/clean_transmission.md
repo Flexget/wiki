@@ -19,7 +19,7 @@ clean_transmission:
   password: mypassword
   finished_for: 2 hours
   min_ratio: 1
-  disable_builtins: [details]
+disable_builtins: [details]
 }}}
 
 ||'''Name'''||'''Info'''||'''Description'''||
