@@ -26,6 +26,11 @@ Copy this file to backup file containing the version number you are were last us
 
 If you have short cron interval, comment !FlexGet out from the cron. After you've ran successfully manually, put it back. If you are running the daemon, you should stop the daemon until the upgrade is complete and you verify your config file works with the updated version.
 
+There has been alot of errors arising from setuptools package being out of date and failing an upgrade.
+Please make sure to upgrade setuptools.
+{{{
+pip install --upgrade setuptools
+}}}
 {{{
 pip install --upgrade flexget
 }}}
