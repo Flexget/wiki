@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2014.9.6 1.2.177 ===
+A lot of plugins' validators were updated to our new system, and had other small refactorings. Please make sure everything is working as before and report any config validation or other issues that were working before.
+
 === 2014.8.28 1.2.170 ===
 [https://pypi.python.org/pypi/path.py path.py] has been added as a dependency to help dealing with unicode paths on the filesystem in several plugins. If you are running on a git checkout, you'll need to install it to your environment, or run `bootstrap.py` again.
 
