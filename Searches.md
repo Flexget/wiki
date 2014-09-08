@@ -17,6 +17,7 @@
 ||[wiki:Searches/ptn ptn]||Searches private torrent site PtN||
 ||[wiki:Searches/publichd publichd]||Generates entries from [http://publichd.se/ PublicHD]||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
+||[wiki:Searches/t411 t411]||Generates entries from [http://www.t411.me/ t411.me]||
 ||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 ||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
