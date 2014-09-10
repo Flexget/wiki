@@ -4,6 +4,7 @@
 
 - All data should be transferred as JSON.
 - Stick to REST principles as long as it makes sense.
+- Should be some easy way for plugins to add their own api endpoints.
 
 = Endpoints =
 
