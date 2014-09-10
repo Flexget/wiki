@@ -18,8 +18,25 @@ Available options:
     /{{action}}?{{options}}
 }}}
 
-== Core Endpoints ==
+= Endpoints =
 
-=== /execute ===
-Calling this would cause an execution to occur. Should options for the execution can be specified as urlencoded parameters, or json post data? I'm thinking both will be allowed.
-What should the return value be? Should we be able to request logs of this execution? Maybe return value is an execution id that can be passed to a log endpoint.
+== Execution ==
+Executions would be represented with a data structure something like this.
+`{"id": "some id for execution", "status": "running|pending|complete|aborted"}`
+==== /execution ====
+
+'''GET'''
+Return a list of running/pending executions.
+
+'''POST'''
+Adds an execution to the queue. Accepts options as JSON (maybe also url parameters).
+Returns execution info.
+
+=== /execution/<id> ===
+
+'''GET'''
+Get status of execution with given id.
+
+=== /execution/<id>/log ===
+'''GET''' Streams the log for execution with given id.
+
