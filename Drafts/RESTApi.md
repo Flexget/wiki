@@ -50,3 +50,5 @@ id for movie will be primary key from our database. Not online provider id.
 '''PUT''' Change details for movie in queue
 == series ==
 == history ==
+=== /history ===
+'''GET''' Get list of items in history
