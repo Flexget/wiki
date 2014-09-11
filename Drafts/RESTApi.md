@@ -31,8 +31,34 @@ Get status of execution with given id.
 === /execution/<id>/log ===
 '''GET''' Streams the log for execution with given id.
 
+== Tasks ==
+=== /tasks ===
+'''GET''' list of configured tasks
+
+'''POST''' Add a new task
+=== /tasks/<taskname> ===
+'''GET''' get config for task (other info too? e.g. last run time?)
+
+'''DELETE''' remove task (what should happen when there are e.g. schedules using it? we probably need events python side scheduler could listen to)
+
+'''PUT''' update task config
+
 == Configuration ==
 Not quite sure how this one should go yet. I'm thinking core only provides a way to edit root level config keys (tasks, schedules, etc.) and if we need more granular editing, the plugin would be responsible for the endpoints (e.g. editing individual schedules would be handled by scheduler plugin)
+
+This would likely be redundant, and mostly useful if plugins didn't provide better endpoints themselves
+
+=== /config ===
+'''GET''' List all root elements in config (tasks, schedules, templates, etc.)
+
+'''POST''' Add config for new root level config section
+
+=== /config/<section> ===
+'''GET''' Get config under root level config section
+
+'''DELETE''' Remove root level config section
+
+'''POST''' Replace root level config section
 
 = Plugin Endpoints =
 == scheduler ==
