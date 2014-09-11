@@ -1,6 +1,7 @@
 = '''REST API ''' =
-
 Anyone interested in developing the webui should feel free to input here.
+
+Will either be a component of webui, or a separately enablable module that webui depends on. Webui can be rewritten as a responsive app that uses this api to interact with FlexGet. All of these endpoints will be under /api or somesuch.
 
 == Design Guidelines ==
 
