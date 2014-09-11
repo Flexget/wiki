@@ -37,5 +37,16 @@ Not quite sure how this one should go yet. I'm thinking core only provides a way
 = Plugin Endpoints =
 
 == movie_queue ==
+id for movie will be primary key from our database. Not online provider id.
+=== /movie_queue ===
+'''GET''' Return list of movies in the queue
+
+'''POST''' Add a movie to the queue.
+=== /movie_queue/<id> ===
+'''GET''' Return details for movie in queue (not metainfo from imdb etc.)
+
+'''DELETE''' Remove movie from queue.
+
+'''PUT''' Change details for movie in queue
 == series ==
 == history ==
