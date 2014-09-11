@@ -2,11 +2,19 @@ This is my current flexget configuration. I think mine is a little different tha
 
 Also, I haven't seen anyone else use both torrent files and magnet links. Below is a technique that will download the torrent file if available or create a file containing the magnet link for future parsing.
 
+*** Update *** 
+
+Added section to download comic book series. Still torn between using series or just downloading everything or using a regexp to match titles. The series plugin works pretty good so far for this purpose.
+
 {{{
 schedules:
   - tasks: 'WWE-Raw'
     interval:
-      hours: 12
+      days: 1
+      at_time: 3:30 am
+  - tasks: 'Comics'
+    interval:
+      minutes: 5
   - tasks: 'tv'
     interval:
       minutes: 5
@@ -19,16 +27,136 @@ templates:
       - rss: http://rss.thepiratebay.se/208
   wrestling-common:
     headers:
-      Cookie: "uid=*********; pass=******"   
+      Cookie: "uid=757956; pass=f12a628f6b0673b4b62e40e343c37e69"   
     download: yes
     set:
       path: D:/Blackhole/Torrents/WWE/
 
 tasks:
+  Comics:
+    inputs:
+      - rss: http://kickass.to/comics/?rss=1
+      - rss: http://rss.thepiratebay.se/602
+      - rss: http://kickass.to/usearch/category%3Acomics%20seeds%3A100%20age%3Amonth/?rss=1
+      - rss: http://kickass.to/usearch/category%3Acomics%20user%3ANemesis43%20seeds%3A100/?rss=1
+    set:
+      path:  D:/Blackhole/Torrents/Comics/    
+    if:      
+      - "'magnet' not in url.lower()":
+          download: yes
+      - "'magnet' in url.lower()":
+          exec: 'echo "{{url}}" > "D:/Blackhole/Torrents/Comics/{{title}}.magnet"'
+    torrent_alive: yes    
+    manipulate:
+      - title:
+          replace:
+            regexp: 'annual (\d){1,4}'
+            format: 'Special A\1'
+      - title:
+          replace:
+            regexp: 'special (\d){1,3}'
+            format: 'Special SP\1'
+    series:
+      settings:
+        default:
+          identified_by: sequence
+      default:
+        # DC
+        - Action Comics Futures End # One-Shot
+        - Aquaman Futures End # One-Shot
+        - Astro City
+        - Batgirl Futures End # One-Shot?
+        - Batman Futures End # One-Shot?
+        - Batman Eternal:
+            begin: 22
+        - Batwing Futures End # One-Shot
+        - Birds Of Prey Futures End # One-Shot?
+        - Coffin Hill
+        - Constantine Futures End # One-Shot?
+        - Detective Comics Futures End # One-Shot
+        - Earth 2 Futures End # One-Shot
+        - Fairest:
+            begin: 29
+        - Grayson Futures End # One-Shot
+        - Green Arrow Futures End # One-Shot
+        - Green Lantern Corps Futures End # One-Shot
+        - Green Lantern Futures End # One-Shot
+        - Hinterkind:
+            begin: 11
+        - Infinity Man And The Forever People Futures End # One-Shot?
+        - Injustice Gods Among Us Year Two
+        - Justice League:
+            begin: 33
+        - Justice League United Futures End # One-Shot
+        - Legends Of The Dark Knight 100-Page Super-Spectacular
+        - Names # Limited Series 1-8
+        - New 52 Futures End:
+            begin: 18
+        - New Suicide Squad Futures End # One-Shot
+        - Superboy Futures End # One-Shot
+        - Superman Unchained:
+            begin: 8 
+        - Swamp Thing Futures End # One-Shot
+        - Trinity Of Sin The Phantom Stranger Futures End # One-Shot
+        - Worlds' Finest Futures End # One-Shot
+
+        - 100 Bullets
+        - Daredevil
+        - Batman:
+            exact: yes
+        - Batman and Robin:
+            alternate_name:
+              - Batman and Batgirl
+              - Batman and Catwoman
+              - Batman and Nightwing
+              - Batman and Red Hood
+              - Batman and Red Robin
+        - Edge of Spider-Verse
+        - Herobear And The Kid Saving Time
+        - Infinite Crisis(.*)Fight for the Multiverse
+        - Futurama Comics
+        - Manifest Destiny
+        - Wolf Moon
+
+        # Image
+        - Sidekicks:
+            begin: 8
+
+        # Marvel
+        - The Death of Wolverine # Mini-series 1-4
+        - Spider-Man 2099:
+            begin: 3
+
+        # Titan Publishing
+        - Doctor Who The Eleventh Doctor # Miniseries        
+
+  Bunch-O-Comics:
+    inputs:
+      - rss: http://kickass.to/usearch/category%3Acomics%20user%3ANemesis43%20seeds%3A100/?rss=1
+    set:
+      path:  D:/Blackhole/Torrents/Comics/    
+    if:      
+      - "'magnet' not in url.lower()":
+          download: yes
+      - "'magnet' in url.lower()":
+          exec: 'echo "{{url}}" > "D:/Blackhole/Torrents/Comics/{{title}}.magnet"'
+    torrent_alive: yes    
+    manipulate:
+      - title:
+          replace:
+            regexp: 'annual (\d){1,4}'
+            format: 'Special A\1'
+      - title:
+          replace:
+            regexp: 'special (\d){1,3}'
+            format: 'Special SP\1'
+
   WWE-Raw:
-    rss: 
-      url: http://xtremewrestlingtorrents.net/rss.php?*****
-      title: title
+    inputs:
+      - rss: http://xtremewrestlingtorrents.net/rss.php?feed=dl&cat=51:COOKIE:uid=757956;pass=f12a628f6b0673b4b62e40e343c37e69
+      - rss: http://xtremewrestlingtorrents.net/rss.php?feed=dl&cat=53:COOKIE:uid=757956;pass=f12a628f6b0673b4b62e40e343c37e69
+      - rss: http://xtremewrestlingtorrents.net/rss.php?feed=dl&cat=63:COOKIE:uid=757956;pass=f12a628f6b0673b4b62e40e343c37e69
+      - rss: http://xtremewrestlingtorrents.net/rss.php?feed=dl&cat=50:COOKIE:uid=757956;pass=f12a628f6b0673b4b62e40e343c37e69
     template: wrestling-common
     regexp:
       reject:
@@ -38,6 +166,7 @@ tasks:
           quality: 720p
           name_regexp:
             - Monday\.Night\.Raw
+            - WWE\.Monday\.Night\.Raw
       - Friday Night Smackdown:
           quality: "<=720p"
           name_regexp:
@@ -52,8 +181,8 @@ tasks:
     template: tv-common
     pushover:
         userkey: 
-            - ******
-        apikey: ******
+            - uiwATa3P8esXjPRqf66A45uYmWJWfF
+        apikey: aqg1jyzhxj5dQbP43xdUwpBAXiBhq5
         device: lg-ls720
         title: Snatched {{series_name}}
         message: Episode {{series_id}}
@@ -68,6 +197,9 @@ tasks:
     regexp:
       reject:
         - \WSubs\W
+        - \WIta\W
+        - \WFr\W
+        - \WSpa\W
     series:
       720p:
         - A Haunting
@@ -106,7 +238,9 @@ tasks:
         - Haven
         - Helix
         - Intruders
-        - Key & Peele
+        - Key & Peele:
+            alternate_name:
+              - Key and Peele
         - The Last Ship
         - Long Island Medium
         - The Mentalist
