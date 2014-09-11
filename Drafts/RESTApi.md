@@ -37,7 +37,8 @@ Not quite sure how this one should go yet. I'm thinking core only provides a way
 = Plugin Endpoints =
 
 == movie_queue ==
-id for movie will be primary key from our database. Not online provider id.
+id for movie will be primary key from our database, not online provider id.
+Currently movie_queue keeps downloaded movies in its database. Either we'll have to change that, or change this api a bit to have 2 endpoints for pending and grabbed lists. I think I prefer the former.
 === /movie_queue ===
 '''GET''' Return list of movies in the queue
 
