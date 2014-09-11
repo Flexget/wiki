@@ -35,6 +35,18 @@ Get status of execution with given id.
 Not quite sure how this one should go yet. I'm thinking core only provides a way to edit root level config keys (tasks, schedules, etc.) and if we need more granular editing, the plugin would be responsible for the endpoints (e.g. editing individual schedules would be handled by scheduler plugin)
 
 = Plugin Endpoints =
+== scheduler ==
+=== /schedules ===
+'''GET''' List configured schedules
+
+'''POST''' Add a schedule
+
+=== /schedules/<id> ===
+'''GET''' Details of schedule (tasks to run, last run, next run)
+
+'''PUT''' Modify schedule
+
+'''DELETE''' Remove schedule
 
 == movie_queue ==
 id for movie will be primary key from our database, not online provider id.
