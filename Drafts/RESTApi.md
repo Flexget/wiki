@@ -36,12 +36,15 @@ Get status of execution with given id.
 '''GET''' list of configured tasks
 
 '''POST''' Add a new task
+
 === /tasks/<taskname> ===
 '''GET''' get config for task (other info too? e.g. last run time?)
 
 '''DELETE''' remove task (what should happen when there are e.g. schedules using it? we probably need events python side scheduler could listen to)
 
 '''PUT''' update task config
+
+'''PATCH''' can be used to rename task by sending data `{"name": "thenewname"}`
 
 == Configuration ==
 Not quite sure how this one should go yet. I'm thinking core only provides a way to edit root level config keys (tasks, schedules, etc.) and if we need more granular editing, the plugin would be responsible for the endpoints (e.g. editing individual schedules would be handled by scheduler plugin)
