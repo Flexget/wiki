@@ -30,8 +30,6 @@ There has been alot of errors arising from setuptools package being out of date 
 Please make sure to upgrade setuptools.
 {{{
 pip install --upgrade setuptools
-}}}
-{{{
 pip install --upgrade flexget
 }}}
 
