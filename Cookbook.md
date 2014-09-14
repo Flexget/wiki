@@ -1,4 +1,4 @@
-= The Cookbook = hacker
+= The Cookbook = 
 
 To get started, create these as a file `~/.flexget/config.yml` (see [wiki:Configuration] for more details)
 
