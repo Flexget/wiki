@@ -16,7 +16,8 @@ If you're working on good re-usable plugin we're be more than happy to include i
 
 Only most important phases shown.
 
-{{{
+{{{Oops diagram is broken for the moment.}}}
+{{{#!comment
 #!SequenceDiagram
 participant Task
 participant Input
@@ -34,7 +35,7 @@ Task->Task: Purge Rejected, Failed
 Task->Download: Execute Download(s)
 Task->Task: Purge Rejected, Failed
 Task->Output: Execute Output(s)
-'}}}
+}}}
 
 === Other phases ===
 
