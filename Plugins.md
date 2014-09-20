@@ -182,6 +182,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
 ||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the task when explicitly specified.||
 ||[wiki:Plugins/no_entries_ok no_entries_ok]||Silence warnings about task not producing entries, for tasks where that is normal.||
+||[wiki:Plugins/parsing]||'''{{{NEW}}}'''Configure another parser for series and movie (can help if IMDB/TMDB/TVDB lookup fails too often)||
 ||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/priority priority]||Change task execution order.||
