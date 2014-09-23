@@ -31,9 +31,11 @@ disable_builtins: [details]
 ||finished_for||Interval||(optional) remove only torrents finished for at least the specified time (1 hours, 2 days, etc).||
 ||min_ratio||Number||(optional) remove only torrents uploaded at least this ratio (0=0%, 0.5=50%, 1=100% etc)||
 ||delete_files||[Yes|No]||(optional) also delete local files (default: no)||
+||transmission_seed_limits||[Yes|No]||(optional) uses transmission's internal limits for idle time and seed ratio (default: no)||
 ||enabled||[Yes|No]||Plugin enabled (default: yes)||
 
 '''Note:'''
 
 - If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
 - `disable_builtins: [details]` this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
+- From flexget 1.2.190 and up you need to set `transmission_seed_limits: yes` to get the same behaviour as previous version of this plugin or torrents may not be removed when completed.
