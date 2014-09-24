@@ -10,6 +10,7 @@ tail:
   entry:
     title: 'TITLE: (.*) URL:'
     url: 'URL: (.*)'
+  encoding: utf8
 }}}
 
 If the log file is detected to be smaller than in previous scan the position is reseted.
