@@ -29,6 +29,22 @@ pkg_resources.DistributionNotFound: pip==1.2.1
 
 This is most likely because operating system has changed from using python 2.7 to 3.2. Pip was installed on 2.7 but now that the script is ran it uses default python which is 3.2. You will need to re-install pip for python 2.7. This can happen for any python executable, including !FlexGet if the operating system changes default python version. Re-installing the packages with correct python version will resolve the issue.
 
+== command not found ==
+
+If for some reason the flexget executable is not in place even after installing with pip you may get error like.
+
+{{{
+$ flexget -v
+-bash: flexget: command not found
+}}}
+
+It might be resolvable simply by running
+
+{{{
+pip install --upgrade --force-reinstall flexget
+curl https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py | sudo python
+}}}
+
 == A plugin with the same name is already registered ==
 
 For some reason the pip leaves files hanging from older version sometimes. If you encounter this it's best to do is update pip and do some cleanup.
