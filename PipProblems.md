@@ -84,3 +84,6 @@ If you still have the printed directory left, delete it. This should get rid of 
 {{{
 pip install flexget
 }}}
+
+== !ImportError: cannot import name !IncompleteRead ==
+This is caused by a bug in Ubuntu's pip package. You'll need to uninstall pip with apt, then install with the instructions [https://pip.pypa.io/en/latest/installing.html#install-pip here].
