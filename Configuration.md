@@ -17,7 +17,11 @@ In order to use !FlexGet you'll need to create a configuration file.
 
 === Location ===
 
-By default !FlexGet tries to find `config.yml` from current path and in `~/.flexget/` (`C:\Users\YOURUSER\flexget\` on Windows 7, and `C:\Documents and Settings\YOURUSER\flexget\` on XP). Creating the `~/.flexget/` directory and placing your `config.yml` in there is considered currently as the best practice.
+By default !FlexGet tries to find `config.yml` from several places in this order:
+- The current path
+- The virtualenv path (only if you are running !FlexGet installed in a virtualenv)
+- `~/.flexget/` (`C:\Users\YOURUSER\flexget\` on Windows 7, and `C:\Documents and Settings\YOURUSER\flexget\` on XP)
+Creating the `~/.flexget/` directory and placing your `config.yml` in there is considered currently as the best practice. You can also use the `-c` cli flag to manually specify a config file name/location.
 
 == Step by Step Configuration Tutorial ==
 The configuration is a hierarchy constructed of various components. The main component of any config are the tasks, so we will start there.
