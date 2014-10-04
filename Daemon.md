@@ -32,7 +32,7 @@ Due to an apparent bug in current versions, the ```-d``` command may [ticket:242
 
 == Scheduling ==
 
-To tell !FlexGet how often it should execute your tasks, you can set up the `schedules` block in the config file. Each schedule consists of a list of tasks to run, and an interval which they should be run at. When specifying tasks, wildcards such as `*` (any characters), or `?` (any single character) can be used and all the schedules is OR'ed together. If you run the daemon without specifying a schedules block, a default schedule of Every task, every hour is assumed. The configuration format is as follows:
+To tell !FlexGet how often it should execute your tasks, you can set up the `schedules` block in the config file. Each schedule consists of a list of tasks to run, and an interval which they should be run at. When specifying tasks, wildcards such as `*` (any characters), or `?` (any single character) can be used to match multiple tasks. Be aware, if you specify multiple schedules containing the same task, (including if it is matched by a wildcard,) that task will be launched for all schedules containing it. If you run the daemon without specifying a schedules block, a default schedule of Every task, every hour is assumed. The configuration format is as follows:
 {{{
 schedules:
   - tasks: [list, of, tasks]
