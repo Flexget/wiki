@@ -10,7 +10,8 @@ Enjoy :)
 
 
 
-''Note: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.''
+''Note 1: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.''
+''Note 2: Do not forget to set the "quality", "min_year" and "min_score" to the values you want. 
 
 {{{
 #########################################################################################################################################################################################
