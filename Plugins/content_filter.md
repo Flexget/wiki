@@ -1,5 +1,5 @@
 = Content Filter =
-This allows filtering based on the filenames inside of torrents. You can specify either an acceptable file mask, a file mask to reject, or both. You can also specify a list of masks for either option.
+This allows filtering based on the filenames inside of torrents. This plugin does not accept entries on its own, only rejects already accepted entries that do not pass your requirements. You'll need another [wiki:Plugins#Filters filter plugin] in the task to accept the entries you want. You can specify either an acceptable file mask, a file mask to reject, or both. You can also specify a list of masks for either option.
 
 '''Note:''' content_filter doesn't work with magnet links, as it works by analyzing the file list present in the .torrent file. You can include the [wiki:Plugins/magnets magnets] plugin to reject any magnet entries.
 
