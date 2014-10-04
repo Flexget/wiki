@@ -13,7 +13,7 @@ Enjoy :)
 
 ''Note 1: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.''
 
-''Note 2: Do not forget to set the "quality", "min_year" and "min_score" to the values you want.''
+''Note 2: Do not forget to set the "reject", "quality", "min_year" and "min_score" to the values you want.''
 
 ''Note 3: Make sure that after you have edited the config file, that indentation is correct. There should be no extra spaces on blank lines and everything should be indented using double spaces.''
 
