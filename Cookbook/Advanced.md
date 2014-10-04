@@ -10,3 +10,4 @@ These recipes are not representing the normal use cases. Abandon sanity.
  [wiki:Cookbook/Legendastv How to automatically download subtitles from legendas.tv]::
  [wiki:Cookbook/CLISearch Create a manual CLI based Search for a Series]::
  [wiki:Cookbook/MailErrorLog Mail errors in logfile]::
+ [wiki:Cookbook/Users/UnNefer Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications]
