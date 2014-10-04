@@ -8,6 +8,10 @@ Just follow the instructions included in the config and you're all set.
 
 Enjoy :)
 
+
+
+''Note: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.''
+
 {{{
 #########################################################################################################################################################################################
 #                                                                                                                                                                                       #
