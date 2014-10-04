@@ -33,10 +33,10 @@ Enjoy :)
 #   GMAILFROMADDRESS = The Gmail address that emails will be sent from (needed to be able to send emails through Gmail's SMTP server)                                                   #
 #   GMAILPASSWORD = The password of the Gmail address that emails will be sent from (needed to be able to send emails through Gmail's SMTP server)                                      #
 #   EMAILTOADDRESS = The email address you want emails sent to                                                                                                                          #
-#   TVSERIESNAME1 = A TV Series name (ie. Game of Thrones)                                                                                                                              #
-#   TVSERIESNAME2 = Another TV Series name (ie. Gotham)                                                                                                                                 #
-#   TVSERIESNAME3 = Another TV Series name (ie. Grimm)                                                                                                                                  #
-#   TVSERIESNAME4 = Another TV Series name (ie. Z Nation)                                                                                                                               #
+#   TVSERIESNAME1 = A TV Series name                                                                                                                                                    #
+#   TVSERIESNAME2 = Another TV Series name                                                                                                                                              #
+#   TVSERIESNAME3 = Another TV Series name                                                                                                                                              #
+#   TVSERIESNAME4 = Another TV Series name                                                                                                                                              #
 #   TVDIRECTORY = The directory where TV Series files are stored (ie. /storage/plexfiles/TV)                                                                                            #
 #     Note: When you set the TVDIRECTORY, only edit the bit that says TVDIRECTORY - make sure to leave the rest of the location there to autogenerate and sort the TV Series correctly  #
 #   MOVIEDOWNLOADLOCATION = The directory where Movie files will be downloaded (NOTHING ELSE CAN BE DOWNLOADED HERE - ie. /storage/transmission/Movies/)                                #
