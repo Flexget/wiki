@@ -15,6 +15,8 @@ Enjoy :)
 
 ''Note 2: Do not forget to set the "quality", "min_year" and "min_score" to the values you want.''
 
+''Note 3: Make sure that after you have edited the config file, that indentation is correct. There should be no extra spaces on blank lines and everything should be indented using double spaces.''
+
 {{{
 #########################################################################################################################################################################################
 #                                                                                                                                                                                       #
