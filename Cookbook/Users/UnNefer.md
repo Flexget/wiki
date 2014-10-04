@@ -1,4 +1,5 @@
 '''UNNEFER'S ULTIMATE FLEXGET CONFIG'''
+
 ''Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications''
 
 No more headaches trying to get Flexget to work and do the things you want it to - This config does the lot. My config will do everything, it'll find what you want to download, rename the file when downloaded, move the file to a folder of your choice, clean all the leftover files and folder, and then email you to let you know what has been done.
