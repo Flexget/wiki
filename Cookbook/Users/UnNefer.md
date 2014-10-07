@@ -71,7 +71,7 @@ templates:
       port: TMPORT
       username: TMUSERNAME
       password: TMPASSWORD
-      min_ratio: 0
+      min_ratio: 1
       transmission_seed_limits: Yes
       enabled: Yes
 
