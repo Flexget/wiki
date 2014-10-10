@@ -1,5 +1,7 @@
 == A Complete Transmission Recipe ==
 
+'''{{{ATTENTION:}}}''' This recipe is for an older version of !FlexGet and may not be valid anymore.
+
 this is a user contributed recipe. it is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
 it is a complete A-Z recipe for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
 ----
