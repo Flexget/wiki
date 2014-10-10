@@ -307,3 +307,8 @@ systemctl --user status flexget
 systemctl --user stop flexget
 systemctl --user start flexget
 }}}
+
+
+=== As a Windows Scheduled Task ===
+
+In the Task Scheduler, "Create a Task". Use a descriptive name. Set a new trigger - "At log on" or "At startup" are good candidates. Optionally set a small delay. Configure an action - "Start a program". Navigate to your Python scripts folder and select "flexget-headless.exe". Add arguments: "daemon start". Hit "OK". Optionally run your new task, then check on it using flexget daemon status. 
