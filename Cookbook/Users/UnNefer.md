@@ -152,6 +152,7 @@ tasks:
     imdb:
       min_year: 1980
       min_score: 5
+      min_votes: 1000
     set:
       path: MOVIEDOWNLOADLOCATION
     email:
