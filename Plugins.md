@@ -219,6 +219,11 @@ These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fie
 
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
+== Daemon ==
+
+These plugins are specifically for when !FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
+
+||[wiki:Plugins/Daemon/scheduler scheduler]||Executes tasks with a given interval or schedule while daemon is running.||
 
 == Command line plugins for `execute` command ==
 
