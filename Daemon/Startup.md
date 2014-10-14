@@ -280,7 +280,6 @@ To have flexget by accessible as a systemd user unit.
 See [https://wiki.archlinux.org/index.php/Systemd/User#User_Services here] for more.
 
 sudo vim /usr/lib/systemd/user/flexget.service
-Then an administration could copy it to /etc/systemd/user, and then an end-user could copy to ~/.config/systemd/user.
 {{{
 [Unit]
 Description=FlexGet Daemon
@@ -293,6 +292,12 @@ ExecReload=/usr/bin/flexget daemon reload
 
 [Install]
 WantedBy=default.target
+}}}
+
+Any end-users can enable or disable it using :
+{{{
+systemctl --user enable flexget
+systemctl --user disable flexget
 }}}
 
 Read log: 
