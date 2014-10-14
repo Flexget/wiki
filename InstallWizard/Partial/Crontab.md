@@ -54,7 +54,7 @@ Once !FlexGet runs successfully from crontab it will log this few times into the
 
 === Daemon Mode ===
 
-With !FlexGet running in [wiki:Daemon daemon mode] you can [wiki:Daemon#Scheduling schedule] your tasks to run inside your configuration file.
+With !FlexGet running in [wiki:Daemon daemon mode] you can use the [wiki:Plugins/Daemon/scheduler scheduler] plugin to define when your tasks should be run inside the configuration file.
 
 To start the daemon at system boot you would use:
 
