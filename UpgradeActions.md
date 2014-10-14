@@ -7,7 +7,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
 === 2014.10.14 1.2.206 ===
-The daemon scheduler now has the ability to specify much more advanced (cronlike) schedules. The `on_day` and `at_time`options for the current `interval` style schedule have been removed. A new [wiki:documentshere advanced style] schedule can be used to replace those options.
+The daemon scheduler now has the ability to specify much more advanced (cronlike) schedules. The `on_day` and `at_time`options for the current `interval` style schedule have been removed. A new `schedule` style schedules can be used to replace those options. Please see the updated [wiki:Plugins/Daemon/scheduler#Period documentation on scheduling].
 
 === 2014.9.6 1.2.177 ===
 A lot of plugins' validators were updated to our new system, and had other small refactorings. Please make sure everything is working as before and report any config validation or other issues that were working before.
