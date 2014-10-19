@@ -73,7 +73,7 @@ schedules:
   schedule:
     minute: "*/30"
     day_of_week: mon
-# Run at 22:05, 22:45, 23:05, 22:45
+# Run at 22:05, 22:45, 23:05, 23:45
 - tasks: task3
   schedule:
     minute: 5,45
