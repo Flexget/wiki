@@ -48,6 +48,8 @@ deluge: yes
 ||automanaged||If set to false torrents will be added to deluge without the automanaged flag.||
 ||content_filename||This can be used to rename the main file inside the torrent. [wiki:Plugins/deluge#ContentRenaming see here]||
 ||main_file_only||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'do not download'||
+||hide_sparse_files||If ''main_file_only'' is set, all the other (sparse) files will be put inside a hidden directory (name begins with "._"). On by default.||
+||keep_subs||If ''main_file_only'' is set, the subtitle file is also downloaded. If ''content_filename'' is set, the subtitle file will be renamed too. If ''hide_sparse_files'' is set, the subtitle will not be hidden. On by default.||
 
 
 
@@ -110,6 +112,12 @@ Together with the movedone command, this means all TV series will be downloaded 
 
 {{{
 /home/user/TV/Show Name/Season #/Show Name - S##E## - quality.ext
+}}}
+
+Subtitle files will be downloaded to (see the `keep_subs` option):
+
+{{{
+/home/user/TV/Show Name/Season #/Show Name - S##E## - quality.srt
 }}}
 
 == Mac OSX Users ==
