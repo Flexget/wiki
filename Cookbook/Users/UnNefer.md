@@ -101,6 +101,7 @@ tasks:
   Drarbg task:
     rss: http://rss.thepiratebay.se/user/a73c56ac59c186a918b8c882ace545b4
     priority: 1
+    seen: local
     template: 
       - tv
       - transmissionrpc
@@ -120,6 +121,7 @@ tasks:
   EZTV task:
     rss: http://ezrss.it/feed/
     priority: 2
+    seen: local
     template: 
       - tv
       - transmissionrpc
@@ -139,6 +141,7 @@ tasks:
   YIFY task:
     rss: http://yify-torrents.com/rss/0/All/All/0
     priority: 3
+    seen: local
     content_size: 
       max: 2500
       min: 1000
