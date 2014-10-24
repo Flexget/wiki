@@ -35,3 +35,5 @@ cookies:
 # http://www.netscape.com/newsref/std/cookie_spec.html
 # This is a generated file!  Do not edit.
 }}}
+
+'''{{{WARNING:}}}''' You should only use cookies you are actually using / which are necessary. Every cookie is sent on each request (!!!). Some cookies interfere with other plugins, e.g. IMDB would want you to login if you were sending an IMDB cookie, the imdb_list plugin does not support logins, hence this wouldn't work. Clean up your cookie database!
