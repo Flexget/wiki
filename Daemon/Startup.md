@@ -294,6 +294,12 @@ ExecReload=/usr/bin/flexget daemon reload
 WantedBy=default.target
 }}}
 
+Allows users who are not logged in to run long-running services.
+A user manager is spawned for the user at boot and kept around after logouts.
+{{{
+sudo loginctl enable-linger <username>
+}}}
+
 Any end-users can enable or disable it using :
 {{{
 systemctl --user enable flexget
