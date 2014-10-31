@@ -26,6 +26,7 @@ URL Rewriters do not need to be configured aside from generic [wiki:Plugins/urlr
  * BakaBT
  * !DeadFrog
  * NewPCT
+ * Cinemageddon
 
 === Custom rewriting with regexp ===
 
