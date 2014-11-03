@@ -54,6 +54,8 @@ id_regexp:
   - (\d+).(\d+).(\d\d\d\d)
 }}}
 
+`date_regexp` and `sequence_regexp` can also be defined for series [wiki:Plugins/series/identified_by identified by] those respective numbering schemes.
+
 User defined regexps takes priority over the built-in expressions, but do not disable them.
 
 Specifying `ep_regexp` disables all `id_regexp`'s and vice versa.
