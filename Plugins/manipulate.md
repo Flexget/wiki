@@ -2,8 +2,6 @@
 
 Mainly for advanced users only. Allows setting and cleaning entry fields with regexp.
 
-For revisions prior r1395 see [wiki:Plugins/manipulate?version=8 older version].
-
 Syntax:^1^
 
 {{{
