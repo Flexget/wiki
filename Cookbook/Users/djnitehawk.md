@@ -14,7 +14,7 @@ templates:
       url: http://localhost:8080/gui/
       username: rachaelellen7
       password: cristal7
-      path: c:\stuff\here  # Either c:\stuff, or c:\stuff\here must be added to your allowed download folders for this example path to work
+      path: C:\Users\Alex\Downloads\TV Shows
     configure_series:
       settings:
         quality: 720p
@@ -23,7 +23,7 @@ templates:
         trakt_list:
           username: rachaelellen7
           api_key: 58582179fbfd2014508327bc37170e01
-          custom: watchlist
+          custom: showsiwatch
           strip_dates: yes
     content_size:
       min: 400
