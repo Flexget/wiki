@@ -42,6 +42,21 @@ You can execute !FlexGet via:
 ~/flexget-dev/bin/flexget
 }}}
 
+== Upgrading ==
+
+To upgrade your install, first pull the changes from our repo:
+
+{{{
+cd ~/flexget-dev
+git pull
+}}}
+
+If the dependencies have changed, you can reinstall to upgrade all the dependencies:
+
+{{{
+bin/pip install --upgrade -e .
+}}}
+
 == Become a contributor ==
 
 If you're interested improving !FlexGet or maintaining (new) plugins, please read [wiki:Contribute contribute page].
