@@ -2,7 +2,7 @@
 
 '''Notes:''' 
 
- * Requires '''Python 2.6 - 2.7''' and git client
+ * Requires '''Python 2.6 - 2.7''', virtualenv, and git client
  * This where we develop
 
 To checkout use command:
@@ -21,25 +21,25 @@ Make sure the {{{python}}} command uses python 2.6 - 2.7. On some systems this m
 python -V
 }}}
 
-If you're running 2.6 - 2.7, continue with:
+Initialize a virtualenv in your checkout directory:
 
 {{{
-cd ~/flexget-dev/
-python bootstrap.py
+virtualenv ~/flexget-dev
 }}}
 
-Once bootstrap is completed you'll have !FlexGet installed in a virtualenv.
+Once the virtualenv has been created, we need to install our checked out !FlexGet inside it. Make sure you are using the pip installed in your virtualenv by either activating the virtualenv first, or explicitly calling `bin/pip` as shown below. The `-e` flag to pip says this should be an editable install, meaning it uses the files directly in the checkout rather than installing a package in site-packages.
+
+{{{
+cd ~/flexget-dev
+bin/pip install -e .
+}}}
+
+Once this is completed you'll have !FlexGet installed in a virtualenv.
 
 You can execute !FlexGet via:
 
 {{{
 ~/flexget-dev/bin/flexget
-}}}
-
-Experimental webui can be launched via:
-
-{{{
-~/flexget-dev/bin/flexget-webui
 }}}
 
 == Become a contributor ==
