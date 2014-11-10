@@ -38,8 +38,6 @@ discover:
       what:
         - imdb_list:
             list: watchlist
-            username: USERNAME
-            password: PASSWORD
         - trakt_list:
             username: USERNAME
             password: PASSWORD
