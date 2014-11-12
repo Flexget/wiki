@@ -45,7 +45,7 @@ Enjoy :)
 #   TVSERIESNAME1 = A TV Series name                                                                                                                                                    #
 #   TVSERIESNAME2 = Another TV Series name                                                                                                                                              #
 #   TVSERIESNAME3 = Another TV Series name                                                                                                                                              #
-#   TVSERIESNAME4 = Another TV Series name                                                                                                                                              #
+#   TVSERIESNAME4 = Another TV Series name (                                                                                                                                            #
 #   TVDIRECTORY = The directory where TV Series files are stored (ie. /storage/plexfiles/TV)                                                                                            #
 #     Note: When you set the TVDIRECTORY, only edit the bit that says TVDIRECTORY - make sure to leave the rest of the location there to autogenerate and sort the TV Series correctly  #
 #   MOVIEDOWNLOADLOCATION = The directory where Movie files will be downloaded (NOTHING ELSE CAN BE DOWNLOADED HERE - ie. /storage/transmission/Movies/)                                #
@@ -101,12 +101,11 @@ tasks:
   Drarbg task:
     rss: http://rss.thepiratebay.se/user/a73c56ac59c186a918b8c882ace545b4
     priority: 1
-    seen: local
     template: 
       - tv
       - transmissionrpc
     set:
-      path: TVDOWNLOADLOCATION
+      path: /TVDOWNLOADLOCATION
     email:
       active: True
       from: GMAILFROMADDRESS
@@ -121,12 +120,11 @@ tasks:
   EZTV task:
     rss: http://ezrss.it/feed/
     priority: 2
-    seen: local
     template: 
       - tv
       - transmissionrpc
     set:
-      path: TVDOWNLOADLOCATION
+      path: /TVDOWNLOADLOCATION
     email:
       active: True
       from: GMAILFROMADDRESS
@@ -141,7 +139,6 @@ tasks:
   YIFY task:
     rss: http://yify-torrents.com/rss/0/All/All/0
     priority: 3
-    seen: local
     content_size: 
       max: 2500
       min: 1000
@@ -155,9 +152,9 @@ tasks:
     imdb:
       min_year: 1980
       min_score: 5
-      min_votes: 1000
+	  min_votes: 1000
     set:
-      path: MOVIEDOWNLOADLOCATION
+      path: /MOVIEDOWNLOADLOCATION
     email:
       active: True
       from: GMAILFROMADDRESS
@@ -171,7 +168,7 @@ tasks:
 
   sort-tvseries:
     find:
-      path: TVDOWNLOADLOCATION
+      path: /TVDOWNLOADLOCATION
       regexp: '.*\.(mkv|mp4)$'
       recursive: yes
     seen: local
@@ -188,7 +185,6 @@ tasks:
     move:
       to: /TVDIRECTORY/{{series_name}}/{{series_name}} - Season {{series_season}}
       filename: '{{series_name}} - S{{series_season|pad(2)}}E{{series_episode|pad(2)}}'
-      clean_source: 100
     email:
       active: True
       from: GMAILFROMADDRESS
@@ -199,6 +195,11 @@ tasks:
       smtp_password: GMAILPASSWORD
       smtp_tls: yes
       template: html-moved.template
+    exec: 
+      allow_background: yes
+      auto_escape: yes
+      on_exit: 
+        phase: "/bin/rm -rf /TVDOWNLOADLOCATION/*"
 
   sort-movies:
     find:
