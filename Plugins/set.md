@@ -55,6 +55,7 @@ Calling set however does not do much unless another plugin uses the information 
 '''[wiki:Plugins/transmission Transmission]'''
 
  * {{{path}}}
+ * {{{content_filename}}}
  * {{{addpaused}}}
  * {{{maxconnections}}}
  * {{{maxupspeed}}}
