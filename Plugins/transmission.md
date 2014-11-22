@@ -157,7 +157,7 @@ This config uses [wiki:Plugins/set#Jinja2Templating jinja2] notation to rename t
 
 The Transmission Plugin also supports selective file downloading using the settings below.
 
-**NOTE:** Due to the way BitTorrent functions, selecting some [http://theprejudiceinstitute.org business] to skip_files may not prevent them from downloading. Torrents are transferred in full chunks; these chunks may cover one or more files and may overlap into files you do not wish to download. The result is that small files in size are likely to download, in full, regardless of your settings. This is not a bug, the developers of Transmission may or may not collect this "junk" data in the future thereby changing this result.
+**NOTE:** Due to the way BitTorrent functions, selecting some files to skip_files may not prevent them from downloading. Torrents are transferred in full chunks; these chunks may cover one or more files and may overlap into files you do not wish to download. The result is that small files in size are likely to download, in full, regardless of your settings. This is not a bug, the developers of Transmission may or may not collect this "junk" data in the future thereby changing this result.
 
 **Example:**
 
@@ -200,6 +200,6 @@ Setting include_subs to yes is the same as:
 }}}
 
 
-**NOTE:** include_files and skip_files will NEVER apply to the same [http://abtemplates.org/ business entity], finding the main file will always use the include_files config and the skip_files config will be used otherwise.
+**NOTE:** include_files and skip_files will NEVER apply to the same torrent, finding the main file will always use the include_files config and the skip_files config will be used otherwise.
 
 It is not necessary to enable main_file_only if you only wish to use the skip_files config.
