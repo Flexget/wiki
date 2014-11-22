@@ -49,4 +49,4 @@ Note: In Unix you may need root privileges
 
 With respect to single mode, if more than one language is provided in the configuration, then language codes are added to the potentially downloaded subtitles
 
-Options alternatives, exact_match, providers and single are optional in the configuration file
+Options 'alternatives', 'exact_match', 'providers' and 'single' are optional in the configuration file
