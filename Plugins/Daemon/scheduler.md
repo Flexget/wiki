@@ -68,24 +68,24 @@ schedules:
 All of the different units are optional, and support values like cron. For more details on the types of values that can be used for each of these fields, you can reference the [http://apscheduler.readthedocs.org/en/latest/modules/triggers/cron.html#expression-types apscheduler] documentation. Here are some examples of different ways to set up a schedule:
 {{{
 schedules:
-# Run every 30 minutes on monday
-- tasks: [taskone, tasktwo]
-  schedule:
-    minute: "*/30"
-    day_of_week: mon
-# Run at 22:05, 22:45, 23:05, 23:45
-- tasks: task3
-  schedule:
-    minute: 5,45
-    hour: 22,23
-# Run every 15 minutes on tuesdays and thursdays between noon and 5 pm
-- tasks: task4
-  schedule:
-    day_of_week: tue,thu
-    hour: 12-17
-    minute: "*/15"
-# Run every 2 hours between 8am and 8pm
-- tasks: task5
-  schedule:
-    hour: 8-20/2
+  # Run every 30 minutes on monday
+  - tasks: [taskone, tasktwo]
+    schedule:
+      minute: "*/30"
+      day_of_week: mon
+  # Run at 22:05, 22:45, 23:05, 23:45
+  - tasks: task3
+    schedule:
+      minute: 5,45
+      hour: 22,23
+  # Run every 15 minutes on tuesdays and thursdays between noon and 5 pm
+  - tasks: task4
+    schedule:
+      day_of_week: tue,thu
+      hour: 12-17
+      minute: "*/15"
+  # Run every 2 hours between 8am and 8pm
+  - tasks: task5
+    schedule:
+      hour: 8-20/2
 }}}
