@@ -23,6 +23,8 @@ python -V
 
 Initialize a virtualenv in your checkout directory:
 
+'''{{{NOTE:}}}''' If you would like the virtualenv to be able to use your system packages (most common example is so that deluge plugin can use deluge system package,) create your virtualenv with the `--system-site-packages` flag.
+
 {{{
 virtualenv ~/flexget-dev
 }}}
