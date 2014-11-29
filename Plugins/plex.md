@@ -1,5 +1,7 @@
 = Plex  =
 
+''Note: This plugin has been reported as not compatible with [https://blog.plex.tv/2014/11/20/introducing-plex-home/ PlexHome]''
+
 Produces an entry for each show present in a  [http://www.plexapp.com Plex Media Server] TV section. Can be used with [wiki:Plugins/configure_series configure_series] plugin or an output plugin.
 
 == Configuration ==
