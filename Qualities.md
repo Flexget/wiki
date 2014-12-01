@@ -62,8 +62,8 @@ Qualities are split into four separate categories: resolution, source, codec, an
 - dtshd
 - flac
 - ac3
-- aac
 - dd5.1
+- aac
 - mp3
 }}}
 
