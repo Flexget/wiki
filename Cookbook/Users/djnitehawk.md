@@ -2,7 +2,7 @@ this is my personal config.yml which does the following:
 
 * download tv shows that's in a custom trakt.tv list.
 * download movies watchlisted in my imdb a/c.
-* uses transmission as the client to download torrents.
+* uses deluge as the client to download torrents.
 * uses multiple rss feeds per template.
 * sends a push notification with pushbullet when a torrent is added to transmission.
 * both tv shows and movies are downloaded in 720p resolution.
@@ -10,14 +10,18 @@ this is my personal config.yml which does the following:
 replace everything in ALL_CAPS with your relevant information and you should be good to go.
 
 {{{
+schedules:
+  - tasks: '*'
+    interval:
+      minutes: 10
+
 templates:
   tv:
-    transmission:
+    deluge:
       host: localhost
-      port: TRANSMISSION_PORT
-      username: TRANSMISSION_USERNAME
-      password: TRANSMISSION_PASSWORD
-      addpaused: no
+      port: DELUGE_PORT
+      username: DELUGE_USERNAME
+      password: DELUGE_PASSWORD
       path: PATH_TO_STORE_TV_SHOWS
     configure_series:
       settings:
@@ -33,25 +37,29 @@ templates:
       reject:
         - msd
         - afg
+        - line
     content_size:
       min: 400
       max: 3000
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "{{series_name}} {{series_id}}"
+      title: "[F] {{series_name}} {{series_id}}"
       body: "{{title}}\n\nSize: {{content_size}}MB"
     inputs:
-      - rss: http://PRIVATE_OR_PUBLIC_TORRENT_RSS_FEED_FOR_TV_SHOWS
-      - rss: http://ANOTHER_TORRENT_RSS_FEED_AS_A_BACKUP
+      - rss:
+          url: http://PRIVATE_OR_PUBLIC_TORRENT_RSS_FEED_FOR_TV_SHOWS
+          all_entries: no
+      - rss:
+          url: http://ANOTHER_TORRENT_RSS_FEED_AS_A_BACKUP
+          all_entries: no
 
   movie:
-    transmission:
+    deluge:
       host: localhost
-      port: TRANSMISSION_PORT
-      username: TRANSMISSION_USERNAME
-      password: TRANSMISSION_PASSWORD
-      addpaused: no
+      port: DELUGE_PORT
+      username: DELUGE_USERNAME
+      password: DELUGE_PASSWORD
       path: A_PATH_TO_STORE_MOVIES
     movie_queue: yes
     proper_movies: no
@@ -66,11 +74,15 @@ templates:
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "{{imdb_name}}"
+      title: "[F] {{imdb_name}}"
       body: "{{title}}\n\n{{imdb_url}}\n\nSize: {{content_size}}MB"
     inputs:
-      - rss: http://PRIVATE_OR_PUBLIC_TORRENT_RSS_FEED_FOR_MOVIES
-      - rss: http://ANOTHER_TORRENT_RSS_FEED_AS_A_BACKUP
+      - rss:
+          url: http://PRIVATE_OR_PUBLIC_TORRENT_RSS_FEED_FOR_MOVIES
+          all_entries: no
+      - rss:
+          url: http://ANOTHER_TORRENT_RSS_FEED_AS_A_BACKUP
+          all_entries: no
 
 tasks:
   TV-SHOWS:
@@ -83,7 +95,7 @@ tasks:
       list: watchlist
     accept_all: yes
     queue_movies:
-      quality: dvdrip|bluray|webdl xvid|divx|h264 720p
+      quality: bluray|webdl xvid|divx|h264 720p
     priority: 2
 
   MOVIES:
