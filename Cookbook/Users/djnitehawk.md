@@ -1,7 +1,7 @@
 this is my personal config.yml which does the following:
 
 * download tv shows that's in a custom trakt.tv list.
-* download movies watchlisted in my imdb a/c.
+* download movies watchlisted on imdb.
 * uses deluge as the client to download torrents.
 * uses multiple rss feeds per template.
 * sends a push notification with pushbullet when a torrent is added to transmission.
