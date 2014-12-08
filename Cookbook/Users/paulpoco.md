@@ -1,1 +1,1 @@
-Example of my Config and Series files
+Example of my Config and Series files for Flexget 1.2.231
