@@ -26,8 +26,8 @@ Create /Users/USERNAME/Library/LaunchAgents/com.flexget.plist with:
 	<key>ProgramArguments</key>
 	<array> 
 		<string>/usr/local/bin/flexget</string>
-		<string>execute</string>
 		<string>--cron</string>
+		<string>execute</string>
 	</array>
 	<key>Nice</key>
 	<integer>1</integer>
