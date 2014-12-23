@@ -8,4 +8,4 @@ tasks:
   thetask:
     manual: yes
 }}}
-!FlexGet will not execute {{{thetask}}} unless you run it with the command {{{flexget --task thetask}}}
+!FlexGet will not execute {{{thetask}}} unless you run it with the command {{{flexget execute --task thetask}}}
