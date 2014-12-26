@@ -22,7 +22,7 @@ assuming task accepts the injected entry.
 '''Example use 2:'''
         
 {{{
-flexget execute --tasks some.task --inject "Some.Title" "Some.direct.url" yes yes
+flexget execute --tasks some.task --inject "Some.Title" "Some.direct.url" accept force
 }}}
         
 This would inject imaginary title with direct link to file into a single task, accept it and force it trough even if some filter tries to reject it.
@@ -33,5 +33,5 @@ You can also set arbitrary [wiki:Entry entry fields] when injecting. This is don
 '''Example:'''
 
 {{{
-flexget execute --tasks some.task --inject "Some Title" "Some.direct.url" no no imdb_id=tt33333
+flexget execute --tasks some.task --inject "Some Title" "Some.direct.url" imdb_id=tt33333
 }}}
