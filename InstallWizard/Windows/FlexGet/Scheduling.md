@@ -23,7 +23,7 @@ Open ''Scheduling Tasks'' from windows ''Control panel''.
 '''3.''' Command to execute. If you stored `config.yml` under `Documents and Settings\<user profile>\flexget\` then the `Start in` is not necessary. \\
 '''NOTE:'''
 - If you would like to avoid the cmd window popup, you can use the {{{flexget-headless}}} executable instead of plain {{{flexget}}}.
-- If you have not added the python scripts folder to your PATH environment variable, you should use the full path to flexget in this step. i.e. `C:\Python26\Scripts\flexget-headless.exe execute --cron` for python 2.6
+- If you have not added the python scripts folder to your PATH environment variable, you should use the full path to flexget in this step. i.e. `C:\Python26\Scripts\flexget-headless.exe --cron execute` for python 2.6
 
 [[Image(wiki:WikiPics:scheduling_3.png)]]
 
