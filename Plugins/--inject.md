@@ -1,6 +1,6 @@
 = Inject =
 
-Allows injecting imaginary entry for !FlexGet to process.
+Allows injecting imaginary entry for !FlexGet to process. You can also use the `inject` cli command for a slightly easier format. See `flexget inject --help` for that syntax.
 
 '''Syntax:'''
 
