@@ -141,7 +141,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/move move]||Move local files.||
 ||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
-||[wiki:Plugins/queue_movies queue_movies]||Add to movie queue.||
+||[wiki:Plugins/queue_movies queue_movies]||'''{{{Deprecated}}}''' Add to movie queue.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
