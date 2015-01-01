@@ -1,7 +1,6 @@
 = Movie queue =
 
-Maintains internal list of movies with quality information and accepts them when they're seen on the task.
-You need to manually add movies to the queue from the commandline, or set up a separate task with the [wiki:Plugins/queue_movies queue_movies] plugin which allows automatic queueing from numerous sources like imdb watchlist etc.
+Manages an internal list of movies with quality information. Allows you to accept movies, add movies to the queue, or remove movies from the queue when they are seen on the task. You also have the ability to manually add movies to the queue from the command line.
 
 == Related plugins ==
 
@@ -40,12 +39,61 @@ $ flexget movie-queue list
 http://www.imdb.com/title/tt1038686 720p bluray
 }}}
 
+
+== !Adding/Removing using Tasks ==
+This plugin is an output plugin that adds or removes a movies to your movie queue for each accepted entry in a task. 
+
+With this you could for example queue all movies in your imdb watchlist by creating following task.
+
+'''Example:'''
+
+{{{
+tasks:
+  queue_from_imdb:
+    imdb_list:
+      username: myimdbuser
+      password: mypass
+      list: watchlist
+    accept_all: yes
+    movie_queue: add              # you could also use `remove` if you wanted to remove the item from your queue
+}}}
+
+Or from RSS feed.
+
+'''Example:'''
+
+{{{
+tasks:
+  queue_from_foobar:
+    rss: http://foobar.com/rss.xml # input
+    accept_all: yes                # filter which accepts everything
+    movie_queue: add               # output entries to movie queue (with quality any)
+}}}
+
+These are not tasks in traditional !FlexGet sense as they don't download anything. Instead they are more like utility tasks.
+
+Queue movies will work best with entries containing imdb_id/url or tmdb, if they're not available it will try to get them on it's own. Relying on this will mean that some of the entries may not be added to the movie queue.
+
+
+=== Options ===
+
+You can also specify options for items being added to the movie queue. Most people will not want to use this option. Instead, the [wiki:Plugins/quality quality] plugin should be used in your download task.
+
+{{{
+movie_queue:
+  action: add
+  quality: 720p+ bluray
+}}}
+
+See [wiki:Qualities qualities] page for valid quality requirements.
+
+
 == Enabling the filter ==
 
 Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which tasks the queue is used on. This is done simply by enabling `movie_queue` on them.
 
 {{{
-movie_queue: yes
+movie_queue: accept
 }}}
 
 Since this will also cause imdb and/or tmdb queries it would be best to use it on feeds where there are only movies.
