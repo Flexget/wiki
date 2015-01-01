@@ -1,4 +1,5 @@
 = Queue Movies =
+**//Deprecated as of 1.2.247//**
 
 This plugin is an output plugin that adds a movies to your [wiki:Plugins/movie_queue movie_queue] for each accepted entry in a task. This plugin alone is not useful. To accept the queued movies you will need a task with [wiki:Plugins/movie_queue movie_queue] in it.
 
