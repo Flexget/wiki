@@ -2,7 +2,7 @@
 
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
-This plugin is useful for example when used in a task with the [wiki:Plugins/queue_movies queue_movies] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
+This plugin is useful for example when used in a task with the [wiki:Plugins/movie_queue movie_queue] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
 
 '''Notes:''' 
 
@@ -19,36 +19,9 @@ Currently the following settings are supported:
 ||= Option =||= Description =||
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
 ||'''password'''||Your [http://trakt.tv trakt.tv] password. This is only required if your profile is protected, or to get private custom lists. ||
-||'''api_key'''|| Your [http://trakt.tv trakt.tv] API key, this can be found at [http://trakt.tv/settings/api http://trakt.tv/settings/api] (if logged into trakt.tv) ||
 ||'''strip_dates'''||If set to {{{yes}}} the year will be removed from the end of titles that contain them.||
-{{{#!td valign=top
-'''movies'''
-}}}
-{{{#!td valign=top
-Use a Movies category list as the input, options here are:
-* all
-* loved
-* hated
-* collection
-* watchlist
-* watched
-}}}
-|----------------
-{{{#!td valign=top
-'''series'''
-}}}
-{{{#!td valign=top
-Use a Series category list as the input, options here are:
-* all
-* loved
-* hated
-* collection
-* watchlist
-* watched
-}}}
-|----------------
-||'''custom'''|| Uses a custom list name as the input. ||
-}}}
+||'''list'''||Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, or `watched`
+||'''type'''||Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`
 
 == Config format ==
 
@@ -57,23 +30,21 @@ trakt_list:
   username: <trakt username>
   password: <trakt password> (this is required if the list is not publicly available)
   api_key: <api key>
-  <media type>: <list type>
+  list: <list name>
+  type: <movies|shows|episodes>
 }}}
-
-{{{trakt username}}} and {{{api key}}} should be filled in for your trakt account (your api key can be found [http://trakt.tv/settings/api here].) {{{media type}}} should be either 'series', 'movies' or 'custom'. {{{list type}}} can be one of the following for series and movies lists: 'all', 'collection', 'hated', 'loved', or 'watchlist'. For custom lists, {{{list_type}}} should be the name of the custom list.
 
 === Example: Queue movies ===
 
-This example shows how you would use trakt_list plugin with [wiki:Plugins/queue_movies queue_movies], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]. This example should be in its own task, not combined with your movie downloading task.
+This example shows how you would use trakt_list plugin with [wiki:Plugins/movie_queue movie_queue], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]. This example should be in its own task, not combined with your movie downloading task.
 
 {{{
 trakt_list:
   username: traktusername
-  api_key: a098ae0eae09ae67ea
-  movies: watchlist
+  list: watchlist
+  type: movies
 accept_all: yes
-queue_movies:
-  quality: 720p bluray
+movie_queue: add
 }}}
 
 === Example: Autoconfigure series ===
@@ -85,8 +56,8 @@ configure_series:
   from:
     trakt_list:
       username: traktusername
-      api_key: a098ae0eae09ae67ea
-      custom: following shows
+      list: following shows
+      type: shows
   settings:
     quality: 720p
 }}}
