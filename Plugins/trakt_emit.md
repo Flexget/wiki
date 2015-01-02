@@ -1,5 +1,7 @@
 = Trakt emit =
 
+'''{{{WARNING:}}}''' There is currently a problem with this plugin where it will not emit the next episode properly for a season when it has not yet been aired.
+
 This plugin creates an [wiki:Entry Entry] for the next episode to watch or to collect for each show you have marked seen or collected in your [http://trakt.tv trakt.tv] account.
 
 This plugin can be used in combination with several plugins, like [wiki:Plugins/discover discover] to search for new episodes to download, or [wiki:Plugins/set_series_begin set_series_begin] to reset the first episode for configured series, and so on.[[BR]]
@@ -12,10 +14,9 @@ Currently the following settings are supported:
 ||= Option =||= Description =||
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
 ||'''password'''||Your [http://trakt.tv trakt.tv] password. This is always required because seen and collected info are private.||
-||'''api_key'''|| Your [http://trakt.tv trakt.tv] API key, this can be found at [http://trakt.tv/settings/api http://trakt.tv/settings/api] (if logged into trakt.tv) ||
 ||'''context'''||Can be '''watched''' (default) or '''collected''', it refers to the seen and collected [http://trakt.tv trakt.tv] status.||
 ||'''position'''||Can be '''next''' (default) or '''last''', combined to the "context" option, instructs the plugin to emit the next to watch, the next to collect, the last watched or the last collected episode for each series.||
-||'''list'''||The name of a optional custom [http://trakt.tv trakt.tv] list to limit the series for which to emit entries.||
+||'''list'''||The name of a custom [http://trakt.tv trakt.tv] or built-in list to limit the series for which to emit entries.||
 }}}
 
 === Example: set series begin ===
@@ -27,7 +28,6 @@ This example shows how the trakt_emit plugin could be used with the [wiki:Plugin
     trakt_emit:
       username: your_username
       password: your_password
-      api_key: a098ae0eae09ae67ea
       context: collected
       list: my_tv_show
     accept_all: yes
