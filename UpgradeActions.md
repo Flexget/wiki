@@ -13,11 +13,11 @@ The `movie_queue` plugin has been enhanced to include the ability to add & remov
 
 '''trakt_emit / trakt_add / trakt_remove'''
 
-These plugins have been update to use trakt api v2. They no longer need `api_key`, which should be deleted from their config options.
+These plugins have been update to use trakt api v2. They no longer need `api_key`, which should be deleted from their config options. The built-in list names have been standardized to `watchlist`, `watched`, and `collection.
 
 '''trakt_list'''
 
-Trakt list has been updated to api v2, and the config has been made more consistent with the other trakt plugins. Listing episodes from custom lists is now also possible. `api_key` option should be removed from config. The list and type should now be specified as two separate options, e.g.
+Trakt list has been updated to api v2, and the config has been made more consistent with the other trakt plugins. The built-in list names have been standardized to `watchlist`, `watched`, and `collection. Listing episodes from custom lists is now also possible. `api_key` option should be removed from config. The list and type should now be specified as two separate options, e.g.
 {{{
 trakt_list:
   username: me
