@@ -7,7 +7,30 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
 === 2015.1.1 1.2.247 ===
+'''movie_queue / queue_movies'''
+
 The `movie_queue` plugin has been enhanced to include the ability to add & remove movies removing the need for the `queue_movies` plugin. You will need to replace `movie_queue: yes` with `movie_queue: accept` to add any accepted items in the movie queue. Also, `queue_movies: yes` is replaced by `movie_queue: add`, which adds items to the movie queue.
+
+'''trakt_emit / trakt_add / trakt_remove'''
+
+These plugins have been update to use trakt api v2. They no longer need `api_key`, which should be deleted from their config options.
+
+'''trakt_list'''
+
+Trakt list has been updated to api v2, and the config has been made more consistent with the other trakt plugins. Listing episodes from custom lists is now also possible. `api_key` option should be removed from config. The list and type should now be specified as two separate options, e.g.
+{{{
+trakt_list:
+  username: me
+  api_key: blah
+  movies: watchlist
+}}}
+would now become:
+{{{
+trakt_list:
+  username: me
+  list: watchlist
+  type: movies
+}}}
 
 === 2014.11.22 1.2.224 ===
 The `--cron` flag has been moved to be a base option of !FlexGet. This means it needs to go before `execute` in the command to execute !FlexGet. If you are using this flag from your cron entry (or anywhere else) the command will need to be updated. This also means the flag can now be used when calling commands other than `execute`.
