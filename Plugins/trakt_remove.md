@@ -9,10 +9,7 @@ This plugin can be added to any of your tasks that deal with movies/series, or i
 trakt_remove:
   username: <trakt username>
   password: <trakt password>
-  api_key: <trakt api key>
   list: <list name>
 }}}
 
-The `list` option can be one of the built in trakt lists, `library`, `seen`, or `watchlist`, or the name of one of your custom trakt lists.
-
-Your trakt api key can be found [http://trakt.tv/settings/api here].
+The `list` option can be one of the built in trakt lists, `collection`, `watched`, or `watchlist`, or the name of one of your custom trakt lists.
