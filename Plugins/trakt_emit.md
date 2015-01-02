@@ -1,6 +1,6 @@
 = Trakt emit =
 
-'''{{{WARNING:}}}''' There is currently a problem with this plugin where it will not emit the next episode properly for a season when it has not yet been aired.
+'''{{{WARNING:}}}''' There is currently a problem with this plugin where it will not emit the next episode properly for a season when it has not yet been aired. #2831
 
 This plugin creates an [wiki:Entry Entry] for the next episode to watch or to collect for each show you have marked seen or collected in your [http://trakt.tv trakt.tv] account.
 
