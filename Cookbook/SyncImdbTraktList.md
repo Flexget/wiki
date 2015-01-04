@@ -10,18 +10,17 @@ tasks:
       list: watchlist
     accept_all: yes
     trakt_add:
-      api_key: xxxxxx
       username: myusername
       password: mypassword
-      movies: watchlist
+      list: watchlist
     disable_builtins: [seen]  # If you wish to be able to remove things from the trakt list directly, without them being re-added, remove this line
 
   imdb_to_trakt_remove:  # This task removes anything in your trakt watchlist which is no longer in your imdb watchlist
     trakt_list:
-      api_key: xxxxxx
       username: myusername
       password: mypassword
-      movies: watchlist
+      list: watchlist
+      type: movies
     crossmatch:
       from:
         - imdb_list:
@@ -31,7 +30,6 @@ tasks:
       action: reject
     accept_all: yes
     trakt_remove:
-      api_key: xxxxxx
       username: myusername
       password: mypassword
       list: watchlist
