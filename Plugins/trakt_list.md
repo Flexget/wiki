@@ -29,7 +29,6 @@ Currently the following settings are supported:
 trakt_list:
   username: <trakt username>
   password: <trakt password> (this is required if the list is not publicly available)
-  api_key: <api key>
   list: <list name>
   type: <movies|shows|episodes>
 }}}
