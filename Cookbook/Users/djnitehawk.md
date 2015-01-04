@@ -30,8 +30,8 @@ templates:
       from:
         trakt_list:
           username: TRAKT_USERNAME
-          api_key: TRAKT_API_KEY
-          custom: A_CUSTOM_TRAKT_LIST_TO_GET_SERIES_NAMES_FROM
+          list: A_CUSTOM_TRAKT_LIST_TO_GET_SERIES_NAMES_FROM
+          type: shows
           strip_dates: yes
     regexp:
       reject:
@@ -61,8 +61,7 @@ templates:
       username: DELUGE_USERNAME
       password: DELUGE_PASSWORD
       path: A_PATH_TO_STORE_MOVIES
-    movie_queue: yes
-    proper_movies: no
+    movie_queue: accept
     regexp:
       reject:
         - msd
@@ -94,7 +93,8 @@ tasks:
       user_id: IMDB_USER_ID
       list: watchlist
     accept_all: yes
-    queue_movies:
+    movie_queue:
+      action: add
       quality: bluray|webdl xvid|divx|h264 720p
     priority: 2
 
