@@ -19,7 +19,7 @@ An overview of available search plugins can be found [wiki:Searches here]. For a
 
 === Example: Input configs ===
 
-It's advised to have inputs queued to series or movies list (via for example a task doing '[wiki:Plugins/queue_movies queue_movies]: yes'). Then use either:
+It's advised to have inputs queued to series or movies list (via for example a task doing '[wiki:Plugins/movie_queue movie_queue]: add'). Then use either:
 
 {{{
 discover:
