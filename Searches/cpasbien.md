@@ -25,17 +25,17 @@ cpasbien: <category>
 
 Example with discover:
 {{{
-          tv_search_cpasbien:
-            discover:
-              what:
-                 - trakt_list:
-                   username: xxxxxxx
-                   api_key: xxxxxxx
-                        series: watchlist
-                  from:
-                    - cpasbien:
-                        category: "series-vostfr"
-                  interval: 1 day
-                  ignore_estimations: yes
+tv_search_cpasbien:
+  discover:
+    what:
+      - trakt_list:
+          username: xxxxxxx
+          list: watchlist
+          type: shows
+    from:
+      - cpasbien:
+          category: series-vostfr
+    interval: 1 day
+    ignore_estimations: yes
 }}}
 
