@@ -11,10 +11,10 @@ tasks:
     priority: 1 # run before the movie search task
     trakt_list:
       username: myusername
-      api_key: myapikey
-      movies: watchlist
+      list: watchlist
+      type: movies
     accept_all: yes
-    queue_movies: yes
+    movie_queue: add
 
   # task that automatically generates an rss feed based on entries from the movie_queue
   movies search:
@@ -28,7 +28,7 @@ tasks:
       interval: 7 days
     torrent_alive: 10 # Will reject results with less than 10 seeds
     quality: dvdrip+ # Make sure no screeners or cams are downloaded
-    movie_queue: yes
+    movie_queue: accept
     transmission: yes # You could use another output plugin instead of this (deluge, download)
 }}}
-Plugins used: [wiki:Plugins/template template], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/queue_movies queue_movies], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
+Plugins used: [wiki:Plugins/template template], [wiki:Plugins/priority priority], [wiki:Plugins/set set], [wiki:Plugins/transmission transmission], [wiki:Plugins/trakt_list trakt_list], [wiki:Plugins/trakt_acquired trakt_acquired], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/movie_queue movie_queue], [wiki:Plugins/torrent_alive torrent_alive], [wiki:Plugins/discover discover] using [wiki:Searches search plugins] [wiki:Searches/isohunt isohunt] and torrentz.
