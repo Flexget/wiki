@@ -9,8 +9,8 @@ This plugin sets the episode to start getting a series from, for each accepted e
     trakt_emit:
       username: your_username
       password: your_password
-      api_key: your_api_key
       context: collected
+      list: collection
     accept_all: yes
     set_series_begin: yes
 }}}
