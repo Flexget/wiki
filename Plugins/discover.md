@@ -41,8 +41,8 @@ discover:
         - trakt_list:
             username: USERNAME
             password: PASSWORD
-            api_key: API_KEY
-            movies: watchlist
+            list: watchlist
+            type: movies
       from:
         ...
 }}}
