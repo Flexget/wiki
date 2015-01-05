@@ -22,8 +22,8 @@ tasks:
     trakt_list:
       username: '{{ secrets.a_long.time_ago }}'
       password: '{{ secrets.a_long.in_a_galaxy }}'
-      api_key: '{{ secrets.a_long.far.far.away }}'
-      custom: test
+      list: test
+      type: movies
 }}}
 
 And this is the {{{secretfile.yml}}} content:
@@ -56,8 +56,8 @@ tasks:
     trakt_list:
       username: 'xxx'
       password: 'yyy'
-      api_key: 'zzz'
-      custom: test
+      list: test
+      type: movies
 }}}
 
 '''Notes:'''
