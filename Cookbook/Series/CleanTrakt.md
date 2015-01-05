@@ -4,14 +4,13 @@ If you are using configure_series with a trakt list, periodically you may wish t
 trakt_list:
   username: ***
   password: ***
-  api_key: ***
-  custom: my list name
+  list: my list name
+  type: shows
 trakt_lookup: yes
 if:
   - trakt_in_collection and trakt_series_status == 'Ended': accept
 trakt_remove:
   username: ***
   password: ***
-  api_key: ***
   list: my list name
 }}}
