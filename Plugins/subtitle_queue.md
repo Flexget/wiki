@@ -1,6 +1,6 @@
 = Subtitle Queue =
 
-Queue files and download subtitles. No command line features as of yet (may come later).
+Queue files and download subtitles. Available since v1.2.256. No command line features as of yet (may come later).
 
 == Features ==
 
