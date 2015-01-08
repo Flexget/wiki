@@ -21,7 +21,7 @@
 ||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
 ||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
 ||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
-||[wiki:Searches/cpasbien cpasbien.pe]||Generates entries from [http://www.cpasbien.pe/ cpasbien.pe]||
+||[wiki:Searches/cpasbien cpasbien.pw]||Generates entries from [http://www.cpasbien.pw/ cpasbien.pw]||
 
 You can always get an up to date overview of the available search plugins by using the command line. On Flexget>=1.2, the command is now 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
