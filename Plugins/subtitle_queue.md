@@ -79,3 +79,4 @@ These plugins work nicely with the {{{emit}}}
  * This plugin has not been tested very thoroughly. Please submit a ticket if something goes wrong.
  * It can take a while before someone creates a subtitle for some videos. It is adviceable to disable [wiki:Plugins/retry_failed retry_failed] in the emit task.
  * There are {{{seen}}} clashes in queue and emit. It may be necessary to disable {{{seen}}} or at least use {{{seen: local}}} in the task.
+ * Plugin supports {{{content_filename}}} but it is restricted. If no {{{alternate_path}}} is specified, then it will set the alternate path to {{{path}}} and use {{{content_filename}}} as the filename. If both paths are specified, then it will only apply {{{content_filename}}} to the {{{alternate_path}}}.
