@@ -1,5 +1,11 @@
+= WARNING =
+
+As cpasbien switched to cloudflare, I had to modify the code.
+So now, you have to have https://github.com/Anorov/cloudflare-scrape and all it's dependency to make it work.
+Also, the file cfscrape.py must be put in the folder : /var/lib/flexget
+
 = CPASBIEN Search plugin =
-This search plugin will get results from [http://www.cpasbien.pe/]
+This search plugin will get results from [http://www.cpasbien.pw/]
 
 == Configuration ==
 Configuration requires only the category and you can only have ONE:
