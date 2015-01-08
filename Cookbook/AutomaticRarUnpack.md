@@ -23,6 +23,8 @@ feeds:
       accept:
         - part01.rar$
         - part001.rar$
+    # Find plugin doesn't put the extension in the titles of entries, so we need to tell it to look at the location
+      from: location
 
     # Disregard already processed files
     only_new: yes
@@ -43,3 +45,13 @@ feeds:
 }}}
 
 Paths are windows specific of course, but apart from that it should work for other platforms just fine.
+
+For most *nix distributions, after coping unrar to your PATH and either modifying set.output_path or specifying an absolute path (as below) this should work:
+
+{{{
+
+      on_output:
+        for_accepted: >
+          unrar e -o- "{{location}}" "/Volumes/Media/Unsorted Videos"
+
+}}}
