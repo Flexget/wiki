@@ -12,14 +12,12 @@ Queue files and download subtitles. No command line features as of yet (may come
 == Plugin Settings ==
 
 Currently the following settings are supported:
-
-{{{#!div style="margin-left: 25px"
-||= Option =||= Description =||
-||'''action'''||Either {{{add}}} or {{{remove}}}. ||
-||'''stop_after'''|| Stop retrying after x days/hours/minutes/etc. ||
-||'''path'''|| The path for the file. Supports Jinja2. ||
-||'''alternate_path'''||An alternative path for the file. Supports Jinja2. ||
-||'''languages'''|| Either a single language or a list of languages (as IETF codes).
+||'''Name'''||'''Info'''||'''Description'''||
+||'''action'''||[add|remove]|| Add or remove items to/from the queue. ||
+||'''stop_after'''|| interval || Stop retrying after x days/hours/minutes/etc. ||
+||'''path'''||string||The path for the file. Supports Jinja2. ||
+||'''alternate_path'''||string||An alternative path for the file. Supports Jinja2. ||
+||'''languages'''||string or array||Either a single language or a list of languages (as IETF codes).
 
 '''Examples:'''
 
