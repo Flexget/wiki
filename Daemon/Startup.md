@@ -279,7 +279,7 @@ To have flexget by accessible as a systemd user unit.
 
 See [https://wiki.archlinux.org/index.php/Systemd/User#User_Services here] for more.
 
-sudo vim /usr/lib/systemd/user/flexget.service
+sudo vim /usr/lib/systemd/user/flexget.service or vim ~/.config/systemd/user/flexget.service
 {{{
 [Unit]
 Description=FlexGet Daemon
