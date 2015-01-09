@@ -163,16 +163,16 @@ end_log() {
 
 # Function to define config file, log file and log level
 conf_check() {
-        if [ -z $CONFIG ]; then
+        if [ -z "$CONFIG" ]; then
                 OPTIONS="$OPTIONS"
         else
                 OPTIONS="-c $CONFIG"
         fi
-        if [ -z $LOG ]; then
+        if [ -z "$LOG" ]; then
                 OPTIONS="$OPTIONS"
         else
                 OPTIONS="$OPTIONS -l $LOG/flexget.log"
-                if [ ! -d $LOG ]; then 
+                if [ ! -d "$LOG" ]; then 
                         mkdir -p -m 750 $LOG
                         chown $FGUSER $LOG
                 fi
