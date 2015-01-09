@@ -9,6 +9,10 @@ Queue files and download subtitles. Available since v1.2.256. No command line fe
  * Queue the contents of torrents.
  * Use multiple queue tasks to queue files with different languages eg. one queue task to get only english subtitles for some files and another to get strictly swedish for other files.
 
+== Broken Features ==
+ 
+ * Queueing the contents of a multi-file torrent currently queues the folder instead of individual files. The subliminal plugin does not support folders.
+
 == Plugin Settings ==
 
 Currently the following settings are supported:
