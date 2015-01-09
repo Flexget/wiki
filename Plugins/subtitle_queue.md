@@ -13,7 +13,7 @@ Queue files and download subtitles. Available since v1.2.256. No command line fe
 == !Broken/Missing Features ==
  
  * Queueing the contents of a multi-file torrent currently queues the folder instead of individual files. The subliminal plugin does not support folders. Plugin will try to emit the files inside the folder -- however, that is somewhat untested.
- * {{{main_file_only}}} is not really supported and may result in queueing the wrong file paths. Use with caution. If a multi-file torrent is queued, it expects to find the video files in a folder that bears the name of the torrent (as per bittorrent standards). Using the deluge feature {{{main_file_only}}} will move the main file one level up.
+ * {{{main_file_only}}} may not play nice with the queue. Untested.
 
 == Plugin Settings ==
 
