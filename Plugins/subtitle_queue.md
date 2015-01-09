@@ -8,6 +8,7 @@ Queue files and download subtitles. Available since v1.2.256. No command line fe
  * Supports Jinja2 templating.
  * Queue the contents of torrents.
  * Use multiple queue tasks to queue files with different languages eg. one queue task to get only english subtitles for some files and another to get strictly swedish for other files.
+ * If a file does not exist, it will be kept in the queue for 24 hours from the time it was added. May be enabled as a plugin setting in the future.
 
 == !Broken/Missing Features ==
  
