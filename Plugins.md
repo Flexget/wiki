@@ -45,6 +45,7 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
+||[wiki:Plugins/emit_digest emit_digest]||'''{{{NEW}}}''' Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||'''{{{NEW}}}''' Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/find find]||Search through a local directory looking for files as a input.||
@@ -134,6 +135,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/copy copy]||Copy local files.||
 ||[wiki:Plugins/delete delete]||Delete local files.||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
+||[wiki:Plugins/digest digest]||'''{{{NEW}}}''' Collects entries from tasks to be combined into another task (usually for notification.)||
 ||[wiki:Plugins/download download]||Download passed entries into given path.||
 ||[wiki:Plugins/exec exec]||Executes commands on entries.||
 ||[wiki:Plugins/ftp_download ftp_download]||'''{{{NEW}}}''' Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
