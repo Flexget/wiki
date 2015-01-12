@@ -22,3 +22,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/UnNefer UNNEFER'S ULTIMATE FLEXGET CONFIG] - Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications
 * [wiki:Cookbook/Users/paulpoco] TV and Movies config and series
 * [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.254) simple movie & tv downloading config
+* [wiki:Cookbook/Users/buthidae buthidae] (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
