@@ -173,8 +173,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/clean_transmission clean_transmission]||'''{{{NEW}}}''' Clean Transmission queue.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
-||[wiki:Plugins/disable_builtins disable_builtins]||Disable builtin plugin(s) from a task.||
-||[wiki:Plugins/disable_plugin disable_plugin]||Disable plugins from templates.||
+||[wiki:Plugins/disable disable]||Disable builtin plugin(s) from a task, or plugins included from a template.||
 ||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
