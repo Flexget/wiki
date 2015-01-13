@@ -1,3 +1,11 @@
+== Using the synocommunity package ==
+The synocommunity repository [https://synocommunity.com/] includes a !FlexGet package. Follow the homepage instructions to add synocommunity to your NAS, and then install Python and !FlexGet through the web interface. The config file will be available at `/usr/local/flexget/var/config.yml`.
+
+An alternative is to install with `easy_install` as detailed in the rest of this tutorial.
+
+== Installing with easy_install ==
+
+
 ''These instruction were written from memory some time after successfully installing !FlexGet on a Synology DS210j. If any packages fail to install then check the output messages for missing dependencies, version numbers, etc, and install the required packages. If you install !FlexGet following these instructions then please correct any errors, add missing information and delete this paragraph.''
 
 = Set up environment =
