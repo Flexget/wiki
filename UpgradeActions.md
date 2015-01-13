@@ -6,6 +6,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2015.1.12 1.2.261 ===
+`disable_builtins` and `disable_plugin` plugins have been combined into the [wiki:Plugins/disable disable] plugin. You will need to replace both in your config with just `disable`. If you were using `disable_builtins: yes` form, this should be changed to `disable: builtins`
+
 === 2015.1.1 1.2.247 ===
 '''movie_queue / queue_movies'''
 
