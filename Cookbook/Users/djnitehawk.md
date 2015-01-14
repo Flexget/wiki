@@ -4,7 +4,7 @@ this is my personal config.yml which does the following:
 * download movies watchlisted on imdb.
 * uses deluge as the client to download torrents.
 * uses multiple rss feeds per template.
-* sends a push notification with pushbullet when a torrent is added to transmission.
+* sends a push notification with pushbullet when a torrent is added to deluge.
 * both tv shows and movies are downloaded in 720p resolution.
 
 replace everything in ALL_CAPS with your relevant information and you should be good to go.
