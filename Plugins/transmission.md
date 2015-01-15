@@ -108,22 +108,7 @@ transmission:
 
 === Transmission Tips ===
 
-'''After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [wiki:clean_transmission clean_transmission] plugin'''
-
-'''After r1277 you can simply use the removewhendone option'''
-
-Transmission annoyingly does not have any way to easily remove completed torrents from it's UI.
-Luckily if you have transmission-remote installed you can script it.
-
-Create an executable script named: transmission-cleanup.sh:
-
-{{{
-transmission-remote -l  | grep 100% | grep Done | awk '{print $1}' | xargs -n 1 -J % ./transmission-remote -t % -r
-}}}
-
-Note: if your transmission is username/password protected add a --auth <user>:<password> to the above calls to transmission-remote.
-
-Add this script to your crontab.
+After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [wiki:clean_transmission clean_transmission] plugin
 
 === Content Renaming ===
 
