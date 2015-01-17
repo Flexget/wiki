@@ -3,10 +3,31 @@
 <h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
 }}}
 
-'''{{{ATTENTION:}}}'''
- We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
+'''{{{ATTENTION:}}}''' We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
 
- As we are always trying to update and expand the features of !FlexGet, please refer to [wiki:UpgradeActions] for relevant information before upgrading your installation.
+
+== Important wiki pages ==
+
+ * '''[wiki:Install Installation guide]'''
+   * [wiki:Upgrade Upgrading]
+   * [wiki:Download Manual Download]
+ * '''[wiki:Configuration]'''
+   * [wiki:PitFalls Common pitfalls]
+ * '''[wiki:Cookbook The Cookbook]'''
+ * '''[wiki:Developers Developers]'''
+ * '''[wiki:Plugins Plugins]'''
+ * '''[http://discuss.flexget.com Forum]'''
+ * '''[wiki:ChangeLog Change Log]'''
+
+
+== Description ==
+
+!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages], [wiki:Plugins/csv csv files], search engines and there are even plugins for sites that do not provide any kind of useful feeds.
+
+There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
+
+!FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support or provide interface for external utilities like !FlexGet.
+
 
 == Feature highlights ==
 
@@ -65,14 +86,6 @@
 <div style="clear:left;"/>
 }}}
 
-== Description ==
-
-!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages], [wiki:Plugins/csv csv files], search engines and there are even plugins for sites that do not provide any kind of useful feeds.
-
-There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
-
-!FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support or provide interface for external utilities like !FlexGet.
-
 
 == How easy is it to use? ==
 
@@ -100,19 +113,7 @@ You can find more configuration examples in [wiki:Cookbook The Cookbook].
 
 For more information about how !FlexGet works, check available [wiki:Plugins plugins] or detailed [wiki:Configuration configuration].
 
+
 == Developers wanted ==
 
 We're seeking new developers for [wiki:Web-UI web interface]. Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
-
-== Important wiki pages ==
-
- * '''[wiki:Install Installation guide]'''
-   * [wiki:Upgrade Upgrading]
-   * [wiki:Download Manual Download]
- * '''[wiki:Configuration]'''
-   * [wiki:PitFalls Common pitfalls]
- * '''[wiki:Cookbook The Cookbook]'''
- * '''[wiki:Developers Developers]'''
- * '''[wiki:Plugins Plugins]'''
- * '''[http://discuss.flexget.com Forum]'''
- * '''[wiki:ChangeLog Change Log]'''
