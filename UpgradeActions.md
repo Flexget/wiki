@@ -2,6 +2,8 @@
 
 Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
+'''{{{NOTE:}}}''' You can use this [http://feed43.com/flexget_upgrade_actions.xml RSS Feed] to keep up with "major" changes.
+
 == Instructions ==
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
