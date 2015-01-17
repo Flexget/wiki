@@ -32,6 +32,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||imdb_url||[wiki:Plugins/imdb_lookup imdb_lookup]+others||Imdb url||
 ||imdb_id||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb identifier||
 ||imdb_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb name||
+||imdb_original_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb original name||
 ||imdb_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb year||
 ||imdb_score||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb score||
 ||imdb_votes||[wiki:Plugins/imdb_lookup imdb_lookup]*||Imdb votes||
