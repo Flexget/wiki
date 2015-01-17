@@ -6,7 +6,7 @@ Motivations:
 - Want a common framework, so that all plugins make sure to provide similar info about entries representing a similar thing.
 - A plugin like trakt_lookup wants to check whether an entry represents a show/episode/movie easily before doing a lookup
 - fields like imdb_id may refer to many different things, in the past many plugins assumed this meant the entry was a movie
-- url is a mandatory field, but we have several types of tasks that deal with non-downloadable things now. We make up somewhat useless urls for that stuff now, that should never be downloaded
+- url is a mandatory field, but we have several types of tasks that deal with non-downloadable things now. We make up somewhat useless urls for that stuff now, that should never be downloaded. (but things like urlrewrite still try to run, even when the url is an imdb or trakt one, or a made up local one from mock plugin)
 
 === Idea 1: field promises ===
 Have a system where entries can be tagged with one or more types. Plugins often only want to operate on a certain type of entry. Being tagged with a type would imply that it has one or more fields available, for example:
