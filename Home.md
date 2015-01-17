@@ -3,7 +3,10 @@
 <h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
 }}}
 
-'''{{{ATTENTION:}}}''' We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
+'''{{{ATTENTION:}}}'''
+ We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
+
+ As we are always trying to update and expand the features of !FlexGet, please refer to [wiki:UpgradeActions] for relevant information before upgrading your installation.
 
 == Feature highlights ==
 
