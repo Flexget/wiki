@@ -3,7 +3,7 @@
 <h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
 }}}
 
-'''{{{ATTENTION:}}}''' 1.2 release contains several changes, see [wiki:UpgradeActions]!
+'''{{{ATTENTION:}}}''' We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
 
 == Feature highlights ==
 
