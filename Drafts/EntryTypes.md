@@ -17,5 +17,5 @@ Have a system where entries can be tagged with one or more types. Plugins often 
 ||movie||movie_name||
 ||torrent||url, torrent||
 Issues:
-- We'd probably want things like movie_year, but we might want to tag something as a movie even though we don't have a year, so we can't really promise that, but it would be nice to somehow have a more enforceable standard for plugins wanting to read/set that
+- We'd probably want things like movie_year, but we might want to tag something as a movie even though we don't know the year, so we can't really promise that, but it would be nice to somehow have a more enforceable standard for plugins wanting to read/set that
 - episodes can have multiple different numbering schemes, I put series_id as a required field, but what about things like series_season, and series_episode, which wouldn't exist for a dated episode
