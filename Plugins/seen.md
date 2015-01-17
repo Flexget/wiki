@@ -12,7 +12,7 @@ seen: local
 
 == Commanline options ==
 
-Plugin has few command line options starting from bleeding edge / 1.0
+Plugin has few command line options. See also CLI help for syntax info. (`flexget seen --help`)
 
 === forget ===
 
