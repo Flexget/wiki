@@ -1,3 +1,7 @@
+{{{
+#!html
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feed43.com/flexget_upgrade_actions.xml" />
+}}}
 = Required Upgrading Actions =
 
 Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
