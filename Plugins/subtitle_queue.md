@@ -14,6 +14,7 @@ Queue files and download subtitles. Available since v1.2.256. No command line fe
  
  * Queueing the contents of a multi-file torrent currently queues the folder instead of individual files. The subliminal plugin does not support folders. Plugin will try to emit the files inside the folder -- however, that is somewhat untested.
  * {{{main_file_only}}} may not play nice with the queue. Untested.
+ * Queued folders are currently bugged and will not update paths if their contents are moved and requeued -- does not have a negative impact on functionality, it just means that queued folders will remain in the queue for 24 hours even if they are empty.
 
 == Plugin Settings ==
 
@@ -23,7 +24,7 @@ Currently the following settings are supported:
 ||'''stop_after'''|| interval || Stop retrying after x days/hours/minutes/etc. ||
 ||'''path'''||string||The path for the file. Supports Jinja2. ||
 ||'''alternate_path'''||string||An alternative path for the file. Supports Jinja2. ||
-||'''languages'''||string or array||Either a single language or a list of languages (as IETF codes).
+||'''languages'''||string or array||Either a single language or a list of languages (as IETF codes -- defaults to "en" [English]).
 
 '''Examples:'''
 
