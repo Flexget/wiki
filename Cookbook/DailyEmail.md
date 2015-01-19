@@ -32,7 +32,7 @@ feeds:
   emailfeed:
     interval: 1 days
     rss:
-      url: /~/downloaded.rss
+      url: file:///home/user/downloaded.rss
     disable_builtins: [seen]
     accept_all: yes
     email:
