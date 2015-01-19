@@ -1,39 +1,26 @@
 = Send daily email of accepted downloads =
 
-This will produce an email containing all downloads accepted from feeds that contain the rssout template. The email will be sent once per day no matter how often flexget is executed.
-
-'''Notes:'''
-
- * Use this only if you absolutely want to limit emails once per day. For immediate email notification the [wiki:Plugins/email email] plugin alone is sufficient.
- * This has not been fully tested yet, might need some tweaks
- * A bit hackish and prevents you from using `make_rss` for other purposes
- * This can't be added in global template!
+This will produce a daily email containing all downloads accepted from multiple different tasks. The email will be sent once per day no matter how often flexget is executed.
 
 {{{
-templates:
-  rssout:
-    make_rss:
-      file: ~/downloaded.rss
-      days: 1
-
 feeds:
   realfeeda:
     rss: http://something.com/feed.rss
-    template: rssout
+    digest: daily email
     series:
       - good show
 
   realfeedb:
     rss: http://somethingelse.com/feed.rss
-    template: rssout
+    digest: daily email
     series:
       - other show
 
   emailfeed:
     interval: 1 days
-    rss:
-      url: file:///home/user/downloaded.rss
-    disable_builtins: [seen]
+    emit_digest:
+      list: daily email
+    seen: local
     accept_all: yes
     email:
       from: xxx@xxx.xxx
