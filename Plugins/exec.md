@@ -84,12 +84,12 @@ exec:
 
 === Auto escape option ===
 
-If one of your variables may contain characters that need to be escaped for the shell, you can use the {{{auto_escape}}} option. This will escape all non-word characters with backslash before doing string substitution. For example:
+If one of your variables may contain characters that need to be escaped for the shell, you need to surround it by double quotes and use the {{{auto_escape}}} option. This will escape all double quotes inside the variable and therefore ensure that your surrounding double quotes will not cause any problems. The surrounding double quotes then take care of anything else that would need escaping otherwise. For example:
 {{{
 exec:
   auto_escape: yes
   on_output: 
-    for_accepted: echo accepted\ {{title}}\ -\ {{url}} > file
+    for_accepted: echo accepted "{{title}}" - {{url}} > file
 }}}
 
 === Allow background option ===
