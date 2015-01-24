@@ -7,21 +7,26 @@
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Searches/btn btn]||Searches private torrent site BTN||
+||[wiki:Searches/cpasbien cpasbien]||Generates entries from [http://www.cpasbien.pw/ cpasbien.pw]||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
 ||[wiki:Searches/iptorrents iptorrents]||Generates entries from [http://iptorrents.com iptorrents.com]||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
 ||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
-||newzleech||broken as Newzleech.com is no more||
-||[wiki:Searches/piratebay piratebay]||Generates entries from [http://thepiratebay.gl/ the piratebay]||
+||newzleech||Broken as Newzleech.com is no more||
+||[wiki:Searches/urlrewrite_newznab newznab]||Generates entries from [http://newznab.com newznab.com]||
+||[wiki:Searches/nyaa nyaa]||Generates entries from [http://nyaa.se/ nyaa.se]||
+||[wiki:Searches/piratebay piratebay]||Generates entries from [http://thepiratebay.gl/ thepiratebay]||
 ||[wiki:Searches/ptn ptn]||Searches private torrent site PtN||
 ||[wiki:Searches/publichd publichd]||Generates entries from [http://publichd.se/ PublicHD]||
+||sceneaccess||Searches private torrent site sceneaccess||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||[wiki:Searches/t411 torrent411]||Generates entries from [http://www.t411.me/ t411.me]||
-||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ Torrentleech]||
-||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu Torrentz.eu]||
-||[wiki:Searches/urlrewrite_newznab urlrewrite_newznab]||Search a newznab website for entries.||
-||[wiki:Searches/cpasbien cpasbien.pw]||Generates entries from [http://www.cpasbien.pw/ cpasbien.pw]||
+||torrentshack||Searches private torrent site torrentshack||
+||[wiki:Searches/torrentleech torrentleech]||Generates entries from [http://torrentleech.org/ torrentleech.org]||
+||[wiki:Searches/torrentz torrentz]||Generates entries from [http://torrentz.eu torrentz.eu]||
+||whatcd||Searches private torrent site whatcd||
+
 
 You can always get an up to date overview of the available search plugins by using the command line. On Flexget>=1.2, the command is now 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
