@@ -39,6 +39,8 @@ stop on runlevel [016]
 respawn
 respawn limit 5 30
 
+# to find your local run the locale command an example local would be en_US.utf8
+env LANG=<YOUR UTF-8 LOCAL>
 env uid=<USER_TO_RUN_AS>
 env gid=<GROUP_TO_RUN_AS>
 env loglvl=<LOG_LEVEL_FROM LIST BELOW>
