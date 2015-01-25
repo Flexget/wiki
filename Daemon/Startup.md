@@ -41,8 +41,10 @@ respawn limit 5 30
 
 env uid=<USER_TO_RUN_AS>
 env gid=<GROUP_TO_RUN_AS>
+env loglvl=<LOG_LEVEL_FROM LIST BELOW>
+#log levels none, critical,error, warning, info, verbose, debug, trace
 
-exec start-stop-daemon -S -c $uid:$gid -x /usr/local/bin/flexget -- daemon start
+exec start-stop-daemon -S -c $uid:$gid -x /usr/local/bin/flexget -- -L $loglvl daemon start
 }}}
 
 Read log: 
