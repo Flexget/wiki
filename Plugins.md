@@ -203,6 +203,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
+||[wiki:Jinja]||Jinja2 templating information||
 
 == Metainfo ==
 
