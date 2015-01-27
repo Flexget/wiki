@@ -10,7 +10,7 @@
 #<b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
 
-Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates.
+Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates. Many plugins can use the [wiki:Jinja Jinja2 ] template system.
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file. All these plugins are included in the !FlexGet package with the exception of ones in 3rd party plugins section.
 
@@ -203,7 +203,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
-||[wiki:Jinja]||Jinja2 templating information||
 
 == Metainfo ==
 
