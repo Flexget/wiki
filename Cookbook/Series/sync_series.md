@@ -7,7 +7,7 @@ This is useful if your feeds break and you have downloaded a bunch of series fil
     manual: yes
     find:
       path:
-        - /[path to your series]/
+        - /[path to your series folders]/
       regexp: '.*\.(mp4|avi|mkv)$'
       recursive: yes
     disable: builtins
