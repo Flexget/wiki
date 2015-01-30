@@ -27,6 +27,7 @@
 * [wiki:Cookbook/Series/PlexToPlexDownload Download episodes from a remote PMS by using local PMS as input]
 * [wiki:Cookbook/Series/DiscoverSeriesWithNewznab Download nzb for series episodes from a newznab website]
 * [wiki:Cookbook/Series/RemoveByExtension Remove and forget episodes by file extension]
+* [wiki:Cookbook/Series/sync_series Remove gaps in your series database by searching a folder for episodes you already downloaded]
  
 == Resources ==
 
