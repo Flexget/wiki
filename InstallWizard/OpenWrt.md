@@ -51,7 +51,7 @@ pip install flexget -b /your/path/to/extstorage/tmp
 
 This will install !FlexGet and all additional components it requires.
 
-If the installation fails (IOError's, End of file...), it's related to a full filesystem, review your extroot.
+If the installation fails (IOError's, End of file...), it's related to a full file system, review your extroot.
  
 == Verify installation ==
 
@@ -72,8 +72,12 @@ Once you have completed the above step "opkg install distribute"
 
 Run command:
 
-export PYTHONPATH=$PYTHONPATH:/mnt/sda1      [Where /mnt/sda1/ is my mounted USB flash drive]
-easy_install -d /mnt/sda1/ flexget           [Install "Flexget" using easy_install]
+{{{ 
+export PYTHONPATH=$PYTHONPATH:/mnt/sda1   
+easy_install -d /mnt/sda1/ flexget
+}}}
+
+[Where /mnt/sda1/ is my mounted USB flash]
 
 You can also put the above export command in the "startup" section of openWRT so that path is loaded at router bootup.
 
