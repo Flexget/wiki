@@ -62,7 +62,25 @@ Run command:
 FlexGet 1.0r2230
 }}}
 
+
+== Alternate Install method for Flexget ==
+
+In some cases, using pip to extract the tar on an external path might still not be enough to have enough space on the / partition of the router to be able to install flexget.
+
+You can use the following to set Python's path to point to the external storage so that it installs all packages on your external path e.g an attached USB flash drive
+Once you have completed the above step "opkg install distribute"
+
+Run command:
+
+export PYTHONPATH=$PYTHONPATH:/mnt/sda1      [Where /mnt/sda1/ is my mounted USB flash drive]
+easy_install -d /mnt/sda1/ flexget           [Install "Flexget" using easy_install]
+
+You can also put the above export command in the "startup" section of openWRT so that path is loaded at router bootup.
+
+
+
+
+
 == Continue ==
 
 [wiki:InstallWizard/Linux/Environment/FlexGet/Scheduling Scheduling]
-
