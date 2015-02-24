@@ -110,7 +110,7 @@ tasks:
   My_TV_Shows_fr_anime:
     priority: 3
     template:
-      - tv-my_shows_fr
+      - tv-my_shows_fr_anime
 
   My_TV_Shows_anime:
     priority: 2
