@@ -23,4 +23,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/paulpoco] TV and Movies config and series
 * [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.254) simple movie & tv downloading config
 * [wiki:Cookbook/Users/buthidae buthidae] (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
-* [wiki:Cookbook/Users/lilp] (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move.
+* [wiki:Cookbook/Users/lilp] (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. French User
