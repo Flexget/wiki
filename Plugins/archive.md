@@ -1,5 +1,8 @@
 == Archive ==
 
+The archive plugin will keep a history of all entries from a given task, whether they have been accepted or not. This archive can then later be searched, and entries injected into a task again.
+
+
 Simply enable without any tagging.
 
 {{{
