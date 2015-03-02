@@ -1,22 +1,25 @@
-Exemple de fichier de configuration pour le téléchargement des séries en VOSTFR et HD depuis T411 et avec le logiciel Deluged.
+Exemple de fichier de configuration pour le téléchargement des séries en VOSTFR et HD depuis T411, films avec IMDB en VOSTFR et HD avec le logiciel Deluged.
 -Une partie VOSTFR/HD des séries pour récupérer les derniers épisodes.
 -Une partie VOSTFR/HD des séries animés pour récupérer les derniers épisodes.
 -Une partie VF/HD des séries animés pour récupérer les derniers épisodes.
 -Une partie VOSTFR/HD des séries pour récupérer la série depuis l'épisode S01E01 (pour commencer une nouvelle série).
+-Une partie VOSTFR/HD pour les films récupérer depuis la watchlist personnaliser de l'utilsateur sur IMDB.
 
 Chaque partie à son renommage de fichiers de la forme (NomSerie - SXXEXX - Qualité).
 Chaque partie déplace les fichiers terminés dans un dossier de la forme (VotreChemin/NomSerie/SXX/).
+La partie film, déplace le fichiers téléchargé dans un dossier personnalisé.
 
 
-Sample configuration file for downloading tvshows in HD VOSTFR since T411 and deluged with software.
+Sample configuration file for downloading tvshows in HD VOSTFR since T411, movie with watchlist's IMDB in HD VOSTFR, deluged with software.
 -A Part VOSTFR / HD tvshows to get the latest episodes.
 -A Part VOSTFR / HD animated tvshows to get the latest episodes.
 -A Part VF / HD animated tvshows to get the latest episodes.
 -A Part VOSTFR / HD tvshows to recover tvshows from episode S01E01 (to start a new series).
+-A Part Movie in VOSTFR/HD with watchlist's IMDB.
 
 Each party to its renaming files of the form (TvShowsName - SXXEXX - Quality).
 Each party moves files ending in a shape file (VotreChemin/TvShowsName/SXX/).
-
+The movie part move the finish file in to a folder.
 
 {{{
 templates:
@@ -138,7 +141,30 @@ tasks:
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
       movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
-      label: tva 
+      label: tva
+
+  movie_vo:
+    deluge:
+      movedone: "/YourOwnPath/Film/"
+      label: movies
+    regexp:
+      accept:
+        - vostfr
+    quality :
+      - 720p-1080p
+      - remux-bluray
+    discover:
+      what:
+        - imdb_list:
+            list: watchlist
+            user_id: XxX
+      from:
+        - torrent411:
+            username: XxX
+            password: XxX
+            category: Film
+            sub_category:
+              - VOSTFR
 }}}
 
 
