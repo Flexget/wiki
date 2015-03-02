@@ -143,6 +143,7 @@ tasks:
       movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tva
 
+#Films en VOSTFR/HD depuis la watchlist d'IMDB avec recherche sur T411
   movie_vo:
     deluge:
       movedone: "/YourOwnPath/Film/"
