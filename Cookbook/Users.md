@@ -24,4 +24,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v1.2.254) simple movie & tv downloading config
 * [wiki:Cookbook/Users/buthidae buthidae] (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
 * [wiki:Cookbook/Users/lilp] (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. Movie with IMDB watchlist and T411 search in VOSTFR and HD. French User
-* [https://github.com/ianstalk/dotfiles/tree/master/flexget ianstalk] automatically SCP files from Tranmission seedbox to a local directory.
+* [https://github.com/ianstalk/dotfiles/tree/master/flexget ianstalk] (v1.2.284) automatically SCP files from a remote Tranmission instance to a local directory.
