@@ -15,7 +15,7 @@ This config effectively downloads all season packs of a show you are following.
 
 -- Will always download season packs even if your other config has already downloaded all of the episodes in that season. (On the upside, most season packs are freeleech, so no real harm except bandwidth)
 
--- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter '''-c this.config.yml''' so it is 100% sure of use its own db.
+-- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter '''-c this.config.yml''' so it is 100% sure to use its own db.
 
 -- Config is part of a larger solution. You will have to adjust things to suit your solution.
 
