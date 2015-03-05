@@ -6,7 +6,7 @@ These are the complete configurations of actual end users. Feel free to add your
 [[BR]]
 Please post the version of !FlexGet that your config was designed for, so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
 
-* [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] (v1.2.288) Ability to download season packs. Makes flexget truly automated, not just for getting the very latest episodes.
+* [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] - Flexget (v1.2.288) - Ability to download season packs. Makes flexget truly automated, not just for getting the very latest episodes. (Trakt.tv + Discover)
 * [https://github.com/jawilson/dotfiles/tree/master/flexget jawilson] (atlanta800)
 * [wiki:Cookbook/Users/hyper_ch hyper_ch]
 * [wiki:Cookbook/Users/foulou foulou]
