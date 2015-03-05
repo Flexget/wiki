@@ -1,7 +1,7 @@
 
 == Intro ==
 
-Many private trackers have a rule, that when a season is finished, all episodes are removed from it, and a season pack is created, often in a separate category like "Archive".
+Many private trackers have a rule that when a season is finished, all episodes are removed from it, and a season pack is created, often in a separate category like "Archive".
 
 This config effectively downloads all season packs of a show you are following.
 
