@@ -10,9 +10,7 @@ Reject movies that you have already voted on imdb. Aka old imdb_rated functional
 crossmatch:
   from:
     - imdb_list:
-        user_id: ur9999999 
-        username: username
-        password: password
+        user_id: ur9999999
         list: ratings
   fields:
     - imdb_id
