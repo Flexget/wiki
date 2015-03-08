@@ -280,3 +280,5 @@ tasks:
 Notices about both of my configs:
 - I don't need to worry about where to put my files as I have a bash script that executes Filebot on the files.
 - You will probably not be able to copy this config directly. Please make edits where suitable for you.
+
+Finally, if you have any questions about this config, feel free to add me on steam (qvazzler), alternatively Skype (qvazzler)
