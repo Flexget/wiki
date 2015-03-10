@@ -10,7 +10,7 @@
 #<b>This page contains plugins that are available only on bleeding edge.</b> 
 }}}
 
-Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download [wiki:Entry entries] but they can also change how !FlexGet operates. Many plugins can use the [wiki:Jinja Jinja2 ] template system.
+Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download '''[wiki:Entry entries]''' but they can also change how !FlexGet operates. Many plugins can use the '''[wiki:Jinja Jinja2 ]''' template system.
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file. All these plugins are included in the !FlexGet package with the exception of ones in 3rd party plugins section.
 
@@ -37,7 +37,7 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 == Inputs ==
 
-Produce [wiki:Entry entries] from external source.[[BR]]
+Produce '''[wiki:Entry entries]''' from external source.[[BR]]
 Most requests are cached so there is no penalty for example using same RSS URL multiple times in the configuration.
 
 ||'''Keyword'''||'''Description'''||
@@ -73,8 +73,8 @@ Most requests are cached so there is no penalty for example using same RSS URL m
 
 == Filters ==
 
-Reject or Accept [wiki:Entry entries] based on given rules. A single task may have any number of filters.[[BR]]
-If you plan to use multiple filters per task, you should look at [wiki:Filtering filtering operations] to understand how they work.
+Reject or Accept '''[wiki:Entry entries]''' based on given rules. A single task may have any number of filters.[[BR]]
+If you plan to use multiple filters per task, you should look at '''[wiki:Filtering filtering operations]''' to understand how they work.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
@@ -206,7 +206,7 @@ Execute operation(s) on accepted entries.
 
 == Metainfo ==
 
-These are usually automatic ([wiki:Builtin]) plugins which provide metainfo (fields) to [wiki:Entry].
+These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
 
 ||[wiki:Plugins/check_subtitles check_subtitles]||Check subtitles presence for local files.||
 ||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
