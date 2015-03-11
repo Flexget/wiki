@@ -11,7 +11,15 @@ This is useful if your feeds break and you have downloaded a bunch of series fil
       regexp: '.*\.(mp4|avi|mkv)$'
       recursive: yes
     disable: builtins
-    all_series:
-      tracking: no
+    configure_series:
+      settings:
+        set:
+          tracking: no
+      from:
+        listdir:
+          - /[path to your series folders]/
+
     exec: echo "Found {{title}}"
 }}}
+
+Your folder names need to be very clear and clean "Subfolder should be series names".. 
