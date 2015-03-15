@@ -12,11 +12,11 @@ Pushbullet is also available as native apps on Android, iOS, Windows and also as
 == Configuration ==
 {{{
 pushbullet:
-    apikey: <API_KEY>
-    [device: <DEVICE_IDEN>]
-    [title: <MESSAGE_TITLE>] (default: "{{task}} - Download started" -- accepts Jinja2)
-    [body: <MESSAGE_BODY>] (default: "{{series_name}} {{series_id}}" -- accepts Jinja2)
-    [url: <LINK_URL>] (default: empty -- accepts Jinja2)
+  apikey: <API_KEY>
+  [device: <DEVICE_IDEN>]
+  [title: <MESSAGE_TITLE>] (default: "{{task}} - Download started" -- accepts Jinja2)
+  [body: <MESSAGE_BODY>] (default: "{{series_name}} {{series_id}}" -- accepts Jinja2)
+  [url: <LINK_URL>] (default: empty -- accepts Jinja2)
 }}}
 
 DEVICE_IDEN can by found by running: 
