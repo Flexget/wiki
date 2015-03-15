@@ -5,9 +5,9 @@ A more complete example of a configuration for pushbullet including more informa
 templates:
   add_pushbullet:
     pushbullet:
-    apikey: <API_KEY>
-    title: "{{task}} - {% if series_name is defined %}\u0009{{series_name}}{% endif %} {% if ((series_episode is defined) and (series_episode is number)) %}{{ '%02d' % series_episode }}{% endif %}"
-    body: "‣ episode:\u0009{% if tvdb_ep_name is defined %}{{tvdb_ep_name}}{% endif %}\r\n‣ season:\u0009\u0009{% if ((series_season is defined) and (series_season is number)) %}{{ '%02d' % series_season }}{% endif %}\r\n‣ air         date:\u0009\u0009{% if tvdb_ep_air_date is defined %}{{tvdb_ep_air_date.strftime('%d.%m.%Y')}}{% endif %}\r\n‣ proper:\u0009\u0009{% if proper is defined%}{% if proper %}yes{% else %}no{% endif %}{% endif %}"
+      apikey: <API_KEY>
+      title: "{{task}} - {% if series_name is defined %}\u0009{{series_name}}{% endif %} {% if ((series_episode is defined) and (series_episode is number)) %}{{ '%02d' % series_episode }}{% endif %}"
+      body: "‣ episode:\u0009{% if tvdb_ep_name is defined %}{{tvdb_ep_name}}{% endif %}\r\n‣ season:\u0009\u0009{% if ((series_season is defined) and (series_season is number)) %}{{ '%02d' % series_season }}{% endif %}\r\n‣ air         date:\u0009\u0009{% if tvdb_ep_air_date is defined %}{{tvdb_ep_air_date.strftime('%d.%m.%Y')}}{% endif %}\r\n‣ proper:\u0009\u0009{% if proper is defined%}{% if proper %}yes{% else %}no{% endif %}{% endif %}"
 }}}
 
 Output in the format:
