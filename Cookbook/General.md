@@ -6,7 +6,7 @@
  Uses advanced text parsing.
  [wiki:Cookbook/mysql_input Pass entry fields to MySQL database]::
  Nice to keep track of what you have processed and later archival purposes. Basic tutorial, contains SQL syntax only.
- [wiki:Cookbook/pushbullet complete body]::
+ [wiki:"Cookbook/pushbullet complete body" pushbullet complete body]::
  Pushbullet example configuration for series with episode name, formatted date etc.
  [wiki:Cookbook/thepiratebay Download results of a search on the pirate bay]::
 This supports proxies and works around some issues with magnet links.
