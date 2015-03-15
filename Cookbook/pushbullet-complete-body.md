@@ -14,10 +14,10 @@ Output in the format:
 {{{
 title: <Task name> - <Series Name> <Episode Number>
 body:
-  ‣ episode: <episode name>
-  ‣ season: <season (0 prefix if less than 10)>
-  ‣ air date: <date (format: dd-mm-YY)>
-  ‣ proper: <true/false>
+  ‣ episode:   <episode name>
+  ‣ season:    <season (0 prefix if less than 10)>
+  ‣ air date:  <date (format: dd-mm-YY)>
+  ‣ proper:    <true/false>
 }}}
 
 == Test ==
