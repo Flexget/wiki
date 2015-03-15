@@ -34,5 +34,5 @@ tasks:
       - add_pushbullet
 
 via cli: flexget execute --task test_push
-}}
+}}}
 ''Unfortunately the mock task does currently not support datetime hence you will receive an error when executing this test, remove the strftime function from the template and the test will run smoothly.''
