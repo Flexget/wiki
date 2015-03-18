@@ -61,7 +61,8 @@ transmission:
 ||maxdownspeed||Number||||
 ||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
-||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'skip'||
+||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip'||
+||main_file_ratio||Decimal||When used with 'main_file_only', the main file inside the torrent must be greater than this value (Default: 0.90)||
 ||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
 ||content_filename||Text||This can be used to rename the main file inside the torrent. [wiki:Plugins/transmission#ContentRenaming see here]||
 ||rename_like_files||[Yes|No]||If enabled, file patterns matching the main file will be renamed according to 'content_filename'||
