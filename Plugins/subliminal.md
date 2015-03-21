@@ -32,7 +32,7 @@ Note: In Unix you may need root privileges
       alternatives:
         - eng
       exact_match: yes
-      providers: addic7ed, opensubtitles
+      providers: [addic7ed, opensubtitles]
       single: no
 }}}
 
