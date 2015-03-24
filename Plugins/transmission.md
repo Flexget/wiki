@@ -63,6 +63,7 @@ transmission:
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 ||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip'||
 ||main_file_ratio||Decimal||When used with 'main_file_only', the main file inside the torrent must be greater than this value (Default: 0.90)||
+||magnetization_timeout||Number||When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0)||
 ||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
 ||content_filename||Text||This can be used to rename the main file inside the torrent. [wiki:Plugins/transmission#ContentRenaming see here]||
 ||rename_like_files||[Yes|No]||If enabled, file patterns matching the main file will be renamed according to 'content_filename'||
@@ -138,6 +139,8 @@ templates:
 }}}
 
 This config uses [wiki:Plugins/set#Jinja2Templating jinja2] notation to rename the file using information from the series parser.
+
+**NOTE:** In order to perform content renaming on a magnet URI, you must set **magnetization_timeout** to a value greater than 0 so that flexget has a chance to magnetize the torrent and retrieve the file list before performing any file list processing during the content renaming phase. If you use any feeds that supply magnet URIs and you wish to perform content renaming, it is strongly recommended to set **magnetization_timeout** to a reasonable wait period, such as **30** (seconds). Magnetization time varies based on swarm activity and network speed, but is typically completed in under 10 seconds.
 
 === Selective File Downloading ===
 
