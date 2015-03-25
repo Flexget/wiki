@@ -13,8 +13,8 @@ make_html:
 }}}
 
 '''NOTE''':
-1. The Default location for templates is typically:
+- Custom templates should typically be placed in:
 {{{
 ~/.flexget/templates
 }}}
-2. This directory is not created for you, and you must create the directory yourself. If you are using an alternate location then you should update the path accordingly.
+- This directory is not created for you. If you are using an alternate config location then you should update the path accordingly.
