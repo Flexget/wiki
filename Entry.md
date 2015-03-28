@@ -41,7 +41,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||imdb_photo||[wiki:Plugins/imdb_lookup imdb_lookup]*||Url for photo (hotlinking prevented)||
 ||imdb_plot_outline||[wiki:Plugins/imdb_lookup imdb_lookup]*||Plot outline||
 ||imdb_actors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (key: imdbid, value: name)||
-||imdb_directors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Actors dictionary (imdbid, name)||
+||imdb_directors||[wiki:Plugins/imdb_lookup imdb_lookup]*||Directors dictionary (imdbid, name)||
 ||movie_name||[wiki:Plugins/imdb_lookup imdb_lookup]*||Movie title||
 ||movie_year||[wiki:Plugins/imdb_lookup imdb_lookup]*||Movie release year||
 ||output||[wiki:Plugins/download download]||Downloaded file||
@@ -79,17 +79,17 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvdb_fanart_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series fanart url||
 ||tvdb_poster_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series poster url||
 ||tvdb_airs_day_of_week||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series airs date of the week||
-||tvdb_actors||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series actors||
+||tvdb_actors||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||List of series actors||
 ||tvdb_language||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series language(en, fr, etc.)||
 ||imdb_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Series imdb url||
 ||zap2it_id||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||||
 ||tvdb_ep_name||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode name||
 ||tvdb_ep_overview||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode plot||
-||tvdb_ep_director||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode director||
-||tvdb_ep_writer||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode writer||
+||tvdb_ep_directors||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||List of episode directors||
+||tvdb_ep_writers||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||List of episode writers||
 ||tvdb_ep_air_date||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode air date||
 ||tvdb_ep_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode rating||
-||tvdb_ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode guest stars||
+||tvdb_ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||List of episode guest stars||
 ||tvdb_ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
 ||trakt_series_name||[wiki:Plugins/trakt_lookup trakt_lookup]||Series name provided by trakt||
 ||trakt_series_runtime||[wiki:Plugins/trakt_lookup trakt_lookup]||Series runtime in minutes||
