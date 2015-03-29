@@ -65,7 +65,10 @@ if you get an error along the lines of
 }}}
 you have to edit distutils.cfg (located in /opt/lib/python2.6/distutils) to point to the correct path.
 
+Note: If you are still having issues with the above error, a work-around is to install package "Python" (version 2.7.x) followed by FlexGet through the Synology web manager.
+Afterwards, add '''/volume1/@appstore/flexget/env/bin/''' to your PATH in /root/.profile (or /etc/profile).
+This should give you a working config of easy_install.
+
 = Next =
 
 [wiki:InstallWizard/SynologyNAS/FlexGet Install FlexGet]
-
