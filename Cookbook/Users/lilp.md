@@ -22,6 +22,19 @@ Each party moves files ending in a shape file (VotreChemin/TvShowsName/SXX/).
 The movie part move the finish file in to a folder.
 
 {{{
+#Envois de mail lors de l'ajout d'un DL
+#Sending mail when dl start
+email:
+  from: XxX.XxX@gmail.com
+  to:
+   - XxX.XxX@gmail.com
+  subject: Flexget
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  smtp_tls: yes
+  smtp_username: XxX.XxX@gmail.com
+  smtp_password: XxX
+
 templates:
   t411:
     plugin_priority:
@@ -36,12 +49,32 @@ templates:
       Cookie: "uid=XxX; pass=XxX; authKey=XxX"
 
 # DL des series VOSTFR en HD
+#DL tv shows VOSTFR in HD
   
   tv-my_shows:
     template:
       - t411
     series:
-      - Your TvShow Name
+      - Anger Management
+      - Better Call Saul
+      - Community
+      - Cougar Town
+      - Game Of Thrones
+      - House Of Cards
+      - Homeland
+      - Mad Men
+      - Modern Family
+      - Orange Is The New Black
+      - Silicon valley
+      - The Americans
+      - The Big Bang Theory
+#      - The League
+      - The Last Man On Earth
+      - The Strain
+      - The Walking Dead
+      - True Detective
+      - Two And A Half Men
+      - Workaholics
     inputs:
       - html:
           url: "http://www.t411.io/torrents/search/?cat=210&subcat=433&term[17][]=721&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
@@ -51,16 +84,17 @@ templates:
           - "^http://www.t411.io/torrents/[^/]+(?!/)[^/]+$"
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
-      movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
+      movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
 
-# DL des serie animes en VF et en HD	  
+# DL des serie animes en VF et en HD
+#DL anime VF in HD	  
 
   tv-my_shows_fr_anime:
     template:
       - t411
     series:
-      - Your TvShow Name
+      - Simpson
     inputs:
       - html:
           url: "http://www.t411.io/torrents/search/&cat=210&subcat=637&term[17][]=541&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
@@ -72,16 +106,21 @@ templates:
 
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
-      movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
+      movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
 
 # DL des series animes en VOSTFR et en HD
+#DL anime VOSTFR in HD
 
   tv-my_shows_anime:
     template:
       - t411
     series:
-      - Your TvShow Name
+      - American Dad
+      - Family Guy
+      - Futurama
+      - South Park
+      - The Simpsons
     inputs:
       - html:
           url: "http://www.t411.io/torrents/search/?cat=210&subcat=637&term[17][]=721&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
@@ -91,12 +130,15 @@ templates:
           - "^http://www.t411.io/torrents/[^/]+(?!/)[^/]+$"
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
-      movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
+      movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
 
 
 #DL des series depuis le debut
+#DL tv shows from the beginning
   tvshows:
+    template:
+      - t411
     regexp:
       reject_excluding:
         - VOSTFR
@@ -110,20 +152,20 @@ tasks:
     template:
       - tv-my_shows
 
-  My_TV_Shows_fr_anime:
-    priority: 3
-    template:
-      - tv-my_shows_fr_anime
-
   My_TV_Shows_anime:
     priority: 2
     template:
       - tv-my_shows_anime
 
+  My_TV_Shows_fr_anime:
+    priority: 3
+    template:
+      - tv-my_shows_fr_anime
+
 #DL des series depuis le debut	  
   My-TV_Shows_debut:
     template: tvshows
-    priority: 3
+    priority: 4
 #    deluge: yes
     discover:
       what:
@@ -136,29 +178,28 @@ tasks:
             category: Serie-TV
             sub_category: VOSTFR
     series:
-      - Your TvShow Name:
+      - The Strain:
+          identified_by: ep
+      - The League:
           identified_by: ep
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
-      movedone: "/Your Destination Folder/{{ series_name }}/{{'S%02d'|format(series_season)}}"
+      movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tva
 
-#Films en VOSTFR/HD depuis la watchlist d'IMDB avec recherche sur T411
-  movie_vo:
+
+#Films en vo fonctionne
+  movie_vo_1080p:
+    priority: 5
     deluge:
-      movedone: "/YourOwnPath/Film/"
+      movedone: "/Films/"
       label: movies
-    regexp:
-      accept:
-        - vostfr
-    quality :
-      - 720p-1080p
-      - remux-bluray
+    accept_all: yes
     discover:
       what:
         - imdb_list:
             list: watchlist
-            user_id: XxX
+            user_id: urXxX
       from:
         - torrent411:
             username: XxX
@@ -166,6 +207,7 @@ tasks:
             category: Film
             sub_category:
               - VOSTFR
+              - HDrip-1080p
 }}}
 
 
