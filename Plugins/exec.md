@@ -1,4 +1,4 @@
-= Exec = 
+= Exec =
 
 Executes commands on [wiki:Entry entries].
 
@@ -8,13 +8,21 @@ This plugin can take two configuration formats [#SimpleConfiguration simple] and
 
 With this configuration, your command is executed on all accepted entries that //reach output//.
 
+You can use all (available) [wiki:Entry entry] fields in the command.
+
 === Example ===
 
 {{{
 exec: echo "found {{title}} at {{url}}" >> file
 }}}
 
-You can use all (available) [wiki:Entry entry] fields in the command.
+It also accepts a list and will run the commands in order:
+
+{{{
+exec:
+  - echo "found {{title}} at {{url}}" >> file
+  - echo "Synopsis: {{imdb_plot_outline}}" >> {{movie_name}}.nfo
+}}}
 
 == Advanced Configuration^^^1, 2^^^ ==
 
@@ -55,19 +63,23 @@ Where ''FOR_ITEMS_NAME'' must be one of:
 - `for_accepted`
 - `for_rejected`
 - `for_failed`
-    
+
+Where ''CMD'' is a single command or a list of commands to execute.
+
 '''Example:'''
 
-{{{    
-exec: 
-  on_start: 
+{{{
+exec:
+  on_start:
     phase: echo "Started"
   on_input:
     for_entries: echo "got {{title}}"
-  on_output: 
-    for_accepted: echo "accepted {{title}} - {{url}}" > file
+  on_output:
+    for_accepted:
+      - echo "accepted {{title}} - {{url}}" > file
+      - echo "Synopsis: {{imdb_plot_outline}}" >> {{movie_name}}.nfo
 }}}
-    
+
 See [wiki:Entry entry documentation] for list of possible fields.
 
 === Fail entries option ===
@@ -78,7 +90,7 @@ This option will also cause entries to fail that do not contain all of the varia
 {{{
 exec:
   fail_entries: yes
-  on_output: 
+  on_output:
     for_accepted: echo "accepted {{title}} - {{url}}" > file
 }}}
 
@@ -88,7 +100,7 @@ If one of your variables may contain characters that need to be escaped for the 
 {{{
 exec:
   auto_escape: yes
-  on_output: 
+  on_output:
     for_accepted: echo accepted "{{title}}" - {{url}} > file
 }}}
 
