@@ -22,3 +22,7 @@ if 'episode' in entry.tags:
   if entry.episode.identifier in my_database:  # Maybe access tag fields under a tag namespace like this?
     # do something
 }}}
+
+What a config editor might look like: (Panel on the left would be different plugins. Clicking on a plugin would allow changing configuration, which might change what input and output nodes it has.)
+
+[[Image(http://i.imgur.com/gLPVgbk.png, 1200)]]
