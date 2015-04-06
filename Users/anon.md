@@ -13,15 +13,15 @@ Finally a crontab allows you to periodically email yourself what has been downlo
 #############################################################################
 
 FLEXGET config.yml: 
-everything in CAPSLOCK needs to be replaced
+everything in with CHANGE-infront needs to be replaced
 
 #############################################################################
 {{{
 templates:
   DELUGE:
     deluge:
-      username: DELUGEUSERNAME
-      password: DELUGEPASSWORD
+      username: CHANGE-DELUGEUSERNAME
+      password: CHANGE-DELUGEPASSWORD
       main_file_only: yes
       keep_subs: yes
       ratio: 3
@@ -32,13 +32,13 @@ templates:
 
   RSS-SERIES:
     inputs:
-    - rss: MYRSSFEEDSFORSERIES-1
-    - rss: MYRSSFEEDSFORSERIES-2
+    - rss: CHANGE-MYRSSFEEDSFORSERIES-1
+    - rss: CHANGE-MYRSSFEEDSFORSERIES-2
     
   RSS-MOVIES:
     inputs:
-    - rss: MYRSSFEEDSFORMOVIES-1
-    - rss: MYRSSFEEDSFORMOVIES-2
+    - rss: CHANGE-MYRSSFEEDSFORMOVIES-1
+    - rss: CHANGE-MYRSSFEEDSFORMOVIES-2
     
   TRAKT-SERIES:
     configure_series:
@@ -47,11 +47,11 @@ templates:
       from:
         inputs:
         - trakt_list:
-            username: USERNAME-1
+            username: CHANGE-USERNAME-1
             list: watchlist
             type: shows
         - trakt_list:
-            username: USERNAME-2
+            username: CHANGE-USERNAME-2
             list: watchlist
             type: shows        
     metainfo_series: yes
@@ -71,18 +71,18 @@ tasks:
     priority: 2
     inputs:
     - trakt_list:
-        username: USERNAME-1
+        username: CHANGE-USERNAME-1
         list: watchlist
         type: movies
     - trakt_list:
-        username: USERNAME-1
+        username: CHANGE-USERNAME-1
         list: watchlist
         type: movies
     - imdb_list:
-        user_id: USERID-1
+        user_id: CHANGE-USERID-1
         list: watchlist
     - imdb_list:
-        user_id: USERID-2
+        user_id: CHANGE-USERID-2
         list: watchlist
     accept_all: yes
     movie_queue: add
