@@ -12,18 +12,18 @@
 
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download '''[wiki:Entry entries]''' but they can also change how !FlexGet operates. Many plugins can use the '''[wiki:Jinja Jinja2 ]''' template system.
 
-Most plugins are enabled by placing a keyword and required settings in a configuration file. All these plugins are included in the !FlexGet package with the exception of ones in 3rd party plugins section.
+Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the !FlexGet package (with the exception of the third-party plugins section).
 
 == Indentation in examples ==
 
-All configuration examples are assumed to be placed under a task. So if documentation has example:
+All configuration examples are assumed to be placed under a task. So if documentation has this example:
 
 {{{
 series:
   - name
 }}}
 
-In full configuration this goes into:
+In a full configuration, this goes into:
 
 {{{
 tasks:
@@ -38,7 +38,7 @@ This makes examples more compact and reduces unnecessary boilerplate.
 == Inputs ==
 
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
-Most requests are cached so there is no penalty for example using same RSS URL multiple times in the configuration.
+Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
@@ -196,7 +196,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried. [wiki:Builtin]||
 ||[wiki:Plugins/secrets secrets]||'''{{{NEW}}}''' Replace specific jinja2 values in config before executing tasks.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
-||[wiki:Plugins/sleep sleep]||Causes a pause to occur before execution of a task.||
+||[wiki:Plugins/sleep sleep]||Causes a pause to occur at a specified point during task execution.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
@@ -235,7 +235,7 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
 
-== 3rd party plugins ==
+== Third-party plugins ==
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
