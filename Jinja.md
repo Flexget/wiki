@@ -30,7 +30,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
  pathext:: Extension of a path (including the '.').
  pathdir:: Directory containing the given path.
  pathscrub(os):: Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [wiki:Plugins/pathscrub pathscrub] plugin will be used.\\ '''NOTE:''' This should rarely be needed due to the builtin [wiki:Plugins/pathscrub pathscrub] plugin.
- re_replace(pattern, replacement):: Do regexp substitution on the string.
+ re_replace(pattern, replacement):: Do regexp substitution on the string.\\ '''NOTE:''' Regexp captured groups can be accessed using $1, $2, etc, in the replacement string.
  formatdate(format):: Do string formatting on datetime objects according to [http://docs.python.org/library/datetime.html#strftime-strptime-behavior strftime] {{{format}}} string.
 
 Example:
