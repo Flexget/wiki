@@ -324,6 +324,37 @@ systemctl --user start flexget
 }}}
 
 
-=== As a Windows Scheduled Task ===
+== As a Windows Scheduled Task ==
 
-In the Task Scheduler, "Create a Task". Use a descriptive name. Set a new trigger - "At log on" or "At startup" are good candidates. Optionally set a small delay. Configure an action - "Start a program". Navigate to your Python scripts folder and select "flexget-headless.exe". Add arguments: "daemon start". Hit "OK". Optionally run your new task, then check on it using flexget daemon status. 
+In the Task Scheduler, "Create a Task". Use a descriptive name. Set a new trigger - "At log on" or "At startup" are good candidates. Optionally set a small delay. Configure an action - "Start a program". Navigate to your Python scripts folder and select "flexget-headless.exe". Add arguments: "daemon start". Hit "OK". Optionally run your new task, then check on it using flexget daemon status.
+
+== As an OS X Launch Agent ==
+
+Do not use this method if you want to set up Flexget to run at an interval as described [wiki:InstallWizard/OSX#Autorun here]. If you have set up the Launch Agent described in the OS X install section, replace it's plist with the one described below.
+
+This method additionally overcomes the issues associated with launching the daemon in the background on OS X, allowing it to run in the background without an open Terminal window.
+
+Create /Users/USERNAME/Library/LaunchAgents/com.flexget.plist with:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.flexget</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/flexget</string>
+		<string>daemon</string>
+		<string>start</string>
+	</array>
+	<key>Nice</key>
+	<integer>1</integer>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
+}}}
+
+'''Note''': On some systems, FlexGet installs itself into {{{/bin/flexget}}} instead of {{{/usr/local/bin/flexget}}}; type {{{which flexget}}} to find out where the FlexGet binary is located and modify {{{com.flexget.plist}}} accordingly.
