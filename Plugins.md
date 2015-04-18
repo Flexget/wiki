@@ -240,7 +240,6 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-||[https://github.com/ianstalk/dotfiles/blob/master/flexget/plugins/plugin_rarfile.py rarfile]||'''{{{NEW}}}''' Extract RAR archives directly from flexget (requires rarfile Python package and RARLabs Unrar utility).||
 ||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
 ||[https://github.com/atlanta800/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific custom movie filter by atlanta800.||
 ||[https://github.com/nikdoof/flexget-twitter flexget-twitter]||'''{{{NEW}}}''' Twitter output plugin, allowing posting to twitter when entries are accepted.||
