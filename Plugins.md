@@ -152,6 +152,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
+||[wiki:Plugins/decompress]||'''{{{NEW}}}''' Extract Zip and RAR files.||
 
 == Outputs (notification) ==
 
