@@ -133,6 +133,7 @@ Execute operation(s) on accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/aria2 aria2]||Pass URIs to be downloaded to a local computer to the aria2 downloader.||
 ||[wiki:Plugins/copy copy]||Copy local files.||
+||[wiki:Plugins/decompress decompress]||'''{{{NEW}}}''' Extract Zip and RAR files.||
 ||[wiki:Plugins/delete delete]||Delete local files.||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
 ||[wiki:Plugins/digest digest]||'''{{{NEW}}}''' Collects entries from tasks to be combined into another task (usually for notification.)||
@@ -152,7 +153,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
-||[wiki:Plugins/decompress]||'''{{{NEW}}}''' Extract Zip and RAR files.||
 
 == Outputs (notification) ==
 
