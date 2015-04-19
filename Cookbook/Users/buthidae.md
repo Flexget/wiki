@@ -64,6 +64,9 @@ templates:
       settings:
         list:
           ep_regexp:
+# Some shows (e.g. Castle) have a YYYY designation (i.e. Castle (2009). We handle this like so:
+            - \d\d\d\d.(\d\d)(\d\d)
+            - \d\d\d\d.(\d)(\d\d)
 # Match four-digit - SSee - 0312, 1315
             - (\d\d)(\d\d)
 # Then match three-digit - See - 213
