@@ -33,6 +33,7 @@ And in the context of a complete task:
 
 {{{
 move-series-rar:
+    accept_all: yes
     parsing:
         series: guessit
     metainfo_series: yes
