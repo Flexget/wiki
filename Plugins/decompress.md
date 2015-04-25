@@ -29,6 +29,23 @@ decompress:
     regexp: '.*s\d{1,2}e\d{1,2}.*\.mkv'
 }}}
 
+And in the context of a complete task:
+
+{{{
+move-series-rar:
+    parsing:
+        series: guessit
+    metainfo_series: yes
+    find:
+        path: /Volumes/Drobo/downloads/
+        recursive: yes
+        regexp: '.*s\d{1,2}e\d{1,2}.*\.(rar|r0+[01]|zip)'
+    decompress:
+        to: '/Volumes/Drobo/TV/{{series_name}}/Season {{series_season}}/'
+        keep_dirs: no
+        delete_archive: yes
+}}}
+
 == Options ==
 
 ||'''Name'''||'''Info'''||'''Description'''||
