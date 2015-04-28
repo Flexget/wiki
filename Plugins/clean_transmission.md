@@ -19,7 +19,7 @@ clean_transmission:
   password: mypassword
   finished_for: 2 hours
   min_ratio: 1
-disable_builtins: [details]
+disable: [details]
 }}}
 
 ||'''Name'''||'''Info'''||'''Description'''||
@@ -37,5 +37,5 @@ disable_builtins: [details]
 '''Note:'''
 
 - If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
-- `disable_builtins: [details]` this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
+- `disable: [details]` this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
 - From flexget 1.2.190 and up you need to set `transmission_seed_limits: yes` to get the same behaviour as previous version of this plugin or torrents may not be removed when completed.
