@@ -24,27 +24,30 @@ Here's a more complicated example:
 
 {{{
 decompress:
-    to: '/Volumes/External/TV/{{series_name}}/Season {{series_season}}/'
-    keep_dirs: yes
-    regexp: '.*s\d{1,2}e\d{1,2}.*\.mkv'
+  to: '/Volumes/External/TV/{{series_name}}/Season {{series_season}}/'
+  keep_dirs: yes
+  regexp: '\.mkv'
 }}}
 
 And in the context of a complete task:
 
 {{{
 move-series-rar:
-    accept_all: yes
-    parsing:
-        series: guessit
-    metainfo_series: yes
-    find:
-        path: /Volumes/Drobo/downloads/
-        recursive: yes
-        regexp: '.*s\d{1,2}e\d{1,2}.*\.(rar|r0+[01]|zip)'
-    decompress:
-        to: '/Volumes/Drobo/TV/{{series_name}}/Season {{series_season}}/'
-        keep_dirs: no
-        delete_archive: yes
+  accept_all: yes
+  parsing:
+    series: guessit
+  metainfo_series: yes
+  require_field:
+    - series_name
+    - series_season
+  find:
+    path: /Volumes/Drobo/downloads/
+    recursive: yes
+    regexp: '\.(rar|r0+[01]|zip)'
+  decompress:
+    to: '/Volumes/Drobo/TV/{{series_name}}/Season {{series_season}}/'
+    keep_dirs: no
+    delete_archive: yes
 }}}
 
 == Options ==
