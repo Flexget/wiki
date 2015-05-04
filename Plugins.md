@@ -61,6 +61,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
+||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
@@ -149,6 +150,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{Deprecated}}}''' Add to movie queue.||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
+||[wiki:Plugins/sftp_download sftp_download]||'''{{{NEW}}}''' Download files from an SFTP server||
 ||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||'''{{{NEW}}}''' Set the first episode to download for series.||
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
