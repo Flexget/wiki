@@ -42,7 +42,7 @@ Once this is completed you'll have !FlexGet installed in a virtualenv.
 You can execute !FlexGet via:
 
 {{{
-~/flexget-dev/bin/flexget
+~/flexget-dev/bin/flexget execute
 }}}
 
 == Upgrading ==
