@@ -33,6 +33,7 @@ Once the virtualenv has been created, we need to install our checked out !FlexGe
 
 {{{
 cd ~/flexget-dev
+bin/pip install paver
 bin/pip install -e .
 }}}
 
