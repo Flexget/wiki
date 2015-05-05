@@ -46,9 +46,10 @@ deluge: yes
 ||removeatratio||If yes, torrent will be removed from deluge when ratio is reached.||
 ||compact||If yes, will allocate torrent in compact mode.||
 ||automanaged||If set to false torrents will be added to deluge without the automanaged flag.||
-||content_filename||This can be used to rename the main file inside the torrent. [wiki:Plugins/deluge#ContentRenaming see here]||
-||main_file_only||If yes, all files but the main file inside the torrent (>90% of total) will be set to 'do not download'||
-||hide_sparse_files||If ''main_file_only'' is set, all the other (sparse) files will be put inside a hidden directory (name begins with "._"). On by default.||
+||content_filename||This can be used to rename the main file and directory of the torrent. [wiki:Plugins/deluge#ContentRenaming see here]||
+||main_file_only||If yes, all files but the main file inside the torrent (>90% of total by default) will be set to 'do not download'||
+||main_file_ratio|| Sets the threshold value for ''main_file_only''. Expects a number between 0 and 1 (ie 0.85 to change to 85%). 90% by default.
+||hide_sparse_files||If ''main_file_only'' is set, all the other (sparse) files will be put inside a hidden subdirectory (called ".sparse_files"). On by default.||
 ||keep_subs||If ''main_file_only'' is set, the subtitle file is also downloaded. If ''content_filename'' is set, the subtitle file will be renamed too. If ''hide_sparse_files'' is set, the subtitle will not be hidden. On by default.||
 
 
@@ -92,14 +93,18 @@ The more specific set commands will override the less specific ones (i.e. the se
 
 === Content Renaming ===
 
-The deluge plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in deluge. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
+The deluge plugin also supports another advanced feature: content file renaming. This will allow you to change the name of the main file and directory of the torrent in deluge. It will only rename a file/directory if it finds that one file in the torrent is larger than 90% (or specified value) of the total torrent content.
+
+Specifying a directory as part of the content_filename is optional. Not doing so will leave the torrent folder structure alone, just renaming the file.
+
+Here is an example configuration:
 
 {{{
 series:
   settings:
     groupa:
       set:
-        content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
+        content_filename: "{{series_name}} - {{series_id}}/{{series_name}} - {{series_id}} - {{quality}}"
         movedone: /home/user/TV/{{series_name}}/Season {{series_season}}/
   groupa:
     - Show Name
@@ -111,13 +116,13 @@ This config uses [wiki:Plugins/set#Jinja2Templating jinja2] notation to rename t
 Together with the movedone command, this means all TV series will be downloaded to:
 
 {{{
-/home/user/TV/Show Name/Season #/Show Name - S##E## - quality.ext
+/home/user/TV/Show Name/Season #/Show Name - S##E##/Show Name - S##E## - quality.ext
 }}}
 
 Subtitle files will be downloaded to (see the `keep_subs` option):
 
 {{{
-/home/user/TV/Show Name/Season #/Show Name - S##E## - quality.srt
+/home/user/TV/Show Name/Season #/Show Name - S##E##/Show Name - S##E## - quality.srt
 }}}
 
 == Mac OSX Users ==
