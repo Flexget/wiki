@@ -20,7 +20,7 @@
 ||[wiki:Searches/ptn ptn]||Searches private torrent site PtN||
 ||[wiki:Searches/publichd publichd]||Generates entries from [http://publichd.se/ PublicHD]||
 ||[wiki:Searches/rarbg rarbg]||Generates entries from [http://rarbg.com/ RarBG]||
-||sceneaccess||Searches private torrent site sceneaccess||
+||[wiki:Searches/sceneaccess sceneaccess]||Searches private torrent site sceneaccess||
 ||[wiki:Searches/search_rss search_rss]||Generates query based rss feeds||
 ||[wiki:Searches/t411 torrent411]||Generates entries from [http://www.t411.me/ t411.me]||
 ||torrentshack||Searches private torrent site torrentshack||
