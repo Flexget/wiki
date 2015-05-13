@@ -15,21 +15,21 @@ where the given task names can also be glob patterns (i.e. using `*`, `?` or `[c
 
 If you want to only execute a task called {{{mytask}}} run flexget like so:
 {{{
-flexget --tasks mytask
+flexget execute --tasks mytask
 }}}
 
 '''Multiple tasks example:'''
 
 If you would like to run multiple tasks you can list them with comma separators (and no space.) This example runs {{{mytask}}} and {{{yourtask}}}:
 {{{
-flexget --tasks mytask yourtask
+flexget execute —tasks mytask yourtask
 }}}
 
 '''Pattern example:'''
 
 If you would like to select a number of tasks that have similar names:
 {{{
-flexget --tasks "tv*"
+flexget execute --tasks --tasks "tv*"
 }}}
 
 
