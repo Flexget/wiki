@@ -16,6 +16,14 @@ Episode advancement does not reject this. Old eps from current season are allowe
 
 Tracking can sometimes be problematic if you have huge gap of recent episodes in `series` database. You can temporarily disable this feature by executing the task with the `--disable-tracking` flag allowing !FlexGet to grab latest episode and continue properly from there.
 
+'''Example:'''
+{{{
+flexget execute --disable-tracking
+}}}
+{{{
+flexget inject --disable-tracking
+}}}
+
 === Config Options ===
 
 If you would like to disable this behavior for some or all series, and allow getting episodes in any order, you can set this option to `no` in the series plugin config.
