@@ -275,6 +275,49 @@ service flexget start
 service flexget stop
 service flexget status
 }}}
+=== Systemd system unit (Arch Linux, Fedora, etc.) ===
+
+To have flexget run as a system unit.
+
+{{{
+[Unit]
+Description=Flexget Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=USERNAME
+Group=USERGROUP
+UMask=000
+
+ExecStart=/usr/bin/flexget  -c HOME_DIRECTORY/.flexget/config.yml daemon start
+ExecStop=/usr/bin/flexget   -c HOME_DIRECTORY/.flexget/config.yml daemon stop
+ExecReload=/usr/bin/flexget -c HOME_DIRECTORY/.flexget/config.yml daemon reload
+
+[Install]
+WantedBy=multi-user.target
+}}}
+
+Where USERNAME is the username you want to run it under, USERGROUP is the group, and HOME_DIRECTORY is the home directory of the master user. Another way to do it is to add a flexget user and run it that way, with config files in /etc/flexget or something similar.
+
+Enable or disable it using :
+{{{
+sudo systemctl --user enable flexget
+sudo systemctl --user disable flexget
+}}}
+
+Read log: 
+{{{ 
+journalctl --u flexget
+}}}
+
+Control daemon:
+
+{{{
+systemctl status flexget
+systemctl stop flexget
+systemctl start flexget
+}}}
 
 === Systemd user unit (Arch Linux, Fedora, etc) ===
 From @mkaito, Trac #[http://flexget.com/ticket/2526 2526].
