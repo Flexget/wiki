@@ -286,19 +286,28 @@ After=network.target
 
 [Service]
 Type=simple
-User=USERNAME
-Group=USERGROUP
+User=daemon
+Group=daemon
 UMask=000
 
-ExecStart=/usr/bin/flexget  -c HOME_DIRECTORY/.flexget/config.yml daemon start
-ExecStop=/usr/bin/flexget   -c HOME_DIRECTORY/.flexget/config.yml daemon stop
-ExecReload=/usr/bin/flexget -c HOME_DIRECTORY/.flexget/config.yml daemon reload
+ExecStart=/usr/bin/flexget  -c /etc/flexget/config.yml daemon start
+ExecStop=/usr/bin/flexget   -c /etc/flexget/config.yml daemon stop
+ExecReload=/usr/bin/flexget -c /etc/flexget/config.yml daemon reload
 
 [Install]
 WantedBy=multi-user.target
 }}}
 
-Where USERNAME is the username you want to run it under, USERGROUP is the group, and HOME_DIRECTORY is the home directory of the master user. Another way to do it is to add a flexget user and run it that way, with config files in /etc/flexget or something similar.
+The above assumes that there is a daemon user and group available. Modify as needed.
+
+Now, create the location to store flexgets configuration file, logs and database.
+
+{{{
+sudo mkdir /etc/flexget
+sudo chown daemon:daemon /etc/flexget
+}}}
+
+You can now place your config.yml file in the /etc/flexget directory, and when you run flexget, it will create the log file and database in the same place.
 
 Enable or disable it using :
 {{{
