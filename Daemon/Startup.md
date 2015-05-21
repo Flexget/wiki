@@ -289,10 +289,10 @@ Type=simple
 User=daemon
 Group=daemon
 UMask=000
-
-ExecStart=/usr/bin/flexget  -c /etc/flexget/config.yml daemon start
-ExecStop=/usr/bin/flexget   -c /etc/flexget/config.yml daemon stop
-ExecReload=/usr/bin/flexget -c /etc/flexget/config.yml daemon reload
+WorkingDirectory=/etc/flexget
+ExecStart=/usr/bin/flexget daemon start
+ExecStop=/usr/bin/flexget daemon stop
+ExecReload=/usr/bin/flexget daemon reload
 
 [Install]
 WantedBy=multi-user.target
@@ -307,26 +307,29 @@ sudo mkdir /etc/flexget
 sudo chown daemon:daemon /etc/flexget
 }}}
 
-You can now place your config.yml file in the /etc/flexget directory, and when you run flexget, it will create the log file and database in the same place.
+You can now place your config.yml file in the /etc/flexget directory.
 
-Enable or disable it using :
+Enable or disable Flexget at boot using :
+
 {{{
-sudo systemctl --user enable flexget
-sudo systemctl --user disable flexget
+sudo systemctl enable flexget
+sudo systemctl disable flexget
 }}}
 
-Read log: 
+Read the systemd log: 
+
 {{{ 
 journalctl --u flexget
 }}}
 
-Control daemon:
+Control the daemon:
 
 {{{
 systemctl status flexget
 systemctl stop flexget
 systemctl start flexget
 }}}
+
 
 === Systemd user unit (Arch Linux, Fedora, etc) ===
 From @mkaito, Trac #[http://flexget.com/ticket/2526 2526].
