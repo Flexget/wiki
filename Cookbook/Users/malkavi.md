@@ -1,6 +1,8 @@
+== Download Movies/Series from Spanish webs ==
+
 After reading other users config and Flexget code, I have write my own config and prepare some PR to search movies in Spanish webs.
 
-I have split my config in several files and include in the main config
+I have split my config in several files and include in the main config.
 
 == Main config ==
 
