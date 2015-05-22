@@ -133,7 +133,7 @@ tasks:
   watchlist:
     interval: 2 hours
     imdb_list:
-      user_id: ur55976856
+      user_id: USER_ID
       list: watchlist
     accept_all: yes
     seen: local  # We don't want accepted movies on this feed to affect actual download feed
