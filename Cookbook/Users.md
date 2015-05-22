@@ -27,3 +27,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/lilp] (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. Movie with IMDB watchlist and T411 search in VOSTFR and HD. French User
 * [https://github.com/ianstalk/dotfiles/tree/master/flexget ianstalk] (v1.2.284) automatically SCP files from a remote Tranmission instance to a local directory.
 * [http://flexget.com/wiki/Users/anon] Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
+* [wiki:Cookbook/Users/malkavi malkavi] (v1.2.313) Spanish Movies and series config.
