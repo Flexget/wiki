@@ -40,3 +40,6 @@ rarbg:
 * {{{sorted_by}}}: {{{seeders}}}, {{{leechers}}} or {{{last}}}. Defaults to {{{last}}} ie. sorted by newest.
 * {{{limit}}}: number of torrents, supports 25, 50 or 100.
 * {{{ranked}}}: {{{True}}} or {{{False}}}. Defaults to {{{True}}}, which means it will only show RarBG related torrents ie. yify releases are ignored.
+* {{{use_tvdb}}}: {{{True}}} or {{{False}}}. Defaults to {{{False}}}. This setting will fetch the tvdb id for the tv show in question and use it to find better matches. Without this setting enabled, the plugin will only search in the latest 10000 uploads, which means old stuff won't show up in the search results.
+* {{{min_leechers}}}: Minimum number of leechers.
+* {{{min_seeders}}}: Minimum number of seeders.
