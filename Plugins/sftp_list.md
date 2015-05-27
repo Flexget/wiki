@@ -10,7 +10,7 @@ or
 pip install  pysftp
 }}}
 
-pysftp depends on the Pycrypto library. If you are using Windows,you may have to install it manually. Windows binaries are available [http://www.voidspace.org.uk/python/modules.shtml#pycrypto here].
+pysftp depends on the Pycrypto library. If you are using Windows, you may have to install it manually. Windows binaries are available [http://www.voidspace.org.uk/python/modules.shtml#pycrypto here].
 
 '''Example'''
 
@@ -37,6 +37,6 @@ sftp_list:
 || private_key || Path || Path to the private key (if any) to log into the SSH server ||
 || private_key_pass || Text || Password for the private key (if needed) ||
 || recursive || [Yes|No] || Indicates whether the listing should be recursive ||
-|| get_size || [Yes|No] || Indicates whetern to calculate the size of the remote file/directory. WARNING: This can be very slow when computing the size of directories! ||
-|| files_only || [Yes|No] || Indicates wheter to omit diredtories from the results. ||
+|| get_size || [Yes|No] || Indicates whether to calculate the size of the remote file/directory. WARNING: This can be very slow when computing the size of directories! ||
+|| files_only || [Yes|No] || Indicates whether to omit directories from the results. ||
 || dirs || Text || List of directories to download ||
