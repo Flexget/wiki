@@ -1,6 +1,6 @@
 = Contributing to !FlexGet =
 
-We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [http://blog.smartbear.com/software-quality/bid/167051/14-Ways-to-Contribute-to-Open-Source-without-Being-a-Programming-Genius-or-a-Rock-Star here].
+We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/ here].
 
 For code submissions we accept (in order of preference):
 
