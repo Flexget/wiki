@@ -7,9 +7,9 @@ This plugin can be used with the [wiki:Plugins/movie_queue movie_queue] plugin t
 Currently the following settings are required:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
-||'''base_url'''||This is the url of your couchpotato instalation (usualy http://localhost) ||
-||'''port'''||This is the port used by your couchpotato instalation (usualy 5050) ||
-||'''api_key'''||This is api key of your couchpotato instalation (can be found under settings->general->advanced)  ||
+||'''base_url'''||This is the URL of your couchpotato installation (usually http://localhost) ||
+||'''port'''||This is the port used by your couchpotato installation (usually 5050) ||
+||'''api_key'''||This is API key of your couchpotato installation (can be found under settings->general->advanced)  ||
 }}}
 
 === Example: add movies to the movie queue ===
