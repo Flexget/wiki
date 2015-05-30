@@ -61,6 +61,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
+||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
@@ -73,7 +74,6 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
 ||[wiki:Plugins/whatcd whatcd]||'''{{{NEW}}}''' Produce entries for content on [https://what.cd]||
-||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 
 == Filters ==
 
@@ -186,7 +186,6 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
-||[wiki:Plugins/path_select path_select]||'''{{{NEW}}}'''Select a path based on disk stats||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
@@ -196,6 +195,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/parsing parsing]||'''{{{NEW}}}'''Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
 ||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
+||[wiki:Plugins/path_select path_select]||'''{{{NEW}}}'''Select a path based on disk stats||
 ||[wiki:Plugins/priority priority]||Change task execution order.||
 ||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
@@ -249,7 +249,6 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}''' Scan (parts of) your rtorrent session.||
 ||[https://github.com/atlanta800/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific custom movie filter by atlanta800.||
 ||[https://github.com/nikdoof/flexget-twitter flexget-twitter]||'''{{{NEW}}}''' Twitter output plugin, allowing posting to twitter when entries are accepted.||
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
