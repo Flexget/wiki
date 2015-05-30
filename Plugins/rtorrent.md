@@ -1,57 +1,99 @@
-= Rtorrent connector =
+= rTorrent =
 
-Opens a Rtorrent XMLRPC connection and allows you to feed the session into FlexGet, or (''not yet implemented'') load output items directly into the client, including the transfer of metadata available in FlexGet.
+This plugin adds URL's directly into rTorrent and can feed in entries from rTorrent.
 
-If you use this plugin, you '''MUST''' `easy_install pyrocore` as an additional dependency. Follow the [http://code.google.com/p/pyroscope/wiki/QuickStartGuide installation guide] and [http://code.google.com/p/pyroscope/wiki/UserConfiguration configuration instructions] of PyroScope before adding the plugin configuration to FlexGet. Also see the [http://code.google.com/p/pyroscope/wiki/FlexGetPlugins PyroScope FlexGet Plugins] page.
+'''Supports'''
 
-'''''NOTE:''' This is a new plugin that has not yet matured, which doesn't imply that the code is not quite stable, but the feature-set is lacking so far, and in flux.''
+Protocols XMLRPC, SCGI and Local SCGI
 
-
-== Configuration ==
-
-The following settings control some basic behaviour:
- enabled:: Enable the plugin?
-
-These keys are used to control reading the session memory of Rtorrent, i.e. using it as a feed:
- view:: The Rtorrent view that is used as a source of the feed items (default is `main`).
- feed_query:: A pyrocore [http://code.google.com/p/pyroscope/wiki/RtControlExamples#Fundamentals filter expression] that selects the items to pass on to FlexGet.
+Dynamically setting the download directory and custom attributes supporting [wiki:Jinja jinja replacement]
 
 
+== Example ==
 
-== Examples ==
+Add TVShows to rTorrent and set the download directory to /data/downloads/TV/{{ tvdb_series_name }}
 
-=== Dump HDTV downloads of the last 2 days ===
-Dump torrents matching a filter condition, note that both PyroScope (`feed_query`) and FlexGet (`quality`) filtering is used:
 {{{
 tasks:
-  pyrotest:
+  TV:
+    rss: http://domain/rss.xml
+    accept_all: yes
     rtorrent:
-      feed_query: 'loaded=-2d'
-    quality: hdtv
-    dump: yes
-
+      uri: scgi://localhost:5000
+      directory: /data/downloads/TV/{{ tvdb_series_name }}
+      custom1: TV
 }}}
 
-=== Change the location of config files ===
-Overriding the normal PyroScope and Rtorrent configuration locations:
+
+Once downloaded move to another folder. You can obviously expand on this config to auto extract (using the decompress plugin) and rename the files then keep seeding.
+
 {{{
-presets:
-  global:
+tasks:
+  MOVE-COMPLETE:
+    from_rtorrent:
+      uri: scgi://localhost:5000
+    regexp:
+      accept_excluding:
+        - complete
+      from: custom2
     rtorrent:
-      config_dir: ~/.pyroscope_flex
-      overrides:
-        rtorrent_rc: ~/bittorrent/rtorrent.rc
+      action: update
+      custom2: complete
+      uri: http://192.168.0.20/north
+      directory: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
 }}}
-Note that you '''MUST''' do this in the `global` preset, because right now, only a connection to ''one'' Rtorrent instance per FlexGet configuration is supported.
 
 
-== Roadmap ==
+== Options ==
 
- * Load torrent directly into rtorrent.
- * Set custom fields based on FlexGet data.
- * Use the Rtorrent session similarly to the exists_* and seen plugins.
+'''Common Options'''
+
+||'''Name'''||'''Info'''||'''Description'''||
+||uri||Text||rTorrent URI. IE: scgi://localhost:5000, http://localhost:80/RPC2, /home/rtorrent/rtorrent.sock ||
+||username||Text||Username when using HTTP for basic auth||
+||password||Text||Password when using HTTP for basic auth||
+
+'''Output specific options'''
+||'''Name'''||'''Info'''||'''Description'''||
+||mkdir||[Yes|No]||Create the destination folder on the rTorrent server (default: yes)||
+||start||[Yes|No]||Automatically start newly added torrent (default: yes)||
+||action||[Yes|No]||[add|update|delete] (Default is add)||
+||path||Directory||Destination for downloaded file(s). Supports [wiki:Jinja jinja replacement].||
+||priority||Text||[off|low|medium|high] Set torrent priority (default off)||
+||custom1||Text||Set custom field||
+||custom2||Text||Set custom field||
+||custom3||Text||Set custom field||
+||custom4||Text||Set custom field||
+||custom5||Text||Set custom field||
+
+'''Input specific options'''
+||'''Name'''||'''Info'''||'''Description'''||
+||view||Text||View to use as input (default main)||
+||fields||list||specify which fields to get from rtorrent. See below for default fields||
+
+The following fields are set by default on input
+
+- torrent_info_hash
+- title
+- up_total
+- down_total
+- down_rate
+- is_open
+- is_active
+- custom1
+- custom2
+- custom3
+- custom4
+- custom5
+- state
+- complete
+- bytes_done
+- down_rate
+- left_bytes
+- ratio
+- path
 
 
-== Ideas ==
+== Enhancements ==
 
- * Carry out some kind of nuke action when a proper or repack etc. arrives for a loaded torrent.
+If you require extra functionality please create a ticket at http://flexget.com/newticket
