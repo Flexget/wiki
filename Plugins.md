@@ -73,6 +73,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||'''{{{NEW}}}''' Lists the content of a remote FTP server||
 ||[wiki:Plugins/whatcd whatcd]||'''{{{NEW}}}''' Produce entries for content on [https://what.cd]||
+||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 
 == Filters ==
 
@@ -157,6 +158,8 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
+||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}'''Pass torrents directly to rtorrent||
+
 
 == Outputs (notification) ==
 
