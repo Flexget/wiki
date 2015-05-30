@@ -183,6 +183,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
+||[wiki:Plugins/path_select path_select]||'''{{{NEW}}}'''Select a path based on disk stats||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
