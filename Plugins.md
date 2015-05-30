@@ -148,17 +148,17 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 ||[wiki:Plugins/move move]||Move local files.||
 ||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
+||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
 ||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
 ||[wiki:Plugins/queue_movies queue_movies]||'''{{{Deprecated}}}''' Add to movie queue.||
+||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}'''Pass torrents directly to rtorrent||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/sftp_download sftp_download]||'''{{{NEW}}}''' Download files from an SFTP server||
-||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||'''{{{NEW}}}''' Set the first episode to download for series.||
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
-||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}'''Pass torrents directly to rtorrent||
 
 
 == Outputs (notification) ==
