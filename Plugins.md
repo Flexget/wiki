@@ -51,6 +51,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/emit_series emit_series]||'''{{{NEW}}}''' Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/find find]||Search through a local directory looking for files as a input.||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
+||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
@@ -61,7 +62,6 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
-||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
