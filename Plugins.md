@@ -64,7 +64,8 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
-||[wiki:Plugins/sickbeard sickbeard]||'''{{{NEW}}}''' Produce entries from sickbeard tracked shows||
+||[wiki:Plugins/sickbeard sickbeard]||'''{{{NEW}}}''' Produce entries from Sickbeard's show list||
+||[wiki:Plugins/sonarr sonarr]||'''{{{NEW}}}''' Produce entries from Sonarr's show list||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
