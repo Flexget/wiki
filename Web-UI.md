@@ -10,9 +10,9 @@ To pull the webui dependencies, use `pip install flexget[webui]` when installing
 
 Some mockup plans [https://flexget.mybalsamiq.com/projects]
 
-Draft API [Drafts/RESTApi]
+Draft API [wiki:Drafts/RESTApi]
 
-Draft JSON schema [Drafts/json_schema]
+Draft JSON schema [wiki:Drafts/json_schema]
 
 Join our irc-channel to participate in the project! The technology stack behind the webui is flask, jinja2 and cherrypy as server.
 Here are a couple of drafts for things we would like to work on in the webui:
