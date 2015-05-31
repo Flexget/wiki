@@ -9,7 +9,7 @@ Currently the following settings are required:
 ||= Option =||= Description =||
 ||'''base_url'''||This is the URL of your sickbeard installation (usually http://localhost) ||
 ||'''port'''||This is the port used by your sickbeard installation (8081 by deafult) ||
-||'''api_key'''||This is API key of your couchpotato installation (can be found under config->general->API)  ||
+||'''api_key'''||This is API key of your sickbeard installation (can be found under config->general->API)  ||
 }}}
 === Example: Add all listed shows to series list ===
 {{{
