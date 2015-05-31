@@ -10,6 +10,8 @@ Currently the following settings are required:
 ||'''base_url'''||This is the URL of your sickbeard installation (usually http://localhost) ||
 ||'''port'''||This is the port used by your sickbeard installation (8081 by deafult) ||
 ||'''api_key'''||This is API key of your sickbeard installation (can be found under config->general->API)  ||
+||'''include_ended'''|| Decides whether to retrieve ended shows. Optional, default is True ||
+||'''only_monitored'''|| Retrieves only shows that are not marked as 'Paused' in sickbeard. Optional, default is False ||
 }}}
 === Example: Add all listed shows to series list ===
 {{{
