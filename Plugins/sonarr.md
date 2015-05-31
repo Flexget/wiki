@@ -7,10 +7,11 @@ This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugi
 Currently the following settings are required:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
-||'''base_url'''||This is the URL of your sonarr installation (usually http://localhost) ||
-||'''port'''||This is the port used by your sonarr installation (8989 by deafult) ||
-||'''api_key'''||This is API key of your sonarr installation (can be found under setting->general->security)  ||
+||'''base_url'''||This is the URL of your Sonarr installation (usually http://localhost) ||
+||'''port'''||This is the port used by your Sonarr installation (8989 by deafult) ||
+||'''api_key'''||This is API key of your Sonarr installation (can be found under setting->general->security)  ||
 ||'''include_ended'''|| Decides whether to retrieve ended shows. Optional, default is True ||
+||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Optional, default is False ||
 }}}
 === Example: Add all listed shows to series list ===
 {{{
