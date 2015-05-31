@@ -10,6 +10,7 @@ Currently the following settings are required:
 ||'''base_url'''||This is the URL of your sonarr installation (usually http://localhost) ||
 ||'''port'''||This is the port used by your sonarr installation (8989 by deafult) ||
 ||'''api_key'''||This is API key of your sonarr installation (can be found under setting->general->security)  ||
+||'''include_ended'''|| Decides whether to retrieve ended shows. Optional, default is True ||
 }}}
 === Example: Add all listed shows to series list ===
 {{{
