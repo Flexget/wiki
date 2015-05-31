@@ -1,5 +1,5 @@
 = Sonarr=
-This plugin creates an [wiki:Entry Entry] for each show in your [https://sonarr.tv/ Sonarr] show list (including ended ones).
+This plugin creates an [wiki:Entry Entry] for each show in your [https://sonarr.tv/ Sonarr] show list (including ended ones by default).
 This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugins/configure_series configure_series] plugins to add those shows to the shows list.
 
 == Plugin Settings ==
