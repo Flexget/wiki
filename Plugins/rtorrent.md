@@ -1,4 +1,4 @@
-= rTorrent =
+:q= rTorrent =
 
 This plugin adds URL's directly into rTorrent and can feed in entries from rTorrent.
 
@@ -20,7 +20,7 @@ tasks:
     accept_all: yes
     rtorrent:
       uri: scgi://localhost:5000
-      directory: /data/downloads/TV/{{ tvdb_series_name }}
+      path: /data/downloads/TV/{{ tvdb_series_name }}
       custom1: TV
 }}}
 
@@ -40,7 +40,7 @@ tasks:
       action: update
       custom2: complete
       uri: http://192.168.0.20/north
-      directory: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
+      path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
 }}}
 
 
@@ -71,7 +71,7 @@ tasks:
 ||view||Text||View to use as input (default main)||
 ||fields||list||specify which fields to get from rtorrent. See below for default fields||
 
-The following fields are set by default on input
+The following entry fields are set by default on input.
 
 - torrent_info_hash
 - title
@@ -93,6 +93,20 @@ The following fields are set by default on input
 - ratio
 - path
 
+You could use theses to fields to action a torrent.. IE: Remove after x ratio and above
+
+{{{
+tasks:
+  DELETE-RATIO:
+    from_rtorrent:
+      uri: scgi://localhost:5000
+    if:
+      - ratio > 2.0: accept
+    rtorrent:
+      action: delete
+      custom2: complete
+      uri: http://192.168.0.20/north
+}}}
 
 == Enhancements ==
 
