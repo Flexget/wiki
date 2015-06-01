@@ -9,6 +9,24 @@ Will either be a component of webui, or a separately enablable module that webui
 - Stick to REST principles as long as it makes sense.
 - Should be some easy way for plugins to add their own api endpoints.
 
+== Standard formats ==
+
+When returning a list of "things" it should be formatted as
+
+{{{
+{
+  "items": [list of items]
+}
+}}}
+
+When returning an object it should be formatted as 
+
+{{{
+{
+  "object": {object}
+}
+}}}
+
 = Core Endpoints =
 
 == Execution ==
