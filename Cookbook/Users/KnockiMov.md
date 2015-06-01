@@ -9,6 +9,8 @@ For this to work you have to setup a few things.
 
 The watchlist you specify in this configuration have to be public for FlexGet to read it.
 
+I had to make a small change to the file search_kat.py for the plugin to work as it pointed to the old adress kickass.to
+
 ----
 
 Below is my configuration as of 2015.06.01. Template is located at the bottom of this page to be downloaded.
