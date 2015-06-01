@@ -11,6 +11,8 @@ The watchlist you specify in this configuration have to be public for FlexGet to
 
 I had to make a small change to the file search_kat.py for the plugin to work as it pointed to the old adress kickass.to
 
+All thanks to user UnNefer for his e-mail-template from his own guide: http://flexget.com/wiki/Cookbook/Users/UnNefer
+
 ----
 
 Below is my configuration as of 2015.06.01. Template is located at the bottom of this page to be downloaded.
