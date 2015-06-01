@@ -12,10 +12,17 @@ Will either be a component of webui, or a separately enablable module that webui
 = Core Endpoints =
 
 == Execution ==
-Executions would be represented with a data structure something like this.
-`{"id": "some id for execution", "status": "running|pending|complete|aborted"}`
-
 ==== /execution ====
+Executions would be represented with a data structure something like this.
+
+{{{
+{
+  "id": <id in queue>,
+  "status": "running|pending",
+  "current_phase": "input",
+  "current_plugin": "rss",
+}
+}}}
 
 '''GET'''
 Return a list of running/pending executions.
