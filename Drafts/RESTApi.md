@@ -47,7 +47,8 @@ Return a list of running/pending executions.
 
 '''POST'''
 Adds an execution to the queue. Accepts options as JSON (maybe also url parameters).
-Returns execution info.
+
+Returns a stream of the log
 
 === /execution/<id> ===
 
