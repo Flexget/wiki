@@ -1,4 +1,4 @@
-:q= rTorrent =
+= rTorrent =
 
 This plugin adds URL's directly into rTorrent and can feed in entries from rTorrent.
 
@@ -8,6 +8,7 @@ Protocols XMLRPC, SCGI and Local SCGI
 
 Dynamically setting the download directory and custom attributes supporting [wiki:Jinja jinja replacement]
 
+Magnet urls
 
 == Example ==
 
