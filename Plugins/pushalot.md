@@ -14,26 +14,23 @@ pushalot:
   token: <token>
 }}}
 
+This will send the following message by default:
+{{{
+title: <task name>
+body:<series name>/<series id> or <movie name>\<movie year> 
+}}}
+
 === Advanced ===
 More advanced configuration provides the ability to:
-* target a specific device (`device`)
-* override the notification message title (`title`)
-* override the notification message body (`message`)
-* override the notification priority (`priority`)
-* override the URL sent in the notification (`url`)
-* override the default sound (`sound`)
-* use multiple userkeys with a list for (`userkey`)
-
- device::
-  (string) device name as specified in the Pushover configuration
- title::
-  (string) accepts Jinja2 tags
- message::
-  (string) accepts Jinja2 tags
- priority::
-  (int) -1 = low, 0 = default, 1 = high
- url::
-  (url) accepts Jinja2 tags
+- Set a title <title> (default is task name, Accepts Jinja2 tags) 
+- Set a body <body> (default is mentioned above, Accepts Jinja2 tags) 
+- Attach a URL <link> (default is '{{ imdb_url }}'', Accepts Jinja2 tags)
+- Specify a URL name <linktitle> (default is none, Accepts Jinja2 tags)
+- Specify priority <important> (accepts true/false, default is false)
+- Specify sound mode <silent> (accepts true/false, default is false)
+- Attach an image <image> (default is none, Accepts Jinja2 tags)
+- Specify different app name (default is "FlexGet")
+- Specify message life span. (accepts integer, value is minutes, default is none (never expires)
 
 ==== Example ====
 {{{
