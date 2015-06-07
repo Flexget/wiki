@@ -173,7 +173,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/notify_xmpp notify_xmpp]||'''{{{NEW}}}''' Send notifications via XMPP.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
-||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
+||[wiki:Plugins/pushalot pushalot]||'''{{{NEW}}}''' Send Pushalot notifications (Windows 8/Windows Phone).||
 
 == Modify / Other ==
 
