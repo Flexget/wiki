@@ -18,8 +18,9 @@ This will send the following message by default:
 {{{
 title: "Task <task name>"
 body: "<series name> <series id> or <movie name> <movie year>" 
+link: "<imdb url>
 }}}
-
+[[Image(http://flexget.com/raw-attachment/wiki/Plugins/pushalot/pushlaot%20example.png)]]
 === Advanced ===
 More advanced configuration provides the ability to:
 - Use several tokens <`token`> via a list. See example below for details.
