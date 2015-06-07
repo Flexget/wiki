@@ -7,7 +7,7 @@ This plugin provides the ability to send FlexGet notifications via the cross-pla
 
 == Configuration ==
 === Simple ===
-The simplest Pushalot plugin configuration requires only the user token (`token`). This will broadcast the notification to the registered device/s associated with that token.
+The simplest Pushalot plugin configuration '''requires only the user token (`token`)'''. This will broadcast the notification to the registered device/s associated with that token.
 ==== Example ====
 {{{
 pushalot:
