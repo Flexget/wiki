@@ -7,7 +7,7 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 == Configuration ==
 === Simple ===
-The simplest Pushalot plugin configuration requires only the user token (`token `). This will broadcast the notification to the registered device/s associated with that token.
+The simplest Pushalot plugin configuration requires only the user token (`token). This will broadcast the notification to the registered device/s associated with that token.
 ==== Example ====
 {{{
 pushalot:
@@ -22,12 +22,13 @@ body:<series name>/<series id> or <movie name>\<movie year>
 
 === Advanced ===
 More advanced configuration provides the ability to:
-- Set a title <title> (default is task name, Accepts Jinja2 tags) 
-- Set a body <body> (default is mentioned above, Accepts Jinja2 tags) 
-- Attach a URL <link> (default is '{{ imdb_url }}'', Accepts Jinja2 tags)
-- Specify a URL name <linktitle> (default is none, Accepts Jinja2 tags)
-- Specify priority <important> (accepts true/false, default is false)
-- Specify sound mode <silent> (accepts true/false, default is false)
+- Use several tokens <'token'>
+- Set a title <'title'> (default is task name, Accepts Jinja2 tags) 
+- Set a body <'body'> (default is mentioned above, Accepts Jinja2 tags) 
+- Attach a URL <'link'> (default is '{{ imdb_url }}'', Accepts Jinja2 tags)
+- Specify a URL name <'linktitle'> (default is none, Accepts Jinja2 tags)
+- Specify priority <'important'> (accepts true/false, default is false)
+- Specify sound mode <'silent'> (accepts true/false, default is false)
 - Attach an image <image> (default is none, Accepts Jinja2 tags)
 - Specify different app name (default is "FlexGet")
 - Specify message life span. (accepts integer, value is minutes, default is none (never expires)
