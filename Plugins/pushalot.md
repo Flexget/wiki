@@ -16,8 +16,8 @@ pushalot:
 
 This will send the following message by default:
 {{{
-title: <task name>
-body:<series name>/<series id> or <movie name>\<movie year> 
+title: "Task <task name>"
+body: "<series name> <series id> or <movie name> <movie year>" 
 }}}
 
 === Advanced ===
