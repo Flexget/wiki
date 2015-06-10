@@ -44,7 +44,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
-||[wiki:Plugins/couchpotato couchpotato]||'''{{{NEW}}}''' Produce entries from couchpotato wanted list||
+||[wiki:Plugins/couchpotato couchpotato]||'''{{{UPDATED}}}''' Produce entries from couchpotato wanted list||
 ||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||'''{{{NEW}}}''' Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
@@ -64,8 +64,8 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/rss rss]||Parse RSS-feed.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
-||[wiki:Plugins/sickbeard sickbeard]||'''{{{NEW}}}''' Produce entries from Sickbeard's show list||
-||[wiki:Plugins/sonarr sonarr]||'''{{{NEW}}}''' Produce entries from Sonarr's show list||
+||[wiki:Plugins/sickbeard sickbeard]||'''{{{UPDATED}}}''' Produce entries from Sickbeard's show list||
+||[wiki:Plugins/sonarr sonarr]||'''{{{UPDATED}}}''' Produce entries from Sonarr's show list||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
 ||[wiki:Plugins/text text]||Parse any text data||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
