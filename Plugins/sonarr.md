@@ -7,12 +7,15 @@ This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugi
 Currently the following settings are required:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
-||'''base_url'''||This is the URL of your Sonarr installation (usually http://localhost) ||
-||'''port'''||This is the port used by your Sonarr installation (8989 by deafult) ||
+||'''base_url'''||This is the URL of your Sonarr installation (usually http://localhost). Default port is 80. ||
 ||'''api_key'''||This is API key of your Sonarr installation (can be found under setting->general->security)  ||
-||'''include_ended'''|| Decides whether to retrieve ended shows. Optional, default is True ||
-||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Optional, default is False ||
 }}}
+The following settings are optional:
+{{{#!div style="margin-left: 25px"
+||= Option =||= Description =||
+||'''port'''||This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80. ||
+||'''include_ended'''|| Decides whether to retrieve ended shows. Default is True ||
+||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Default is False ||
 === Example: Add all listed shows to series list ===
 {{{
   get-all-shows-from-sonarr-task:
