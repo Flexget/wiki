@@ -5,9 +5,9 @@ All the templates to process must begin with the word "secrets".
 
 === Example ===
 
-In this sample {{{config.yml}}} we configure the plugin to look for config secrets in a file named {{{secretfile.yml}}}:
+In this sample {{{config.yml}}} we configure the plugin to look for config secrets in a file named {{{secrets.yml}}}:
 {{{
-secrets: secretfile.yml
+secrets: secrets.yml
 templates:
   tell_me:
     notify_xmpp:
@@ -26,7 +26,7 @@ tasks:
       type: movies
 }}}
 
-And this is the {{{secretfile.yml}}} content:
+And this is the {{{secrets.yml}}} content:
 {{{
 xmpp:
   usr: xxx@yyy.zzz
@@ -41,7 +41,7 @@ a_long:
 
 So this will be the resulting {{{config.yml}}} before executing tasks:
 {{{
-secrets: secretfile.yml
+secrets: secrets.yml
 templates:
   tell_me:
     notify_xmpp:
@@ -62,5 +62,5 @@ tasks:
 
 '''Notes:'''
 - The secrets file must stay in the same config.yml location.
-- Use singles quotes around URLs in your {{{secretfile.yml}}} file.
+- Use singles quotes around URLs in your {{{secrets.yml}}} file.
 - Any template the plugin cannot process, for any reason (i.e.: a template not starting with "secrets" or missing in the secrets file) will be ignored.
