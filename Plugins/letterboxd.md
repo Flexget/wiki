@@ -21,7 +21,9 @@ This plugin produces an [wiki:Entry entry] for each film in any public [http://l
 ||release-ascending   ||  ||Sorted by date of theatrical release, from least to most recent. ||
 ||release-descending  ||  ||Sorted by date of theatrical release, from most to least recent. ||
 
-The **username** and **list** parameters should be entered exactly as they appear in the URL for the list. For example, to get films from a list at `http://letterboxd.com/some-user/list/some-users-list/`, the username would be `some-user` (not `Some User`), and the list would `some-users-list` (not `Some User's list`).
+The **username** and **list** parameters should be entered exactly as they appear in the URL for the list. For example, to get films from a list at
+  `http://letterboxd.com/some-user/list/some-users-list/`
+the username would be `some-user` (not `Some User`), and the list would `some-users-list` (not `Some User's list`).
 
 == Usage notes ==
 
