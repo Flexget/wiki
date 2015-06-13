@@ -62,7 +62,7 @@ transmission:
 ||ratio||Decimal||The ratio to stop seeding at (-1 means infinite)||
 ||enabled||[Yes|No]||Plugin enabled (Default: Yes)||
 ||main_file_only||[Yes|No]||If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip'||
-||main_file_ratio||Decimal||When used with 'main_file_only', the main file inside the torrent must be greater than this value (Default: 0.90)||
+||main_file_ratio||Decimal||Sets the threshold value for main_file_only. Expects a number between 0 and 1 (ie 0.85 to change to 85%). 90% by default.||
 ||magnetization_timeout||Number||When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0)||
 ||include_subs||[Yes|No]||If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa)||
 ||content_filename||Text||This can be used to rename the main file inside the torrent. [wiki:Plugins/transmission#ContentRenaming see here]||
