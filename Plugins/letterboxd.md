@@ -4,22 +4,22 @@ This plugin produces an [wiki:Entry entry] for each film in any public [http://l
  
 == Configuration ==
 
-||=**Paramaters**       =||==||=An asterisk (*) indicates that the parameter is required =||
-||**username***          ||  ||Your or another user's Letterboxd username. ||
-||**list***              ||  ||The name of a custom list, or one of the following built in lists: `watchlist`, `diary`, `likes`, `rated` or `watched`. ||
-||**sort_by**            ||  ||Determines the order in which films in the list will be returned (see below). ||
-||**max_results**        ||  ||An integer specifying the maximum number of films that will be returned from the list. ||
-||                       ||  ||||
+||=**Paramaters**    =||==||=An asterisk (*) indicates that the parameter is required =||
+||**username***       ||  ||Your or another user's Letterboxd username. ||
+||**list***           ||  ||The name of a custom list, or one of the following built in lists: `watchlist`, `diary`, `likes`, `rated` or `watched`. ||
+||**sort_by**         ||  ||Determines the order in which films in the list will be returned (see below). ||
+||**max_results**     ||  ||An integer specifying the maximum number of films that will be returned from the list. ||
+||                    ||  ||||
 ||||||=**sort_by options** =||
-||**name**               ||  ||Sorted by film title, ascending alphabetically. ||
-||**added**              ||  ||Sorted by the date the film was added to the list, from most to least recent. ||
-||**popularity**         ||  ||Sorted in descending order of popularity among Letterboxd users. ||
-||**length-ascending**   ||  ||Sorted by runtime, from shortest to longest. ||
-||**length-descending**  ||  ||Sorted by runtime, from longest to shortest. ||
-||**rating-ascending**   ||  ||Sorted by the average rating given by Letterboxd users, from lowest to highest. ||
-||**rating-descending**  ||  ||Sorted by the average rating given by Letterboxd users, from highest to lowest. ||
-||**release-ascending**  ||  ||Sorted by date of theatrical release, from least to most recent. ||
-||**release-descending** ||  ||Sorted by date of theatrical release, from most to least recent. ||
+||name                ||  ||Sorted by film title, ascending alphabetically. ||
+||added               ||  ||Sorted by the date the film was added to the list, from most to least recent. ||
+||popularity          ||  ||Sorted in descending order of popularity among Letterboxd users. ||
+||length-ascending    ||  ||Sorted by runtime, from shortest to longest. ||
+||length-descending   ||  ||Sorted by runtime, from longest to shortest. ||
+||rating-ascending    ||  ||Sorted by the average rating given by Letterboxd users, from lowest to highest. ||
+||rating-descending   ||  ||Sorted by the average rating given by Letterboxd users, from highest to lowest. ||
+||release-ascending   ||  ||Sorted by date of theatrical release, from least to most recent. ||
+||release-descending  ||  ||Sorted by date of theatrical release, from most to least recent. ||
 
 The **username** and **list** parameters should be entered exactly as they appear in the URL for the list. For example, to get films from a list at `http://letterboxd.com/some-user/list/some-users-list/`, the username would be `some-user` (not `Some User`), and the list would `some-users-list` (not `Some User's list`).
 
