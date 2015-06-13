@@ -10,10 +10,12 @@ Results are cached so this doesn't cause unnecessary load to [http://www.rottent
  * To reject non Rotten Tomato compatible entries, use [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup] and [wiki:Plugins/require_field require_field] with `rt_id`.
  * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [wiki:Plugins/seen_movies seen_movies] plugin alongside.
  * The `require_certified_fresh` option will reject torrents even if they are accepted by other plugins.
+ * You should [[http://developer.rottentomatoes.com/|create]] and use your own API key instead of the default, as Rotten Tomatoes limits the number of concurrent users per key. You can change the API key using [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]
 
 === Example ===
 
 {{{
+rottentomatoes_lookup: rh8chjzp8vu6gnpwj88736uv # API key
 rottentomatoes:
   min_critics_score: 75
   min_critics_rating: certified fresh
