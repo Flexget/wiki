@@ -44,7 +44,7 @@ In addition to `title`, `url`, `imdb_id`, `tmdb_id`, `movie_name` and `movie_yea
 ||**letterboxd_score**  || ||The average rating (out of 10) given to the film by Letterboxd users (included when available). ||
 ||**letterboxd_uscore** || ||The rating (out of 10) given to the film by the list owner (included for `diary` and `rated` lists). ||
 
-You can of course [wiki:Plugins#Filters filter] against any of these fields. **letterboxd_list** may be useful where [wiki:inputs more than one input plugin] is included in the task, and **letterboxd_score** and **letterboxd_uscore** can used in conjunction with [wiki:if Python if statements], like so:
+You can of course [wiki:Plugins#Filters filter] against any of these fields. **letterboxd_list** may be useful where more than one input plugin (or [wiki:inputs more than one Letterboxd list]) is included in the task. **letterboxd_score** and **letterboxd_uscore** can used in conjunction with [wiki:if Python if statements], like so:
 
 {{{
 tasks:
