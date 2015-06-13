@@ -56,6 +56,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/html html]||Parse any HTML-page.||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
+||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
 ||[wiki:Plugins/plex plex]||'''{{{NEW}}}''' Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/pogcal pogcal]||'''{{{NEW}}}''' Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
