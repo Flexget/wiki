@@ -1,6 +1,6 @@
 = Letterboxd =
 
-This plugin produces an [wiki:Entry entry] for each film in any public [http://letterboxd.com Letterboxd] list. These entries can then be added to the [wiki:movie_queue#AddingRemovingusingTasks movie_queue], used to initiate a search with [wiki:discover discover], or passed to any other [wiki:Plugins#Outputs output plugin]. Results are cached for two hours to avoid flooding the site.
+This plugin produces an [wiki:Entry entry] for each film in any public [http://letterboxd.com Letterboxd] list. These entries can then be added to the [wiki:movie_queue#AddingRemovingusingTasks movie_queue], used to initiate a search with [wiki:discover discover], or passed to some other [wiki:Plugins#Outputs output plugin]. Results are cached for two hours to avoid flooding the site.
  
 == Configuration ==
 
