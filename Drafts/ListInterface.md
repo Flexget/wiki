@@ -57,3 +57,11 @@ seen: no  # This would currently be required in any such task
 
 === list_add/list_remove ===
 output plugins to add/remove accepted entries from a list
+
+These replace current plugins like trakt_add/trakt_remove, but now you can use this for any of the list plugins, or multiple lists at once.
+
+== interface plugins ==
+=== webui ===
+Webui plugins could be made which use these plugins as well, allowing nice interface to manage things like movie queues, series lists separate than
+=== cli ===
+Ideally every list plugin wouldn't have to write their own cli interface. Not exactly sure how this would be implemented though, as where would you write the config for the different list pluigns.
