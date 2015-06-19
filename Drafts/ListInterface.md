@@ -6,7 +6,8 @@ In addition it would have methods to add and remove from the list. These could b
 
   trakt_list:: Same as current trakt_list, but combine trakt_add/trakt_remove to fully implement list interface
   letterboxd_list:: Same as above
-  movie_list:: New plugin, stores movies in the database
+  entry_list:: New plugin, stores generic entries in db (I think this with the list_add, list_remove plugins below might replace digest plugin functionality as well)
+  movie_list:: New plugin, stores movies in the database, perhaps a subclass of entry_list that enforces some extra rules regarding fields
   series_list:: New plugin, stores series in the database (also useful if you want to maintain series list for configure_series without depending on online service)
 
 (imdb_list couldn't implement the list interface though, since we can't programmatically add/remove.)
