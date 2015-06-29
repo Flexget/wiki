@@ -16,6 +16,7 @@ The following settings are optional:
 ||'''port'''||This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80. ||
 ||'''include_ended'''|| Decides whether to retrieve ended shows. Default is True ||
 ||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Default is False ||
+||'''include_data'''|| Decides whether to send quality choice to be configured in Flexget. Chosen quality will is defined as 'cutoff' in Sonarr. Default is False ||
 === Example: Add all listed shows to series list ===
 {{{
   get-all-shows-from-sonarr-task:
