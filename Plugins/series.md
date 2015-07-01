@@ -51,28 +51,28 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 [wiki:Plugins/series/per_group_settings How to configure settings with groups]
 
 ||'''Option'''||'''Description'''||
-||[wiki:Plugins/series/quality quality]||Required quality.||
-||[wiki:Plugins/series/qualities qualities]||Download all listed qualities when they become available.||
-||[wiki:Plugins/series/upgrade upgrade]||Keeps getting the better qualities as they become available.||
-||[wiki:Plugins/series/timeframe timeframe]||Wait given amount of time for specified quality to become available, after that fall back to best so far.||
-||[wiki:Plugins/series/timeframe target]||The target quality that should be downloaded without waiting for {{{timeframe}}} to complete.||
 ||[wiki:Plugins/series/alternate_name alternate_name]||Define other names which this show is also released as.||
-||[wiki:Plugins/series/parse_only parse_only]||Series plugin will not accept or reject any entries, merely fill in all metadata fields.||
-||[wiki:Plugins/series/path path]||Set ''path'' field for this series.||
-||[wiki:Plugins/series/set set]||Use [wiki:Plugins/set set] plugin to set any fields for this series.||
+||[wiki:Plugins/series/assume_special assume_special]||Assume any entry with no series numbering detected is a special and treat it accordingly.||
+||[wiki:Plugins/series/begin begin]||Manually specify first episode to start series on.||
+||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/exact exact]||Configure exact matching behavior. Needed for series which have similar named series. Uses 'auto' mode as default.||
 ||[wiki:Plugins/series/from_group from_group]||Accept series only from given groups.||
-||[wiki:Plugins/series/identified_by identified_by]||Configure how episode numbering is detected. Uses 'auto' mode as default.||
-||[wiki:Plugins/series/propers propers]||Configure how propers are handled.||
-||[wiki:Plugins/series/specials specials]||Turn off specials support for series. (on by default)||
-||[wiki:Plugins/series/special_ids special_ids]||Defines other IDs which will cause entries to be flagged as specials.||
-||[wiki:Plugins/series/prefer_specials prefer_specials]||Flag entries matching both special and a normal ID type as specials.||
-||[wiki:Plugins/series/begin begin]||Manually specify first episode to start series on.||
-||[wiki:Plugins/series/tracking tracking]||Turn latest episode tracking off, or put into backfill mode.||
-||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
-||[wiki:Plugins/series/regexps#Episodenumberingmatching ep_regexp]||Manually specify regexp(s) that matches to episode, season numbering.||
 ||[wiki:Plugins/series/regexps#Episodenumberingmatching id_regexp]||Manually specify regexp(s) that matches to series identifier (numbering).||
-||[wiki:Plugins/series/assume_special assume_special]||Assume any entry with no series numbering detected is a special and treat it accordingly.||
+||[wiki:Plugins/series/identified_by identified_by]||Configure how episode numbering is detected. Uses 'auto' mode as default.||
+||[wiki:Plugins/series/regexps name_regexp]||Manually specify regexp(s) that matches to series name.||
+||[wiki:Plugins/series/parse_only parse_only]||Series plugin will not accept or reject any entries, merely fill in all metadata fields.||
+||[wiki:Plugins/series/path path]||Set ''path'' field for this series.||
+||[wiki:Plugins/series/prefer_specials prefer_specials]||Flag entries matching both special and a normal ID type as specials.||
+||[wiki:Plugins/series/propers propers]||Configure how propers are handled.||
+||[wiki:Plugins/series/qualities qualities]||Download all listed qualities when they become available.||
+||[wiki:Plugins/series/quality quality]||Required quality.||
+||[wiki:Plugins/series/set set]||Use [wiki:Plugins/set set] plugin to set any fields for this series.||
+||[wiki:Plugins/series/special_ids special_ids]||Defines other IDs which will cause entries to be flagged as specials.||
+||[wiki:Plugins/series/specials specials]||Turn off specials support for series. (on by default)||
+||[wiki:Plugins/series/timeframe target]||The target quality that should be downloaded without waiting for {{{timeframe}}} to complete.||
+||[wiki:Plugins/series/timeframe timeframe]||Wait given amount of time for specified quality to become available, after that fall back to best so far.||
+||[wiki:Plugins/series/tracking tracking]||Turn latest episode tracking off, or put into backfill mode.||
+||[wiki:Plugins/series/upgrade upgrade]||Keeps getting the better qualities as they become available.||
 
 
 == Notes ==
