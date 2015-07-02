@@ -53,6 +53,7 @@ tasks:
 ||uri||Text||rTorrent URI. IE: scgi://localhost:5000, http://localhost:80/RPC2, /home/rtorrent/rtorrent.sock ||
 ||username||Text||Username when using HTTP for basic auth||
 ||password||Text||Password when using HTTP for basic auth||
+||timeout||Text||Seconds before timeout when connecting to rtorrent||
 
 '''Output specific options'''
 ||'''Name'''||'''Info'''||'''Description'''||
