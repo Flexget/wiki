@@ -1,6 +1,7 @@
 = Parameters =
 
 ''TODO: write this section! ''
+''NOTE: this should be generated and should be synced with the `flexget -h`'s output.''
 
 usage: flexget.py [options]
 
