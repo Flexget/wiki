@@ -17,7 +17,7 @@ move:
 
 [] = optional
 
-Entry field "to" can be used to override given path.
+Entry field "move_to" can be used to override given path.
 
 Here is an example of usage in a more comprehensive context
 
