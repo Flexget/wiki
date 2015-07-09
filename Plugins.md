@@ -183,6 +183,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/assume_quality assume_quality]||'''{{{NEW}}}''' Make assumptions about the qualities of releases.||
+||[wiki:Plugins/cfscraper cfscraper]||'''{{{NEW}}}''' Enables cloudflare scraping in a task.||
 ||[wiki:Plugins/clean_transmission clean_transmission]||'''{{{NEW}}}''' Clean Transmission queue.||
 ||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
