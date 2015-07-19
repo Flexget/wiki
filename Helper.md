@@ -1,6 +1,8 @@
-'''bash one-liners'''
+==== bash one-liners ====
 
 Place these in .bashrc or (preferably) .bash_aliases, located in your $HOME directory in Linux, next to your .flexget directory
+
+'''flexget.log parsers'''
 
 Helper method to parse the log files for Accepted items, and groups them together
 
