@@ -34,4 +34,4 @@ You can either [http://flexget.com/register register] or login with username: ''
  [wiki:Cookbook/export Export and re Import TvShow and Seen Data]::
 
 == Helper scripts ==
-[wiki:Helper scripts and other quick one-liners]::
+ [wiki:Helper] scripts and other quick one-liners::
