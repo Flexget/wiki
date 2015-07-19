@@ -11,6 +11,8 @@ Helper method to parse the log files for Accepted items, and groups them togethe
 fxl() {  cat $HOME/.flexget/flexget.log | awk '$0 ~ /Summary - Accepted:/ && $9 > 0 {x=NR+$9}(NR<=x){if(NR==x)print $0 RS "- - - -"; else print; fi; }'; }
 }}}
 
+
+[[BR]]
 The same as above but for all log files still in rotation inside the .flexget folder
 
 {{{
