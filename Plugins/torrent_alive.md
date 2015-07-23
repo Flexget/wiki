@@ -3,6 +3,8 @@ This plugin will reject any accepted entries that are torrents, but do not meet 
 
 Rejections are remembered by default for one hour. If the entry is accepted again after this interval, the tracker(s) will be queried for seeds again.
 
+'''{{{NOTE:}}}''' This plugin only works if the tracker supports a standard scrape. It will cause entries to be rejected if none of the trackers for a torrent support scrape; In this case, do not use this plugin.
+
 '''Example:'''
 {{{
 torrent_alive: yes
