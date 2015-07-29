@@ -2,8 +2,10 @@
 
 All the information of how sceneaccess works can be found in the plugin doc inside Flexget.
 
-'''Copy-Paste from running flexget doc scenaccess'''
-
+'''Plugin Documentation (as of 2015-07-29)'''
+{{{
+flexget doc scenaccess
+}}}
 {{{
 Scene Access Search plugin
 
