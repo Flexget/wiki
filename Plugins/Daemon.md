@@ -1,4 +1,4 @@
 
 == Daemon ==
 
-Refer to [wiki:Daemon].
+Refer to [wiki:/Daemon].
