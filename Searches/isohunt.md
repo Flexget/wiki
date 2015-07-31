@@ -2,6 +2,8 @@
 
 A search plugin that generates sorted entries from isohunt.
 
+'''Note:''' Due to code changes (and domain change from isohunt.com -> isohunt.to) from Isohunt, this plugin no longer works. Ticket ref: [http://flexget.com/ticket/3056#ticket]
+
 == Config Format ==
 
 isohunt: <category>
@@ -20,7 +22,6 @@ isohunt: <category>
 ||books||Category for books||
 ||music video||Category for music videos||
 ||unclassified||Unclear||
-
 
 
 
