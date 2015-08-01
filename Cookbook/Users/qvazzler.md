@@ -1,3 +1,4 @@
+'''Note:''' This config us currently outdated, and therefore slightly borked. Feel free to take inspiration from it, but it won't work 100% after copy-paste.
 
 == Intro ==
 
