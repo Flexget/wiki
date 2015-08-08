@@ -259,5 +259,4 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 ||[https://github.com/atlanta800/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific custom movie filter by atlanta800.||
-||[https://github.com/nikdoof/flexget-twitter flexget-twitter]||'''{{{NEW}}}''' Twitter output plugin, allowing posting to twitter when entries are accepted.||
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
