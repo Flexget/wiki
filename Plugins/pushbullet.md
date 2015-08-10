@@ -15,6 +15,7 @@ pushbullet:
   apikey: <API_KEY> (can be a list of API keys)
   [device: <DEVICE_IDEN> (can also be a list of device idens, or don't specify any idens to send to all devices)]
   [email: <EMAIL_ADDRESS> (can also be a list of user email addresses)]
+  [channel: <CHANNEL_TAG> (can also be a list of channel tags)]
   [title: <MESSAGE_TITLE>] (default: "{{task}} - Download started" -- accepts Jinja2)
   [body: <MESSAGE_BODY>] (default: "{{series_name}} {{series_id}}" -- accepts Jinja2)
   [url: <LINK_URL>] (default: empty -- accepts Jinja2)
