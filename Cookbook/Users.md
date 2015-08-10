@@ -30,3 +30,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [http://flexget.com/wiki/Users/anon] Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
 * [wiki:Cookbook/Users/malkavi malkavi] (v1.2.313) Spanish Movies and series config.
 * [https://github.com/Jonybat/flexget_config jonybat] (v1.2.343)
+* [https://github.com/nikdoof/flexget-config nikdoof] (v1.2)
