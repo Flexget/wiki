@@ -1,4 +1,4 @@
-= Transfer torrents in transmission to deluge =
+= Transfer torrents from deluge to transmission =
 
 {{{
 tasks:
