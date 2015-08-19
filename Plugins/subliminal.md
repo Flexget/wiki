@@ -2,7 +2,7 @@
 
 Download subtitles for entries referred to existing video files.
 
-This plugin requires the subliminal v0.8.0 library. To install it, download the following zip file:
+This plugin requires the subliminal v1.0.1 library. To install it, download the following zip file:
 
 {{{
 https://github.com/Diaoul/subliminal/archive/master.zip
