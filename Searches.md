@@ -9,6 +9,7 @@
 ||[wiki:Searches/btn btn]||Searches private torrent site BTN||
 ||[wiki:Searches/cpasbien cpasbien]||Generates entries from [http://www.cpasbien.pw/ cpasbien.pw]||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
+||[wiki:Searches/freshon freshon]||Generates entries from [http://freshon.tv freshon.tv]||
 ||[wiki:Searches/iptorrents iptorrents]||Generates entries from [http://iptorrents.com iptorrents.com]||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
 ||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
