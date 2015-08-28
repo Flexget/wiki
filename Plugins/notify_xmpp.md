@@ -24,7 +24,7 @@ easy_install sleekxmpp
 ||'''Name'''||'''Description'''||
 ||sender||The sender jid||
 ||password||The sender password||
-||recipient||The recipient jid||
+||recipient||One or more receipient JIDs to send the message to||
 ||title||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification title||
 ||text||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification body||
 
