@@ -38,7 +38,7 @@
  * http://ezrss.it/feed/
  * http://kat.ph/tv/?rss=1
  * http://torrentz.eu/feed?verified&q=tv%20shows
- * http://extratorrent.com/rss.xml?cid=8
+ * http://extratorrent.cc/rss.xml?cid=8
  * http://feeds.feedburner.com/eztv-rss-atom-feeds?format=xml
 
 ''NZB Feeds''
