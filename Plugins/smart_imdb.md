@@ -27,7 +27,7 @@ These two examples are equal. The only important part is to give the full IMDB I
 ||'''rating'''|| A number between 0 and 10 that filters the corresponding rating that an item must have in order to pass the filter. ||
 ||'''votes'''|| A number higher than 0 that filters the corresponding number votes that an item must have in order to pass the filter. ||
 ||'''years'''|| A string that filters the item based on its release year. Can be 1 of four formats: `year`, `year-`, `-year` and `year-year`. See config for details. ||
-||'''actor_position'''|| A number great than 0 that specifies the minimum position that an actor must be listed in case in order to pass filter. Releavnt only when filtering for `person` and job_types include `actor`. ||
+||'''actor_position'''|| A number great than 0 that specifies the minimum position that an actor must be listed in case in order to pass filter. Relevant only when filtering for `person` and job_types include `actor`. ||
 ||'''strict_mode'''|| A boolean value that determines what to do in case an item does not have year, rating or votes listed and the configuration holds any of those. If set to 'True', it will cause an item that does not hold one of these properties to fail the filter. Default is 'False'. ||
 ||'''max_entries'''|| The maximum number of entries that can return. This value's purpose is basically flood protection against unruly configurations that will return too many results. Default is 200. ||
 }}}
