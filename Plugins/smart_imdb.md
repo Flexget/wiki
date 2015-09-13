@@ -21,7 +21,7 @@ These two examples are equal. The only important part is to give the full IMDB I
 ||'''id'''||As listed above, any string that contains one of the prelisted accepted IMDB IDs. Required.||
 ||'''job_types'''||A string or list with one of the following: `actor`, `director`, `producer`, `writer`, `self`, `editor`, `miscellaneous`, `editorial department`, `cinematographer`, `visual effects`, `thanks`, `music department`. Default is `actor`. Relevant only when filtering for `person`. ||
 ||'''content_types'''||A string or list with one of the following: `movie`, `tv series`, `tv mini series`, `video game`, `video movie`, `tv movie`, `episode`. Default is `movie`||
-||'''include_genres'''|| A string, list or object that defined which genres must be part of the filtered item. Contains `genres` and `match_type` property. If using an object, `genres` is mandatory.||
+||'''include_genres'''||A string, list or object that defined which genres must be part of the filtered item. Contains `genres` and `match_type` property. If using an object, `genres` is mandatory.||
 ||'''exclude_genres'''|| A string, list or object that defined which genres must '''NOT''' be part of the filtered item. Contains `genres` and `match_type` property. If using an object, `genres` is mandatory. ||
 ||'''match_type'''|| Relevant under `include_genres` or `exclude_genres`. Defined the matching type of the requested genres. Can be `any`, `all` or `exact`. Any will pass the test if any of the listed genres are a part of 
 the filtered item. `all` tries to match all of the requested gernes and `exact` will pass only if all of the requrested genres and no more are part of the item. Default is `any`. See config for usage.||
