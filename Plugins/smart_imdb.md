@@ -1,6 +1,6 @@
 = Smart IMDB =
 This plugin creates an [wiki:Entry entires] based on an IMDB person, company or character. Additional filters like content type, job types, years and etc can be added to the config to limit down the generated list.
-The main purpose of this plugin is to be used with the [wiki:Movie_queue movie_queue] plugin as an input, but it can be also used with [wiki:Plugins/configure_series configure_series] if content is set to TV.
+The main purpose of this plugin is to be used with the [wiki:movie_queue movie_queue] plugin as an input, but it can be also used with [wiki:Plugins/configure_series configure_series] if content is set to TV.
 This plugin is based on [http://imdbpy.sourceforge.net/ IMDBPY] and it is required {{{ pip install imdbpy }}}
 
 == Plugin Settings ==
