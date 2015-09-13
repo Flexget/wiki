@@ -23,8 +23,7 @@ These two examples are equal. The only important part is to give the full IMDB I
 ||'''content_types'''||A string or list with one of the following: `movie`, `tv series`, `tv mini series`, `video game`, `video movie`, `tv movie`, `episode`. Default is `movie`||
 ||'''include_genres'''||A string, list or object that defined which genres must be part of the filtered item. Contains `genres` and `match_type` property. If using an object, `genres` is mandatory.||
 ||'''exclude_genres'''|| A string, list or object that defined which genres must '''NOT''' be part of the filtered item. Contains `genres` and `match_type` property. If using an object, `genres` is mandatory. ||
-||'''match_type'''|| Relevant under `include_genres` or `exclude_genres`. Defined the matching type of the requested genres. Can be `any`, `all` or `exact`. Any will pass the test if any of the listed genres are a part of 
-the filtered item. `all` tries to match all of the requested gernes and `exact` will pass only if all of the requrested genres and no more are part of the item. Default is `any`. See config for usage.||
+||'''match_type'''||Relevant under `include_genres` or `exclude_genres`. Defined the matching type of the requested genres. Can be `any`, `all` or `exact`. Any will pass the test if any of the listed genres are a part of the filtered item.`all` tries to match all of the requested gernes and `exact` will pass only if all of the requrested genres and no more are part of the item. Default is `any`. See config for usage. ||
 ||'''rating'''|| A number between 0 and 10 that filters the corresponding rating that an item must have in order to pass the filter. ||
 ||'''votes'''|| A number higher than 0 that filters the corresponding number votes that an item must have in order to pass the filter. ||
 ||'''years'''|| A string that filters the item based on its release year. Can be 1 of four formats: `year`, `year-`, `-year` and `year-year`. See config for details. ||
