@@ -69,7 +69,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
 ||[wiki:Plugins/sickbeard sickbeard]||'''{{{UPDATED}}}''' Produce entries from Sickbeard's show list||
-||[wiki:Plugins/smart_imdb smart_imdb ]||'''{{{NEW}}}''' Dynamically prodcue entries based on an IMDB person, company or character ||
+||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||'''{{{NEW}}}''' Dynamically prodcue entries based on an IMDB person, company or character ||
 ||[wiki:Plugins/sonarr sonarr]||'''{{{UPDATED}}}''' Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||'''{{{NEW}}}''' Produce entries for missing episodes from Sonarr||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
