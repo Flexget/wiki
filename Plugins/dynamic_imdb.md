@@ -21,7 +21,7 @@ These two examples are equal. The only important part is to give the full IMDB I
 ||'''id'''||As listed above, any string that contains one of the prelisted accepted IMDB IDs. Required.||
 ||'''job_types'''||A string or list with one of the following: `actor`, `director`, `producer`, `writer`, `self`, `editor`, `miscellaneous`, `editorial department`, `cinematographer`, `visual effects`, `thanks`, `music department`. Default is `actor`. Relevant only when filtering for `person`. ||
 ||'''content_types'''||A string or list with one of the following: `movie`, `tv series`, `tv mini series`, `video game`, `video movie`, `tv movie`, `episode`. Default is `movie`||
-||'''max_entries'''|| The maximum number of entries that can return. This value's purpose is basically flood protection against unruly configurations that will return too many results. Default is 200. ||
+||'''max_entries'''|| The maximum number of entries that can return. This value's purpose is basically flood protection against unruly configurations that will return too many results. Default is `200`. ||
 }}}
 === Example: ===
 {{{
