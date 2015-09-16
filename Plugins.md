@@ -48,6 +48,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/couchpotato couchpotato]||'''{{{UPDATED}}}''' Produce entries from couchpotato wanted list||
 ||[wiki:Plugins/discover discover]||'''{{{UPDATED}}}''' Produce entries from search results.||
+||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||'''{{{NEW}}}''' Dynamically prodcue entries based on an IMDB person, company or character ||
 ||[wiki:Plugins/emit_digest emit_digest]||'''{{{NEW}}}''' Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||'''{{{NEW}}}''' Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
@@ -69,7 +70,6 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/sftp_list sftp_list]||'''{{{NEW}}}''' List files from an SFTP server||
 ||[wiki:Plugins/sickbeard sickbeard]||'''{{{UPDATED}}}''' Produce entries from Sickbeard's show list||
-||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||'''{{{NEW}}}''' Dynamically prodcue entries based on an IMDB person, company or character ||
 ||[wiki:Plugins/sonarr sonarr]||'''{{{UPDATED}}}''' Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||'''{{{NEW}}}''' Produce entries for missing episodes from Sonarr||
 ||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
