@@ -31,8 +31,7 @@ These two examples are equal. The only important part is to give the full IMDB I
        job_types:
          - actor
          - director
-       content_types:
-         - tv series
+       content_types: 'tv series'
        accept_all: yes
        movie_queue: add
 }}}
