@@ -14,6 +14,7 @@
 
  * '''[wiki:Install Installation guide]'''
    * [wiki:Upgrade Upgrading]
+     * [wiki:UpgradeActions Needed config changes]
    * [wiki:Download Manual Download]
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
