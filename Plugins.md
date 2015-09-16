@@ -130,7 +130,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 ||[wiki:Plugins/thetvdb_remove thetvdb_remove]||'''{{{NEW}}}''' Remove accepted series from user's thetvdb.com favorites.||
 ||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
 ||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable series information from trakt.tv||
+||[wiki:Plugins/trakt_lookup trakt_lookup]||'''{{{Deprecated}}}''' Enable series information from trakt.tv||
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
 
 These plugins configure other plugins from external sources like 3rd party sites.
