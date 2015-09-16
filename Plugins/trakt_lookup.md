@@ -1,4 +1,5 @@
 = Trakt.tv Series Lookup =
+**//Deprecated as of June 30th 2015. This plugin uses the old Trakt v1 API, which has been shut down. Either wait for this plugin to became up to date, fix the plugin yourself or use [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin.//**
 
 This plugin returns series information from Trakt.tv. The name of the series usually has to be VERY close to what's shown on Trakt.[[BR]]
 If you are having problems returning the correct information for a show. Please add to the series the tvdb_id using the [wiki:Plugins/set set] command.[[BR]]
