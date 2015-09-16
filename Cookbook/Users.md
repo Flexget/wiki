@@ -31,3 +31,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [wiki:Cookbook/Users/malkavi malkavi] (v1.2.313) Spanish Movies and series config.
 * [https://github.com/Jonybat/flexget_config jonybat] (v1.2.343)
 * [https://github.com/nikdoof/flexget-config nikdoof] (v1.2)
+* [wiki:Cookbook/Users/Tommynator Tommynator] (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
