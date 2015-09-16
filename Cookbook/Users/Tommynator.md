@@ -1,6 +1,15 @@
 This is my complete config.yml file. I will try to keep this up to date as much as possible.
 My flexget version is 1.2.351
 
+This config downloads all movies from my trakt watchlist, all new episodes from my trakt Following list, and sorts the series (movie sorting to be done) in the correct folder by season.
+As soon as a movie or serie starts downloading I get a pushbullet notification, once a serie has been moved to the correct place, I also get a notification.
+
+The RemoveEndedShows task is broken since end of June, since trakt_lookup uses old trakt api v1, which was closed on June 30th.
+
+Things to be done: Simplify quality downloading (sort entries on quality instead of running 5 different tasks)
+Sort movies with correct name
+fix RemoveEndedShows
+automatically move 1 new show from watchlist to following list every month
 
 {{{
 secrets: secrets.yml
@@ -218,51 +227,11 @@ tasks:
     pushbullet:
       apikey: '{{ secrets.pushbullet.APIkey }}'
       title: "Serie Sorted"
-      body: "{{ tvdb_series_name }} - S{{ series_season|pad(2)}}E{{ series_episode|pad(2) }} was completed and moved into the correct folder."
-  MoveMoviesToLVM:
-    manual: yes 
-    find:
-      path: /media/PlexMediaServer/Movies
-      regexp: '.*\.(avi|mkv|mp4)$'
-      recursive: yes
-    tmdb_lookup: yes
-    require_field:
-      - tmdb_name
-      - tmdb_year
-    regexp:
-      reject:
-        - sample
-    accept_all: yes
-    limit_new: 25
-    move:
-      to: "/PlexMediaServer/Movies/{{ tmdb_name}} ({{ tmdb_year }})/"
-      filename: '{{ tmdb_name }} ({{ tmdb_year }})'
-      clean_source: 100
-  MoveSeriesToLVM:
-    manual: yes
-    find:
-      path: /media/PlexMediaServer/Series
-      regexp: '.*\.(avi|mkv|mp4)$'
-      recursive: yes
-    thetvdb_lookup: yes
-    metainfo_series: yes
-    require_field:
-      - tvdb_series_name
-      - series_season
-      - series_episode
-    accept_all: yes
-    regexp:
-      reject:
-        - sample
-    limit_new: 25
-    move:
-      to: "/PlexMediaServer/Series/{{ tvdb_series_name }}/Season {{ series_season|pad(2) }}/"
-      filename: '{{ tvdb_series_name }} - S{{ series_season|pad(2) }}E{{ series_episode|pad(2) }}'
-      clean_source: 50  
+      body: "{{ tvdb_series_name }} - S{{ series_season|pad(2)}}E{{ series_episode|pad(2) }} was completed and moved into the correct folder." 
 schedules:
-  #- tasks: [MovieQueue, MoviesSearch1080pandhdtv, MoviesSearch720pandhdtv, MoviesSearch720p, MoviesSearchhdtv, MoviesSearchOther]
-   # interval:
-    #  hours: 4
+  - tasks: [MovieQueue, MoviesSearch1080pandhdtv, MoviesSearch720pandhdtv, MoviesSearch720p, MoviesSearchhdtv, MoviesSearchOther]
+    interval:
+      hours: 4
   - tasks: [Sort_Series]
     interval:
       minutes: 15
