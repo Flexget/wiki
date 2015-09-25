@@ -2,7 +2,7 @@
 
 This is unnecessarily complicated at the moment, easier methods for installing are planned.
 
-'''NOTE:''' If you plan on using the [wiki:Plugins/deluge deluge] plugin on Windows, you must use a specific version of Python, [wiki:Plugins/deluge#WindowsUsers read more.]
+'''NOTE:''' If you plan on using the [wiki:Plugins/deluge deluge] plugin on Windows, you must make sure your Deluge python version matches your system python version, [wiki:Plugins/deluge#WindowsUsers read more.]
 
 == Set up environment ==
 
@@ -10,7 +10,7 @@ If you already have '''Python 2.6.x - 2.7.x''' and '''pip''', you can continue t
 
 === Install Python ===
 
-Install latest '''Python 2.7.x''' (unless you plan on using deluge plugin, as noted above) from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
+Install latest '''Python 2.7.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' compatible with new Python 3.x.
 
 === Install pip ===
 
