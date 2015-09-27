@@ -27,7 +27,7 @@ These two examples are equal. The only important part is to give the full IMDB I
 {{{
    dynamic_movie_queue:
      dynamic_imdb:
-       id: co0051941
+       id: nm0005212
        job_types:
          - actor
          - director
