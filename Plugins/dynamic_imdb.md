@@ -8,7 +8,7 @@ This plugin is based on [http://imdbpy.sourceforge.net/ IMDBPY] and it is requir
 The only required setting is ID. The plugin can be used in several formats.
 For example:
 {{{
-    dynamic_imdb: 'http://www.imdb.com/character/ch0001354/?ref_=tt_cl_t1'
+    dynamic_imdb: ch0001354
 }}}
 Or:
 {{{
@@ -27,11 +27,11 @@ These two examples are equal. The only important part is to give the full IMDB I
 {{{
    dynamic_movie_queue:
      dynamic_imdb:
-       id: 'http://www.imdb.com/company/co0051941/?ref_=fn_al_co_2'
+       id: co0051941
        job_types:
          - actor
          - director
-       content_types: 'tv series'
+       content_types: tv series
        accept_all: yes
        movie_queue: add
 }}}
