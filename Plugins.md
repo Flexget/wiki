@@ -163,6 +163,7 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
 ||[wiki:Plugins/sftp_download sftp_download]||'''{{{NEW}}}''' Download files from an SFTP server||
+||[wiki:Plugins/sftp_upload sftp_upload]||'''{{{NEW}}}''' Upload files to an SFTP server||
 ||[wiki:Plugins/set_series_begin set_series_begin]||'''{{{NEW}}}''' Set the first episode to download for series.||
 ||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
