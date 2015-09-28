@@ -16,7 +16,7 @@ The following settings are optional:
 ||'''port'''||This is the port used by your sickbeard installation (8081 by deafult). Use if your Sickbeard port is different than 80 ||
 ||'''include_ended'''|| Decides whether to retrieve ended shows. Default is True ||
 ||'''only_monitored'''|| Retrieves only shows that are not marked as 'Paused' in sickbeard. Default is False ||
-||'''include_data'''|| Will return the show quality and path when using the configure_series plugin. Default is false ||
+||'''include_data'''|| Will return the show quality. Default is false ||
 
 Note: The `include_data` option uses a 2nd API call to sickbeard for every show received and can potentially cause performance issues for large show lists. 
 }}}
