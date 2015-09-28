@@ -1,4 +1,4 @@
-= SFTP Download =
+= SFTP Upload =
 
 Upload files to a SFTP server. 
 
