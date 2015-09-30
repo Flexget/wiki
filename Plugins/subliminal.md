@@ -5,7 +5,7 @@ Download subtitles for entries referred to existing video files.
 This plugin requires the subliminal v1.0.1 library. To install it run the follwing
 
 {{{
-pip install subliminal=1.0.1
+pip install subliminal==1.0.1
 }}}
 
 Note: In Unix you may need root privileges
