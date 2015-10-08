@@ -1,20 +1,28 @@
 = Web UI =
 
-To pull the webui dependencies, use `pip install flexget[webui]` when installing. Experimental web-ui can be started with `flexget webui` command, see `flexget webui --help` for default port and usernames and options for setting them.
+Development has started on a web interface for managing flexget.
+
+'''We need your help! If are an AngularJS developer or can help with the layout/design then please join in the effort! '''
+
+For development you will need NPM [https://nodejs.org/en/]
+
+To install the webui dependencies run "npm update" in the folder <git clone>/flexget/ui
+
+
 
 '''NOTES:'''
-- You will lose the formatting of your config file if you edit it through the web-ui.
-- Remember to exit the web-ui if you have cron scheduled to run flexget normally. Otherwise the web-ui lock file will interfere.
+- You will lose the formatting/order of your config file if you edit it through the web-ui.
+- The UI communicates with Flexget via the API. Browse to [http://flexget_host:5050/api/] for the documentation
 
-'''More motivated python capable web-ui developers are needed! '''
 
-Some mockup plans [https://flexget.mybalsamiq.com/projects]
+'''Plugins:'''
 
-Draft API [wiki:Drafts/RESTApi]
+The web interface uses AngularJS with a pluggable architecture. Each plugin requires a plugin.json with a name a version set as a minimun. See examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins]
+[[BR]]
+[[BR]]
 
-Draft JSON schema [wiki:Drafts/json_schema]
 
-Join our irc-channel to participate in the project! The technology stack behind the webui is flask, jinja2 and cherrypy as server.
+Join our irc-channel to participate in the project! The technology stack behind the webui is angularJS.
 Here are a couple of drafts for things we would like to work on in the webui:
 - Drafts/ConfigEditor A fully featured editor for config files.
 - Drafts/RecipeRepository A simpler system to set up config by picking a template and filling in key values.
