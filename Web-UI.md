@@ -8,6 +8,19 @@ For development you will need NPM [https://nodejs.org/en/]
 
 To install the webui dependencies run "npm update" in the folder <git clone>/flexget/ui
 
+Add the following to your config.yml
+
+
+{{{
+web_server:
+  bind: 0.0.0.0
+  port: 5050
+api:
+  username: flexget
+  password: flexget
+webui: yes
+}}}
+
 
 
 '''NOTES:'''
