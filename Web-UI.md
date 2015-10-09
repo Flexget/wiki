@@ -46,3 +46,11 @@ Here are a couple of drafts for things we would like to work on in the webui:
 - Authorization system 
 - Store users in database
 - Store sessions in database (so remember me works after restart of flexget)
+- Manage users/passwords via UI
+- Build plugin history
+- Build plugin execute
+- update plugin log, make more user friendly
+- Build plugin scheduler
+- Build plugin tasks
+
+
