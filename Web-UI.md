@@ -22,6 +22,7 @@ webui: yes
 }}}
 
 UI will be avaliable at [http://flexget_host:5050/ui/]
+
 API will be avaliable at [http://flexget_host:5050/api/]
 
 '''NOTES:'''
