@@ -21,7 +21,8 @@ api:
 webui: yes
 }}}
 
-
+UI will be avaliable at [http://flexget_host:5050/ui/]
+API will be avaliable at [http://flexget_host:5050/api/]
 
 '''NOTES:'''
 - You will lose the formatting/order of your config file if you edit it through the web-ui.
@@ -30,7 +31,7 @@ webui: yes
 
 '''Plugins:'''
 
-The web interface uses AngularJS with a pluggable architecture. Each plugin requires a plugin.json with a name a version set as a minimun. See examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins]
+The web interface uses AngularJS with a pluggable architecture. Each plugin requires a plugin.json with a name a version set as a minimum. See examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins]
 [[BR]]
 [[BR]]
 
