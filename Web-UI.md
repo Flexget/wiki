@@ -39,3 +39,10 @@ Join our irc-channel to participate in the project! The technology stack behind 
 Here are a couple of drafts for things we would like to work on in the webui:
 - Drafts/ConfigEditor A fully featured editor for config files.
 - Drafts/RecipeRepository A simpler system to set up config by picking a template and filling in key values.
+
+'''TODO:'''
+
+- Bind to interface vs ip
+- Authorization system 
+- Store users in database
+- Store sessions in database (so remember me works after restart of flexget)
