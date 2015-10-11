@@ -10,6 +10,7 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/mov
  * Adding this plugin to your movie tasks or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
  * If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration. 
  * IMPORTANT: [http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after- Trakt removes shows from watchlist if you watch them, so DO NOT use watchlist as your primary series source, use a custom list instead!]
+ * If you want HTML-formatted lists, ex: "<b>TV Shows:</b> Get", to use that list, enter the list on trakt.tv and copy the part of the url that mentions it (ex: "b-tv-shows-b-get". Basically, the displayed list name is '''not''' the same as the URL-friendly name, and trakt_list wants the URL-friendly name!
 
 == Plugin Settings ==
 
