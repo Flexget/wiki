@@ -15,15 +15,15 @@ Add the following to your config.yml
 web_server:
   bind: 0.0.0.0
   port: 5050
-api:
-  username: flexget
-  password: flexget
+api: yes
 webui: yes
 }}}
 
 UI will be avaliable at [http://flexget_host:5050/ui/]
 
 API will be avaliable at [http://flexget_host:5050/api/]
+
+Default login is flexget with password flexget
 
 '''NOTES:'''
 - You will lose the formatting/order of your config file if you edit it through the web-ui.
