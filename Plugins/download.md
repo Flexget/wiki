@@ -1,6 +1,6 @@
 = Download =
 
-Downloads content from entry url and writes it into a file. As default html response is considered as a download failure.
+Downloads content from entry url and writes it into a file. A default html response is considered as a download failure.
 
 '''Example:'''
 
