@@ -52,7 +52,8 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/emit_digest emit_digest]||'''{{{NEW}}}''' Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||'''{{{NEW}}}''' Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
-||[wiki:Plugins/find find]||Search through a local directory looking for files as a input.||
+||[wiki:Plugins/find find]||'''{{{Deprecated}}}'''Use the [wiki:Plugins/filesystem filesystem] plugin instead.||
+||[wiki:Plugins/filesystem filesystem]||'''{{{NEW}}}'''Search through a local directory looking for files as a input. ||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
 ||[wiki:Plugins/rtorrent from_rtorrent]||'''{{{NEW}}}'''Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
@@ -60,7 +61,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
-||[wiki:Plugins/listdir listdir]||Use any local directory listing as a input.||
+||[wiki:Plugins/listdir listdir]||'''{{{Deprecated}}}'''Use the [wiki:Plugins/filesystem filesystem] plugin instead.||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||'''{{{NEW}}}''' Create entries from the shows in your myepisodes.com account.||
 ||[wiki:Plugins/plex plex]||'''{{{NEW}}}''' Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/pogcal pogcal]||'''{{{NEW}}}''' Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
