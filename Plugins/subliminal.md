@@ -14,7 +14,7 @@ Note: In Unix you may need root privileges
 
 {{{
   subtitles:
-    find:
+    filesystem:
       path: 
         - d:\media\incoming
       regexp: '.*\.(avi|mkv|mp4)$'
