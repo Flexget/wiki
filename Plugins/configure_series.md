@@ -40,7 +40,7 @@ configure_series:
   settings:
     quality: 720p
   from:
-    listdir:
+    filesystem:
       - /media/series/
 }}}
 
