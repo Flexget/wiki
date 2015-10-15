@@ -11,7 +11,7 @@ I would recommend making this a separate configuration file which you manually r
 tasks:
 
   Update-TV:
-    find:
+    filesystem:
       # Regex to match all video with these extensions in your collection
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
@@ -29,11 +29,8 @@ tasks:
       type: series
 
   Update-Movies:
-    # For movies we use listdir instead of find since movies are (often) 
-    # stored in directories and their names are generally much 
-    # better than filenames.
-    # You can use find plugin like with series if you need to.
-    listdir:
+    # For movies we use filesystem.
+    filesystem:
       - /share/movies
     accept_all: yes
     imdb_lookup: yes
@@ -44,4 +41,4 @@ tasks:
       type: movies
 }}}
 
-Plugins used: [wiki:Plugins/find find], [wiki:Plugins/listdir listdir], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/metainfo_series metainfo_series], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/template template], [wiki:Plugins/trakt_acquired trakt_acquired]
+Plugins used: [wiki:Plugins/filesystem filesystem], [wiki:Plugins/accept_all accept_all], [wiki:Plugins/metainfo_series metainfo_series], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/template template], [wiki:Plugins/trakt_acquired trakt_acquired]
