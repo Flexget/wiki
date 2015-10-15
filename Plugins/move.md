@@ -26,7 +26,7 @@ tasks:
   move-episodes:
     metainfo_series: yes 
     accept_all: yes 
-    find:
+    filesystem:
       path: /filestorage1/
       recursive: yes 
     move:
