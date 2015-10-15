@@ -6,7 +6,7 @@ Set the '''subtitles''' field on all [wiki:Entry entries] about local files havi
 
 {{{
   check_subs:
-    find:
+    filesystem:
       path:
         - D:\Media\Incoming\series
       regexp: '.*\.(avi|mkv|mp4)$'
