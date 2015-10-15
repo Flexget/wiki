@@ -48,7 +48,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||torrent||modify_torrent||When entry is a torrent this contains [wiki:TorrentObject Torrent class]||
 ||data||[wiki:Plugins/download download]||Internal. Binary content.||
 ||content_size||[wiki:Plugins/content_size content_size]||Parsed size of torrents or NZBs.||
-||location||[wiki:Plugins/listdir listdir]/[wiki:Plugins/find find]||The local filename of the entry.||
+||location||[wiki:Plugins/filesystem filesystem]||The local filename of the entry.||
 ||timestamp||[wiki:Plugins/find find]||The local file update time of the entry.||
 ||subtitles||[wiki:Plugins/check_subtitles check_subtitles]||A list of languages about subtitles founds on disk (local files only)||
 ||plex_server||[wiki:Plugins/plex plex]||If set, PMS hostname. Otherwise PMS IP.||
