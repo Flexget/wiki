@@ -16,7 +16,7 @@ This is useful if your feeds break and you have downloaded a bunch of series fil
         set:
           tracking: no
       from:
-        listdir:
+        filesystem:
           - /[path to your series folders]/
 
     exec: echo "Found {{title}}"
