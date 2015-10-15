@@ -1,7 +1,7 @@
 = Trakt Remove=
 This plugin will remove movies, series or episodes from a [http://trakt.tv trakt.tv] list.
 
-This plugin can be added to any of your tasks that deal with movies/series, or it can be used with the [wiki:Plugins/listdir listdir] or [wiki:Plugins/find find] plugins to remove all your already acquired movies on trakt.tv from a specified list.
+This plugin can be added to any of your tasks that deal with movies/series, or it can be used with the [wiki:Plugins/filesystem filesystem] plugin to remove all your already acquired movies on trakt.tv from a specified list.
 
 '''Configuration:'''
 
