@@ -40,7 +40,7 @@ move-series-rar:
   require_field:
     - series_name
     - series_season
-  find:
+  filesystem:
     path: /Volumes/Drobo/downloads/
     recursive: yes
     regexp: '\.(rar|r0+[01]|zip)'
