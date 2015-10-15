@@ -27,7 +27,7 @@ tasks:
     download: ...
 
   sort-series:
-    find:
+    filesystem:
       path: /storage/downloads/
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
@@ -51,7 +51,7 @@ tasks:
 }}}
 '''Uses Plugins:'''
 
- - [wiki:Plugins/find find]: In this recipe, we use find which creates an entry for each file in the specified path (/storage/downloads/ in this case,) that match the regexp pattern specified.
+ - [wiki:Plugins/filesystem filesystem]: In this recipe, we use filesystem which creates an entry for each file in the specified path (/storage/downloads/ in this case,) that match the regexp pattern specified.
  - [wiki:Plugins/seen seen]: The seen plugin is enabled by default on all tasks, however we need to enable local mode to make sure that entries are not rejected because they were already seen in our normal download task.
  - [wiki:Plugins/series series]: The series plugin is used to grab the series info (name, season, episode) from each file. We must list out all the series we want sorted.
  - [wiki:Plugins/require_field]: Require series to be parsed successfully
