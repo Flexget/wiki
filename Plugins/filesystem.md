@@ -5,7 +5,7 @@ Uses local path content as an input. Generate entries from files, dirs & symlink
 ||'''path'''||One or more paths. Must be unique. Mandatory when using an object in config.||
 ||'''mask'''||File mask, like '*.mkv'  ||
 ||'''regexp'''||Regexp like `.*\.(avi|mkv)$`. Note: If both `mask` and `regexp` are present, `mask` will be used. ||
-||'''recursive'''||Recursion flag. Can be set to `True`, `False` or an integer. `True` will recurse without limit, `False` will not recurse and the integer value will decide how deep the recursion should go (minimum is 2 level deeps, (1 levels is similar to no recursion). Default is `False`||
+||'''recursive'''||Recursion flag. Can be set to `True`, `False` or an integer. `True` will recurse without limit, `False` will not recurse and the integer value will decide how deep the recursion should go. Minimum value is 2 levels deeps, (1 levels is similar to no recursion). Default is `False`||
 ||'''retrieve'''||Decided which type of objects should be made into entries. Accepts one or more of the following: `files`, `dirs` `symlinks`. Default is all of them.  ||
 }}}
 
