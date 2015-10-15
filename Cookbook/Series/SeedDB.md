@@ -16,8 +16,8 @@ templates:
     # this template can then be used for the seed_series_db task, as well as your normal downloading tasks
 tasks:
   seed_series_db:
-    # The find plugin will find all of your existing episodes
-    find:
+    # The filesystem plugin will find all of your existing episodes
+    filesystem:
       regexp: .*(avi|mkv|mp4)$
       path: /my/series
       recursive: yes
