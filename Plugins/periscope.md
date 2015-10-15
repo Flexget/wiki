@@ -12,7 +12,7 @@ easy_install periscope
 
 {{{
   subtitles:
-    find:
+    filesystem:
       path: 
         - d:\media\incoming
       regexp: '.*\.(avi|mkv|mp4)$'
