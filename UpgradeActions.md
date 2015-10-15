@@ -8,6 +8,11 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2015.10.13 1.2.362 ===
+'''find / listdir'''
+
+The `find` and `listdir` plugins have been merged into one [wiki:Plugins/filesystem filesystem] plugin. You will need to replace both in your config with just `filesystem`.
+
 === 2015.10.09 1.2.359 ===
 A json api has been added which requires a few new dependencies. If you are installed from a git checkout, you'll have to make sure your deps are up to date after pulling. `bin/pip install --upgrade -e .` from your checkout directory if you are using the virtualenv setup that bootstrap.py gives you.
 
