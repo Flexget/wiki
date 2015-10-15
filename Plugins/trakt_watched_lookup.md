@@ -6,7 +6,7 @@ Set the '''trakt_watched''' flag on all [wiki:Entry entries] about episodes you 
 
 {{{
   check_watched:
-    find:
+    filesystem:
       path:
         - D:\Media\Incoming\series
       regexp: '.*\.(avi|mkv|mp4)$'
