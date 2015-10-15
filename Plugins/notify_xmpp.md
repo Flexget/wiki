@@ -14,7 +14,7 @@ easy_install sleekxmpp
     notify_xmpp:
       sender: from_jid@whatever.com
       password: mypassword
-      recipient: to_jid@whatever.com
+      recipients: to_jid@whatever.com
       title: 'New episode(s)!'
       text: '{{series_name}} {{tvdb_ep_id|default(series_id)}}{% if tvdb_ep_name|default(False) %}: {{tvdb_ep_name}}{% endif %}'
 }}}
