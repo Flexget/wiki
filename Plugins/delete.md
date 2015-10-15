@@ -18,7 +18,7 @@ Here is an example of usage in a more comprehensive context
 {{{
 tasks:
   delete_old_stuff:
-    find:
+    filesystem:
       path: /filestorage1/
       recursive: yes
     if:
