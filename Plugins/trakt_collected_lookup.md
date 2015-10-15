@@ -6,7 +6,7 @@ Set the '''trakt_in_collection''' flag on all [wiki:Entry entries] about episode
 
 {{{
   check_collected:
-    find:
+    filesystem:
       path:
         - D:\Media\Incoming\series
       regexp: '.*\.(avi|mkv|mp4)$'
