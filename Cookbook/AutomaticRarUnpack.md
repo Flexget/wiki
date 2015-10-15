@@ -11,7 +11,7 @@ feeds:
 
     # Finds all rar files in the specified folder
     inputs:
-      - find:
+      - filesystem:
           path: F:\Torrent\Completed
           mask: '*.rar'
           recursive: yes
