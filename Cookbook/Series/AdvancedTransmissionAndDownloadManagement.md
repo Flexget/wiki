@@ -127,9 +127,9 @@ feeds:
   manage-series-remote:
     # use as the feed input a local directory where my series are located
     # TODO: this is a remote folder and it is not always mounted
-    #       and listdir exits with an error and the scripts execution stopped
+    #       and filesystem exits with an error and the scripts execution stopped
     # -> maybe use a similar solution like in the template with the custom check script
-    listdir:
+    filesystem:
       - /Volumes/media.video/TV-Series/_complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
@@ -176,7 +176,7 @@ feeds:
 
   manage-series:
     # use as the feed input a local directory where my series are located
-    listdir:
+    filesystem:
       - /Users/flexget/Downloads/_Torrents/complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
@@ -212,7 +212,7 @@ feeds:
       active: False
 }}}
 
-Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/listdir listdir], [wiki:Plugins/manipulate manipulate]
+Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/filesystem filesystem], [wiki:Plugins/manipulate manipulate]
 
 [wiki:Cookbook/Series Back to The Cookbook/Series]
 
