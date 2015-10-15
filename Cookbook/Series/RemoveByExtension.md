@@ -18,7 +18,7 @@ tasks:
     disable_builtins: [seen]
     metainfo_series: yes
     accept_all: yes
-    find:
+    filesystem:
       regexp: .*(wmv)$
       path: /media/Video/TV-Series
       recursive: yes
