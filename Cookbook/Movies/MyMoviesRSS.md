@@ -17,10 +17,10 @@ feeds:
 
   storage_movies:
     template: generate
-    listdir: /storage/movies/
+    filesystem: /storage/movies/
     make_rss:
       file: ~/public_html/movies.rss
       history: no
 }}}
 
-Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/make_rss make_rss], [wiki:Plugins/listdir listdir]
+Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/make_rss make_rss], [wiki:Plugins/filesystem filesystem]
