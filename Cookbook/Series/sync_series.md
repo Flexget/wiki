@@ -5,7 +5,7 @@ This is useful if your feeds break and you have downloaded a bunch of series fil
 {{{
   Sync_Series:
     manual: yes
-    find:
+    filesystem:
       path:
         - /[path to your series folders]/
       regexp: '.*\.(mp4|avi|mkv)$'
