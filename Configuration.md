@@ -111,7 +111,7 @@ Congratulations, we now have a fully functioning config file. You can continue t
 
  * Plugin order doesn't matter, you can list them in any order you like. Most logical order would be `inputs` -> `filters` -> `outputs`.
  * Task order doesn't matter, tasks are executed in seemingly random order. Use [wiki:Plugins/priority priority] plugin priorize tasks when necessary.
- * You cannot list plugins, ie. [wiki:Plugins/rss rss] twice in a single task. This is limited by the chosen simpler syntax in the configuration file. Instead see [wiki:Plugins/preset preset] plugin.
+ * You cannot list plugins, ie. [wiki:Plugins/rss rss] twice in a single task. This is limited by the chosen simpler syntax in the configuration file. Instead see [wiki:Plugins/template template] plugin.
 
 == Tips ==
 
