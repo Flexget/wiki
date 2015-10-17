@@ -11,7 +11,7 @@ This plugin is useful for when used in a task with the [wiki:Plugins/import_seri
 '''Example:'''
 
 {{{
-        import_series:
+        configure_series:
           from:
             betaseries_list:
               username: xxxxx
@@ -26,7 +26,7 @@ You Api key can be requested freely at http://www.betaseries.com/api.
 If you want to download the series followed by multiple members
 
 {{{
-        import_series:
+        configure_series:
           from:
             betaseries_list:
               username: xxxxx
