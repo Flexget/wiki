@@ -233,7 +233,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/rapidpush rapidpush]||An easy-to-use push notification service. (Android).||
 ||[wiki:Plugins/notify_osd notify_osd]||Send notifications to notify-osd.(linux only. Ubuntu tested)||
-||[wiki:Plugins/notify_xmpp notify_xmpp]||'''{{{NEW}}}''' Send notifications via XMPP.||
+||[wiki:Plugins/notify_xmpp notify_xmpp]||Send notifications via XMPP.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
@@ -275,25 +275,32 @@ Generate custom output using accepted entries
 <h2 style="color: #F6A52F">Metadata plugins</h2>
 }}}
 Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
+These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
 ||[wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]||Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand.||
 ||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
 ||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
+||[wiki:Plugins/check_subtitles check_subtitles]||Check subtitles presence for local files.||
+||[wiki:Plugins/trakt_collected_lookup trakt_collected_lookup]||Enable episodes collected status from trakt.tv user activity||
+||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||Enable episodes watched status from trakt.tv user activity||
+^1. Not a builtin, configuration required to enable.^
 
-
-== Modify / Other ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Modification plugins</h2>
+}}}
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
-||[wiki:Plugins/archive archive]||'''{{{UPGRADED}}}''' Archive all seen entries for searchable database for later retrieval.||
-||[wiki:Plugins/assume_quality assume_quality]||'''{{{NEW}}}''' Make assumptions about the qualities of releases.||
-||[wiki:Plugins/cfscraper cfscraper]||'''{{{NEW}}}''' Enables cloudflare scraping in a task.||
-||[wiki:Plugins/clean_transmission clean_transmission]||'''{{{NEW}}}''' Clean Transmission queue.||
-||[wiki:Plugins/cookies cookies]||'''{{{UPGRADED}}}''' Use FireFox3 cookies.||
+||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
+||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
+||[wiki:Plugins/cfscraper cfscraper]||Enables cloudflare scraping in a task.||
+||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
+||[wiki:Plugins/cookies cookies]||Use FireFox3 cookies.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
 ||[wiki:Plugins/disable disable]||Disable builtin plugin(s) from a task, or plugins included from a template.||
-||[wiki:Plugins/domain_delay domain_delay]||'''{{{NEW}}}''' Sets a minimum interval between requests to specific domains.||
+||[wiki:Plugins/domain_delay domain_delay]||Sets a minimum interval between requests to specific domains.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
@@ -301,20 +308,20 @@ Retrieve additional data from 3rd party sites. Used for population of more field
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
 ||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
-||[wiki:Plugins/manual manual]||'''{{{NEW}}}''' Only run the task when explicitly specified.||
+||[wiki:Plugins/manual manual]|| Only run the task when explicitly specified.||
 ||[wiki:Plugins/no_entries_ok no_entries_ok]||Silence warnings about task not producing entries, for tasks where that is normal.||
-||[wiki:Plugins/parsing parsing]||'''{{{NEW}}}'''Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
-||[wiki:Plugins/pathscrub pathscrub]||'''{{{NEW}}}''' Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
+||[wiki:Plugins/parsing parsing]||Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
+||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
-||[wiki:Plugins/path_select path_select]||'''{{{NEW}}}'''Select a path based on disk stats||
+||[wiki:Plugins/path_select path_select]||Select a path based on disk stats||
 ||[wiki:Plugins/priority priority]||Change task execution order.||
-||[wiki:Plugins/proxy proxy]||'''{{{NEW}}}''' Use a proxy to access resources.||
+||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloadin torrents from rutracker.||
 ||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried. [wiki:Builtin]||
-||[wiki:Plugins/secrets secrets]||'''{{{NEW}}}''' Replace specific jinja2 values in config before executing tasks.||
+||[wiki:Plugins/secrets secrets]||Replace specific jinja2 values in config before executing tasks.||
 ||[wiki:Plugins/sequence sequence]||Allows the same plugin to be configured multiple times in a task.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur at a specified point during task execution.||
@@ -325,30 +332,26 @@ Retrieve additional data from 3rd party sites. Used for population of more field
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
 
-== Metainfo ==
-
-These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
-
-||[wiki:Plugins/check_subtitles check_subtitles]||Check subtitles presence for local files.||
-||[wiki:Plugins/metainfo_quality metainfo_quality]||Parses quality from the entry.||
-||[wiki:Plugins/metainfo_task metainfo_task]||Populates task field for entries.||
-||[wiki:Plugins/metainfo_series metainfo_series]^1^||Populates series related fields for entries, even without [wiki:Plugins/series series] plugin.||
-||[wiki:Plugins/metainfo_imdb metainfo_imdb]||Detects imdb urls from description.||
-||[wiki:Plugins/trakt_collected_lookup trakt_collected_lookup]||'''{{{NEW}}}''' Enable episodes collected status from trakt.tv user activity||
-||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||'''{{{NEW}}}''' Enable episodes watched status from trakt.tv user activity||
-^1. Not a builtin, configuration required to enable.^
-
-== Search ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Search</h2>
+}}}
 
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
-== Daemon ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Daemon</h2>
+}}}
 
 These plugins are specifically for when !FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
 ||[wiki:Plugins/Daemon/scheduler scheduler]||Executes tasks with a given interval or schedule while daemon is running.||
 
-== Command line plugins for `execute` command ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Command line plugins for `execute` command</h2>
+}}}
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
@@ -356,7 +359,10 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
 
-== Third-party plugins ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Third-party plugin</h2>
+}}}
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
