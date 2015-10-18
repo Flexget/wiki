@@ -74,7 +74,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 #!html
 <h3 style="color: #F6A52F">3rd Party Software</h3>
 }}}  
-|||| Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc. ||
+|| Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc. ||
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/couchpotato couchpotato]||Produce entries from couchpotato wanted list||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
