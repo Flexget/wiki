@@ -17,7 +17,7 @@ Plugins provide most of the functionality in !FlexGet. Plugins usually create, m
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the !FlexGet package (with the exception of the third-party plugins section).
 
-== Indentation in examples ==
+=== Indentation in examples ===
 
 All configuration examples are assumed to be placed under a task. So if documentation has this example:
 
@@ -112,40 +112,78 @@ Input plugins that directly parse data from a source based on its type.
 ||[wiki:Plugins/ftp_list ftp_list]||Lists the content of a remote FTP server||
 
 
-== Filters ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Filters</h2>
+}}} 
 
 Reject or Accept '''[wiki:Entry entries]''' based on given rules. A single task may have any number of filters.[[BR]]
 If you plan to use multiple filters per task, you should look at '''[wiki:Filtering filtering operations]''' to understand how they work.
 
+{{{
+#!html
+<h3 style="color: #F6A52F">Content based</h3>
+}}}
+Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
+||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
+||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
+||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
+||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Metadata</h3>
+}}}
+Filters based on content's metadata such as size and quality
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/content_size content_size]||Reject torrents and nzb's that do not meet size requirements.||
+||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Flexget internal</h3>
+}}}
+Filters based on preexisting data or operations within !FlexGet
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
+||[wiki:Plugins/only_new only_new]||Causes all entries that were in the task on the previous run to be rejected at the input phase.||
+||[wiki:Plugins/require_field require_field]||Reject entries that do not have the specified fields.||
+||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
+||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
+||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Torrent specific</h3>
+}}}
+Filters based specifically for torrents
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/content_filter content_filter]||Reject based on filenames within torrents.||
+||[wiki:Plugins/magnets magnets]||Rejects entries with only magnet links.||
+||[wiki:Plugins/private_torrents private_torrents]||Reject private or public torrents.||
+||[wiki:Plugins/seen_info_hash seen_info_hash]||Rejects already downloaded torrents (detected by torrent info hash). [wiki:Builtin]||
+||[wiki:Plugins/torrent_alive torrent_alive]||Reject any torrents that do not have an active tracker with seeds.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Logical and operational</h3>
+}}}
+Filters that will accept/reject entries based on logical statements or simple file operations
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
-||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
-||[wiki:Plugins/content_filter content_filter]||Reject based on filenames within torrents.||
-||[wiki:Plugins/content_size content_size]||Reject torrents and nzb's that do not meet size requirements.||
-||[wiki:Plugins/crossmatch crossmatch]||Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history).||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/exists_series exists_series]||Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
 ||[wiki:Plugins/if if]||Filter based on simple python statements.||
+||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd party sites</h3>
+}}}
+Filters based on data retrieved from 3rd party sites
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/crossmatch crossmatch]||Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history).||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
-||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
-||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
-||[wiki:Plugins/magnets magnets]||Rejects entries with only magnet links.||
-||[wiki:Plugins/only_new only_new]||Causes all entries that were in the task on the previous run to be rejected at the input phase.||
-||[wiki:Plugins/private_torrents private_torrents]||Reject private or public torrents.||
-||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
-||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
-||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
-||[wiki:Plugins/require_field require_field]||Reject entries that do not have the specified fields.||
 ||[wiki:Plugins/rottentomatoes rottentomatoes]||Accept movie entries based on Rotten Tomatoes details.||
-||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
-||[wiki:Plugins/seen_info_hash seen_info_hash]||Rejects already downloaded torrents (detected by torrent info hash). [wiki:Builtin]||
-||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
-||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
-||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
-||[wiki:Plugins/subtitle_queue subtitle_queue]||'''{{{NEW}}}''' Add or accept files to get subtitles for.||
-||[wiki:Plugins/torrent_alive torrent_alive]||Reject any torrents that do not have an active tracker with seeds.||
 
 == Site integration & Auto configuration ==
 
