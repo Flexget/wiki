@@ -67,7 +67,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_emit trakt_emit]||Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
 ||[wiki:Plugins/trakt_list trakt_list]||Create entries from one of your trakt.tv lists.||
-||[wiki:Plugins/transmission_files transmission_files]||Use the contents of torrents loaded in Transmission as input.||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
 {{{
