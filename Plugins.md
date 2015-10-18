@@ -52,7 +52,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 #!html
 <h3 style="color: #F6A52F">3rd Party Sites</h3>
 }}}  
-|| Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc. ||
+Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
@@ -74,7 +74,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 #!html
 <h3 style="color: #F6A52F">3rd Party Software</h3>
 }}}  
-|| Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc. ||
+Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/couchpotato couchpotato]||Produce entries from couchpotato wanted list||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
@@ -88,7 +88,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 #!html
 <h3 style="color: #F6A52F">Internal Input</h3>
 }}}
-|||| Input plugins that will generate entries based on preexisting data in FlexGet. ||
+Input plugins that will generate entries based on preexisting data in FlexGet.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
@@ -99,7 +99,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 #!html
 <h3 style="color: #F6A52F">Raw Input</h1>
 }}}
-|||| Input plugins that directly parse data from a source based on its type. ||
+Input plugins that directly parse data from a source based on its type.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/filesystem filesystem]||Search through a local directory looking for files as a input. ||
