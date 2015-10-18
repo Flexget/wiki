@@ -1,4 +1,7 @@
-= Plugins =
+{{{
+#!html
+<h1 style="color: #F6A52F">Plugins</h1>
+}}}  
 
 {{{
 #!comment
@@ -35,15 +38,21 @@ tasks:
 
 This makes examples more compact and reduces unnecessary boilerplate.
 
-== Inputs ==
+{{{
+#!html
+<h2 style="color: #F6A52F">Inputs</h2>
+}}}  
 
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
 '''Note:''' If you are looking for torrent search plugins, refer to [wiki:'Search Plugins'].
 
-||= 3rd Party Sites =||||
-|||| Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc. ||
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd Party Sites</h3>
+}}}  
+|| Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc. ||
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
@@ -61,7 +70,10 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/transmission_files transmission_files]||Use the contents of torrents loaded in Transmission as input.||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
-||= 3rd Party Software =||||
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd Party Software</h3>
+}}}  
 |||| Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc. ||
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/couchpotato couchpotato]||Produce entries from couchpotato wanted list||
@@ -72,7 +84,10 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
 ||[wiki:Plugins/sonarr sonarr]||Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
-||= Internal Input =||||
+{{{
+#!html
+<h3 style="color: #F6A52F">Internal Input</h3>
+}}}
 |||| Input plugins that will generate entries based on preexisting data in FlexGet. ||
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
@@ -80,7 +95,10 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
-||= Raw Input =||||
+{{{
+#!html
+<h3 style="color: #F6A52F">Raw Input</h1>
+}}}
 |||| Input plugins that directly parse data from a source based on its type. ||
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
