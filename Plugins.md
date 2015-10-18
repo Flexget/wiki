@@ -90,6 +90,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 }}}
 Input plugins that will generate entries based on preexisting data in FlexGet.
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
@@ -201,9 +202,6 @@ Filters based on data retrieved from 3rd party sites
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
 
 These plugins configure other plugins from external sources like 3rd party sites.
-
-||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 
 == Outputs ==
 
