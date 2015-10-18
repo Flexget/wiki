@@ -285,53 +285,80 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/trakt_collected_lookup trakt_collected_lookup]||Enable episodes collected status from trakt.tv user activity||
 ||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||Enable episodes watched status from trakt.tv user activity||
 ^1. Not a builtin, configuration required to enable.^
-
 {{{
 #!html
 <h2 style="color: #F6A52F">Modification plugins</h2>
 }}}
-
+Plugins that can manipulate data and perform various operations.
+{{{
+#!html
+<h3 style="color: #F6A52F">Request operations</h3>
+}}}
+Perform various operations on request that are being sent and received. 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
-||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
-||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
 ||[wiki:Plugins/cfscraper cfscraper]||Enables cloudflare scraping in a task.||
-||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/cookies cookies]||Use FireFox3 cookies.||
-||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
-||[wiki:Plugins/disable disable]||Disable builtin plugin(s) from a task, or plugins included from a template.||
 ||[wiki:Plugins/domain_delay domain_delay]||Sets a minimum interval between requests to specific domains.||
-||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
-||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
-||[wiki:Plugins/include include]||Include configuration from another yaml file.||
-||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
-||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
-||[wiki:Plugins/manual manual]||Only run the task when explicitly specified.||
-||[wiki:Plugins/no_entries_ok no_entries_ok]||Silence warnings about task not producing entries, for tasks where that is normal.||
-||[wiki:Plugins/parsing parsing]||Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
-||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
+||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
+||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
+||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
+{{{
+#!html
+<h3 style="color: #F6A52F">File operations</h3>
+}}}
+Perform file oriented operations.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/extension extension]||Force a file extension.||
+||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/path_select path_select]||Select a path based on disk stats||
+||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Data operations</h3>
+}}}
+Manipulate relevant data based on input.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
+||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
+||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
+||[wiki:Plugins/parsing parsing]||Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
+||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
+||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
+||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
+{{{
+#!html
+<h3 style="color: #F6A52F">FlexGet internal operations</h3>
+}}}
+Perform various FlexGet operations.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
+||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
+||[wiki:Plugins/disable disable]||Disable builtin plugin(s) from a task, or plugins included from a template.||
+||[wiki:Plugins/include include]||Include configuration from another yaml file.||
+||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
+||[wiki:Plugins/manual manual]||Only run the task when explicitly specified.||
+||[wiki:Plugins/no_entries_ok no_entries_ok]||Silence warnings about task not producing entries, for tasks where that is normal.||
 ||[wiki:Plugins/priority priority]||Change task execution order.||
-||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
 ||[wiki:Plugins/plugin_priority plugin_priority]||Change plugin priorities.||
-||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloadin torrents from rutracker.||
 ||[wiki:Plugins/remember_rejected remember_rejected]||Remember rejections and reject them in future runs.||
-||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/retry_failed retry_failed]||Save failed entries so they can be retried. [wiki:Builtin]||
 ||[wiki:Plugins/secrets secrets]||Replace specific jinja2 values in config before executing tasks.||
 ||[wiki:Plugins/sequence sequence]||Allows the same plugin to be configured multiple times in a task.||
-||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 ||[wiki:Plugins/sleep sleep]||Causes a pause to occur at a specified point during task execution.||
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
-||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
-||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
-||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
-
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd part software</h3>
+}}}
+Perform operations on 3rd part software.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
+||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
 {{{
 #!html
 <h2 style="color: #F6A52F">Search</h2>
