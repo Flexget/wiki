@@ -308,7 +308,7 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/include include]||Include configuration from another yaml file.||
 ||[wiki:Plugins/interval interval]||Maintain minimum poll interval for the task.||
 ||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
-||[wiki:Plugins/manual manual]|| Only run the task when explicitly specified.||
+||[wiki:Plugins/manual manual]||Only run the task when explicitly specified.||
 ||[wiki:Plugins/no_entries_ok no_entries_ok]||Silence warnings about task not producing entries, for tasks where that is normal.||
 ||[wiki:Plugins/parsing parsing]||Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
 ||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
