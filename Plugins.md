@@ -186,57 +186,48 @@ Filters based on data retrieved from 3rd party sites
 ||[wiki:Plugins/imdb_required imdb_required]||Reject imdb incompatible entries.||
 ||[wiki:Plugins/rottentomatoes rottentomatoes]||Accept movie entries based on Rotten Tomatoes details.||
 
-== Site integration & Auto configuration ==
 
-||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
-||[wiki:Plugins/myepisodes myepisodes]||'''{{{NEW}}}''' Mark accepted episodes as acquired on !MyEpisodes.||
-||[wiki:Plugins/pogcal_acquired pogcal_acquired]||'''{{{NEW}}}''' Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
-||[wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]||Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand.||
-||[wiki:Plugins/thetvdb_add thetvdb_add]||'''{{{NEW}}}''' Add accepted series to user's thetvdb.com favorites.||
-||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
-||[wiki:Plugins/thetvdb_remove thetvdb_remove]||'''{{{NEW}}}''' Remove accepted series from user's thetvdb.com favorites.||
-||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
-||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_lookup trakt_lookup]||'''{{{Deprecated}}}''' Enable series information from trakt.tv||
-||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
-
-These plugins configure other plugins from external sources like 3rd party sites.
-
-== Outputs ==
-
+{{{
+#!html
+<h2 style="color: #F6A52F">Output</h2>
+}}}
 Execute operation(s) on accepted entries.
 
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd party software</h3>
+}}}
+Send accepted entries to 3rd party software, usually downloaders.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/aria2 aria2]||Pass URIs to be downloaded to a local computer to the aria2 downloader.||
-||[wiki:Plugins/copy copy]||Copy local files.||
-||[wiki:Plugins/decompress decompress]||'''{{{NEW}}}''' Extract Zip and RAR files.||
-||[wiki:Plugins/delete delete]||Delete local files.||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
-||[wiki:Plugins/digest digest]||'''{{{NEW}}}''' Collects entries from tasks to be combined into another task (usually for notification.)||
-||[wiki:Plugins/download download]||Download passed entries into given path.||
-||[wiki:Plugins/exec exec]||Executes commands on entries.||
-||[wiki:Plugins/ftp_download ftp_download]||'''{{{NEW}}}''' Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
-||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
-||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
-||[wiki:Plugins/move move]||Move local files.||
-||[wiki:Plugins/nzbget nzbget]||'''{{{NEW}}}''' Download nzbs with nzbget.||
-||[wiki:Plugins/periscope periscope]||'''{{{NEW}}}''' Download subtitles with Periscope.||
-||[wiki:Plugins/pyload pyload]||'''{{{NEW}}}'''  http://pyload.org/.||
-||[wiki:Plugins/queue_movies queue_movies]||'''{{{Deprecated}}}''' Add to movie queue.||
-||[wiki:Plugins/rtorrent rtorrent]||'''{{{NEW}}}'''Pass torrents directly to rtorrent||
-||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||'''{{{NEW}}}''' Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
+||[wiki:Plugins/nzbget nzbget]||Download nzbs with nzbget.||
+||[wiki:Plugins/periscope periscope]||Download subtitles with Periscope.||
+||[wiki:Plugins/pyload pyload]||http://pyload.org/.||
+||[wiki:Plugins/rtorrent rtorrent]||Pass torrents directly to rtorrent||
+||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
-||[wiki:Plugins/sftp_download sftp_download]||'''{{{NEW}}}''' Download files from an SFTP server||
-||[wiki:Plugins/sftp_upload sftp_upload]||'''{{{NEW}}}''' Upload files to an SFTP server||
-||[wiki:Plugins/set_series_begin set_series_begin]||'''{{{NEW}}}''' Set the first episode to download for series.||
-||[wiki:Plugins/subliminal subliminal]||'''{{{NEW}}}''' Download subtitles with Subliminal.||
+||[wiki:Plugins/subliminal subliminal]||Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
-||[wiki:Plugins/utorrent utorrent]||'''{{{NEW}}}''' Pass torrents directly to uTorrent.||
-
-
-== Outputs (notification) ==
-
+||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
+{{{
+#!html
+<h3 style="color: #F6A52F">3rd party sites</h3>
+}}}
+Send accepted entries to 3rd party sites, usually for tracking purposes. 
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/myepisodes myepisodes]||Mark accepted episodes as acquired on !MyEpisodes.||
+||[wiki:Plugins/thetvdb_add thetvdb_add]||Add accepted series to user's thetvdb.com favorites.||
+||[wiki:Plugins/thetvdb_remove thetvdb_remove]||Remove accepted series from user's thetvdb.com favorites.||
+||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
+||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
+||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
+{{{
+#!html
+<h3 style="color: #F6A52F">Notifier services</h3>
+}}}
+Send accepted entries to notification services.
+||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
 ||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
@@ -245,7 +236,51 @@ Execute operation(s) on accepted entries.
 ||[wiki:Plugins/notify_xmpp notify_xmpp]||'''{{{NEW}}}''' Send notifications via XMPP.||
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
-||[wiki:Plugins/pushalot pushalot]||'''{{{NEW}}}''' Send Pushalot notifications (Windows 8/Windows Phone).||
+||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
+{{{
+#!html
+<h3 style="color: #F6A52F">FlexGet internal</h3>
+}}}
+Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
+||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
+||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
+{{{
+#!html
+<h3 style="color: #F6A52F">File operations</h3>
+}}}
+Perform different file operations using accepted entries.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/copy copy]||Copy local files.||
+||[wiki:Plugins/decompress decompress]||Extract Zip and RAR files.||
+||[wiki:Plugins/delete delete]||Delete local files.||
+||[wiki:Plugins/download download]||Download passed entries into given path.||
+||[wiki:Plugins/exec exec]||Executes commands on entries.||
+||[wiki:Plugins/ftp_download ftp_download]||Download entries retrieved from [wiki:Plugins/ftp_list ftp_list]||
+||[wiki:Plugins/move move]||Move local files.||
+||[wiki:Plugins/sftp_download sftp_download]||Download files from an SFTP server||
+||[wiki:Plugins/sftp_upload sftp_upload]||Upload files to an SFTP server||
+{{{
+#!html
+<h3 style="color: #F6A52F">Generators</h3>
+}}}
+Generate custom output using accepted entries
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
+||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
+
+{{{
+#!html
+<h2 style="color: #F6A52F">Metadata plugins</h2>
+}}}
+Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
+||[wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]||Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand.||
+||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
+||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
+
 
 == Modify / Other ==
 
