@@ -50,7 +50,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd Party Sites</h3>
+<h3 style="color: #F6A52F">3rd party sites input</h3>
 }}}  
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 ||'''Keyword'''||'''Description'''||
@@ -71,7 +71,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd Party Software</h3>
+<h3 style="color: #F6A52F">3rd party software input</h3>
 }}}  
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 ||'''Keyword'''||'''Description'''||
@@ -122,7 +122,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 
 {{{
 #!html
-<h3 style="color: #F6A52F">Content based</h3>
+<h3 style="color: #F6A52F">Content based filters</h3>
 }}}
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
@@ -133,7 +133,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Metadata</h3>
+<h3 style="color: #F6A52F">Metadata filters</h3>
 }}}
 Filters based on content's metadata such as size and quality
 ||'''Keyword'''||'''Description'''||
@@ -141,7 +141,7 @@ Filters based on content's metadata such as size and quality
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Flexget internal</h3>
+<h3 style="color: #F6A52F">Flexget internal filters</h3>
 }}}
 Filters based on preexisting data or operations within !FlexGet
 ||'''Keyword'''||'''Description'''||
@@ -153,7 +153,7 @@ Filters based on preexisting data or operations within !FlexGet
 ||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Torrent specific</h3>
+<h3 style="color: #F6A52F">Torrent specific filters</h3>
 }}}
 Filters based specifically for torrents
 ||'''Keyword'''||'''Description'''||
@@ -164,7 +164,7 @@ Filters based specifically for torrents
 ||[wiki:Plugins/torrent_alive torrent_alive]||Reject any torrents that do not have an active tracker with seeds.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Logical and operational</h3>
+<h3 style="color: #F6A52F">Logical and operational filters</h3>
 }}}
 Filters that will accept/reject entries based on logical statements or simple file operations
 ||'''Keyword'''||'''Description'''||
@@ -176,7 +176,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party sites</h3>
+<h3 style="color: #F6A52F">3rd party sites filters</h3>
 }}}
 Filters based on data retrieved from 3rd party sites
 ||'''Keyword'''||'''Description'''||
@@ -194,7 +194,7 @@ Execute operation(s) on accepted entries.
 
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party software</h3>
+<h3 style="color: #F6A52F">3rd party software output</h3>
 }}}
 Send accepted entries to 3rd party software, usually downloaders.
 ||'''Keyword'''||'''Description'''||
@@ -211,7 +211,7 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party sites</h3>
+<h3 style="color: #F6A52F">3rd party sites output</h3>
 }}}
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
 ||'''Keyword'''||'''Description'''||
@@ -223,7 +223,7 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Notifier services</h3>
+<h3 style="color: #F6A52F">Notifier services output</h3>
 }}}
 Send accepted entries to notification services.
 ||'''Keyword'''||'''Description'''||
@@ -238,7 +238,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 {{{
 #!html
-<h3 style="color: #F6A52F">FlexGet internal</h3>
+<h3 style="color: #F6A52F">FlexGet internal output</h3>
 }}}
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
@@ -247,7 +247,7 @@ Use accepted entries as an input for various FlexGet plugins such as add to movi
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 {{{
 #!html
-<h3 style="color: #F6A52F">File operations</h3>
+<h3 style="color: #F6A52F">File operations output</h3>
 }}}
 Perform different file operations using accepted entries.
 ||'''Keyword'''||'''Description'''||
@@ -262,7 +262,7 @@ Perform different file operations using accepted entries.
 ||[wiki:Plugins/sftp_upload sftp_upload]||Upload files to an SFTP server||
 {{{
 #!html
-<h3 style="color: #F6A52F">Generators</h3>
+<h3 style="color: #F6A52F">Generators output</h3>
 }}}
 Generate custom output using accepted entries
 ||'''Keyword'''||'''Description'''||
