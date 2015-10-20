@@ -1,7 +1,4 @@
-{{{
-#!html
-<h1>Plugins</h1>
-}}}  
+= Plugins =
 
 {{{
 #!comment
@@ -38,20 +35,18 @@ tasks:
 
 This makes examples more compact and reduces unnecessary boilerplate.
 
-{{{
-#!html
-<h2>Inputs</h2>
-}}}  
+
+== Inputs ==
+
 
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
 '''Note:''' If you are looking for torrent search plugins, refer to [wiki:'Search Plugins'].
 
-{{{
-#!html
-<h3>3rd party sites input</h3>
-}}}  
+
+=== 3rd party sites input ===
+
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
@@ -69,10 +64,9 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/trakt_list trakt_list]||Create entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
-{{{
-#!html
-<h3>3rd party software input</h3>
-}}}  
+
+=== 3rd party software input ===
+
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/couchpotato couchpotato]||Produce entries from couchpotato wanted list||
@@ -83,10 +77,9 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
 ||[wiki:Plugins/sonarr sonarr]||Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
-{{{
-#!html
-<h3>Internal Input</h3>
-}}}
+
+=== Internal Input ===
+
 Input plugins that will generate entries based on preexisting data in FlexGet.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
@@ -95,10 +88,9 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
-{{{
-#!html
-<h3>Raw Input</h1>
-}}}
+
+=== Raw Input ===
+
 Input plugins that directly parse data from a source based on its type.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
@@ -111,19 +103,13 @@ Input plugins that directly parse data from a source based on its type.
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||Lists the content of a remote FTP server||
 
-
-{{{
-#!html
-<h2>Filters</h2>
-}}} 
+== Filters ==
 
 Reject or Accept '''[wiki:Entry entries]''' based on given rules. A single task may have any number of filters.[[BR]]
 If you plan to use multiple filters per task, you should look at '''[wiki:Filtering filtering operations]''' to understand how they work.
 
-{{{
-#!html
-<h3>Content based filters</h3>
-}}}
+=== Content based filters ===
+
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
@@ -131,18 +117,16 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
-{{{
-#!html
-<h3>Metadata filters</h3>
-}}}
+
+=== Metadata filters ===
+
 Filters based on content's metadata such as size and quality
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/content_size content_size]||Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
-{{{
-#!html
-<h3>Flexget internal filters</h3>
-}}}
+
+=== Flexget internal filters ===
+
 Filters based on preexisting data or operations within !FlexGet
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
@@ -151,10 +135,9 @@ Filters based on preexisting data or operations within !FlexGet
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
 ||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
-{{{
-#!html
-<h3>Torrent specific filters</h3>
-}}}
+
+=== Torrent specific filters ===
+
 Filters based specifically for torrents
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/content_filter content_filter]||Reject based on filenames within torrents.||
@@ -162,10 +145,9 @@ Filters based specifically for torrents
 ||[wiki:Plugins/private_torrents private_torrents]||Reject private or public torrents.||
 ||[wiki:Plugins/seen_info_hash seen_info_hash]||Rejects already downloaded torrents (detected by torrent info hash). [wiki:Builtin]||
 ||[wiki:Plugins/torrent_alive torrent_alive]||Reject any torrents that do not have an active tracker with seeds.||
-{{{
-#!html
-<h3>Logical and operational filters</h3>
-}}}
+
+=== Logical and operational filters ===
+
 Filters that will accept/reject entries based on logical statements or simple file operations
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
@@ -174,10 +156,9 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
 ||[wiki:Plugins/if if]||Filter based on simple python statements.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
-{{{
-#!html
-<h3>3rd party sites filters</h3>
-}}}
+
+=== 3rd party sites filters ===
+
 Filters based on data retrieved from 3rd party sites
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/crossmatch crossmatch]||Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history).||
@@ -186,16 +167,12 @@ Filters based on data retrieved from 3rd party sites
 ||[wiki:Plugins/rottentomatoes rottentomatoes]||Accept movie entries based on Rotten Tomatoes details.||
 
 
-{{{
-#!html
-<h2>Output</h2>
-}}}
+== Output ==
+
 Execute operation(s) on accepted entries.
 
-{{{
-#!html
-<h3>3rd party software output</h3>
-}}}
+=== 3rd party software output ===
+
 Send accepted entries to 3rd party software, usually downloaders.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/aria2 aria2]||Pass URIs to be downloaded to a local computer to the aria2 downloader.||
@@ -209,10 +186,9 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/subliminal subliminal]||Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
-{{{
-#!html
-<h3>3rd party sites output</h3>
-}}}
+
+=== 3rd party sites output ===
+
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/myepisodes myepisodes]||Mark accepted episodes as acquired on !MyEpisodes.||
@@ -221,10 +197,9 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
 ||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
-{{{
-#!html
-<h3>Notifier services output</h3>
-}}}
+
+=== Notifier services output ===
+
 Send accepted entries to notification services.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
@@ -236,19 +211,17 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/notifymyandroid notifymyandroid]||Send notifications to android.||
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
-{{{
-#!html
-<h3>FlexGet internal output</h3>
-}}}
+
+=== FlexGet internal output ===
+
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
 ||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
-{{{
-#!html
-<h3>File operations output</h3>
-}}}
+
+=== File operations output ===
+
 Perform different file operations using accepted entries.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/copy copy]||Copy local files.||
@@ -260,19 +233,16 @@ Perform different file operations using accepted entries.
 ||[wiki:Plugins/move move]||Move local files.||
 ||[wiki:Plugins/sftp_download sftp_download]||Download files from an SFTP server||
 ||[wiki:Plugins/sftp_upload sftp_upload]||Upload files to an SFTP server||
-{{{
-#!html
-<h3>Generators output</h3>
-}}}
+
+=== Generators output ===
+
 Generate custom output using accepted entries
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
 
-{{{
-#!html
-<h2>Metadata plugins</h2>
-}}}
+== Metadata plugins ==
+
 Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
 ||'''Keyword'''||'''Description'''||
@@ -284,15 +254,13 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/trakt_collected_lookup trakt_collected_lookup]||Enable episodes collected status from trakt.tv user activity||
 ||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||Enable episodes watched status from trakt.tv user activity||
 ^1. Not a builtin, configuration required to enable.^
-{{{
-#!html
-<h2>Modification plugins</h2>
-}}}
+
+== Modification plugins ==
+
 Plugins that can manipulate data and perform various operations.
-{{{
-#!html
-<h3>Request operations</h3>
-}}}
+
+=== Request operations ===
+
 Perform various operations on request that are being sent and received. 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/cfscraper cfscraper]||Enables cloudflare scraping in a task.||
@@ -303,10 +271,9 @@ Perform various operations on request that are being sent and received.
 ||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
-{{{
-#!html
-<h3>File operations</h3>
-}}}
+
+=== File operations ===
+
 Perform file oriented operations.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
@@ -314,10 +281,9 @@ Perform file oriented operations.
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/path_select path_select]||Select a path based on disk stats||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
-{{{
-#!html
-<h3>Data operations</h3>
-}}}
+
+=== Data operations ===
+
 Manipulate relevant data based on input.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
@@ -327,10 +293,9 @@ Manipulate relevant data based on input.
 ||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
-{{{
-#!html
-<h3>FlexGet internal operations</h3>
-}}}
+
+=== FlexGet internal operations ===
+
 Perform various FlexGet operations.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
@@ -350,34 +315,25 @@ Perform various FlexGet operations.
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
-{{{
-#!html
-<h3>3rd part software</h3>
-}}}
+
+=== 3rd part software ===
+
 Perform operations on 3rd part software.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
-{{{
-#!html
-<h2>Search</h2>
-}}}
+
+== Search ==
 
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
-{{{
-#!html
-<h2>Daemon</h2>
-}}}
+== Daemon ==
 
 These plugins are specifically for when !FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
 ||[wiki:Plugins/Daemon/scheduler scheduler]||Executes tasks with a given interval or schedule while daemon is running.||
 
-{{{
-#!html
-<h2>Command line plugins for `execute` command</h2>
-}}}
+== Command line plugins for `execute` command ==
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
@@ -385,10 +341,7 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
 
-{{{
-#!html
-<h2>Third-party plugin</h2>
-}}}
+== Third-party plugin ==
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
