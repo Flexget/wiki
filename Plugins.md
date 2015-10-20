@@ -1,6 +1,6 @@
 {{{
 #!html
-<h1 style="color: #F6A52F">Plugins</h1>
+<h1>Plugins</h1>
 }}}  
 
 {{{
@@ -40,7 +40,7 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Inputs</h2>
+<h2>Inputs</h2>
 }}}  
 
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
@@ -50,7 +50,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party sites input</h3>
+<h3>3rd party sites input</h3>
 }}}  
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 ||'''Keyword'''||'''Description'''||
@@ -71,7 +71,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party software input</h3>
+<h3>3rd party software input</h3>
 }}}  
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 ||'''Keyword'''||'''Description'''||
@@ -85,7 +85,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
 {{{
 #!html
-<h3 style="color: #F6A52F">Internal Input</h3>
+<h3>Internal Input</h3>
 }}}
 Input plugins that will generate entries based on preexisting data in FlexGet.
 ||'''Keyword'''||'''Description'''||
@@ -97,7 +97,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Raw Input</h1>
+<h3>Raw Input</h1>
 }}}
 Input plugins that directly parse data from a source based on its type.
 ||'''Keyword'''||'''Description'''||
@@ -114,7 +114,7 @@ Input plugins that directly parse data from a source based on its type.
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Filters</h2>
+<h2>Filters</h2>
 }}} 
 
 Reject or Accept '''[wiki:Entry entries]''' based on given rules. A single task may have any number of filters.[[BR]]
@@ -122,7 +122,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 
 {{{
 #!html
-<h3 style="color: #F6A52F">Content based filters</h3>
+<h3>Content based filters</h3>
 }}}
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
@@ -133,7 +133,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Metadata filters</h3>
+<h3>Metadata filters</h3>
 }}}
 Filters based on content's metadata such as size and quality
 ||'''Keyword'''||'''Description'''||
@@ -141,7 +141,7 @@ Filters based on content's metadata such as size and quality
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Flexget internal filters</h3>
+<h3>Flexget internal filters</h3>
 }}}
 Filters based on preexisting data or operations within !FlexGet
 ||'''Keyword'''||'''Description'''||
@@ -153,7 +153,7 @@ Filters based on preexisting data or operations within !FlexGet
 ||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Torrent specific filters</h3>
+<h3>Torrent specific filters</h3>
 }}}
 Filters based specifically for torrents
 ||'''Keyword'''||'''Description'''||
@@ -164,7 +164,7 @@ Filters based specifically for torrents
 ||[wiki:Plugins/torrent_alive torrent_alive]||Reject any torrents that do not have an active tracker with seeds.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Logical and operational filters</h3>
+<h3>Logical and operational filters</h3>
 }}}
 Filters that will accept/reject entries based on logical statements or simple file operations
 ||'''Keyword'''||'''Description'''||
@@ -176,7 +176,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party sites filters</h3>
+<h3>3rd party sites filters</h3>
 }}}
 Filters based on data retrieved from 3rd party sites
 ||'''Keyword'''||'''Description'''||
@@ -188,13 +188,13 @@ Filters based on data retrieved from 3rd party sites
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Output</h2>
+<h2>Output</h2>
 }}}
 Execute operation(s) on accepted entries.
 
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party software output</h3>
+<h3>3rd party software output</h3>
 }}}
 Send accepted entries to 3rd party software, usually downloaders.
 ||'''Keyword'''||'''Description'''||
@@ -211,7 +211,7 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd party sites output</h3>
+<h3>3rd party sites output</h3>
 }}}
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
 ||'''Keyword'''||'''Description'''||
@@ -223,7 +223,7 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Notifier services output</h3>
+<h3>Notifier services output</h3>
 }}}
 Send accepted entries to notification services.
 ||'''Keyword'''||'''Description'''||
@@ -238,7 +238,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 {{{
 #!html
-<h3 style="color: #F6A52F">FlexGet internal output</h3>
+<h3>FlexGet internal output</h3>
 }}}
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
@@ -247,7 +247,7 @@ Use accepted entries as an input for various FlexGet plugins such as add to movi
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 {{{
 #!html
-<h3 style="color: #F6A52F">File operations output</h3>
+<h3>File operations output</h3>
 }}}
 Perform different file operations using accepted entries.
 ||'''Keyword'''||'''Description'''||
@@ -262,7 +262,7 @@ Perform different file operations using accepted entries.
 ||[wiki:Plugins/sftp_upload sftp_upload]||Upload files to an SFTP server||
 {{{
 #!html
-<h3 style="color: #F6A52F">Generators output</h3>
+<h3>Generators output</h3>
 }}}
 Generate custom output using accepted entries
 ||'''Keyword'''||'''Description'''||
@@ -271,7 +271,7 @@ Generate custom output using accepted entries
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Metadata plugins</h2>
+<h2>Metadata plugins</h2>
 }}}
 Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
@@ -286,12 +286,12 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ^1. Not a builtin, configuration required to enable.^
 {{{
 #!html
-<h2 style="color: #F6A52F">Modification plugins</h2>
+<h2>Modification plugins</h2>
 }}}
 Plugins that can manipulate data and perform various operations.
 {{{
 #!html
-<h3 style="color: #F6A52F">Request operations</h3>
+<h3>Request operations</h3>
 }}}
 Perform various operations on request that are being sent and received. 
 ||'''Keyword'''||'''Description'''||
@@ -305,7 +305,7 @@ Perform various operations on request that are being sent and received.
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 {{{
 #!html
-<h3 style="color: #F6A52F">File operations</h3>
+<h3>File operations</h3>
 }}}
 Perform file oriented operations.
 ||'''Keyword'''||'''Description'''||
@@ -316,7 +316,7 @@ Perform file oriented operations.
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 {{{
 #!html
-<h3 style="color: #F6A52F">Data operations</h3>
+<h3>Data operations</h3>
 }}}
 Manipulate relevant data based on input.
 ||'''Keyword'''||'''Description'''||
@@ -329,7 +329,7 @@ Manipulate relevant data based on input.
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 {{{
 #!html
-<h3 style="color: #F6A52F">FlexGet internal operations</h3>
+<h3>FlexGet internal operations</h3>
 }}}
 Perform various FlexGet operations.
 ||'''Keyword'''||'''Description'''||
@@ -352,7 +352,7 @@ Perform various FlexGet operations.
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
 {{{
 #!html
-<h3 style="color: #F6A52F">3rd part software</h3>
+<h3>3rd part software</h3>
 }}}
 Perform operations on 3rd part software.
 ||'''Keyword'''||'''Description'''||
@@ -360,14 +360,14 @@ Perform operations on 3rd part software.
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
 {{{
 #!html
-<h2 style="color: #F6A52F">Search</h2>
+<h2>Search</h2>
 }}}
 
 ||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Daemon</h2>
+<h2>Daemon</h2>
 }}}
 
 These plugins are specifically for when !FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
@@ -376,7 +376,7 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Command line plugins for `execute` command</h2>
+<h2>Command line plugins for `execute` command</h2>
 }}}
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
@@ -387,7 +387,7 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 {{{
 #!html
-<h2 style="color: #F6A52F">Third-party plugin</h2>
+<h2>Third-party plugin</h2>
 }}}
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
