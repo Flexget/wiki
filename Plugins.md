@@ -80,7 +80,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 
 === Internal Input ===
 
-Input plugins that will generate entries based on preexisting data in FlexGet.
+Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
@@ -125,7 +125,7 @@ Filters based on content's metadata such as size and quality
 ||[wiki:Plugins/content_size content_size]||Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
 
-=== Flexget internal filters ===
+=== !FlexGet internal filters ===
 
 Filters based on preexisting data or operations within !FlexGet
 ||'''Keyword'''||'''Description'''||
@@ -212,9 +212,9 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 
-=== FlexGet internal output ===
+=== !FlexGet internal output ===
 
-Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
+Use accepted entries as an input for various !FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
 ||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
@@ -294,9 +294,9 @@ Manipulate relevant data based on input.
 ||[wiki:Plugins/torrent_scrub torrent_scrub]||Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent).||
 ||[wiki:Plugins/urlrewrite urlrewrite]||User regexp for URL Rewriting.||
 
-=== FlexGet internal operations ===
+=== !FlexGet internal operations ===
 
-Perform various FlexGet operations.
+Perform various !FlexGet operations.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
