@@ -14,7 +14,7 @@ Plugins provide most of the functionality in !FlexGet. Plugins usually create, m
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the !FlexGet package (with the exception of the third-party plugins section).
 
-=== Indentation in examples ===
+== Indentation in examples ==
 
 All configuration examples are assumed to be placed under a task. So if documentation has this example:
 
