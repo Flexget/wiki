@@ -2,7 +2,8 @@
 
 Marks a series episode as acquired in your myepisodes.com account.
 
-'''Simple Example'''
+
+== Simple Example ==
 
 Most shows are recognized automatically from their TVDBname. And of course the plugin needs to know your !MyEpisodes account details.
 
@@ -15,7 +16,8 @@ series:
   - chuck
 }}}
 
-'''Advanced Example'''
+
+== Advanced Example ==
 
 In some cases, the TVDB name is either not unique or won't even be discovered. In that case you need to specify the !MyEpisodes id manually using the set plugin.
 
