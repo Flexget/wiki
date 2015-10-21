@@ -30,7 +30,7 @@ More than one can be used:
 These two examples are equal. The only important part is to give the full IMDB ID in any form. Note that only person (`nm` prefix), company (`co` prefix) and character (`ch` prefix) are supported.
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
-||'''id'''||As listed above, one or more strings that contains one of the prelisted accepted IMDB IDs. At least one is Required.||
+||'''id'''||As listed above, one or more strings that contains one of the prelisted accepted IMDB IDs. At least one is Required. '''Note:''' Each ID can potentially create a lot of requests and generate a lot of data.||
 ||'''job_types'''||A string or list with one or more of the following: `actor`, `director`, `producer`, `writer`, `self`, `editor`, `miscellaneous`, `editorial department`, `cinematographer`, `visual effects`, `thanks`, `music department`, `in development`, `archive footage` and `soundtrack`. Default is `actor`. Relevant only when filtering for `person`. ||
 ||'''content_types'''||A string or list with one or more of the following: `movie`, `tv series`, `tv mini series`, `video game`, `video movie`, `tv movie`, `episode`. Default is `movie`||
 ||'''max_entries'''|| The maximum number of entries that can return. This value's purpose is basically flood protection against unruly configurations that will return too many results. Default is `200`. ||
