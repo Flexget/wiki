@@ -16,19 +16,17 @@ The following settings are optional:
 ||'''port'''||This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80. ||
 ||'''include_ended'''|| Decides whether to retrieve ended shows. Default is True ||
 ||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Default is False ||
-||'''include_data'''|| Decides whether to send quality choice to be configured in Flexget. Chosen quality will is defined as 'cutoff' in Sonarr. Default is False ||
+||'''include_data'''|| Decides whether to send quality profile and cutoff quality to Flexget. Default is False ||
 === Example: Add all listed shows to series list ===
 {{{
   get-all-shows-from-sonarr-task:
       configure_series:
-            settings:
-              quality:
-                - 720p
             from:
               sonarr:
                 base_url: http://localhost
                 port: 8989
                 api_key: MYAPIKEY1123
+                include_data: yes
 }}}
 
 Note that by using the [wiki:Plugins/configure_series configure_series] plugin on a schedule you basically sync the shows on your Sonarr show list with Flexget shows list. Meaning that unless you have manually set up additional shows using the [wiki:Plugins/series series] plugin, removing a show from Sonarr will remove it from Flexget's show list as well (which can be good or bad, depending on your usage).
