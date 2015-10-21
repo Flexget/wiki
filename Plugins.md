@@ -51,7 +51,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
-||[wiki:Plugins/dynamic_imdb dynamic_imdb ]|| Dynamically produce entries based on an IMDB person, company or character ||
+||[wiki:Plugins/dynamic_imdb dynamic_imdb ]|| `UPDATED` Dynamically produce entries based on an IMDB person, company or character ||
 ||[wiki:Plugins/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
@@ -316,7 +316,7 @@ Perform various !FlexGet operations.
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
 
-=== 3rd part software ===
+=== 3rd party software ===
 
 Perform operations on 3rd part software.
 ||'''Keyword'''||'''Description'''||
