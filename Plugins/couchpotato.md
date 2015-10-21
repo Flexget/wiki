@@ -9,6 +9,7 @@ Currently the following settings are required:
 ||= Option =||= Description =||
 ||'''base_url'''||This is the URL of your couchpotato installation (usually http://localhost). If not specified otherwise, assumes the port is 80 by default. ||
 ||'''api_key'''||This is API key of your couchpotato installation (can be found under settings->general->advanced)  ||
+||'''include_data'''||Flag that enables whether to send Couchpotato's quality profile to FlexGet. Default is False  ||
 }}}
 The following setting are optional:
 {{{#!div style="margin-left: 25px"
@@ -22,6 +23,7 @@ The following setting are optional:
       base_url: http://localhost
       port: 5050
       api_key: <your key here>
+      include_data: yes
     accept_all: yes
     movie_queue: add
 }}}
