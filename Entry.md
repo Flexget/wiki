@@ -92,6 +92,9 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvdb_ep_rating||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode rating||
 ||tvdb_ep_guest_stars||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||List of episode guest stars||
 ||tvdb_ep_image_url||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode image url||
+||tvdb_ep_id||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode season and number ie. S01E02||
+||tvdb_season||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode season||
+||tvdb_episode||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Episode number||
 ||trakt_series_name||[wiki:Plugins/trakt_lookup trakt_lookup]||Series name provided by trakt||
 ||trakt_series_runtime||[wiki:Plugins/trakt_lookup trakt_lookup]||Series runtime in minutes||
 ||trakt_series_first_aired_epoch||[wiki:Plugins/trakt_lookup trakt_lookup]||Series premier data in epoch time||
