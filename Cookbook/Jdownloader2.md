@@ -1,8 +1,6 @@
 You can use JDownloader2 as output.
 
-Activate Jdownloader2's folderwatch function.
-
-And use the exec plugin in flexget.
+Activate Jdownloader2's folderwatch function and use the exec plugin in flexget.
 
 
 example:
@@ -16,7 +14,7 @@ tasks:
     exec: 
       - echo text={{url}} >> "/path/to/folderwatch/{{title}}.crawljob"
       - echo downloadFolder=/path/to/Downloads/{{title}} >> "/path/to/folderwatch/{{title}}.crawljob"
-      ##if you also need to parse the result form url, uncomment following line
+      ##if you also need to parse the content of the url, uncomment following line
       #- echo deepAnalyseEnabled=true >> "/path/to/folderwatch/{{title}}.crawljob"
 }}}
 
