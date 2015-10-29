@@ -1,12 +1,8 @@
 = Web UI =
 
-Development has started on a web interface for managing flexget.
-
 '''We need your help! If are an AngularJS developer or can help with the layout/design/css then please join in the effort! '''
 
-For development you will need NPM [https://nodejs.org/en/]
-
-To install the webui dependencies run "npm update" in the folder <git clone>/flexget/ui
+Development has started on a web interface for managing flexget.
 
 Add the following to your config.yml
 
@@ -22,7 +18,7 @@ Start flexget in daemon mode to start the web server, for more details [http://f
 
 UI will be available at [http://flexget_host:5050/ui/]
 
-API will be avaliable at [http://flexget_host:5050/api/]
+API will be available at [http://flexget_host:5050/api/]
 
 The default login credentials are flexget with password flexget. You can add, delete, update users using the command line flexget users --help (soon to be available via the ui) 
 
@@ -56,4 +52,15 @@ Here are a couple of drafts for things we would like to work on in the webui:
 - Build plugin scheduler
 - Build plugin tasks
 
+'''Using GIT Version'''
+
+Firstly, you will need NPM [https://nodejs.org/en/]
+
+To install the webui dependencies and build from github run the following commands under the <github>/flexget/ui folder.
+
+{{{
+ npm update
+ bower update
+ gulp
+}}}
 
