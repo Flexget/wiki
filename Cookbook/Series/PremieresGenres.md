@@ -1,16 +1,17 @@
 = Premieres with genre filtering =
 
 {{{
-templates:
-  premieres:
-    thetvdb_lookup: yes
-    require_field: series_genres
-    regexp:
-      reject:
-        - documentary: {from: series_genres}
-        - talk show: {from: series_genres}
-        - game show: {from: series_genres}
-    series_premiere: yes     
+tasks:
+   get_shows:
+      rss: https://www.xxxx.com/feeds.php?xxxx
+      series_premiere: yes
+      thetvdb_lookup: yes
+      require_field: tvdb_genres
+      regexp:
+        reject:
+          - documentary: {from: tvdb_genres}
+          - talk show: {from: tvdb_genres}
+          - game show: {from: tvdb_genres}
 }}}
 
 Adding this template to series feeds will download all premieres except if their genres are documentary, talk show or game show. This works only if the series data is already in the thetvdb when premiere is seen, not entirely sure if this is the case.
