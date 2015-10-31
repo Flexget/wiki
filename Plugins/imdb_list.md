@@ -15,9 +15,11 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/mov
 imdb_list:
   user_id: ur9999999
   list: watchlist
+  force_language: es-mx # Optional - Force Specified Language
 }}}
 
-Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in.
+Your user id can be found [http://www.imdb.com/list/watchlist here] when you are logged in.[[BR]]
+A list of valid language values can be found here [http://www.science.co.il/Language/Locale-codes.asp here], You will need to select the proper '''LCID language string'''.
 
 '''{{{WARNING:}}}''' If you are using a list other than the 'watchlist', 'ratings' or 'checkins', you currently have to look up the list id from imdb and use that instead of the name. This problem is being tracked in ticket #1303
 
