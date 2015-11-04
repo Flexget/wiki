@@ -240,6 +240,7 @@ Generate custom output using accepted entries
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
+||[wiki:Plugins/send_telegram send_telegram]||Send a telegram message from passed entries.||
 
 == Metadata plugins ==
 
