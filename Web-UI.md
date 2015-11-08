@@ -56,9 +56,10 @@ Here are a couple of drafts for things we would like to work on in the webui:
 
 Firstly, you will need NPM [https://nodejs.org/en/]
 
-Install bower (as root)
+Install bower and gulp (as root)
 {{{
  npm install -g bower
+ npm install -g gulp
 }}}
 
 To install the webui dependencies and build from github run the following commands under the <github>/flexget/ui folder.
