@@ -8,6 +8,11 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+{{{#!comment
+=== 2015.11.XX 1.2.XXX ===
+'''trakt 2.0 api update'''
+}}}
+
 === 2015.10.13 1.2.362 ===
 '''find / listdir'''
 
