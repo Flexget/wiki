@@ -11,6 +11,22 @@ This page contains information about configuration file format changes, as well 
 {{{#!comment
 === 2015.11.XX 1.2.XXX ===
 '''trakt 2.0 api update'''
+
+The trakt plugins have been updated to use the newest API (v2). Authorization is now handled by tokens. You can generate a pin for Flexget by visiting https://trakt.tv/pin/346. Use this pin to generate an access token by issuing the cli command `flexget trakt auth <account> <pin>`, where `<account>` is a local identifier that the access token is assigned to. We recommend that you use your Trakt username.
+
+'''general changes for all trakt plugins'''
+
+They no longer require `password` and so this option should be deleted from your config. Instead it takes a new argument `account`. You must specify either `account` or `username`. If `account` is not specified, it will default to the username.
+
+'''trakt_collected_lookup / trakt_watched_lookup'''
+
+These plugins have been merged with `trakt_lookup` and no longer exist.
+
+'''trakt_lookup'''
+
+Now supports movie lookups as well as episode and show lookups. It also takes two optional arguments `username` and `account`. Specifying a `username` enables the previous functionality of `trakt_collected_lookup` and `trakt_watched_lookup`, which provide two new entry fields `trakt_collected` and `trakt_watched` respectively. These new fields indicate whether the entry has been collected or watched. 
+
+`trakt_lookup: yes` will enable the basic trakt lookup in your tasks.
 }}}
 
 === 2015.10.13 1.2.362 ===
