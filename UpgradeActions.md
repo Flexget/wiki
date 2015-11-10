@@ -16,15 +16,22 @@ The trakt plugins have been updated to use the newest API (v2). Authorization is
 
 '''general changes for all trakt plugins'''
 
-They no longer require `password` and so this option should be deleted from your config. Instead it takes a new argument `account`. You must specify either `account` or `username`. If `account` is not specified, it will default to the username.
+They no longer require `password` and so this option should be deleted from your config. Instead it takes a new argument `account`. Specifying an `account` is required to access anything private/protected on trakt. You must specify either `account` or `username`. If `account` is specified without `username`, the owner of the account will be the assumed username.
+
+Affected Plugins:
+  - [wiki:Plugins/trakt_list trakt_list]
+  - [wiki:Plugins/trakt_emit trakt_emit]
+  - [wiki:Plugins/trakt_add trakt_add]
+  - [wiki:Plugins/trakt_remove trakt_remove]
+  - [wiki:Plugins/trakt_lookup trakt_lookup]
 
 '''trakt_collected_lookup / trakt_watched_lookup'''
 
-These plugins have been merged with `trakt_lookup` and no longer exist.
+These plugins have been merged with `trakt_lookup` and no longer exist. You'll need to specify the `account` option in [trakt_lookup](wiki:Plugins/trakt_lookup) in order for the related fields to be looked up.
 
 '''trakt_lookup'''
 
-Now supports movie lookups as well as episode and show lookups. It also takes two optional arguments `username` and `account`. Specifying a `username` enables the previous functionality of `trakt_collected_lookup` and `trakt_watched_lookup`, which provide two new entry fields `trakt_collected` and `trakt_watched` respectively. These new fields indicate whether the entry has been collected or watched. 
+Now supports movie lookups as well as episode and show lookups. It also takes two optional arguments `username` and `account`. Specifying a `username` enables the previous functionality of `trakt_collected_lookup` and `trakt_watched_lookup`, which provide two new entry fields `trakt_collected` and `trakt_watched` respectively. These new fields indicate whether the entry has been collected or watched by the trakt user specified in `username` argument. 
 
 `trakt_lookup: yes` will enable the basic trakt lookup in your tasks.
 }}}
