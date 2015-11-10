@@ -8,8 +8,7 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
-{{{#!comment
-=== 2015.11.XX 1.2.XXX ===
+=== 2015.11.11 1.2.385 ===
 '''trakt 2.0 api update'''
 
 The trakt plugins have been updated to use the newest API (v2). Authorization is now handled by tokens. You can generate a pin for Flexget by visiting https://trakt.tv/pin/346. Use this pin to generate an access token by issuing the cli command `flexget trakt auth <account> <pin>`, where `<account>` is a local identifier that the access token is assigned to. We recommend that you use your Trakt username.
@@ -34,7 +33,6 @@ These plugins have been merged with `trakt_lookup` and no longer exist. You'll n
 Now supports movie lookups as well as episode and show lookups. It also takes two optional arguments `username` and `account`. Specifying a `username` enables the previous functionality of `trakt_collected_lookup` and `trakt_watched_lookup`, which provide two new entry fields `trakt_collected` and `trakt_watched` respectively. These new fields indicate whether the entry has been collected or watched by the trakt user specified in `username` argument. 
 
 `trakt_lookup: yes` will enable the basic trakt lookup in your tasks.
-}}}
 
 === 2015.10.13 1.2.362 ===
 '''find / listdir'''
