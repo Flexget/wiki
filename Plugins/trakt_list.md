@@ -8,7 +8,7 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/mov
 
  * Like with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
  * Adding this plugin to your movie tasks or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
- * If your trakt lists are not publicly available, you will need to add the '''password''' in your trakt configuration. 
+ * If your trakt lists are not publicly available, you will need to authorize your account via the `flexget trakt auth` CLI command, then specify the '''account''' in your trakt configuration. 
  * IMPORTANT: [http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after- Trakt removes shows from watchlist if you watch them, so DO NOT use watchlist as your primary series source, use a custom list instead!]
  * If you want HTML-formatted lists, ex: "<b>TV Shows:</b> Get", to use that list, enter the list on trakt.tv and copy the part of the url that mentions it (ex: "b-tv-shows-b-get"). Basically, the displayed list name is '''not''' the same as the URL-friendly name, and trakt_list wants the URL-friendly name!
 
@@ -18,8 +18,8 @@ Currently the following settings are supported:
 
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
-||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
-||'''password'''||Your [http://trakt.tv trakt.tv] password. This is only required if your profile is protected, or to get private custom lists. ||
+||'''username'''||This is the username at [http://trakt.tv trakt.tv] which owns the list. If `account` is specified, this will default to the owner of said account.||
+||'''account'''||This is only required if the profile is protected, or to get private custom lists. It should be created via the `flexget trakt auth` CLI command.||
 ||'''strip_dates'''||If set to {{{yes}}} the year will be removed from the end of titles that contain them.||
 ||'''list'''||Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, or `watched`
 ||'''type'''||Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`
@@ -29,7 +29,7 @@ Currently the following settings are supported:
 {{{
 trakt_list:
   username: <trakt username>
-  password: <trakt password> (this is required if the list is not publicly available)
+  account: <account set up in CLI> (this is required if the list is not publicly available)
   list: <list name>
   type: <movies|shows|episodes>
 }}}
