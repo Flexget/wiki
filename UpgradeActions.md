@@ -26,7 +26,7 @@ Affected Plugins:
 
 '''trakt_collected_lookup / trakt_watched_lookup'''
 
-These plugins have been merged with `trakt_lookup` and no longer exist. You'll need to specify the `account` option in [trakt_lookup](wiki:Plugins/trakt_lookup) in order for the related fields to be looked up.
+These plugins have been merged with `trakt_lookup` and no longer exist. You'll need to specify the `account` option in [wiki:Plugins/trakt_lookup trakt_lookup] in order for the related fields to be looked up.
 
 '''trakt_lookup'''
 
