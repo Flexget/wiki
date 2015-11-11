@@ -39,10 +39,7 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_series_aired_episodes||Number of aired episodes||
 ||trakt_series_episodes||List of episode titles||
 ||trakt_series_actors||Series actors||
-
-[[BR]]
 ----
-[[BR]]
 '''Episode Metainfo'''
 
 ||trakt_ep_name||Episode name||
@@ -59,7 +56,6 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_watched||`True` if watched on `username`'s profile||
 ||trakt_collected||`True` if collected on `username`'s profile||
 ----
-[[BR]]
 '''Movie Metainfo'''
 
 ||movie_name||Movie name||
@@ -83,7 +79,7 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_collected||`True` if collected on `username`'s profile||
 ----
 [[BR]]
-'''`trakt_watched` and `trakt_collected`'''[[BR]]
+'''trakt_watched and trakt_collected'''[[BR]]
 
 If you specify an `account`/`username` in your config, two more fields are enabled `trakt_watched` and `trakt_collected`. These fields are set to `True` if the episode or movie entry has been marked as watched or collected respectively on the Trakt.tv account associated with `username`.
 
