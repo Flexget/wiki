@@ -1,4 +1,5 @@
 = Trakt emit =
+'''{{{IMPORTANT:}}} Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
 
 '''{{{WARNING:}}}''' There is currently a problem with this plugin where it will not emit the next episode properly for a season when it has not yet been aired. #2831
 
@@ -13,7 +14,7 @@ Currently the following settings are supported:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
-||'''password'''||Your [http://trakt.tv trakt.tv] password. This is always required because seen and collected info are private.||
+||'''account'''||Your account name set by [wiki:Plugins/trakt Trakt] cli tools. Required if the list is private.||
 ||'''context'''||Can be '''watched''' (default) or '''collected''', it refers to the seen and collected [http://trakt.tv trakt.tv] status.||
 ||'''position'''||Can be '''next''' (default) or '''last''', combined to the "context" option, instructs the plugin to emit the next to watch, the next to collect, the last watched or the last collected episode for each series.||
 ||'''list'''||The name of a custom [http://trakt.tv trakt.tv] or built-in list to limit the series for which to emit entries.||
@@ -27,7 +28,7 @@ This example shows how the trakt_emit plugin could be used with the [wiki:Plugin
   set_begin:
     trakt_emit:
       username: your_username
-      password: your_password
+      account: your_account
       context: collected
       list: my_tv_show
     accept_all: yes
