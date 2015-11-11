@@ -33,7 +33,7 @@ More advanced configuration provides the ability to:
  message::
   (string) accepts Jinja2 tags
  priority::
-  (int) -1 = low, 0 = default, 1 = high
+  (int) -1 = low, 0 = default, 1 = high, accepts Jinja2 tags
  url::
   (url) accepts Jinja2 tags
 
