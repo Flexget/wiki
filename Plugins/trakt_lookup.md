@@ -1,6 +1,8 @@
 = Trakt.tv Series Lookup =
 **//Updated as of November 11th 2015. This plugin uses the new Trakt v2 API.//**
 
+'''{{{IMPORTANT:}}} Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
+
 This plugin returns series information from Trakt.tv. The name of the series usually has to be VERY close to what's shown on Trakt.[[BR]]
 If you are having problems returning the correct information for a show. Please add to the series the tvdb_id using the [wiki:Plugins/set set] command.[[BR]]
 
@@ -79,6 +81,19 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_collected||`True` if collected on `username`'s profile||
 ----
 [[BR]]
+
+'''Config schema'''
+{{{
+trakt_lookup: yes
+}}}
+or
+{{{
+trakt_lookup:
+   account: <flexget account name>
+   username: <trakt username>
+}}}
+`account` is required if your profile is private (see [wiki:Plugins/trakt trakt] on how to authenticate). `username` is the user for which you wish to lookup specific information such as collection or watched history.
+
 '''trakt_watched and trakt_collected'''[[BR]]
 
 If you specify an `account`/`username` in your config, two more fields are enabled `trakt_watched` and `trakt_collected`. These fields are set to `True` if the episode or movie entry has been marked as watched or collected respectively on the Trakt.tv account associated with `username`.
