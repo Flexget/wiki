@@ -20,6 +20,6 @@ Takes an optional argument `account`, which shows the expiration date for the cu
 
 === delete ===
 
-Takes an optional argument `account`; This deletes the given account data from the Flexget database.
+Takes a required argument `account`; This deletes the given account data from the Flexget database.
 
 '''Please Note''': This will not revoke access from your Trakt.tv account. You must do that from the [http://trakt.tv/oauth/authorized_applications Trakt.tv] website.
