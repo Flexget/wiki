@@ -17,3 +17,9 @@ Takes one argument `account`; the name you chose when authorizing Flexget to acc
 === show ===
 
 Takes an optional argument `account`, which shows the expiration date for the current `access_token`. If `account` is not specified, it lists all saved accounts along with their `access_token` creation dates and expiration dates.
+
+=== delete ===
+
+Takes an optional argument `account`; This deletes the given account data from the Flexget database.
+
+'''Please Note''': This will not revoke access from your Trakt.tv account. You must do that from the [http://trakt.tv/oauth/authorized_applications Trakt.tv] website.
