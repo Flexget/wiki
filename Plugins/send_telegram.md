@@ -18,12 +18,12 @@ Send a message to one or more Telegram users or groups upon accepting a download
 my-task:
   send_telegram:
     bot_token: token
-      recipients:
-        - username: my-user-name
-        - group: my-group-name
-        - fullname:
-            first: my-first-name
-            sur: my-sur-name
+    recipients:
+      - username: my-user-name
+      - group: my-group-name
+      - fullname:
+          first: my-first-name
+          sur: my-sur-name
 }}}
 
 You may use any combination of recipients types (`username`, `group` or `fullname`) - 0 or more of each (but you
