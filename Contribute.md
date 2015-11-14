@@ -4,7 +4,7 @@ We very much appreciate any contributions to the project, you don't even necessa
 
 For code submissions we accept (in order of preference):
 
-* !GitHub pull requests to the develop branch (These are strongly preferred! It is much easier for us to do code reviews and merge these in. You can find a [https://help.github.com/articles/fork-a-repo guide] here.)
+* !GitHub pull requests to the develop branch (These are ''strongly'' preferred! It is much easier for us to do code reviews and merge these in. You can find a [https://help.github.com/articles/fork-a-repo guide] here.) Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
 * Patch files as ticket attachments
 * Just plain file attachments if above are too intimidating
 
@@ -23,3 +23,5 @@ Any & additional unit tests are also huge bonus.
 Development tutorials and documentation:
 
 [https://flexget.readthedocs.org/en/latest/ https://flexget.readthedocs.org/en/latest/]
+
+Feel free to drop in to IRC to discuss any ideas, #flexget on freenode. You can also visit the forum at http://discuss.flexget.com
