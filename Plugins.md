@@ -345,5 +345,6 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-||[https://github.com/atlanta800/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific custom movie filter by atlanta800.||
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
+||[https://github.com/jawilson/dotfiles/blob/master/flexget/plugins/thexem.py thexem]|| [http://thexem.de The Xross Entity Map for TV shows] integration - maps between Scene, TVDB, AniDB, TV Rage, and TheXEM master season/episode numberings
+||[https://github.com/jawilson/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific, no longer working, custom movie filter by jawilson.||
