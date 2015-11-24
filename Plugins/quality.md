@@ -16,8 +16,8 @@ You can also use a list form to specify multiple quality requirement strings tha
 
 {{{
 quality:
-  - 720p hdtv
-  - 1080p webdl
+  720p hdtv
+  1080p webdl
 }}}
 
 [[Include(wiki:Qualities)]]
