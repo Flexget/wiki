@@ -12,12 +12,12 @@ quality: 720p+ hdtv
 
 Any valid [wiki:Plugins/quality#Requirements quality requirements] string can be used here.
 
-You can also use a list form to specify multiple quality requirement strings that are acceptable.
+You can also use a list form to specify multiple quality requirement strings that are acceptable. In this case, only entries that do not match at least one of the quality strings will be rejected.
 
 {{{
 quality:
-  720p hdtv
-  1080p webdl
+  - 720p hdtv
+  - 1080p webdl
 }}}
 
 [[Include(wiki:Qualities)]]
