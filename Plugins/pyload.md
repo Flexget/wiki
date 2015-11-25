@@ -29,6 +29,7 @@ pyload:
   username: <user>
   password: <pwd>
   package: <package>
+  package_password: <package_password>
   folder: <folder>
   queue: [yes|no]
   parse_url: [yes|no]
@@ -91,3 +92,19 @@ To only add the first found prefered hoster set '''multiple_hoster''' to off.
 If '''queue''' is activated downloads will start immediately, otherwise go to collector and wait for user interaction.
 
 When '''parse_url''' is activated pyload will load the html page at the feed url and check it for additional links. This is useful for hoster who don't include any links in the feed content. This requires that the feed url to link at an article or page related to the entry and '''not''' on a general page or front page. You should first make sure that this is the case so no wrong links gets added.
+
+
+[[br]]
+=== How to add a password to a package  ===
+
+You can define the password for the package send to pyload, this password will be used for extraction.
+
+For example, the following will result in the package password "test123":
+{{{
+pyload:
+  ...
+  package_password: test123
+  ...
+}}}
+
+If no password is defined, FlexGet isn't submitting any additional info.
