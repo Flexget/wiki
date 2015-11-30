@@ -12,10 +12,10 @@ tasks:
       - Lost
       - Another Show
     exec: 
-      - echo text={{url}} >> "/path/to/folderwatch/{{title}}.txt"
-      - echo downloadFolder=/path/to/Downloads/{{title}} >> "/path/to/folderwatch/{{title}}.txt"
+      - echo text={{url}} >> "/path/to/folderwatch/{{title}}.crawljob"
+      - echo downloadFolder=/path/to/Downloads/{{title}} >> "/path/to/folderwatch/{{title}}.crawljob"
       ##if you also need to parse the content of the url, uncomment following line
-      #- echo deepAnalyseEnabled=true >> "/path/to/folderwatch/{{title}}.txt"
+      #- echo deepAnalyseEnabled=true >> "/path/to/folderwatch/{{title}}.crawljob"
 }}}
 
 folderwatch is located by default inside the JDownloader2 installation folder
