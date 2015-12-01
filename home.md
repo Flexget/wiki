@@ -122,3 +122,9 @@ For more information about how !FlexGet works, check available [wiki:Plugins plu
 == Developers wanted ==
 
 We're seeking new developers for [wiki:Web-UI web interface]. Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
+
+== Donate ==
+
+We appreciate any donations towards hosting costs and development of !FlexGet.
+
+[[Image(https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg, link=https://gratipay.com/flexget)]]
