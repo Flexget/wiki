@@ -1,6 +1,6 @@
 = Search Plugins =
 
-!FlexGet provides framework for plugins meant for querying searches from supported sites. These can be used with the [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover discover] plugins where they act like options for their parent plugins. This page lists these options and gives a brief description of their function.
+!FlexGet provides framework for plugins meant for querying searches from supported sites. These cannot be used directly in a task, but can be used with the [wiki:Plugins/urlrewrite_search urlrewrite_search] & [wiki:Plugins/discover discover] plugins where they act like options for their parent plugins. This page lists these options and gives a brief description of their function.
 
 
 == Overview == 
