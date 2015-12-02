@@ -42,7 +42,7 @@ This makes examples more compact and reduces unnecessary boilerplate.
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
-'''Note:''' If you are looking for torrent search plugins, refer to [wiki:'Search Plugins'].
+'''Note:''' If you are looking for torrent search plugins, refer to [wiki:Searches Search Plugins].
 
 
 === 3rd party sites input ===
