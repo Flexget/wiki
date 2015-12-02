@@ -16,7 +16,7 @@ Most plugins are enabled by placing a keyword and required settings in a configu
 
 == Indentation in examples ==
 
-All configuration examples are assumed to be placed under a task. So if documentation has this example:
+All configuration examples are assumed to be placed under a task (or template.) So if documentation has this example:
 
 {{{
 series:
