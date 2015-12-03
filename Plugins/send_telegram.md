@@ -18,6 +18,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 my-task:
   send_telegram:
     bot_token: token
+    template: {{title}}
     recipients:
       - username: my-user-name
       - group: my-group-name
@@ -29,6 +30,9 @@ my-task:
 You may use any combination of recipients types (`username`, `group` or `fullname`) - 0 or more of each (but you
 need at least one total...).
 
+
+== `template` ==
+Optional. The template from the example is the default.
 
 == `username` vs. `fullname` ==
 
