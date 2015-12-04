@@ -21,7 +21,7 @@ tvmaze_lookup: yes
 ||tvmaze_series_rating||Series rating||
 ||tvmaze_series_status||Series status(Continuing or Ended)||
 ||tvmaze_series_summary||Series summary||
-||tvmaze_series_runtime||Series runtime in minutes)||
+||tvmaze_series_runtime||Series runtime (in minutes)||
 ||tvmaze_series_premiered||Series premier date||
 ||tvmaze_genres||Series genres (list)||
 ||tvmaze_series_network||Series network||
