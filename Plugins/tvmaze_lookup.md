@@ -36,7 +36,7 @@ tvmaze_lookup: yes
 ||tvmaze_episode_name||Episode name||
 ||tvmaze_ep_overview||Episode plot||
 ||tvmaze_episode_airdate||Episode air date||
-||tvmaze_ep_runtime||Episode runtime in minutes)||
+||tvmaze_ep_runtime||Episode runtime (in minutes)||
 ||tvmaze_episode_url||Episode url||
 ||tvmaze_episode_original_image||Episode image url (large)||
 ||tvmaze_episode_medium_image||Episode image url (medium)||
