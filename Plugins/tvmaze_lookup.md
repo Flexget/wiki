@@ -9,10 +9,10 @@ tvmaze_lookup: yes
 
 == Provided entry fields ==
 
-||tvmaze_series_weight||||
-||tvmaze_series_update_date||||
-||tvmaze_series_webchannel||||
-||tvmaze_series_show_type||||
+||tvmaze_series_weight||Series popularity||
+||tvmaze_series_update_date||When series was last updated||
+||tvmaze_series_webchannel||Series web channel (Netflix, Amazon, etc..)||
+||tvmaze_series_show_type||Series type (scripted, reality, etc..)||
 ||tvmaze_series_episodes||List of episodes||
 ||tvmaze_series_id||Series ID provided by tvmaze||
 ||tvmaze_series_show_id||Series ID provided by tvmaze||
@@ -43,4 +43,4 @@ tvmaze_lookup: yes
 ||tvmaze_season||Season number of this episode.||
 ||tvmaze_episode||Episode number.||
 ||tvmaze_episode_id||Season and episode in !SxxEyy format.||
-||tvmaze_episode_airstamp||||
+||tvmaze_episode_airstamp||Date and Time Episode aired||
