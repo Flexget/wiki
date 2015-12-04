@@ -20,7 +20,7 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 ||tvdb_content_rating||Series content ration||
 ||tvdb_genres||Series genres||
 ||tvdb_network||Series network||
-||tvdb_banner_url||Series banenr url||
+||tvdb_banner_url||Series banner url||
 ||tvdb_fanart_url||Series fanart url||
 ||tvdb_poster_url||Series poster url||
 ||tvdb_airs_day_of_week||Series airs date of the week||
@@ -40,7 +40,7 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 ||tvdb_ep_image_url||Episode image url||
 ||tvdb_season||Season number of this episode.||
 ||tvdb_episode||Episode number.||
-||tvdb_ep_id||Season and episode in SxxEyy format.||
+||tvdb_ep_id||Season and episode in !SxxEyy format.||
 ||tvdb_absolute_number||Absolute number of this episode.||
 
 '''Example:'''
