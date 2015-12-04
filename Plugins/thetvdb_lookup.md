@@ -14,7 +14,7 @@ This plugin looks up more information from thetvdb.com about any entries that !F
 ||tvdb_series_name||Series name provided by thetvdb||
 ||tvdb_rating||Series rating||
 ||tvdb_status||Series status(Continuing or Ended)||
-||tvdb_runtime||Series runtime in minutes)||
+||tvdb_runtime||Series runtime (in minutes)||
 ||tvdb_first_air_date||Series premier date||
 ||tvdb_air_time||Series air time||
 ||tvdb_content_rating||Series content ration||
