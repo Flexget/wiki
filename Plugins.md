@@ -250,9 +250,10 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
 ||[wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]||Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand.||
-||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from thetvdb.||
+||[wiki:Plugins/thetvdb_lookup thetvdb_lookup]||Fetch series information from http://thetvdb.com/||
 ||[wiki:Plugins/tmdb_lookup tmdb_lookup]||Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand.||
-||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable Trakt.tv parsing for trakt fields on-demand.||
+||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable http://trakt.tv/ parsing for trakt fields on-demand.||
+||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Enable http://tvmaze.com/ parsing for tvmaze fields on-demand.||
 ||[wiki:Plugins/check_subtitles check_subtitles]^1||Check subtitles presence for local files.||
 ^1. Not a builtin, configuration required to enable.^
 
