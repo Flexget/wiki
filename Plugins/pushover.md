@@ -24,6 +24,9 @@ More advanced configuration provides the ability to:
 * override the notification priority (`priority`)
 * override the URL sent in the notification (`url`)
 * override the default sound (`sound`)
+* set number of times to retry notifications. Relevant only from Emergency priority notification. (`retry`)
+* set time until notification expires if not acknowledged. Relevant only if priority is set to 2.  (`expire`)
+* set a callback URL to receive acknowledgements. Relevant only if priority is set to 2. (`callback`)
 * use multiple userkeys with a list for (`userkey`)
 
  device::
@@ -33,9 +36,17 @@ More advanced configuration provides the ability to:
  message::
   (string) accepts Jinja2 tags
  priority::
-  (int) -1 = low, 0 = default, 1 = high, accepts Jinja2 tags
+  (int) -1 = low, 0 = default, 1 = high, 2=Emergency - accepts Jinja2 tags
  url::
-  (url) accepts Jinja2 tags
+  (string) accepts Jinja2 tags
+ sound::
+   (string) Should be one of [https://pushover.net/api#sounds pushover's options]. Accepts Jinja2 tags 
+ retry::
+   (int) Number of seconds between notifications retries. Relevant only if priority is set to 2. 
+ expire::
+   (int) Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30.  
+ callback::
+   (url) A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2. Maximum value is 86400
 
 ==== Example ====
 {{{
@@ -47,7 +58,9 @@ pushover:
   device: mobile
   title: Downloading {{series_name}}
   message: Episode {{series_id}}
-  priority: 1
+  priority: 2
   url: http://server.example.com/path/to/downloader/ui
   sound: incoming
+  retry: 60
+  expire: 1000
 }}}
