@@ -153,8 +153,8 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_episode_url||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode url||
 ||tvmaze_episode_original_image||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode image url (large)||
 ||tvmaze_episode_medium_image||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode image url (medium)||
-||tvmaze_season||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Season number of this episode.||
-||tvmaze_episode||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode number.||
+||tvmaze_episode_season||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Season number of this episode.||
+||tvmaze_episode_number||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode number.||
 ||tvmaze_episode_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode's TVMaze ID.||
 ||tvmaze_episode_airstamp||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Date and Time Episode aired||
 
