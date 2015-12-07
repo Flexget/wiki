@@ -129,9 +129,9 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_series_webchannel||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series web channel (Netflix, Amazon, etc..)||
 ||tvmaze_series_show_type||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series type (scripted, reality, etc..)||
 ||tvmaze_series_episodes||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||List of episodes||
-||tvmaze_series_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series ID provided by tvmaze||
-||tvmaze_series_show_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series ID provided by tvmaze||
-||tvmaze_series_name||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series name provided by tvmaze||
+||tvmaze_series_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series ID provided by TVMaze||
+||tvmaze_series_show_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series ID provided by TVMaze||
+||tvmaze_series_name||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series name provided by TVMaze||
 ||tvmaze_series_year||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series year||
 ||tvmaze_series_rating||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series rating||
 ||tvmaze_series_status||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series status(Continuing or Ended)||
@@ -145,7 +145,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_series_medium_image||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series image url (medium)||
 ||tvmaze_series_airdays||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series airs day of the week||
 ||tvmaze_series_language||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series language(en, fr, etc.)||
-||tvmaze_series_tvrage||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||tvrage ID as provided by tvmaze||
+||tvmaze_series_tvrage||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||tvrage ID as provided by TVMaze||
 ||tvmaze_episode_name||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode name||
 ||tvmaze_ep_overview||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode plot||
 ||tvmaze_episode_airdate||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode air date||
@@ -155,7 +155,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_episode_medium_image||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode image url (medium)||
 ||tvmaze_season||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Season number of this episode.||
 ||tvmaze_episode||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode number.||
-||tvmaze_episode_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Season and episode in !SxxEyy format.||
+||tvmaze_episode_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode's TVMaze ID.||
 ||tvmaze_episode_airstamp||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Date and Time Episode aired||
 
 ^* = and other plugins that utilize this plugin^
