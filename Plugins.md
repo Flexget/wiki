@@ -75,7 +75,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/plex plex]||Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
-||[wiki:Plugins/sonarr sonarr]||Produce entries from Sonarr's show list||
+||[wiki:Plugins/sonarr sonarr]||`UPDATED` Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
 
 === Internal Input ===
