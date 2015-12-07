@@ -147,7 +147,6 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_series_language||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series language(en, fr, etc.)||
 ||tvmaze_series_tvrage||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||tvrage ID as provided by TVMaze||
 ||tvmaze_episode_name||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode name||
-||tvmaze_ep_overview||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode plot||
 ||tvmaze_episode_airdate||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode air date||
 ||tvmaze_ep_runtime||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode runtime (in minutes)||
 ||tvmaze_episode_url||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode url||
