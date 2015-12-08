@@ -124,6 +124,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||trakt_ep_id||[wiki:Plugins/trakt_lookup trakt_lookup]||Episode id string 'S01E01'||
 ||trakt_ep_tvdb_id||[wiki:Plugins/trakt_lookup trakt_lookup]||TVDB ID of episode||
 ||trakt_watched||[wiki:Plugins/trakt_watched_lookup trakt_watched_lookup]||Episode marked seen (true/false)||
+||trakt_list||[wiki:Plugins/trakt_emit trakt_emit]||Names the originating list from which trakt_emit sourced this entry||
 ||tvmaze_series_weight||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series popularity||
 ||tvmaze_series_update_date||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||When series was last updated||
 ||tvmaze_series_webchannel||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Series web channel (Netflix, Amazon, etc..)||
