@@ -16,9 +16,8 @@ The following settings are optional:
 ||'''port'''||This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80. ||
 ||'''include_ended'''|| Decides whether to retrieve ended shows. Default is True ||
 ||'''only_monitored'''|| Retrieves only [https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes monitored] shows on Sonarr. Default is False ||
-||'''include_data'''|| Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Show path will appear under `sonarr_show_path`.||
+||'''include_data'''|| Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [http://flexget.com/wiki/Plugins/configure_series configure_series] plugin||
 
-'''Note:''' You can use `sonarr_show_path` with plugins like `deluge` or `utorrent` to automatically set the download path to the original show locations.
 === Example: Add all listed shows to series list ===
 {{{
   get-all-shows-from-sonarr-task:
