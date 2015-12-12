@@ -27,14 +27,19 @@ These examples are incomplete, and contain comments where other plugins should b
 tasks:
   download task 1:
     # some stuff to do downloads
-    digest: daily email
+    digest:
+      list: daily email
+      state:
+        - accepted
+        - failed
   download task 2:
     # some stuff to do downloads
     digest: daily email
   daily email task:
     emit_digest:
       list: daily email
-    seen: local
+      restore_state: yes
+    seen: no
     email:
       # the email settings
 schedules:
@@ -57,6 +62,7 @@ tasks:
       list: recently accepted
       limit: 50
       expire: no
+    accept_all: yes
     seen: no
     make_html:
       # the make_html settings
