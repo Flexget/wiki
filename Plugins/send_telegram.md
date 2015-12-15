@@ -20,7 +20,6 @@ my-task:
     bot_token: token
     template: {{title}}
     use-markdown: no
-
     recipients:
       - username: my-user-name
       - group: my-group-name
