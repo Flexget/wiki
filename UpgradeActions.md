@@ -8,6 +8,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2015.12.16 1.2.410 ===
+
+Due to a complete refactor of [http://flexget.com/wiki/Plugins/pushover Pushover plugin], the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
+
 === 2015.11.15 1.2.389 ===
 
 TVRage seems to be down, so in its place we have implemented [http://www.tvmaze.com TVMaze], which requires a few new dependencies.
