@@ -204,7 +204,7 @@ Send accepted entries to notification services.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
-||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
+||[wiki:Plugins/pushover pushover]||`UPDATED` Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/rapidpush rapidpush]||An easy-to-use push notification service. (Android).||
 ||[wiki:Plugins/notify_osd notify_osd]||Send notifications to notify-osd.(linux only. Ubuntu tested)||
 ||[wiki:Plugins/notify_xmpp notify_xmpp]||Send notifications via XMPP.||
