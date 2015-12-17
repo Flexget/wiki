@@ -16,7 +16,7 @@ tag ideas:
 
 
 == Ticket References ==
-Ticket references should be at the end of the commit message
+Ticket references should be at the end of the commit message, references can be to github tickets or issues. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket)
 
 == Examples ==
 
