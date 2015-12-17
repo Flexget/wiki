@@ -64,3 +64,26 @@ pushover:
   retry: 60
   expire: 1000
 }}}
+
+==== Example with Jinja2 tags ====
+{{{
+pushover:
+  userkey: '{{secrets.credentials.pushover.userkey}}'
+  apikey: '{{secrets.credentials.pushover.apikey}}'
+  sound: bike
+  title: >
+    {%if task in ["task_a","task_b"]%} New movie added to queue
+    {%else%}Download Started from task {{task}}
+    {%endif%}
+  message: >
+    {% if series_name is defined %}{{series_name}} - {{series_id}} - {{trakt_ep_name}} - {{quality|d('')}}
+    {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
+    {% else %}{{title}}
+    {% endif %}
+  url: '{{trakt_series_trakt_url|d(imdb_url)}}'
+  url_title: Link
+  priority: >
+    {% if task == "retreive_from_couchpotato" %}-1
+    {% else %}0
+    {% endif %}
+}}}
