@@ -13,10 +13,11 @@ Start each commit with one or more tags in brackets, to split changelog into cat
 tag ideas:
 * fix: fixes a bug
 * feature: new feature added
+* dev: hide commit from user changelog?
 
 
 == Ticket References ==
-Ticket references should be at the end of the commit message, references can be to github tickets or issues. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket)
+Ticket references should be at the end of the commit message, references are to github issue numbers. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket)
 
 == Examples ==
 
