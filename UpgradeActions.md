@@ -8,6 +8,15 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== Comming soon ===
+'''t411 replace torrent411 for discovering'''
+
+The search plugin is called henceforth {{{t411}}} instead of {{{torrent411}}}. Credentials are no longer setted into config file ; remove {{{username}}} and {{{password}}} and setting up definetively your credentials via CLI {{{flexget t411 add-auth <username> <password>}}}. Category and terms names are now the same as on the website. For example, {{{HDrip-720p}}} becomes {{{HDrip 720}}}.
+
+'''t411 replace torrent411 urlrewritter for as input plugin'''
+
+You can no longer use the plugin {{{html}}} or {{{rss}}} for scraping the Torrent411 website. Instead, use the [wiki:Plugins/t411 t411 input plugin].
+
 === 2015.12.16 1.2.410 ===
 
 Due to a complete refactor of [http://flexget.com/wiki/Plugins/pushover Pushover plugin], the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
