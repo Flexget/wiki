@@ -26,5 +26,5 @@ Ticket references should be at the end of the commit message, references are to 
 == Examples ==
 
 * `[fix] Rss plugin doesn't crash with invalid urls. fix #123`
-* `[fix] [pushover] Always sets defaults for all fields. Closed #123`
+* `[fix] [pushover] Always sets defaults for all fields. fix #123`
 * `[dev] [refactor] Move dependency requirement comments inline with dependencies.`
