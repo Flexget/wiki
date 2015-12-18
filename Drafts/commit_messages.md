@@ -2,9 +2,11 @@
 
 Idea would be to tag commits consistently, so that we can improve our changelog generator to be a little more user friendly.
 
-Changelog generator will show all commits directly to master, and merge commits when other branches (PRs) are merged in.
-This means all commits directly to master should follow this format, and when merging PRs, the message should be changed to comply when merging (this becomes the second line of the merge commit message.)
-Any feature branches should be merged into develop (not the other way around) and should not allow a fast forward, in order that we can make format the message for the merge commit properly. If this sounds like git magic, submitting a pr is an easier way, as it will ensure the merge goes the right direction, and gives you a chance to edit the merge commit message before merging.
+Changelog generator will show all commits directly to master, and merge commits when other branches (PRs) are merged in.[[BR]]
+This means all commits directly to master should follow this format, and when merging PRs, the message should be changed to comply when merging (this becomes the second line of the merge commit message.)[[BR]]
+Any feature branches should be merged into develop (not the other way around) and should not allow a fast forward, in order that we can make format the message for the merge commit properly.[[BR]]
+If this sounds like git magic, submitting a pr is an easier way, as it will ensure the merge goes the right direction, and gives you a chance to edit the merge commit message before merging.[[BR]]
+
 
 == Bracket Tags ==
 
@@ -13,7 +15,9 @@ Start each commit with one or more tags in brackets, to split changelog into cat
 tag ideas:
 * fix: fixes a bug
 * feature: new feature added
-* dev: hide commit from user changelog?
+* refactor: core code changes and/or updates
+* plugin_name: use the plugin name if message is ambiguous
+* dev: hide commit from user changelog (use as first tag)?
 
 
 == Ticket References ==
@@ -22,3 +26,5 @@ Ticket references should be at the end of the commit message, references are to 
 == Examples ==
 
 * `[fix] Rss plugin doesn't crash with invalid urls. fix #123`
+* `[fix] [pushover] Always sets defaults for all fields. Closed #123`
+* `[dev] [refactor] Move dependency requirement comments inline with dependencies.`
