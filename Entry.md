@@ -157,5 +157,6 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_episode_number||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode number.||
 ||tvmaze_episode_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode's TVMaze ID.||
 ||tvmaze_episode_airstamp||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Date and Time Episode aired||
+||tvmaze_series_actors||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||A list of the cast of the show.
 
 ^* = and other plugins that utilize this plugin^
