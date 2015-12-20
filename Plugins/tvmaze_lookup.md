@@ -44,3 +44,4 @@ tvmaze_lookup: yes
 ||tvmaze_episode||Episode number.||
 ||tvmaze_episode_id||Season and episode in !SxxEyy format.||
 ||tvmaze_episode_airstamp||Date and Time Episode aired||
+||tvmaze_series_actors||A list of the cast of the show. Each cast member is presented in a dict format that contain name, original_image, medium_image, URL & id
