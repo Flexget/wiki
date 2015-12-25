@@ -5,7 +5,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 == Preparations ==
 
-* Install 'python-telegram-bot' python pkg
+* Install 'python-telegram-bot' python pkg (i.e. `pip install python-telegram-bot`)
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#botfather).
 * For direct messages (not to a group), start a conversation with the bot and click "START" in the Telegram app.
 * For group messages, add the bot to the desired group and send a start message to the bot: "/start" (mind the
@@ -27,6 +27,17 @@ my-task:
           first: my-first-name
           sur: my-sur-name
 }}}
+
+
+== Bootstrapping and testing the bot ==
+
+* Execute: `flexget send_telegram bootstrap`.
+  Look at the console output and make sure that the operation was successful.
+* Execute: `flexget send_telegram test-msg`.
+  This will send a test message for every recipient you've configured.
+
+
+== Configuration notes ==
 
 You may use any combination of recipients types (`username`, `group` or `fullname`) - 0 or more of each (but you
 need at least one total...).
