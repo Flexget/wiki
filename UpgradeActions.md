@@ -17,6 +17,9 @@ The search plugin is called henceforth {{{t411}}} instead of {{{torrent411}}}. C
 
 You can no longer use the plugin {{{html}}} or {{{rss}}} for scraping the Torrent411 website. Instead, use the [wiki:Plugins/t411 t411 input plugin].
 
+=== 2015.12.29 X.X.XXX ===
+The markdown option in the [http://flexget.com/wiki/Plugins/send_telegram Telegram plugin] was changed from use-markdown to use_markdown. Update your configurations accordingly.
+
 === 2015.12.16 1.2.410 ===
 
 Due to a complete refactor of [http://flexget.com/wiki/Plugins/pushover Pushover plugin], the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
