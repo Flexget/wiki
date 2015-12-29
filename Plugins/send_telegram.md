@@ -19,7 +19,7 @@ my-task:
   send_telegram:
     bot_token: token
     template: {{title}}
-    use-markdown: no
+    use_markdown: no
     recipients:
       - username: my-user-name
       - group: my-group-name
@@ -46,7 +46,7 @@ need at least one total...).
 == `template` ==
 Optional. The template from the example is the default.
 
-== `use-markdown` ==
+== `use_markdown` ==
 Optional. Whether the template uses markdown formatting. The default is `no`.
 
 == `username` vs. `fullname` ==
