@@ -8,6 +8,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 
 * [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] - Flexget (v1.2.288) - Ability to download season packs. Makes flexget truly automated, not just for getting the very latest episodes. (Trakt.tv + Discover)
 * [https://github.com/jawilson/dotfiles/tree/master/flexget jawilson] (atlanta800)
+* [https://github.com/sisfs/dotfiles/tree/adding-my-changes sisfs] (v1.2.418) - A fork of jawilson above. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
 * [wiki:Cookbook/Users/hyper_ch hyper_ch]
 * [wiki:Cookbook/Users/KnockiMov KnockiMov] - Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 * [wiki:Cookbook/Users/foulou foulou]
