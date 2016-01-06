@@ -317,6 +317,7 @@ Perform various !FlexGet operations.
 ||[wiki:Plugins/sort_by sort_by]||Sort entries in a task.||
 ||[wiki:Plugins/template template]||Provides global configuration and named templates.||
 ||[wiki:Plugins/verify_ssl_certificates verify_ssl_certificates]||Can turn off SSL certificate verification on a task.||
+||[wiki:Plugins/version_checker]||Checks if user is running latest Flexget version on a given interval.||
 
 === 3rd party software ===
 
