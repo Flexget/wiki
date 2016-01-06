@@ -1,74 +1,50 @@
-== Using the synocommunity package ==
-The synocommunity repository [https://synocommunity.com/] includes a !FlexGet package. Follow the homepage instructions to add synocommunity to your NAS, and then install Python and !FlexGet through the web interface. The config file will be available at `/usr/local/flexget/var/config.yml`.
-
-An alternative is to install with `easy_install` as detailed in the rest of this tutorial.
-
-== Installing with easy_install ==
-
-
-''These instruction were written from memory some time after successfully installing !FlexGet on a Synology DS210j. If any packages fail to install then check the output messages for missing dependencies, version numbers, etc, and install the required packages. If you install !FlexGet following these instructions then please correct any errors, add missing information and delete this paragraph.''
-
-= Set up environment =
-
-You will need to be logged into the Synology NAS as root to install packages.
+= As a Python package =
+This is the recommended method as it mirrors how you would install !FlexGet on just about any other system. You will need to be logged into the Synology NAS as root to install packages.
 
 == ipkg ==
 
-The first step is to install ipkg, the Package Management System that will be used to install packages. Follow the instructions at:
+The first step is to install `ipkg`, a package manager for Synology (and other systems). Follow the instructions at:
 
 [http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc]
 
-== Python ==
+== System dependencies ==
 
-Install Python 2.6 by running:
-
-{{{
-ipkg install python26
-}}}
-
-== easy_install ==
-
-Install the Python setuptools package. This includes `easy_install` which will be used to install Python packages/eggs. To install, run:
-{{{
-ipkg install py26-setuptools
-}}}
-
-== SQLite ==
-
-!FlexGet requires SQLite to be installed. Run:
+You'll need to install Python 2.7, setuptools, and sqlite. setuptools includes `easy_install`, which we will use to install `pip`. sqlite is required by !FlexGet.
 
 {{{
-ipkg install sqlite
+$ ipkg install python27
+$ ipkg install py27-setuptools
+$ ipkg install sqlite
 }}}
 
 == Transmission ==
 
-If you wish to use the Transmission !BitTorrent client (recommended) instead of the built-in client then follow the instructions at:
-
-[http://forum.synology.com/wiki/index.php/Transmission_HowTo]
-
-or
-
-[http://synoblog.superzebulon.org/tag/synology/]
-
-== tranmissionrpc == 
-
-If you will be using Transmission, then install the transmissionrpc package by running:
+It is highly recommended that you use the Transmission !BitTorrent client instead of the built-in client. Transmission can also be installed via `ipkg`.
 
 {{{
-easy_install transmissionrpc
+$ ipkg install transmission
 }}}
 
-if you get an error along the lines of
+== pip ==
+
+Use `easy_install` to install `pip`, which is a much more user-friendly Python package manager. `easy_install` installs `pip` into `/opt/local/bin`, so add that to your `PATH` variable if it is not already present. Once installed, update use `pip` to update itself the latest version.
+
 {{{
-/opt/local/lib/python2.5/site-packages (in --site-dirs) does not exist
+$ easy_install-2.7 pip
+$ pip install --upgrade pip
 }}}
-you have to edit distutils.cfg (located in /opt/lib/python2.6/distutils) to point to the correct path.
 
-Note: If you are still having issues with the above error, a work-around is to install package "Python" (version 2.7.x) followed by FlexGet through the Synology web manager.
-Afterwards, add '''/volume1/@appstore/flexget/env/bin/''' to your PATH in /root/.profile (or /etc/profile).
-This should give you a working config of easy_install.
+If using Transmission, you will need to install the `transmissionrpc` package.
 
-= Next =
+{{{
+$ pip install transmissionrpc
+}}}
 
-[wiki:InstallWizard/SynologyNAS/FlexGet Install FlexGet]
+== Next ==
+
+You're ready to [wiki:InstallWizard/SynologyNAS/FlexGet install FlexGet].
+
+= Using the synocommunity package =
+The synocommunity repository [https://synocommunity.com/] includes a !FlexGet package. If you are less comfortable with the command line, you will probably find this method easier. It may, however, be more difficult to maintain. You must also wait for the package maintainers to update the !FlexGet package; with the above method, updates to !FlexGet may be installed as soon as they are released.
+
+Follow the homepage instructions to add synocommunity to your NAS, and then install Python and !FlexGet through the web interface. The config file will be available at `/usr/local/flexget/var/config.yml`.
