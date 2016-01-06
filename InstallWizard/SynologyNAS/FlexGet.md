@@ -1,44 +1,27 @@
 = Installing !FlexGet =
 
-=== Install ===
+== Install ==
 
 {{{
-easy_install flexget
+$ pip install flexget
 }}}
 
-=== Determine full path to executable ===
+`pip` installs !FlexGet to `/opt/local/bin/flexget`. If `/opt/local/bin` isn't in your `PATH`, you should add it.
 
-Starting from this step, you shouldn't use the root account for anything.
+== Verify installation ==
 
-To determine where the !FlexGet command resides run:
+Run the following command, and !FlexGet should display it's version number:
 
 {{{
-find / -name flexget -type f 2>/dev/null
-}}}
-{{{
-#!comment
-Using 'find' because Synology does not support 'where'.
+$ flexget --version
+1.2.422
+You are on the latest release.
 }}}
 
-Example output: `/opt/local/bin/flexget`. It may be different in your environment.
-In the following steps, replace /path/to/flexget with the actual path on your system.
-
-=== Verify installation ===
-
-Run command:
-
-{{{
-/path/to/flexget --version
-}}}
-
-!FlexGet should display it's version number.
-
-=== Configuration ===
+== Configuration ==
 
 Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly. The SQLite database file will get created in the same directory as the configuration file, so make sure the user executing !FlexGet has write access to that path.
 
-!FlexGet is designed to be executed from user crontab (daemon mode coming later).
-
 == Next ==
 
-[wiki:InstallWizard/SynologyNAS/FlexGet/Scheduling Scheduling]
+Set up !FlexGet to run as a [wiki:InstallWizard/SynologyNAS/Upstart system service].
