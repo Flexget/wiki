@@ -80,7 +80,7 @@ If you are not using Transmission, change `start on started transmission-daemon`
 
 == Important caveat ==
 
-Because Synology just can't help being a pain in the ass sometimes, the contents of `/etc/init` is reset to system defaults '''every time you install a major version OS update'''. So, when you update from e.g. DSM 5.1 to DSM 5.2, your `/etc/init/transmission-daemon.conf` and `/etc/init/flexget-daemon.conf` files will get wiped out. For this reason it is important that you back them up so that you can easily replace them after updating. Minor version updates do not reset the `/etc/init/` folder.
+Because Synology just can't help being a pain in the ass sometimes, the contents of `/etc/init` is reset to system defaults '''every time you install a major version OS update'''. So, when you update from e.g. DSM 5.1 to DSM 5.2, your `/etc/init/transmission-daemon.conf` and `/etc/init/flexget-daemon.conf` files will get wiped out. For this reason it is important that you back them up so that you can easily replace them after updating. Minor version updates do not reset `/etc/init`.
 
 == That's all, folks ==
 
