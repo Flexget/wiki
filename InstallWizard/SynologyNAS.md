@@ -1,7 +1,7 @@
 = As a Python package =
 This is the recommended method as it mirrors how you would install !FlexGet on just about any other system. You will need to be logged into the Synology NAS as root to install packages.
 
-== ipkg ==
+== `ipkg` ==
 
 The first step is to install `ipkg`, a package manager for Synology (and other systems). Follow the instructions at:
 
@@ -25,7 +25,7 @@ It is highly recommended that you use the Transmission !BitTorrent client instea
 $ ipkg install transmission
 }}}
 
-== pip ==
+== `pip` ==
 
 Use `easy_install` to install `pip`, which is a much more user-friendly Python package manager. `easy_install` installs `pip` into `/opt/local/bin`, so add that to your `PATH` variable if it is not already present. Once installed, update use `pip` to update itself the latest version.
 
@@ -43,6 +43,8 @@ $ pip install transmissionrpc
 == Next ==
 
 You're ready to [wiki:InstallWizard/SynologyNAS/FlexGet install FlexGet].
+
+[[BR]]
 
 = Using the synocommunity package =
 The synocommunity repository [https://synocommunity.com/] includes a !FlexGet package. If you are less comfortable with the command line, you will probably find this method easier. It may, however, be more difficult to maintain. You must also wait for the package maintainers to update the !FlexGet package; with the above method, updates to !FlexGet may be installed as soon as they are released.
