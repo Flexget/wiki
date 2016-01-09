@@ -49,6 +49,8 @@ Optional. The template from the example is the default.
 == `use_markdown` ==
 Optional. Whether the template uses markdown formatting. The default is `no`.
 
+NOTE: The markdown parser WILL crash if you have an unmatched amount of _ or * in your message (Underscores in URLs are especially tricky here)
+
 == `username` vs. `fullname` ==
 
 Not all Telegram users have a username. In such cases you would have to use the `fullname` approach. Otherwise, it
