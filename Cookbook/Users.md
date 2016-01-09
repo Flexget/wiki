@@ -18,7 +18,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/blsmit5728/flexget_files blsmit5728]
 * [wiki:Cookbook/Users/jordan0321 jordan0321]
 * [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
-* [https://github.com/tarzasai/.flexget tarzasai] (v1.2.125)
+* [https://github.com/tarzasai/.flexget tarzasai] (v1.2.424)
 * [http://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt minerva] RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
 * [https://github.com/Saboti/.flexget Saboti] (1.2.269) pyload and OCH with trakt.tv Movies and Series integration.
 * [wiki:Cookbook/Users/404notfound 404notfound]
