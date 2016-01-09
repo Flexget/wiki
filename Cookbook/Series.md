@@ -8,6 +8,7 @@
 
 === More advanced recipes ===
 
+* [wiki:Cookbook/Series/trakt_manager Manage your series from trakt.tv rather than directly in the FlexGet config]
 * [wiki:Cookbook/Series/Search Have FlexGet search for the episodes you need rather than monitoring an RSS feed]
 * [wiki:Cookbook/Series/SeedDB Get your FlexGet series database started with the files you already have]
 * [wiki:Cookbook/Series/Sort Sort Downloads with FlexGet]
