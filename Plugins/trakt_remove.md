@@ -14,6 +14,9 @@ trakt_remove:
   username: <trakt username>
   account: <flexget account name>
   list: <list name>
+  type: [auto|shows|seasons|episodes|movies]
 }}}
 
 The `list` option can be one of the built in trakt lists, `collection`, `watched`, or `watchlist`, or the name of one of your custom trakt lists.
+
+Setting the `type` option to anything but auto (the default) forces entries to be of a given item type or not be removed.
