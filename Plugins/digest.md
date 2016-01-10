@@ -44,9 +44,13 @@ tasks:
       # the email settings
 schedules:
 - tasks: [download task 1, download task 2]
-  interval: 1 hour
+# interval:
+#  <weeks|days|hours|minutes>: <#>
+  interval:
+    hours: 1
 - tasks: daily email task
-  interval: 1 day
+  interval:
+    days: 1
 }}}
 === Last 50 entries HTML ===
 {{{
@@ -68,5 +72,6 @@ tasks:
       # the make_html settings
 schedules:
 - tasks: [download task 1, download task 2, generate html]
-  interval: 1 hour
+  interval:
+    hours: 1
 }}}
