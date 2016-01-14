@@ -45,7 +45,6 @@ clean_transmission:
   username: myusername
   password: mypassword
   finished_for: 2 hours
-  min_ratio: 1
   tracker: nyaa|animebytes
   directories:
     - \A/+media/+beta/+Downloads/+Shows/+Auto(\Z|/+.*)
