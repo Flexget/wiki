@@ -9,7 +9,34 @@ easy_install transmissionrpc
 
 You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 
-'''Example:'''
+'''Examples:'''
+
+{{{
+clean_transmission:
+  host: localhost
+  port: 9091
+  username: myusername
+  password: mypassword
+  finished_for: 2 hours
+  tracker: nyaa|animebytes
+  disable: [details]
+}}}
+
+In the example below we illustrate how we can remove torrents based on their download directory. It will remove all torrents under {{{/media/beta/Downloads/Shows/Auto}}} and its sub-directories that have finished for at least 2 hours.
+
+{{{
+clean_transmission:
+  host: localhost
+  port: 9091
+  username: myusername
+  password: mypassword
+  finished_for: 2 hours
+  directories:
+    - \A/+media/+beta/+Downloads/+Shows/+Auto(\Z|/+.*)
+  disable: [details]
+}}}
+
+Note that you can combine both {{{directories}}} and {{{tracker}}} in the previous examples
 
 {{{
 clean_transmission:
@@ -20,8 +47,12 @@ clean_transmission:
   finished_for: 2 hours
   min_ratio: 1
   tracker: nyaa|animebytes
-disable: [details]
+  directories:
+    - \A/+media/+beta/+Downloads/+Shows/+Auto(\Z|/+.*)
+  disable: [details]
 }}}
+
+This would remove all torrents under {{{/media/beta/Downloads/Shows/Auto}}} and its sub-directories that have finished for at least 2 hours that were downloaded from {{{nyaa}}} or {{{animebytes}}}.
 
 ||'''Name'''||'''Info'''||'''Description'''||
 ||host||Text||Where transmission is listening (default: localhost)||
@@ -32,6 +63,7 @@ disable: [details]
 ||finished_for||Interval||(optional) remove only torrents finished for at least the specified time (1 hours, 2 days, etc).||
 ||min_ratio||Number||(optional) remove only torrents uploaded at least this ratio (0=0%, 0.5=50%, 1=100% etc)||
 ||tracker||!RegExp||(optional) remove only torrents with a tracker hostname matching this [[https://docs.python.org/2/library/re.html#regular-expression-syntax|regular expression]]||
+||directories||!RegExp List||(optional) remove only torrents with a download directory that matches one of the regular expressions in the list||
 ||delete_files||[Yes|No]||(optional) also delete local files (default: no)||
 ||transmission_seed_limits||[Yes|No]||(optional) uses transmission's internal limits for idle time and seed ratio (default: no)||
 ||enabled||[Yes|No]||Plugin enabled (default: yes)||
