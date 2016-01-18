@@ -23,4 +23,4 @@ After that command `flexget` works from anywhere. Or you can run it via:
 ~/flexget/bin/flexget [options]
 }}}
 
-Also use remember to use this explicit path in the crontab!
+Also use remember to use this explicit path for any crontab, daemon, or other cli executions!
