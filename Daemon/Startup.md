@@ -31,7 +31,7 @@ sudo vim /etc/init/flexget.conf
 # Flexget daemon autostart                                                                                                                                                      
 
 description "Flexget daemon"
-author "Kempe"
+author "Kempe / Shrike"
 
 start on (filesystem and networking) or runlevel [2345]
 stop on runlevel [016]
@@ -40,16 +40,12 @@ respawn
 respawn limit 5 30
 
 env user=<YOURUSERNAME>
-
 # to find your local run the locale command an example local would be en_US.utf8
 env LANG=<YOUR UTF-8 LOCALE>
-# Automatically fetch uid and gid based on user name
-env uid=$(getent passwd "$user"|cut -d: -f3)
-env gid=$(getent passwd "$user"|cut -d: -f4)
 #log levels none, critical,error, warning, info, verbose, debug, trace
 env loglvl=info
 
-exec start-stop-daemon -S -c $uid:$gid -x /usr/local/bin/flexget -- -L $loglvl daemon start
+exec start-stop-daemon -S --chuid $user --user $user --exec /usr/local/bin/flexget -- --loglevel $loglvl daemon start
 }}}
 
 Read log: 
