@@ -2,7 +2,7 @@
 This search plugin will get results from [http://torrentleech.org]
 
 == Configuration ==
-Configuration requires rss_key, username, and password:
+Configuration requires rss_key, username, and password: (RSS key will be found in your TL account preferences while username and password are your usual TL login credentials.)
 {{{
 torrentleech: 
   rss_key: xxxxxxxxxxxxxxxxxxxx
