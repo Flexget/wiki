@@ -39,12 +39,15 @@ stop on runlevel [016]
 respawn
 respawn limit 5 30
 
+env user=<YOURUSERNAME>
+
 # to find your local run the locale command an example local would be en_US.utf8
-env LANG=<YOUR UTF-8 LOCAL>
-env uid=<USER_TO_RUN_AS>
-env gid=<GROUP_TO_RUN_AS>
-env loglvl=<LOG_LEVEL_FROM LIST BELOW>
+env LANG=<YOUR UTF-8 LOCALE>
+# Automatically fetch uid and gid based on user name
+env uid=$(getent passwd "$user"|cut -d: -f3)
+env gid=$(getent passwd "$user"|cut -d: -f4)
 #log levels none, critical,error, warning, info, verbose, debug, trace
+env loglvl=info
 
 exec start-stop-daemon -S -c $uid:$gid -x /usr/local/bin/flexget -- -L $loglvl daemon start
 }}}
