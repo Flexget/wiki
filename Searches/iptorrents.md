@@ -2,7 +2,7 @@
 This search plugin will get results from [http://iptorrents.com]
 
 == Configuration ==
-Configuration requires rss_key, uid, and pass (uid and pass are found in the cookies):
+Configuration requires rss_key, uid, and pass (see below):
 {{{
 iptorrents: 
   rss_key: xxxxxxxxxxxxxxxxxxxx
@@ -26,3 +26,27 @@ iptorrents:
     - Movie-MP4
     - 22
 }}}
+
+== Location of rss_key,uid, password== 
+
+rss_key can be found under "Passkey" in the IPTorrents account page:[[BR]]
+
+[[Image(http://i.imgur.com/XinVDly.jpg)]]
+
+[[BR]]
+
+Both the uid and the password are located inside the IPtorrent cookie. To view it in the Chrome browser, first navigate to [http://iptorrents.com] and login.
+Open Chrome options -> More Tools -> Developer Tools (Or press Ctrl+Shift+I)[[BR]]
+
+[[Image(http://i.imgur.com/qzlrjA9.jpg)]][[BR]]
+
+Choose 'Resources' in the newly open tab[[BR]]
+
+[[Image(http://i.imgur.com/jNFu4Cq.jpg)]][[BR]]
+
+Navigate to IPTorrens under Cookies, uid and password are listed there.
+[[BR]]
+
+[[Image(http://i.imgur.com/45WW0Ok.jpg)]]
+
+[[BR]]
