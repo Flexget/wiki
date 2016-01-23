@@ -67,6 +67,6 @@ To install the webui dependencies and build from github run the following comman
 {{{
  npm install
  bower update
- gulp buildapp
+ gulp build
 }}}
 
