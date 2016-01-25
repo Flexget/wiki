@@ -108,6 +108,9 @@ transmission:
   password: mypassword
 }}}
 
+
+**NOTE:** with **addpaused** the plugin will pause the torrent after a 5 secs wait, to allow metadata download and content renaming on magnet URIs.
+
 === Transmission Tips ===
 
 After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [wiki:clean_transmission clean_transmission] plugin
