@@ -8,6 +8,7 @@
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Searches/btn btn]||Searches private torrent site BTN||
 ||[wiki:Searches/cpasbien cpasbien]||Generates entries from [http://www.cpasbien.pw/ cpasbien.pw]||
+||[wiki:Searches/divxatope divxatope]||Generates entries from [http://divxatope.com/ divxatope.com]||
 ||[wiki:Searches/flexget_archive flexget_archive]||Searches within previously archived entries||
 ||[wiki:Searches/freshon freshon]||Generates entries from [http://freshon.tv freshon.tv]||
 ||[wiki:Searches/iptorrents iptorrents]||Generates entries from [http://iptorrents.com iptorrents.com]||
