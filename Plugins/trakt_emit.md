@@ -39,5 +39,3 @@ This example shows how the trakt_emit plugin could be used with the [wiki:Plugin
 '''Notes:'''
 
 [http://trakt.tv trakt.tv] will not emit any info for series the user has never marked seen or collected, even if the '''list''' option is used and the actual custom list contains them. However, when this situation occurs, the plugin will emit a default S01E01 episode id, but only with the '''list''' option and '''position'''='''next'''.
-
-If you use trakt_emit with "set_series_begin: yes" and trakt_list+discover (tested on FlexGet v1.2.298), you need to set the option on trakt_list to strip_dates: yes. This is because "Show (2014)" does not equal "Show".
