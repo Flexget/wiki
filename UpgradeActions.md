@@ -8,6 +8,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.2.2 1.2.446 ===
+The markdown option in the [http://flexget.com/wiki/Plugins/send_telegram Telegram plugin] was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [https://core.telegram.org/bots/api#formatting-options Telegram API page for more details]
+
 === Comming soon ===
 '''t411 replace torrent411 for discovering'''
 
