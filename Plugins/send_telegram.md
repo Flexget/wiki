@@ -19,7 +19,7 @@ my-task:
   send_telegram:
     bot_token: token
     template: {{title}}
-    use_markdown: no
+    parse_mode: markdown
     recipients:
       - username: my-user-name
       - group: my-group-name
@@ -46,10 +46,10 @@ need at least one total...).
 == `template` ==
 Optional. The template from the example is the default.
 
-== `use_markdown` ==
-Optional. Whether the template uses markdown formatting. The default is `no`.
+== `parse_mode` ==
+Optional. Whether the template uses `markdown` or `html` formatting. 
 
-NOTE: The markdown parser WILL crash if you have an unmatched amount of _ or * in your message (Underscores in URLs are especially tricky here)
+NOTE: The markdown parser fall back to basic parsing if there is a parsing error. This can be cause due to unclosed tags (watch out for wandering underscore when using markdown)
 
 == `username` vs. `fullname` ==
 
