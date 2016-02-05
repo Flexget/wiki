@@ -49,7 +49,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/anidb_list anidb_list]||Create entries for movies from your AniDB wishlist.||
+||[wiki:Plugins/anidb_list anidb_list]||`UPDATED` Create entries from your AniDB wishlist.||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
 ||[wiki:Plugins/dynamic_imdb dynamic_imdb ]|| `UPDATED` Dynamically produce entries based on an IMDB person, company or character ||
