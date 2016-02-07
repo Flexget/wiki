@@ -10,13 +10,26 @@ discover:
   - emit_movie_queue: yes
   from:
   - torrentz: verified
-movie_queue: yes
+movie_queue: accept
 }}}
 
 You should almost certainly use movie_queue: yes with this, like below.
 
 {{{
 movie_queue: yes
+}}}
+
+=== Queue names ===
+
+If movies were added to [wiki:Plugins/movie_queue movie queue] using a queue name, you emit from that queue by using `queue_name`:
+{{{
+discover:
+  what:
+  - emit_movie_queue:
+      queue_name: a queue name
+  from:
+  - torrentz: verified
+movie_queue: accept
 }}}
 
 === Notes ===
