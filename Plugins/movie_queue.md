@@ -87,7 +87,6 @@ movie_queue:
 
 See [wiki:Qualities qualities] page for valid quality requirements.
 
-
 == Enabling the filter ==
 
 Simply adding movies to queue will not cause them to be downloaded, you will also need to tell !FlexGet which tasks the queue is used on. This is done simply by enabling `movie_queue` on them.
@@ -99,6 +98,18 @@ movie_queue: accept
 Since this will also cause imdb and/or tmdb queries it would be best to use it on feeds where there are only movies.
 
 Movies get moved from queue to the downloaded list when they reach output successfully.
+
+== Using multiple queues ==
+
+Movie queue operations can be used with multiple queues using the `queue_name` parameter:
+{{{
+movie_queue:
+  action: add
+  quality: 720p+ bluray
+  queue_name: any unicode name
+}}}
+
+All movie queue operations support queue names. If no queue name was given, the default queue name is `default`.
 
 == Checking what was downloaded ==
 
