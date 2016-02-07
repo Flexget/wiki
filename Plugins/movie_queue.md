@@ -10,7 +10,7 @@ Manages an internal list of movies with quality information. Allows you to accep
 == Queueing ==
 
 {{{
-flexget movie-queue (add|del|forget|list|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY]
+flexget movie-queue (add|del|forget|list|clear) [NAME|imdb_id=IMDB_ID|tmdb_id=TMDB_ID] [QUALITY] --queue_name [QUEUE_NAME]
 }}}
 
 If no quality is specified, it will add the movie with a quality of ANY. This will take the first matching download, regardless of quality.
@@ -109,7 +109,7 @@ movie_queue:
   queue_name: any unicode name
 }}}
 
-All movie queue operations support queue names. If no queue name was given, the default queue name is `default`.
+All movie queue operations support queue names. If no queue name was given, the default queue name is `default`. `queue_name` is case insensitive
 
 == Checking what was downloaded ==
 
@@ -138,14 +138,14 @@ $ flexget movie-queue clear
 The movie queue can be controlled via the command line interface. 
 
 {{{
-flexget movie-queue <ACTION> [PARAMETERS]
+flexget movie-queue <ACTION> [PARAMETERS] --queue_name [QUEUE_NAME]
 }}}
 
-The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345.
+The following actions are supported. {{{<IDENTIFIER>}}} can be either the title of the movie, imdb id, or for tmdb id. Tmdb id must be in the form tmdb_id=12345. `--queue_name` flag is optional. Default queue named used is `default`. Queue names are case insensitive and can be applied to all operations
 
 ||'''Action'''||'''Parameters'''||'''Description'''||
-||add||<IDENTIFIER> [QUALITY]||Add a movie to the queue.||
-||del||<IDENTIFIER>||Remove a movie from the queue.||
-||forget||<IDENTIFIER>||Mark an already downloaded queue item as wanted again.||
-||list||waiting|downloaded||Lists all waiting/downloaded movies in the queue.||
-||clear||None||Removes all movies from the pending queue.||
+||add||<IDENTIFIER> [QUALITY] --queue_name [QUEUE_NAME]||Add a movie to the queue.||
+||del||<IDENTIFIER> --queue_name [QUEUE_NAME]||Remove a movie from the queue.||
+||forget||<IDENTIFIER> --queue_name [QUEUE_NAME]||Mark an already downloaded queue item as wanted again.||
+||list||waiting|downloaded --queue_name [QUEUE_NAME]||Lists all waiting/downloaded movies in the queue.||
+||clear||--queue_name [QUEUE_NAME]||Removes all movies from the pending queue.||
