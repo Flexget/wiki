@@ -86,7 +86,7 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. listdir, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`UPDATED` Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 
@@ -114,7 +114,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
-||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
+||[wiki:Plugins/movie_queue movie_queue]||`UPDATED` Accept movies from movie queue.||
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
@@ -219,7 +219,7 @@ Send accepted entries to notification services.
 Use accepted entries as an input for various !FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
-||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
+||[wiki:Plugins/movie_queue movie_queue]||`UPDATED` Add movies to movie queue.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 
 === File operations output ===
