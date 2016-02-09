@@ -46,6 +46,15 @@ crossmatch:
 trakt_remove: myopts
 }}}
 
+=== alternate movie queue reimplementation ===
+Rather than have the movie matching logic in the `movie_queue` plugin, make a generic `queue` plugin, and have the list interface define the matches. We then make a movie_list plugin with the list interface, and the contains method on that list will do the movie matching logic (marking a match if any of the known movie ids match.) 
+{{{
+queue:
+  list:
+    - movie_list: options
+}}}
+The idea here is that we could then make e.g. a `regex_list` plugin, which could define its `contains` method rules to return true if the regex of the list item matches given entry.
+
 == Other plugins to operate on generic lists ==
 === list_sync ===
 Syncs a generic list plugin with all accepted entries
