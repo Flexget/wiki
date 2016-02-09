@@ -2,6 +2,8 @@
 Used at task level, it would be an input plugin, and emit all items in its list. Same as something like trakt_list already does
 In addition it would have methods to add and remove from the list. These could be called by another plugin, which allowed a list plugin to be nested inside.
 
+Alternative implementation idea: Rather than implement the different list methods on the plugin itself, have one method which, returns an object following the `collections.MutableSet` interface. (prototype [https://github.com/Flexget/Flexget/commit/0d0d1165bd0575c2ad5431905eee21887a6f891d here])
+
 == Plugins that could implement the list interface ==
 
   trakt_list:: Same as current trakt_list, but combine trakt_add/trakt_remove to fully implement list interface
