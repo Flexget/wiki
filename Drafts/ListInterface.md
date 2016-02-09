@@ -61,7 +61,18 @@ output plugins to add/remove accepted entries from a list
 
 These replace current plugins like trakt_add/trakt_remove, but now you can use this for any of the list plugins, or multiple lists at once.
 
+Example task, do something with items in a trakt list then remove them:
+{{{
+trakt_list: myopts
+accept_all: yes
+# Do something here
+list_remove:
+  - trakt_list: myopts
+}}}
+
 == interface plugins ==
+=== api ===
+Allows a single api endpoint to be written which will support viewing/editing any list plugins.
 === webui ===
 Webui plugins could be made which use these plugins as well, allowing nice interface to manage things like movie queues, series lists separate than
 === cli ===
