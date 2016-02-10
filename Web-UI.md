@@ -20,7 +20,11 @@ UI will be available at [http://flexget_host:5050/ui/]
 
 API will be available at [http://flexget_host:5050/api/]
 
-The default login credentials are flexget with password flexget. You can add, delete, update users using the command line flexget users --help (soon to be available via the ui) 
+
+= Authentication =
+The default login credentials are flexget with password flexget. You can add, delete, update users using the command line flexget users --help (soon to be available via the ui). 
+
+You can also use an authorization header to access the API with the following format: `Authorization: Token <TOKEN>`
 
 '''NOTES:'''
 - You will lose the formatting/order of your config file if you edit it through the web-ui.
