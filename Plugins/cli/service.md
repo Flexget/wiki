@@ -1,4 +1,4 @@
-= Windows Service Installer Helper =
+= Windows Service Installer =
 
 This plugin is not very well tested. Somebody please improve this documentation.
 
