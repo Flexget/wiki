@@ -34,12 +34,6 @@ $ easy_install-2.7 pip
 $ pip install --upgrade pip
 }}}
 
-If using Transmission, you will need to install the `transmissionrpc` package.
-
-{{{
-$ pip install transmissionrpc
-}}}
-
 == Next ==
 
 You're ready to [wiki:InstallWizard/SynologyNAS/FlexGet install FlexGet].
