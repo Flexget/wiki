@@ -1,6 +1,7 @@
 = Windows Service Installer =
 
 This plugin is not very well tested. Somebody please improve this documentation.
+This plugin requires pywin32 to be installed.
 
 Use `flexget service --help` to get the options. Make sure you specify an userame and password when installing the service.
 
