@@ -337,7 +337,11 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 ||[wiki:Plugins/Daemon/scheduler scheduler]||Executes tasks with a given interval or schedule while daemon is running.||
 
-== Command line plugins for `execute` command ==
+== Command Line Interface ==
+
+||[wiki:Plugins/cli/service service]||'''{{{EXPERIMENTAL}}}''' A Windows service installer for the !FlexGet daemon.||
+
+=== `execute` command options ===
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
