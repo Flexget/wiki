@@ -1,7 +1,10 @@
 = Windows Service Installer =
+'''{{{WARNING:}}}''' This plugin is not very well tested. Somebody please improve this documentation.
 
-This plugin is not very well tested. Somebody please improve this documentation.
-This plugin requires pywin32 to be installed.
+This CLI command can be used to install a windows service which runs the !FlexGet daemon.
+
+== Usage ==
+This plugin requires pywin32 to be installed. Download [https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/ here].
 
 Use `flexget service --help` to get the options. Make sure you specify an userame and password when installing the service.
 
