@@ -1,10 +1,10 @@
 = Configuring `upstart` =
 
-!FlexGet should be run in daemon mode. Starting with DSM 5.0, `upstart` is available as part of the Synology OS and is the best way to manage system services.
+!FlexGet should be run in daemon mode. Starting with DSM 5.0, Upstart is available as part of the Synology OS and is the best way to manage system services.
 
 == Modify `/etc/rc.optware` ==
 
-You'll need to modify the file `/etc/rc.optware` so that your system tells `upstart` when your optware (user-installed packages) has loaded. First, create a backup of the existing file in case something bad happens and you need to revert.
+You'll need to modify the file `/etc/rc.optware` so that your system tells Upstart when your optware (user-installed packages) has loaded. First, create a backup of the existing file in case something bad happens and you need to revert.
 
 {{{
 $ cp /etc/rc.optware /etc/rc.optware.bak
@@ -26,7 +26,7 @@ initctl emit optware-ready
 
 If you're using Transmission as your !BitTorrent client, and you installed it according to the [wiki:InstallWizard/SynologyNAS previous instructions], you'll want to use `upstart` to manage the Transmission daemon. If you aren't using Transmission, skip this section.
 
-It is highly recommended that you run the Transmission daemon as a non-root user. Use the Synology web UI to create a new user. This tutorial assumes this user is called `transmission`. The user you create will need write access to wherever you want to download your torr
+It is highly recommended that you run the Transmission daemon as a non-root user. Use the Synology web UI to create a new user. This tutorial assumes this user is called `transmission`. The user you create will need write access to wherever you want your downloaded data to end up.
 
 Next, you'll need to create an `upstart` script to manage the Transmission daemon. Create a file at `/etc/init/transmission-daemon.conf`. Its contents should look like this:
 
@@ -51,7 +51,25 @@ exec /opt/bin/transmission-daemon
 
 If your user is named something besides `transmission`, change the `setuid` line above to whatever name you used.
 
-Transmission creates its config files in the selected user's home folder, in the directory `~/.config/transmission-daemon`. The `settings.json` file contained therein allows you to configure the daemon's options.
+=== Configuring Transmission ===
+
+Transmission creates its config files in the home directory of the user that starts the daemon, at `~/.config/transmission-daemon`. The `settings.json` file contained therein allows you to configure the daemon's options.
+
+If you have never before run Transmission as the `transmission` user, you'll need to do so to create these config files. Having written the script above, you can use Upstart to control Transmission:
+
+{{{
+$ start transmission-daemon
+}}}
+
+Edits you make to Transmission's settings file will only stick if the daemon is not running while you edit the config file. So let it run for a few seconds and then stop it:
+
+{{{
+$ stop transmission-daemon
+}}}
+
+Open `~/.config/transmission-daemon/settings.json` for editing. A full list of options is available on the [https://trac.transmissionbt.com/wiki/EditConfigFiles Transmission Wiki]. In general you can configure Transmission however you want, but you will at least want to set `watch-dir` and change `watch-dir-enabled` to `true`. Unless you have reason to put it somewhere else, the `transmission` user's home directory is a fine place for the watch directory.
+
+With a watch directory set up, having !FlexGet download torrents with Transmission is as simple as downloading the .torrent files to said directory.
 
 == !FlexGet service script ==
 
@@ -84,4 +102,4 @@ Because Synology just can't help being a pain in the ass sometimes, the contents
 
 == That's all, folks ==
 
-The setup above will start !FlexGet in daemon mode automatically whenever your Synology server boots up. Enjoy!
+The setup above will automatically start !FlexGet (and optionally Transmission) in daemon mode whenever your Synology server boots up. Enjoy!
