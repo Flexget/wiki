@@ -135,6 +135,6 @@ Should you wish to use the Deluge plugin, Flexget currently requires Deluge to b
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
 - Deluge is installed in the default install directory <program files>\Deluge
-- !FlexGet is installed with the same Python version Deluge is using (The default Deluge download is 32 bit python 2.6, Deluge for 32 bit python 2.7 can be found [http://download.deluge-torrent.org/windows/py2.7/ here])
+- !FlexGet is installed with the same Python version Deluge is using (The default Deluge download is 32 bit python 2.6, Deluge for 32 bit python 2.7 is recommended, (along with a python 2.7 system install,) and can be found [http://download.deluge-torrent.org/windows/py2.7/ here])
 
 You can ignore messages about disconnecting from the daemon in a 'non-clean' fashion. This is normal on Windows.
