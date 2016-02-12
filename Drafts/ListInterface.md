@@ -10,7 +10,8 @@ Alternative implementation idea: Rather than implement the different list method
   letterboxd_list:: Same as above
   entry_list:: New plugin, stores generic entries in db (I think this with the list_add, list_remove plugins below might replace digest plugin functionality as well)
   movie_list:: New plugin, stores movies in the database, perhaps a subclass of entry_list that enforces some extra rules regarding fields
-  series_list:: New plugin, stores series in the database (also useful if you want to maintain series list for configure_series without depending on online service)
+  series_list:: New plugin, stores series in the database (also useful if you want to maintain series list for configure_series without depending on online service) (maybe entry_list is good enough for this?)
+  regex_list:: New plugin, determines matches based on field regexes. Could be used in list_queue to work like regexp plugin, but for things you just want to get once.
 
 (imdb_list couldn't implement the list interface though, since we can't programmatically add/remove.)
 
