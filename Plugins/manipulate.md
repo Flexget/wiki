@@ -17,7 +17,7 @@ manipulate:
       [remove]: <boolean>
 }}}
 
-Valid values for event are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
+Valid values for phase are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
 
 To see what results your configuration has, use [wiki:Plugins/--dump --dump] plugin to display all entries after execution.
 
