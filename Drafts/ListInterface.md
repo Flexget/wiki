@@ -89,3 +89,61 @@ Allows a single api endpoint to be written which will support viewing/editing an
 Webui plugins could be made which use these plugins as well, allowing nice interface to manage things like movie queues, series lists separate than
 === cli ===
 Ideally every list plugin wouldn't have to write their own cli interface. Not exactly sure how this would be implemented though, as where would you write the config for the different list pluigns.
+
+== Examples == 
+
+{{{
+tasks:
+  cp_list_to_entry_list:
+    couchpotato_list:
+      base_url: '{{ secrets.credentials.couchpotato.url }}'
+      port: 5050
+      api_key: '{{ secrets.credentials.couchpotato.api_key }}'
+      include_data: yes
+    accept_all: yes
+    list_add:
+      - entry_list: test_queue
+
+  list_queue:
+    rss:
+      url: '{{ secrets.urls.fuzer_tv }}'
+    list_queue:
+      - entry_list: test_queue
+    download: c:\
+
+  remove_from_entry_list_with_cp_as_input:
+    couchpotato_list:
+      base_url: '{{ secrets.credentials.couchpotato.url }}'
+      port: 5050
+      api_key: '{{ secrets.credentials.couchpotato.api_key }}'
+      include_data: yes
+    accept_all: yes
+    list_remove:
+      - entry_list: test_queue
+
+  remove_from_cp:
+    mock:
+      - {title: 'zoolander 2'}
+      - {title: 'ip man 3'}
+    accept_all: yes
+    list_remove:
+      - couchpotato_list:
+          base_url: '{{ secrets.credentials.couchpotato.url }}'
+          port: 5050
+          api_key: '{{ secrets.credentials.couchpotato.api_key }}'
+          include_data: yes
+
+  cp_to_trakt:
+    couchpotato_list:
+      base_url: '{{ secrets.credentials.couchpotato.url }}'
+      port: 5050
+      api_key: '{{ secrets.credentials.couchpotato.api_key }}'
+      include_data: yes
+    accept_all: yes
+    list_add:
+      - trakt_list:
+          username: '{{ secrets.credentials.trakt.username }}'
+          account: '{{ secrets.credentials.trakt.account }}'
+          list: movies from cp
+          type: movies
+}}}
