@@ -33,3 +33,4 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/Jonybat/flexget_config jonybat] (v1.2.343)
 * [https://github.com/nikdoof/flexget-config nikdoof] (v1.2)
 * [wiki:Cookbook/Users/Tommynator Tommynator] (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
+* [wiki:Cookbook/Users/Systy Systy] (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
