@@ -13,6 +13,9 @@ The `listdir` and `find` plugins (which have been deprecated for a while) have n
 
 Deluge 1.1 support has been removed from the deluge plugin.
 
+=== 2016.2.18 1.2.455 ===
+The `urlrewrite_redirect` plugin, which previously rewrite all accepted entries' urls to any url they redirected to has been disabled by default. If you need this behavior, you must add `redirect_url: yes` to your task.
+
 === 2016.2.2 1.2.446 ===
 The markdown option in the [http://flexget.com/wiki/Plugins/send_telegram Telegram plugin] was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [https://core.telegram.org/bots/api#formatting-options Telegram API page for more details]. Also, the minimal required version of `python-telegram-bot` is `3.2.0`. Upgrade using `pip install python-telegram-bot --upgrade`.
 
