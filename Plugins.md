@@ -339,10 +339,14 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 == Command Line Interface ==
 
+Use `flexget --help` for full list of subcommands. `--help` can also be used with any of the subcommands for further help text.
+
 ||[wiki:Plugins/cli/inject inject]||Inject entries into tasks from the CLI.||
 ||[wiki:Plugins/cli/service service]||'''{{{EXPERIMENTAL}}}''' A Windows service installer for the !FlexGet daemon.||
 
 === `execute` command options ===
+
+Use `flexget execute --help` for full option list.
 
 ||[wiki:Plugins/--cli-config --cli-config]||Allow using values from commandline in YML-configuration file.||
 ||[wiki:Plugins/--dump --dump]||Display all entries after task execution.||
