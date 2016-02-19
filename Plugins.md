@@ -339,6 +339,7 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 
 == Command Line Interface ==
 
+||[wiki:Plugins/cli/inject inject]||Inject entries into tasks from the CLI.||
 ||[wiki:Plugins/cli/service service]||'''{{{EXPERIMENTAL}}}''' A Windows service installer for the !FlexGet daemon.||
 
 === `execute` command options ===
@@ -348,22 +349,6 @@ These plugins are specifically for when !FlexGet is being used in daemon mode. T
 ||[wiki:Plugins/--tasks --tasks]||Executes only the specified task(s)||
 ||[wiki:Plugins/--inject --inject]||Injects custom entry into task(s).||
 ||[wiki:Plugins/try_regexp --try-regexp]||Test how regexps work on task(s) interactively.||
-
-=== `inject` command ===
-
-This command can inject an entry. It expects to be passed a title or a URL, or both. If only a URL is passed, Flexget attempts to find a suitable title from the response headers when that URL is requested. If even after this no title was found, the command will abort.
-
-Example, passing both title and URL (for example if the remote server doesn't return a filename in its response headers): `flexget inject "your.tv.show.s01e01.720p.web-dl.mkv" "http://example.com/torrents.php?id=33"`
-
-Example, passing only a URL: `flexget inject "http://example.com/torrents.php?id=33"` -- this will fail if no title can be determined.
-
-Arguments for the `execute` command can be appended, for example to tell a particular task to run with the injected entry. Example: `flexget --test inject "http://example.com/your.tv.show.s01e01.torrent" --tasks yourtask --dump`.
-
-||`--force`||Prevent any plugins from rejecting this entry||
-||`--accept`||Accept this entry immediately upon injection||
-||`--fields NAME=VALUE [NAME=VALUE ...]`||Fields to explicitly populate on the injected entry||
-
-See `flexget inject --help` for full details, and see also [wiki:Plugins/--inject execute's --inject option].
 
 == Third-party plugin ==
 
