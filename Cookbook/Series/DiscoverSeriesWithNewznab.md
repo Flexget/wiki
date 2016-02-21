@@ -13,6 +13,8 @@ To configure the newznab episodes you need to provide :
 
 {{{
 tvsearch:
+  domain_delay:
+    www.xxxxxx.com: 3 seconds
   series:
      720p+:
         - Your lovely show 1
@@ -25,7 +27,6 @@ tvsearch:
            website: "http://www.xxxxxx.com/"
            apikey: "xxxxxxxxxxxxxxxxxxxxxxxxxx"
            category: tv
-           wait: 3 seconds
   sabnzbd:
 
 }}}
