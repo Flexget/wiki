@@ -1,7 +1,13 @@
 {{{
 #!html
-<h2 style="text-align: left; color: #000">Join <a href="https://gitter.im/Flexget/Flexget">FlexGet @ Gitter</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
+<h2 style="text-align: left; color: #000">Chat and Support</h2>
 }}}
+
+Join us for chat and discussions via [https://gitter.im/Flexget/Flexget" FlexGet @ Gitter] or [http://webchat.freenode.net/?channels=#flexget FlexGet @ Freenode]
+
+For support and help use the [http://discuss.flexget.com Flexget Forums]
+
+For bugs open a [https://github.com/Flexget/Flexget/issues Github Issue]
 
 '''{{{ATTENTION:}}}'''
 
