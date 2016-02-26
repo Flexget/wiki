@@ -4,7 +4,7 @@ Make a new markdown based changelog generator, which will eventually automatical
 
 {{{
 # FlexGet Change Log
-## Unreleased Changes
+## Unreleased Changes 1.2.3235
 <-- begin:aab4b4ab4this_is_the_last_git_hash_processed -->
 ### Features
 * blah
@@ -28,7 +28,8 @@ category tags: (these should sort into sections)
 * deprecate
 optional tags: (these would remain in the commit message, just to clarify them)
 * plugin_name: use the plugin name if message is ambiguous
-
+special tag:
+* action: This means a config upgrade action is needed. The generator should add a stub to the upgrade actions wiki page, and a link from the changelog item. The wiki pages can then be manually augmented as needed.
 
 == Ticket References ==
 Ticket references should be at the end of the commit message, references are to github issue numbers. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket) Changelog generator should turn these into markdown links.
