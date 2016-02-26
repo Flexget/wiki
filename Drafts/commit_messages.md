@@ -5,13 +5,13 @@ Make a new markdown based changelog generator, which will eventually automatical
 {{{
 # FlexGet Change Log
 <-- begin:aab4b4ab4this_is_the_last_git_hash_processed -->
-## Unreleased Changes 1.2.3235
+## Version 1.2.3235 (Unreleased)
 ### Features
 * blah
 ### Bug Fixes
 * blah blah
 <-- end -->
-## Version 1.2.3234
+## Version 1.2.3234 (2016-2-20)
 ...
 }}}
 
