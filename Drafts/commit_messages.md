@@ -1,30 +1,40 @@
-= Standardized commit messages =
+= New Changelog Generator =
 
-Idea would be to tag commits consistently, so that we can improve our changelog generator to be a little more user friendly.
+Make a new markdown based changelog generator, which will eventually automatically commit to wiki git repo (when we implement that.) The changelog can also be manually fixed/edited/updated from the wiki. The generator would add messages from all commits which start with a valid bracket tag. Include comments in the changelog, which the generator uses to insert new content. It stores the last processed git commit in one of these comments to know where to continue from when run again. New tagged commits will be sorted into their section in between the comments (sections created if needed.) When generator finds a tagged release, it moves the contents between the comments below the end comment, then adds a tag for the release number. Example:
 
-Changelog generator will show all commits directly to develop, and merge commits when other branches (PRs) are merged in.[[BR]]
-This means all commits directly to develop should follow this format, and when merging PRs, the message should be changed to comply when merging (this becomes the second line of the merge commit message.)[[BR]]
-Any feature branches should be merged into develop (not the other way around) and should not allow a fast forward, in order that we can make format the message for the merge commit properly.[[BR]]
-If this sounds like git magic, submitting a pr is an easier way, as it will ensure the merge goes the right direction, and gives you a chance to edit the merge commit message before merging.[[BR]]
+{{{
+# FlexGet Change Log
+## Unreleased Changes
+<-- begin:aab4b4ab4this_is_the_last_git_hash_processed -->
+### Features
+* blah
+### Bug Fixes
+* blah blah
+<-- end -->
+## Version 1.2.3234
+...
+}}}
 
 
 == Bracket Tags ==
 
 Start each commit with one or more tags in brackets, to split changelog into categories.
 
-tag ideas:
+category tags: (these should sort into sections)
 * fix: fixes a bug
-* feature: new feature added
-* refactor: core code changes and/or updates
+* add: new feature added
+* change: change in existing functionality
+* remove
+* deprecate
+optional tags: (these would remain in the commit message, just to clarify them)
 * plugin_name: use the plugin name if message is ambiguous
-* dev: hide commit from user changelog (use as first tag)?
 
 
 == Ticket References ==
-Ticket references should be at the end of the commit message, references are to github issue numbers. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket)
+Ticket references should be at the end of the commit message, references are to github issue numbers. `fix #123` (to close ticket when merged), `ref #123` (to put a message in ticket) Changelog generator should turn these into markdown links.
 
 == Examples ==
 
 * `[fix] Rss plugin doesn't crash with invalid urls. fix #123`
 * `[fix] [pushover] Always sets defaults for all fields. fix #123`
-* `[dev] [refactor] Move dependency requirement comments inline with dependencies.`
+* `Move dependency requirement comments inline with dependencies.`
