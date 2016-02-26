@@ -1,6 +1,6 @@
 {{{
 #!html
-<h2 style="text-align: left; color: #000">Join <a href="http://webchat.freenode.net/?channels=#flexget">#FlexGet @ Freenode</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
+<h2 style="text-align: left; color: #000">Join <a href="https://gitter.im/Flexget/Flexget">FlexGet @ Gitter</a> or the <a href="http://discuss.flexget.com">forum</a> for discussion and support</font></h2>
 }}}
 
 '''{{{ATTENTION:}}}'''
