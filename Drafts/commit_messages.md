@@ -4,8 +4,8 @@ Make a new markdown based changelog generator, which will eventually automatical
 
 {{{
 # FlexGet Change Log
-## Unreleased Changes 1.2.3235
 <-- begin:aab4b4ab4this_is_the_last_git_hash_processed -->
+## Unreleased Changes 1.2.3235
 ### Features
 * blah
 ### Bug Fixes
