@@ -3,7 +3,7 @@
 <h2 style="text-align: left; color: #000">Chat and Support</h2>
 }}}
 
-Join us for chat and discussions via [https://gitter.im/Flexget/Flexget" FlexGet @ Gitter] or [http://webchat.freenode.net/?channels=#flexget FlexGet @ Freenode]
+Join us for chat and discussions via [https://gitter.im/Flexget/Flexget FlexGet @ Gitter] or [http://webchat.freenode.net/?channels=#flexget FlexGet @ Freenode]
 
 For support and help use the [http://discuss.flexget.com Flexget Forums]
 
