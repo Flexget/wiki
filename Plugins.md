@@ -213,6 +213,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushbullet pushbullet]||Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension).||
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 ||[wiki:Plugins/sns sns]||Send SNS notifications.||
+||[wiki:Plugins/slack slack]||Send Slack channel notifications.||
 
 === !FlexGet internal output ===
 
