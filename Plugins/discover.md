@@ -12,7 +12,7 @@ discover:
     - <search plugin>
   [limit]: <max results from each search engine>
   [interval]: <time between trying each search again. Default is 5 hours>
-  [ignore_estimations]: <if yes, no release date checking is tried. Default is no>
+  [release_estimations]: <Can be `auto`, `strict` or `ignore`. If set to `ignore`, no release date checking will be attempted. If set to `strict`, will reject all episodes without air dates. Default is `auto`, which will check all episodes for air dates, but won't reject those with missing air dates. >
 }}}
 
 An overview of available search plugins can be found [wiki:Searches here]. For a list of installed search plugins run "flexget --search-plugins" (`flexget plugins --group search` on Flexget>=1.2) from the cli.
