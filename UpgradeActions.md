@@ -8,6 +8,9 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.2.29 1.2.464 ===
+The `ignore_estimations` option in the [http://flexget.com/wiki/Plugins/discover Discover] plugin was changed and now it should be used as `release_estimations`. See plugin page for further information.
+
 === 2016.2.18 1.2.455 ===
 The `urlrewrite_redirect` plugin, which previously rewrite all accepted entries' urls to any url they redirected to has been disabled by default. If you need this behavior, you must add `redirect_url: yes` to your task.
 
