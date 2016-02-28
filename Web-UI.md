@@ -1,64 +1,60 @@
 = Web UI =
 
-'''We need your help! If are an AngularJS developer or can help with the layout/design/css then please join in the effort! '''
+'''We need your help! If are an AngularJS developer or can help with the layout/design/css then please join in the effort! (See Development Section Below) '''
 
-Development has started on a web interface for managing flexget.
-
-Add the following to your config.yml
+Development has started on a web interface for managing flexget. To enable add the following to your config.yml
 
 {{{
 web_server:
   bind: 0.0.0.0
-  port: 5050
+  port: 3539
 api: yes
 webui: yes
 }}}
 
-Start flexget in daemon mode to start the web server, for more details [http://flexget.com/wiki/Daemon]
+Set a password and start flexget in daemon mode to start the web server.
 
-UI will be available at [http://flexget_host:5050/ui/]
+{{{
+flexget web passwd <some_password>
+flexget daemon start --daemonize
+}}}
 
-API will be available at [http://flexget_host:5050/api/]
+Flexget UI will be available at http://flexget_ip:3539/ui/
+
+Full API documentation will be available at http://flexget_ip:3539/api/
 
 
 = Authentication =
-The default login credentials are flexget with password flexget. You can add, delete, update users using the command line flexget users --help (soon to be available via the ui). 
+The login username is flexget and the password is what you set above.
 
 You can also use an authorization header to access the API with the following format: `Authorization: Token <TOKEN>`
 
+You can view the API token using the following commands
+
+{{{
+# View token
+flexget web showtoken
+
+# Generate new token
+flexget web gentoken
+}}}
+
 '''NOTES:'''
 - You will lose the formatting/order of your config file if you edit it through the web-ui.
-- The UI communicates with Flexget via the API. Browse to [http://flexget_host:5050/api/] for the documentation
+- The UI communicates with Flexget via the API. Browse to http://flexget_ip:3539/api/ for the documentation
 
 
-'''Plugins:'''
+= Development =
 
-The web interface uses AngularJS with a pluggable architecture. Each plugin requires a plugin.json with a name a version set as a minimum. See examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins]
-[[BR]]
-[[BR]]
+We have a functional API with documentation available at http://flexget_ip:3539/api/.
 
+The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat at gitter [https://gitter.im/Flexget/Flexget]
 
-Join our irc-channel to participate in the project! The technology stack behind the webui is angularJS.
-Here are a couple of drafts for things we would like to work on in the webui:
-- Drafts/ConfigEditor A fully featured editor for config files.
-- Drafts/RecipeRepository A simpler system to set up config by picking a template and filling in key values.
+To get started you will first need to setup your environment from Git.
 
-'''TODO:'''
+'''Setup from Git'''
 
-- Bind to interface vs ip
-- Authorization system 
-- Store users in database
-- Store sessions in database (so remember me works after restart of flexget)
-- Manage users/passwords via UI
-- Build plugin history
-- Build plugin execute
-- update plugin log, make more user friendly
-- Build plugin scheduler
-- Build plugin tasks
-
-'''Using GIT Version'''
-
-Firstly, you will need NPM [https://nodejs.org/en/]
+You will need to install NPM [https://nodejs.org/en/]
 
 Install bower and gulp (as root)
 {{{
@@ -66,11 +62,39 @@ Install bower and gulp (as root)
  npm install -g gulp
 }}}
 
-To install the webui dependencies and build from github run the following commands under the <github>/flexget/ui folder.
+Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder.
 
 {{{
  npm install
  bower update
  gulp build
 }}}
+
+Running `gulp build` will compile all the ui files.
+
+'''Running from Git'''
+
+The UI communicates to the flexget daemon using the API. When starting the daemon it will make the ui available via http://flexget_ip:3539/ui/.
+
+The daemon will load the compiled UI files if you are NOT in debug mode. To enable debug mode run
+
+{{{
+flexget -L debug daemon start
+}}}
+
+''' Plugin development from Git'''
+
+For plugin development see examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins] and also feel free to chat with us on gitter [https://gitter.im/Flexget/Flexget]
+
+To make development easy we are using browserify so when you change a file it will be automatically refreshed on your browser. To get this working you will need to start the flexget daemon (as above). Then you can run
+
+{{{
+#option 1: run ui using local flexget daemon
+gulp serve
+
+#option 2: run UI against a different flexget server
+gulp serve --server <flexget_api:port>
+}}}
+
+
 
