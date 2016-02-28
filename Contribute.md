@@ -11,7 +11,7 @@ For code submissions we accept (in order of preference):
 If you really want to make us happy, make sure your changes pass PEP8 guidelines. We have task for checking them. You can run it via
 
 {{{
-bin/paver pep8
+bin/flake8
 }}}
 
 Any & additional unit tests are also huge bonus.
