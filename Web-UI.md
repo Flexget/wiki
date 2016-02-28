@@ -25,7 +25,7 @@ Full API documentation will be available at http://flexget_ip:3539/api/
 
 
 = Authentication =
-The login username is flexget and the password is what you set above.
+The login username is `flexget` and the password is what you set above.
 
 You can also use an authorization header to access the API with the following format: `Authorization: Token <TOKEN>`
 
