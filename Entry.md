@@ -157,6 +157,12 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||tvmaze_episode_number||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode number.||
 ||tvmaze_episode_id||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Episode's TVMaze ID.||
 ||tvmaze_episode_airstamp||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Date and Time Episode aired||
-||tvmaze_series_actors||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||A list of the cast of the show.
+||tvmaze_series_actors||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||A list of the cast of the show.||
+||uoccin_collected||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or the episode is marked as collected||
+||uoccin_rating||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series assigned rating (as set in the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app)||
+||uoccin_subtitles||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or episode downloaded subtitles||
+||uoccin_tags||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series assigned tags (by [wiki:Plugins/uoccin_watchlist_add uoccin_watchlist_add] or in the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app)||
+||uoccin_watched||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or the episode is marked as watched||
+||uoccin_watchlist||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series is in the watchlist||
 
 ^* = and other plugins that utilize this plugin^
