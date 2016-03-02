@@ -10,6 +10,24 @@ You may not want entries seen on some tasks to affect other tasks. Seen plugin c
 seen: local
 }}}
 
+== Using custom fields ==
+By default, `seen` plugin will filter entries based on that following fields: `title`, `url` & `original_url`. You can choose to override this by using the plugin as such:
+{{{
+seen:
+  fields:
+    - url
+    - title
+    - any other field name
+}}}
+
+You can use any field you want to filter, as long as at least one field is supplied. This feature was built in order to succesfully accept entries that have different urls but share the same `original_url`. Can be used as such:
+{{{
+seen:
+  local: yes
+  fields: [title, url]
+}}}
+Using this will disregard the `original_url` attribute. 
+
 == Commanline options ==
 
 Plugin has few command line options. See also CLI help for syntax info. (`flexget seen --help`)
