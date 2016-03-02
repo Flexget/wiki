@@ -78,6 +78,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
 ||[wiki:Plugins/sonarr sonarr]||`UPDATED` Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
+||[wiki:Plugins/uoccin_emit uoccin_emit ]||`NEW` Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
 
 === Internal Input ===
 
@@ -187,6 +188,13 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/subliminal subliminal]||Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
+||[wiki:Plugins/uoccin_collection uoccin_collection_add]||`NEW` Mark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_collection uoccin_collection_remove]||`NEW` Unmark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watched uoccin_watched_true]||`NEW` Mark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watched uoccin_watched_false]||`NEW` Unmark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_add]||`NEW` Add all the accepted movies/series in the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_remove]||`NEW` Remove all the accepted movies/series from the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_subtitles uoccin_subtitles]||`NEW` Update the list of subtitles downloaded for the accepted movies/series in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 
 === 3rd party sites output ===
 
@@ -257,6 +265,7 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable http://trakt.tv/ parsing for trakt fields on-demand.||
 ||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Enable http://tvmaze.com/ parsing for tvmaze fields on-demand.||
 ||[wiki:Plugins/check_subtitles check_subtitles]^1||Check subtitles presence for local files.||
+||[wiki:Plugins/uoccin_lookup uoccin_lookup]||`NEW` Fetch all the supported information from the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 ^1. Not a builtin, configuration required to enable.^
 
 == Modification plugins ==
@@ -327,6 +336,7 @@ Perform operations on 3rd part software.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
+||[wiki:Plugins/uoccin_reader uoccin_reader]||`NEW` Synchronize a [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 
 == Search ==
 
