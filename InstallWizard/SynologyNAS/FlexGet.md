@@ -6,7 +6,7 @@
 $ pip install flexget
 }}}
 
-`pip` installs !FlexGet to `/opt/local/bin/flexget`. If `/opt/local/bin` isn't in your `PATH`, you should add it.
+`pip` installs !FlexGet to `/opt/bin/flexget`. `/opt/bin` should be in your path if you followed the instructions correctly when you installed `opkg`.
 
 == Verify installation ==
 
@@ -20,7 +20,7 @@ You are on the latest release.
 
 == Configuration ==
 
-Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly. The SQLite database file will get created in the same directory as the configuration file, so make sure the user executing !FlexGet has write access to that path.
+Before you can run !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly. !FlexGet stores a number of files in the same directory as its config file so make sure the user that will be executing !FlexGet can write to the appropriate path.
 
 == Next ==
 
