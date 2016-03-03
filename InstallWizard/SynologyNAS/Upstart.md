@@ -70,7 +70,7 @@ With a watch directory set up, having !FlexGet download torrents with Transmissi
 
 == !FlexGet service script ==
 
-Create an Upstart script to manage the !FlexGet daemon. Create a file at `/etc/init/flexget.conf`. Its contents should look like this:
+Create an Upstart script to manage the !FlexGet daemon at `/etc/init/flexget.conf`. Its contents should look like this:
 
 {{{
 description "FlexGet"
