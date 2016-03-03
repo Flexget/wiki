@@ -1,37 +1,28 @@
 = As a Python package =
 This is the recommended method as it mirrors how you would install !FlexGet on just about any other system. You will need to be logged into the Synology NAS as root to install packages.
 
-== `ipkg` ==
+== `opkg` ==
 
-The first step is to install `ipkg`, a package manager for Synology (and other systems). Follow the instructions at:
+The first step is to install `opkg`, the best package manager around for embedded systems like your NAS. Follow the instructions at:
 
-[http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc]
+[https://github.com/Entware-ng/Entware-ng/wiki/Install-on-Synology-NAS]
 
 == System dependencies ==
 
-You'll need to install Python 2.7, setuptools, and sqlite. setuptools includes `easy_install`, which we will use to install `pip`. sqlite is required by !FlexGet.
+You'll need to install Python and pip:
 
 {{{
-$ ipkg install python27
-$ ipkg install py27-setuptools
-$ ipkg install sqlite
+$ opkg install python
+$ opkg install python-pip
 }}}
 
 == Transmission ==
 
-It is highly recommended that you use the Transmission !BitTorrent client instead of the built-in client. Transmission can also be installed via `ipkg`.
+It is highly recommended that you use the Transmission !BitTorrent client instead of the built-in client. Transmission can also be installed via `opkg`.
 
 {{{
-$ ipkg install transmission
-}}}
-
-== `pip` ==
-
-Use `easy_install` to install `pip`, which is a much more user-friendly Python package manager. `easy_install` installs `pip` into `/opt/local/bin`, so add that to your `PATH` variable if it is not already present. Once installed, update use `pip` to update itself the latest version.
-
-{{{
-$ easy_install-2.7 pip
-$ pip install --upgrade pip
+$ opkg install transmission-daemon
+$ opkg install transmission-web
 }}}
 
 == Next ==
