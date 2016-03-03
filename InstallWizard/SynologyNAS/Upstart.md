@@ -1,4 +1,4 @@
-= Configuring `upstart` =
+= Configuring Upstart =
 
 Starting with DSM 5.0, Upstart is available as part of the Synology OS and is the best way to manage system services. You want to run !FlexGet in daemon mode, and we'll use Upstart to make sure the daemon starts up and shuts down when it should.
 
