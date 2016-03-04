@@ -3,7 +3,7 @@
 Downloads content from entry URL and loads it into the [http://deluge-torrent.org deluge] bittorrent client.
 
 '''{{{Requirements:}}}'''
-Supports Deluge 1.1, 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
+Supports Deluge 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [http://dev.deluge-torrent.org/wiki/UserGuide/Authentication auth] file.
 
 If you are installing to a virtualenv, you have to create the virtualenv with the {{{--system-site-packages}}} option. This also applies to an SVN install when running bootstrap.py.
 
@@ -135,6 +135,6 @@ Should you wish to use the Deluge plugin, Flexget currently requires Deluge to b
 
 As of r2297 !FlexGet should be able to detect Deluge in its install directory if:
 - Deluge is installed in the default install directory <program files>\Deluge
-- !FlexGet is installed with the same Python version Deluge is using (The default Deluge download is 32 bit python 2.6, Deluge for 32 bit python 2.7 is recommended, (along with a 32 bit python 2.7 system install,) and can be found [http://download.deluge-torrent.org/windows/py2.7/ here])
+- !FlexGet and Deluge are installed with 32 bit Python 2.7 (The default Deluge download is 32 bit python 2.6, Deluge for 32 bit python 2.7 is required, (along with a 32 bit python 2.7 system install,) and can be found [http://download.deluge-torrent.org/windows/py2.7/ here])
 
 You can ignore messages about disconnecting from the daemon in a 'non-clean' fashion. This is normal on Windows.
