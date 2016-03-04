@@ -6,7 +6,12 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 == Instructions ==
 
+
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
+
+=== 2016.3.5 1.2.471 ===
+
+Python 2.6 is no longer being supported by !FlexGet. Support for python 2.6 itself ended October 2013, and it is no longer receiving even security updates. You should upgrade to python 2.7 if you have not done so already.
 
 === 2016.2.29 1.2.464 ===
 The `ignore_estimations` option in the [http://flexget.com/wiki/Plugins/discover Discover] plugin was changed and now it should be used as `release_estimations`. See plugin page for further information. If you did not use that option, no action is needed.
