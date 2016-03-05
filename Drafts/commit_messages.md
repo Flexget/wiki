@@ -1,5 +1,7 @@
 = New Changelog Generator =
 
+A proof of concept implementation and example output is here: https://gist.github.com/gazpachoking/2f9c9ba49baede94b3f6
+
 Make a new markdown based changelog generator, which will eventually automatically commit to wiki git repo (when we implement that.) The changelog can also be manually fixed/edited/updated from the wiki. The generator would add messages from all commits which start with a valid bracket tag. Include comments in the changelog, which the generator uses to insert new content. It stores the last processed git commit in one of these comments to know where to continue from when run again. New tagged commits will be sorted into their section in between the comments (sections created if needed.) When generator finds a tagged release, it moves the contents between the comments below the end comment, then adds a tag for the release number. Example:
 
 {{{
