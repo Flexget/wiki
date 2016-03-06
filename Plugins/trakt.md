@@ -10,11 +10,11 @@ Call the trakt CLI command with `flexget trakt` and one of the following subcomm
 
 === auth ===
 
-Takes two arguments, `account` and `pin`. You can generate an account specific pin by visiting http://trakt.tv/pin/346. Once you have generated this pin, you can authorize Flexget to access your Trakt.tv account by issuing the command
+Takes one argument, `account`. This will be the account name you use in the trakt plugin configs. This will give you a url and code to type in to that page in order to authorize your account, and will wait for you to do so before storing the authorization.
 
-`flexget trakt auth <account> <pin>`. This command generates an `access_token`, which grants Flexget access to your Trakt.tv account. An `access_token` is valid for 3 months after which Flexget will automatically generate a new `access_token`.
+`flexget trakt auth <account>`. This command generates an `access_token`, which grants Flexget access to your Trakt.tv account. An `access_token` is valid for 3 months after which Flexget will automatically generate a new `access_token`.
 
-If something should go wrong, you can issue visit http://trakt.tv/pin/346 to generate a new pin code and reissue the authorization command listed above to generate a new `access_token`.
+If something should go wrong, you can run the command again and update your authorization.
 
 '''We strongly recommend that you use your Trakt.tv username as `account` name to avoid confusion down the line.'''
 
