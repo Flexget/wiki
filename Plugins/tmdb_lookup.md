@@ -25,6 +25,5 @@ tmdb_lookup: yes
 ||tmdb_budget||
 ||tmdb_revenue||
 ||tmdb_homepage||
-||tmdb_trailer||
 ||movie_name||
 ||movie_year||
