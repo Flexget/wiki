@@ -161,7 +161,7 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||uoccin_collected||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or the episode is marked as collected||
 ||uoccin_rating||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series assigned rating (as set in the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app)||
 ||uoccin_subtitles||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or episode downloaded subtitles||
-||uoccin_tags||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series assigned tags (by [wiki:Plugins/uoccin_watchlist_add uoccin_watchlist_add] or in the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app)||
+||uoccin_tags||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series assigned tags (by [wiki:Plugins/uoccin_watchlist uoccin_watchlist_add] or in the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app)||
 ||uoccin_watched||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or the episode is marked as watched||
 ||uoccin_watchlist||[wiki:Plugins/uoccin_lookup uoccin_lookup]||The movie or series is in the watchlist||
 
