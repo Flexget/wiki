@@ -1,9 +1,8 @@
 Exemple de fichier de configuration pour le téléchargement des séries en VOSTFR et HD depuis T411, films avec IMDB en VOSTFR et HD avec le logiciel Deluged.
--Une partie VOSTFR/HD des séries pour récupérer les derniers épisodes.
--Une partie VOSTFR/HD des séries animés pour récupérer les derniers épisodes.
--Une partie VF/HD des séries animés pour récupérer les derniers épisodes.
--Une partie VOSTFR/HD des séries pour récupérer la série depuis l'épisode S01E01 (pour commencer une nouvelle série).
--Une partie VOSTFR/HD pour les films récupérer depuis la watchlist personnaliser de l'utilsateur sur IMDB.
+-Une partie Série TV qui récupère les séries en VOSTFR à partir du dernier épisode en date, ou depuis un épisode précis.
+-Une partie Série Animation qui récupère les séries en VOSTFR depuis un épisode précis.
+-Une partie Série Animation qui récupère les séries en VOSTFR à partir du dernier épisode en date.
+-Une partie Films qui récupère la liste de notre Watchlist depuis IMDB puis fait une recherche en VOSTFR, 1080 ou 720.
 
 Chaque partie à son renommage de fichiers de la forme (NomSerie - SXXEXX - Qualité).
 Chaque partie déplace les fichiers terminés dans un dossier de la forme (VotreChemin/NomSerie/SXX/).
