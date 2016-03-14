@@ -22,126 +22,139 @@ Each party moves files ending in a shape file (VotreChemin/TvShowsName/SXX/).
 The movie part move the finish file in to a folder.
 
 {{{
-#Envois de mail lors de l'ajout d'un DL
-#Sending mail when dl start
-email:
-  from: XxX.XxX@gmail.com
+#Envois de mail lorsqu'un fichier est téléchargé
+﻿email:
+  from: xx.xx@gmail.com
   to:
-   - XxX.XxX@gmail.com
+   - xx.xx@gmail.com
   subject: Flexget
   smtp_host: smtp.gmail.com
   smtp_port: 587
   smtp_tls: yes
-  smtp_username: XxX.XxX@gmail.com
-  smtp_password: XxX
+  smtp_username: xx.xx@gmail.com
+  smtp_password: xx
 
 templates:
   t411:
     plugin_priority:
       headers: 250
-    headers:
-      User-Agent: "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0"
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-      Accept-Charset: "ISO-8859-1,utf-8;q=0.7,*;q=0.3"
-      Accept-Language: "fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"
-      Cache-Control: "max-age=0"
-      Connection: "keep-alive"
-      Cookie: "uid=XxX; pass=XxX; authKey=XxX"
 
 # DL des series VOSTFR en HD
-#DL tv shows VOSTFR in HD
   
   tv-my_shows:
     template:
       - t411
     series:
-      - Anger Management
-      - Better Call Saul
-      - Community
-      - Cougar Town
-      - Game Of Thrones
-      - House Of Cards
-      - Homeland
-      - Mad Men
-      - Modern Family
-      - Orange Is The New Black
-      - Silicon valley
-      - The Americans
-      - The Big Bang Theory
-#      - The League
-      - The Last Man On Earth
-      - The Strain
-      - The Walking Dead
-      - True Detective
-      - Two And A Half Men
-      - Workaholics
-    inputs:
-      - html:
-          url: "http://www.t411.io/torrents/search/?cat=210&subcat=433&term[17][]=721&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
-          increment: True
-          title_from: title
-          links_re:
-          - "^http://www.t411.io/torrents/[^/]+(?!/)[^/]+$"
+#Télécharge le dernier épisode de la série
+      - Better Call Saul:
+          identified_by: ep
+      - Community:
+          identified_by: ep
+#Télécharge à partir de l'épisode S06E10
+      - Cougar Town:
+          begin: S06E10
+      - Brooklyn Nine-Nine:
+          identified_by: ep
+      - Fear The Walking Dead:
+          identified_by: ep
+      - Game Of Thrones:
+          identified_by: ep
+      - House Of Cards:
+          begin: S03E13
+      - Homeland:
+          identified_by: ep
+      - Its Always Sunny In Philadelphia:
+          begin: S09E10
+      - Limitless:
+          identified_by: ep
+      - Mad Men:
+          identified_by: ep
+      - Modern Family:
+          identified_by: ep
+      - Mr. Robot:
+          identified_by: ep
+      - Orange Is The New Black:
+          identified_by: ep
+      - Parks And Recreation:
+          begin: S07E12
+      - Silicon valley:
+          identified_by: ep
+      - The Aliens:
+          begin: S01E01
+      - The Americans:
+          identified_by: ep
+      - The Big Bang Theory:
+          identified_by: ep
+      - The Last Man On Earth:
+          identified_by: ep
+      - The Walking Dead:
+          identified_by: ep
+      - True Detective:
+          identified_by: ep
+      - Two And A Half Men:
+            begin: S12E14
+      - Workaholics:
+          begin: S05E01
+      - Vikings:
+          begin: S03E10
+      - The X-Files:
+          identified_by: ep
+#Envois le fichiers torrent à deluge et renomme le fichier une fois téléchargé de la forme The Simpsons - S20E15 - 720p.avi et déplace le fichier dans le dossier /Series/NomDeLaSerie/S**
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
       movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
+#Reject les torrent comportant les mots x265 et h265
+    regexp:
+      reject:
+        - x265
+        - h265
 
 # DL des serie animes en VF et en HD
-#DL anime VF in HD	  
 
   tv-my_shows_fr_anime:
     template:
       - t411
     series:
-      - Simpson
-    inputs:
-      - html:
-          url: "http://www.t411.io/torrents/search/&cat=210&subcat=637&term[17][]=541&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
-          increment: True
-          title_from: title
-          links_re:
-          - "^http://www.t411.io/torrents/[^/]+(?!/)[^/]+$"
-
-
+      - Simpson:
+#          identified_by: ep
+           begin: S27E15
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
       movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
+    regexp:
+      reject:
+        - x265
+        - h265
+
 
 # DL des series animes en VOSTFR et en HD
-#DL anime VOSTFR in HD
 
   tv-my_shows_anime:
     template:
       - t411
     series:
-      - American Dad
-      - Family Guy
-      - Futurama
-      - South Park
-      - The Simpsons
-    inputs:
-      - html:
-          url: "http://www.t411.io/torrents/search/?cat=210&subcat=637&term[17][]=721&term[7][]=16&term[7][]=15&term[7][]=1162&term[7][]=12&term[7][]=1174&term[7][]=1175&page={{i}}"
-          increment: True
-          title_from: title
-          links_re:
-          - "^http://www.t411.io/torrents/[^/]+(?!/)[^/]+$"
+      - American Dad:
+          identified_by: ep
+      - Family Guy:
+          identified_by: ep
+      - Futurama:
+          identified_by: ep
+      - South Park:
+          identified_by: ep
+      - The Simpsons:
+          identified_by: ep
+      - Bojack Horseman:
+          identified_by: ep
     deluge:
       content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
       movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
       label: tv
-
-
-#DL des series depuis le debut
-#DL tv shows from the beginning
-  tvshows:
-    template:
-      - t411
     regexp:
-      reject_excluding:
-        - VOSTFR
+      reject:
+        - x265
+        - h265
 
 tasks:
 
@@ -151,63 +164,73 @@ tasks:
     priority: 1
     template:
       - tv-my_shows
-
-  My_TV_Shows_anime:
-    priority: 2
-    template:
-      - tv-my_shows_anime
-
-  My_TV_Shows_fr_anime:
-    priority: 3
-    template:
-      - tv-my_shows_fr_anime
-
-#DL des series depuis le debut	  
-  My-TV_Shows_debut:
-    template: tvshows
-    priority: 4
-#    deluge: yes
     discover:
       what:
-        - emit_series:
-            from_start: yes
+        - emit_series: yes
+#Utilise l'api T411 en allant chercher dans la catégorie Série TV, puis dans les sous-catégorie VOSTFR et TVripHD 1080 et TVripHD720
       from:
-        - torrent411:
-            username: XxX
-            password: XxX
-            category: Serie-TV
-            sub_category: VOSTFR
-    series:
-      - The Strain:
-          identified_by: ep
-      - The League:
-          identified_by: ep
-    deluge:
-      content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
-      movedone: "/Series/{{ series_name }}/{{'S%02d'|format(series_season)}}"
-      label: tva
+        - t411:
+            category: Série TV
+            terms:
+              - VOSTFR
+              - TVripHD 1080
+              - TVripHD 720
 
+  
+  My_TV_Shows_fr_anime:
+    priority: 2
+    template:
+      - tv-my_shows_fr_anime
+    discover:
+      what:
+        - emit_series: yes
+      from:
+        - t411:
+            category: Animation Série
+            terms:
+              - Français
+              - TVripHD 1080
+              - TVripHD 720
 
-#Films en vo fonctionne
-  movie_vo_1080p:
-    priority: 5
+  My_TV_Shows_anime:
+    priority: 3
+    template:
+      - tv-my_shows_anime
+    discover:
+      what:
+        - emit_series: yes
+      from:
+        - t411:
+            category: Animation Série
+            terms:
+              - VOSTFR
+              - TVripHD 1080
+              - TVripHD 720
+
+#Télécharge et déplace les films dans le dossier /Films
+  movie_vo:
     deluge:
       movedone: "/Films/"
       label: movies
-    accept_all: yes
+#Rejete les torrents comportant les mots x265 et h265
+    regexp:
+      reject:
+        - x265
+        - h265
+#Récupère la liste des films depuis la Watchlist d'IMDB de l'utilisateur ur****
     discover:
       what:
         - imdb_list:
             list: watchlist
-            user_id: urXxX
+            user_id: urxxxx
+#Effectue une recherche sur T411 dans la catégorie FIlms avec la qualité VOSTFR, HDrip 1080 et HDrip 720
       from:
-        - torrent411:
-            username: XxX
-            password: XxX
-            category: Film
-            sub_category:
+        - t411:
+            category: Films
+            terms:
               - VOSTFR
-              - HDrip-1080p
+              - HDrip 1080
+              - HDrip 720
 }}}
 
 
