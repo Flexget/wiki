@@ -39,6 +39,9 @@ stop on runlevel [016]
 respawn
 respawn limit 5 30
 
+# Will not respawn if flexget daemon is stopped or killed/terminated
+normal exit 0 TERM
+
 env user=<YOURUSERNAME>
 # to find your local run the locale command an example local would be en_US.utf8
 env LANG=<YOUR UTF-8 LOCALE>
