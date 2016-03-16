@@ -9,6 +9,18 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.3.16 1.2.484 ===
+
+All TVDB plugins have been upgraded to use the new TVDB API [api-beta.thetvdb.com/swagger#/]
+
+Due to the change in API the `account_id` can no longer be used within tvdb plugins, it now requires `username` and `password` within your config.
+
+The fields `tvdb_ep_writers` and `tvdb_ep_guest_stars` are no longer supported.
+
+Field `tvdb_banner_url` changed to `tvdb_banner`
+Field `tvdb_poster_url` changed to `tvdb_posters` which is a list of the top 5 posters.
+
+
 === 2016.3.5 1.2.471 ===
 
 Python 2.6 is no longer being supported by !FlexGet. Support for python 2.6 itself ended October 2013, and it is no longer receiving even security updates. You should upgrade to python 2.7 if you have not done so already.
