@@ -70,13 +70,13 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/couchpotato couchpotato]||Produce entries from couchpotato wanted list||
+||[wiki:Plugins/couchpotato_list couchpotato_list ]||Produce entries from couchpotato wanted movies list||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
 ||[wiki:Plugins/rtorrent from_rtorrent]||Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/plex plex]||Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
-||[wiki:Plugins/sonarr sonarr]||`UPDATED` Produce entries from Sonarr's show list||
+||[wiki:Plugins/sonarr_list sonarr_list ]||`UPDATED` Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
 ||[wiki:Plugins/uoccin_emit uoccin_emit ]||`NEW` Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
 
