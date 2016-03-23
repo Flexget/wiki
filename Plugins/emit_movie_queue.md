@@ -1,4 +1,5 @@
 = Movie Queue Input =
+'''IMPORTANT: `movie_queue` plugin is set for deprecation and will be replaced with [wiki:Plugins/movie_list movie_list].
 
 Creates an [wiki:Entry Entry] for each movie in your [wiki:Plugins/movie_queue movie queue] (intended to be used with the [wiki:Plugins/discover discover] plugin).
 
