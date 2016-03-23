@@ -1,5 +1,7 @@
 = Movie queue =
 
+'''IMPORTANT: `movie_queue` plugin is set for deprecation and will be replaced with [wiki:Plugins/movie_list movie_list].
+
 Manages an internal list of movies with quality information. Allows you to accept movies, add movies to the queue, or remove movies from the queue when they are seen on the task. You also have the ability to manually add movies to the queue from the command line.
 
 == Related plugins ==
