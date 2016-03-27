@@ -182,6 +182,7 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/nzbget nzbget]||Download nzbs with nzbget.||
 ||[wiki:Plugins/periscope periscope]||Download subtitles with Periscope.||
 ||[wiki:Plugins/pyload pyload]||http://pyload.org/.||
+||[wiki:Plugins/qbittorrent qbittorrent]||Pass torrents directly to the qBittorrent client, supporting magnet links.||
 ||[wiki:Plugins/rtorrent rtorrent]||Pass torrents directly to rtorrent||
 ||[wiki:Plugins/rtorrent_magnet rtorrent_magnet]||Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+)||
 ||[wiki:Plugins/sabnzbd sabnzbd]||Download nzbs with SABnzbd.||
