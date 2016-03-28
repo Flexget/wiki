@@ -57,7 +57,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
 ||[wiki:Plugins/pogcal pogcal]||Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
-||[wiki:Plugins/rlslog rlslog]||Parse [http://rlslog.net] category.||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
