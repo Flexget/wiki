@@ -9,6 +9,10 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.3.28 1.2.496 ===
+
+Plugin rlslog has been removed and is no longer supported
+
 === 2016.3.16 1.2.484 ===
 
 All TVDB plugins have been upgraded to use the new TVDB API [api-beta.thetvdb.com/swagger#/]
