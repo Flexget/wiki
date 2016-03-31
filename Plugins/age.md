@@ -25,7 +25,7 @@ tasks:
       recursive: yes
       retrieve: files
     age:
-      field: 'access'
+      field: 'accessed'
       action: 'accept'
       age: '7 days'
     exec:
