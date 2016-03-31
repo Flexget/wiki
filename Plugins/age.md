@@ -1,6 +1,6 @@
 = Age =
 
-Simple plugin to filter based on age. The age is determined via a date set in an entry field. It can be used in conjunction with entries created by [wiki:Plugins/filesystem filesystem], which sets the fields `access`, `modified`, `created`, which are last accessed, last modified and file creation respectively.
+Simple plugin to filter based on age. The age is determined via a date set in an entry field. It can for example be used in conjunction with entries created by [wiki:Plugins/filesystem filesystem], which sets the fields `access`, `modified`, `created`, which are last accessed, last modified and file creation respectively.
 
 == Plugin settings ==
 
