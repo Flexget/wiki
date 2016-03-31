@@ -157,6 +157,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
 ||[wiki:Plugins/if if]||Filter based on simple python statements.||
 ||[wiki:Plugins/regexp regexp]||Reject, Accept entries by using regular expression.||
+||[wiki:Plugins/age age]||Reject, Accept entries based on age by looking at a date in a specified entry field.||
 
 === 3rd party sites filters ===
 
@@ -206,6 +207,7 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
 ||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
+||[wiki:Plugins/kodi_library kodi_library]||Send clean/scan requests to a remote/local Kodi server.||
 
 === Notifier services output ===
 
