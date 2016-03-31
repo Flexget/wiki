@@ -9,8 +9,8 @@ Currently the following settings are supported:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''field'''||Entry field eg. 'access'||
-||'''age'''||The age to be filtered eg. `7 days`||
-||'''action'''||`reject` or `accept`||
+||'''age'''||The age to be filtered eg. `7 days`. Format: [n] [minutes|hours|days|months]||
+||'''action'''||`reject` or `accept` entries||
 }}}
 == Examples ==
 Example task to delete video files that have not been accessed in the last 7 days:
