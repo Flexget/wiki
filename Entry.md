@@ -24,6 +24,9 @@ Entry ''may'' have any of these fields, but is not ''guaranteed'' to have any of
 ||task||metainfo_task||Task name which this entry belongs to||
 ||quality||metainfo_quality, [wiki:Plugins/series series]||Detected quality, ie. `720p`||
 ||quality_req||[wiki:Plugins/couchpotato couchpotato]||A quality requirement string, can hold several qualities. Used by [wiki:Plugins/movie_queue movie_queue]||
+||accessed||[wiki:Plugins/filesystem filesystem]||Last accessed time for the local file. Stored as a datetime object.||
+||modified||[wiki:Plugins/filesystem filesystem]||Last modified time for the local file. Stored as a datetime object.||
+||created||[wiki:Plugins/filesystem filesystem]||Creation time for the local file (only on Windows). Stored as a datetime object.||
 ||series_name||[wiki:Plugins/series series], metainfo_series||Series name||
 ||series_season||[wiki:Plugins/series series], metainfo_series||Series season||
 ||series_episode||[wiki:Plugins/series series], metainfo_series||Series episode||
