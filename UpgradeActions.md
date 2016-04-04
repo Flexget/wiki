@@ -9,6 +9,12 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.4.4 1.2.502 ===
+
+TVDB API has changed, now requires account_id (userkey) rather then user password.
+
+TVDB plugins 'password' field has been changed to 'account_id'. To get your account_id visit http://thetvdb.com/?tab=userinfo
+
 === 2016.3.28 1.2.496 ===
 
 Plugin rlslog has been removed and is no longer supported
