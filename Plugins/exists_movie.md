@@ -1,6 +1,6 @@
 = Existing movies =
 
-This plugin will ensure no movies which already exist on disk are accepted.
+This plugin will scan through accepted entries, and reject any movie entry that is already found on disk.
 
 == Syntax ==
 
