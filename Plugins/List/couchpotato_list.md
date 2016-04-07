@@ -1,7 +1,8 @@
 = Couchpotato List =
-This plugin creates an [wiki:Entry Entry] for each movie in your [https://couchpota.to/ couchpotato] wanted list.[[BR]]
-This plugin can be used with the [wiki:Plugins/List/movie_list movie_list ] plugin to add those movies to the list.[[BR]]
+
 This plugin is a [wiki:Plugins/List list_interface] plugin.
+
+Creates an [wiki:Entry Entry] for each movie in your [https://couchpota.to/ couchpotato] wanted list. This plugin can be used with the [wiki:Plugins/List/movie_list movie_list ] plugin to add those movies to the list.
 
 == Plugin Settings ==
 
