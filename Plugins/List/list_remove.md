@@ -1,4 +1,7 @@
 === List Remove ===
+
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+
 List plugins can have entries removed from them by using the `list_remove` plugin:
 {{{
 trakt_list:
