@@ -14,6 +14,7 @@ This page contains information about configuration file format changes, as well 
 * Series CLI - `series forget` now also fires a `forget` event which for now removes all the relevant downloaded release from `seen` plugin as well. This is relevant both for entire series and when using identifer.
 * Series CLI - `series remove` was added which does what `series forget` used to do, I.E. remove show/episode only from series DB
 * Series API - `remove_seen` parameter name was changed to `forget` in all the DELETE endpoints.
+* Changed `series_forget` plugin name to `series_remove`
 
 === 2016.4.4 1.2.502 ===
 
