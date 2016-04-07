@@ -11,10 +11,10 @@ List plugins are a special class of plugin, which work as input plugins, but can
 
 === Operating with lists ===
 
-||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to another list plugin.||
-||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries to another list plugin.||
-||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on another list plugin.||
-||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on another list plugin.||
+||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to a list plugin.||
+||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries from a list plugin.||
+||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on the contents of a list.||
+||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on the contents of a list.||
 
 == List action advanced usage ==
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
