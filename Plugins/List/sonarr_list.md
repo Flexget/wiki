@@ -1,9 +1,10 @@
 = Sonarr List =
-This plugin creates an [wiki:Entry Entry] for each show in your [https://sonarr.tv/ Sonarr] show list (including ended ones by default).
-
-This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugins/configure_series configure_series] plugins to add those shows to the shows list.
 
 This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+
+Creates an [wiki:Entry Entry] for each show in your [https://sonarr.tv/ Sonarr] show list (including ended ones by default).
+
+This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugins/configure_series configure_series] plugins to add those shows to the shows list.
 
 == Plugin Settings ==
 
@@ -22,18 +23,20 @@ The following settings are optional:
 ||'''include_data'''|| Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [http://flexget.com/wiki/Plugins/configure_series configure_series] plugin||
 
 === Example: Add all listed shows to series list ===
+
 {{{
-  get-all-shows-from-sonarr-task:
-      configure_series:
-            from:
-              sonarr_list:
-                base_url: http://localhost
-                port: 8989
-                api_key: MYAPIKEY1123
-                include_data: yes
+get-all-shows-from-sonarr-task:
+  configure_series:
+    from:
+      sonarr_list:
+        base_url: http://localhost
+        port: 8989
+        api_key: MYAPIKEY1123
+        include_data: yes
 }}}
 
 === List action example ===
+
 {{{
 trakt_list:
   account: account_name
@@ -46,4 +49,5 @@ list_add:
       port: 8989
       api_key: MYAPIKEY1123
 }}}
+
 For more information about list action go to the [wiki:list_interface list_interface] page.
