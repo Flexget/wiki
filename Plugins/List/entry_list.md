@@ -2,7 +2,7 @@
 
 This plugin stores a copy of any entry that was added to it, and can be used in a variety of ways. 
 
-This plugin is a [wiki:list_interface list_interface] plugin.
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
 
 === Schema ===
 {{{
