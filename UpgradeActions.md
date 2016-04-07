@@ -9,6 +9,12 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
 
+=== 2016.4.7 1.2.505 ===
+
+* Series CLI - `series forget` now also fires a `forget` event which for now removes all the relevant downloaded release from `seen` plugin as well. This is relevant both for entire series and when using identifer.
+* Series CLI - `series remove` was added which does what `series forget` used to do, I.E. remove show/episode only from series DB
+* Series API - `remove_seen` parameter name was changed to `forget` in all the DELETE endpoints.
+
 === 2016.4.4 1.2.502 ===
 
 TVDB API has changed, now requires account_id (userkey) rather then user password.
