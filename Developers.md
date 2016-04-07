@@ -1,4 +1,4 @@
-[[PageOutline]]
+= Documentation =
 
 View the documentation and tutorials at [https://flexget.readthedocs.org/en/latest/ flexget.readthedocs.org]
 
