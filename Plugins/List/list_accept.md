@@ -1,4 +1,7 @@
 === List Accept ===
+
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+
 List plugins can be used as positive filters with the `list_accept` plugin:
 {{{
 rss: some_feed...
