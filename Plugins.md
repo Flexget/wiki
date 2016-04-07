@@ -44,6 +44,21 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 '''Note:''' If you are looking for torrent search plugins, refer to [wiki:Searches Search Plugins].
 
+=== Raw Input ===
+
+Input plugins that directly parse data from a source based on its type.
+||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/csv csv]||Parse any CSV-file||
+||[wiki:Plugins/filesystem filesystem]||Search through a local directory looking for files as a input. ||
+||[wiki:Plugins/html html]||Parse any HTML-page.||
+||[wiki:Plugins/rss rss]||Parse RSS-feed.||
+||[wiki:Plugins/sftp_list sftp_list]||List files from an SFTP server||
+||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
+||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
+||[wiki:Plugins/text text]||Parse any text data||
+||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
+||[wiki:Plugins/ftp_list ftp_list]||Lists the content of a remote FTP server||
+
 
 === 3rd party sites input ===
 
@@ -91,20 +106,6 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
 ||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list.||
-
-=== Raw Input ===
-
-Input plugins that directly parse data from a source based on its type.
-||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/csv csv]||Parse any CSV-file||
-||[wiki:Plugins/filesystem filesystem]||Search through a local directory looking for files as a input. ||
-||[wiki:Plugins/html html]||Parse any HTML-page.||
-||[wiki:Plugins/rss rss]||Parse RSS-feed.||
-||[wiki:Plugins/sftp_list sftp_list]||List files from an SFTP server||
-||[wiki:Plugins/tail tail]||Tail a log file (eg. irc logs)||
-||[wiki:Plugins/text text]||Parse any text data||
-||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
-||[wiki:Plugins/ftp_list ftp_list]||Lists the content of a remote FTP server||
 
 == Filters ==
 
@@ -346,10 +347,6 @@ Perform operations on 3rd part software.
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
 ||[wiki:Plugins/uoccin_reader uoccin_reader]||`NEW` Synchronize a [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-
-== Search ==
-
-||[wiki:Plugins/search_rss search_rss]||Search with parametrized rss feed.||
 
 == Daemon ==
 
