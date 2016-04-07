@@ -116,7 +116,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
-||[wiki:Plugins/movie_queue movie_queue]||`UPDATED` Accept movies from movie queue.||
+||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Accept movies from movie queue.||
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
@@ -234,7 +234,7 @@ Send accepted entries to notification services.
 Use accepted entries as an input for various !FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
-||[wiki:Plugins/movie_queue movie_queue]||`UPDATED` Add movies to movie queue.||
+||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 ||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to another list plugin.||
