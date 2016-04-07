@@ -12,3 +12,22 @@ List plugins are a special class of plugin, which work as input plugins, but can
 ||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries to another list plugin.||
 ||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accepted entries based on another list plugin.||
 ||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on another list plugin.||
+
+== List action advanced usage ==
+All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
+{{{
+trakt_list:
+  username: traktusername
+  list: watchlist
+  type: movies
+accept_all: yes
+list_add:
+  - trakt_list:
+      username: a_different_username
+      list: watchlist
+      type: movies
+  - imdb_list:
+      login: email@123.com
+      password: flexget
+      list: watchlist
+}}}
