@@ -1,10 +1,10 @@
 = IMDb list =
 
-This plugin creates an [wiki:Entry Entry] for each item in an IMDb list.
+This plugin is a [wiki:Plugins/List list_interface] plugin.
+
+Creates an [wiki:Entry Entry] for each item in an IMDb list.
 
 This plugin is useful for example when used in a task with the [wiki:Plugins/movie_queue movie_queue] plugin (in 'add' mode) to add movies from your IMDb watchlist to your movie queue.
-
-This plugin is a [wiki:Plugins/List list_interface] plugin.
 
 '''Notes:''' 
 
