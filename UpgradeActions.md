@@ -11,10 +11,19 @@ This page contains information about configuration file format changes, as well 
 
 === 2016.4.7 1.2.505 ===
 
+**Series CLI Changes:**
+
 * Series CLI - `series forget` now also fires a `forget` event which for now removes all the relevant downloaded release from `seen` plugin as well. This is relevant both for entire series and when using identifer.
 * Series CLI - `series remove` was added which does what `series forget` used to do, I.E. remove show/episode only from series DB
 * Series API - `remove_seen` parameter name was changed to `forget` in all the DELETE endpoints.
 * Changed `series_forget` plugin name to `series_remove`
+
+**List interface:**
+
+A new convention of plugins that allows usage as input, filter and output. See [http://flexget.com/wiki/list_interface wiki page] for additional information.
+* [http://flexget.com/wiki/Plugins/imdb_list imdb_list] plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
+* `couchpotato` changed its name to `couchpotato_list`.
+* `sonarr` changed its name to `sonarr_list`.
 
 === 2016.4.4 1.2.502 ===
 
