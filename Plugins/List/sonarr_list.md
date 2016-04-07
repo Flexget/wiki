@@ -1,7 +1,9 @@
 = Sonarr List =
 This plugin creates an [wiki:Entry Entry] for each show in your [https://sonarr.tv/ Sonarr] show list (including ended ones by default).
+
 This plugin can be used with the [wiki:Plugins/discover discover] or [wiki:Plugins/configure_series configure_series] plugins to add those shows to the shows list.
-This plugin is a [wiki:list_interface list_interface] plugin.
+
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
 
 == Plugin Settings ==
 
