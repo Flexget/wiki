@@ -10,7 +10,7 @@ list_accept:
 download: /downloads/
 }}}
 This will accept any entries that match the entries contained within the list plugin. 
-By default, any accepted entry will be removed from match list. This can be changed using the following schema:
+By default, any accepted entry will be removed from match list. This can be changed using the `remove_on_accept` property:
 {{{
 rss: some_feed...
 list_accept:
