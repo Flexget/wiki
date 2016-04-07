@@ -1,4 +1,7 @@
 === List Reject ===
+
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+
 List plugins can be used as negative filters with the `list_reject` plugin:
 {{{
 rss: some_feed...
