@@ -20,8 +20,8 @@ This page contains information about configuration file format changes, as well 
 
 **List interface:**
 
-A new convention of plugins that allows usage as input, filter and output. See [http://flexget.com/wiki/list_interface wiki page] for additional information.
-* [http://flexget.com/wiki/Plugins/imdb_list imdb_list] plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
+A new convention of plugins that allows usage as input, filter and output. See [http://flexget.com/wiki/Plugins/List wiki page] for additional information.
+* [http://flexget.com/wiki/Plugins/List/imdb_list imdb_list] plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
 * `couchpotato` changed its name to `couchpotato_list`.
 * `sonarr` changed its name to `sonarr_list`.
 
