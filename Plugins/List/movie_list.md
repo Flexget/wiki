@@ -9,7 +9,7 @@ movie_list: <NAME>
 }}}
 
 === Usage ===
-As a [wiki:list_interface list_interface] plugin it follows the same list actions:
+As a [wiki:Plugisn/List list_interface] plugin it follows the same list actions:
 {{{
 any_input: ...
 filter: ...
