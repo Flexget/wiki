@@ -1,7 +1,8 @@
 = Movie List =
 
-This plugin is a [wiki:list_interface list_interface] plugin. It stores a copy of an entry that was added to it if that entry contains the following attributes: `imdb_id`, `trakt_movie_id` or `tmdb_id`.[[BR]] 
-This plugin replaces the now deprecated [wiki:Plugins/movie_queue movie_queue]. As opposed to [wiki:Plugins/movie_queue movie_queue], `movie_list` does not store quality or download status.
+This plugin stores a copy of an entry that was added to it if that entry contains the following attributes: `imdb_id`, `trakt_movie_id` or `tmdb_id`.[[BR]] 
+This plugin replaces the now deprecated [wiki:Plugins/movie_queue movie_queue]. As opposed to [wiki:Plugins/movie_queue movie_queue], `movie_list` does not store quality or download status.[[BR]]
+This plugin is a [wiki:Plugins/List/ list_interface] plugin.
 === Schema ===
 {{{
 movie_list: <NAME>
