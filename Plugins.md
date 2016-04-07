@@ -86,7 +86,7 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. filesystem, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`UPDATED` Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`DEPRECATED` Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
