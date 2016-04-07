@@ -121,7 +121,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
 ||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on another list plugin.||
-||[wiki:Plugins/List/list_remove list_accept]||Use this plugin to reject entries based on another list plugin.||
+||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on another list plugin.||
 
 === Metadata filters ===
 
