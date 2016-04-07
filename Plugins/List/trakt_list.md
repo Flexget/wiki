@@ -1,12 +1,12 @@
 = Trakt list =
 
+This plugin is a [wiki:Plugins/List list_interface] plugin.
+
 '''IMPORTANT: Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
 
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
 This plugin is useful for example when used in a task with the [wiki:Plugins/movie_queue movie_queue] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
-
-This plugin is a [wiki:Plugins/List list_interface] plugin.
 
 '''Notes:''' 
 
