@@ -94,9 +94,21 @@ Display series summary. `flexget series list`
 
 Displays the releases for a given show that the series plugin has seen. `flexget series show <name>`
 
+=== remove ===
+
+Delete episodes from series database or whole series completely.
+
+To delete single episode, use:
+
+`flexget series remove <name> <id>`
+
+To delete whole series, use:
+
+`flexget series remove <name>`
+
 === forget ===
 
-Delete episodes from database or whole series completely.
+Removes a series or episode from **entire** DB, including `seen` plugin, enabling downloading the exact same releases again. Use exactly like with `remove`:
 
 To delete single episode, use:
 
