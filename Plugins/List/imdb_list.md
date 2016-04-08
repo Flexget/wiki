@@ -27,7 +27,7 @@ You can force a returned language using the `force_language` parameter. A list o
 '''List Action Example'''
 {{{
 rss: http://rss.com
-list_match:
+list_accept:
   - imdb_list:
       login: 123@abc.com
       password: flexget
