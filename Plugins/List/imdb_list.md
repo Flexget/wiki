@@ -34,4 +34,3 @@ list_accept:
       list: watchlist
 download: /downloads/
 }}}
-For more information about list action go to the [wiki:list_interface list_interface] page.
