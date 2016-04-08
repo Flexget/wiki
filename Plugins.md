@@ -210,8 +210,8 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/thetvdb_add thetvdb_add]||Add accepted series to user's thetvdb.com favorites.||
 ||[wiki:Plugins/thetvdb_remove thetvdb_remove]||Remove accepted series from user's thetvdb.com favorites.||
 ||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
-||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
+||[wiki:Plugins/trakt_add trakt_add]||`DEPRECATED` Add accepted episodes/movies to a list on trakt.tv.||
+||[wiki:Plugins/trakt_remove trakt_remove]||`DEPRECATED` Remove accepted episodes/movies from a list on trakt.tv.||
 ||[wiki:Plugins/kodi_library kodi_library]||Send clean/scan requests to a remote/local Kodi server.||
 
 === Notifier services output ===
