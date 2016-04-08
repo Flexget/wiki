@@ -1,4 +1,7 @@
 = Trakt Remove=
+
+'''IMPORTANT: `trakt_remove` plugin is set for deprecation and will be replaced with [wiki:Plugins/List/list_remove list_remove].
+
 '''{{{IMPORTANT:}}} Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
 
 This plugin will remove movies, series or episodes from a [http://trakt.tv trakt.tv] list.
