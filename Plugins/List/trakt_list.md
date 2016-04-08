@@ -6,7 +6,7 @@ This plugin is a [wiki:Plugins/List list_interface] plugin.
 
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
-This plugin is useful for example when used in a task with the [wiki:Plugins/movie_queue movie_queue] plugin to add movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
+This plugin is useful for example when used in a task with the [wiki:Plugins/List/movie_list movie_list] plugin to add movies from your trakt watchlist to your [wiki:Plugins/List/movie_list movie_list], or to control the series plugin using [wiki:Plugins/configure_series configure_series].[[BR]]
 
 '''Notes:''' 
 
@@ -40,7 +40,7 @@ trakt_list:
 
 === Example: Queue movies ===
 
-This example shows how you would use trakt_list plugin with [wiki:Plugins/movie_queue movie_queue], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/movie_queue movie queue]. This example should be in its own task, not combined with your movie downloading task.
+This example shows how you would use trakt_list plugin with [wiki:Plugins/List/movie_list movie_list], in order to add all the movies from your trakt watchlist to your [wiki:Plugins/List/movie_list movie list]. This example should be in its own task, not combined with your movie downloading task.
 
 {{{
 trakt_list:
@@ -49,7 +49,8 @@ trakt_list:
   list: watchlist
   type: movies
 accept_all: yes
-movie_queue: add
+list_add:
+  - movie_list: listname
 }}}
 
 === Example: Autoconfigure series ===
