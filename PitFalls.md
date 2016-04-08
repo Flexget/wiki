@@ -52,8 +52,10 @@ Two possibilities, you're not receiving RSS feed for some reason (ie. must be lo
 
 == cron job did not run - permission problems ==
 
-Check that you have working mail system so you receive errors occur during crontab execution.
-
+* Check that you have working mail system so you receive errors occur during crontab execution.
+* Add the following to the top of the crontab (crontab -e) that runs flexget so you receive cron errors to the right email address.
+  * {{{ MAILTO="youremail@address.com" }}}
+* Ensure the configuration file is within ~/.flexget/ and that the directory and config.yml files are owned by or at least readable by the user for which the cron is for.
 ''Feel free to add more''
 
 == Error in the cookie files ==
