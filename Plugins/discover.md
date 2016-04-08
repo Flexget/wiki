@@ -19,14 +19,12 @@ An overview of available search plugins can be found [wiki:Searches here]. For a
 
 === Example: Input configs ===
 
-It's advised to have inputs queued to series or movies list (via for example a task doing '[wiki:Plugins/movie_queue movie_queue]: add'). Then use either:
+It's advised to have inputs queued to series list then:
 
 {{{
 discover:
       what:
         - emit_series: yes
-        # OR
-        - emit_movie_queue: yes
       from:
         ...
 }}}
@@ -43,18 +41,19 @@ discover:
             password: PASSWORD
             list: watchlist
             type: movies
+        - movie_list: listname
       from:
         ...
 }}}
 
-=== Example: Search movie queue ===
+=== Example: Search movie list ===
 
-This example would produce results from the torrentz search engine based on the movies currently in your [wiki:Plugins/movie_queue movie_queue].
+This example would produce results from the torrentz search engine based on the movies in the list "wanted_movies" in the [wiki:Plugins/List/movie_list movie_list] plugin.
 
 {{{
 discover:
   what:
-    - emit_movie_queue: yes
+    - movie_list: wanted_movies
   from:
     - kat:
         category: movies
@@ -65,4 +64,4 @@ discover:
     - torrentz: verified
   interval: 1 day
 }}}
-Be aware, that discover plugin just produces entries, if you want movies from your movie queue accepted you must still also include the [wiki:Plugins/movie_queue movie_queue] plugin in your task.
+Be aware, that discover plugin just produces entries, if you want movies accepted you must still also include the [wiki:Plugins/List/list_accept list_accept] plugin in your task.
