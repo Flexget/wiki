@@ -63,12 +63,14 @@ Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
 720p_movies_from_movie_queue:
   emit_movie_queue: yes
   quality: 720p
+  accept_all: yes
   list_add:
     - movie_list: 720p movies
 
 1080p_movies_from_movie_queue:
   emit_movie_queue: yes
   quality: 1080p
+  accept_all: yes
   list_add:
     - movie_list: 1080p movies
 }}}
