@@ -123,6 +123,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
 ||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on another list plugin.||
 ||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on another list plugin.||
+||[wiki:Plugins/List/list_queue list_queue ]||Use this plugin to accept an entry and immediately remove the matching element from a list.||
 
 === Metadata filters ===
 
