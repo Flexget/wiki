@@ -12,8 +12,8 @@ discover:
       - kat:
           verified: yes
       - torrentz: verified
-  list_queue:
-    - movie_list: Looking
+list_queue:
+  - movie_list: Looking
 download: /downloads/
 }}}
 
@@ -27,8 +27,8 @@ discover:
       - kat:
           verified: yes
       - torrentz: verified
-  list_queue:
-    - movie_list: Looking
+list_queue:
+  - movie_list: Looking
 download: /downloads/
 list_add:
   - entry_list: downloaded movies
