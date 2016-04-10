@@ -15,6 +15,7 @@ List plugins are a special class of plugin, which work as input plugins, but can
 ||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries from a list plugin.||
 ||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on the contents of a list.||
 ||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on the contents of a list.||
+||[wiki:Plugins/List/list_queue list_queue ]||Use this plugin to accept an entry and immediately remove the matching element from a list.||
 
 == List action advanced usage ==
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
