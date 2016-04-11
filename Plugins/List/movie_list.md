@@ -80,6 +80,7 @@ How to use it with a regular task:
 {{{
 a_task:
   rss: http://url.com/feed.xml
+  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
@@ -93,6 +94,7 @@ discover_task:
       - movie_list: movie list name
     what:
      - kat: opts
+  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
