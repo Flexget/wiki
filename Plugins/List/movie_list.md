@@ -75,6 +75,31 @@ Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
     - movie_list: 1080p movies
 }}}
 
+How to use it with a regular task:
+
+{{{
+a_task:
+  rss: http://url.com/feed.xml
+  list_queue:
+    - movie_list: movie list name
+  download: /path/to/download
+}}}
+
+How to use with discover plugin:
+{{{
+discover_task:
+  discover:
+    from:
+      - movie_list: movie list name
+    what:
+     - kat: opts
+  list_queue:
+    - movie_list: movie list name
+  download: /path/to/download
+}}}
+
+The [wiki:Plugins/List/list_queue list_queue] matches and immediately remove matching entity from list, so no duplicate matches will occur during a task. If you do no wish to remove on match, use [wiki:Plugins/List/list_accept list_accept] with `remove_on_accept` set to `False`.
+
 == Movie list CLI ==
 
 For detailed instruction about these CLI commands:
