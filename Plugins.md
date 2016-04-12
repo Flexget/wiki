@@ -71,6 +71,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/List/imdb_list imdb_list]||`UPDATED` Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
+||[wiki:Plugins/npo_watchlist npo_watchlist]|| `NEW` Create entries for the shows and episodes in your npo.nl account (Dutch public television).||
 ||[wiki:Plugins/pogcal pogcal]||Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
