@@ -30,7 +30,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/ianstalk/dotfiles/tree/master/flexget ianstalk] (v1.2.284) automatically SCP files from a remote Tranmission instance to a local directory.
 * [http://flexget.com/wiki/Users/anon] Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
 * [wiki:Cookbook/Users/malkavi malkavi] (v1.2.313) Spanish Movies and series config.
-* [https://github.com/Jonybat/flexget_config jonybat] (v1.2.343)
+* [https://github.com/Jonybat/flexget_config jonybat] (v1.2.509)
 * [https://github.com/nikdoof/flexget-config nikdoof] (v1.2)
 * [wiki:Cookbook/Users/Tommynator Tommynator] (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
 * [wiki:Cookbook/Users/Systy Systy] (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
