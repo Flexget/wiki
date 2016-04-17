@@ -35,3 +35,6 @@ list_add:
       password: flexget
       list: watchlist
 }}}
+
+= Dev docs =
+Want to create or convert an existing plguin to a list interface plugin? [https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst Read the docs] and join the chat for any assistance required.
