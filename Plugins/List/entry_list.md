@@ -25,7 +25,8 @@ It can be added as an additional output:
 
 {{{
 rss: ..
-movie_queue: accept
+list_queue:
+  - movie_list: main movies
 list_add:
   - entry_list: downloaded movies
 }}}
@@ -34,7 +35,7 @@ This will add all accepted entries to an `entry_list` with the name `list name`.
 
 {{{
 entry_list: downloaded movies
-accept_all:
+accept_all: yes
 email: ...
 }}}
 
@@ -57,6 +58,60 @@ configure_series:
   ...
 }}}
 
+== Entry list CLI ==
+
+For detailed instruction about these CLI commands:
+{{{
+$ flexget entry-list -h
+}}}
+
+
+Entry list support CLI operations:
+
+=== Return all entry lists names ===
+
+{{{
+$ flexget entry-list all
+}}}
+
+=== List entry from entrylists ===
+
+{{{
+$ flexget entry-list list -l <LIST_NAME>
+}}}
+
+=== Show details about a specific entry ===
+
+{{{
+$ flexget entry-list show <ENTRY> -l <LIST_NAME>
+}}}
+
+`<ENTRY>` can be the ID displayed in `entry-list list` or exact entry title.
+
+=== Add or Update a entry to or from an entry list ===
+
+Using a title and original URL is require. You can also add additional identifiers in the following format:
+
+{{{
+$ flexget entry-list add -l <LIST_NAME> -t <ENTRY_TITLE> -u <ORIGINAL_URL> -i imdb_id=tt1234556 tmdb_id=1234
+}}}
+
+If the given entry list does not exist it will be created.
+
+If the entry with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given).
+
+=== Removing an entry from entry list ===
+
+{{{
+$ flexget entry-list del <ENTRY> -l <LIST_NAME>
+}}}
+`<ENTRY>` can be the ID displayed in `entry-list list` or exact entry title.
+
+=== Clearing an entire entry list ===
+
+{{{
+$ flexget entry-list purge -l <LIST_NAME>
+}}}
 == Entry List API ==
 
 `entry_list` plugin has full API support. See [http://discuss.flexget.com/t/flexget-rest-api/ API post] for details
