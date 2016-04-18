@@ -2,7 +2,7 @@
 
 This plugin is mainly used from the [wiki:Plugins/configure_series configure_series] plugin to automatically configure !FlexGet to download all of your tvdb favorites. The plugin works as input that returns entries for all the shows you have marked as favorites at [http://thetvdb.com]. If thetvdb goes down, the last known list of favorites will be used until it comes back online. 
 
-You configure thetvdb_favorites plugin with your account id at thetvdb. You can find it on the [http://thetvdb.com/?tab=userinfo account tab] after you log in.
+You configure thetvdb_favorites plugin with your username and account id at thetvdb. You can find it on the [http://thetvdb.com/?tab=userinfo account tab] after you log in.
 
 ''' Example '''
 
@@ -10,7 +10,8 @@ You configure thetvdb_favorites plugin with your account id at thetvdb. You can 
 configure_series:
   from:
     thetvdb_favorites:
-      account_id: 320D93B3A1
+      username: <username>
+      account_id: <account identifier>
 }}}
 
 == Strip Dates Option ==
@@ -20,7 +21,8 @@ If the {{{strip_dates}}} option is specified, the trailing year will be stripped
 ''' Example '''
 {{{
 thetvdb_favorites:
-  account_id: 320D93B3A1
+  username: <username>
+  account_id: <account identifier>
   strip_dates: yes
 }}}
 
@@ -34,7 +36,8 @@ You can use any of the [wiki:Plugins/series#Settings settings] of the series plu
 configure_series:
   from:
     thetvdb_favorites:
-      account_id: 320D93B3A1
+      username: <username>
+      account_id: <account identifier>
   settings:
     timeframe: 12 hours
     target: 720p
