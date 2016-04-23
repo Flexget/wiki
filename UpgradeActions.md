@@ -6,8 +6,18 @@ Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
 
 == Instructions ==
 
-
 This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
+
+=== 2016.4.24 2.0.0 ===
+
+**Major Flexget Change**
+
+Version 2.0.0 of flexget introduces python3.x support. This was a huge refactor and has been tested to be best of our abilities. With such a huge change like this we expect there to be some bugs especially with third party plugins. 
+
+For more information on py2/3 code visit [http://flexget.com/wiki/Developers]
+
+Please log bugs to [https://github.com/Flexget/Flexget/issues]
+
 
 === 2016.4.7 1.2.505 ===
 
