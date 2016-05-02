@@ -90,7 +90,7 @@ discover_task:
     what:
       - movie_list: movie list name
     from:
-     - kat: opts
+      - kat: opts
   quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
   imdb_lookup: # movie-list requires entries with a recognizable attribute, as mentioned at the top
   list_queue:
