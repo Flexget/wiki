@@ -30,32 +30,39 @@ series:
 This plugin populates fields on entries that have been identified as series by !Flexget. They may also be used in other plugins "ex:[wiki:Plugins/make_rss make_rss]"
 ----
 '''Series Metainfo'''
-
+||= Trakt_lookup Field =||= Description =||
 ||trakt_series_name||Series name provided by trakt||
 ||trakt_series_year||Series release year||
 ||imdb_id||Series IMDB ID||
 ||tvdb_id||Series TVDB ID||
 ||tmdb_id||Series TMDB ID||
-||trakt_show_id||Series Trakt.tv ID||
-||trakt_series_tvrage_id||Series TVRage ID||
-||trakt_series_slug||Series Trakt.tv slug eg. `the-matrix`||
+||trakt_id||Series Trakt.tv ID||
+||tvrage_id||Series TVRage ID||
+||trakt_slug||Series Trakt.tv slug eg. `the-matrix`||
 ||trakt_series_runtime||Series runtime in minutes||
-||trakt_series_air_time||Time the series ran/runs||
-||trakt_series_air_day||Day the series ran/runs||
-||trakt_series_content_rating||Content rating ex: TV-14||
-||trakt_series_genres||Series genres||
+||trakt_series_air_time||Time the series ran/runs ex: `'21:00'`||
+||trakt_series_air_day||Day the series ran/runs ex: `'Thursday'`||
+||trakt_series_content_rating||Content rating ex: `TV-14`||
+||trakt_series_genres||List of series genres ex: `'comedy, drama'`||
 ||trakt_series_network||Series network||
 ||imdb_url||IMDB url for linking||
+||trrakt_series_url||Trakt url for linking||
 ||trakt_series_country||Series country origin||
 ||trakt_series_status||Series status ie. `returning series` (airing right now), `in production` (airing soon), `planned` (in development), `canceled` or `ended`||
 ||trakt_series_overview||Series overview/description||
 ||trakt_series_rating||Series rating on Trakt.tv eg. 8/10||
+||trakt_series_votes||Series votes||
 ||trakt_series_aired_episodes||Number of aired episodes||
 ||trakt_series_episodes||List of episode titles||
 ||trakt_series_actors||Series actors||
+`New To Series`
+||= Trakt_lookup fields =||= Description =||
+||trakt_series_images||Dict of available images, More information [#info1 'here']||
+||trakt_languages|| List of available translations in iso-36||
+||trakt_translations|| Dict of all translations available||
 ----
 '''Episode Metainfo'''
-
+||= Trakt_lookup Field =||= Description =||
 ||trakt_ep_name||Episode name||
 ||trakt_ep_tvdb_id||TVDB ID of episode||
 ||trakt_ep_imdb_id||IMDb ID of episode||
@@ -69,15 +76,18 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_ep_abs_number||Episode absolute number||
 ||trakt_watched||`True` if watched on `username`'s profile||
 ||trakt_collected||`True` if collected on `username`'s profile||
+`New to Episode`
+||= Trakt_lookup Field =||= Description =||
+||trakt_ep_images|| Dict of available images, More information [#info1 'here']
 ----
 '''Movie Metainfo'''
-
+||= Trakt_lookup Field =||= Description =||
 ||movie_name||Movie name||
 ||movie_year||Production year||
 ||trakt_name||Trakt movie title||
 ||trakt_year||Trakt production year||
-||trakt_movie_id||Movie Trakt.tv ID||
-||trakt_movie_slug||Movie Trakt.tv slug||
+||trakt_id||Movie Trakt.tv ID||
+||trakt_slug||Movie Trakt.tv slug||
 ||imdb_id||IMDB ID||
 ||tmdb_id||TMDB ID||
 ||trakt_tagline||Trakt tagline||
@@ -91,7 +101,18 @@ This plugin populates fields on entries that have been identified as series by !
 ||trakt_movie_actors||Movie actors||
 ||trakt_watched||`True` if watched on `username`'s profile||
 ||trakt_collected||`True` if collected on `username`'s profile||
+`New to Movies`
+||= Trakt_lookup Field =||= Description =||
+||trakt_homepage|| Network's page for linking||
+||trakt_trailer|| Trailer if available||
+||trakt_languages|| List of available translations||
+||trakt_translations|| Dict of all translations from languages||
+||trakt_images|| Dict of all images available, More from [#info1 'here']||
 ----
+[=#info1 Trakt Api Images][[http://docs.trakt.apiary.io/#introduction/images]]
+
+'Check out more information at' [[http://docs.trakt.apiary.io/#introduction/standard-media-objects| 'Trakt api']]
+
 '''trakt_watched and trakt_collected'''[[BR]]
 
 If you specify an `account`/`username` in your config, two more fields are enabled `trakt_watched` and `trakt_collected`. These fields are set to `True` if the episode or movie entry has been marked as watched or collected respectively on the Trakt.tv account associated with `username`.
