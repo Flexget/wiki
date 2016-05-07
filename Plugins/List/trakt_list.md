@@ -2,7 +2,7 @@
 
 This plugin is a [wiki:Plugins/List list_interface] plugin.
 
-'''IMPORTANT: Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
+'''IMPORTANT: Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your Trakt.tv account.'''
 
 This plugin creates an [wiki:Entry Entry] for each movie/show in one of the available [http://trakt.tv trakt.tv] lists.
 
@@ -10,6 +10,7 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/Lis
 
 '''Notes:''' 
 
+ * '''IMPORTANT''': When manipulating Trakt lists online you have to use OAuth ie. have authorized Flexget to access your Trakt account.
  * Like with other APIs used by !FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
  * Adding this plugin to your movie tasks or preset will NOT cause movies or series in the trakt list to be accepted since this is an input, not a filter.
  * If your trakt lists are not publicly available, you will need to authorize your account via the `flexget trakt auth` CLI command, then specify the '''account''' in your trakt configuration. 
@@ -23,7 +24,7 @@ Currently the following settings are supported:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''username'''||This is the username at [http://trakt.tv trakt.tv] which owns the list. If `account` is specified, this will default to the owner of said account.||
-||'''account'''||This is only required if the profile is protected, or to get private custom lists. It should be created via the `flexget trakt auth` CLI command.||
+||'''account'''||This is '''required''' if the profile is protected or to get private custom lists or manipulating lists eg. adding a movie to the list. It should be created via the `flexget trakt auth` CLI command.||
 ||'''strip_dates'''||If set to {{{yes}}} the year will be removed from the end of titles that contain them.||
 ||'''list'''||Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, or `watched`
 ||'''type'''||Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`
@@ -78,8 +79,9 @@ trakt_list:
 accept_all: yes
 list_add:
   - trakt_list:
+      account: a_different_username
       username: a_different_username
       list: watchlist
       type: movies
 }}}
-For more information about list action go to the [wiki:list_interface list_interface] page.
+For more information about list action go to the [wiki:Plugins/List list_interface] page.
