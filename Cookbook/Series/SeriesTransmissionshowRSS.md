@@ -2,7 +2,7 @@ This configuration is to be used with the a website like [http://showrss.karmorr
 
 Let's say a new series you fancy comes out and you want to add it to your download list, instead of opening your configuration file and add it manually (while being prone to all sorts of syntax errors) your go to your showRSS account and add it there, this configuration will fetch all the series it finds from your personal feed at showRSS, download them and organise them with the episode name inside the series folder.
 
-Of course this works will other feeds as well, but the sake of demonstration showRSS is used.
+Of course this works will other feeds as well, but the sake of demonstration showRSS is used.  The second example handles a couple gotchas with samples and another way to make sure the sorting tasks does not reject files
 
 
 {{{
