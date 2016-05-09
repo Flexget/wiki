@@ -239,7 +239,6 @@ Use accepted entries as an input for various !FlexGet plugins such as add to mov
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
 ||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
-||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 ||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to another list plugin.||
 ||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries to another list plugin.||
 
