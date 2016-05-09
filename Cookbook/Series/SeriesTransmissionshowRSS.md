@@ -44,7 +44,81 @@ tasks:
 
 For the complete configuration with Transmission refer to [wiki:Series/SeriesPresetMultipleRSStoTransmission Transmission setup] and use this configuration in ''~/.flexget/config.yml'' file.
 
+== Modified Previous Setup with Kodi Library updates ==
 
+The example below is modified from above to add a few other details.  Ignore samples, cleaning up transmission and using series groups to apply '''parse_only''' because '''accept_all''' did not work for some odd reasion (Currently on flexget 2.0.15)
+
+{{{
+tasks:
+  # downloading task and remove finished torrents
+  # called via cron every 30 minutes.
+  # 0,30 * * * * /usr/local/bin/flexget -l /tmp/flexget.log execute --tasks=download-showrss 
+  download-showrss:
+    rss:
+      url: http://showrss.info/user/MYID.rss?magnets=true&namespaces=true&name=clean&quality=null&re=null
+    all_series: yes
+    transmission: yes
+    # you can't delete from transmission immediately anymore, you have to wait until your own transmission seed limits allow
+    clean_transmission:
+      host: localhost
+      port: 9091
+      delete_files: yes
+      transmission_seed_limits: yes
+  # sorting task called on torrent done
+  sort-shows:
+    filesystem:
+      path: /home/htpc/torrent/complete/
+      regexp: '.*\.(avi|mkv|mp4)$'
+      recursive: yes
+    accept_all: yes
+    # ignore sample videos that will otherwise cause errors
+    regexp:
+      reject:
+        - sample
+    # the only way to apply parse_only to every series is to use series groups.  all_series didn't work for me
+    series:
+      settings:
+        group 1:
+          parse_only: yes
+      group 1: 
+        - Scandal (2012):
+            alternate_name: Scandal US
+        - Once Upon a Time (2011):
+            alternate_name: Once Upon a Time
+        - House of Cards (US):
+            alternate_name: House of Cards 2013
+        - Last Man Standing (2011):
+            alternate_name: Last Man Standing US
+        - South Park
+        - Modern Family
+        - The Middle
+        - Game of Thrones
+        - Homeland
+        - Orange Is the New Black
+        - The Fall
+        - Better Call Saul
+        - Luther
+        - Silicon Valley
+        - Community
+        - True Detective
+        - Ballers
+        - Narcos
+        - The X Files
+        - Making a Murderer
+        - American Crime Story
+    thetvdb_lookup: yes
+    # using copy instead of move to allow seeding and clean_transmission to remove when done
+    copy:
+      to: /home/htpc/Videos/TV Shows/{{ tvdb_series_name }}/
+      filename: '{{ tvdb_series_name }}.{{ tvdb_ep_id }}'
+    kodi_library:
+      action: scan
+      category: video
+      url: http://localhost
+      username: kodi
+      password: secret
+      port: 8080
+}}}
 
 
 == Alternative simple setup ==
