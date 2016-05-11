@@ -1,6 +1,5 @@
 = Recipes for movies =
 
-* [wiki:Cookbook/Movies/Rlslog Download movies from RlsLog with Imdb filtering]
 * [wiki:Cookbook/Movies/TraktList Queue movies from your trakt.tv IMDb watchlist]
 * [wiki:Cookbook/Movies/discoverfeed Download movies by adding them to your trakt.tv watchlist (with search based discover feed)]
 * [wiki:Cookbook/Movies/MyMoviesRSS Generate my (unwatched) movies list with Imdb details]
