@@ -102,7 +102,7 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. filesystem, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`DEPRECATED` Emit your [wiki:Plugins/movie_queue movie_queue], useful for example with [wiki:Plugins/discover discover].||
+movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
@@ -118,7 +118,6 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
-||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Accept movies from movie queue.||
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
@@ -137,6 +136,7 @@ Filters based on content's metadata such as size and quality
 
 Filters based on preexisting data or operations within !FlexGet
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/duplicates duplicates]||Perform action based on duplicate entries by a field.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
 ||[wiki:Plugins/only_new only_new]||Causes all entries that were in the task on the previous run to be rejected at the input phase.||
 ||[wiki:Plugins/require_field require_field]||Reject entries that do not have the specified fields.||
@@ -212,8 +212,6 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 ||[wiki:Plugins/thetvdb_add thetvdb_add]||Add accepted series to user's thetvdb.com favorites.||
 ||[wiki:Plugins/thetvdb_remove thetvdb_remove]||Remove accepted series from user's thetvdb.com favorites.||
 ||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
-||[wiki:Plugins/trakt_add trakt_add]||`DEPRECATED` Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_remove trakt_remove]||`DEPRECATED` Remove accepted episodes/movies from a list on trakt.tv.||
 ||[wiki:Plugins/kodi_library kodi_library]||Send clean/scan requests to a remote/local Kodi server.||
 
 === Notifier services output ===
@@ -237,7 +235,6 @@ Send accepted entries to notification services.
 Use accepted entries as an input for various !FlexGet plugins such as add to movie queue, set series begin & etc.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
-||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
 ||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to another list plugin.||
 ||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries to another list plugin.||
@@ -378,3 +375,12 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
 ||[https://github.com/jawilson/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific, no longer working, custom movie filter by jawilson.||
+
+== Deprecated ==
+
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`DEPRECATED` Emit your [wiki:Plugins/movie_queue 
+||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Accept movies from movie queue.||
+||[wiki:Plugins/trakt_add trakt_add]||`DEPRECATED` Add accepted episodes/movies to a list on trakt.tv.||
+||[wiki:Plugins/trakt_remove trakt_remove]||`DEPRECATED` Remove accepted episodes/movies from a list on trakt.tv.||
+||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
+
