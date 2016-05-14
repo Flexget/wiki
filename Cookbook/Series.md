@@ -24,7 +24,7 @@
 * [wiki:Cookbook/Series/SeriesSabNZBd Set category from series name with sabnzbd]
 * [wiki:Cookbook/Series/next-episode Use next-episode.net as input for import_series]
 * [wiki:Cookbook/Series/SeriesPresetMultipleRSStoTransmission Transmission - Single series list in one template from multiple RSS feeds to Transmission with propers, quality, separate path per series]
-* [wiki:Cookbook/Series/SeriesTransmissionshowRSSkodi showRSS to Transmission, file copying/renamming from TVDB and updating Kodi]
+* [wiki:Cookbook/Series/SeriesTransmissionshowRSSkodi showRSS to Transmission, file copying/renaming from TVDB and updating Kodi]
 * [wiki:Cookbook/Series/SeriesTransmissionshowRSS Transmission with showRSS: manage your series from showRSS website without messing with the configuration file]
 * [wiki:Cookbook/Series/PlexToPlexDownload Download episodes from a remote PMS by using local PMS as input]
 * [wiki:Cookbook/Series/DiscoverSeriesWithNewznab Download nzb for series episodes from a newznab website]
