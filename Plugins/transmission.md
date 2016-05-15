@@ -69,6 +69,7 @@ transmission:
 ||rename_like_files||[Yes|No]||If enabled, file patterns matching the main file will be renamed according to 'content_filename'||
 ||include_files||Pattern [Single|List]||Will include file patterns if they have been excluded by 'main_file_only'. For patterns [wiki:content_filter see here]||
 ||skip_files||Pattern [Single|List]||Will 'skip' file patterns if main_file_only is not enabled OR the main_file_only requirement isn't met in the torrent. For patterns [wiki:content_filter see here]||
+||queue_position||Number||Will set the torrent's position in the queue to the specified number, where 0 is the top of the queue||
 
 To use all default values use this config form:
 {{{
