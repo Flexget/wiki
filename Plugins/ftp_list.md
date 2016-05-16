@@ -1,6 +1,6 @@
 
 == ftp_list ==
-Generate entries from a remote FTP server. Entries can be downloaded via ftp_download plugin or by passing it to other output plugins. See examples for details.
+Generate entries from a remote FTP server. Entries can be downloaded via [wiki:Plugins/ftp_download ftp_download] plugin or by passing it to other output plugins. See examples for details.
 
 == Plugin Settings ==
 
