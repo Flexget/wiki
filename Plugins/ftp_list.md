@@ -1,6 +1,8 @@
 
-== ftp_list ==
+== FTP List ==
 Generate entries from a remote FTP server. Entries can be downloaded via [wiki:Plugins/ftp_download ftp_download] plugin or by passing it to other output plugins. See examples for details.
+
+'''Note''': This plugin requires a 3rd party called [http://ftputil.sschwarzer.net/trac/wiki/WikiStart ftputil]. `pip install ftputil` in order to use.
 
 == Plugin Settings ==
 
