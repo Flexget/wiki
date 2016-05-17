@@ -119,33 +119,34 @@ $ flexget movie-list all
 === List movies from movie lists ===
 
 {{{
-$ flexget movie-list list -l <LIST_NAME>
+$ flexget movie-list list <LIST_NAME>
 }}}
 
+'''Note:''' If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
 === Add or Update a movie to or from a movie list ===
 
 Using a title is require. You can also add additional identifiers in the following format:
 
 {{{
-$ flexget movie-list add -l <LIST_NAME> -t <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
+$ flexget movie-list add <LIST_NAME> <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
 }}}
 
-Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.
-
-If a movie list does not exist it will be created.
-
-If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given).
+Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.[[br]]
+If the specified movie list does not exist it will be created.[[br]]
+If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given). [[br]]
+Movies will be looked up from [http://www.imdb.com IMDB] on add, with a fallback to [http://www.tmdb.com TMDB]. If both lookups fail, the movie will not be added to the list.[[br]]
+If a movie is added with identifiers, those will take precedence in the lookup before using its title.
 
 === Removing a movie from movie list ===
 
 {{{
-$ flexget movie-list del -l <LIST_NAME> -t <MOVIE_TITLE>
+$ flexget movie-list del <LIST_NAME> <MOVIE_TITLE>
 }}}
 
 === Clearing an entire movie list ===
 
 {{{
-$ flexget movie-list purge -l <LIST_NAME>
+$ flexget movie-list purge <LIST_NAME>
 }}}
 
 
