@@ -27,6 +27,7 @@ discover:
       - kat:
           verified: yes
       - torrentz: verified
+imdb_lookup: yes
 list_queue:
   - movie_list: Looking
 download: /downloads/
