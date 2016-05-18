@@ -20,7 +20,7 @@ tasks:
       password: password
   # sorting task
   sort-files:
-    find:
+    filesystem:
       # directory with the files to be sorted
       path: /home/solenoid/Downloads/
       # fetch all avi, mkv and mp4 files, skips the .part files (unfinished torrents)
