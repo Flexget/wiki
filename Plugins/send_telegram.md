@@ -60,15 +60,6 @@ telegram:
       {%- endif -%}
 }}}
 
-
-== Bootstrapping and testing the bot ==
-
-* Execute: `flexget send_telegram bootstrap`.
-  Look at the console output and make sure that the operation was successful.
-* Execute: `flexget send_telegram test-msg`.
-  This will send a test message for every recipient you've configured.
-
-
 == Configuration notes ==
 
 You may use any combination of recipients types (`username`, `group` or `fullname`) - 0 or more of each (but you
