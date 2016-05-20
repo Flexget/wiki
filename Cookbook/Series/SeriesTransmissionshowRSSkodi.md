@@ -1,4 +1,4 @@
-This configuration is to be used with the a website like [http://new.showrss.info/ showRSS] where you choose which series you want to watch.  Flexget will grab all the series every 30 minutes, send them to Transmission to download and when the download is complete, Flexget is called again to copy and rename all the files in the download directory and finally tell Kodi to update its video library. 
+This configuration is to be used with the a website like [http://new.showrss.info/ showRSS] where you choose which series you want to watch.  Flexget will grab all the series every 30 minutes and send them to Transmission to download.  When the download is complete, Flexget is called again to copy and rename all the files in the download directory.  Finally Flexget tells Kodi to update its video library. 
 
 
 == config.yml ==
