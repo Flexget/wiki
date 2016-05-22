@@ -9,3 +9,9 @@ Requires cfscrape and a Javascript engine. Simply follow the installation instru
 {{{
 cfscraper: yes
 }}}
+
+If execution fails, then you may have to install cfscrape from git. Do the following
+{{{
+pip uninstall cfscrape
+pip install https://github.com/Anorov/cloudflare-scrape/zipball/master
+}}}
