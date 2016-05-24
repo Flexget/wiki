@@ -2,7 +2,7 @@
 
 Download subtitles for entries referred to existing video files.
 
-This plugin requires the subliminal v1.0.1 library. To install it run the follwing
+This plugin requires the subliminal >=2.0rc1 library. To install it run the follwing
 
 {{{
 pip install subliminal==2.0rc1
