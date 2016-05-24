@@ -159,6 +159,7 @@ Filters based specifically for torrents
 Filters that will accept/reject entries based on logical statements or simple file operations
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
+||[wiki:Plugins/archives archives]||Accept, reject entries based on if they're valid ZIP/RAR archives.||
 ||[wiki:Plugins/exists exists]||Reject entries based on existing files in filesystem.||
 ||[wiki:Plugins/exists_series exists_series]||Reject entries based on existing series in filesystem.||
 ||[wiki:Plugins/exists_movie exists_movie]||Reject entries based on existing movies in filesystem.||
@@ -383,4 +384,3 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 ||[wiki:Plugins/trakt_add trakt_add]||`DEPRECATED` Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_remove trakt_remove]||`DEPRECATED` Remove accepted episodes/movies from a list on trakt.tv.||
 ||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
-
