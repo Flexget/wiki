@@ -1,9 +1,10 @@
-'''Note:''' This config is currently outdated, and therefore slightly borked. Feel free to take inspiration from it, but it won't work 100% after copy-paste.
+'''Note:''' The packs-grabber config is currently outdated, and therefore slightly borked. Feel free to take inspiration from it, but it won't work 100% after copy-paste. The general purpose config is in working condition however as of 2.0.23[[BR]]
+
+'''Note 2:''' It is important that you have either Plex or Kodi and are able to run the Trakt scrobbler on them. Without the scrobbler you'll see some wonky behaviour.
 
 == Intro ==
 
 Many private trackers have a rule that when a season is finished, all episodes are removed from it, and a season pack is created, often in a separate category like "Archive".
-
 This config effectively downloads all season packs of a show you are following.
 
 '''Pros:'''
@@ -102,184 +103,341 @@ tasks:
     template: transmit-series
 }}}
 
-Notices about the packs config:
+Notes about the packs config:
 - It is important that you are using a private tracker with good torrent structure. Using a public tracker like piratebay is _most likely_ going to cause problems.
 - You'll need to create a secrets.yml file alongside this config.
+[[BR]]
+[[BR]]
+[[BR]]
 
-If you want a decent episode and movie downloading config to go alongside this, please use the below:
+== If you want a decent episode and movie downloading config to go alongside this, please use the below which features: ==
+
+- Runs as a daemon. Execute it with 
+{{{
+flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize
+}}}
+
+- Retrieving movies/shows from the trakt watchlist and putting them in a seperate list so they won't disappear (meaning you only ever have to add shows to the watchlist when adding shows, convenience)
+- Figures out which episode to download next thanks to scrobbling, aka no need to look into the filesystem where your media is
+- Downloading shows/movies
+- Clean up ended and downloaded shows from the lists so flexget doesn't have to keep searching for them
+- Has an untested file delete task for shows/movies you haven't literally touched in a long time
 
 == General Purpose Config using Trakt.tv ==
 {{{
-#Make sure to run as --discover-now --no-cache
 secrets: secrets.yml
+
+#run with 'flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize'
+#set webui password with 'flexget -c config.yml web passwd <some_password>'
+#set trakt access with 'flexget -c config.yml trakt auth <your_account_name>'
+
+#web_server:
+#  bind: 0.0.0.0
+#  port: 3540
+#api: yes
+#webui: yes
+
+schedules:
+  - tasks: [copy_trakt_watchlist, copy_trakt_watchlist_movies, fill_movie_list, get_movies_720p, get_series_begin, get_series]
+    interval:
+      hours: 2
+  - tasks: [clean_trakt_movies_list, clean_trakt_shows_list, clean_trakt_shows_backlog_list]
+    interval:
+      days: 5
+
 templates:
   global:
-    torrent_alive: yes #number of seeders needed to accept
     retry_failed:
       retry_time: 5 minutes # Base time in between retries
       retry_time_multiplier: 1 # Amount retry time will be multiplied by after each successive failure
-      max_retries: 15 # Number of times the entry will be retried
+      max_retries: 25 # Number of times the entry will be retried
+  get_series_standards:
+    torrent_alive: yes #number of seeders needed to accept
+    domain_delay:
+      sceneaccess.eu: 30 seconds
+      sceneaccess.org: 30 seconds
+    content_size:
+      max: 5000
+      min: 60
   transmit-movies:
     transmission:
       host: '{{ secrets.transmission.host }}'
       port: 9091
       username: '{{ secrets.transmission.username }}'
       password: '{{ secrets.transmission.password }}'
-      path: '/volume1/Disk1/Library/Transmission/Uncategorized/Movies/'
+      path: '{{ secrets.transmission.download_path_movies }}'
   transmit-series:
     transmission:
       host: '{{ secrets.transmission.host }}'
       port: 9091
       username: '{{ secrets.transmission.username }}'
       password: '{{ secrets.transmission.password }}'
-      path: '/volume1/Disk1/Library/Transmission/Uncategorized/TV Shows/'
+      path: '{{ secrets.transmission.download_path_shows }}'
   download-movie:
-    verify_ssl_certificates: no
     discover:
       what:
-        - emit_movie_queue: yes
+        - movie_list: 'movies from trakt'
       from:
+        #- torrentleech:
+            #rss_key: '{{ secrets.torrentleech.rss_key }}'
+            #username: '{{ secrets.torrentleech.username }}'
+            #password: '{{ secrets.torrentleech.password }}'
         - sceneaccess:
             username: '{{ secrets.sceneaccess.username }}'
             password: '{{ secrets.sceneaccess.password }}'
-            gravity_multiplier: 200
+            gravity_multiplier: 100
             category:
               browse:
                 - Movies/x264
               archive:
                 - Movies/Packs
-    movie_queue: accept
+
+      #ignore_estimations: no
     set:
       content_filename: "{{ imdb_name|replace('/', '_')|replace(':', ' -') }} ({{ imdb_year }}) - {{ quality }}"
-    template: transmit-movies
-
+    template:
+      - transmit-movies
+  download-show:
+    discover:
+      what:
+        - emit_series: yes
+            #from_start: yes backfill: no
+      from:
+        #- torrentleech:
+            #rss_key: '{{ secrets.torrentleech.rss_key }}'
+            #username: '{{ secrets.torrentleech.username }}'
+            #password: '{{ secrets.torrentleech.password }}'
+        - sceneaccess:
+            username: '{{ secrets.sceneaccess.username }}'
+            password: '{{ secrets.sceneaccess.password }}'
+            gravity_multiplier: 100
+            category:
+              browse:
+                - TV/HD-x264
+      release_estimations: strict #only download those with air dates
+    set:
+      content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
+    template:
+      - transmit-series
 tasks:
-  fill_movie_queue:
+  copy_trakt_watchlist:
     priority: 1
+    disable: seen
     trakt_list:
       username: '{{ secrets.trakt.username }}'
-      password: '{{ secrets.trakt.password }}'
+      account: '{{ secrets.trakt.account }}'
       list: watchlist
-      #strip_dates: yes
+      type: shows
+    accept_all: yes
+    list_add:
+      - trakt_list:
+          username: '{{ secrets.trakt.username }}'
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.shows_follow }}'
+  copy_trakt_watchlist_movies:
+    priority: 2
+    disable: seen
+
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    trakt_list:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: watchlist
       type: movies
     accept_all: yes
-    movie_queue: add
-
-  #Last resort if movie can't be found
-  get_movies_720p:
-    priority: 2
-    content_size:
-      max: 15360
-      min: 1024
-    exists_movie:
-      - /volume1/Disk1/Library/Movies
-    #assume_quality: 720p bluray #in case of REALLY long titles
-    quality: 480p-720p bluray+
-    movie_queue: accept
-    template: download-movie
-
-  get_series:
-    priority: 3
-    content_size:
-      max: 3072
-      min: 60
-    exists_series:
-      - /volume1/Disk1/Library/TV Shows/
-    regexp:
-      reject:
-        - FASTSUB #French
-        - VOSTFR #French
-        - Subtitulado #Spanish
-        - Special-Wicked #Special trailer episodes from Once Upon a Time
-        - Magazine #No magazines on Arrow, thank you.
-        - NLsubs
-    content_filter:
-      reject:
-        - '*.avi' #Uhgg Jak!
-    verify_ssl_certificates: no
-    discover:
-      what:
-        - emit_series:
-            from_start: yes
-            backfill: yes
-      from:
-        - sceneaccess:
-            username: '{{ secrets.sceneaccess.username }}'
-            password: '{{ secrets.sceneaccess.password }}'
-            gravity_multiplier: 200
-            category:
-              browse:
-                - TV/HD-x264
-    configure_series:
-      from:
-        trakt_list:
+    if:
+      - trakt_collected: reject
+    list_add:
+      - trakt_list:
           username: '{{ secrets.trakt.username }}'
-          password: '{{ secrets.trakt.password }}'
-          list: watchlist
-          type: shows
-        listdir:
-          - /volume1/Disk1/Library/TV Shows
-      settings:
-        quality: 480p-720p <=hdtv
-        identified_by: ep
-        exact: yes
-    set:
-      content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
-    template: transmit-series
-
-  get_series_stripyear:
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.movies_get }}'
+  fill_movie_list:
+    priority: 3
+    trakt_list:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: '{{ secrets.trakt_lists.movies_get }}'
+      type: movies
+    accept_all: yes
+    list_add:
+      - movie_list: 'movies from trakt'
+  get_movies_720p:
+    torrent_alive: yes #number of seeders needed to accept
     priority: 4
     content_size:
-      max: 3072
-      min: 60
-    exists_series:
-      - /volume1/Disk1/Library/TV Shows/
-    regexp:
-      reject:
-        - FASTSUB #French
-        - VOSTFR #French
-        - Subtitulado #Spanish
-        - Special-Wicked #Special trailer episodes from Once Upon a Time
-        - Magazine #No magazines on Arrow, thank you.
-        - NLsubs
-    content_filter:
-      reject:
-        - '*.avi' #Uhgg Jak!
-    verify_ssl_certificates: no
-    discover:
-      what:
-        - emit_series:
-            from_start: yes
-            backfill: yes
-      from:
-        - sceneaccess:
-            username: '{{ secrets.sceneaccess.username }}'
-            password: '{{ secrets.sceneaccess.password }}'
-            gravity_multiplier: 200
-            category:
-              browse:
-                - TV/HD-x264
+      max: 23040
+      min: 1024
+    quality: 720p bluray+
+    template: download-movie
+  get_series_begin:
+    priority: 5
+    disable: seen
+    trakt_emit:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: '{{ secrets.trakt_lists.shows_follow }}'
+      context: collected
+      position: next
+    accept_all: yes
+    set_series_begin: yes
+  get_series:
+    priority: 6
     configure_series:
+      settings:
+        #quality: 720p hdtv+
+        timeframe: 6 hours
+        target: 720p hdtv
+        identified_by: ep
+        exact: yes
       from:
         trakt_list:
           username: '{{ secrets.trakt.username }}'
-          password: '{{ secrets.trakt.password }}'
-          list: watchlist
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.shows_follow }}'
           type: shows
-          strip_dates: yes
-        listdir:
-          - /volume1/Disk1/Library/TV Shows
+    template:
+      - get_series_standards
+      - download-show
+
+  get_series_direct:
+    manual: yes
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    configure_series:
       settings:
-        quality: 480p-720p <=hdtv
-        identified_by: ep
+        quality: 720p hdtv+
         exact: yes
-    set:
-      content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
+      from:
+        trakt_list:
+          username: '{{ secrets.trakt.username }}'
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.shows_follow }}'
+          type: shows
     template: transmit-series
+
+  get_movies_direct:
+    manual: yes
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    content_size:
+      max: 23040
+      min: 1024
+    quality: 720p bluray+
+    list_queue:
+      - movie_list: 'movies from trakt'
+    template: transmit-movies
+
+  # MANUAL TASKS BELOW
+
+  clean_trakt_movies_list:
+    priority: 8
+    disable:
+      - seen
+      - movie_queue
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    trakt_list:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: '{{ secrets.trakt_lists.movies_get }}'
+      type: movies
+      strip_dates: yes
+    if:
+      - trakt_collected: accept
+    list_remove:
+      - movie_list: 'movies from trakt'
+      - trakt_list:
+          username: '{{ secrets.trakt.username }}'
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.movies_get }}'
+
+  clean_trakt_shows_list:
+    priority: 9
+    disable: seen
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    trakt_list:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: '{{ secrets.trakt_lists.shows_follow }}'
+      type: shows
+      strip_dates: yes
+    if:
+      - trakt_collected and (trakt_series_status == 'ended' or trakt_series_status == 'cancelled'): accept
+    list_remove:
+      - trakt_list:
+          username: '{{ secrets.trakt.username }}'
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.shows_follow }}'
+
+  clean_trakt_shows_backlog_list:
+    priority: 10
+    disable: seen
+    trakt_lookup:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+    trakt_list:
+      username: '{{ secrets.trakt.username }}'
+      account: '{{ secrets.trakt.account }}'
+      list: '{{ secrets.trakt_lists.shows_backlog }}'
+      type: shows
+      strip_dates: yes
+    if:
+      - trakt_collected and (trakt_series_status == 'ended' or trakt_series_status == 'cancelled'): accept
+    list_remove:
+      - trakt_list:
+          username: '{{ secrets.trakt.username }}'
+          account: '{{ secrets.trakt.account }}'
+          list: '{{ secrets.trakt_lists.shows_backlog }}'
+
+  old_files:
+    manual: yes
+    disable:
+      #- builtins
+      - backlog
+      - seen
+      - retry_failed
+    limit_new: 1     
+    filesystem:
+      path:
+        - /home/qvazzler/testdir/
+      retrieve:
+        #- files
+        - dirs
+      #regexp: '.+\..+'
+
+    age:
+      field: 'accessed'
+      age: '1 second'
+      action: 'accept'
+
+    set:
+      series_name: "{{'title'}}"
+
+    trakt_lookup:
+      account: '{{ secrets.trakt.account }}'
+      username: '{{ secrets.trakt.username }}'
+
+    if:
+      - trakt_watched == False: reject
+
+    #exec:    
+      #on_exit:
+        #for_accepted: rm -r '{{location}}'
 }}}
 
-Notices about both of my configs:
-- I don't need to worry about where to put my files as I have a bash script that executes Filebot on the files.
-- You will probably not be able to copy this config directly. Please make edits where suitable for you.
+Notes about the general purpose config:
+- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [http://flexget.com/wiki/Web-UI])
+- The General purpose config will clean up entries from your lists that have been watched already.
+- The old_files task is UNTESTED! Use with caution.
 
-Finally, if you have any questions about this config, feel free to add me on steam (qvazzler), alternatively Skype (qvazzler)
+Notes about both of my configs:
+- I don't need to worry about where to put my files as I have a bash script that executes Filebot on the files. You might need to modify based on your own needs here.
+- You will most likely not be able to copy this config directly. Please make edits where suitable for you.
