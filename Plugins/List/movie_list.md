@@ -11,6 +11,12 @@ Stores a copy of an entry that was added to it if that entry contains the follow
 {{{
 movie_list: <NAME>
 }}}
+Or:
+{{{
+movie_list: 
+  list_name: <NAME> (Required)
+  strip_year: <BOOL> (Optional)
+}}}
 
 === Usage ===
 
@@ -62,7 +68,7 @@ list_add:
 Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
 
 {{{
-720p_movies_from_movie_queue:
+movies_from_movie_queue:
   emit_movie_queue: yes
   accept_all: yes
   list_add:
@@ -89,6 +95,23 @@ discover_task:
   discover:
     what:
       - movie_list: movie list name
+    from:
+      - kat: opts
+  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
+  imdb_lookup: # movie-list requires entries with a recognizable attribute, as mentioned at the top
+  list_queue:
+    - movie_list: movie list name
+  download: /path/to/download
+}}}
+
+'''Strip Year option''': It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
+{{{
+discover_task:
+  discover:
+    what:
+      - movie_list: 
+          list_name: movie list name
+          strip_year: yes
     from:
       - kat: opts
   quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
