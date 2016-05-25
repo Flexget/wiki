@@ -18,6 +18,7 @@ movie_list:
   strip_year: <BOOL> (Optional)
 }}}
 
+'''Clarification''': By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` '''OUTPUTS''' the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [wiki:Plugins/discover discover] plugin.
 === Usage ===
 
 As a [wiki:Plugins/List list_interface] plugin it follows the same list actions:
