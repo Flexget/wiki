@@ -97,4 +97,20 @@ gulp serve --server <flexget_api:port>
 }}}
 
 
+= Testing =
 
+We have recently started adding tests to our existing parts of the UI. Currently they reside in a PR [https://github.com/Flexget/Flexget/pull/1206] until the refactoring and setting up is done.
+
+The tests can be run be using {{{ karma start }}} or {{{ npm test }}} commands in the UI folder (/flexget/ui).
+
+There is also a browser version available that can be started by using {{{ gulp serve-specs }}}, this will open a web browser to the address {{{ localhost:5050 }}} in which all the tests are compiled and ran. Selecting a subsection of the tests will allow you to filter down and only run the tests you want to focus on.
+
+The frameworks currently used for the tests are:[[BR]]
+
+- Karma: [http://karma-runner.github.io/0.13/index.html]
+- Mocha: [https://mochajs.org]
+- Sinon: [http://sinonjs.org]
+- Chai: [http://chaijs.com]
+- Bardjs: [https://github.com/wardbell/bardjs]
+
+If you have any more questions regarding testing of the different parts and modules of the UI, you can ask them in our Gitter chat [https://gitter.im/Flexget/Flexget]
