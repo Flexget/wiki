@@ -14,6 +14,7 @@
 ||[wiki:Searches/iptorrents iptorrents]||Generates entries from [http://iptorrents.com iptorrents.com]||
 ||[wiki:Searches/isohunt isohunt]||Generates entries from [http://isohunt.com isohunt.com]||
 ||[wiki:Searches/kat kat]||Generate entries from [http://kat.ph kat.ph]||
+||[wiki:Searches/morethantv morethantv]||Generates entries from [http://morethan.tv morethan.tv], also known as mtv||
 ||newtorrents||Generates entries from [http://newtorrents.info newtorrents.info]||
 ||newzleech||Broken as Newzleech.com is no more||
 ||[wiki:Searches/urlrewrite_newznab newznab]||Generates entries from [http://newznab.com newznab.com]||
