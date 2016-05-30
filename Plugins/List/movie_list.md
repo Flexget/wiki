@@ -4,7 +4,7 @@ This plugin is a [wiki:Plugins/List/ list_interface] plugin.
 
 Stores a copy of an entry that was added to it if that entry contains the following attributes: `imdb_id`, `trakt_movie_id` or `tmdb_id`. This plugin replaces the now deprecated [wiki:Plugins/movie_queue movie_queue]. As opposed to [wiki:Plugins/movie_queue movie_queue], `movie_list` does not store quality or download status.
 
-'''Note:''' When matching against `movie_list`, either with [wiki:Plugins/List/list_accept list_accept] or [wiki:Plugins/List/list_queue list_queue] the matched entries must have one of the aforementioned attributes, so consider using a lookup plugin like [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/trakt_lookup trakt_lookup] and etc. 
+[[span(style=color: #FF0000, **Important note** )]]: When matching against `movie_list`, either with [wiki:Plugins/List/list_accept list_accept] or [wiki:Plugins/List/list_queue list_queue] the matched entries '''MUST''' have one of the aforementioned attributes, so consider using a lookup plugin like [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/trakt_lookup trakt_lookup] and etc. 
 
 === Schema ===
 
