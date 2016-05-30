@@ -8,8 +8,7 @@ This plugin is useful for example when used in a task with the [wiki:Plugins/Lis
 
 '''Notes:''' 
 
- * Like with other APIs used by !FlexGet the IMDb list is cached for 2 hours to avoid hammering.
- * List must be public.
+ * In order to avoid IMDB lockout due to hammering, credentials are cached to DB on first successful login and are used with every call to the plugin after that. (Password itself is not saved, just the login, resolved user ID and generated cookies)
  * When matching against the list, it will skip any entry that does not have an `imdb_id`, so using `imdb_lookup: yes` is advised.
 
 '''Example:'''
