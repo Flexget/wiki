@@ -23,6 +23,7 @@ tasks:
       regexp: '.*\.(avi|mkv|mp4)$'
       recursive: yes
     accept_all: yes
+    disable: seen
     regexp:
       reject:
         - sample
@@ -102,6 +103,7 @@ content:
 
  - [wiki:Plugins/filesystem filesystem]: Go through the directory where Transmission downloads and find video files
  - [wiki:Plugins/accept_all accept_all]: We don't want to reject anything that has been downloaded
+ - [wiki:Plugins/disable disable]: Disable the '''seen''' plugin since we may want to re-download a show manually
  - [wiki:Plugins/regexp regexp]: Ignore video samples
  - [wiki:Plugins/series series]: The series plugin is used to list all of the shows we want to go through.  Since we do not want anything rejected, we have to set the '''parse_only''' option.  To apply that option to every series we need to create a group and apply the setting to the group.  [wiki:Plugins/all_series all_series] with '''parse_only''' did not work for some reason.
  - [wiki:Plugins/thetvdb_lookup thetvdb_lookup]: Look up the file naming so that Kodi with scrape properly
