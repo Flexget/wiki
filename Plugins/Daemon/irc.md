@@ -14,7 +14,7 @@ Unlike web crawling like most other search plugins, the bot will instead await t
 
 === Settings ===
 ||= Option =||= Description =||=Example=||
-||'''tracker_file'''|| ''(required)'' Path to the tracker file you downloaded specifically for your tracker || '/absolute/path/to/trackerfile' ||
+||'''tracker_file'''|| ''(required, unless server+channels+port are all specified)'' Path to the tracker file you downloaded specifically for your tracker || '/absolute/path/to/trackerfile' ||
 ||'''task'''|| ''(required)'' Task to execute and send entry to ||get_entry ||
 ||'''nickname'''|| ''(required)'' Specify your nickname. Careful to follow tracker conventions or get banned. ||myusername-bot ||
 ||'''server'''|| Explicitly specify server address || irc.someplace.net ||
@@ -60,11 +60,11 @@ tasks:
 
 
 === Known Issues ===
-* If the IRC fails to connect due to wrong port, it simply stalls. Pay close attention to your configuration and have a peek inside the tracker file you downloaded, as values in there can change over different trackers.
 * May fail to reconnect under certain conditions or crash. Should be worked out now that the irc daemon restarts the connection after a very short period.
 
 === Tips ===
 * Fields in the tracker file for you to use if/regex with in the task are prefixed with {{{ irc_ }}}. Example: {{{ irc_category }}}
 * Passkey, rsskey, user, uid, the fields you need to specify all vary depending on the tracker, not do they originate from the irc daemon. Pay extremely close attention to the trackerfile.
 * If you are using multiple configs, you'll need to use daemon on all of them, then combine exec, some bash scripting, web ui and web api to distribute the announce event to the different flexget daemons running diff. configs.
+* It is _technically_ possible to run this without a tracker file, but then you'd lose the irc_ prefixed fields. If the message is more than an URL, be prepared to use the manipulate plugin.
 * cvium is still accepting bug reports. This functionality should still be considered experimental.
