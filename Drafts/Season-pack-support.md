@@ -50,3 +50,8 @@ series:
   - My Series:
       season_packs: 1,2,5-6,9-
 }}}
+
+= Pitfalls
+
+* Verify series parser will be able to identify a wide variety of season pack format (`SXX, Season XX, EXX-EXX, etc.)
+* Support torrent and magnet files 
