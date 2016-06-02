@@ -2,7 +2,7 @@
 
 Use regular expression to Accept or Reject entries. !FlexGet uses python regexp format and all matching is done case insensitive. This plugin may look a bit scary but in reality you rarely want anything more than what simple examples describe.
 
-'''Note:''' If you are having trouble figuring out how to create your desired regexp, [http://www.gskinner.com/RegExr/ RegExr] is a very helpful tool.
+'''Note:''' If you are having trouble figuring out how to create your desired regexp, [http://www.gskinner.com/RegExr/ RegExr] is a very helpful tool. You can also try [wiki:Plugins/try_regexp --try-regexp] interactively.
 
 === Simple examples ===
 
@@ -79,9 +79,11 @@ regexp:
 }}}
 
 == Search Custom Fields ==
+
 By default, regexp plugin will only try to match in the title and description fields of the entry. If you would like to specify custom fields to search in, you can do so either per regexp, or for the whole plugin at once. You can either list a single field to search from, or a list of fields.
 
 === Examples ===
+
 Reject drama from the tvdb_genre field which is filled by [wiki:Plugins/thetvdb_lookup thetvdb_lookup] plugin.
 {{{
 regexp:
@@ -98,6 +100,7 @@ regexp:
     - bad.things
   from: title
 }}}
+
 == Full syntax ==
 
 {{{
@@ -134,5 +137,3 @@ If any of the regexps from the list do not match, accept the entry.
 
 === reject_excluding ===
 If any of the regexps from the list do not match, reject the entry.
-
-[[Include(wiki:FilterOperations)]]
