@@ -306,7 +306,7 @@ Perform various operations on request that are being sent and received.
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
-||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
+||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites by using entry title.||
 
 === File operations ===
 
