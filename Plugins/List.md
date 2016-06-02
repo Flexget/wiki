@@ -1,6 +1,6 @@
-= List Plugins =
+= Managed List Plugins =
 
-List plugins are a special class of plugin, which work as input plugins, but can also be used in other contexts in order to edit the list.
+Managed List plugins are a special class of plugin, which work as input plugins, but can also be used in other contexts to edit the list or act based on it.
 
 ||[wiki:Plugins/List/trakt_list trakt_list]||Use or add entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/List/imdb_list imdb_list]||Use or add entries from one of your IMDB lists.||
@@ -18,7 +18,9 @@ List plugins are a special class of plugin, which work as input plugins, but can
 ||[wiki:Plugins/List/list_queue list_queue ]||Use this plugin to accept only one entry based on the contents of the list. Useful when using [wiki:Plugins/discover discover plugin] for example.||
 
 == List action advanced usage ==
+
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
+
 {{{
 trakt_list:
   username: traktusername
@@ -37,4 +39,5 @@ list_add:
 }}}
 
 = Dev docs =
-Want to create or convert an existing plguin to a list interface plugin? [https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst Read the docs] and join the chat for any assistance required.
+
+Want to create or convert an existing plugin to a managed list plugin? [https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst Read the docs] and join the chat for any assistance required.
