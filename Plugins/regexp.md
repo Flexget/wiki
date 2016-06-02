@@ -34,17 +34,7 @@ regexp:
     - regexp
 }}}
 
-This can be combined with some other accepting filter, example [wiki:Plugins/movie_queue movie_queue].
-
-{{{
-regexp:
-  reject_excluding:
-    - FooBar
-movie_queue: yes
-}}}
-
-This would only let queued movies pass that have !FooBar in their title.
-
+This can be combined with some other accepting filter.
 
 Multiple operations. This would be useful when grabbing some shows and they appear with unwanted languages as well.
 
