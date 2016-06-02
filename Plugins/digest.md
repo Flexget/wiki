@@ -32,9 +32,11 @@ tasks:
       state:
         - accepted
         - failed
+
   download task 2:
     # some stuff to do downloads
     digest: daily email
+
   daily email task:
     emit_digest:
       list: daily email
@@ -42,6 +44,7 @@ tasks:
     seen: no
     email:
       # the email settings
+
 schedules:
 - tasks: [download task 1, download task 2]
 # interval:
@@ -52,15 +55,19 @@ schedules:
   interval:
     days: 1
 }}}
+
 === Last 50 entries HTML ===
+
 {{{
 tasks:
   download task 1:
     # some stuff to do downloads
     digest: recently accepted
+
   download task 2:
     # some stuff to do downloads
     digest: recently accepted
+
   generate html:
     emit_digest:
       list: recently accepted
@@ -70,6 +77,7 @@ tasks:
     seen: no
     make_html:
       # the make_html settings
+
 schedules:
 - tasks: [download task 1, download task 2, generate html]
   interval:
