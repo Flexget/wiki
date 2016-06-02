@@ -5,8 +5,6 @@ Extracts files from Zip or RAR archives. By default this plugin will extract to 
 This plugin requires the rarfile Python module and unrar command line utility to extract RAR archives. To install the Python module run:
 
 {{{
-easy_install rarfile
-or
 pip install  rarfile
 }}}
 
