@@ -29,8 +29,8 @@ slack:
 This example sends a Slack notification and overrides the default username and icon settings.
 
 {{{
-    slack:
-      webhook-url: https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ
-      username: Flexget
-      icon-emoji: tv 
+slack:
+  webhook-url: https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ
+  username: Flexget
+  icon-emoji: tv 
 }}}
