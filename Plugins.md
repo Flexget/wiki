@@ -38,7 +38,6 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 == Inputs ==
 
-
 Produce '''[wiki:Entry entries]''' from external source.[[BR]]
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
@@ -47,6 +46,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 === Raw Input ===
 
 Input plugins that directly parse data from a source based on its type.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/csv csv]||Parse any CSV-file||
 ||[wiki:Plugins/filesystem filesystem]||Search through a local directory looking for files as a input. ||
@@ -59,10 +59,10 @@ Input plugins that directly parse data from a source based on its type.
 ||[wiki:Plugins/regexp_parse regexp_parse]||Use regular expressions to parse text from a web resource or file||
 ||[wiki:Plugins/ftp_list ftp_list]||Lists the content of a remote FTP server||
 
-
 === 3rd party sites input ===
 
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/anidb_list anidb_list]||`UPDATED` Create entries from your AniDB wishlist.||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
@@ -84,6 +84,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 === 3rd party software input ===
 
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/List/couchpotato_list couchpotato_list ]||Produce entries from couchpotato wanted movies list||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
@@ -98,11 +99,11 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 === Internal Input ===
 
 Input plugins that will generate entries based on preexisting data in !FlexGet.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. filesystem, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
-movie_queue], useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
@@ -116,6 +117,7 @@ If you plan to use multiple filters per task, you should look at '''[wiki:Filter
 === Content based filters ===
 
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/all_series all_series]||Accepts any entry that appears to be an episode of a series.||
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
@@ -128,6 +130,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 === Metadata filters ===
 
 Filters based on content's metadata such as size and quality
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/content_size content_size]||Reject torrents and nzb's that do not meet size requirements.||
 ||[wiki:Plugins/quality quality]||Reject entries not of the specified quality.||
@@ -135,6 +138,7 @@ Filters based on content's metadata such as size and quality
 === !FlexGet internal filters ===
 
 Filters based on preexisting data or operations within !FlexGet
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/duplicates duplicates]||Perform action based on duplicate entries by a field.||
 ||[wiki:Plugins/limit_new limit_new]||Allow only given number of entries to pass per execution.||
@@ -147,6 +151,7 @@ Filters based on preexisting data or operations within !FlexGet
 === Torrent specific filters ===
 
 Filters based specifically for torrents
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/content_filter content_filter]||Reject based on filenames within torrents.||
 ||[wiki:Plugins/magnets magnets]||Rejects entries with only magnet links.||
@@ -157,6 +162,7 @@ Filters based specifically for torrents
 === Logical and operational filters ===
 
 Filters that will accept/reject entries based on logical statements or simple file operations
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/accept_all accept_all]||Accept all entries.||
 ||[wiki:Plugins/archives archives]||Accept, reject entries based on if they're valid ZIP/RAR archives.||
@@ -170,6 +176,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 === 3rd party sites filters ===
 
 Filters based on data retrieved from 3rd party sites
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/crossmatch crossmatch]||Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history).||
 ||[wiki:Plugins/imdb imdb]||Accept movie entries based on imdb details.||
@@ -184,6 +191,7 @@ Execute operation(s) on accepted entries.
 === 3rd party software output ===
 
 Send accepted entries to 3rd party software, usually downloaders.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/aria2 aria2]||Pass URIs to be downloaded to a local computer to the aria2 downloader.||
 ||[wiki:Plugins/deluge deluge]||Pass torrents directly to deluge bittorrent client, supporting magnet links.||
@@ -208,6 +216,7 @@ Send accepted entries to 3rd party software, usually downloaders.
 === 3rd party sites output ===
 
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/myepisodes myepisodes]||Mark accepted episodes as acquired on !MyEpisodes.||
 ||[wiki:Plugins/thetvdb_add thetvdb_add]||Add accepted series to user's thetvdb.com favorites.||
@@ -218,6 +227,7 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 === Notifier services output ===
 
 Send accepted entries to notification services.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
@@ -234,6 +244,7 @@ Send accepted entries to notification services.
 === !FlexGet internal output ===
 
 Use accepted entries as an input for various !FlexGet plugins such as add to movie queue, set series begin & etc.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/digest digest]||Collects entries from tasks to be combined into another task (usually for notification.)||
 ||[wiki:Plugins/set_series_begin set_series_begin]||Set the first episode to download for series.||
@@ -243,6 +254,7 @@ Use accepted entries as an input for various !FlexGet plugins such as add to mov
 === File operations output ===
 
 Perform different file operations using accepted entries.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/copy copy]||Copy local files.||
 ||[wiki:Plugins/decompress decompress]||Extract Zip and RAR files.||
@@ -257,6 +269,7 @@ Perform different file operations using accepted entries.
 === Generators output ===
 
 Generate custom output using accepted entries
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
@@ -265,6 +278,7 @@ Generate custom output using accepted entries
 == Metadata plugins ==
 
 Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
+
 These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/imdb_lookup imdb_lookup]||Enable imdb parsing for imdb fields on-demand.||
@@ -284,6 +298,7 @@ Plugins that can manipulate data and perform various operations.
 === Request operations ===
 
 Perform various operations on request that are being sent and received. 
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/cfscraper cfscraper]||Enables cloudflare scraping in a task.||
 ||[wiki:Plugins/cookies cookies]||Use FireFox3 cookies.||
@@ -297,6 +312,7 @@ Perform various operations on request that are being sent and received.
 === File operations ===
 
 Perform file oriented operations.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
@@ -307,6 +323,7 @@ Perform file oriented operations.
 === Data operations ===
 
 Manipulate relevant data based on input.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
 ||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
@@ -319,6 +336,7 @@ Manipulate relevant data based on input.
 === !FlexGet internal operations ===
 
 Perform various !FlexGet operations.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/archive archive]||Archive all seen entries for searchable database for later retrieval.||
 ||[wiki:Plugins/delay delay]||Adds artificial delay into a task.||
@@ -342,6 +360,7 @@ Perform various !FlexGet operations.
 === 3rd party software ===
 
 Perform operations on 3rd part software.
+
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
