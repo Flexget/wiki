@@ -16,6 +16,7 @@ Currently the following settings are supported:
 ||'''password''' (optional)||Password for accessing the webserver.||
 ||'''only_on_accepted''' (default `yes`)||Only send the request if entries were accepted.||
 }}}
+
 == Example task ==
 
 This plugin can be used in a move/sorting task such that Kodi scans for new video files after the moving/sorting is complete. Example:
@@ -23,7 +24,7 @@ This plugin can be used in a move/sorting task such that Kodi scans for new vide
 {{{
 tasks:
   move_stuff:
-    <boilerplate_move_task>
+    # move plugin etc
     kodi_library:
       action: scan
       category: video
