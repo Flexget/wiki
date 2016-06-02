@@ -363,7 +363,7 @@ Perform operations on 3rd part software.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
-||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
+||[wiki:Plugins/rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
 ||[wiki:Plugins/uoccin_reader uoccin_reader]||Synchronize a [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 
 == Daemon ==
