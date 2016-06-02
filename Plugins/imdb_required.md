@@ -1,6 +1,6 @@
 = Imdb required =
 
-Reject non imdb compatible entries.
+Try to do imdb lookup for the entry and reject in case of failure (imdb incompatible).
 
 === Example ===
 
