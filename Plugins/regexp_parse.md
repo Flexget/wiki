@@ -1,5 +1,7 @@
 = regexp_parse =
 
+''NOTE:'' Regexp is not suitable for parsing HTML / XML reliably.
+
 This plugin is designed to take input from a web resource or a file and parse the text via regexps supplied in the config file.
 
 Breakdown of config settings
