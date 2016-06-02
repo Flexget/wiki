@@ -35,11 +35,11 @@ tasks:
   TV:
     path_select:
       select: most_free_percent
-       within: 2%
-       paths:
-         - /drive1/downloads/TV
-         - /drive2/downloads/TV
-         - /drive3/downloads/TV
+      within: 2%
+      paths:
+        - /drive1/downloads/TV
+        - /drive2/downloads/TV
+        - /drive3/downloads/TV
 }}}
 
 === Example (select path with most free space by size) ===
@@ -54,9 +54,9 @@ tasks:
   TV:
     path_select:
       select: most_free
-       within: 5GiB
-       paths:
-         - /drive1/downloads/TV
-         - /drive2/downloads/TV
-         - /drive3/downloads/TV
+      within: 5GiB
+      paths:
+        - /drive1/downloads/TV
+        - /drive2/downloads/TV
+        - /drive3/downloads/TV
 }}}
