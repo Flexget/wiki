@@ -306,7 +306,6 @@ Perform various operations on request that are being sent and received.
 ||[wiki:Plugins/formlogin formlogin]||Log in to web site via login form.||
 ||[wiki:Plugins/headers headers]||Modify HTTP headers.||
 ||[wiki:Plugins/proxy proxy]||Use a proxy to access resources.||
-||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/urlrewrite_search urlrewrite_search]||Search for download URL from supported sites.||
 
 === File operations ===
@@ -314,10 +313,12 @@ Perform various operations on request that are being sent and received.
 Perform file oriented operations.
 
 ||'''Keyword'''||'''Description'''||
+||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
 ||[wiki:Plugins/path_select path_select]||Select a path based on disk stats||
+||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 
 === Data operations ===
@@ -326,7 +327,6 @@ Manipulate relevant data based on input.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/assume_quality assume_quality]||Make assumptions about the qualities of releases.||
-||[wiki:Plugins/add_trackers add_trackers]||Add trackers to torrents.||
 ||[wiki:Plugins/manipulate manipulate]||Allows regexp manipulation for entries.||
 ||[wiki:Plugins/parsing parsing]||Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often)||
 ||[wiki:Plugins/pathscrub pathscrub]||Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.)||
