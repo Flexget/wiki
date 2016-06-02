@@ -50,7 +50,7 @@ tasks:
         - actor
         - director
       content_types: tv series
-      accept_all: yes
-      list_add:
-        movie_list: movies
+    accept_all: yes
+    list_add:
+      movie_list: movies
 }}}
