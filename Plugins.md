@@ -68,7 +68,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
 ||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||Dynamically produce entries based on an IMDB person, company or character ||
-||[wiki:Plugins/List/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
+||[wiki:Plugins/List/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history). [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
 ||[wiki:Plugins/npo_watchlist npo_watchlist]||Create entries for the shows and episodes in your npo.nl account (Dutch public television).||
@@ -77,7 +77,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
 ||[wiki:Plugins/trakt_emit trakt_emit]||Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
-||[wiki:Plugins/List/trakt_list trakt_list]||Create entries from one of your trakt.tv lists.||
+||[wiki:Plugins/List/trakt_list trakt_list]||Create entries from one of your trakt.tv lists. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
 
@@ -86,13 +86,13 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/List/couchpotato_list couchpotato_list ]||Produce entries from couchpotato wanted movies list||
+||[wiki:Plugins/List/couchpotato_list couchpotato_list ]||Produce entries from couchpotato wanted movies list. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/from_deluge from_deluge]||Use torrents loaded in a Deluge daemon as input.||
 ||[wiki:Plugins/rtorrent from_rtorrent]||Use torrents loaded in a rTorrent as input.||
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/plex plex]||Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
-||[wiki:Plugins/List/sonarr_list sonarr_list ]||Produce entries from Sonarr's show list||
+||[wiki:Plugins/List/sonarr_list sonarr_list ]||Produce entries from Sonarr's show list. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
 ||[wiki:Plugins/uoccin_emit uoccin_emit ]||Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
 
@@ -106,8 +106,8 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
 ||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
-||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
-||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list.||
+||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list. [wiki:Plugins/List Managed List]||
+||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list. [wiki:Plugins/List Managed List]||
 
 == Filters ==
 
