@@ -64,14 +64,14 @@ Input plugins that directly parse data from a source based on its type.
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 
 ||'''Keyword'''||'''Description'''||
-||[wiki:Plugins/anidb_list anidb_list]||`UPDATED` Create entries from your AniDB wishlist.||
+||[wiki:Plugins/anidb_list anidb_list]||Create entries from your AniDB wishlist.||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
-||[wiki:Plugins/dynamic_imdb dynamic_imdb ]|| `UPDATED` Dynamically produce entries based on an IMDB person, company or character ||
-||[wiki:Plugins/List/imdb_list imdb_list]||`UPDATED` Use movies in your IMDb list as an input (eg. watchlist, rating history).||
+||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||Dynamically produce entries based on an IMDB person, company or character ||
+||[wiki:Plugins/List/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history).||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
-||[wiki:Plugins/npo_watchlist npo_watchlist]|| `NEW` Create entries for the shows and episodes in your npo.nl account (Dutch public television).||
+||[wiki:Plugins/npo_watchlist npo_watchlist]||Create entries for the shows and episodes in your npo.nl account (Dutch public television).||
 ||[wiki:Plugins/pogcal pogcal]||Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
@@ -92,9 +92,9 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/plex plex]||Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
-||[wiki:Plugins/List/sonarr_list sonarr_list ]||`UPDATED` Produce entries from Sonarr's show list||
+||[wiki:Plugins/List/sonarr_list sonarr_list ]||Produce entries from Sonarr's show list||
 ||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
-||[wiki:Plugins/uoccin_emit uoccin_emit ]||`NEW` Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
+||[wiki:Plugins/uoccin_emit uoccin_emit ]||Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
 
 === Internal Input ===
 
@@ -205,13 +205,13 @@ Send accepted entries to 3rd party software, usually downloaders.
 ||[wiki:Plugins/subliminal subliminal]||Download subtitles with Subliminal.||
 ||[wiki:Plugins/transmission transmission]||Pass torrents directly to transmission, supporting magnet links.||
 ||[wiki:Plugins/utorrent utorrent]||Pass torrents directly to uTorrent.||
-||[wiki:Plugins/uoccin_collection uoccin_collection_add]||`NEW` Mark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_collection uoccin_collection_remove]||`NEW` Unmark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_watched uoccin_watched_true]||`NEW` Mark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_watched uoccin_watched_false]||`NEW` Unmark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_add]||`NEW` Add all the accepted movies/series in the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_remove]||`NEW` Remove all the accepted movies/series from the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
-||[wiki:Plugins/uoccin_subtitles uoccin_subtitles]||`NEW` Update the list of subtitles downloaded for the accepted movies/series in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_collection uoccin_collection_add]||Mark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_collection uoccin_collection_remove]||Unmark all the accepted movies/episodes as collected in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watched uoccin_watched_true]||Mark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watched uoccin_watched_false]||Unmark all the accepted movies/episodes as watched in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_add]||Add all the accepted movies/series in the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_watchlist uoccin_watchlist_remove]||Remove all the accepted movies/series from the watchlist inside the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_subtitles uoccin_subtitles]||Update the list of subtitles downloaded for the accepted movies/series in the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 
 === 3rd party sites output ===
 
@@ -231,7 +231,7 @@ Send accepted entries to notification services.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/email email]||Send email when new content is passed.||
 ||[wiki:Plugins/prowl prowl]||Send prowl notifications (iPhone).||
-||[wiki:Plugins/pushover pushover]||`UPDATED` Send Pushover notifications (iPhone and Android).||
+||[wiki:Plugins/pushover pushover]||Send Pushover notifications (iPhone and Android).||
 ||[wiki:Plugins/rapidpush rapidpush]||An easy-to-use push notification service. (Android).||
 ||[wiki:Plugins/notify_osd notify_osd]||Send notifications to notify-osd.(linux only. Ubuntu tested)||
 ||[wiki:Plugins/notify_xmpp notify_xmpp]||Send notifications via XMPP.||
@@ -288,7 +288,7 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/trakt_lookup trakt_lookup]||Enable http://trakt.tv/ parsing for trakt fields on-demand.||
 ||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Enable http://tvmaze.com/ parsing for tvmaze fields on-demand.||
 ||[wiki:Plugins/check_subtitles check_subtitles]^1||Check subtitles presence for local files.||
-||[wiki:Plugins/uoccin_lookup uoccin_lookup]||`NEW` Fetch all the supported information from the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_lookup uoccin_lookup]||Fetch all the supported information from the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 ^1. Not a builtin, configuration required to enable.^
 
 == Modification plugins ==
@@ -364,7 +364,7 @@ Perform operations on 3rd part software.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/clean_transmission clean_transmission]||Clean Transmission queue.||
 ||[wiki:Plugins/plugin_rutracker plugin_rutracker]||Supports downloading torrents from rutracker.||
-||[wiki:Plugins/uoccin_reader uoccin_reader]||`NEW` Synchronize a [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/uoccin_reader uoccin_reader]||Synchronize a [https://github.com/tarzasai/Uoccin Uoccin] data file.||
 
 == Daemon ==
 
@@ -398,8 +398,8 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 == Deprecated ==
 
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||`DEPRECATED` Emit your [wiki:Plugins/movie_queue 
-||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Accept movies from movie queue.||
-||[wiki:Plugins/trakt_add trakt_add]||`DEPRECATED` Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_remove trakt_remove]||`DEPRECATED` Remove accepted episodes/movies from a list on trakt.tv.||
-||[wiki:Plugins/movie_queue movie_queue]||`DEPRECATED` Add movies to movie queue.||
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue 
+||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
+||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
+||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
+||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
