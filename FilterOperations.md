@@ -1,7 +1,5 @@
 = Operations =
 
-'''Note:''' For 0.9.x see [wiki:FilterOperations?version=16 older version]
-
 All plugins may do following operations to [wiki:Entry entry].
 
 {{{
