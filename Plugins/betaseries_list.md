@@ -11,12 +11,12 @@ This plugin is useful for when used in a task with the [wiki:Plugins/import_seri
 '''Example:'''
 
 {{{
-        configure_series:
-          from:
-            betaseries_list:
-              username: xxxxx
-              password: xxxxx
-              api_key: xxxxx
+configure_series:
+  from:
+    betaseries_list:
+      username: xxxxx
+      password: xxxxx
+      api_key: xxxxx
 }}}
 
 You Api key can be requested freely at http://www.betaseries.com/api.
@@ -26,13 +26,13 @@ You Api key can be requested freely at http://www.betaseries.com/api.
 If you want to download the series followed by multiple members
 
 {{{
-        configure_series:
-          from:
-            betaseries_list:
-              username: xxxxx
-              password: xxxxx
-              api_key: xxxxx
-              members:
-                - some_name
-                - another_guy            
+configure_series:
+  from:
+    betaseries_list:
+      username: xxxxx
+      password: xxxxx
+      api_key: xxxxx
+      members:
+        - some_name
+        - another_guy            
 }}}
