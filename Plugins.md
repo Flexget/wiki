@@ -394,7 +394,6 @@ Use `flexget execute --help` for full option list.
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 ||[http://flexget.com/ticket/1435 jdownloader]||jDownloader output - perhaps included in the core package sooner or later.||
-||[https://github.com/jawilson/dotfiles/blob/master/flexget/plugins/my_movie_filter.py my_movie_filter]||An extremely specific, no longer working, custom movie filter by jawilson.||
 
 == Deprecated ==
 
