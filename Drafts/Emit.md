@@ -27,7 +27,7 @@ special one [wiki:Plugins/subtitle_queue subtitle_queue] which can be configured
 
 * subtitle_queue: emit
 
-''Group E'''
+'''Group E'''
 
 Badly named
 
