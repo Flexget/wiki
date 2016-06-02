@@ -27,6 +27,14 @@ special one [wiki:Plugins/subtitle_queue subtitle_queue] which can be configured
 
 * subtitle_queue: emit
 
+''Group E'''
+
+Badly named
+
+* dynamic_imdb
+
+this is basically emit from imdb with configuration ?
+
 === Thoughts ===
 
 * emit is a bit weird term and "from_deluge" etc seem to make more sense than "emit_deluge"
