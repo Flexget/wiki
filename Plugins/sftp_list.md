@@ -29,7 +29,7 @@ sftp_list:
 
 == Options ==
 
-||'''Name'''||'''Info'''||'''Description'''||
+||='''Name'''=||='''Info'''=||='''Description'''=||
 || host || Text || Host to connect to ||
 || port || Integer || Port the remote SSH server is listening on. Defaults to port 22. ||
 || username || Text || Username to log in as ||
