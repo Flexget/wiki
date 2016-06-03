@@ -110,3 +110,7 @@ sudo pip install flexget
 }}}
 
 This works fine usually, but on some cases you may run into issues if multiple python packages request different versions of libraries. Virtualenv does not suffer from this issue.
+
+== Next step? ==
+
+Continue to [wiki:InstallWizard/Linux/Scheduling Scheduling]
