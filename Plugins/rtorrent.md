@@ -4,11 +4,9 @@ This plugin adds URL's directly into rTorrent and can feed in entries from rTorr
 
 '''Supports'''
 
-Protocols XMLRPC, SCGI and Local SCGI
-
-Dynamically setting the download directory and custom attributes supporting [wiki:Jinja jinja replacement]
-
-Magnet urls
+* Protocols XMLRPC, SCGI and Local SCGI
+* Dynamically setting the download directory and custom attributes supporting [wiki:Jinja jinja replacement]
+* Magnet urls
 
 == Example ==
 
@@ -44,19 +42,19 @@ tasks:
       path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
 }}}
 
-
 == Options ==
 
 '''Common Options'''
 
-||'''Name'''||'''Info'''||'''Description'''||
+||='''Name'''=||='''Info'''=||='''Description'''=||
 ||uri||Text||rTorrent URI. IE: scgi://localhost:5000, http://localhost:80/RPC2, /home/rtorrent/rtorrent.sock ||
 ||username||Text||Username when using HTTP for basic auth||
 ||password||Text||Password when using HTTP for basic auth||
 ||timeout||Text||Seconds before timeout when connecting to rtorrent||
 
 '''Output specific options'''
-||'''Name'''||'''Info'''||'''Description'''||
+
+||='''Name'''=||='''Info'''=||='''Description'''=||
 ||mkdir||[Yes|No]||Create the destination folder on the rTorrent server (default: yes)||
 ||start||[Yes|No]||Automatically start newly added torrent (default: yes)||
 ||action||[Yes|No]||[add|update|delete] (Default is add)||
@@ -69,7 +67,8 @@ tasks:
 ||custom5||Text||Set custom field||
 
 '''Input specific options'''
-||'''Name'''||'''Info'''||'''Description'''||
+
+||='''Name'''=||='''Info'''=||='''Description'''=||
 ||view||Text||View to use as input (default main)||
 ||fields||list||specify which fields to get from rtorrent. See below for default fields||
 
@@ -109,7 +108,3 @@ tasks:
       custom2: complete
       uri: http://192.168.0.20/north
 }}}
-
-== Enhancements ==
-
-If you require extra functionality please create a ticket at http://flexget.com/newticket
