@@ -19,8 +19,9 @@ crossmatch:
 
 You will also need to enable [wiki:Plugins/imdb_lookup imdb_lookup] on the feed in order to get imdb_id populated. Granted, this is a lot more complicated than old imdb_rated used to be, but crossmatch allows all kinds of other clever uses as well.
 
-=== Move movies you rated badly ===
+=== Organize movies you rated badly ===
 
+You could use [wiki:Plugins/delete delete] at your own risk.
 
 {{{
 tasks:
