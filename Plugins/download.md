@@ -1,6 +1,6 @@
 = Download =
 
-Downloads content from entry url and writes it into a file. A default html response is considered as a download failure.
+Downloads content from entry url and writes it into a file. As a default html response is considered as a download failure.
 
 '''Example:'''
 
@@ -8,7 +8,7 @@ Downloads content from entry url and writes it into a file. A default html respo
 download: ~/torrents/
 }}}
 
-This is the most common use, there are additional options and features for more fine control.
+This is the simplest use-case, there are additional options and features for more fine control.
 
 == Download path (advanced) ==
 
