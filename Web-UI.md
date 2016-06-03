@@ -4,6 +4,7 @@
 
 '''Relevant pages'''
 
+* [https://flexget.mybalsamiq.com/projects UI mockups] - accounts can be requested
 * [wiki:Web-UI/Concepts Concepts]
 * [wiki:Roadmap Roadmap (more ideas)]
 
