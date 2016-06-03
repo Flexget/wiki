@@ -147,7 +147,7 @@ www.somesite.com/search/?category=10&from=450&to=499
 ==== Additionnal increment Options ====
 
 ||='''Option'''=||='''Description'''=||='''type'''=||='''default'''=||
-||from||Required quality.||integer||0||
+||from||Required quality.||Number||0||
 ||to||If defined, plugin will stop when increment reach this value||Number||-||
 ||name||Name of the variable used in {{...}} jinja2 blocks||Text||"i"||
 ||step||The value that will be added to the variable, for each iteration (Can be negative)||Number||1||
