@@ -26,7 +26,6 @@ You will also need to enable [wiki:Plugins/imdb_lookup imdb_lookup] on the feed 
 tasks:
 
   sort-rated-movies:
-    manual: yes
     interval: 1 days
     history: no
     seen: no
