@@ -6,7 +6,6 @@ Simple plugin to send clean or scan requests to a remote or local Kodi server. J
 
 Currently the following settings are supported:
 
-{{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''action'''||Can be either `scan` or `clean`.||
 ||'''category'''||The library type for which the action should be performed. Can be either `audio` or `video`.||
@@ -14,8 +13,7 @@ Currently the following settings are supported:
 ||'''port''' (default 8080)||Port the Kodi webserver listens on.||
 ||'''username''' (optional)||Username for accessing the webserver.||
 ||'''password''' (optional)||Password for accessing the webserver.||
-||'''only_on_accepted''' (default `yes`)||Only send the request if entries were accepted.||
-}}}
+||'''only_on_accepted'''||Only send the request if entries were accepted (default `yes`).||
 
 == Example task ==
 
