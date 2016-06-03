@@ -3,7 +3,7 @@
 == Check current version ==
 
 
-'''''[[Include(http://download.flexget.com/latestversion, text/plain)]]'''''
+Latest now: '''''[[Include(http://download.flexget.com/latestversion, text/plain)]]'''''
 
 Start by checking what version you currently have with command:
 
