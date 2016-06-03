@@ -3,7 +3,7 @@ This task will search the paths you select for series related files in an effort
 This is useful if your feeds break and you have downloaded a bunch of series files or if you want to populate the series tracking database quickly after resetting it.
 
 {{{
-  Sync_Series:
+  sync-series:
     manual: yes
     filesystem:
       path:
