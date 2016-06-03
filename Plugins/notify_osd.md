@@ -3,7 +3,7 @@
 '''{{{Requirement:}}}'''
 Must have a notification system like dbus for linux operating systems. Has been tested on Ubuntu 12.04 only!
 
-'''Example:'''
+'''Syntax:'''
 
 {{{
 notify_osd: [yes]
@@ -19,7 +19,7 @@ All options are optional. Please see [wiki:Plugins/set#DynamicFormatting jinja2]
 notify_osd: yes
 }}}
 
-||'''Name'''||'''Description'''||
+||='''Name'''=||='''Description'''=||
 ||title_template||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification title||
 ||item_template||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification body||
 
