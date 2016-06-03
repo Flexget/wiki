@@ -1,13 +1,13 @@
+= NPO watchlist =
+
 Produces entries for every episode on the user's npo.nl watchlist (Dutch public television). To add series / episodes, login to [[http://www.npo.nl | npo.nl]] and add them to your profile.
 
 Entries can be downloaded using [[https://bitbucket.org/Carpetsmoker/download-npo | download-npo]].
 
-{{{#!div style="margin-left: 25px"
-||= Option =||= Description =||
+||='''Option'''=||='''Description'''=||
 ||'''email'''||Your username for npo.nl||
 ||'''password'''||Your password for npo.nl||
 ||'''remove_accepted'''||If set to 'yes', the plugin will delete accepted entries from the watchlist after download is complete. Defaults to 'no'.||
-}}}
 
 == Example ==
 
