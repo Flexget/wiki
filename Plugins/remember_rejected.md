@@ -1,4 +1,5 @@
 = Remember Rejected =
-This plugin can remember rejected entries so that they get rejected in subsequent runs. It only remember entries it is specifically told to, using the `remember` argument of `entry.reject()`.
+
+This plugin is used to remember rejected entries so that they get rejected in subsequent runs. This is used by !FlexGet internally.
 
 The command `flexget rejected` can be used to list and clear remembered rejections.
