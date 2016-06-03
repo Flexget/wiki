@@ -81,7 +81,7 @@ cd ~/flexget/
 bin/pip install flexget
 }}}
 
-This will install !FlexGet and all dependencies.
+This will install !FlexGet and all it's dependencies.
 
 === Running !FlexGet from the virtualenv ===
 
