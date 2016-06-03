@@ -5,7 +5,7 @@ Extracts files from Zip or RAR archives. By default this plugin will extract to 
 This plugin requires the rarfile Python module and unrar command line utility to extract RAR archives. To install the Python module run:
 
 {{{
-pip install  rarfile
+pip install rarfile
 }}}
 
 The unrar utility can be installed using your package manager of choice (e.g. apt, macports) or can be downloaded directly from [http://www.rarlab.com/rar_add.htm RARLab].
@@ -50,7 +50,7 @@ move-series-rar:
 
 == Options ==
 
-||'''Name'''||'''Info'''||'''Description'''||
+||='''Name'''=||='''Info'''=||='''Description'''=||
 || to || Text || Destination path; supports Jinja2 templating on the input entry. Fields such as series_name must be populated prior to input into this plugin using metainfo_series or similar. If no path is specified, archive contents will  be extraced in the same directory as the archve itself. ||
 || keep_dirs || [Yes|No] (default: yes) || Indicates whether to preserve the directory  structure from within the archive in the destination path. ||
 || mask || Text || Shell-style file mask; any matching files will be extracted. When used, this field will override regexp. ||
