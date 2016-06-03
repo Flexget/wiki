@@ -28,6 +28,11 @@ If you're working on good re-usable plugin we're be more than happy to include i
 
 !FlexGet has over 200 unit tests so changes are that if your modifications pass the tests nothing major has been broken. We also have CI at [http://ci.flexget.com].
 
+== Enhancement proposals ==
+
+ * [wiki:Drafts Drafts]
+ * [wiki:Roadmap Roadmap]
+
 == Running IPython inside !FlexGet ==
 
 First install IPython
