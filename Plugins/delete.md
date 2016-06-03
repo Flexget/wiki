@@ -13,7 +13,7 @@ delete:
 
 [] = optional
 
-Here is an example of usage in a more comprehensive context
+Here is an example of usage in a more comprehensive context (untested)
 
 {{{
 tasks:
@@ -21,8 +21,10 @@ tasks:
     filesystem:
       path: /filestorage1/
       recursive: yes
-    if:
-      - timestamp and timestamp < now - timedelta(days=600): accept
+    age:
+      field: created
+      action: accept
+      age: 600 days
     delete:
       clean_source: 1
       along:
