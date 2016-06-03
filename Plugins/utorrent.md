@@ -4,10 +4,11 @@ This plugin passes entry URLs directly to uTorrent to be added. Supports dynamic
 '''Note:''' This plugin can currently only pass the URL to uTorrent, which means that any custom authentication plugins (cookies, headers, etc.) will not apply. A pull request to fix this would be welcomed. :-)
 
 === Example ===
+
 {{{
 utorrent:
   url: http://localhost:8080/gui/
   username: my_username
   password: my_password
-  path: c:\stuff\here  # Either c:\stuff, or c:\stuff\here must be added to your allowed download folders for this example path to work.
+  path: c:\stuff\here  # Either c:\stuff, or c:\stuff\here must be added to your allowed download folders
 }}}
