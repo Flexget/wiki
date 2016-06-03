@@ -1,6 +1,6 @@
 = Manage series easier with a template =
 
-With [wiki:Plugins/template template] ''(formerly known as preset)'' plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/template template] documentation for more tips.
+With [wiki:Plugins/template template] plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/template template] documentation for more tips.
 
 {{{
 templates:
