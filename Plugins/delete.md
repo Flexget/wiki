@@ -17,7 +17,7 @@ Here is an example of usage in a more comprehensive context (untested)
 
 {{{
 tasks:
-  delete_old_stuff:
+  cleanup:
     filesystem:
       path: /filestorage1/
       recursive: yes
