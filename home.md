@@ -11,7 +11,7 @@ For bugs open a [https://github.com/Flexget/Flexget/issues Github Issue]
 
 '''{{{ATTENTION:}}}'''
 
-  We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering, creating tickets, or editing wiki.
+  We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering or editing wiki.
 
   As we are always trying to update and expand the features of !FlexGet, please refer to '''[wiki:UpgradeActions]''' for '''relevant information''' and '''configuration changes''' before upgrading your installation. 
 
