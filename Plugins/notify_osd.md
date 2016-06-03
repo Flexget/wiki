@@ -19,6 +19,8 @@ All options are optional. Please see [wiki:Plugins/set#DynamicFormatting jinja2]
 notify_osd: yes
 }}}
 
+[[BR]]
+
 ||='''Name'''=||='''Description'''=||
 ||title_template||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification title||
 ||item_template||[wiki:Plugins/set#DynamicFormatting jinja2] template used for notification body||
