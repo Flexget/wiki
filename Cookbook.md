@@ -31,8 +31,10 @@ You can either [http://flexget.com/register register] or login with username: ''
 
  [wiki:Cookbook/Users Complete user configurations]::
 
-== Database managment ==
- [wiki:Cookbook/export Export and re Import TvShow and Seen Data]::
+== Database management ==
+
+ [wiki:Cookbook/export Repair 1.2 -> 2.0 upgrade failure]:: ''- (nobody should need this)''
 
 == Helper scripts ==
+
  [wiki:Helper] scripts and other quick one-liners::
