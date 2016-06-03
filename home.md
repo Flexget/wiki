@@ -20,7 +20,7 @@ For bugs open a [https://github.com/Flexget/Flexget/issues Github Issue]
 
  * '''[wiki:Install Installation guide]'''
    * [wiki:Upgrade Upgrading]
-     * [wiki:UpgradeActions Needed config changes]
+     * [wiki:UpgradeActions Configuration changes]
  * '''[wiki:Configuration]'''
    * [wiki:PitFalls Common pitfalls]
  * '''[wiki:Cookbook The Cookbook]'''
