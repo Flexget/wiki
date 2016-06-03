@@ -1,14 +1,12 @@
 == Problems with using pip ==
 
-Make sure your `pip` command uses python 2.6-2.7. Some distributions now use python 3.x as a default and !FlexGet does not work with that. 
-Python 2.6-2.7 pip may be available under `pip2.7` or other means. If you receive traceback that mentions python3.x you're using wrong pip.
-To verify which version pip is using you can use:
+Make sure your `pip` command uses python 2.7, 3.4 or newer. 
 
 {{{
 pip --version
 }}}
 
-If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 2.6-2.7. Continue with [https://pip.pypa.io/en/latest/installing.html pip install].
+If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 2.7, 3.4 or newer. Continue with [https://pip.pypa.io/en/latest/installing.html pip install].
 
 
 == Default python version switched ==
@@ -27,7 +25,7 @@ Traceback (most recent call last):
 pkg_resources.DistributionNotFound: pip==1.2.1
 }}}
 
-This is most likely because operating system has changed from using python 2.7 to 3.2. Pip was installed on 2.7 but now that the script is ran it uses default python which is 3.2. You will need to re-install pip for python 2.7. This can happen for any python executable, including !FlexGet if the operating system changes default python version. Re-installing the packages with correct python version will resolve the issue.
+This is most likely because operating system has changed from using python 2.7 to 3.2. Reinstall pip and !FlexGet.
 
 == Command not found ==
 
@@ -86,4 +84,5 @@ pip install flexget
 }}}
 
 == !ImportError: cannot import name !IncompleteRead ==
+
 This is caused by a bug in Ubuntu's pip package. You'll need to uninstall pip with apt, then install with the instructions [https://pip.pypa.io/en/latest/installing.html#install-pip here].
