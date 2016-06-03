@@ -1,4 +1,5 @@
 = Trakt emit =
+
 '''{{{IMPORTANT:}}} Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
 
 '''{{{WARNING:}}}''' There is currently a problem with this plugin where it will not emit the next episode properly for a season when it has not yet been aired. #2831
@@ -26,14 +27,14 @@ Currently the following settings are supported:
 This example shows how the trakt_emit plugin could be used with the [wiki:Plugins/set_series_begin set_series_begin] plugin in order to set the first episode to download for the series in the my_tv_show list on [http://trakt.tv trakt.tv].
 
 {{{
-  set_begin:
-    trakt_emit:
-      username: your_username
-      account: your_account
-      context: collected
-      list: my_tv_show
-    accept_all: yes
-    set_series_begin: yes
+set_begin:
+  trakt_emit:
+    username: your_username
+    account: your_account
+    context: collected
+    list: my_tv_show
+  accept_all: yes
+  set_series_begin: yes
 }}}
 
 [[BR]]
