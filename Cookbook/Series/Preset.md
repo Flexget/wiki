@@ -1,0 +1,1 @@
+See [wiki:"Cookbook/Series/Template"].
