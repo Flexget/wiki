@@ -2,6 +2,7 @@
 
 == Prerequisites ==
 
+Let's make sure you have necessary software installed.
 
 === Python ===
 
