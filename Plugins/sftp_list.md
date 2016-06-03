@@ -5,8 +5,6 @@ Generate entries from SFTP. This plugin requires the pysftp Python module and it
 This plugin requires the pysftp Python module; to install it module run:
 
 {{{
-easy_install pysftp
-or
 pip install  pysftp
 }}}
 
@@ -31,7 +29,7 @@ sftp_list:
 
 ||='''Name'''=||='''Info'''=||='''Description'''=||
 || host || Text || Host to connect to ||
-|| port || Integer || Port the remote SSH server is listening on. Defaults to port 22. ||
+|| port || Number|| Port the remote SSH server is listening on. Defaults to port 22. ||
 || username || Text || Username to log in as ||
 || password || Text || The password to use. Optional if a private key is provided. ||
 || private_key || Path || Path to the private key (if any) to log into the SSH server ||
