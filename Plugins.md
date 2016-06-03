@@ -1,18 +1,8 @@
 = Plugins =
 
-{{{
-#!comment
-
-# just ready for important info
-
-#!html
-#<h1 style="text-align: left; color: red">Note: Plugins page is being re-organized so many links are not working</h1>
-#<b>This page contains plugins that are available only on bleeding edge.</b> 
-}}}
-
 Plugins provide most of the functionality in !FlexGet. Plugins usually create, manipulate or download '''[wiki:Entry entries]''' but they can also change how !FlexGet operates. Many plugins can use the '''[wiki:Jinja Jinja2 ]''' template system.
 
-Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the !FlexGet package (with the exception of the third-party plugins section).
+Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the !FlexGet package (with the exception of the third-party plugins section). This documentation is meant for latest released version.
 
 == Indentation in examples ==
 
