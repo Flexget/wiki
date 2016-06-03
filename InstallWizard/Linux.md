@@ -2,15 +2,52 @@
 
 == Prerequisites ==
 
+
+=== Python ===
+
 !FlexGet requires Python 2.7, 3.3 or newer to run. You can check your version with command.
 
 {{{
 python -V
 }}}
 
-Second piece of required software is python package manager called PIP. This can be usually found from operating system package repository under name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via command `pip-3.5` or something similar.
+Example in Debian based system:
+
+{{{
+sudo apt-get install python3.5
+}}}
+
+Example in Arch based system:
+
+{{{
+sudo pacman -S python2
+}}}
 
 '''Note:''' Deluge doesn't support Python 3.x yet. Stick with Python 2.7 if you plan to use it.
+
+=== PIP ===
+
+Second piece of required software is python package manager called PIP. This can be usually found from operating system package repository under name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via command `pip-3.5` or something similar.
+
+Example in Debian based system:
+
+{{{
+sudo apt-get install python-pip
+}}}
+
+Example in Arch based system:
+
+{{{
+sudo pacman -S python2-pip
+}}}
+
+== Upgrade setuptools ==
+
+Using latest setuptools will save headaches in some older installations, this can be achieved with.
+
+{{{
+sudo pip install --upgrade setuptools
+}}}
 
 == Install in a virtualenv ==
 
