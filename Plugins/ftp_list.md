@@ -7,13 +7,13 @@ Generate entries from a remote FTP server. Entries can be downloaded via [wiki:P
 == Plugin Settings ==
 
 Currently the following settings are required:
-{{{#!div style="margin-left: 25px"
+
 ||= Option =||= Type =||= Description =||
 ||'''username'''||text||Username to use ||
 ||'''host'''||text||Host to connect to. Example `host.domain.com` ||
-}}}
+
 The following settings are optional:
-{{{#!div style="margin-left: 25px"
+
 ||= Option =||= Type =||= Description =||
 ||'''password'''||text||Password. ||
 ||'''port'''||integer|| Connection port. Default is 21 ||
