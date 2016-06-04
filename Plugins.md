@@ -280,6 +280,7 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Enable http://tvmaze.com/ parsing for tvmaze fields on-demand.||
 ||[wiki:Plugins/check_subtitles check_subtitles]^1||Check subtitles presence for local files.||
 ||[wiki:Plugins/uoccin_lookup uoccin_lookup]||Fetch all the supported information from the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+
 ^1. Not a builtin, configuration required to enable.^
 
 == Modification plugins ==
