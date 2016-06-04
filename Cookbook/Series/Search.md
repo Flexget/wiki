@@ -6,7 +6,7 @@ The [wiki:Plugins/discover discover] plugin will act as an input just like [wiki
 
 If !FlexGet does not already have a history of a given show, normally the [wiki:Plugins/series/begin begin] option or `--series-begin` must be used for the series in order for emit_series to start working. In this example we set the {{{from_start}}} option of emit_series so that !FlexGet will start looking for the episodes of all shows starting at the first one.
 
-{{{ #!python
+{{{
 templates:
   tv:
     series:
