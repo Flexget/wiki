@@ -2,7 +2,7 @@
 
 Mainly for advanced users only. Allows setting and cleaning entry fields with regexp.
 
-Syntax:^1^
+Syntax:
 
 {{{
 manipulate:
