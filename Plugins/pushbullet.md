@@ -1,5 +1,7 @@
 = Pushbullet =
+
 == Overview ==
+
 This plugin provides the ability to send flexget notifications via the notification system called [https://www.pushbullet.com/ Pushbullet].
 
 Pushbullet is also available as native apps on Android, iOS, Windows and also as Chrome extension.
@@ -10,6 +12,7 @@ Pushbullet is also available as native apps on Android, iOS, Windows and also as
 > What can you push with Pushbullet? Send links, pictures, files, lists, notes, and more right into your phone's notification tray, to your computer, or to a friend, really fast.
 
 == Configuration Options==
+
 {{{
 pushbullet:
   apikey: <API_KEY> (can be a list of API keys)
@@ -22,6 +25,7 @@ pushbullet:
 }}}
 
 DEVICE_IDEN can by found by running: 
+
 {{{
 curl -u <API_KEY>: https://api.pushbullet.com/api/devices
 }}}
@@ -30,21 +34,21 @@ DEVICE_IDEN can also be a list if you would like to send the same notification t
 
 == Example ==
 
-An example that sends to two PushBullet accounts, with a heavily customised title and body messages.
+An example that sends to two !PushBullet accounts, with a heavily customized title and body messages.
 
 {{{
-    pushbullet:
-      apikey:
-        - xxxxxxx1
-        - xxxxxxx2
-      title: >
-        {% if series_name is defined %}{{tvdb_series_name|d(series_name)}} - {{series_id}}
-        {% elif imdb_name is defined %}{{imdb_name}} ({{imdb_year}})
-        {% else %}{{title}}
-        {% endif %}
-      body: >
-        {% if series_name is defined %}{{tvdb_series_name|d(series_name)}} - {{series_id}} - {{tvdb_ep_name|d('')}}{% if quality is defined %} ({{quality}}){% endif %}
-        {% elif imdb_name is defined %}{{imdb_name}} ({{imdb_year}}){% if quality is defined %} ({{quality}}){% endif %}
-        {% else %}{{title}}{% if quality is defined %} ({{quality}}){% endif %}
-        {% endif %}
+pushbullet:
+  apikey:
+    - xxxxxxx1
+    - xxxxxxx2
+  title: >
+    {% if series_name is defined %}{{tvdb_series_name|d(series_name)}} - {{series_id}}
+    {% elif imdb_name is defined %}{{imdb_name}} ({{imdb_year}})
+    {% else %}{{title}}
+    {% endif %}
+  body: >
+    {% if series_name is defined %}{{tvdb_series_name|d(series_name)}} - {{series_id}} - {{tvdb_ep_name|d('')}}{% if quality is defined %} ({{quality}}){% endif %}
+    {% elif imdb_name is defined %}{{imdb_name}} ({{imdb_year}}){% if quality is defined %} ({{quality}}){% endif %}
+    {% else %}{{title}}{% if quality is defined %} ({{quality}}){% endif %}
+    {% endif %}
 }}}
