@@ -13,7 +13,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 
 == Untested 1.x Configs ==
 
-* [https://github.com/sisfs/dotfiles/tree/adding-my-changes sysfs] (v1.2.428) - A fork of jawilson above. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
+* [https://gitlab.com/sisfs/dotfiles/ sysfs] (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
 * [wiki:Cookbook/Users/KnockiMov KnockiMov] - Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 * [https://github.com/tubedogg/.flexget tubedogg] (v1.2.48)
 * [https://github.com/tarzasai/.flexget tarzasai] (v1.2.424)
