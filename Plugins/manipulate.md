@@ -17,7 +17,7 @@ manipulate:
       [remove]: <boolean>
 }}}
 
-Valid values for phase are: metainfo and filter, metainfo is the default behavior and filter is the old behavior of build r1395
+Valid values for phase are: metainfo and filter, metainfo is the default behavior.
 
 To see what results your configuration has, use [wiki:Plugins/--dump --dump] plugin to display all entries after execution.
 
@@ -38,7 +38,7 @@ This could be fixed by removing the [48952]
 {{{
 manipulate:
   - title:
-      extract: \[\d\d\d\d\d\](.*)
+      extract: \[\d+\](.*)
 }}}
 
 The (.*) part is what this regexp is extracting (capture group), so everything after those numbers.
@@ -96,7 +96,3 @@ manipulate:
   - description:
       remove: yes
 }}}
-
-=== Footnotes ===
-
- 1. Prior r1888 ''phase'' was called ''event''
