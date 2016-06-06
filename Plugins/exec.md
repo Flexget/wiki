@@ -24,7 +24,7 @@ exec:
   - echo "Synopsis: {{imdb_plot_outline}}" >> {{movie_name}}.nfo
 }}}
 
-== Advanced Configuration^^^1, 2^^^ ==
+== Advanced Configuration ==
 
 If you need more control over what entries and when the command gets executed, you can use the advanced configuration format. This requires some understanding of how the [wiki:Developers internals] of !FlexGet work.
 
@@ -107,6 +107,7 @@ exec:
 === Allow background option ===
 
 Normally, !FlexGet will wait the given command to finish so it can capture the return status and log the output. But if the command takes a long time to run (ex. direct downloads of large files), it will prevent further processing until the command completes. To fork the command into a background process so that !FlexGet continues processing without delay, you not only have to add an ampersand (&) at the end of the command, you have to use the {{allow_background}} option. Note, this option will also prevent !FlexGet from determining if the command failed, so it will not retry. A usage example:
+
 {{{
 exec:
   allow_background: yes
@@ -115,23 +116,22 @@ exec:
     for_accepted: get_flash_videos {{url}} &
 }}}
 
-=== Footnotes ===
-
- 1. Prior to r1552 advanced configuration was it's own plugin, adv_exec.
- 2. Prior to r1888 ''phase'' was called ''event''
-
 == Notes for Windows Users ==
 
 You may encounter problems on Windows machines with escaping and backgrounding.  Here are a few tips:
 
 * Specifying a path for the executable itself is problematic.  The simplest solution is to place it in your path.  For example, this will result in parse errors even if you try using backslashes to escape the double quote, path backslashes, or both:
+
 {{{
-        for_accepted: "d:\Program Files\Aria\aria2c.exe" --log=aria.log <snip> "{{url}}"
+exec:
+  for_accepted: "d:\Program Files\Aria\aria2c.exe" --log=aria.log <snip> "{{url}}"
 }}}
 
 * If you experience problems backgrounding your task, try using the "start" command.  In the above example, setting "allow_background: yes" and appending the & still wouldn't background the process.  This type of syntax should work:
+
 {{{
-      allow_background: yes
-      on_output:
-        for_accepted: start aria2c.exe --log=aria.log <snip> "{{url}}" &
+exec:
+  allow_background: yes
+  on_output:
+    for_accepted: start aria2c.exe --log=aria.log <snip> "{{url}}" &
 }}}
