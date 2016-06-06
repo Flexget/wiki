@@ -34,4 +34,5 @@ tasks:
       on_fail:
         - internal # A new internal plugin that would be accessible via API/CLI/output to log (???)
 }}}
-     
+== Potential issues
+* Many hooked event can cause notification flooding, we need an internal way to take care of that and make it configurable
