@@ -1,15 +1,19 @@
 = Pushover =
-Available since [http://flexget.com/changeset/3203 r3203].
 
 == Overview ==
+
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [https://pushover.net/apps/clone/Flexget Pushover].
 
 > Pushover is a platform for sending and receiving push notifications.  On the server end, it provides an HTTP API for queueing messages to deliver to clients. On the client end, the iOS and Android clients receive those push notifications, show them to the user, and store them for offline viewing.  Due to the design of the systems, it does not store messages on the servers once they have been reliably received by the device client.
 
 == Configuration ==
+
 === Simple ===
+
 The simplest Pushover plugin configuration requires only the user key (`userkey`) and API key (`apikey`).  This will broadcast the notification to all registered devices.
+
 ==== Example ====
+
 {{{
 pushover:
   userkey: o23ywmAaaxTYxn00jY2JAwQ2EeYXGt
@@ -17,7 +21,9 @@ pushover:
 }}}
 
 === Advanced ===
+
 More advanced configuration provides the ability to:
+
 * target a specific device (`device`)
 * override the notification message title (`title`)
 * override the notification message body (`message`)
@@ -49,6 +55,7 @@ More advanced configuration provides the ability to:
    (url) A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2. Maximum value is 86400
 
 ==== Example ====
+
 {{{
 pushover:
   userkey: 
@@ -66,6 +73,7 @@ pushover:
 }}}
 
 ==== Example with Jinja2 tags ====
+
 {{{
 pushover:
   userkey: '{{secrets.credentials.pushover.userkey}}'
