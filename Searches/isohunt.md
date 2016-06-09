@@ -8,7 +8,7 @@ A search plugin that generates sorted entries from isohunt.
 
 isohunt: <category>
 
-||'''Category'''||'''Description'''||
+||='''Category'''=||='''Description'''=||
 ||all||Not filtered by any category||
 ||misc||Category for miscellaneous files||
 ||movies||Main category for movies & other videos||
