@@ -5,7 +5,7 @@ Log in to a site using a webform
 This plugin requires the mechanize library. To install it, run:
 
 {{{
-easy_install mechanize
+pip install mechanize
 }}}
 
 === Example ===
@@ -33,15 +33,13 @@ regexp:
     - Paddy.Obrien
 }}}
 
-
-
 == Options ==
 
 All options except for the API key are optional
 
 '''Options'''
 
-||'''Name'''||'''Description'''||
+||='''Name'''=||='''Description'''=||
 ||form||URL to the login form||
 ||username||Username to the site||
 ||password||Password||
