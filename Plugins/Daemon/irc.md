@@ -62,6 +62,7 @@ tasks:
   some_other_entry_get_task:
     metainfo_series: yes
     disable: seen
+    accept_all: yes
     template: download-it #download anything passed down by the irc plugin (already filtered on category)
 }}}
 
