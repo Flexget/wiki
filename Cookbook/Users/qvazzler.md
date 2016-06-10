@@ -1,6 +1,4 @@
-'''Note:''' The packs-grabber config is currently outdated, and therefore slightly borked. Feel free to take inspiration from it, but it won't work 100% after copy-paste. The general purpose config is in working condition however as of 2.0.23[[BR]]
-
-'''Note 2:''' It is important that you have either Plex or Kodi and are able to run the Trakt scrobbler on them. Without the scrobbler you'll see some wonky behaviour.
+'''Note:''' If you are using the season pack config along with any regular config, it is important that you run the trakt scrobbler either via Plex or Kodi to update your collection. Without the scrobbler you'll see some wonky behaviour since the season pack downloader will bump up your owned episodes in series, causing the regular config to expect to download an episode you actually already have thanks to the other config.
 
 == Intro ==
 
@@ -17,9 +15,9 @@ This config effectively downloads all season packs of a show you are following.
 
 -- Will always download season packs even if your other config has already downloaded all of the episodes in that season. (On the upside, most season packs are freeleech, so no real harm except bandwidth)
 
--- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter '''-c this.config.yml''' so it is 100% sure to use its own db.
+-- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter '''-c seasonpack.config.yml''' so it is 100% sure to use its own db.
 
--- Config is part of a larger solution. You will have to adjust things to suit your solution.
+-- Config is part of a larger solution. You will have to adjust things to suit your solution. (ex: Scrobbler needed for Season pack config)
 
 == How does it work? == 
 
@@ -29,52 +27,50 @@ As the titles are being manipulated from trakt.tv to remove all episode informat
 
 == The Season Packs Config using Trakt.tv ==
 {{{
-#Make sure to run as --discover-now --no-cache
 secrets: secrets.yml
+
+# Things that need to be executed as command to new config db
+# * flexget -c config.yml trakt auth <account_name>
+
+# run with for example this command : "flexget -c config.yml -l logs/flexget.log -L debug daemon start --daemonize"
+
+schedules:
+  - tasks: [get_series_packs]
+    interval:
+      hours: 1
+
 templates:
   global:
     torrent_alive: yes #number of seeders needed to accept
-    retry_failed:
-      retry_time: 5 minutes # Base time in between retries
-      retry_time_multiplier: 1 # Amount retry time will be multiplied by after each successive failure
-      max_retries: 15 # Number of times the entry will be retried
+    domain_delay:
+      sceneaccess.eu: 30 seconds
+      sceneaccess.org: 30 seconds
   transmit-series:
     transmission:
       host: '{{ secrets.transmission.host }}'
       port: 9091
       username: '{{ secrets.transmission.username }}'
       password: '{{ secrets.transmission.password }}'
-      path: '/volume1/Disk1/Library/Transmission/Uncategorized/TV Shows/'
-
+      path: '{{ secrets.transmission.download_path }}'
 tasks:
   get_series_packs:
     priority: 2
     content_size:
-      min: 3072
+      min: 1000
     regexp:
       reject:
         - \.[sS]\d\d[eE]\d\d\.
-        - \.FiX\.
-        - FASTSUB #French
-        - VOSTFR #French
-        - Subtitulado #Spanish
-        - Special-Wicked #Special trailer episodes from Once Upon a Time
-        - Magazine #No magazines on Arrow, thank you.
-        - NLsubs
-    content_filter:
-      reject:
-        - '*.avi' #Uhgg Jak!
-    verify_ssl_certificates: no
     configure_series:
       from:
         trakt_list:
           username: '{{ secrets.trakt.username }}'
-          password: '{{ secrets.trakt.password }}'
-          list: watchlist
+          account: '{{ secrets.trakt.account }}'
+          list: 2-b-shows-b-get-backlog
           type: shows
           strip_dates: yes
       settings:
-        quality: 480p-720p <=hdtv
+        timeframe: 2 hours
+        target: 720p hdtv
         identified_by: sequence
         sequence_regexp: \b[S][0]?(\d+)\b
         exact: yes
@@ -100,7 +96,8 @@ tasks:
             category:
               archive:
                 - TV/Packs
-    template: transmit-series
+    template:
+      - transmit-series
 }}}
 
 Notes about the packs config:
