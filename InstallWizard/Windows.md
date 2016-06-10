@@ -1,18 +1,16 @@
 = Installing !FlexGet on Windows =
 
-This is unnecessarily complicated at the moment, easier methods for installing are planned.
-
 '''NOTE:''' If you plan on using the [wiki:Plugins/deluge deluge] plugin on Windows, you must make sure your Deluge python version matches your system python version, [wiki:Plugins/deluge#WindowsUsers read more.]
 
 == Set up environment ==
 
-If you already have '''Python 2.7.x''' and '''pip''', you can continue to next step.
+If you already have python 2.7, 3.3 or newer and pip, you can continue to next step.
 
 === Install Python ===
 
-Install latest '''Python 2.7.x''' from [http://python.org/download/ python.org]. Like many other python applications today, !FlexGet is '''not''' (yet) compatible with new Python 3.x.
+Install latest python 2.7 or latest 3.x from [http://python.org/download/ python.org]. 
 
-=== Install pip ===
+=== Install PIP ===
 
 https://sites.google.com/site/pydatalog/python/pip-for-windows
 
