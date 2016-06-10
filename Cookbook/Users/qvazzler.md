@@ -19,6 +19,8 @@ This config effectively downloads all season packs of a show you are following.
 
 -- Config is part of a larger solution. You will have to adjust things to suit your solution. (ex: Scrobbler needed for Season pack config)
 
+-- Season pack config probably will not work if you are searching in a category that contains both Season packs and regular episodes. You'll have to play with the content filter or something like that.
+
 == How does it work? == 
 
 The config retrieves whatever TV Show is on your watchlist, and searches on torrent sites for <Name> <Season Number>. Example: Arrow 01
