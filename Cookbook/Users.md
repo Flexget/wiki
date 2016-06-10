@@ -9,7 +9,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 
 
 == Tested & Working 2.x Configs ==
-* [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] (v2.0.23) - Ability to download season packs + General purpose Trakt config that including list cleaning
+* [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
 
 == Untested 1.x Configs ==
 
