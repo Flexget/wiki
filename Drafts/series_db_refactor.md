@@ -12,3 +12,5 @@ API/CLI etc. are then used to control the series and settings in the named serie
 The current Series db model gets updated from the config each time a task is run, so that things like series CLI work. How do we adapt that to new system? What named series list would the go in?
 
 Is there a way to change settings for a whole db list? Or are they always stored per series?
+
+configure_series, Does it write a list to db, or pass a text config to series plugin still?
