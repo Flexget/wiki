@@ -48,6 +48,43 @@ Setup tools may need to be updated as well, might need to run this command befor
 curl https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py | sudo python
 }}}
 
+== Distribute package ==
+
+{{{
+Traceback (most recent call last):
+File "", line 1, in
+File "/tmp/pip-build-jVEBl5/guessit/setup.py", line 78, in
+setup(**args)
+File "/usr/local/lib/python2.7/distutils/core.py", line 151, in setup
+dist.run_commands()
+File "/usr/local/lib/python2.7/distutils/dist.py", line 953, in run_commands
+self.run_command(cmd)
+File "/usr/local/lib/python2.7/distutils/dist.py", line 972, in run_command
+cmd_obj.run()
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/setuptools/command/egg_info.py", line 179, in run
+self.find_sources()
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/setuptools/command/egg_info.py", line 254, in find_sources
+mm.run()
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/setuptools/command/egg_info.py", line 308, in run
+self.add_defaults()
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/setuptools/command/egg_info.py", line 335, in add_defaults
+rcfiles = list(walk_revctrl())
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/setuptools/command/sdist.py", line 46, in walk_revctrl
+for item in ep.load()(dirname):
+File "/usr/local/lib/python2.7/site-packages/distribute-0.6.14-py2.7.egg/pkg_resources.py", line 1954, in load
+entry = import(self.module_name, globals(),globals(), ['name'])
+ImportError: No module named setuptools_scm.integration
+
+----------------------------------------
+
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-jVEBl5/guessit/
+}}}
+
+This is caused by leftover python package distribute. Remove it with command
+
+{{{
+$ sudo pip uninstall distribute
+}}}
 
 == A plugin with the same name is already registered ==
 
