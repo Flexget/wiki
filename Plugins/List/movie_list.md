@@ -24,12 +24,11 @@ movie_list:
 
 == Usage ==
 
-As a [wiki:Plugins/List managed list] plugin it follows the same list actions:
+As a [wiki:Plugins/List managed list] plugin it follows the same list actions, an quick example how to add entries into the list.
 
 {{{
-input: ...
-.
-.
+# inputs
+# filters
 list_add: 
   - movie_list: list name
 }}}
@@ -70,17 +69,19 @@ list_accept:
 download: ...
 }}}
 
-How to use it with a regular task:
+Concrete example with a task:
 
 {{{
-a_task:
+task_name:
   rss: http://url.com/feed.xml
-  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
-  imdb_lookup: # movie-list requires entries with a recognizable attribute, as mentioned at the top
+  quality: 720p
+  imdb_lookup: yes
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
 }}}
+
+[wiki:Plugins/quality quality] is used to weed out any unwanted qualities. [wiki:Plugins/imdb_lookup imdb_lookup] is required for entries to be matched with movie_list.
 
 === With discover ===
 
@@ -90,7 +91,7 @@ discover-movies:
     what:
       - movie_list: movie list name
     from:
-      - kat: opts
+      - kat: <opts>
   quality: 720p
   imdb_lookup: yes
   list_queue:
@@ -101,29 +102,29 @@ discover-movies:
 '''Strip Year option''': It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
 
 {{{
-discover_task:
+discover-movies:
   discover:
     what:
       - movie_list: 
           list_name: movie list name
           strip_year: yes
     from:
-      - kat: opts
-  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
-  imdb_lookup: # movie-list requires entries with a recognizable attribute, as mentioned at the top
+      - kat: <opts>
+  quality: 720p
+  imdb_lookup: yes
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
 }}}
 
-The [wiki:Plugins/List/list_queue list_queue] matches and immediately remove matching entity from list, so no duplicate matches will occur during a task. If you do no wish to remove on match, use [wiki:Plugins/List/list_accept list_accept] with `remove_on_accept` set to `False`.
+The [wiki:Plugins/List/list_queue list_queue] matches and immediately remove matching entity from list. [wiki:Plugins/List/list_accept list_accept] can be used alternatively.
 
 === Migrate ===
 
 Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
 
 {{{
-movies_from_movie_queue:
+movies-movie-queue:
   emit_movie_queue: yes
   accept_all: yes
   list_add:
