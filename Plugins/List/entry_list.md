@@ -77,13 +77,13 @@ $ flexget entry-list all
 === List entry from entrylists ===
 
 {{{
-$ flexget entry-list list -l <LIST_NAME>
+$ flexget entry-list list <LIST_NAME>
 }}}
-
+Default <LIST_NAME> is `entries`. This is true for all CLI actions.
 === Show details about a specific entry ===
 
 {{{
-$ flexget entry-list show <ENTRY> -l <LIST_NAME>
+$ flexget entry-list show <LIST_NAME> <ENTRY>
 }}}
 
 `<ENTRY>` can be the ID displayed in `entry-list list` or exact entry title.
@@ -93,24 +93,24 @@ $ flexget entry-list show <ENTRY> -l <LIST_NAME>
 Using a title and original URL is require. You can also add additional identifiers in the following format:
 
 {{{
-$ flexget entry-list add -l <LIST_NAME> -t <ENTRY_TITLE> -u <ORIGINAL_URL> -i imdb_id=tt1234556 tmdb_id=1234
+$ flexget entry-list add <LIST_NAME> <ENTRY_TITLE> <ORIGINAL_URL> --attributes imdb_id=tt1234556 tmdb_id=1234
 }}}
 
 If the given entry list does not exist it will be created.
 
-If the entry with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given).
+If the entry with the title exists on that list, its list of attributes will be replaced by given list of attributes (or removed if such a list was not given).
 
 === Removing an entry from entry list ===
 
 {{{
-$ flexget entry-list del <ENTRY> -l <LIST_NAME>
+$ flexget entry-list del <LIST_NAME> <ENTRY>
 }}}
 `<ENTRY>` can be the ID displayed in `entry-list list` or exact entry title.
 
 === Clearing an entire entry list ===
 
 {{{
-$ flexget entry-list purge -l <LIST_NAME>
+$ flexget entry-list purge <LIST_NAME>
 }}}
 == Entry List API ==
 
