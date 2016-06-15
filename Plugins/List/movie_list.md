@@ -1,36 +1,40 @@
 = Movie List =
 
-This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+This plugin is a [wiki:Plugins/List/ managed list] plugin.
 
-Stores a copy of an entry that was added to it if that entry contains the following attributes: `imdb_id`, `trakt_movie_id` or `tmdb_id`. This plugin replaces the now deprecated [wiki:Plugins/movie_queue movie_queue]. As opposed to [wiki:Plugins/movie_queue movie_queue], `movie_list` does not store quality or download status.
+Any entry containing field(s) `imdb_id`, `trakt_movie_id` or `tmdb_id` can be added to movie list for later matching. This allows user to maintain one or more movie queues.
 
 [[span(style=color: #FF0000, **Important note** )]]: When matching against `movie_list`, either with [wiki:Plugins/List/list_accept list_accept] or [wiki:Plugins/List/list_queue list_queue] the matched entries '''MUST''' have one of the aforementioned attributes, so consider using a lookup plugin like [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/trakt_lookup trakt_lookup] and etc. 
 
-=== Schema ===
+== Schema ==
 
 {{{
 movie_list: <NAME>
 }}}
+
 Or:
+
 {{{
 movie_list: 
   list_name: <NAME> (Required)
-  strip_year: <BOOL> (Optional)
+  strip_year: [yes|no] (Optional)
 }}}
 
 '''Clarification''': By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` '''OUTPUTS''' the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [wiki:Plugins/discover discover] plugin.
-=== Usage ===
 
-As a [wiki:Plugins/List list_interface] plugin it follows the same list actions:
+== Usage ==
+
+As a [wiki:Plugins/List managed list] plugin it follows the same list actions:
 
 {{{
-any_input: ...
-filter: ...
+input: ...
+.
+.
 list_add: 
   - movie_list: list name
 }}}
 
-It can be added as an additional output:
+=== Fill list ===
 
 {{{
 trakt_list:
@@ -42,16 +46,7 @@ list_add:
   - movie_list: movies from trakt
 }}}
 
-This will add all accepted entries to an `movie_list` with the name `movies from trakt`. It then later be used as an input itself. This can be used a base to filter on with other tasks:
-
-{{{
-rss: ...
-list_accept:
-  - movie_list: movie from trakt
-download: ...
-}}}
-
-You can create a list from multiple sources:
+This will add all accepted entries to an `movie_list` with the name `movies from trakt`. It then later be used as an input itself. This can be used a base to filter on with other tasks. You can add multiple inputs if you wish.
 
 {{{
 trakt_list:
@@ -66,16 +61,13 @@ list_add:
   - movie_list: all my watchlists
 }}}
 
-Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
+=== Download matches ===
 
 {{{
-movies_from_movie_queue:
-  emit_movie_queue: yes
-  accept_all: yes
-  list_add:
-    - movie_list: movies
-  disable: 
-    - seen # seen needs to be disabled since all the titles that movie queue will emit were seen when they were added to the queue
+rss: ...
+list_accept:
+  - movie_list: movie from trakt
+download: ...
 }}}
 
 How to use it with a regular task:
@@ -90,22 +82,24 @@ a_task:
   download: /path/to/download
 }}}
 
-How to use with discover plugin:
+=== With discover ===
+
 {{{
-discover_task:
+discover-movies:
   discover:
     what:
       - movie_list: movie list name
     from:
       - kat: opts
-  quality: 720p # As opposed to movie_queue, movie_list does not hold quality attribute by itself, and needs to be added via the quality plugin if needed
-  imdb_lookup: # movie-list requires entries with a recognizable attribute, as mentioned at the top
+  quality: 720p
+  imdb_lookup: yes
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
 }}}
 
 '''Strip Year option''': It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
+
 {{{
 discover_task:
   discover:
@@ -124,13 +118,29 @@ discover_task:
 
 The [wiki:Plugins/List/list_queue list_queue] matches and immediately remove matching entity from list, so no duplicate matches will occur during a task. If you do no wish to remove on match, use [wiki:Plugins/List/list_accept list_accept] with `remove_on_accept` set to `False`.
 
+=== Migrate ===
+
+Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
+
+{{{
+movies_from_movie_queue:
+  emit_movie_queue: yes
+  accept_all: yes
+  list_add:
+    - movie_list: movies
+  disable: 
+    - seen 
+}}}
+
+Plugin [wiki:Plugins/seen seen] needs to be disabled since all the titles that movie queue will emit were seen when they were added to the queue
+
 == Movie list CLI ==
 
 For detailed instruction about these CLI commands:
+
 {{{
 $ flexget movie-list -h
 }}}
-
 
 Movie list support CLI operations:
 
@@ -147,6 +157,7 @@ $ flexget movie-list list <LIST_NAME>
 }}}
 
 '''Note:''' If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
+
 === Add or Update a movie to or from a movie list ===
 
 Using a title is require. You can also add additional identifiers in the following format:
