@@ -128,10 +128,10 @@ There are also options to the `flexget execute` command which affect the series 
 
 === --disable-tracking ===
 
-If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `--inject` and `--learn`. Example:
+If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `inject` and `--learn`. Example:
 
 {{{
-flexget execute --inject "Pioneer.One.S01E05.For.FlexGet" --learn --disable-tracking --tasks NAME
+flexget inject "Pioneer One 05" --task <name> --learn --disable-tracking
 }}}
 
 === --stop-waiting ===
