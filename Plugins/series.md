@@ -37,7 +37,7 @@ Only one of them is downloaded, with default configuration best quality is chose
 These plugins are complementary to the series plugin.
 
  * [wiki:Plugins/all_series all_series] - Grab all series in the task
- * [wiki:Plugins/import_series import_series] - Automatically configures series by using another input, some examples:
+ * [wiki:Plugins/configure_series configure_series] - Automatically configures series by using another input, some examples:
    * [wiki:Plugins/thetvdb_favorites thetvdb_favorites] - [http://thetvdb.com TheTVDB.com] favorites
    * [wiki:Plugins/List/trakt_list trakt_list] - [http://trakt.tv Trakt.tv] lists
    * [wiki:Plugins/filesystem filesystem] - You local directory listing
