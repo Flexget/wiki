@@ -4,8 +4,6 @@ This plugin is a [wiki:Plugins/List/ managed list] plugin.
 
 Any entry containing field(s) `imdb_id`, `trakt_movie_id` or `tmdb_id` can be added to movie list for later matching. This allows user to maintain one or more movie queues.
 
-[[span(style=color: #FF0000, **Important note** )]]: When matching against `movie_list`, either with [wiki:Plugins/List/list_accept list_accept] or [wiki:Plugins/List/list_queue list_queue] the matched entries '''MUST''' have one of the aforementioned attributes, so consider using a lookup plugin like [wiki:Plugins/imdb_lookup imdb_lookup], [wiki:Plugins/trakt_lookup trakt_lookup] and etc. 
-
 == Schema ==
 
 {{{
@@ -21,6 +19,11 @@ movie_list:
 }}}
 
 '''Clarification''': By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` '''OUTPUTS''' the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [wiki:Plugins/discover discover] plugin.
+
+=== Matching ===
+
+When using `movie_list` with a filter like `list_queue` for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
+If matching by identifiers fail, then title is [wiki:Plugins/parsing parsed] and proceeded to try to match by `movie_name` and `movie_year` fields.
 
 == Usage ==
 
