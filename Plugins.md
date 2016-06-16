@@ -267,7 +267,7 @@ Generate custom output using accepted entries
 
 == Metadata plugins ==
 
-Retrieve additional data from 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
+Retrieve additional data from internal parsers or 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 
 These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainfo (fields) to '''[wiki:Entry]'''.
 
@@ -280,6 +280,8 @@ These are usually automatic ('''[wiki:Builtin]''') plugins which provide metainf
 ||[wiki:Plugins/tvmaze_lookup tvmaze_lookup]||Enable http://tvmaze.com/ parsing for tvmaze fields on-demand.||
 ||[wiki:Plugins/check_subtitles check_subtitles]^1||Check subtitles presence for local files.||
 ||[wiki:Plugins/uoccin_lookup uoccin_lookup]||Fetch all the supported information from the [https://github.com/tarzasai/Uoccin Uoccin] data file.||
+||[wiki:Plugins/metainfo_movie metainfo_movie]||Call internal movie parser to parse task entries and generated movie related data.||
+
 
 ^1. Not a builtin, configuration required to enable.^
 
