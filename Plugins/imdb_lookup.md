@@ -1,8 +1,6 @@
-= Imdb lookup =
+= IMDB lookup =
 
-Performs imdb search for all entries in the feed and provides imdb lookup functionality to other plugins.
-
-Usually you don't need this, unless you know what you're doing :)
+Performs [http://www.imdb.com IMDB] search for all entries in the feed and provides IMDB lookup functionality to other plugins.
 
 Example:
 
