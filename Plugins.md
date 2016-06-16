@@ -230,6 +230,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 ||[wiki:Plugins/sns sns]||Send SNS notifications.||
 ||[wiki:Plugins/slack slack]||Send Slack channel notifications.||
+||[wiki:Plugins/send_telegram send_telegram]||Send a Telegram message from passed entries.||
 
 === !FlexGet internal output ===
 
@@ -263,7 +264,6 @@ Generate custom output using accepted entries
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/make_html make_html]||Generate HTML file from passed entries.||
 ||[wiki:Plugins/make_rss make_rss]||Generate RSS-feed file from passed entries.||
-||[wiki:Plugins/send_telegram send_telegram]||Send a Telegram message from passed entries.||
 
 == Metadata plugins ==
 
