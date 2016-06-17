@@ -98,6 +98,7 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list. [wiki:Plugins/List Managed List]||
+||[wiki:Plugins/List/subtitle_list subtitle_list]||Use or add entries to a custom made subtitle list. [wiki:Plugins/List Managed List]||
 
 == Filters ==
 
@@ -136,7 +137,6 @@ Filters based on preexisting data or operations within !FlexGet
 ||[wiki:Plugins/require_field require_field]||Reject entries that do not have the specified fields.||
 ||[wiki:Plugins/seen_movies seen_movies]||Rejects already downloaded movies (detected by imdb-link).||
 ||[wiki:Plugins/seen seen]||Reject already downloaded entries. [wiki:Builtin]||
-||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
 
 === Torrent specific filters ===
 
@@ -396,3 +396,4 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 ||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
 ||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
+||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
