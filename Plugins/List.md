@@ -8,6 +8,7 @@ Managed List plugins are a special class of plugin, which work as input plugins,
 ||[wiki:Plugins/List/sonarr_list sonarr_list]||Use or add entries from Sonarr shows.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
 ||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list.||
+||[wiki:Plugins/List/subtitle_list subtitle_list]||Use or add entries to a custom made subtitle list.||
 
 === Operating with lists ===
 
