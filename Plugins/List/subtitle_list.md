@@ -15,9 +15,9 @@ subtitle_list:  # as input
   list: subtitles
   allow_dir: yes
 list_queue:  # accept and remove files from the list if subtitle(s) was found
-  subtitle_list:
-    list: subtitles
-    allow_dir: yes
+  - subtitle_list:
+      list: subtitles
+      allow_dir: yes
 }}}
 
 == Plugin Settings ==
@@ -53,11 +53,11 @@ This example shows how you would use subtitle_list in a task that sorts episodes
     move:
       to: /some/path/{{ series_name }}
     list_add:
-      subtitle_list:
-        list: subtitles
-        languages:
-          - en
-        path: '{{ output }}'
+      - subtitle_list:
+          list: subtitles
+          languages:
+            - en
+          path: '{{ output }}'
 }}}
 
 === Example: Download subtitles ===
@@ -70,8 +70,8 @@ This example shows how to use the files in a subtitle list along with [wiki:Plug
     subtitle_list:
       list: subtitles
     list_queue:
-      subtitle_list:
-        list: test
+      - subtitle_list:
+          list: test
     subliminal:
       languages:  # languages is required, but if a language is specified in subtitle_list, it takes priority
         - en
