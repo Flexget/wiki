@@ -71,7 +71,7 @@ This example shows how to use the files in a subtitle list along with [wiki:Plug
       list: subtitles
     list_queue:
       - subtitle_list:
-          list: test
+          list: subtitles
     subliminal:
       languages:  # languages is required, but if a language is specified in subtitle_list, it takes priority
         - en
