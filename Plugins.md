@@ -391,7 +391,7 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 == Deprecated ==
 
-||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue 
+||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue].|| 
 ||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
 ||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
 ||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
