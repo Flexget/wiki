@@ -2,7 +2,7 @@
 
 This plugin is a [wiki:Plugins/List/ list_interface] plugin.
 
-Using `list_queue` will accept any entry matching contents of list and immediately remove the matched element from the list:
+Using `list_queue` will accept any entry matching the contents of list and immediately remove the matched element from the list. The matching depends on the list plugin. Consult the wiki page of the list plugin you're using to learn how it matches entries. Below is an example using [wiki:Plugins/List/movie_list movie_list]:
 {{{
 discover:
   interval: 3 hour
