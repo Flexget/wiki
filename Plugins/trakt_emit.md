@@ -15,7 +15,7 @@ Currently the following settings are supported:
 {{{#!div style="margin-left: 25px"
 ||= Option =||= Description =||
 ||'''username'''||This is your username at [http://trakt.tv trakt.tv] ||
-||'''account'''||Your account name set by [wiki:Plugins/trakt Trakt] cli tools. Required if the list is private.||
+||'''account'''||Your account name set by [wiki:Plugins/trakt Trakt] cli tools. '''Required''' if the list is private.||
 ||'''context'''||Can be '''watched''' (default) or '''collected''', it refers to the seen and collected [http://trakt.tv trakt.tv] status.||
 ||'''position'''||Can be '''next''' (default) or '''last''', combined to the "context" option, instructs the plugin to emit the next to watch, the next to collect, the last watched or the last collected episode for each series.||
 ||'''list'''||The name of a custom [http://trakt.tv trakt.tv] or built-in list to limit the series for which to emit entries.||
