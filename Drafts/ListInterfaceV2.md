@@ -39,8 +39,8 @@ examples:
 match_list:
   from:
     - trakt_list:
-      username: traktusername
-      list: watchlist
-      type: movies
+        username: traktusername
+        list: watchlist
+        type: movies
   action: accept
 }}}
