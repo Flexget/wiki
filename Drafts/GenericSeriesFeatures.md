@@ -2,6 +2,12 @@
 
 '''GOAL:''' Extract nice functionalities like timeframe, quality upgrades etc into separate plugins that can be re-used with movies.
 
+'''Feature prospects'''
+
+* Timeframe
+* Propers
+* Qualities
+
 Disclaimer: Some of this might not be applicable, it has been long time since I've done anything to the codebase.
 
 Each of these sub-functions could be separate plugins/services. Let's think timeframe for example.
@@ -24,6 +30,6 @@ accepted = plugin.get_plugin_by_name('timeframe').instance.evaluate(
 }}}
 
 
-Same approach would be used for quality, upgrade etc. Some of the plugins would need to keep track of entries internally. Currently a backlog plugin is used to keep items in the task until timeframe for example does it's thing.
+Same approach would be used for all features. Some of the plugins would need to keep track of entries internally. Currently a backlog plugin is used to keep items in the task until timeframe for example does it's thing.
 
 Ps. As an addition to timeframe I would like to set "deadline" for series, get something regardless of the quality before certain time.
