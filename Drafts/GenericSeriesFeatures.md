@@ -126,3 +126,7 @@ entry['imdb_id'] = Identity('imdb', 123)
 
 isinstance(ntry['imdb_id'], Identity)
 }}}
+
+=== Problem ===
+
+What if we have multiple ids .. which one we put into "identified_by" ? In fact whole identified_by parameter becomes unnecessary if we have ids in the entry.
