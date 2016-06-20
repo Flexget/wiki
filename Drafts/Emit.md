@@ -23,22 +23,14 @@ We currently have multiple plugins with various different naming and configurati
 
 '''Group D'''
 
-special one [wiki:Plugins/subtitle_queue subtitle_queue] which can be configured to manage the queue OR emit the content with:
-
-* subtitle_queue: emit
-
-'''Group E'''
-
 Badly named
 
 * dynamic_imdb
 
-this is basically emit from imdb with configuration ?
+this is basically emit from imdb with configuration
 
 === Thoughts ===
 
 * emit is a bit weird term and "from_deluge" etc seem to make more sense than "emit_deluge"
-* emit_series and trakt_emit are a bit different as they are automatically generated sequences based on current status .. maybe they should be called something like "next_series" and "next_trakt" ?
-* approach in subtitle_queue is kind of nice as then there is no need to have multiple registered plugins for one thing, although then you can not combine deluge input and deluge output in a same task for example
-* best approach to rename everything to "from_<thing>" and create new "from_subtitle_queue" plugin to follow the convention?
-* some of these should be converted into a list plugins? 
+* emit_series and trakt_emit are a bit different as they are automatically generated sequences based on current status .. they should be called "next_series" and "next_trakt" ?
+* rename everything to "from_<thing>" / "next_<thing>"
