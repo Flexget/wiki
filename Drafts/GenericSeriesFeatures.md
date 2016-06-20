@@ -95,3 +95,34 @@ timeframe:
 == identified_by ==
 
 Maybe we can get rid of having to specify identified_by manually by providing some facilities for that.
+
+Issue comes down to now knowing which fields are id fields and which are not. Possible solutions:
+
+'''Option 1'''
+
+{{{
+entry['ids'] = ['imdb_id', 'tmdb_id']
+}}}
+
+appended by imdb_lookup etc
+
+
+'''Option 2'''
+
+Use type
+
+{{{
+class Identity:
+  
+   def __init__(self, name, value):
+     self.name = name
+     self.value = value
+}}}
+
+usage:
+
+{{{
+entry['imdb_id'] = Identity('imdb', 123)
+
+isinstance(ntry['imdb_id'], Identity)
+}}}
