@@ -54,11 +54,14 @@ timeframe:
   amount: 12h
   target: 720p
   identified_by: {{ imdb_id }}
+imdb:
+  min_score: 6.5
 }}}
+ 
+'''NOTES:''' 
 
-  
-'''TODO:''' I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
-
+* I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
+* Timeframe needs to operate on accepted entries in order to work well with other plugins
 
 === With new movies plugin ===
 
@@ -72,8 +75,10 @@ movies:
     target: 720p
 }}}
 
-'''NOTE:''' movies plugin will need to supply identified_by to timeframe somehow[[BR]]
-'''TODO:''' does movies plugin bring anything here opposed to
+'''NOTES:''' 
+
+* movies plugin will need to supply identified_by to timeframe somehow
+* does movies plugin bring anything here opposed to
 
 {{{
 rss: ...
@@ -86,3 +91,7 @@ timeframe:
   amount: 12h
   target: 720p
 }}}
+
+== identified_by ==
+
+Maybe we can get rid of having to specify identified_by manually by providing some facilities for that.
