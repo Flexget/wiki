@@ -56,7 +56,7 @@ timeframe:
 }}}
 
   
-TODO: I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
+'''TODO:''' I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
 
 
 === With new movies plugin ===
@@ -71,7 +71,7 @@ movies:
     target: 720p
 }}}
   
-TODO: does movies plugin bring anything here opposed to
+'''TODO:''' does movies plugin bring anything here opposed to
 
 {{{
 rss: ...
