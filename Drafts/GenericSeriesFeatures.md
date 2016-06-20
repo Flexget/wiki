@@ -49,6 +49,7 @@ timeframe:
 
 {{{
 rss: .....
+imdb_lookup: yes
 timeframe: 
   amount: 12h
   target: 720p
@@ -70,15 +71,19 @@ movies:
     amount: 12h
     target: 720p
 }}}
+
+'''NOTE:''' movies plugin will need to supply identified_by to timeframe somehow
   
 '''TODO:''' does movies plugin bring anything here opposed to
 
 {{{
 rss: ...
+imdb_lookup: yes
 list_match:
   from:
     - movie_list: movies
 timeframe:
+  identified_by: {{ imdb_id }}
   amount: 12h
   target: 720p
 }}}
