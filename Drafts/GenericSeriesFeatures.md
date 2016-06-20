@@ -72,8 +72,7 @@ movies:
     target: 720p
 }}}
 
-'''NOTE:''' movies plugin will need to supply identified_by to timeframe somehow
-  
+'''NOTE:''' movies plugin will need to supply identified_by to timeframe somehow[[BR]]
 '''TODO:''' does movies plugin bring anything here opposed to
 
 {{{
