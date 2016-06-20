@@ -19,7 +19,8 @@ class Timeframe:
 Example usage from series_plugin
 
 {{{
-accepted = plugin.get_plugin_by_name('timeframe').instance.evaluate(entry, "{0} {1}".format(series_name, series_id, timeframe_config)
+accepted = plugin.get_plugin_by_name('timeframe').instance.evaluate(
+    entry, "{0} {1}".format(series_name, series_id, timeframe_config)
 }}}
 
 
