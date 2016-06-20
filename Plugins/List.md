@@ -1,6 +1,6 @@
 = Managed List Plugins =
 
-Managed List plugins are a special class of plugin, which work as input plugins, but can also be used in other contexts to edit the list or act based on it.
+Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.
 
 ||[wiki:Plugins/List/trakt_list trakt_list]||Use or add entries from one of your trakt.tv lists.||
 ||[wiki:Plugins/List/imdb_list imdb_list]||Use or add entries from one of your IMDB lists.||
