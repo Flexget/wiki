@@ -130,3 +130,5 @@ isinstance(ntry['imdb_id'], Identity)
 === Problem ===
 
 What if we have multiple ids .. which one we put into "identified_by" ? In fact whole identified_by parameter becomes unnecessary if we have ids in the entry.
+
+What about more complex ids? Like with episodes, to determine if they are the same thing, we might have to check if the current entry has equal: `'trakt_episode_id' or (('trakt_series_id' or 'imdb_id' or ('series_name' and 'series_year')) and 'series_id')`
