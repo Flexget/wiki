@@ -76,7 +76,7 @@ make install # ok, fine, this step probably takes more than 30 seconds...
 curl -L https://www.npmjs.org/install.sh | sh
 }}}
 
-'''Alternative (untested)'''
+Alternative NPM installation (untested)
 
 {{{
 # install node wherever.
