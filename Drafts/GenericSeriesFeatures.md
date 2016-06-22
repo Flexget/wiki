@@ -181,7 +181,7 @@ timeframe:
     regexp:
       reject:
         - screener
-  1 hour:
+  1 hour: <-- this sucks
     quality: 720p
 }}}
 
