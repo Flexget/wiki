@@ -132,3 +132,38 @@ isinstance(ntry['imdb_id'], Identity)
 What if we have multiple ids .. which one we put into "identified_by" ? In fact whole identified_by parameter becomes unnecessary if we have ids in the entry.
 
 What about more complex ids? Like with episodes, to determine if they are the same thing, we might have to check if the current entry has equal: `'trakt_episode_id' or (('trakt_series_id' or 'imdb_id' or ('series_name' and 'series_year')) and 'series_id')`
+
+=== Example flow (Quality) ===
+
+Assuming we are using multiple ids and each id field is an identifier class. 
+
+{{{
+rss: .....
+imdb_lookup: yes
+tvdb_lookup: yes
+quality:
+  upgrade: true
+  accept:
+    - 720p hdtv
+    - 1080p webdl
+regex:
+  accept:
+      - Game Of Thrones
+}}}
+ 
+Identifers set by meta plugins
+
+- Identifer(name='tvdb_id', value='123456')
+- Identifer(name='imdb_id', value='123456')
+- Identifer(name='series_id', value='S01E01', required=True)
+
+First run (Game.Of.Thrones.S01E01.HDTV)
+1. Quality looks for existing (not found)
+2. Regex accepts
+3. Quality plugin stores accepts in db.. Not sure how yet
+
+
+Second run (Game.Of.Thrones.S01E01.720p)
+1.
+2.
+3.
