@@ -183,4 +183,4 @@ timeframe:
     quality: 720p
 }}}
 
-The timeframe plugin would keep track of content ids for all previously seen entries. For every entry in the task, it would check its database to see if a release for that content has been seen before, it would apply the appropriate plugins from the different timed sections of config based on the first seen entry time, and reject outright if we've already accepted an entry for that content id. 
+The timeframe plugin would keep track of content ids for all previously seen entries. For every entry in the task, it would check its database to see if a release for that content has been seen before, it would apply the appropriate plugins from the different timed sections of config based on the first seen entry time, and reject outright if we've already accepted an entry for that content id. The plugin could also keep track of what 'section' ('target', '1 hour', etc.) was active when things got accepted, to allow for an 'upgrade' behavior. i.e. imdb_id xxx was accepted with the '1 hour' filters activated, if upgrade mode is enabled, it'd still look until it got a copy that passed the 'target' filters.
