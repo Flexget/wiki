@@ -167,3 +167,20 @@ Second run (Game.Of.Thrones.S01E01.720p)
 1.
 2.
 3.
+
+== A different possibility ==
+Instead of making plugins like quality have to be aware of the content id, a separate plugin that works like the 'timeframe' suite in series plugin, but let you use any unique content unaware filters.
+
+I don't like timeframe as the name of this, but keeping for examples sake:
+{{{
+timeframe:
+  target:
+    quality: 1080p  # This is still just the normal quality filter plugin
+    regexp:
+      reject:
+        - screener
+  1 hour:
+    quality: 720p
+}}}
+
+The timeframe plugin would keep track of content ids for all previously seen entries. For every entry in the task, it would check its database to see if a release for that content has been seen before, it would apply the appropriate plugins from the different timed sections of config based on the first seen entry time, and reject outright if we've already accepted an entry for that content id. 
