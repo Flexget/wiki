@@ -113,7 +113,6 @@ Use type
 
 {{{
 class Identity:
-  
    def __init__(self, name, value):
      self.name = name
      self.value = value
@@ -141,48 +140,35 @@ Assuming we are using multiple ids and each id field is an identifier class.
 rss: .....
 imdb_lookup: yes
 tvdb_lookup: yes
+regex:
+  accept:
+      - Game Of Thrones
 quality:
   upgrade: true
   accept:
     - 720p hdtv
     - 1080p webdl
-regex:
-  accept:
-      - Game Of Thrones
 }}}
  
 Identifers set by meta plugins
 
 - Identifer(name='tvdb_id', value='123456')
 - Identifer(name='imdb_id', value='123456')
-- Identifer(name='series_id', value='S01E01', required=True)
+- Identifer(name='series_id', value='S01E01', required=True) ... TODO: required?
 
 First run (Game.Of.Thrones.S01E01.HDTV)
-1. Quality looks for existing (not found)
-2. Regex accepts
-3. Quality plugin stores accepts in db.. Not sure how yet
-
+- Regex accepts
+- Check if desired quality downloaded, NO (not desired quality) -> leave alone
 
 Second run (Game.Of.Thrones.S01E01.720p)
-1.
-2.
-3.
+- Regex accepts
+- Check if desired quality downloaded, NO -> leave alone
 
-== A different possibility ==
-EDIT: Perhaps this section is not good. I failed to fully understand paranoidi's idea until now, and I think that's better. Rather than trying to make different plugins content aware, just factor out the content aware features into a utility that already content aware plugins can then use.
+Third run (Game.Of.Thrones.S01E01.720p)
+- Regex accepts
+- Check if desired quality downloaded, YES -> reject
 
-Instead of making plugins like quality have to be aware of the content id, a separate plugin that works like the 'timeframe' suite in series plugin, but let you use any unique content unaware filters.
+Third run (Game.Of.Thrones.S01E01.1080p)
+- Regex accepts
+- Check if desired quality downloaded, NO -> leave alone
 
-I don't like timeframe as the name of this, but keeping for examples sake:
-{{{
-timeframe:
-  target:
-    quality: 1080p  # This is still just the normal quality filter plugin
-    regexp:
-      reject:
-        - screener
-  1 hour: <-- this sucks
-    quality: 720p
-}}}
-
-The timeframe plugin would keep track of content ids for all previously seen entries. For every entry in the task, it would check its database to see if a release for that content has been seen before, it would apply the appropriate plugins from the different timed sections of config based on the first seen entry time, and reject outright if we've already accepted an entry for that content id. The plugin could also keep track of what 'section' ('target', '1 hour', etc.) was active when things got accepted, to allow for an 'upgrade' behavior. i.e. imdb_id xxx was accepted with the '1 hour' filters activated, if upgrade mode is enabled, it'd still look until it got a copy that passed the 'target' filters.
