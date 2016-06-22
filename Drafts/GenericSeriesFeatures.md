@@ -169,6 +169,8 @@ Second run (Game.Of.Thrones.S01E01.720p)
 3.
 
 == A different possibility ==
+EDIT: Perhaps this section is not good. I failed to fully understand paranoidi's idea until now, and I think that's better. Rather than trying to make different plugins content aware, just factor out the content aware features into a utility that already content aware plugins can then use.
+
 Instead of making plugins like quality have to be aware of the content id, a separate plugin that works like the 'timeframe' suite in series plugin, but let you use any unique content unaware filters.
 
 I don't like timeframe as the name of this, but keeping for examples sake:
