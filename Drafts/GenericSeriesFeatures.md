@@ -166,27 +166,27 @@ isinstance(entry['imdb_id'], Identity)
 
 '''Option 3'''
 
-Task level identification service, this would set some lazy field in entry
+new metainfo plugin, replaces all imdb_lookup, tmdb_lookup plugins etc
+
+Usage in a task:
 
 {{{
-rss: ...
-identify: imdb
-timeframe:
-  target: 720p
-  amount: 12h
+metainfo: imdb
 }}}
 
-
-Movies plugin could take the task level identification service from any entry? Seems hacky ..
+Usage with movies:
 
 {{{
-rss: ...
-identify: imdb
+rss: ....
 movies:
   from:
-    - rss: ....
-    - movie_list: ....
+    - movie_list: movies
+  metainfo: imdb # applies to rss AND movies_list
+  qualities: 
+    - 720p
+    - 1080p
 }}}
+
 
 === Problem ===
 
