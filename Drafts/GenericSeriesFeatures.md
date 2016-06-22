@@ -189,7 +189,9 @@ movies:
 Plugin `movie_list` produced entries contains id field(s) that were available at that time so those entries do not necessarily need to be looked up at all!
 
 
-'''NOTE''': Imdb and tmdb plugins already provide this type of field via 'movie_metainfo' group and method 'movie_identifier'. But this applies only for movies ...
+'''NOTES'''
+* Imdb and tmdb plugins already provide this type of field via 'movie_metainfo' group and method 'movie_identifier'. But this applies only for movies ...
+* movies_list produces entries with id field (eg. imdb_id) which movie plugin can detect as that field is known id, it could enable relevant lookup solely based on that
 
 
 === Problem ===
