@@ -164,9 +164,11 @@ entry['imdb_id'] = Identity('imdb', 123)
 isinstance(entry['imdb_id'], Identity)
 }}}
 
-'''Option 3'''
+'''Option 3 (CURRENTLY PREFERRED)'''
 
-new metainfo plugin, replaces all imdb_lookup, tmdb_lookup plugins etc
+New metainfo plugin, replaces all imdb_lookup, tmdb_lookup plugins etc. Each "metainfo provider" plugin would have a method which returns field name which contains the unique identifier it provides. So for `plugin.get_plugin_by_name('imdb').instance.identified_by()` would return `imdb_id`.
+
+
 
 Usage in a task:
 
@@ -186,6 +188,8 @@ movies:
     - 720p
     - 1080p
 }}}
+
+Plugin `movie_list` contains fields that were available at that time so those entries do not necessarily need to be looked up at all!
 
 
 === Problem ===
