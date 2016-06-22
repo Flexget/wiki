@@ -76,7 +76,18 @@ make install # ok, fine, this step probably takes more than 30 seconds...
 curl -L https://www.npmjs.org/install.sh | sh
 }}}
 
-Install bower and gulp. This needs to be ran as root except if you installed NPM as user
+'''Alternative (untested)'''
+
+{{{
+# install node wherever.
+# use sudo even, it doesn't matter
+# we're telling npm to install in a different place.
+
+echo prefix = ~/local >> ~/.npmrc
+curl https://www.npmjs.org/install.sh | sh
+}}}
+
+Install bower and gulp. This needs to be ran as root except if you installed NPM as user with previous commands.
 
 {{{
 npm install -g bower
