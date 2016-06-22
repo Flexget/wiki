@@ -34,6 +34,44 @@ Same approach would be used for all features. Some of the plugins would need to 
 
 Ps. As an addition to timeframe I would like to set "deadline" for series, get something regardless of the quality before certain time.
 
+
+=== Plugins to do ? ===
+	
+{{{
+timeframe:
+  target: 720p
+  amount: 12h
+}}}  
+ 
+{{{
+deadline: 
+ target: 720p
+ amount: 12 hours
+}}}
+
+{{{
+propers: 12 hours
+}}}
+
+{{{
+qualities:
+  - 720p
+  - 1080p
+}}}	
+
+not so sure about this ....
+
+{{{
+upgrade:
+  quality:
+    - 720p
+    - 1080p
+  group:
+    - FlexGet
+    - Shit
+}}}	
+
+
 === Generic use in task ===
 
 This could be used in task standalone
@@ -123,7 +161,31 @@ usage:
 {{{
 entry['imdb_id'] = Identity('imdb', 123)
 
-isinstance(ntry['imdb_id'], Identity)
+isinstance(entry['imdb_id'], Identity)
+}}}
+
+'''Option 3'''
+
+Task level identification service, this would set some lazy field in entry
+
+{{{
+rss: ...
+identify: imdb
+timeframe:
+  target: 720p
+  amount: 12h
+}}}
+
+
+Movies plugin could take the task level identification service from any entry? Seems hacky ..
+
+{{{
+rss: ...
+identify: imdb
+movies:
+  from:
+    - rss: ....
+    - movie_list: ....
 }}}
 
 === Problem ===
