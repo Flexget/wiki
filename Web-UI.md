@@ -30,7 +30,7 @@ Flexget UI will be available at http://flexget_ip:3539/ui/
 Full API documentation will be available at http://flexget_ip:3539/api/
 
 
-= Authentication =
+== Authentication ==
 The login username is `flexget` and the password is what you set above.
 
 You can also use an authorization header to access the API with the following format: `Authorization: Token <TOKEN>`
@@ -50,7 +50,7 @@ flexget web gentoken
 - The UI communicates with Flexget via the API. Browse to http://flexget_ip:3539/api/ for the documentation
 
 
-= Development =
+== Development ==
 
 We have a functional API with documentation available at http://flexget_ip:3539/api/.
 
@@ -58,27 +58,42 @@ The UI has a solid base but we need help building the plugins. If you would like
 
 To get started you will first need to setup your environment from Git.
 
-'''Setup from Git'''
+=== Setup from Git ===
 
-You will need to install NPM [https://nodejs.org/en/]
+You will need to install NPM (see [https://nodejs.org/en/])
 
-Install bower and gulp (as root)
+Following commands will do that as user, requires g++ to be installed:
+
 {{{
- npm install -g bower
- npm install -g gulp
+echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
+. ~/.bashrc
+mkdir ~/local
+mkdir ~/node-latest-install
+cd ~/node-latest-install
+curl http://nodejs.org/dist/node-latest.tar.gz | tar xz --strip-components=1
+./configure --prefix=~/local
+make install # ok, fine, this step probably takes more than 30 seconds...
+curl -L https://www.npmjs.org/install.sh | sh
+}}}
+
+Install bower and gulp. This needs to be ran as root except if you installed NPM as user
+
+{{{
+npm install -g bower
+npm install -g gulp
 }}}
 
 Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder.
 
 {{{
- npm install
- bower update
- gulp build
+npm install
+bower update
+gulp build
 }}}
 
 Running `gulp build` will compile all the ui files.
 
-'''Running from Git'''
+=== Running from Git ===
 
 The UI communicates to the flexget daemon using the API. When starting the daemon it will make the ui available via http://flexget_ip:3539/ui/.
 
@@ -102,8 +117,7 @@ gulp serve
 gulp serve --server <flexget_api:port>
 }}}
 
-
-= Testing =
+== Testing ==
 
 We have recently started adding tests to our existing parts of the UI. Currently they reside in a PR [https://github.com/Flexget/Flexget/pull/1206] until the refactoring and setting up is done.
 
