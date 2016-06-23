@@ -25,8 +25,9 @@ It can be added as an additional output:
 
 {{{
 rss: ..
-list_queue:
-  - movie_list: main movies
+list_match:
+  from:
+    - movie_list: main movies
 list_add:
   - entry_list: downloaded movies
 }}}
