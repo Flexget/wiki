@@ -64,4 +64,4 @@ discover:
     - torrentz: verified
   interval: 1 day
 }}}
-Be aware, that discover plugin just produces entries, if you want movies accepted you must still also include the [wiki:Plugins/List/list_accept list_accept] plugin in your task.
+Be aware, that discover plugin just produces entries, if you want movies accepted you must still also include the [wiki:Plugins/List/list_match list_match] plugin in your task.
