@@ -22,7 +22,7 @@ movie_list:
 
 === Matching ===
 
-When using `movie_list` with a filter like `list_queue` for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
+When using `movie_list` with a filter like [wiki:Plugins/List/list_match list_match] for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
 If matching by identifiers fail, then title is [wiki:Plugins/parsing parsed] and proceeded to try to match by `movie_name` and `movie_year` fields.
 
 == Usage ==
@@ -67,8 +67,9 @@ list_add:
 
 {{{
 rss: ...
-list_accept:
-  - movie_list: movie from trakt
+list_match:
+  from:
+    - movie_list: movie from trakt
 download: ...
 }}}
 
@@ -79,8 +80,9 @@ task_name:
   rss: http://url.com/feed.xml
   quality: 720p
   imdb_lookup: yes
-  list_queue:
-    - movie_list: movie list name
+  list_match:
+    from:
+      - movie_list: movie list name
   download: /path/to/download
 }}}
 
@@ -115,12 +117,13 @@ discover-movies:
       - kat: <opts>
   quality: 720p
   imdb_lookup: yes
-  list_queue:
-    - movie_list: movie list name
+  list_match:
+    from:
+      - movie_list: movie list name
   download: /path/to/download
 }}}
 
-The [wiki:Plugins/List/list_queue list_queue] matches and immediately remove matching entity from list. [wiki:Plugins/List/list_accept list_accept] can be used alternatively.
+The [wiki:Plugins/List/list_match list_match] matches only the first item from the list by default. See its wiki for different options.
 
 === Migrate ===
 
