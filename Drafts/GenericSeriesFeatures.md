@@ -2,23 +2,21 @@
 
 '''GOAL:''' Extract nice functionalities like timeframe, quality upgrades etc into separate plugins that can be re-used with movies.
 
-'''Feature prospects'''
-
-* Timeframe
-* Propers
-* Qualities
-
-Disclaimer: Some of this might not be applicable, it has been long time since I've done anything to the codebase.
-
-Each of these sub-functions could be separate plugins/services. Let's think timeframe for example.
+Each of these sub-functions should be separate plugin. Let's think timeframe for example.
 
 
 {{{
 class Timeframe:
+  # plugin provides this service
   def evaluate(self, entry, identified_by, config):
-     .
-     .
-     # return None or entry that should be accepted
+      .
+      .
+      # return None or entry that should be accepted
+
+  # can be used in task
+  def on_task_filter(...):
+      for e in entries:
+          self.evaluate(....)
 }}}
 
 
@@ -49,6 +47,8 @@ deadline:
  amount: 12 hours
 }}}
 
+* Timeframe needs to operate on accepted entries in order to work well with other plugins
+
 {{{
 propers: 12 hours
 }}}
@@ -70,6 +70,8 @@ upgrade:
     - FlexGet
     - Shit
 }}}	
+
+Using combination of these plugins might get a bit interesting ...
 
 
 === Generic use in task ===
@@ -99,7 +101,6 @@ imdb:
 '''NOTES:''' 
 
 * I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
-* Timeframe needs to operate on accepted entries in order to work well with other plugins
 
 === With new movies plugin ===
 
@@ -132,46 +133,13 @@ timeframe:
 
 == Identification mess ==
 
-Maybe we can get rid of having to specify identified_by manually by providing some facilities for that.
+However specifying identified_by things manually suck .. but there is an alternative!
 
-Issue comes down to now knowing which fields are id fields and which are not. Possible solutions:
+With movie_list we added ability to query id_field names from "movie_identifier" plugins. We need same done universally. All lookup plugins or any plugin that provides unique identifier should belong to group "identifiers" and have method to query the id field name.
 
-'''Option 1'''
+So for `plugin.get_plugin_by_name('imdb').instance.identified_by()` would return `imdb_id`.
 
-{{{
-entry['ids'] = ['imdb_id', 'tmdb_id']
-}}}
-
-appended by imdb_lookup etc
-
-
-'''Option 2'''
-
-Use type
-
-{{{
-class Identity:
-   def __init__(self, name, value):
-     self.name = name
-     self.value = value
-}}}
-
-usage:
-
-{{{
-entry['imdb_id'] = Identity('imdb', 123)
-isinstance(entry['imdb_id'], Identity)
-}}}
-
-'''Option 3 (CURRENTLY PREFERRED)'''
-
-New metainfo plugin, replaces all imdb_lookup, tmdb_lookup plugins etc. Each "metainfo provider" plugin would have a method which returns field name which contains the unique identifier it provides. So for `plugin.get_plugin_by_name('imdb').instance.identified_by()` would return `imdb_id`.
-
-Usage in a task:
-
-{{{
-metainfo: imdb
-}}}
+Series plugin is a bit problematic as it does not currently have unique identifier field, but it could have such field. Too bad we have already field `series_id` which is a bit different though :P
 
 Usage with movies:
 
@@ -180,25 +148,14 @@ rss: ....
 movies:
   from:
     - movie_list: movies
-  metainfo: imdb # applies to rss AND movies_list
+  info: imdb_lookup # applies to rss AND movies_list
   qualities: 
     - 720p
     - 1080p
 }}}
 
-Plugin `movie_list` produced entries contains id field(s) that were available at that time so those entries do not necessarily need to be looked up at all!
+Remember that plugin `movie_list` produced entries may contains id field(s) that were available at that time so those entries do not necessarily need to be looked up at all. Additionally we could make whole info field optional as we can detect what metainfo plugin was used for entries produced by `from`. Fall back to use normalized movie name if no identifier is found.
 
-
-'''NOTES'''
-* Imdb and tmdb plugins already provide this type of field via 'movie_metainfo' group and method 'movie_identifier'. But this applies only for movies ...
-* movies_list produces entries with id field (eg. imdb_id) which movie plugin can detect as that field is known id field, it could do relevant lookup solely based on that
-
-
-=== Problem ===
-
-What if we have multiple ids .. which one we put into "identified_by" ? In fact whole identified_by parameter becomes unnecessary if we have ids in the entry.
-
-What about more complex ids? Like with episodes, to determine if they are the same thing, we might have to check if the current entry has equal: `'trakt_episode_id' or (('trakt_series_id' or 'imdb_id' or ('series_name' and 'series_year')) and 'series_id')`
 
 === Example flow (Quality) ===
 
