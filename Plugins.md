@@ -57,7 +57,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/anidb_list anidb_list]||Create entries from your AniDB wishlist.||
 ||[wiki:Plugins/apple_trailers apple_trailers]||Get movie trailers from Apple.com||
 ||[wiki:Plugins/betaseries_list betaseries_list]||Use series you follow on www.betaseries.com as an input||
-||[wiki:Plugins/dynamic_imdb dynamic_imdb ]||Dynamically produce entries based on an IMDB person, company or character ||
+||[wiki:Plugins/from_imdb from_imdb]||Produce entries based on an IMDB person, company or character ||
 ||[wiki:Plugins/List/imdb_list imdb_list]||Use movies in your IMDb list as an input (eg. watchlist, rating history). [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/letterboxd letterboxd]||Create entries for movies on any public [http://letterboxd.com Letterboxd] list||
 ||[wiki:Plugins/myepisodes_list myepisodes_list]||Create entries from the shows in your myepisodes.com account.||
@@ -66,7 +66,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
 ||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
-||[wiki:Plugins/trakt_emit trakt_emit]||Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
+||[wiki:Plugins/next_trakt_episodes next_trakt_episodes]||Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
 ||[wiki:Plugins/List/trakt_list trakt_list]||Create entries from one of your trakt.tv lists. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
 ||[wiki:Plugins/whatcd whatcd]||Produce entries for content on [https://what.cd]||
@@ -82,9 +82,9 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 ||[wiki:Plugins/from_transmission from_transmission]||Use torrents loaded in Transmission as input.||
 ||[wiki:Plugins/plex plex]||Produce entries for shows present in a [http://www.plexapp.com Plex Media Server] section.||
 ||[wiki:Plugins/sickbeard sickbeard]||Produce entries from Sickbeard's show list||
-||[wiki:Plugins/List/sonarr_list sonarr_list ]||Produce entries from Sonarr's show list. [wiki:Plugins/List Managed List]||
-||[wiki:Plugins/sonarr_emit sonarr_emit ]||Produce entries for missing episodes from Sonarr||
-||[wiki:Plugins/uoccin_emit uoccin_emit ]||Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
+||[wiki:Plugins/List/sonarr_list sonarr_list]||Produce entries from Sonarr's show list. [wiki:Plugins/List Managed List]||
+||[wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]||Produce entries for missing episodes from Sonarr||
+||[wiki:Plugins/from_uoccin from_uoccin]||Produce entries from a [https://github.com/tarzasai/Uoccin Uoccin] data file||
 
 === Internal Input ===
 
@@ -93,8 +93,8 @@ Input plugins that will generate entries based on preexisting data in !FlexGet.
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/configure_series configure_series]||Configures the series plugin with all the shows given by any input plugin (eg. filesystem, rss). ||
 ||[wiki:Plugins/discover discover]||Produce entries from search results.||
-||[wiki:Plugins/emit_digest emit_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
-||[wiki:Plugins/emit_series emit_series]||Emit the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
+||[wiki:Plugins/from_digest from_digest]||Outputs entries which have been collected by the [wiki:Plugins/digest digest] plugin.||
+||[wiki:Plugins/next_series_episodes next_series_episodes]||Emits the next episode needed for each series configured in the series plugin. Useful for example with [wiki:Plugins/discover discover].||
 ||[wiki:Plugins/inputs inputs]||Configure the same input plugin multiple times in one task.||
 ||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list. [wiki:Plugins/List Managed List]||
@@ -114,9 +114,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ||[wiki:Plugins/proper_movies proper_movies]||Keep track of downloaded movies and force re-download proper versions.||
 ||[wiki:Plugins/series series]||Accept TV-series episodes. Quality and episode number aware.||
 ||[wiki:Plugins/series_premiere series_premiere]||Accept any entry that appears to be the first episode of a series.||
-||[wiki:Plugins/List/list_accept list_accept]||Use this plugin to accept entries based on another list plugin.||
-||[wiki:Plugins/List/list_reject list_reject]||Use this plugin to reject entries based on another list plugin.||
-||[wiki:Plugins/List/list_queue list_queue ]||Use this plugin to accept an entry and immediately remove the matching element from a list.||
+||[wiki:Plugins/List/list_match list_match ]||Use this plugin to filter entries based on another list plugin.||
 
 === Metadata filters ===
 
@@ -230,7 +228,7 @@ Send accepted entries to notification services.
 ||[wiki:Plugins/pushalot pushalot]||Send Pushalot notifications (Windows 8/Windows Phone).||
 ||[wiki:Plugins/sns sns]||Send SNS notifications.||
 ||[wiki:Plugins/slack slack]||Send Slack channel notifications.||
-||[wiki:Plugins/send_telegram send_telegram]||Send a Telegram message from passed entries.||
+||[wiki:Plugins/telegram telegram]||Send a Telegram message from passed entries.||
 
 === !FlexGet internal output ===
 
@@ -311,7 +309,7 @@ Perform file oriented operations.
 ||[wiki:Plugins/extension extension]||Force a file extension.||
 ||[wiki:Plugins/free_space free_space]||Abort task when drive space is low.||
 ||[wiki:Plugins/path_by_ext path_by_ext]||Change (download) path based on file-type (extension).||
-||[wiki:Plugins/path_select path_select]||Select a path based on disk stats||
+||[wiki:Plugins/path_by_space path_by_space]||Select a path based on disk stats||
 ||[wiki:Plugins/remove_trackers remove_trackers]||Remove trackers from a torrent.||
 ||[wiki:Plugins/set set]||Set 'path' or other info per task. Can be dynamic per entry.||
 
@@ -393,7 +391,4 @@ Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
 ||[wiki:Plugins/emit_movie_queue emit_movie_queue]||Emit your [wiki:Plugins/movie_queue movie_queue].|| 
 ||[wiki:Plugins/movie_queue movie_queue]||Accept movies from movie queue.||
-||[wiki:Plugins/trakt_add trakt_add]||Add accepted episodes/movies to a list on trakt.tv.||
-||[wiki:Plugins/trakt_remove trakt_remove]||Remove accepted episodes/movies from a list on trakt.tv.||
-||[wiki:Plugins/movie_queue movie_queue]||Add movies to movie queue.||
 ||[wiki:Plugins/subtitle_queue subtitle_queue]||Add or accept files to get subtitles for.||
