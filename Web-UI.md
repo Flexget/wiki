@@ -76,6 +76,15 @@ make install # ok, fine, this step probably takes more than 30 seconds...
 curl -L https://www.npmjs.org/install.sh | sh
 }}}
 
+Alternative NPM installation to virtualenv (untested)
+
+{{{
+$ curl http://nodejs.org/dist/node-latest.tar.gz | tar xvz
+$ cd node-v*
+$ ./configure --prefix=$VIRTUAL_ENV
+$ make install
+}}}
+
 Alternative NPM installation (untested)
 
 {{{
