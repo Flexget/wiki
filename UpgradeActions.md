@@ -10,6 +10,22 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration file needs to be updated.
 
+=== 2016.6.23 2.1.0 ===
+**Several breaking changes**
+
+As an effort to minimize plugins and create a better user experience, several changes are presented with this version:
+
+* `list_accept`, `list_reject` and `list_queue` plugin have been replaced with [wiki:Plugins/list_match list_match]. See plugin page for detailed information on new syntax.
+* Changed `emit_series` to [wiki:Plugins/next_series_episodes next_series_episodes]
+* Changed `send_telegram` to [wiki:Plugins/telegram telegram]
+* Changed `path_select` to [wiki:Plugins/path_by_space path_by_space]
+* Changed `sonarr_emit` to [wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]
+* Changed `path_select ` to [wiki:Plugins/path_by_space path_by_space]
+* Changed `emit_digest` to [wiki:Plugins/from_digest from_digest]
+* Changed `emit_uoccin` to [wiki:Plugins/from_uoccin from_uoccin]
+* Changed `dynamic_imdb` to [wiki:Plugins/from_imdb from_imdb]
+* Removed the deprecated `trakt_add` and `trakt_remove`
+
 === 2016.4.24 2.0.0 ===
 
 **Major Flexget Change**
