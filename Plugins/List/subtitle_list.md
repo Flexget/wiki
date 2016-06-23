@@ -9,7 +9,7 @@ The main purpose of this plugin is to keep track of local video files that are i
 
  * subliminal >=2.0rc1 is required for this plugin to work properly.
  * This plugin should be used together with [wiki:Plugins/subliminal subliminal] plugin.
- * If dirs are allowed (`allow_dir`), it will attempt to search for video files with the specified recursion depth (default 1 ie. no recursion) and add them to the list. If it finds any suitable video files it will delete the dir from the list. Thus it's your own responsibility to make sure that ''all'' or ''none'' of the files are present when a task with `list_queue` is executed.
+ * If dirs are allowed (`allow_dir`), it will attempt to search for video files with the specified recursion depth (default 1 ie. no recursion) and add them to the list. If it finds any suitable video files it will delete the dir from the list. Thus it's your own responsibility to make sure that ''all'' or ''none'' of the files are present when a task with [wiki:Plugins/List/list_match list_match] is executed.
 
 == Plugin Settings ==
 
@@ -62,9 +62,10 @@ This example shows how to use the files in a subtitle list along with [wiki:Plug
       list: subtitles
       allow_dir:
         recursion_depth: 3
-    list_queue:
-      - subtitle_list:
-          list: subtitles
+    list_match:
+      from:
+        - subtitle_list:
+            list: subtitles
     subliminal:
       languages:  # languages is required, but if a language is specified in subtitle_list, it takes priority
         - en
