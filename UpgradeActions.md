@@ -15,7 +15,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 
 As an effort to minimize plugins and create a better user experience, several changes are presented with this version:
 
-* `list_accept`, `list_reject` and `list_queue` plugin have been replaced with [wiki:Plugins/list_match list_match]. See plugin page for detailed information on new syntax.
+* `list_accept`, `list_reject` and `list_queue` plugin have been replaced with [wiki:Plugins/List/list_match list_match]. See plugin page for detailed information on new syntax.
 * Changed `emit_series` to [wiki:Plugins/next_series_episodes next_series_episodes]
 * Changed `send_telegram` to [wiki:Plugins/telegram telegram]
 * Changed `path_select` to [wiki:Plugins/path_by_space path_by_space]
