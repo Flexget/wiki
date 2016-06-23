@@ -1,10 +1,10 @@
 = IMDb list =
 
-This plugin is a [wiki:Plugins/List list_interface] plugin.
+This plugin is a [wiki:Plugins/List managed list] plugin.
 
 Creates an [wiki:Entry Entry] for each item in an IMDb list.
 
-This plugin is useful for example when used in a task with the [wiki:Plugins/List/movie_list movie_list] plugin to add movies from your IMDb watchlist to your movie list, or to filter entries directly against the watchlist via `list_accept` (see example below).
+This plugin is useful for example when used in a task with the [wiki:Plugins/List/movie_list movie_list] plugin to add movies from your IMDb watchlist to your movie list, or to filter entries directly against the watchlist via [wiki:Plugins/List/list_match list_match] (see example below).
 
 '''Notes:''' 
 
@@ -28,10 +28,11 @@ You can force a returned language using the `force_language` parameter. A list o
 {{{
 rss: http://rss.com
 imdb_lookup: yes
-list_accept:
-  - imdb_list:
-      login: 123@abc.com
-      password: flexget
-      list: watchlist
+list_match:
+  from:
+    - imdb_list:
+        login: 123@abc.com
+        password: flexget
+        list: watchlist
 download: /downloads/
 }}}
