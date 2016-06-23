@@ -1,5 +1,5 @@
 = Digest =
-This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) It is used with `emit_digest` plugin in the task where the entries should be collected.
+This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) It is used with `from_digest` plugin in the task where the entries should be collected.
 
 == Configuration ==
 {{{
@@ -38,7 +38,7 @@ tasks:
     digest: daily email
 
   daily email task:
-    emit_digest:
+    from_digest:
       list: daily email
       restore_state: yes
     seen: no
@@ -69,7 +69,7 @@ tasks:
     digest: recently accepted
 
   generate html:
-    emit_digest:
+    from_digest:
       list: recently accepted
       limit: 50
       expire: no
