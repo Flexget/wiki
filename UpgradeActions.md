@@ -17,9 +17,10 @@ As an effort to minimize plugins and create a better user experience, several ch
 
 * `list_accept`, `list_reject` and `list_queue` plugins have been replaced with [wiki:Plugins/List/list_match list_match]. See plugin page for detailed information on new syntax.
 * Changed `emit_series` to [wiki:Plugins/next_series_episodes next_series_episodes]
+* Changed `sonarr_emit` to [wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]
+* Changed `trakt_emit` to [wiki:Plugins/next_trakt_episodes next_trakt_episodes]
 * Changed `send_telegram` to [wiki:Plugins/telegram telegram]
 * Changed `path_select` to [wiki:Plugins/path_by_space path_by_space]
-* Changed `sonarr_emit` to [wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]
 * Changed `path_select ` to [wiki:Plugins/path_by_space path_by_space]
 * Changed `emit_digest` to [wiki:Plugins/from_digest from_digest]
 * Changed `emit_uoccin` to [wiki:Plugins/from_uoccin from_uoccin]
