@@ -10,6 +10,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 
 == Tested & Working 2.x Configs ==
 * [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
+* [https://github.com/cvium/.flexget cvium] (v2.1.1) - Utilizes RSS, discover and IRC.
 
 == Untested 1.x Configs ==
 
