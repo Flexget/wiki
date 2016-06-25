@@ -13,7 +13,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 === 2016.6.23 2.1.0 ===
 **Several breaking changes**
 
-As an effort to minimize plugins and create a better user experience, several changes are presented with this version:
+As an effort to provide more consistent configuration and better user experience, several changes are presented with this version:
 
 * `list_accept`, `list_reject` and `list_queue` plugins have been replaced with [wiki:Plugins/List/list_match list_match]. See plugin page for detailed information on new syntax.
 * Changed `emit_series` to [wiki:Plugins/next_series_episodes next_series_episodes]
@@ -21,7 +21,6 @@ As an effort to minimize plugins and create a better user experience, several ch
 * Changed `trakt_emit` to [wiki:Plugins/next_trakt_episodes next_trakt_episodes]
 * Changed `send_telegram` to [wiki:Plugins/telegram telegram]
 * Changed `path_select` to [wiki:Plugins/path_by_space path_by_space]
-* Changed `path_select ` to [wiki:Plugins/path_by_space path_by_space]
 * Changed `emit_digest` to [wiki:Plugins/from_digest from_digest]
 * Changed `emit_uoccin` to [wiki:Plugins/from_uoccin from_uoccin]
 * Changed `dynamic_imdb` to [wiki:Plugins/from_imdb from_imdb]
