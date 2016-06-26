@@ -11,6 +11,7 @@ Please post the version of !FlexGet that your config was designed for, so people
 == Tested & Working 2.x Configs ==
 * [http://flexget.com/wiki/Cookbook/Users/qvazzler qvazzler] (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
 * [https://github.com/cvium/.flexget cvium] (v2.1.1) - Utilizes RSS, discover and IRC, includes some custom plugins. Every movie/show is maintained by Trakt lists.
+* [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v2.1.1) simple movie & tv downloading config with trakt and imdb watchlist intergration.
 
 == Untested 1.x Configs ==
 
@@ -28,7 +29,6 @@ Please post the version of !FlexGet that your config was designed for, so people
 * [https://github.com/nikdoof/flexget-config nikdoof] (v1.2)
 * [wiki:Cookbook/Users/Tommynator Tommynator] (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
 * [wiki:Cookbook/Users/Systy Systy] (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
-* [wiki:Cookbook/Users/djnitehawk Đĵ ΝιΓΞΗΛψΚ] (v2.1.1) simple movie & tv downloading config with trakt and imdb intergration.
 
 == Unknown version ==
 * [http://flexget.com/wiki/Users/anon] Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
