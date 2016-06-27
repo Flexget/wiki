@@ -9,7 +9,7 @@ The main purpose of this plugin is to keep track of local video files that are i
 
  * subliminal >=2.0rc1 is required for this plugin to work properly.
  * This plugin should be used together with [wiki:Plugins/subliminal subliminal] plugin.
- * If dirs are allowed (`allow_dir`), it will attempt to search for video files with the specified recursion depth (default 1 ie. no recursion) and add them to the list. If it finds any suitable video files it will delete the dir from the list. Thus it's your own responsibility to make sure that ''all'' or ''none'' of the files are present when a task with [wiki:Plugins/List/list_match list_match] is executed.
+ * When outputting a directory from the list, it will attempt to search for video files with the specified recursion depth (default 1 ie. no recursion) and add them to the list. If it finds any video files it will delete the dir from the list. Thus it's your own responsibility to make sure that ''all'' or ''none'' of the files are present when a task with [wiki:Plugins/List/list_match list_match] is executed.
 
 == Plugin Settings ==
 
@@ -22,8 +22,9 @@ Currently the following settings are supported:
 ||'''check_subtitles'''||Check for existing subtitles be it internal or external (requires subliminal >=2.0rc1).||
 ||'''remove_after'''||The interval after which the file should be removed from the list -- format: [n] [minutes|hours|days|months] eg. "7 days".||
 ||'''path'''||The path to save in the list. Can either be a relative or full path. Supports jinja replacement. If it's not set, it will attempt to use the entry's location field. See below for example usage.||
-||'''allow_dir'''||Whether to allow the path to be a directory. Optionally takes a recursion depth parameter specifying how deep it should search for files.||
+||'''allow_dir'''||Whether to allow the path to be a directory when adding to the list.||
 ||'''force_file_existence'''||Check for file existence when adding to list and using the list as input. Removes non-existent files/dirs from the list if "yes".||
+||'''recursion_depth'''||Parameter specifying how deep it should search for files when outputting from the list.||
 
 
 === Example: Add video files while moving ===
@@ -60,8 +61,7 @@ This example shows how to use the files in a subtitle list along with [wiki:Plug
     no_entries_ok: yes
     subtitle_list:
       list: subtitles
-      allow_dir:
-        recursion_depth: 3
+      recursion_depth: 3
     list_match:
       from:
         - subtitle_list:
