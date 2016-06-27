@@ -2,7 +2,7 @@
 
 This plugin is a [wiki:Plugins/List list] plugin.
 
-It is a list of strings that represent regular expressions to be used for matching entries. 
+It is a list of strings that represent regular expressions to be used for matching entries. The matching is case insensitive and only match single lines (no newline matching etc).
 
 === Config ===
 
