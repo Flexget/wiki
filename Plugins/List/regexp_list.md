@@ -26,7 +26,7 @@ Below is an example that converts a list of series from a [wiki:Plugins/List/tra
       strip_dates: yes
     list_add:
       - regexp_list: series_regexp
-    manipulate:
+    manipulate:  # example: Game of Thrones becomes game.*of.*thrones.*s\d{2}e\d{2}
       - title:
           replace:
             regexp: '$'
