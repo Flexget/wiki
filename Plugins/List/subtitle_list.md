@@ -24,7 +24,7 @@ Currently the following settings are supported:
 ||'''path'''||The path to save in the list. Can either be a relative or full path. Supports jinja replacement. If it's not set, it will attempt to use the entry's location field. See below for example usage.||
 ||'''allow_dir'''||Whether to allow the path to be a directory when adding to the list.||
 ||'''force_file_existence'''||Check for file existence when adding to list and using the list as input. Removes non-existent files/dirs from the list if "yes".||
-||'''recursion_depth'''||Parameter specifying how deep it should search for files when outputting from the list.||
+||'''recursion_depth'''||Parameter specifying how deep it should search for files when outputting from the list. Setting it to 1 means it won't search in any subfolders.||
 
 
 === Example: Add video files while moving ===
