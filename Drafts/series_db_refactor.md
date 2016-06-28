@@ -14,3 +14,12 @@ The current Series db model gets updated from the config each time a task is run
 Is there a way to change settings for a whole db list? Or are they always stored per series?
 
 configure_series, Does it write a list to db, or pass a text config to series plugin still?
+
+
+== Suggestions ==
+* All series will use a series list.
+* If series is defined in config, it'll use a default reserved list name (`default_series_list` for example).
+* Config specified series will be added/replace existing ones on list, but will not reset list entirely, so a combination of config and other `series_list` interactions (API/CLI) can still be achieved. This way config series will just take precedence but won't override entire functionality.
+* All tracking will be done internally in the list scope and not globally.
+* `next_series_episodes` will be able to take a `series_list` name, so that `configure_series` plugin can be deprecated. By default it'll use the default series name.
+* Attached is a proposed ERD
