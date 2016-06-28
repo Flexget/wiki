@@ -88,8 +88,8 @@ This plugin populates fields on entries that have been identified as series by !
 ||movie_name|| Movie name ||
 ||movie_year|| Production year ||
 ||trakt_movie_name|| Trakt movie title ||
-||trakt_year|| Trakt production year ||
-||trakt_id|| Movie Trakt.tv ID ||
+||trakt_movie_year|| Trakt production year ||
+||trakt_movie_id|| Movie Trakt.tv ID ||
 ||trakt_slug|| Movie Trakt.tv slug ||
 ||imdb_id|| IMDB ID ||
 ||tmdb_id|| TMDB ID ||
