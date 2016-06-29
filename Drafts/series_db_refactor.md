@@ -19,7 +19,8 @@ configure_series, Does it write a list to db, or pass a text config to series pl
 == Suggestions ==
 * All series will use a series list.
 * If series is defined in config, it'll use a default reserved list name (`default_series_list` for example).
-* Config specified series will be added/replace existing ones on list, but will not reset list entirely, so a combination of config and other `series_list` interactions (API/CLI) can still be achieved. This way config series will just take precedence but won't override entire functionality.
+* Config specified series will reset list entirely, otherwise removing from list will be have to done manually.
 * All tracking will be done internally in the list scope and not globally.
-* `next_series_episodes` will be able to take a `series_list` name, so that `configure_series` plugin can be deprecated. By default it'll use the default series name.
+* `next_series_episodes` will be able to take a `series_list` name. By default it'll use the default series name.
+* `configure_series` will still be used and will reset the default list. Behind the scenes it'll perform a list purge and then list add to the default list.
 * Attached is a proposed ERD
