@@ -23,4 +23,5 @@ configure_series, Does it write a list to db, or pass a text config to series pl
 * All tracking will be done internally in the list scope and not globally.
 * `next_series_episodes` will be able to take a `series_list` name. By default it'll use the default series name.
 * `configure_series` will still be used and will reset the default list. Behind the scenes it'll perform a list purge and then list add to the default list.
-* Attached is a proposed ERD
+* Proposed ERD:
+[[Image(series_erd.png, 500px)]]
