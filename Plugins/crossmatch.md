@@ -59,3 +59,32 @@ tasks:
 }}}
 
 See [wiki:Plugins/secrets secrets] plugin
+
+=== Cleaning separate download directory, watching files in deluge ===
+
+This task looks for direct subdirectories inside the specified folder, and checks if they are still present in deluge (for example, if they are still downloading, or if you're maintaining a seed ratio, and it has not been reached yet). This example checks the entry based on the location, in principle you could also check on other fields, for example the title etc, but you'd have to make sure they are correctly set.
+
+This task is useful to remove junk (leftover directory, .info files, ...) that is still present in your download directory even after other plugins/programs have moved the files.
+{{{
+tasks:
+  clean-download-dir:
+    manual: yes
+    template: no_global
+    disable: seen
+    filesystem:
+      path: '{{ secrets.paths.movies.downloading }}'
+      retrieve: dirs
+    set:
+      deluge_path: '{{ location }}' #Set this field to the location field, since crossmatch looks for the same named fields
+    crossmatch:
+      from:
+        - from_deluge:
+            username: '{{ secrets.deluge.username }}'
+            password: '{{ secrets.deluge.password }}'
+      fields:
+        - deluge_path
+      action: reject
+    accept_all: yes
+    delete:
+      allow_dir: yes
+}}}
