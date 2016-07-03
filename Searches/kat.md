@@ -11,6 +11,7 @@ kat:
 ||= Categories =||
 ||all||
 ||movies||
+||anime||
 ||tv||
 ||music||
 ||books||
