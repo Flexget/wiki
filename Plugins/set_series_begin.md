@@ -6,7 +6,7 @@ This plugin sets the episode to start getting a series from, for each accepted e
 
 {{{
 series_begin:
-  trakt_emit:
+  next_trakt_episodes:
     username: your_username
     password: your_password
     context: collected
