@@ -10,7 +10,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 ||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list.||
 ||[wiki:Plugins/List/subtitle_list subtitle_list]||Use or add entries to a custom made subtitle list.||
 ||[wiki:Plugins/List/regexp_list regexp_list]||Use or add entries to a custom made regexp list.||
-
+||[wiki:Plugins/List/thetvdb_list thetvdb_list ]||Use or add entries from your TheTVDB favorites list.||
 === Operating with lists ===
 
 ||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to a list plugin.||
