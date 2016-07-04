@@ -65,7 +65,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ||[wiki:Plugins/pogcal pogcal]||Produce entries for shows marked on your [http://www.pogdesign.co.uk/cat/ pogdesign calendar].||
 ||[wiki:Plugins/rottentomatoes_list rottentomatoes_list]||Use movies from [http://www.rottentomatoes.com Rotten Tomatoes] lists.||
 ||[wiki:Plugins/sceper sceper]||Parse [http://sceper.ws].||
-||[wiki:Plugins/thetvdb_favorites thetvdb_favorites]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com.||
+||[wiki:Plugins/List/thetvdb_list thetvdb_list ]||Produce an entry for all shows you have marked as favorites at http://thetvdb.com. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/next_trakt_episodes next_trakt_episodes]||Create entries for the latest or the next episode to watch or collect by your trakt.tv activity.||
 ||[wiki:Plugins/List/trakt_list trakt_list]||Create entries from one of your trakt.tv lists. [wiki:Plugins/List Managed List]||
 ||[wiki:Plugins/twitterfeed twitterfeed]||Create entries from a twitter account.||
@@ -207,8 +207,6 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 
 ||'''Keyword'''||'''Description'''||
 ||[wiki:Plugins/myepisodes myepisodes]||Mark accepted episodes as acquired on !MyEpisodes.||
-||[wiki:Plugins/thetvdb_add thetvdb_add]||Add accepted series to user's thetvdb.com favorites.||
-||[wiki:Plugins/thetvdb_remove thetvdb_remove]||Remove accepted series from user's thetvdb.com favorites.||
 ||[wiki:Plugins/pogcal_acquired pogcal_acquired]||Mark accepted episodes on [http://pogdesign.co.uk/cat pogdesign TV calendar]||
 ||[wiki:Plugins/kodi_library kodi_library]||Send clean/scan requests to a remote/local Kodi server.||
 
