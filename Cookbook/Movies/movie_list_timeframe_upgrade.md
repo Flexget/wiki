@@ -17,7 +17,7 @@ templates:
     discover:
       what:
         # We're gonna use these same plugins again in other places. If you trade out in one place (e.g. trakt_list instead of movie_list,)
-        # remember to trade out in the other!
+        # remember to trade out in the other! (You might want to use YAML's anchor/alias feature to repeat these bits. Someone should write a recipe about that.
         # The important part is that we are keeping track of 2 different lists of movies with list plugins, henceforth known as 'getlist' and 'upgradelist'
         # We want to search for movies on either of these lists
         - movie_list: getlist
