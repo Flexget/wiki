@@ -24,7 +24,7 @@ It's advised to have inputs queued to series list then:
 {{{
 discover:
       what:
-        - emit_series: yes
+        - next_series_episodes: yes
       from:
         ...
 }}}
