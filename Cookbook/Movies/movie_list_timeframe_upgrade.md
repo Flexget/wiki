@@ -100,3 +100,17 @@ schedules:
       # clog the tubes. (Of the internet. (Think of the starving children who need those tubes. (You monster.)))
       hours: 6
 }}}
+
+== Things that would have been linked ==
+Who decided to write everything in comments in a code block? You can't even put links in there!
+Here are some things that would have been linked above, had that happened.
+
+=== Input Template ===
+Other input plugins can be found [wiki:Plugins#Inputs here]. You can add to, remove or replace any of the ones in the `movie releases to consider` template of this recipe with others.
+Remember that you want input plugins that produce actual download links for movies in here.
+
+=== Output Template ===
+Other output plugins are [wiki:Plugins#Output here]. This recipe is assuming you are dealing with torrents, make the appropriate adjustments to both input and output plugins if not.
+
+=== Movie Lists ===
+We used a list plugin to represent 2 lists in this recipe. In our this case, it was the `movie_list` plugin, where we defined 2 named lists, that we used in multiple contexts. You can switch out `movie_list` for any of the list plugins [wiki:Plugins/List here], (pick one that supports movies though,) just remember to change all instances of the 'getlist' or 'upgradelist' list at the same time.
