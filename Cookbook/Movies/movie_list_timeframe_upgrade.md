@@ -116,4 +116,4 @@ Other output plugins are [wiki:Plugins#Output here]. This recipe is assuming you
 We used a list plugin to represent 2 lists in this recipe. In our this case, it was the `movie_list` plugin, where we defined 2 named lists, that we used in multiple contexts. You can switch out `movie_list` for any of the list plugins [wiki:Plugins/List here], (pick one that supports movies though,) just remember to change all instances of the 'getlist' or 'upgradelist' list at the same time.
 
 === YAML !Anchor/Alias ===
-Nobody wrote a cookbook entry about anchor/alias. But somebody did write about it on the forum, you can read about it [http://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405?u=gazpachoking here]
+Nobody wrote a cookbook entry about anchor/alias. But somebody did write about it on the forum, you can read about it [http://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405?u=gazpachoking here]. This can be useful for repeating the same bit of config in different contexts, for example repeating the same list plugin config in `list_match`, `list_add`, and `discover`.
