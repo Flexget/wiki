@@ -101,6 +101,7 @@ imdb:
 '''NOTES:''' 
 
 * I hate how identified_by NEEDS to use jinja2 formatting, it makes no sense for enduser
+(gazp) We could make this field be the inside of a jinja `{{}}` block (or even add the {{ magically only when the user didn't have them.) So you could write `imdb_id` or `series_name + series_id`
 
 === With new movies plugin ===
 
