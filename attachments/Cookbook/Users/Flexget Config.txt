@@ -1,0 +1,191 @@
+templates:
+  tv:
+    exists_series: '/media/sf_Media_1/tv/'
+    content_filter:
+      require:
+        - '*.avi'
+        - '*.mkv'
+        - '*.mp4'
+    content_size:
+      min: 12
+      max: 1000
+      strict: no
+    series:
+      settings:
+        720p:
+          quality: 720p
+          set:
+            content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
+            path: /media/sf_Media_1/tv/
+            movedone: /media/sf_Media_1/tv/{{series_name}}/Season {{series_season}}/
+        hdtv:
+          quality: hdtv <720p
+          set:
+            content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
+            path: /media/sf_Media_1/tv/
+            movedone: /media/sf_Media_1/tv/{{series_name}}/Season {{series_season}}/
+      720p:
+        - Cosmos A Space Time Odyssey
+      hdtv:
+        - Hannibal
+        - Fargo
+        - Tosh.0
+        - Workaholics
+        - Mad Men
+        - Orphan Black
+        - In the Flesh
+        - Derek
+
+    deluge:
+      ratio: 1
+      removeatratio: yes
+
+    pushover:
+      userkey: userkey
+      apikey: apikey
+      device: mobile
+      title: Downloading {{series_name}}
+      message: Episode {{series_id}}
+      priority: 0
+      sound: incoming
+
+  tv-global:
+    exists_series: '/media/sf_Media_1/tv/'
+    content_filter:
+      require:
+        - '*.avi'
+        - '*.mkv'
+        - '*.mp4'
+    content_size:
+      min: 12
+      max: 1000
+      strict: no 
+    discover:
+      what:
+        - trakt_list:
+            username: username
+            password: pw
+            api_key: apikey
+            custom: New_series
+            strip_dates: yes
+      from:
+        - piratebay: yes
+        - isohunt: tv
+        - torrentz: verified
+
+    deluge: 
+      ratio: 1
+      removeatratio: yes
+
+    torrent_alive:
+      min_seeds: 25
+
+    pushover:
+      userkey: userkey
+      apikey: apikey
+      device: mobile
+      title: Downloading {{series_name}}
+      message: Episode {{series_id}}
+      priority: 0
+      sound: incoming
+
+tasks:
+  bt-chat.com-tv:
+    priority: 1
+    rss: http://rss.bt-chat.com/?group=3
+    template: tv
+
+  ezrss.it:
+    priority: 2
+    rss: http://ezrss.it/feed/
+    template: tv
+
+  thepiratebay.org-tv:
+    priority: 3
+    rss: http://rss.thepiratebay.org/208
+    template: tv
+    verify_ssl_certificates: no
+
+  kat.ph-tv:
+    priority: 4
+    rss: http://kat.ph/tv/?rss=1
+    template: tv
+
+  extratorrent.com-tv:
+    priority: 5
+    rss: http://extratorrent.com/rss.xml?cid=8
+    template: tv
+
+  torrentz.eu-tv:
+    priority: 6
+    rss: http://torrentz.eu/feed
+    template: tv
+
+  showrss.karmorra.info-tv:
+    priority: 7
+    rss: http://showrss.karmorra.info/feeds/all.rss
+    template: tv
+
+  feeds.feedburner.com-tv:
+    priority: 8
+    rss: http://feeds.feedburner.com/eztv-rss-atom-feeds?format=xml
+    template: tv
+
+  trakt_movie_queue_fill:
+    priority: 9 
+    trakt_list:
+      username: username
+      password: password
+      api_key: apikey
+      movies: watchlist
+    accept_all: yes
+    queue_movies: yes
+
+  movies search:
+    priority: 10 
+    discover:
+      what:
+        - emit_movie_queue: yes
+      from:
+        - piratebay: yes
+        - isohunt: movies
+        - torrentz: verified
+    torrent_alive: 25 
+    quality: 
+      - 720p+ !cam
+    movie_queue: yes
+    deluge:
+      path: /media/sf_Media_2/HD_Movies/ 
+      movedone: /media/sf_Media_2/HD_Movies/ 
+      ratio: 1
+      removeatratio: yes
+    pushover:
+      userkey: userkey
+      apikey: apikey
+      device: mobile
+      title: Downloading {{series_name}}
+      message: Episode {{series_id}}
+      priority: 0
+      sound: incoming
+
+  Auto_TV_Shows:
+    priority: 11
+    template:
+      - tv-global
+    configure_series:
+      from:
+        trakt_list:
+          username: username
+          password: password
+          api_key: apikey
+          custom: New_series
+          strip_dates: yes
+      settings:
+        quality: hdtv <720p
+        propers: no
+        set:
+          content_filename: "{{series_name}} - {{series_id}} - {{quality}}"
+          path: /media/sf_Media_1/tv/ 
+          movedone: /media/sf_Media_1/tv/{{series_name}}/Season {{series_season}}/
+
+
