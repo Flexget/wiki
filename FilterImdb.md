@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/imdb]
+Continue to [Plugins/imdb](/Plugins/imdb)

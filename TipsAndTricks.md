@@ -1,14 +1,12 @@
-= Advanced Tips And Tricks =
+# Advanced Tips And Tricks
+Here you can find some advanced YML configuration tricks. Check [global section](/GlobalSection) for some tips as well. These are mainly for those who really like to tinker with application.
 
-Here you can find some advanced YML configuration tricks. Check [wiki:GlobalSection global section] for some tips as well. These are mainly for those who really like to tinker with application.
-
-== Defining download paths as variables (yaml-references) ==
-
+## Defining download paths as variables (yaml-references)
 In case you have multiple download locations, or path is long, you may wish to use variables instead of typing full path on each download location.
 
 Example:
 
-{{{
+```
 series: &series ~/torrents/series
 movies: &movies ~/torrents/movies
 
@@ -25,11 +23,11 @@ feeds:
       - pattern A
       - pattern B: *series
       - pattern C
-}}}
+```
 
 Variables can also be defined on their first occurrence and then reused as needed.
 
-{{{
+```
 ---
 feeds:
   feed A:
@@ -45,15 +43,14 @@ feeds:
       - pattern B: *series
       - pattern C
 ...
-}}}
+```
 
-== Extending feed configuration ==
-
+## Extending feed configuration
 In case you have similar feed configurations you can use use one of them as template, or create separate non-used template outside feeds list.
 
 Example:
 
-{{{
+```
 feeds:
   feed A: &movies
     rss: http://some.site.com/rss.php
@@ -65,10 +62,9 @@ feeds:
   feed B:
     rss: http://somewhere.else.com/rss.php
     <<: *movies
-}}}
+```
 
-In above example {{{feed B}}} also has everything configured in {{{feed A}}}, but the rss value has been overwritten with another site.
+In above example `feed B` also has everything configured in `feed A`, but the rss value has been overwritten with another site.
 
-== Disable feeds without commenting them out ==
-
+## Disable feeds without commenting them out
 You can disable feeds temporarily by prefixing names with _ character. This is much easier than commenting out all lines.

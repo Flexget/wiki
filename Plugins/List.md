@@ -1,27 +1,28 @@
-= Managed List Plugins =
-
+# Managed List Plugins
 Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.
 
-||[wiki:Plugins/List/trakt_list trakt_list]||Use or add entries from one of your trakt.tv lists.||
-||[wiki:Plugins/List/imdb_list imdb_list]||Use or add entries from one of your IMDB lists.||
-||[wiki:Plugins/List/couchpotato_list couchpotato_list]||Use or add entries from one of your couchpotato watch list.||
-||[wiki:Plugins/List/sonarr_list sonarr_list]||Use or add entries from Sonarr shows.||
-||[wiki:Plugins/List/entry_list entry_list]||Use or add entries to a custom made entry list.||
-||[wiki:Plugins/List/movie_list movie_list]||Use or add entries to a custom made movie list.||
-||[wiki:Plugins/List/subtitle_list subtitle_list]||Use or add entries to a custom made subtitle list.||
-||[wiki:Plugins/List/regexp_list regexp_list]||Use or add entries to a custom made regexp list.||
-||[wiki:Plugins/List/thetvdb_list thetvdb_list ]||Use or add entries from your TheTVDB favorites list.||
-=== Operating with lists ===
 
-||[wiki:Plugins/List/list_add list_add]||Use this plugin to add accepted entries to a list plugin.||
-||[wiki:Plugins/List/list_remove list_remove]||Use this plugin to remove accepted entries from a list plugin.||
-||[wiki:Plugins/List/list_match list_match ]||Use this plugin to filter entries based on the contents of a list.||
+| [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
+| --- | --- |
+| [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
+| [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
+| [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
+| [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. |
+| [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. |
+| [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. |
+| [regexp_list](/Plugins/List/regexp_list) | Use or add entries to a custom made regexp list. |
+| [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
+### Operating with lists
 
-== List action advanced usage ==
+| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
+| --- | --- |
+| [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
+| [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
 
+## List action advanced usage
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
 
-{{{
+```
 trakt_list:
   username: traktusername
   list: watchlist
@@ -36,8 +37,7 @@ list_add:
       login: email@123.com
       password: flexget
       list: watchlist
-}}}
+```
 
-= Dev docs =
-
-Want to create or convert an existing plugin to a managed list plugin? [https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst Read the docs] and join the chat for any assistance required.
+# Dev docs
+Want to create or convert an existing plugin to a managed list plugin? [Read the docs](https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst) and join the chat for any assistance required.

@@ -10,7 +10,7 @@ This is also a clear example of how to use set_begin.
 set_begin is very useful when using the discover plugin to avoid it from downloading episodes you have already seen.
 
 
-{{{
+```
 # For flexget V1.2.125
 # Using trakt to find your series.
 # This is with the discover series plugin and just the rss plugin.
@@ -91,6 +91,6 @@ schedules:
   - tasks: 'discoverseries'
     interval:
       hours: 4
-}}}
+```
 
 I will update this page in the future with my home config.

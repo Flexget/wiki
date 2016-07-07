@@ -1,1 +1,1 @@
-See [wiki:"LazyField"].
+See ["LazyField"](/"LazyField").

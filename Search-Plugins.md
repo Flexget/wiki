@@ -1,4 +1,3 @@
 
-== Search Plugins ==
-
-Refer to [wiki:Searches].
+## Search Plugins
+Refer to [Searches](/Searches).

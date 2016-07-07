@@ -1,7 +1,7 @@
 This recipe allows you to download the latest episodes from a remote PMS by using a section from your local PMS to configure the series plugin.
 
 
-{{{
+```
 import_series:
   from:
     plex:
@@ -15,4 +15,4 @@ plex:
   password: myplexpassword
 download:
   path: /mnt/tv/{{series_name|replace(' ', '.')|lower}}/{% if series_season %}s{{series_season|pad(2)}}{%endif%}
-}}}
+```

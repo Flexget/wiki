@@ -1,1 +1,1 @@
-See [wiki:"Plugins/imdb_list"].
+See ["Plugins/imdb_list"](/"Plugins/imdb_list").

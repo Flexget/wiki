@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/accept_all]
+Continue to [Plugins/accept_all](/Plugins/accept_all)

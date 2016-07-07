@@ -1,11 +1,10 @@
-== Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist ==
-
+## Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 For this to work you have to setup a few things.
 
-* Setup your favorite torrent-client and have it look in a folder for new torrents. In this configuration I use transmission.[[BR]] Read here for installation instructions: [http://flexget.com/wiki/InstallWizard]
-* Find a good feed for your series. I highly recommend using showRSS [http://showrss.info]
+* Setup your favorite torrent-client and have it look in a folder for new torrents. In this configuration I use transmission.(XXX macro: "BR") Read here for installation instructions: [http://flexget.com/wiki/InstallWizard](/http://flexget.com/wiki/InstallWizard)
+* Find a good feed for your series. I highly recommend using showRSS [http://showrss.info](/http://showrss.info)
 * You have to find your userID at IMDB look at http://www.imdb.com/user/XXXXXXXXXX/ (the XX.. is your IMDB-userID).
-* Create a new e-mail with Gmail or use your existing one for e-mailnotifications.[[BR]] Template goes into [flexdir]/templates/
+* Create a new e-mail with Gmail or use your existing one for e-mailnotifications.(XXX macro: "BR") Template goes into [flexdir](/flexdir)/templates/
 
 The watchlist you specify in this configuration have to be public for FlexGet to read it.
 
@@ -17,7 +16,7 @@ All thanks to user UnNefer for his e-mail-template from his own guide: http://fl
 
 Below is my configuration as of 2015.06.01. Template is located at the bottom of this page to be downloaded.
 
-{{{
+```
 #####################################################################################
 #
 # KnockiMov FlexGet-configuration
@@ -60,22 +59,22 @@ templates:
     # CLEAN TRANSMISSION SO IT WILL NOT BE CLUTTERED, STOPS
     # SEEDING AFTER A RATIO OF 2 AND THEN CLEANS OUT THE LIST.
     clean_transmission:
-      host: [YOURHOST]
+      host: [YOURHOST](/YOURHOST)
       port: 9091
-      username: [USERNAME]
-      password: [PASSWORD]
+      username: [USERNAME](/USERNAME)
+      password: [PASSWORD](/PASSWORD)
       min_ratio: 2
 
     # IF SOMETHING WAS ADDED, DOWNLOADED OR QUEUED
     # SEND AN e-MAIL WITH STATUS TO GIVEN e-MAIL
     email:
       active: True
-      from: [E-MAIL]@gmail.com
-      to: [E-MAIL]@gmail.com
+      from: [E-MAIL](/E-MAIL)@gmail.com
+      to: [E-MAIL](/E-MAIL)@gmail.com
       smtp_host: smtp.gmail.com
       smtp_port: 587
-      smtp_username: [E-MAIL]@gmail.com
-      smtp_password: [PASSWORD]
+      smtp_username: [E-MAIL](/E-MAIL)@gmail.com
+      smtp_password: [PASSWORD](/PASSWORD)
       smtp_tls: yes
       template: html-downloaded.template
 
@@ -91,7 +90,7 @@ templates:
     # WHERE TO FIND TORRENTS. I HIGHLY RECOMMEND SETTING
     # UP YOUR OWN RSS-FEED WITH SHOWRSS: http://www.showrss.info
     inputs:
-      - rss: http://showrss.info/[YOUR-RSS-FEED-SPECIAL-LIST]
+      - rss: http://showrss.info/[YOUR-RSS-FEED-SPECIAL-LIST](/YOUR-RSS-FEED-SPECIAL-LIST)
     verify_ssl_certificates: no
     # WHERE TO PUT THE TORRENTS FOR TRANSMISSION TO FIND
     download: /c/transmission/watch-dir/
@@ -100,10 +99,10 @@ templates:
     exists_series: /media/Series/
     # ADD/REMOVE SERIES BELOW TO FIT YOUR NEEDS
     series:
-      - [SERIES-1]
-      - [SERIES-2]
-      - [SERIES-3]
-      - [SERIES-4]
+      - [SERIES-1](/SERIES-1)
+      - [SERIES-2](/SERIES-2)
+      - [SERIES-3](/SERIES-3)
+      - [SERIES-4](/SERIES-4)
     # WHAT QUALITY WILL BE DOWNLOADED? 720p, 1080p
     # COULD REPLACE THE BELOW HDTV.
     quality: hdtv
@@ -179,4 +178,8 @@ tasks:
 
   TVshows:
     template: tv
-}}}
+```
+
+### Attachments
+* [html-downloaded.template](/attachments/Cookbook/Users/KnockiMov/html-downloaded.template)
+* [config.yml.knockimov](/attachments/Cookbook/Users/KnockiMov/config.yml.knockimov)

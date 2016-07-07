@@ -1,1 +1,1 @@
-Changed to [wiki:Plugins/from_imdb from_imdb]
+Changed to [from_imdb](/Plugins/from_imdb)

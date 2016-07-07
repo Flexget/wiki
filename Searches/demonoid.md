@@ -1,12 +1,10 @@
-= Demonoid Search plugin =
-
+# Demonoid Search plugin
 A search plugin that generates sorted from demonoid.
 
-== Config Format ==
+## Config Format
 
-
-{{{
-    Will accept:
+```
+Will accept:
       demonoid: <category>
 
     Or:
@@ -30,4 +28,4 @@ A search plugin that generates sorted from demonoid.
     * music
     * music videos
     * pictures
-}}}
+```

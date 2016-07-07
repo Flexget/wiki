@@ -1,6 +1,6 @@
-= Cleaning a Trakt List =
+# Cleaning a Trakt List
 If you are using configure_series with a trakt list, periodically you may wish to remove shows which have ended. Nobody wants to do that manually, so here is a task to help.
-{{{
+```
 trakt_list:
   username: ***
   password: ***
@@ -13,4 +13,4 @@ trakt_remove:
   username: ***
   password: ***
   list: my list name
-}}}
+```

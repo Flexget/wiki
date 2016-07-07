@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/from_digest from_digest]
+Renamed [from_digest](/Plugins/from_digest)

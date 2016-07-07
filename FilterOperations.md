@@ -1,9 +1,7 @@
-= Operations =
+# Operations
+All plugins may do following operations to [entry](/Entry).
 
-All plugins may do following operations to [wiki:Entry entry].
 
-{{{
-#!html
 <table class="wiki">
 <tr>
   <td><strong>Operation</strong></td>
@@ -19,29 +17,31 @@ All plugins may do following operations to [wiki:Entry entry].
   <td>Entry is not marked to any category <i>(default)</i></td>
 </tr>
 </table>
-}}}
 
-=== Represented as a schematic ===
 
-[[Image(1.0_operations.png)]]
+### Represented as a schematic
+<img src="/attachments/FilterOperations/1.0_operations.png">
 
-== Scenario ==
-
+## Scenario
 Assuming configuration:
 
-{{{
+```
 regexp:
   accept:
     - Something
   reject:
     - CAM
-}}}
+```
 
-Q: What would happen to file '''Something.CAM.XviD'''[[BR]]
+Q: What would happen to file **Something.CAM.XviD**  
 A: It would be rejected, since reject operation is stronger than accept.
 
-Q: What would happen to file '''Something.XviD'''[[BR]]
+Q: What would happen to file **Something.XviD**  
 A: It would be accepted
 
-Q: What would happen to file '''Example.XviD'''[[BR]]
+Q: What would happen to file **Example.XviD**  
 A: It wouldn't be intervened any way, neither accepted nor rejected. Note that output plugins are interested only in accepted entries.
+
+### Attachments
+* [describe operations in 0.9](/attachments/FilterOperations/0.9_operations.png)
+* [1.0 operations](/attachments/FilterOperations/1.0_operations.png)

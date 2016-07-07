@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/path_by_ext]
+Continue to [Plugins/path_by_ext](/Plugins/path_by_ext)

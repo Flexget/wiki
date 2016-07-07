@@ -1,20 +1,20 @@
 Execute commands below as Root with "sudo su -" command to install the Transmission and FlexGet packages.  (Debian, Ubuntu examples shown, for RedHat use "yum install" instead of "apt-get install".)
 
-'''Commands - (As Root)'''
-{{{
+**Commands - (As Root)**
+```
 apt-get -y install transmission
 apt-get -y install transmission-daemon
 apt-get -y install python-pip
 pip install flexget
 pip install transmissionrpc
-}}}
+```
 
 
 Edit the Transmission configuration file below to ensure that Transmission RPC settings are correct and will match values in the FlexGet config.yml file.  (PS: The rpc-password field will change from plain-text to hashed value when transmission-daemon is restarted or reloaded to one-way encrypt the password.  That's okay and how it is supposed to work, don't change it back after that.)
 
-'''/etc/transmission-daemon/settings.json'''
-{{{
-    "rpc-enabled": true,
+**/etc/transmission-daemon/settings.json**
+```
+"rpc-enabled": true,
     "rpc-username": "user",
     "rpc-password": "transmission",
     "rpc-authentication-required": true,
@@ -23,7 +23,7 @@ Edit the Transmission configuration file below to ensure that Transmission RPC s
     "rpc-url": "/transmission/",
     "rpc-whitelist-enabled": true,
     "rpc-whitelist": "127.0.0.1,10.*.*.*",
-}}}
+```
 
 Create a new FlexGet config.yml to specify your settings.  Change the download path from "/mnt/data/Series/{{series_name}}" to where ever you want to store your files, change list of series to download, and change list of RSS feeds to download from.  Feel free to downgrade or remove the quality setting from 720p to hdtv to capture standard-quality shows.  (It is highly recommend that you create the configuration file under the home path of a regular, non-root, user account for security reasons.)
 
@@ -31,8 +31,8 @@ Warning: If the "removewhendone" field is set to "yes" then any the torrents in 
 
 Note: If the Manipulate section is uncommented it will remove the leading "The" from all feed results in the metainfo phase before any of the other plugins start processing creating a preferred way of series since so many of them start with "The".  If this is uncommented this will also require all TV series names specified below to be modified remove the leading "The" in the name to match the manipulated results, so that if you uncomment this you would also change "The Office" to "Office" below to match the newly manipulated results.  (This is a personal preference and it is up to you.)
 
-'''~/.flexget/config.yml'''
-{{{
+**~/.flexget/config.yml**
+```
 templates:
   tv:
 
@@ -113,17 +113,17 @@ tasks:
     priority: 7
     rss: http://showrss.karmorra.info/feeds/all.rss
     template: tv
-}}}
+```
 
 Use the command below to edit your crontab file for the user account where FlexGet will run so that it polls the RSS feeds hourly.
 
-'''Commands - (As User)'''
-{{{
+**Commands - (As User)**
+```
 crontab -e
-}}}
+```
 
 Add line below to the user's crontab file.
 
-{{{
+```
 @hourly /usr/local/bin/flexget execute --cron
-}}}
+```

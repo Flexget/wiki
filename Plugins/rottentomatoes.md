@@ -1,32 +1,29 @@
-= Filter Rotten Tomatoes =
-
+# Filter Rotten Tomatoes
 This plugin allows filtering based on Rotten Tomatoes score, rating and genres etc.
-Results are cached so this doesn't cause unnecessary load to [http://www.rottentomatoes.com Rotten Tomatoes].
+Results are cached so this doesn't cause unnecessary load to [Rotten Tomatoes](http://www.rottentomatoes.com).
 
 
-'''Notes:''' 
+**Notes:** 
 
- * If [wiki:Entry] doesn't have `rt_id` present plugin will try to use Rotten Tomatoes's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
- * To reject non Rotten Tomato compatible entries, use [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup] and [wiki:Plugins/require_field require_field] with `rt_id`.
- * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [wiki:Plugins/seen_movies seen_movies] plugin alongside.
+ * If [Entry](/Entry) doesn't have `rt_id` present plugin will try to use Rotten Tomatoes's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
+ * To reject non Rotten Tomato compatible entries, use [rottentomatoes_lookup](/Plugins/rottentomatoes_lookup) and [require_field](/Plugins/require_field) with `rt_id`.
+ * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [seen_movies](/Plugins/seen_movies) plugin alongside.
  * The `require_certified_fresh` option will reject torrents even if they are accepted by other plugins.
- * You should [[http://developer.rottentomatoes.com/|create]] and use your own API key instead of the default, as Rotten Tomatoes limits the number of concurrent users per key. You can change the API key using [wiki:Plugins/rottentomatoes_lookup rottentomatoes_lookup]
+ * You should [[http://developer.rottentomatoes.com/|create]] and use your own API key instead of the default, as Rotten Tomatoes limits the number of concurrent users per key. You can change the API key using [rottentomatoes_lookup](/Plugins/rottentomatoes_lookup)
 
-=== Example ===
-
-{{{
+### Example
+```
 rottentomatoes_lookup: rh8chjzp8vu6gnpwj88736uv # API key
 rottentomatoes:
   min_critics_score: 75
   min_critics_rating: certified fresh
   reject_mpaa_ratings:
     - PG-13
-}}}
+```
 
-=== Full configuration ===
-
-{{{
-        Note: All parameters are optional. Some are mutually exclusive.
+### Full configuration
+```
+Note: All parameters are optional. Some are mutually exclusive.
 
         min_critics_score: <num>
         min_audience_score: <num>
@@ -69,4 +66,4 @@ rottentomatoes:
         accept_mpaa_ratings:
             - PG
             - G
-}}}
+```

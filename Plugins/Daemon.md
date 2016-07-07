@@ -1,4 +1,3 @@
 
-== Daemon ==
-
-Refer to [wiki:/Daemon].
+## Daemon
+Refer to [/Daemon](//Daemon).

@@ -1,2 +1,2 @@
 This plugin has been replaced.
-See [wiki:"Plugins/retry_failed"].
+See ["Plugins/retry_failed"](/"Plugins/retry_failed").

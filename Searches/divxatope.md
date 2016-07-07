@@ -1,13 +1,13 @@
-= Divxatope =
-Search plugin which gives results from [http://divxatope.com/ divxatope.com], spanish web.
-=== Config ===
+# Divxatope
+Search plugin which gives results from [divxatope.com](http://divxatope.com/), spanish web.
+### Config
 Enabled / Disabled option:
 
-Valid choices are {{{yes}}}, and {{{no}}}
+Valid choices are `yes`, and `no`
 
 
 
-=== Example ===
-{{{
+### Example
+```
 divxatope: yes
-}}}
+```

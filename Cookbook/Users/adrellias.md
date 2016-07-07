@@ -1,18 +1,18 @@
-'''Adrellias flexget config'''
+**Adrellias flexget config**
 
 My config file is mostly based off the below users configuration.   
 
-[https://github.com/atlanta800/dotfiles/tree/master/flexget atlanta800] (now on github, old page [wiki:Cookbook/UserAtlanta800 here])::
+[atlanta800](https://github.com/atlanta800/dotfiles/tree/master/flexget) (now on github, old page [here](/Cookbook/UserAtlanta800))::
 
 He has a lot of just sane settings! I wanted a automated setup that someone that does not know how to, add things to a config file could use. 
-A spouse for instance. So my config uses [http://trakt.tv/] to generate rss based searches without having to add the new series to a config file every time. 
+A spouse for instance. So my config uses [http://trakt.tv/](/http://trakt.tv/) to generate rss based searches without having to add the new series to a config file every time. 
 
 So i use the discover plugin with trakt_list to generate input feeds rss searches dynamically.
 
 This is just a extract of what i have changed in atlanta800's config file
 
-{{{
-  # This template is a "global" template for all TV-related feeds.
+```
+# This template is a "global" template for all TV-related feeds.
   # We keep all of the RSS feeds that list tv-related torrents here
   # as well as where to check existing shows.
   tv-global:
@@ -32,12 +32,12 @@ This is just a extract of what i have changed in atlanta800's config file
         - search_rss: http://torrentz.eu/feed?q={{search_term}}
         #- search_rss: http://kat.ph/search/{{search_term}}/?rss=1 # This feed seems to have alot of mixed languages
       type: any
-}}}
+```
 
 This is the only thing i have in my tasks for series.
 
 
-{{{
+```
 # This is where we pull everything together
 tasks:
 
@@ -61,4 +61,4 @@ tasks:
       settings:
         quality: hdtv <=720p
         propers: no
-}}}
+```

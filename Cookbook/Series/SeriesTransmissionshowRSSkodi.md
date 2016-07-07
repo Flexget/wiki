@@ -1,8 +1,8 @@
-This configuration is to be used with the a website like [http://new.showrss.info/ showRSS] where you choose which series you want to watch.  Flexget will grab all the series every 30 minutes and send them to Transmission to download.  When the download is complete, Flexget is called again to copy and rename all the files in the download directory.  Finally Flexget tells Kodi to update its video library. 
+This configuration is to be used with the a website like [showRSS](http://new.showrss.info/) where you choose which series you want to watch.  Flexget will grab all the series every 30 minutes and send them to Transmission to download.  When the download is complete, Flexget is called again to copy and rename all the files in the download directory.  Finally Flexget tells Kodi to update its video library. 
 
 
-== config.yml ==
-{{{
+## config.yml
+```
 tasks:
   # downloading task and remove finished torrents
   # called via cron every 30 minutes. 
@@ -68,44 +68,43 @@ tasks:
       username: kodi
       password: secret
       port: 8080
-}}}
+```
 
-== download-showrss task ==
-This configuration ('''download-showrss''') grabs all the series based on the website RSS url for your account (replace '''MYID''' with your account) and sends to a local Transmission.  The same download task will clean up Transmission once seeding is complete.
+## download-showrss task
+This configuration (**download-showrss**) grabs all the series based on the website RSS url for your account (replace **MYID** with your account) and sends to a local Transmission.  The same download task will clean up Transmission once seeding is complete.
 
 command:
-{{{
+```
 crontab -e
-}}} 
+``` 
 
 to run every 30 minutes
-{{{
+```
 0,30 * * * * /usr/local/bin/flexget -l /var/log/flexget.log execute --tasks=download-showrss
-}}}
+```
 
- - [wiki:Plugins/all_series all_series]: The RSS url determines what shows to grab so we grab them all
- - [wiki:Plugins/transmission transmission]: Use the local Transmission service to download and use all defaults
- - [wiki:Plugins/clean_transmission clean_transmission]: Remove torrents that are done downloading/seeding.  The '''transmission_seed_limits''' option must be set in order for this plugin to work
+ - [all_series](/Plugins/all_series): The RSS url determines what shows to grab so we grab them all
+ - [transmission](/Plugins/transmission): Use the local Transmission service to download and use all defaults
+ - [clean_transmission](/Plugins/clean_transmission): Remove torrents that are done downloading/seeding.  The **transmission_seed_limits** option must be set in order for this plugin to work
 
-== sort-shows task ==
-The second task ('''sort-shows''') is called when Transmission completes, set in the '''script-torrent-done-filename''' option.  This task will move and rename downloads and then tell a running Kodi instance to update its library.
+## sort-shows task
+The second task (**sort-shows**) is called when Transmission completes, set in the **script-torrent-done-filename** option.  This task will move and rename downloads and then tell a running Kodi instance to update its library.
 
 file-name:
-{{{
+```
 torrent-done.sh
-}}}
+```
 
 content:
-{{{
-#!/bin/bash
+```/bin/bash
 /usr/local/bin/flexget -l /var/log/flexget.log execute --tasks sort-shows
-}}}
+```
 
- - [wiki:Plugins/filesystem filesystem]: Go through the directory where Transmission downloads and find video files
- - [wiki:Plugins/accept_all accept_all]: We don't want to reject anything that has been downloaded
- - [wiki:Plugins/disable disable]: Disable the '''seen''' plugin since we may want to re-download a show manually
- - [wiki:Plugins/regexp regexp]: Ignore video samples
- - [wiki:Plugins/series series]: The series plugin is used to list all of the shows we want to go through.  Since we do not want anything rejected, we have to set the '''parse_only''' option.  To apply that option to every series we need to create a group and apply the setting to the group.  [wiki:Plugins/all_series all_series] with '''parse_only''' did not work for some reason.
- - [wiki:Plugins/thetvdb_lookup thetvdb_lookup]: Look up the file naming so that Kodi with scrape properly
- - [wiki:Plugins/copy copy]: Use copy instead of move so that seeding will work.  [wiki:Plugins/clean_transmission clean_transmission] will delete the original download
- - [wiki:Plugins/kodi_library kodi_library]: Send a remote command to Kodi to update the video library
+ - [filesystem](/Plugins/filesystem): Go through the directory where Transmission downloads and find video files
+ - [accept_all](/Plugins/accept_all): We don't want to reject anything that has been downloaded
+ - [disable](/Plugins/disable): Disable the **seen** plugin since we may want to re-download a show manually
+ - [regexp](/Plugins/regexp): Ignore video samples
+ - [series](/Plugins/series): The series plugin is used to list all of the shows we want to go through.  Since we do not want anything rejected, we have to set the **parse_only** option.  To apply that option to every series we need to create a group and apply the setting to the group.  [all_series](/Plugins/all_series) with **parse_only** did not work for some reason.
+ - [thetvdb_lookup](/Plugins/thetvdb_lookup): Look up the file naming so that Kodi with scrape properly
+ - [copy](/Plugins/copy): Use copy instead of move so that seeding will work.  [clean_transmission](/Plugins/clean_transmission) will delete the original download
+ - [kodi_library](/Plugins/kodi_library): Send a remote command to Kodi to update the video library

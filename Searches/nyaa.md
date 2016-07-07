@@ -1,21 +1,21 @@
-= Nyaa =
-Search plugin which gives results from [http://nyaa.se/ nyaa.se]
-=== Config ===
+# Nyaa
+Search plugin which gives results from [nyaa.se](http://nyaa.se/)
+### Config
 Takes two options:
 
-'''Category:'''
+**Category:**
 
-Valid choices are {{{all}}}, {{{anime}}}, {{{anime eng}}}, {{{anime non-eng}}}, and {{{anime raw}}}
+Valid choices are `all`, `anime`, `anime eng`, `anime non-eng`, and `anime raw`
 
-'''Filter:'''
+**Filter:**
 
-Valid choices are {{{all}}}, {{{filter remakes}}}, {{{trusted only}}}, and {{{a+ only}}}
+Valid choices are `all`, `filter remakes`, `trusted only`, and `a+ only`
 
 
 
-=== Example ===
-{{{
+### Example
+```
 nyaa:
   category: anime eng
   filter: trusted only
-}}}
+```

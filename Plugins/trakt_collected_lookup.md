@@ -1,3 +1,2 @@
-= Trakt collected lookup =
-
-See [wiki:Plugins/trakt_lookup trakt_lookup]
+# Trakt collected lookup
+See [trakt_lookup](/Plugins/trakt_lookup)

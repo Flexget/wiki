@@ -6,7 +6,7 @@ Automatically download torrents from a folder.
 
 config.yml
 
-{{{
+```
 templates:
   global:
     notifymyandroid:
@@ -30,8 +30,8 @@ templates:
         - \bCam\b: {from: title}
         - '{C_P}': {from: title}
         - TrTd TeaM: {from: title}
-        - \[TNTVillage\]: {from: title}
-        - \[facepalm\]: {from: title}
+        - \[TNTVillage\](/TNTVillage\): {from: title}
+        - \[facepalm\](/facepalm\): {from: title}
         - \bASAP\b: {from: title}
     content_filter:
       reject:
@@ -49,8 +49,8 @@ templates:
         text:
           url: "http://next-episode.net/PAGES/misc/export_calendar?z&u=username&k=next-episode.ics"
           entry: 
-            title: ^SUMMARY:(.*) - [0-9]+x[0-9]+.*$
-            url: ^SUMMARY:(.*) - [0-9]+x[0-9]+.*$
+            title: ^SUMMARY:(.*) - [0-9](/0-9)+x[0-9](/0-9)+.*$
+            url: ^SUMMARY:(.*) - [0-9](/0-9)+x[0-9](/0-9)+.*$
     # a seperate yml to contain the shows next-episode.net doesn't have
     include: series.yml
     exists_series:
@@ -249,7 +249,7 @@ tasks:
     manipulate:
       - title:
           from: url
-          extract: '&dn=([^&]+)'
+          extract: '&dn=([^&](/^&)+)'
     archive: yes
 
   TheLibrariansUS:
@@ -266,7 +266,7 @@ tasks:
     manipulate:
       - title:
           from: url
-          extract: '&dn=([^&]+)'
+          extract: '&dn=([^&](/^&)+)'
     archive: yes
 
   thepiratebay_movies207:
@@ -304,14 +304,18 @@ tasks:
 
   moviesQueFeed:
     template: moviesQue
-}}}
+```
 
 series.yml
 
-{{{
+```
 series:
   - Fast Food Mania
   - Fish Tank Kings
   - Frys Planet Word
   - "The Librarians (US)"
-}}}
+```
+
+### Attachments
+* [My config.yml file (1.2.231)](/attachments/Cookbook/Users/paulpoco/config.yml)
+* [My series.yml file (1.2.231)](/attachments/Cookbook/Users/paulpoco/series.yml)

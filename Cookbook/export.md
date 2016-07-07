@@ -2,11 +2,10 @@ Because upgrade 1.x > 2.x broke some functions, I must reset all the config dire
 
 So i have backup my config directory.
 
-==== The Series plugin ====
-
+#### The Series plugin
 Go to the old directory to export the data...
 
-{{{
+```
 sqlite3 db-config.sqlite
 
 sqlite> .mode csv
@@ -16,13 +15,12 @@ sqlite> .exit
 
 awk -F "," '{ print "flexget series begin "$4 " " $3 }' series.csv >> insert_series.sh
 bash insert_series.sh
-}}}
+```
 
-==== The Seen plugin ====
-
+#### The Seen plugin
 Go to the old directory to export the data...
 
-{{{
+```
 sqlite3 db-config.sqlite
 
 sqlite> .mode csv
@@ -32,6 +30,6 @@ sqlite> .exit
 
 awk -F "," '{ print "flexget seen add "$1 }' seen.csv >> insert_seen.sh
 bash insert_seen.sh
-}}}
+```
 
 kiss sor4.

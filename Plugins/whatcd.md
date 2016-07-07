@@ -1,12 +1,10 @@
-= Whatcd =
+# Whatcd
+A plugin that performs searches on [https://what.cd](/https://what.cd) and returns entries for each result.
 
-A plugin that performs searches on [https://what.cd] and returns entries for each result.
-
-== Usage ==
-
+## Usage
 All parameters except `username` and `password` are optional.
 
-{{{
+```
 whatcd:
     username:     # What.cd username
     password:     # What.cd password
@@ -52,13 +50,12 @@ whatcd:
 
     tag_type:     # The type of matching to use on the tags.
                   # Can be 'any' or 'all'
-}}}
+```
 
-== Example ==
-
+## Example
 Find all non-scene lossless FLAC CD rips from 2000 with a perfect log file
 
-{{{
+```
 whatcd:
     username: myusername
     password: mypass
@@ -69,4 +66,4 @@ whatcd:
     media: CD
     log: 100%
     scene: false
-}}}
+```

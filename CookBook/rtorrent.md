@@ -1,3 +1,2 @@
-== MOVED ==
-
-See [wiki:Cookbook/rTorrent new location]
+## MOVED
+See [new location](/Cookbook/rTorrent)

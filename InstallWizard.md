@@ -1,20 +1,17 @@
-= Installation Tutorial =
+# Installation Tutorial
+This wizard guides you through installing FlexGet.
 
-This wizard guides you through installing !FlexGet.
+*Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated! *
 
-''Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated! ''
+### Select your operating system
+ * [Windows](/InstallWizard/Windows)
+ * [Linux / BSD](/InstallWizard/Linux)
+ * [Mac OSX](/InstallWizard/OSX)
 
-=== Select your operating system ===
-
- * [wiki:InstallWizard/Windows Windows]
- * [wiki:InstallWizard/Linux Linux / BSD]
- * [wiki:InstallWizard/OSX Mac OSX]
-
-=== Hardware specific instructions ===
-
- * [wiki:InstallWizard/OpenWrt OpenWrt]
- * [wiki:InstallWizard/Plugbox Plugbox]
- * [wiki:InstallWizard/QNAP QNAP NAS]
- * [wiki:InstallWizard/ReadyNAS ReadyNAS]
- * [wiki:InstallWizard/SynologyNAS SynologyNAS]
- * [wiki:InstallWizard/BuffaloLinkstation Buffalo Linkstation]
+### Hardware specific instructions
+ * [OpenWrt](/InstallWizard/OpenWrt)
+ * [Plugbox](/InstallWizard/Plugbox)
+ * [QNAP NAS](/InstallWizard/QNAP)
+ * [ReadyNAS](/InstallWizard/ReadyNAS)
+ * [SynologyNAS](/InstallWizard/SynologyNAS)
+ * [Buffalo Linkstation](/InstallWizard/BuffaloLinkstation)

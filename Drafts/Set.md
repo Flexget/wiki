@@ -1,28 +1,27 @@
-= Set 2.0 =
-
-{{{
+# Set 2.0
+```
 set:
-  [FIELD_NAME]: <string format>
+  [FIELD_NAME](/FIELD_NAME): <string format>
 
-  [FIELD_NAME]:
+  [FIELD_NAME](/FIELD_NAME):
     {value]: <string format>
-    [regexp]: <regexp groups>
-    [replace]: [<regexp what>, <with text>]
-}}}
+    [regexp](/regexp): <regexp groups>
+    [replace](/replace): [<regexp what>, <with text>]
+```
 
-'''Simple example:'''
+**Simple example:**
 
-{{{
+```
 set:
   path: /foo/bar/%(series_name)s/
-}}}
+```
 
 
-'''Advanced example:'''
+**Advanced example:**
 
-{{{
+```
 set:
   path:
     value: /foo/bar/%(series_name)s/
     replace: [' ', '.']
-}}}
+```

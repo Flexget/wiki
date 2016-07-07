@@ -1,8 +1,7 @@
-= Handling series neatly =
+# Handling series neatly
+While setup described in in the [installation](/Install) is a good start. In practice utilizing it without any further refining leads to some inconveniences. Ie. what if you want to grab series from 4 different feeds?
 
-While setup described in in the [wiki:Install installation] is a good start. In practice utilizing it without any further refining leads to some inconveniences. Ie. what if you want to grab series from 4 different feeds?
-
-{{{
+```
 feeds:
   feed_A:
     rss: http://example.com/foo.rss
@@ -29,15 +28,14 @@ feeds:
   feed_D:
     .
     .
-}}}
+```
 
 As you can see this gets quite messy, adding new feeds and maintaining series list requires too much work. Which is exactly the thing we are trying to avoid here.
 
-Solution, use [wiki:ModulePreset preset] plugin!
+Solution, use [preset](/ModulePreset) plugin!
 
-== Series with preset ==
-
-{{{
+## Series with preset
+```
 series:   # this is name of the preset
   series: # this is a plugin in the preset
     - chuck
@@ -57,6 +55,6 @@ feeds:
 
   .
   .
-}}}
+```
 
 Now your series list is maintained at one place and adding new series feeds is easy and painless!

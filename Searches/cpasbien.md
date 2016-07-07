@@ -1,36 +1,37 @@
-= WARNING =
-
+# WARNING
 As cpasbien switched to cloudflare, I had to modify the code.
 So now, you have to have https://github.com/Anorov/cloudflare-scrape and all it's dependency to make it work.
 Also, the file cfscrape.py must be put in the folder : /var/lib/flexget
 
-= CPASBIEN Search plugin =
-This search plugin will get results from [http://www.cpasbien.pw/]
+# CPASBIEN Search plugin
+This search plugin will get results from [http://www.cpasbien.pw/](/http://www.cpasbien.pw/)
 
-== Configuration ==
+## Configuration
 Configuration requires only the category and you can only have ONE:
-{{{
+```
 cpasbien: <category>
-}}}
+```
 
-||'''Category'''||'''Description'''||
-||all||Not filtered by any category||
-||misc||Category for miscellaneous files||
-||films||Main category for movies & other videos||
-||films-french||Main category for french movies||
-||1080p||Main category for 1080p movies||
-||720p||Main category for 720p movies||
-||films-french||Main category for french movies||
-||films-dvdrip||Main category for dvdrip movies||
-||films-vostfr||Main category for movies in English sub French||
-||series||Category for tv shows||
-||series-francaise||Category for tv shows in french||
-||series-vostfr||Category for tv shows in English sub French||
-||ebook||Category for books||
-||musique||Category for music||
+
+| **Category** | **Description** |
+| --- | --- |
+| all | Not filtered by any category |
+| misc | Category for miscellaneous files |
+| films | Main category for movies & other videos |
+| films-french | Main category for french movies |
+| 1080p | Main category for 1080p movies |
+| 720p | Main category for 720p movies |
+| films-french | Main category for french movies |
+| films-dvdrip | Main category for dvdrip movies |
+| films-vostfr | Main category for movies in English sub French |
+| series | Category for tv shows |
+| series-francaise | Category for tv shows in french |
+| series-vostfr | Category for tv shows in English sub French |
+| ebook | Category for books |
+| musique | Category for music |
 
 Example with discover:
-{{{
+```
 tv_search_cpasbien:
   discover:
     what:
@@ -43,5 +44,5 @@ tv_search_cpasbien:
           category: series-vostfr
     interval: 1 day
     ignore_estimations: yes
-}}}
+```
 

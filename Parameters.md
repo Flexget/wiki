@@ -1,13 +1,12 @@
-= Parameters =
+# Parameters
+*TODO: write this section! *
+*NOTE: this should be generated and should be synced with the `flexget -h`'s output.*
 
-''TODO: write this section! ''
-''NOTE: this should be generated and should be synced with the `flexget -h`'s output.''
-
-usage: flexget.py [options]
+usage: flexget.py [options](/options)
 
 options:
-{{{
-  -h, --help            show this help message and exit
+```
+-h, --help            show this help message and exit
   --test                Verbose what would happend on normal execution.
   --learn               Matches are not downloaded but will be skipped in the
                         future.
@@ -30,4 +29,4 @@ options:
                         cli_config.
   --dl-path=DL_PATH     Override path for download module. Applies to all
                         executed feeds.
-}}}
+```

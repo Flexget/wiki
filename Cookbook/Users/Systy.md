@@ -1,8 +1,8 @@
-Hors_Sujet[[BR]]
+Hors_Sujet  
 
 A la base je ne sais pas programmer, mais utilisant Flexget depuis quelques temps, il a bien fallu s'y mettre doucement.
 J'ai essayer d'organiser au plus clair (pour moi) mes templates / tasks, mais ma logique n'est sans doute pas celle des autres ;)
-Je vous présente néanmoins mon fichier de configuration qui pourra sans doute aider des débutants, comme j'ai pu moi-même être grandement aidé par les exemples des autres. D'ailleurs, un GRAND merci à Lildadou !!![[BR]]
+Je vous présente néanmoins mon fichier de configuration qui pourra sans doute aider des débutants, comme j'ai pu moi-même être grandement aidé par les exemples des autres. D'ailleurs, un GRAND merci à Lildadou !!!  
 
 /Hors_Sujet
 
@@ -16,11 +16,11 @@ Le tout téléchargés avec le logiciel de torrent Transmission.
 
 ----
 
-Off_Topic[[BR]]
+Off_Topic  
 
 Basically I can not program, but using Flexget for some time, it was necessary to put it gently.
 I try to organize more clear (for me) my templates / tasks, but my logic is probably not that of others ;)
-Nevertheless, I present my configuration file that will probably help beginners, as I myself have been greatly helped by the examples of others. Moreover, a BIG thank you to Lildadou !!![[BR]]
+Nevertheless, I present my configuration file that will probably help beginners, as I myself have been greatly helped by the examples of others. Moreover, a BIG thank you to Lildadou !!!  
 
 /Off_Topic
 

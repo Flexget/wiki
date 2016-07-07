@@ -9,12 +9,12 @@ this is my personal config.yml which does the following:
 
 replace everything in ALL_CAPS with your relevant information and you should be good to go.
 
-{{{
+```
 schedules:
-  - tasks: [TV-SHOWS,MOVIES]
+  - tasks: [TV-SHOWS,MOVIES](/TV-SHOWS,MOVIES)
     interval:
       minutes: 15
-  - tasks: [IMPORT-MOVIES]
+  - tasks: [IMPORT-MOVIES](/IMPORT-MOVIES)
     interval:
       minutes: 120    
 
@@ -48,7 +48,7 @@ templates:
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "[F] {{series_name}} {{series_id}}"
+      title: "[F](/F) {{series_name}} {{series_id}}"
       body: "{{title}}\n\nSize: {{content_size}}MB"
     inputs:
       - rss:
@@ -84,7 +84,7 @@ templates:
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "[F] {{imdb_name}}"
+      title: "[F](/F) {{imdb_name}}"
       body: "{{title}}\n\n{{imdb_url}}\n\nSize: {{content_size}}MB"
     inputs:
       - rss:
@@ -112,4 +112,4 @@ tasks:
   MOVIES:
     template: movie
     priority: 3
-}}}
+```

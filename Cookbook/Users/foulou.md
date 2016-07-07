@@ -3,7 +3,7 @@ This is the personal configuration of user foulou . I will try to remember to up
 Updated Config if this one is outdated : http://pastebin.com/CsSLVCJA
 Trakt Config : http://pastebin.com/uupakwR6
 
-{{{
+```
 templates:
   global:
     make_rss: /var/www/rss/flexget.rss
@@ -198,31 +198,31 @@ tasks:
     inputs:
       - rss:
           url: http://kat.ph/music/tag/rock/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/heavy-metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/progressive-rock/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/power-metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/melodic-metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/progressive-metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/music/tag/symphonic-metal/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
       - rss:
           url: http://kat.ph/search/heavytorrent/?rss=1
-          other_fields: [hash]
+          other_fields: [hash](/hash)
     template: zik
   ZIK:
     verify_ssl_certificates: no
@@ -278,4 +278,4 @@ tasks:
     accept_all: yes
     manual: yes
     template: animes
-}}}
+```

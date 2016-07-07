@@ -1,1 +1,1 @@
-See [wiki:"Plugins/series/tracking"].
+See ["Plugins/series/tracking"](/"Plugins/series/tracking").

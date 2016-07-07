@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/imdb_rated]
+Continue to [Plugins/imdb_rated](/Plugins/imdb_rated)

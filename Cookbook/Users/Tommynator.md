@@ -11,7 +11,7 @@ Sort movies with correct name
 fix RemoveEndedShows
 automatically move 1 new show from watchlist to following list every month
 
-{{{
+```
 secrets: secrets.yml
 
 templates:
@@ -51,7 +51,7 @@ templates:
       skip_files:
         - '*.nfo'
         - '*.sfv'
-        - '*.[sS]ample'
+        - '*.[sS](/sS)ample'
         - '*.txt'
       include_subs: no
     pushbullet:
@@ -100,7 +100,7 @@ templates:
       skip_files:
         - '*.nfo'
         - '*.sfv'
-        - '*.[sS]ample'
+        - '*.[sS](/sS)ample'
         - '*.txt'
       include_subs: no
     pushbullet:
@@ -232,16 +232,16 @@ schedules:
   - tasks: [MovieQueue, MoviesSearch1080pandhdtv, MoviesSearch720pandhdtv, MoviesSearch720p, MoviesSearchhdtv, MoviesSearchOther]
     interval:
       hours: 4
-  - tasks: [Sort_Series]
+  - tasks: [Sort_Series](/Sort_Series)
     interval:
       minutes: 15
   - tasks: [SeriesQueue, SeriesSearch1080pandhdtv, SeriesSearch720pandhdtv, SeriesSearch720p, SeriesSearchhdtv, SeriesSearchOther]
     interval:
       hours: 1
-  - tasks: [ClearTransmission]
+  - tasks: [ClearTransmission](/ClearTransmission)
     interval:
       days: 1
-  - tasks: [RemoveEndedShows]
+  - tasks: [RemoveEndedShows](/RemoveEndedShows)
     interval:
       weeks: 4
-}}}
+```

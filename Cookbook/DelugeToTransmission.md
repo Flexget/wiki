@@ -1,6 +1,5 @@
-= Transfer torrents from deluge to transmission =
-
-{{{
+# Transfer torrents from deluge to transmission
+```
 tasks:
   migrate_deluge:
     manual: yes # do not run this task automatically - only with flexget execute --tasks migrate_deluge
@@ -15,4 +14,4 @@ tasks:
     disable:
       - seen
       - seen_info_hash
-}}}
+```

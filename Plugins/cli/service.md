@@ -1,26 +1,26 @@
-= Windows Service Installer =
-'''{{{WARNING:}}}''' This plugin is not very well tested. Somebody please improve this documentation.
+# Windows Service Installer
+**`WARNING:`** This plugin is not very well tested. Somebody please improve this documentation.
 
-This CLI command can be used to install a windows service which runs the !FlexGet daemon.
+This CLI command can be used to install a windows service which runs the FlexGet daemon.
 
-== Usage ==
-=== REQUIREMENTS ===
-'''{{{PYWIN32}}}'''
-This plugin requires pywin32 to be installed. Download [https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/ here].
+## Usage
+### REQUIREMENTS
+**`PYWIN32`**
+This plugin requires pywin32 to be installed. Download [here](https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/).
 
-'''OR'''
+**OR**
 
-'''{{{ACTIVEPYTHON}}}''' Second option is to install [http://www.activestate.com/activepython/ ActivePython]
+**`ACTIVEPYTHON`** Second option is to install [ActivePython](http://www.activestate.com/activepython/)
 
 Use `flexget service --help` to get the options. Make sure you specify an username and password when installing the service.
 
-'''{{{Commands}}}'''
+**`Commands`**
 
 Localhost usernames are .\
 
-{{{
+```
 flexget service install --username .\johndoe --password janedoe --state auto
-}}}
+```
 
 
 

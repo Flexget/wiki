@@ -1,8 +1,7 @@
-= Fancy Movie List Magic =
-
+# Fancy Movie List Magic
 Series plugin has some really nice features, like timeframe and upgrade, which it might be desirable to replicate with movies. This config shows how you can use multiple tasks to emulate series plugin features like timeframe with upgrade on a list of movies you want.
 
-{{{
+```
 # Since we are making more than one task, which will share some common plugins, let's put some of those plugins in templates.
 # Ain't nobody got time to type this crap twice.
 templates:
@@ -99,21 +98,21 @@ schedules:
       # Let's be real, you should be going to bed anyway. Running this more often is only going to
       # clog the tubes. (Of the internet. (Think of the starving children who need those tubes. (You monster.)))
       hours: 6
-}}}
+```
 
-== Things that would have been linked ==
+## Things that would have been linked
 Who decided to write everything in comments in a code block? You can't even put links in there!
 Here are some things that would have been linked above, had that happened.
 
-=== Input Template ===
-Other input plugins can be found [wiki:Plugins#Inputs here]. You can add to, remove or replace any of the ones in the `movie releases to consider` template of this recipe with others.
+### Input Template
+Other input plugins can be found [here](/Plugins#Inputs). You can add to, remove or replace any of the ones in the `movie releases to consider` template of this recipe with others.
 Remember that you want input plugins that produce actual download links for movies in here.
 
-=== Output Template ===
-Other output plugins are [wiki:Plugins#Output here]. This recipe is assuming you are dealing with torrents, make the appropriate adjustments to both input and output plugins if not.
+### Output Template
+Other output plugins are [here](/Plugins#Output). This recipe is assuming you are dealing with torrents, make the appropriate adjustments to both input and output plugins if not.
 
-=== Movie Lists ===
-We used a list plugin to represent 2 lists in this recipe. In our this case, it was the `movie_list` plugin, where we defined 2 named lists, that we used in multiple contexts. You can switch out `movie_list` for any of the list plugins [wiki:Plugins/List here], (pick one that supports movies though,) just remember to change all instances of the 'getlist' or 'upgradelist' list at the same time.
+### Movie Lists
+We used a list plugin to represent 2 lists in this recipe. In our this case, it was the `movie_list` plugin, where we defined 2 named lists, that we used in multiple contexts. You can switch out `movie_list` for any of the list plugins [here](/Plugins/List), (pick one that supports movies though,) just remember to change all instances of the 'getlist' or 'upgradelist' list at the same time.
 
-=== YAML !Anchor/Alias ===
-Nobody wrote a cookbook entry about anchor/alias. But somebody did write about it on the forum, you can read about it [http://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405?u=gazpachoking here]. This can be useful for repeating the same bit of config in different contexts, for example repeating the same list plugin config in `list_match`, `list_add`, and `discover`.
+### YAML !Anchor/Alias
+Nobody wrote a cookbook entry about anchor/alias. But somebody did write about it on the forum, you can read about it [here](http://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405?u=gazpachoking). This can be useful for repeating the same bit of config in different contexts, for example repeating the same list plugin config in `list_match`, `list_add`, and `discover`.

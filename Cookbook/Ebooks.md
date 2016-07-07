@@ -1,3 +1,3 @@
-= Ebook recipes = 
+# Ebook recipes
 
-* [wiki:Cookbook/SimpleEbooks Very basic ebook configuration]
+* [Very basic ebook configuration](/Cookbook/SimpleEbooks)

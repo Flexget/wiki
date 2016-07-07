@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please help by fixing the incorrect link,
 
-New location: [wiki:Cookbook/Movies/MyMoviesRSS]
+New location: [Cookbook/Movies/MyMoviesRSS](/Cookbook/Movies/MyMoviesRSS)

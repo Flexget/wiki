@@ -1,3 +1,3 @@
 This plugin was deprecated.
 
-Please go to [wiki:Plugins/couchpotato_list couchpotato_list ] plugin page.
+Please go to [couchpotato_list ](/Plugins/couchpotato_list) plugin page.

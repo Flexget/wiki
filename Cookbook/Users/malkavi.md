@@ -1,14 +1,12 @@
-== Download Movies/Series from Spanish webs ==
-
+## Download Movies/Series from Spanish webs
 After reading other users config and Flexget code, I have write my own config and prepare some PR to search movies in Spanish webs.
 
 I have split my config in several files and include in the main config.
 You need to use secretfile.yml with your users/passwords
 
-== Main config ==
+## Main config
 
-
-{{{
+```
 secrets: secretfile.yml
 templates:
   torrent_server:
@@ -67,13 +65,12 @@ tasks:
       - animes_evermore_nyaa.yml
 #EOF         
 
-}}}
+```
 
-== AniRena EverMore ==
-
-{{{
+## AniRena EverMore
+```
 rss: 
-  url: http://www.anirena.com/rss.php?s=[evermore]
+  url: http://www.anirena.com/rss.php?s=[evermore](/evermore)
   link: link
 series:
   settings:
@@ -85,14 +82,13 @@ series:
     - Knights of Sidonia S2
 regexp:
   reject_excluding:
-    - '\[EvermorE\]'
+    - '\[EvermorE\](/EvermorE\)'
   reject:
     - mkv
-}}}
+```
 
-== AnimeIndex FallenSubs ==
-
-{{{
+## AnimeIndex FallenSubs
+```
 rss: http://tracker.anime-index.org/rss.php
 series:
   settings:
@@ -144,13 +140,12 @@ regexp:
   from: title
 manipulate:
   - title:
-      extract: .*\[TORRENT\] (.*)
-}}}
+      extract: .*\[TORRENT\](/TORRENT\) (.*)
+```
 
-== DivXATope ==
+## DivXATope
 
-
-{{{
+```
 rss:
   url: http://divxatope.com/feeds.xml
 series:
@@ -190,17 +185,16 @@ regexp:
   reject:
     - V.O.:
         from: title
-}}}
+```
 
-== '''Working with PR from malkavi github repo, waiting merge''' ==
-[https://github.com/Flexget/Flexget/pull/516 PR516]
+## **Working with PR from malkavi github repo, waiting merge**
+[PR516](https://github.com/Flexget/Flexget/pull/516)
 
-== Search movies ==
-
+## Search movies
 If you remove divxatope from discover, the config will be compatible with the merged version of Flexget.
 With the PR you can use elitetorrent at the same way as divxatope to search movies.
 
-{{{
+```
 secrets: secretfile.yml
 templates:
   torrent_server:
@@ -264,16 +258,16 @@ tasks:
     movie_queue: accept
     regexp:
       reject:
-        - sub[s][\s\._]: {from: title}  # Bloquea todos los torrent que contengan la palabra sub(s) (subtitulos=
-        - '[Ll]atino'
-        - '[Ss]creener'
+        - sub[s](/s)[\s\._](/\s\._): {from: title}  # Bloquea todos los torrent que contengan la palabra sub(s) (subtitulos=
+        - '[Ll](/Ll)atino'
+        - '[Ss](/Ss)creener'
       reject_excluding:
-        - '[sS]pa|[Cc]astellano'
-        - '[Rr]ip'
-}}}
+        - '[sS](/sS)pa|[Cc](/Cc)astellano'
+        - '[Rr](/Rr)ip'
+```
 
-== NewPCT1 ==
-{{{
+## NewPCT1
+```
 rss:
   url: http://www.newpct1.com/feed
   link: link
@@ -294,11 +288,10 @@ regexp:
         from: title
 download:
   path: /home/osmc/torrents/
-}}}
+```
 
-== NewPCT ==
-
-{{{
+## NewPCT
+```
 rss:
   url: http://www.newpct.com/feed/
   link: link
@@ -318,11 +311,10 @@ regexp:
     - V.O.:
         from: title
 download: /home/osmc/torrents/
-}}}
+```
 
-== EliteTorrent ==
-
-{{{
+## EliteTorrent
+```
 rss:
   url: http://www.elitetorrent.net/rss.php
 series:
@@ -340,4 +332,4 @@ regexp:
     - V.O.:
         from: title
 download: torrents/
-}}}
+```

@@ -1,11 +1,10 @@
-= Use next-episode.net as input for import_series =
-
-This feed will pull your series from [http://next-episode.net http://next-episode.net] using [wiki:Plugins/import_series import_series]
+# Use next-episode.net as input for import_series
+This feed will pull your series from [http://next-episode.net](http://next-episode.net) using [import_series](/Plugins/import_series)
 There are some transmission stuff included in the example to. 
 
 First you need to set up your account at http://next-episode.net and select your series. Then you need to locate the iCal-url, it's located under calender: Export to iCal File. It will look like this: http://next-episode.net/PAGES/misc/export_calendar?z&u=user&k=<numbers>.ics
 
-{{{
+```
 templates:
   tv:
     transmission:
@@ -28,8 +27,8 @@ templates:
         text:
           url: (url to ical)
           entry: 
-            title: ^SUMMARY:(.*) - [0-9]+x[0-9]+.*$
-            url: ^SUMMARY:(.*) - [0-9]+x[0-9]+.*$
+            title: ^SUMMARY:(.*) - [0-9](/0-9)+x[0-9](/0-9)+.*$
+            url: ^SUMMARY:(.*) - [0-9](/0-9)+x[0-9](/0-9)+.*$
     download:
       path: /home/torrent
       overwrite: yes
@@ -43,4 +42,4 @@ feeds:
     rss: sdtvrss 
     template: tv 
 
-}}}
+```

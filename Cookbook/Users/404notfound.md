@@ -6,7 +6,7 @@ Also, I haven't seen anyone else use both torrent files and magnet links. Below 
 
 Added section to download comic book series. Still torn between using series or just downloading everything or using a regexp to match titles. The series plugin works pretty good so far for this purpose.
 
-{{{
+```
 schedules:
   - tasks: 'WWE-Raw'
     interval:
@@ -276,4 +276,4 @@ tasks:
         - Veep
         - Wipeout
 
-}}}
+```

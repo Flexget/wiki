@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/from_uoccin from_uoccin]
+Renamed [from_uoccin](/Plugins/from_uoccin)

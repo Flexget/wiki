@@ -1,23 +1,20 @@
-= Regexp List =
-
-This plugin is a [wiki:Plugins/List list] plugin.
+# Regexp List
+This plugin is a [list](/Plugins/List) plugin.
 
 It is a list of strings that represent regular expressions to be used for matching entries. The matching is case insensitive and only match single lines (no newline matching etc).
 
-=== Config ===
-
-{{{
+### Config
+```
 regexp_list: <NAME>
-}}}
+```
 
-=== Usage ===
+### Usage
+Maintain a list of regular expressions instead of writing them out in the config. Since it is a [list](/Plugins/List) plugin, you can use other list plugins to populate the regexp_list.
 
-Maintain a list of regular expressions instead of writing them out in the config. Since it is a [wiki:Plugins/List list] plugin, you can use other list plugins to populate the regexp_list.
+Below is an example that converts a list of series from a [trakt_list](/Plugins/List/trakt_list) to a list of regular expressions that can be used to match entries from RSS feeds. Useful if you don't care about series tracking.
 
-Below is an example that converts a list of series from a [wiki:Plugins/List/trakt_list trakt_list] to a list of regular expressions that can be used to match entries from RSS feeds. Useful if you don't care about series tracking.
-
-{{{
-  populate_regexp_list:
+```
+populate_regexp_list:
     disable: seen
     trakt_list:
       account: trakt_username
@@ -44,4 +41,4 @@ Below is an example that converts a list of series from a [wiki:Plugins/List/tra
       remove_on_match: no
       single_match: no
     download: /some/download/path
-}}}
+```

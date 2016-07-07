@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/cookies]
+Continue to [Plugins/cookies](/Plugins/cookies)

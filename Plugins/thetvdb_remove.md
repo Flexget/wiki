@@ -1,1 +1,1 @@
-Plugin has been deprecated, use [wiki:Plugins/List/thetvdb_list thetvdb_list] instead
+Plugin has been deprecated, use [thetvdb_list](/Plugins/List/thetvdb_list) instead

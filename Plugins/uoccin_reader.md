@@ -1,22 +1,22 @@
-= Uoccin reader =
-This plugin synchronizes a local uoccin.json file with the updates coming from the [https://play.google.com/store/apps/details?id=net.ggelardi.uoccin Uoccin] Android app via Google Drive.
+# Uoccin reader
+This plugin synchronizes a local uoccin.json file with the updates coming from the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app via Google Drive.
 
-== Plugin Settings ==
-
+## Plugin Settings
 The following settings are supported:
 
-{{{#!div style="margin-left: 25px"
-||= Option =||= Description =||
-||'''uuid'''||The machine identifier. Must be a simple but unique name, different for any device synchronizing on the same Google Drive account (i.e. "flexget_server", "home_pc1" etc).||
-||'''path'''||This is the path to the uoccin.json file.||
-}}}
 
-=== The task ===
 
+|  Option  |  Description  |
+| --- | --- |
+| **uuid** | The machine identifier. Must be a simple but unique name, different for any device synchronizing on the same Google Drive account (i.e. "flexget_server", "home_pc1" etc). |
+| **path** | This is the path to the uoccin.json file. |
+
+
+### The task
 Currently the task is required to be exactly like this:
 
-{{{
-  uoccin_sync:
+```
+uoccin_sync:
     seen: local
     filesystem:
       path:
@@ -26,16 +26,16 @@ Currently the task is required to be exactly like this:
     uoccin_reader:
       uuid: this_machine_uuid
       path: path_to_uoccin_folder
-}}}
+```
 
-You just need to replace all the occurrences of '''this_machine_uuid''' with your chosen uuid, and all the occurrences of '''path_to_uoccin_folder''' with the real path in which resides the uoccin.json file.
+You just need to replace all the occurrences of **this_machine_uuid** with your chosen uuid, and all the occurrences of **path_to_uoccin_folder** with the real path in which resides the uoccin.json file.
 
-'''{{{IMPORTANT:}}}''' The Android app can only be synchronized via Google Drive, so your uoccin.json file will reside in a folder named "uoccin" inside the root of your Google Drive folder.
+**`IMPORTANT:`** The Android app can only be synchronized via Google Drive, so your uoccin.json file will reside in a folder named "uoccin" inside the root of your Google Drive folder.
 
 Example real-word task:
 
-{{{
-  uoccin_sync:
+```
+uoccin_sync:
     seen: local
     filesystem:
       path:
@@ -45,7 +45,7 @@ Example real-word task:
     uoccin_reader:
       uuid: my_flexget_pc
       path: C:\Users\Frank\Google Drive\uoccin
-}}}
+```
 
-[[BR]]
+  
 

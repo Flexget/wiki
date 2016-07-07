@@ -1,19 +1,17 @@
-= InterMapTxt =
-
-== This is the place for defining InterWiki prefixes ==
-
+# InterMapTxt
+## This is the place for defining InterWiki prefixes
 This page was modelled after the MeatBall:InterMapTxt page.
 In addition, an optional comment is allowed after the mapping.
 
 
 This page is interpreted in a special way by Trac, in order to support
-!InterWiki links in a flexible and dynamic way.
+InterWiki links in a flexible and dynamic way.
 
 The code block after the first line separator in this page
-will be interpreted as a list of !InterWiki specifications:
-{{{
+will be interpreted as a list of InterWiki specifications:
+```
 prefix <space> URL [<space> # comment]
-}}}
+```
 
 By using `$1`, `$2`, etc. within the URL, it is possible to create 
 InterWiki links which support multiple arguments, e.g. Trac:ticket:40.
@@ -21,23 +19,21 @@ The URL itself can be optionally followed by a comment,
 which will subsequently be used for decorating the links 
 using that prefix.
 
-New !InterWiki links can be created by adding to that list, in real time.
-Note however that ''deletions'' are also taken into account immediately,
+New InterWiki links can be created by adding to that list, in real time.
+Note however that *deletions* are also taken into account immediately,
 so it may be better to use comments for disabling prefixes.
 
-Also note that !InterWiki prefixes are case insensitive.
+Also note that InterWiki prefixes are case insensitive.
 
 
-== List of Active Prefixes ==
-
-[[InterWiki]]
+## List of Active Prefixes
+(XXX macro: "InterWiki")
 
 
 ----
 
-== Prefix Definitions ==
-
-{{{
+## Prefix Definitions
+```
 PEP     http://www.python.org/peps/pep-$1.html                                       # Python Enhancement Proposal 
 Trac-ML  http://thread.gmane.org/gmane.comp.version-control.subversion.trac.general/ # Message $1 in Trac Mailing List
 trac-dev http://thread.gmane.org/gmane.comp.version-control.subversion.trac.devel/   # Message $1 in Trac Development Mailing List
@@ -69,4 +65,4 @@ WikiPedia        http://en.wikipedia.org/wiki/
 pull             https://github.com/Flexget/Flexget/pull/    # GitHub pull request $1
 pr               https://github.com/Flexget/Flexget/pull/    # GitHub pull request $1
 plugin           http://flexget.com/wiki/Plugins/
-}}}
+```

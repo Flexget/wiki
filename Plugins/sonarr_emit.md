@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]
+Renamed [next_sonarr_episodes](/Plugins/next_sonarr_episodes)

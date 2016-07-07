@@ -1,29 +1,26 @@
-= Filter IMDB =
-
+# Filter IMDB
 This module allows filtering based on IMDB score, votes and genres etc.
-Results are cached so this doesn't cause unnecessary load to [http://www.imdb.com imdb].
+Results are cached so this doesn't cause unnecessary load to [imdb](http://www.imdb.com).
 
 
-'''Notes:''' 
+**Notes:** 
 
- * If [wiki:Entry] doesn't have `imdb url` present plugin will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
- * To reject non imdb compatible entries, use [wiki:Plugins/imdb_required imdb_required] plugin.
- * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [wiki:Plugins/seen_movies seen_movies] plugin alongside.
+ * If [Entry](/Entry) doesn't have `imdb url` present plugin will try to use imdb's search function. This does not work on 100% of cases and in some rare cases it may even get wrong movie details.
+ * To reject non imdb compatible entries, use [imdb_required](/Plugins/imdb_required) plugin.
+ * This plugin doesn't keep any track of accepted movies, if you want to prevent same movie being accepted multiple times use [seen_movies](/Plugins/seen_movies) plugin alongside.
 
-=== Example ===
-
-{{{
+### Example
+```
 imdb:
   min_score: 6.2
   min_votes: 5000
   reject_genres:
     - horror
-}}}
+```
 
-=== Full configuration ===
-
-{{{
-        Note: All parameters are optional. Some are mutually exclusive.
+### Full configuration
+```
+Note: All parameters are optional. Some are mutually exclusive.
 
         min_score: <num>
         min_votes: <num>
@@ -72,6 +69,6 @@ imdb:
             - PG
             - G
             - TV_Y
-}}}
+```
 
 Notice that the MPAA ratings all have _ instead of - and TV ratings are also applicable. "NONE" is also an acceptable rating, and will catch anything without an MPAA rating attached.

@@ -4,7 +4,7 @@ Activate Jdownloader2's folderwatch function and use the exec plugin in flexget.
 
 
 example:
-{{{
+```
 tasks:
   task_name:
     rss: http://example.com
@@ -16,14 +16,14 @@ tasks:
       - echo downloadFolder=/path/to/Downloads/{{title}} >> "/path/to/folderwatch/{{title}}.crawljob"
       ##if you also need to parse the content of the url, uncomment following line
       #- echo deepAnalyseEnabled=true >> "/path/to/folderwatch/{{title}}.crawljob"
-}}}
+```
 
 folderwatch is located by default inside the JDownloader2 installation folder
 
 these are the changeable values:
-{{{
+```
 #a comment
-   extractPasswords=["Password1","Password2"]
+   extractPasswords=["Password1","Password2"](/"Password1","Password2")
    enabled=null
    text=http://www.hornoxe.com/kreuzfahrtschiff-wird-verlaengert-zeitraffer/
    packageName=MyPackageName
@@ -84,4 +84,4 @@ these are the changeable values:
 # extractPasswords = null
 # deepAnalyseEnabled Type: boolean
 # deepAnalyseEnabled = false
-}}}
+```

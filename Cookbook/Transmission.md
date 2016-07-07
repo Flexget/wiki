@@ -1,11 +1,10 @@
-== A Complete Transmission Recipe ==
+## A Complete Transmission Recipe
+**`ATTENTION:`** This recipe is for an older version of FlexGet and may not be valid anymore.
 
-'''{{{ATTENTION:}}}''' This recipe is for an older version of !FlexGet and may not be valid anymore.
-
-this is a user contributed recipe. it is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.[[BR]]
+this is a user contributed recipe. it is the setup i have on my ubuntu VPS that acts as a seedbox but you can adapt it to suit your needs easily.  
 it is a complete A-Z recipe for setting up flexget with transmission with a whole bunch of features that makes torrenting a lot less tedious.
 ----
-'''FEATURES:'''
+**FEATURES:**
 
 - auto download movie torrents matching your imdb watchlists:
  - remember downloaded movies and never download the same movie twice.
@@ -53,7 +52,7 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
  - logs failures to a text file.
 
 ----
-'''SPECIAL REQUIREMENTS:'''
+**SPECIAL REQUIREMENTS:**
 
 - rss feed urls from either private or public trackers that support passwordless downloading. (i use IPTorrents in this guide)
 - imdb account (https://secure.imdb.com/register-imdb/form-v2)
@@ -62,35 +61,35 @@ it is a complete A-Z recipe for setting up flexget with transmission with a whol
 - an apple device to install boxcar app on (mac/ipod touch/iphone/ipad)
 - everything is tested and works perfectly on ubuntu 12.04 and your results may vary with other versions.
 ----
-'''GET THE 3RD PARTY STUFF READY:'''
+**GET THE 3RD PARTY STUFF READY:**
 
-'''IMDB:'''  
-{{{
+**IMDB:**  
+```
 log into your imdb account and add a few movies to your default "Watchlist".
 then create a new watchlist called "HDWatchlist" and add a couple of movies to that too.
 then open up that HDWatchlist and have a look at the url. it would be in the form of: http://www.imdb.com/list/XXXXX/
 write down or make a note of the string of characters that's at the XXXXX part. we need this ID as flexget doesnt support additional watchlists by their name.
-}}}
+```
 
-'''THETVDB:'''
-{{{
+**THETVDB:**
+```
 log into the site and visit the following url: http://thetvdb.com/?tab=userinfo
 make note of the "Account Identifier". also dont forget to add a few tv series to your favorites while you are there.
-}}}
+```
 
-'''BOXCAR:'''
-{{{
+**BOXCAR:**
+```
 install the boxcar app on your idevice.
 log into your boxcar account and create a new provider at http://boxcar.io/site/providers
 open up the newly created provider and make note of the "Your API key is:" field.
-}}}
+```
 ----
-'''PREPARE TRANSMISSION'''
+**PREPARE TRANSMISSION**
 
 ssh or log in to your ubuntu box and run the following commands one after the other:
 
-'''note:''' replace "djnitehawk" with your username[[BR]]
-{{{
+**note:** replace "djnitehawk" with your username  
+```
 cd ~/
 sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:transmissionbt/ppa
@@ -100,14 +99,13 @@ sudo useradd -g transmission-daemon djnitehawk
 echo "" > prep-dirs.sh
 chmod +x prep-dirs.sh
 nano prep-dirs.sh
-}}}
-'''troubleshooting:''' if the "useradd" command above says the group doesn't exist, restart the machine first and try "sudo adduser djnitehawk debian-transmission"
+```
+**troubleshooting:** if the "useradd" command above says the group doesn't exist, restart the machine first and try "sudo adduser djnitehawk debian-transmission"
 
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk" with your username
-{{{
-#! /bin/bash
+**note:** replace "djnitehawk" with your username
+``` /bin/bash
 
 mkdir /home/djnitehawk/Downloads
 echo "dont delete this dir" > /home/djnitehawk/Downloads/.lock
@@ -143,21 +141,21 @@ chmod 777 -R /home/djnitehawk/Downloads
 chmod 777 -R /home/djnitehawk/Ready
 
 echo "Folder prep done..."
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 and then run the following commands one after the other:
-{{{
+```
 ./prep-dirs.sh
 sudo service transmission-daemon stop
 sudo echo "" > /etc/transmission-daemon/settings.json
 sudo nano /etc/transmission-daemon/settings.json
-}}}
+```
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk" with your username.[[BR]]
-'''note:''' replace "YOUR_PASSWORD_GOES_HERE" with a password of your choice.
-{{{
+**note:** replace "djnitehawk" with your username.  
+**note:** replace "YOUR_PASSWORD_GOES_HERE" with a password of your choice.
+```
 {
     "alt-speed-down": 1024, 
     "alt-speed-enabled": false, 
@@ -230,19 +228,19 @@ then copy and paste the following text into nano:
     "watch-dir": "", 
     "watch-dir-enabled": false
 }
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 and then run the following commands one after the other:
-{{{
+```
 sudo service transmission-daemon start
 rm prep-dirs.sh
-}}}
+```
 ----
-'''PREPARE THE POSTPROCESSING SCRIPT'''
+**PREPARE THE POSTPROCESSING SCRIPT**
 
 run the following commands one after the other:
-{{{
+```
 cd ~/
 sudo apt-get install unrar
 sudo apt-get install curl
@@ -250,12 +248,11 @@ mkdir tex
 cd tex
 echo "" > tex.sh
 nano tex.sh
-}}}
+```
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.
-{{{
-#! /bin/bash
+**note:** replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.
+``` /bin/bash
 
 OLD_IFS="$IFS"
 IFS=$'\n'
@@ -302,28 +299,28 @@ if [ -d "$SRC_DIR" ]; then
   for RAR in $(find "$SRC_DIR" -type f -iname "*.rar"); do
     if [[ "$RAR" == *.part*.rar ]]; then
       if [[ "$RAR" =~ .*part0*1.rar ]] || [[ "$RAR" =~ .*part1.rar ]]; then
-        RAR_FILES[i++]="$RAR"
+        RAR_FILES[i++](/i++)="$RAR"
       fi
     else
-      RAR_FILES[i++]="$RAR"
+      RAR_FILES[i++](/i++)="$RAR"
     fi
   done
   
   rm -f -R "$DST_DIR"
   mkdir "$DST_DIR"
 
-  if [ ${#RAR_FILES[@]} -gt 0 ]; then
+  if [ ${#RAR_FILES[@](/@)} -gt 0 ]; then
     rm -f -R "$TMP_DIR"
     mkdir "$TMP_DIR"
     find "$SRC_DIR" -type f  ! -name "*.r??" -execdir cp {} "$TMP_DIR" \;
-    for RAR_FILE in "${RAR_FILES[@]}"; do
+    for RAR_FILE in "${RAR_FILES[@](/@)}"; do
       unrar x "$RAR_FILE" "$TMP_DIR"
       if [ $? -gt 0 ]; then
 		rm -f -R "$TMP_DIR"
 		echo " " >> "$LOG_FILE"
 		echo "Error : $TR_TORRENT_NAME. Will verify and restart torrent..." >> "$LOG_FILE"
 		BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
-		curl -d "email=$EMAIL" -d "&notification[from_screen_name]=TEX" -d "&notification[message]=Unrar Failed: $TR_TORRENT_NAME" "$BOXCAR"
+		curl -d "email=$EMAIL" -d "&notification[from_screen_name](/from_screen_name)=TEX" -d "&notification[message](/message)=Unrar Failed: $TR_TORRENT_NAME" "$BOXCAR"
 		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --stop
 		sleep 10s
 		transmission-remote $TR_SERVER --auth $TR_USERNAME:$TR_PASSWORD -t$TR_TORRENT_ID --verify
@@ -358,18 +355,18 @@ if [ -f "$SRC_DIR" ]; then
 fi
 
 IFS="$OLD_IFS"
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 and then run the following command:
-{{{
+```
 chmod 777 tex.sh
-}}}
+```
 ----
-'''PREPARE FLEXGET'''
+**PREPARE FLEXGET**
 
 run the following commands one after the other:
-{{{
+```
 cd ~/
 sudo apt-get install python-pip
 sudo pip install flexget
@@ -377,11 +374,11 @@ easy_install transmissionrpc
 cd .flexget
 echo "" > config.yml
 nano config.yml
-}}}
+```
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "YOUR_THETVDB_ACCOUNT_ID", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY", "YOUR_IMDB_USERNAME", "YOUR_IMDB_PASSWORD", "YOUR_IMDB_HDWATCHLIST_ID", "XXXXX" with your information.
-{{{
+**note:** replace "djnitehawk", "YOUR_PASSWORD_GOES_HERE", "YOUR_THETVDB_ACCOUNT_ID", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY", "YOUR_IMDB_USERNAME", "YOUR_IMDB_PASSWORD", "YOUR_IMDB_HDWATCHLIST_ID", "XXXXX" with your information.
+```
 templates:
   tv:
     transmission:
@@ -403,7 +400,7 @@ templates:
         thetvdb_favorites:
           account_id: YOUR_THETVDB_ACCOUNT_ID
           strip_dates: yes
-    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name]=FlexGet" -d "&notification[message]={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
+    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name](/from_screen_name)=FlexGet" -d "&notification[message](/message)={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
 
   movie:
     transmission:
@@ -416,7 +413,7 @@ templates:
     movie_queue: yes
     seen_movies: strict
     proper_movies: no
-    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name]=FlexGet" -d "&notification[message]={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
+    exec: curl -s -d "email=MY_EMAIL@EMAIL_DOMAIN.COM" -d "&notification[from_screen_name](/from_screen_name)=FlexGet" -d "&notification[message](/message)={{title}}" http://boxcar.io/devices/providers/MY_BOXCAR_API_KEY/notifications
 
 tasks:
   ipt-tv:
@@ -452,34 +449,33 @@ tasks:
       all_entries: no
     template: movie
     priority: 4
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 and then run the following command to check if the config file has any errors:
 if any errors are found, edit the config.yml again and double check your work.
-{{{
+```
 flexget --check
-}}}
+```
 ----
-'''PREPARE THE CRON SCRIPT'''
+**PREPARE THE CRON SCRIPT**
 
 first run the following command and note down the full path to the flexget binary:
-{{{
+```
 which flexget
-}}}
+```
 then run the following commands one after the other:
-{{{
+```
 cd ~/.flexget
 echo "" > cron.sh
 chmod 777 cron.sh
 nano cron.sh
-}}}
+```
 then copy and paste the following text into nano:
 
-'''note:''' replace "djnitehawk", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.[[BR]]
-'''note:''' also check if the path of the flexget binary (/usr/local/bin/flexget) is the same as the output from the "which flexget" command you ran earlier. if not, change it in the script below after pasting it into nano.
-{{{
-#!/bin/bash
+**note:** replace "djnitehawk", "MY_EMAIL@EMAIL_DOMAIN.COM", "MY_BOXCAR_API_KEY" with your information.  
+**note:** also check if the path of the flexget binary (/usr/local/bin/flexget) is the same as the output from the "which flexget" command you ran earlier. if not, change it in the script below after pasting it into nano.
+```/bin/bash
 
 EMAIL="MY_EMAIL@EMAIL_DOMAIN.COM"
 BOX_KEY="MY_BOXCAR_API_KEY"
@@ -502,7 +498,7 @@ fi
 if [ -z $T ]; then
 	echo "transmission is not running... calling dj nitehawk now..." >> $LOG
 	BOXCAR="http://boxcar.io/devices/providers/$BOX_KEY/notifications"
-	curl -d "email=$EMAIL" -d "&notification[from_screen_name]=FLEX-CRON" -d "&notification[message]=Transmission isn't running. Please restart VPS." $BOXCAR
+	curl -d "email=$EMAIL" -d "&notification[from_screen_name](/from_screen_name)=FLEX-CRON" -d "&notification[message](/message)=Transmission isn't running. Please restart VPS." $BOXCAR
 else
 	D=$(date)
 	echo "$D - running flexget cron now..." >> $LOG
@@ -511,54 +507,54 @@ else
 fi
 
 exit 0
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 then run the following command:
-{{{
+```
 crontab -e
-}}}
+```
 then copy and paste the following line (at the end) into nano:
 
-'''note:''' replace "djnitehawk" with your username.
-{{{
+**note:** replace "djnitehawk" with your username.
+```
 */30 * * * * /home/djnitehawk/.flexget/cron.sh
-}}}
+```
 save and exit nano by pressing CTRL+X and Y and enter.
 
 now run flexget manually in verbose mode to see if everything is running ok:
-{{{
+```
 flexget --verbose
-}}}
+```
 that's all you need to automate your torrents with flexget and transmission. you can keep adding new movies and tv shows to your watchlists on imdb and thetvdb sites and flexget will automatically keep an eye out for matching torrents that comes out in the future and download them for you.
 
 once transmission finishes a torrent, give a bit of time for the postprocessing script to send the extracted content to your "Ready" folder (/home/djnitehawk/Ready). you can download and remove any torrent from the "Ready" folder without having to worry about seeding the original torrent as it is a separate copy from the original torrent data. once you finish seeding a torrent in transmission, simply right click a torrent and choose "trash data and remove from list" in the webui or remote clients and your disk space will be freed up.
 
 the following section will describe how to setup an automated download manager which will grab everything from the "Ready" folder with the directory structure intact. Once a file is downloaded, it will remove the file from the VPS/SB to free up space. once, all files from the "Ready" folder are downloaded, it will clean up any empty folders from the VPS/SB also.
 ----
-'''PREPARE THE DOWNLOAD MANAGER SCRIPT'''
+**PREPARE THE DOWNLOAD MANAGER SCRIPT**
 
-the download manager setup has been moved to a separate page here: [wiki:Cookbook/Transmission/DownloadManagerSetup Download Manager Setup]
+the download manager setup has been moved to a separate page here: [Download Manager Setup](/Cookbook/Transmission/DownloadManagerSetup)
 ----
-'''MISC STUFF'''
+**MISC STUFF**
 
 if/when you get a notification saying that transmission is not running, you have to do the following to make sure you wont miss any torrents:
-{{{
+```
 1.) start the transmission daemon manually or restart the machine.
 2.) edit your config.yml and find and replace "all_entries: no" with "all_entries: yes"
 3.) run flexget once manually
 4.) undo the change u did above to your config.yml
-}}}
+```
 
 if you have a firewall enabled on your VPS/SB, make sure the following ports are open for business:
-{{{
+```
 port: 80 (web server)
 port: 54321 (transmission daemon)
 port: 12345 (transmission webui/remote/clients)
-}}}
+```
 ----
-'''FEEDBACK & SUPPORT:'''
+**FEEDBACK & SUPPORT:**
 
-if you have any questions or have any ideas to improve this recipe, please send me a message via [http://djnitehawk.com facebook] and i will try my best to get back to you. no guarantees though :-)
+if you have any questions or have any ideas to improve this recipe, please send me a message via [facebook](http://djnitehawk.com) and i will try my best to get back to you. no guarantees though :-)
 ----
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

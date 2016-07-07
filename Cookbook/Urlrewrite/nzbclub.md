@@ -1,8 +1,8 @@
-To grab a series from NZBClub.com you can use their RSS feed, but it needs some urlrewrite and the filenames are absolutely terrible by default. Requires version r1333 or newer.[[BR]]
-[[BR]]
-Here is an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1 - it's a RSS feed for everything the user teevee posted (you can create your own feed for different subjects at nzbclub.com).[[BR]]
-[[BR]]
-{{{
+To grab a series from NZBClub.com you can use their RSS feed, but it needs some urlrewrite and the filenames are absolutely terrible by default. Requires version r1333 or newer.  
+  
+Here is an example for the feed http://nzbclub.com/nzbfeed.aspx?ps=teevee&sa=1&sp=1 - it's a RSS feed for everything the user teevee posted (you can create your own feed for different subjects at nzbclub.com).  
+  
+```
 templates:
   tv:
     series:
@@ -32,9 +32,9 @@ feeds:
     # remove all crap from the title
     manipulate:                                                  
       - title:
-          extract: \[\s(.*)\s\]
+          extract: \[\s(.*)\s\](/\s(.*)\s\)
 
     # prevent content-disposition being used, causing filename to fallback to (now clean) title
     set:
       content-disposition: no
-}}}
+```

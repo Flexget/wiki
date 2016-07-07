@@ -1,6 +1,5 @@
-== Complete rTorrent example ==
-
-This is a complete example for hooking up rTorrent with !FlexGet for automatic downloads. This setup will download releases automatically and seed them until the given percentage (here 300%) and then stop seeding. This is important to keep the torrent alive but still avoid overloading your connection. If you delete the torrent from rTorrent the incomplete data is deleted and the torrent directory is cleaned.
+## Complete rTorrent example
+This is a complete example for hooking up rTorrent with FlexGet for automatic downloads. This setup will download releases automatically and seed them until the given percentage (here 300%) and then stop seeding. This is important to keep the torrent alive but still avoid overloading your connection. If you delete the torrent from rTorrent the incomplete data is deleted and the torrent directory is cleaned.
 
 For this example, we use the following setup:
  * Base directory (all other directories reside here): /srv/torrent
@@ -13,11 +12,10 @@ You need to manually create these directories.
 
 It can be tricky to get this all to work and it might be a bit complicated, but please try to understand at least a part of it before using it yourself.
 
-=== rTorrent setup ===
-
+### rTorrent setup
 This configuration assumes that you have rTorrent 0.8.x. it might work in other versions as well, but there are no guarantees. You can put this to ~/.rtorrentrc.
 
-{{{
+```
 session = /srv/torrent/session
 
 # Default directory to save the downloaded torrents.
@@ -68,13 +66,12 @@ on_erase = rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base
 # remove incomplete downloads from disk that have been deleted from rTorrent - for rtorrent above 0.8.6/12.6
 system.method.set_key = event.download.erased,rm_incomplete,"branch=d.get_custom2=,\"execute={rm,-rf,--,$d.get_base_path=}\""
 
-}}}
+```
 
-=== !FlexGet setup ===
-
+### FlexGet setup
 This configuration is just a simple example, see other recipes for more inspiration.
 
-{{{
+```
 tasks:
   debian:
     html: http://cdimage.debian.org/debian-cd/current/i386/bt-dvd/
@@ -82,35 +79,33 @@ tasks:
       accept:
         - torrent
     download: /srv/torrent/torrents
-}}}
+```
 
-=== Final steps ===
+### Final steps
+You need to setup a proper crontab entries and start rTorrent to make the magic happen. Setting up crontab is done by running the command `crontab -e` and adding this line:
 
-You need to setup a proper crontab entries and start rTorrent to make the magic happen. Setting up crontab is done by running the command {{{crontab -e}}} and adding this line:
-
-{{{
+```
 23 */2 * * * /path/to/flexget/flexget.py --cron
-}}}
+```
 
-This will cause !FlexGet to be run every second hour 23 minutes past the hour (00:23, 02:23, 04:23, 06:23 and so on), to adjust this read the crontab manual. Also please try to understand the effects of your changes and study the [wiki:Plugins/interval interval] module before you make any changes.
+This will cause FlexGet to be run every second hour 23 minutes past the hour (00:23, 02:23, 04:23, 06:23 and so on), to adjust this read the crontab manual. Also please try to understand the effects of your changes and study the [interval](/Plugins/interval) module before you make any changes.
 
 finally you need to start rTorrent:
 
-{{{
+```
 screen -dSm rtorrent rtorrent
-}}}
+```
 
 to attach the screen and check downloads:
 
-{{{
+```
 screen -r rtorrent
-}}}
+```
 
 You are all done, your downloads should start and stop automatically. All that is left for you to do is to make sure that you don't run out of disk space. 
 
-=== Further improvements ===
+### Further improvements
+[torrent_scrub](/Plugins/torrent_scrub) removes resume information from downloads that prevent the torrent from properly starting in rTorrent.
+[Plugins/rtorrent_magnet](/Plugins/rtorrent_magnet) allows saving magnet links in rTorrent format.
 
-[wiki:Plugins/torrent_scrub torrent_scrub] removes resume information from downloads that prevent the torrent from properly starting in rTorrent.
-[wiki:Plugins/rtorrent_magnet] allows saving magnet links in rTorrent format.
-
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

@@ -1,21 +1,20 @@
-=== List Match ===
-
+### List Match
 This is a filter plugin that uses a list to accept or reject generated entries.
 
-== Syntax == 
-{{{
+## Syntax
+```
 list_match:
   from:
     - <list_type>: <list_name>
-  [action]: [*accept*|reject]
-  [remove_on_match]: [*yes*|no]
-  [single_match]: [*yes*|no]
-}}}
+  [action](/action): [*accept*|reject](/*accept*|reject)
+  [remove_on_match](/remove_on_match): [*yes*|no](/*yes*|no)
+  [single_match](/single_match): [*yes*|no](/*yes*|no)
+```
 
 Default are marked with `*`.
 
 By default, `list_match` will accept the first entry it sees from the list, so if there are multiple potential matches, only the first one will be used:
-{{{
+```
 discover:
   interval: 3 hour
     what:
@@ -28,10 +27,10 @@ list_match:
   from:
     - movie_list: Looking
 download: /downloads/
-}}}
+```
 
 If you wish to match **ALL** entries and not just the first one, use the `single_match: no` option:
-{{{
+```
 rss: some_feed...
 list_match:
   from:
@@ -41,10 +40,10 @@ list_match:
         type: movies
   single_match: no
 download: /downloads/
-}}}
+```
 
 All accepted entries are delete from list when task completes. To disable this, use the `remove_on_match: no` option:
-{{{
+```
 rss: some_feed...
 list_match:
   from:
@@ -55,10 +54,10 @@ list_match:
   single_match: no
   remove_on_match: no
 download: /downloads/
-}}}
+```
 
 If you wish to reject entries based on a list, as opposed to accept, use `action: reject`:
-{{{
+```
 rss: some_feed...
 list_match:
   from:
@@ -68,4 +67,4 @@ list_match:
         type: movies
   action: reject
 download: /downloads/
-}}}
+```

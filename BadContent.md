@@ -1,6 +1,6 @@
 Damn spammers ...
 
-{{{
+```
 (?i)diethylpropion
 (?i)zelgetbasli
 (?i)leddisplay
@@ -63,7 +63,7 @@ andreaskapsalis
 (?i)casino
 ^this site rocks!$
 ^Great web site$
-^I[st] very interesting$
+^I[st](/st) very interesting$
 ^Interesting site$
 ^Great work on website.$
 ^Very useful$
@@ -71,7 +71,7 @@ andreaskapsalis
 archy it i
 Real Estate
 Soft toys
-[Rr]olex
+[Rr](/Rr)olex
 debtconsolidation
 good job up
 NokiyaUp
@@ -367,4 +367,4 @@ pharmacy
 (?i)robo.?call
 (?i)contact.?lens
 (?i)e.?commerce
-}}}
+```

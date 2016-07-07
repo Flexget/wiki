@@ -20,7 +20,7 @@ Each party to its renaming files of the form (TvShowsName - SXXEXX - Quality).
 Each party moves files ending in a shape file (VotreChemin/TvShowsName/SXX/).
 The movie part move the finish file in to a folder.
 
-{{{
+```
 #Envois de mail lorsqu'un fichier est téléchargé
 ﻿email:
   from: xx.xx@gmail.com
@@ -230,7 +230,7 @@ tasks:
               - VOSTFR
               - HDrip 1080
               - HDrip 720
-}}}
+```
 
 
 PS : Je tiens à remercier olygraph2, lildadou3 et jonybat pour leurs aides

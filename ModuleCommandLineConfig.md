@@ -1,3 +1,2 @@
-= removed =
-
-Go to [wiki:ModuleCommandlineConfig here]
+# removed
+Go to [here](/ModuleCommandlineConfig)

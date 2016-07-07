@@ -1,9 +1,8 @@
-== Download series with transmission (advanced) ==
+## Download series with transmission (advanced)
 
 
-
-'''config.yml''' - template section:
-{{{
+**config.yml** - template section:
+```
 templates:
   global:
     # configuration of email parameters
@@ -37,7 +36,7 @@ templates:
     # -> connected or mounted to my system, but I will check them with the plugin exists_series.
     # -> So I used the plugin adv_exec to execute a shell script which manages my volumes.
     # -> The script creates symbolic links for each "real" volume and creates "fake" folders 
-    # -> for each missed volume in ~/.flexget/exists_series/folder[0|1|2|...]
+    # -> for each missed volume in ~/.flexget/exists_series/folder[0|1|2|...](/0|1|2|...)
     adv_exec:
       on_start:
         event: /Users/flexget/.flexget/manage_exists_series.sh
@@ -71,13 +70,13 @@ templates:
     # -> I don't need the 720p files > 1 GB in size
     # -> so I defined HDTV <720p as my preferred quality
     quality: hdtv <720p
-}}}
+```
 
-'''config.yml''' - feeds section:
+**config.yml** - feeds section:
 
-Thanks to user gazpachoking and his patch in r1367 we can now use [wiki:Plugins/set Plugin/set] to set the path for each entry in feed manage-series and manage-series-remote.
+Thanks to user gazpachoking and his patch in r1367 we can now use [Plugin/set](/Plugins/set) to set the path for each entry in feed manage-series and manage-series-remote.
 
-{{{
+```
 feeds:
   EZTV:
     rss: <feed url>
@@ -133,7 +132,7 @@ feeds:
       - /Volumes/media.video/TV-Series/_complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
-    disable_builtins: [seen]
+    disable_builtins: [seen](/seen)
     # the same list of series like in the tv template section
     series:
       - Caprica
@@ -180,7 +179,7 @@ feeds:
       - /Users/flexget/Downloads/_Torrents/complete/
     # the series plugin rejected every item that was seen before
     # so we must disable the builtin seen functions
-    disable_builtins: [seen]
+    disable_builtins: [seen](/seen)
     # the same list of series like in the tv template section
     series:
       - Caprica
@@ -210,18 +209,17 @@ feeds:
     # please send no email with the result so deactivate this function from the template
     email:
       active: False
-}}}
+```
 
-Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/email email], [wiki:Plugins/transmission transmission], [wiki:Plugins/adv_exec adv_exec], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/series series], [wiki:Plugins/quality quality], [wiki:Plugins/html html], [wiki:Plugins/rss rss], [wiki:Plugins/filesystem filesystem], [wiki:Plugins/manipulate manipulate]
+Uses plugins: [template](/Plugins/template), [email](/Plugins/email), [transmission](/Plugins/transmission), [adv_exec](/Plugins/adv_exec), [exists_series](/Plugins/exists_series), [series](/Plugins/series), [quality](/Plugins/quality), [html](/Plugins/html), [rss](/Plugins/rss), [filesystem](/Plugins/filesystem), [manipulate](/Plugins/manipulate)
 
-[wiki:Cookbook/Series Back to The Cookbook/Series]
+[Back to The Cookbook/Series](/Cookbook/Series)
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)
 
-== referenced helper script(s) in config.yml ==
-'''manage_exists_series.sh''':
-{{{
-#!/bin/sh
+## referenced helper script(s) in config.yml
+**manage_exists_series.sh**:
+```/bin/sh
 
 EXISTS_SERIES="/Users/flexget/.flexget/exists_series"
 VOLUMES=(
@@ -233,16 +231,16 @@ VOLUMES=(
 rm -rf "$EXISTS_SERIES/"
 mkdir -p "$EXISTS_SERIES/"
 
-for i in ${!VOLUMES[@]}; do
-    VOLUME=${VOLUMES[$i]}
+for i in ${!VOLUMES[@](/@)}; do
+    VOLUME=${VOLUMES[$i](/$i)}
     if [ -d "$VOLUME" ]; then
         ln -s "$VOLUME" "$EXISTS_SERIES/folder$i"
     else
         mkdir -p "$EXISTS_SERIES/folder$i"
     fi
 done
-}}}
+```
 
-[wiki:Cookbook/Series Back to The Cookbook/Series]
+[Back to The Cookbook/Series](/Cookbook/Series)
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

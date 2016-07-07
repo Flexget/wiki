@@ -1,1 +1,1 @@
-See [wiki:"Plugins/sceper"].
+See ["Plugins/sceper"](/"Plugins/sceper").

@@ -1,12 +1,10 @@
-{{{
-#!html
+
 <h1 style="color: red">To be removed</h1>
-}}}
 
-See module [wiki:FilterRegexp regexp]
 
-= Ignore =
+See module [regexp](/FilterRegexp)
 
+# Ignore
 Entries matching regexp will be rejected.
 Non matching entries are not intervened.
         
@@ -15,7 +13,7 @@ globally by using global section.
 
 Example:
 
-{{{
+```
 global:
   ignore:
     - pattern 1
@@ -27,9 +25,9 @@ feeds:
   feed B:
     patterns:
       - pattern 3
-}}}
+```
 
 Entries containing pattern 1 are not downloaded even if they also
 match to patterns 2, 3 or pass any other feed filters.
 
-Supports same syntax as [wiki:FilterPatterns patterns].
+Supports same syntax as [patterns](/FilterPatterns).

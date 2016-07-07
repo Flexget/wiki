@@ -1,37 +1,34 @@
-= Discover =
-
+# Discover
 Creates entries based on search results. Queries are produced based on another input plugin(s).
 
-== Config Format ==
-
-{{{
+## Config Format
+```
 discover:
   what:
     - <input plugin config>
   from:
     - <search plugin>
-  [limit]: <max results from each search engine>
-  [interval]: <time between trying each search again. Default is 5 hours>
-  [release_estimations]: <Can be `auto`, `strict` or `ignore`. If set to `ignore`, no release date checking will be attempted. If set to `strict`, will reject all episodes without air dates. Default is `auto`, which will check all episodes for air dates, but won't reject those with missing air dates. >
-}}}
+  [limit](/limit): <max results from each search engine>
+  [interval](/interval): <time between trying each search again. Default is 5 hours>
+  [release_estimations](/release_estimations): <Can be `auto`, `strict` or `ignore`. If set to `ignore`, no release date checking will be attempted. If set to `strict`, will reject all episodes without air dates. Default is `auto`, which will check all episodes for air dates, but won't reject those with missing air dates. >
+```
 
-An overview of available search plugins can be found [wiki:Searches here]. For a list of installed search plugins run "flexget --search-plugins" (`flexget plugins --group search` on Flexget>=1.2) from the cli.
+An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins run "flexget --search-plugins" (`flexget plugins --group search` on Flexget>=1.2) from the cli.
 
-=== Example: Input configs ===
-
+### Example: Input configs
 It's advised to have inputs queued to series list then:
 
-{{{
+```
 discover:
       what:
         - next_series_episodes: yes
       from:
         ...
-}}}
+```
 
 It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
 
-{{{
+```
 discover:
       what:
         - imdb_list:
@@ -44,13 +41,12 @@ discover:
         - movie_list: listname
       from:
         ...
-}}}
+```
 
-=== Example: Search movie list ===
+### Example: Search movie list
+This example would produce results from the torrentz search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin.
 
-This example would produce results from the torrentz search engine based on the movies in the list "wanted_movies" in the [wiki:Plugins/List/movie_list movie_list] plugin.
-
-{{{
+```
 discover:
   what:
     - movie_list: wanted_movies
@@ -63,5 +59,5 @@ discover:
         sort_by: seeds
     - torrentz: verified
   interval: 1 day
-}}}
-Be aware, that discover plugin just produces entries, if you want movies accepted you must still also include the [wiki:Plugins/List/list_match list_match] plugin in your task.
+```
+Be aware, that discover plugin just produces entries, if you want movies accepted you must still also include the [list_match](/Plugins/List/list_match) plugin in your task.

@@ -1,4 +1,4 @@
-= Adding a typing system to entries =
+# Adding a typing system to entries
 Just some brainstorming, I'm thinking about adding a new system to entries, where it can declare what type of content it represents. Don't have all my ideas together yet, so this is super drafty.
 
 Motivations:
@@ -8,15 +8,17 @@ Motivations:
 - fields like imdb_id may refer to many different things, in the past many plugins assumed this meant the entry was a movie
 - url is a mandatory field, but we have several types of tasks that deal with non-downloadable things now. We make up somewhat useless urls for that stuff now, that should never be downloaded. (but things like urlrewrite still try to run, even when the url is an imdb or trakt one, or a made up local one from mock plugin)
 
-=== Idea 1: field promises ===
+### Idea 1: field promises
 Have a system where entries can be tagged with one or more types. Plugins often only want to operate on a certain type of entry. Being tagged with a type would imply that it has one or more fields available, for example:
-||= Type =||= implied fields =||
-||download||url||
-||show||series_name||
-||episode||series_name, series_id||
-||movie||movie_name||
-||torrent||url, torrent||
-||file||location||
+
+|  Type  |  implied fields  |
+| --- | --- |
+| download | url |
+| show | series_name |
+| episode | series_name, series_id |
+| movie | movie_name |
+| torrent | url, torrent |
+| file | location |
 Issues:
 - We'd probably want things like movie_year, but we might want to tag something as a movie even though we don't know the year, so we can't really promise that, but it would be nice to somehow have a more enforceable standard for plugins wanting to read/set that
 - episodes can have multiple different numbering schemes, I put series_id as a required field, but what about things like series_season, and series_episode, which wouldn't exist for a dated episode

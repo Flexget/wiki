@@ -1,9 +1,8 @@
-=== List Add ===
-
-This plugin is a [wiki:Plugins/List/ list_interface] plugin.
+### List Add
+This plugin is a [list_interface](/Plugins/List/) plugin.
 
 List plugins can have entries added to them by using the `list_add` plugin:
-{{{
+```
 trakt_list:
   username: traktusername
   list: watchlist
@@ -14,4 +13,4 @@ list_add:
       username: a_different_username
       list: watchlist
       type: movies
-}}}
+```

@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/next_trakt_episodes next_trakt_episodes]
+Renamed [next_trakt_episodes](/Plugins/next_trakt_episodes)

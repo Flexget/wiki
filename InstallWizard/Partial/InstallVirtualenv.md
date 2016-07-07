@@ -1,26 +1,24 @@
-=== Install !FlexGet in the virtualenv ===
-
-{{{
+### Install FlexGet in the virtualenv
+```
 cd ~/flexget
 bin/pip install flexget
-}}}
+```
 
 (If your virtualenv does not include pip, run `bin/easy_install pip` first.)
 
-This will install !FlexGet and all the required dependencies.
+This will install FlexGet and all the required dependencies.
 
-=== Running !FlexGet from the virtualenv ===
-
+### Running FlexGet from the virtualenv
 You can either activate the virtualenv with the command:
 
-{{{
+```
 source ~/flexget/bin/activate
-}}}
+```
 
 After that command `flexget` works from anywhere. Or you can run it via:
 
-{{{
-~/flexget/bin/flexget [options]
-}}}
+```
+~/flexget/bin/flexget [options](/options)
+```
 
 Also use remember to use this explicit path for any crontab, daemon, or other cli executions!

@@ -1,8 +1,7 @@
-== Still confused about Yaml? ==
+## Still confused about Yaml?
+Please note that each indentation level must be precisely **2 spaces**. Tabs are forbidden for indentation. Why are indentation even required in Yaml? It is used for semantics or **relation**. Consider example:
 
-Please note that each indentation level must be precisely '''2 spaces'''. Tabs are forbidden for indentation. Why are indentation even required in Yaml? It is used for semantics or '''relation'''. Consider example:
-
-{{{
+```
 pets:
   cat:
     name: furry
@@ -13,23 +12,23 @@ pets:
     toys:
       - bone
       - ball
-}}}
+```
 
 Here we have two pets, cat and dog. Each of them has name, and age. Dog has list of toys. If we were to use more conventional configuration file format it would be much messier to represent complex relations.
 
 Some other configuration files might represent previous example in following form:
 
-{{{
+```
 pets.cat.name=furry
 pets.cat.age=5
 pets.dog.name=barky
 pets.dog.age=2
 pets.dog.toys=bone, ball
-}}}
+```
 
 But consider more complex situation ...
 
-{{{
+```
 pets:
   dog:
     name: barky
@@ -43,6 +42,6 @@ pets:
             length: 10cm
             height: 2cm
           taste: chicken
-}}}
+```
 
 And you have nice mess in your hands ...

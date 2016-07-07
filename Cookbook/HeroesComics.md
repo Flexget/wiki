@@ -1,8 +1,7 @@
-= Download Heroes comics =
+# Download Heroes comics
+Download all/new heroes comics from [nbc.com](http://nbc.com/Heroes). This uses advanced text-parsing plugin and does not represent accurately average usage.
 
-Download all/new heroes comics from [http://nbc.com/Heroes nbc.com]. This uses advanced text-parsing plugin and does not represent accurately average usage.
-
-{{{
+```
 feeds:
   heroes:
     interval: 6 hours
@@ -14,8 +13,8 @@ feeds:
       format:
         url: http://www.nbc.com%(url)s
     download: ~/heroes/
-}}}
+```
 
-Uses plugins: [wiki:Plugins/interval interval], [wiki:Plugins/text text], [wiki:Plugins/download download]
+Uses plugins: [interval](/Plugins/interval), [text](/Plugins/text), [download](/Plugins/download)
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

@@ -1,6 +1,5 @@
-= Movedone groups =
-
-{{{
+# Movedone groups
+```
 series:
   settings:
     group a:
@@ -14,7 +13,7 @@ series:
   group b:
     - series 3
     - series 4
-}}}
+```
 
 You can use this in feed or preset
 

@@ -1,14 +1,14 @@
-= IPTorrents =
-This search plugin will get results from [http://iptorrents.com]
+# IPTorrents
+This search plugin will get results from [http://iptorrents.com](/http://iptorrents.com)
 
-== Configuration ==
+## Configuration
 Configuration requires rss_key, uid, and pass (see below):
-{{{
+```
 iptorrents: 
   rss_key: xxxxxxxxxxxxxxxxxxxx
   uid: xxxxx
   password: xxxxxxxxx
-}}}
+```
 If you would like to define a custom category, you can use the following option:
  category::
  Can be one of the following: \\
@@ -16,7 +16,7 @@ If you would like to define a custom category, you can use the following option:
  You can also specify the category number directly from iptorrents if it is not listed above. \\
  
 Example:
-{{{
+```
 iptorrents: 
   rss_key: xxxxxxxxxxxxxxxxxxxx
   uid: xxxxxx
@@ -25,28 +25,28 @@ iptorrents:
     - Movie-HD-Bluray
     - Movie-MP4
     - 22
-}}}
+```
 
 == Location of rss_key,uid, password== 
 
-rss_key can be found under "Passkey" in the IPTorrents account page:[[BR]]
+rss_key can be found under "Passkey" in the IPTorrents account page:  
 
-[[Image(http://i.imgur.com/XinVDly.jpg)]]
+<img src="http://i.imgur.com/XinVDly.jpg">
 
-[[BR]]
+  
 
-Both the uid and the password are located inside the IPtorrent cookie. To view it in the Chrome browser, first navigate to [http://iptorrents.com] and login.
-Open Chrome options -> More Tools -> Developer Tools (Or press Ctrl+Shift+I)[[BR]]
+Both the uid and the password are located inside the IPtorrent cookie. To view it in the Chrome browser, first navigate to [http://iptorrents.com](/http://iptorrents.com) and login.
+Open Chrome options -> More Tools -> Developer Tools (Or press Ctrl+Shift+I)  
 
-[[Image(http://i.imgur.com/qzlrjA9.jpg)]][[BR]]
+<img src="http://i.imgur.com/qzlrjA9.jpg">  
 
-Choose 'Resources' in the newly open tab[[BR]]
+Choose 'Resources' in the newly open tab  
 
-[[Image(http://i.imgur.com/jNFu4Cq.jpg)]][[BR]]
+<img src="http://i.imgur.com/jNFu4Cq.jpg">  
 
 Navigate to IPTorrens under Cookies, uid and password are listed there.
-[[BR]]
+  
 
-[[Image(http://i.imgur.com/45WW0Ok.jpg)]]
+<img src="http://i.imgur.com/45WW0Ok.jpg">
 
-[[BR]]
+  

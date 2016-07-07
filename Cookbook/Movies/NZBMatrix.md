@@ -1,11 +1,10 @@
-== Download movies from NZBMatrix using IMDB filtering and SABnzbd over Usenet ==
-
+## Download movies from NZBMatrix using IMDB filtering and SABnzbd over Usenet
 ----
 
-=== Input: NZBMatrix RSS Feed ===
-This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requires a VIP account with them. In this case, I am pulling all english HD x264 encoded movies. You can create your own [http://rss.nzbmatrix.com/ personalized RSS feed] for other categories as well. 
+### Input: NZBMatrix RSS Feed
+This starts with an RSS feed from [NZBMatrix](http://nzbmatrix.com), which requires a VIP account with them. In this case, I am pulling all english HD x264 encoded movies. You can create your own [personalized RSS feed](http://rss.nzbmatrix.com/) for other categories as well. 
 
-=== Filters ===
+### Filters
 [[Plugins/content_size|content_size]]: is probably not needed, but can be used to reject movies with file size that are obviously too big or small (# is in MB). 
 
 [[Plugins/quality|quality]]: allows controls what quality of movie you want. Here I indicate 720p.
@@ -20,15 +19,14 @@ This starts with an RSS feed from [http://nzbmatrix.com NZBMatrix], which requir
 
 [[Plugins/seen_movies|seen_movies]]: rejects movies that have already been downloaded but might be from a different group/release
 
-=== Download: SABnzbd ===
-Finally any movies that make it through all filtering is then downloaded with [http://sabnzbd.org/ SABnzbd].
+### Download: SABnzbd
+Finally any movies that make it through all filtering is then downloaded with [SABnzbd](http://sabnzbd.org/).
 
 [[Plugins/sabnzbd|SABnzbd plugin]] requires key and url whereas the category field is optional. 
 
 
-=== config.yml ===
-
-{{{
+### config.yml
+```
 feeds:
   nzbmatrix:
     rss: http://rss.nzbmatrix.com/rss.php?page=download&username=<username>&apikey=<your ip key>&subcat=42&english=1&ssl=1
@@ -51,4 +49,4 @@ feeds:
       url: http://<your ip>/sabnzbd/api?
       category: movies
 
-}}}
+```

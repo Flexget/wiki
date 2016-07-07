@@ -1,1 +1,1 @@
-Removed, see [wiki:Entry]
+Removed, see [Entry](/Entry)

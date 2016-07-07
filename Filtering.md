@@ -1,9 +1,7 @@
-= Filtering =
+# Filtering
+All plugins may do following operations to [entry](/Entry).
 
-All plugins may do following operations to [wiki:Entry entry].
 
-{{{
-#!html
 <table class="wiki">
 <tr>
   <td><strong>Operation</strong></td>
@@ -19,6 +17,9 @@ All plugins may do following operations to [wiki:Entry entry].
   <td>Entry is not marked to any category <i>(default)</i></td>
 </tr>
 </table>
-}}}
 
-[[Image(filtering.png)]]
+
+<img src="/attachments/Filtering/filtering.png">
+
+### Attachments
+* [filtering.png](/attachments/Filtering/filtering.png)

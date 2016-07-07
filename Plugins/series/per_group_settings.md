@@ -1,20 +1,19 @@
-== Group settings ==
-
+## Group settings
 Many times, you will want to apply a setting to more than one show at once. In this instance, you can use a more advanced config format, to define groups, and settings that apply to the whole group.
 
-{{{
+```
 series:
-  [settings]:
+  [settings](/settings):
     [group name]:
-      [setting]: [value]
+      [setting](/setting): [value](/value)
   [group name]:
     - first series
     - second series
-}}}
+```
 
-An example, setting [wiki:Plugins/series/propers propers] for ''group 1'':
+An example, setting [propers](/Plugins/series/propers) for *group 1*:
 
-{{{
+```
 series:
   settings:
     group 1:
@@ -28,13 +27,13 @@ series:
         quality: 1080p
   normal:
     - Series 5
-}}}
+```
 
 Notes:
 
- * The names of the groups are arbitrary, so you can pick whatever you want.[[BR]]
- In this example ''normal'' is just a group without any options.
- * If a group name is a [wiki:Qualities#Requirements quality requirement], it will automatically have that as a quality.[[BR]]
- In this example ''Series 3'' has it's quality set to 720p, because 720p is a valid quality requirement.
- * Series may override any settings specified in group settings.[[BR]]
- In this example ''Series 4'' overrides the quality setting of it's group with 1080p.
+ * The names of the groups are arbitrary, so you can pick whatever you want.  
+ In this example *normal* is just a group without any options.
+ * If a group name is a [quality requirement](/Qualities#Requirements), it will automatically have that as a quality.  
+ In this example *Series 3* has it's quality set to 720p, because 720p is a valid quality requirement.
+ * Series may override any settings specified in group settings.  
+ In this example *Series 4* overrides the quality setting of it's group with 1080p.

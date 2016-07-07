@@ -1,5 +1,5 @@
-= Transfer torrents in transmission to deluge =
-{{{Note:}}} This has not been tested, if somebody tests it, please report results and fix the recipe with needed updates.
+# Transfer torrents in transmission to deluge
+`Note:` This has not been tested, if somebody tests it, please report results and fix the recipe with needed updates.
 
 {{{
 tasks:

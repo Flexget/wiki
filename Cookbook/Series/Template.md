@@ -1,8 +1,7 @@
-= Manage series easier with a template =
+# Manage series easier with a template
+With [template](/Plugins/template) plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [template](/Plugins/template) documentation for more tips.
 
-With [wiki:Plugins/template template] plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [wiki:Plugins/template template] documentation for more tips.
-
-{{{
+```
 templates:
   tv:
     download: ~/torrents/series/
@@ -19,8 +18,8 @@ tasks:
   another feed:
     rss: http://foobar.com/
     template: tv
-}}}  
+```  
 
-Uses plugins: [wiki:Plugins/template template], [wiki:Plugins/rss RSS], [wiki:Plugins/series series], [wiki:Plugins/exists_series exists_series], [wiki:Plugins/download download]
+Uses plugins: [template](/Plugins/template), [RSS](/Plugins/rss), [series](/Plugins/series), [exists_series](/Plugins/exists_series), [download](/Plugins/download)
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

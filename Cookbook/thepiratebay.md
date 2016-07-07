@@ -1,10 +1,9 @@
-= Download From The Pirate Bay =
-
+# Download From The Pirate Bay
 The default handling of magnet links with the html plugin tries to generate a title from
 the url, but sometimes results in duplicates. The following extracts the title from the dn=
 field, which is more readable and reliable.
 
-{{{
+```
 tasks:
   thepiratebay:
     html:
@@ -14,12 +13,12 @@ tasks:
     manipulate:
       - title:
           from: url
-          extract: '&dn=([^&]+)'
+          extract: '&dn=([^&](/^&)+)'
     accept_all: yes
     transmission: yes
     archive: yes
-}}}
+```
 
-Uses [wiki:Plugins/manipulate], [wiki:Plugins/html]
+Uses [Plugins/manipulate](/Plugins/manipulate), [Plugins/html](/Plugins/html)
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

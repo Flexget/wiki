@@ -1,46 +1,41 @@
-{{{
-#!html
+
 <h2 style="text-align: left; color: #000">Chat and Support</h2>
-}}}
 
-Join us for chat and discussions via [https://gitter.im/Flexget/Flexget FlexGet @ Gitter] or [http://webchat.freenode.net/?channels=#flexget FlexGet @ Freenode]
 
-For support and help use the [http://discuss.flexget.com Flexget Forums]
+Join us for chat and discussions via [FlexGet @ Gitter](https://gitter.im/Flexget/Flexget) or [FlexGet @ Freenode](http://webchat.freenode.net/?channels=#flexget)
 
-For bugs open a [https://github.com/Flexget/Flexget/issues Github Issue]
+For support and help use the [Flexget Forums](http://discuss.flexget.com)
+
+For bugs open a [Github Issue](https://github.com/Flexget/Flexget/issues)
 
 We have turned up some of the spam controls. Please notify us in IRC if you are having problems registering or editing wiki.
 
-As we are always trying to update and expand the features of !FlexGet, please refer to '''[wiki:UpgradeActions]''' for '''relevant information''' and '''configuration changes''' before upgrading your installation. 
+As we are always trying to update and expand the features of FlexGet, please refer to **[UpgradeActions](/UpgradeActions)** for **relevant information** and **configuration changes** before upgrading your installation. 
 
 
-== Important pages ==
-
- * '''[wiki:Install Installation guide]'''
-   * [wiki:Upgrade Upgrading]
-     * [wiki:UpgradeActions Configuration changes]
- * '''[wiki:Configuration]'''
-   * [wiki:PitFalls Common pitfalls]
- * '''[wiki:Cookbook The Cookbook]'''
- * '''[wiki:Developers Developers]'''
- * '''[wiki:Plugins Plugins]'''
- * '''[http://discuss.flexget.com Forum]'''
- * '''[wiki:ChangeLog Change Log]'''
-
-
-== Description ==
-
-!FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [wiki:Plugins/rss RSS-feeds], [wiki:Plugins/html html pages], [wiki:Plugins/csv csv files], search engines and there are even plugins for sites that do not provide any kind of useful feeds.
-
-There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in interesting ways and more are being added continuously.
-
-!FlexGet is extremely useful in conjunction with applications which have [wiki:WatchDirectory watch directory] support or provide interface for external utilities like !FlexGet.
+## Important pages
+ * **[Installation guide](/Install)**
+   * [Upgrading](/Upgrade)
+     * [Configuration changes](/UpgradeActions)
+ * **[Configuration](/Configuration)**
+   * [Common pitfalls](/PitFalls)
+ * **[The Cookbook](/Cookbook)**
+ * **[Developers](/Developers)**
+ * **[Plugins](/Plugins)**
+ * **[Forum](http://discuss.flexget.com)**
+ * **[Change Log](/ChangeLog)**
 
 
-== Feature highlights ==
+## Description
+FlexGet is a multipurpose automation tool for content like torrents, nzbs, podcasts, comics, series, movies, etc. It can use different kinds of sources like [RSS-feeds](/Plugins/rss), [html pages](/Plugins/html), [csv files](/Plugins/csv), search engines and there are even plugins for sites that do not provide any kind of useful feeds.
 
-{{{
-#!html
+There are numerous [plugins](/Plugins) that allow utilizing FlexGet in interesting ways and more are being added continuously.
+
+FlexGet is extremely useful in conjunction with applications which have [watch directory](/WatchDirectory) support or provide interface for external utilities like FlexGet.
+
+
+## Feature highlights
+
 <ul id="features">
   <li>
     <h4>Daemon Mode</h4>
@@ -92,20 +87,19 @@ There are numerous [wiki:Plugins plugins] that allow utilizing !FlexGet in inter
   </li>
 </ul>
 <div style="clear:left;"/>
-}}}
 
 
-== How easy is it to use? ==
 
-Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental [wiki:Web-UI] coming along (slowly).
+## How easy is it to use?
+Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental [Web-UI](/Web-UI) coming along (slowly).
 
-!FlexGet uses [http://en.wikipedia.org/wiki/YAML YAML] for configuration. This may be confusing (for new users) at first but don't be scared, !FlexGet is equipped with validator that tries to guide you if you make mistakes.
+FlexGet uses [YAML](http://en.wikipedia.org/wiki/YAML) for configuration. This may be confusing (for new users) at first but don't be scared, FlexGet is equipped with validator that tries to guide you if you make mistakes.
 
-'''Configuration example:''' 
+**Configuration example:** 
 
 This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.
 
-{{{
+```
 tasks:
   task name:
     rss: http://example.com/torrents.xml
@@ -113,21 +107,19 @@ tasks:
       - pioneer one
       - some series
     download: ~/torrents/series/
-}}}
+```
 
-This example would download new episodes of `pioneer one` and `some series` to {{{~/series}}} using [wiki:Plugins/series series] plugin.
+This example would download new episodes of `pioneer one` and `some series` to `~/series` using [series](/Plugins/series) plugin.
 
-You can find more configuration examples in [wiki:Cookbook The Cookbook].
+You can find more configuration examples in [The Cookbook](/Cookbook).
 
-For more information about how !FlexGet works, check available [wiki:Plugins plugins] or detailed [wiki:Configuration configuration].
+For more information about how FlexGet works, check available [plugins](/Plugins) or detailed [configuration](/Configuration).
 
 
-== Developers wanted ==
+## Developers wanted
+We're seeking new developers for [web interface](/Web-UI). Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
 
-We're seeking new developers for [wiki:Web-UI web interface]. Python, Javascript and jQuery developers are all needed. Join the IRC-channel if you're up for the task.
+## Donate
+We appreciate any donations towards hosting costs and development of FlexGet.
 
-== Donate ==
-
-We appreciate any donations towards hosting costs and development of !FlexGet.
-
-[[Image(https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg, link=https://gratipay.com/flexget)]]
+<img src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg, link=https://gratipay.com/flexget">

@@ -1,3 +1,2 @@
-= Oops, page moved =
-
-See [wiki:UpgradeActions upgrade actions] instead
+# Oops, page moved
+See [upgrade actions](/UpgradeActions) instead

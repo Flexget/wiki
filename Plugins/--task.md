@@ -1,1 +1,1 @@
-See [wiki:"Plugins/--tasks"].
+See ["Plugins/--tasks"](/"Plugins/--tasks").

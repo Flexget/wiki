@@ -1,1 +1,1 @@
-Deprecated, use [wiki:Plugins/List/list_match list_match] instead.
+Deprecated, use [list_match](/Plugins/List/list_match) instead.

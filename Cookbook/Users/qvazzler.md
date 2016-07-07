@@ -1,34 +1,33 @@
-'''Note:''' If you are using the season pack config along with any regular config, it is important that you run the trakt scrobbler either via Plex or Kodi to update your collection. Without the scrobbler you'll see some wonky behaviour since the season pack downloader will bump up your owned episodes in series, causing the regular config to expect to download an episode you actually already have thanks to the other config.
+**Note:** If you are using the season pack config along with any regular config, it is important that you run the trakt scrobbler either via Plex or Kodi to update your collection. Without the scrobbler you'll see some wonky behaviour since the season pack downloader will bump up your owned episodes in series, causing the regular config to expect to download an episode you actually already have thanks to the other config.
 
-== Intro ==
-
+## Intro
 Many private trackers have a rule that when a season is finished, all episodes are removed from it, and a season pack is created, often in a separate category like "Archive".
 This config effectively downloads all season packs of a show you are following.
 
-'''Pros:'''
+**Pros:**
 
 + Makes you able to watch a new show that already has a few seasons out, _without_ manually downloading the first couple of seasons.
 
 + Uses trakt.tv where you can add things you want to watch to your watchlist with ONE click. No more setting up RSS feeds and so on.
 
-'''Cons:'''
+**Cons:**
 
 -- Will always download season packs even if your other config has already downloaded all of the episodes in that season. (On the upside, most season packs are freeleech, so no real harm except bandwidth)
 
--- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter '''-c seasonpack.config.yml''' so it is 100% sure to use its own db.
+-- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter **-c seasonpack.config.yml** so it is 100% sure to use its own db.
 
 -- Config is part of a larger solution. You will have to adjust things to suit your solution. (ex: Scrobbler needed for Season pack config)
 
 -- Season pack config probably will not work if you are searching in a category that contains both Season packs and regular episodes. You'll have to play with the content filter or something like that.
 
-== How does it work? == 
+## How does it work?
 
 The config retrieves whatever TV Show is on your watchlist, and searches on torrent sites for <Name> <Season Number>. Example: Arrow 01
 
 As the titles are being manipulated from trakt.tv to remove all episode information, it becomes a "hack" for how to download season packs instead. (from Arrow S02E01 to Arrow 02)
 
-== The Season Packs Config using Trakt.tv ==
-{{{
+## The Season Packs Config using Trakt.tv
+```
 secrets: secrets.yml
 
 # Things that need to be executed as command to new config db
@@ -37,7 +36,7 @@ secrets: secrets.yml
 # run with for example this command : "flexget -c config.yml -l logs/flexget.log -L debug daemon start --daemonize"
 
 schedules:
-  - tasks: [get_series_packs]
+  - tasks: [get_series_packs](/get_series_packs)
     interval:
       hours: 1
 
@@ -61,7 +60,7 @@ tasks:
       min: 1000
     regexp:
       reject:
-        - \.[sS]\d\d[eE]\d\d\.
+        - \.[sS](/sS)\d\d[eE](/eE)\d\d\.
     configure_series:
       from:
         trakt_list:
@@ -74,16 +73,16 @@ tasks:
         timeframe: 2 hours
         target: 720p hdtv
         identified_by: sequence
-        sequence_regexp: \b[S][0]?(\d+)\b
+        sequence_regexp: \b[S](/S)[0](/0)?(\d+)\b
         exact: yes
     manipulate:
       - title:
           replace:
-            regexp: '(?<=\.[Ss]\d\d)[eE]01(?=\.)' # Remove E01 from each episode and turn it into a "Season entry"
+            regexp: '(?<=\.[Ss](/Ss)\d\d)[eE](/eE)01(?=\.)' # Remove E01 from each episode and turn it into a "Season entry"
             format: ''
       - title:
           replace:
-            regexp: '.*([eE]0[^1]).*|.*[eE]([1-9]\d).*' # Remove any entry that is not the first episode of a season
+            regexp: '.*([eE](/eE)0[^1](/^1)).*|.*[eE](/eE)([1-9](/1-9)\d).*' # Remove any entry that is not the first episode of a season
             format: ''
     discover:
       what:
@@ -100,21 +99,20 @@ tasks:
                 - TV/Packs
     template:
       - transmit-series
-}}}
+```
 
 Notes about the packs config:
 - It is important that you are using a private tracker with good torrent structure. Using a public tracker like piratebay is _most likely_ going to cause problems.
 - You'll need to create a secrets.yml file alongside this config.
-[[BR]]
-[[BR]]
-[[BR]]
+  
+  
+  
 
-== If you want a decent episode and movie downloading config to go alongside this, please use the below which features: ==
-
+## If you want a decent episode and movie downloading config to go alongside this, please use the below which features:
 - Runs as a daemon. Execute it with 
-{{{
+```
 flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize
-}}}
+```
 
 - Retrieving movies/shows from the trakt watchlist and putting them in a seperate list so they won't disappear (meaning you only ever have to add shows to the watchlist when adding shows, convenience)
 - Figures out which episode to download next thanks to scrobbling, aka no need to look into the filesystem where your media is
@@ -122,8 +120,8 @@ flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize
 - Clean up ended and downloaded shows from the lists so flexget doesn't have to keep searching for them
 - Has an untested file delete task for shows/movies you haven't literally touched in a long time
 
-== General Purpose Config using Trakt.tv ==
-{{{
+## General Purpose Config using Trakt.tv
+```
 secrets: secrets.yml
 
 #run with 'flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize'
@@ -430,10 +428,10 @@ tasks:
     #exec:    
       #on_exit:
         #for_accepted: rm -r '{{location}}'
-}}}
+```
 
 Notes about the general purpose config:
-- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [http://flexget.com/wiki/Web-UI])
+- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [http://flexget.com/wiki/Web-UI](/http://flexget.com/wiki/Web-UI))
 - The General purpose config will clean up entries from your lists that have been watched already.
 - The old_files task is UNTESTED! Use with caution.
 

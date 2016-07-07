@@ -1,4 +1,4 @@
-{{{
+```
 <stevezau> so, i've written my own download manager, its been running for a little while now.. it uses flexget as its backbone.. i haven't shown it to anyone..
 <gazpachoking> What's it do? :)
 <stevezau> figured i'd show u if u want to see. as i'd eventually like to start working on a ui frontend for flexget that plugs into my d/l manager
@@ -158,4 +158,4 @@
 <stevezau> ok, ill check back later with paranoidi to give him access to my app then we can all diccuss the idea
 <gazpachoking> He, like I, has waxing and waning interests
 <stevezau> heh
-}}}
+```

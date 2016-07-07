@@ -1,6 +1,6 @@
-'''UNNEFER'S ULTIMATE FLEXGET CONFIG'''
+**UNNEFER'S ULTIMATE FLEXGET CONFIG**
 
-''Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications''
+*Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications*
 
 No more headaches trying to get Flexget to work and do the things you want it to - This config does the lot. My config will do everything, it'll find what you want to download, rename the file when downloaded, move the file to a folder of your choice, clean all the leftover files and folders, and then email you to let you know what has been done.
 
@@ -11,13 +11,13 @@ Enjoy :)
 
 
 
-''Note 1: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.''
+*Note 1: Make sure you download the 2x Email Templates that are attached and save them to your Flexget Templates folder (.flexget/templates/) - create the folder if it does not exist.*
 
-''Note 2: Do not forget to set the "reject", "quality", "min_year" and "min_score" to the values you want.''
+*Note 2: Do not forget to set the "reject", "quality", "min_year" and "min_score" to the values you want.*
 
-''Note 3: Make sure that after you have edited the config file, that indentation is correct. There should be no extra spaces on blank lines and everything should be indented using double spaces.''
+*Note 3: Make sure that after you have edited the config file, that indentation is correct. There should be no extra spaces on blank lines and everything should be indented using double spaces.*
 
-{{{
+```
 #########################################################################################################################################################################################
 #                                                                                                                                                                                       #
 # UNNEFER'S ULTIMATE FLEXGET CONFIG                                                                                                                                                     #
@@ -223,4 +223,8 @@ tasks:
       smtp_password: GMAILPASSWORD
       smtp_tls: yes
       template: html-moved.template
-}}}
+```
+### Attachments
+* [UnNefer's HTML-DOWNLOADED Template](/attachments/Cookbook/Users/UnNefer/html-downloaded.template)
+* [UnNefer's HTML-MOVED Template](/attachments/Cookbook/Users/UnNefer/html-moved.template)
+* [UnNefer's Ultimate Flexget Config File](/attachments/Cookbook/Users/UnNefer/config.yml.unnefer)

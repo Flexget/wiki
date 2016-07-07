@@ -1,24 +1,24 @@
 = Trakt Remove=
 
-'''IMPORTANT: `trakt_remove` plugin is set for deprecation and will be replaced with [wiki:Plugins/List/list_remove list_remove].
+'''IMPORTANT: `trakt_remove` plugin is set for deprecation and will be replaced with [list_remove](/Plugins/List/list_remove).
 
-'''{{{IMPORTANT:}}} Please see [wiki:Plugins/trakt trakt] on how to authorize Flexget to access your private Trakt.tv account.'''
+**`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 
-This plugin will remove movies, series or episodes from a [http://trakt.tv trakt.tv] list.
+This plugin will remove movies, series or episodes from a [trakt.tv](http://trakt.tv) list.
 
-This plugin can be added to any of your tasks that deal with movies/series, or it can be used with the [wiki:Plugins/filesystem filesystem] plugin to remove all your already acquired movies on trakt.tv from a specified list.
+This plugin can be added to any of your tasks that deal with movies/series, or it can be used with the [filesystem](/Plugins/filesystem) plugin to remove all your already acquired movies on trakt.tv from a specified list.
 
-Please note that `account` is '''required'''.
+Please note that `account` is **required**.
 
-'''Configuration:'''
+**Configuration:**
 
-{{{
+```
 trakt_remove:
   username: <trakt username>
   account: <flexget account name>
   list: <list name>
-  type: [auto|shows|seasons|episodes|movies]
-}}}
+  type: [auto|shows|seasons|episodes|movies](/auto|shows|seasons|episodes|movies)
+```
 
 The `list` option can be one of the built in trakt lists, `collection`, `watched`, or `watchlist`, or the name of one of your custom trakt lists.
 

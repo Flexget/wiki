@@ -1,40 +1,35 @@
-= The Cookbook = 
+# The Cookbook
 
-To get started, create these as a file `~/.flexget/config.yml` (see [wiki:Configuration] for more details)
+To get started, create these as a file `~/.flexget/config.yml` (see [Configuration](/Configuration) for more details)
 
 From here you can find tips and recipes for common tasks.
-Feel free to add your own recipes or improve existing ones.[[BR]]
+Feel free to add your own recipes or improve existing ones.  
 
-'''To edit the wiki:'''
+**To edit the wiki:**
 
-You can either [http://flexget.com/register register] or login with username: '''flexget''' password: '''anon'''
+You can either [register](http://flexget.com/register) or login with username: **flexget** password: **anon**
 
-== Delicious recipes ==
+## Delicious recipes
+ [Recipes for series](/Cookbook/Series)::
+ [Recipes for movies](/Cookbook/Movies)::
+ [Recipes for URL rewriting](/Cookbook/Urlrewrite)::
+ [Recipes for Ebooks](/Cookbook/Ebooks)::
+ [General recipes](/Cookbook/General)::
+ [Advanced recipes](/Cookbook/Advanced)::
 
- [wiki:Cookbook/Series Recipes for series]::
- [wiki:Cookbook/Movies Recipes for movies]::
- [wiki:Cookbook/Urlrewrite Recipes for URL rewriting]::
- [wiki:Cookbook/Ebooks Recipes for Ebooks]::
- [wiki:Cookbook/General General recipes]::
- [wiki:Cookbook/Advanced Advanced recipes]::
+## Client guides
+ [Complete working example for Transmission ](/Cookbook/Transmission)::
+ [Complete working example for rTorrent](/Cookbook/rTorrent)::
+ [Brief working example for uTorrent](/Cookbook/uTorrent)::
+ [Transfer torrents from Transmission to Deluge](/Cookbook/TransmissionToDeluge)::
+ [Transfer torrents from Deluge to Transmission](/Cookbook/DelugeToTransmission)::
+ [Example for Jdownloader2](/Cookbook/Jdownloader2)::
 
-== Client guides ==
+## User configurations
+ [Complete user configurations](/Cookbook/Users)::
 
- [wiki:Cookbook/Transmission Complete working example for Transmission ]::
- [wiki:Cookbook/rTorrent Complete working example for rTorrent]::
- [wiki:Cookbook/uTorrent Brief working example for uTorrent]::
- [wiki:Cookbook/TransmissionToDeluge Transfer torrents from Transmission to Deluge]::
- [wiki:Cookbook/DelugeToTransmission Transfer torrents from Deluge to Transmission]::
- [wiki:Cookbook/Jdownloader2 Example for Jdownloader2]::
+## Database management
+ [Repair 1.2 -> 2.0 upgrade failure](/Cookbook/export):: *- (nobody should need this)*
 
-== User configurations ==
-
- [wiki:Cookbook/Users Complete user configurations]::
-
-== Database management ==
-
- [wiki:Cookbook/export Repair 1.2 -> 2.0 upgrade failure]:: ''- (nobody should need this)''
-
-== Helper scripts ==
-
- [wiki:Helper] scripts and other quick one-liners::
+## Helper scripts
+ [Helper](/Helper) scripts and other quick one-liners::

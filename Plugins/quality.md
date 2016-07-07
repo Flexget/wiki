@@ -1,23 +1,21 @@
-= Quality =
+# Quality
+Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. [series](/series), it might offer more functionality. Also mixing series quality options and quality plugin will cause weird behavior.)
 
-Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. [wiki:series series], it might offer more functionality. Also mixing series quality options and quality plugin will cause weird behavior.)
-
-== Simple Usage ==
-
+## Simple Usage
 With the simple usage, you just specify which quality you want.
 
-{{{
+```
 quality: 720p+ hdtv
-}}}
+```
 
-Any valid [wiki:Plugins/quality#Requirements quality requirements] string can be used here.
+Any valid [quality requirements](/Plugins/quality#Requirements) string can be used here.
 
 You can also use a list form to specify multiple quality requirement strings that are acceptable. In this case, only entries that do not match at least one of the quality strings will be rejected.
 
-{{{
+```
 quality:
   - 720p hdtv
   - 1080p webdl
-}}}
+```
 
-[[Include(wiki:Qualities)]]
+(XXX macro: "Include(wiki:Qualities)")

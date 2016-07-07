@@ -1,43 +1,39 @@
-= Required Upgrading Actions =
+# Required Upgrading Actions
+Just planning upgrading? See [upgrade guide](/Upgrade) first!
 
-Just planning upgrading? See [wiki:Upgrade upgrade guide] first!
+**`NOTE:`** You can use this [RSS Feed](http://feed43.com/flexget_upgrade_actions.xml) to keep up with "major" changes.
 
-'''{{{NOTE:}}}''' You can use this [http://feed43.com/flexget_upgrade_actions.xml RSS Feed] to keep up with "major" changes.
-
-== Instructions ==
-
-This page contains information about configuration file format changes, as well as !FlexGet behavioral changes that may affect the user. If your configuration file does not pass {{{flexget check}}} after upgrading this page should contain instructions what you need to change.
+## Instructions
+This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading this page should contain instructions what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration file needs to be updated.
 
-=== 2016.6.23 2.1.0 ===
+### 2016.6.23 2.1.0
 **Several breaking changes**
 
 As an effort to provide more consistent configuration and better user experience, several changes are presented with this version:
 
-* `list_accept`, `list_reject` and `list_queue` plugins have been replaced with [wiki:Plugins/List/list_match list_match]. See plugin page for detailed information on new syntax.
-* Changed `emit_series` to [wiki:Plugins/next_series_episodes next_series_episodes]
-* Changed `sonarr_emit` to [wiki:Plugins/next_sonarr_episodes next_sonarr_episodes]
-* Changed `trakt_emit` to [wiki:Plugins/next_trakt_episodes next_trakt_episodes]
-* Changed `send_telegram` to [wiki:Plugins/telegram telegram]
-* Changed `path_select` to [wiki:Plugins/path_by_space path_by_space]
-* Changed `emit_digest` to [wiki:Plugins/from_digest from_digest]
-* Changed `emit_uoccin` to [wiki:Plugins/from_uoccin from_uoccin]
-* Changed `dynamic_imdb` to [wiki:Plugins/from_imdb from_imdb]
+* `list_accept`, `list_reject` and `list_queue` plugins have been replaced with [list_match](/Plugins/List/list_match). See plugin page for detailed information on new syntax.
+* Changed `emit_series` to [next_series_episodes](/Plugins/next_series_episodes)
+* Changed `sonarr_emit` to [next_sonarr_episodes](/Plugins/next_sonarr_episodes)
+* Changed `trakt_emit` to [next_trakt_episodes](/Plugins/next_trakt_episodes)
+* Changed `send_telegram` to [telegram](/Plugins/telegram)
+* Changed `path_select` to [path_by_space](/Plugins/path_by_space)
+* Changed `emit_digest` to [from_digest](/Plugins/from_digest)
+* Changed `emit_uoccin` to [from_uoccin](/Plugins/from_uoccin)
+* Changed `dynamic_imdb` to [from_imdb](/Plugins/from_imdb)
 * Removed the deprecated `trakt_add` and `trakt_remove`
 
-=== 2016.4.24 2.0.0 ===
-
+### 2016.4.24 2.0.0
 **Major Flexget Change**
 
-Version 2.0.0 of !FlexGet introduces python3.x support. This was a huge refactor and has been tested to be best of our abilities. With such a huge change like this we expect there to be some bugs especially with third party plugins. 
+Version 2.0.0 of FlexGet introduces python3.x support. This was a huge refactor and has been tested to be best of our abilities. With such a huge change like this we expect there to be some bugs especially with third party plugins. 
 
-For more information on py2/3 code visit [http://flexget.com/wiki/Developers]
+For more information on py2/3 code visit [http://flexget.com/wiki/Developers](/http://flexget.com/wiki/Developers)
 
-Please log bugs to [https://github.com/Flexget/Flexget/issues]
+Please log bugs to [https://github.com/Flexget/Flexget/issues](/https://github.com/Flexget/Flexget/issues)
 
-=== 2016.4.7 1.2.505 ===
-
+### 2016.4.7 1.2.505
 **Series CLI Changes:**
 
 * Series CLI - `series forget` now also fires a `forget` event which for now removes all the relevant downloaded release from `seen` plugin as well. This is relevant both for entire series and when using identifer.
@@ -47,24 +43,21 @@ Please log bugs to [https://github.com/Flexget/Flexget/issues]
 
 **List interface:**
 
-A new convention of plugins that allows usage as input, filter and output. See [http://flexget.com/wiki/Plugins/List wiki page] for additional information.
-* [http://flexget.com/wiki/Plugins/List/imdb_list imdb_list] plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
+A new convention of plugins that allows usage as input, filter and output. See [wiki page](http://flexget.com/wiki/Plugins/List) for additional information.
+* [imdb_list](http://flexget.com/wiki/Plugins/List/imdb_list) plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
 * `couchpotato` changed its name to `couchpotato_list`.
 * `sonarr` changed its name to `sonarr_list`.
 
-=== 2016.4.4 1.2.502 ===
-
+### 2016.4.4 1.2.502
 TVDB API has changed, now requires account_id (userkey) rather then user password.
 
 TVDB plugins 'password' field has been changed to 'account_id'. To get your account_id visit http://thetvdb.com/?tab=userinfo
 
-=== 2016.3.28 1.2.496 ===
-
+### 2016.3.28 1.2.496
 Plugin rlslog has been removed and is no longer supported
 
-=== 2016.3.16 1.2.484 ===
-
-All TVDB plugins have been upgraded to use the new TVDB API [api-beta.thetvdb.com/swagger#/]
+### 2016.3.16 1.2.484
+All TVDB plugins have been upgraded to use the new TVDB API [api-beta.thetvdb.com/swagger#/](/api-beta.thetvdb.com/swagger#/)
 
 Due to the change in API the `account_id` can no longer be used within tvdb plugins, it now requires `username` and `password` within your config.
 
@@ -74,104 +67,101 @@ Field `tvdb_banner_url` changed to `tvdb_banner`
 Field `tvdb_poster_url` changed to `tvdb_posters` which is a list of the top 5 posters.
 
 
-=== 2016.3.5 1.2.471 ===
+### 2016.3.5 1.2.471
+Python 2.6 is no longer being supported by FlexGet. Support for python 2.6 itself ended October 2013, and it is no longer receiving even security updates. You should upgrade to python 2.7 if you have not done so already.
 
-Python 2.6 is no longer being supported by !FlexGet. Support for python 2.6 itself ended October 2013, and it is no longer receiving even security updates. You should upgrade to python 2.7 if you have not done so already.
+### 2016.2.29 1.2.464
+The `ignore_estimations` option in the [Discover](http://flexget.com/wiki/Plugins/discover) plugin was changed and now it should be used as `release_estimations`. See plugin page for further information. If you did not use that option, no action is needed.
 
-=== 2016.2.29 1.2.464 ===
-The `ignore_estimations` option in the [http://flexget.com/wiki/Plugins/discover Discover] plugin was changed and now it should be used as `release_estimations`. See plugin page for further information. If you did not use that option, no action is needed.
-
-=== 2016.2.18 1.2.455 ===
+### 2016.2.18 1.2.455
 The `urlrewrite_redirect` plugin, which previously rewrite all accepted entries' urls to any url they redirected to has been disabled by default. If you need this behavior, you must add `redirect_url: yes` to your task.
 
-=== 2016.2.11 1.2.452 ===
-The `listdir` and `find` plugins (which have been deprecated for a while) have now been removed. Their functionality can be replicated with the [wiki:Plugins/filesystem filesystem] plugin. If you haven't already, you will need to make this change in your config.
+### 2016.2.11 1.2.452
+The `listdir` and `find` plugins (which have been deprecated for a while) have now been removed. Their functionality can be replicated with the [filesystem](/Plugins/filesystem) plugin. If you haven't already, you will need to make this change in your config.
 
 Deluge 1.1 support has been removed from the deluge plugin.
 
-=== 2016.2.2 1.2.446 ===
-The markdown option in the [http://flexget.com/wiki/Plugins/send_telegram Telegram plugin] was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [https://core.telegram.org/bots/api#formatting-options Telegram API page for more details]. Also, the minimal required version of `python-telegram-bot` is `3.2.0`. Upgrade using `pip install python-telegram-bot --upgrade`.
+### 2016.2.2 1.2.446
+The markdown option in the [Telegram plugin](http://flexget.com/wiki/Plugins/send_telegram) was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [Telegram API page for more details](https://core.telegram.org/bots/api#formatting-options). Also, the minimal required version of `python-telegram-bot` is `3.2.0`. Upgrade using `pip install python-telegram-bot --upgrade`.
 
-=== Comming soon ===
-'''t411 replace torrent411 for discovering'''
+### Comming soon
+**t411 replace torrent411 for discovering**
 
-The search plugin is called henceforth {{{t411}}} instead of {{{torrent411}}}. Credentials are no longer setted into config file ; remove {{{username}}} and {{{password}}} and setting up definetively your credentials via CLI {{{flexget t411 add-auth <username> <password>}}}. Category and terms names are now the same as on the website. For example, {{{HDrip-720p}}} becomes {{{HDrip 720}}}.
+The search plugin is called henceforth `t411` instead of `torrent411`. Credentials are no longer setted into config file ; remove `username` and `password` and setting up definetively your credentials via CLI `flexget t411 add-auth <username> <password>`. Category and terms names are now the same as on the website. For example, `HDrip-720p` becomes `HDrip 720`.
 
-'''t411 replace torrent411 urlrewritter for as input plugin'''
+**t411 replace torrent411 urlrewritter for as input plugin**
 
-You can no longer use the plugin {{{html}}} or {{{rss}}} for scraping the Torrent411 website. Instead, use the [wiki:Plugins/t411 t411 input plugin].
+You can no longer use the plugin `html` or `rss` for scraping the Torrent411 website. Instead, use the [t411 input plugin](/Plugins/t411).
 
-=== 2015.12.29 X.X.XXX ===
-The markdown option in the [http://flexget.com/wiki/Plugins/send_telegram Telegram plugin] was changed from use-markdown to use_markdown. Update your configurations accordingly.
+### 2015.12.29 X.X.XXX
+The markdown option in the [Telegram plugin](http://flexget.com/wiki/Plugins/send_telegram) was changed from use-markdown to use_markdown. Update your configurations accordingly.
 
-=== 2015.12.16 1.2.410 ===
+### 2015.12.16 1.2.410
+Due to a complete refactor of [Pushover plugin](http://flexget.com/wiki/Plugins/pushover), the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
 
-Due to a complete refactor of [http://flexget.com/wiki/Plugins/pushover Pushover plugin], the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
-
-=== 2015.11.15 1.2.389 ===
-
-TVRage seems to be down, so in its place we have implemented [http://www.tvmaze.com TVMaze], which requires a few new dependencies.
+### 2015.11.15 1.2.389
+TVRage seems to be down, so in its place we have implemented [TVMaze](http://www.tvmaze.com), which requires a few new dependencies.
 If you are installed from a git checkout, you'll have to make sure your deps are up to date after pulling. Run `bin/pip install --upgrade -e .` from your checkout directory if you are using the virtualenv setup that bootstrap.py gives you.
 
-=== 2015.11.11 1.2.385 ===
-'''trakt 2.0 api update'''
+### 2015.11.11 1.2.385
+**trakt 2.0 api update**
 
 The trakt plugins have been updated to use the newest API (v2). Authorization is now handled by tokens. You can generate a pin for Flexget by visiting https://trakt.tv/pin/346. Use this pin to generate an access token by issuing the cli command `flexget trakt auth <account> <pin>`, where `<account>` is a local identifier that the access token is assigned to. We recommend that you use your Trakt username.
 
-'''general changes for all trakt plugins'''
+**general changes for all trakt plugins**
 
 They no longer require `password` and so this option should be deleted from your config. Instead it takes a new argument `account`. Specifying an `account` is required to access anything private/protected on trakt. You must specify either `account` or `username`. If `account` is specified without `username`, the owner of the account will be the assumed username.
 
 Affected Plugins:
-  - [wiki:Plugins/trakt_list trakt_list]
-  - [wiki:Plugins/trakt_emit trakt_emit]
-  - [wiki:Plugins/trakt_add trakt_add]
-  - [wiki:Plugins/trakt_remove trakt_remove]
-  - [wiki:Plugins/trakt_lookup trakt_lookup]
+  - [trakt_list](/Plugins/trakt_list)
+  - [trakt_emit](/Plugins/trakt_emit)
+  - [trakt_add](/Plugins/trakt_add)
+  - [trakt_remove](/Plugins/trakt_remove)
+  - [trakt_lookup](/Plugins/trakt_lookup)
 
-'''trakt_collected_lookup / trakt_watched_lookup'''
+**trakt_collected_lookup / trakt_watched_lookup**
 
-These plugins have been merged with `trakt_lookup` and no longer exist. You'll need to specify the `account` option in [wiki:Plugins/trakt_lookup trakt_lookup] in order for the related fields to be looked up.
+These plugins have been merged with `trakt_lookup` and no longer exist. You'll need to specify the `account` option in [trakt_lookup](/Plugins/trakt_lookup) in order for the related fields to be looked up.
 
-'''trakt_lookup'''
+**trakt_lookup**
 
 Now supports movie lookups as well as episode and show lookups. It also takes two optional arguments `username` and `account`. Specifying a `username` enables the previous functionality of `trakt_collected_lookup` and `trakt_watched_lookup`, which provide two new entry fields `trakt_collected` and `trakt_watched` respectively. These new fields indicate whether the entry has been collected or watched by the trakt user specified in `username` argument. 
 
 `trakt_lookup: yes` will enable the basic trakt lookup in your tasks.
 
-=== 2015.10.13 1.2.362 ===
-'''find / listdir'''
+### 2015.10.13 1.2.362
+**find / listdir**
 
-The `find` and `listdir` plugins have been merged into one [wiki:Plugins/filesystem filesystem] plugin. You will need to replace both in your config with just `filesystem`.
+The `find` and `listdir` plugins have been merged into one [filesystem](/Plugins/filesystem) plugin. You will need to replace both in your config with just `filesystem`.
 
-=== 2015.10.09 1.2.359 ===
+### 2015.10.09 1.2.359
 A json api has been added which requires a few new dependencies. If you are installed from a git checkout, you'll have to make sure your deps are up to date after pulling. `bin/pip install --upgrade -e .` from your checkout directory if you are using the virtualenv setup that bootstrap.py gives you.
 
-=== 2015.1.12 1.2.261 ===
-`disable_builtins` and `disable_plugin` plugins have been combined into the [wiki:Plugins/disable disable] plugin. You will need to replace both in your config with just `disable`. If you were using `disable_builtins: yes` form, this should be changed to `disable: builtins`
+### 2015.1.12 1.2.261
+`disable_builtins` and `disable_plugin` plugins have been combined into the [disable](/Plugins/disable) plugin. You will need to replace both in your config with just `disable`. If you were using `disable_builtins: yes` form, this should be changed to `disable: builtins`
 
-=== 2015.1.1 1.2.247 ===
-'''movie_queue / queue_movies'''
+### 2015.1.1 1.2.247
+**movie_queue / queue_movies**
 
 The `movie_queue` plugin has been enhanced to include the ability to add & remove movies removing the need for the `queue_movies` plugin. You will need to replace `movie_queue: yes` with `movie_queue: accept` to add any accepted items in the movie queue. Also, `queue_movies: yes` is replaced by `movie_queue: add`, which adds items to the movie queue.
 
-'''trakt_emit / trakt_add / trakt_remove'''
+**trakt_emit / trakt_add / trakt_remove**
 
 These plugins have been update to use trakt api v2. They no longer need `api_key`, which should be deleted from their config options. The built-in list names have been standardized to `watchlist`, `watched`, and `collection`.
 
-'''trakt_list'''
+**trakt_list**
 
 Trakt list has been updated to api v2, and the config has been made more consistent with the other trakt plugins. The built-in list names have been standardized to `watchlist`, `watched`, and `collection`. Listing episodes from custom lists is now also possible. `api_key` option should be removed from config. The list and type should now be specified as two separate options, e.g.
-{{{
+```
 trakt_list:
   username: me
   api_key: blah
   movies: watchlist
-}}}
+```
 would now become:
-{{{
+```
 trakt_list:
   username: me
   list: watchlist
   type: movies
-}}}
+```

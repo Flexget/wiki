@@ -7,7 +7,7 @@ Here are some things to know about my motivation for this configuration:
   * NFL - Seattle Seahawks and New York Jets
   * NHL - Pittsburgh Penguins and Winnipeg Jets
 
-{{{
+```
 jordan@claire:~/.flexget$ cat config.yml
 templates:
   clairetransmission:
@@ -158,10 +158,10 @@ tasks:
     template:
       - emailinfo
 
-}}}
+```
 
 My email template:
-{{{
+```
 jordan@claire:~/.flexget$ cat templates/showrss.template:
 {% if task.accepted -%}
 {{task.accepted|length}} new torrent(s) has/have just been added:
@@ -169,10 +169,10 @@ jordan@claire:~/.flexget$ cat templates/showrss.template:
 - {{entry.title}} {% if entry.output|d(false) %} => {{entry.output}}{% endif %}
 {% endfor %}
 {% endif -%}
-}}}
+```
 
 The contents of the ~Series_To_RSS folder:
-{{{
+```
 jordan@claire: ls -l /mnt/big1/tvshows/~Series_To_RSS
 total 0
 -rwxrwxr-x   1 jordan users     0 Aug 31 20:50 America's Next Top Model*
@@ -241,4 +241,4 @@ total 0
 -rwxrwxr-x   1 jordan users     0 Aug 31 20:50 Wedding Band*
 -rwxrwxr-x   1 jordan users     0 Aug 31 20:50 White Collar*
 
-}}}
+```

@@ -1,20 +1,19 @@
-= Duplicates =
-
+# Duplicates
 Take action on entries with duplicate field values
 
-'''Syntax:'''
+**Syntax:**
 
-{{{
+```
 duplicates:
   field: <field name>
-  action: [accept|reject]
-}}}
+  action: [accept|reject](/accept|reject)
+```
 
-'''Example:'''
+**Example:**
 
 Move duplicate movies for manual review
 
-{{{
+```
 tasks:
   duplicate-movies:
     manual: yes
@@ -27,4 +26,4 @@ tasks:
     move:
       to: /storage/movies-duplicates
       allow_dir: yes
-}}}
+```

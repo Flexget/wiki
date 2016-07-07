@@ -1,27 +1,24 @@
-= Form Login =
-
+# Form Login
 Log in to a site using a webform
 
 This plugin requires the mechanize library. To install it, run:
 
-{{{
+```
 pip install mechanize
-}}}
+```
 
-=== Example ===
-
-{{{
+### Example
+```
 form:
   url: http://example.com/login.php
   username: <username>
   password: <password>
-}}}
+```
 
-=== Example 2 ===
-
+### Example 2
 The login module just performs the login, you need to use other plugins to process content from the site:
 
-{{{
+```
 form:
   url: http://example.com/login.php
   username: <username>
@@ -31,17 +28,18 @@ html:
 regexp:
   accept:
     - Paddy.Obrien
-}}}
+```
 
-== Options ==
-
+## Options
 All options except for the API key are optional
 
-'''Options'''
+**Options**
 
-||='''Name'''=||='''Description'''=||
-||form||URL to the login form||
-||username||Username to the site||
-||password||Password||
-||userfield||Name of the username field if not 'username'||
-||passfield||Name of the password field if not 'password'||
+
+| **Name** | **Description** |
+| --- | --- |
+| form | URL to the login form |
+| username | Username to the site |
+| password | Password |
+| userfield | Name of the username field if not 'username' |
+| passfield | Name of the password field if not 'password' |

@@ -1,1 +1,1 @@
-See [wiki:"Plugins/from_deluge"].
+See ["Plugins/from_deluge"](/"Plugins/from_deluge").

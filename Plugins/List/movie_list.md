@@ -1,44 +1,39 @@
-= Movie List =
-
-This plugin is a [wiki:Plugins/List/ managed list] plugin.
+# Movie List
+This plugin is a [managed list](/Plugins/List/) plugin.
 
 Any entry containing field(s) `imdb_id`, `trakt_movie_id` or `tmdb_id` can be added to movie list for later matching. This allows user to maintain one or more movie queues.
 
-== Schema ==
-
-{{{
+## Schema
+```
 movie_list: <NAME>
-}}}
+```
 
 Or:
 
-{{{
+```
 movie_list: 
   list_name: <NAME> (Required)
-  strip_year: [yes|no] (Optional)
-}}}
+  strip_year: [yes|no](/yes|no) (Optional)
+```
 
-'''Clarification''': By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` '''OUTPUTS''' the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [wiki:Plugins/discover discover] plugin.
+**Clarification**: By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` **OUTPUTS** the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [discover](/Plugins/discover) plugin.
 
-=== Matching ===
+### Matching
+When using `movie_list` with a filter like [list_match](/Plugins/List/list_match) for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
+If matching by identifiers fail, then title is [parsed](/Plugins/parsing) and proceeded to try to match by `movie_name` and `movie_year` fields.
 
-When using `movie_list` with a filter like [wiki:Plugins/List/list_match list_match] for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
-If matching by identifiers fail, then title is [wiki:Plugins/parsing parsed] and proceeded to try to match by `movie_name` and `movie_year` fields.
+## Usage
+As a [managed list](/Plugins/List) plugin it follows the same list actions, an quick example how to add entries into the list.
 
-== Usage ==
-
-As a [wiki:Plugins/List managed list] plugin it follows the same list actions, an quick example how to add entries into the list.
-
-{{{
+```
 # inputs
 # filters
 list_add: 
   - movie_list: list name
-}}}
+```
 
-=== Fill list ===
-
-{{{
+### Fill list
+```
 trakt_list:
   username: traktusername
   list: watchlist
@@ -46,11 +41,11 @@ trakt_list:
 accept_all: yes
 list_add:
   - movie_list: movies from trakt
-}}}
+```
 
 This will add all accepted entries to an `movie_list` with the name `movies from trakt`. It then later be used as an input itself. This can be used a base to filter on with other tasks. You can add multiple inputs if you wish.
 
-{{{
+```
 trakt_list:
   username: traktusername
   list: watchlist
@@ -61,21 +56,20 @@ imdb_list:
   list: watchlist
 list_add:
   - movie_list: all my watchlists
-}}}
+```
 
-=== Download matches ===
-
-{{{
+### Download matches
+```
 rss: ...
 list_match:
   from:
     - movie_list: movie from trakt
 download: ...
-}}}
+```
 
 Concrete example with a task:
 
-{{{
+```
 task_name:
   rss: http://url.com/feed.xml
   quality: 720p
@@ -84,13 +78,12 @@ task_name:
     from:
       - movie_list: movie list name
   download: /path/to/download
-}}}
+```
 
-[wiki:Plugins/quality quality] is used to weed out any unwanted qualities. [wiki:Plugins/imdb_lookup imdb_lookup] is required for entries to be matched with movie_list.
+[quality](/Plugins/quality) is used to weed out any unwanted qualities. [imdb_lookup](/Plugins/imdb_lookup) is required for entries to be matched with movie_list.
 
-=== With discover ===
-
-{{{
+### With discover
+```
 discover-movies:
   discover:
     what:
@@ -102,11 +95,11 @@ discover-movies:
   list_queue:
     - movie_list: movie list name
   download: /path/to/download
-}}}
+```
 
-'''Strip Year option''': It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
+**Strip Year option**: It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
 
-{{{
+```
 discover-movies:
   discover:
     what:
@@ -121,15 +114,14 @@ discover-movies:
     from:
       - movie_list: movie list name
   download: /path/to/download
-}}}
+```
 
-The [wiki:Plugins/List/list_match list_match] matches only the first item from the list by default. See its wiki for different options.
+The [list_match](/Plugins/List/list_match) matches only the first item from the list by default. See its wiki for different options.
 
-=== Migrate ===
+### Migrate
+Example on how to migrate from [movie_queue](/Plugins/movie_queue):
 
-Example on how to migrate from [wiki:Plugins/movie_queue movie_queue]:
-
-{{{
+```
 movies-movie-queue:
   emit_movie_queue: yes
   accept_all: yes
@@ -137,61 +129,54 @@ movies-movie-queue:
     - movie_list: movies
   disable: 
     - seen 
-}}}
+```
 
-Plugin [wiki:Plugins/seen seen] needs to be disabled since all the titles that movie queue will emit were seen when they were added to the queue
+Plugin [seen](/Plugins/seen) needs to be disabled since all the titles that movie queue will emit were seen when they were added to the queue
 
-== Movie list CLI ==
-
+## Movie list CLI
 For detailed instruction about these CLI commands:
 
-{{{
+```
 $ flexget movie-list -h
-}}}
+```
 
 Movie list support CLI operations:
 
-=== Return all movie lists names ===
-
-{{{
+### Return all movie lists names
+```
 $ flexget movie-list all
-}}}
+```
 
-=== List movies from movie lists ===
-
-{{{
+### List movies from movie lists
+```
 $ flexget movie-list list <LIST_NAME>
-}}}
+```
 
-'''Note:''' If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
+**Note:** If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
 
-=== Add or Update a movie to or from a movie list ===
-
+### Add or Update a movie to or from a movie list
 Using a title is require. You can also add additional identifiers in the following format:
 
-{{{
+```
 $ flexget movie-list add <LIST_NAME> <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
-}}}
+```
 
-Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.[[br]]
-If the specified movie list does not exist it will be created.[[br]]
-If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given). [[br]]
-Movies will be looked up from [http://www.imdb.com IMDB] on add, with a fallback to [http://www.tmdb.com TMDB]. If both lookups fail, the movie will not be added to the list.[[br]]
+Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.(XXX macro: "br")
+If the specified movie list does not exist it will be created.(XXX macro: "br")
+If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given). (XXX macro: "br")
+Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallback to [TMDB](http://www.tmdb.com). If both lookups fail, the movie will not be added to the list.(XXX macro: "br")
 If a movie is added with identifiers, those will take precedence in the lookup before using its title.
 
-=== Removing a movie from movie list ===
-
-{{{
+### Removing a movie from movie list
+```
 $ flexget movie-list del <LIST_NAME> <MOVIE_TITLE>
-}}}
+```
 
-=== Clearing an entire movie list ===
-
-{{{
+### Clearing an entire movie list
+```
 $ flexget movie-list purge <LIST_NAME>
-}}}
+```
 
 
-== Movie List API ==
-
-`movie_list` plugin has full API support. See [http://discuss.flexget.com/t/flexget-rest-api/ API post] for details
+## Movie List API
+`movie_list` plugin has full API support. See [API post](http://discuss.flexget.com/t/flexget-rest-api/) for details

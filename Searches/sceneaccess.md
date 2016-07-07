@@ -1,12 +1,11 @@
-== Search Plugin: sceneaccess ==
-
+## Search Plugin: sceneaccess
 All the information of how sceneaccess works can be found in the plugin doc inside Flexget.
 
-'''Plugin Documentation (as of 2015-07-29)'''
-{{{
+**Plugin Documentation (as of 2015-07-29)**
+```
 flexget doc scenaccess
-}}}
-{{{
+```
+```
 Scene Access Search plugin
 
 == Basic usage:
@@ -71,10 +70,10 @@ gravity = number of seeds * 2 + number of leechers
 gravity_multiplier will multiply the above number by specified amount.
 If you use public trackers for searches, you may want to use this feature.
 
-}}}
+```
 
 
-'''Work-arounds / Fixes'''
+**Work-arounds / Fixes**
 
 * To access Sceneaccess successfully through CloudFlare you will need to apply the work-around in the comments of this ticket: http://flexget.com/ticket/2897
 

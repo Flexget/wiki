@@ -1,11 +1,10 @@
-= Manage your !FlexGet series entirely from trakt.tv =
+# Manage your FlexGet series entirely from trakt.tv
+This is a system designed for easily managing your FlexGet series from trakt.tv.
 
-This is a system designed for easily managing your !FlexGet series from trakt.tv.
-
-- You define shows you want to follow by creating a trakt list called `My TV Shows` (in this example, you can call it anything you want) and adding any shows you want the !FlexGet series plugin to follow to that list.
+- You define shows you want to follow by creating a trakt list called `My TV Shows` (in this example, you can call it anything you want) and adding any shows you want the FlexGet series plugin to follow to that list.
 - In order to make it easier to start getting a show from a certain episode, you can add the specific episode you want to start at to the `My TV Shows` list and it will be handled automatically.
 
-{{{
+```
 templates:
   # This is just in a template so that it can easily be re-used in multiple tasks (for example in an rss based and discover based task)
   # If you only have one task using your series config, you can place the configure_series plugin directly in that task rather than in a template
@@ -57,15 +56,15 @@ schedules:
   - tasks: [follow show from ep, get shows]
     interval:
       minutes: 30
-}}}
+```
 
 Be sure to check the wiki pages for all the plugins used for more details:
-- [wiki:Plugins/configure_series configure_series]
-- [wiki:Plugins/trakt_list trakt_list]
-- [wiki:Plugins/discover discover]
-- [wiki:Plugins/emit_series emit_series]
-- [wiki:Plugins/set_series_begin set_series_begin]
-- [wiki:Plugins/trakt_add trakt_add]
-- [wiki:Plugins/trakt_remove trakt_remove]
-- [wiki:Plugins/template template]
-- [wiki:Plugins/Daemon/scheduler scheduler]
+- [configure_series](/Plugins/configure_series)
+- [trakt_list](/Plugins/trakt_list)
+- [discover](/Plugins/discover)
+- [emit_series](/Plugins/emit_series)
+- [set_series_begin](/Plugins/set_series_begin)
+- [trakt_add](/Plugins/trakt_add)
+- [trakt_remove](/Plugins/trakt_remove)
+- [template](/Plugins/template)
+- [scheduler](/Plugins/Daemon/scheduler)

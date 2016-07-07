@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/path_by_space path_by_space]
+Renamed [path_by_space](/Plugins/path_by_space)

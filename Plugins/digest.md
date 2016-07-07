@@ -1,29 +1,29 @@
-= Digest =
+# Digest
 This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) It is used with `from_digest` plugin in the task where the entries should be collected.
 
-== Configuration ==
-{{{
+## Configuration
+```
 digest: <listname>
-}}}
+```
 or
-{{{
+```
 digest:
   list: <listname>
-  state: [accepted|rejected|failed|undecided]
-}}}
+  state: [accepted|rejected|failed|undecided](/accepted|rejected|failed|undecided)
+```
 You can also specify a list of states to be digested.
-{{{
+```
 digest:
   list: <listname>
   state:
     - accepted
     - failed
-}}}
+```
 
-== Examples ==
+## Examples
 These examples are incomplete, and contain comments where other plugins should be set up.
-=== Daily Email ===
-{{{
+### Daily Email
+```
 tasks:
   download task 1:
     # some stuff to do downloads
@@ -54,11 +54,10 @@ schedules:
 - tasks: daily email task
   interval:
     days: 1
-}}}
+```
 
-=== Last 50 entries HTML ===
-
-{{{
+### Last 50 entries HTML
+```
 tasks:
   download task 1:
     # some stuff to do downloads
@@ -82,4 +81,4 @@ schedules:
 - tasks: [download task 1, download task 2, generate html]
   interval:
     hours: 1
-}}}
+```

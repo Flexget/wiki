@@ -1,10 +1,10 @@
-= For some reason Trac doesn't like to accept attachments = 
+# For some reason Trac doesn't like to accept attachments
 
 If you know how to fix this, please DO contact.
 
-'''Apache: sites-enabled/flexget.com.conf'''
+**Apache: sites-enabled/flexget.com.conf**
 
-{{{
+```
 <VirtualHost *>
         ServerName flexget.com
         CustomLog /var/log/apache2/flexget.com-access.log combined
@@ -22,34 +22,34 @@ If you know how to fix this, please DO contact.
 
 </VirtualHost>
 
-}}}
+```
 
-'''TRAC.ini'''
+**TRAC.ini**
 
-{{{
+```
 # -*- coding: utf-8 -*-
 
-[account-manager]
+[account-manager](/account-manager)
 force_passwd_change = true
 hash_method = HtPasswdHashMethod
 password_file = /var/trac/flexget/htpasswd.trac
 password_format = htpasswd
 password_store = HtPasswdStore
 
-[attachment]
+[attachment](/attachment)
 max_size = 262144
 render_unsafe_content = false
 
-[browser]
+[browser](/browser)
 downloadable_paths = /trunk, /branches/*, /tags/*
 hide_properties = svk:merge
 
-[changeset]
+[changeset](/changeset)
 max_diff_bytes = 10000000
 max_diff_files = 0
 wiki_format_messages = true
 
-[components]
+[components](/components)
 trac.web.auth.LoginModule = disabled  # account manager form login requires
 acct_mgr.admin.accountmanageradminpage = enabled
 acct_mgr.api.accountmanager = enabled
@@ -121,17 +121,17 @@ tractags.wiki.wikitaginterface = disabled
 tractags.wiki.wikitagprovider = disabled
 webadmin.* = enabled
 
-[discussion]
+[discussion](/discussion)
 title = Discussion
 
-[downloads]
+[downloads](/downloads)
 ext = zip,gz,bz2,rar,egg
 path = /var/trac/flexget/downloads
 title = Downloads
 unique_filename = True
 visible_fields = file,description,size,time,count,version
 
-[google.analytics]
+[google.analytics](/google.analytics)
 admin_logging = False
 authenticated_logging = True
 extensions = zip,tar,tar.gz,tar.bzip,egg
@@ -140,19 +140,19 @@ outbound_link_tracking = True
 tracking_domain_name = flexget.com
 uid = UA-729877-2
 
-[header_logo]
+[header_logo](/header_logo)
 alt = 
 height = -1
 link = http://flexget.com/
 src = site/FlexGet2.png
 width = -1
 
-[logging]
+[logging](/logging)
 log_file = trac.log
 log_level = DEBUG
 log_type = file
 
-[mimeviewer]
+[mimeviewer](/mimeviewer)
 enscript_modes = text/x-dylan:dylan:4
 enscript_path = enscript
 max_preview_size = 262144
@@ -161,7 +161,7 @@ php_path = php
 silvercity_modes = 
 tab_width = 8
 
-[notification]
+[notification](/notification)
 always_notify_owner = false
 always_notify_reporter = false
 always_notify_updater = true
@@ -180,17 +180,17 @@ use_public_cc = false
 use_short_addr = false
 use_tls = false
 
-[project]
+[project](/project)
 descr = RSS Downloader, RSS Aggregator, Downloader
 footer = Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a>
 icon = common/trac.ico
 name = FlexGet
 url = http://flexget.com
 
-[search]
+[search](/search)
 min_query_length = 3
 
-[spam-filter]
+[spam-filter](/spam-filter)
 akismet_api_key = XXXXXXX
 akismet_karma = 5
 extlinks_karma = 1
@@ -202,11 +202,11 @@ purge_age = 9
 regex_karma = 10
 session_karma = 9
 
-[theme]
+[theme](/theme)
 enable_css = enabled
 theme = PyDotOrg
 
-[ticket]
+[ticket](/ticket)
 default_component = flexget
 default_milestone = 1.0
 default_priority = major
@@ -214,7 +214,7 @@ default_type = defect
 default_version = 
 restrict_owner = false
 
-[ticket-workflow]
+[ticket-workflow](/ticket-workflow)
 accept = new -> assigned
 accept.operations = set_owner_to_self
 accept.permissions = TICKET_MODIFY
@@ -231,14 +231,14 @@ resolve = new,assigned,reopened -> closed
 resolve.operations = set_resolution
 resolve.permissions = TICKET_MODIFY
 
-[timeline]
+[timeline](/timeline)
 changeset_collapse_events = true
 changeset_long_messages = false
 changeset_show_files = 0
 default_daysback = 30
 ticket_show_details = true
 
-[trac]
+[trac](/trac)
 authz_file = 
 authz_module_name = 
 base_url = http://flexget.com
@@ -256,19 +256,19 @@ repository_type = svn
 request_filters = None
 templates_dir = /usr/share/trac/templates
 
-[traccia]
+[traccia](/traccia)
 project_name = flexget
 tickets_notifications = True
 wiki_notifications = False
 
-[wiki]
+[wiki](/wiki)
 ignore_missing_pages = false
 split_page_names = false
-}}}
+```
 
-'''Trac directory'''
+**Trac directory**
 
-{{{
+```
 drwxrwx--- 4 root     www-data 4096 2009-10-21 10:30 apache/
 drwxrwx--- 4 root     www-data 4096 2009-10-20 22:41 attachments/
 drwxrwx--- 3 root     www-data 4096 2009-10-20 22:41 cache/
@@ -284,17 +284,17 @@ drwxrwx--- 2 root     www-data 4096 2009-10-21 10:30 plugins/
 drwxrwx--- 3 root     www-data 4096 2009-10-20 22:41 templates/
 -rw-r----- 1 root     www-data   27 2009-10-20 22:41 VERSION
 drwxrwx--- 2 root     www-data 4096 2009-10-20 22:41 wiki-macros/
-}}}
+```
 
 attachment directory is recursively 0777 and root www-data
 
 
-'''Debug log on adding attachment'''
+**Debug log on adding attachment**
 
-{{{
-2009-11-09 18:59:41,705 Trac[main] DEBUG: Dispatching <Request "POST u'/attachment/ticket/367/'">
-2009-11-09 18:59:41,723 Trac[chrome] DEBUG: Prepare chrome data for request
-2009-11-09 18:59:41,755 Trac[session] DEBUG: Retrieving session for ID u'username'
-2009-11-09 18:59:41,762 Trac[web_ui] DEBUG: Not tracking TRAC_ADMIN's, returning stream
-2009-11-09 18:59:41,882 Trac[main] DEBUG: 472 unreachable objects found.
-}}}
+```
+2009-11-09 18:59:41,705 Trac[main](/main) DEBUG: Dispatching <Request "POST u'/attachment/ticket/367/'">
+2009-11-09 18:59:41,723 Trac[chrome](/chrome) DEBUG: Prepare chrome data for request
+2009-11-09 18:59:41,755 Trac[session](/session) DEBUG: Retrieving session for ID u'username'
+2009-11-09 18:59:41,762 Trac[web_ui](/web_ui) DEBUG: Not tracking TRAC_ADMIN's, returning stream
+2009-11-09 18:59:41,882 Trac[main](/main) DEBUG: 472 unreachable objects found.
+```

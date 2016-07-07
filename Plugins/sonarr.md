@@ -1,3 +1,3 @@
 This plugin was deprecated.
 
-Please go to [wiki:Plugins/sonarr_list sonarr_list ] plugin page.
+Please go to [sonarr_list ](/Plugins/sonarr_list) plugin page.

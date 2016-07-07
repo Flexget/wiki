@@ -1,1 +1,1 @@
-See [wiki:Plugins/torrent_scrub the final plugin].
+See [the final plugin](/Plugins/torrent_scrub).

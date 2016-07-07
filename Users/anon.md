@@ -16,7 +16,7 @@ FLEXGET config.yml:
 everything in with CHANGE-infront needs to be replaced
 
 #############################################################################
-{{{
+```
 templates:
   DELUGE:
     deluge:
@@ -120,7 +120,7 @@ tasks:
     set:
       path: '/media/incoming/'  # CHANGE TO WHATEVER YOU PREFER
 
-}}}
+```
 
 #############################################################################
 
@@ -129,9 +129,7 @@ in deluge, activate the "execute" plugin. Add a rule to execute this script each
 
 #############################################################################
 
-{{{
-
-#!/usr/bin/php
+```/usr/bin/php
 <?php
 
 
@@ -184,15 +182,15 @@ exec($cmd);
 }
 
 //deluge feeds execute scripts with 3 arguments, torrentid, torrentname, and torrentpath.
-$torrent_id = $argv[1];
-$torrent_name = $argv[2];
-$torrent_path = $argv[3];
+$torrent_id = $argv[1](/1);
+$torrent_name = $argv[2](/2);
+$torrent_path = $argv[3](/3);
 
 //this writes each item downloaded to a file, where the content can later be emailed as a daily summary.
 file_put_contents($list_path, date('Y-m-d H:i:s')." ".$torrent_name."\n", FILE_APPEND | LOCK_EX);
 
 // check if its a tv-series or movie
-$tv_or_movie = preg_match('/^(.*)((\d+)[ex](\d+))/i', strtolower($torrent_name) , $matches);
+$tv_or_movie = preg_match('/^(.*)((\d+)[ex](/ex)(\d+))/i', strtolower($torrent_name) , $matches);
 
 logger('--- BEGIN --- : '.implode($argv,' '));
 
@@ -226,16 +224,16 @@ if ( empty($matches) ) {
 
 } else {
 	
-	if ( preg_match('/^(.*)s(\d+)[e](\d+)/i', strtolower($torrent_name), $res) ) {
-		$name = trim($res[1], ".");
-		$season = str_pad($res[2], 2, "0", STR_PAD_LEFT);
-		$episode = str_pad($res[3], 2, "0", STR_PAD_LEFT);
+	if ( preg_match('/^(.*)s(\d+)[e](/e)(\d+)/i', strtolower($torrent_name), $res) ) {
+		$name = trim($res[1](/1), ".");
+		$season = str_pad($res[2](/2), 2, "0", STR_PAD_LEFT);
+		$episode = str_pad($res[3](/3), 2, "0", STR_PAD_LEFT);
 	}
 
-	if ( preg_match('/^(.*)(\d+)[x](\d+)/i', strtolower($torrent_name), $res) ) {
-		$name = trim($res[1], ".");
-		$season = str_pad($res[2], 2, "0", STR_PAD_LEFT);
-		$episode = str_pad($res[3], 2, "0", STR_PAD_LEFT);
+	if ( preg_match('/^(.*)(\d+)[x](/x)(\d+)/i', strtolower($torrent_name), $res) ) {
+		$name = trim($res[1](/1), ".");
+		$season = str_pad($res[2](/2), 2, "0", STR_PAD_LEFT);
+		$episode = str_pad($res[3](/3), 2, "0", STR_PAD_LEFT);
 	}
 
 	logexec( "mkdir -p", $tv_path.$name."/season.".$season."/".$torrent_name );
@@ -247,7 +245,7 @@ logger('--- END ---');
 
 ?>
 
-}}}
+```
 
 #############################################################################
 
@@ -256,8 +254,7 @@ optionally, email yourself the content of 'list' at intervals, below example is 
 
 #############################################################################
 
-{{{
-
+```
 0 17 * * * cat /var/lib/deluge/list | mail -s 'daily viewing' userlist ; rm /var/lib/deluge/list
 
-}}}
+```

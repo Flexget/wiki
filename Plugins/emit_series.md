@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/next_series_episodes next_series_episodes]
+Renamed [next_series_episodes](/Plugins/next_series_episodes)

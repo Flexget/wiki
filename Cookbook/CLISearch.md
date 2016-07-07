@@ -7,14 +7,14 @@ Because manual: yes is set this task will not run normally you will have to call
 
 To run the task you would do one of the following note that the season number is optional but useful since the rss feed will only return so many results, --disable-advancement is used since exists_series will be used to prevent dup episodes:
 
-{{{
-flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname],season=[number]" --disable-advancement
-flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname]" --disable-advancement
-}}}
+```
+flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname](/Yourshowname),season=[number](/number)" --disable-advancement
+flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname](/Yourshowname)" --disable-advancement
+```
 
 
-{{{
-  SearchEZTV:
+```
+SearchEZTV:
     discover:
       what:
         - mock: 
@@ -34,7 +34,7 @@ flexget --test execute --tasks SearchEZTV --cli-config "show=[Yourshowname]" --d
       hdtv:
         - $show
     manual: yes
-}}}
+```
 
 Notes:
 

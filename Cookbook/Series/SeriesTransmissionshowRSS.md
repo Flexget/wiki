@@ -1,10 +1,10 @@
-This configuration is to be used with the a website like [http://showrss.karmorra.info/ showRSS] where you choose which series you want to watch and the Transmission torrent client.
+This configuration is to be used with the a website like [showRSS](http://showrss.karmorra.info/) where you choose which series you want to watch and the Transmission torrent client.
 
 Let's say a new series you fancy comes out and you want to add it to your download list, instead of opening your configuration file and add it manually (while being prone to all sorts of syntax errors) your go to your showRSS account and add it there, this configuration will fetch all the series it finds from your personal feed at showRSS, download them and organise them with the episode name inside the series folder.
 
 Of course this works will other feeds as well, but the sake of demonstration showRSS is used.
 
-{{{
+```
 tasks:
   # downloading task
   download-rss:
@@ -39,15 +39,14 @@ tasks:
       to: /home/solenoid/TV/{{ tvdb_series_name }}
       # save the file as "Series Name - SxxEyy - Episode Name.ext"
       filename: '{{ tvdb_series_name }} - {{ series_id }} - {{ tvdb_ep_name }}{{ location | pathext }}'
-}}}
+```
 
-For the complete configuration with Transmission refer to [wiki:Series/SeriesPresetMultipleRSStoTransmission Transmission setup] and use this configuration in ''~/.flexget/config.yml'' file.
-
-
-== Alternative simple setup ==
+For the complete configuration with Transmission refer to [Transmission setup](/Series/SeriesPresetMultipleRSStoTransmission) and use this configuration in *~/.flexget/config.yml* file.
 
 
-{{{
+## Alternative simple setup
+
+```
 tasks:
   task-a:
     rss: http://showrss.karmorra.info/rss.php?user_id=USERID&hd=2&proper=0
@@ -59,4 +58,4 @@ tasks:
       password: PASSWORD
       path: /home/xbian/TV/{{series_name}}/Season {{series_season}}
       addpaused: no
-}}}
+```

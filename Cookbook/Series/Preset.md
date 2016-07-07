@@ -1,1 +1,1 @@
-See [wiki:"Cookbook/Series/Template"].
+See ["Cookbook/Series/Template"](/"Cookbook/Series/Template").

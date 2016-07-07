@@ -1,7 +1,5 @@
-= Installing !FlexGet =
-
+# Installing FlexGet
 [[Include(wiki:InstallWizard/Partial/InstallVirtualenv)]]
 
-== Continue ==
-
-[wiki:InstallWizard/Linux/NoRoot/InstallVirtualenv/FlexGet/Scheduling Scheduling]
+## Continue
+[Scheduling](/InstallWizard/Linux/NoRoot/InstallVirtualenv/FlexGet/Scheduling)

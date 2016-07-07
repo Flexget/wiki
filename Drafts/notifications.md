@@ -11,7 +11,7 @@ We currently have notifications plugins but they are limited to being a part of 
 * Call the relevant notifier via its relevant event in task.
 
 == Suggested config
-{{{
+```
 notifiers:
   pushbullet:
     api_key: token
@@ -33,6 +33,6 @@ tasks:
           message: OMG, A CRASH! # All plugin attributes should be accessible to override defaults. 
       on_fail:
         - internal # A new internal plugin that would be accessible via API/CLI/output to log (???)
-}}}
+```
 == Potential issues
 * Many hooked event can cause notification flooding, we need an internal way to take care of that and make it configurable

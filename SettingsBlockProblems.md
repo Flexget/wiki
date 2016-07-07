@@ -1,18 +1,15 @@
-= Settings block problems =
-
+# Settings block problems
 Currently only way to change series default settings is trough "settings block" which was a quick hack. It has few problems.
 
  * Affects all feeds
  * Cannot be validated without big changes
  * Difficult to implement in web-ui in the future
 
-== Possible fixes ==
-
-=== Solution 1 ===
-
+## Possible fixes
+### Solution 1
 Include settings in series module.
 
-{{{
+```
 rss: http://example.com
 series:
   settings:
@@ -30,7 +27,7 @@ series:
   anime:
     - zoom zoom
     - pew pew
-}}}
+```
 
 Cons:
 
@@ -40,9 +37,7 @@ Pros:
  
  * No need to define a lot of per-series settings
 
-=== More possible solutions? ===
+### More possible solutions?
 
-
-== Feedback ==
-
+## Feedback
 Feel free to add:

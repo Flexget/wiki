@@ -1,6 +1,5 @@
-=== New movies plugin ===
-
-{{{
+### New movies plugin
+```
 movies:
   comedy, scifi:
     imdb_score: 6.2+
@@ -21,4 +20,4 @@ movies:
 
 # languages? primary language?
 # "hated" actors?
-}}}
+```

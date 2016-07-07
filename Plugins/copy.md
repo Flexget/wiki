@@ -1,17 +1,16 @@
-= Copy =
-
-''TODO: Improve documentation''
+# Copy
+*TODO: Improve documentation*
 
 Syntax:
 
-{{{
+```
 copy:
-  [to]: directory to copy accepted entries to, allows value replacement, defaults to download path
-  [filename]: the actual filename inside the 'to' directory to name the entries, allows value replacement
-  [allow_dir]: allows or denies to operate on entries pointing to directories
-  [unpack_safety]: enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry
-  [along]: Copy additional files such as subtitles
-}}}
+  [to](/to): directory to copy accepted entries to, allows value replacement, defaults to download path
+  [filename](/filename): the actual filename inside the 'to' directory to name the entries, allows value replacement
+  [allow_dir](/allow_dir): allows or denies to operate on entries pointing to directories
+  [unpack_safety](/unpack_safety): enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry
+  [along](/along): Copy additional files such as subtitles
+```
 
 [] = optional
 
@@ -19,7 +18,7 @@ Entry field "copy_to" can be used to override given path.
 
 Here is an example of usage in a more comprehensive context
 
-{{{
+```
 tasks:
   copy-episodes:
     metainfo_series: yes 
@@ -33,6 +32,6 @@ tasks:
       along:
         - sub
         - srt
-}}}
+```
 
 It is important to note that the files are copied as single files and no checks are made if multiple files match the same name. The files already present in the directory (even if copied during the same pass) are overwritten.

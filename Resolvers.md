@@ -1,5 +1,4 @@
-= Oops, page moved =
-
-See [wiki:URLRewriters]
+# Oops, page moved
+See [URLRewriters](/URLRewriters)
 
 Help by fixing the link

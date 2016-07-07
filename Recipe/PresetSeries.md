@@ -1,3 +1,2 @@
-= Oops, page moved =
-
-[wiki:Cookbook/Series/Preset New location]
+# Oops, page moved
+[New location](/Cookbook/Series/Preset)

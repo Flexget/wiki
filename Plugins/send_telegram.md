@@ -1,1 +1,1 @@
-Renamed [wiki:Plugins/telegram telegram]
+Renamed [telegram](/Plugins/telegram)

@@ -1,3 +1,2 @@
-= Page relocated =
-
-New location, [wiki:Cookbook]
+# Page relocated
+New location, [Cookbook](/Cookbook)

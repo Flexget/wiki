@@ -1,9 +1,8 @@
-= Contact author(s) =
-
+# Contact author(s)
 IRC:
 
-{{{
+```
 #FlexGet @ freenode
 Paranoidi @ IRCNet
 Paranoidi @ QuakeNet
-}}}
+```

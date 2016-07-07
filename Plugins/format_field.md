@@ -1,2 +1,2 @@
-'''ATTENTION'''
-format_feed functionality has been merged into the [wiki:Plugins/set set] plugin as of r1877
+**ATTENTION**
+format_feed functionality has been merged into the [set](/Plugins/set) plugin as of r1877

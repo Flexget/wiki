@@ -1,14 +1,11 @@
-= Downloading Apple Trailers =
+# Downloading Apple Trailers
+### Quick Start
+ [Apple Trailers Plugin](/Plugins/apple_trailers)::
 
-=== Quick Start ===
+### Downloading Trailers By Genre
+This method involves looking up movie titles through the [imdb](/Plugins/imdb) plugin. It then filters out the genres you don't want included. In the example below, the genres of Documentary, Foreign, Comedy, Fantasy, or Musical were rejected.
 
- [wiki:Plugins/apple_trailers Apple Trailers Plugin]::
-
-=== Downloading Trailers By Genre ===
-
-This method involves looking up movie titles through the [wiki:Plugins/imdb imdb] plugin. It then filters out the genres you don't want included. In the example below, the genres of Documentary, Foreign, Comedy, Fantasy, or Musical were rejected.
-
-{{{
+```
 AppleTrailers:
   apple_trailers: 720p
   imdb:
@@ -22,7 +19,7 @@ AppleTrailers:
   set:
     filename: '{{title}} - Trailer - 720p.mov'
   seen: local  # We don't want accepted entries from this feed to affect actual movie download feeds.
-}}}
+```
 
 
-[wiki:Cookbook Back to The Cookbook]
+[Back to The Cookbook](/Cookbook)

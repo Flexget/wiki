@@ -20,36 +20,36 @@ Using season pack in a series should have several operational modes:
 
 === auto
 The default mode. If used, decides whether a season pack should be download by parsing it, figuring out how many episodes it hold and then calculating how many episodes are already fetched in DB. If the number is below a certain default threshold, season pack will be fetched.
-{{{
+```
 series:
   - My Series:
       season_packs: yes
-}}}
+```
 
 A more fine tuned approach could be used like this:
-{{{
+```
 series:
   - My Series:
       season_packs: 
         mode: auto
         threshold: 30  # Will fetch season pack if less than 30 percent of episodes were downloaded
-}}}
+```
 
 === always
 Will fetch all matching season packs of the series.
-{{{
+```
 series:
   - My Series:
       season_packs: always
-}}}
+```
 === manual
 Will fetch all specific season packs only. Should take season numbers, range (?)
 
-{{{
+```
 series:
   - My Series:
       season_packs: 1,2,5-6,9-
-}}}
+```
 
 = Pitfalls
 

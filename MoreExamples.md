@@ -1,3 +1,3 @@
 Deprecated. See:
 
-[wiki:CookBook]
+[CookBook](/CookBook)

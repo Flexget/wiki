@@ -1,3 +1,2 @@
-= Commandline Config =
-
-Removed, see [wiki:ModuleCliConfig].
+# Commandline Config
+Removed, see [ModuleCliConfig](/ModuleCliConfig).

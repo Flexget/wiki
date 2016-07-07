@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/seen_movies]
+Continue to [Plugins/seen_movies](/Plugins/seen_movies)

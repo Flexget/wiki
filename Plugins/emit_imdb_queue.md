@@ -1,1 +1,1 @@
-See [wiki:"Plugins/emit_movie_queue"].
+See ["Plugins/emit_movie_queue"](/"Plugins/emit_movie_queue").

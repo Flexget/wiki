@@ -1,10 +1,10 @@
-== Metainfo Movie ==
+## Metainfo Movie
 Allows parsing the received title by selected movie parser, and populating entry fields with relevant movie attributes.
 
-=== Syntax ===
-{{{
+### Syntax
+```
 metainfo_movie: yes
-}}}
+```
 
 This will add the following fields to an entry:
 
@@ -14,7 +14,7 @@ This will add the following fields to an entry:
 - `proper`
 - `proper_count`
 
-If selected movie [wiki:Plugins/parsing parser] is guessit, the following fields will also be added:
+If selected movie [parser](/Plugins/parsing) is guessit, the following fields will also be added:
 
 - `is_3d`
 - `subtitle_languages`

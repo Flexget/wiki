@@ -1,65 +1,60 @@
-= Scheduling =
+# Scheduling
+Before scheduling FlexGet you must must [write a configuration file](/Configuration) and test that it works correctly.  The SQLite database file will get created in the same directory with the configuration file, so please make sure the user executing flexget has write access to that path.
 
-Before scheduling !FlexGet you must must [wiki:Configuration write a configuration file] and test that it works correctly.  The SQLite database file will get created in the same directory with the configuration file, so please make sure the user executing flexget has write access to that path.
+FlexGet is designed to be executed from user crontab.
 
-!FlexGet is designed to be executed from user crontab.
+### Detemine full path to executable
+To determine where FlexGet command resides run:
 
-=== Detemine full path to executable ===
-
-To determine where !FlexGet command resides run:
-
-{{{
+```
 which flexget
-}}}
+```
 
 Example output: `/usr/local/bin/flexget`. This may be different in your environment!
 
-=== Edit crontab ===
-
-!FlexGet is meant to be executed from users own crontab, '''not''' from /etc/crontab (root). Although this is possible it is highly discouraged.
+### Edit crontab
+FlexGet is meant to be executed from users own crontab, **not** from /etc/crontab (root). Although this is possible it is highly discouraged.
 
 To change default editor for crontab, you can use command:
 
-{{{
+```
 export EDITOR=nano
-}}}
+```
 
 ^You may wish to add this into your ~/.bashrc so it will be always the default editor^
 
-To edit user crontab execute command (Note: [https://help.ubuntu.com/community/CronHowto#Enable%20User%20Level%20Cron ubuntu]):
+To edit user crontab execute command (Note: [ubuntu](https://help.ubuntu.com/community/CronHowto#Enable%20User%20Level%20Cron)):
 
-{{{
+```
 crontab -e
-}}}
+```
 
 Enter one new line on crontab:
 
-{{{
+```
 @hourly /usr/local/bin/flexget --cron execute
-}}}
+```
 
-This will run !FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often.
+This will run FlexGet every hour. You may run it more frequently as well, but I wouldn't recommend going below 30 minutes since it will cause unnecessary load on RSS-feeds and pages you're subscribed to. Some feed providers even ban your IP if you request feed too often.
 
 To run more often you may use crontab in form of:
 
-{{{
+```
 */30 * * * * /usr/local/bin/flexget --cron execute
-}}}
+```
 
 Where 30 is the time between executions.
 
-=== Verification ===
+### Verification
+Once FlexGet runs successfully from crontab it will log this few times into the log file. The log file is located in same directory as your configuration file.
 
-Once !FlexGet runs successfully from crontab it will log this few times into the log file. The log file is located in same directory as your configuration file.
-
-=== Daemon Mode ===
-
-With !FlexGet running in [wiki:Daemon daemon mode] you can use the [wiki:Plugins/Daemon/scheduler scheduler] plugin to define when your tasks should be run inside the configuration file.
+### Daemon Mode
+With FlexGet running in [daemon mode](/Daemon) you can use the [scheduler](/Plugins/Daemon/scheduler) plugin to define when your tasks should be run inside the configuration file.
 
 To start the daemon at system boot you would use:
 
-{{{
+```
 @reboot /usr/local/bin/flexget daemon start -d
-}}}
+```
 
-There are also some other methods available, listed [wiki:Daemon/Startup here].
+There are also some other methods available, listed [here](/Daemon/Startup).

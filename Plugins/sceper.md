@@ -1,12 +1,11 @@
-= Sceper =
-
+# Sceper
 Uses sceper.ws category url as input.
 
-'''{{{NOTE:}}}''' This plugin relies on urlrewriters to rewrite to a valid download link. Certain urlrewriters may need to be disabled on the task if they do not produce the download links, most notably `urlrewrite_redirect`.
+**`NOTE:`** This plugin relies on urlrewriters to rewrite to a valid download link. Certain urlrewriters may need to be disabled on the task if they do not produce the download links, most notably `urlrewrite_redirect`.
 
 Example:
 
-{{{
+```
 sceper: http://sceper.ws/category/tv-shows/tv-shows-x264
-disable_urlrewriters: [urlrewrite_redirect]
-}}}
+disable_urlrewriters: [urlrewrite_redirect](/urlrewrite_redirect)
+```

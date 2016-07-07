@@ -1,1 +1,1 @@
-See [wiki:"Plugins/template"].
+See ["Plugins/template"](/"Plugins/template").

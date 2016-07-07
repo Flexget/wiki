@@ -4,7 +4,7 @@ This is a complete work in progress.
 
 
 
-{{{
+```
 templates:
   global:
 #download path
@@ -125,4 +125,4 @@ tasks:
     template:
       - trakt_seen_movies
 
-}}}
+```

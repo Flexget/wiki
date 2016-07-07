@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/try_regexp]
+Continue to [Plugins/try_regexp](/Plugins/try_regexp)

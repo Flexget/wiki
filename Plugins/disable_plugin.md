@@ -1,1 +1,1 @@
-See [wiki:"Plugins/disable"].
+See ["Plugins/disable"](/"Plugins/disable").

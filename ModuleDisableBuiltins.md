@@ -1,5 +1,4 @@
-= Oops, page moved =
-
+# Oops, page moved
 Please update the link!
 
-Continue to [wiki:Plugins/disable_builtins]
+Continue to [Plugins/disable_builtins](/Plugins/disable_builtins)
