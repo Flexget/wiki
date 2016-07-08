@@ -1,6 +1,6 @@
 ## New Wiki!
 
-It's a new wiki! We've migrated from [trac](https://trac.edgewall.org/) to [realms](http://realms.io) for our wiki. There are many improvements, including better mobile support, and live previews while editing. If there were problems with the markdown conversion, feel free to fix them up. If there are any other issue, come find us in chat, so we can work them out.
+It's a new wiki! We've migrated from [trac](https://trac.edgewall.org/) to [realms](http://realms.io) for our wiki. There are many improvements, including better mobile support, and live previews while editing. If there were problems with the markdown conversion, feel free to fix them up. If there are any other issues, come find us in chat, so we can work them out.
 
 ## Chat and Support
 
