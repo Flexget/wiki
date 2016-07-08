@@ -48,12 +48,11 @@ pyload:
   enabled: yes
 ```
 
-(XXX macro: "br")
+
 ### API Access
 The **api** parameter should be the address of the webinterface followed by "/api", in case the webinterface runs locally on port 8000 the default value will suffice.
 Don't forget to set the correct **username** and **password**.
 
-(XXX macro: "br")
 ### How to Add Downloads
 You can define the naming format for the packages to be added with every entry by specifying the **package** parameter accordingly. It is [Jinja](http://flexget.com/wiki/Jinja) enabled and, therefore, allows for a dynamic formatting by applying the [entry](http://flexget.com/wiki/Entry)'s field values.
 For example, the following will result in packages like "The Walking Dead - S01E05":
@@ -66,12 +65,10 @@ pyload:
 
 If no package formatting is defined, Flexget uses the name of the entry.
 
-(XXX macro: "br")
 This is not yet possible for the definition of the **folder** parameter, which can be used to define a certain download folder. When no folder is supplied pyload will choose the folder name (Usually the package name).
 
 The **queue** parameter specifies whether new packages should be queued immediately or added to the collection instead.
 
-(XXX macro: "br")
 ### Hosters and URL Parsing
 By default this plugin will accept all hoster, if you want to filter prefered ones lookup the names at pyloads [plugin overview](http://pyload.org/hoster) first.
 Then simply create a list like this:
@@ -88,8 +85,6 @@ If **queue** is activated downloads will start immediately, otherwise go to coll
 
 When **parse_url** is activated pyload will load the html page at the feed url and check it for additional links. This is useful for hoster who don't include any links in the feed content. This requires that the feed url to link at an article or page related to the entry and **not** on a general page or front page. You should first make sure that this is the case so no wrong links gets added.
 
-
-(XXX macro: "br")
 ### How to add a password to a package
 You can define the password for the package send to pyload, this password will be used for extraction.
 
