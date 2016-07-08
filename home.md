@@ -122,4 +122,4 @@ We're seeking new developers for [web interface](/Web-UI). Python, Javascript an
 ## Donate
 We appreciate any donations towards hosting costs and development of FlexGet.
 
-<img src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg, link=https://gratipay.com/flexget">
+<a href="https://gratipay.com/flexget"><img src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg"></a>
