@@ -161,10 +161,14 @@ Using a title is require. You can also add additional identifiers in the followi
 $ flexget movie-list add <LIST_NAME> <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
 ```
 
-Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.(XXX macro: "br")
-If the specified movie list does not exist it will be created.(XXX macro: "br")
-If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given). (XXX macro: "br")
-Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallback to [TMDB](http://www.tmdb.com). If both lookups fail, the movie will not be added to the list.(XXX macro: "br")
+Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.
+
+If the specified movie list does not exist it will be created.
+
+If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given).
+
+Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallback to [TMDB](http://www.tmdb.com). If both lookups fail, the movie will not be added to the list.
+
 If a movie is added with identifiers, those will take precedence in the lookup before using its title.
 
 ### Removing a movie from movie list
