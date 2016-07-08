@@ -52,12 +52,12 @@ flexget web gentoken
 ## Development
 We have a functional API with documentation available at http://flexget_ip:3539/api/.
 
-The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat at gitter [https://gitter.im/Flexget/Flexget](/https://gitter.im/Flexget/Flexget)
+The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat at gitter [https://gitter.im/Flexget/Flexget](https://gitter.im/Flexget/Flexget)
 
 To get started you will first need to setup your environment from Git.
 
 ### Setup from Git
-You will need to install NPM (see [https://nodejs.org/en/](/https://nodejs.org/en/))
+You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))
 
 Following commands will do that as user, requires g++ to be installed:
 
