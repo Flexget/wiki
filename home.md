@@ -1,6 +1,8 @@
+## New Wiki!
 
-<h2 style="text-align: left; color: #000">Chat and Support</h2>
+It's a new wiki! We've migrated from [trac](https://trac.edgewall.org/) to [realms](http://realms.io) for our wiki. There are many improvements, including better mobile support, and live previews while editing. If there were problems with the markdown conversion, feel free to fix them up. If there are any other issue, come find us in chat, so we can work them out.
 
+## Chat and Support
 
 Join us for chat and discussions via [FlexGet @ Gitter](https://gitter.im/Flexget/Flexget) or [FlexGet @ Freenode](http://webchat.freenode.net/?channels=#flexget)
 
