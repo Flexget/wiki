@@ -2,8 +2,6 @@
 **DEPRECATED**
 
 Use [prowl](/Plugins/prowl) plugin instead!
-(XXX macro: "BR")  
-
 
 If you have the iPhone app Prowl, you can use the exec plugin and curl to send notifications.
 
