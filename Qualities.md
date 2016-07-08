@@ -1,68 +1,77 @@
+---
+categories:
+  Resolutions:
+  - 1080p
+  - 1080i
+  - 720p
+  - 720i
+  - hr
+  - 576p
+  - 480p
+  - 368p
+  - 360p
+  
+  Sources:
+  - bluray
+  - remux
+  - dvdrip
+  - webdl
+  - hdtv
+  - bdscr
+  - dvdscr
+  - sdtv
+  - webrip
+  - dsr
+  - tvrip
+  - preair
+  - ppvrip
+  - hdrip
+  - r5
+  - tc
+  - ts
+  - cam
+  - workprint
+  
+  Codecs:
+  - 10bit
+  - h265
+  - h264
+  - xvid
+  - divx
+  
+  Audio:
+  - truehd
+  - dts
+  - dtshd
+  - flac
+  - ac3
+  - dd5.1
+  - aac
+  - mp3
+---
 # Qualities
 Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
 
-```th
-** Resolutions **
-```
-```th
-** Sources **
-```
-```th
-** Codecs **
-```
-```th
-** Audio **
-```
-|--------
-```td style="vertical-align: top"
-- 1080p
-- 1080i
-- 720p
-- 720i
-- hr
-- 576p
-- 480p
-- 368p
-- 360p
-```
-```td style="vertical-align: top"
-- bluray
-- remux
-- dvdrip
-- webdl
-- hdtv
-- bdscr
-- dvdscr
-- sdtv
-- webrip
-- dsr
-- tvrip
-- preair
-- ppvrip
-- hdrip
-- !r5
-- tc
-- ts
-- cam
-- workprint
-```
-```td style="vertical-align: top"
-- 10bit
-- h265
-- h264
-- xvid
-- divx
-```
-```td style="vertical-align: top"
-- truehd
-- dts
-- dtshd
-- flac
-- ac3
-- dd5.1
-- aac
-- mp3
-```
+<table>
+<tr>
+{{#each categories }}
+  <td style="vertical-align: top">
+  ** {{@key}} **
+  </td>
+{{/each}}
+</tr>
+<tr>
+{{#each categories }}
+  <td>
+  <ul>
+  {{# this }}
+  <li>{{ this }}</li>
+  {{/this}}
+  </ul>
+  </td>
+{{/each}}
+</table>
+
 
 ## Requirements
 In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
