@@ -8,7 +8,9 @@ trakt_list:
   type: shows
 trakt_lookup: yes
 if:
-  - trakt_in_collection and trakt_series_status == 'Ended': accept
+  - trakt_in_collection and trakt_series_status == 'ended': accept
+if:
+  - trakt_in_collection and trakt_series_status == 'canceled': accept
 trakt_remove:
   username: ***
   password: ***
