@@ -1,3 +1,8 @@
+---
+include:
+  - Qualities
+---
+
 # Quality
 Allows specifying acceptable qualities. All other qualities will be rejected. (NOTE: If you are using another plugin with it's own quality detection, i.e. [series](/series), it might offer more functionality. Also mixing series quality options and quality plugin will cause weird behavior.)
 
@@ -18,4 +23,4 @@ quality:
   - 1080p webdl
 ```
 
-(XXX macro: "Include(wiki:Qualities)")
+{{> Qualities }}
