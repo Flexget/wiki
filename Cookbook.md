@@ -7,29 +7,29 @@ Feel free to add your own recipes or improve existing ones.
 
 **To edit the wiki:**
 
-You can either [register](http://flexget.com/register) or login with username: **flexget** password: **anon**
+You can [login](/login) via oauth with either a GitHub or Google account.
 
 ## Delicious recipes
- [Recipes for series](/Cookbook/Series)::
- [Recipes for movies](/Cookbook/Movies)::
- [Recipes for URL rewriting](/Cookbook/Urlrewrite)::
- [Recipes for Ebooks](/Cookbook/Ebooks)::
- [General recipes](/Cookbook/General)::
- [Advanced recipes](/Cookbook/Advanced)::
+- [Recipes for series](/Cookbook/Series)
+- [Recipes for movies](/Cookbook/Movies)
+- [Recipes for URL rewriting](/Cookbook/Urlrewrite)
+- [Recipes for Ebooks](/Cookbook/Ebooks)
+- [General recipes](/Cookbook/General)
+- [Advanced recipes](/Cookbook/Advanced)
 
 ## Client guides
- [Complete working example for Transmission ](/Cookbook/Transmission)::
- [Complete working example for rTorrent](/Cookbook/rTorrent)::
- [Brief working example for uTorrent](/Cookbook/uTorrent)::
- [Transfer torrents from Transmission to Deluge](/Cookbook/TransmissionToDeluge)::
- [Transfer torrents from Deluge to Transmission](/Cookbook/DelugeToTransmission)::
- [Example for Jdownloader2](/Cookbook/Jdownloader2)::
+- [Complete working example for Transmission ](/Cookbook/Transmission)
+- [Complete working example for rTorrent](/Cookbook/rTorrent)
+- [Brief working example for uTorrent](/Cookbook/uTorrent)
+- [Transfer torrents from Transmission to Deluge](/Cookbook/TransmissionToDeluge)
+- [Transfer torrents from Deluge to Transmission](/Cookbook/DelugeToTransmission)
+- [Example for Jdownloader2](/Cookbook/Jdownloader2)
 
 ## User configurations
- [Complete user configurations](/Cookbook/Users)::
+- [Complete user configurations](/Cookbook/Users)
 
 ## Database management
- [Repair 1.2 -> 2.0 upgrade failure](/Cookbook/export):: *- (nobody should need this)*
+- [Repair 1.2 -> 2.0 upgrade failure](/Cookbook/export) *- (nobody should need this)*
 
 ## Helper scripts
- [Helper](/Helper) scripts and other quick one-liners::
+- [Helper](/Helper) scripts and other quick one-liners
