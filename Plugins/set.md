@@ -1,3 +1,7 @@
+---
+import:
+  - Jinja
+---
 # Set
 Stores info in an [entry](/Entry). Can also do dynamic formatting per entry.
 
@@ -27,7 +31,7 @@ regexp:
     - that regexp
 ```
 
-(XXX macro: "Include(wiki:Jinja)")
+{{> Jinja}}
 
 ## Plugins that accept Set keywords
 Calling set however does not do much unless another plugin uses the information you have set. The following plugins will use values you have set with this plugin.
