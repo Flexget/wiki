@@ -1,6 +1,5 @@
 # TVTorrents
 **Plugin seems to be broken at the moment and there's nobody to maintain it**
-(XXX macro: "BR")(XXX macro: "BR")  
 
 A customized HTML input module. Parses out full torrent URLs from [TVTorrents](http://tvtorrents.com)' page for recently aired TV show episodes.
 
