@@ -25,7 +25,7 @@ Entries will have following fields:
 | created | Datetime |
     
 ## Examples
-=== Single path ===      
+### Single path
 
 ```
 filesystem: /storage/movies/
