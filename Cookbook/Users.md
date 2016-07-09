@@ -10,7 +10,8 @@ Please post the version of FlexGet that your config was designed for, so people 
 ## Tested & Working 2.x Configs
 * [qvazzler](http://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
 * [cvium](https://github.com/cvium/.flexget) (v2.1.1) - Utilizes RSS, discover and IRC, includes some custom plugins. Every movie/show is maintained by Trakt lists.
-* [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) simple movie & tv downloading config with trakt and imdb watchlist intergration.
+* [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
+* [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
 
 ## Untested 1.x Configs
 * [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
@@ -23,7 +24,6 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [Cookbook/Users/lilp](/Cookbook/Users/lilp) (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. Movie with IMDB watchlist and T411 search in VOSTFR and HD. French User
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v1.2.284) automatically SCP files from a remote Tranmission instance to a local directory.
 * [malkavi](/Cookbook/Users/malkavi) (v1.2.313) Spanish Movies and series config.
-* [jonybat](https://github.com/Jonybat/flexget_config) (v1.2.509)
 * [nikdoof](https://github.com/nikdoof/flexget-config) (v1.2)
 * [Tommynator](/Cookbook/Users/Tommynator) (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
 * [Systy](/Cookbook/Users/Systy) (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
