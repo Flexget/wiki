@@ -15,7 +15,6 @@ Is there a way to change settings for a whole db list? Or are they always stored
 
 configure_series, Does it write a list to db, or pass a text config to series plugin still?
 
-
 ## Suggestions
 * All series will use a series list.
 * If series is defined in config, it'll use a default reserved list name (`default_series_list` for example).
@@ -23,8 +22,8 @@ configure_series, Does it write a list to db, or pass a text config to series pl
 * All tracking will be done internally in the list scope and not globally.
 * `next_series_episodes` will be able to take a `series_list` name. By default it'll use the default series name.
 * `configure_series` will still be used and will reset the default list. Behind the scenes it'll perform a list purge and then list add to the default list.
-* Proposed ERD:
-<img src="/attachments/Drafts/series_db_refactor/series_erd.png, 500px">
+* Proposed ERD: ![erd](http://flexget.com/attachments/Drafts/series_db_refactor/series_erd.png)
+
 
 ### Attachments
 * [draft 3](/attachments/Drafts/series_db_refactor/series_erd.png)
