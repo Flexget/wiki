@@ -36,7 +36,9 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [sceneaccess](/Searches/sceneaccess) | Searches torrent site sceneaccess |
 | [torrentshack](/Searches/torrentshack) | Searches torrent site torrentshack |
 | [torrentleech](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
-| [whatcd](/Searches/whatcd) | Searches torrent site whatcd |
+| [whatcd](/Searches/whatcd) | Searches torrent site whatcd|
+|[fuzer](/Searches/fuzer) | Searches torrent site Fuzer
+
 
 You can always get an up to date overview of the available search plugins by using the command line with command 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
