@@ -36,7 +36,7 @@ tasks:
     rtorrent:
       action: update
       custom2: complete
-      uri: http://192.168.0.20/north
+      uri: http://192.168.0.20/rtorrent
       path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
 ```
 
@@ -109,5 +109,5 @@ tasks:
     rtorrent:
       action: delete
       custom2: complete
-      uri: http://192.168.0.20/north
+      uri: http://192.168.0.20/rtorrent
 ```
