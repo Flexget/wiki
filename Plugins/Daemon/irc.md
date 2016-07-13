@@ -1,6 +1,5 @@
 ## IRC
-This plugin will allow you to connect an "autodl" bot to an IRC channel. It listens for release announcements, parses them and sends them to the FlexGet daemon, which executes a task of your choosing with the input from IRC.
-It's a somewhat complex plugin and difficult to test without access to the various trackers.
+This plugin will allow you to connect a bot to an IRC channel. It listens for release announcements, parses them and sends them to the FlexGet daemon, which executes a task of your choosing with the input from IRC.
 
 Unlike web crawling like most other search plugins, the bot will instead await torrent announcements in the given IRC channel(s), and will instantly pick any new releases up almost immediately.
 
@@ -59,7 +58,6 @@ irc:
     tracker_file: 'MyOtherFunTracker.tracker'
     nickname: 'flexget-bot'
     nickserv_password: '{{ secrets.other_irc.nickserv_password }}'
-    port: 6667
     passkey: '{{ secrets.other_irc.passkey }}'
     task_re:
       get_tv_entry_with_tracking:
