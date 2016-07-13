@@ -10,12 +10,12 @@ Unlike web crawling like most other search plugins, the bot will instead await t
 
 ### Tips
 * Read your tracker's wiki/FAQ very carefully. Using this plugin and getting banned for not following rules is your own fault.
-* Consider setting `manual: yes` in your irc tasks to avoid the scheduler automatically executing them.
+* The tasks you use for irc should have `manual: yes` to avoid the scheduler automatically executing them.
 * The plugin populates a few irc-specific Entry fields. They are all prefixed with `irc_`. You can see which fields are available by opening the `.tracker` file (see above where to get it). Any lines with the format `<var name="category"/>` will be available (some of them might be optional though) eg. `irc_category`.
 * When posting logs of this plugin anywhere, make sure your personal information is scrubbed. If you leak your own rsskey etc. you will have to generate a new one or risk getting your account hijacked.
 * **We cannot assist you with tracker specific problems unless it's because of a bug in our implementation.**
 * Passkey, rsskey, user, uid, the fields you need to specify all vary depending on the tracker. In the `.tracker` file they will most likely be in the `<settings></settings>` block.
-* It is _technically_ possible to run this without a tracker file if the announcements merely contain the title and an url. If the message is more than this, be prepared to use the manipulate plugin and a lot of time setting it up.
+* It is _technically_ possible to run this without a tracker file, but then you'd lose the irc_ prefixed fields. If the message is more than an URL, be prepared to use the manipulate plugin.
 * Visit our [Gitter](https://gitter.im/Flexget/Flexget) if you have questions/issues.
 
 ### Settings
@@ -101,7 +101,7 @@ tasks:
   get_movie_entry:
     manual: yes
     template: download-it
-    quality: 1080p dvdrip+ !h265 !ac3
+    quality: 1080p dvdrip+
     list_match:
       from:
         - movie_list: watchlist
