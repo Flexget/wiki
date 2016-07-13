@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <br /><br />
-                <img class="landing-logo" alt="Flexget" title="Flexget" src="/_static/flexget.png"/>
+                <img class="landing-logo" alt="Flexget" title="Flexget" src="http://flexget.com/_static/flexget.png"/>
                 <h3>The ultimate media automation tool</h3>
                 <hr class="small">
                 <h2>FlexGet is a multipurpose automation tool for all of your media</h2>
@@ -222,7 +222,7 @@ task <span class="hljs-attribute">name</span>:
                 <div class="col-lg-6">
                     <h3>Donate</h3>
                     <p>We appreciate any donations towards hosting costs and the development of FlexGet.</p>
-                    <p><a href="https://gratipay.com/flexget" target="_blank"><img src="img/gratipay.svg"></a></p>
+                    <p><a href="https://gratipay.com/flexget" target="_blank"><img src="http://flexget.com/_static/gratipay.svg"></a></p>
                 </div>
                 <div class="col-lg-12">
                     <hr class="small">
