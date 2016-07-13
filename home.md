@@ -154,20 +154,19 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
-                <h2 class="text-center">How easy is it to use?</h2>
-                <p>Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental <a href="/Web-UI">Web-UI</a> coming along (slowly).</p>
-                <p>FlexGet uses <a href="http://en.wikipedia.org/wiki/YAML" target="_blank">YAML</a> for configuration. This may be confusing (for new users) at first, but don't be scared, FlexGet is equipped with validator that tries to guide you if you make mistakes.</p>
-                <p><strong>Configuration example:</strong> </p>
-                <p>This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.</p>
-
+<h2 class="text-center">How easy is it to use?</h2>
+<p>Easy configuration was a high priority when designing the application. If you have ever used command line based application you should be more than qualified. There is also experimental <a href="/Web-UI">Web-UI</a> coming along (slowly).</p>
+<p>FlexGet uses <a href="http://en.wikipedia.org/wiki/YAML" target="_blank">YAML</a> for configuration. This may be confusing (for new users) at first, but don't be scared, FlexGet is equipped with validator that tries to guide you if you make mistakes.</p>
+<p><strong>Configuration example:</strong> </p>
+<p>This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.</p>
 <pre>
 <code class="hljs qml"><span class="hljs-attribute">tasks</span>:
-task <span class="hljs-attribute">name</span>:
-<span class="hljs-attribute">rss</span>: <span class="hljs-attribute">http</span>:<span class="hljs-comment">//example.com/torrents.xml</span>
-<span class="hljs-attribute">series</span>:
-- pioneer one
-- some series
-<span class="hljs-attribute">download</span>: ~<span class="hljs-regexp">/torrents/</span>series/
+  task <span class="hljs-attribute">name</span>:
+    <span class="hljs-attribute">rss</span>: <span class="hljs-attribute">http</span>:<span class="hljs-comment">//example.com/torrents.xml</span>
+    <span class="hljs-attribute">series</span>:
+      - pioneer one
+      - some series
+    <span class="hljs-attribute">download</span>: ~<span class="hljs-regexp">/torrents/</span>series/
 </code>
 </pre>
 
