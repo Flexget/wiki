@@ -68,3 +68,22 @@ list_match:
   action: reject
 download: /downloads/
 ```
+
+## Use case examples:
+This example shows you how to sync a list from Trakt in Flexget, if you remove an entry in Trakt, it will get removed from your my-watchlist in Flexget as well. (UNTESTED, need confirmation if this actually works)
+
+```yaml
+remove-from-list
+  entry_list: my-watchlist
+  list_match:
+    from:
+      - trakt_list:
+          account: xxx
+          list: watchlist
+          type: shows
+    action: reject # Will reject the entry if it's still in Trakt
+    remove_on_match: no #Don't remove matched entries from Trakt, since that would clear all shows in Trakt, that are on your my-watchlist
+  accept_all: yes
+  list_remove:
+    - entry_list: my-watchlist
+```
