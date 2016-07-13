@@ -375,9 +375,11 @@ Perform operations on 3rd part software.
 ## Daemon
 These plugins are specifically for when FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
-
-| [scheduler](/Plugins/Daemon/scheduler) | Executes tasks with a given interval or schedule while daemon is running. |
+| **Keyword** | **Description** |
 | --- | --- |
+| [scheduler](/Plugins/Daemon/scheduler) | Executes tasks with a given interval or schedule while daemon is running. |
+| [irc](/Plugins/Daemon/irc) | Connect a bot to an IRC channel and act on tracker announcements.|
+
 
 ## Command Line Interface
 Use `flexget --help` for full list of subcommands. `--help` can also be used with any of the subcommands for further help text.
