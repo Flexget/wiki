@@ -171,7 +171,7 @@ task <span class="hljs-attribute">name</span>:
 </code>
 </pre>
 
-                <p>This example would download new episodes of <code>pioneer one</code> and <code>some series</code> to <code>~/series</code> using <a href="/Plugins/series">series</a> plugin.</p>
+<p>This example would download new episodes of <code>pioneer one</code> and <code>some series</code> to <code>~/series</code> using <a href="/Plugins/series">series</a> plugin.</p>
                 <p>For more information about how FlexGet works, check available <a href="/Plugins">plugins</a> or detailed <a href="/Configuration">configuration</a>.</p>
                 <br />
                 <div class="text-center"><a href="/Cookbook" class="btn btn-dark">Check out the CookBook!</a></div>
