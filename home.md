@@ -54,38 +54,7 @@
         </div>
     </div>
 </section>
-<header class="header">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://flexget.com/">FlexGet</a>
-            </div>
-            <div class="navbar-collapse collapse navbar-inverse-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/_index"><i class="fa fa-list"></i><span class="hidden-sm"> Index</span></a></li>
-                    <li><a href="/_create/"><i class="fa fa-plus"></i><span class="hidden-sm"> New</span></a></li>
-                    <li><a href="/_edit/home"><i class="fa fa-pencil"></i><span class="hidden-sm"> Edit</span></a></li>
-                    <li><a href="/_history/home"><i class="fa fa-clock-o"></i><span class="hidden-sm"> History</span></a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <form class="navbar-form" role="search" action="/_search">
-                            <div class="form-group">
-                                <input name="q" type="text" class="form-control" placeholder="Search">
-                            </div>
-                        </form>
-                    </li>
-                    <li><a href="/login"><i class="fa fa-user"></i> &nbsp;Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
+
 <section id="features" class="features bg-flexlight">
     <div class="container">
         <div class="row text-center">
