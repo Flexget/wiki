@@ -1,4 +1,4 @@
-**`This page needs updated to use python 2.6 or 2.7 (and preferably pip.) Please feel free to do so.`**
+**`This page needs updated to use python 2.7 and pip. Please feel free to do so.`**
 # TODO: write
 ```
 ipkg install py25-setuptools
