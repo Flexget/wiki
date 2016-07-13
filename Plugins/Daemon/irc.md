@@ -1,7 +1,7 @@
 ## IRC
 This plugin will allow you to connect a bot to an IRC channel. It listens for release announcements, parses them and sends them to the FlexGet daemon, which executes a task of your choosing with the input from IRC.
 
-Unlike web crawling like most other search plugins, the bot will instead await torrent announcements in the given IRC channel(s), and will instantly pick any new releases up almost immediately.
+The benefit to this plugin over regular search plugins that utilize API/scraping is that any new downloads will be picked up as soon as they are available.
 
 ### Prerequisites
 * Run Flexget in daemon-mode. (ex: *flexget daemon start --daemonize*). This means you may want to migrate your cron-jobs to use the scheduler plugin instead.
@@ -9,6 +9,19 @@ Unlike web crawling like most other search plugins, the bot will instead await t
 * rsskey or other needed credentials located in the tracker file and in the guide sections in your tracker website. (hint: look for autodl guides)
 
 ### Tips
+* **Note that this is a daemon plugin, which unlike a "regular" plugin is not placed under the tasks section of the config, but rather on the root level. Eg.:**
+
+```
+irc:
+  my_irc_name:
+    <irc_config>
+tasks:
+  my_task:
+    <task_config>
+templates:
+  my_template:
+    <template_config>
+```
 * Read your tracker's wiki/FAQ very carefully. Using this plugin and getting banned for not following rules is your own fault.
 * The tasks you use for irc should have `manual: yes` to avoid the scheduler automatically executing them.
 * The plugin populates a few irc-specific Entry fields. They are all prefixed with `irc_`. You can see which fields are available by opening the `.tracker` file (see above where to get it). Any lines with the format `<var name="category"/>` will be available (some of them might be optional though) eg. `irc_category`.
@@ -31,7 +44,7 @@ Unlike web crawling like most other search plugins, the bot will instead await t
 | **nickserv_password** |  Password for authenticating your nickname to nickserv  |   |
 | **invite_nickname** |  Some trackers require this for authentication  |   |
 | **invite_message** |  Some trackers require this for authentication  |   |
-| **queue_size** |  Throttle IRC torrent announcements in case of spam. No need to tamper with this.  |  1 *(default)*  |
+| **queue_size** |  If set to higher than 1, it will wait until it has received `queue_size` announcements before sending them to the task(s).  |  1 *(default)*  |
 | **use_ssl** |  Use SSL when connecting to the server(s).  |  No *(default)*  |
 | **task_delay** |  The amount of time in seconds to delay task execution. Useful for when announcements are too early (unregistered torrent error).  |  30 |
 
