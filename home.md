@@ -1,3 +1,6 @@
+<style>
+.container { width: 100% !important }
+</style>
 <section id="about" class="about header-main row">
     <div class="container">
         <div class="row">
