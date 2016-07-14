@@ -1,4 +1,4 @@
-<section id="about" class="about header-main">
+<section id="about" class="about header-main row">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -150,7 +150,7 @@
     </div>
 </aside>
 
-<section id="how-easy" class="how-easy bg-flexlight">
+<section id="how-easy" class="how-easy bg-flexlight row">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
@@ -178,7 +178,7 @@
         </div>
     </div>
 </section>
-<footer>
+<footer class="row">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
