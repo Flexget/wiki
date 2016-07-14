@@ -1,9 +1,3 @@
-</div>
-</div>
-</div>
-<div class="container-fluid">
-  <div id="main-body">
-    <div id="page-content">
 <section id="about" class="about header-main row">
     <div class="container">
         <div class="row">
