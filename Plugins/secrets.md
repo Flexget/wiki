@@ -1,5 +1,5 @@
 # Secrets
-Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically process some jinja2 templates on startup, to assign the corresponding values set in a dedicated yaml file.
+Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically process some jinja2 templates on startup, to assign the corresponding values set in a dedicated yaml file or from DB.
 All the templates to process must begin with the word "secrets".
 
 ### Example
@@ -57,6 +57,10 @@ tasks:
       list: test
       type: movies
 ```
+#### Secrets from DB
+Secrets can be also cached to and loaded from DB (starting in v2.1.11). From that version, if a secrets file is present in configuration file, its contents will be cached to DB and will be accesible via the `/secrets/` endpoint in the API.
+
+In order to have the config use the secrets from the DB instead of the file, use `secrets: yes` in the config file instead of the secret file name. Loading secrets from DB and not the file is recommended when using the WebUI/API
 
 **Notes:**
 - The secrets file must stay in the same config.yml location.
