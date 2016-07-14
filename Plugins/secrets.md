@@ -1,6 +1,6 @@
 # Secrets
 Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically process some jinja2 templates on startup, to assign the corresponding values set in a dedicated yaml file or from DB.
-All the templates to process must begin with the wodrd "secrets".
+All the templates to process must begin with the word "secrets".
 
 ### Example
 In this sample `config.yml` we configure the plugin to look for config secrets in a file named `secrets.yml`:
