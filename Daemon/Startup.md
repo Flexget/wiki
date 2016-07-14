@@ -93,6 +93,7 @@ Please note that FGUSER needs to be defined for the daemon to start. It can be s
 Then, create the /etc/init.d/flexget file :
 
 ```/bin/bash
+#!/bin/bash
 
 ### BEGIN INIT INFO
 # Provides:          flexget
