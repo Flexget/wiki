@@ -55,7 +55,7 @@
     </div>
 </section>
 
-<section id="features" class="features bg-flexlight">
+<section id="features" class="features bg-flexlight row">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-8">
+                    <div class="col-md-4 col-sm-6">
                         <div class="feature-item">
                             <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -113,7 +113,7 @@
                             <p>Full series and movie support with <a href="/Plugins/Daemon/scheduler">automatic scheduling</a>, searching, downloading and even sorting in some cases.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8">
+                    <div class="col-md-4 col-sm-6">
                         <div class="feature-item">
                             <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -123,7 +123,7 @@
                             <p>A brand new <a href="/Web-UI">web interface</a> is being developed to help with configuration and settings.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-8">
+                    <div class="col-md-4 col-sm-12">
                         <div class="feature-item">
                             <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
