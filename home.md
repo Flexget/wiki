@@ -78,7 +78,7 @@
                                 <i class="fa fa-sitemap fa-stack-1x text-flexdark"></i>
                             </span>
                             <h4><strong>Client Integration</strong></h4>
-                            <p>Integrates with <a href="http://deluge-torrent.org/" target="_blank">Deluge</a>, <a href="http://www.transmissionbt.com/" target="_blank">transmission</a>, and <a href="http://www.utorrent.com/" target="_blank">uTorrent</a> directly, and other clients like <a href="https://rakshasa.github.io/rtorrent/" target="_blank">rTorrent</a> via watchdirs.</p>
+                            <p>Directly integrates with <a href="http://deluge-torrent.org/" target="_blank">Deluge</a>, <a href="http://www.transmissionbt.com/" target="_blank">transmission</a>, <a href="http://www.utorrent.com/" target="_blank">uTorrent</a> and <a href="https://rakshasa.github.io/rtorrent/" target="_blank">rTorrent</a></p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
