@@ -30,7 +30,7 @@ Currently the following settings are supported:
 ### Example: Add video files while moving
 This example shows how you would use subtitle_list in a task that sorts episodes based on their series_name.
 
-{{{
+```
   move_shows:
     metainfo_series: yes 
     filesystem:
@@ -49,7 +49,7 @@ This example shows how you would use subtitle_list in a task that sorts episodes
           languages:
             - en
           path: '{{ output }}'
-
+```
 
 ### Example: Download subtitles
 This example shows how to use the files in a subtitle list along with [subliminal](/Plugins/subliminal) to download subtitles.
