@@ -1,5 +1,5 @@
 # Web UI
-**We need your help! If are an AngularJS developer or can help with the layout/design/css then please join in the effort! (See Development Section Below)**
+**We need your help! If you are an AngularJS developer or can help with the layout/design/css then please join in the effort! (See Development Section Below)**
 
 **Relevant pages**
 
