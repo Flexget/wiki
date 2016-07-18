@@ -59,11 +59,13 @@ download:
   overwrite: yes
   fail_html: no
   temp: /path/for/temp
+  filename: my_filename.torrent
 ```
 
 `overwrite` If a non-identical file already exists with the given name, it will be overwritten. (defaults to false)  
 `fail_html` If html content is recieved (usually a login page), fail the entry. (defaults to true)  
-`temp` Downloads are saved in a temporary location before being moved to their final path. You can override the default temporary folder with this option.
+`temp` Downloads are saved in a temporary location before being moved to their final path. You can override the default temporary folder with this option.  
+`filename` Overrides the original filename. Supports jinja replacement.
 
 ## Multiple urls
 Some plugins (currently only [rss](/Plugins/rss), see "group link" value) can store multiple urls, to be tolerant to broken urls. If several urls are available, they will be tried sequentially until one works.
