@@ -1,9 +1,9 @@
 # Managed List Plugins
 Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.
 
-| Plugin name | Description |
-| --- | --- |
+
 | [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
+| --- | --- |
 | [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
 | [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
@@ -13,16 +13,16 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [regexp_list](/Plugins/List/regexp_list) | Use or add entries to a custom made regexp list. |
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
 ### Operating with lists
-| Plugin name | Description |
-| --- | --- |
+
 | [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
+| --- | --- |
 | [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
 | [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
 
 ## List action advanced usage
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
 
-```
+```yaml
 trakt_list:
   username: traktusername
   list: watchlist
@@ -34,7 +34,7 @@ list_add:
       list: watchlist
       type: movies
   - imdb_list:
-      login: email@123.com
+      login: 'email@123.com'
       password: flexget
       list: watchlist
 ```
