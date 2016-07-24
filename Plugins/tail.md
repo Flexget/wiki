@@ -14,6 +14,6 @@ tail:
 
 The default encoding will be utf8 if none has been specified in the config. If you are getting `?` instead of non-ascii characters in your entries, you have likely specified the wrong encoding.
 
-If the log file is detected to be smaller than in previous scan the position is reseted.
+If the log file is detected to be smaller than in previous scan the position will be reset to the begining.
 
 To reset file position manually use `--tail-reset FILE`
