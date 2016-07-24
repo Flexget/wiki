@@ -13,7 +13,7 @@ manipulate:
       [replace]:
         regexp: <regexp>
         format: <regexp>
-      [remove]): <boolean>
+      [remove]: <boolean>
 ```
 
 Valid values for phase are: metainfo and filter, metainfo is the default behavior.
