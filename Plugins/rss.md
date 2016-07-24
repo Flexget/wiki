@@ -111,7 +111,7 @@ If you want to keep information in another rss field attached to the flexget [en
 ```
 rss:
   url: <url>
-  other_fields: [date](/date)
+  other_fields: [date]
 ```
 
 ### Convert to ASCII
