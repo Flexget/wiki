@@ -6,14 +6,14 @@ Syntax:
 ```
 manipulate:
   - <destination field>:
-      [phase](/phase): <phase>
-      [from](/from): <source field>
-      [separator](/separator): <value>
-      [extract](/extract): <regexp>
-      [replace](/replace):
+      [phase]: <phase>
+      [from]: <source field>
+      [separator]: <value>
+      [extract]: <regexp>
+      [replace]:
         regexp: <regexp>
         format: <regexp>
-      [remove](/remove): <boolean>
+      [remove]): <boolean>
 ```
 
 Valid values for phase are: metainfo and filter, metainfo is the default behavior.
@@ -28,15 +28,15 @@ Title is filled with garbage that series plugin does not like.
 eg.
 
 ```
-[48952](/48952) The Series S01E01 720p
+[48952] The Series S01E01 720p
 ```
 
-This could be fixed by removing the [48952](/48952)
+This could be fixed by removing the [48952]
 
 ```
 manipulate:
   - title:
-      extract: \[\d+\](/\d+\)(.*)
+      extract: \[\d+\](.*)
 ```
 
 The (.*) part is what this regexp is extracting (capture group), so everything after those numbers.
@@ -62,12 +62,12 @@ You can do multiple manipulates in a row, and they will be executed in order. Yo
 ```
 manipulate:
   - title:
-      extract: .*\[\s*(.*)\s*\](/\s*(.*)\s*\)-.*
+      extract: .*\[\s*(.*)\s*\]-.*
   - filename:
       from: title
   - title:
       replace:            
-        regexp: '[\.-](/\.-)'
+        regexp: '[\.-]'
         format: ' '
 ```
 
