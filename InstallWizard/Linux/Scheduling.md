@@ -1,4 +1,7 @@
-[[Include(wiki:InstallWizard/Partial/Crontab)]]
+---
+import:
+  - InstallWizard/Partial/Crontab
+---
 
 # Completed!
 Sit back and relax.
