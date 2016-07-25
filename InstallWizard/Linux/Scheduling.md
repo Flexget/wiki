@@ -1,6 +1,6 @@
 ---
 import:
-  - Crontab
+  - InstallWizard/Partial/Crontab
 ---
 
 # Completed!
