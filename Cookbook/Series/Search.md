@@ -20,14 +20,14 @@ tasks:
   # classic rss feed monitoring
   monitor feed:
     rss: http://example.com
-    template: [tv](/tv)
+    template: [tv]
 
-  # new shiny automatic searching
+  # automatic searching
   search series:
-    template: [tv](/tv)
+    template: [tv]
     discover:
       what:
-        - emit_series:
+        - next_series_episodes:
             from_start: yes
       from:
         - torrentz: verified
