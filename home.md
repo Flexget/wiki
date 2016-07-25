@@ -4,7 +4,6 @@
             <div class="col-lg-12 text-center">
                 <br /><br />
                 <img class="landing-logo" alt="Flexget" title="Flexget" src="http://flexget.com/_static/flexget.png"/>
-                <h3>The ultimate media automation tool</h3>
                 <hr class="small">
                 <h2>FlexGet is a multipurpose automation tool for all of your media</h2>
                 <p class="lead">Support for torrents, nzbs, podcasts, comics, TV, movies, RSS, HTML, CSV, and more.</p>
@@ -27,7 +26,6 @@
                         <li><strong><a href="/Developers">Developers</a></strong></li>
                         <li><strong><a href="/Plugins">Plugins</a></strong></li>
                         <li><strong><a href="http://discuss.flexget.com/">Forum</a></strong></li>
-                        <li><strong><a href="/ChangeLog">Change Log</a></strong></li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
@@ -151,16 +149,14 @@
 <p>FlexGet uses <a href="http://en.wikipedia.org/wiki/YAML" target="_blank">YAML</a> for configuration. This may be confusing (for new users) at first, but don't be scared, FlexGet is equipped with validator that tries to guide you if you make mistakes.</p>
 <p><strong>Configuration example:</strong> </p>
 <p>This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.</p>
-<pre>
-<code class="hljs qml"><span class="hljs-attribute">tasks</span>:
-  task <span class="hljs-attribute">name</span>:
-    <span class="hljs-attribute">rss</span>: <span class="hljs-attribute">http</span>:<span class="hljs-comment">//example.com/torrents.xml</span>
-    <span class="hljs-attribute">series</span>:
+```yaml
+tasks:
+  task name:
+    rss: http://example.com/torrents.xml
+    series:
       - pioneer one
       - some series
-    <span class="hljs-attribute">download</span>: ~<span class="hljs-regexp">/torrents/</span>series/
-</code>
-</pre>
+```
 
 <p>This example would download new episodes of <code>pioneer one</code> and <code>some series</code> to <code>~/series</code> using <a href="/Plugins/series">series</a> plugin.</p>
                 <p>For more information about how FlexGet works, check available <a href="/Plugins">plugins</a> or detailed <a href="/Configuration">configuration</a>.</p>
@@ -177,7 +173,7 @@
                 <h1>Get Involved!</h1>
                 <div class="col-lg-6">
                     <h3>Developers wanted</h3>
-                    <p>We're seeking new developers for <a href="/Web-UI">web interface</a>. Python, Javascript and jQuery developers are all needed. Join the <a href="http://webchat.freenode.net/?channels=#flexget">FlexGet @ Freenode</a> IRC-channel if you're up for the task.</p>
+                    <p>We're seeking new developers for <a href="/Web-UI">web interface</a>. Python and AngularJS developers are all needed. Join the <a href="http://webchat.freenode.net/?channels=#flexget">FlexGet @ Freenode</a> IRC-channel if you're up for the task.</p>
                 </div>
                 <div class="col-lg-6">
                     <h3>Donate</h3>
