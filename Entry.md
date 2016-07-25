@@ -4,18 +4,18 @@ It contains all the information necessary for [plugins](/Plugins) to perform the
 
 For example, the [regexp](/Plugins/regexp) plugin checks whether the given regular expression matches the entry's **title** or **url** and acts accordingly.
 
-**Example of an entry:**
+### Example of an entry
 
-These are mandatory fields
+These are mandatory fields. You don't necessarily need to deal with anything more complicated for simple use cases.
 
 
 | **Name** | **Value** |
 | --- | --- |
-| title | Some.Awesome.Series.S01E01.XviD-Foo |
-| url | !http://site.com/download/Some.Awesome.Series.S01E01.XviD-Foo.torrent |
+| title | Linux Mint 17.3 cinnamon |
+| url | http://torrents.linuxmint.com/torrents/linuxmint-17.3-cinnamon-64bit.iso.torrent |
 
-## Known fields
-Entry *may* have any of these fields, but is not *guaranteed* to have any of them. It may have other fields as well depending on configuration. Use `--dump` option to see your task content.
+### Known fields
+Entry *may* have any of these fields, but is not *guaranteed* to have any of them. It may have other fields as well depending on configuration. Use `--dump` option to see your task content as this is not complete or always up-to-date list.
 
 
 | **Name** | **Created by** | **Description** |
