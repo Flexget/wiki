@@ -8,7 +8,7 @@ Currently the following settings are supported:
 |  Option  |  Description  |
 | --- | --- |
 | **field** | Entry field. The date in this field must be ISO 8601 compliant or a Python datetime object. |
-| **age** | The age to be filtered. Format: [n] [minutes|hours|days|months] eg. `7 days`. |
+| **age** | The age to be filtered. Format: [n] [minutes&#124;hours&#124;days&#124;months] eg. `7 days`. |
 | **action** | Action to perform on entries. Either `accept` or `reject`. |
 
 ## Examples
