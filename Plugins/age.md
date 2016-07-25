@@ -27,7 +27,9 @@ tasks:
       field: accessed
       action: accept
       age: 7 days
-    exec:
-      on_exit:
-        for_accepted: rm -f "{{location}}"
+    delete:
+      clean_source: 1
+      along:
+        - sub
+        - srt
 ```
