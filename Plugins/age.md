@@ -8,13 +8,13 @@ Currently the following settings are supported:
 |  Option  |  Description  |
 | --- | --- |
 | **field** | Entry field. The date in this field must be ISO 8601 compliant or a Python datetime object. |
-| **age** | The age to be filtered. Format: [n](/n) [minutes|hours|days|months](/minutes|hours|days|months) eg. `7 days`. |
+| **age** | The age to be filtered. Format: [n] [minutes|hours|days|months] eg. `7 days`. |
 | **action** | Action to perform on entries. Either `accept` or `reject`. |
 
 ## Examples
 Example task to delete video files that have not been accessed in the last 7 days:
 
-```
+```yaml
 tasks:
   delete_by_age:
     filesystem:
