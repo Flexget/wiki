@@ -1,8 +1,8 @@
 ### List Match
-This is a filter plugin that uses a list to accept or reject generated entries.
+This is a filter plugin that uses a list to accept or reject generated entries based on other list content. Any input can be used with [crossmatch](Plugins/crossmatch) plugin.
 
 ## Syntax
-```
+```yaml
 list_match:
   from:
     - <list_type>: <list_name>
@@ -30,6 +30,7 @@ download: /downloads/
 ```
 
 If you wish to match **ALL** entries and not just the first one, use the `single_match: no` option:
+
 ```yaml
 rss: some_feed...
 list_match:
@@ -43,6 +44,7 @@ download: /downloads/
 ```
 
 All accepted entries are delete from list when task completes. To disable this, use the `remove_on_match: no` option:
+
 ```yaml
 rss: some_feed...
 list_match:
@@ -57,6 +59,7 @@ download: /downloads/
 ```
 
 If you wish to reject entries based on a list, as opposed to accept, use `action: reject`:
+
 ```yaml
 rss: some_feed...
 list_match:
