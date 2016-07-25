@@ -4,7 +4,7 @@ In order to use FlexGet you'll need to create a configuration file.
 FlexGet uses [Yaml](http://en.wikipedia.org/wiki/Yaml) markup in configuration file. 
 
 
-<h2 style="color: red">Common mistakes, read at least these!</h2>
+<h2>Common mistakes, read at least these!</h2>
 
 
  * Indentation level. Always use (multiples of) **2 spaces** and **never** use tab-key!
@@ -12,6 +12,7 @@ FlexGet uses [Yaml](http://en.wikipedia.org/wiki/Yaml) markup in configuration f
  * Missing colons. Pay special attention to these when looking at the examples and documentation
  * If text value contains any of `{}[]%:` characters it must be quoted with `''`
  * If you want to pass a number as a text (ie. series *24*), value must be quoted with `''`
+ * [Answsers for common mistakes](/PitFalls)
 
 ### Location
 By default FlexGet tries to find `config.yml` from several places in this order:
