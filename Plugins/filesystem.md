@@ -27,19 +27,19 @@ Entries will have following fields:
 ## Examples
 ### Single path
 
-```
+```yaml
 filesystem: /storage/movies/
 ```
     
 ### List of paths
-```
+```yaml
 filesystem:
   - /storage/movies/
   - /storage/tv/
 ```
 
 ### Object with list of paths
-```
+```yaml
 filesystem:
   path:
     - /storage/movies/
@@ -48,7 +48,7 @@ filesystem:
 ```
 
 ### Using Recursion
-```
+```yaml
 filesystem:
   path:
     - /storage/movies/
@@ -58,7 +58,7 @@ filesystem:
 ```
 
 ### Extended Recursion
-```
+```yaml
 filesystem:
   path:
     - /storage/movies/
