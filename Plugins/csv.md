@@ -5,7 +5,7 @@ and internal entry fields.
 
 Configuration format:
 
-```
+```yaml
 csv:
   url: <url>
   values:
@@ -14,7 +14,7 @@ csv:
 
 Example DB-fansubs:
 
-```
+```yaml
 csv:
   url: http://www.dattebayo.com/t/dump
   values:
