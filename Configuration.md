@@ -175,6 +175,6 @@ Adding `-v` parameter will display useful information about task(s) content.
 When you create or modify configuration try running FlexGet with `check` parameter. It will go through the configuration file and report any irregularities found. If you used recommended configuration name and location, simply executing `flexget check` will do this. If this doesn't report any problems you should have fully working configuration file.
 
 ## References
- * See [how to manage series](/Cookbook/Series/Preset) for how to refine this example into real world usage (with multiple tasks).
+ * See [how to manage series](/Cookbook/Series/Template) for how to refine this example into real world usage (with multiple tasks).
  * Continue into [plugins](/Plugins) to learn all about available plugins you may use in you configuration file.
  * [Still confused about Yaml syntax?](/StillConfusedYaml)
