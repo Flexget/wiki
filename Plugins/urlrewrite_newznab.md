@@ -1,21 +1,21 @@
 # Newnzab plugin
 The newznab plugins is used in conjunction with the [discover](/Plugins/discover) plugins.
 
-With the [emit_series](/Plugins/emit_series)
+With the [next_series_episodes](/Plugins/next_series_episodes)
 ```
 discover:
   what:
-    - emit_series : yes
+    - next_series_episodes: yes
   from: 
     - newnab:
 ```
 
-or the [emit_movie_queue](/Plugins/emit_movie_queue)
+or the [movie_list](/Plugins/List/movie_list)
 
 ```
 discover:
   what:
-    - emit_movie_queue : yes
+    - movie_list: movies
   from: 
     - newnab:
 ```
