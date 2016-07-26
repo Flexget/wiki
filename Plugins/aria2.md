@@ -28,8 +28,9 @@ Available configuration parameters:
 
 * Default for ```file_exts```: ['.mkv', '.avi', '.mp4', '.wmv', '.asf', '.divx', '.mov', '.mpg', '.rm']
 
-### Sample Configuration
-```
+#### Example
+
+```yaml
 aria2:
     server: myserver
     port: 6802
