@@ -1,7 +1,14 @@
 # TheTVDB Lookup
+
+Uses `series_name` (or `tvdb_id`) to perform lookup.
+
+```yaml
+thetvdb_lookup: yes
+```
+
 For most purposes, the series name is sufficient to get a match on TheTVDB. If you can't get a match (e.g., multiple IDs defined for a series name) then you can provide the tvdb_id from their website to bypass the matching process.
 
-```
+```yaml
 series:
   - some_series:
       set:
@@ -45,7 +52,7 @@ This plugin looks up more information from thetvdb.com about any entries that Fl
 | tvdb_ep_id | Season and episode in SxxEyy format. |
 | tvdb_absolute_number | Absolute number of this episode. |
 
-**Example:**
+#### Example
 
 The most common use is to look up an episode title that can be used to format a pretty filename. This example uses `tvdb_ep_name` as parsed by thetvdb_lookup in the [set](/Plugins/set) plugin to set `content_filename` (which the [deluge](/Plugins/deluge) plugin uses to rename the main file within a torrent.) The 'default' jinja filter is used to insert 'Unknown' if thetvdb_lookup fails to get an tvdb_ep_name for the entry.
 ```
