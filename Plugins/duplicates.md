@@ -1,19 +1,20 @@
 # Duplicates
-Take action on entries with duplicate field values
+
+Take action on entries with duplicate field values.
 
 **Syntax:**
 
-```
+```code
 duplicates:
   field: <field name>
-  action: [accept|reject](/accept|reject)
+  action: [accept|reject]
 ```
 
 **Example:**
 
-Move duplicate movies for manual review
+Move duplicate movies for manual review.
 
-```
+```yaml
 tasks:
   duplicate-movies:
     manual: yes
