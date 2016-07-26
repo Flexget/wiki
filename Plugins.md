@@ -404,11 +404,6 @@ Use `flexget execute --help` for full option list.
 ## Third-party plugin
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-
-| **Keyword** | **Description** |
-| --- | --- |
-| [jdownloader](http://flexget.com/ticket/1435) | jDownloader output - perhaps included in the core package sooner or later. |
-
 ## Deprecated
 
 | **Keyword** | **Description** |
