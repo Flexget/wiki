@@ -134,11 +134,27 @@ gulp serve --server <flexget_api:port>
 ```
 
 ## Testing
-We have recently started adding tests to our existing parts of the UI. Currently they reside in a PR [https://github.com/Flexget/Flexget/pull/1206](/https://github.com/Flexget/Flexget/pull/1206) until the refactoring and setting up is done.
+We have recently started adding tests to our existing parts of the UI. There are about 250 tests currently present. If you modify/add parts of the UI, ensure to also modify/add tests for the relevent changes (at least most of them).
 
-The tests can be run be using ` karma start ` or ` npm test ` commands in the UI folder (/flexget/ui).
+The tests can be run be using a number of commands: 
+```
+#Option 1: Standard command line
+karma start
 
-There is also a browser version available that can be started by using ` gulp serve-specs `, this will open a web browser to the address ` localhost:5050 ` in which all the tests are compiled and ran. Selecting a subsection of the tests will allow you to filter down and only run the tests you want to focus on.
+#Option 2: Starting a web browser to run the tests in*
+gulp serve-specs
+
+#Option 3: Shorthand for the browser command
+npm test
+```
+
+*: This gulp task watches for file changes, not file additions, after adding a new test file, thise task needs to be restarted.
+
+All of these command need to be run inside the /flexget/ui folder.
+
+When using the gulp task, a browser should open by itself, if it does not, you can navigate to `localhost:5050` where the tests will be avaiblable.
+
+Results of the tests (that are run on the develop branch), can we viewed here: http://ci.flexget.com/job/Test-UI/
 
 The frameworks currently used for the tests are:  
 
