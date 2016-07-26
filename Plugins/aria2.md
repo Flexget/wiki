@@ -11,8 +11,7 @@ Available configuration parameters:
 | server | localhost | No | Hostname or IP of the server where aria2 is running and has XML-RPC enabled. |
 | port | 6800 | No | Port to connect to on the server listed above. |
 | username | N/A | No | Username used to connect to the aria2 XML-RPC server. (Corresponds to ```rpc-user``` in the aria2 config file.) |
-||password||N/A||No||Password used to connect to the aria2 XML-RPC server. (Corresponds to ```rpc-passwd``` in the aria2 config file.)
-
+| password | N/A | No |Password used to connect to the aria2 XML-RPC server. (Corresponds to ```rpc-passwd``` in the aria2 config file.) |
 | do | N/A | Yes | ```add-new``` or ```remove-completed```. ```add-new``` passes files to aria2 to download; ```remove-completed``` removes them (after verifying they are completed). |
 | --- | --- | --- | --- |
 | uri | N/A | Yes | The base URI to pass to aria2. Include Basic Auth parameters inline, or as their corresponding aria2 commands under aria_config below. Inline example: ```ftp://myuser:mypass@ftp.example.com:21/path/to/directory/{{title}}```. Any entry fields can be included and will be parsed prior to passing to aria2. |
@@ -27,10 +26,10 @@ Available configuration parameters:
 | file_exts | see below* | No | Extensions of files to exclude as "non-content". The default is intended for video files; this could be expanded to include subtitle files, if you want those. Only has an effect if ```exclude_non_content``` or ```rename_content_files``` is enabled. Must be a comma-separated list enclosed by brackets. |
 | aria_config | N/A | Yes | This is the "parent folder" of any parameters that should get passed to aria2. Any [command line option](http://aria2.sourceforge.net/manual/en/html/aria2c.html#options) available in aria2 can be used by removing the two dashes (--) in front of the command name and changing ```key=value``` to ```key: value```. Any parameter can contain the name of any [entry field](http://flexget.com/wiki/Entry) using [jinja2 notation](http://flexget.com/wiki/Plugins/set#Jinja2Templating) and will be rendered prior to passing to aria2. See sample configuration below. |
 
-* Default for ```file_exts```: ['.mkv', '.avi', '.mp4', '.wmv', '.asf', '.divx', '.mov', '.mpg', '.rm']
+* Default for `file_exts`: ['.mkv', '.avi', '.mp4', '.wmv', '.asf', '.divx', '.mov', '.mpg', '.rm']
 
 ### Sample Configuration
-```
+```yaml
 aria2:
     server: myserver
     port: 6802
@@ -49,6 +48,6 @@ aria2:
       dir: "/Volumes/all_my_tv/{{series_name}}"
 ```
 
-In this configuration, the server and port are specified since they differ from the default. ```do``` shows we are adding new files to aria2. We want to exclude any sample videos and non-content. The filename should be parsed, and since ```content_is_episodes``` is enabled, the plugin will treat them as TV episodes. (Note the input plugin that would feed to this output is not providing any series information.)
+In this configuration, the server and port are specified since they differ from the default. `do` shows we are adding new files to aria2. We want to exclude any sample videos and non-content. The filename should be parsed, and since `content_is_episodes` is enabled, the plugin will treat them as TV episodes. (Note the input plugin that would feed to this output is not providing any series information.)
 
-We also want to rename the content files and provide a renaming template. Finally we are passing several commands to aria2 to affect how it processes the files, the most important of which is ```dir``` since it tells aria2 where to store the files. Note the use of [jinja2 notation](http://flexget.com/wiki/Plugins/set#Jinja2Templating) to dynamically insert the  ```{{series_name}}```, per download, prior to passing to aria2. Any field in the [entry](http://flexget.com/wiki/Entry) can be included in the same manner.
+We also want to rename the content files and provide a renaming template. Finally we are passing several commands to aria2 to affect how it processes the files, the most important of which is `dir` since it tells aria2 where to store the files. Note the use of [jinja2 notation](http://flexget.com/wiki/Plugins/set#Jinja2Templating) to dynamically insert the  `{{series_name}}`, per download, prior to passing to aria2. Any field in the [entry](http://flexget.com/wiki/Entry) can be included in the same manner.
