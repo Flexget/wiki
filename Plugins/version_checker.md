@@ -1,4 +1,4 @@
-= Version Checker=
+# Version Checker
 
 This plugin checks wether the user is running the latest version of flexget. To avoid unnecesary requests, this happens on an interval by default (1 request per day).
 The plugin can be added to any task and output a log warning if it finds an update:
@@ -11,26 +11,26 @@ The plugin can be added to any task and output a log warning if it finds an upda
 
 There are 3 ways to use this plugin. The simplest is just by enabling it:
 
-```
+```yaml
 version_checker: yes
 ```
 
 The default is a check once a day. To override that, user can run it with `always`, which will send the request for latest version on every execution:
 
-```
+```yaml
 version_checker: always
 ```
 
 By default, the plugin will not check latest version if it detects that the user is running dev version. To override this, set it as an object:
 
-```
+```yaml
 version_checker:
   check_for_dev_version: yes
 ```
 
 Alternatively, you can also set the interval (in days) for requests:
 
-```
+```yaml
 version_checker:
   interval: 7
 ```
