@@ -10,7 +10,7 @@ You configure thetvdb_list plugin with your username and account id at TheTVDB .
 
 ** Example **
 
-```
+```yaml
 configure_series:
   from:
     thetvdb_list:
@@ -22,7 +22,7 @@ configure_series:
 If the `strip_dates` option is specified, the trailing year will be stripped from series names that include them. For example, "Merlin (2008)" would become just "Merlin".
 
 ** Example **
-```
+```yaml
 thetvdb_list:
   username: <username>
   account_id: <account identifier>
@@ -34,7 +34,7 @@ You can use any of the [settings](/Plugins/series#Settings) of the series plugin
 
 ** Example **
 
-```
+```yaml
 configure_series:
   from:
     thetvdb_list:
@@ -50,14 +50,14 @@ configure_series:
 You can add, remove or match according to your favorites list. Note that entries must contain `tvdb_id` to operate on the list, so adding a lookup plugin like [thetvdb_lookup](/Plugins/thetvdb_lookup) to the task may be required.
 
 ** Example: Adding to TheTVDB list from Trakt List **
-```
+```yaml
 trakt_list: <opts>
 accept_all: yes
 thetvdb_lookup: yes
 list_add:
   - thetvdb_list:
-      username: <username>
-      account_id: <account identifier>
+      username: username
+      account_id: account_identifier
 seen: local
 ```
 
