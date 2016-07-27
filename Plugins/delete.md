@@ -7,6 +7,8 @@ Syntax:
 delete:
   [allow_dir]: allows or denies to operate on entries pointing to directories
   [along]: delete additional files such as subtitles
+    [files]: file extensions
+    [subdirs]: sub directories to search in
   [clean_source]: delete source directory if it has less MB left than given after delete
 ```
 
@@ -27,6 +29,7 @@ tasks:
     delete:
       clean_source: 1
       along:
-        - sub
-        - srt
+        files:
+          - sub
+          - srt
 ```
