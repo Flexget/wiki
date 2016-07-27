@@ -8,6 +8,16 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration file needs to be updated.
 
+
+### **v2.2.0** - 2016.7.27 
+
+* [irc](/Plugins/Daemon/irc) plugin uses outside dependency now. Install with `pip install irc_bot`
+* Removed `thetvdb_add`, `thetvdb_remove` and `thetvdb_favorites`. Use [thetvdb_list](/Plugins/List/thetvdb_list) instead.
+* Removed `kat` search plugin. 
+* Removed all `uoccin` plugins. Moved them to [extras](https://github.com/Flexget/extras/) repo.
+* Tweaked `along` setting in [move](/Plugins/move), [copy](/Plugins/copy) and [delete](/Plugins/delete) plugins. See their wiki for details.
+* Removed the `output` attribute when using the [download](/Plugins/download) and [move](/Plugins/move) plugins. Use `location` instead.
+
 ### 2016.6.23 2.1.0
 **Several breaking changes**
 
