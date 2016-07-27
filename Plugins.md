@@ -266,9 +266,10 @@ Generate custom output using accepted entries
 | [make_rss](/Plugins/make_rss) | Generate RSS-feed file from passed entries. |
 
 ## Metadata plugins
+
 Retrieve additional data from internal parsers or 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 
-These are usually automatic (**[Builtin](/Builtin)**) plugins which provide metainfo (fields) to **[Entry](/Entry)**.
+These provide metainfo (ie. fields) to [Entry](/Entry).
 
 
 | **Keyword** | **Description** |
@@ -279,16 +280,17 @@ These are usually automatic (**[Builtin](/Builtin)**) plugins which provide meta
 | [tmdb_lookup](/Plugins/tmdb_lookup) | Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand. |
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
-| [check_subtitles](/Plugins/check_subtitles)^1 | Check subtitles presence for local files. |
-| [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
+| [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
+| [metainfo_movie](/Plugins/metainfo_movie) | Use internal movie parser to parse task entries and generated movie related data. |
+| [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
 
-
-^1. Not a builtin, configuration required to enable.^
 
 ## Modification plugins
+
 Plugins that can manipulate data and perform various operations.
 
 ### Request operations
+
 Perform various operations on request that are being sent and received. 
 
 
@@ -395,13 +397,15 @@ Use `flexget execute --help` for full option list.
 
 ## Third-party plugin
 
-Plugins can be installed by simply placing them in `~/.flexget/plugins/`
+Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate python package like [FlexGet extras](/FlexGetExtras).
 
 ## FlexGet extras
 
-The [FlexGet extras](/FlexGetExtras) is a separate package that provides some plugins that are not common, actively maintained or otherwise unsuitable for main distribution.
+The [FlexGet extras](/FlexGetExtras) is a separate package that provides some plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
 
 ## Deprecated
+
+These plugins will likely get removed in the next minor release (eg. 2.2.5 -> 2.3.0).
 
 | **Keyword** | **Description** |
 | --- | --- |
