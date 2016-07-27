@@ -16,7 +16,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | --- | --- |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
-| [horriblesubs](/Searches/horriblesubs) | Generate entries from [horriblesubs.info](http://horriblesubs.info) |
+| [horriblesubs](/Plugins/horriblesubs) | Generate entries from [horriblesubs.info](http://horriblesubs.info) |
 | [isohunt](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
 | [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
