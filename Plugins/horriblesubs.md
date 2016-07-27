@@ -2,8 +2,6 @@
 
 This plugin works as an input and as a search backend.
 
-Input latest releases:
-
 #### Example as input:
 
 ```yaml
