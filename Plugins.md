@@ -85,7 +85,6 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
 | [next_sonarr_episodes](/Plugins/next_sonarr_episodes) | Produce entries for missing episodes from Sonarr |
-| [from_uoccin](/Plugins/from_uoccin) | Produce entries from a [Uoccin](https://github.com/tarzasai/Uoccin) data file |
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
@@ -200,13 +199,6 @@ Send accepted entries to 3rd party software, usually downloaders.
 | [subliminal](/Plugins/subliminal) | Download subtitles with Subliminal. |
 | [transmission](/Plugins/transmission) | Pass torrents directly to transmission, supporting magnet links. |
 | [utorrent](/Plugins/utorrent) | Pass torrents directly to uTorrent. |
-| [uoccin_collection_add](/Plugins/uoccin_collection) | Mark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_collection_remove](/Plugins/uoccin_collection) | Unmark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_watched_true](/Plugins/uoccin_watched) | Mark all the accepted movies/episodes as watched in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_watched_false](/Plugins/uoccin_watched) | Unmark all the accepted movies/episodes as watched in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_watchlist_add](/Plugins/uoccin_watchlist) | Add all the accepted movies/series in the watchlist inside the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_watchlist_remove](/Plugins/uoccin_watchlist) | Remove all the accepted movies/series from the watchlist inside the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
-| [uoccin_subtitles](/Plugins/uoccin_subtitles) | Update the list of subtitles downloaded for the accepted movies/series in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 
 ### 3rd party sites output
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
@@ -288,7 +280,6 @@ These are usually automatic (**[Builtin](/Builtin)**) plugins which provide meta
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
 | [check_subtitles](/Plugins/check_subtitles)^1 | Check subtitles presence for local files. |
-| [uoccin_lookup](/Plugins/uoccin_lookup) | Fetch all the supported information from the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 
 
@@ -364,16 +355,16 @@ Perform various FlexGet operations.
 | [version_checker](/Plugins/version_checker) | Checks if user is running latest Flexget version on a given interval. |
 
 ### 3rd party software
-Perform operations on 3rd part software.
 
+Perform operations on 3rd part software.
 
 | **Keyword** | **Description** |
 | --- | --- |
 | [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
 | [rutracker](/Plugins/rutracker) | Supports downloading torrents from rutracker. |
-| [uoccin_reader](/Plugins/uoccin_reader) | Synchronize a [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 
 ## Daemon
+
 These plugins are specifically for when FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
 | **Keyword** | **Description** |
@@ -403,7 +394,12 @@ Use `flexget execute --help` for full option list.
 | [--try-regexp](/Plugins/try_regexp) | Test how regexps work on task(s) interactively. |
 
 ## Third-party plugin
+
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
+
+## FlexGet extras
+
+The [FlexGet extras](/FlexGetExtras) is a separate package that provides some plugins that are not common, actively maintained or otherwise unsuitable for main distribution.
 
 ## Deprecated
 
