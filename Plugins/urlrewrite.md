@@ -5,7 +5,7 @@ Allows manipulating download pages into proper download URLs. If information req
 
 **Example**
 
-```
+```yaml
 urlrewrite:
   sitename:
     regexp: 'http://imaginary.org/tor/(?P<id>\d+)/(?P<name>.*)'
@@ -14,13 +14,13 @@ urlrewrite:
 
 This would rewrite URL
 
-```
+```txt
 http://imaginary.org/tor/1234/test.torrent
 ```
 
 to:
 
-```
+```txt
 http://imaginary.org/download/1234/test.torrent
 ```
 
@@ -29,12 +29,12 @@ Few regexp characters absolutely need to be escaped with `\` (in context of urls
 
 **Example**
 
-```
+```txt
 http://example.com/?id=1234
 ```
 
 should be
 
-```
+```txt
 http://example.com/\?id=(?P<id>\d+)
 ```
