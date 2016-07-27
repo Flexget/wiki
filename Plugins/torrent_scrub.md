@@ -23,7 +23,7 @@ Or you provide an explicit list of names you want to have removed; if they refer
 
 To scrub one task:
 
-```
+```yaml
 tasks:
   rutorrent-fast-resume-infected-task:
     torrent_scrub: rtorrent
@@ -31,14 +31,15 @@ tasks:
 
 If you want to be sure that all tasks are scrubbed, because you can never know, use this:
 
-```
-presets:
+```yaml
+templates:
   global:
     torrent_scrub: rtorrent
 ```
 
 To scrub a list of keys you provide:
-```
+
+```yaml
 torrent_scrub:
   - comment
   - info.source
