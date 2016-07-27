@@ -1,4 +1,4 @@
-= TheTVDB List=
+# TheTVDB List
 
 This plugin is a [list](/Plugins/List) plugin.
 
