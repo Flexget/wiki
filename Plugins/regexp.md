@@ -91,14 +91,14 @@ regexp:
     - pattern 1
     - pattern 2: <custom path>
     - pattern 3:
-        [not](/not):
+        [not]:
           - pattern 4
-        [path](/path): <custom path>
-        [from](/from): <entry field> # applies to this pattern
-        [set](/set):
+        [path]: <custom path>
+        [from]: <entry field> # applies to this pattern
+        [set]:
             <entry field>: <value>
-  [rest](/rest): <operation>
-  [from](/from): <entry field> # applies to all patterns
+  [rest]: <operation>
+  [from]: <entry field> # applies to all patterns
 ```
 
 ^[] = optional, <> = value^
