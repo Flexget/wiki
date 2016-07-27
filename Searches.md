@@ -4,20 +4,25 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 ## Overview
 
+### Universal
+
+| **Keyword** | **Description** |
+| --- | --- |
+| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
+
 ### Public
 
 | **Keyword** | **Description** |
 | --- | --- |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
+| [horriblesubs](/Searches/horriblesubs) | Generate entries from [horriblesubs.info](http://horriblesubs.info) |
 | [isohunt](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
-| [kat](/Searches/kat) | Generate entries from [kat.ph](http://kat.ph) |
 | [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [publichd](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
 | [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
-| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
 | [torrent411](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
 | [torrentz](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
 
