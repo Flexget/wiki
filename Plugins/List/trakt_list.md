@@ -30,12 +30,14 @@ Currently the following settings are supported:
 ||**type**||Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`
 
 ## Config format
-{{{
+```yaml
 trakt_list:
   username: <trakt username>
-  account: <account set up in CLI> (this is required if the list is not publicly available)
+  account: <account set up in CLI>
+  # (account is required if the list is not publicly available)
   list: <list name>
   type: <movies|shows|episodes>
+```
 
 
 ### Example: Queue movies
