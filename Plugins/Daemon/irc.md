@@ -4,6 +4,7 @@ This plugin will allow you to connect a bot to an IRC channel. It listens for re
 The benefit to this plugin over regular search plugins that utilize API/scraping is that any new downloads will be picked up as soon as they are available.
 
 ### Prerequisites
+* **Install irc_bot with `pip install irc_bot`**
 * Run Flexget in daemon-mode. (ex: *flexget daemon start --daemonize*). This means you may want to migrate your cron-jobs to use the scheduler plugin instead.
 * Have an autodl-tracker file relevant to your intended tracker. Either the name (case sensitive) or downloaded from [here](https://github.com/autodl-community/autodl-trackers).
 * rsskey or other needed credentials located in the tracker file and in the guide sections in your tracker website. (hint: look for autodl guides)
