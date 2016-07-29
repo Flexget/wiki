@@ -1,7 +1,7 @@
-### List Clear
+## List Clear
 This is a list plugin that clears the contents of the given lists.
 
-## Syntax
+### Syntax
 ```yaml
 list_clear:
   what:
@@ -13,7 +13,7 @@ Default are marked with `*`. Supported phases are `start, input, metainfo, filte
 
 By default, it will run in `start` phase.
 
-## Use case examples:
+### Use case examples:
 This example shows you how to sync a list from Trakt in Flexget into an entry list, clearing it before filling.
 
 ```yaml
