@@ -56,7 +56,9 @@ Qualities are split into four separate categories: resolution, source, codec, an
 <tr>
 {{#each categories }}
   <td style="vertical-align: top">
-  ** {{@key}} **
+
+**{{@key}}**
+
   </td>
 {{/each}}
 </tr>
