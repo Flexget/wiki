@@ -149,6 +149,7 @@
 <p>FlexGet uses <a href="http://en.wikipedia.org/wiki/YAML" target="_blank">YAML</a> for configuration. This may be confusing (for new users) at first, but don't be scared, FlexGet is equipped with validator that tries to guide you if you make mistakes.</p>
 <p><strong>Configuration example:</strong> </p>
 <p>This is a complete, fully functional, configuration file! You don't need anything more complex than this to get started.</p>
+
 ```yaml
 tasks:
   task name:
