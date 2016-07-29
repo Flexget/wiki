@@ -9,7 +9,7 @@ list_clear:
   phase: <task_phase>
 ```
 
-Default are marked with `*`. Supported phases are `start, input, metainfo, filter, download, modify, output, learn, exit`.
+Supported phases are `start, input, metainfo, filter, download, modify, output, learn, exit`.
 
 By default, it will run in `start` phase.
 
