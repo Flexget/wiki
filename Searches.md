@@ -45,11 +45,11 @@ FlexGet provides framework for querying searches from supported sites. These can
 |[fuzer](/Searches/fuzer) | Searches torrent site Fuzer
 
 
-You can always get an up to date overview of the available search plugins by using the command line with command 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
+You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --group search`, and minimal documentation for a plugin can be obtained with `flexget doc <plugin>`.
 
-** Example **
+#### Example
 
-```
+```cmd
 flexget plugins --group search
 -- Supported search plugins: --------------------------------------------------
  search_rss
