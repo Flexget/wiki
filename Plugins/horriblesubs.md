@@ -15,9 +15,9 @@ tasks:
   search-anime:
      discover:
        what:
-         - next_series_episodes: anime
+         - next_series_episodes: yes
        from:
          - horriblesubs: yes
 ```
 
-See [discover](Plugins/discover) for more information.
+See [discover](Plugins/discover) and [next_series_episodes](Plugins/next_series_episodes) for more information.
