@@ -20,4 +20,4 @@ tasks:
          - horriblesubs: yes
 ```
 
-See [discover](Plugins/discover) and [next_series_episodes](Plugins/next_series_episodes) for more information.
+See [discover](/Plugins/discover) and [next_series_episodes](/Plugins/next_series_episodes) for more information.
