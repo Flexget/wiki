@@ -4,16 +4,17 @@ This plugin is a [managed list](/Plugins/List/) plugin.
 Any entry containing field(s) `imdb_id`, `trakt_movie_id` or `tmdb_id` can be added to movie list for later matching. This allows user to maintain one or more movie queues.
 
 ## Schema
-```
-movie_list: <NAME>
+
+```text
+movie_list: <name>
 ```
 
 Or:
 
-```
+```text
 movie_list: 
-  list_name: <NAME> (Required)
-  strip_year: [yes|no](/yes|no) (Optional)
+  list_name: <name>
+  [strip_year]: <yes|no>
 ```
 
 **Clarification**: By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` **OUTPUTS** the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [discover](/Plugins/discover) plugin.
@@ -25,7 +26,7 @@ If matching by identifiers fail, then title is [parsed](/Plugins/parsing) and pr
 ## Usage
 As a [managed list](/Plugins/List) plugin it follows the same list actions, an quick example how to add entries into the list.
 
-```
+```yaml
 # inputs
 # filters
 list_add: 
@@ -33,7 +34,7 @@ list_add:
 ```
 
 ### Fill list
-```
+```yaml
 trakt_list:
   username: traktusername
   list: watchlist
@@ -45,7 +46,7 @@ list_add:
 
 This will add all accepted entries to an `movie_list` with the name `movies from trakt`. It then later be used as an input itself. This can be used a base to filter on with other tasks. You can add multiple inputs if you wish.
 
-```
+```yaml
 trakt_list:
   username: traktusername
   list: watchlist
@@ -59,7 +60,7 @@ list_add:
 ```
 
 ### Download matches
-```
+```yaml
 rss: ...
 list_match:
   from:
@@ -69,7 +70,7 @@ download: ...
 
 Concrete example with a task:
 
-```
+```yaml
 task_name:
   rss: http://url.com/feed.xml
   quality: 720p
@@ -83,7 +84,7 @@ task_name:
 [quality](/Plugins/quality) is used to weed out any unwanted qualities. [imdb_lookup](/Plugins/imdb_lookup) is required for entries to be matched with movie_list.
 
 ### With discover
-```
+```yaml
 discover-movies:
   discover:
     what:
@@ -99,7 +100,7 @@ discover-movies:
 
 **Strip Year option**: It is sometimes required by some search plugin to remove the year for the movie title. If that's the case, the following config can be used:
 
-```
+```yaml
 discover-movies:
   discover:
     what:
@@ -121,7 +122,7 @@ The [list_match](/Plugins/List/list_match) matches only the first item from the 
 ### Migrate
 Example on how to migrate from [movie_queue](/Plugins/movie_queue):
 
-```
+```yaml
 movies-movie-queue:
   emit_movie_queue: yes
   accept_all: yes
@@ -136,19 +137,19 @@ Plugin [seen](/Plugins/seen) needs to be disabled since all the titles that movi
 ## Movie list CLI
 For detailed instruction about these CLI commands:
 
-```
+```cmd
 $ flexget movie-list -h
 ```
 
 Movie list support CLI operations:
 
 ### Return all movie lists names
-```
+```cmd
 $ flexget movie-list all
 ```
 
 ### List movies from movie lists
-```
+```cmd
 $ flexget movie-list list <LIST_NAME>
 ```
 
@@ -157,7 +158,7 @@ $ flexget movie-list list <LIST_NAME>
 ### Add or Update a movie to or from a movie list
 Using a title is require. You can also add additional identifiers in the following format:
 
-```
+```cmd
 $ flexget movie-list add <LIST_NAME> <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
 ```
 
@@ -172,12 +173,12 @@ Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallbac
 If a movie is added with identifiers, those will take precedence in the lookup before using its title.
 
 ### Removing a movie from movie list
-```
+```cmd
 $ flexget movie-list del <LIST_NAME> <MOVIE_TITLE>
 ```
 
 ### Clearing an entire movie list
-```
+```cmd
 $ flexget movie-list purge <LIST_NAME>
 ```
 
