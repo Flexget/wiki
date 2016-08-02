@@ -1,37 +1,30 @@
-# Trakt.tv Series Lookup
-**//Updated as of November 11th 2015. This plugin uses the new Trakt v2 API.//**
-
-**`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
+# Trakt.tv lookup
 
 This plugin returns series information from Trakt.tv. The name of the series usually has to be VERY close to what's shown on Trakt.  
 If you are having problems returning the correct information for a show. Please add to the series the tvdb_id using the [set](/Plugins/set) command.  
 
-**Config schema**
-```
+#### Syntax
+
+```yaml
 trakt_lookup: yes
 ```
 or
-```
+
+<div class="alert alert-info" role="alert">
+
+Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.</div>
+
+```text
 trakt_lookup:
    account: <flexget account name>
    username: <trakt username>
 ```
-`account` is required if your profile is private (see [trakt](/Plugins/trakt) on how to authenticate). `username` is the user for which you wish to lookup specific information such as collection or watched history.
 
-----
+Option `account` is required if your profile is private (see [trakt](/Plugins/trakt) on how to authenticate). `username` is the user for which you wish to lookup specific information such as collection or watched history.
 
-```
-series:
-  - some_series:
-      set:
-        tvdb_id: <tvdb_id>
-```
-
-This plugin populates fields on entries that have been identified as series by !Flexget. They may also be used in other plugins "ex:[make_rss](/Plugins/make_rss)"
-----
 **Series Metainfo**
 
-|  Trakt_lookup Field  |  Description  |
+| Trakt_lookup Field | Description |
 | --- | --- |
 | trakt_series_name | Series name provided by trakt  |
 | trakt_series_year | Series release year  |
@@ -60,7 +53,7 @@ This plugin populates fields on entries that have been identified as series by !
 
 `New To Series`
 
-|  Trakt_lookup fields  |  Description  |
+| Trakt_lookup fields  |  Description  |
 | --- | --- |
 | trakt_series_images | Dict of available images, More information [#info1 'here'] |
 | trakt_languages |  List of available translations in iso-36 |
@@ -68,9 +61,10 @@ This plugin populates fields on entries that have been identified as series by !
 | trakt_homepage |  Network's page for linking |
 | trakt_trailer |  Trailer if available |
 ----
-**Episode Metainfo**
 
-|  Trakt_lookup Field  |  Description  |
+#### Episode Metainfo
+
+| Trakt_lookup Field  |  Description  |
 | --- | --- |
 | trakt_ep_name |  Episode name  |
 | trakt_ep_tvdb_id |  TVDB ID of episode  |
@@ -87,13 +81,13 @@ This plugin populates fields on entries that have been identified as series by !
 | trakt_collected |  `True` if collected on `username`'s profile  |
 `New to Episode`
 
-|  Trakt_lookup Field  |  Description  |
+| Trakt_lookup Field  |  Description  |
 | --- | --- |
 | trakt_ep_images |  Dict of available images, More information [#info1 'here']  |
 ----
 **Movie Metainfo**
 
-|  Trakt_lookup Field  |  Description  |
+| Trakt_lookup Field  |  Description  |
 | --- | --- |
 | movie_name |  Movie name  |
 | movie_year |  Production year  |
@@ -117,7 +111,7 @@ This plugin populates fields on entries that have been identified as series by !
 
 `New to Movies`
 
-|  Trakt_lookup Field  |  Description  |
+| Trakt_lookup Field  |  Description  |
 | --- | --- |
 | trakt_homepage |  Network's page for linking  |
 | trakt_trailer |  Trailer if available  |
@@ -126,7 +120,7 @@ This plugin populates fields on entries that have been identified as series by !
 | trakt_images |  Dict of all images available, More from [#info1 'here']  |
 ----
 
-|  Trakt_lookup Actors fields  |  Description  |
+| Trakt_lookup Actors fields  |  Description  |
 | --- | --- |
 | trakt_actors.id  |  actor trakt id  |
 | trakt_actors.name |  actor name  |
@@ -138,21 +132,23 @@ This plugin populates fields on entries that have been identified as series by !
 | trakt_actors.death |  Date actor died in python.date format  |
 | trakt_actors.homepage |  ?Official url for actor  |
 | trakt_actors.images |  Dict of images, More information [#info1 'here']  |
-----
-== `NOT ALL FIELS AVAILABLE`
 
-|  Trakt_lookup translations fields  |  Description  |
+
+`NOT ALL FIELS AVAILABLE`
+
+| Trakt_lookup translations fields  |  Description  |
 | --- | --- |
 | trakt_translations.language |  alpha2 code for language  |
 | trakt_translations.overview |  Translated overview  |
 | trakt_translations.tagline |  Translated tagline  |
 | trakt_translations.title |  Translated title  |
-----
+
+
 [=#info1 Trakt Api Images][[http://docs.trakt.apiary.io/#introduction/images]]
 
 'Check out more information at' [['Trakt api'](http://docs.trakt.apiary.io/#introduction/standard-media-objects|)]
 
-**trakt_watched and trakt_collected**  
+### Fields trakt_watched and trakt_collected
 
 If you specify an `account`/`username` in your config, two more fields are enabled `trakt_watched` and `trakt_collected`. These fields are set to `True` if the episode or movie entry has been marked as watched or collected respectively on the Trakt.tv account associated with `username`.
 
@@ -163,10 +159,10 @@ some_task:
   trakt_lookup:
     username: my_trakt_tv_username
   if:
-   - trakt_watched: reject
+    - trakt_watched: reject
 ```
 
-**Example**  
+#### Example
 
 The most common uses we'll see are using it for [make_rss](/Plugins/make_rss) and making pretty filenames using [set](/Plugins/set) to set `content_filename` in the [deluge](/Plugins/deluge). The 'default' jinja filter is used to insert 'Unknown' if trakt_lookup failes to get an entry field.
 ```
