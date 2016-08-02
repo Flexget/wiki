@@ -4,9 +4,9 @@ Generates [series](/Plugins/series) plugin configuration from titles produced by
 Most commonly used with [trakt_list](/Plugins/List/trakt_list), [filesystem](/Plugins/filesystem), or [thetvdb_favorites](/Plugins/thetvdb_favorites).
 
 ## Syntax
-```
+```yaml
 configure_series:
-  [settings](/settings):
+  [settings]:
     # any series option
     # e.g. quality, timeframe etc
   from:
@@ -23,14 +23,14 @@ In this section you must include one or more configured [input plugins](/Plugins
 ## Example
 Let's say you have a directory where all your series are stored in each in the own folder. Something like:
 
-```
+```text
 /media/series/pioneer one/
 /media/series/south park/
 ```
 
 To automatically configure series plugin with all these you could do following:
 
-```
+```yaml
 configure_series:
   settings:
     quality: 720p
