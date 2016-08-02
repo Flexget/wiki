@@ -36,7 +36,7 @@ Currently the following settings are supported:
 | **type** | Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`|
 
 ## Config format
-```yaml
+```text
 trakt_list:
   username: <trakt username>
   account: <account set up in CLI>
@@ -45,8 +45,8 @@ trakt_list:
   type: <movies|shows|episodes>
 ```
 
-
-### Example: Queue movies
+## Examples
+### Queue movies
 This example shows how you would use trakt_list plugin with [movie_list](/Plugins/List/movie_list), in order to add all the movies from your trakt watchlist to your [movie list](/Plugins/List/movie_list). This example should be in its own task, not combined with your movie downloading task.
 
 ```yaml
@@ -60,7 +60,7 @@ list_add:
   - movie_list: listname
 ```
 
-### Example: Autoconfigure series
+### Autoconfigure series
 This example shows how the trakt_list plugin could be used with the [configure_series](/Plugins/configure_series) plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
 
 ```yaml
@@ -76,6 +76,7 @@ configure_series:
 ```
 
 ### List action example
+This would move items from account to another.
 ```yaml
 trakt_list:
   username: traktusername
@@ -90,4 +91,4 @@ list_add:
       type: movies
 ```
 
-For more information about list action go to the [list_interface](/Plugins/List) page.
+For more information about list action go to the [managed list](/Plugins/List) page.
