@@ -10,7 +10,7 @@ Intelligent filter for TV-series.
  * Specials aware (grabs episodes with the series title and the word 'special')
  * Tries to ignore season packs, you can use [content_size](/Plugins/content_size) for extra insurance against them.
  * Supports double episodes. i.e. S01E01-E02
- * [Series searching support](/Cookbook/Series/Search) (via [discover](/Plugins/discover) and [emit_series](/Plugins/emit_series) plugins)
+ * [Series searching support](/Cookbook/Series/Search) (via [discover](/Plugins/discover) and [next_series_episodes](/Plugins/next_series_episodes) plugins)
 
 **Simple configuration:**
 
@@ -33,12 +33,11 @@ Only one of them is downloaded, with default configuration best quality is chose
 ## Related plugins
 These plugins are complementary to the series plugin.
 
- * [all_series](/Plugins/all_series) - Grab all series in the task
- * [configure_series](/Plugins/configure_series) - Automatically configures series by using another input, some examples:
-   * [thetvdb_favorites](/Plugins/thetvdb_favorites) - [TheTVDB.com](http://thetvdb.com) favorites
-   * [trakt_list](/Plugins/List/trakt_list) - [Trakt.tv](http://trakt.tv) lists
-   * [filesystem](/Plugins/filesystem) - You local directory listing
- * [series_premiere](/Plugins/series_premiere) - Download all premieres
+| Name | Description |
+| --- | --- |
+| [all_series](/Plugins/all_series) | Grab all series in the task|
+| [configure_series](/Plugins/configure_series) | Automatically configures series by using another input, some examples: [thetvdb_favorites](/Plugins/thetvdb_favorites), [trakt_list](/Plugins/List/trakt_list) and [filesystem](/Plugins/filesystem).<br> With this you don't need to maintain series configuration in the configuration file.  |
+| [series_premiere](/Plugins/series_premiere) | Download all premieres| 
 
 ## Settings
 The series plugin supports a number of settings to customize it's behavior. Though the examples show the settings being applied to a single series, they can all be applied to a group of series as well.
@@ -72,12 +71,13 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 | [tracking](/Plugins/series/tracking) | Turn latest episode tracking off, or put into backfill mode. |
 | [upgrade](/Plugins/series/upgrade) | Keeps getting the better qualities as they become available. |
 
+#### Notes
 
-## Notes
- * If the series appears in task(s) with slightly different naming conventions and spinoffs like FooBar and FooBar US read [this guide](/Plugins/series/closematch). 
- * FlexGet respects *propers* which means that the same episode will be downloaded twice if the second one contains words such as `proper`, `repack`, `rerip`, or `real`.
- * If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. 
- * Check [series cookbook](/Cookbook/Series) for more complete examples and advanced uses.
+* If the series appears in task(s) with slightly different naming conventions and spinoffs like FooBar and FooBar US read [this guide](/Plugins/series/closematch). 
+* FlexGet respects *propers* which means that the same episode will be downloaded twice if the second one contains words such as `proper`, `repack`, `rerip`, or `real`.
+* If series name is written in multiple different ways, don't add them as separate series. This will confuse episode tracking. 
+* Check [series cookbook](/Cookbook/Series) for more complete examples and advanced uses.
+* If using discover, existing collection can be imported with [this](/Cookbook/Series/SeedDB) recipe.
 
 ## `series` Commandline Arguments
 The series plugin has several features available at the command line via the `flexget series` command:
@@ -116,12 +116,11 @@ Sets the first episode of a show that the series plugin should look for. `flexge
 ## `execute` Commandline Arguments
 There are also options to the `flexget execute` command which affect the series plugin:
 
-### --disable-tracking
-If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. If the latest episode that FlexGet should download is in the feed this argument with `--disable-cache` is usually enough. If the episode is not anymore in the feed you can feed the task imaginary episode via `inject` and `--learn`. Example:
+### \-\-disable-tracking
+If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. 
 
-```
-flexget inject "Pioneer One 05" --task <name> --learn --disable-tracking
-```
+Using `series begin` to set new starting point is recommended and should resolve any tracking issues. If you for some reason need to record episode into history it can be achieved with command `flexget inject "Pioneer One 05" --task <name> --learn --disable-tracking`.
 
-### --stop-waiting
+
+### \-\-stop-waiting \<name\>
 Stops timeframe for given name, thus downloading any episode that is currently pending in the timeframe.
