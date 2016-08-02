@@ -1,9 +1,9 @@
 # Move
 *TODO: Improve documentation*
 
-Syntax:
+### Syntax:
 
-```
+```text
 move:
   [to]: directory to move accepted entries to, allows value replacement, defaults to download path
   [filename]: the actual filename inside the 'to' directory to name the entries, allows value replacement
@@ -18,20 +18,22 @@ move:
 
 [] = optional
 
-Entry field "move_to" can be used to override given path.
+Entry field `move_to` can be used to override given path per entry basis.
 
-Here is an example of usage in a more comprehensive context
+### Examples
 
-```
+#### Organize series
+
+```yaml
 tasks:
   move-episodes:
     metainfo_series: yes 
     accept_all: yes 
     filesystem:
-      path: /filestorage1/
+      path: /downloads/
       recursive: yes 
     move:
-      to: "/filestorage2/{{series_name}}/"
+      to: '/storage/{{series_name}}/'
       filename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
       along:
         files:
