@@ -143,16 +143,24 @@ Option `account` is required if your profile is private (see [trakt](/Plugins/tr
 | trakt_translations.tagline |  Translated tagline  |
 | trakt_translations.title |  Translated title  |
 
+#### Notes:
 
-[=#info1 Trakt Api Images][[http://docs.trakt.apiary.io/#introduction/images]]
+* [Trakt Api Images](http://docs.trakt.apiary.io/#introduction/images)
+* [More information](http://docs.trakt.apiary.io/#introduction/standard-media-objects)
 
-'Check out more information at' [['Trakt api'](http://docs.trakt.apiary.io/#introduction/standard-media-objects|)]
+## Examples
 
-### Fields trakt_watched and trakt_collected
+#### Set filename
 
-If you specify an `account`/`username` in your config, two more fields are enabled `trakt_watched` and `trakt_collected`. These fields are set to `True` if the episode or movie entry has been marked as watched or collected respectively on the Trakt.tv account associated with `username`.
+The most common uses we'll see are using it for [make_rss](/Plugins/make_rss) and making pretty filenames using [set](/Plugins/set) to set `content_filename` in the [deluge](/Plugins/deluge). The 'default' jinja filter is used to insert 'Unknown' if trakt_lookup failes to get an entry field.
 
-Example config to reject entries that have been marked as watched:
+```
+trakt_lookup: yes
+set:
+  content_filename: "{{series_name}} - {{series_id}} - {{trakt_ep_name|default('Unknown')}}"
+```
+
+#### Reject entries that have been marked as watched
 
 ```
 some_task:
@@ -160,13 +168,4 @@ some_task:
     username: my_trakt_tv_username
   if:
     - trakt_watched: reject
-```
-
-#### Example
-
-The most common uses we'll see are using it for [make_rss](/Plugins/make_rss) and making pretty filenames using [set](/Plugins/set) to set `content_filename` in the [deluge](/Plugins/deluge). The 'default' jinja filter is used to insert 'Unknown' if trakt_lookup failes to get an entry field.
-```
-trakt_lookup: yes
-set:
-  content_filename: "{{series_name}} - {{series_id}} - {{trakt_ep_name|default('Unknown')}}"
 ```
