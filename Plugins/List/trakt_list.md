@@ -21,7 +21,6 @@ Please see [trakt](/Plugins/trakt) on how to authorize FlexGet to access your Tr
  * Like with other APIs used by FlexGet the trakt.tv list is cached for 2 hours to avoid hammering.
  * Adding this plugin to your movie tasks or preset will **not** cause movies or series in the trakt list to be accepted since this is an input, not an filter.
  * If your trakt lists are not publicly available, you will need to authorize your account via the `flexget trakt auth` CLI command, then specify the **account** in your trakt configuration. 
- * IMPORTANT: 
  * If you want HTML-formatted lists, ex: "<b>TV Shows:</b> Get", to use that list, enter the list on trakt.tv and copy the part of the url that mentions it (ex: "b-tv-shows-b-get"). Basically, the displayed list name is **not** the same as the URL-friendly name, and trakt_list wants the URL-friendly name!
 
 ## Plugin Settings
@@ -39,8 +38,8 @@ Currently the following settings are supported:
 ```text
 trakt_list:
   username: <trakt username>
-  account: <account set up in CLI>
-  # (account is required if the list is not publicly available)
+  [account]: <account set up in CLI>
+  [strip_dates]: <yes|no>
   list: <list name>
   type: <movies|shows|episodes>
 ```
