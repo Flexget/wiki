@@ -1,6 +1,5 @@
 # Changelog
-This changelog is in progress. It is currently only generated from select commit messages.
-In the future it will be moved to the wiki so it can be manually curated as well.
+This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
 <!---e0dba2f61c1920fcb68714b8ebbf34e97c230437--->
 
