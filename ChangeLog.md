@@ -47,20 +47,20 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - [WebUI] Series episodes block incorrectly cutting of series row
 - list match - Tighter schema
-- - plugins API - Makes args case insensitive
+- **plugins API** - Makes args case insensitive
 
 
 ## 2.1.24 (2016-07-25)
 [all commits](https://github.com/Flexget/Flexget/compare/ff7845498973ad60e44ea1ced9f1c406d050d4d8...9342a97dd33817bde8036fa033bcf92f5affbaa7)
 ### Fixed
-- - fuzer - Did not return results correctly
+- **fuzer** - Did not return results correctly
 
 
 ## 2.1.23 (2016-07-24)
 [all commits](https://github.com/Flexget/Flexget/compare/a95e40937a4d5a5efce0302fb04d671d27cb832f...ff7845498973ad60e44ea1ced9f1c406d050d4d8)
 ### Fixed
 - Make tail plugin work consistenly with unicode on py2/3. fix [#1269](https://github.com/Flexget/Flexget/issues/1269)
-- - telegram - Changed plugin to be an output plugin and not an exit plugin
+- telegram - Changed plugin to be an output plugin and not an exit plugin
 - database API - Fixed return object to be a list
 
 ### Changed
@@ -75,7 +75,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - changed pushbullet error logging, fixes [#1225](https://github.com/Flexget/Flexget/issues/1225)
 - irc will now properly try to reconnect again
-- - IMDB list - Correctly set type for different IMDB entities. Fixes [#1270](https://github.com/Flexget/Flexget/issues/1270)
+- IMDB list - Correctly set type for different IMDB entities. Fixes [#1270](https://github.com/Flexget/Flexget/issues/1270)
 - clean_source now uses old location, fixes  [#1284](https://github.com/Flexget/Flexget/issues/1284)
 - Stricter episode matching, finally fixes [#1111](https://github.com/Flexget/Flexget/issues/1111)
 - thetvdb_favorites deprecation message no longer shows for thetvdb_list
@@ -106,7 +106,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.1.17 (2016-07-19)
 [all commits](https://github.com/Flexget/Flexget/compare/d0cb205a7e1cb370bb897a73c4855231e8d609c3...da6f88c37348b48879ff84679cb93e72185a0d0c)
 ### Fixed
-- - IMDB list - Correctly set type for different IMDB entities. Fixes [#1270](https://github.com/Flexget/Flexget/issues/1270)
+- IMDB list - Correctly set type for different IMDB entities. Fixes [#1270](https://github.com/Flexget/Flexget/issues/1270)
 - clean_source now uses old location, fixes  [#1284](https://github.com/Flexget/Flexget/issues/1284)
 
 
@@ -162,7 +162,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.1.9 (2016-07-11)
 [all commits](https://github.com/Flexget/Flexget/compare/908866d0271d3d3a62007875c67746b1a882a415...aa7f859d1dc20bee818250f38059fe63d24de73f)
 ### Fixed
-- - Fuzer Encode password before hashing
+- Fuzer Encode password before hashing
 
 ### Changed
 - download and move now set 'location' field
@@ -178,7 +178,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Fixed
 - tvdb - TVDB lookup did not correctly lookup specials.
-- - tail - Open file as binary. Fixes [#1269](https://github.com/Flexget/Flexget/issues/1269)
+- tail - Open file as binary. Fixes [#1269](https://github.com/Flexget/Flexget/issues/1269)
 
 
 ## 2.1.6 (2016-07-04)
@@ -190,7 +190,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.1.5 (2016-07-04)
 [all commits](https://github.com/Flexget/Flexget/compare/73b1bf8c9077de0195b12896e20a94949283056d...0d0c20399132d147c586060b9d67cc37102b949c)
 ### Fixed
-- - api - Added missing swagger error schema doc for py3
+- api - Added missing swagger error schema doc for py3
 - execute api - Fixed no_cache attribute not stored as expected
 - telegram - Fixed telegram error import. Fixes [#1262](https://github.com/Flexget/Flexget/issues/1262)
 
@@ -204,7 +204,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.1.3 (2016-06-28)
 [all commits](https://github.com/Flexget/Flexget/compare/a7c6ff200ccb235621994e498f772b443320a506...4730666e772c0be37a3035f03a208c8df31ff265)
 ### Fixed
-- - tl - Catch request errors
+- tl - Catch request errors
 
 
 ## 2.1.2 (2016-06-28)
