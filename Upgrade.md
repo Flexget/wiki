@@ -18,7 +18,9 @@ Each configuration file has corresponding database file, so for example config.y
 
 Copy this file to backup file containing the version number you are were last using, e.g. db-config.sqlite_1.1.59
 
-## Upgrade
+## Upgrade with PIP
+
+If you have followed normal installation procedure follow this.
 If you are using cron and have short cron interval, comment FlexGet out from the cron. If you are running the daemon, you should [stop the daemon](/Daemon) until the upgrade is complete and you verify your config file works with the updated version.
 
 There has been alot of errors arising from setuptools package being out of date and failing an upgrade.
@@ -32,6 +34,15 @@ pip install --upgrade flexget
 [Problems with pip](/PipProblems)
 
 Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bin/pip install -e .` again to upgrade them.
+
+## Upgrade GIT checkout
+
+If you are running GIT checkout (development environment). You may need to run following commands at the checkout directory after pulling code:
+
+```cmd
+bin/pip install --upgrade -r requirements.txt
+bin/python setup.py develop
+```
 
 ## Verify
 Check if your configuration file is still valid, there may have been some changes to it.
