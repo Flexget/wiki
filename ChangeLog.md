@@ -5,7 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.2.9.dev (unreleased)
 ### Fixed
-- Retrieving title from magnet, fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
+- Html plugin can create titles from magnet links again. fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 <!---15761ab3c5232bc20135f0185b812815ef46784a--->
 
