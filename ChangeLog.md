@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1304c760e77d34de810956f4857a6d2e454a9e8e--->
+<!---77bcf68e9544a801f6042b29b71f311a09a82f0d--->
+
+## 2.2.9.dev (unreleased)
+### Fixed
+- Retrieving title from magnet, fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 <!---15761ab3c5232bc20135f0185b812815ef46784a--->
 
