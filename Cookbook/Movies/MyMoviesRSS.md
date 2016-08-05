@@ -1,7 +1,7 @@
 ## My movie list
 Generates RSS with Imdb details, ordered by imdb score. Throw in [imdb_rated](/Plugins/imdb_rated) and you get list of unwatched movies!
 
-```
+```yaml
 templates:
   generate:
     interval: 4 hours
@@ -12,7 +12,7 @@ templates:
       field: imdb_score
       reverse: yes
 
-feeds:
+tasks:
 
   storage_movies:
     template: generate
