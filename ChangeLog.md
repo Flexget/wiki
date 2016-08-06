@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---77bcf68e9544a801f6042b29b71f311a09a82f0d--->
+<!---55ff86520711348d337a547ad8f0741e3a2116d6--->
 
-## 2.2.9.dev (unreleased)
+<!---c5ad4aabe768185d77830712f10692f2d86c462f--->
+
+## 2.2.9 (2016-08-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.8...2.2.9)
 ### Fixed
 - Html plugin can create titles from magnet links again. fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
-<!---15761ab3c5232bc20135f0185b812815ef46784a--->
 
 ## 2.2.8 (2016-08-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.7...2.2.8)
