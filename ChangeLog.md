@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---55ff86520711348d337a547ad8f0741e3a2116d6--->
+<!---c22fd89aeb20babde5927bd5b1bbdb8c1789b6df--->
+
+## 2.2.10.dev (unreleased)
+### Added
+- Plex - Populate series info for Plex episodes
 
 <!---c5ad4aabe768185d77830712f10692f2d86c462f--->
 
