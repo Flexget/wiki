@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---70d14ce195ce8123eca9896b3de03a5b23cb6675--->
+<!---c8904eae8ee98646d240eee698a64d1831f06700--->
+
+## 2.2.11.dev (unreleased)
+### Fixed
+- fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 <!---f4a876c79122502c28eb3293ebec001e670eec9a--->
 
