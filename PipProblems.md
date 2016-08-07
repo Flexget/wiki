@@ -19,7 +19,7 @@ pip2 install --upgrade pip
 
 ## Pip package issues
 
-```` 
+```
 Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/pip/__init__.py", line 74, in <module>
     from pip.vcs import git, mercurial, subversion, bazaar  # noqa
