@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c8904eae8ee98646d240eee698a64d1831f06700--->
+<!---65b77991e129dcae13aad442cd718a35e8b1e580--->
 
 ## 2.2.11.dev (unreleased)
 ### Fixed
+- 'files' and 'subdirs' no longer crash on single strings
 - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 <!---f4a876c79122502c28eb3293ebec001e670eec9a--->
