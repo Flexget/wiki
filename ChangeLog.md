@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d0316fab10eeea2e7db090ba8230385afa5d7576--->
+<!---90f9f8e0135e8e733f53bf4c3ec8d16f7b9be10f--->
 
 ## 2.2.11.dev (unreleased)
 ### Fixed
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Changed
 - Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
+
+### Added
+- Prowl - Allow the sending of the prowl url parameter
 
 <!---f4a876c79122502c28eb3293ebec001e670eec9a--->
 
