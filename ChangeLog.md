@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c22fd89aeb20babde5927bd5b1bbdb8c1789b6df--->
+<!---70d14ce195ce8123eca9896b3de03a5b23cb6675--->
 
-## 2.2.10.dev (unreleased)
+<!---f4a876c79122502c28eb3293ebec001e670eec9a--->
+
+## 2.2.10 (2016-08-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.9...2.2.10)
 ### Added
 - Plex - Populate series info for Plex episodes
 
-<!---c5ad4aabe768185d77830712f10692f2d86c462f--->
 
 ## 2.2.9 (2016-08-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.8...2.2.9)
