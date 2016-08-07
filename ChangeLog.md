@@ -5,8 +5,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.2.11.dev (unreleased)
 ### Fixed
-- 'files' and 'subdirs' no longer crash on single strings
-- fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
+- move - 'files' and 'subdirs' no longer crash on single strings
+- html - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 ### Changed
 - Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
