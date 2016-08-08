@@ -1,4 +1,4 @@
-# FlexGet GitHub install
+# GitHub Install
 **Notes:** 
 
  * Requires **Python 2.7**, virtualenv, and git client
