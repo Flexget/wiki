@@ -28,7 +28,7 @@ Initialize a virtualenv in your checkout directory:
 virtualenv ~/flexget-dev
 ```
 
-Once the virtualenv has been created, we need to install our checked out FlexGet inside it. Make sure you are using the pip installed in your virtualenv by either activating the virtualenv first, or explicitly calling `bin/pip` as shown below. The `-e` flag to pip says this should be an editable install, meaning it uses the files directly in the checkout rather than installing a package in site-packages.
+Once the virtualenv has been created, we need to install our checked out FlexGet inside it. Make sure you are using the pip installed in your virtualenv by either activating the virtualenv first, or explicitly calling `bin/pip` as shown below. (On Windows, use `Scripts/` any place you see `bin/` in this guide.) The `-e` flag to pip says this should be an editable install, meaning it uses the files directly in the checkout rather than installing a package in site-packages.
 
 ```
 cd ~/flexget-dev
