@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---90f9f8e0135e8e733f53bf4c3ec8d16f7b9be10f--->
+<!---3444e06ec2e29598f0d19123898e3f2a1109f4e3--->
 
-## 2.2.11.dev (unreleased)
+<!---6fc32a136a17129d022da882adb52bc853c9c318--->
+
+## 2.2.11 (2016-08-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.10...2.2.11)
 ### Fixed
 - move - 'files' and 'subdirs' no longer crash on single strings
 - html - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - Prowl - Allow the sending of the prowl url parameter
 
-<!---f4a876c79122502c28eb3293ebec001e670eec9a--->
 
 ## 2.2.10 (2016-08-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.9...2.2.10)
