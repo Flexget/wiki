@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b6aa128b3462ef4d1097c211ed29c8366c3305c0--->
+<!---92750b1ba6a05f73ef6fba9f88ced04599ef1093--->
 
-## 2.2.13.dev (unreleased)
+<!---b7cd80a6296b0bbdb931d1159dc6721a66abc68b--->
+
+## 2.2.13 (2016-08-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.12...2.2.13)
 ### Fixed
 - Fixed crash in trakt plugins with latest version of requests library.
 
-<!---aba6d02e3154bbd301052847ea1d6cee8d864d40--->
 
 ## 2.2.12 (2016-08-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.11...2.2.12)
