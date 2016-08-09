@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1964bb84bcedff9e3da6855e70f884cc4fdfcdd5--->
+<!---b6aa128b3462ef4d1097c211ed29c8366c3305c0--->
+
+## 2.2.13.dev (unreleased)
+### Fixed
+- Fixed crash in trakt plugins with latest version of requests library.
 
 <!---aba6d02e3154bbd301052847ea1d6cee8d864d40--->
 
