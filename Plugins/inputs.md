@@ -6,7 +6,7 @@ This plugin allows you to configure the same [input plugin](/Plugins#Inputs) mul
 - If there is an error while retrieving one of the inputs, the others will still be run.
 
 **Example:**
-```
+```yaml
 inputs:
   - find:
       path: /home/me/incoming
