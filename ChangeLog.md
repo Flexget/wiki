@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---92750b1ba6a05f73ef6fba9f88ced04599ef1093--->
+<!---60126012d0cd1f43cd7a2f0aa89b87acd84c16da--->
+
+## 2.2.14.dev (unreleased)
+### Fixed
+- tvmaze and tmdb caches are no longer cleared on each run
 
 <!---b7cd80a6296b0bbdb931d1159dc6721a66abc68b--->
 
