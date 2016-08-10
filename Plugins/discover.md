@@ -47,17 +47,16 @@ discover:
     - imdb_list:
         list: watchlist
     - trakt_list:
-        username: USERNAME
-          password: PASSWORD
-          list: watchlist
-          type: movies
+        account: USERNAME
+        list: watchlist
+        type: movies
     - movie_list: listname
   from:
     - value
 ```
 
 #### Search movie list
-This example would produce results from the torrentz search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin.
+This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin.
 
 ```yaml
 tasks:
@@ -66,13 +65,9 @@ tasks:
       what:
         - movie_list: wanted_movies
       from:
-        - kat:
-            category: movies
-            verified: yes
         - piratebay:
             category: "highres movies"
             sort_by: seeds
-        - torrentz: verified
       interval: 1 day
     list_match:
       from:
