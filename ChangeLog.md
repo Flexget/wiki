@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---60126012d0cd1f43cd7a2f0aa89b87acd84c16da--->
+<!---85b9dafcd9cb79b7f32cf4400966e0ec11270c3d--->
 
-## 2.2.14.dev (unreleased)
+<!---3167b0652d2fdd0d0f9710e29a91b9277cf24dd5--->
+
+## 2.2.14 (2016-08-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.13...2.2.14)
 ### Fixed
 - tvmaze and tmdb caches are no longer cleared on each run
 
-<!---b7cd80a6296b0bbdb931d1159dc6721a66abc68b--->
 
 ## 2.2.13 (2016-08-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.12...2.2.13)
