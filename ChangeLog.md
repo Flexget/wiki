@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e1d054b18278b4058748d234dcf48ceb794edb35--->
+<!---f1d0613b395791d3841f848f0463b43dabf678d9--->
 
-## 2.2.15.dev (unreleased)
+<!---52ca3037a516f7a0406f2e1394d10060cf9ff939--->
+
+## 2.2.15 (2016-08-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.14...2.2.15)
 ### Fixed
 - Pushbullet: Fixed api key being invalid in Py3, fixes [#1320](https://github.com/Flexget/Flexget/issues/1320)
 
-<!---3167b0652d2fdd0d0f9710e29a91b9277cf24dd5--->
 
 ## 2.2.14 (2016-08-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.13...2.2.14)
