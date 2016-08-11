@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f1d0613b395791d3841f848f0463b43dabf678d9--->
+<!---7fa4df661518f0cad475479caedc260556c98724--->
+
+## 2.2.16.dev (unreleased)
+### Added
+- Plex - Added two new fields
 
 <!---52ca3037a516f7a0406f2e1394d10060cf9ff939--->
 
