@@ -72,6 +72,8 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | plex_summary | [plex](/Plugins/plex) | Entry summary. |
 | plex_status | [plex](/Plugins/plex) | Entry status: seen, inprogress or unwatched. |
 | plex_url | [plex](/Plugins/plex) | Original plex url. |
+| plex_userrating | [plex](/Plugins/plex) | Rating given by the user. From 1 to 10 |
+| plex_key | [plex](/Plugins/plex) | Internal Plex identificator for the Media |
 | tvdb_series_name | [thetvdb_lookup](/Plugins/thetvdb_lookup) | Series name provided by thetvdb |
 | tvdb_rating | [thetvdb_lookup](/Plugins/thetvdb_lookup) | Series rating |
 | tvdb_status | [thetvdb_lookup](/Plugins/thetvdb_lookup) | Series status(Continuing or Ended) |
