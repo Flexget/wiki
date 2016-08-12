@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---60f24ab0dda7b94c87ba43451921c50c3cef391f--->
+<!---59427bd2264f056e861a41e0297e678bf4a4f5e5--->
+
+## 2.2.17.dev (unreleased)
+### Fixed
+- irc: Fixed KeyError when extracting tags from announcement
 
 <!---ef23a497c44126d98d0ad55c7499ab656a173b19--->
 
