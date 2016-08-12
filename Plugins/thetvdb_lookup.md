@@ -31,7 +31,7 @@ This plugin looks up more information from thetvdb.com about any entries that Fl
 | tvdb_network | Series network |
 | tvdb_banner | Series banner url |
 | tvdb_fanart | Series fanart url |
-| tvdb_poster | Series poster url |
+| tvdb_posters | Series posters url |
 | tvdb_airs_day_of_week | Series airs date of the week |
 | tvdb_actors | Series actors |
 | tvdb_language | Series language(en, fr, etc.) |
