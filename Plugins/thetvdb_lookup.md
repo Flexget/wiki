@@ -29,9 +29,9 @@ This plugin looks up more information from thetvdb.com about any entries that Fl
 | tvdb_content_rating | Series content ration |
 | tvdb_genres | Series genres |
 | tvdb_network | Series network |
-| tvdb_banner_url | Series banner url |
-| tvdb_fanart_url | Series fanart url |
-| tvdb_poster_url | Series poster url |
+| tvdb_banner | Series banner url |
+| tvdb_fanart | Series fanart url |
+| tvdb_poster | Series poster url |
 | tvdb_airs_day_of_week | Series airs date of the week |
 | tvdb_actors | Series actors |
 | tvdb_language | Series language(en, fr, etc.) |
@@ -46,7 +46,7 @@ This plugin looks up more information from thetvdb.com about any entries that Fl
 | tvdb_ep_air_date | Episode air date |
 | tvdb_ep_rating | Episode rating |
 | tvdb_ep_guest_stars | Episode guest stars |
-| tvdb_ep_image_url | Episode image url |
+| tvdb_ep_image | Episode image url |
 | tvdb_season | Season number of this episode. |
 | tvdb_episode | Episode number. |
 | tvdb_ep_id | Season and episode in SxxEyy format. |
