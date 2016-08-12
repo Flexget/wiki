@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7fa4df661518f0cad475479caedc260556c98724--->
+<!---60f24ab0dda7b94c87ba43451921c50c3cef391f--->
 
-## 2.2.16.dev (unreleased)
+<!---ef23a497c44126d98d0ad55c7499ab656a173b19--->
+
+## 2.2.16 (2016-08-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.15...2.2.16)
 ### Added
 - Plex - Added two new fields
 
-<!---52ca3037a516f7a0406f2e1394d10060cf9ff939--->
 
 ## 2.2.15 (2016-08-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.14...2.2.15)
