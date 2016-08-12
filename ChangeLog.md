@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---260340339bdbd0e020c7152f1e8cff9b17c25450--->
+<!---563d79473635542c2214cc9b66f3cb91276a5e3e--->
 
 ## 2.2.17.dev (unreleased)
 ### Fixed
 - irc: Fixed unicode errors when reading tracker file
 - irc: Fixed KeyError when extracting tags from announcement
+
+### Changed
+- irc: tracker_file option is no longer case sensitive nor does it require .tracker extension
 
 <!---ef23a497c44126d98d0ad55c7499ab656a173b19--->
 
