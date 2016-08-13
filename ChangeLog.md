@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3aa4c6b9b81aa3beb7b4984fe3d104e519fd1c2a--->
+<!---4f3a81cd0b38a335c923b32179278b0f57c401db--->
+
+## 2.2.18.dev (unreleased)
+### Fixed
+- imdb list - Correction IMDb login fixes [#1321](https://github.com/Flexget/Flexget/issues/1321)
 
 <!---8f9dc1a976149539c3d6383d8793f8dc50391dc1--->
 
