@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---563d79473635542c2214cc9b66f3cb91276a5e3e--->
+<!---3aa4c6b9b81aa3beb7b4984fe3d104e519fd1c2a--->
 
-## 2.2.17.dev (unreleased)
+<!---8f9dc1a976149539c3d6383d8793f8dc50391dc1--->
+
+## 2.2.17 (2016-08-12)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.16...2.2.17)
 ### Fixed
 - irc: Fixed unicode errors when reading tracker file
 - irc: Fixed KeyError when extracting tags from announcement
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - irc: tracker_file option is no longer case sensitive nor does it require .tracker extension
 
-<!---ef23a497c44126d98d0ad55c7499ab656a173b19--->
 
 ## 2.2.16 (2016-08-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.15...2.2.16)
