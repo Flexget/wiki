@@ -1,7 +1,7 @@
 # GitHub Install
 **Notes:** 
 
- * Requires **Python 2.7**, virtualenv, and git client
+ * Requires **Python 2.7, 3.3+**, virtualenv, and git client
  * This where we develop
 
 To checkout use command:
@@ -14,7 +14,7 @@ git clone https://github.com/Flexget/Flexget.git ~/flexget-dev
 
 After checkout is complete, you need to initialize the environment.
 
-Make sure the `python` command uses python 2.7. On some systems this may be eg. `python2.7` or `python27`.
+Make sure the `python` command uses python 2.7, 3.3+. On some systems this may be eg. `python2.7` or `python27`.
 
 ```
 python -V
