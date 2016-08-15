@@ -37,7 +37,7 @@ rtorrent:
 | mkdir | [yes\|no] | Create the destination folder on the rTorrent server (default: yes) |
 | start | [yes\|no] | Automatically start newly added torrent (default: yes) |
 | action | [add\|update\|delete] | Default is add |
-| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). <br>**Note:** Will contain incomplete downloads.|
+| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). <br>**Note:** Will contain incomplete ongoing downloads.|
 | priority | [off\|low\|medium\|high] | Set torrent priority (default off) |
 | custom1 | Text | Set custom field |
 | custom2 | Text | Set custom field |
