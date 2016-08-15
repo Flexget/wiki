@@ -11,6 +11,6 @@ content_size:
   strict: no
 ```
 
-Size is given in MB
+Size is given in MiB
 
-This would reject all torrents below 12MB and above 1200MB and over rides the strict behaviour. Same would work also for nzbs.
+This would reject all torrents below 12MiB and above 1200MiB and over rides the strict behaviour. Same would work also for nzbs.
