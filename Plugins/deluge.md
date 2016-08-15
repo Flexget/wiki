@@ -1,31 +1,30 @@
 # Deluge
+
 Downloads content from entry URL and loads it into the [deluge](http://deluge-torrent.org) bittorrent client.
 
-**`Requirements:`**
-Supports Deluge 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
+<div class="alert alert-warning" role="alert">
+<p>Important:</p>
+<ul>
+<li>Deluge requires Python 2.7, it does NOT support Python 3.3+ as of 2016</li>
+<li>
+If you are installing to a virtualenv, you have to create the virtualenv with the --system-site-packages option. This also applies to an GIT install.</li>
+<ul>
+</div>
 
-If you are installing to a virtualenv, you have to create the virtualenv with the `--system-site-packages` option. This also applies to an SVN install when running bootstrap.py.
+**Requirements:**
+* Supports Deluge 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. 
+* If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
 
-**Example:**
 
-```
-deluge:
-  path: /media/diska/downloads/
-  movedone: /media/diska/tv/
-  label: tv
-  queuetotop: yes
-```
-
-## Options
+### Configuration
 All options are optional and will default to whatever you have set in deluge.
 If you wish not to set any of the parameters the format is:
 
-```
+```yaml
 deluge: yes
 ```
 
-**Options**
-
+### Options
 
 | **Name** | **Description** |
 | --- | --- |
@@ -48,23 +47,29 @@ deluge: yes
 | automanaged | If set to false torrents will be added to deluge without the automanaged flag. |
 | content_filename | This can be used to rename the main file and directory of the torrent. [see here](/Plugins/deluge#ContentRenaming) |
 | main_file_only | If yes, all files but the main file inside the torrent (>90% of total by default) will be set to 'do not download' |
-||main_file_ratio|| Sets the threshold value for *main_file_only*. Expects a number between 0 and 1 (ie 0.85 to change to 85%). 90% by default.
-
+||main_file_ratio|| Sets the threshold value for *main_file_only*. Expects a number between 0 and 1 (ie 0.85 to change to 85%). 90% by default.|
 | magnetization_timeout | When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0) |
-| --- | --- |
 | hide_sparse_files | If *main_file_only* is set, all the other (sparse) files will be put inside a hidden subdirectory (called ".sparse_files"). On by default. |
 | keep_subs | If *main_file_only* is set, the subtitle file is also downloaded. If *content_filename* is set, the subtitle file will be renamed too. If *hide_sparse_files* is set, the subtitle will not be hidden. On by default. |
 
+### Example
 
+```yaml
+deluge:
+  path: /media/diska/downloads/
+  movedone: /media/diska/tv/
+  label: tv
+  queuetotop: yes
+```
 
-## Advanced
-Some plugins allow [set:](/Plugins/set) statements as a subcommand.
-The deluge plugin will read any of the normal parameters from the set: command, except for deluge daemon info (host, port, username, password.)
+### Advanced
+Some plugins allow [set](/Plugins/set) to be applied on matched entries.
+The deluge plugin will read any of the normal parameters from the entry fields, except for deluge daemon info (host, port, username, password).
 Here is an example using the series module:
 
 Example with set:
 
-```
+```yaml
 series:
   settings:
     720p:
@@ -100,7 +105,7 @@ Specifying a directory as part of the content_filename is optional. Not doing so
 
 Here is an example configuration:
 
-```
+```yaml
 series:
   settings:
     groupa:
@@ -112,28 +117,28 @@ series:
 deluge: yes
 ```
 
-This config uses [jinja2](/Plugins/set#Jinja2Templating) notation to rename the file using information from the series parser. If there was a file called `Show.Name.9x15.REPACK.720p.HDTV.x264-IMMERSE.[eztv](/eztv).mkv` inside the torrent, it would be renamed to `Show Name - S09E15 - 720p.mkv` If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. `Show Name - S09E15 - 720p(2).mkv`
+This config uses [Jinja2](/Plugins/set#Jinja2Templating) notation to rename the file using information from the series parser. If there was a file called `Show.Name.9x15.REPACK.720p.HDTV.x264-FOOBAR.mkv` inside the torrent, it would be renamed to `Show Name - S09E15 - 720p.mkv` If there is already a file with the new name present in either the downloading folder, or movedone folder, a trailing number will be added to the filename. i.e. `Show Name - S09E15 - 720p(2).mkv`
 
 Together with the movedone command, this means all TV series will be downloaded to:
 
-```
+```text
 /home/user/TV/Show Name/Season #/Show Name - S##E##/Show Name - S##E## - quality.ext
 ```
 
 Subtitle files will be downloaded to (see the `keep_subs` option):
 
-```
+```text
 /home/user/TV/Show Name/Season #/Show Name - S##E##/Show Name - S##E## - quality.srt
 ```
 
 **NOTE:** In order to perform content renaming on a magnet URI, you must set **magnetization_timeout** to a value greater than 0 so that flexget has a chance to magnetize the torrent and retrieve the file list before performing any file list processing during the content renaming phase. If you use any feeds that supply magnet URIs and you wish to perform content renaming, it is strongly recommended to set **magnetization_timeout** to a reasonable wait period, such as **30** (seconds). Magnetization time varies based on swarm activity and network speed, but is typically completed in under 10 seconds.
 
 ## Mac OSX Users
-Should you wish to use the Deluge plugin, Flexget currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source). Flexget is currently unable to interact with a deluge.app installation (as per ticket [1686](http://flexget.com/ticket/1686/) and [1886](http://flexget.com/ticket/1886/)). 
+Should you wish to use the Deluge plugin, Flexget currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source). FlexGet is probably still unable to interact with a deluge.app installation. 
 
 ## Windows Users
-As of r2297 FlexGet should be able to detect Deluge in its install directory if:
+FlexGet should be able to detect Deluge in its install directory if:
 - Deluge is installed in the default install directory <program files>\Deluge
-- FlexGet and Deluge are installed with 32 bit Python 2.7 (The default Deluge download is 32 bit python 2.6, Deluge for 32 bit python 2.7 is required, (along with a 32 bit python 2.7 system install,) and can be found [here](http://download.deluge-torrent.org/windows/py2.7/))
+- FlexGet and Deluge are installed with 32 bit Python 2.7
 
 You can ignore messages about disconnecting from the daemon in a 'non-clean' fashion. This is normal on Windows.
