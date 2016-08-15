@@ -174,7 +174,6 @@ Filters based on data retrieved from 3rd party sites
 | --- | --- |
 | [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
-| [imdb_required](/Plugins/imdb_required) | Reject imdb incompatible entries. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
 
@@ -413,3 +412,4 @@ These plugins will likely get removed in the next minor release (eg. 2.2.5 -> 2.
 | [movie_queue](/Plugins/movie_queue) | Manage movie queue|
 | [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
 | [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
+| [imdb_required](/Plugins/imdb_required) | Reject imdb incompatible entries. |
