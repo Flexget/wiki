@@ -1,20 +1,23 @@
 # Make HTML
 Generate an HTML file for accepted entries.
 
-Config options:
+### Configuration
 
-`file`: The file to create. \\
-`template` (optional): Specify a custom Jinja template. Custom templates should be placed in <flexget config dir>/templates/
+|Option|Description|
+|---|---|
+|file| The file to create.|
+|template| Optionally specify a custom [Jinja2](/Jinja) template. Custom templates should be placed in `<config dir>/templates/`. This directory is not created automatically for you.|
 
-**Example:**
-```
+#### Example
+
+```yaml
 make_html:
   file: ~/thefile.html
 ```
 
-**NOTE**:
-- Custom templates should typically be placed in:
+```yaml
+make_html:
+  file: ~/thefile.html
+  template: foobar.html
 ```
-~/.flexget/templates
-```
-- This directory is not created for you. If you are using an alternate config location then you should update the path accordingly.
+
