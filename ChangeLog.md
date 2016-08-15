@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---84ea518cf90c0f3c61907269812a14c86af3fe45--->
+<!---bbd2fc5320182237d7628245a86dd4c6d0885971--->
 
-## 2.2.19.dev (unreleased)
+<!---e0b1d3bef397469ad6086a1b871071447b1f366b--->
+
+## 2.2.19 (2016-08-14)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.18...2.2.19)
 ### Changed
 - Allow use of `now` in email plugin templates. fix [#1335](https://github.com/Flexget/Flexget/issues/1335)
 
-<!---b57d761e4c8ffe85b4f44d981be12135bb3bd608--->
 
 ## 2.2.18 (2016-08-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.17...2.2.18)
