@@ -10,7 +10,7 @@ This plugin adds URL's directly into rTorrent and can feed in entries from rTorr
 ## Example
 Add TVShows to rTorrent and set the download directory to /data/downloads/TV/{{ tvdb_series_name }}
 
-```
+```yaml
 tasks:
   TV:
     rss: http://domain/rss.xml
@@ -24,7 +24,7 @@ tasks:
 
 Once downloaded move to another folder. You can obviously expand on this config to auto extract (using the decompress plugin) and rename the files then keep seeding.
 
-```
+```yaml
 tasks:
   MOVE-COMPLETE:
     from_rtorrent:
@@ -56,11 +56,11 @@ tasks:
 
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
-| mkdir | [Yes|No](/Yes|No) | Create the destination folder on the rTorrent server (default: yes) |
-| start | [Yes|No](/Yes|No) | Automatically start newly added torrent (default: yes) |
-| action | [Yes|No](/Yes|No) | [add|update|delete](/add|update|delete) (Default is add) |
+| mkdir | [Yes\|No] | Create the destination folder on the rTorrent server (default: yes) |
+| start | [Yes\|No] | Automatically start newly added torrent (default: yes) |
+| action | [Yes\|No] | [add\|update\|delete] (Default is add) |
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
-| priority | Text | [off|low|medium|high](/off|low|medium|high) Set torrent priority (default off) |
+| priority | Text | [off\|low\|medium\|high] Set torrent priority (default off) |
 | custom1 | Text | Set custom field |
 | custom2 | Text | Set custom field |
 | custom3 | Text | Set custom field |
@@ -99,7 +99,7 @@ The following entry fields are set by default on input.
 
 You could use theses to fields to action a torrent.. IE: Remove after x ratio and above
 
-```
+```yaml
 tasks:
   DELETE-RATIO:
     from_rtorrent:
