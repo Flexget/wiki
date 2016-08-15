@@ -48,7 +48,7 @@ tasks:
 | exact_match | [yes\|no] | Yes: precision search, will get only subs matching the video; No: download anything available for the corresponding movie/episode (default: yes) |
 | providers | list | List of providers from where to download subtitles |
 | single | [yes\|no] | Download subtitles in single mode (no language code added to subtitle filename) (default: yes) |
-| hearing_impaired | [yes\|no] | Download subtitles for the hearing impaired when available (Flexget 2.20 or newer) |
+| hearing_impaired | [yes\|no] | Download subtitles for the hearing impaired when available (default: no) (Flexget 2.20 or newer) |
 | authentication | dict | Set authentication options for providers that require it (currently `addic7ed`, `legendastv` and `opensubtitles`). Each key should be the provider name, associated with `username` and `password` keys, as in the complete example above (Flexget 2.20 or newer) |
 
 ### Notes
