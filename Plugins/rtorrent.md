@@ -1,5 +1,6 @@
 # rTorrent
-This plugin adds URL's directly into rTorrent and can feed in entries from rTorrent.
+
+This plugin adds URL's directly into rTorrent or create entries from rTorrent for further automation.
 
 **Supports**
 
@@ -7,37 +8,14 @@ This plugin adds URL's directly into rTorrent and can feed in entries from rTorr
 * Dynamically setting the download directory and custom attributes supporting [jinja replacement](/Jinja)
 * Magnet urls
 
-## Example
-Add TVShows to rTorrent and set the download directory to /data/downloads/TV/{{ tvdb_series_name }}
+## Syntax
+
 
 ```yaml
-tasks:
-  TV:
-    rss: http://domain/rss.xml
-    accept_all: yes
-    rtorrent:
-      uri: scgi://localhost:5000
-      path: /data/downloads/TV/{{ tvdb_series_name }}
-      custom1: TV
-```
-
-
-Once downloaded move to another folder. You can obviously expand on this config to auto extract (using the decompress plugin) and rename the files then keep seeding.
-
-```yaml
-tasks:
-  MOVE-COMPLETE:
-    from_rtorrent:
-      uri: scgi://localhost:5000
-    regexp:
-      accept_excluding:
-        - complete
-      from: custom2
-    rtorrent:
-      action: update
-      custom2: complete
-      uri: http://192.168.0.20/rtorrent
-      path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
+rtorrent:
+  uri: scgi://localhost:5000
+  path: /data/torrent/ongoing/
+  custom1: TV
 ```
 
 ## Options
@@ -56,11 +34,11 @@ tasks:
 
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
-| mkdir | [Yes\|No] | Create the destination folder on the rTorrent server (default: yes) |
-| start | [Yes\|No] | Automatically start newly added torrent (default: yes) |
-| action | [Yes\|No] | [add\|update\|delete] (Default is add) |
-| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
-| priority | Text | [off\|low\|medium\|high] Set torrent priority (default off) |
+| mkdir | [yes\|no] | Create the destination folder on the rTorrent server (default: yes) |
+| start | [yes\|no] | Automatically start newly added torrent (default: yes) |
+| action | [add\|update\|delete] | Default is add |
+| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). **Note:** Will contain incomplete download. Set up separate move task or rTorrent event using custom fields if you want to move completed downloads to another location.|
+| priority | [off\|low\|medium\|high] | Set torrent priority (default off) |
 | custom1 | Text | Set custom field |
 | custom2 | Text | Set custom field |
 | custom3 | Text | Set custom field |
@@ -97,11 +75,13 @@ The following entry fields are set by default on input.
 - ratio
 - path
 
-You could use theses to fields to action a torrent.. IE: Remove after x ratio and above
+
+### Example
+Use fields to remove after x ratio and above
 
 ```yaml
 tasks:
-  DELETE-RATIO:
+  delete-ratio:
     from_rtorrent:
       uri: scgi://localhost:5000
     if:
@@ -110,4 +90,63 @@ tasks:
       action: delete
       custom2: complete
       uri: http://192.168.0.20/rtorrent
+```
+
+
+### Example: Move completed  1
+
+Create rTorrent action on complete
+
+File .rtorrent.rc
+
+```
+system.method.set_key = event.download.finished,move_complete,"execute=mv,-u,$d.get_base_path=,$d.get_custom1=;d.set_directory=$d.get_custom1="
+```
+
+Add TVShows to rTorrent and set the download directory to `/data/downloads/TV/{{ tvdb_series_name }}`
+
+```yaml
+tasks:
+  tv:
+    rss: http://domain/rss.xml
+    accept_all: yes
+    rtorrent:
+      uri: scgi://localhost:5000
+      path: /data/downloads/ongoing/
+      custom1: /data/downloads/TV/{{ tvdb_series_name }}
+```
+
+### Example: Move completed  2
+
+**NOTE:** Unsure how/if this works, original rTorrent plugin author wrote this so it probably does ...
+
+Add TVShows to rTorrent and set the download directory to `/data/downloads/TV/{{ tvdb_series_name }}`
+
+```yaml
+tasks:
+  tv:
+    rss: http://domain/rss.xml
+    accept_all: yes
+    rtorrent:
+      uri: scgi://localhost:5000
+      path: /data/downloads/TV/{{ tvdb_series_name }}
+      custom1: TV
+```
+
+Once downloaded move to another folder. You can obviously expand on this config to auto extract (using the decompress plugin) and rename the files then keep seeding.
+
+```yaml
+tasks:
+  move-complete:
+    from_rtorrent:
+      uri: scgi://localhost:5000
+    regexp:
+      accept_excluding:
+        - complete
+      from: custom2
+    rtorrent:
+      action: update
+      custom2: complete
+      uri: http://192.168.0.20/rtorrent
+      path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
 ```
