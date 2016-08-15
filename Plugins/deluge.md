@@ -3,7 +3,6 @@
 Downloads content from entry URL and loads it into the [deluge](http://deluge-torrent.org) bittorrent client.
 
 <div class="alert alert-warning" role="alert">
-<p>Important:</p>
 <ul>
 <li>Deluge requires Python 2.7, it does NOT support Python 3.3+ as of 2016</li>
 <li>
