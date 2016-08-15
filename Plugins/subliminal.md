@@ -1,10 +1,10 @@
 # Subliminal
 Download subtitles for entries referred to existing video files.
 
-This plugin requires the subliminal >=2.0rc1 library. To install it run the follwing
+This plugin requires the subliminal >=2.0 library. To install it run the follwing
 
 ```cmd
-pip install subliminal==2.0rc1
+pip install subliminal>=2.0
 ```
 
 **Example (complete task):**
@@ -24,8 +24,16 @@ tasks:
       alternatives:
         - eng
       exact_match: yes
-      providers: [addic7ed, opensubtitles]
+      providers: [addic7ed, opensubtitles, tvsubtitles]
       single: no
+      hearing_impaired: yes
+      authentication:
+        addic7ed:
+          username: my_user
+          password: my_password
+        opensubtitles:
+          username: other_user
+          password: other_passsword
 ```
 
 ## Options
@@ -37,8 +45,15 @@ tasks:
 | exact_match | [yes\|no] | Yes: precision search, will get only subs matching the video; No: download anything available for the corresponding movie/episode (default: yes) |
 | providers | list | List of providers from where to download subtitles |
 | single | [yes\|no] | Download subtitles in single mode (no language code added to subtitle filename) (default: yes) |
+| hearing_impaired | [yes\|no] | Download subtitles for the hearing impaired when available (Flexget 2.20 or newer) |
+| authentication | dict | Set authentication options for providers that require it (currently `addic7ed`, `legendastv` and `opensubtitles`). Each key should be the provider name, associated with `username` and `password` keys, as in the complete example above (Flexget 2.20 or newer) |
 
 #### Notes
+
 With respect to single mode, if more than one language is provided in the configuration, then language codes are added to the potentially downloaded subtitles
 
-Options `alternatives`, `exact_match`,  `providers` and `single` are optional in the configuration file
+Options `alternatives`, `exact_match`,  `providers`, `single`, `hearing_impaired` and `authentication` are optional.
+
+Omitting `providers` means all available providers will be used, which includes the ones that that don't need authentication, or that have been properly configured with the `authentication` option.
+
+Consider making use of the [Secrets plugin](/Plugins/secrets) to store the usernames and passwords outside of the main configuration file.
