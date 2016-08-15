@@ -3,12 +3,12 @@ Log in to a site using a webform
 
 This plugin requires the mechanize library. To install it, run:
 
-```
-pip install mechanize
+```cmd
+$ pip install mechanize
 ```
 
 ### Example
-```
+```yaml
 form:
   url: http://example.com/login.php
   username: <username>
@@ -18,7 +18,7 @@ form:
 ### Example 2
 The login module just performs the login, you need to use other plugins to process content from the site:
 
-```
+```yaml
 form:
   url: http://example.com/login.php
   username: <username>
@@ -32,9 +32,6 @@ regexp:
 
 ## Options
 All options except for the API key are optional
-
-**Options**
-
 
 | **Name** | **Description** |
 | --- | --- |
