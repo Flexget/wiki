@@ -23,7 +23,6 @@ tasks:
 
 This makes examples more compact and reduces unnecessary boilerplate.
 
-
 ## Inputs
 Produce **[entries](/Entry)** from external source.  
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
@@ -32,7 +31,6 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 ### Raw Input
 Input plugins that directly parse data from a source based on its type.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -49,7 +47,6 @@ Input plugins that directly parse data from a source based on its type.
 
 ### 3rd party sites input
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -74,7 +71,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ### 3rd party software input
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [couchpotato_list ](/Plugins/List/couchpotato_list) | Produce entries from couchpotato wanted movies list. [Managed List](/Plugins/List) |
@@ -88,7 +84,6 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -108,7 +103,6 @@ If you plan to use multiple filters per task, you should look at **[filtering op
 ### Content based filters
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [all_series](/Plugins/all_series) | Accepts any entry that appears to be an episode of a series. |
@@ -120,7 +114,6 @@ Filters based on the nature of the input content (such as movie, series, series 
 ### Metadata filters
 Filters based on content's metadata such as size and quality
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_size](/Plugins/content_size) | Reject torrents and nzb's that do not meet size requirements. |
@@ -128,7 +121,6 @@ Filters based on content's metadata such as size and quality
 
 ### FlexGet internal filters
 Filters based on preexisting data or operations within FlexGet
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -142,7 +134,6 @@ Filters based on preexisting data or operations within FlexGet
 ### Torrent specific filters
 Filters based specifically for torrents
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_filter](/Plugins/content_filter) | Reject based on filenames within torrents. |
@@ -153,7 +144,6 @@ Filters based specifically for torrents
 
 ### Logical and operational filters
 Filters that will accept/reject entries based on logical statements or simple file operations
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -169,20 +159,17 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ### 3rd party sites filters
 Filters based on data retrieved from 3rd party sites
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
-
 ## Output
 Execute operation(s) on accepted entries.
 
 ### 3rd party software output
 Send accepted entries to 3rd party software, usually downloaders.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -202,7 +189,6 @@ Send accepted entries to 3rd party software, usually downloaders.
 ### 3rd party sites output
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [myepisodes](/Plugins/myepisodes) | Mark accepted episodes as acquired on MyEpisodes. |
@@ -211,7 +197,6 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 
 ### Notifier services output
 Send accepted entries to notification services.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -231,17 +216,15 @@ Send accepted entries to notification services.
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [digest](/Plugins/digest) | Collects entries from tasks to be combined into another task (usually for notification.) |
 | [set_series_begin](/Plugins/set_series_begin) | Set the first episode to download for series. |
-| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to another list plugin. |
-| [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries to another list plugin. |
+| [list_add](/Plugins/List/list_add) | Add accepted entries to [Managed List](/Plugins/List). |
+| [list_remove](/Plugins/List/list_remove) | Remove accepted entries from [Managed List](/Plugins/List). |
 
 ### File operations output
 Perform different file operations using accepted entries.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -269,7 +252,6 @@ Generate custom output using accepted entries
 Retrieve additional data from internal parsers or 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 
 These provide metainfo (ie. fields) to [Entry](/Entry).
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -306,7 +288,6 @@ Perform various operations on request that are being sent and received.
 ### File operations
 Perform file oriented operations.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [add_trackers](/Plugins/add_trackers) | Add trackers to torrents. |
@@ -315,11 +296,8 @@ Perform file oriented operations.
 | [path_by_ext](/Plugins/path_by_ext) | Change (download) path based on file-type (extension). |
 | [path_by_space](/Plugins/path_by_space) | Select a path based on disk stats |
 | [remove_trackers](/Plugins/remove_trackers) | Remove trackers from a torrent. |
-| [set](/Plugins/set) | Set 'path' or other info per task. Can be dynamic per entry. |
 
-### Data operations
-Manipulate relevant data based on input.
-
+### Generic operations
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -327,8 +305,10 @@ Manipulate relevant data based on input.
 | [manipulate](/Plugins/manipulate) | Allows regexp manipulation for entries. |
 | [parsing](/Plugins/parsing) | Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often) |
 | [pathscrub](/Plugins/pathscrub) | Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.) |
+| [set](/Plugins/set) | Set any entry field value. Can be formatted dynamically per entry. |
 | [torrent_scrub](/Plugins/torrent_scrub) | Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent). |
 | [urlrewrite](/Plugins/urlrewrite) | User regexp for URL Rewriting. |
+
 
 ### FlexGet internal operations
 Perform various FlexGet operations.
