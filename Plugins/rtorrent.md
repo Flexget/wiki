@@ -37,7 +37,7 @@ rtorrent:
 | mkdir | [yes\|no] | Create the destination folder on the rTorrent server (default: yes) |
 | start | [yes\|no] | Automatically start newly added torrent (default: yes) |
 | action | [add\|update\|delete] | Default is add |
-| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). **Note:** Will contain incomplete download. Set up separate move task or rTorrent event using custom fields if you want to move completed downloads to another location.|
+| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). <br>**Note:** Will contain incomplete downloads.|
 | priority | [off\|low\|medium\|high] | Set torrent priority (default off) |
 | custom1 | Text | Set custom field |
 | custom2 | Text | Set custom field |
@@ -77,7 +77,7 @@ The following entry fields are set by default on input.
 
 
 ### Example
-Use fields to remove after x ratio and above
+Use fields to remove after 2.0 ratio and above
 
 ```yaml
 tasks:
