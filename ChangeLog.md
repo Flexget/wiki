@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8a8bba6124ec76e5093d83fee9e5af95ac16db5f--->
+<!---1401871fcfa9be91e4b469ca57ecf74a8776c90d--->
+
+## 2.2.21.dev (unreleased)
+### Fixed
+- IMDB list - Added `documentary` type to be parsed as movie. Fixes [#1343](https://github.com/Flexget/Flexget/issues/1343)
+- Fuzer - Fixed updated site layout
 
 <!---f06db58c1a26263070c80718918430416c9462a1--->
 
