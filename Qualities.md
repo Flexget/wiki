@@ -54,7 +54,7 @@ Qualities are split into four separate categories: resolution, source, codec, an
 
 <div class="row">
 {{#each categories }}
-  <ul class="list-group col-xs-3">
+  <ul class="list-group col-xs-4 col-sm-3">
   <li class="list-group-item active">{{@key}}</li>
   {{# this }}
   <li class="list-group-item">{{ this }}</li>
