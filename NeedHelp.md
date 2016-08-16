@@ -1,16 +1,14 @@
 # Having troubles?
 If you're having problems getting something to work that should clearly work (by wiki) do not hesitate to ask help.
 
-## Trac
-**Please report all bugs and errors by using tickets in this site! ** For more information see [bug report guide](/BugReport).  
-
-You can use tickets also to get help. Create ticket and describe your problem, for help request use ticket type help. 
-
-### IRC
-Join [#FlexGet @ Freenode](http://webchat.freenode.net/?channels=#flexget) for chat.
+### Chat
+IRC [#FlexGet @ Freenode](http://webchat.freenode.net/?channels=#flexget) or via [gitter](https://gitter.im/Flexget/Flexget).
 
 ### Forum
-Join the [Forum](http://discuss.flexget.com/) for discussion and support
+Join the [Forum](http://discuss.flexget.com/) for discussion and support.
 
-# Feedback
-I'm always interested in feedback, may it be good or bad. Especially when you decide not to use FlexGet, tell me why so I can work to resolve those issues.
+## Bugs
+Please report all bugs and errors by using [github tickets](https://github.com/Flexget/Flexget/issues)! For more information see [bug report guide](/BugReport).  
+
+### Feedback?
+We are always interested in feedback, may it be good or bad. Especially when you decide not to use FlexGet, tell us why so we can work to resolve those issues.
