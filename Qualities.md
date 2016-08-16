@@ -52,28 +52,16 @@ categories:
 # Qualities
 Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
 
-<table>
-<tr>
+<div class="row">
 {{#each categories }}
-  <td style="vertical-align: top">
-
-**{{@key}}**
-
-  </td>
-{{/each}}
-</tr>
-<tr>
-{{#each categories }}
-  <td>
-  <ul>
+  <ul class="list-group col-md-3">
+  <li class="list-group-item active">{{@key}}</li>
   {{# this }}
-  <li>{{ this }}</li>
+  <li class="list-group-item">{{ this }}</li>
   {{/this}}
   </ul>
-  </td>
 {{/each}}
-</table>
-
+</div>
 
 ## Requirements
 In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
