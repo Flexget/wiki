@@ -3,19 +3,19 @@ Downloads content from entry url and writes it into a file. As a default html re
 
 **Example:**
 
-```
+```yaml
 download: ~/torrents/
 ```
 
 This is the simplest use-case, there are additional options and features for more fine control.
 
-## Download path (advanced)
+### Download path (advanced)
 Some plugins set download path per entry.
 One such example is [regexp](/Plugins/regexp) that can be used to override path.
 
 Example with alternative paths:
 
-```
+```yaml
 regexp:
   accept:
     - pattern1
@@ -32,7 +32,7 @@ For even more customization you can use [set](/Plugins/set) plugin to manually c
 
 **Example**
 
-```
+```yaml
 series:
   - pioneer one
 set:
@@ -42,18 +42,18 @@ download: yes
 
 Note that in this example we did not specify path for download as we expect every entry to have a download `path`. If entry without `path` is tried to be downloaded it will be marked as failed.
 
-## Filename (advanced)
+### Filename (advanced)
 You can also override filename that is saved by `filename` field. Here's an example that sets it based on title.
 
-```
+```yaml
 set:
   filename: {{title|pathscrub}}.torrent
 ```
 
-## Options (advanced)
+### Options (advanced)
 There are a couple of options that can be specified when using full syntax:
 
-```
+```yaml
 download:
   path: /path/here
   overwrite: yes
@@ -62,10 +62,12 @@ download:
   filename: my_filename.torrent
 ```
 
-`overwrite` If a non-identical file already exists with the given name, it will be overwritten. (defaults to false)  
-`fail_html` If html content is recieved (usually a login page), fail the entry. (defaults to true)  
-`temp` Downloads are saved in a temporary location before being moved to their final path. You can override the default temporary folder with this option.  
-`filename` Overrides the original filename. Supports jinja replacement.
+|Option|Description|
+|---|---|
+|overwrite|If a non-identical file already exists with the given name, it will be overwritten. (defaults to false)|
+|fail_html|If html content is recieved (usually a login page), fail the entry. (defaults to true)  |
+|temp| Downloads are saved in a temporary location before being moved to their final path. You can override the default temporary folder with this option.  |
+|filename| Overrides the original filename. Supports jinja replacement.|
 
-## Multiple urls
-Some plugins (currently only [rss](/Plugins/rss), see "group link" value) can store multiple urls, to be tolerant to broken urls. If several urls are available, they will be tried sequentially until one works.
+### Multiple urls
+Some plugins (ie. [rss](/Plugins/rss), see "group link" value) can store multiple urls, to be tolerant to broken urls. If several urls are available, they will be tried sequentially until one works.
