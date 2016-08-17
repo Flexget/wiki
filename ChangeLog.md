@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---89971552bb82cdc09baeef6921c4b576e2b03341--->
+<!---7fff6697c89bf52ecb661255ff1d5cf51f7b929c--->
 
 ## 2.3.0.dev (unreleased)
 ### Fixed
+- fixed square brackets messing up move's along, fixes [#1348](https://github.com/Flexget/Flexget/issues/1348)
 - IMDB List - Added more supported types. Fixes [#1343](https://github.com/Flexget/Flexget/issues/1343)
 - 'files' and 'subdirs' no longer crash on single strings
 - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
