@@ -59,12 +59,14 @@ discover:
 ```
 
 #### Search movie list
-This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin.
+This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin. It will only search for movies that have a release date that is no more than 30 days in the future.
 
 ```yaml
 tasks:
   discover-movies:
     discover:
+      release_estimations:
+        optimistic: 30 days
       what:
         - movie_list: wanted_movies
       from:
