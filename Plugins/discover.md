@@ -16,13 +16,16 @@ discover:
   [limit]: <value>
   [interval]: <value>
   [release_estimations]: <value>
+  OR
+  [release_estimations]:
+    [optimistic]: <interval>
 ```
 
 | Option | Description |
 | --- | --- |
 |limit| max results from each search engine|
 |interval|time between trying each search again. Default is 5 hours|
-|release_estimations|Can be `auto`, `strict` or `ignore`. If set to `ignore`, no release date checking will be attempted. If set to `strict`, will reject all episodes without air dates. Default is `auto`, which will check all episodes for air dates, but won't reject those with missing air dates.|
+|release_estimations|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. Default is `strict`.<br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `<interval>` units (eg. 7 days) before release date.|
 
 ### Supported search engines
 An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins run `flexget plugins --group search`.
