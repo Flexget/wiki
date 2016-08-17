@@ -5,13 +5,33 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.3.0.dev (unreleased)
 ### Fixed
-- IMDB List - Added more supported types.
 - IMDB List - Added more supported types. Fixes [#1343](https://github.com/Flexget/Flexget/issues/1343)
 - 'files' and 'subdirs' no longer crash on single strings
 - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 ### Changed
 - Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
+- Many CLI commands now have nice formatted table output
+- CLI command `flexget trakt show` has been renamed to `flexget trakt list`
+- discover `release_estimations` now defaults to `strict` meaning anything with no release date or one that lies in the future will not be included in the search
+- discover will now keep searching for new episodes until it fails to find any (maximum 100 runs). Can be set to the old behaviour with `max_reruns` plugin.
+
+### Removed
+- Removed `movie_queue` and all related plugins.
+- Removed `imdb_required` plugin, switch to `imdb_lookup` and `require_field`
+- Removed `subtitle_queue` plugin
+- Removed `rutracker`  plugin
+- Removed `torrentz` plugin
+- Removed `newzleech` plugin
+- Removed `publichd` plugin
+- Removed `bt-chat` plugin
+- Removed `btjunkie` plugin
+- Removed `isohunt` plugin
+- Removed `redskunk` plugin
+- Removed `stmusic` plugin
+
+# Added
+- added blu-ray.com movie estimator (takes priority over the old one)
 
 <!---d7b7ec557c526a8ea2df11076fb1b504aa2fccfa--->
 
