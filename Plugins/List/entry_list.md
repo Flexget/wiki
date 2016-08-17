@@ -1,3 +1,8 @@
+---
+import:
+  - TerminalTable
+---
+
 # Entry List
 This plugin is a [list_interface](/Plugins/List/) plugin.
 
@@ -75,12 +80,14 @@ $ flexget entry-list all
 $ flexget entry-list list <LIST_NAME>
 ```
 Default <LIST_NAME> is `entries`. This is true for all CLI actions.
+<br>{{> TerminalTable }}
 ### Show details about a specific entry
 ```
 $ flexget entry-list show <LIST_NAME> <ENTRY>
 ```
 
 `<ENTRY>` can be the ID displayed in `entry-list list` or exact entry title.
+<br>{{> TerminalTable }}
 
 ### Add or Update a entry to or from an entry list
 Using a title and original URL is require. You can also add additional identifiers in the following format:
