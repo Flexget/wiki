@@ -6,6 +6,26 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.3.0** -- 2016.08.17 
+
+* [Discover](/Plugins/discover) plugin's `release_estimations` option now defaults to `strict` instead of `loose`, meaning anything with no release date or one that lies in the future will not be included in the search.
+* [Discover](/Plugins/discover) will now keep searching for new items until it fails to find any (maximum 100 runs). Can be set to the old behaviour using [max_reruns](/Plugins/max_reruns) plugin.
+* Removed deprecated `movie_queue` and all related plugins. Use [movie_list](/Plugins/List/movie_list) instead.
+* Removed `imdb_required` plugin, switch to [imdb_lookup](/Plugins/imdb_lookup) and [require_field](/Plugins/require_field)
+* Changed practically all CLI plugins to output using a standartized table [dependency](https://github.com/Robpol86/terminaltables) for a more consistent (and pretty expeirence). Some of the content has been altered in the relevant plugins, and `--porcelain` works slightly different now. See relevant plugin Wiki for details.
+* CLI command `flexget trakt show` has been renamed to `flexget trakt list`
+* Removed `subtitle_queue`plugin
+* Removed `rutracker`  plugin
+* Removed `torrentz` plugin
+* Removed `newzleech` plugin
+* Removed `publichd` plugin
+* Removed `bt-chat` plugin
+* Removed `btjunkie` plugin
+* Removed `isohunt` plugin
+* Removed `redskunk` plugin
+* Removed `stmusic` plugin
+
+
 ### **2.2.0** -- 2016.07.27 
 
 * [irc](/Plugins/Daemon/irc) plugin uses outside dependency now. Install with `pip install irc_bot`
