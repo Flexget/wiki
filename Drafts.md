@@ -1,4 +1,4 @@
 # Drafts for future features
 Just some ideas ...
 
-[[TitleIndex(Drafts/)]]
+[Drafts index](/_index/Drafts/)
