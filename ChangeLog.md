@@ -15,6 +15,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - CLI command `flexget trakt show` has been renamed to `flexget trakt list`
 - discover `release_estimations` now defaults to `strict` meaning anything with no release date or one that lies in the future will not be included in the search
 - discover will now keep searching for new episodes until it fails to find any (maximum 100 runs). Can be set to the old behaviour with `max_reruns` plugin.
+- [Aria2](/Plugins/aria2) is drastically simplified and many features are removed.
 
 ### Removed
 - Removed `movie_queue` and all related plugins.
