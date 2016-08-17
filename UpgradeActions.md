@@ -13,6 +13,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 * Removed deprecated `movie_queue` and all related plugins. Use [movie_list](/Plugins/List/movie_list) instead.
 * Removed `imdb_required` plugin, switch to [imdb_lookup](/Plugins/imdb_lookup) and [require_field](/Plugins/require_field)
 * Changed practically all CLI plugins to output using a standartized table [dependency](https://github.com/Robpol86/terminaltables) for a more consistent (and pretty expeirence). Some of the content has been altered in the relevant plugins, and `--porcelain` works slightly different now. See relevant plugin Wiki for details.
+* [Aria2](/Plugins/aria2) is drastically simplified and many features are removed.
 * CLI command `flexget trakt show` has been renamed to `flexget trakt list`
 * Removed `subtitle_queue`plugin
 * Removed `rutracker`  plugin
