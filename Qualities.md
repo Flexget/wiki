@@ -17,10 +17,10 @@ categories:
   - dvdrip
   - webdl
   - hdtv
+  - webrip
   - bdscr
   - dvdscr
   - sdtv
-  - webrip
   - dsr
   - tvrip
   - preair
