@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7fff6697c89bf52ecb661255ff1d5cf51f7b929c--->
+<!---78fb741238bcda4413e350670ffa1bffff221f2e--->
 
 ## 2.3.0.dev (unreleased)
 ### Fixed
@@ -11,6 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
 
 ### Changed
+- webrip is now considered better than screeners
 - Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
 - Many CLI commands now have nice formatted table output
 - CLI command `flexget trakt show` has been renamed to `flexget trakt list`
