@@ -1,3 +1,7 @@
+---
+import:
+  - TerminalTable
+---
 # Movie List
 This plugin is a [managed list](/Plugins/List/) plugin.
 
@@ -119,19 +123,6 @@ discover-movies:
 
 The [list_match](/Plugins/List/list_match) matches only the first item from the list by default. See its wiki for different options.
 
-### Migrate
-Example on how to migrate from [movie_queue](/Plugins/movie_queue):
-
-```yaml
-movies-movie-queue:
-  emit_movie_queue: yes
-  accept_all: yes
-  list_add:
-    - movie_list: movies
-  disable: 
-    - seen 
-```
-
 Plugin [seen](/Plugins/seen) needs to be disabled since all the titles that movie queue will emit were seen when they were added to the queue
 
 ## Movie list CLI
@@ -147,6 +138,7 @@ Movie list support CLI operations:
 ```cmd
 $ flexget movie-list all
 ```
+{{>TerminalTable}}
 
 ### List movies from movie lists
 ```cmd
@@ -154,6 +146,7 @@ $ flexget movie-list list <LIST_NAME>
 ```
 
 **Note:** If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
+<br>{{>TerminalTable}}
 
 ### Add or Update a movie to or from a movie list
 Using a title is require. You can also add additional identifiers in the following format:
