@@ -1,8 +1,17 @@
 # Aria2
-Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net).
+Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net). Supports HTTP, HTTPS, FTP, Torrent, Magnet.
 
 **Requirements:** Aria2 running and in daemon mode, with XML-RPC enabled 
 
+Start can be simple as
+
+```cmd
+aria2c --enable-rpc --rpc-listen-all
+```
+
+Which is also very insecure. See Aria2 documentation for improving on that.
+
+### Options
 
 | Name | Default | Required | Description |
 | --- | --- | --- | --- |
@@ -13,3 +22,10 @@ Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net).
 | path | N/A | Yes | Output directory|
 | secret | N/A | No | Aria2 `rpc-secret`|
 | options | N/A | No | Any Aria2 options in key-value format.|
+
+### Example
+
+```yaml
+aria2:
+  path: ~/downloads/
+```
