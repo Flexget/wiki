@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a0bbde0e0f921aa100ee32e92c9ac91a16edfe8d--->
+<!---6bbdbf77badc815c1f200be3eedb1c5ace3cb276--->
+
+## 2.3.0.dev (unreleased)
+### Fixed
+- 'files' and 'subdirs' no longer crash on single strings
+- fixed regular expr used to create title from url, really fixes [#1250](https://github.com/Flexget/Flexget/issues/1250)
+
+### Changed
+- Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
 
 <!---d7b7ec557c526a8ea2df11076fb1b504aa2fccfa--->
 
