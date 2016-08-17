@@ -27,6 +27,9 @@ discover:
 |interval|time between trying each search again. Default is 5 hours|
 |release_estimations|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. Default is `strict`.<br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `<interval>` units (eg. 7 days) before release date.|
 
+### Reruns
+When using [next_series_episodes](/Plugins/next_series_episodes) as input for `discover` it will attempt to retrieve new episodes until it fails to find more (maximum 100 runs). The number of reruns can be limited with [max_reruns](/Plugins/max_reruns) plugin.
+
 ### Supported search engines
 An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins run `flexget plugins --group search`.
 
