@@ -30,7 +30,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Removed `redskunk` plugin
 - Removed `stmusic` plugin
 
-# Added
+### Added
 - added blu-ray.com movie estimator (takes priority over the old one)
 
 <!---d7b7ec557c526a8ea2df11076fb1b504aa2fccfa--->
