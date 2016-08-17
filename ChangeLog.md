@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---20d949c00885e403317a8fae09547c41b7e31ec2--->
+<!---a0bbde0e0f921aa100ee32e92c9ac91a16edfe8d--->
 
-## 2.2.22.dev (unreleased)
+<!---d7b7ec557c526a8ea2df11076fb1b504aa2fccfa--->
+
+## 2.2.22 (2016-08-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.21...2.2.22)
 ### Fixed
 - html plugin will now properly dump the contents if configured to
 - form - Solved TypeError Issue. Fixes [#1344](https://github.com/Flexget/Flexget/issues/1344)
 
-<!---6a560bdd2df16ad3e484cd04dc7f0bbb392c4d46--->
 
 ## 2.2.21 (2016-08-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.20...2.2.21)
