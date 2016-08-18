@@ -1,11 +1,9 @@
 # Contributing to FlexGet
 We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [here](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/).
 
-For code submissions we accept (in order of preference):
+For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions, the pull request should be made against the `next` branch (though you may need to bug us in chat if that branch isn't up to date with develop at the moment.)
 
-* GitHub pull requests to the develop branch (These are *strongly* preferred! It is much easier for us to do code reviews and merge these in. You can find a [guide](https://help.github.com/articles/fork-a-repo) here.) Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
-* Patch files as ticket attachments
-* Just plain file attachments if above are too intimidating
+You can find a [guide here](https://help.github.com/articles/fork-a-repo) for forking a repo and making a pull request. Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
 
 If you really want to make us happy, make sure your changes pass PEP8 guidelines. We have task for checking them. You can run it via
 
