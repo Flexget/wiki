@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---78fb741238bcda4413e350670ffa1bffff221f2e--->
+<!---9cd7fc1f4f612620822e778011dd948e2eae8e86--->
 
-## 2.3.0.dev (unreleased)
+<!---13387fc299b9ccd6f929ffbd1f542070a300904c--->
+
+## 2.3.0 (2016-08-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.2.22...2.3.0)
 ### Fixed
 - fixed square brackets messing up move's along, fixes [#1348](https://github.com/Flexget/Flexget/issues/1348)
 - IMDB List - Added more supported types. Fixes [#1343](https://github.com/Flexget/Flexget/issues/1343)
@@ -36,7 +39,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - added blu-ray.com movie estimator (takes priority over the old one)
 
-<!---d7b7ec557c526a8ea2df11076fb1b504aa2fccfa--->
 
 ## 2.2.22 (2016-08-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.21...2.2.22)
