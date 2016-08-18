@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4778a57abae0e6e10f7066b6516dafacc7506a4d--->
+<!---5a38d560c3fc2c2fc1a0513402602b25d8668799--->
 
 ## 2.3.1.dev (unreleased)
 ### Fixed
+- series: Fix crash when using guessit parser on shows with 'Part X' identifiers. fix [#1326](https://github.com/Flexget/Flexget/issues/1326)
 - aria2 won't crash on jinja2 render errors
 - Make aria2 respect --test mode again.
 - aria2 - Fix aria2 plugin on python 3.
