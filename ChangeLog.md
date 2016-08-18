@@ -6,6 +6,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.3.1.dev (unreleased)
 ### Fixed
 - api_bluray: bluray lookup and estimator no longer crash when info not found, fixes [#1352](https://github.com/Flexget/Flexget/issues/1352) [#1353](https://github.com/Flexget/Flexget/issues/1353)
+- piratebay entry size is now parsed correctly
 
 <!---13387fc299b9ccd6f929ffbd1f542070a300904c--->
 
