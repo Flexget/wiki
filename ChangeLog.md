@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9cd7fc1f4f612620822e778011dd948e2eae8e86--->
+<!---fb6c2c3ec017b73aff805dfb133cbdb79bc886a5--->
+
+## 2.3.1.dev (unreleased)
+### Fixed
+- api_bluray: bluray lookup and estimator no longer crash when info not found, fixes [#1352](https://github.com/Flexget/Flexget/issues/1352) [#1353](https://github.com/Flexget/Flexget/issues/1353)
 
 <!---13387fc299b9ccd6f929ffbd1f542070a300904c--->
 
