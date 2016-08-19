@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5a38d560c3fc2c2fc1a0513402602b25d8668799--->
+<!---a744156be397ec5c6f47b98e6405fa8453447688--->
 
-## 2.3.1.dev (unreleased)
+<!---9c3c3d62ffc6c1f1e261f63d3d9c1f063e6800c0--->
+
+## 2.3.1 (2016-08-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.0...2.3.1)
 ### Fixed
 - series: Fix crash when using guessit parser on shows with 'Part X' identifiers. fix [#1326](https://github.com/Flexget/Flexget/issues/1326)
 - aria2 won't crash on jinja2 render errors
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - api_bluray: bluray lookup and estimator no longer crash when info not found, fixes [#1352](https://github.com/Flexget/Flexget/issues/1352) [#1353](https://github.com/Flexget/Flexget/issues/1353)
 - [WebUI] Locked all bower deps to patch level. fixes [#1350](https://github.com/Flexget/Flexget/issues/1350)
 
-<!---13387fc299b9ccd6f929ffbd1f542070a300904c--->
 
 ## 2.3.0 (2016-08-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.2.22...2.3.0)
