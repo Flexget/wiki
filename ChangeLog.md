@@ -27,7 +27,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Changed
 - webrip is now considered better than screeners
-- Subliminal plugin now finds embedded subtitles (again). Also fixed single mode when found language is undefined.
 - Many CLI commands now have nice formatted table output
 - CLI command `flexget trakt show` has been renamed to `flexget trakt list`
 - discover `release_estimations` now defaults to `strict` meaning anything with no release date or one that lies in the future will not be included in the search
