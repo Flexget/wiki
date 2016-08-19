@@ -6,14 +6,14 @@ Most plugins are enabled by placing a keyword and required settings in a configu
 ## Indentation in examples
 All configuration examples are assumed to be placed under a task (or template.) So if documentation has this example:
 
-```yaml
+```
 series:
   - name
 ```
 
 In a full configuration, this goes into:
 
-```yaml
+```
 tasks:
   task_name:
     rss: http://example.com
@@ -23,6 +23,7 @@ tasks:
 
 This makes examples more compact and reduces unnecessary boilerplate.
 
+
 ## Inputs
 Produce **[entries](/Entry)** from external source.  
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
@@ -31,6 +32,7 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 
 ### Raw Input
 Input plugins that directly parse data from a source based on its type.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -48,13 +50,13 @@ Input plugins that directly parse data from a source based on its type.
 ### 3rd party sites input
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [anidb_list](/Plugins/anidb_list) | Create entries from your AniDB wishlist. |
 | [apple_trailers](/Plugins/apple_trailers) | Get movie trailers from Apple.com |
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
-| [horriblesubs](/Plugins/horriblesubs) | Latest [horriblesubs.info](http://horriblesubs.info) releases. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List) |
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
 | [myepisodes_list](/Plugins/myepisodes_list) | Create entries from the shows in your myepisodes.com account. |
@@ -71,6 +73,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ### 3rd party software input
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [couchpotato_list ](/Plugins/List/couchpotato_list) | Produce entries from couchpotato wanted movies list. [Managed List](/Plugins/List) |
@@ -81,9 +84,11 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
 | [next_sonarr_episodes](/Plugins/next_sonarr_episodes) | Produce entries for missing episodes from Sonarr |
+| [from_uoccin](/Plugins/from_uoccin) | Produce entries from a [Uoccin](https://github.com/tarzasai/Uoccin) data file |
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -103,6 +108,7 @@ If you plan to use multiple filters per task, you should look at **[filtering op
 ### Content based filters
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [all_series](/Plugins/all_series) | Accepts any entry that appears to be an episode of a series. |
@@ -114,6 +120,7 @@ Filters based on the nature of the input content (such as movie, series, series 
 ### Metadata filters
 Filters based on content's metadata such as size and quality
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_size](/Plugins/content_size) | Reject torrents and nzb's that do not meet size requirements. |
@@ -121,6 +128,7 @@ Filters based on content's metadata such as size and quality
 
 ### FlexGet internal filters
 Filters based on preexisting data or operations within FlexGet
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -134,6 +142,7 @@ Filters based on preexisting data or operations within FlexGet
 ### Torrent specific filters
 Filters based specifically for torrents
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_filter](/Plugins/content_filter) | Reject based on filenames within torrents. |
@@ -144,6 +153,7 @@ Filters based specifically for torrents
 
 ### Logical and operational filters
 Filters that will accept/reject entries based on logical statements or simple file operations
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -159,17 +169,21 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ### 3rd party sites filters
 Filters based on data retrieved from 3rd party sites
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
+| [imdb_required](/Plugins/imdb_required) | Reject imdb incompatible entries. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
+
 
 ## Output
 Execute operation(s) on accepted entries.
 
 ### 3rd party software output
 Send accepted entries to 3rd party software, usually downloaders.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -185,9 +199,17 @@ Send accepted entries to 3rd party software, usually downloaders.
 | [subliminal](/Plugins/subliminal) | Download subtitles with Subliminal. |
 | [transmission](/Plugins/transmission) | Pass torrents directly to transmission, supporting magnet links. |
 | [utorrent](/Plugins/utorrent) | Pass torrents directly to uTorrent. |
+| [uoccin_collection_add](/Plugins/uoccin_collection) | Mark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_collection_remove](/Plugins/uoccin_collection) | Unmark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_watched_true](/Plugins/uoccin_watched) | Mark all the accepted movies/episodes as watched in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_watched_false](/Plugins/uoccin_watched) | Unmark all the accepted movies/episodes as watched in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_watchlist_add](/Plugins/uoccin_watchlist) | Add all the accepted movies/series in the watchlist inside the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_watchlist_remove](/Plugins/uoccin_watchlist) | Remove all the accepted movies/series from the watchlist inside the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [uoccin_subtitles](/Plugins/uoccin_subtitles) | Update the list of subtitles downloaded for the accepted movies/series in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 
 ### 3rd party sites output
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -197,6 +219,7 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 
 ### Notifier services output
 Send accepted entries to notification services.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -216,15 +239,17 @@ Send accepted entries to notification services.
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [digest](/Plugins/digest) | Collects entries from tasks to be combined into another task (usually for notification.) |
 | [set_series_begin](/Plugins/set_series_begin) | Set the first episode to download for series. |
-| [list_add](/Plugins/List/list_add) | Add accepted entries to [Managed List](/Plugins/List). |
-| [list_remove](/Plugins/List/list_remove) | Remove accepted entries from [Managed List](/Plugins/List). |
+| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to another list plugin. |
+| [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries to another list plugin. |
 
 ### File operations output
 Perform different file operations using accepted entries.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -248,10 +273,10 @@ Generate custom output using accepted entries
 | [make_rss](/Plugins/make_rss) | Generate RSS-feed file from passed entries. |
 
 ## Metadata plugins
-
 Retrieve additional data from internal parsers or 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 
-These provide metainfo (ie. fields) to [Entry](/Entry).
+These are usually automatic (**[Builtin](/Builtin)**) plugins which provide metainfo (fields) to **[Entry](/Entry)**.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -261,17 +286,18 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [tmdb_lookup](/Plugins/tmdb_lookup) | Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand. |
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
-| [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
-| [metainfo_movie](/Plugins/metainfo_movie) | Use internal movie parser to parse task entries and generated movie related data. |
-| [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
+| [bluray_lookup](/Plugins/bluray_lookup) | Enable http://m.blu-ray.com/ parsing for bluray fields on-demand. |
+| [check_subtitles](/Plugins/check_subtitles)^1 | Check subtitles presence for local files. |
+| [uoccin_lookup](/Plugins/uoccin_lookup) | Fetch all the supported information from the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
+| [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 
+
+^1. Not a builtin, configuration required to enable.^
 
 ## Modification plugins
-
 Plugins that can manipulate data and perform various operations.
 
 ### Request operations
-
 Perform various operations on request that are being sent and received. 
 
 
@@ -288,6 +314,7 @@ Perform various operations on request that are being sent and received.
 ### File operations
 Perform file oriented operations.
 
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [add_trackers](/Plugins/add_trackers) | Add trackers to torrents. |
@@ -296,8 +323,11 @@ Perform file oriented operations.
 | [path_by_ext](/Plugins/path_by_ext) | Change (download) path based on file-type (extension). |
 | [path_by_space](/Plugins/path_by_space) | Select a path based on disk stats |
 | [remove_trackers](/Plugins/remove_trackers) | Remove trackers from a torrent. |
+| [set](/Plugins/set) | Set 'path' or other info per task. Can be dynamic per entry. |
 
-### Generic operations
+### Data operations
+Manipulate relevant data based on input.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -305,10 +335,8 @@ Perform file oriented operations.
 | [manipulate](/Plugins/manipulate) | Allows regexp manipulation for entries. |
 | [parsing](/Plugins/parsing) | Configure another parser for series and movie titles. (can help if IMDB/TMDB/TVDB lookup fails too often) |
 | [pathscrub](/Plugins/pathscrub) | Cleans invalid characters from generated path/file names. (Used by other plugins that generate files.) |
-| [set](/Plugins/set) | Set any entry field value. Can be formatted dynamically per entry. |
 | [torrent_scrub](/Plugins/torrent_scrub) | Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent). |
 | [urlrewrite](/Plugins/urlrewrite) | User regexp for URL Rewriting. |
-
 
 ### FlexGet internal operations
 Perform various FlexGet operations.
@@ -336,16 +364,16 @@ Perform various FlexGet operations.
 | [version_checker](/Plugins/version_checker) | Checks if user is running latest Flexget version on a given interval. |
 
 ### 3rd party software
-
 Perform operations on 3rd part software.
+
 
 | **Keyword** | **Description** |
 | --- | --- |
 | [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
 | [rutracker](/Plugins/rutracker) | Supports downloading torrents from rutracker. |
+| [uoccin_reader](/Plugins/uoccin_reader) | Synchronize a [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 
 ## Daemon
-
 These plugins are specifically for when FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
 | **Keyword** | **Description** |
@@ -358,38 +386,31 @@ These plugins are specifically for when FlexGet is being used in daemon mode. Th
 Use `flexget --help` for full list of subcommands. `--help` can also be used with any of the subcommands for further help text.
 
 
-| **Name** | **Description** |
-| --- | --- |
 | [inject](/Plugins/cli/inject) | Inject entries into tasks from the CLI. |
+| --- | --- |
 | [service](/Plugins/cli/service) | **`EXPERIMENTAL`** A Windows service installer for the FlexGet daemon. |
 
 ### `execute` command options
 Use `flexget execute --help` for full option list.
 
-| **Name** | **Description** |
-| --- | --- |
+
 | [--cli-config](/Plugins/--cli-config) | Allow using values from commandline in YML-configuration file. |
+| --- | --- |
 | [--dump](/Plugins/--dump) | Display all entries after task execution. |
 | [--tasks](/Plugins/--tasks) | Executes only the specified task(s) |
 | [--inject](/Plugins/--inject) | Injects custom entry into task(s). |
 | [--try-regexp](/Plugins/try_regexp) | Test how regexps work on task(s) interactively. |
 
 ## Third-party plugin
+Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate python package like [FlexGet extras](/FlexGetExtras).
 
-## FlexGet extras
-
-The [FlexGet extras](/FlexGetExtras) is a separate package that provides some plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
+| [jdownloader](http://flexget.com/ticket/1435) | jDownloader output - perhaps included in the core package sooner or later. |
+| --- | --- |
 
 ## Deprecated
+||[emit_movie_queue](/Plugins/emit_movie_queue)||Emit your [movie_queue](/Plugins/movie_queue).|| 
 
-These plugins will likely get removed in the next minor release (eg. 2.2.5 -> 2.3.0).
-
-| **Keyword** | **Description** |
-| --- | --- |
-| [emit_movie_queue](/Plugins/emit_movie_queue) | Emit your queue|
-| [movie_queue](/Plugins/movie_queue) | Manage movie queue|
 | [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
+| --- | --- |
 | [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
-| [imdb_required](/Plugins/imdb_required) | Reject imdb incompatible entries. |
