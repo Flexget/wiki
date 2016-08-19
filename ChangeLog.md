@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a744156be397ec5c6f47b98e6405fa8453447688--->
+<!---d22cdde3c22a44c26721b50d7b923ea33b41aae2--->
+
+## 2.3.2.dev (unreleased)
+### Fixed
+- irc: putting ~ (tilde) in tracker config path no longer fails to find it on disk
+- irc: specifying tracker file by name only will no longer fail to find it on disk
 
 <!---9c3c3d62ffc6c1f1e261f63d3d9c1f063e6800c0--->
 
