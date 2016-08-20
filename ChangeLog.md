@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d22cdde3c22a44c26721b50d7b923ea33b41aae2--->
+<!---7df8e6a9308e5993242c60ea5a44420c94364d8a--->
 
-## 2.3.2.dev (unreleased)
+<!---56c862cea8672fb540678054efac6a01559ae7e6--->
+
+## 2.3.2 (2016-08-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.1...2.3.2)
 ### Fixed
 - irc: putting ~ (tilde) in tracker config path no longer fails to find it on disk
 - irc: specifying tracker file by name only will no longer fail to find it on disk
 
-<!---9c3c3d62ffc6c1f1e261f63d3d9c1f063e6800c0--->
 
 ## 2.3.1 (2016-08-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.0...2.3.1)
