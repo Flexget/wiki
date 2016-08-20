@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7df8e6a9308e5993242c60ea5a44420c94364d8a--->
+<!---750d5c5677b41a9a873b49168e2ef70407d17d24--->
+
+## 2.3.3.dev (unreleased)
+### Added
+- irc: added CLI commands for restarting, stopping and checking irc connections
 
 <!---56c862cea8672fb540678054efac6a01559ae7e6--->
 
