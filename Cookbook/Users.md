@@ -13,12 +13,12 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [cvium](https://github.com/cvium/.flexget) (v2.2.0) - Utilizes RSS, discover and IRC, includes some custom plugins. Every movie/show is maintained by Trakt lists.
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
+* [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](http://flexget.com/FlexGetExtras).
 
 ## Untested 1.x Configs
 * [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
 * [KnockiMov](/Cookbook/Users/KnockiMov) - Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 * [tubedogg](https://github.com/tubedogg/.flexget) (v1.2.48)
-* [tarzasai](https://github.com/tarzasai/.flexget) (v1.2.424)
 * [Saboti](https://github.com/Saboti/.flexget) (1.2.269) pyload and OCH with trakt.tv Movies and Series integration.
 * [UNNEFER'S ULTIMATE FLEXGET CONFIG](/Cookbook/Users/UnNefer) - Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications
 * [buthidae](/Cookbook/Users/buthidae) (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
