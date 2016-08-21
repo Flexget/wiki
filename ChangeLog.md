@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8f52d30bfa7a523fa2a497d9d8169fb9038a0049--->
+<!---ebf542ecf3afd50e0af6b44a8ca7d1b72a9980de--->
 
 ## 2.3.4.dev (unreleased)
 ### Fixed
+- search plugins: no longer crashes on integer sizes eg. "1 GiB", fixes [#1359](https://github.com/Flexget/Flexget/issues/1359)
 - irc: cli `status all` now only prints once
 
 <!---1f7796aa2e5027d9345848754a2abadba77f7fbc--->
