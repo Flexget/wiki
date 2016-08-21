@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---680042f7d1b76308fc5bf86d2229b49cef929ee9--->
+<!---8f52d30bfa7a523fa2a497d9d8169fb9038a0049--->
+
+## 2.3.4.dev (unreleased)
+### Fixed
+- irc: cli `status all` now only prints once
 
 <!---1f7796aa2e5027d9345848754a2abadba77f7fbc--->
 
