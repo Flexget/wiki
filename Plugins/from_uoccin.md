@@ -1,4 +1,4 @@
-# From Uoccin
+# Uoccin_emit
 This plugin creates an [Entry](/Entry) for each series or movies you have added to your watchlist in [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin), and can be used in combination with [configure_series](/Plugins/configure_series) or [discover](/Plugins/discover) to search for episodes or movies to download.
 
 **`NOTE:`** you need to set up a task to let Flexget synchronize the local uoccin.json file with the Android app (see [uoccin_reader](/uoccin_reader)).  
@@ -27,7 +27,7 @@ get_series:
           settings:
             quality: 720p hdtv+
           from:
-            from_uoccin :
+            uoccin_emit:
               path: path_to_uoccin_folder
               type: series
               tags: [ 'hires' ]
@@ -49,7 +49,7 @@ This example shows how the from_uoccin plugin could be used with the [discover](
 get_movies:
     discover:
       what:
-        - from_uoccin :
+        - uoccin_emit:
             path: path_to_uoccin_folder
             type: movies
       from:
