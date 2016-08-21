@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---750d5c5677b41a9a873b49168e2ef70407d17d24--->
+<!---680042f7d1b76308fc5bf86d2229b49cef929ee9--->
 
-## 2.3.3.dev (unreleased)
+<!---1f7796aa2e5027d9345848754a2abadba77f7fbc--->
+
+## 2.3.3 (2016-08-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.2...2.3.3)
 ### Added
 - irc: added CLI commands for restarting, stopping and checking irc connections
 
-<!---56c862cea8672fb540678054efac6a01559ae7e6--->
 
 ## 2.3.2 (2016-08-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.1...2.3.2)
