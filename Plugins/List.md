@@ -18,7 +18,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | --- | --- |
 | [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
 | [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
-| [list_match ](/Plugins/List/list_clear) | Use this plugin to clear all items from a list plugin. |
+| [list_clear](/Plugins/List/list_clear) | Use this plugin to clear all items from a list plugin. |
 
 ## List action advanced usage
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
