@@ -4,7 +4,7 @@ These plugins are not included in core package and must be installed from  [gith
 
 | **Name** | **Description** |
 | --- | --- |
-| [from_uoccin](/Plugins/from_uoccin) | Produce entries from a [Uoccin](https://github.com/tarzasai/Uoccin) data file |
+| [uoccin_emit](/Plugins/uoccin_emit) | Produce entries from a [Uoccin](https://github.com/tarzasai/Uoccin) data file |
 | [uoccin_collection_add](/Plugins/uoccin_collection) | Mark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 | [uoccin_collection_remove](/Plugins/uoccin_collection) | Unmark all the accepted movies/episodes as collected in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
 | [uoccin_watched_true](/Plugins/uoccin_watched) | Mark all the accepted movies/episodes as watched in the [Uoccin](https://github.com/tarzasai/Uoccin) data file. |
