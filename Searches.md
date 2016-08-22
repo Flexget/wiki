@@ -24,7 +24,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [publichd](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
 | [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [torrent411](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
-| [torrentz](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
+| [limetorrents](/Searches/limetorrents) | Generates entries from [limetorrents.in](http:/www.limetorrents.in/) |
 
 
 ### Private
