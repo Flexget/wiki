@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7bdf0c795b533bf44590caf64ec9089775b606a8--->
+<!---c4f06e44d56e12e5082c7915a11a56cb44e2e32f--->
 
-## 2.3.4.dev (unreleased)
+<!---87914431192b88c1233295ff70a1d5042e610640--->
+
+## 2.3.4 (2016-08-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.3...2.3.4)
 ### Fixed
 - search plugins: no longer crashes on integer sizes eg. "1 GiB", fixes [#1359](https://github.com/Flexget/Flexget/issues/1359)
 - irc: cli `status all` now only prints once
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - re-added rutracker plugin
 
-<!---1f7796aa2e5027d9345848754a2abadba77f7fbc--->
 
 ## 2.3.3 (2016-08-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.2...2.3.3)
