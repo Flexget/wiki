@@ -8,7 +8,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.3.4 (2016-08-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.3...2.3.4)
 ### Fixed
-- search plugins: no longer crashes on integer sizes eg. "1 GiB", fixes [#1359](https://github.com/Flexget/Flexget/issues/1359)
+- search plugins: no longer crashes on single digit sizes eg. "1 GiB", fixes [#1359](https://github.com/Flexget/Flexget/issues/1359)
 - irc: cli `status all` now only prints once
 
 ### Added
