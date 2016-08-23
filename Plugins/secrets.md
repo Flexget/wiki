@@ -9,17 +9,17 @@ secrets: secrets.yml
 templates:
   tell_me:
     notify_xmpp:
-      sender: '{{ secrets.xmpp.usr }}'
-      password: '{{ secrets.xmpp.pwd }}'
+      sender: '\{{ secrets.xmpp.usr }}'
+      password: '\{{ secrets.xmpp.pwd }}'
       recipient: some@recipient.xyz
-      title: 'something new: {{ title }}'
+      title: 'something new: \{{ title }}'
 tasks:
   test:
     template:
       - tell_me
     trakt_list:
-      username: '{{ secrets.a_long.time_ago }}'
-      password: '{{ secrets.a_long.in_a_galaxy }}'
+      username: '\{{ secrets.a_long.time_ago }}'
+      password: '\{{ secrets.a_long.in_a_galaxy }}'
       list: test
       type: movies
 ```
@@ -46,7 +46,7 @@ templates:
       sender: 'xxx@yyy.zzz'
       password: 'mypassword'
       recipient: some@recipient.xyz
-      title: 'something new: {{ title }}'
+      title: 'something new: \{{ title }}'
 tasks:
   test:
     template:
