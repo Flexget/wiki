@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c4f06e44d56e12e5082c7915a11a56cb44e2e32f--->
+<!---a9c7caab4cc4bc8c61ccc5b4fe8cd48f8d21bb95--->
+
+## 2.3.5.dev (unreleased)
+### Fixed
+- morethantv: content_size is now properly set in entries
 
 <!---87914431192b88c1233295ff70a1d5042e610640--->
 
