@@ -5,7 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.3.5.dev (unreleased)
 ### Fixed
-- - seen cli - Added missing fields. Fixes [#1362](https://github.com/Flexget/Flexget/issues/1362)
+- seen cli - Added missing fields. Fixes [#1362](https://github.com/Flexget/Flexget/issues/1362)
 - movie list API - Fixed crash when not sending identifiers key. Fixes [#1363](https://github.com/Flexget/Flexget/issues/1363)
 - api_tvmaze - Broader exception handling
 - morethantv: content_size is now properly set in entries
