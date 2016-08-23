@@ -1,11 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a9c7caab4cc4bc8c61ccc5b4fe8cd48f8d21bb95--->
+<!---915ca0fbc04d329905d3366cc70229391203a92c--->
 
 ## 2.3.5.dev (unreleased)
 ### Fixed
+- - seen cli - Added missing fields. Fixes [#1362](https://github.com/Flexget/Flexget/issues/1362)
+- movie list API - Fixed crash when not sending identifiers key. Fixes [#1363](https://github.com/Flexget/Flexget/issues/1363)
+- api_tvmaze - Broader exception handling
 - morethantv: content_size is now properly set in entries
+
+### Added
+- imdb list - Added support for video game format. Closed [#1355](https://github.com/Flexget/Flexget/issues/1355)
 
 <!---87914431192b88c1233295ff70a1d5042e610640--->
 
