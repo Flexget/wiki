@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---db1c2716d02023f777b9fecd8e7ef62f938611d1--->
+<!---d520cb28efb28f348882cad64464a291568494eb--->
 
 ## 2.3.6.dev (unreleased)
 ### Fixed
+- myepiaodes - Adjust myepisodes to new tvdb plugin api
 - movie list CLI - Fixed crash when adding to new list
 - Restored seen search fields. [#1362](https://github.com/Flexget/Flexget/issues/1362)
 
