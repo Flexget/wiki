@@ -1,7 +1,11 @@
-# Trakt Add
-**IMPORTANT:**
+<div class="alert alert-danger" role="alert">Deprecated and removed!
+</div>
 
-* `trakt_add` plugin is set for deprecation and will be replaced with [list_add](/Plugins/List/list_add).
+Please see [trakt_list](/Plugins/List/trakt_list) for replacement.
+
+# Trakt Add
+
+**IMPORTANT:**
 
 * Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 
