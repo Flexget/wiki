@@ -8,7 +8,7 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 <div class="alert alert-warning" role="alert">
 
 Trakt removes shows from watchlist if you watch them, so **do not** use watchlist as your primary series source, use a 
-[custom list ](http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after-) instead!
+[custom list](http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after-) instead!
 </div>
 
 <div class="alert alert-info" role="alert">
@@ -60,7 +60,7 @@ list_add:
 ```
 
 ### Autoconfigure series
-This example shows how the trakt_list plugin could be used with the [configure_series](/Plugins/configure_series) plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
+This example shows how the trakt_list plugin can be used with the [configure_series](/Plugins/configure_series) plugin in order to download all of the series you have included in a custom trakt list called 'following shows'.
 
 ```yaml
 configure_series:
