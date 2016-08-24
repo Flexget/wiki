@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---915ca0fbc04d329905d3366cc70229391203a92c--->
+<!---8e8c4839dbbcd0f3033eab445bf7e475a5577025--->
 
-## 2.3.5.dev (unreleased)
+<!---3ddc147a0cce1ad0aaf0fe116585c912a8122e92--->
+
+## 2.3.5 (2016-08-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.4...2.3.5)
 ### Fixed
 - seen cli - Added missing fields. Fixes [#1362](https://github.com/Flexget/Flexget/issues/1362)
 - movie list API - Fixed crash when not sending identifiers key. Fixes [#1363](https://github.com/Flexget/Flexget/issues/1363)
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - imdb list - Added support for video game format. Closed [#1355](https://github.com/Flexget/Flexget/issues/1355)
 
-<!---87914431192b88c1233295ff70a1d5042e610640--->
 
 ## 2.3.4 (2016-08-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.3...2.3.4)
