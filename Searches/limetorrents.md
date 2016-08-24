@@ -1,5 +1,5 @@
 # Limetorrents
-This search plugin will get results from [http://limetorrents.in](http://limetorrents.in)
+This search plugin will get results from [https://www.limetorrents.cc](https://www.limetorrents.cc)
 
 ## Configuration
 Simply enable the plugin:
