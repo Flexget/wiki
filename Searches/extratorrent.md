@@ -5,7 +5,7 @@ This search plugin will get results from [http://extratorrent.cc](http://extrato
 You must specify a single category:
 ```
 extratorrent:
-  category: movies
+  category: all
 ```
 
 ## List of possible categories
@@ -15,5 +15,3 @@ extratorrent:
 * `movies`
 * `music`
 * `tv`
-
-Category defaults to `all` if none is specified.
