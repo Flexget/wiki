@@ -6,14 +6,14 @@ Most plugins are enabled by placing a keyword and required settings in a configu
 ## Indentation in examples
 All configuration examples are assumed to be placed under a task (or template.) So if documentation has this example:
 
-```
+```yaml
 series:
   - name
 ```
 
 In a full configuration, this goes into:
 
-```
+```yaml
 tasks:
   task_name:
     rss: http://example.com
@@ -394,8 +394,9 @@ Use `flexget --help` for full list of subcommands. `--help` can also be used wit
 Use `flexget execute --help` for full option list.
 
 
-| [--cli-config](/Plugins/--cli-config) | Allow using values from commandline in YML-configuration file. |
+| Argument | Description |
 | --- | --- |
+| [--cli-config](/Plugins/--cli-config) | Allow using values from commandline in YML-configuration file. |
 | [--dump](/Plugins/--dump) | Display all entries after task execution. |
 | [--tasks](/Plugins/--tasks) | Executes only the specified task(s) |
 | [--inject](/Plugins/--inject) | Injects custom entry into task(s). |
@@ -404,13 +405,13 @@ Use `flexget execute --help` for full option list.
 ## Third-party plugin
 Plugins can be installed by simply placing them in `~/.flexget/plugins/`
 
-
-| [jdownloader](http://flexget.com/ticket/1435) | jDownloader output - perhaps included in the core package sooner or later. |
+| Keyword | Description |
 | --- | --- |
+| [jdownloader](http://flexget.com/ticket/1435) | jDownloader output - perhaps included in the core package sooner or later. |
 
 ## Deprecated
-||[emit_movie_queue](/Plugins/emit_movie_queue)||Emit your [movie_queue](/Plugins/movie_queue).|| 
-
-| [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
+| Keyword | Description |
 | --- | --- |
+|[emit_movie_queue](/Plugins/emit_movie_queue)|Emit your [movie_queue](/Plugins/movie_queue).|| 
+| [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
 | [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
