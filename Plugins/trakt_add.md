@@ -1,7 +1,9 @@
 # Trakt Add
-'''IMPORTANT: `trakt_add` plugin is set for deprecation and will be replaced with [list_add](/Plugins/List/list_add).
+**IMPORTANT:**
 
-**`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
+* `trakt_add` plugin is set for deprecation and will be replaced with [list_add](/Plugins/List/list_add).
+
+* Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 
 This plugin will add accepted movies/tv episodes to one of your [trakt.tv](http://trakt.tv) lists.
 
@@ -11,12 +13,12 @@ Please note that `account` is **required**.
 
 **Configuration:**
 
-```
+```text
 trakt_add:
   username: <trakt username>
   account: <flexget account name>
   list: <list name>
-  type: [auto|shows|seasons|episodes|movies](/auto|shows|seasons|episodes|movies)
+  type: [auto|shows|seasons|episodes|movies]
 ```
 
 The `list` option can be one of the built in trakt lists, `collection`, `watched`, or `watchlist`, or the name of one of your custom trakt lists.
