@@ -14,6 +14,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [1337x](/Searches/1337x) | Generates entries from [1337.to](http://1337x.to/) |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
 | [horriblesubs](/Plugins/horriblesubs) | Generate entries from [horriblesubs.info](http://horriblesubs.info) |
@@ -24,7 +25,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [publichd](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
 | [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [torrent411](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
-| [limetorrents](/Searches/limetorrents) | Generates entries from [limetorrents.in](http:/www.limetorrents.in/) |
+| [limetorrents](/Searches/limetorrents) | Generates entries from [limetorrents.cc](http:/www.limetorrents.cc/) |
 
 
 ### Private
