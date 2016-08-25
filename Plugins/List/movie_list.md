@@ -24,7 +24,7 @@ movie_list:
 **Clarification**: By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` **OUTPUTS** the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [discover](/Plugins/discover) plugin.
 
 ### Matching
-When using `movie_list` with a filter like [list_match](/Plugins/List/list_match) for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier setup and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
+When using `movie_list` with a filter like [list_match](/Plugins/List/list_match) for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
 If matching by identifiers fail, then title is [parsed](/Plugins/parsing) and proceeded to try to match by `movie_name` and `movie_year` fields.
 
 ## Usage
@@ -142,7 +142,7 @@ $ flexget movie-list all
 
 ### List movies from movie lists
 ```cmd
-$ flexget movie-list list <LIST_NAME>
+$ flexget movie-list list [LIST_NAME]
 ```
 
 **Note:** If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
@@ -152,7 +152,7 @@ $ flexget movie-list list <LIST_NAME>
 Using a title is require. You can also add additional identifiers in the following format:
 
 ```cmd
-$ flexget movie-list add <LIST_NAME> <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
+$ flexget movie-list add [LIST_NAME] <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
 ```
 
 Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.
@@ -167,7 +167,7 @@ If a movie is added with identifiers, those will take precedence in the lookup b
 
 ### Removing a movie from movie list
 ```cmd
-$ flexget movie-list del <LIST_NAME> <MOVIE_TITLE>
+$ flexget movie-list del [LIST_NAME] <MOVIE_TITLE>
 ```
 
 ### Clearing an entire movie list
