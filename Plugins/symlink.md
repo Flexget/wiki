@@ -9,7 +9,7 @@ symlink:
 
 ## Examples
 
-Use your collection to create a symlinked imdb watchlist directory. 
+Use your collection to create a symlinked imdb watchlist directory. Removals are not dealth with.
 
 ###
 
