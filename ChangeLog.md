@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf361812756177b73708bfd44ec1b71a6c315480--->
+<!---2832c2fb0a5a7d26b81b18e18ff8e9157955d519--->
 
-## 2.3.7.dev (unreleased)
+<!---ffbdc4adcb1bd05c535ce688547cf909fc7bab14--->
+
+## 2.3.7 (2016-08-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.6...2.3.7)
 ### Fixed
 - api_bluray: no longer crashes when movie contains very little information, fixes [#1353](https://github.com/Flexget/Flexget/issues/1353)
 - iptorrents - Fix plugin iptorrents, fixes [#1368](https://github.com/Flexget/Flexget/issues/1368)
 
-<!---ec1f95119fa91f605840b607019ee4e385dfd654--->
 
 ## 2.3.6 (2016-08-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.5...2.3.6)
