@@ -1,6 +1,6 @@
 # Entry
 Entry represents a single item created by input(s), usually a downloadable content.
-It contains all the information necessary for [plugins](/Plugins) to perform their job (usually some [operation](/FilterOperations) on the entry).
+It contains all the information necessary for [plugins](/Plugins) to perform their job . Usually some [action](/FilterOperations) like accept or reject on the entry.
 
 For example, the [regexp](/Plugins/regexp) plugin checks whether the given regular expression matches the entry's **title** or **url** and acts accordingly.
 
