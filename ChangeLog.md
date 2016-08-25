@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5edde860e68c4478d7a26b600512d27fd9dec73d--->
+<!---ec1e9fc6440bc26b796178677165f8704d7d2b07--->
+
+## 2.3.7.dev (unreleased)
+### Fixed
+- iptorrents - Fix plugin iptorrents, fixes [#1368](https://github.com/Flexget/Flexget/issues/1368)
 
 <!---ec1f95119fa91f605840b607019ee4e385dfd654--->
 
