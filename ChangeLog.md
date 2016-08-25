@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2832c2fb0a5a7d26b81b18e18ff8e9157955d519--->
+<!---86403ef1d55ee9d72821c65fdd7765c52ae315c9--->
+
+## 2.3.8.dev (unreleased)
+### Fixed
+- terminal - Correctly remove colors on porcelain and on no TTY. Fixes [#1361](https://github.com/Flexget/Flexget/issues/1361)
 
 <!---ffbdc4adcb1bd05c535ce688547cf909fc7bab14--->
 
