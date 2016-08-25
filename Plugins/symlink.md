@@ -9,9 +9,9 @@ symlink:
 
 ## Examples
 
-Use your collection to create a symlinked imdb watchlist directory. Removals are not dealth with.
 
-###
+### Watchlist directory
+Use your collection to create a symlinked imdb watchlist directory. Removals are not dealth with.
 
 ```yaml
 link-watchlist-movies:
