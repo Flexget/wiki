@@ -1,5 +1,5 @@
 ### List Match
-This is a filter plugin that uses a list to accept or reject generated entries based on other list content. Any input can be used with [crossmatch](/Plugins/crossmatch) plugin.
+This is a filter plugin that uses a list to accept or reject generated entries based on other list content. For operating any input can see [crossmatch](/Plugins/crossmatch) plugin instead.
 
 ## Syntax
 
