@@ -33,7 +33,6 @@ Most requests are cached so there is no penalty for using the same RSS URL multi
 ### Raw Input
 Input plugins that directly parse data from a source based on its type.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [csv](/Plugins/csv) | Parse any CSV-file |
@@ -49,7 +48,6 @@ Input plugins that directly parse data from a source based on its type.
 
 ### 3rd party sites input
 Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, trakt & etc.
-
 
 | Keyword | Description |
 | --- | --- |
@@ -74,7 +72,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 ### 3rd party software input
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 
-
 | Keyword | Description |
 | --- | --- |
 | [couchpotato_list ](/Plugins/List/couchpotato_list) | Produce entries from couchpotato wanted movies list. [Managed List](/Plugins/List) |
@@ -88,7 +85,6 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
-
 
 | Keyword | Description |
 | --- | --- |
@@ -108,7 +104,6 @@ If you plan to use multiple filters per task, you should look at **[filtering op
 ### Content based filters
 Filters based on the nature of the input content (such as movie, series, series premiere & etc.)
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [all_series](/Plugins/all_series) | Accepts any entry that appears to be an episode of a series. |
@@ -120,7 +115,6 @@ Filters based on the nature of the input content (such as movie, series, series 
 ### Metadata filters
 Filters based on content's metadata such as size and quality
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_size](/Plugins/content_size) | Reject torrents and nzb's that do not meet size requirements. |
@@ -128,7 +122,6 @@ Filters based on content's metadata such as size and quality
 
 ### FlexGet internal filters
 Filters based on preexisting data or operations within FlexGet
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -142,7 +135,6 @@ Filters based on preexisting data or operations within FlexGet
 ### Torrent specific filters
 Filters based specifically for torrents
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [content_filter](/Plugins/content_filter) | Reject based on filenames within torrents. |
@@ -153,7 +145,6 @@ Filters based specifically for torrents
 
 ### Logical and operational filters
 Filters that will accept/reject entries based on logical statements or simple file operations
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -169,13 +160,11 @@ Filters that will accept/reject entries based on logical statements or simple fi
 ### 3rd party sites filters
 Filters based on data retrieved from 3rd party sites
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
-
 
 ## Output
 Execute operation(s) on accepted entries.
@@ -183,10 +172,9 @@ Execute operation(s) on accepted entries.
 ### 3rd party software output
 Send accepted entries to 3rd party software, usually downloaders.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
-| [aria2](/Plugins/aria2) | Pass URIs to be downloaded to a local computer to the aria2 downloader. |
+| [aria2](/Plugins/aria2) | Pass URIs to be downloaded to the aria2 downloader. |
 | [deluge](/Plugins/deluge) | Pass torrents directly to deluge bittorrent client, supporting magnet links. |
 | [nzbget](/Plugins/nzbget) | Download nzbs with nzbget. |
 | [periscope](/Plugins/periscope) | Download subtitles with Periscope. |
@@ -202,7 +190,6 @@ Send accepted entries to 3rd party software, usually downloaders.
 ### 3rd party sites output
 Send accepted entries to 3rd party sites, usually for tracking purposes. 
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [myepisodes](/Plugins/myepisodes) | Mark accepted episodes as acquired on MyEpisodes. |
@@ -211,7 +198,6 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 
 ### Notifier services output
 Send accepted entries to notification services.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -230,7 +216,6 @@ Send accepted entries to notification services.
 
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -254,6 +239,7 @@ Perform different file operations using accepted entries.
 | [move](/Plugins/move) | Move local files. |
 | [sftp_download](/Plugins/sftp_download) | Download files from an SFTP server |
 | [sftp_upload](/Plugins/sftp_upload) | Upload files to an SFTP server |
+| [symlink](/Plugins/symlink) | Symlink local files. |
 
 ### Generators output
 Generate custom output using accepted entries
@@ -278,7 +264,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
 | [bluray_lookup](/Plugins/bluray_lookup) | Enable http://m.blu-ray.com/ parsing for bluray fields on-demand. |
-| [check_subtitles](/Plugins/check_subtitles)^1 | Check subtitles presence for local files. |
+| [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
 
@@ -316,7 +302,6 @@ Perform file oriented operations.
 ### Data operations
 Manipulate relevant data based on input.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [assume_quality](/Plugins/assume_quality) | Make assumptions about the qualities of releases. |
@@ -328,7 +313,6 @@ Manipulate relevant data based on input.
 
 ### FlexGet internal operations
 Perform various FlexGet operations.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -353,7 +337,6 @@ Perform various FlexGet operations.
 
 ### 3rd party software
 Perform operations on 3rd part software.
-
 
 | **Keyword** | **Description** |
 | --- | --- |
