@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d520cb28efb28f348882cad64464a291568494eb--->
+<!---5edde860e68c4478d7a26b600512d27fd9dec73d--->
 
-## 2.3.6.dev (unreleased)
+<!---ec1f95119fa91f605840b607019ee4e385dfd654--->
+
+## 2.3.6 (2016-08-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.5...2.3.6)
 ### Fixed
 - myepiaodes - Adjust myepisodes to new tvdb plugin api
 - movie list CLI - Fixed crash when adding to new list
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - IMDB Search API
 
-<!---3ddc147a0cce1ad0aaf0fe116585c912a8122e92--->
 
 ## 2.3.5 (2016-08-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.4...2.3.5)
