@@ -31,5 +31,5 @@ link-watchlist-movies:
       - imdb_id
     action: accept
   symlink:
-    to: /storage/movies-meta/watchlist/
+    to: /storage/movies-watchlist/
 ```
