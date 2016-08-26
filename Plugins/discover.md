@@ -21,17 +21,17 @@ discover:
     [optimistic]: <interval>
 ```
 
-| Option | Description |
-| --- | --- |
-|limit| max results from each search engine|
-|interval|time between trying each search again. Default is 5 hours|
-|release_estimations|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. Default is `strict`.<br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `<interval>` units (eg. 7 days) before release date.|
-
-### Reruns
-When using [next_series_episodes](/Plugins/next_series_episodes) as input for `discover` it will attempt to retrieve new episodes until it fails to find more (maximum 100 runs). The number of reruns can be limited with [max_reruns](/Plugins/max_reruns) plugin.
+| Option | Default | Description |
+| --- | --- | --- |
+|limit| - | Set max results from each search engine. |
+|interval| 5 hours| Time between trying searches again. |
+|release_estimations|strict|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. <br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `interval` units (eg. 7 days) before release date.|
 
 ### Supported search engines
-An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins run `flexget plugins --group search`.
+An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins use command `flexget plugins --group search`.
+
+### Reruns
+When using [next_series_episodes](/Plugins/next_series_episodes) as an input for `discover` it will attempt to retrieve new episodes until it fails to find more (up to 100 runs). The number of reruns can be limited with [max_reruns](/Plugins/max_reruns) plugin.
 
 ### Examples
 
