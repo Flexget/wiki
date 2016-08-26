@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f77161a1cac5604c5a7bf9498185fa8fbb9b060--->
+<!---ade2066756d708952a2cf834a6765a906d171237--->
 
-## 2.3.8.dev (unreleased)
+<!---4c5d16ae23fd745f9a1eb419d85656b701fed940--->
+
+## 2.3.8 (2016-08-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.7...2.3.8)
 ### Fixed
 - [WebUI] Fixed confirmation dialogs, they now correctly show the content again
 - terminal - Correctly remove colors on porcelain and on no TTY. Fixes [#1361](https://github.com/Flexget/Flexget/issues/1361)
 
-<!---ffbdc4adcb1bd05c535ce688547cf909fc7bab14--->
 
 ## 2.3.7 (2016-08-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.6...2.3.7)
