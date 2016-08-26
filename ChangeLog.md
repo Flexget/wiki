@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ade2066756d708952a2cf834a6765a906d171237--->
+<!---3b98d5e188e11b3ad4cf025681779283b5412664--->
+
+## 2.3.9.dev (unreleased)
+### Fixed
+- Table width on command `failed`
 
 <!---4c5d16ae23fd745f9a1eb419d85656b701fed940--->
 
