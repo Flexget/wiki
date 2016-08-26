@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3b98d5e188e11b3ad4cf025681779283b5412664--->
+<!---fd95928625dc2b8752dd231f05d87dd1b0a1a46e--->
 
 ## 2.3.9.dev (unreleased)
 ### Fixed
 - Table width on command `failed`
+
+### Added
+- regexp_list: added cli commands
 
 <!---4c5d16ae23fd745f9a1eb419d85656b701fed940--->
 
