@@ -114,7 +114,11 @@ Simple values cannot never be merged. So for example multiple `rss: <url>` or `i
 
 ## Global template
 
-Allow specifying plugins for every task without being explicitly told so. Avoid using this since it **WILL** shoot you in the foot at some point if you're not careful.
+<div class="alert alert-danger" role="alert">
+New users should avoid using global templates as it is way too easy to shoot yourself in the foot if you're not careful.
+</div>
+
+Allow specifying plugins for every task without being explicitly told so. 
 
 ```yaml
 templates:
