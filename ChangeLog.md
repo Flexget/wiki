@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---00d1532c7698c74c358fcfe0b98b6cbc837b4797--->
+<!---aa106896a1f5542cd645e64d59bdc93c8d35da81--->
+
+## 2.3.11.dev (unreleased)
+### Fixed
+- piratebay: No longer crashes because of unexpected html tags, fixes [#1359](https://github.com/Flexget/Flexget/issues/1359)
 
 <!---dfb8f89532df9849327e77060e8ebe5fe4d8c4b2--->
 
