@@ -1,9 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ffc29090f7566927ca3d1cf1fa8b7fa1375a9497--->
+<!---00d1532c7698c74c358fcfe0b98b6cbc837b4797--->
 
-<!---8b05316442c082673b4dc047c334bf572b0da9eb--->
+<!---dfb8f89532df9849327e77060e8ebe5fe4d8c4b2--->
+
+## 2.3.10 (2016-08-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.9...2.3.10)
+### Fixed
+- regexp_list: list and purge no longer crash on non-existing lists
+
 
 ## 2.3.9 (2016-08-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.8...2.3.9)
