@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fd95928625dc2b8752dd231f05d87dd1b0a1a46e--->
+<!---ffc29090f7566927ca3d1cf1fa8b7fa1375a9497--->
 
-## 2.3.9.dev (unreleased)
+<!---8b05316442c082673b4dc047c334bf572b0da9eb--->
+
+## 2.3.9 (2016-08-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.8...2.3.9)
 ### Fixed
 - Table width on command `failed`
 
 ### Added
 - regexp_list: added cli commands
 
-<!---4c5d16ae23fd745f9a1eb419d85656b701fed940--->
 
 ## 2.3.8 (2016-08-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.7...2.3.8)
