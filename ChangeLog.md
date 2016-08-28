@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c3c573dcdb17b460c48123a90faa326150e8440f--->
+<!---5c019d8c40f9897f964b5639d5f725d68fde0188--->
 
 ## 2.3.12.dev (unreleased)
 ### Fixed
 - fuzer - Raise plugin error in case main results table could not be found.
+
+### Added
+- New categories in RarBG search plugin
+- New AlphaRatio search plugin
 
 <!---37c58f491f854f098c8e5a08c835f7a810541b1e--->
 
