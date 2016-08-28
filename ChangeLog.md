@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---debe263e0c2578b0f91ba7f81a017dcf20db561b--->
+<!---06cc73f3dc3ca4f9692ef23a9b068b5fff513ac4--->
 
 ## 2.3.12.dev (unreleased)
 ### Fixed
@@ -14,6 +14,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - New AlphaRatio search plugin
 
 ### Changed
+- trakt_list: better error message when trying to use episodes type for collection list, closes [#1380](https://github.com/Flexget/Flexget/issues/1380)
 - movie parser: Improved year and propers parsing
 
 <!---37c58f491f854f098c8e5a08c835f7a810541b1e--->
