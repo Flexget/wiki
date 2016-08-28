@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---09aa0eaa145a773448099f6ec6e6d10ac2180a8f--->
+<!---debe263e0c2578b0f91ba7f81a017dcf20db561b--->
 
 ## 2.3.12.dev (unreleased)
 ### Fixed
+- series cli - Added check for existence of table parser. Fixes [#1378](https://github.com/Flexget/Flexget/issues/1378)
 - seen cli - Fix crash on no table data. Fixes [#1373](https://github.com/Flexget/Flexget/issues/1373)
 - fuzer - Raise plugin error in case main results table could not be found.
 
