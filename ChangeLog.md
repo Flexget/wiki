@@ -1,15 +1,19 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5c019d8c40f9897f964b5639d5f725d68fde0188--->
+<!---09aa0eaa145a773448099f6ec6e6d10ac2180a8f--->
 
 ## 2.3.12.dev (unreleased)
 ### Fixed
+- seen cli - Fix crash on no table data. Fixes [#1373](https://github.com/Flexget/Flexget/issues/1373)
 - fuzer - Raise plugin error in case main results table could not be found.
 
 ### Added
 - New categories in RarBG search plugin
 - New AlphaRatio search plugin
+
+### Changed
+- movie parser: Improved year and propers parsing
 
 <!---37c58f491f854f098c8e5a08c835f7a810541b1e--->
 
