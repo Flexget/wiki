@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---72e25f055277184e8d1dbf3866860edc10c598c1--->
+<!---7206305d4a1ece86e213f3276ad4e0612fdb688a--->
 
 ## 2.3.13.dev (unreleased)
 ### Fixed
+- Command history with --short no longer leaves out last item
 - regexp_list: fixed delete on list_match not working
 
 <!---79f2a3c48be2e240548a240cda1fc3b99512dc7e--->
