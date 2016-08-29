@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b9c62c9c4e37cba3380fe9623fd89da53885f956--->
+<!---5a284f6decdd2759ca44dcadc3375c8393d4ded7--->
 
 ## 2.3.13.dev (unreleased)
 ### Fixed
@@ -10,6 +10,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - regexp_list: fixed delete on list_match not working
 
 ### Changed
+- run_task: Changed schema to allow multiple tasks and fixed some bugs
 - rarbg: will no longer log error when imdb id is not found when searching
 
 <!---79f2a3c48be2e240548a240cda1fc3b99512dc7e--->
