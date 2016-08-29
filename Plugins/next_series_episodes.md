@@ -1,7 +1,10 @@
 # Next Series Episodes
 Creates an [Entry](/Entry) for the next episode needed in each series you have configured in the [series](/Plugins/series) plugin (intended to be used with the [discover](/Plugins/discover) plugin). You must have either [series](/Plugins/series) or [configure_series](/Plugins/configure_series) plugin configured in the same task for this to work. 
 
-If FlexGet has not seen the series for some time and locked to specific episode numbering scheme the [begin](/Plugins/series/begin) setting for the show should be used or next_series_episodes can not guess what to emit.
+If FlexGet has not seen the series for some time and locked to specific episode numbering scheme the [begin](/Plugins/series/begin) setting for the show should be used or `next_series_episodes` can not guess what to emit.
+
+### Quality upgrades?
+Once one quality has been successfully downloaded that episode is never created again. This means that discover+next_series_episodes does not currently work with qualities upgrading.
 
 ### Example
 ```
