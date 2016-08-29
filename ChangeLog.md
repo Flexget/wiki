@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---06cc73f3dc3ca4f9692ef23a9b068b5fff513ac4--->
+<!---df7059426ca093514376e21fafd63a8bf9ca499e--->
 
-## 2.3.12.dev (unreleased)
+<!---79f2a3c48be2e240548a240cda1fc3b99512dc7e--->
+
+## 2.3.12 (2016-08-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.11...2.3.12)
 ### Fixed
 - series cli - Added check for existence of table parser. Fixes [#1378](https://github.com/Flexget/Flexget/issues/1378)
 - seen cli - Fix crash on no table data. Fixes [#1373](https://github.com/Flexget/Flexget/issues/1373)
@@ -17,7 +20,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - trakt_list: better error message when trying to use episodes type for collection list, closes [#1380](https://github.com/Flexget/Flexget/issues/1380)
 - movie parser: Improved year and propers parsing
 
-<!---37c58f491f854f098c8e5a08c835f7a810541b1e--->
 
 ## 2.3.11 (2016-08-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.10...2.3.11)
