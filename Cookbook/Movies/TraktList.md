@@ -30,4 +30,4 @@ tasks:
 | [trakt_list](/Plugins/trakt_list) | Watch list source |
 | [imdb_list](/Plugins/imdb_list) | Watch list source |
 | [accept_all](/Plugins/accept_all) | We want to add all items to the queue |
-||[queue_movies](/Plugins/queue_movies)||Output which adds entries to our movie queue||
+| [queue_movies](/Plugins/queue_movies) | Output which adds entries to our movie queue||
