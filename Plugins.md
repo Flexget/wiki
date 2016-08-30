@@ -327,6 +327,7 @@ Perform various FlexGet operations.
 | [priority](/Plugins/priority) | Change task execution order. |
 | [plugin_priority](/Plugins/plugin_priority) | Change plugin priorities. |
 | [remember_rejected](/Plugins/remember_rejected) | Remember rejections and reject them in future runs. |
+| [reorder_quality](/Plugins/reorder_quality) | Reorder [qualities](../Qualities) to make one quality better or worse than another. |
 | [retry_failed](/Plugins/retry_failed) | Save failed entries so they can be retried. [Builtin](/Builtin) |
 | [run_task](/Plugins/run_task) | Trigger exectution of another task.
 | [secrets](/Plugins/secrets) | Replace specific jinja2 values in config before executing tasks. |
