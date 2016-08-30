@@ -10,6 +10,7 @@ This plugin allows you to reorder the built-in [qualities](../Qualities) in a si
 ```
 
 ### Example
+This example will prefer webrip over hdtv.
 ```yaml
   download-task:
     rss: ...
