@@ -6,6 +6,8 @@ Example:
 
 ```YAML
   download-task:
+    series:
+      - Some Awesome Show
     discover:
       what:
         - next_series_episodes: yes
