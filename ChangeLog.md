@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---193d0b1327e8515bdb7a47d88d679e90bb1f32c7--->
+<!---865a9ffed28a425c93a657e06da3514872729ab1--->
+
+## 2.3.14.dev (unreleased)
+### Added
+- reorder_quality plugin
 
 <!---cdc8e7911a31cc37aae919d0066252d718973272--->
 
