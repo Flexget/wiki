@@ -5,7 +5,7 @@ Simple plugin that limits the number of reruns a specific task is allowed to per
 Example:
 
 ```YAML
-  download:
+  download-task:
     discover:
       what:
         - next_series_episodes: yes
