@@ -1,11 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---865a9ffed28a425c93a657e06da3514872729ab1--->
+<!---dbfcb2df3f8ca267796f1780f77b9e17cac72741--->
 
 ## 2.3.14.dev (unreleased)
 ### Added
 - reorder_quality plugin
+
+### Fixed
+- retry_failed could cause crash by datetime overflow, cap retry to 30 days
+
+### Changed
+- Symlink plugin can now be se to ignore existing links instead of failing
 
 <!---cdc8e7911a31cc37aae919d0066252d718973272--->
 
