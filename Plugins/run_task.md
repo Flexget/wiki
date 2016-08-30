@@ -2,8 +2,8 @@
 
 | Option | Default | Description |
 | --- | --- | --- |
-| when | always | Specify when other task is executed. Possible values are `accepted`, `rejected`, `failed`, `aborted`, `always`.|
-| task | -- | Name of task to be executed
+| when | always | Specify when other task(s) is/are executed. Possible values are `accepted`, `rejected`, `failed`, `aborted`, `always`.|
+| task | -- | Name of task(s) to be executed
 
 #### Example
 
