@@ -33,6 +33,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [alpharatio](/Searches/alpharatio) | Searches torrent site AlphaRatio |
 | [btn](/Searches/btn) | Searches torrent site BTN |
 | [cpasbien](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
 | [freshon](/Searches/freshon) | Generates entries from [freshon.tv](http://freshon.tv) |
