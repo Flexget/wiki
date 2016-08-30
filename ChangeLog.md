@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5a284f6decdd2759ca44dcadc3375c8393d4ded7--->
+<!---193d0b1327e8515bdb7a47d88d679e90bb1f32c7--->
 
-## 2.3.13.dev (unreleased)
+<!---cdc8e7911a31cc37aae919d0066252d718973272--->
+
+## 2.3.13 (2016-08-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.12...2.3.13)
 ### Fixed
 - max_reruns: will now set the old max reruns value properly after task execution
 - Command history with --short no longer leaves out last item
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - run_task: Changed schema to allow multiple tasks and fixed some bugs
 - rarbg: will no longer log error when imdb id is not found when searching
 
-<!---79f2a3c48be2e240548a240cda1fc3b99512dc7e--->
 
 ## 2.3.12 (2016-08-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.11...2.3.12)
