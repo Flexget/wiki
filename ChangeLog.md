@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7cefccd7917dd8754af64bfb6664813cc856a81a--->
+<!---c9c219ed44f476a6ac43acb703a14a986dd99bae--->
+
+## 2.3.15.dev (unreleased)
+### Fixed
+- trakt_list: Adding episodes to a trakt list no longer requires a lookup
 
 <!---248d5a2181c69aed326d6336abe5fc16077edaee--->
 
