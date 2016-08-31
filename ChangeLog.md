@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dbfcb2df3f8ca267796f1780f77b9e17cac72741--->
+<!---7cefccd7917dd8754af64bfb6664813cc856a81a--->
 
-## 2.3.14.dev (unreleased)
+<!---248d5a2181c69aed326d6336abe5fc16077edaee--->
+
+## 2.3.14 (2016-08-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.13...2.3.14)
 ### Added
 - reorder_quality plugin
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - Symlink plugin can now be se to ignore existing links instead of failing
 
-<!---cdc8e7911a31cc37aae919d0066252d718973272--->
 
 ## 2.3.13 (2016-08-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.12...2.3.13)
