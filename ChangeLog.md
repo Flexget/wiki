@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff0d383b3e916691e3af9d0859618cc3b961c339--->
+<!---d268c7293c41c53b68033fa7f206c56c3a76b4d6--->
+
+## 2.3.16.dev (unreleased)
+### Changed
+- [WebUI] Movies are now sorted from A-Z
+- [WebUI] Series are now sorted from A-Z
 
 <!---76bf61010f5e6f6509b22dbad13305376dcf6053--->
 
