@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c9c219ed44f476a6ac43acb703a14a986dd99bae--->
+<!---ff0d383b3e916691e3af9d0859618cc3b961c339--->
 
-## 2.3.15.dev (unreleased)
+<!---76bf61010f5e6f6509b22dbad13305376dcf6053--->
+
+## 2.3.15 (2016-08-31)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.14...2.3.15)
 ### Fixed
 - trakt_list: Adding episodes to a trakt list no longer requires a lookup
 
-<!---248d5a2181c69aed326d6336abe5fc16077edaee--->
 
 ## 2.3.14 (2016-08-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.13...2.3.14)
