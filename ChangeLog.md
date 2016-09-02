@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d268c7293c41c53b68033fa7f206c56c3a76b4d6--->
+<!---24641c4da843f5625d18493e8e087f7b96a7c652--->
 
-## 2.3.16.dev (unreleased)
+<!---129e85c52c6eab8baae07fad187abdee62a3be0d--->
+
+## 2.3.16 (2016-09-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.15...2.3.16)
 ### Changed
 - [WebUI] Movies are now sorted from A-Z
 - [WebUI] Series are now sorted from A-Z
 
-<!---76bf61010f5e6f6509b22dbad13305376dcf6053--->
 
 ## 2.3.15 (2016-08-31)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.14...2.3.15)
