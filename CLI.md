@@ -81,8 +81,25 @@ execute tasks now
 #executes the "foo_task"
 flexget execute --tasks foo_task
 ```
+#### Related articles
+* Not to be confused with the [Exec plugin](/Plugins/exec)
 ### [`daemon`](/Daemon)<a name="daemon"></a>
 run continuously, executing tasks according to schedules defined in config
+#### actions
+Unlike other commands daemon uses actions instead of arguments. No `--` here.
+| action | description |
+| --- | --- |
+| start | start the daemon |
+| stop | shutdown the running daemon |
+| status | check if a daemon is running |
+| reload | causes a running daemon to reload the config from disk |
+#### examples
+```bash
+#starts the FlexGet daemon
+flexget daemon start
+#stops the FlexGet daemon
+flexget daemon stop
+```
 #### Related articles
 * [`daemon` Wiki article](/Daemon)
 ### `backlog`<a name="daemon"></a>
