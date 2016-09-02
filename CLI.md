@@ -2,13 +2,13 @@
 FlexGet is usually invoked as a [Daemon](/Daemon) or via [cron](/InstallWizard/Partial/Crontab) and its [configuration](/Configuration) file. The following information you can also get by invoking `flexget --help` or the equivalent `flexget -h`.
 
 ## Usage
-You manually invoke FlexGet from the command line like so:
+You invoke FlexGet from the command line like so:
 ```bash
 flexget <command> 
 ```
 You could for example test your FlexGet configuration right now by calling `flexget check`. This does nothing to harm your installation so you can always run this. `check` is the `<command>` being used.
 
-FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`.
+FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands.
 
 ## Arguments list
 All FlexGet arguments are optional.
@@ -56,7 +56,7 @@ This section gives detailed descriptions and examples of the available commands.
 ### `execute`<a name="execute"></a>
 execute tasks now
 
-#### arguments
+#### Optional arguments
 | argument | description |
 | --- | --- |
 | `--tasks TASK [TASK ...]` | run only specified task(s), optionally using glob patterns ("tv-*"). matching is case-insensitive
@@ -86,13 +86,12 @@ flexget execute --tasks foo_task
 ### [`daemon`](/Daemon)<a name="daemon"></a>
 run continuously, executing tasks according to schedules defined in config
 #### actions
-Unlike other commands daemon uses actions instead of arguments. No `--` here.
 | action | description |
 | --- | --- |
-| start | start the daemon |
-| stop | shutdown the running daemon |
-| status | check if a daemon is running |
-| reload | causes a running daemon to reload the config from disk |
+| `start` | start the daemon |
+| `stop` | shutdown the running daemon |
+| `status` | check if a daemon is running |
+| `reload` | causes a running daemon to reload the config from disk |
 #### examples
 ```bash
 #starts the FlexGet daemon
@@ -102,10 +101,47 @@ flexget daemon stop
 ```
 #### Related articles
 * [`daemon` Wiki article](/Daemon)
-### `backlog`<a name="daemon"></a>
+
+### `backlog`<a name="backlog"></a>
 View or clear entries from backlog plugin
+#### Positional arguments
+| argument | description |
+| --- | --- |
+| `{list,clear}` | Choose to show items in backlog, or clear all of them |
+| `task` | Limit to specific task (if supplied) |
+#### Optional arguments
+| argument | description |
+| --- | --- |
+| `-h, --help` | show this help message and exit |
+| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
+| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
+#### examples
+```bash
+#lists entries from the backlog of task "foo_task"
+flexget backlog list foo_task
+#lists entries from the backlog of task "foo_task" with porcelain table type
+flexget backlog --porcelain list foo_task
+```
+
 ### [`seen`](/Plugins/seen)<a name="seen"></a>
 View or forget entries remembered by the seen plugin
+usage: flexget seen [-h] <action> ...
+#### Actions
+| action | description |
+| --- | --- |
+| `forget` | Forget entry or entire task from seen plugin database |
+| `add` | Add a title or url to the seen database |
+| `search` | Search text from the seen database |
+
+#### Optional arguments
+| argument | description |
+| --- | --- |
+| `-h, --help` | show this help message and exit |
+#### Examples
+```bash
+#Adds the title "The Foo Movie" to the seen database
+flexget seen add "The Foo Movie"
+```
 #### Related articles
 * [`seen` Wiki article](/Plugins/seen)
 ### `doc`<a name="doc"></a>
