@@ -27,7 +27,7 @@ seen:
 ```
 Using this will disregard the `original_url` attribute. 
 
-## Commanline options
+## Commandline options
 Plugin has few command line options. See also CLI help for syntax info. (`flexget seen --help`)
 
 ### forget
@@ -55,5 +55,5 @@ seen add tt0119698
 
 **Protip:** In case you wish to forget manually seen stuff you can use `--forget "--seen"`
 
-### --learn
+### \-\-learn
 The `execute` option `--learn` (optionally combined with `--tasks`) can be used to mark all entries that would be accepted as seen.
