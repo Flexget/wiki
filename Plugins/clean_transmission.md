@@ -4,12 +4,37 @@ This plugin cleans the Transmission's queue of finished torrents (=the torrents 
 This plugin requires the transmissionrpc library. To install it, run:
 
 ```
-easy_install transmissionrpc
+pip install transmissionrpc
 ```
 
 You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 
-**Examples:**
+## Config settings
+
+| **Name** | **Info** | **Description** |
+| --- | --- | --- |
+| host | Text | Where transmission is listening (default: localhost) |
+| port | Number | Connected port (default: 9091) |
+| netrc | File |  |
+| username | Text |  |
+| password | Text |  |
+| finished_for | Interval | (optional) remove only torrents finished for at least the specified time (1 hours, 2 days, etc). |
+| min_ratio | Number | (optional) remove only torrents uploaded at least this ratio (0=0%, 0.5=50%, 1=100% etc) |
+| tracker | RegExp | (optional) remove only torrents with a tracker hostname matching this [regular expression](https://docs.python.org/2/library/re.html#regular-expression-syntax) |
+| directories | RegExp List | (optional) remove only torrents with a download directory that matches one of the regular expressions in the list |
+| delete_files | [Yes\|No] | (optional) also delete local files (default: no) |
+| transmission_seed_limits | [Yes\|No] | (optional) uses transmission's internal limits for idle time and seed ratio (default: no) |
+| enabled | [Yes\|No] | Plugin enabled (default: yes) |
+
+**Note:**
+
+- If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
+- The `tracker` regular expression will match any part of a tracker's hostname. Use `^` or `$` to restrict matching to the beginning or end of hostnames (e.g. `\.se$` to match only trackers under the Swedish top-level domain).
+- From flexget 1.2.190 and up you need to set `transmission_seed_limits: yes` to get the same behaviour as previous version of this plugin or torrents may not be removed when completed.
+
+
+## Examples
+`clean_transmission` triggers default warnings that will be shown in flexget.log. `disable: details` disables those warnings, but it's better to leave it in if you don't care about the extra clutter (it may hide actual problems). 
 
 ```
 clean_transmission:
@@ -19,7 +44,7 @@ clean_transmission:
   password: mypassword
   finished_for: 2 hours
   tracker: nyaa|animebytes
-  disable: [details](/details)
+disable: details
 ```
 
 In the example below we illustrate how we can remove torrents based on their download directory. It will remove all torrents under `/media/beta/Downloads/Shows/Auto` and its sub-directories that have finished for at least 2 hours.
@@ -33,7 +58,7 @@ clean_transmission:
   finished_for: 2 hours
   directories:
     - \A/+media/+beta/+Downloads/+Shows/+Auto(\Z|/+.*)
-  disable: [details](/details)
+disable: details
 ```
 
 Note that you can combine both `directories` and `tracker` in the previous examples
@@ -48,30 +73,7 @@ clean_transmission:
   tracker: nyaa|animebytes
   directories:
     - \A/+media/+beta/+Downloads/+Shows/+Auto(\Z|/+.*)
-  disable: [details](/details)
+disable: details
 ```
 
 This would remove all torrents under `/media/beta/Downloads/Shows/Auto` and its sub-directories that have finished for at least 2 hours that were downloaded from `nyaa` or `animebytes`.
-
-
-| **Name** | **Info** | **Description** |
-| --- | --- | --- |
-| host | Text | Where transmission is listening (default: localhost) |
-| port | Number | Connected port (default: 9091) |
-| netrc | File |  |
-| username | Text |  |
-| password | Text |  |
-| finished_for | Interval | (optional) remove only torrents finished for at least the specified time (1 hours, 2 days, etc). |
-| min_ratio | Number | (optional) remove only torrents uploaded at least this ratio (0=0%, 0.5=50%, 1=100% etc) |
-| tracker | RegExp | (optional) remove only torrents with a tracker hostname matching this [[expression](https://docs.python.org/2/library/re.html#regular-expression-syntax|regular)] |
-| directories | RegExp List | (optional) remove only torrents with a download directory that matches one of the regular expressions in the list |
-| delete_files | [Yes|No](/Yes|No) | (optional) also delete local files (default: no) |
-| transmission_seed_limits | [Yes|No](/Yes|No) | (optional) uses transmission's internal limits for idle time and seed ratio (default: no) |
-| enabled | [Yes|No](/Yes|No) | Plugin enabled (default: yes) |
-
-**Note:**
-
-- If `finished_for` and/or `min_ratio` parameters are defined, all the finished torrents meeting one or both the conditions will be removed.
-- The `tracker` regular expression will match any part of a tracker's hostname. Use `^` or `$` to restrict matching to the beginning or end of hostnames (e.g. `\.se$` to match only trackers under the Swedish top-level domain).
-- `disable: [details](/details)` this plugins triggers default warnings that will be shown in flexget.log. This disables those warnings. 
-- From flexget 1.2.190 and up you need to set `transmission_seed_limits: yes` to get the same behaviour as previous version of this plugin or torrents may not be removed when completed.
