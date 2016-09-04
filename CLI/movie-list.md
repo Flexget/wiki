@@ -32,4 +32,4 @@ flexget movie-list all
 
 ### Related articles
 * [CUI / Command line interface overview](/CLI)
-* [movie_list Plugin](Plugins/List/movie_list)
+* [movie_list Plugin](/Plugins/List/movie_list)
