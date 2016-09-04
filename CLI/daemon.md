@@ -5,7 +5,7 @@ run continuously, executing tasks according to schedules defined in config
 | Action | Option | Description |
 | --- | --- | --- |
 | `start` || Starts the daemon  |
-| |`-d, -daemonize`| Causes process to daemonize after starting
+| |`-d, --daemonize`| Causes process to daemonize after starting
 | `stop` || shutdown the running daemon |
 || `--wait`| wait for all queued tasks to finish before stopping daemon |
 | `status` || check if a daemon is running |
