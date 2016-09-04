@@ -27,7 +27,7 @@ Clicking on the commands will take you to the detail page of the command.
 | [`irc`](/CLI/irc) | View and manage irc connections |
 | [`trakt`](/CLI/trakt) | View and manage trakt authentication |
 | [`movie-list`](/CLI/movie-list) | View and manage movie lists |
-| [`t4ll`](/CLI/t4ll) | View and manipulate the Torrent411 plugin database
+| [`t4ll`](/CLI/t411) | View and manipulate the Torrent411 plugin database
 | [`database`](/CLI/database) | Utilities to manage the FlexGet database |
 | [`series`](/CLI/series) | View and manipulate the series plugin database |
 | [`archive`](/CLI/archive) | Search and manipulate the archive database|
