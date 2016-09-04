@@ -1,7 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---24641c4da843f5625d18493e8e087f7b96a7c652--->
+<!---5b039170f9dee011be009ec2906f007f94639f5e--->
+
+## 2.3.17.dev (unreleased)
+### Fixed
+- subtitle_list: will no longer spit out directories when used as input
+- subtitle_list: fixed recursion depth=1 such that it does no recursion
+
+### Added
+- subtitle_list: added validation to recursion_depth. Must be greater than 0.
+- subliminal: added test mode so subtitles are not downloaded with --test
 
 <!---129e85c52c6eab8baae07fad187abdee62a3be0d--->
 
