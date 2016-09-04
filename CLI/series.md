@@ -21,7 +21,7 @@ View and manipulate the series plugin database
 || *positional:*|
 || `<series name>` | The name of the series |
 || `episode_id` | episode ID to forget (optional)|
-| `forget`|| Removes episodes or whole series from the entire database (including seen plugin) |
+| `forget`|| Removes episodes or whole series from the entire database (including `seen` plugin) |
 || *positional:*|
 || `<series name>` | The name of the series |
 || `episode_id` | episode ID to forget (optional)|
@@ -37,6 +37,10 @@ View and manipulate the series plugin database
 flexget series list
 #sets the series "FooSeries" to start with episode one of season 6
 flexget series begin FooSeries S06E01
+#shows all releases for the show FooSeries
+flexget series show FooSeries
+#deletes the whole show FooSeries even from seen plugin
+flexget series forget FooSeries
 ```
 
 ### Related articles
