@@ -27,162 +27,27 @@ All FlexGet arguments are optional.
 | `--debug-db-sessions` | debug session starts and ends, for finding problems with db locks |
 
 ## Commands list
+Clicking on the commands will take you to the detail page of the command.
 | command | description |
 | --- | ---|
-| [`execute`](#execute) | execute tasks now |
-| [`daemon`](#daemon) | run continuously, executing tasks according to schedules defined in config |
-| [`backlog`](#backlog) | View or clear entries from backlog plugin |
-| [`seen`](#seen) | View or forget entries remembered by the seen plugin |
-| [`doc`](#doc) | display plugin documentation |
-| [`status`](#status) | View task health status |
-| [`entry-list`](#entry-list) | view and manage entry lists |
-| [`failed`](#failed) | list or clear remembered failures |
-| [`plugins`](#plugins) | Print registered plugin summaries |
-| [`web`](#web) | Manage web server settings |
-| [`irc`](#irc) | View and manage irc connections |
-| [`trakt`](#trakt) | View and manage trakt authentication |
-| [`movie-list`](#movie-list) | View and manage movie lists |
-| [`t4ll`](#t4ll) | view and manipulate the Torrent411 plugin database
-| [`database`](#database) | Utilities to manage the FlexGet database |
-| [`archive`](#archive) | Search and manipulate the archive database|
-| [`check`](#check) | validate configuration file and print errors |
-| [`history`](#history) | View the history of entries that FlexGet has accepted |
-| [`rejected`](#rejected) | list or clear remembered rejections |
-| [`inject`](#inject) | inject an entry from command line into tasks |
-
-## Commands
-This section gives detailed descriptions and examples of the available commands.
-
-### `execute`<a name="execute"></a>
-execute tasks now
-
-#### Optional arguments
-| argument | description |
-| --- | --- |
-| `--tasks TASK [TASK ...]` | run only specified task(s), optionally using glob patterns ("tv-*"). matching is case-insensitive
-| `--learn` | matches are not downloaded but will be skipped in the future 
-| `--no-cache` | disable caches. works only in plugins that have explicit support |
-| `--stop-waiting NAME` | stop timeframe for a given series |
-| `--disable-tracking` | disable episode advancement for this run |
-| `--tail-reset FILE|TASK` | reset tail position for a file |
-| `--discover-now` | Immediately try to discover everything |
-| `-T, --template NAME` | execute tasks using given template |
-| `--now` | run task(s) even if the interval plugin would normally prevent it |
-| `-v, --verbose` | verbose undecided entries |
-| `-s, --silent` | don't verbose any actions (accept, reject, fail) |
-| `--dump-config` | display the config of each feed after template merging/config generation occurs |
-| `--dump [{eval,trace,accepted,rejected,undecided,title} [{eval,trace,accepted,rejected,undecided,title} ...]]` | display all entries in task with fields they contain, use `--dump eval` to evaluate all lazy fields. Specify an entry state/states to only dump matching entries. |
-| `--dl-path PATH` | override path for download plugin, applies to all executed tasks |
-| `--cli-config VARIABLE=VALUE [VARIABLE=VALUE ...]` | configuration parameters through commandline |
-| `--try-regexp` | try regular expressions interactively |
-
-#### examples
-```bash
-#executes the "foo_task"
-flexget execute --tasks foo_task
-```
-#### Related articles
-* Not to be confused with the [Exec plugin](/Plugins/exec)
-### [`daemon`](/Daemon)<a name="daemon"></a>
-run continuously, executing tasks according to schedules defined in config
-#### actions
-| action | description |
-| --- | --- |
-| `start` | start the daemon |
-| `stop` | shutdown the running daemon |
-| `status` | check if a daemon is running |
-| `reload` | causes a running daemon to reload the config from disk |
-#### examples
-```bash
-#starts the FlexGet daemon
-flexget daemon start
-#stops the FlexGet daemon
-flexget daemon stop
-```
-#### Related articles
-* [`daemon` Wiki article](/Daemon)
-
-### `backlog`<a name="backlog"></a>
-View or clear entries from backlog plugin
-#### Positional arguments
-| argument | description |
-| --- | --- |
-| `{list,clear}` | Choose to show items in backlog, or clear all of them |
-| `task` | Limit to specific task (if supplied) |
-#### Optional arguments
-| argument | description |
-| --- | --- |
-| `-h, --help` | show this help message and exit |
-| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
-| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
-#### examples
-```bash
-#lists entries from the backlog of task "foo_task"
-flexget backlog list foo_task
-#lists entries from the backlog of task "foo_task" with porcelain table type
-flexget backlog --porcelain list foo_task
-```
-
-### [`seen`](/Plugins/seen)<a name="seen"></a>
-View or forget entries remembered by the seen plugin
-usage: flexget seen [-h] <action> ...
-#### Actions
-| action | description |
-| --- | --- |
-| `forget` | Forget entry or entire task from seen plugin database |
-| `add` | Add a title or url to the seen database |
-| `search` | Search text from the seen database |
-
-#### Optional arguments
-| argument | description |
-| --- | --- |
-| `-h, --help` | show this help message and exit |
-#### Examples
-```bash
-#Adds the title "The Foo Movie" to the seen database
-flexget seen add "The Foo Movie"
-```
-#### Related articles
-* [`seen` Wiki article](/Plugins/seen)
-### `doc`<a name="doc"></a>
-display plugin documentation
-### `status`<a name="status"></a>
-View task health status
-### `entry-list`<a name="entry-list"></a>
-view and manage entry lists
-### `failed`<a name="failed"></a>
-list or clear remembered failures
-### `plugins`<a name="plugins"></a>
-Print registered plugin summaries
-### `web`<a name="web"></a>
-Manage web server settings
-### `irc`<a name="irc"></a>
-View and manage irc connections
-### [`trakt`](/Plugins/trakt)<a name="trakt"></a>
-View and manage trakt authentication
-#### Related articles
-* [`trakt` Wiki entry](/Plugins/trakt)
-### [`movie-list`](/Plugins/List/movie_list)<a name="movie-list"></a>
-View and manage movie lists
-#### Related articles
-* [`movie_list` Wiki entry](/Plugins/List/movie_list)
-### `t4ll`<a name="t4ll"></a>
-view and manipulate the Torrent411 plugin database
-### `database`<a name="database"></a>
-Utilities to manage the FlexGet database
-### [`series`](/Plugins/series)<a name="series"></a>
-Utilities to manage the FlexGet database
-#### Related articles
-* [`series` Wiki entry](/Plugins/series)
-### [`archive`](/Plugins/archive)<a name="archive"></a>
-Search and manipulate the archive database
-#### Related articles
-* [`archive` Wiki entry](/Plugins/archive)
-### `check`<a name="check"></a>
-validate configuration file and print errors
-### `history`<a name="history"></a>
-View the history of entries that FlexGet has accepted
-### `rejected`<a name="rejected"></a>
-list or clear remembered rejections
-### `inject`<a name="inject"></a>
-inject an entry from command line into tasks
+| [`execute`](/CLI/execute) | execute tasks now |
+| [`daemon`](/CLI/daemon) | run continuously, executing tasks according to schedules defined in config |
+| [`backlog`](/CLI/backlog) | View or clear entries from backlog plugin |
+| [`seen`](/CLI/seen) | View or forget entries remembered by the seen plugin |
+| [`doc`](/CLI/doc) | display plugin documentation |
+| [`status`](/CLI/status) | View task health status |
+| [`entry-list`](/CLI/entry-list) | view and manage entry lists |
+| [`failed`](/CLI/failed) | list or clear remembered failures |
+| [`plugins`](/CLI/plugins) | Print registered plugin summaries |
+| [`web`](/CLI/web) | Manage web server settings |
+| [`irc`](/CLI/irc) | View and manage irc connections |
+| [`trakt`](/CLI/trakt) | View and manage trakt authentication |
+| [`movie-list`](/CLI/movie-list) | View and manage movie lists |
+| [`t4ll`](/CLI/t4ll) | view and manipulate the Torrent411 plugin database
+| [`database`](/CLI/database) | Utilities to manage the FlexGet database |
+| [`series`](/CLI/series) | View and manipulate the series plugin database |
+| [`archive`](/CLI/archive) | Search and manipulate the archive database|
+| [`check`](/CLI/check) | validate configuration file and print errors |
+| [`history`](/CLI/history) | View the history of entries that FlexGet has accepted |
+| [`rejected`](/CLI/rejected) | list or clear remembered rejections |
+| [`inject`](/CLI/inject) | inject an entry from command line into tasks |
