@@ -35,6 +35,8 @@ View and manipulate the series plugin database
 ```bash
 #lists a summary of the different series being tracked
 flexget series list
+#sets the series "FooSeries" to start with episode one of season 6
+flexget series begin FooSeries S06E01
 ```
 
 ### Related articles
