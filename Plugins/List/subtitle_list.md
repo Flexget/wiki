@@ -48,7 +48,6 @@ This example shows how you would use subtitle_list in a task that sorts episodes
           list: subtitles
           languages:
             - en
-          path: '{{ output }}'
 ```
 
 ### Example: Download subtitles
