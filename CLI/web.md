@@ -2,9 +2,10 @@
 Manage web server settings
 
 ### Positional arguments
-| argument | description |
-| --- | --- |
+| argument | option | description |
+| --- | --- | --- |
 | `passwd` | change password for web server |
+|| `<new password>` | New password |
 | `gentoken` | Generate a new api token |
 | `showtoken` | Show api token |
 
@@ -12,6 +13,8 @@ Manage web server settings
 ```bash
 #shows the flexget web server API token
 flexget web showtoken
+#changes the password to foopass
+flexget web passwd foopass
 ```
 
 ### Related articles
