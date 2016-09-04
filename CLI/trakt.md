@@ -27,4 +27,8 @@ flexget trakt refresh account my_foo_account
 
 ### Related articles
 * [CUI / Command line interface overview](/CLI)
-* [trakt Plugin](/Plugins/trakt)
+* [`trakt` plugin](/Plugins/trakt)
+* [`trakt_list` list plugin](/Plugins/List/trakt_list)
+* [`list_remove` list plugin](/Plugins/List/list_remove) 
+* [`trakt_lookup` plugin](/Plugins/trakt_lookup)
+* [`list_clear` list plugin](/Plugins/List/list_clear)
