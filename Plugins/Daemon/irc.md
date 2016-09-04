@@ -3,6 +3,8 @@ This plugin will allow you to connect a bot to an IRC channel. It listens for re
 
 The benefit to this plugin over regular search plugins that utilize API/scraping is that any new downloads will be picked up as soon as they are available.
 
+You can alwas get the current status of the IRC plugin via the [commandline](/CLI/irc) as well as restart and stop it.
+
 ### Prerequisites
 * **Install irc_bot with `pip install irc_bot`**
 * Run Flexget in daemon-mode. (ex: *flexget daemon start --daemonize*). This means you may want to migrate your cron-jobs to use the scheduler plugin instead.
