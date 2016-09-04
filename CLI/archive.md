@@ -4,12 +4,10 @@ Search and manipulate the archive database
 ### Actions
 | action | option | description |
 | --- | --- | --- |
-| `search` | Search from the archive |
+| `search`* | Search from the archive |
 || *positional:* ||
 || `<keyword>` | Keyword(s) to search for |
 || *optional:* ||
-|| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
-|| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
 || `--tags TAG [TAG ...]` | Tag(s) to search within |
 || `--sources SOURCE [SOURCE ...]` | Source(s) to search within |
 | `inject` || Inject entries from the archive back into tasks |
@@ -23,8 +21,8 @@ Search and manipulate the archive database
 || *positional:* ||
 || `<source>` | The source whose entries you would like to tag |
 || `<tag>` |  The tag(s) you would like to apply to the entries |
-| `consolidate` || Migrate old archive data to new model, may take a long
-time |
+| `consolidate` || Migrate old archive data to new model, may take a long time |
+|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div> ||
 
 ### Examples
 ```bash
