@@ -131,6 +131,7 @@ For detailed instruction about these CLI commands:
 ```cmd
 $ flexget movie-list -h
 ```
+Also see the wiki page for [movie-list CLI](/CLI/movie-list) extended information.
 
 Movie list support CLI operations:
 
