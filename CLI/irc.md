@@ -23,4 +23,4 @@ flexget irc status
 
 ### Related articles
 * [CUI / Command line interface overview](/CLI)
-* [IRC plugin](/Daemon/irc)
+* [IRC plugin](/Plugins/Daemon/irc)
