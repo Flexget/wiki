@@ -2,10 +2,10 @@
 View and manipulate the series plugin database
 
 ### Actions
-| Argument | Pption | Description | Example |
+| Argument | Option | Description | Example |
 | --- | --- | --- | --- |
 | `list`* || List a summary of the different series being tracked |
-||`{configured,unconfigured,all}` | Limit list to series that are currently in the config or not (default: configured) | `flexget series list all`
+||`(configured|unconfigured|all)` | Limit list to series that are currently in the config or not (default: configured) | `flexget series list all`
 || `--premieres` | limit list to series which only have episode 1 (and maybe also 2) downloaded |
 || `--new [DAYS]` | Limit list to series with a release seen in last 7 days. number of days can be overridden with DAYS |
 || `--stale [DAYS]` | Limit list to series which have not seen a release in 365 days. number of days can be overridden with DAYS |
