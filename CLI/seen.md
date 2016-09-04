@@ -3,16 +3,15 @@ View or forget entries remembered by the seen plugin
 usage: flexget seen [-h] <action> ...
 
 ### Actions
-| action | description |
-| --- | --- |
+| action | option | description |
+| --- | --- | --- |
 | `forget` | Forget entry or entire task from seen plugin database |
+|| `<value>` |  Title or url of entry to forget, or name of task to forget |
 | `add` | Add a title or url to the seen database |
-| `search` | Search text from the seen database |
-
-### Optional arguments
-| argument | description |
-| --- | --- |
-| `-h, --help` | show this help message and exit |
+|| `<value>` | the title or url to add |
+| `search`* | Search text from the seen database |
+|| `<search term>` | term to search for |
+|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
 ```bash
