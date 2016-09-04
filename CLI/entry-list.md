@@ -1,7 +1,7 @@
 ## `entry-list`
 view and manage entry lists
 
-### Positional arguments
+### Actions
 | argument | description |
 | --- | --- |
 | `all` | Shows all existing entry lists |
