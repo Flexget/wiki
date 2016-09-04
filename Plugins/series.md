@@ -80,38 +80,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 * If using discover, existing collection can be imported with [this](/Cookbook/Series/SeedDB) recipe.
 
 ## `series` Commandline Arguments
-The series plugin has several features available at the command line via the `flexget series` command:
-
-### list
-Display series summary. `flexget series list`
-
-### show
-Displays the releases for a given show that the series plugin has seen. `flexget series show <name>`
-
-### remove
-Delete episodes from series database or whole series completely.
-
-To delete single episode, use:
-
-`flexget series remove <name> <id>`
-
-To delete whole series, use:
-
-`flexget series remove <name>`
-
-### forget
-Removes a series or episode from **entire** DB, including `seen` plugin, enabling downloading the exact same releases again. Use exactly like with `remove`:
-
-To delete single episode, use:
-
-`flexget series forget <name> <id>`
-
-To delete whole series, use:
-
-`flexget series forget <name>`
-
-### begin
-Sets the first episode of a show that the series plugin should look for. `flexget series begin <name> <id>`
+The series plugin has several features available at the command line via the [`flexget series` command](/CLI/series).
 
 ## `execute` Commandline Arguments
 There are also options to the `flexget execute` command which affect the series plugin:
