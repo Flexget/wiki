@@ -4,8 +4,9 @@ list or clear remembered failures
 ### Actions
 | argument | description |
 | --- | --- |
-| `list` | list all the entries that have had failures |
+| `list`* | list all the entries that have had failures |
 | `clear` | clear all failures from database, so they can be retried |
+|<div align="right">\* has [table-options](/CLI/--table-options)</div> ||
 
 ### Examples
 ```bash
