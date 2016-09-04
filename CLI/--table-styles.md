@@ -1,4 +1,4 @@
-## Table / list options
+## Table / list styles
 Pretty much all lists in the FlexGet CLI support the following options / arguments.
 
 ### Arguments
