@@ -1,4 +1,4 @@
-## `execute`<a name="execute"></a>
+## `execute`
 execute tasks now
 
 ### Optional arguments
@@ -21,7 +21,7 @@ execute tasks now
 | `--cli-config VARIABLE=VALUE [VARIABLE=VALUE ...]` | configuration parameters through commandline |
 | `--try-regexp` | try regular expressions interactively |
 
-### examples
+### Examples
 ```bash
 #executes the "foo_task"
 flexget execute --tasks foo_task
