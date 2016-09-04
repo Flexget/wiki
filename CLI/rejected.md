@@ -2,12 +2,11 @@
 list or clear remembered rejections
 
 ### Actions
-| action | option | description |
-| --- | --- | --- |
-| `list` || list all the entries that have been rejected |
-|| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
-|| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain`
-| `clear` || clear all rejected entries from database, so they can be retried |
+| action | description |
+| --- | --- |
+| `list`* | list all the entries that have been rejected |
+| `clear` | clear all rejected entries from database, so they can be retried |
+|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
 ```bash
