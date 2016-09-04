@@ -1,16 +1,16 @@
 ## `backlog`
 View or clear entries from backlog plugin
-### Positional arguments
-| argument | description |
+### Actions
+| action | description |
 | --- | --- |
-| `{list,clear}` | Choose to show items in backlog, or clear all of them |
+| `{list,clear}` | Choose to show items in backlog or clear all of them |
 | `task` | Limit to specific task (if supplied) |
+
 ### Optional arguments
 | argument | description |
 | --- | --- |
-| `-h, --help` | show this help message and exit |
-| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
-| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
+|  | supports [table-styles](/CLI/--table-styles)|
+
 ### Examples
 ```bash
 #lists entries from the backlog of task "foo_task"
