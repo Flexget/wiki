@@ -2,9 +2,10 @@
 run continuously, executing tasks according to schedules defined in config
 
 ### actions
-| action | description |
-| --- | --- |
-| `start` <ul><li>`-d, --daemonize`</li></ul>| start the daemon <ul><li>causes process to daemonize after starting</li></ul> |
+| Action | Option | Description |
+| --- | --- | --- |
+| `start` || Starts the daemon  |
+| |`-d, -daemonize`| Causes process to daemonize after starting
 | `stop`<ul><li>`--wait`</li></ul> | shutdown the running daemon <ul><li>wait for all queued tasks to finish before stopping daemon</li></ul> |
 | `status` | check if a daemon is running |
 | `reload` | causes a running daemon to reload the config from disk |
