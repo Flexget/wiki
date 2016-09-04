@@ -8,38 +8,37 @@ flexget <argument> <command>
 ```
 You could for example test your FlexGet configuration right now by calling `flexget check`. This does nothing to harm your installation so you can always run this. `check` is the `<command>` being used. 
 
-FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands.
+FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands. FlexGet has a lot of list-type options/arguments. These usually support different [output table styles](/CLI/--table-styles).
 
 ## Commands list
 Clicking on the commands will take you to the detail page of the command.
 | Command | Description |
 | --- | ---|
-| [`execute`](/CLI/execute) | Execute tasks now |
-| [`daemon`](/CLI/daemon) | Run continuously, executing tasks according to schedules defined in config |
-| [`backlog`](/CLI/backlog) | View or clear entries from backlog plugin |
-| [`seen`](/CLI/seen) | View or forget entries remembered by the seen plugin |
-| [`doc`](/CLI/doc) | Display plugin documentation |
-| [`status`](/CLI/status) | View task health status |
-| [`entry-list`](/CLI/entry-list) | View and manage entry lists |
-| [`failed`](/CLI/failed) | List or clear remembered failures |
-| [`plugins`](/CLI/plugins) | Print registered plugin summaries |
-| [`web`](/CLI/web) | Manage web server settings |
-| [`irc`](/CLI/irc) | View and manage irc connections |
-| [`trakt`](/CLI/trakt) | View and manage trakt authentication |
-| [`movie-list`](/CLI/movie-list) | View and manage movie lists |
-| [`t4ll`](/CLI/t411) | View and manipulate the Torrent411 plugin database
-| [`database`](/CLI/database) | Utilities to manage the FlexGet database |
-| [`series`](/CLI/series) | View and manipulate the series plugin database |
 | [`archive`](/CLI/archive) | Search and manipulate the archive database|
+| [`backlog`](/CLI/backlog) | View or clear entries from backlog plugin |
 | [`check`](/CLI/check) | Validate configuration file and print errors |
+| [`daemon`](/CLI/daemon) | Run continuously, executing tasks according to schedules defined in config |
+| [`database`](/CLI/database) | Utilities to manage the FlexGet database |
+| [`doc`](/CLI/doc) | Display plugin documentation |
+| [`entry-list`](/CLI/entry-list) | View and manage entry lists |
+| [`execute`](/CLI/execute) | Execute tasks now |
+| [`failed`](/CLI/failed) | List or clear remembered failures |
 | [`history`](/CLI/history) | View the history of entries that FlexGet has accepted |
-| [`rejected`](/CLI/rejected) | List or clear remembered rejections |
 | [`inject`](/CLI/inject) | Inject an entry from command line into tasks |
+| [`irc`](/CLI/irc) | View and manage irc connections |
+| [`movie-list`](/CLI/movie-list) | View and manage movie lists |
+| [`plugins`](/CLI/plugins) | Print registered plugin summaries |
+| [`rejected`](/CLI/rejected) | List or clear remembered rejections |
+| [`seen`](/CLI/seen) | View or forget entries remembered by the seen plugin |
+| [`series`](/CLI/series) | View and manipulate the series plugin database | [`status`](/CLI/status) | View task health status |
+| [`t4ll`](/CLI/t411) | View and manipulate the Torrent411 plugin database
+| [`trakt`](/CLI/trakt) | View and manage trakt authentication |
+| [`web`](/CLI/web) | Manage web server settings |
 
 ## Options list
 | Option | Description |
 | --- | --- |
-| `-h, --help` | Show help message and exit |
+| `-h, --help` | Show help message and exit (pretty much every argument supports this) |
 | `-V, --version` | Print FlexGet version and exit. |
 | `--test` | Verbose what would happen on normal execution. |
 | `-c CONFIG` | Specify configuration file. Default: config.yml |
