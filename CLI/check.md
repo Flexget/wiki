@@ -1,15 +1,10 @@
 ## `check`
 validate configuration file and print errors
 
-### Positional arguments
-
-### Optional arguments
-| argument | description |
-| --- | --- |
-
 ### Examples
 ```bash
-#
+#checks the flexget configuration for consistency
+flexget check
 ```
 
 ### Related articles
