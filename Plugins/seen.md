@@ -27,33 +27,5 @@ seen:
 ```
 Using this will disregard the `original_url` attribute. 
 
-## Commandline options
-Plugin has few command line options. You may use the CLI help for syntax info (`flexget seen --help`) or visit the [`seen` CLI wiki entry](/CLI/seen).
-
-### forget
-Option `seen forget <task>` can be used to forget everything seen from a specific task. (#301)
-
-Option `seen forget <value>` which can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again.
-
-### add
-Option `seen add <value>` which can be used to add any url, title or even imdb url as already seen effectively preventing them to be downloaded.
-
-**Examples:**
-
-This is especially useful when you have downloaded something manually outside FlexGet.
-
-```
-seen add "http://some.site.com/torrents/1235321"
-```
-
-
-With tasks using plugin [seen_movies](/Plugins/seen_movies) you can also use imdb id to mark any movie as already seen!
-
-```
-seen add tt0119698
-```
-
-**Protip:** In case you wish to forget manually seen stuff you can use `--forget "--seen"`
-
-### \-\-learn
-The `execute` option `--learn` (optionally combined with `--tasks`) can be used to mark all entries that would be accepted as seen.
+## Commandline usage
+The plugin has a few command line options. You may use the CLI help for syntax info (`flexget seen --help`) or visit the [`seen` CLI wiki entry](/CLI/seen) for more examples in usage.
