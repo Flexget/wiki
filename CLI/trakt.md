@@ -7,18 +7,17 @@ View and manage trakt authentication
 | `auth` || Authorize Flexget to access your Trakt.tv account |
 || *positional:* |
 || `<account>`| Local identifier which should be used in your config to refer these credentials
-| `list` || List expiration date for Flexget authorization(s) (don't worry, they will automatically refresh when expired) |
+| `list`* || List expiration date for Flexget authorization(s) (don't worry, they will automatically refresh when expired) |
 || *positional:* |
 || `<account>`| Local identifier which should be used in your config to refer these credentials
 || *optional:* |
-|| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
-|| `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain`|
 | `refresh` | Manually refresh your access token associated with your `--account <name>` |
 || *positional:* |
 || `<account>`| Local identifier which should be used in your config to refer these credentials
 | `delete` | Delete the specified <account> name from local database |
 || *positional:* |
 || `<account>`| Local identifier which should be used in your config to refer these credentials
+|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
 ```bash
