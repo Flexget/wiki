@@ -2,11 +2,17 @@
 View and manage irc connections
 
 ### Actions
-| action | description |
-| --- | --- |
+| action | option | description |
+| --- | --- | --- |
 | `status` | Shows status for specific irc connection |
-| `restart` | Restart an irc connection |
-| `stop` | Stops an irc connection |
+|| *positional:* ||
+|| `irc_connection` | Title of the irc connection |
+| `restart` || Restart an irc connection |
+|| *positional:* ||
+|| `irc_connection` | Title of the irc connection |
+| `stop` || Stops an irc connection |
+|| *positional:* ||
+|| `irc_connection` | Title of the irc connection |
 
 
 ### Examples
