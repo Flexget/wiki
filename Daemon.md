@@ -1,5 +1,5 @@
 # Daemon
-FlexGet can be run in daemon mode, which means it will always run in the background, periodically running tasks on a schedule, or running the tasks initiated by another instance of FlexGet.
+FlexGet can be run in daemon mode, which means it will always run in the background, periodically running tasks on a schedule, or running the tasks initiated by another instance of FlexGet. Also see the [daemon CLI documentation](/CLI/daemon).
 
 ## Usage
 To launch the FlexGet daemon, use the `start` command:
