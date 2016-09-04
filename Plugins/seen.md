@@ -28,7 +28,7 @@ seen:
 Using this will disregard the `original_url` attribute. 
 
 ## Commandline options
-Plugin has few command line options. See also CLI help for syntax info. (`flexget seen --help`)
+Plugin has few command line options. You may use the CLI help for syntax info (`flexget seen --help`) or visit the [`seen` CLI wiki entry](/CLI/seen).
 
 ### forget
 Option `seen forget <task>` can be used to forget everything seen from a specific task. (#301)
