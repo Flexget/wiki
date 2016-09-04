@@ -4,8 +4,8 @@ run continuously, executing tasks according to schedules defined in config
 ### actions
 | action | description |
 | --- | --- |
-| `start` | start the daemon |
-| `stop` | shutdown the running daemon |
+| `start` <ul><li>`-d, --daemonize`</li></ul>| start the daemon <ul><li>causes process to daemonize after starting</li></ul> |
+| `stop`<ul><li>`--wait`</li></ul> | shutdown the running daemon <ul><li>wait for all queued tasks to finish before stopping daemon</li></ul> |
 | `status` | check if a daemon is running |
 | `reload` | causes a running daemon to reload the config from disk |
 
@@ -13,8 +13,12 @@ run continuously, executing tasks according to schedules defined in config
 ```bash
 #starts the FlexGet daemon
 flexget daemon start
+#starts the FlexGet daemon and daemonizes the process
+flexget daemon start -d
 #stops the FlexGet daemon
 flexget daemon stop
+#stops the FlexGet daemon but waits for all tasks to finish
+flexget daemon stop --wait
 ```
 
 ### Related articles
