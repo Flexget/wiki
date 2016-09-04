@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5b039170f9dee011be009ec2906f007f94639f5e--->
+<!---1fd1a9e1b20f356e98b21e524fa89c2afaa5c9d8--->
 
 ## 2.3.17.dev (unreleased)
 ### Fixed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - subtitle_list: fixed recursion depth=1 such that it does no recursion
 
 ### Added
+- Created cached endpoint and util
 - subtitle_list: added validation to recursion_depth. Must be greater than 0.
 - subliminal: added test mode so subtitles are not downloaded with --test
 
