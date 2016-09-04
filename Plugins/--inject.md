@@ -1,5 +1,5 @@
 # Inject
-Allows injecting imaginary entry for FlexGet to process. You can also use [the inject cli command](/Plugins/cli/inject) for a slightly easier format.
+Allows injecting imaginary entry for FlexGet to process. You can also use [the inject cli command](/CLI/inject) for a slightly easier format.
 
 **Syntax:**
 
