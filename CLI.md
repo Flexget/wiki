@@ -4,27 +4,11 @@ FlexGet is usually invoked as a [Daemon](/Daemon) or via [cron](/InstallWizard/P
 ## Usage
 You invoke FlexGet from the command line like so:
 ```bash
-flexget <command> 
+flexget <argument> <command>
 ```
-You could for example test your FlexGet configuration right now by calling `flexget check`. This does nothing to harm your installation so you can always run this. `check` is the `<command>` being used.
+You could for example test your FlexGet configuration right now by calling `flexget check`. This does nothing to harm your installation so you can always run this. `check` is the `<command>` being used. As arguments are optional, none is used here.
 
 FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands.
-
-## Arguments list
-All FlexGet arguments are optional.
-| argument | description |
-| --- | --- |
-| `-h, --help` | show this help message and exit |
-| `-V, --version` | Print FlexGet version and exit. |
-| `--test` | Verbose what would happen on normal execution. |
-| `-c CONFIG` | Specify configuration file. Default: config.yml |
-| `--logfile LOGFILE, -l LOGFILE` | Specify a custom logfile name/location. Default: flexget.log in the config directory. |
-| `--loglevel LEVEL, -L LEVEL` | Set the verbosity of the logger. Levels: none, critical, error, warning, info, verbose, debug, trace |
-| `--bugreport` | Use this option to create a detailed bug report, note that the output might contain PRIVATE data, so edit that out |
-| `--profile [OUTFILE]` | Use the python profiler for this run to debug performance issues. |
-| `--cron` | use when executing FlexGet non-interactively: allows background maintenance to run, disables stdout and stderr output, reduces logging level |
-| `--debug-warnings` | elevate warnings to errors for debugging purposes, so a traceback is shown
-| `--debug-db-sessions` | debug session starts and ends, for finding problems with db locks |
 
 ## Commands list
 Clicking on the commands will take you to the detail page of the command.
@@ -51,3 +35,19 @@ Clicking on the commands will take you to the detail page of the command.
 | [`history`](/CLI/history) | View the history of entries that FlexGet has accepted |
 | [`rejected`](/CLI/rejected) | list or clear remembered rejections |
 | [`inject`](/CLI/inject) | inject an entry from command line into tasks |
+
+## Arguments list
+All FlexGet arguments are optional.
+| argument | description |
+| --- | --- |
+| `-h, --help` | show this help message and exit |
+| `-V, --version` | Print FlexGet version and exit. |
+| `--test` | Verbose what would happen on normal execution. |
+| `-c CONFIG` | Specify configuration file. Default: config.yml |
+| `--logfile LOGFILE, -l LOGFILE` | Specify a custom logfile name/location. Default: flexget.log in the config directory. |
+| `--loglevel LEVEL, -L LEVEL` | Set the verbosity of the logger. Levels: none, critical, error, warning, info, verbose, debug, trace |
+| `--bugreport` | Use this option to create a detailed bug report, note that the output might contain PRIVATE data, so edit that out |
+| `--profile [OUTFILE]` | Use the python profiler for this run to debug performance issues. |
+| `--cron` | use when executing FlexGet non-interactively: allows background maintenance to run, disables stdout and stderr output, reduces logging level |
+| `--debug-warnings` | elevate warnings to errors for debugging purposes, so a traceback is shown
+| `--debug-db-sessions` | debug session starts and ends, for finding problems with db locks |
