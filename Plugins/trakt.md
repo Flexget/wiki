@@ -4,7 +4,7 @@ There are multiple trakt plugins that may need authentication to your trakt acco
 The `username` option will also be available alongside `account` option in trakt plugins. This option is not required when using an authenticated account, as it will default to the account owner. You can specify a different username than the account owner however (e.g. to specify a friend's username who has shared permissions with you.)
 
 ## Usage
-Call the trakt CLI command with `flexget trakt` and one of the following subcommands:
+Call the [trakt CLI](/CLI/trakt) command with `flexget trakt` and one of the following subcommands:
 
 ### auth
 Takes one argument, `account`. This will be the account name you use in the trakt plugin configs. This will give you a url and code to type in to that page in order to authorize your account, and will wait for you to do so before storing the authorization.
