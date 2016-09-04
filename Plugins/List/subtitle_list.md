@@ -54,7 +54,7 @@ This example shows how you would use subtitle_list in a task that sorts episodes
 This example shows how to use the files in a subtitle list along with [subliminal](/Plugins/subliminal) to download subtitles.
 
 ```
-get_subs:
+  get_subs:
     no_entries_ok: yes
     subtitle_list:
       list: subtitles
