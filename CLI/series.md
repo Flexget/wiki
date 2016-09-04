@@ -5,8 +5,10 @@ View and manipulate the series plugin database
 | argument | option | description |
 | --- | --- | --- |
 | `list` || List a summary of the different series being tracked |
-|| *positional:*<br>`{configured,unconfigured,all}` | <br>Limit list to series that are currently in the config or not (default: configured) |
-|| *optional:*<br>`--table-type {plain,porcelain,github,single,double}` | <br>Select output table style |
+|| *positional:*|
+||`{configured,unconfigured,all}` | Limit list to series that are currently in the config or not (default: configured) |
+|| *optional:* |
+|| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
 || `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
 || `--premieres` | limit list to series which only have episode 1 (and maybe also 2) downloaded |
 || `--new [DAYS]` | Limit list to series with a release seen in last 7 days. number of days can be overridden with DAYS |
@@ -15,18 +17,23 @@ View and manipulate the series plugin database
 || `--descending` | Sort in descending order |
 || `--ascending` | Sort in ascending order |
 | `show`|| Show the releases FlexGet has seen for a given series |
-|| *positional:*<br>`<series name>` | <br>The name of the series |
-|| *optional:*<br>`--table-type {plain,porcelain,github,single,double}` | <br>Select output table style |
+|| *positional:*|
+|| `<series name>` | The name of the series |
+|| *optional:* |
+|| `--table-type {plain,porcelain,github,single,double}` | Select output table style |
 || `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
 | `begin`|| set the episode to start getting a series from |
-|| *positional:*<br>`<series name>` | <br>The name of the series |
-|| *optional:*<br>`episode_id` | <br>episode ID to forget |
+|| *positional:*|
+|| `<series name>` | The name of the series |
+|| `episode_id` | episode ID to forget (optional)|
 | `forget`|| Removes episodes or whole series from the entire database (including seen plugin) |
-|| *positional:*<br>`<series name>` | <br>The name of the series |
-|| *optional:*<br>`episode_id` | <br>episode ID to forget |
+|| *positional:*|
+|| `<series name>` | The name of the series |
+|| `episode_id` | episode ID to forget (optional)|
 | `remove` || Removes episodes or whole series from the series database only |
-|| *positional:*<br>`<series name>` | <br>The name of the series |
-|| *optional:*<br>`episode_id` | <br>episode ID to forget |
+|| *positional:*|
+|| `<series name>` | The name of the series |
+|| `episode_id` | episode ID to forget (optional)|
 
 ### Examples
 ```bash
