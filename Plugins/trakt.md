@@ -1,5 +1,5 @@
 # Trakt CLI tools
-There are multiple trakt plugins that may need authentication to your trakt account (i.e. if the profile/list is private, or if you are trying to edit lists.) Any such plugin will have an `account` option. The `flexget trakt` CLI command can be used to store that authentication under a given account name. Once you have set authentication up with this tool, you can set the `account` option in the appropriate trakt plugins to use this authentication.
+There are multiple trakt plugins that may need authentication to your trakt account (i.e. if the profile/list is private, or if you are trying to edit lists.) Any such plugin will have an `account` option. The [`flexget trakt` CLI command](/CLI/trakt) can be used to store that authentication under a given account name. Once you have set authentication up with this tool, you can set the `account` option in the appropriate trakt plugins to use this authentication.
 
 The `username` option will also be available alongside `account` option in trakt plugins. This option is not required when using an authenticated account, as it will default to the account owner. You can specify a different username than the account owner however (e.g. to specify a friend's username who has shared permissions with you.)
 
