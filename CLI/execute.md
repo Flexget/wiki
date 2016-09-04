@@ -27,4 +27,5 @@ execute tasks now
 flexget execute --tasks foo_task
 ```
 ### Related articles
+* [CUI / Command line interface overview](/CLI)
 * Not to be confused with the [Exec plugin](/Plugins/exec)
