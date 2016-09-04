@@ -6,9 +6,10 @@ run continuously, executing tasks according to schedules defined in config
 | --- | --- | --- |
 | `start` || Starts the daemon  |
 | |`-d, -daemonize`| Causes process to daemonize after starting
-| `stop`<ul><li>`--wait`</li></ul> | shutdown the running daemon <ul><li>wait for all queued tasks to finish before stopping daemon</li></ul> |
-| `status` | check if a daemon is running |
-| `reload` | causes a running daemon to reload the config from disk |
+| `stop` || shutdown the running daemon |
+|| `--wait`| wait for all queued tasks to finish before stopping daemon |
+| `status` || check if a daemon is running |
+| `reload` || causes a running daemon to reload the config from disk |
 
 ### examples
 ```bash
