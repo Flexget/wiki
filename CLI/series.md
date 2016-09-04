@@ -1,5 +1,5 @@
-## `archive`
-Search and manipulate the archive database
+## `series`
+View and manipulate the series plugin database
 
 ### Positional arguments
 
@@ -14,4 +14,4 @@ Search and manipulate the archive database
 
 ### Related articles
 * [CUI / Command line interface overview](/CLI)
-* [archive Plugin](/Plugins/archive)
+* [series Plugin](/Plugins/series)
