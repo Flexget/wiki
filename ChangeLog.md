@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---05b4a20a5bfadfc748eb413f3368df81edb29002--->
+<!---408988d9a0dab644fa6b9d2753b1fb5f73d16e67--->
+
+## 2.3.18.dev (unreleased)
+### Fixed
+- cached api - Fixed ApiError format
 
 <!---b491fa1ff878b0244a8ebcff7e0b73dadcbeffd4--->
 
