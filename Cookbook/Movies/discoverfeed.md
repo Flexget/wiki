@@ -1,34 +1,36 @@
 This recipe aims to allow adding of movies as simple as adding a movie to your trakt.tv watchlist.
 
-How to create a task that queues movies from entries in your [trakt.tv](http://trakt.tv) watchlist is explained in this [cookbook](/Cookbook/Movies/TraktList). This is the 'trakt_movie_queue_fill' task in this recipe. So that part won't be explained in detail here.
+How to create a task that queues movies from entries in your [trakt.tv](http://trakt.tv) watchlist is explained in this [cookbook](/Cookbook/Movies/TraktList). This is the 'watchlist' task in this recipe. So that part won't be explained in detail here.
 
 This recipe goes one step further and also uses the [discover plugin](/Plugins/discover) to dynamically search for the desired movies. The [torrent_alive plugin](/Plugins/torrent_alive) is used to reject results that do not have at least a minimum number of seeds, which usually improves the quality of the results.
 
 ```
 tasks:
   #task to pull movies from trakt.tv watchlist and add to the movie queue
-  trakt_movie_queue_fill:
-    priority: 1 # run before the movie search task
+  watchlist:
+    priority: 1
     trakt_list:
-      username: myusername
+      account: my_acc_name
       list: watchlist
-      type: movies
     accept_all: yes
-    movie_queue: add
+    seen: local  # We don't want accepted movies on this feed to affect actual download feed
+    list_add:
+      - movie_list: watchlist  # you can call this whatever you want
 
   # task that automatically generates an rss feed based on entries from the movie_queue
   movies search:
     priority: 10 # run after the movie queue fill task
     discover:
       what:
-        - emit_movie_queue: yes
+        - movie_list: watchlist
       from:
-        - isohunt: movies
-        - torrentz: verified
+        - piratebay: yes
       interval: 7 days
     torrent_alive: 10 # Will reject results with less than 10 seeds
     quality: dvdrip+ # Make sure no screeners or cams are downloaded
-    movie_queue: accept
+    list_match:
+      from:
+        - movie_list: watchlist
     transmission: yes # You could use another output plugin instead of this (deluge, download)
 ```
-Plugins used: [template](/Plugins/template), [priority](/Plugins/priority), [set](/Plugins/set), [transmission](/Plugins/transmission), [trakt_list](/Plugins/trakt_list), [trakt_acquired](/Plugins/trakt_acquired), [accept_all](/Plugins/accept_all), [movie_queue](/Plugins/movie_queue), [torrent_alive](/Plugins/torrent_alive), [discover](/Plugins/discover) using [search plugins](/Searches) [isohunt](/Searches/isohunt) and torrentz.
+Plugins used: [priority](/Plugins/priority), [transmission](/Plugins/transmission), [trakt_list](/Plugins/trakt_list), [accept_all](/Plugins/accept_all), [movie_list](/Plugins/List/movie_list), [list_match](/Plugins/List/list_match), [seen](/Plugins/seen), [torrent_alive](/Plugins/torrent_alive), [discover](/Plugins/discover) using [search plugin](/Searches) [piratebay](/Searches/piratebay).
