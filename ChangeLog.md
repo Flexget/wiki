@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1fd1a9e1b20f356e98b21e524fa89c2afaa5c9d8--->
+<!---05b4a20a5bfadfc748eb413f3368df81edb29002--->
 
-## 2.3.17.dev (unreleased)
+<!---b491fa1ff878b0244a8ebcff7e0b73dadcbeffd4--->
+
+## 2.3.17 (2016-09-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.16...2.3.17)
 ### Fixed
 - subtitle_list: will no longer spit out directories when used as input
 - subtitle_list: fixed recursion depth=1 such that it does no recursion
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - subtitle_list: added validation to recursion_depth. Must be greater than 0.
 - subliminal: added test mode so subtitles are not downloaded with --test
 
-<!---129e85c52c6eab8baae07fad187abdee62a3be0d--->
 
 ## 2.3.16 (2016-09-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.15...2.3.16)
