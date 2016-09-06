@@ -49,7 +49,7 @@ telegram:
       {{imdb_score}}/10 - {{imdb_votes}} votes
       {{imdb_genres|join(', ')|title}} 
       *Plot:* {{imdb_plot_outline}}
-      [Image]({{tmdb_posters[0](/0)|replace("_", "%5F")}})
+      [Image]({{tmdb_posters[0]|replace("_", "%5F")}})
       [Movie Page]({{imdb_url|d('')}})
       {% else -%}
       {{title}}
