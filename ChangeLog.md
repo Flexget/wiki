@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.17...2.3.18)
 ### Fixed
 - cached api - Fixed ApiError format
+- trakt: no longer crashes because of a database error, see #1191
 
 
 ## 2.3.17 (2016-09-04)
