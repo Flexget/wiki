@@ -41,7 +41,7 @@ telegram:
       {% if series_name is defined -%}
       *{{series_name}}* - {{series_id}} - {{quality|d('')}}
       *{{tvmaze_episode_name|d(tvdb_ep_name)|d('')}}*
-      [Image](/Image)({{tvmaze_series_original_image|replace("_", "%5F")}})
+      [Image]({{tvmaze_series_original_image|replace("_", "%5F")}})
       [Show page]({{tvmaze_series_url|replace("_", "%5F")}})
       {% elif imdb_name is defined -%}
       *{{imdb_name}}* - ({{imdb_year}})
@@ -49,7 +49,7 @@ telegram:
       {{imdb_score}}/10 - {{imdb_votes}} votes
       {{imdb_genres|join(', ')|title}} 
       *Plot:* {{imdb_plot_outline}}
-      [Image](/Image)({{tmdb_posters[0](/0)|replace("_", "%5F")}})
+      [Image]({{tmdb_posters[0](/0)|replace("_", "%5F")}})
       [Movie Page]({{imdb_url|d('')}})
       {% else -%}
       {{title}}
