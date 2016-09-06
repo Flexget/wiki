@@ -34,7 +34,7 @@ telegram:
     recipients:
       - username: '{{secrets.credentials.telegram.username}}'
     template: |+
-      {%if task in ["retreive_from_couchpotato","dynamic_imdb_actors"](/"retreive_from_couchpotato","dynamic_imdb_actors")%}*New movie added to queue*
+      {%if task in ["retreive_from_couchpotato","dynamic_imdb_actors"]%}*New movie added to queue*
       {%else%}*Download Started from task:
       *{{task|replace("_", "-")}}
       {%endif%}
