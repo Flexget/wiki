@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a59c9216422d629d82558144b9560ea8a02220ce--->
+<!---f229fe58ea04d02d5d388668186c1d1dba758e21--->
 
 ## 2.3.19.dev (unreleased)
+
+### Added
+- Revert " server api - Added latest flexget version to `/version/` endpoint"
 
 <!---21eb42cb9282917e9ea1d5a6aba3d3e0dbc1a16e--->
 
