@@ -4,8 +4,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 <!---a59c9216422d629d82558144b9560ea8a02220ce--->
 
 ## 2.3.19.dev (unreleased)
-### Added
-- server api - Added latest flexget version to `/version/` endpoint
 
 <!---21eb42cb9282917e9ea1d5a6aba3d3e0dbc1a16e--->
 
