@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f229fe58ea04d02d5d388668186c1d1dba758e21--->
+<!---36029e3cc319f93e3b2a5e56f79f05bb45ab4fa2--->
 
-## 2.3.19.dev (unreleased)
+<!---376e24be3df163b1251e9a3e50cb3402ae198922--->
+
+## 2.3.19 (2016-09-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.18...2.3.19)
 
 ### Added
 - Revert " server api - Added latest flexget version to `/version/` endpoint"
 
-<!---21eb42cb9282917e9ea1d5a6aba3d3e0dbc1a16e--->
 
 ## 2.3.18 (2016-09-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.17...2.3.18)
