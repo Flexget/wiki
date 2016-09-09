@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4c85be087140bcbab5f2b5deba8a557aff2c1878--->
+<!---12c76efbaaca7606de77ed1889905cfa2b966589--->
+
+## 2.3.22.dev (unreleased)
+### Changed
+- qbittorrent: Send torrent file instead of url if possible, fixes [#1390](https://github.com/Flexget/Flexget/issues/1390)
 
 <!---2fd94dc581a9e0b5c237d8973cb251bb9c688f38--->
 
