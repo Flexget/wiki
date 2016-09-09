@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---916afc025dd7b1bb1ff233f26933f661ec1afdfd--->
+<!---5581ce388ed787ca8337e1a7bde852b859f2b6c6--->
 
 ## 2.3.22.dev (unreleased)
 ### Changed
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Added
 - convert_magnet: new plugin for converting magnets to torrents using libtorrent
+
+### Fixed
+- download: fix error handling in py3
 
 <!---2fd94dc581a9e0b5c237d8973cb251bb9c688f38--->
 
