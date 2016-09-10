@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---db786c0a6d1177af85140407d7c94e8074f7137c--->
+<!---f68f485bbf434326e95787e3211580fab3ebdf9e--->
+
+## 2.3.23.dev (unreleased)
+### Changed
+- npo_watchlist: Rewrite, after big changes to npo.nl
 
 <!---f62962b7966350188f34c4eb806ddddf4e1a7e8e--->
 
