@@ -278,6 +278,7 @@ Perform various operations on request that are being sent and received.
 | **Keyword** | **Description** |
 | --- | --- |
 | [cfscraper](/Plugins/cfscraper) | Enables cloudflare scraping in a task. |
+| [convert_magnet](/Plugins/convert_magnet) | Converts magnet uris to torrent files using libtorrent |
 | [cookies](/Plugins/cookies) | Use FireFox3 cookies. |
 | [domain_delay](/Plugins/domain_delay) | Sets a minimum interval between requests to specific domains. |
 | [formlogin](/Plugins/formlogin) | Log in to web site via login form. |
