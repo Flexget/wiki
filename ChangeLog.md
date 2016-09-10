@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5581ce388ed787ca8337e1a7bde852b859f2b6c6--->
+<!---db786c0a6d1177af85140407d7c94e8074f7137c--->
 
-## 2.3.22.dev (unreleased)
+<!---f62962b7966350188f34c4eb806ddddf4e1a7e8e--->
+
+## 2.3.22 (2016-09-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.21...2.3.22)
 ### Changed
 - qbittorrent: Send torrent file instead of url if possible, fixes [#1390](https://github.com/Flexget/Flexget/issues/1390)
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - download: fix error handling in py3
 
-<!---2fd94dc581a9e0b5c237d8973cb251bb9c688f38--->
 
 ## 2.3.21 (2016-09-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.20...2.3.21)
