@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f68f485bbf434326e95787e3211580fab3ebdf9e--->
+<!---8d8f0b6bf46f667283083b44575f22fb1747454d--->
 
-## 2.3.23.dev (unreleased)
+<!---866d7b26d9183fe27950cec7d60ee00aa7a58cea--->
+
+## 2.3.23 (2016-09-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.22...2.3.23)
 ### Changed
 - npo_watchlist: Rewrite, after big changes to npo.nl
 
-<!---f62962b7966350188f34c4eb806ddddf4e1a7e8e--->
 
 ## 2.3.22 (2016-09-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.21...2.3.22)
