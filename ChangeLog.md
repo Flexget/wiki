@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7e40583e176a53fdc7e1265d2b6893f6f9c27828--->
+<!---54f24a2b2893b1e8fc132d70cac68432bdcb71a1--->
 
 ## 2.3.24.dev (unreleased)
 ### Changed
 - entry list cli - URL will be used and not original URL by default when adding new entry
+
+### Added
+- trakt_lookup: will now also add user ratings for season, series, ep and movies
 
 <!---866d7b26d9183fe27950cec7d60ee00aa7a58cea--->
 
