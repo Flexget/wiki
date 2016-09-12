@@ -9,7 +9,7 @@ tasks:
   #task to pull movies from trakt.tv watchlist and add to the movie queue
   watchlist:
     priority: 1
-    trakt_list:
+    trakt_list:  # You can also use imdb_list
       account: my_acc_name
       list: watchlist
     accept_all: yes
