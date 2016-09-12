@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f1e493be6fa2d99a6b0ec5efbf1a6adef744e1fc--->
+<!---93cff74a4b2e391b61e07705cca72e47e9d93c87--->
+
+## 2.3.25.dev (unreleased)
+### Fixed
+- telegram - Fixed telegram parsing fallback. Closes [#1385](https://github.com/Flexget/Flexget/issues/1385)
 
 <!---f6e53cdb27bf929a2fe48ac59ec1389c6fc31895--->
 
