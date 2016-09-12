@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---54f24a2b2893b1e8fc132d70cac68432bdcb71a1--->
+<!---f1e493be6fa2d99a6b0ec5efbf1a6adef744e1fc--->
 
-## 2.3.24.dev (unreleased)
+<!---f6e53cdb27bf929a2fe48ac59ec1389c6fc31895--->
+
+## 2.3.24 (2016-09-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.23...2.3.24)
 ### Changed
 - entry list cli - URL will be used and not original URL by default when adding new entry
 
 ### Added
 - trakt_lookup: will now also add user ratings for season, series, ep and movies
 
-<!---866d7b26d9183fe27950cec7d60ee00aa7a58cea--->
 
 ## 2.3.23 (2016-09-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.22...2.3.23)
