@@ -17,8 +17,9 @@ tasks:
     list_add:
       - movie_list: watchlist  # you can call this whatever you want
 
-  # task that automatically generates an rss feed based on entries from the movie_queue
+  # task that automatically downloads movies from the movie_list
   movies search:
+    trakt_lookup: yes  # can also use imdb_lookup or tmdb_lookup
     priority: 10 # run after the movie queue fill task
     discover:
       what:
