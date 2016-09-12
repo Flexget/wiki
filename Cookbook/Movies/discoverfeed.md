@@ -34,4 +34,4 @@ tasks:
         - movie_list: watchlist
     transmission: yes # You could use another output plugin instead of this (deluge, download)
 ```
-Plugins used: [priority](/Plugins/priority), [transmission](/Plugins/transmission), [trakt_list](/Plugins/trakt_list), [accept_all](/Plugins/accept_all), [movie_list](/Plugins/List/movie_list), [list_match](/Plugins/List/list_match), [seen](/Plugins/seen), [torrent_alive](/Plugins/torrent_alive), [discover](/Plugins/discover) using [search plugin](/Searches) [piratebay](/Searches/piratebay).
+Plugins used: [priority](/Plugins/priority), [transmission](/Plugins/transmission), [trakt_list](/Plugins/trakt_list),[trakt_lookup](/Plugins/trakt_lookup), [accept_all](/Plugins/accept_all), [movie_list](/Plugins/List/movie_list), [list_match](/Plugins/List/list_match), [seen](/Plugins/seen), [torrent_alive](/Plugins/torrent_alive), [discover](/Plugins/discover) using [search plugin](/Searches) [piratebay](/Searches/piratebay).
