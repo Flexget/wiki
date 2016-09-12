@@ -6,7 +6,7 @@ This recipe goes one step further and also uses the [discover plugin](/Plugins/d
 
 ```
 tasks:
-  #task to pull movies from trakt.tv watchlist and add to the movie queue
+  #task to pull movies from trakt.tv watchlist and add to the movie list
   watchlist:
     priority: 1
     trakt_list:  # You can also use imdb_list
