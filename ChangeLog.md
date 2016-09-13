@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---21e3edfb0fb8e42df3e3fadf6452d1b5ea1558da--->
+<!---e71f94284f86c1c25e64c0058410d55156d384e1--->
+
+## 2.3.26.dev (unreleased)
+### Fixed
+- pyload: no longer inexplicably throws error 91, fixes [#1136](https://github.com/Flexget/Flexget/issues/1136)
 
 <!---597404c8ebebe40204c65cac5831e860ea3bfcac--->
 
