@@ -8,7 +8,7 @@ trakt_list:
   list: Watching #custom trakt list "Watching"
   type: shows
 trakt_lookup: yes
-disable: [ seen, input_cache ] #is necessary to not get cross-contamination effects with caching
+disable: seen #is necessary to not get cross-contamination effects with caching
 if:
   - trakt_collected and trakt_series_status in ['ended', 'cancelled']: accept
 list_add: #optional
