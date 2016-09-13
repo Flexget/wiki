@@ -16,7 +16,7 @@ View and manipulate the series plugin database
 || `<series name>` | The name of the series | `flexget series show "Show Name"`
 | `begin`|| set the episode to start getting a series from |
 || `<series name>` | The name of the series |
-|| `episode_id` | episode ID to forget (optional)|
+|| `episode_id` | Episode ID to start getting the series from (e.g. S02E01, 2013-12-11, or 9, depending on how the series is numbered)|
 | `forget`|| Removes episodes or whole series from the entire database (including `seen` plugin) |
 || `<series name>` | The name of the series |
 || `episode_id` | episode ID to forget (optional)| `flexget series forget "Show Name" S02E10`
