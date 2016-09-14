@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5ab10ad6ec7a24a97523724fa6ca1dfdbb67f7fe--->
+<!---0369d11484a7782b052cda6bea693a7be9f67ca8--->
 
 ## 2.3.27.dev (unreleased)
 ### Added
+- [WebUI] Checking of actual semver, not just lazy comparison of strings
 - version info is now shown in UI, icon is shown when new version is available (currently only does lazy string comparison, will change to actual semver check later)
 
 ### Fixed
