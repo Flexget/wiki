@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8da0966b2cf0fee8a50b2bd9b5565c490840dbf6--->
+<!---5ab10ad6ec7a24a97523724fa6ca1dfdbb67f7fe--->
 
 ## 2.3.27.dev (unreleased)
 ### Added
 - version info is now shown in UI, icon is shown when new version is available (currently only does lazy string comparison, will change to actual semver check later)
+
+### Fixed
+- daemon: no longer crashes on older python 2.7, fixes [#1405](https://github.com/Flexget/Flexget/issues/1405)
 
 <!---ff5c2948b85d8a110ee60b9f861d58a9ccb78fb9--->
 
