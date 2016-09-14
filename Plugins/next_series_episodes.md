@@ -14,7 +14,7 @@ If you would like to start every show automatically without setting the begin ep
 next_series_episodes:
   from_start: yes
 ```
-This will require option [series](/Plugins/series) option `identified_by` to be set.
+**NOTE**: This will require option [series](/Plugins/series) option `identified_by`, `begin` or single call to `$ flexget series begin <name> <episode>`to be set.
 
 ### Backfill
 
