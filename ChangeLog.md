@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---19959d86aeacd5606624cd5448fc9eb270b9530a--->
+<!---7b3e65d73a5942d6bafc46ece23ddb6804c5ed22--->
 
-## 2.3.27.dev (unreleased)
+<!---af21c4437fa09c99ac9230afc3669b7f3911054f--->
+
+## 2.3.27 (2016-09-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.26...2.3.27)
 ### Added
 - [WebUI] Checking of actual semver, not just lazy comparison of strings
 - version info is now shown in UI, icon is shown when new version is available (currently only does lazy string comparison, will change to actual semver check later)
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Adding new series and next_series_episodes workaround
 - daemon: no longer crashes on older python 2.7, fixes [#1405](https://github.com/Flexget/Flexget/issues/1405)
 
-<!---ff5c2948b85d8a110ee60b9f861d58a9ccb78fb9--->
 
 ## 2.3.26 (2016-09-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.25...2.3.26)
