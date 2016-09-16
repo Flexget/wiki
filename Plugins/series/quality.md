@@ -14,9 +14,9 @@ series:
   - name of series 1:
       quality: 720p+
   - name of series 2:
-      qualities:
-        - pdtv !h264
-        - 720p hdtv|webdl
+      quality: 1080p
+  - name of series 3:
+      quality: hdtv
 ```
 
 Usually best way to specify quality for series is to use groups:
