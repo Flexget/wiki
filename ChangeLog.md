@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc8c2a6be678b749ccda8f7d09da2b1683b12d3d--->
+<!---f4469a15209ffd51e839a623b7d9e08a00ae49b9--->
 
-## 2.3.28.dev (unreleased)
+<!---37018009170f2a00e4f21829be2a260bc2bd4f23--->
+
+## 2.3.28 (2016-09-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.27...2.3.28)
 ### Added
 - Movies can now be added to a list in the WebUI ([#1364](https://github.com/Flexget/Flexget/issues/1364))
 
-<!---af21c4437fa09c99ac9230afc3669b7f3911054f--->
 
 ## 2.3.27 (2016-09-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.26...2.3.27)
