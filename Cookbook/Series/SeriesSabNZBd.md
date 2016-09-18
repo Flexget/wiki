@@ -7,11 +7,13 @@ tasks:
     .
     .
     series:
+      settings:
+        720p:
+          set:
+            category: '\{{series_name}}'
       720p:
         - chuck
         - south park
-    set:
-      category: '\{{series_name}}'
     sabnzbd:
       key: 1234567890
       url: http://127.0.0.1:8080/sabnzbd/api?
