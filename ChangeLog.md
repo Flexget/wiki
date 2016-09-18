@@ -1,11 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7467e18a241227bb9631738ae702a6274b38e307--->
+<!---b21f5b8ddd082cadce5a059e2f8688002286571f--->
 
 ## 2.3.29.dev (unreleased)
 ### Changed
 - cached api - More detailed error responses. Related [#1410](https://github.com/Flexget/Flexget/issues/1410)
+
+### Fixed
+- cached api - Using config base dir instead of working dir. Fixes [#1410](https://github.com/Flexget/Flexget/issues/1410)
+- daemon: reloading config now properly triggers a config change in tasks, fixes [#1406](https://github.com/Flexget/Flexget/issues/1406)
+
+### Added
+- irc: reloading config will only restart irc connections that contain changes
 
 <!---37018009170f2a00e4f21829be2a260bc2bd4f23--->
 
