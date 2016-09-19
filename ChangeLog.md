@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cf08d60462e24aa98e911f5e0558e13331eb91bb--->
+<!---9c5af6050be285315e96d769617cea1ab003c75d--->
+
+## 2.3.30.dev (unreleased)
+### Changed
+- Webui - Update available icon now links to Flexget's ChangeLog
 
 <!---6189fc54b2e92c7acd055b59324e7432ef0d069f--->
 
