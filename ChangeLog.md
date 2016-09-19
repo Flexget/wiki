@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b21f5b8ddd082cadce5a059e2f8688002286571f--->
+<!---cf08d60462e24aa98e911f5e0558e13331eb91bb--->
 
-## 2.3.29.dev (unreleased)
+<!---6189fc54b2e92c7acd055b59324e7432ef0d069f--->
+
+## 2.3.29 (2016-09-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.28...2.3.29)
 ### Changed
 - cached api - More detailed error responses. Related [#1410](https://github.com/Flexget/Flexget/issues/1410)
 
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - irc: reloading config will only restart irc connections that contain changes
 
-<!---37018009170f2a00e4f21829be2a260bc2bd4f23--->
 
 ## 2.3.28 (2016-09-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.27...2.3.28)
