@@ -33,5 +33,6 @@ Open *Scheduling Tasks* from windows *Control panel*.
 
 <img src="http://flexget.com/attachments/WikiPics/scheduling_5.png">
 
-## Installation completed
-If you encounter problems, feel free to join our IRC channel (`#FlexGet`) at freenode. Or request help via tickets if IRC isn't your thing.
+# Done
+
+Enjoy automation. If you encounter issues [ask for help](/NeedHelp)
