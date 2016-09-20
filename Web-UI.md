@@ -60,11 +60,6 @@ The UI has a solid base but we need help building the plugins. If you would like
 To get started you will first need to setup your environment from Git.
 
 ### Setup from Git
-After pulling, run `pip install -r requirements.text` and `pip install -r dev-requirements.text`. 
-
-Then run `python dev_tools.py build_webui`.
-
-Alternatively Run the following:
 
 1. You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))
 
@@ -109,15 +104,17 @@ npm install -g bower
 npm install -g gulp
 ```
 
-4. Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder.
+4. Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder, or run `python dev_tools.py build_webui`.
 
 ```
 npm install
 bower update
 gulp build
 ```
+Running `gulp build` will compile all the ui files.
 
-5. Running `gulp build` will compile all the ui files.
+
+
 
 ### Running from Git
 The UI communicates to the flexget daemon using the API. When starting the daemon it will make the ui available via http://flexget_ip:3539/ui/.
