@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c61a1a55ac35843a1320867fd1e83abb3918afa2--->
+<!---1c9c3f549f2894a30368c8ac45611d005bd38bd9--->
+
+## 2.3.31.dev (unreleased)
+### Added
+- Add ssl support to webserver
 
 <!---24930751938f795a810df35b4a3e120e6dafbc09--->
 
