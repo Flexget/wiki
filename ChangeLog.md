@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5b9559ac666b51379c3f815534d883c2109c560--->
+<!---7184388c463de237e03193330361d256cec7a14a--->
 
 ## 2.3.31.dev (unreleased)
 ### Added
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Fixed
 - Failing UI tests should work again
+
+### Changed
+- WebUI - New version available icon changed to question mark, as to not confuse users to be able to update using it
 
 <!---24930751938f795a810df35b4a3e120e6dafbc09--->
 
