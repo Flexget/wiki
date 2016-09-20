@@ -13,6 +13,8 @@ Development has started on a web interface for managing flexget. To enable add t
 web_server:
   bind: 0.0.0.0
   port: 3539
+  ssl_certificate: '/etc/ssl/private/myCert.pem'
+  ssl_private_key: '/etc/ssl/private/myKey.key'
 api: yes
 webui: yes
 ```
@@ -50,16 +52,23 @@ flexget web gentoken
 
 
 ## Development
-We have a functional API with documentation available at http://flexget_ip:3539/api/.
+We have a functional API with documentation available at the `/api` route of your web server. <br>
+Example: [http://localhost:3539/api/](http://localhost:3539/api/) .
 
 The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat at gitter [https://gitter.im/Flexget/Flexget](https://gitter.im/Flexget/Flexget)
 
 To get started you will first need to setup your environment from Git.
 
 ### Setup from Git
-You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))
+After pulling, run `pip install -r requirements.text` and `pip install -r dev-requirements.text`. 
 
-Following commands will do that as user, requires g++ to be installed:
+Then run `python dev_tools.py build_webui`.
+
+Alternatively Run the following:
+
+1. You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))
+
+2. Following commands will do that as user, requires g++ to be installed:
 
 ```
 echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
@@ -93,14 +102,14 @@ echo prefix = ~/local >> ~/.npmrc
 curl https://www.npmjs.org/install.sh | sh
 ```
 
-Install bower and gulp. This needs to be ran as root except if you installed NPM as user with previous commands.
+3. Install bower and gulp. This needs to be ran as root except if you installed NPM as user with previous commands.
 
 ```
 npm install -g bower
 npm install -g gulp
 ```
 
-Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder.
+4. Next install the webui dependencies by running the following commands under the <flexget github folder>/flexget/ui folder.
 
 ```
 npm install
@@ -108,7 +117,7 @@ bower update
 gulp build
 ```
 
-Running `gulp build` will compile all the ui files.
+5. Running `gulp build` will compile all the ui files.
 
 ### Running from Git
 The UI communicates to the flexget daemon using the API. When starting the daemon it will make the ui available via http://flexget_ip:3539/ui/.
@@ -119,7 +128,7 @@ The daemon will load the compiled UI files if you are NOT in debug mode. To enab
 flexget -L debug daemon start
 ```
 
-** Plugin development from Git**
+### Plugin development from Git
 
 For plugin development see examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins](/https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins) and also feel free to chat with us on gitter [https://gitter.im/Flexget/Flexget](/https://gitter.im/Flexget/Flexget)
 
