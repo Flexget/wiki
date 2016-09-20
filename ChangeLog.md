@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1c9c3f549f2894a30368c8ac45611d005bd38bd9--->
+<!---d5b9559ac666b51379c3f815534d883c2109c560--->
 
 ## 2.3.31.dev (unreleased)
 ### Added
 - Add ssl support to webserver
+
+### Fixed
+- Failing UI tests should work again
 
 <!---24930751938f795a810df35b4a3e120e6dafbc09--->
 
