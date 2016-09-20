@@ -6,6 +6,7 @@
 * [UI mockups](https://flexget.mybalsamiq.com/projects) - accounts can be requested
 * [Concepts](/Web-UI/Concepts)
 * [Roadmap (more ideas)](/Roadmap)
+* [Git Project](https://github.com/Flexget/Flexget/projects/1)
 
 Development has started on a web interface for managing flexget. To enable add the following to your config.yml
 
