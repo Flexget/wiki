@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7184388c463de237e03193330361d256cec7a14a--->
+<!---65add7e98877f8946655c61f75ce91cbb0fa8be5--->
 
-## 2.3.31.dev (unreleased)
+<!---0f6aada97ab4ddd4ef7082c8f602617dba464ae9--->
+
+## 2.3.31 (2016-09-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.30...2.3.31)
 ### Added
 - Add ssl support to webserver
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - WebUI - New version available icon changed to question mark, as to not confuse users to be able to update using it
 
-<!---24930751938f795a810df35b4a3e120e6dafbc09--->
 
 ## 2.3.30 (2016-09-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.29...2.3.30)
