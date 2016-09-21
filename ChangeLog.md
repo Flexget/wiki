@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---65add7e98877f8946655c61f75ce91cbb0fa8be5--->
+<!---24dee35ef3adf9de911c6481eaaf2c60907ec0e0--->
+
+## 2.3.32.dev (unreleased)
+### Added
+- WebUi - History can now be filtered based on task name
 
 <!---0f6aada97ab4ddd4ef7082c8f602617dba464ae9--->
 
