@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bac7a84c719b6fa8683335e803c5782ba6468a75--->
+<!---3f103d16ad84d64969aac0bf1b998b428ae847eb--->
 
 ## 2.3.32.dev (unreleased)
 ### Added
 - WebUI - Seen entries can now be removed
 - WebUi - History can now be filtered based on task name
+
+### Changed
+- web_server - Removed pyopenssl dep, use builtin cherrypy. Fixes [#1414](https://github.com/Flexget/Flexget/issues/1414)
 
 <!---0f6aada97ab4ddd4ef7082c8f602617dba464ae9--->
 
