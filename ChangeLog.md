@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3f103d16ad84d64969aac0bf1b998b428ae847eb--->
+<!---373a7ed075ea60b4ed5fdf209a22ca5ebae8f830--->
 
 ## 2.3.32.dev (unreleased)
 ### Added
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Changed
 - web_server - Removed pyopenssl dep, use builtin cherrypy. Fixes [#1414](https://github.com/Flexget/Flexget/issues/1414)
+
+### Fixed
+- configure_series: Fixed SAWarning
 
 <!---0f6aada97ab4ddd4ef7082c8f602617dba464ae9--->
 
