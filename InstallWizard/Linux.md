@@ -95,7 +95,7 @@ After activation command `flexget` will work from anywhere. Note that activation
 Alternatively you can use following command without activating virtualenv.
 
 ```bash
-~/flexget/bin/flexget [options](/options)
+~/flexget/bin/flexget [options]
 ```
 
 You will need to use this form if you use crontab to schedule FlexGet executions.
