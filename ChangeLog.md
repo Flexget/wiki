@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---373a7ed075ea60b4ed5fdf209a22ca5ebae8f830--->
+<!---539a105efc5ab80c345ca85908b063808dd39312--->
 
-## 2.3.32.dev (unreleased)
+<!---ad55563d3e2573083960bc93977f32ac0b46cf16--->
+
+## 2.3.32 (2016-09-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.31...2.3.32)
 ### Added
 - WebUI - Seen entries can now be removed
 - WebUi - History can now be filtered based on task name
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - configure_series: Fixed SAWarning
 
-<!---0f6aada97ab4ddd4ef7082c8f602617dba464ae9--->
 
 ## 2.3.31 (2016-09-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.30...2.3.31)
