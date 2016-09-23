@@ -7,7 +7,12 @@
   Web UI currently experimental and can not be recommended for new users!
 </div>
 
-**We need your help! If you are an AngularJS developer or can help with the layout/design/css then please join in the effort! (See Development Section Below)**
+<div class="alert alert-info" role="alert">
+
+  <span class="glyphicon glyphicon glyphicon-comment"></span>
+  &nbsp;
+  We need your help! If you are an AngularJS developer or can help with the layout/design/css then please join in the effort!
+</div>
 
 **Relevant pages**
 
@@ -16,7 +21,9 @@
 * [Roadmap (more ideas)](/Roadmap)
 * [Git Project](https://github.com/Flexget/Flexget/projects/1)
 
-Development has started on a web interface for managing flexget. To enable add the following to your config.yml
+## Enabling Web UI
+
+Add the following to your config.yml, ssl is optional but highly recommended if UI is exposed to internet.
 
 ```
 web_server:
