@@ -3,7 +3,8 @@ Creates entries based on search results. Queries are produced based on another i
 
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
-  This may seem a bit scary, but just remember discover is normal input like rss!
+  &nbsp;
+  This may seem a bit scary at first, but just remember discover is normal input like rss!
 </div>
 
 ## Config Format
@@ -25,7 +26,7 @@ discover:
 | --- | --- | --- |
 |limit| - | Set max results from each search engine. |
 |interval| 5 hours| Time between trying searches again. |
-|release_estimations|strict|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. <br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `interval` units (eg. 7 days) before release date.|
+|release_estimations|strict|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. <br/><br/> `loose` will check for release dates but not require one to be found.<br/>`ignore` no release date checking will be attempted. <br/>`strict` will reject all episodes/movies without air dates.<br/> `optimistic` sets the estimation mode to `strict` but starts searching `interval` units (eg. 7 days) before release date.|
 
 ### Supported search engines
 An overview of available search plugins can be found [here](/Searches). For a list of installed search plugins use command `flexget plugins --group search`.
@@ -33,16 +34,15 @@ An overview of available search plugins can be found [here](/Searches). For a li
 ### Reruns
 When using [next_series_episodes](/Plugins/next_series_episodes) as an input for `discover` it will attempt to retrieve new episodes until it fails to find more (up to 100 runs). The number of reruns can be limited with [max_reruns](/Plugins/max_reruns) plugin.
 
-### Examples
+## Examples
 
-
-#### Search next series episodes
+### Search next series episodes
 ```yaml
 discover:
   what:
     - next_series_episodes: yes
   from:
-    - value
+    - any supported search plugin
 ```
 
 It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
@@ -58,10 +58,10 @@ discover:
         type: movies
     - movie_list: listname
   from:
-    - value
+    - any supported search plugin
 ```
 
-#### Search movie list
+### Search movie list
 This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin. It will only search for movies that have a release date that is no more than 30 days in the future.
 
 ```yaml
