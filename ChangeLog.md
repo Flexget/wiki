@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c7403710f4757c3c6c7a9dd3d2b0a4a17aaae700--->
+<!---e5822874b2ee088b508390ff02c4eda9785596bc--->
 
 ## 2.3.33.dev (unreleased)
 ### Added
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Fixed
 - Changed status to use local time, some mismatch with history will occur
+
+### Changed
+- WebUI - Execute results show a different icon for accepted/undecided results
 
 <!---ad55563d3e2573083960bc93977f32ac0b46cf16--->
 
