@@ -54,7 +54,7 @@ transmission:
 | password | Text |  |
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
 | addpaused | [Yes\|No] |  |
-| bandwidthpriority | [-1,0,1](/-1,0,1) |  |
+| bandwidthpriority | [-1,0,1] |  |
 | honourlimits | [Yes\|No] |  |
 | maxconnections | Number |  |
 | maxupspeed | Number |  |
