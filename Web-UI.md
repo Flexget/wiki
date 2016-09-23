@@ -1,4 +1,12 @@
 # Web UI
+
+<div class="alert alert-danger" role="alert">
+
+  <span class="glyphicon glyphicon glyphicon-exclamation-sign"></span>
+  &nbsp;
+  Web UI currently experimental and can not be recommended for new users!
+</div>
+
 **We need your help! If you are an AngularJS developer or can help with the layout/design/css then please join in the effort! (See Development Section Below)**
 
 **Relevant pages**
