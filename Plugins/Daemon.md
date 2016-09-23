@@ -1,3 +1,3 @@
 
 ## Daemon
-Refer to [/Daemon](//Daemon).
+Refer to [/Daemon](/Daemon).
