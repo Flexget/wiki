@@ -53,22 +53,22 @@ transmission:
 | username | Text |  |
 | password | Text |  |
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
-| addpaused | [Yes|No](/Yes|No) |  |
+| addpaused | [Yes\|No] |  |
 | bandwidthpriority | [-1,0,1](/-1,0,1) |  |
-| honourlimits | [Yes|No](/Yes|No) |  |
+| honourlimits | [Yes\|No] |  |
 | maxconnections | Number |  |
 | maxupspeed | Number |  |
 | maxdownspeed | Number |  |
 | ratio | Decimal | The ratio to stop seeding at (-1 means infinite) |
-| enabled | [Yes|No](/Yes|No) | Plugin enabled (Default: Yes) |
-| main_file_only | [Yes|No](/Yes|No) | If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip' |
+| enabled | [Yes\|No] | Plugin enabled (Default: Yes) |
+| main_file_only | [Yes\|No] | If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip' |
 | main_file_ratio | Decimal | Sets the threshold value for main_file_only. Expects a number between 0 and 1 (ie 0.85 to change to 85%). 90% by default. |
 | magnetization_timeout | Number | When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0) |
-| include_subs | [Yes|No](/Yes|No) | If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa) |
+| include_subs | [Yes\|No] | If yes, in addition to the main file, files with subtitle extensions will be downloaded (.srt, .sub, .idx, .ass, .ssa) |
 | content_filename | Text | This can be used to rename the main file inside the torrent. [see here](/Plugins/transmission#ContentRenaming) |
-| rename_like_files | [Yes|No](/Yes|No) | If enabled, file patterns matching the main file will be renamed according to 'content_filename' |
-| include_files | Pattern [Single|List](/Single|List) | Will include file patterns if they have been excluded by 'main_file_only'. For patterns [see here](/content_filter) |
-| skip_files | Pattern [Single|List](/Single|List) | Will 'skip' file patterns if main_file_only is not enabled OR the main_file_only requirement isn't met in the torrent. For patterns [see here](/content_filter) |
+| rename_like_files | [Yes\|No] | If enabled, file patterns matching the main file will be renamed according to 'content_filename' |
+| include_files | Pattern [Single\|List] | Will include file patterns if they have been excluded by 'main_file_only'. For patterns [see here](/content_filter) |
+| skip_files | Pattern [Single\|List] | Will 'skip' file patterns if main_file_only is not enabled OR the main_file_only requirement isn't met in the torrent. For patterns [see here](/content_filter) |
 | queue_position | Number | Will set the torrent's position in the queue to the specified number, where 0 is the top of the queue |
 
 To use all default values use this config form:
@@ -160,7 +160,7 @@ The Transmission Plugin also supports selective file downloading using the setti
     skip_files:
       - '*.nfo'
       - '*.sfv'
-      - '*[sS](/sS)ample*'
+      - '*[sS]ample*'
       - '*.txt'
     include_files:
       - '*.txt'
