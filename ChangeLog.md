@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---407b9715afe9e600b1e845e88ac83032b69a0b31--->
+<!---c7403710f4757c3c6c7a9dd3d2b0a4a17aaae700--->
 
 ## 2.3.33.dev (unreleased)
 ### Added
 - WebUI - add new movies, title now links to IMDB
 - WebUI - search term to add a movie can now be cleared easily
+
+### Fixed
+- Changed status to use local time, some mismatch with history will occur
 
 <!---ad55563d3e2573083960bc93977f32ac0b46cf16--->
 
