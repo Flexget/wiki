@@ -22,7 +22,7 @@ transmission:
   password: mypassword
 ```
 
-If you're having authentication issues, see ticket ticket:1066#comment:1 if it helps (feel free to improve this wiki page). The username and password can be set from the GUI, but if you're using the headless version you must change it in `/home/<user>/.config/transmission-daemon/settings.json`. First stop transmissiond, edit settings.json and enter a password in clear text; it will be overwritten with its hash once transmissiond is started again.
+If you're having authentication issues, see ticket 1066 in old trac and see if it helps (feel free to improve this wiki page). The username and password can be set from the GUI, but if you're using the headless version you must change it in `/home/<user>/.config/transmission-daemon/settings.json`. First stop transmissiond, edit settings.json and enter a password in clear text; it will be overwritten with its hash once transmissiond is started again.
 
 Also make sure that rpc-whitelist isn't preventing flexget from connecting to localhost or whatever IP address it's using. The settings below will permit clients connecting from localhost and 192.168.*.*, assuming they also provide the correct credentials, it will also deny all other IP ranges:
 
