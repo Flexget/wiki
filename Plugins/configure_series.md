@@ -1,7 +1,11 @@
 # Configure series
 Generates [series](/Plugins/series) plugin configuration from titles produced by any input. Using this doesn't prevent configuring [series](/Plugins/series) plugin additionally. 
 
-Most commonly used with [trakt_list](/Plugins/List/trakt_list), [filesystem](/Plugins/filesystem), or [thetvdb_favorites](/Plugins/thetvdb_favorites).
+Commonly used with:
+
+* [trakt_list](/Plugins/List/trakt_list)
+* [thetvdb_list](/Plugins/List/thetvdb_list)
+* [filesystem](/Plugins/filesystem)
 
 ## Syntax
 ```yaml
@@ -16,11 +20,13 @@ configure_series:
 ### Settings
 You can use any of the [settings for the series plugin](/Plugins/series#Settings) within the 'settings' block in configure_series. This section is optional, but if included, the settings will be applied to every show configured.
 
+**NOTE:** If you need to set different options for individual series, you can do so using the [series](/Plugins/series) plugin alongside configure_series as shown in this [recipe.](/Cookbook/ForceStrictMatching)
+
 ### From
 In this section you must include one or more configured [input plugins](/Plugins#Input). The titles of the entries created by this plugin will be used as the names of the series that you desire.
 
-
-## Example
+## Examples 
+### Filesystem
 Let's say you have a directory where all your series are stored in each in the own folder. Something like:
 
 ```text
@@ -41,4 +47,16 @@ configure_series:
 
 This will make adding new series easy too, just create new directory there :)
 
-**NOTE:** If you need to set different options for individual series, you can do so using the [series](/Plugins/series) plugin alongside configure_series as shown in this [recipe.](/Cookbook/ForceStrictMatching)
+### TheTVDB list
+
+```yaml
+configure_series:
+  from:
+    thetvdb_list:
+      username: <username>
+      account_id: <account identifier>
+  settings:
+    timeframe: 12 hours
+    target: 720p
+    propers: 3 days
+```
