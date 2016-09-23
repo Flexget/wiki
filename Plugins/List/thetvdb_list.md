@@ -40,7 +40,9 @@ configure_series:
 ## Adding and removing
 You can add, remove or match according to your favorites list. Note that entries must contain `tvdb_id` to operate on the list, so adding a lookup plugin like [thetvdb_lookup](/Plugins/thetvdb_lookup) to the task may be required.
 
-### Example how to add
+### Example
+
+This would import all series from trakt_list and add them to yout tvdb_list.
 
 ```yaml
 trakt_list: <opts>
