@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e5822874b2ee088b508390ff02c4eda9785596bc--->
+<!---6eae4488c78cddaf888aaa99d4f863faa89129e1--->
 
 ## 2.3.33.dev (unreleased)
 ### Added
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - WebUI - search term to add a movie can now be cleared easily
 
 ### Fixed
+- Prevent metainfo_content_size from crashing with an empty location. fix [#1403](https://github.com/Flexget/Flexget/issues/1403)
 - Changed status to use local time, some mismatch with history will occur
 
 ### Changed
