@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6eae4488c78cddaf888aaa99d4f863faa89129e1--->
+<!---65a7ed4287ee80402c3c18348311494af3e74a35--->
 
-## 2.3.33.dev (unreleased)
+<!---ac14f9c4aae8fbdde76bd3f94071dc073cd3eb67--->
+
+## 2.3.33 (2016-09-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.32...2.3.33)
 ### Added
 - WebUI - add new movies, title now links to IMDB
 - WebUI - search term to add a movie can now be cleared easily
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - WebUI - Execute results show a different icon for accepted/undecided results
 
-<!---ad55563d3e2573083960bc93977f32ac0b46cf16--->
 
 ## 2.3.32 (2016-09-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.31...2.3.32)
