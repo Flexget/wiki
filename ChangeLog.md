@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---65a7ed4287ee80402c3c18348311494af3e74a35--->
+<!---2c3086ee17baddfb0dda2f9198c29e13e8db4a85--->
+
+## 2.3.34.dev (unreleased)
+### Changed
+- configure_series - Made `from` into a required schema property
+
+### Fixed
+- imdb_lookup: imdb_languages field is now populated correctly
 
 <!---ac14f9c4aae8fbdde76bd3f94071dc073cd3eb67--->
 
