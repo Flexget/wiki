@@ -5,9 +5,9 @@ This plugin will scan through accepted entries, and reject any movie entry that 
 ```
 exists_movie:
   path: /path/to/movies
-  [type](/type): {dirs|files}
-  [allow_different_qualities](/allow_different_qualities): {better|yes|no}
-  [lookup](/lookup): {imdb|no}
+  [type]: {dirs|files}
+  [allow_different_qualities]: {better|yes|no}
+  [lookup]: {imdb|no}
 ```
 
 
