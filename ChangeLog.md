@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---97d32f4900173a57365559836688ea3ee29857cf--->
+<!---f83791d675a21227a37c6f5f3ba0587b6805b146--->
 
 ## 2.3.35.dev (unreleased)
 ### Fixed
+- thetvdb_lookup: workaround for the language error that sometimes happens, fixes [#1424](https://github.com/Flexget/Flexget/issues/1424)
 - file size parsing now supports decimal separators, fixes [#1423](https://github.com/Flexget/Flexget/issues/1423)
 
 <!---80f382f897feb69789b020fe3819ef9ca574b29b--->
