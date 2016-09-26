@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f94d861e95c276412cadf8a08d8cd0d432d9ee17--->
+<!---97d32f4900173a57365559836688ea3ee29857cf--->
+
+## 2.3.35.dev (unreleased)
+### Fixed
+- file size parsing now supports decimal separators, fixes [#1423](https://github.com/Flexget/Flexget/issues/1423)
 
 <!---80f382f897feb69789b020fe3819ef9ca574b29b--->
 
