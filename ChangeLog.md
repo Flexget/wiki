@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9e1d60df21c4052febbce08086e7907b92037840--->
+<!---f94d861e95c276412cadf8a08d8cd0d432d9ee17--->
 
-## 2.3.34.dev (unreleased)
+<!---80f382f897feb69789b020fe3819ef9ca574b29b--->
+
+## 2.3.34 (2016-09-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.33...2.3.34)
 ### Changed
 - configure_series - Made `from` into a required schema property
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - proper_movies, exists_movie: now uses movie year when searching, fixes [#1351](https://github.com/Flexget/Flexget/issues/1351)
 - imdb_lookup: imdb_languages field is now populated correctly
 
-<!---ac14f9c4aae8fbdde76bd3f94071dc073cd3eb67--->
 
 ## 2.3.33 (2016-09-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.32...2.3.33)
