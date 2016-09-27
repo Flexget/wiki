@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1a3acabef12b8119e7c94e3510ffb3a2e194d2a5--->
+<!---280a5c2e31f721cb74b0c4dcacb461ab6e75467c--->
+
+## 2.3.36.dev (unreleased)
+### Fixed
+- api_trakt: no longer crashes when a lookup returns no genres
 
 <!---583e2d2e72ecc86d8005f67a78ef7c8cdb2d0717--->
 
