@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---712b38bace8ec4c770d8986d93432bca68bb19d2--->
+<!---1a3acabef12b8119e7c94e3510ffb3a2e194d2a5--->
 
-## 2.3.35.dev (unreleased)
+<!---583e2d2e72ecc86d8005f67a78ef7c8cdb2d0717--->
+
+## 2.3.35 (2016-09-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.34...2.3.35)
 ### Fixed
 - bumped the required python-dateutil version since 2.5.2 contains a bug in the date parser, fixes [#1393](https://github.com/Flexget/Flexget/issues/1393)
 - thetvdb_lookup: workaround for the language error that sometimes happens, fixes [#1424](https://github.com/Flexget/Flexget/issues/1424)
 - file size parsing now supports decimal separators, fixes [#1423](https://github.com/Flexget/Flexget/issues/1423)
 
-<!---80f382f897feb69789b020fe3819ef9ca574b29b--->
 
 ## 2.3.34 (2016-09-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.33...2.3.34)
