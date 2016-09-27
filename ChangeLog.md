@@ -1,13 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8a4de8cef2ebb89171ed36144c4cef3e242f56c7--->
+<!---13c850ad7ea4fc672673dda959d4c2cdf9649c2c--->
 
 ## 2.3.36.dev (unreleased)
 ### Fixed
 - manager - Revert changes that allow daemon to reload config as it was causing issues. Fixes [#1422](https://github.com/Flexget/Flexget/issues/1422) . Related to [#1299](https://github.com/Flexget/Flexget/issues/1299) ,[#1300](https://github.com/Flexget/Flexget/issues/1300)
 - rtorrent: magnet uris are now passed properly as bytes, fixes [#1328](https://github.com/Flexget/Flexget/issues/1328)
 - api_trakt: no longer crashes when a lookup returns no genres
+
+### Changed
+- WebUI - Deleting Seen Entry now requires confirmation
 
 <!---583e2d2e72ecc86d8005f67a78ef7c8cdb2d0717--->
 
