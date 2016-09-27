@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---13c850ad7ea4fc672673dda959d4c2cdf9649c2c--->
+<!---406b5e9d1407870317515f09acc70580cad7961b--->
 
 ## 2.3.36.dev (unreleased)
 ### Fixed
+- rarbg: No longer converts search strings to bytes, fixes [#1251](https://github.com/Flexget/Flexget/issues/1251)
 - manager - Revert changes that allow daemon to reload config as it was causing issues. Fixes [#1422](https://github.com/Flexget/Flexget/issues/1422) . Related to [#1299](https://github.com/Flexget/Flexget/issues/1299) ,[#1300](https://github.com/Flexget/Flexget/issues/1300)
 - rtorrent: magnet uris are now passed properly as bytes, fixes [#1328](https://github.com/Flexget/Flexget/issues/1328)
 - api_trakt: no longer crashes when a lookup returns no genres
