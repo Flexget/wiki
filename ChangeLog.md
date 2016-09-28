@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---406b5e9d1407870317515f09acc70580cad7961b--->
+<!---38864390c0ddaa159cb275df78cfa82a66476848--->
 
-## 2.3.36.dev (unreleased)
+<!---f9d2835a1562955b508dcf67d5dea5b266159b1d--->
+
+## 2.3.36 (2016-09-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.35...2.3.36)
 ### Fixed
 - rarbg: No longer converts search strings to bytes, fixes [#1251](https://github.com/Flexget/Flexget/issues/1251)
 - manager - Revert changes that allow daemon to reload config as it was causing issues. Fixes [#1422](https://github.com/Flexget/Flexget/issues/1422) . Related to [#1299](https://github.com/Flexget/Flexget/issues/1299) ,[#1300](https://github.com/Flexget/Flexget/issues/1300)
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - WebUI - Deleting Seen Entry now requires confirmation
 
-<!---583e2d2e72ecc86d8005f67a78ef7c8cdb2d0717--->
 
 ## 2.3.35 (2016-09-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.34...2.3.35)
