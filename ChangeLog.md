@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---38864390c0ddaa159cb275df78cfa82a66476848--->
+<!---e975f7c2febd4b536213d7aecd9ff655230fcc3d--->
+
+## 2.3.37.dev (unreleased)
+### Fixed
+- next_sonarr_episodes - Forgot to format string correctly. Closes [#1425](https://github.com/Flexget/Flexget/issues/1425)
 
 <!---f9d2835a1562955b508dcf67d5dea5b266159b1d--->
 
