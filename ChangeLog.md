@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e975f7c2febd4b536213d7aecd9ff655230fcc3d--->
+<!---1a8c3f8f8951ac309133d6638106f6f1acb544f3--->
 
-## 2.3.37.dev (unreleased)
+<!---b912e74d6adec209bc9d2956799da6ab1b3c029c--->
+
+## 2.3.37 (2016-09-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.36...2.3.37)
 ### Fixed
 - next_sonarr_episodes - Forgot to format string correctly. Closes [#1425](https://github.com/Flexget/Flexget/issues/1425)
 
-<!---f9d2835a1562955b508dcf67d5dea5b266159b1d--->
 
 ## 2.3.36 (2016-09-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.35...2.3.36)
