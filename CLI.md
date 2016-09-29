@@ -28,6 +28,7 @@ Clicking on the commands will take you to the detail page of the command.
 | [`irc`](/CLI/irc) | View and manage irc connections |
 | [`movie-list`](/CLI/movie-list) | View and manage movie lists |
 | [`plugins`](/CLI/plugins) | Print registered plugin summaries |
+| [`regexp-list`](/CLI/regexp-list) | View and manage regexp lists |
 | [`rejected`](/CLI/rejected) | List or clear remembered rejections |
 | [`seen`](/CLI/seen) | View or forget entries remembered by the seen plugin |
 | [`series`](/CLI/series) | View and manipulate the series plugin database | [`status`](/CLI/status) | View task health status |
