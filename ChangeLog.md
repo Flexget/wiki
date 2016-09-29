@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1a8c3f8f8951ac309133d6638106f6f1acb544f3--->
+<!---b7d1b35e5610576a20d06e56b3556586ad1309e8--->
+
+## 2.3.38.dev (unreleased)
+### Changed
+- regexp-list cli: default list is now "regexps" if no list is specified
 
 <!---b912e74d6adec209bc9d2956799da6ab1b3c029c--->
 
