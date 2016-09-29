@@ -42,3 +42,5 @@ populate_regexp_list:
       single_match: no
     download: /some/download/path
 ```
+### CLI
+You can also [interact with regexp_list](/CLI/regexp-list) via command line.
