@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b7d1b35e5610576a20d06e56b3556586ad1309e8--->
+<!---277cb6a56d0c65808427ada376431f116808f5e4--->
 
 ## 2.3.38.dev (unreleased)
 ### Changed
+- bluray: no longer looks for release dates if movie_year is greater than current year
 - regexp-list cli: default list is now "regexps" if no list is specified
+
+### Fixed
+- alpharatio: updated to new layout, fixes [#1420](https://github.com/Flexget/Flexget/issues/1420)
 
 <!---b912e74d6adec209bc9d2956799da6ab1b3c029c--->
 
