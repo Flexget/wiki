@@ -23,10 +23,10 @@ View and manage regexp lists
 
 ### Examples
 ```bash
-#lists all existing movie lists
-flexget movie-list all
+#lists all existing regexp lists
+flexget regexp-list all
 ```
 
 ### Related articles
 * [CUI / Command line interface overview](/CLI)
-* [movie_list Plugin](/Plugins/List/movie_list)
+* [regexp_list Plugin](/Plugins/List/regexp_list)
