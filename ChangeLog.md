@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---277cb6a56d0c65808427ada376431f116808f5e4--->
+<!---bec338c3ebd2d536c4beaaa735755ba8277ee34d--->
 
-## 2.3.38.dev (unreleased)
+<!---3a5c266167a32fc0c3d69172aabdbcf487b4d097--->
+
+## 2.3.38 (2016-09-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.37...2.3.38)
 ### Changed
 - bluray: no longer looks for release dates if movie_year is greater than current year
 - regexp-list cli: default list is now "regexps" if no list is specified
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - alpharatio: updated to new layout, fixes [#1420](https://github.com/Flexget/Flexget/issues/1420)
 
-<!---b912e74d6adec209bc9d2956799da6ab1b3c029c--->
 
 ## 2.3.37 (2016-09-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.36...2.3.37)
