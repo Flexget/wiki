@@ -40,3 +40,6 @@ flexget_archive: [tag, tag]
 ```
 
 This works with [discover](/Plugins/discover) and also with urlrewriting but has less use in there.
+
+## See also
+- [`flexget_archive` as search plugin for `discover`](/Searches/flexget_archive)
