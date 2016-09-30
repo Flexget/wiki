@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bec338c3ebd2d536c4beaaa735755ba8277ee34d--->
+<!---5dbe0eeeccc966a523e4e68aa58a1e16c791f5a5--->
+
+## 2.3.39.dev (unreleased)
+### Fixed
+- No longer crashes when checking for config modification on reruns
 
 <!---3a5c266167a32fc0c3d69172aabdbcf487b4d097--->
 
