@@ -2,7 +2,7 @@
 Intelligent filter for TV-series.
 
 ## Features
- * Episode history aware, no duplicate downloads
+ * Episode history aware, no duplicate downloads - refer to [seen](/Plugins/seen) plugin page for more information
  * Plenty of [quality](/Plugins/series/quality) options
  * [Timeframe](/Plugins/series/timeframe), get best quality in given timeframe
  * Episode [tracking](/Plugins/series/tracking) (for season, episode).
