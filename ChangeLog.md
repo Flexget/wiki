@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2d1bedb153e37ff9baa6f6f3c1b7193fb9c33f4b--->
+<!---fac5c8c6df2831f0af4558bf2e885989451f30c8--->
 
-## 2.3.39.dev (unreleased)
+<!---28020af7e97c3d53a612f9d91886b4f73241fc99--->
+
+## 2.3.39 (2016-09-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.38...2.3.39)
 ### Fixed
 - WebUI - Fixed UI constantly called /server/version endpoint when navigating
 - No longer crashes when checking for config modification on reruns
 
-<!---3a5c266167a32fc0c3d69172aabdbcf487b4d097--->
 
 ## 2.3.38 (2016-09-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.37...2.3.38)
