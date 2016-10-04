@@ -18,7 +18,7 @@ If something should go wrong, you can run the command again and update your auth
 ### refresh
 Takes one argument `account`; the name you chose when authorizing Flexget to access your Trakt.tv account. Issuing `flexget trakt refresh <account>` will manually refresh the current `access_token` -- this command is not necessary as Flexget should automatically request a new `access_token` once it expires.
 
-### show
+### list
 Takes an optional argument `account`, which shows the expiration date for the current `access_token`. If `account` is not specified, it lists all saved accounts along with their `access_token` creation dates and expiration dates.
 
 ### delete
