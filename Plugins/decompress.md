@@ -52,8 +52,8 @@ move-series-rar:
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
 |  to  |  Text  |  Destination path; supports Jinja2 templating on the input entry. Fields such as series_name must be populated prior to input into this plugin using metainfo_series or similar. If no path is specified, archive contents will  be extraced in the same directory as the archve itself.  |
-|  keep_dirs  |  [Yes|No](/Yes|No) (default: yes)  |  Indicates whether to preserve the directory  structure from within the archive in the destination path.  |
+|  keep_dirs  |  **Yes**\No |    Indicates whether to preserve the directory  structure from within the archive in the destination path.  |
 |  mask  |  Text  |  Shell-style file mask; any matching files will be extracted. When used, this field will override regexp.  |
 |  regexp  |  Text  |  Regular expression pattern; any matching files will be extracted. Overridden by mask if specified.  |
 |  unrar_tool  |  Text  |  Specifies the path of the unrar tool. Only necessary if its location is not defined in the operating system's PATH environment variable.  |
-|| delete_archive || [Yes|No](/Yes|No) (default: no) || Delete this archive after extraction is completed. ||
+| delete_archive |Yes\\**No**|  Delete this archive after extraction is completed. ||
