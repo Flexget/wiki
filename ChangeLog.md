@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7fb33ccfcf99ddf39ef4c54837466c4f92b2a861--->
+<!---1b2b588d82b9abcb1ff7d3900ffefba27d26f5a8--->
 
-## 2.3.41.dev (unreleased)
+<!---7e37597231a99d9edc82b07afa84bcc91afa2189--->
+
+## 2.3.41 (2016-10-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.40...2.3.41)
 ### Fixed
 - tvmaze: bad episode data no longer causes a crash due to MultipleResultsFound, fixes [#1433](https://github.com/Flexget/Flexget/issues/1433)
 
-<!---1628345b9a27d0f544a0ce59c8386ac5a77a5c8c--->
 
 ## 2.3.40 (2016-10-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.39...2.3.40)
