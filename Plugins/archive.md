@@ -17,14 +17,14 @@ archive: [torrent, tv]
 Search (via commandline):
 
 ```
-archive search [@TAG](/@TAG) [@TAG](/@TAG) KEYWORD
+archive search [@TAG] [@TAG] KEYWORD
 ```
 Note: if keyword has spaces it must be quoted.
 
 Retrieve and inject into task (via commandline):
 
 ```
-archive inject ID [FORCE](/FORCE)
+archive inject ID [FORCE]
 ```
 For more examples and complete commandline/CLI usage see the [CLI archive](/CLI/archive) article.
 
