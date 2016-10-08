@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1b2b588d82b9abcb1ff7d3900ffefba27d26f5a8--->
+<!---0f2753fc845a1ab83dc940c1053c67c23b02029d--->
+
+## 2.3.42.dev (unreleased)
+### Fixed
+- irc daemon: no longer crashes when trying to url quote unicode
 
 <!---7e37597231a99d9edc82b07afa84bcc91afa2189--->
 
