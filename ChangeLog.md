@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0f2753fc845a1ab83dc940c1053c67c23b02029d--->
+<!---b2ea290493e7c2f10228180f45e16a5336b091ce--->
 
-## 2.3.42.dev (unreleased)
+<!---4a3bf7859563e9ffad133430571e7e592ba6f2b9--->
+
+## 2.3.42 (2016-10-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.41...2.3.42)
 ### Fixed
 - irc daemon: no longer crashes when trying to url quote unicode
 
-<!---7e37597231a99d9edc82b07afa84bcc91afa2189--->
 
 ## 2.3.41 (2016-10-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.40...2.3.41)
