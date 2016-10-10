@@ -10,8 +10,8 @@ The first step is to install `opkg`, the best package manager around for embedde
 You'll need to install Python and pip:
 
 ```
-$ opkg install python
-$ opkg install python-pip
+$ opkg install python3
+$ opkg install python3-pip
 ```
 
 ## Transmission
