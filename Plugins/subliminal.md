@@ -13,6 +13,7 @@ This plugin requires the <a href="http://subliminal.readthedocs.io/">subliminal<
 pip install subliminal>=2.0
 ```
 </div>
+
 ### Example (complete task)
 
 ```
