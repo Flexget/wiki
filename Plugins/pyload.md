@@ -1,5 +1,5 @@
 # pyLoad
-Output plugin for [pyLoad](http://pyload.org) download manager.
+Output plugin for [pyLoad](http://pyload.net/) download manager.
 
 
 ----
@@ -13,7 +13,7 @@ Output plugin for [pyLoad](http://pyload.org) download manager.
 
 ----
 ## Prerequisites
-Make sure [pyLoad](http://pyload.org) is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible, so FlexGet can use the API.
+Make sure [pyLoad](http://pyload.net) is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible, so FlexGet can use the API.
 
 
 
@@ -70,7 +70,7 @@ This is not yet possible for the definition of the **folder** parameter, which c
 The **queue** parameter specifies whether new packages should be queued immediately or added to the collection instead.
 
 ### Hosters and URL Parsing
-By default this plugin will accept all hoster, if you want to filter prefered ones lookup the names at pyloads [plugin overview](http://pyload.org/hoster) first.
+By default this plugin will accept all hoster, if you want to filter prefered ones lookup the names at pyloads [plugin overview](https://github.com/pyload/pyload/wiki/Supported-Hoster) first.
 Then simply create a list like this:
 ```
 hoster:
