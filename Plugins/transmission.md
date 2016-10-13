@@ -1,6 +1,9 @@
 # Transmission
 Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission.
 
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
 This plugin requires the transmissionrpc library. To install it, run:
 
 ```
@@ -11,6 +14,7 @@ pip install  transmissionrpc
 
 You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 Newer versions of flexget now depend on transmissionrpc 0.11 or higher.
+</div>
 
 **Example:**
 
