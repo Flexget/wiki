@@ -1,4 +1,14 @@
 ## IRC
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+This plugin requires the irc_bot Python module. To install the Python module run: <br/><br/>
+
+```
+$ pip install irc_bot
+```
+</div>
+
 This plugin will allow you to connect a bot to an IRC channel. It listens for release announcements, parses them and sends them to the FlexGet daemon, which executes a task of your choosing with the input from IRC.
 
 The benefit to this plugin over regular search plugins that utilize API/scraping is that any new downloads will be picked up as soon as they are available.
@@ -6,9 +16,9 @@ The benefit to this plugin over regular search plugins that utilize API/scraping
 You can alwas get the current status of the IRC plugin via the [commandline](/CLI/irc) as well as restart and stop it.
 
 ### Prerequisites
-* **Install irc_bot with `pip install irc_bot`**
+* **Install irc_bot**
 * Run Flexget in daemon-mode. (ex: *flexget daemon start --daemonize*). This means you may want to migrate your cron-jobs to use the scheduler plugin instead.
-* Have an autodl-tracker file relevant to your intended tracker. Either the name (case sensitive) or downloaded from [here](https://github.com/autodl-community/autodl-trackers).
+* Have an autodl-tracker file relevant to your intended tracker. Either the name (case insensitive) or downloaded from [here](https://github.com/autodl-community/autodl-trackers).
 * rsskey or other needed credentials located in the tracker file and in the guide sections in your tracker website. (hint: look for autodl guides)
 
 ### Tips
@@ -43,7 +53,7 @@ templates:
 | **nickname** |  *(required)* Specify your nickname. Make sure it's allowed.  | myusername-bot  |
 | **server** |  Explicitly specify server address  |  irc.someplace.net  |
 | **port** |  (required) Explicitly specify port number (integer)  |  6667 *(default)*  |
-| **channels** |  Explicitly specify announce channel(s). **Joining channels that are not announce-channels can get you banned.**  | ![#announce_channel](/#announce_channel)  |
+| **channels** |  Explicitly specify announce channel(s). **Joining channels that are not announce-channels can get you banned.**  | ['#announce_channel']  |
 | **nickserv_password** |  Password for authenticating your nickname to nickserv  |   |
 | **invite_nickname** |  Some trackers require this for authentication  |   |
 | **invite_message** |  Some trackers require this for authentication  |   |
