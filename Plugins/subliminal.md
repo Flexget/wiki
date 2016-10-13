@@ -1,15 +1,18 @@
 # Subliminal
 
-Download subtitles for entries referred to existing video files.
+Download subtitles for entries referred to existing video files. 
 
 ### Installation
-
-This plugin requires the [subliminal](http://subliminal.readthedocs.io/) PHP library, version 2.0 or newer. To install it, run the following command:
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+This plugin requires the <a href"http://subliminal.readthedocs.io/">subliminal</a> PHP library, version 2.0 or newer. To install it, run the following command:
+<br/><br/>
 
 ```cmd
 pip install subliminal>=2.0
 ```
-
+</div>
 ### Example (complete task)
 
 ```
