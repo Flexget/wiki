@@ -3,7 +3,17 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 
 ## Preparations
-* Install 'python-telegram-bot' python pkg (i.e. `pip install python-telegram-bot`)
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+Install 'python-telegram-bot' python pkg
+<br/><br/>
+
+```
+pip install python-telegram-bot
+```
+</div>
+
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#botfather).
 * For direct messages (not to a group), start a conversation with the bot and click "START" in the Telegram app.
 * For group messages, add the bot to the desired group and send a start message to the bot: "/start" (mind the
