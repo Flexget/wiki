@@ -13,9 +13,11 @@ Output plugin for [pyLoad](http://pyload.net/) download manager.
 
 ----
 ## Prerequisites
-Make sure [pyLoad](http://pyload.net) is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible, so FlexGet can use the API.
-
-
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+Make sure <a href="http://pyload.net">pyLoad</a> is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible, so FlexGet can use the API.
+</div>
 
 ----
 ## Configuration
