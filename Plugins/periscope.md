@@ -7,7 +7,7 @@ This plugin requires the periscope library. To install it, run:
 <br/><br/>
 
 ```
-easy_install periscope
+pip install periscope
 ```
 </div>
 **Example (complete task):**
