@@ -6,7 +6,7 @@ Download subtitles for entries referred to existing video files.
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon glyphicon-download-alt"></span>
   &nbsp;
-This plugin requires the <a href"http://subliminal.readthedocs.io/">subliminal</a> PHP library, version 2.0 or newer. To install it, run the following command:
+This plugin requires the <a href="http://subliminal.readthedocs.io/">subliminal</a> PHP library, version 2.0 or newer. To install it, run the following command:
 <br/><br/>
 
 ```cmd
