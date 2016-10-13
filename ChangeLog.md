@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9cf10c44c914460b8386e62fd69bd6bda262458c--->
+<!---ad49835271447f10e02681bc65287d96aaf9ca96--->
+
+## 2.3.44.dev (unreleased)
+### Fixed
+- pushbullet: properly format the api key in Python 3.4, fixes [#1445](https://github.com/Flexget/Flexget/issues/1445)
+- internal series parser: 1001 will be parsed as S10E01 if identified_by: ep is enabled
 
 <!---d192ad0303901c4fd54f35c907ca38aff866c661--->
 
