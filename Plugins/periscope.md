@@ -1,12 +1,15 @@
 # Periscope
 Download subtitles for entries referred to existing video files.
-
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
 This plugin requires the periscope library. To install it, run:
+<br/><br/>
 
 ```
 easy_install periscope
 ```
-
+</div>
 **Example (complete task):**
 
 ```
