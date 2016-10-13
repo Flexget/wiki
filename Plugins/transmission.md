@@ -112,7 +112,7 @@ transmission:
 **NOTE:** with **addpaused** the plugin will pause the torrent after a 5 secs wait, to allow metadata download and content renaming on magnet URIs.
 
 ### Transmission Tips
-After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [clean_transmission](/clean_transmission) plugin
+After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [clean_transmission](/Plugins/clean_transmission) plugin
 
 ### Content Renaming
 The transmission plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in transmission. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
