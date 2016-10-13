@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ad49835271447f10e02681bc65287d96aaf9ca96--->
+<!---8b608f81dc4cb4969344ff751b1a0ef6f977d046--->
 
 ## 2.3.44.dev (unreleased)
 ### Fixed
+- --debug-db: now supports SQLAlchemy 1.1.1+, fixes [#1439](https://github.com/Flexget/Flexget/issues/1439)
 - pushbullet: properly format the api key in Python 3.4, fixes [#1445](https://github.com/Flexget/Flexget/issues/1445)
 - internal series parser: 1001 will be parsed as S10E01 if identified_by: ep is enabled
 
