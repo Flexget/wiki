@@ -9,7 +9,7 @@ This plugin requires the transmissionrpc library. To install it, run:
 ```
 easy_install transmissionrpc
 or
-pip install  transmissionrpc
+pip install transmissionrpc
 ```
 
 You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
