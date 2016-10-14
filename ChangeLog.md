@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b9dbe9f6ae1c854df721c459b196384d1ea354cf--->
+<!---a8b98c73d4a86952551bb4062b043c56ccf99709--->
 
-## 2.3.44.dev (unreleased)
+<!---a23182d254abf2421fc0576866848fa3595c9638--->
+
+## 2.3.44 (2016-10-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.43...2.3.44)
 ### Fixed
 - piratebay: support size unit of "B"
 - --debug-db: now supports SQLAlchemy 1.1.1+, fixes [#1439](https://github.com/Flexget/Flexget/issues/1439)
 - pushbullet: properly format the api key in Python 3.4, fixes [#1445](https://github.com/Flexget/Flexget/issues/1445)
 - internal series parser: 1001 will be parsed as S10E01 if identified_by: ep is enabled
 
-<!---d192ad0303901c4fd54f35c907ca38aff866c661--->
 
 ## 2.3.43 (2016-10-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.42...2.3.43)
