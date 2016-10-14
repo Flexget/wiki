@@ -11,7 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - piratebay: support size unit of "B"
 - --debug-db: now supports SQLAlchemy 1.1.1+, fixes [#1439](https://github.com/Flexget/Flexget/issues/1439)
 - pushbullet: properly format the api key in Python 3.4, fixes [#1445](https://github.com/Flexget/Flexget/issues/1445)
-- internal series parser: 1001 will be parsed as S10E01 if identified_by: ep is enabled
+- internal series parser: SSEE format changes, eg. 1001 will be parsed as S10E01 if identified_by: ep is enabled
 
 
 ## 2.3.43 (2016-10-11)
