@@ -1,5 +1,5 @@
 # Transfer torrents from deluge to transmission
-```
+```yml
 tasks:
   migrate_deluge:
     manual: yes # do not run this task automatically - only with flexget execute --tasks migrate_deluge
