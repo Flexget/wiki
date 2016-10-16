@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a8b98c73d4a86952551bb4062b043c56ccf99709--->
+<!---6d5d08e34ccf95b706da0dd83fdd8c5ee13056eb--->
+
+## 2.3.45.dev (unreleased)
+### Changed
+- irc daemon: handle simultaneous announcements
 
 <!---a23182d254abf2421fc0576866848fa3595c9638--->
 
