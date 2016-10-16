@@ -1,7 +1,7 @@
 # Transfer torrents in transmission to deluge
 `Note:` This has not been tested, if somebody tests it, please report results and fix the recipe with needed updates.
 
-{{{
+```yaml
 tasks:
   migrate_transmission:
     manual: yes  # This means the task only runs when you do `flexget --task migrate_transmission`
@@ -11,3 +11,4 @@ tasks:
     seen: local
     accept_all: yes
     deluge: yes  # You may need your deluge daemon connection info here
+```
