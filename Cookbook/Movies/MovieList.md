@@ -1,5 +1,5 @@
-# Fill movie_list from trakt.tv or IMDb watchlist
-This task will add movies from [trakt.tv](http://trakt.tv) watchlist to your [movie_list](/Plugins/List/movie_list). This is not intended to download anything, just fill the FlexGet movie list from there. You will have to have another task to do the actual downloading with the [list_match](/Plugins/List/list_match) to accept entries. You can remove [trakt_list](/Plugins/List/trakt_list) plugin from this recipe if you do not want to use that particular site and use another eg. [imdb_list](/Plugins/List/imdb_list).
+# Fill movie_list from 3rd party input
+This task will add movies from [trakt.tv](http://trakt.tv) watchlist to your [movie_list](/Plugins/List/movie_list). This is not intended to download anything, just fill the FlexGet movie list from there. You will have to have another task to do the actual downloading with the [list_match](/Plugins/List/list_match) to accept entries. You can remove [trakt_list](/Plugins/List/trakt_list) plugin from this recipe if you do not want to use that particular site and use another eg. [imdb_list](/Plugins/List/imdb_list), [couchpotato_list](/Plugins/List/couchpotato_list).
 
 ```
 tasks:
