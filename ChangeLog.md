@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6d5d08e34ccf95b706da0dd83fdd8c5ee13056eb--->
+<!---49a662265a3ff3250d880730211e6ea2bcfe14f0--->
 
-## 2.3.45.dev (unreleased)
+<!---e09bd7a961b2c4a6ea7d9e1746c02daac5b0aa32--->
+
+## 2.3.45 (2016-10-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.44...2.3.45)
 ### Changed
 - irc daemon: handle simultaneous announcements
 
-<!---a23182d254abf2421fc0576866848fa3595c9638--->
 
 ## 2.3.44 (2016-10-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.43...2.3.44)
