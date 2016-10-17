@@ -1,4 +1,4 @@
-# Dowload movies with discover
+# Dowload movies using movie_list and discover
 This recipe aims to allow adding of movies as simple as adding a movie to your trakt.tv watchlist.
 
 How to create a task that adds movies from 3rd party sources to your movie_list is explained in this [cookbook](/Cookbook/Movies/TraktList).
