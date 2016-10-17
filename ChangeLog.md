@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---49a662265a3ff3250d880730211e6ea2bcfe14f0--->
+<!---e84ce0ecdb21bb93927470013d48f65b44b59374--->
+
+## 2.3.46.dev (unreleased)
+### Fixed
+- download: no longer crashes on permission errors, related [#1448](https://github.com/Flexget/Flexget/issues/1448)
 
 <!---e09bd7a961b2c4a6ea7d9e1746c02daac5b0aa32--->
 
