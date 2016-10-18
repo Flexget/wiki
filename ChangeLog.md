@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---318b328ff6338edd0fd4b2261fba2f5bd7b676f6--->
+<!---ddfe9bf5ba4c8e42ccb578570f939a7367e440ef--->
 
 ## 2.3.47.dev (unreleased)
 ### Fixed
+- - movie list API - Changed logic to slice after sorting. Fixes [#1347](https://github.com/Flexget/Flexget/issues/1347)
 - csv: no longer crashes in Python 3
+
+### Changed
+- - API refactor
 
 <!---db8bcb9b6cd95e976e40e69c8607113e58f782f8--->
 
