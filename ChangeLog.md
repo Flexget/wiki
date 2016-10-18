@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4c187a11896aba3704b1c4a119fb4632959b4a13--->
+<!---318b328ff6338edd0fd4b2261fba2f5bd7b676f6--->
+
+## 2.3.47.dev (unreleased)
+### Fixed
+- csv: no longer crashes in Python 3
 
 <!---db8bcb9b6cd95e976e40e69c8607113e58f782f8--->
 
