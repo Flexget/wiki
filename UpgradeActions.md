@@ -7,6 +7,11 @@ This page contains information about configuration file format changes, as well 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
 ### **2.4.0** -- 2016.10.18
+* Minor changes
+
+  * `along` in `move`, `delete` and `copy` has been greatly simplified and includes similarly named files with specified extensions -- regex/glob no longer supported.
+  * daemon automatically reloads config before task execution if it detects any changes.
+  * tmdb_released has been changed to a Date instead of DateTime, [#1260](https://github.com/Flexget/Flexget/issues/1260)
 * Major API refactor. Enabling WebUi/API config changed:
   ```YAML
   web_server:
