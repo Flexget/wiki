@@ -24,20 +24,28 @@
 ## Enabling Web UI
 
 Add the following to your config.yml, ssl is optional but highly recommended if UI is exposed to internet.
-
+Usage can be one of the following:
+```yaml
+web_server: yes
 ```
+That will enable the API and Web-UI on 0.0.0.0 with the port 5050 by default. 
+You can also set a different port using:
+```yaml
+web_server: 8080
+```
+Full configuration options:
+```YAML
 web_server:
-  bind: 0.0.0.0
-  port: 3539
-  ssl_certificate: '/etc/ssl/private/myCert.pem'
-  ssl_private_key: '/etc/ssl/private/myKey.key'
-api: yes
-webui: yes
+  bind: 0.0.0.0 # IP V4
+  port: 3539 # Valid port number
+  ssl_certificate: '/etc/ssl/private/myCert.pem' # Path to certificate file
+  ssl_private_key: '/etc/ssl/private/myKey.key' # Path to private key file
+  web_ui: yes # Web-UI can optionally be disabeled, only API will run
 ```
 
 Set a password and start flexget in daemon mode to start the web server.
 
-```
+```text
 flexget web passwd <some_password>
 flexget daemon start --daemonize
 ```
