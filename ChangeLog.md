@@ -1,14 +1,19 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ddfe9bf5ba4c8e42ccb578570f939a7367e440ef--->
+<!---6bad2a0ca6d2ba4da1b489cd1be6564435534722--->
 
 ## 2.3.47.dev (unreleased)
 ### Fixed
+- [WebUI] Config editor regains focus after closing successful update dialog, fixes [#1451](https://github.com/Flexget/Flexget/issues/1451)
 - - movie list API - Changed logic to slice after sorting. Fixes [#1347](https://github.com/Flexget/Flexget/issues/1347)
 - csv: no longer crashes in Python 3
 
 ### Changed
+- Daemon will now auto-reload config file if it changes
+- daemon will now auto-reload config file if it changes
+- tmdb_released has been changed to a Date
+- move/copy/delete: 'along' has been simplified and will pick all sibling files that are similar in name with the specified extensions
 - - API refactor
 
 <!---db8bcb9b6cd95e976e40e69c8607113e58f782f8--->
