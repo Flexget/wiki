@@ -10,7 +10,7 @@ copy:
   [allow_dir]: allows or denies to operate on entries pointing to directories
   [unpack_safety]: enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry
   [along]: Copy additional files such as subtitles
-    [files]: file extensions
+    [extensions]: file extensions
     [subdirs]: sub directories to search in
 ```
 
@@ -32,7 +32,7 @@ tasks:
       to: "/filestorage2/{{series_name}}/"
       filename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
       along:
-        files:
+        extensions:
           - sub
           - srt
 ```
