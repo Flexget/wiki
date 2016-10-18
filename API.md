@@ -76,7 +76,9 @@ Some endpoints provide server side pagination. Those endpoints are:
 
 These endpoint implement [RFC5988](https://tools.ietf.org/html/rfc5988) via `Link` header, in a similar manner to [GitHub](https://developer.github.com/guides/traversing-with-pagination/) as such:
 ```text
-Link: <http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=1>; rel=\"prev\", <http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=3>; rel=\"next\", <http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=7>; rel=\"last\"
+Link: <http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=1>; rel="prev",
+<http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=3>; rel="next",
+<http://127.0.0.1:5050/api/movie_list/1/movies/?per_page=5&order=desc&sort_by=title&page=7>; rel="last"
 ```
 The following request paramateres are used for pagination requests:
 - `per_page`: Maximum number of results to be returned per response. Default is 50, limited to 100.
