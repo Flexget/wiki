@@ -12,7 +12,7 @@ move:
   [unpack_safety]: enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry
   [clean_source]: delete source directory if it has less MB left than given after move
   [along]: Move additional files such as subtitles
-    [files]: file extensions
+    [extensions]: file extensions
     [subdirs]: sub directories to search in
 ```
 
@@ -36,7 +36,7 @@ tasks:
       to: '/storage/{{series_name}}/'
       filename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
       along:
-        files:
+        extensions:
           - sub
           - srt
         subdirs:
