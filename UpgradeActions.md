@@ -6,6 +6,28 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.4.0** -- 2016.10.18
+* Major API refactor. Enabling WebUi/API config changed:
+  ```YAML
+  web_server:
+    bind: 0.0.0.0 # IP V4
+    port: 3539 # Valid port number
+    ssl_certificate: '/etc/ssl/private/myCert.pem' # Path to certificate file
+    ssl_private_key: '/etc/ssl/private/myKey.key' # Path to private key file
+    web_ui: yes # Web-UI can optionally be disabeled, only API will run
+  ```
+  Or:  
+  ```yaml
+  web_server: yes
+  ```
+  That will enable the API and Web-UI on 0.0.0.0 with the port 5050 by default. 
+  You can also set a different port using:
+  ```yaml
+  web_server: 8080
+  ```
+  API is now always enabled when running the web server, UI is optional (enabled by default).  
+  See [Web-UI](/http://flexget.com/Web-UI) and [API](http://flexget.com/API) pages for more detail.
+
 ### **2.3.0** -- 2016.08.17 
 
 * [Discover](/Plugins/discover) plugin's `release_estimations` option now defaults to `strict` instead of `loose`, meaning anything with no release date or one that lies in the future will not be included in the search.
@@ -13,7 +35,6 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 * Removed deprecated `movie_queue` and all related plugins. Use [movie_list](/Plugins/List/movie_list) instead.
 * Removed `imdb_required` plugin, switch to [imdb_lookup](/Plugins/imdb_lookup) and [require_field](/Plugins/require_field)
 * Changed practically all CLI plugins to output using a standartized table [dependency](https://github.com/Robpol86/terminaltables) for a more consistent (and pretty expeirence). Some of the content has been altered in the relevant plugins, and `--porcelain` works slightly different now. See relevant plugin Wiki for details.
-* [Aria2](/Plugins/aria2) is drastically simplified and many features are removed.
 * CLI command `flexget trakt show` has been renamed to `flexget trakt list`
 * Removed `subtitle_queue`plugin
 * Removed `rutracker`  plugin
