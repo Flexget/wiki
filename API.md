@@ -88,4 +88,6 @@ Some endpoints support sorting. The following parameters are then relevant:
 
 The `rel` relation can be `next`, `prev` or `last` for each of the links, stating their relation the the returned object. There is no `first` relation since that is always `page=1`.
 
+## Additional notes:
 
+- Some endpoint operation operate on you config file. Those that do will CHANGE IT LAYOUT AND STRCUTURE AND REMOVE ALL REMARKS. Do not operate via the API if those things are of value to you (the functionality will remain in tact).
