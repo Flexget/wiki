@@ -11,7 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - [Webui] Execute page now sorts the tasks by priority when streaming, preventing results from being added to another task
 
 ### Added
-- [Webui] History page now has sorting possibility
+- [Webui] History and series pages now have sorting possibility
 - corssmatch - Update Crossmatch with Exact (yes/no) search option
 - nfo_lookup plugin - Get metadata from nfo file to aid IMDB search
 
