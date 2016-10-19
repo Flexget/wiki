@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6bad2a0ca6d2ba4da1b489cd1be6564435534722--->
+<!---847714494ea62478f3a25cc418fd98f8fc2700dd--->
 
-## 2.3.47.dev (unreleased)
+<!---a98a05e880c79b11b395372e9d3c86699b38a867--->
+
+## 2.4.0 (2016-10-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.3.46...2.4.0)
 ### Fixed
 - [WebUI] Config editor regains focus after closing successful update dialog, fixes [#1451](https://github.com/Flexget/Flexget/issues/1451)
 - - movie list API - Changed logic to slice after sorting. Fixes [#1347](https://github.com/Flexget/Flexget/issues/1347)
@@ -16,7 +19,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - move/copy/delete: 'along' has been simplified and will pick all sibling files that are similar in name with the specified extensions
 - - API refactor
 
-<!---db8bcb9b6cd95e976e40e69c8607113e58f782f8--->
 
 ## 2.3.46 (2016-10-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.45...2.3.46)
