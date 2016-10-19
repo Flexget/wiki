@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---847714494ea62478f3a25cc418fd98f8fc2700dd--->
+<!---1102588f998f0925ec3cd0ad5692a3682378aa01--->
+
+## 2.4.1.dev (unreleased)
+### Changed
+- terminal - Force table type to be ASCII and remove all colors when not TTY. Related [#1223](https://github.com/Flexget/Flexget/issues/1223), Fixes [#1407](https://github.com/Flexget/Flexget/issues/1407)
 
 <!---a98a05e880c79b11b395372e9d3c86699b38a867--->
 
