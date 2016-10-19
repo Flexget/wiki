@@ -1,11 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1102588f998f0925ec3cd0ad5692a3682378aa01--->
+<!---42e9cb6c0aa94ddb27fccf804d94b20c36380444--->
 
 ## 2.4.1.dev (unreleased)
 ### Changed
 - terminal - Force table type to be ASCII and remove all colors when not TTY. Related [#1223](https://github.com/Flexget/Flexget/issues/1223), Fixes [#1407](https://github.com/Flexget/Flexget/issues/1407)
+
+### Fixed
+- [Webui] Execute page now sorts the tasks by priority when streaming, preventing results from being added to another task
+
+### Added
+- corssmatch - Update Crossmatch with Exact (yes/no) search option
+- nfo_lookup plugin - Get metadata from nfo file to aid IMDB search
 
 <!---a98a05e880c79b11b395372e9d3c86699b38a867--->
 
