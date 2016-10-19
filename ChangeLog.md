@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---42e9cb6c0aa94ddb27fccf804d94b20c36380444--->
+<!---147aceae2e967850eb3f518e839b0e6e122b607c--->
 
 ## 2.4.1.dev (unreleased)
 ### Changed
@@ -11,6 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - [Webui] Execute page now sorts the tasks by priority when streaming, preventing results from being added to another task
 
 ### Added
+- [Webui] History page now has sorting possibility
 - corssmatch - Update Crossmatch with Exact (yes/no) search option
 - nfo_lookup plugin - Get metadata from nfo file to aid IMDB search
 
