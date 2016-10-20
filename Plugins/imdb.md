@@ -57,6 +57,14 @@ Note: All parameters are optional. Some are mutually exclusive.
         # reject movies by these directors
         reject_directors:
             - nm0093051
+
+        # accept all movies by these writers
+        accept_writers:
+            - nm0000318
+
+        # reject movies by these writers
+        reject_writers:
+            - nm0093051
         
         # reject movies/TV shows with any of these ratings
         reject_mpaa_ratings:
