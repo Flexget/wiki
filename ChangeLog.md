@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a56adb12bf945ade84aa027e297892be0b2fbb40--->
+<!---32f069b6d7636dcb1c8a8631f1465d63dae1ed24--->
 
 ## 2.4.2.dev (unreleased)
 ### Fixed
 - terminal - Fixed colorization when piping. Closes [#1361](https://github.com/Flexget/Flexget/issues/1361)
+
+### Added
+- thetvdb_lookup - Added languages lookup support. Closes [#1453](https://github.com/Flexget/Flexget/issues/1453)
 
 <!---b19561b97cd13046b05bdfbe587ffa4184247e50--->
 
