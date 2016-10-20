@@ -1,14 +1,19 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---32f069b6d7636dcb1c8a8631f1465d63dae1ed24--->
+<!---f9957c66a4f7493a80d5b5b25263a4cb5775fd03--->
 
 ## 2.4.2.dev (unreleased)
 ### Fixed
 - terminal - Fixed colorization when piping. Closes [#1361](https://github.com/Flexget/Flexget/issues/1361)
 
 ### Added
+- API - TMDB lookup API
 - thetvdb_lookup - Added languages lookup support. Closes [#1453](https://github.com/Flexget/Flexget/issues/1453)
+
+### Changed
+- [WebUI]Schedules gracefully handles disabled scheduler
+- [WebUI] Series page gracefully handles failure to get metadata
 
 <!---b19561b97cd13046b05bdfbe587ffa4184247e50--->
 
