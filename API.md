@@ -55,13 +55,14 @@ curl -X POST --header "Content-Type: application/json" --header "Accept: applica
   \"username\": \"username\"
 }" "http://localhost:5050/api/auth/login/?remember=true"
 ```
+### API Versions
+The API version is returned via the `API-Version` header in all request.  
+At this time there is only 1 API version provided, but that is subject to change it the future
 
 ### ETags
-
 All of the API `GET` methods provide `etag` headers for cache control. 
 
 ### Pagination
-
 Some endpoints provide server side pagination. Those endpoints are:
 - `/series/`
 - `/series/<ID>/episodes/`
@@ -89,6 +90,10 @@ Some endpoints support sorting. The following parameters are then relevant:
 - `order`: Can be `desc` or `asc`. Default is `desc`.
 
 The `rel` relation can be `next`, `prev` or `last` for each of the links, stating their relation the the returned object. There is no `first` relation since that is always `page=1`.
+
+In addition, the response contains the following headers:
+- `Total-Count`: Total number of entities
+- `Count`: Actual number of entities returned in current page
 
 ## Additional notes:
 
