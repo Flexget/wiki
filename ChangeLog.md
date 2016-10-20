@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5b9521b7d5832b65d74245bb76a20e7cba71f16--->
+<!---a56adb12bf945ade84aa027e297892be0b2fbb40--->
+
+## 2.4.2.dev (unreleased)
+### Fixed
+- terminal - Fixed colorization when piping. Closes [#1361](https://github.com/Flexget/Flexget/issues/1361)
 
 <!---b19561b97cd13046b05bdfbe587ffa4184247e50--->
 
