@@ -48,6 +48,7 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | imdb_plot_outline | [imdb_lookup](/Plugins/imdb_lookup)* | Plot outline |
 | imdb_actors | [imdb_lookup](/Plugins/imdb_lookup)* | Actors dictionary (key: imdbid, value: name) |
 | imdb_directors | [imdb_lookup](/Plugins/imdb_lookup)* | Directors dictionary (imdbid, name) |
+| imdb_writers | [imdb_lookup](/Plugins/imdb_lookup)* | Writers dictionary (imdbid, name) |
 | movie_name | [imdb_lookup](/Plugins/imdb_lookup)* | Movie title |
 | movie_year | [imdb_lookup](/Plugins/imdb_lookup)* | Movie release year |
 | output | [download](/Plugins/download) | Downloaded file |
