@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---147aceae2e967850eb3f518e839b0e6e122b607c--->
+<!---d5b9521b7d5832b65d74245bb76a20e7cba71f16--->
 
-## 2.4.1.dev (unreleased)
+<!---b19561b97cd13046b05bdfbe587ffa4184247e50--->
+
+## 2.4.1 (2016-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.4.0...2.4.1)
 ### Changed
 - terminal - Force table type to be ASCII and remove all colors when not TTY. Related [#1223](https://github.com/Flexget/Flexget/issues/1223), Fixes [#1407](https://github.com/Flexget/Flexget/issues/1407)
 
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - corssmatch - Update Crossmatch with Exact (yes/no) search option
 - nfo_lookup plugin - Get metadata from nfo file to aid IMDB search
 
-<!---a98a05e880c79b11b395372e9d3c86699b38a867--->
 
 ## 2.4.0 (2016-10-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.3.46...2.4.0)
