@@ -7,7 +7,7 @@ This page contains information about configuration file format changes, as well 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
 ### **2.5.0** -- 2016.10.21
-Due to changes in the IPC protocol, you will not be able to connect to a running daemon using cli commands that is an earlier version than 2.5.0. Make sure you stop your daemon before upgrading to make sure you can elegantly shut it down.
+Due to changes in the IPC protocol, you will not be able to connect to a running daemon using cli commands that is an earlier version than 2.5.0. Remember to stop your daemon _before_ upgrading to ensure you can elegantly shut it down.
 
 ### **2.4.0** -- 2016.10.18
 * Minor changes
