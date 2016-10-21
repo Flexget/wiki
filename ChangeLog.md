@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---73bec46acc7d6940113c37720728dfc4ab51747f--->
+<!---2840b9d21bc5db7e0c79adc537acafe7454b07c9--->
+
+## 2.4.3.dev (unreleased)
+### Fixed
+- Fix CLI table and color behavior when a daemon is running. fix [#1457](https://github.com/Flexget/Flexget/issues/1457)
 
 <!---5fbf3542e866cf6af323d2a0ed3cdf4b6591732a--->
 
