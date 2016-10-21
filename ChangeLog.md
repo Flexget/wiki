@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f9957c66a4f7493a80d5b5b25263a4cb5775fd03--->
+<!---73bec46acc7d6940113c37720728dfc4ab51747f--->
 
-## 2.4.2.dev (unreleased)
+<!---5fbf3542e866cf6af323d2a0ed3cdf4b6591732a--->
+
+## 2.4.2 (2016-10-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.4.1...2.4.2)
 ### Fixed
 - terminal - Fixed colorization when piping. Closes [#1361](https://github.com/Flexget/Flexget/issues/1361)
 
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - [WebUI]Schedules gracefully handles disabled scheduler
 - [WebUI] Series page gracefully handles failure to get metadata
 
-<!---b19561b97cd13046b05bdfbe587ffa4184247e50--->
 
 ## 2.4.1 (2016-10-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.4.0...2.4.1)
