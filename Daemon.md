@@ -4,9 +4,9 @@ FlexGet can be run in daemon mode, which means it will always run in the backgro
 ## Usage
 To launch the FlexGet daemon, use the `start` command:
   
-^*Note: Using the optional `-d` switch will send the FlexGet daemon to the background.*^
-```
-flexget daemon start [-d]
+^*Note: Using the optional `-d` switch will send the FlexGet daemon to the background. Using `--config-autoreload` will force config reloads before task execution.*^
+```YAML
+flexget daemon start [-d, --config-autoreload]
 ```
 
 
@@ -21,6 +21,14 @@ flexget daemon status
 To have the daemon reload the config file from disk you can use the `reload` command:
 ```
 flexget daemon reload
+```
+To enable automatic config reload before task execution:
+```yaml
+flexget daemon enable-autoreload
+```
+To disable automatic config reload before task execution:
+```yaml
+flexget daemon disable-autoreload
 ```
 
 #### Mac OS X note regarding `-d`
