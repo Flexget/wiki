@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e2a6fb1aaa92429d8524b9737396c97de06b3380--->
+<!---0f9a42effdc2d077e19ef41d1b802dddf2e2c8ce--->
+
+## 2.5.1.dev (unreleased)
+### Changed
+- daemon: no longer automatically reloads config, can be enabled with `--config-autoreload` or new cli commands
+- simplified `irc status`
 
 <!---77c91642ee78e09f20a68307ceb42d1a21e2f056--->
 
