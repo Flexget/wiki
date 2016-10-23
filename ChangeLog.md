@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0f9a42effdc2d077e19ef41d1b802dddf2e2c8ce--->
+<!---d3e62ce74d6dbd7c2e3d3c9f6f3912c1684a69b6--->
 
-## 2.5.1.dev (unreleased)
+<!---c8ee9ed7cc0c4a1a88bbe853b9c465e53bfefcd2--->
+
+## 2.5.1 (2016-10-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.0...2.5.1)
 ### Changed
 - daemon: no longer automatically reloads config, can be enabled with `--config-autoreload` or new cli commands
 - simplified `irc status`
 
-<!---77c91642ee78e09f20a68307ceb42d1a21e2f056--->
 
 ## 2.5.0 (2016-10-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.4.2...2.5.0)
