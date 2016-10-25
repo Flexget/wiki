@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---67b6613c1b05b1f8767556651a3e0352c51ca9dc--->
+<!---3d4aa3b6172e46b16ff9664d90a55a53dab2def9--->
+
+## 2.5.3.dev (unreleased)
+### Added
+- Entry List - Entry list now merges all saved data on match
 
 <!---d1f85b1224d84b627b53d2e9b14ac9a51c98e33c--->
 
