@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fd3e715599a314c3a31e495dd6e0687d0ee5436d--->
+<!---da2c6cdf55a8f8dcc76fc69d39b6bb0af5553296--->
 
 ## 2.5.3.dev (unreleased)
 ### Added
 - Entry List - Entry list now merges all saved data on match
 
 ### Fixed
+- tmdb_lookup: no longer crashes when release date is empty, fixes [#1456](https://github.com/Flexget/Flexget/issues/1456)
 - seen CLI - Readded seen add method. Closes [#1463](https://github.com/Flexget/Flexget/issues/1463)
 
 <!---d1f85b1224d84b627b53d2e9b14ac9a51c98e33c--->
