@@ -54,6 +54,8 @@ Flexget UI will be available at http://flexget_ip:3539/ui/
 
 Full API documentation will be available at http://flexget_ip:3539/api/
 
+Visit the [API page](/wiki/API) for more information about it.
+
 
 ## Authentication
 The login username is `flexget` and the password is what you set above.
