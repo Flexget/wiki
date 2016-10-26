@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0e19c3ee7c66087ebfeb57011ce6035d54ce96ef--->
+<!---1dbc0a3162d0b3f442b38f4a864d4974952d1c98--->
+
+## 2.5.4.dev (unreleased)
+### Fixed
+- Trakt lookup expired movie, returns trakt_released field now as Date field, same as when returned from database
 
 <!---7a5db4142396b04e572e26e86e530f54446ab0eb--->
 
