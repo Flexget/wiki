@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e94269d20072e0184b9d26962c016f4ba8806453--->
+<!---4e37ff24b97ac621daec733d1efce1339168f19d--->
 
 ## 2.5.5.dev (unreleased)
 ### Fixed
 - series CLI - Made series show download index visible with porcelain mode
 
 ### Changed
+- [WebUI] Movies metadata is now fetched from TMDB instead of Trakt
 - seen cli - Made cli search parse IMDB ID like seen add. Closes [#1427](https://github.com/Flexget/Flexget/issues/1427)
 
 <!---6d604d6b017c255e4602fd6390b4c1a74e2c76c6--->
