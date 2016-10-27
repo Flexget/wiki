@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---354e8674d8cef14b2b935acacdeea8cc9e9220c9--->
+<!---546acf7b4e3d7c3f992f09a077edae754c1c2680--->
 
 ## 2.5.4.dev (unreleased)
 ### Fixed
+- web server - Updated import to match flask-login changes, updated requirement. Closed [#1467](https://github.com/Flexget/Flexget/issues/1467)
 - web_server: temporarily locked flask-login to 0.3.2, related [#1467](https://github.com/Flexget/Flexget/issues/1467)
 - Trakt lookup expired movie, returns trakt_released field now as Date field, same as when returned from database
 
