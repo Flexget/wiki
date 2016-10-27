@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---546acf7b4e3d7c3f992f09a077edae754c1c2680--->
+<!---4def53d2d57cd2e58507b9b5087a7eece50eb356--->
 
 ## 2.5.4.dev (unreleased)
 ### Fixed
+- npo_watchlist - Added request error catching. Closes [#1462](https://github.com/Flexget/Flexget/issues/1462)
+- api_tvdb - Improved logic for series that return with no title. Closed [#1466](https://github.com/Flexget/Flexget/issues/1466)
 - web server - Updated import to match flask-login changes, updated requirement. Closed [#1467](https://github.com/Flexget/Flexget/issues/1467)
 - web_server: temporarily locked flask-login to 0.3.2, related [#1467](https://github.com/Flexget/Flexget/issues/1467)
 - Trakt lookup expired movie, returns trakt_released field now as Date field, same as when returned from database
