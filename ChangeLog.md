@@ -1,9 +1,19 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4def53d2d57cd2e58507b9b5087a7eece50eb356--->
+<!---e94269d20072e0184b9d26962c016f4ba8806453--->
 
-## 2.5.4.dev (unreleased)
+## 2.5.5.dev (unreleased)
+### Fixed
+- series CLI - Made series show download index visible with porcelain mode
+
+### Changed
+- seen cli - Made cli search parse IMDB ID like seen add. Closes [#1427](https://github.com/Flexget/Flexget/issues/1427)
+
+<!---6d604d6b017c255e4602fd6390b4c1a74e2c76c6--->
+
+## 2.5.4 (2016-10-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.3...2.5.4)
 ### Fixed
 - npo_watchlist - Added request error catching. Closes [#1462](https://github.com/Flexget/Flexget/issues/1462)
 - api_tvdb - Improved logic for series that return with no title. Closed [#1466](https://github.com/Flexget/Flexget/issues/1466)
@@ -11,7 +21,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - web_server: temporarily locked flask-login to 0.3.2, related [#1467](https://github.com/Flexget/Flexget/issues/1467)
 - Trakt lookup expired movie, returns trakt_released field now as Date field, same as when returned from database
 
-<!---7a5db4142396b04e572e26e86e530f54446ab0eb--->
 
 ## 2.5.3 (2016-10-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.2...2.5.3)
