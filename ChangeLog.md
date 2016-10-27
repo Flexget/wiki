@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4e37ff24b97ac621daec733d1efce1339168f19d--->
+<!---cc3d1b7cdf925102466592cbf6a57693d8986d3b--->
 
 ## 2.5.5.dev (unreleased)
 ### Fixed
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - [WebUI] Movies metadata is now fetched from TMDB instead of Trakt
 - seen cli - Made cli search parse IMDB ID like seen add. Closes [#1427](https://github.com/Flexget/Flexget/issues/1427)
+
+### Added
+- [WebUI] Added database operations as a right side menu with different options
 
 <!---6d604d6b017c255e4602fd6390b4c1a74e2c76c6--->
 
