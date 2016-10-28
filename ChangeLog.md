@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c61698d7aba9f7e71d86a4d59b0a114b83dd031--->
+<!---162bb22aaab2af65e95d0e3cedec227c0af621df--->
+
+## 2.5.6.dev (unreleased)
+### Fixed
+- discover: fixed a logging error where a wrong number of arguments were given, fixes [#1471](https://github.com/Flexget/Flexget/issues/1471)
 
 <!---fb08de443ffed7e60739a36a09ea0f413f7303f7--->
 
