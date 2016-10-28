@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---276504d075613ad226b0cd699039dc915dac12d1--->
+<!---7c61698d7aba9f7e71d86a4d59b0a114b83dd031--->
 
-## 2.5.5.dev (unreleased)
+<!---fb08de443ffed7e60739a36a09ea0f413f7303f7--->
+
+## 2.5.5 (2016-10-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.4...2.5.5)
 ### Fixed
 - torrent_alive: returns 0 if html is received, fixes [#1434](https://github.com/Flexget/Flexget/issues/1434)
 - series CLI - Made series show download index visible with porcelain mode
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - [WebUI] Added database operations as a right side menu with different options
 
-<!---6d604d6b017c255e4602fd6390b4c1a74e2c76c6--->
 
 ## 2.5.4 (2016-10-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.3...2.5.4)
