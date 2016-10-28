@@ -178,7 +178,7 @@ Send accepted entries to 3rd party software, usually downloaders.
 | [deluge](/Plugins/deluge) | Pass torrents directly to deluge bittorrent client, supporting magnet links. |
 | [nzbget](/Plugins/nzbget) | Download nzbs with nzbget. |
 | [periscope](/Plugins/periscope) | Download subtitles with Periscope. |
-| [pyload](/Plugins/pyload) | http://pyload.org/. |
+| [pyload](/Plugins/pyload) | http://pyload.net/. |
 | [qbittorrent](/Plugins/qbittorrent) | Pass torrents directly to the qBittorrent client, supporting magnet links. |
 | [rtorrent](/Plugins/rtorrent) | Pass torrents directly to rtorrent |
 | [rtorrent_magnet](/Plugins/rtorrent_magnet) | Handles magnet URI's and produces rTorrent compatible torrent files (0.8.9+) |
