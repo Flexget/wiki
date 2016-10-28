@@ -72,55 +72,18 @@ flexget web showtoken
 flexget web gentoken
 ```
 
-## Working parts
-### Plugins
-<b>Log</b>
-- View real-time logs
-- Search in the logs (by task, item, keyword, ...)
-
-<b>Execute</b>
-- Start execution of tasks
-- View results (accepted and undecided)
-
-<b>Config</b>
-- Edit your config from an in browser editor
-- Auto config reload when saved
-
-<b>History</b>
-- View latest accepted history
-- Search by task
-
-<b>Series</b>
-- View all series in your database
-- Set beginning of the series
-- Manage series
-  - Delete show itself
-  - Delete episode
-  - Delete releases
-  - Forget downloaded releases (to redownload)
-
-<b>Movies</b>
-- Manage movie lists
-  - Delete lists
-  - Add lists
-- Manage movies per list
-  - Delete Movie
-  - Add movie to list
-
-<b>Schedule</b>
-- View configured schedule
-
-<b>Seen</b>
-- View latest seen entries
-- Delete seen entries
-
-### Misc
-- Database management
-  - Trigger cleanup
-  - Trigger Vacuum
-  - Reset database for plugin
-- Reload config
-- Shutdown Flexget
+## Working sections
+| **Plugin** | **Functionality** |
+| --- | --- |
+| Log | <ul><li>View real-time logs</li><li>Search in the logs (by task, item, keyword, ...)</li></ul> |
+| Execute | <ul><li>Start execution of tasks</li><li>View results (accepted and undecided)</li></ul> |
+| Config | <ul><li>Edit your config from an in browser editor</li><li>Auto config reload when saved</li></ul> |
+| History | <ul><li>View latest accepted history</li><li>Search by task</li></ul> |
+| Series | <ul><li>View all series in your database</li><li>Set beginning of the series</li><li>Manage series<ul><li>Delete show itself</li><li>Delete episode</li><li>Delete releases</li><li>Forget downloaded releases (to redownload)</li></ul></li></ul> |
+| Movies | <ul><li>Manage movie lists<ul><li>Delete lists</li><li>Add lists</li></ul></li><li>Manage movies per list<ul><li>Delete Movie</li><li>Add movie to list</li></ul></li></ul> |
+| Seen | <ul><li>View latest seen entries</li><li>Delete seen entries</li></ul> |
+| Schedule | <ul><li>View configured schedule</li></ul> |
+| Miscellaneous | <ul><li>Shutdown Flexget</li><li>Reload config</li><li>Database management<ul><li>Trigger cleanup</li><li>Trigger vacuum</li><li>Reset database for plugin</li></ul></li></ul> |
 
 ## Development
 We have a functional API with documentation available at the `/api` route of your web server. <br>
