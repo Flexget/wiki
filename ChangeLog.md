@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cc3d1b7cdf925102466592cbf6a57693d8986d3b--->
+<!---276504d075613ad226b0cd699039dc915dac12d1--->
 
 ## 2.5.5.dev (unreleased)
 ### Fixed
+- torrent_alive: returns 0 if html is received, fixes [#1434](https://github.com/Flexget/Flexget/issues/1434)
 - series CLI - Made series show download index visible with porcelain mode
 
 ### Changed
