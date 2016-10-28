@@ -72,10 +72,55 @@ flexget web showtoken
 flexget web gentoken
 ```
 
-**NOTES:**
-- You will lose the formatting/order of your config file if you edit it through the web-ui.
-- The UI communicates with Flexget via the API. Browse to http://flexget_ip:3539/api/ for the documentation
+## Working parts
+### Plugins
+<b>Log</b>
+- View real-time logs
+- Search in the logs (by task, item, keyword, ...)
 
+<b>Execute</b>
+- Start execution of tasks
+- View results (accepted and undecided)
+
+<b>Config</b>
+- Edit your config from an in browser editor
+- Auto config reload when saved
+
+<b>History</b>
+- View latest accepted history
+- Search by task
+
+<b>Series</b>
+- View all series in your database
+- Set beginning of the series
+- Manage series
+  - Delete show itself
+  - Delete episode
+  - Delete releases
+  - Forget downloaded releases (to redownload)
+
+<b>Movies</b>
+- Manage movie lists
+  - Delete lists
+  - Add lists
+- Manage movies per list
+  - Delete Movie
+  - Add movie to list
+
+<b>Schedule</b>
+- View configured schedule
+
+<b>Seen</b>
+- View latest seen entries
+- Delete seen entries
+
+### Misc
+- Database management
+  - Trigger cleanup
+  - Trigger Vacuum
+  - Reset database for plugin
+- Reload config
+- Shutdown Flexget
 
 ## Development
 We have a functional API with documentation available at the `/api` route of your web server. <br>
