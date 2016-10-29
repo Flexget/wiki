@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6850cfb00714a80f1f8882520e2a51597e8f63d2--->
+<!---71471e2fd99e36548eb3899e0ec502a4faf0a360--->
+
+## 2.5.7.dev (unreleased)
+### Fixed
+- pogcal_acquired: updated to new login url and fixed some soup, fixes [#1245](https://github.com/Flexget/Flexget/issues/1245)
+- pogcal: include url in entry
 
 <!---bf3bdcc76d5ded61d11a8c57aacf8842ceb18f77--->
 
