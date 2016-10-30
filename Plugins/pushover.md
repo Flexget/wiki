@@ -33,7 +33,7 @@ More advanced configuration provides the ability to:
  `device`: (string) device name as specified in the Pushover configuration  
  `title`: (string) Notification title   
  `message`: (string) Messages text  
- `priority`: (int) -1 = low, 0 = default, 1 = high, 2=Emergency
+ `priority`: (int) -1 = low, 0 = default, 1 = high, 2=Emergency  
  `url`: (string) URL Represenation text   
  `sound`:  (string) Should be one of [pushover's options](https://pushover.net/api#sounds).  
  `retry`: (int) Number of seconds between notifications retries. Relevant only if priority is set to 2.   
