@@ -18,38 +18,31 @@ pushover:
 ### Advanced
 More advanced configuration provides the ability to:
 
-* target a specific device (`device`)
-* override the notification message title (`title`)
-* override the notification message body (`message`)
-* override the notification priority (`priority`)
-* override the URL sent in the notification (`url`)
-* override the default sound (`sound`)
-* set number of times to retry notifications. Relevant only from Emergency priority notification. (`retry`)
-* set time until notification expires if not acknowledged. Relevant only if priority is set to 2.  (`expire`)
-* set a callback URL to receive acknowledgements. Relevant only if priority is set to 2. (`callback`)
-* use multiple userkeys with a list for (`userkey`)
+* Target a specific device (`device`)
+* Set the notification message title (`title`)
+* Set the notification message body (`message`)
+* Set the notification priority (`priority`)
+* Set the URL sent in the notification (`url`)
+* Set the default sound (`sound`)
+* Set number of times to retry notifications. Relevant only from Emergency priority notification. (`retry`)
+* Set time until notification expires if not acknowledged. Relevant only from Emergency priority notification.  (`expire`)
+* Set a callback URL to receive acknowledgements. Relevant only from Emergency priority notification. (`callback`)
+* Use multiple userkeys (`userkey`)
+* Style the notification using HTML tags. (`html`)
 
- device::
-  (string) device name as specified in the Pushover configuration
- title::
-  (string) accepts Jinja2 tags
- message::
-  (string) accepts Jinja2 tags
- priority::
-  (int) -1 = low, 0 = default, 1 = high, 2=Emergency - accepts Jinja2 tags
- url::
-  (string) accepts Jinja2 tags
- sound::
-   (string) Should be one of [pushover's options](https://pushover.net/api#sounds). Accepts Jinja2 tags 
- retry::
-   (int) Number of seconds between notifications retries. Relevant only if priority is set to 2. 
- expire::
-   (int) Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30.  
- callback::
-   (url) A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2. Maximum value is 86400
+ `device`: (string) device name as specified in the Pushover configuration  
+ `title`: (string) Notification title   
+ `message`: (string) Messages text  
+ `priority`: (int) -1 = low, 0 = default, 1 = high, 2=Emergency
+ `url`: (string) URL Represenation text   
+ `sound`:  (string) Should be one of [pushover's options](https://pushover.net/api#sounds).  
+ `retry`: (int) Number of seconds between notifications retries. Relevant only if priority is set to 2.   
+ `expire`: (int) Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.  
+ `callback`: (url) A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2.  
+ `html`: (boolean) Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher.
 
 #### Example
-```
+```yaml
 pushover:
   userkey: 
     - o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
@@ -66,7 +59,7 @@ pushover:
 ```
 
 #### Example with Jinja2 tags
-```
+```yaml
 pushover:
   userkey: '{{secrets.credentials.pushover.userkey}}'
   apikey: '{{secrets.credentials.pushover.apikey}}'
@@ -86,6 +79,19 @@ pushover:
     {% if task == "retreive_from_couchpotato" %}-1
     {% else %}0
     {% endif %}
+```
+#### Example with HTML tags
+```yaml
+pushover:
+  userkey: '{{secrets.credentials.pushover.userkey}}'
+  apikey: '{{secrets.credentials.pushover.apikey}}'
+  html: yes
+  message: |+
+    <b>word</b> - display word in bold
+    <i>word</i> - display word in italics
+    <u>word</u> - display word underlined
+    <font color="blue">word</font> - display word in blue text (most colors and   hex codes permitted)
+    <a href="http://example.com/">word</a> - display word as a tappable link to http://example.com/
 ```
 ### Attachments
 * [72x72px png FlexGet logo for pushover](/attachments/Plugins/pushover/flexget_logo.png)
