@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5b9f362b823f612fe85c6f957d9d47f70bf6e94d--->
+<!---09b7cb14119ed0517cb98c4505a6af215efa5cc7--->
 
 ## 2.5.8.dev (unreleased)
 ### Added
 - pushover - Added html support, notification limit support and slightly more detailed logs
+
+### Fixed
+- irc: fixed crash when it cannot locate tracker file on github
 
 <!---99248bf4db18ff958b48b65677c0c1e512b8ee67--->
 
