@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---01e92b88aedd5ef1481f84936c78643465703ba9--->
+<!---70d271cab8ce5cd594d88904762737eac50ca0c2--->
 
-## 2.5.7.dev (unreleased)
+<!---99248bf4db18ff958b48b65677c0c1e512b8ee67--->
+
+## 2.5.7 (2016-10-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.6...2.5.7)
 ### Fixed
 - guessit: suppress encoding errors caused by guessit and rebulk not handling unicode properly, related [#1298](https://github.com/Flexget/Flexget/issues/1298)
 - pogcal_acquired: updated to new login url and fixed some soup, fixes [#1245](https://github.com/Flexget/Flexget/issues/1245)
 - pogcal: include url in entry
 
-<!---bf3bdcc76d5ded61d11a8c57aacf8842ceb18f77--->
 
 ## 2.5.6 (2016-10-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.5...2.5.6)
