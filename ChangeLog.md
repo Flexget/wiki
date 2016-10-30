@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---70d271cab8ce5cd594d88904762737eac50ca0c2--->
+<!---5b9f362b823f612fe85c6f957d9d47f70bf6e94d--->
+
+## 2.5.8.dev (unreleased)
+### Added
+- pushover - Added html support, notification limit support and slightly more detailed logs
 
 <!---99248bf4db18ff958b48b65677c0c1e512b8ee67--->
 
