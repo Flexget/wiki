@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---09b7cb14119ed0517cb98c4505a6af215efa5cc7--->
+<!---bc4b9558ac3f511d03156c5c5b4e18e21350412e--->
 
-## 2.5.8.dev (unreleased)
+<!---7805e65af31401994fba4b9ad9c1cef239a00bc7--->
+
+## 2.5.8 (2016-10-31)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.7...2.5.8)
 ### Added
 - pushover - Added html support, notification limit support and slightly more detailed logs
 
 ### Fixed
 - irc: fixed crash when it cannot locate tracker file on github
 
-<!---99248bf4db18ff958b48b65677c0c1e512b8ee67--->
 
 ## 2.5.7 (2016-10-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.6...2.5.7)
