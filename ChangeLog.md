@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bc4b9558ac3f511d03156c5c5b4e18e21350412e--->
+<!---1866b6a0e18b29511fd6b77f2662e1a5445cd6a5--->
+
+## 2.5.9.dev (unreleased)
+### Added
+- API - Added IRC endpoint and minor changes to CLI
 
 <!---7805e65af31401994fba4b9ad9c1cef239a00bc7--->
 
