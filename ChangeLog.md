@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---690a1bd6c7ba42b67fb032218c0fab28c91bae33--->
+<!---fd6e825ff0d83df9ceefdbf7536c06db7d46c473--->
+
+## 2.5.10.dev (unreleased)
+### Changed
+- api_tmdb - TMDB API fixes and changes
 
 <!---2c6d99015dbed5adaa4bd20da2c67e3a95423479--->
 
