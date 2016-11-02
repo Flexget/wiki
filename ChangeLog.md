@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---10bd6983ee13d6e5e7814ef0da932c6efad762c5--->
+<!---6827846170f6d8e42bb12bf97c8a78e6a341450f--->
 
-## 2.5.10.dev (unreleased)
+<!---f5c8cbc674e49c8cbf7cc5bfaeb837041fa636ce--->
+
+## 2.5.10 (2016-11-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.9...2.5.10)
 ### Changed
 - api_tmdb - TMDB API fixes and changes
 
 ### Fixed
 - api_bluray: (hopefully) fixed crashing when turning request into json, closes [#1479](https://github.com/Flexget/Flexget/issues/1479)
 
-<!---2c6d99015dbed5adaa4bd20da2c67e3a95423479--->
 
 ## 2.5.9 (2016-11-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.8...2.5.9)
