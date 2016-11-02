@@ -5,4 +5,4 @@ Can turn off SSL certificate verification on a task. Useful if you have e.g. an 
 verify_ssl_certificates: no
 ```
 
-**`WARNING:`** Make sure you understand the risks before disabling SSL certificate verification on a task. This plugin will affect every HTTPS network request in that task.
+**`WARNING:`** Make sure you understand the risks before disabling SSL certificate verification on a task. This plugin will affect every HTTPS network request in that task. Make sure to try upgrading to at least Python 2.7.9 before resorting to this.
