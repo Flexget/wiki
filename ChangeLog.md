@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---16fc91cfe6604034acdf26901b343518d949b3da--->
+<!---7f1b4c0d67e3d533af4b4b6b7dda1253e5849bd9--->
 
 ## 2.5.11.dev (unreleased)
 ### Fixed
+- rarbg - Set default language to 'en' when using thetvdb_lookup from rarbg. Closes [#1481](https://github.com/Flexget/Flexget/issues/1481)
 - UI/API - Added relevant response header for correct etag generation
 
 <!---f5c8cbc674e49c8cbf7cc5bfaeb837041fa636ce--->
