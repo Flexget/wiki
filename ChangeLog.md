@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f1b4c0d67e3d533af4b4b6b7dda1253e5849bd9--->
+<!---a1d693dd1c1f43a0038cd34d55f43480569a4273--->
 
 ## 2.5.11.dev (unreleased)
 ### Fixed
+- daemon: Automatically restart task queue if it crashes unexpectedly, related [#1254](https://github.com/Flexget/Flexget/issues/1254)
+- Better string encoding in exec plugin. fix [#1295](https://github.com/Flexget/Flexget/issues/1295)
 - rarbg - Set default language to 'en' when using thetvdb_lookup from rarbg. Closes [#1481](https://github.com/Flexget/Flexget/issues/1481)
 - UI/API - Added relevant response header for correct etag generation
 
