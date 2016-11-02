@@ -9,7 +9,7 @@ series:
       identified_by: ep
 ```
 
-Possible values: `ep`, `sequence`, `date`, `date_yearfirst`, `date_dayfirst`, `id`, `auto`
+Possible values: `ep`, `sequence`, `date`, `id`, `auto`
 
 Default value is `auto` which uses episode history to detect what to use. In absence of reliable history all formats are accepted.
 
@@ -40,6 +40,11 @@ Series that are identified by air date.
  * 04-13-11
 
 **Note:** If a date is ambiguous, due to different date formats used in different countries, the most recent interpretation is used (that isn't in the future.) You can use the `date_yearfirst` and `date_dayfirst` options to alter this behavior.
+
+```
+identified_by: date
+date_yearfirst: yes
+```
 
 ### What is "id"
 Series that are identified by anything unique. There are not many built in regexps for this mode, it is mostly useful when your series do not fit into another mode, and you define your own `id_regexps`
