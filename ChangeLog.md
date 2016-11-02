@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6827846170f6d8e42bb12bf97c8a78e6a341450f--->
+<!---16fc91cfe6604034acdf26901b343518d949b3da--->
+
+## 2.5.11.dev (unreleased)
+### Fixed
+- UI/API - Added relevant response header for correct etag generation
 
 <!---f5c8cbc674e49c8cbf7cc5bfaeb837041fa636ce--->
 
