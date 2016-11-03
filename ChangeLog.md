@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b600402ea34461930af3489481cb0fb84cfaef46--->
+<!---2809e206b10a5b8558f4287b0bd321eaf31a9f52--->
 
 ## 2.5.12.dev (unreleased)
 ### Added
+- [WebUI] Added status page with latest task execution data
 - Task Status API - Added include last execution flag
 - API - Tasks status API
 
