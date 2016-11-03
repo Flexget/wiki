@@ -1,13 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2809e206b10a5b8558f4287b0bd321eaf31a9f52--->
+<!---383fe88c2e5ccee4dc0b599b6260eaa415f7f35f--->
 
 ## 2.5.12.dev (unreleased)
 ### Added
 - [WebUI] Added status page with latest task execution data
 - Task Status API - Added include last execution flag
 - API - Tasks status API
+
+### Changed
+- verify_ssl_certificates: warnings about disabling SSL verification will now be suppressed.
 
 <!---894d14d06fcc433eb5b108abcb7402269358524b--->
 
