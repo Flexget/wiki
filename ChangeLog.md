@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f0f0c3d11b2e7be4bba85eb5db6b1569a91d10e5--->
+<!---b600402ea34461930af3489481cb0fb84cfaef46--->
+
+## 2.5.12.dev (unreleased)
+### Added
+- Task Status API - Added include last execution flag
+- API - Tasks status API
 
 <!---894d14d06fcc433eb5b108abcb7402269358524b--->
 
