@@ -43,23 +43,11 @@ discover:
     - next_series_episodes: yes
   from:
     - any supported search plugin
+series:
+  - name
 ```
 
-It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
-
-```yaml
-discover:
-  what:
-    - imdb_list:
-        list: watchlist
-    - trakt_list:
-        account: USERNAME
-        list: watchlist
-        type: movies
-    - movie_list: listname
-  from:
-    - any supported search plugin
-```
+Requires [series](/Plugins/series) configuration or [configure_series](/Plugins/configure_series) in the task.
 
 ### Search movie list
 This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin. It will only search for movies that have a release date that is no more than 30 days in the future.
@@ -82,4 +70,21 @@ tasks:
         - movie_list: wanted_movies
 ```
 
+It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
+
+```yaml
+discover:
+  what:
+    - imdb_list:
+        list: watchlist
+    - trakt_list:
+        account: USERNAME
+        list: watchlist
+        type: movies
+    - movie_list: listname
+  from:
+    - any supported search plugin
+```
+
 See [list_match](/Plugins/List/list_match) and [movie_list](/Plugins/List/movie_list) for further information.
+
