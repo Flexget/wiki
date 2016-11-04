@@ -8,7 +8,7 @@ flexget <argument> <command>
 ```
 You could for example test your FlexGet configuration right now by calling `flexget check`. This does nothing to harm your installation so you can always run this. `check` is the `<command>` being used. 
 
-FlexGet can have arguments and commands can have arguments. Arguments are usually prefixed with `--`, sometimes with just one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands. FlexGet has a lot of list-type options/arguments. These usually support different [output table styles](/CLI/--table-styles).
+FlexGet can have arguments and commands can have arguments. Long named arguments prefixed with `--`, one letter arguments with one `-`. Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands. FlexGet has a lot of list-type options/arguments. These usually support different [output table styles](/CLI/--table-styles).
 
 ## Commands list
 Clicking on the commands will take you to the detail page of the command.
@@ -31,7 +31,8 @@ Clicking on the commands will take you to the detail page of the command.
 | [`regexp-list`](/CLI/regexp-list) | View and manage regexp lists |
 | [`rejected`](/CLI/rejected) | List or clear remembered rejections |
 | [`seen`](/CLI/seen) | View or forget entries remembered by the seen plugin |
-| [`series`](/CLI/series) | View and manipulate the series plugin database | [`status`](/CLI/status) | View task health status |
+| [`series`](/CLI/series) | View and manipulate the series plugin database | 
+| [`status`](/CLI/status) | View task health status |
 | [`t4ll`](/CLI/t411) | View and manipulate the Torrent411 plugin database
 | [`trakt`](/CLI/trakt) | View and manage trakt authentication |
 | [`web`](/CLI/web) | Manage web server settings |
