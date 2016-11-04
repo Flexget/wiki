@@ -28,9 +28,9 @@ This is just a extract of what i have changed in atlanta800's config file
             strip_dates: yes
       from:
         # Then search ezrss for the shows found in the watchlist - This could do away with series.yml
-        - search_rss: https://www.ezrss.it/search/index.php?show_name={{search_term}}&mode=rss
-        - search_rss: http://torrentz.eu/feed?q={{search_term}}
-        #- search_rss: http://kat.ph/search/{{search_term}}/?rss=1 # This feed seems to have alot of mixed languages
+        - search_rss: https://www.ezrss.it/search/index.php?show_name=\{{search_term}}&mode=rss
+        - search_rss: http://torrentz.eu/feed?q=\{{search_term}}
+        #- search_rss: http://kat.ph/search/\{{search_term}}/?rss=1 # This feed seems to have alot of mixed languages
       type: any
 ```
 
