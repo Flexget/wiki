@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---383fe88c2e5ccee4dc0b599b6260eaa415f7f35f--->
+<!---d27d4d7467f954336916a858e8d119654a661758--->
 
-## 2.5.12.dev (unreleased)
+<!---6bd404de2fb31b6bd89161c84cbcf7eb3dfca608--->
+
+## 2.5.12 (2016-11-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.11...2.5.12)
 ### Added
 - [WebUI] Added status page with latest task execution data
 - Task Status API - Added include last execution flag
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - verify_ssl_certificates: warnings about disabling SSL verification will now be suppressed.
 
-<!---894d14d06fcc433eb5b108abcb7402269358524b--->
 
 ## 2.5.11 (2016-11-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.10...2.5.11)
