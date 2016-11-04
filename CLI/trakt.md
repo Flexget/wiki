@@ -22,7 +22,7 @@ View and manage trakt authentication
 ### Examples
 ```bash
 #refreshes the access token associated with the "my_foo_account"
-flexget trakt refresh account my_foo_account
+flexget trakt refresh my_foo_account
 ```
 
 ### Related articles
