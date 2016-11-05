@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ecfbfef2cae02bba252b2a58c5ae4632f25741a0--->
+<!---94388495731c19c33c328246e7ce101da1dfd790--->
+
+## 2.5.14.dev (unreleased)
+### Changed
+- myepisodes has been refactored
 
 <!---7fb55630925fcd7db19bdc1fb8607c6006cc24b2--->
 
