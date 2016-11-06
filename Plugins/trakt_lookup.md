@@ -3,6 +3,10 @@
 This plugin returns series information from Trakt.tv. The name of the series usually has to be VERY close to what's shown on Trakt.  
 If you are having problems returning the correct information for a show. Please add to the series the tvdb_id using the [set](/Plugins/set) command.  
 
+<div class="alert alert-info" role="alert">
+
+Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.</div>
+
 #### Syntax
 
 ```yaml
@@ -10,17 +14,13 @@ trakt_lookup: yes
 ```
 or
 
-<div class="alert alert-info" role="alert">
-
-Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.</div>
-
-```text
+```YAML
 trakt_lookup:
    account: <flexget account name>
    username: <trakt username>
 ```
 
-Option `account` is required if your profile is private (see [trakt](/Plugins/trakt) on how to authenticate). `username` is the user for which you wish to lookup specific information such as collection or watched history.
+**NOTE**: `username` is the user for which you wish to lookup specific information such as collection, watched history or user ratings. Option `account` is required if your profile is private (see [trakt](/Plugins/trakt) on how to authenticate).
 
 **Series Metainfo**
 
