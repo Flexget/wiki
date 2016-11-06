@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---94388495731c19c33c328246e7ce101da1dfd790--->
+<!---00acc6ac43c52e3c4d074948febad166c625e78c--->
 
-## 2.5.14.dev (unreleased)
+<!---5d3d943ab2501c1fbe9a8490c92b11552fd38ded--->
+
+## 2.5.14 (2016-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.13...2.5.14)
 ### Changed
 - myepisodes has been refactored
 
-<!---7fb55630925fcd7db19bdc1fb8607c6006cc24b2--->
 
 ## 2.5.13 (2016-11-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.12...2.5.13)
