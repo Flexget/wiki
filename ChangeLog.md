@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b54394a0c7b0167c65c19dd99b2b4932f0112b5c--->
+<!---d6b6f81a966237a102058c000a245451ebd73123--->
 
 ## 2.5.17.dev (unreleased)
 ### Added
+- exec - Added for_undecided
 - transmission - Preserve torrents based on presence of trackers
 
 <!---cc115f4fad84172b64beb5bbc67e066c3d996e81--->
