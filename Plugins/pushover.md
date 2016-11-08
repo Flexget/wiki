@@ -12,7 +12,7 @@ The simplest Pushover plugin configuration requires only the user key (`userkey`
 ```
 pushover:
   userkey: USERKEY
-  apikey: APIKEY
+  apikey: aPwSHwkLcNaavShxktBpgJH4bRWc3m # Flexget's official Pushover API key
 ```
 
 ### Advanced
