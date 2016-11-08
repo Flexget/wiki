@@ -59,6 +59,7 @@ Where *FOR_ITEMS_NAME* must be one of:
 - `for_accepted`
 - `for_rejected`
 - `for_failed`
+- `for_undecided`
 
 Where *CMD* is a single command or a list of commands to execute.
 
