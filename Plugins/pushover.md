@@ -11,8 +11,8 @@ The simplest Pushover plugin configuration requires only the user key (`userkey`
 #### Example
 ```
 pushover:
-  userkey: o23ywmAaaxTYxn00jY2JAwQ2EeYXGt
-  apikey: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
+  userkey: USERKEY
+  apikey: APIKEY
 ```
 
 ### Advanced
