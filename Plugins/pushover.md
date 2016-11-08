@@ -23,6 +23,7 @@ More advanced configuration provides the ability to:
 * Set the notification message body (`message`)
 * Set the notification priority (`priority`)
 * Set the URL sent in the notification (`url`)
+* Set the title of the URL (`url_title`)
 * Set the default sound (`sound`)
 * Set number of times to retry notifications. Relevant only from Emergency priority notification. (`retry`)
 * Set time until notification expires if not acknowledged. Relevant only from Emergency priority notification.  (`expire`)
@@ -35,6 +36,7 @@ More advanced configuration provides the ability to:
  `message`: (string) Messages text  
  `priority`: (int) -1 = low, 0 = default, 1 = high, 2=Emergency  
  `url`: (string) URL Represenation text   
+ `url_title`: (string) Text to be displayed as URL title
  `sound`:  (string) Should be one of [pushover's options](https://pushover.net/api#sounds).  
  `retry`: (int) Number of seconds between notifications retries. Relevant only if priority is set to 2.   
  `expire`: (int) Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.  
