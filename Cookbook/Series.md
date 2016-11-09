@@ -1,7 +1,7 @@
 # Series recipes
 ### Good starting points
 * [Very basic series configuration](/Cookbook/Series/SimpleSeries)
-* [Manage series and multiple feeds easily](/Cookbook/Series/Preset)
+* [Manage series and multiple feeds easily](/Cookbook/Series/Template)
 * [Set torrent client download path from series name](/Cookbook/Series/SetPath)
 
 ### More advanced recipes
