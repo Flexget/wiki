@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0a7019661cb550d29f9ad05227040bd421d43dde--->
+<!---be396c1d8ed34549ab19af3bbb2bed601bdc46bd--->
+
+## 2.5.18.dev (unreleased)
+### Fixed
+- [WebUI] Fixed 'No metadata found' showing on every series entry
 
 <!---650f479516b7e0a7a4d8e4d38d8cd33cd3ff064e--->
 
