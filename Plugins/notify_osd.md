@@ -32,4 +32,4 @@ notify_osd: yes
 Please ensure you have a notification system on your distribution before enabling this option.
 
 ## Windows Users
-**DO NOT ENABLE THIS OPTION**
+**DO NOT ENABLE THIS PLUGIN**
