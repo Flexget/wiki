@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d6b6f81a966237a102058c000a245451ebd73123--->
+<!---0a7019661cb550d29f9ad05227040bd421d43dde--->
 
-## 2.5.17.dev (unreleased)
+<!---650f479516b7e0a7a4d8e4d38d8cd33cd3ff064e--->
+
+## 2.5.17 (2016-11-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.16...2.5.17)
 ### Added
 - exec - Added for_undecided
 - transmission - Preserve torrents based on presence of trackers
 
-<!---cc115f4fad84172b64beb5bbc67e066c3d996e81--->
 
 ## 2.5.16 (2016-11-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.15...2.5.16)
