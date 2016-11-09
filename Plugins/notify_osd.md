@@ -4,8 +4,8 @@ Must have a notification system like dbus for linux operating systems. Has been 
 
 **Syntax:**
 
-```
-notify_osd: [yes](/yes)
+```yaml
+notify_osd:
   title_template: [Supports jinja2 templating. Default: {{task.name}}]
   item_template:  [Supports jinja2 templating. Default: {{title}}]
 ```
@@ -13,7 +13,9 @@ notify_osd: [yes](/yes)
 ## Options
 All options are optional. Please see [jinja2](/Plugins/set#DynamicFormatting) for more formatting options.
 
-```
+If you wish to use all default options, the following config format should be used:
+
+```yaml
 notify_osd: yes
 ```
 
