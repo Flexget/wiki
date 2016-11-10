@@ -7,6 +7,7 @@ This plugin adds URL's directly into rTorrent or create entries from rTorrent fo
 * Protocols XMLRPC, SCGI and Local SCGI
 * Dynamically setting the download directory and custom attributes supporting [jinja replacement](/Jinja)
 * Magnet urls
+* Digest authentication (if 401 error code is returned, it falls back to either Basic or Digest depending on config setting)
 
 ## Syntax
 
