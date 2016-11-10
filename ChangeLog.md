@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---636e699ecdfb8b7bab9b497c6cf090f16122fc29--->
+<!---c85200a98d636e967115734ec47d488f0a48b3ad--->
 
 ## 2.5.18.dev (unreleased)
 ### Fixed
 - [WebUI] Fixed 'No metadata found' showing on every series entry
 
 ### Changed
+- rtorrent: added support for Digest auth
 - status - Status plugin and UI/API changes
 
 <!---650f479516b7e0a7a4d8e4d38d8cd33cd3ff064e--->
