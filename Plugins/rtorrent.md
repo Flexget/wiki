@@ -28,7 +28,7 @@ rtorrent:
 | uri | Text | rTorrent URI. IE: scgi://localhost:5000, http://localhost:80/RPC2, /home/rtorrent/rtorrent.sock  |
 | username | Text | Username when using HTTP for basic auth |
 | password | Text | Password when using HTTP for basic auth |
-| digest_auth | [yes\|no] | Use Digest authentication |
+| digest_auth | [yes\|no] | Use HTTP Digest authentication |
 | timeout | Text | Seconds before timeout when connecting to rtorrent |
 
 **Output specific options**
