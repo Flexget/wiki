@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0e673baca4443372090f51c2a932b1f50632032f--->
+<!---5ce2bcc392637f8bd2cc52bf80e468914d09ecff--->
+
+## 2.5.20.dev (unreleased)
+### Fixed
+- clean_transmission: fixed crash when preserve_tracker is not set
 
 <!---e8a7a6cd548d39bc0406d0fcb120c8f258f12268--->
 
