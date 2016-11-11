@@ -7,16 +7,14 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.5.19 (2016-11-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.18...2.5.19)
+### Changed
+- rtorrent: added support for Digest auth
+- status - Status plugin and UI/API changes
 
 ## 2.5.18 (2016-11-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.17...2.5.18)
 ### Fixed
 - [WebUI] Fixed 'No metadata found' showing on every series entry
-
-### Changed
-- rtorrent: added support for Digest auth
-- status - Status plugin and UI/API changes
-
 
 ## 2.5.17 (2016-11-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.16...2.5.17)
