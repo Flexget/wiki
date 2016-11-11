@@ -1,9 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c85200a98d636e967115734ec47d488f0a48b3ad--->
+<!---0e673baca4443372090f51c2a932b1f50632032f--->
 
-## 2.5.18.dev (unreleased)
+<!---e8a7a6cd548d39bc0406d0fcb120c8f258f12268--->
+
+## 2.5.19 (2016-11-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.18...2.5.19)
+
+## 2.5.18 (2016-11-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.17...2.5.18)
 ### Fixed
 - [WebUI] Fixed 'No metadata found' showing on every series entry
 
@@ -11,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - rtorrent: added support for Digest auth
 - status - Status plugin and UI/API changes
 
-<!---650f479516b7e0a7a4d8e4d38d8cd33cd3ff064e--->
 
 ## 2.5.17 (2016-11-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.16...2.5.17)
