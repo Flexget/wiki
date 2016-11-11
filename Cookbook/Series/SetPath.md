@@ -9,7 +9,7 @@ tasks:
       settings:
         seriesgroup:
           set:
-            path: /series/location/\{{series_name}}/Season \{{series_season}}
+            path: /series/location/{{series_name}}/Season {{series_season}}
       seriesgroup:    
         - Foo
         - Bar
