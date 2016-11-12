@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4235126d674cb83749f284fd6c1e8f8eaedad1ef--->
+<!---045c956729846891bff11ed60b9e90a839b0dcb1--->
+
+## 2.5.21.dev (unreleased)
+### Fixed
+- transmission: fixed json decode error in py3, fixes [#1264](https://github.com/Flexget/Flexget/issues/1264)
 
 <!---5b2dc60b7942297e24b9ef95f4aceb5aad77cb08--->
 
