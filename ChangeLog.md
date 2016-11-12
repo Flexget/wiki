@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---045c956729846891bff11ed60b9e90a839b0dcb1--->
+<!---7d8e79fde05a8fb42184034dc52fce64373d5bf7--->
 
 ## 2.5.21.dev (unreleased)
 ### Fixed
 - transmission: fixed json decode error in py3, fixes [#1264](https://github.com/Flexget/Flexget/issues/1264)
+
+### Changed
+- aria2: no longer requiring that 'path' exists, closes [#1493](https://github.com/Flexget/Flexget/issues/1493)
 
 <!---5b2dc60b7942297e24b9ef95f4aceb5aad77cb08--->
 
