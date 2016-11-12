@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5ce2bcc392637f8bd2cc52bf80e468914d09ecff--->
+<!---4235126d674cb83749f284fd6c1e8f8eaedad1ef--->
 
-## 2.5.20.dev (unreleased)
+<!---5b2dc60b7942297e24b9ef95f4aceb5aad77cb08--->
+
+## 2.5.20 (2016-11-12)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.19...2.5.20)
 ### Fixed
 - clean_transmission: fixed crash when preserve_tracker is not set
 
-<!---e8a7a6cd548d39bc0406d0fcb120c8f258f12268--->
 
 ## 2.5.19 (2016-11-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.18...2.5.19)
