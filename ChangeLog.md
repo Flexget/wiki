@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---868c27252010b4930aeaa7ff3fba02110d015ead--->
+<!---f618efc6c7e9efddf57a1770ca864d7af099fcd0--->
 
 ## 2.5.22.dev (unreleased)
 ### Fixed
+- web server - Config changes now affect web server, no need to restart daemon
 - clean_transmission: fixed the preserve tracker matching
 
 <!---42445a5ec4cd845b3c37faeb023249ceae1aa7f6--->
