@@ -1,16 +1,22 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7d8e79fde05a8fb42184034dc52fce64373d5bf7--->
+<!---868c27252010b4930aeaa7ff3fba02110d015ead--->
 
-## 2.5.21.dev (unreleased)
+## 2.5.22.dev (unreleased)
+### Fixed
+- clean_transmission: fixed the preserve tracker matching
+
+<!---42445a5ec4cd845b3c37faeb023249ceae1aa7f6--->
+
+## 2.5.21 (2016-11-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.20...2.5.21)
 ### Fixed
 - transmission: fixed json decode error in py3, fixes [#1264](https://github.com/Flexget/Flexget/issues/1264)
 
 ### Changed
 - aria2: no longer requiring that 'path' exists, closes [#1493](https://github.com/Flexget/Flexget/issues/1493)
 
-<!---5b2dc60b7942297e24b9ef95f4aceb5aad77cb08--->
 
 ## 2.5.20 (2016-11-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.19...2.5.20)
