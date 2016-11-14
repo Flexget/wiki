@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f618efc6c7e9efddf57a1770ca864d7af099fcd0--->
+<!---89723aceb6137b56890a057ed57819c3e15c3d2f--->
 
-## 2.5.22.dev (unreleased)
+<!---626c24decb1cdc17c79f67355fd8054e6440997a--->
+
+## 2.5.22 (2016-11-14)
+[all commits](https://github.com/Flexget/Flexget/compare/2.5.21...2.5.22)
 ### Fixed
 - web server - Config changes now affect web server, no need to restart daemon
 - clean_transmission: fixed the preserve tracker matching
 
-<!---42445a5ec4cd845b3c37faeb023249ceae1aa7f6--->
 
 ## 2.5.21 (2016-11-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.20...2.5.21)
