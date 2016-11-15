@@ -57,6 +57,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
 | [horriblesubs](/Plugins/horriblesubs) | Latest [horriblesubs.info](http://horriblesubs.info) releases. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List).<br> **Note:** This plugin does not currently work, look into [`imdb_watchlist`](/Plugins/imdb_watch_list) |
+| [imdb_watchlist](/Plugins/imdb_watch_list) |Use you IMDB watchlist as an input|
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
 | [myepisodes_list](/Plugins/myepisodes_list) | Create entries from the shows in your myepisodes.com account. |
 | [npo_watchlist](/Plugins/npo_watchlist) | Create entries for the shows and episodes in your npo.nl account (Dutch public television). |
