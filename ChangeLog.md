@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---89723aceb6137b56890a057ed57819c3e15c3d2f--->
+<!---48dda735097ac720f43cebe45caf989689c8e4d3--->
+
+## 2.5.23.dev (unreleased)
+### Added
+- imdb_watchlist - Readded new/old `imdb_watchlist`
 
 <!---626c24decb1cdc17c79f67355fd8054e6440997a--->
 
