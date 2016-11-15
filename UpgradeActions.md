@@ -6,6 +6,15 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.6.0** -- 2016.11.15
+- [move](/Plugins/move)/[copy](/Plugins/copy) plugins: 
+  - Changed option `filename` to `rename` since it caused issues with [filesystem](/Plugins/filesystem) plugin.
+  - jinja2 replacement render issues will not abort task and not fallback to default.
+- Daemon:
+  - `flexget daemon reload` has been renamed to `flexget daemon reload-config` to avoid confusion.
+  - `flexget daemon enable-autoreload` and `flexget daemon disable-autoreload` have been removed as their use was limited and ill-conceived.
+
+
 ### **2.5.0** -- 2016.10.21
 Due to changes in the IPC protocol, you will not be able to connect to a running daemon using cli commands that is an earlier version than 2.5.0. Remember to stop your daemon _before_ upgrading to ensure you can elegantly shut it down.
 
