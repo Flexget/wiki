@@ -24,7 +24,7 @@ tasks:
 ```
 
 Your user id can be found [here](http://www.imdb.com/list/watchlist) when you are logged in.<br>
-You can force a returned language using the `force_language` parameter. A list of valid language values can be found [here](http://web.archive.org/web/20151206203420/http://www.science.co.il/Language/Locale-codes.asp). You will need to select the proper **LCID language string**.
+You can force a returned language using the `force_language` parameter. A list of valid language values can be found [here](http://www.science.co.il/Language/Locale-codes.asp). You will need to select the proper **LCID language string**.
 
 *****WARNING:***** If you are using a list other than the `watchlist`, `ratings` or `checkins`, you currently have to look up the list id from imdb and use that instead of the name. 
 
