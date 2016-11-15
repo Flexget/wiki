@@ -14,13 +14,13 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 ```yaml
 tasks:
   populate_movie_list:
-  imdb_watchlist:
-    user_id: ur9999999
-    list: watchlist
-    force_language: es-mx # Optional - Force Specified Language
-  accept_all: yes
-  list_add:
-    - movie_list: imdb_movies
+    imdb_watchlist:
+      user_id: ur9999999
+      list: watchlist
+      force_language: es-mx # Optional - Force Specified Language
+    accept_all: yes
+    list_add:
+      - movie_list: imdb_movies
 ```
 
 Your user id can be found [here](http://www.imdb.com/list/watchlist) when you are logged in.<br>
