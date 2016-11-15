@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---457aedb008383d9f3b8c232a4c8bf9961275df42--->
+<!---b497f15325c0bed18d2626adfb647ec50ddd7d5e--->
 
 ## 2.5.23.dev (unreleased)
 ### Added
 - imdb_watchlist - Readded new/old `imdb_watchlist`
 
 ### Fixed
+- crossmatch: no longer tries to match non-existing fields, fixes [#1503](https://github.com/Flexget/Flexget/issues/1503)
 - api_tvdb - Language param was not passed to episode lookup
 
 <!---626c24decb1cdc17c79f67355fd8054e6440997a--->
