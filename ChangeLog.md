@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---48dda735097ac720f43cebe45caf989689c8e4d3--->
+<!---457aedb008383d9f3b8c232a4c8bf9961275df42--->
 
 ## 2.5.23.dev (unreleased)
 ### Added
 - imdb_watchlist - Readded new/old `imdb_watchlist`
+
+### Fixed
+- api_tvdb - Language param was not passed to episode lookup
 
 <!---626c24decb1cdc17c79f67355fd8054e6440997a--->
 
