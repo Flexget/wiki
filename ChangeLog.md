@@ -10,6 +10,14 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - imdb_watchlist - Readded new/old `imdb_watchlist`
 
+### Changed
+- [move](/Plugins/move)/[copy](/Plugins/copy) plugins: 
+  - Changed option `filename` to `rename` since it caused issues with [filesystem](/Plugins/filesystem) plugin.
+  - jinja2 replacement render issues will not abort task and not fallback to default.
+- Daemon:
+  - `flexget daemon reload` has been renamed to `flexget daemon reload-config` to avoid confusion.
+  - `flexget daemon enable-autoreload` and `flexget daemon disable-autoreload` have been removed as their use was limited and ill-conceived.
+
 ### Fixed
 - crossmatch: no longer tries to match non-existing fields, fixes [#1503](https://github.com/Flexget/Flexget/issues/1503)
 - api_tvdb - Language param was not passed to episode lookup
