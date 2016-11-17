@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---795faa318c5ea3ea9f794f034a190dc8a8a70e7e--->
+<!---e0ef1bf47a77892ac4e5cdc3fb29c6bc0ca69849--->
+
+## 2.6.1.dev (unreleased)
+### Fixed
+- fuzer - Fixed file size regex
 
 <!---c5e20ee1ec9060a55f374d6c69c560b6cea30414--->
 
