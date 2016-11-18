@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e0ef1bf47a77892ac4e5cdc3fb29c6bc0ca69849--->
+<!---81b9fc2ff39eca133a548b3012c5d2d4b6d00789--->
 
-## 2.6.1.dev (unreleased)
+<!---2ad9dc6afe6931168886dfca6a967b4c30fa0b75--->
+
+## 2.6.1 (2016-11-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.0...2.6.1)
 ### Fixed
 - fuzer - Fixed file size regex
 
-<!---c5e20ee1ec9060a55f374d6c69c560b6cea30414--->
 
 ## 2.6.0 (2016-11-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.5.22...2.6.0)
