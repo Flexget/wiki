@@ -30,7 +30,7 @@ tasks:
       recursive: yes 
     copy:
       to: "/filestorage2/{{series_name}}/"
-      filename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
+      rename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
       along:
         extensions:
           - sub
