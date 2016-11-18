@@ -34,7 +34,7 @@ tasks:
       recursive: yes 
     move:
       to: '/storage/{{series_name}}/'
-      filename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
+      rename: '{{ series_name }} - {{ series_id }}{{ location|pathext }}'
       along:
         extensions:
           - sub
