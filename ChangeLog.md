@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ae801b806778d4dc0489cd6613e9c4a90cacf434--->
+<!---e44a9fa2174317b898b591d1920c795b6e44fd09--->
 
-## 2.6.2.dev (unreleased)
+<!---1306d5785992f11309306253a9f8cffc0ad778bb--->
+
+## 2.6.2 (2016-11-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.1...2.6.2)
 ### Fixed
 - formatdate - Fix format encoding
 - require_field - Reject entry if field is None
 
-<!---2ad9dc6afe6931168886dfca6a967b4c30fa0b75--->
 
 ## 2.6.1 (2016-11-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.6.0...2.6.1)
