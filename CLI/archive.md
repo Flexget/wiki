@@ -31,5 +31,5 @@ flexget archive search "foo"
 ```
 
 ### Related articles
-* [CUI / Command line interface overview](/CLI)
+* [CLI / Command line interface overview](/CLI)
 * [archive Plugin](/Plugins/archive)
