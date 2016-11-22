@@ -15,7 +15,7 @@ View and manage [`pending_approval`](/Plugins/pending_approval) entries
 | `reject` || Reject pending entries |
 || *positional:* ||
 || `selection` | `ENTRY-ID` or `all` to reject all approved entries |
-|<div align="right">\* Supports [table-styles](/CLI/--table-styles)</div> ||
+\* Supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
 ```bash
