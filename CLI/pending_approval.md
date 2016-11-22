@@ -21,6 +21,8 @@ View and manage [`pending_approval`](/Plugins/pending_approval) entries
 ```bash
 # List all pending entries
 flexget pending list
+# Approve all pending entries
+flexget pending approve all
 ```
 
 ### Related articles
