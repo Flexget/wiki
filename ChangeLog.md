@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---93d7b04986c48b03916c076d58255cd5a960325a--->
+<!---ae801b806778d4dc0489cd6613e9c4a90cacf434--->
 
 ## 2.6.2.dev (unreleased)
 ### Fixed
+- formatdate - Fix format encoding
 - require_field - Reject entry if field is None
 
 <!---2ad9dc6afe6931168886dfca6a967b4c30fa0b75--->
