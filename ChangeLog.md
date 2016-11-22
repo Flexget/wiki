@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e44a9fa2174317b898b591d1920c795b6e44fd09--->
+<!---892267d26fe02c2514c2777021f27efe29c03b4b--->
+
+## 2.6.3.dev (unreleased)
+### Added
+- pending_approval - Pending approval plugin, CLI & API
 
 <!---1306d5785992f11309306253a9f8cffc0ad778bb--->
 
