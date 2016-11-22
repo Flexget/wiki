@@ -5,13 +5,13 @@ This plugin is enabled on all tasks by default. See plugin [disable_builtins](/P
 
 ## Local Mode
 You may not want entries seen on some tasks to affect other tasks. Seen plugin can be put into local mode, such that it will only reject entries that have been accepted previously in the same task. You can use the following configuration to enable this mode:
-```
+```yaml
 seen: local
 ```
 
 ## Using custom fields
 By default, `seen` plugin will filter entries based on that following fields: `title`, `url` & `original_url`. You can choose to override this by using the plugin as such:
-```
+```yaml
 seen:
   fields:
     - url
@@ -20,7 +20,7 @@ seen:
 ```
 
 You can use any field you want to filter, as long as at least one field is supplied. This feature was built in order to succesfully accept entries that have different urls but share the same `original_url`. Can be used as such:
-```
+```yaml
 seen:
   local: yes
   fields: [title, url]
