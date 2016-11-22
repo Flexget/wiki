@@ -5,7 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.6.3.dev (unreleased)
 ### Added
-- pending_approval - Pending approval plugin, CLI & API
+- [pending_approval](/Plugins/pending_approval) - Pending approval plugin, CLI & API
 
 <!---1306d5785992f11309306253a9f8cffc0ad778bb--->
 
