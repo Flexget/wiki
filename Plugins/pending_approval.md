@@ -2,6 +2,8 @@
 A manual operation filter plugin. Stores entries in local cache until their status is set to approved via CLI or API. All approved entries will be accepted in filter phase.  
 Used to cherrypick entries from a source.
 
+Accepted pending entries (those that were approved) will be deleted from the cache.
+
 ### Schema:
 ```yaml
 pending_approval: [yes/no]
