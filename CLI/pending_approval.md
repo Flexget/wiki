@@ -15,6 +15,9 @@ View and manage [`pending_approval`](/Plugins/pending_approval) entries
 | `reject` || Reject pending entries |
 || *positional:* ||
 || `selection` | `ENTRY-ID` or `all` to reject all approved entries |
+| `clear` | Clear all unapproved pending entries |
+|| *optional:* ||
+|| `--task-name TASK_NAME` | Filter by task name |
 \* Supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
