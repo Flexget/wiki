@@ -6,7 +6,7 @@ Accepted pending entries (those that were approved) will be deleted from the cac
 
 ### Schema:
 ```yaml
-pending_approval: [yes/no]
+pending_approval: yes
 ```
 
 ### Usage example:
