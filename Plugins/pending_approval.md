@@ -43,6 +43,7 @@ tasks:
     list_add:
       - entry_list: pending_entries
     pushover: <OPTS> # Get notified about new items added to the entry list
+    seen: local # This is a must or entries will be rejected on the download task
   
   approved:
     entry_list: pending_entries
