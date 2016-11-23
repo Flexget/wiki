@@ -17,8 +17,11 @@ tasks:
     rss: http://bla.com
     pending_approval: yes
     download: /downloads/
+    no_entries_ok: yes
 ```
 In this example all the entries that the RSS feed outputs will be sent to the `pending_approval` plugin. Once approved, they will be accepted (the next time the task runs) and passed to `download` plugin.
+
+*****Note:***** Since all intially added entries will be cached and removed, it may seem that task did not produce entries at the first run (and hence the [no_entries_ok](/Plugins/no_entries_ok) usage). The task will appear to have input only when it's proccessing approved entries.
 
 ### Approving entries:
 
