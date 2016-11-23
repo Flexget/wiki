@@ -1,13 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cf4d66711d17d9f58d30b03484ef5c07ec9ce163--->
+<!---b08b7d63a523462efed7bd8e8694113ac24c05a6--->
 
 ## 2.6.4.dev (unreleased)
 ### Fixed
 - terminal_table - Handle scenario that terminal is still too small after dropping and wrapping everything possible
 - pending CLI - Fixed crash due to not dropping and/or wrapping correct columns
 - terminal - Fixed crash when trying to word wrap a non str value
+
+### Added
+- pending CLI - Added `clear` action to deleted all pending entries
 
 <!---e74572c08d91db75fcb42c04ded8c6aab2a309bc--->
 
