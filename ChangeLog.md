@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b08b7d63a523462efed7bd8e8694113ac24c05a6--->
+<!---aad6221d9dbca249e0c195ff534f5ccb0f39c7aa--->
 
 ## 2.6.4.dev (unreleased)
 ### Fixed
@@ -10,6 +10,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - terminal - Fixed crash when trying to word wrap a non str value
 
 ### Added
+- [WebUI] Basic pending page
 - pending CLI - Added `clear` action to deleted all pending entries
 
 <!---e74572c08d91db75fcb42c04ded8c6aab2a309bc--->
