@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---892267d26fe02c2514c2777021f27efe29c03b4b--->
+<!---1b473f6496b9d94f035a6952453ed45c5e6dd5c1--->
 
-## 2.6.3.dev (unreleased)
+<!---e74572c08d91db75fcb42c04ded8c6aab2a309bc--->
+
+## 2.6.3 (2016-11-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.2...2.6.3)
 ### Added
 - [pending_approval](/Plugins/pending_approval) - Pending approval plugin, CLI & API
 
-<!---1306d5785992f11309306253a9f8cffc0ad778bb--->
 
 ## 2.6.2 (2016-11-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.6.1...2.6.2)
