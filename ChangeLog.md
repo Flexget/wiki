@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---aad6221d9dbca249e0c195ff534f5ccb0f39c7aa--->
+<!---d9d793430d34f3820f3c72df0b5c64c504fd8519--->
 
-## 2.6.4.dev (unreleased)
+<!---c198d02eeb9242753d4274b4103c6ab82c21e97e--->
+
+## 2.6.4 (2016-11-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.3...2.6.4)
 ### Fixed
 - terminal_table - Handle scenario that terminal is still too small after dropping and wrapping everything possible
 - pending CLI - Fixed crash due to not dropping and/or wrapping correct columns
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - [WebUI] Basic pending page
 - pending CLI - Added `clear` action to deleted all pending entries
 
-<!---e74572c08d91db75fcb42c04ded8c6aab2a309bc--->
 
 ## 2.6.3 (2016-11-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.6.2...2.6.3)
