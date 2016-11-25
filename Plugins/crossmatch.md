@@ -54,6 +54,7 @@ tasks:
       - imdb_user_score
     if:
       - imdb_user_score < 7: accept
+      - imdb_user_score > 7: reject # since crossmatch accepted everything
     move:
       allow_dir: yes
       to: /path/to/crap
