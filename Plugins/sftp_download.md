@@ -23,5 +23,5 @@ sftp_download:
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
 |  to  |  Path  |  Destination path; supports Jinja2 templating on the input entry. Fields such as series_name must be populated prior to input into this plugin using metainfo_series or similar.  |
-|  recursive  |  [Yes|No](/Yes|No)  |  Indicates wether to download directory contents recursively.  |
-|| delete_origin || [Yes|No](/Yes|No) || Indicates wether to delete the remote files(s) once they've been downloaded. ||
+|  recursive  |  [Yes\|No]  |  Indicates wether to download directory contents recursively.  |
+| delete_origin | [Yes\|No] | Indicates wether to delete the remote files(s) once they've been downloaded. |
