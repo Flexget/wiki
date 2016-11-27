@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b5d1189b9bfc567248c605f74c408875d66a0200--->
+<!---2e1b971e47ed7cbc9ff0c6b5cfc963070b67eaac--->
+
+## 2.6.7.dev (unreleased)
+### Changed
+- pending_approval - Changed plugin operation  to a more correct one
 
 <!---480f92cb42503d7700d668c5d5c9418dba7ced7a--->
 
