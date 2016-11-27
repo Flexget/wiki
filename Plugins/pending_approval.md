@@ -30,6 +30,8 @@ There are currently two ways of approving entries: CLI and API.
 
 View `pending_approval` [CLI page](/CLI/pending_approval) for more details and options.
 
+*****Note:***** Approved entries will be accepted in the task regardless of any other filters that may reject them.
+
 #### API
 
 View swagger documentation for endpoint details.
