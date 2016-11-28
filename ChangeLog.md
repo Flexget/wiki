@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a1bb87ff4e3775fe3c36b2c331ebac3ead2f2d98--->
+<!---8d3f64c7cd8d0ab5bbfcb9cc5dfa8f6de71ded7e--->
 
-## 2.6.7.dev (unreleased)
+<!---88488a649bc560c8956f247207ac2b48d49576c6--->
+
+## 2.6.7 (2016-11-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.6...2.6.7)
 ### Changed
 - pending_approval - Changed plugin operation  to a more correct one
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - rtorrent: properly use the port from uri, fixes [#1522](https://github.com/Flexget/Flexget/issues/1522)
 - terminal - Fixed wrong value check and wrapped TerminalTable in try block for `series show` CLI. Fixed [#1520](https://github.com/Flexget/Flexget/issues/1520)
 
-<!---480f92cb42503d7700d668c5d5c9418dba7ced7a--->
 
 ## 2.6.6 (2016-11-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.6.5...2.6.6)
