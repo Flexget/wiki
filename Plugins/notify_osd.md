@@ -1,35 +1,34 @@
-# Notify-OSD
+# *Notify-OSD*
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Notify-OSD can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+</div>
+
 **`Requirement:`**
 Must have a notification system like dbus for linux operating systems. Has been tested on Ubuntu 12.04 only!
+
+## Configuration
+
+| Option |Type|  Description | Default |
+| --- | ---| --- |---|
+|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
+|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|timeout|numeric|Number of seconds to display notification|`4`
+| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
+
 
 **Syntax:**
 
 ```yaml
 notify_osd:
-  title_template: [Supports jinja2 templating. Default: {{task.name}}]
-  item_template:  [Supports jinja2 templating. Default: {{title}}]
+  title: {{task_name}}
+  message: {{title}}
 ```
-
-## Options
-All options are optional. Please see [jinja2](/Plugins/set#DynamicFormatting) for more formatting options.
-
-If you wish to use all default options, the following config format should be used:
-
-```yaml
-notify_osd: yes
-```
-
+<div class="alert alert-warning">
   
+  <!--<span class="glyphicon glyphicon glyphicon-cog"></span>-->
+  &nbsp; <strong>Warning!</strong> Please ensure you have a notification system on your distribution before enabling this option.
+</div>
 
 
-| **Name** | **Description** |
-| --- | --- |
-| title_template | [jinja2](/Plugins/set#DynamicFormatting) template used for notification title |
-| item_template | [jinja2](/Plugins/set#DynamicFormatting) template used for notification body |
-
-
-## Linux Users
-Please ensure you have a notification system on your distribution before enabling this option.
-
-## Windows Users
-**DO NOT ENABLE THIS PLUGIN**
