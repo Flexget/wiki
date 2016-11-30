@@ -1,9 +1,9 @@
 # Managed List Plugins
 Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.
 
-
-| [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
+| Plugin name | Description |
 | --- | --- |
+| [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
 | [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
 | [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
@@ -14,8 +14,9 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
 ### Operating with lists
 
-| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
+| Plugin name | Description |
 | --- | --- |
+| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
 | [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
 | [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
 | [list_clear](/Plugins/List/list_clear) | Use this plugin to clear all items from a list plugin. |
