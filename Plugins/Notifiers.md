@@ -27,14 +27,3 @@ Notifer plugin are plugins that can be used idividually, or via the [notify](/Pl
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
 
-## Managing plugins
-
-| Plugin name | Description |
-| --- | --- |
-| [notify](/Plugins/Notifiers/notify) | Use one or more notifer plugins to fine tune notifcation data |
-| [notify_crash](/Plugins/Notifiers/notify_crash) | Use one or more notifer plugins to get Flexget crash notifications |
-
-
-
-
-
