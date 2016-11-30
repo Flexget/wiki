@@ -1,54 +1,51 @@
-# Pushalot
-## Overview
-This plugin provides the ability to send FlexGet notifications via the cross-platform notification system called [Pushalot ](https://pushalot.com/).
+# *Pushalot*
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Pushalot can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+</div>
 
-> Pushalot is a platform for receiving custom push notifications to connected devices running Windows Phone or Windows 8. Custom means that those push notifications can be sent from virtually any source, as long as that source can interact with our open REST API.
+
+
+This plugin provides the ability to send flexget notifications via the cross-platform notification system called [Pushalot](https://pushalot.com/).
 
 ## Configuration
-### Simple
-The simplest Pushalot plugin configuration **requires only the user token (`token`)**. This will broadcast the notification to the registered device/s associated with that token.
+
+| Option |Type|  Description | Default |
+| --- | ---| --- |---|
+| **api_key**| text| User's API key. Can also be a list. **Required**
+|device|text|Target a specific device. Can also be a list|
+|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
+|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|url_title|text|Text to be displayed as URL title 
+|important|yes/no|Indicator whether the message should be visually marked as important within client app|`no`
+|silent|yes/no|If set to True will prevent sending toast notifications to connected devices, resulting in silent delivery|`no`
+|image|URL|Image thumbnail URL link
+|source|text|Notification source name that will be displayed instead of authorization token's app name.|`FlexGet`
+|timetolive|numeric|Time in minutes after which message automatically gets purged. Minimum is `0`, maxiumum is `43200`.
+| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
+
 #### Example
-```
+```yaml
 pushalot:
-  token: <token>
+  api_key: API_KEY
 ```
 
-This will send the following message by default:
-```
-title: "Task <task name>"
-body: "<series name> <series id> or <movie name> <movie year>" 
-link: "<imdb url>
-```
-<img src="http://flexget.com/raw-attachment/wiki/Plugins/pushalot/pushlaot%20example.png">
-### Advanced
-More advanced configuration provides the ability to:
-- Use several tokens <`token`> via a list. See example below for details.
-- Set a title <`title`> (default is task name, Accepts Jinja2 tags) 
-- Set a body <`body`> (default is mentioned above, Accepts Jinja2 tags) 
-- Attach a URL <`link`> (default is '{{ imdb_url }}'', Accepts Jinja2 tags)
-- Specify a URL name <`linktitle`> (default is none, Accepts Jinja2 tags)
-- Specify priority <`important`> (accepts true/false, default is false)
-- Specify sound mode <`silent`> (accepts true/false, default is false)
-- Attach an image <`image`> (default is none, Accepts Jinja2 tags)
-- Specify different app name <`source`> (default is "FlexGet")
-- Specify message life span <`timetolive`> (accepts integer, value is minutes, default is none (never expires)
-
-#### Example
-```
+#### Advanced Example
+```yaml
 pushalot: 
-  token: 
-    - token1
-    - token2
+  api_key: 
+    - api_key1
+    - api_key2
   title: '{{ movie_name }}'
-  body: '{{ imdb_plot_outline }}'
-  link: '{{ imdb_url }}'
-  linktitle: 'View {{ movie_name }} in IMDB'
-  important: true
-  silent: false
+  message: '{{ imdb_plot_outline }}'
+  url: '{{ imdb_url }}'
+  url_title: 'View {{ movie_name }} in IMDB'
+  important: yes
+  silent: no
   image: '{{ imdb_photo }}'
   source: test_source
   timetolive: 5
 ```
-### Attachments
-* [Pushalot example notification on the windows 8 app](/attachments/Plugins/pushalot/pushlaot example.png)
-* [72x72 FlexGet logo to use with Pushalot app](/attachments/Plugins/pushalot/flexget_logo.png)
+
