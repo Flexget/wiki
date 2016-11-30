@@ -1,6 +1,6 @@
 # Notify
 
-Use this plugin to send notification to one or more [notifer](/Plugins/Notifers) plugins.
+Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins.
 This plugin runs on task exit and can be configured extensively
 
 ### Schema:
