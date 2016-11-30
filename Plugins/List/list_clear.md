@@ -1,4 +1,10 @@
 ## List Clear
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
+
 This is a list plugin that clears the contents of the given lists.
 
 ### Syntax
