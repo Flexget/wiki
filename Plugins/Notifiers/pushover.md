@@ -26,6 +26,7 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |expire|numeirc|Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.
 |callback|URL|A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2
 |html|yes/no|Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher
+| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
 
 ### Simple
 The simplest Pushover plugin configuration requires only the user key (`user_key`) .This will broadcast the notification to all registered devices.
