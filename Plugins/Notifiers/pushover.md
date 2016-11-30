@@ -1,10 +1,12 @@
-# Pushover
+# *Pushover*
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
   &nbsp; Email can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
 </div>
-## Overview
+
+
+
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [Pushover](https://pushover.net/apps/clone/Flexget).
 
 ## Configuration
@@ -26,13 +28,13 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |html|yes/no|Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher
 
 ### Simple
-The simplest Pushover plugin configuration requires only the user key (`userkey`) and API key (`apikey`).  This will broadcast the notification to all registered devices.
+The simplest Pushover plugin configuration requires only the user key (`user_key`) .This will broadcast the notification to all registered devices.
 
 #### Example
 ```yaml
 pushover:
   user_key: USER_KEY
- ```
+```
 
 #### Advanced Example
 ```yaml
@@ -85,5 +87,3 @@ pushover:
     <font color="blue">word</font> - display word in blue text (most colors and   hex codes permitted)
     <a href="http://example.com/">word</a> - display word as a tappable link to http://example.com/
 ```
-### Attachments
-* [72x72px png FlexGet logo for pushover](/attachments/Plugins/pushover/flexget_logo.png)
