@@ -41,5 +41,5 @@ list_add:
       list: watchlist
 ```
 
-# Dev docs
-Want to create or convert an existing plugin to a managed list plugin? [Read the docs](https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst) and join the chat for any assistance required.
+### Developers
+Want to create or convert an existing plugin to a managed list plugin? [Read the docs](https://github.com/Flexget/Flexget/blob/develop/docs/develop/list_interface.rst).
