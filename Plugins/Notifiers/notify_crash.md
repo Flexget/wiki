@@ -6,6 +6,7 @@ Sends notification to [notifer](/Plugins/Notifiers) plugins on task crash.
 notify_crash:
   to: <NOTIFIER_PLUGINS> [List of at least one notifer plugins, the same plugin can be used more than once, Required.]
 ```
+Unlike [notify](/Plugins/Notifiers/notify) plugin, you can not set global attributes, only per plugin ones.
 ### Usage:
 ```yaml
 tasks:
