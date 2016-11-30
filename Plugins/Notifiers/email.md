@@ -37,7 +37,7 @@ The `default` template will notify you of all downloaded entries, and of any fai
 - `html`: This attempts to make html formatted emails with images for series and movies.
 
 ### Custom Templates
-You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in <configpath>/templates, and their filename specified as the `template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
+You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `file_template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
 
 ### Examples
 **Config basic example**
@@ -62,28 +62,6 @@ email:
   smtp_username: my_smtp_login
   smtp_password: my_smtp_password
 ```
-
-**Config multi-task example using the failed template**
-A single email will be sent with only the failures from any of the tasks except for task3, where it is turned off.
-
-```yaml
-email:
-  from: xxx@xxx.xxx
-  to: xxx@xxx.xxx
-  smtp_host: smtp.host.com
-  template: failed
-
-tasks:
-  task1:
-    rss: http://xxx
-  task2:
-    rss: http://yyy
-  task3:
-    rss: http://zzz
-    email:
-      active: False
-```
-
 **Gmail example**
 ```yaml
 email:
