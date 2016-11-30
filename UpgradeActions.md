@@ -6,6 +6,12 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.7.0** -- 2016.11.15
+
+- Major change to all notification plugins. Consult new [notifiers](/Plugins/Notifiers) page for name changes and schema changes,
+- [email](/Plugins/Notifiers/email) plugin completely changed, removed cross task functionality (replaced by new [notify](/Plugins/Notifiers/notify) functionality)
+- Removed `whatcd` plugin
+
 ### **2.6.0** -- 2016.11.15
 - [move](/Plugins/move)/[copy](/Plugins/copy) plugins: 
   - Changed option `filename` to `rename` since it caused issues with [filesystem](/Plugins/filesystem) plugin.
