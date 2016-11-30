@@ -1,5 +1,9 @@
 # Regexp List
-This plugin is a [list](/Plugins/List) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 It is a list of strings that represent regular expressions to be used for matching entries. The matching is case insensitive and only match single lines (no newline matching etc).
 
