@@ -68,7 +68,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [next_trakt_episodes](/Plugins/next_trakt_episodes) | Create entries for the latest or the next episode to watch or collect by your trakt.tv activity. |
 | [trakt_list](/Plugins/List/trakt_list) | Create entries from one of your trakt.tv lists. [Managed List](/Plugins/List) |
 | [twitterfeed](/Plugins/twitterfeed) | Create entries from a twitter account. |
-| [whatcd](/Plugins/whatcd) | Produce entries for content on [https://what.cd](/https://what.cd) |
+
 
 ### 3rd party software input
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
@@ -199,13 +199,13 @@ Send accepted entries to 3rd party sites, usually for tracking purposes.
 | [kodi_library](/Plugins/kodi_library) | Send clean/scan requests to a remote/local Kodi server. |
 
 ### Notifier services output
-Send accepted entries to notification services.
+Send accepted entries to notification services. More details [here](/Plugins/Notifiers).
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [email](/Plugins/email) | Send email when new content is passed. |
+| [email](/Plugins/Notifiers/email) | Send email when new content is passed. |
 | [prowl](/Plugins/prowl) | Send prowl notifications (iPhone). |
-| [pushover](/Plugins/pushover) | Send Pushover notifications (iPhone and Android). |
+| [pushover](/Plugins/Notifiers/pushover) | Send Pushover notifications (iPhone and Android). |
 | [rapidpush](/Plugins/rapidpush) | An easy-to-use push notification service. (Android). |
 | [notify_osd](/Plugins/notify_osd) | Send notifications to notify-osd.(linux only. Ubuntu tested) |
 | [notify_xmpp](/Plugins/notify_xmpp) | Send notifications via XMPP. |
