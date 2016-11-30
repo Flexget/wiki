@@ -11,30 +11,23 @@ The email plugin can be used to notify you of task results and/or failures. Ther
 The `default` template will notify you of all downloaded entries, and of any failed entries or task aborts. There is also an included `failed` template to just notify when there are problems with a task.
 
 ## Config
-The email plugin is special, in that it can be configured for a task directly, or it can be set up at the root of the config, in order to receive one email with the results of all of your tasks. The configuration options for both of these locations are the same:
 
-```yaml
-from            : the email address from which the email will be sent (required)
-  to            : the email address(es) of the recipient(s) (required)
-  subject       : the subject for the email (jinja replacement is supported)
-  template      : name of the template file to use (default will be used if not specified)
-  smtp_host     : the host of the smtp server
-  smtp_port     : the port of the smtp server
-  smtp_username : the username to use to connect to the smtp server
-  smtp_password : the password to use to connect to the smtp server
-  smtp_tls      : should we use TLS to connect to the smtp server?
-  smtp_ssl      : should we use SSL to connect to the smtp server?
-  active        : should this task be included in the global email?
-```
-**Default values for the config elements**
+| Attribute |  Description | 
+| --- |  --- | 
+| to |  The email address(es) of the recipient(s). **Required.**
+| from|  The email address from which the email will be sent. Default is`flexget_notifer@flexget.com` | 
+| title | The subject for the email| 
+| message | The message body| 
+| smtp_host | The host of the smtp server. Default is `localhost`| 
+| smtp_port | The port of the smtp server. Default is `25`| 
+| smtp_username | The username to use to connect to the smtp server| 
+| smtp_password | The password to use to connect to the smtp server| 
+| smtp_tls | Should TLS be used to connect | 
+| smtp_ssl | Should SSL be used to connect| 
+| file_template | Name of the template file to use| 
 
-```yaml
-active: True
-smtp_host: localhost
-smtp_port: 25
-smtp_username:
-smtp_password:
-```
+
+
 
 ### Built-In Templates
 
