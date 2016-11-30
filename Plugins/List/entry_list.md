@@ -4,7 +4,11 @@ import:
 ---
 
 # Entry List
-This plugin is a [list_interface](/Plugins/List/) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 Stores a copy of any entry that was added to it, and can be used in a variety of ways. 
 
