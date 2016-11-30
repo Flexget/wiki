@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Email can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Pushover can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 
