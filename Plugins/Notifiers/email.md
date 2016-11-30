@@ -12,19 +12,20 @@ The `default` template will notify you of all downloaded entries, and of any fai
 
 ## Config
 
-| Attribute |  Description | 
-| --- |  --- | 
-| to |  The email address(es) of the recipient(s). **Required.**
-| from|  The email address from which the email will be sent. Default is`flexget_notifer@flexget.com` | 
-| title | The subject for the email| 
-| message | The message body| 
-| smtp_host | The host of the smtp server. Default is `localhost`| 
-| smtp_port | The port of the smtp server. Default is `25`| 
-| smtp_username | The username to use to connect to the smtp server| 
-| smtp_password | The password to use to connect to the smtp server| 
-| smtp_tls | Should TLS be used to connect | 
-| smtp_ssl | Should SSL be used to connect| 
-| file_template | Name of the template file to use| 
+| Options |Type|  Description | Default |
+| --- | ---| --- |---|
+| to | email| The email address(es) of the recipient(s). **Required.**
+| from| email| The email address from which the email will be sent. |`flexget_notifer@flexget.com` | 
+| title |text| The subject for the email| Gets default from [notify](/Plugins/Notifiers/notify) plugin
+| message |text| The message body| Gets default from [notify](/Plugins/Notifiers/notify) plugin
+| smtp_host | text|The host of the smtp server. |`localhost`| 
+| smtp_port |numeric| The port of the smtp server. | `25`| 
+| smtp_username |text| The username to use to connect to the smtp server| 
+| smtp_password |text| The password to use to connect to the smtp server| 
+| smtp_tls |yes/no| Should TLS be used to connect | 
+| smtp_ssl | yes/no|Should SSL be used to connect| 
+|html| yes/no | Should parse message as HTML
+| file_template | text|Name of the template file to use| 
 
 
 
