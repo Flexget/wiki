@@ -3,7 +3,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Email can be used as a part of [notifier](/Plugins/Notify) plugin system.
+  &nbsp; Email can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 The email plugin can be used to notify you of task results and/or failures. There are two built in templates, or you can make your own template using the Jinja2 templating language.
