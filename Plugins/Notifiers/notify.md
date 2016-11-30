@@ -31,7 +31,7 @@ tasks:
     accept_all: yes
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
 ```
@@ -56,7 +56,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
         - email:
@@ -66,6 +66,7 @@ tasks:
       message: "Entry {{ title }} was rejected due to {{ reason }}"
 ```
 This will trigger a notification for both `pushover` and `email` for each rejected entry.
+
 #### Advanced usage 2:
 ```yaml
 tasks:
@@ -76,7 +77,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
             message: "Task {{ task_name }} is done!"
@@ -142,7 +143,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
       scope: task
@@ -168,6 +169,7 @@ tasks:
         {% endif %}
 ```
 While these advanced templates can be very useful, they can appear bery bulky in the config. Instead you could use the `file_template` attribute:
+
 ```yaml
 tasks:
   download_task:
@@ -177,7 +179,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
       scope: task
@@ -188,6 +190,7 @@ Some default file templates are supplied with flexget and are found under `/temp
 As with all other attributes, `file_template` can be used globally or within a specfic notifer config.
 ### Using the same notifier more than once
 There is no limitation to the number of times the same notifer can be used within a `notify` config:
+
 ```yaml
 tasks:
   download_task:
@@ -197,7 +200,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key1
         - pushover:
