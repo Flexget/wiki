@@ -186,3 +186,20 @@ tasks:
 When using `file_template` it will render it and pass it as the `message` attribute.  
 Some default file templates are supplied with flexget and are found under `/templates` dir in Flexget's run path. To use custom templates, simply create a `filename.template` file with the relevant data, and place it under `/templates` dir of the config path.  
 As with all other attributes, `file_template` can be used globally or within a specfic notifer config.
+### Using the same notifier more than once
+There is no limitation to the number of times the same notifer can be used within a `notify` config:
+```yaml
+tasks:
+  download_task:
+    rss: http://stuff.com
+    regexp:
+      accept_excluding:
+        - bla
+    download: /downloads/
+    notify:
+      to
+        - pushover:
+            user_key: user_key1
+        - pushover:
+            user_key: user_key2
+```
