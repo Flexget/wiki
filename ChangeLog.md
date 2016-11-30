@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---506b573768664ec83d26f99afb75f612d239cada--->
+<!---b464b7f6a26a2d3b02f1fcb3a97135d7d892674d--->
+
+## 2.6.10.dev (unreleased)
+### Fixed
+- couchpotato_list - Fixed crash due to corrupt CP data. Closed [#1444](https://github.com/Flexget/Flexget/issues/1444)
 
 <!---c9812f3a810142b9eb9c019211bdc57f1dcc233d--->
 
