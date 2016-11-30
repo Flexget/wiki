@@ -1,7 +1,7 @@
 # SFTP List
 Generate entries from SFTP. This plugin requires the pysftp Python module and its dependencies.
 
-This plugin requires the pysftp Python module; to install it module run:
+This plugin requires the pysftp Python module; to install it run:
 
 ```
 pip install  pysftp
