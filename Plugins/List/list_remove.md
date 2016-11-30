@@ -1,5 +1,9 @@
 ### List Remove
-This plugin is a [list_interface](/Plugins/List/) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 List plugins can have entries removed from them by using the `list_remove` plugin:
 ```
