@@ -1,5 +1,9 @@
 # Subtitle list
-This plugin is a [list](/Plugins/List) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 The main purpose of this plugin is to keep track of local video files that are in need of subtitles. While it allows directories (if specified in config), it's a bit finicky. If you experience any issues, be it unexpected behaviour or bugs, report it on our Github page (http://github.com/Flexget/Flexget).
   
