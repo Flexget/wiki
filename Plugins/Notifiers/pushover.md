@@ -1,55 +1,46 @@
 # Pushover
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Email can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+</div>
 ## Overview
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [Pushover](https://pushover.net/apps/clone/Flexget).
 
-> Pushover is a platform for sending and receiving push notifications.  On the server end, it provides an HTTP API for queueing messages to deliver to clients. On the client end, the iOS and Android clients receive those push notifications, show them to the user, and store them for offline viewing.  Due to the design of the systems, it does not store messages on the servers once they have been reliably received by the device client.
-
 ## Configuration
+
+| Option |Type|  Description | Default |
+| --- | ---| --- |---|
+| **user_key**| text| Pushover's user key. **Required.** Can also be a list.
+| api_key| text| Application's API key| `aPwSHwkLcNaavShxktBpgJH4bRWc3m` (Flexget's official key)|
+|device|text|Target a specific device. Can also be a list|
+|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
+|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|priority|numeric| Set message priority. Values between -2 and 2 are accepted.| `0`|
+|url_title|text|Text to be displayed as URL title 
+|sound|text|Override default notifcation sound. Must one of [Pushover's supported sounds](https://pushover.net/api#sounds)
+|retry|numeric|Number of seconds between notifications retries. Relevant only if priority is set to 2. Minimum is 30.
+|expire|numeirc|Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.
+|callback|URL|A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2
+|html|yes/no|Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher
+
 ### Simple
 The simplest Pushover plugin configuration requires only the user key (`userkey`) and API key (`apikey`).  This will broadcast the notification to all registered devices.
 
 #### Example
-```
-pushover:
-  userkey: USERKEY
-  apikey: aPwSHwkLcNaavShxktBpgJH4bRWc3m # Flexget's official Pushover API key
-```
-
-### Advanced
-More advanced configuration provides the ability to:
-
-* Target a specific device (`device`)
-* Set the notification message title (`title`)
-* Set the notification message body (`message`)
-* Set the notification priority (`priority`)
-* Set the URL sent in the notification (`url`)
-* Set the title of the URL (`url_title`)
-* Set the default sound (`sound`)
-* Set number of times to retry notifications. Relevant only from Emergency priority notification. (`retry`)
-* Set time until notification expires if not acknowledged. Relevant only from Emergency priority notification.  (`expire`)
-* Set a callback URL to receive acknowledgements. Relevant only from Emergency priority notification. (`callback`)
-* Use multiple userkeys (`userkey`)
-* Style the notification using HTML tags. (`html`)
-
- `device`: (string) device name as specified in the Pushover configuration  
- `title`: (string) Notification title   
- `message`: (string) Messages text  
- `priority`: (int) -1 = low, 0 = default, 1 = high, 2=Emergency  
- `url`: (string) URL Represenation text   
- `url_title`: (string) Text to be displayed as URL title
- `sound`:  (string) Should be one of [pushover's options](https://pushover.net/api#sounds).  
- `retry`: (int) Number of seconds between notifications retries. Relevant only if priority is set to 2.   
- `expire`: (int) Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.  
- `callback`: (url) A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2.  
- `html`: (boolean) Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher.
-
-#### Example
 ```yaml
 pushover:
-  userkey: 
+  user_key: USER_KEY
+ ```
+
+#### Advanced Example
+```yaml
+pushover:
+  user_key: 
     - o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
     - 0ydnaF3023jKadfkja9fjdkjaXfdfsaySGa
-  apikey: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
+  api_key: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
   device: mobile
   title: Downloading {{series_name}}
   message: Episode {{series_id}}
@@ -63,8 +54,8 @@ pushover:
 #### Example with Jinja2 tags
 ```yaml
 pushover:
-  userkey: '{{secrets.credentials.pushover.userkey}}'
-  apikey: '{{secrets.credentials.pushover.apikey}}'
+  user_key: '{{secrets.credentials.pushover.userkey}}'
+  api_key: '{{secrets.credentials.pushover.apikey}}'
   sound: bike
   title: >
     {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
@@ -85,8 +76,7 @@ pushover:
 #### Example with HTML tags
 ```yaml
 pushover:
-  userkey: '{{secrets.credentials.pushover.userkey}}'
-  apikey: '{{secrets.credentials.pushover.apikey}}'
+  user_key: '{{secrets.credentials.pushover.userkey}}'
   html: yes
   message: |+
     <b>word</b> - display word in bold
