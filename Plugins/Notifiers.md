@@ -19,7 +19,7 @@ Notifer plugin are plugins that can be used idividually, or via the [notify](/Pl
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
-| [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://www.pushover.com/) notification |
+| [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://pushover.net/apps/clone/Flexget) notification |
 | [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
