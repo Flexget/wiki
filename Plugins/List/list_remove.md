@@ -1,4 +1,4 @@
-### List Remove
+## List Remove
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
