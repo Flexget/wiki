@@ -203,19 +203,20 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [email](/Plugins/Notifiers/email) | Send email when new content is passed. |
-| [prowl](/Plugins/prowl) | Send prowl notifications (iPhone). |
-| [pushover](/Plugins/Notifiers/pushover) | Send Pushover notifications (iPhone and Android). |
-| [rapidpush](/Plugins/rapidpush) | An easy-to-use push notification service. (Android). |
-| [notify_osd](/Plugins/notify_osd) | Send notifications to notify-osd.(linux only. Ubuntu tested) |
-| [notify_xmpp](/Plugins/notify_xmpp) | Send notifications via XMPP. |
-| [notifymyandroid](/Plugins/notifymyandroid) | Send notifications to android. |
-| [pushbullet](/Plugins/pushbullet) | Send Pushbullet notifications (Android/iOS/Windows/Chrome Extension). |
-| [pushalot](/Plugins/pushalot) | Send Pushalot notifications (Windows 8/Windows Phone). |
-| [sns](/Plugins/sns) | Send SNS notifications. |
-| [slack](/Plugins/slack) | Send Slack channel notifications. |
-| [telegram](/Plugins/telegram) | Send a Telegram message from passed entries. |
-
+| [email](/Plugins/Notifiers/email) | Send an email message |
+| [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
+| [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
+| [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
+| [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
+| [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
+| [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
+| [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://pushover.net/apps/clone/Flexget) notification |
+| [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
+| [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
+| [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
+| [sns](/Plugins/Notifiers/sns) | Send a [SNS](https://aws.amazon.com/sns/) notification |
+| [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
+| [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 
