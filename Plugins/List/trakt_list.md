@@ -1,9 +1,14 @@
 # Trakt list
-This plugin is a [managed list](/Plugins/List) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 This plugin creates an [Entry](/Entry) for each movie/show in one of the available [trakt.tv](http://trakt.tv) lists.
 
 This plugin is useful for example when used in a task with the [movie_list](/Plugins/List/movie_list) plugin to add movies from your trakt watchlist to your [movie_list](/Plugins/List/movie_list), or to control the series plugin using [configure_series](/Plugins/configure_series).  
+
 
 <div class="alert alert-warning" role="alert">
 
