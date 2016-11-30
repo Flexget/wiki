@@ -1,5 +1,9 @@
 # IMDb list
-This plugin is a [managed list](/Plugins/List) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 Creates an [Entry](/Entry) for each item in an IMDb list.
 
