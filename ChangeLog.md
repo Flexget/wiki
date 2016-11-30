@@ -1,11 +1,23 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b464b7f6a26a2d3b02f1fcb3a97135d7d892674d--->
+<!---64f09ee94efb4bca7d5f398621f4e4a2d0d87f9c--->
 
 ## 2.6.10.dev (unreleased)
 ### Fixed
 - couchpotato_list - Fixed crash due to corrupt CP data. Closed [#1444](https://github.com/Flexget/Flexget/issues/1444)
+
+### Added
+- join - Added join notifier plugin
+- notify_crash - Added notify crash plugin
+- notify - Added notify plugin
+- Notifier plugin and interface
+
+### Removed
+- whatcd - Removed what.cd plugin
+
+### Changed
+- All notifier plugins have been completely refactored, schema changes
 
 <!---c9812f3a810142b9eb9c019211bdc57f1dcc233d--->
 
