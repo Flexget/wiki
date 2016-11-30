@@ -22,9 +22,9 @@ The `default` template will notify you of all downloaded entries, and of any fai
 | smtp_port |numeric| The port of the smtp server. | `25`| 
 | smtp_username |text| The username to use to connect to the smtp server| 
 | smtp_password |text| The password to use to connect to the smtp server| 
-| smtp_tls |yes/no| Should TLS be used to connect | 
-| smtp_ssl | yes/no|Should SSL be used to connect| 
-|html| yes/no | Should parse message as HTML
+| smtp_tls |yes/no| Should TLS be used to connect | no|
+| smtp_ssl | yes/no|Should SSL be used to connect| no
+|html| yes/no | Should parse message as HTML|no
 | file_template | text|Name of the template file to use| 
 
 
