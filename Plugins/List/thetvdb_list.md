@@ -1,6 +1,10 @@
 # TheTVDB List
 
-This plugin is a [managed list](/Plugins/List) plugin.
+<div class="alert alert-success" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
+</div>
 
 This plugin is mainly used from the [configure_series](/Plugins/configure_series) plugin to automatically configure FlexGet to download all of your TVDB favorites. The plugin can work as input that returns entries for all the shows you have marked as favorites at [http://thetvdb.com](/http://thetvdb.com). If TheTVDB goes down, the last known list of favorites will be used until it comes back online. 
 
