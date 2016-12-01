@@ -42,6 +42,7 @@ tasks:
   filter_before_pending:
     rss: http://foo.com
     quality: 720p # An example for a filter
+    accept_all: yes
     list_add:
       - entry_list: pending_entries
     pushover: <OPTS> # Get notified about new items added to the entry list
