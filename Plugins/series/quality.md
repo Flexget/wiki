@@ -9,7 +9,7 @@ Values should all be specified as a valid [quality requirement](/Qualities#Requi
 
 **Example:**
 
-```
+```yaml
 series:
   - name of series 1:
       quality: 720p+
@@ -23,7 +23,7 @@ Usually best way to specify quality for series is to use groups:
 
 **Example:**
 
-```
+```yaml
 series:
   720p:
     - name of series 1
