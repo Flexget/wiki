@@ -56,7 +56,7 @@ tasks:
     download: /downloads/
       
 ```
-This example shows how to filter before using the `pending_approval` plugin. Also, this is the way to get notification aobut new items added to `pending_approval` plugin.
+This example shows how to filter before using the `pending_approval` plugin. Also, this is the way to get notification about new items added to `pending_approval` plugin.
   
   
 
