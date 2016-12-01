@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---08fefb4e2022ab0a19cc16ebffc3f452956975e8--->
+<!---102a9f456237bc161c87aa35d88f47016e1660e7--->
+
+## 2.7.1.dev (unreleased)
+### Fixed
+- movie_list CLI - Loosened matching when trying to delete a title with a year
 
 <!---7c4fea3ce16731a3d89ba5af93fc11d0ac7299b7--->
 
