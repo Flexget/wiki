@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---64f09ee94efb4bca7d5f398621f4e4a2d0d87f9c--->
+<!---08fefb4e2022ab0a19cc16ebffc3f452956975e8--->
 
-## 2.6.10.dev (unreleased)
+<!---7c4fea3ce16731a3d89ba5af93fc11d0ac7299b7--->
+
+## 2.7.0 (2016-12-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.6.9...2.7.0)
 ### Fixed
 - couchpotato_list - Fixed crash due to corrupt CP data. Closed [#1444](https://github.com/Flexget/Flexget/issues/1444)
 
@@ -19,7 +22,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - All notifier plugins have been completely refactored, schema changes
 
-<!---c9812f3a810142b9eb9c019211bdc57f1dcc233d--->
 
 ## 2.6.9 (2016-11-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.6.8...2.6.9)
