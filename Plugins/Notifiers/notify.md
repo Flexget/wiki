@@ -15,9 +15,9 @@ notify:
   url: <STRING> Global URL to be used by all notifiers. 
   file_template: File template to be used, will replace `message` value if present.
 ```
-The schema can also take any other property which will be passed to the configured notifier plugins.
+The settings can also take any other property which will be passed to the configured notifier plugins.
 <div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon-info-sign"></span>
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
   &nbsp;
   All passed attributes support Jinja2 usage
 </div>
@@ -91,7 +91,7 @@ In this example we use the global `title` to be passed to both `pushover` and `e
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  Internal plugin attributes overide global ones
+  Settings defined in notifier plugin (ie. email, pushover) override setting values defined in notify plugin.
 </div>
 
 ### Jinja2 usage
