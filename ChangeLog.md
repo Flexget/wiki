@@ -4,9 +4,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 <!---54cc938facbac13bc728a9ffefe216867b5cec8d--->
 
 ## 2.7.1.dev (unreleased)
-### Fixed
-- Revert " movie_list CLI - Loosened matching when trying to delete a title with a year"
-- movie_list CLI - Loosened matching when trying to delete a title with a year
+
 
 <!---7c4fea3ce16731a3d89ba5af93fc11d0ac7299b7--->
 
