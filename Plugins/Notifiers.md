@@ -6,8 +6,8 @@ Notifer plugin are plugins that can be used idividually, or via the [notify](/Pl
 
 | Plugin name | Description |
 | --- | --- |
-| [notify](/Plugins/Notifiers/notify) | Use one or more notifer plugins to fine tune notifcation data |
-| [notify_crash](/Plugins/Notifiers/notify_crash) | Use one or more notifer plugins to get Flexget crash notifications |
+| [notify](/Plugins/Notifiers/notify) | Use one or more notifer plugins to send notifications |
+| [notify_crash](/Plugins/Notifiers/notify_crash) | Use one or more notifer plugins to get FlexGet crash notifications (hopefully none) |
 
 ## Notifiers
 | Plugin name | Description |
