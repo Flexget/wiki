@@ -1,6 +1,6 @@
 # Notifier plugins
 
-Notifer plugin are plugins that can be used idividually, or via the [notify](/Plugins/Notifiers/notify) or [notify_crash](/Plugins/Notifiers/notify_crash) plugins to create task related notifications.
+Notifer plugin are plugins that can be used individually, or via the [notify](/Plugins/Notifiers/notify) or [notify_crash](/Plugins/Notifiers/notify_crash) plugins to create task-related notifications.
 
 ## Managing plugins
 
