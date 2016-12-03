@@ -14,6 +14,7 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
 * [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](http://flexget.com/FlexGetExtras).
+* [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.7.1) YAML template examples, use Trakt.tv to manage shows and movies.
 
 ## Untested 1.x Configs
 * [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
@@ -23,7 +24,6 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [UNNEFER'S ULTIMATE FLEXGET CONFIG](/Cookbook/Users/UnNefer) - Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications
 * [buthidae](/Cookbook/Users/buthidae) (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
 * [Cookbook/Users/lilp](/Cookbook/Users/lilp) (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. Movie with IMDB watchlist and T411 search in VOSTFR and HD. French User
-* [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v1.2.284) automatically SCP files from a remote Tranmission instance to a local directory.
 * [malkavi](/Cookbook/Users/malkavi) (v1.2.313) Spanish Movies and series config.
 * [nikdoof](https://github.com/nikdoof/flexget-config) (v1.2)
 * [Tommynator](/Cookbook/Users/Tommynator) (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
