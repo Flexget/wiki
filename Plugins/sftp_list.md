@@ -37,4 +37,4 @@ sftp_list:
 |  recursive  |  [Yes\|No]  |  Indicates whether the listing should be recursive  |
 |  get_size  |  [Yes\|No]  |  Indicates whether to calculate the size of the remote file/directory. WARNING: This can be very slow when computing the size of directories!  |
 |  files_only  |  [Yes\|No]  |  Indicates whether to omit directories from the results.  |
-| dirs | Text | List of directories to download |
+| dirs | Text | List of directories to list |
