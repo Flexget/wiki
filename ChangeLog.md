@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5352b5a1c2929a873e335c6478a6b54f353996c0--->
+<!---b3707e5a31af72390d715b7d3d26d300242f0ef9--->
+
+## 2.7.2.dev (unreleased)
+### Changed
+- api_trakt: now uses the new api url, api.trakt.tv
 
 <!---e05c9c38466269773b3cc442de3b2612032d7f2a--->
 
