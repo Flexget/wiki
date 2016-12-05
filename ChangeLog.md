@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3707e5a31af72390d715b7d3d26d300242f0ef9--->
+<!---3928639ddbd7966d9842ff51cd62060f9f92cf98--->
 
-## 2.7.2.dev (unreleased)
+<!---20bd66ca9497804b1d825bedde025c286e0024bf--->
+
+## 2.7.2 (2016-12-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.7.1...2.7.2)
 ### Changed
 - api_trakt: now uses the new api url, api.trakt.tv
 
-<!---e05c9c38466269773b3cc442de3b2612032d7f2a--->
 
 ## 2.7.1 (2016-12-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.7.0...2.7.1)
