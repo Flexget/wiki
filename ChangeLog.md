@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3928639ddbd7966d9842ff51cd62060f9f92cf98--->
+<!---0762a48fcf567162c4897c54d9e8e8accc1c6916--->
+
+## 2.7.3.dev (unreleased)
+### Fixed
+- apple_trailers: fixed some crashing caused by a typo
 
 <!---20bd66ca9497804b1d825bedde025c286e0024bf--->
 
