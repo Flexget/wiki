@@ -24,7 +24,7 @@ This example sends a Slack notification and overrides the default username and i
 
 ```
 slack:
-  webhook_url: https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ
+  web_hook_url: https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYYY/ZZZZZZZZZZZZZZZZZZZZZZZZ
   username: Flexget
   icon_emoji: tv 
 ```
