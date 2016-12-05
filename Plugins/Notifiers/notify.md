@@ -3,21 +3,19 @@
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins.
 This plugin runs on task exit and can be configured extensively
 
-### Schema:
+### Config:
 
-```text
-notify:
-  to: <NOTIFIER_PLUGINS> [List of at least one notifer plugins, the same plugin can be used more than once, Required.]
-  scope: <`task` or `entries`> [Defines the scope of the data to be used in the notification. Default is `entries`.]
-  what: <'entries', 'accepted', 'rejected', 'failed', 'undecided'> [The data to iterate on, relevant to `entries` scope only. One or more can be used. Default is `accepted`]
-  title: <STRING> Global title to be used by all notifiers. 
-  message: <STRING> Global message to be used by all notifiers. 
-  url: <STRING> Global URL to be used by all notifiers. 
-  file_template: File template to be used, will replace `message` value if present.
-```
-The settings can also take any other property which will be passed to the configured notifier plugins.
+| Options |Type|  Description | Default |
+| --- | ---| --- |---|
+|**to**|list|List of at least one notifer plugins, the same plugin can be used more than once. **Required**
+|scope|text|Can be `task` or `entries`. Defines the scope of the data to be used in the notification|`entries`
+|what|text| One or more of `entries`, `accepted`, `rejected`, `failed` or `undecided`. The data to iterate on. Relevant only when `scope` is set to `entries`.|`accepted`
+
+You can also set any other attribute in the config, which will be passed to all configured notifiers. A default `title`, `message` and `url` are set depending on the selected scope.
+
+The schema can also take any other property which will be passed to the configured notifier plugins.
 <div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
   All passed attributes support Jinja2 usage
 </div>
@@ -31,7 +29,7 @@ tasks:
     accept_all: yes
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key
 ```
@@ -56,7 +54,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key
         - email:
@@ -66,7 +64,6 @@ tasks:
       message: "Entry {{ title }} was rejected due to {{ reason }}"
 ```
 This will trigger a notification for both `pushover` and `email` for each rejected entry.
-
 #### Advanced usage 2:
 ```yaml
 tasks:
@@ -77,7 +74,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key
             message: "Task {{ task_name }} is done!"
@@ -91,7 +88,7 @@ In this example we use the global `title` to be passed to both `pushover` and `e
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  Settings defined in notifier plugin (ie. email, pushover) override setting values defined in notify plugin.
+  Internal plugin attributes overide global ones
 </div>
 
 ### Jinja2 usage
@@ -143,7 +140,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key
       scope: task
@@ -169,7 +166,6 @@ tasks:
         {% endif %}
 ```
 While these advanced templates can be very useful, they can appear bery bulky in the config. Instead you could use the `file_template` attribute:
-
 ```yaml
 tasks:
   download_task:
@@ -179,7 +175,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key
       scope: task
@@ -190,7 +186,6 @@ Some default file templates are supplied with flexget and are found under `/temp
 As with all other attributes, `file_template` can be used globally or within a specfic notifer config.
 ### Using the same notifier more than once
 There is no limitation to the number of times the same notifer can be used within a `notify` config:
-
 ```yaml
 tasks:
   download_task:
@@ -200,7 +195,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to:
+      to
         - pushover:
             user_key: user_key1
         - pushover:
