@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0762a48fcf567162c4897c54d9e8e8accc1c6916--->
+<!---8f430d42d070084cba83acc345d4ce61c792a1b2--->
 
-## 2.7.3.dev (unreleased)
+<!---198f43a33f1f582340eb78178203dba01f13bf76--->
+
+## 2.7.3 (2016-12-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.7.2...2.7.3)
 ### Fixed
 - apple_trailers: fixed some crashing caused by a typo
 
-<!---20bd66ca9497804b1d825bedde025c286e0024bf--->
 
 ## 2.7.2 (2016-12-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.7.1...2.7.2)
