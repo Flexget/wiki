@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4cdeee2c7aaaab0e7752db1af38c3b533d26daca--->
+<!---703982a59b9f4b444f6b1948342287353ec866cc--->
 
 ## 2.7.4.dev (unreleased)
 ### Fixed
 - entry render issue - Correctly create the `task_name` attribute. Fixes [#1540](https://github.com/Flexget/Flexget/issues/1540), Fixes [#1538](https://github.com/Flexget/Flexget/issues/1538)
+
+### Added
+- from_deluge - Allow user to specify extra keys wanted to be populated with from_deluge
 
 <!---198f43a33f1f582340eb78178203dba01f13bf76--->
 
