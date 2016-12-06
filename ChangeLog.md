@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8f430d42d070084cba83acc345d4ce61c792a1b2--->
+<!---4cdeee2c7aaaab0e7752db1af38c3b533d26daca--->
+
+## 2.7.4.dev (unreleased)
+### Fixed
+- entry render issue - Correctly create the `task_name` attribute. Fixes [#1540](https://github.com/Flexget/Flexget/issues/1540), Fixes [#1538](https://github.com/Flexget/Flexget/issues/1538)
 
 <!---198f43a33f1f582340eb78178203dba01f13bf76--->
 
