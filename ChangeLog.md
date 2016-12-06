@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---703982a59b9f4b444f6b1948342287353ec866cc--->
+<!---f222855cde09c7dc47a9e3f8dcf7516a5590c505--->
 
 ## 2.7.4.dev (unreleased)
 ### Fixed
+- archives plugin: treat IOErrors as “not a directory”. closes [#1525](https://github.com/Flexget/Flexget/issues/1525)
 - entry render issue - Correctly create the `task_name` attribute. Fixes [#1540](https://github.com/Flexget/Flexget/issues/1540), Fixes [#1538](https://github.com/Flexget/Flexget/issues/1538)
 
 ### Added
