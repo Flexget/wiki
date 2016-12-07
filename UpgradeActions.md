@@ -8,7 +8,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 
 ### **2.8.0** -- 2016.12.07
 
-Support for string replacement has been removed as it was causing issues with rendering. [Jinja2](/Jinja) is the only supported method now.
+Support for string replacement has been removed. [Jinja2](/Jinja) is the only supported method now.
 
 ### **2.7.0** -- 2016.11.15
 
