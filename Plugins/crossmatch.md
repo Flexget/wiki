@@ -71,10 +71,10 @@ rss:
   url: http://example.com/rss.xml
 crossmatch:
   from:
-	- filesystem:
-	  - /media/artists/
+    - filesystem:
+    - /media/artists/
   fields:
-	- title
+    - title
   action: accept
   exact: no
 ```
