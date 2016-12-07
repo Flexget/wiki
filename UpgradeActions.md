@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.8.0** -- 2016.12.07
+
+Support for string replacement has been removed, [Jinja2](/Jinja) is the only supported method now.
+
 ### **2.7.0** -- 2016.11.15
 
 - Major change to all notification plugins. Consult new [notifiers](/Plugins/Notifiers) page for name changes and schema changes,
