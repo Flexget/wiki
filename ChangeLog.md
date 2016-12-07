@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f222855cde09c7dc47a9e3f8dcf7516a5590c505--->
+<!---bf7fb53d21e9336596d1733b302fe7f27ee80520--->
 
-## 2.7.4.dev (unreleased)
+<!---48db1710530403ec289a9fb3eda25b1631900c04--->
+
+## 2.7.4 (2016-12-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.7.3...2.7.4)
 ### Fixed
 - archives plugin: treat IOErrors as “not a directory”. closes [#1525](https://github.com/Flexget/Flexget/issues/1525)
 - entry render issue - Correctly create the `task_name` attribute. Fixes [#1540](https://github.com/Flexget/Flexget/issues/1540), Fixes [#1538](https://github.com/Flexget/Flexget/issues/1538)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - from_deluge - Allow user to specify extra keys wanted to be populated with from_deluge
 
-<!---198f43a33f1f582340eb78178203dba01f13bf76--->
 
 ## 2.7.3 (2016-12-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.7.2...2.7.3)
