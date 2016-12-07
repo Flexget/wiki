@@ -30,14 +30,20 @@ When using Jinja2 templates, you can use the following custom filters in additio
 
 |Name|Description|
 |---|---|
-|pad(length)| Pad a number with 0s to the specified length|
-|pathbase|Base name of a path.|
-|pathname|Base name of a path, without its extension.|
-|pathext|Extension of a path (including the '.').|
-|pathdir| Directory containing the given path.|
-|pathscrub(os)| Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [pathscrub](/Plugins/pathscrub) plugin will be used.<br> **NOTE:** This should rarely be needed due to the builtin [pathscrub](/Plugins/pathscrub) plugin.
-|re_replace(pattern, replacement)| Do regexp substitution on the string.<br> **NOTE:** Captured groups can be accessed using \\1, \\2, etc, in the replacement string.|
-|formatdate(format)| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
+|`pad(length)`| Pad a number with 0s to the specified length|
+|`pathbase`|Base name of a path.|
+|`pathname`|Base name of a path, without its extension.|
+|`pathext`|Extension of a path (including the '.').|
+|`pathdir`| Directory containing the given path.|
+|`pathscrub(os)`| Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [pathscrub](/Plugins/pathscrub) plugin will be used.<br> **NOTE:** This should rarely be needed due to the builtin [pathscrub](/Plugins/pathscrub) plugin.
+|`re_replace(pattern, replacement)`| Do regexp substitution on the string.<br> **NOTE:** Captured groups can be accessed using \\1, \\2, etc, in the replacement string.|
+|`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
+|`re_search(pattern)`|Perform a search for given regexp pattern, return the matching portion of the text.
+|`parsedate`|Attempts to parse a date according to the rules in RFC 2822
+|`format_number`|Formats a number according to the user's locale.
+|`to_date`|Formats date
+
+
 
 #### Example:
 
