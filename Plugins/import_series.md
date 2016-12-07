@@ -1,1 +1,1 @@
-See ["Plugins/configure_series"](/"Plugins/configure_series").
+See [Plugins/configure_series](/Plugins/configure_series).
