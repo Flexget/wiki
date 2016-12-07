@@ -1,5 +1,5 @@
 # SFTP List
-Generate entries from SFTP. This plugin requires the pysftp Python module and its dependencies.
+Generate entries from SFTP to download with [sftp_download](sftp_download). This plugin requires the pysftp Python module and its dependencies.
 
 This plugin requires the pysftp Python module; to install it run:
 
