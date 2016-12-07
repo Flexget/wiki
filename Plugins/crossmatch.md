@@ -28,7 +28,8 @@ crossmatch:
 You will also need to enable [imdb_lookup](/Plugins/imdb_lookup) on the feed in order to get imdb_id populated. Granted, this is a lot more complicated than old imdb_rated used to be, but crossmatch allows all kinds of other clever uses as well.
 
 ### Organize movies you rated badly
-You could use [delete](/Plugins/delete) at your own risk.
+
+_WARNING: DOES NOT WORK CORRECTLY DUE PLUGIN ORDER!_
 
 ```yaml
 tasks:
@@ -44,8 +45,8 @@ tasks:
       from:
         - imdb_list:
             list: ratings
-            login: '\{{ secrets.imdb.login }}'
-            password: '\{{ secrets.imdb.pwd }}'
+            login: '{{ secrets.imdb.login }}'
+            password: '{{ secrets.imdb.pwd }}'
       fields:
         - imdb_id
       action: accept
