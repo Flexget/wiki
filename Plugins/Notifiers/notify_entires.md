@@ -16,11 +16,12 @@ The schema can also take any other property which will be passed to the configur
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  All passed attributes support Jinja2 usage
+  All passed attributes support
+  <a href="/Jinja/" class="alert-link">Jinja2</a>
 </div>
 
 ### Basic usage:
-Looking at the schema, we can see that by default, using the minimal `notify` setting, a notifier will be defined as such:
+Looking at the schema, we can see that by default, using the minimal `notify_entries` setting, a notifier will be defined as such:
 ```yaml
 tasks:
   download_task:
@@ -32,7 +33,7 @@ tasks:
         - pushover:
             user_key: user_key
 ```
-This will send a notification for each `accepted` entry. It is functionally similar to direcly calling the notifier plugin directly in the task as such:
+This will send a notification for each `accepted` entry. It is functionally similar to direcly calling the notifier plugin in the task as such:
 ```yaml
 tasks:
   download_task:
