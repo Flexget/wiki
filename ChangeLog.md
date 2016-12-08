@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b472ed496e13b40a2af76bfa700caaaced57c21d--->
+<!---505ab0fde4551d08ea49a2fabe376e1c6b38734c--->
 
 ## 2.8.0.dev (unreleased)
 ### Fixed
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Added
 - npo_watchlist - Fetch more of the series data exposed by NPO.nl
+
+### Changed
+- Notifiers tweaks
 
 <!---48db1710530403ec289a9fb3eda25b1631900c04--->
 
