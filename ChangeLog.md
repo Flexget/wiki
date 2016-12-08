@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---505ab0fde4551d08ea49a2fabe376e1c6b38734c--->
+<!---462cfe2f406deaafd320402bd8209e0261f9aa3e--->
 
-## 2.8.0.dev (unreleased)
+<!---7352bc355630fe9d94d8aae99cb871f064951c15--->
+
+## 2.8.0 (2016-12-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.7.4...2.8.0)
 ### Fixed
 - render - Removed string replacement
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - Notifiers tweaks
 
-<!---48db1710530403ec289a9fb3eda25b1631900c04--->
 
 ## 2.7.4 (2016-12-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.7.3...2.7.4)
