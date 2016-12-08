@@ -8,7 +8,7 @@ Notifer plugin are plugins that can be used individually, or via the managing pl
 | --- | --- |
 | [notify_task](/Plugins/Notifiers/notify_task) | Use one or more notifer plugins to send notifications about task|
 | [notify_entries](/Plugins/Notifiers/notify_task) | Use one or more notifer plugins to send notifications about task|
-| [notify_abort](/Plugins/Notifiers/notify_abort) | Use one or more notifer plugins to get FlexGet crash notifications (hopefully none) |
+| [notify_abort](/Plugins/Notifiers/notify_abort) | Use one or more notifer plugins to get FlexGet abort notifications |
 
 ## Notifiers
 | Plugin name | Description |
