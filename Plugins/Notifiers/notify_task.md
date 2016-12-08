@@ -16,7 +16,8 @@ The schema can also take any other property which will be passed to the configur
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  All passed attributes support Jinja2 usage
+  All passed attributes support
+  <a href="/Jinja/" class="alert-link">Jinja2 </a>
 </div>
 
 ### Basic usage:
