@@ -1,5 +1,5 @@
-# Notify abort
-Sends notification to [notifer](/Plugins/Notifiers) plugins on task aborts.
+# *Notify abort*
+Sends a notification to [notifer](/Plugins/Notifiers) plugins on task aborts.
 
 
 ### Config:
