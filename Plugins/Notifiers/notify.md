@@ -1,7 +1,10 @@
 <br>
-<div class="alert alert-danger" role="info">
+<div class="alert alert-warning" role="info">
   
   <span class="glyphicon glyphicon-remove-sign"></span>
-  &nbsp; Plugin is deprecated, switch to using [notify_entries](/Plugins/Notifiers/notify_entries) or [notify_task](/Plugins/Notifiers/notify_task) instead.
+  &nbsp; Plugin is deprecated, switch to using
+  <a href="/Plugins/Notifiers/notify_entries" class="alert-link">notify_entries</a>
+  or <a href="/Plugins/Notifiers/notify_task" class="alert-link">notify_task</a>
+   instead
 </div>
 
