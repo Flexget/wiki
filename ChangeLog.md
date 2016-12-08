@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---462cfe2f406deaafd320402bd8209e0261f9aa3e--->
+<!---131140161bd11b86cacda12380076542f1bc856e--->
+
+## 2.8.1.dev (unreleased)
+### Fixed
+- pushover - Correctly catch and handle RequestException when its Response is None
+- pushbullet - Correctly catch and handle RequestException when its Response is None
 
 <!---7352bc355630fe9d94d8aae99cb871f064951c15--->
 
