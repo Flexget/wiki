@@ -29,7 +29,7 @@ tasks:
     accept_all: yes
     download: /downloads/
     notify_task:
-      to
+      to:
         - pushover:
             user_key: user_key
 ```
@@ -46,7 +46,7 @@ tasks:
         - bla
     download: /downloads/
     notify_task:
-      to
+      to:
         - pushover:
             user_key: user_key
             message: "Task {{ task_name }} is done!"
@@ -73,7 +73,7 @@ tasks:
         - bla
     download: /downloads/
     notify_task:
-      to
+      to:
         - pushover:
             user_key: user_key
       message: |+
@@ -107,7 +107,7 @@ tasks:
         - bla
     download: /downloads/
     notify:
-      to
+      to:
         - pushover:
             user_key: user_key
       file_template: default
@@ -130,7 +130,7 @@ tasks:
         - bla
     download: /downloads/
     notify_task:
-      to
+      to:
         - pushover:
             user_key: user_key1
         - pushover:
