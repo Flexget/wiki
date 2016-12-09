@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1b2b13c205a65c39c6f3b0755fc23464db9d64f5--->
+<!---d6221ec8caecd92e979c0b2b13e910eacac9dc69--->
 
-## 2.8.1.dev (unreleased)
+<!---f4971af934cf29aafb9e008b07c0ee71549007e2--->
+
+## 2.8.1 (2016-12-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.0...2.8.1)
 ### Fixed
 - Prevent crash in imdb_list when trying to list_match against an entry without imdb_id
 - notify - Deprecation notice appeared incorrectly
 - pushover - Correctly catch and handle RequestException when its Response is None
 - pushbullet - Correctly catch and handle RequestException when its Response is None
 
-<!---7352bc355630fe9d94d8aae99cb871f064951c15--->
 
 ## 2.8.0 (2016-12-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.7.4...2.8.0)
