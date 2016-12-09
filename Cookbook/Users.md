@@ -14,7 +14,7 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
 * [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](http://flexget.com/FlexGetExtras).
-* [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.7.1) YAML template examples, use Trakt.tv to manage shows and movies.
+* [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.7.1) YAML anchor examples, use Trakt.tv to manage shows and movies.
 
 ## Untested 1.x Configs
 * [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
