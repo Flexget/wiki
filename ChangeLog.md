@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---08e14c435edcbe12cdc230f7571d79ba96d591af--->
+<!---1b2b13c205a65c39c6f3b0755fc23464db9d64f5--->
 
 ## 2.8.1.dev (unreleased)
 ### Fixed
+- Prevent crash in imdb_list when trying to list_match against an entry without imdb_id
 - notify - Deprecation notice appeared incorrectly
 - pushover - Correctly catch and handle RequestException when its Response is None
 - pushbullet - Correctly catch and handle RequestException when its Response is None
