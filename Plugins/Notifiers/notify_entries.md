@@ -29,7 +29,7 @@ tasks:
     accept_all: yes
     download: /downloads/
     notify_entries:
-      to
+      to:
         - pushover:
             user_key: user_key
 ```
@@ -53,7 +53,7 @@ tasks:
         - bla
     download: /downloads/
     notify_entries:
-      to
+      to:
         - pushover:
             user_key: user_key
         - email:
@@ -73,7 +73,7 @@ tasks:
         - bla
     download: /downloads/
     notify_entries:
-      to
+      to:
         - pushover:
             user_key: user_key
             message: "Task {{ task_name }} is done!"
@@ -139,7 +139,7 @@ tasks:
         - bla
     download: /downloads/
     notify_entries:
-      to
+      to:
         - pushover:
             user_key: user_key
       scope: task
@@ -163,7 +163,7 @@ tasks:
         - bla
     download: /downloads/
     notify_entries:
-      to
+      to:
         - pushover:
             user_key: user_key1
         - pushover:
