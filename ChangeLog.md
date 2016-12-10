@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d6221ec8caecd92e979c0b2b13e910eacac9dc69--->
+<!---cceeea1619d8cffcaf4eb45b112c87699feeb0b7--->
+
+## 2.8.2.dev (unreleased)
+### Fixed
+- rendering a template no longer crashes if entry.task is None, fixes [#1545](https://github.com/Flexget/Flexget/issues/1545)
 
 <!---f4971af934cf29aafb9e008b07c0ee71549007e2--->
 
