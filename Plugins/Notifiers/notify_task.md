@@ -112,7 +112,7 @@ tasks:
       accept_excluding:
         - bla
     download: /downloads/
-    notify:
+    notify_task:
       to:
         - pushover:
             user_key: user_key
