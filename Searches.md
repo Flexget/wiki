@@ -4,36 +4,28 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 ## Overview
 
-### Universal
-
-| **Keyword** | **Description** |
-| --- | --- |
-| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
-
 ### Public
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [1337x](/Searches/1337x) | Generates entries from [1337.to](http://1337x.to/) |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
-| [extratorrent](/Searches/extratorrent) | Generates entries from [extratorrent.cc](http://extratorrent.cc) |
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
-| [horriblesubs](/Plugins/horriblesubs) | Generate entries from [horriblesubs.info](http://horriblesubs.info) |
 | [isohunt](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
+| [kat](/Searches/kat) | Generate entries from [kat.ph](http://kat.ph) |
 | [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [publichd](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
 | [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
+| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
 | [torrent411](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
-| [limetorrents](/Searches/limetorrents) | Generates entries from [limetorrents.cc](http:/www.limetorrents.cc/) |
+| [torrentz](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
 
 
 ### Private
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [alpharatio](/Searches/alpharatio) | Searches torrent site AlphaRatio |
 | [btn](/Searches/btn) | Searches torrent site BTN |
 | [cpasbien](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
 | [freshon](/Searches/freshon) | Generates entries from [freshon.tv](http://freshon.tv) |
@@ -44,15 +36,14 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [sceneaccess](/Searches/sceneaccess) | Searches torrent site sceneaccess |
 | [torrentshack](/Searches/torrentshack) | Searches torrent site torrentshack |
 | [torrentleech](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
-| [whatcd](/Searches/whatcd) | Searches torrent site whatcd|
 |[fuzer](/Searches/fuzer) | Searches torrent site Fuzer
 
 
-You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --group search`, and minimal documentation for a plugin can be obtained with `flexget doc <plugin>`.
+You can always get an up to date overview of the available search plugins by using the command line with command 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
-#### Example
+** Example **
 
-```cmd
+```
 flexget plugins --group search
 -- Supported search plugins: --------------------------------------------------
  search_rss
