@@ -41,16 +41,37 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 You can always get an up to date overview of the available search plugins by using the command line with command 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
 
-** Example **
+### Example 
 
-```
+```bash
 flexget plugins --group search
--- Supported search plugins: --------------------------------------------------
- search_rss
- piratebay
- newzleech
- flexget_archive
- newtorrents
- torrentz
+┌─────────────────┬────────────┬───────┐
+│ Keyword         │ Phases     │ Flags │
+├─────────────────┼────────────┼───────┤
+│ 1337x           │            │ doc   │
+│ alpharatio      │            │ doc   │
+│ btn             │            │       │
+│ cpasbien        │            │       │
+│ divxatope       │            │ doc   │
+│ extratorrent    │            │ doc   │
+│ flexget_archive │            │ doc   │
+│ fuzer           │            │       │
+│ horriblesubs    │ input(128) │ doc   │
+│ iptorrents      │            │ doc   │
+│ limetorrents    │            │ doc   │
+│ morethantv      │            │ doc   │
+│ newtorrents     │            │ doc   │
+│ newznab         │            │ doc   │
+│ nyaa            │            │ doc   │
+│ piratebay       │            │ doc   │
+│ ptn             │            │       │
+│ rarbg           │            │ doc   │
+│ sceneaccess     │            │ doc   │
+│ search_rss      │            │ doc   │
+│ t411            │ input(128) │ doc   │
+│ torrent411      │            │ doc   │
+│ torrentleech    │            │ doc   │
+│ torrentshack    │            │ doc   │
+└─────────────────┴────────────┴───────┘
 -------------------------------------------------------------------------------
 ```
