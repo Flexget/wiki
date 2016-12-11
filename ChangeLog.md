@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e717df255c2b4ddea57e01b243218df5da7b81d6--->
+<!---a3b03537dc2a6df84161a0f7e14b53dd59cd05a2--->
 
-## 2.8.2.dev (unreleased)
+<!---c2a744c93a05fad6cae22b30139e0f8caafbeb53--->
+
+## 2.8.2 (2016-12-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.1...2.8.2)
 ### Fixed
 - Prevent task_notify from sending notifications when there are no accepted/failed entries.
 - rendering a template no longer crashes if entry.task is None, fixes [#1545](https://github.com/Flexget/Flexget/issues/1545)
 
-<!---f4971af934cf29aafb9e008b07c0ee71549007e2--->
 
 ## 2.8.1 (2016-12-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.0...2.8.1)
