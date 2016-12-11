@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a3b03537dc2a6df84161a0f7e14b53dd59cd05a2--->
+<!---cd763e04afdf6da8f1673dd567a42d55d4cb3b6c--->
+
+## 2.8.3.dev (unreleased)
+### Fixed
+- changed rss template to use relevant `tvdb_posters` field
+- changed html templates to use relevant `tvdb_posters` field. Fixed [#1548](https://github.com/Flexget/Flexget/issues/1548)
 
 <!---c2a744c93a05fad6cae22b30139e0f8caafbeb53--->
 
