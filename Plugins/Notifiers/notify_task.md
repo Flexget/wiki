@@ -57,7 +57,7 @@ tasks:
             user_key: user_key
             message: "Task {{ task_name }} is done!"
         - email:
-           to: address@someone.com
+            to: address@someone.com
       title: "Task {{ task_name }} has finished running"
 ```
 In this example we use the global `title` to be passed to both `pushover` and `email`. The global `message` attribute is passed to `email` but `pushover` configured its `message internally, overriding the global value. 
