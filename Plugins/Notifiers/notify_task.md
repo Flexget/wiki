@@ -9,9 +9,6 @@ This plugin runs on task exit and can be configured extensively.
   This plugin will send a single notification per task exectuion if it had <strong>1 or more accepted or failed entries </a>
 </div>
 
-
-
-
 ### Config:
 
 | Options |Type|  Description | Default |
