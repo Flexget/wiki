@@ -6,7 +6,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.8.4.dev (unreleased)
 ### Fixed
 - Crashes on generating random URLs on Python 3
-- Possible crashes on generating random URLs on Python3
 
 <!---4f34be1aedf28ab6fef66ab0afe59bbfebcc98d5--->
 
