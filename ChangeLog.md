@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---576a0ecc56fdeb529234dfe1b50482624452dc02--->
+<!---ccb4234bba775d1829acc75736cdd829b0f9ed74--->
+
+## 2.8.4.dev (unreleased)
+### Fixed
+- Crashes on generating random URLs on Python 3
+- Possible crashes on generating random URLs on Python3
 
 <!---4f34be1aedf28ab6fef66ab0afe59bbfebcc98d5--->
 
