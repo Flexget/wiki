@@ -1,1 +1,1 @@
-Renamed [telegram](/Plugins/telegram)
+Renamed [telegram](/Plugins/Notifiers/telegram)
