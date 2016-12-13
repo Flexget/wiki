@@ -28,8 +28,11 @@ The following settings are optional:
 | **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is False  |
 | **include_data** |  Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [configure_series](http://flexget.com/wiki/Plugins/configure_series) plugin |
 
-### Example: Add all listed shows to series list
-{{{
+## Examples
+
+### Configure series from sonarr
+
+```yaml
 get-all-shows-from-sonarr-task:
   configure_series:
     from:
@@ -38,10 +41,10 @@ get-all-shows-from-sonarr-task:
         port: 8989
         api_key: MYAPIKEY1123
         include_data: yes
-
-
-### List action example
 ```
+
+### Add series from trakt to sonarr
+```yaml
 trakt_list:
   account: account_name
   list: watchlist
@@ -53,5 +56,3 @@ list_add:
       port: 8989
       api_key: MYAPIKEY1123
 ```
-
-For more information about list action go to the [list_interface](/list_interface) page.
