@@ -1,7 +1,3 @@
----
-import:
-  - TerminalTable
----
 # Movie List
 <div class="alert alert-success" role="info">
   
