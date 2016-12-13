@@ -45,7 +45,7 @@ configure_series:
     propers: 3 days
 ```
 
-### Managed list
+### Add to thetvdb from trakt
 
 You can add, remove or match according to your favorites list. Note that entries must contain `tvdb_id` to operate on the list, so adding a lookup plugin like [thetvdb_lookup](/Plugins/thetvdb_lookup) to the task may be required.
 
