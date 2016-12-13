@@ -23,9 +23,11 @@ entry_list: <NAME>
 task:
   get-movies:
     priority: 1
-    rss: ..
+    rss: ...
+    accept_all: yes
     list_add:
       - entry_list: downloaded movies
+    download: ...
 
   email-report:
     priority: 2
@@ -34,7 +36,11 @@ task:
     email: ...
 ```
 
-This will add all accepted entries to an `entry_list` with the name `downloaded movies`. It then later be used as an input itself in a email-report task. Effectively this can replace the [digest](/Plugins/digest) plugin.
+First task `get-movies` will add all accepted entries to an `entry_list` with the name `downloaded movies`. It then later be used as an input itself in a `email-report` task. Effectively this can replace the [digest](/Plugins/digest) plugin.
+
+## Command line interface
+
+Please see [commandline documentation](/CLI/entry-list)
 
 ## Entry List API
 `entry_list` plugin has full JSON API support. See [API post](http://discuss.flexget.com/t/flexget-rest-api/) for details.
