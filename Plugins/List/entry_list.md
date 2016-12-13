@@ -1,8 +1,3 @@
----
-import:
-  - TerminalTable
----
-
 # Entry List
 <div class="alert alert-success" role="info">
   
