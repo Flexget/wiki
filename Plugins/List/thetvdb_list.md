@@ -18,16 +18,20 @@ You configure thetvdb_list plugin with your username and account id at TheTVDB .
 |username|Get this from [account tab](http://thetvdb.com/?tab=userinfo)|
 |account_id|Get this from [account tab](http://thetvdb.com/?tab=userinfo)
 
-### Example
+## Examples
+
+### As simple input
+
 ```yaml
 thetvdb_list:
   username: <username>
   account_id: <account identifier>
   strip_dates: yes
 ```
-### Example
-You can use any of the [settings](/Plugins/series#Settings) of the series plugin with the [configure_series](/Plugins/configure_series) plugin, as shown below.
 
+### Configure series plugin from thetvdb
+
+You can use any of the [settings](/Plugins/series#Settings) of the series plugin with the [configure_series](/Plugins/configure_series) plugin, as shown below.
 
 ```yaml
 configure_series:
@@ -41,10 +45,9 @@ configure_series:
     propers: 3 days
 ```
 
-## Adding and removing
-You can add, remove or match according to your favorites list. Note that entries must contain `tvdb_id` to operate on the list, so adding a lookup plugin like [thetvdb_lookup](/Plugins/thetvdb_lookup) to the task may be required.
+### Managed list
 
-### Example
+You can add, remove or match according to your favorites list. Note that entries must contain `tvdb_id` to operate on the list, so adding a lookup plugin like [thetvdb_lookup](/Plugins/thetvdb_lookup) to the task may be required.
 
 This would import all series from trakt_list and add them to yout tvdb_list.
 
