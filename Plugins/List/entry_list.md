@@ -33,6 +33,7 @@ task:
       - entry_list: downloaded movies
 
   email-report:
+    priority: 2
     entry_list: downloaded movies
     accept_all: yes
     email: ...
