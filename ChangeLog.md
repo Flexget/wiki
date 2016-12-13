@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b4ed8b8554c45403b86b1d84bdf61183f57d7e3a--->
+<!---e944dc5830cffa8bb0e8f7bbe392856aa7699220--->
 
-## 2.8.4.dev (unreleased)
+<!---0f0aa45436f9481fd8157b71f91558d4677677c2--->
+
+## 2.8.4 (2016-12-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.3...2.8.4)
 ### Fixed
 - Fix flexget-headless crashing on Windows. fix [#1556](https://github.com/Flexget/Flexget/issues/1556)
 - Crashes on generating random URLs on Python 3
 
-<!---4f34be1aedf28ab6fef66ab0afe59bbfebcc98d5--->
 
 ## 2.8.3 (2016-12-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.2...2.8.3)
