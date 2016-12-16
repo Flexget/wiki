@@ -1,14 +1,27 @@
 # HorribleSubs
 
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+This plugin requires the cfscrape Python library. To install it, run the following command:
+<br/><br/>
+
+```cmd
+pip install cfscrape
+```
+</div>
+
 This plugin works as an input and as a search backend.
 
-#### Example as input:
+## Examples
+
+### As plain input
 
 ```yaml
 horriblesubs: yes
 ```
 
-#### Example with discover:
+### Discover next episodes of series
 
 ```yaml
 tasks:
