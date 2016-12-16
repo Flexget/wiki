@@ -37,9 +37,7 @@
                 </div>
             </div>
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <hr>
-                <h2>New Wiki</h2>
-                <p>It's a new wiki! We've migrated from <a href="https://trac.edgewall.org/">trac</a> to <a href="http://realms.io/">realms</a> for our wiki. There are many improvements, including better mobile support, and live previews while editing. If there were problems with the markdown conversion, feel free to fix them up. If there are any other issues, come find us in chat, so we can work them out.</p>
+                <br /><br />            
             </div>
         </div>
     </div>
@@ -68,7 +66,7 @@
                                 <i class="fa fa-sitemap fa-stack-1x text-flexdark"></i>
                             </span>
                             <h4><strong>Client Integration</strong></h4>
-                            <p>Directly integrates with <a href="http://deluge-torrent.org/" target="_blank">Deluge</a>, <a href="http://www.transmissionbt.com/" target="_blank">transmission</a>, <a href="http://www.utorrent.com/" target="_blank">uTorrent</a> and <a href="https://rakshasa.github.io/rtorrent/" target="_blank">rTorrent</a>.</p>
+                            <p>Directly integrates with <a href="http://deluge-torrent.org/" target="_blank">Deluge</a>, <a href="http://www.transmissionbt.com/" target="_blank">transmission</a>, <a href="http://www.utorrent.com/" target="_blank">uTorrent</a>, <a href="https://rakshasa.github.io/rtorrent/" target="_blank">rTorrent</a>, <a href="https://sabnzbd.org" _target="_blank">SABnzb</a> and more.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
