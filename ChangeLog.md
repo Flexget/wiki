@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e944dc5830cffa8bb0e8f7bbe392856aa7699220--->
+<!---7de86b22689fa98f38b54a20c89b5e953e8d20f2--->
+
+## 2.8.5.dev (unreleased)
+### Fixed
+- Updated horriblesubs to use cfscrape
 
 <!---0f0aa45436f9481fd8157b71f91558d4677677c2--->
 
