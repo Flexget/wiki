@@ -30,51 +30,52 @@ Currently the following settings are supported:
 | **force_file_existence** | Check for file existence when adding to list and using the list as input. Removes non-existent files/dirs from the list if "yes". |
 | **recursion_depth** | Parameter specifying how deep it should search for files when outputting from the list. Setting it to 1 means it won't search in any subfolders. |
 
+## Examples
 
-### Example: Add video files while moving
+### Add video files while moving
 This example shows how you would use subtitle_list in a task that sorts episodes based on their series_name.
 
-```
-  move_shows:
-    metainfo_series: yes 
-    filesystem:
-      path:
-        - ~/Downloads
-      regexp: '.*\.(avi|mkv|mp4)$'
-      recursive: yes
-      retrieve: files
-    thetvdb_lookup: yes
-    accept_all: yes
-    move:
-      to: /some/path/{{ series_name }}
-    list_add:
-      - subtitle_list:
-          list: subtitles
-          languages:
-            - en
+```yaml
+move_shows:
+  metainfo_series: yes 
+  filesystem:
+    path:
+      - ~/Downloads
+    regexp: '.*\.(avi|mkv|mp4)$'
+    recursive: yes
+    retrieve: files
+  thetvdb_lookup: yes
+  accept_all: yes
+  move:
+    to: /some/path/{{ series_name }}
+  list_add:
+    - subtitle_list:
+        list: subtitles
+        languages:
+          - en
 ```
 
-### Example: Download subtitles
+### Download subtitles
 This example shows how to use the files in a subtitle list along with [subliminal](/Plugins/subliminal) to download subtitles.
 
-```
-  get_subs:
-    no_entries_ok: yes
-    subtitle_list:
-      list: subtitles
-      recursion_depth: 3
-    list_match:
-      from:
-        - subtitle_list:
-            list: subtitles
-    subliminal:
-      languages:  # languages is required, but if a language is specified in subtitle_list, it takes priority
-        - en
-      providers: 
-        - addic7ed
-        - opensubtitles
-        - podnapisi
-        - tvsubtitles
-      single: no  # will append the language code to the subtitle file
-      exact_match: no
+```yaml
+get_subs:
+  no_entries_ok: yes
+  subtitle_list:
+    list: subtitles
+    recursion_depth: 3
+  list_match:
+    from:
+      - subtitle_list:
+          list: subtitles
+  subliminal:
+    languages:  # languages is required, but if a language is specified in subtitle_list, it takes priority
+      - en
+    providers: 
+      - addic7ed
+      - opensubtitles
+      - podnapisi
+      - tvsubtitles
+    single: no  # will append the language code to the subtitle file
+    exact_match: no
 ```
