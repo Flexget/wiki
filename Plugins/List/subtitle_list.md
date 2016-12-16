@@ -21,14 +21,11 @@ The main purpose of this plugin is to keep track of local video files that are i
 
 **Notes:** 
 
- * subliminal >=2.0rc1 is required for this plugin to work properly.
  * This plugin should be used together with [subliminal](/Plugins/subliminal) plugin.
  * When outputting a directory from the list, it will attempt to search for video files with the specified recursion depth (default 1 ie. no recursion) and add them to the list. If it finds any video files it will delete the dir from the list. Thus it's your own responsibility to make sure that *all* or *none* of the files are present when a task with [list_match](/Plugins/List/list_match) is executed.
 
 ## Plugin Settings
 Currently the following settings are supported:
-
-
 
 |  Option  |  Description  |
 | --- | --- |
