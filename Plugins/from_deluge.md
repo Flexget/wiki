@@ -10,6 +10,7 @@ This plugin creates an [entry](/Entry) for each torrent that is currently loaded
 | password | Deluge password (defaults to automatic local client authentication if not specified) |
 | config_path | The path to your Deluge config folder. (must be specified for .torrent files to be available) |
 | filter | Criteria can be specified to limit which items from Deluge will have entries created. |
+| keys | Any extra attributes that should be collected from Deluge |
 |  | **Filter options** |
 | label | Match torrents with the specified label. |
 | state | Can be 'active', 'downloading', 'seeding', 'queued' or 'paused' |
@@ -33,3 +34,18 @@ The [entries](/Entry) that this plugin creates will have the following entry fie
 |  | *(the following fields are only available if `config_path` is specified)* |
 | location | Path to torrent file |
 ||url||Path to torrent file in '!file://' format||
+
+## Keys fields
+The `keys` attribute can contain a list with any of the keys below:
+
+`
+active_time, compact, distributed_copies, download_payload_rate, file_priorities,
+file_progress, is_auto_managed, is_seed, max_connections,
+max_download_speed, max_upload_slots, max_upload_speed, message, move_on_completed,
+next_announce, num_files, num_pieces, 
+paused, peers, piece_length, prioritize_first_last, queue, remove_at_ratio, seed_rank, stop_at_ratio, stop_ratio, total_done, total_payload_download, total_payload_upload,
+total_peers, total_seeds, total_uploaded, total_wanted, tracker,
+tracker_host, tracker_status, trackers, upload_payload_rate
+`
+
+When any of these keys are present, the entry will get populated with these values from Deluge
