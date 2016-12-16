@@ -5,6 +5,17 @@
   &nbsp; This is part of [managed list](/Plugins/List) plugin system.
 </div>
 
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+This plugin requires the <a href="http://subliminal.readthedocs.io/">subliminal</a> Python library, version 2.0 or newer. To install it, run the following command:
+<br/><br/>
+
+```cmd
+pip install subliminal>=2.0
+```
+</div>
+
 The main purpose of this plugin is to keep track of local video files that are in need of subtitles. While it allows directories (if specified in config), it's a bit finicky. If you experience any issues, be it unexpected behaviour or bugs, report it on our Github page (http://github.com/Flexget/Flexget).
   
 
