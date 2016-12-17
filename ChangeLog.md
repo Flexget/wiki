@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7de86b22689fa98f38b54a20c89b5e953e8d20f2--->
+<!---a3d0d987f47eaa90e20a1069708e9dd891083fe1--->
 
-## 2.8.5.dev (unreleased)
+<!---5cc27042d0495aebf391a9d5bccd061e84e23adb--->
+
+## 2.8.5 (2016-12-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.4...2.8.5)
 ### Fixed
 - Updated horriblesubs to use cfscrape
 
-<!---0f0aa45436f9481fd8157b71f91558d4677677c2--->
 
 ## 2.8.4 (2016-12-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.3...2.8.4)
