@@ -110,10 +110,7 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | trakt_series_air_time | [trakt_lookup](/Plugins/trakt_lookup) | Time the series ran |
 | trakt_series_content_rating | [trakt_lookup](/Plugins/trakt_lookup) | Content rating ex: TV-14 |
 | trakt_series_genres | [trakt_lookup](/Plugins/trakt_lookup) | Series genres |
-| trakt_series_netowrk | [trakt_lookup](/Plugins/trakt_lookup) | Series network |
-| trakt_series_banner_url | [trakt_lookup](/Plugins/trakt_lookup) | Series banner |
-| trakt_series_fanart_url | [trakt_lookup](/Plugins/trakt_lookup) | Series Fanart |
-| trakt_series_poster_url | [trakt_lookup](/Plugins/trakt_lookup) | Series poster |
+| trakt_series_network | [trakt_lookup](/Plugins/trakt_lookup) | Series network |
 | trakt_series_imdb_id | [trakt_lookup](/Plugins/trakt_lookup) | Series IMDB ID |
 | trakt_series_tvdb_id | [trakt_lookup](/Plugins/trakt_lookup) | Series TVDB ID |
 | trakt_series_tvrage_id | [trakt_lookup](/Plugins/trakt_lookup) | Series TVRage ID |
@@ -125,7 +122,6 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | trakt_ep_name | [trakt_lookup](/Plugins/trakt_lookup) | Episode name |
 | trakt_ep_first_aired_epoch | [trakt_lookup](/Plugins/trakt_lookup) | Episode premier date in epoch |
 | trakt_ep_first_aired_iso | [trakt_lookup](/Plugins/trakt_lookup) | Episode premier date time stamp |
-| trakt_ep_image_url | [trakt_lookup](/Plugins/trakt_lookup) | Episode screenshot |
 | trakt_ep_overview | [trakt_lookup](/Plugins/trakt_lookup) | Episode overview |
 | trakt_season | [trakt_lookup](/Plugins/trakt_lookup) | Episode season |
 | trakt_episode | [trakt_lookup](/Plugins/trakt_lookup) | Episode Number |
