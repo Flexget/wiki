@@ -9,7 +9,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 ### **2.8.0** -- 2016.12.07
 
 - Notifier changes, following the feedback from 2.7.0:
-  - Created [notify_entires](/Plugins/Notifiers/notify_entires) and [notify_task](/Plugins/Notifiers/notify_task) and deprecated `notify` plugin.
+  - Created [notify_entries](/Plugins/Notifiers/notify_entries) and [notify_task](/Plugins/Notifiers/notify_task) and deprecated `notify` plugin.
   - Changed `notify_crash` to [notify_abort](/Plugins/Notifiers/notify_abort).
   - Tweaked `file_templates`usage slightly.
   - Added [templates](/CLI/templates) CLI action to get a list of available file templates.
