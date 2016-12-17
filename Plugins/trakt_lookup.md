@@ -6,6 +6,9 @@ If you are having problems returning the correct information for a show. Please 
 <div class="alert alert-info" role="alert">
 
 Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.</div>
+<div class="alert alert-danger" role="alert">
+
+As of October 1st 2016, Trakt no longer provides images.</div>
 
 #### Syntax
 
@@ -55,7 +58,6 @@ trakt_lookup:
 
 | Trakt_lookup fields  |  Description  |
 | --- | --- |
-| trakt_series_images | Dict of available images, More information [#info1 'here'] |
 | trakt_languages |  List of available translations in iso-36 |
 | trakt_translations |  List of dictionaries all translations from languages |
 | trakt_homepage |  Network's page for linking |
@@ -79,11 +81,7 @@ trakt_lookup:
 | trakt_ep_abs_number |  Episode absolute number  |
 | trakt_watched |  `True` if watched on `username`'s profile  |
 | trakt_collected |  `True` if collected on `username`'s profile  |
-`New to Episode`
 
-| Trakt_lookup Field  |  Description  |
-| --- | --- |
-| trakt_ep_images |  Dict of available images, More information [#info1 'here']  |
 ----
 **Movie Metainfo**
 
@@ -117,7 +115,6 @@ trakt_lookup:
 | trakt_trailer |  Trailer if available  |
 | trakt_languages |  List of available translations  |
 | trakt_translations |  List of dictionaries all translations from languages  |
-| trakt_images |  Dict of all images available, More from [#info1 'here']  |
 ----
 
 | Trakt_lookup Actors fields  |  Description  |
@@ -130,8 +127,7 @@ trakt_lookup:
 | tract_actors.biograph |  Wikipedia overview for actor  |
 | trakt_actors.birthday |  Birthday of actors in python.date format  |
 | trakt_actors.death |  Date actor died in python.date format  |
-| trakt_actors.homepage |  ?Official url for actor  |
-| trakt_actors.images |  Dict of images, More information [#info1 'here']  |
+| trakt_actors.homepage |  Official url for actor  |
 
 
 `NOT ALL FIELS AVAILABLE`
