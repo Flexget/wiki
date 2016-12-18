@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---758069768539492f032d131b44d91ca4eda20783--->
+<!---ff8b275c941a9117ba4701129e16aeb7883bb3a3--->
 
-## 2.8.6.dev (unreleased)
+<!---bad5be3843b1fa014e415e18aef3ef1d67cdb501--->
+
+## 2.8.6 (2016-12-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.5...2.8.6)
 ### Fixed
 - T411: Update domain url to .li, fixes [#1567](https://github.com/Flexget/Flexget/issues/1567)
 
 ### Changed
 - trakt_lookup: removed images as Trakt.tv no longer provides them
 
-<!---5cc27042d0495aebf391a9d5bccd061e84e23adb--->
 
 ## 2.8.5 (2016-12-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.4...2.8.5)
