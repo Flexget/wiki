@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff8b275c941a9117ba4701129e16aeb7883bb3a3--->
+<!---8bce8453e1abdf7dd7400a87cf11297759ac5068--->
+
+## 2.8.7.dev (unreleased)
+### Added
+- movie-list CLI - Added ability to delete movie by ID
 
 <!---bad5be3843b1fa014e415e18aef3ef1d67cdb501--->
 
