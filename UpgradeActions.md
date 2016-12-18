@@ -58,7 +58,7 @@ Due to changes in the IPC protocol, you will not be able to connect to a running
   web_server: 8080
   ```
   API is now always enabled when running the web server, UI is optional (enabled by default).  
-  See [Web-UI](/http://flexget.com/Web-UI) and [API](http://flexget.com/API) pages for more detail.
+  See [Web-UI](/https://flexget.com/Web-UI) and [API](https://flexget.com/API) pages for more detail.
 
 ### **2.3.0** -- 2016.08.17 
 
@@ -110,7 +110,7 @@ As an effort to provide more consistent configuration and better user experience
 
 Version 2.0.0 of FlexGet introduces python3.x support. This was a huge refactor and has been tested to be best of our abilities. With such a huge change like this we expect there to be some bugs especially with third party plugins. 
 
-For more information on py2/3 code visit [http://flexget.com/wiki/Developers](/http://flexget.com/wiki/Developers)
+For more information on py2/3 code visit [https://flexget.com/wiki/Developers](/https://flexget.com/wiki/Developers)
 
 Please log bugs to [https://github.com/Flexget/Flexget/issues](/https://github.com/Flexget/Flexget/issues)
 
@@ -124,8 +124,8 @@ Please log bugs to [https://github.com/Flexget/Flexget/issues](/https://github.c
 
 **List interface:**
 
-A new convention of plugins that allows usage as input, filter and output. See [wiki page](http://flexget.com/wiki/Plugins/List) for additional information.
-* [imdb_list](http://flexget.com/wiki/Plugins/List/imdb_list) plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
+A new convention of plugins that allows usage as input, filter and output. See [wiki page](https://flexget.com/wiki/Plugins/List) for additional information.
+* [imdb_list](https://flexget.com/wiki/Plugins/List/imdb_list) plugin has changed attributes (and can now be used to add, remove or filter movies from IMDB watchlist directly).
 * `couchpotato` changed its name to `couchpotato_list`.
 * `sonarr` changed its name to `sonarr_list`.
 
@@ -152,7 +152,7 @@ Field `tvdb_poster_url` changed to `tvdb_posters` which is a list of the top 5 p
 Python 2.6 is no longer being supported by FlexGet. Support for python 2.6 itself ended October 2013, and it is no longer receiving even security updates. You should upgrade to python 2.7 if you have not done so already.
 
 ### 1.2.464 -- 2016.02.29
-The `ignore_estimations` option in the [Discover](http://flexget.com/wiki/Plugins/discover) plugin was changed and now it should be used as `release_estimations`. See plugin page for further information. If you did not use that option, no action is needed.
+The `ignore_estimations` option in the [Discover](https://flexget.com/wiki/Plugins/discover) plugin was changed and now it should be used as `release_estimations`. See plugin page for further information. If you did not use that option, no action is needed.
 
 ### 1.2.455 -- 2016.02.18
 The `urlrewrite_redirect` plugin, which previously rewrite all accepted entries' urls to any url they redirected to has been disabled by default. If you need this behavior, you must add `redirect_url: yes` to your task.
@@ -163,7 +163,7 @@ The `listdir` and `find` plugins (which have been deprecated for a while) have n
 Deluge 1.1 support has been removed from the deluge plugin.
 
 ### 1.2.446 -- 2016.02.02
-The markdown option in the [Telegram plugin](http://flexget.com/wiki/Plugins/send_telegram) was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [Telegram API page for more details](https://core.telegram.org/bots/api#formatting-options). Also, the minimal required version of `python-telegram-bot` is `3.2.0`. Upgrade using `pip install python-telegram-bot --upgrade`.
+The markdown option in the [Telegram plugin](https://flexget.com/wiki/Plugins/send_telegram) was changed from `use_markdown` to `parse_mode` and it now accept either `markdown` or `html`. Update your configurations accordingly. [Telegram API page for more details](https://core.telegram.org/bots/api#formatting-options). Also, the minimal required version of `python-telegram-bot` is `3.2.0`. Upgrade using `pip install python-telegram-bot --upgrade`.
 
 ### ?? -- 2015.12.29
 
@@ -176,7 +176,7 @@ The search plugin is called henceforth `t411` instead of `torrent411`. Credentia
 You can no longer use the plugin `html` or `rss` for scraping the Torrent411 website. Instead, use the [t411 input plugin](/Plugins/t411).
 
 ### 1.2.410 -- 2015.12.16 
-Due to a complete refactor of [Pushover plugin](http://flexget.com/wiki/Plugins/pushover), the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
+Due to a complete refactor of [Pushover plugin](https://flexget.com/wiki/Plugins/pushover), the field `urltitle` need to be changed to `url_title` in config. Users that do not use that field in their Pushover plugin config do not need to change anything, and all should work well.
 
 ### 1.2.389 --2015.11.15 
 TVRage seems to be down, so in its place we have implemented [TVMaze](http://www.tvmaze.com), which requires a few new dependencies.

@@ -119,7 +119,7 @@ feeds:
       - tv
     priority: 50
     
-# Inspired by the great wiki cookbook entry "Sort Downloads" (http://flexget.com/wiki/Cookbook/SortDownloads)
+# Inspired by the great wiki cookbook entry "Sort Downloads" (https://flexget.com/wiki/Cookbook/SortDownloads)
 # I designed some "feeds" that manages my downloaded series on my local machine and on my network storage.
 # It will sort the completed torrents by "<series_name>/Season <series_season>/<file>" (remote and local)
 

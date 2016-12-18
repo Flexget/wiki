@@ -431,7 +431,7 @@ tasks:
 ```
 
 Notes about the general purpose config:
-- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [http://flexget.com/wiki/Web-UI](/http://flexget.com/wiki/Web-UI))
+- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [https://flexget.com/wiki/Web-UI](/https://flexget.com/wiki/Web-UI))
 - The General purpose config will clean up entries from your lists that have been watched already.
 - The old_files task is UNTESTED! Use with caution.
 

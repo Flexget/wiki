@@ -56,7 +56,7 @@ The **api** parameter should be the address of the webinterface followed by "/ap
 Don't forget to set the correct **username** and **password**.
 
 ### How to Add Downloads
-You can define the naming format for the packages to be added with every entry by specifying the **package** parameter accordingly. It is [Jinja](http://flexget.com/wiki/Jinja) enabled and, therefore, allows for a dynamic formatting by applying the [entry](http://flexget.com/wiki/Entry)'s field values.
+You can define the naming format for the packages to be added with every entry by specifying the **package** parameter accordingly. It is [Jinja](https://flexget.com/wiki/Jinja) enabled and, therefore, allows for a dynamic formatting by applying the [entry](https://flexget.com/wiki/Entry)'s field values.
 For example, the following will result in packages like "The Walking Dead - S01E05":
 ```
 pyload:

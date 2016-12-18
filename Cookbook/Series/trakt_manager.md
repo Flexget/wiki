@@ -40,7 +40,7 @@ tasks:
       type: shows
 
   # This task is what will actually download your shows.
-  # See http://flexget.com/wiki/Cookbook/Series/Search for a more detailed explanation of how this search based task works, as well as an example of how to use your `tv` template on an rss based task alongside.
+  # See https://flexget.com/wiki/Cookbook/Series/Search for a more detailed explanation of how this search based task works, as well as an example of how to use your `tv` template on an rss based task alongside.
   get shows:
     # If this is your only task getting shows, you can just include the configure_series plugin here instead of using the template.
     template: tv
@@ -48,8 +48,8 @@ tasks:
       what:
         - emit_series: yes
       from:
-        - # Pick a search plugin(s) http://flexget.com/wiki/Searches
-    # Also add an appropriate output plugin here (perhaps `transmission` or `deluge` if you are using those clients.) http://flexget.com/wiki/Plugins#Output
+        - # Pick a search plugin(s) https://flexget.com/wiki/Searches
+    # Also add an appropriate output plugin here (perhaps `transmission` or `deluge` if you are using those clients.) https://flexget.com/wiki/Plugins#Output
 
 # If you are using daemon mode, make sure you schedule the tasks in the right order, so that the begin episode gets set before it tries to download your shows
 schedules:

@@ -1,7 +1,7 @@
 ## Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 For this to work you have to setup a few things.
 
-* Setup your favorite torrent-client and have it look in a folder for new torrents. In this configuration I use transmission.(XXX macro: "BR") Read here for installation instructions: [http://flexget.com/wiki/InstallWizard](/http://flexget.com/wiki/InstallWizard)
+* Setup your favorite torrent-client and have it look in a folder for new torrents. In this configuration I use transmission.(XXX macro: "BR") Read here for installation instructions: [https://flexget.com/wiki/InstallWizard](/https://flexget.com/wiki/InstallWizard)
 * Find a good feed for your series. I highly recommend using showRSS [http://showrss.info](/http://showrss.info)
 * You have to find your userID at IMDB look at http://www.imdb.com/user/XXXXXXXXXX/ (the XX.. is your IMDB-userID).
 * Create a new e-mail with Gmail or use your existing one for e-mailnotifications.(XXX macro: "BR") Template goes into [flexdir](/flexdir)/templates/
@@ -10,7 +10,7 @@ The watchlist you specify in this configuration have to be public for FlexGet to
 
 I had to make a small change to the file search_kat.py for the plugin to work as it pointed to the old adress kickass.to
 
-All thanks to user UnNefer for his e-mail-template from his own guide: http://flexget.com/wiki/Cookbook/Users/UnNefer
+All thanks to user UnNefer for his e-mail-template from his own guide: https://flexget.com/wiki/Cookbook/Users/UnNefer
 
 ----
 

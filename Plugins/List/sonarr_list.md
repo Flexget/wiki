@@ -26,7 +26,7 @@ The following settings are optional:
 | **port** | This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80.  |
 | **include_ended** |  Decides whether to retrieve ended shows. Default is True  |
 | **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is False  |
-| **include_data** |  Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [configure_series](http://flexget.com/wiki/Plugins/configure_series) plugin |
+| **include_data** |  Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [configure_series](https://flexget.com/wiki/Plugins/configure_series) plugin |
 
 ## Examples
 

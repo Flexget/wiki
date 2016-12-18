@@ -4,7 +4,7 @@ This config runs tasks to perform the following actions:
 
 1) Grab an RSS feed, download desired series from it, and download the .torrent files to a watched folder
 2) Grab an RSS feed, download all items from it, and download the .torrent files to a watched folder
-3) Use the [AutomaticRarUnpack](http://flexget.com/wiki/Cookbook/AutomaticRarUnpack) recipe to check the seeding folder for .rar files, and extract them to a "new videos" folder
+3) Use the [AutomaticRarUnpack](https://flexget.com/wiki/Cookbook/AutomaticRarUnpack) recipe to check the seeding folder for .rar files, and extract them to a "new videos" folder
 4) Check the seeding folder for completed .avi, .mkv. or .mp4 files, and copy them to a "new videos" folder
 5) Check the "new videos" folder for TV show files, and clean up the naming style
 
@@ -12,9 +12,9 @@ The config is styled towards running on Mac OS X, but should be easily modified 
 
 Each task will send a Prowl notification on completion. A secrets file is used for confidentiality and ease of repetition.
 
-Some TV show files on my site-of-choice come named *series.name.xyy.quality.ext* instead of *series.name.SxxEyy.quality.ext*. The "Rename Copied TV Shows" task uses regexp supplied by the "renameshows" template to reformat everything to *Series Name.SxxEyy.quality.ext*. Because it places the renamed file in to the same folder, the [Seen plugin](http://flexget.com/wiki/Plugins/seen) actions the file twice. You could move the files to another folder to avoid this - I've chosen not to. Seen is also run in local mode to avoid messing up episode order or erroneously skipping files.
+Some TV show files on my site-of-choice come named *series.name.xyy.quality.ext* instead of *series.name.SxxEyy.quality.ext*. The "Rename Copied TV Shows" task uses regexp supplied by the "renameshows" template to reformat everything to *Series Name.SxxEyy.quality.ext*. Because it places the renamed file in to the same folder, the [Seen plugin](https://flexget.com/wiki/Plugins/seen) actions the file twice. You could move the files to another folder to avoid this - I've chosen not to. Seen is also run in local mode to avoid messing up episode order or erroneously skipping files.
 
-Finally, because we have a [Mac OS X LaunchAgent](http://flexget.com/wiki/InstallWizard/OSX) calling the script every 15 minutes, the [Secheduler](http://flexget.com/wiki/Plugins/Daemon/scheduler) plugin is turned off.
+Finally, because we have a [Mac OS X LaunchAgent](https://flexget.com/wiki/InstallWizard/OSX) calling the script every 15 minutes, the [Secheduler](https://flexget.com/wiki/Plugins/Daemon/scheduler) plugin is turned off.
 
 I've put in lots of comments on stuff that I struggled with while I was learning :-)
 

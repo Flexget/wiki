@@ -25,7 +25,7 @@ configure_series, Does it write a list to db, or pass a text config to series pl
 * All tracking will be done internally in the list scope and not globally.
 * `next_series_episodes` will be able to take a `series_list` name. By default it'll use the default series name.
 * `configure_series` will still be used and will reset the default list. Behind the scenes it'll add new values to list and mark them as `active`. All other values in the list will be marked as non active. Series filter will take only `active` series to consideration. 
-* Proposed ERD: ![erd](http://flexget.com/attachments/Drafts/series_db_refactor/series_erd.png)
+* Proposed ERD: ![erd](https://flexget.com/attachments/Drafts/series_db_refactor/series_erd.png)
 
 ## New Stuff
 

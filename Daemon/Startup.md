@@ -329,7 +329,7 @@ systemctl start flexget
 
 
 ### Systemd user unit (Arch Linux, Fedora, etc)
-From @mkaito, Trac #[2526](http://flexget.com/ticket/2526).
+From @mkaito, Trac #[2526](https://flexget.com/ticket/2526).
 
 To have flexget by accessible as a systemd user unit.
 

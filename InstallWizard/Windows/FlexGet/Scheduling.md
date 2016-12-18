@@ -12,26 +12,26 @@ Open *Scheduling Tasks* from windows *Control panel*.
 
 **1.** Create new Task
 
-<img src="http://flexget.com/attachments/WikiPics/scheduling_1.png">
+<img src="https://flexget.com/attachments/WikiPics/scheduling_1.png">
 
 **2.** Open the newly created task
 
-<img src="http://flexget.com/attachments/WikiPics/scheduling_2.png">
+<img src="https://flexget.com/attachments/WikiPics/scheduling_2.png">
 
 **3.** Command to execute. If you stored `config.yml` under `Documents and Settings\<user profile>\flexget\` then the `Start in` is not necessary. \\
 **NOTE:**
 - If you would like to avoid the cmd window popup, you can use the `flexget-headless` executable instead of plain `flexget`.
 - If you have not added the python scripts folder to your PATH environment variable, you should use the full path to flexget in this step. i.e. `C:\Python26\Scripts\flexget-headless.exe --cron execute` for python 2.6
 
-<img src="http://flexget.com/attachments/WikiPics/scheduling_3.png">
+<img src="https://flexget.com/attachments/WikiPics/scheduling_3.png">
 
 **4.** Go into *Schedule* tab. And press *Advanced* button.
 
-<img src="http://flexget.com/attachments/WikiPics/scheduling_4.png">
+<img src="https://flexget.com/attachments/WikiPics/scheduling_4.png">
 
 **5.** Enter scheduling values.
 
-<img src="http://flexget.com/attachments/WikiPics/scheduling_5.png">
+<img src="https://flexget.com/attachments/WikiPics/scheduling_5.png">
 
 # Done
 

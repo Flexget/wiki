@@ -267,7 +267,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
 | [bluray_lookup](/Plugins/bluray_lookup) | Enable http://m.blu-ray.com/ parsing for bluray fields on-demand. |
-| [nfo_lookup](http://flexget.com/Plugins/nfo_lookup) | Read movie information from an [nfo file](http://kodi.wiki/view/NFO_files) (specially useful for [Kodi](https://kodi.tv/) libraries).
+| [nfo_lookup](https://flexget.com/Plugins/nfo_lookup) | Read movie information from an [nfo file](http://kodi.wiki/view/NFO_files) (specially useful for [Kodi](https://kodi.tv/) libraries).
 | [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |

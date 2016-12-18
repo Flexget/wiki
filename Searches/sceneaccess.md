@@ -75,6 +75,6 @@ If you use public trackers for searches, you may want to use this feature.
 
 **Work-arounds / Fixes**
 
-* To access Sceneaccess successfully through CloudFlare you will need to apply the work-around in the comments of this ticket: http://flexget.com/ticket/2897
+* To access Sceneaccess successfully through CloudFlare you will need to apply the work-around in the comments of this ticket: https://flexget.com/ticket/2897
 
 * Make sure you are running python 2.7.9, 2.7.8 (and possibly lower) will cause SSL issues.

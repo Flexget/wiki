@@ -76,7 +76,7 @@ crontab /root/crontabfile
 
 # Configuration
 FlexGet is the most powerful downloader I have seen, and can be tailored to do almost everything. But configuration is difficult the first time. Don't give up look at the examples and in 30 minutes you are able to write up your own powerful configuration :-) The official FlexGet page has some good examples if you browse around a bit 
-[http://flexget.com/wiki/Configuration](/http://flexget.com/wiki/Configuration)
+[https://flexget.com/wiki/Configuration](/https://flexget.com/wiki/Configuration)
 
 FlexGet by default tries to find it's configuration config.yml file in ~/.flexget/
 I strongly encourage you to link that dir to the /c partition on your readynas device. The way FlexGex operates it can use lots of space in the temp dir and you risk running out of space on the root file system which will cause bad things:
@@ -132,7 +132,7 @@ FlexGet is in development and changes are frequent. If you ever need to update t
 easy_install --upgrade flexget
 ```
 
-This will upgrade FlexGet. Visit http://flexget.com/wiki/UpgradeActions to see if any actions are needed to finish the upgrade.
+This will upgrade FlexGet. Visit https://flexget.com/wiki/UpgradeActions to see if any actions are needed to finish the upgrade.
 
 # Feedback
 Feedback can be directed to this thread: http://www.readynas.com/forum/viewtopic.php?f=35&t=48774

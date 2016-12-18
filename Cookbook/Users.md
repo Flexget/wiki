@@ -9,11 +9,11 @@ Please post the version of FlexGet that your config was designed for, so people 
 
 ## Tested & Working 2.x Configs
 * [crack00r](https://github.com/crack00r/Flexget-Config) (v2.1.25) - Flexget + Trakt + Imdb Sync with jDownloader -  Specialised for HDArea.org & Serienjunkies.org
-* [qvazzler](http://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
+* [qvazzler](https://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
 * [cvium](https://github.com/cvium/.flexget) (v2.2.0) - Utilizes RSS, discover and IRC, includes some custom plugins. Every movie/show is maintained by Trakt lists.
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
-* [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](http://flexget.com/FlexGetExtras).
+* [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://flexget.com/FlexGetExtras).
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.7.1) YAML anchor examples, use Trakt.tv to manage shows and movies.
 
 ## Untested 1.x Configs
@@ -30,7 +30,7 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [Systy](/Cookbook/Users/Systy) (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
 
 ## Unknown version
-* [http://flexget.com/wiki/Users/anon](/http://flexget.com/wiki/Users/anon) Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
+* [https://flexget.com/wiki/Users/anon](/https://flexget.com/wiki/Users/anon) Deluge, Flexget, trakt.tv, imdb.com, custom unrar and copy script.
 * [Cookbook/Users/paulpoco](/Cookbook/Users/paulpoco) TV and Movies config and series
 * [404notfound](/Cookbook/Users/404notfound)
 * [jordan0321](/Cookbook/Users/jordan0321)
@@ -41,7 +41,7 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [foulou](/Cookbook/Users/foulou)
 * [hyper_ch](/Cookbook/Users/hyper_ch)
 * [jawilson](https://github.com/jawilson/dotfiles/tree/master/flexget) (atlanta800)
-* [minerva](http://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt) RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
+* [minerva](https://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt) RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
 ### Attachments
 * [Flexget Config.txt](/attachments/Cookbook/Users/Flexget Config.txt)
 * [paulpoco example config file](/attachments/Cookbook/Users/config.yml)
