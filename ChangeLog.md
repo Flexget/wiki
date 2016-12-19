@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a6cf081c5c6f5484b50e5130301b82cba72c7804--->
+<!---cf650d2b64c583d5ecfceaff30099f74d1ad1d65--->
 
 ## 2.8.8.dev (unreleased)
 ### Added
 - New sort_by_weight plugin
+
+### Fixed
+- imdb: updated language parsing to search for 'primary_language'
 
 <!---d6ea3b5a930fcc82f5f670d3b5545aa3cc929e90--->
 
