@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d9b29daf811bf2ec85abead87d9d08f1a7cea8fd--->
+<!---a6cf081c5c6f5484b50e5130301b82cba72c7804--->
+
+## 2.8.8.dev (unreleased)
+### Added
+- New sort_by_weight plugin
 
 <!---d6ea3b5a930fcc82f5f670d3b5545aa3cc929e90--->
 
