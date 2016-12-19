@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8bce8453e1abdf7dd7400a87cf11297759ac5068--->
+<!---6714a271f2bc455461c47456b4ce9233bf2d425a--->
 
 ## 2.8.7.dev (unreleased)
 ### Added
 - movie-list CLI - Added ability to delete movie by ID
+
+### Fixed
+- Form plugin not working on pages including non-ascii data. fix [#1576](https://github.com/Flexget/Flexget/issues/1576)
 
 <!---bad5be3843b1fa014e415e18aef3ef1d67cdb501--->
 
