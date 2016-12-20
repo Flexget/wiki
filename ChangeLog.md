@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cf650d2b64c583d5ecfceaff30099f74d1ad1d65--->
+<!---f9d485ae69abcbbfb454f21974b91119dca0a9c1--->
 
-## 2.8.8.dev (unreleased)
+<!---b5e875e5a038ce339b702a45386a8a1e48b5384a--->
+
+## 2.8.8 (2016-12-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.7...2.8.8)
 ### Added
 - New sort_by_weight plugin
 
 ### Fixed
 - imdb: updated language parsing to search for 'primary_language'
 
-<!---d6ea3b5a930fcc82f5f670d3b5545aa3cc929e90--->
 
 ## 2.8.7 (2016-12-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.6...2.8.7)
