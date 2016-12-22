@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc3d5767e1514b77b792a316d130e80a4ea58503--->
+<!---01eabe345b1ca91019889834438ec2f0e49d93e8--->
+
+## 2.8.10.dev (unreleased)
+### Fixed
+- email - Use `text_to_native_str` to avoid crash on some auth types. Fixes [#1569](https://github.com/Flexget/Flexget/issues/1569)
 
 <!---6403f78038ac89ba348173e73910a2967d0d50cc--->
 
