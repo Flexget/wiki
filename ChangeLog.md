@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---52d36891977ce5e269fdd62df420d9d983255e34--->
+<!---fc3d5767e1514b77b792a316d130e80a4ea58503--->
 
-## 2.8.9.dev (unreleased)
+<!---6403f78038ac89ba348173e73910a2967d0d50cc--->
+
+## 2.8.9 (2016-12-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.8...2.8.9)
 ### Fixed
 - failed CLI - Added another column to be wrapped. Fixes [#1580](https://github.com/Flexget/Flexget/issues/1580)
 
-<!---b5e875e5a038ce339b702a45386a8a1e48b5384a--->
 
 ## 2.8.8 (2016-12-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.7...2.8.8)
