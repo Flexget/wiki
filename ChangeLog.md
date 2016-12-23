@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80339e276a9cafb6b57068aa138b3b69d5c6ec07--->
+<!---9f701e7a5f73b73f643f44c544b46e456b0868fa--->
 
-## 2.8.10.dev (unreleased)
+<!---5fa1ec6eaf99c85caed3f992be30dac6040659b0--->
+
+## 2.8.10 (2016-12-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.9...2.8.10)
 ### Fixed
 - Errors with some colorized non-ascii text being sent from daemon on py27 fix [#1553](https://github.com/Flexget/Flexget/issues/1553)
 - email - Use `text_to_native_str` to avoid crash on some auth types. Fixes [#1569](https://github.com/Flexget/Flexget/issues/1569)
 
-<!---6403f78038ac89ba348173e73910a2967d0d50cc--->
 
 ## 2.8.9 (2016-12-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.8...2.8.9)
