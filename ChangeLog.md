@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---13e28570de2692634e28645c60ce9be20ae34293--->
+<!---1ee26081a6ac89cdd7b12f35a4e346a703ecdff6--->
 
-## 2.8.11.dev (unreleased)
+<!---d87ad4c829c66931d42bc635a83a5c024cfe3808--->
+
+## 2.8.11 (2016-12-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.10...2.8.11)
 ### Fixed
 - Logger does not attempt to print characters unsupported by current terminal. fix [#1558](https://github.com/Flexget/Flexget/issues/1558)
 
-<!---5fa1ec6eaf99c85caed3f992be30dac6040659b0--->
 
 ## 2.8.10 (2016-12-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.9...2.8.10)
