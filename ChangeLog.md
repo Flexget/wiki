@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ee26081a6ac89cdd7b12f35a4e346a703ecdff6--->
+<!---35cd4f47b3bb2fbd41ac7d7fd79d1b053d22af7c--->
+
+## 2.8.12.dev (unreleased)
+### Fixed
+- movie list CLI - Fixed crash. Fixed [#1585](https://github.com/Flexget/Flexget/issues/1585)
 
 <!---d87ad4c829c66931d42bc635a83a5c024cfe3808--->
 
