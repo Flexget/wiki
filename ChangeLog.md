@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9a01054de6e9096cf3bd38d4aeb7ec5fbe57332d--->
+<!---09f8c5973145c732bc6883b9bcc6f1eaed4b6b47--->
+
+## 2.8.14.dev (unreleased)
+### Fixed
+- npo_watchlist: words in dates are now properly parsed, fixes [#1588](https://github.com/Flexget/Flexget/issues/1588)
 
 <!---0a53c571f2aebcc7fd94f240d55c02365f9efc0a--->
 
