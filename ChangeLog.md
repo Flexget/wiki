@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b0fdfe6bf8c0c4641daa2daf05fdce739b709ed0--->
+<!---aabcd5186dc4f791a6a83b16fbc483952eda2372--->
+
+## 2.8.15.dev (unreleased)
+### Fixed
+- nyaa changed TLD from .eu to .se
+- bakabt changed TLDs from .com to .me
+- nyaa changed TLD
 
 <!---f27a2cbe08b6d51ace275a7681852cd74f3956b2--->
 
