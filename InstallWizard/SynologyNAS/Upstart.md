@@ -28,7 +28,7 @@ description "Transmission"
 author "YOUR NAME"
 
 start on opt-ready
-stop on runlevel [06](/06)
+stop on runlevel [06]
 
 respawn
 respawn limit 5 10
@@ -72,7 +72,7 @@ description "FlexGet"
 author "YOUR NAME"
 
 start on opt-ready
-stop on runlevel [06](/06)
+stop on runlevel [06]
 
 respawn
 respawn limit 5 10
