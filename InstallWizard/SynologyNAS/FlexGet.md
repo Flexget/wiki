@@ -7,7 +7,7 @@ $ pip3 install flexget
 `pip3` installs FlexGet to `/opt/bin/flexget`. `/opt/bin` should be in your path if you followed the instructions correctly when you installed `opkg`.
 
 ## Verify installation
-Run the following command, and FlexGet should display it's version number:
+Run the following command, and FlexGet will display its version number:
 
 ```
 $ flexget --version
