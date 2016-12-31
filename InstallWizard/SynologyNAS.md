@@ -4,7 +4,7 @@ This is the recommended method as it mirrors how you would install FlexGet on ju
 ## `opkg`
 The first step is to install `opkg`, the best package manager around for embedded systems like your NAS. Follow the instructions at:
 
-[https://github.com/Entware-ng/Entware-ng/wiki/Install-on-Synology-NAS](/https://github.com/Entware-ng/Entware-ng/wiki/Install-on-Synology-NAS)
+[https://github.com/Entware-ng/Entware-ng/wiki/Install-on-Synology-NAS](https://github.com/Entware-ng/Entware-ng/wiki/Install-on-Synology-NAS)
 
 ## System dependencies
 You'll need to install Python and pip:
@@ -18,7 +18,7 @@ $ opkg install python3-pip
 It is highly recommended that you use the Transmission BitTorrent client instead of the built-in client. Transmission can also be installed via `opkg`.
 
 ```
-$ opkg install transmission-daemon
+$ opkg install transmission-daemon-polarssl
 $ opkg install transmission-web
 ```
 
