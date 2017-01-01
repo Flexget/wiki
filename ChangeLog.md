@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---aabcd5186dc4f791a6a83b16fbc483952eda2372--->
+<!---87fa5184b55c0573c558ad5ceb93516e991c756e--->
 
-## 2.8.15.dev (unreleased)
+<!---63c3cba64afb1008af1d09fae5f5039d1deaff1d--->
+
+## 2.8.15 (2017-01-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.14...2.8.15)
 ### Fixed
 - nyaa changed TLD from .eu to .se
 - bakabt changed TLDs from .com to .me
 - nyaa changed TLD
 
-<!---f27a2cbe08b6d51ace275a7681852cd74f3956b2--->
 
 ## 2.8.14 (2016-12-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.13...2.8.14)
