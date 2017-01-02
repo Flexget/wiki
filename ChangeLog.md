@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3b22bd2bcaf867c455cac0d76f90614d18408c6--->
+<!---6bc0b62964d9cc17dc52fa018722b9a8e9552654--->
 
-## 2.8.16.dev (unreleased)
+<!---fd29c27152b81156d7482f8a058cdf546b8d1e54--->
+
+## 2.8.16 (2017-01-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.15...2.8.16)
 ### Added
 - input plugin for kitsu.io
 
-<!---63c3cba64afb1008af1d09fae5f5039d1deaff1d--->
 
 ## 2.8.15 (2017-01-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.14...2.8.15)
