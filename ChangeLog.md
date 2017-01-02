@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87fa5184b55c0573c558ad5ceb93516e991c756e--->
+<!---b3b22bd2bcaf867c455cac0d76f90614d18408c6--->
+
+## 2.8.16.dev (unreleased)
+### Added
+- input plugin for kitsu.io
 
 <!---63c3cba64afb1008af1d09fae5f5039d1deaff1d--->
 
