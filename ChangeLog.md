@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6bc0b62964d9cc17dc52fa018722b9a8e9552654--->
+<!---7526e0cb04cc235d9e2376fa4e432d6fc4b8c6a3--->
+
+## 2.8.17.dev (unreleased)
+### Fixed
+- terminal - Strip spaces before new lines in porcelain style table. Fixes [#1584](https://github.com/Flexget/Flexget/issues/1584)
 
 <!---fd29c27152b81156d7482f8a058cdf546b8d1e54--->
 
