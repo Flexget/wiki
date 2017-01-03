@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80a2064f8cb582d30da6bc3cd92cdcab6667451b--->
+<!---52152bfb790bf04d04c59230c41075d3b60d1803--->
+
+## 2.8.18.dev (unreleased)
+### Fixed
+- - Fix torrentleech URLs after changes on the site
 
 <!---cd1b7a76d2bab56149e017e9da9a14b8fc69f2c3--->
 
