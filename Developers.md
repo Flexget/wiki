@@ -6,7 +6,7 @@ We use python-future [http://python-future.org/](/http://python-future.org/) for
 
 Within flexget every python module must import the following for python2/3 compatibility. 
 
-```
+```python
 from __future__ import unicode_literals, division, absolute_import
 from builtins import *
 ```
@@ -30,7 +30,7 @@ FlexGet has over 200 unit tests so changes are that if your modifications pass t
 ## Running IPython inside FlexGet
 First install IPython
 
-```
+```bash
 bin/pip install ipython
 ```
 
@@ -43,7 +43,9 @@ import IPython; IPython.embed()
 -------------------------
 Thanks to JetBrains for the free open source PyCharm license!
 
-<img src="pycharm_logo.gif, 200px, link=http://www.jetbrains.com/pycharm/">
-### Attachments
+
+<img src="https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2015/12/PyCharm_400x400_Twitter_logo_white.png" width=200 link=https://www.jetbrains.com/pycharm/ alt="pycharm logo">  
+
+### Attachments  
+
 * [events in feed](/attachments/Developers/flexget_events.png)
-* [pycharm_logo.gif](/attachments/Developers/pycharm_logo.gif)
