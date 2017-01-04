@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---52152bfb790bf04d04c59230c41075d3b60d1803--->
+<!---0e1c45c8820efd8237a17a276af4e7ce77f3ac74--->
 
-## 2.8.18.dev (unreleased)
+<!---c8772528a77f3df9a2628d199591d456051df83b--->
+
+## 2.8.18 (2017-01-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.17...2.8.18)
 ### Fixed
 - - Fix torrentleech URLs after changes on the site
 
-<!---cd1b7a76d2bab56149e017e9da9a14b8fc69f2c3--->
 
 ## 2.8.17 (2017-01-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.16...2.8.17)
