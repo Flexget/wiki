@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0e1c45c8820efd8237a17a276af4e7ce77f3ac74--->
+<!---1ffb140e9f5df5a2efbd82ed98c956e67472227b--->
+
+## 2.8.19.dev (unreleased)
+### Changed
+- trakt_list now populates trakt series/movie name and year fields
 
 <!---c8772528a77f3df9a2628d199591d456051df83b--->
 
