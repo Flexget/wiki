@@ -18,7 +18,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.8.18 (2017-01-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.17...2.8.18)
 ### Fixed
-- - Fix torrentleech URLs after changes on the site
+- torrentleech - Fix torrentleech URLs after changes on the site
 
 
 ## 2.8.17 (2017-01-03)
