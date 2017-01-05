@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---721c7dee4fbcc47390c2db41eff24d40db50cd12--->
+<!---5555f26a1e6d9a797f2936a22f78e9abc31d703b--->
+
+## 2.8.20.dev (unreleased)
+### Fixed
+- npo_watchlist: properly strip/convert invalid Windows characters
 
 <!---a20f4757bda9a2cca1cd95797c4dd31800feeae0--->
 
