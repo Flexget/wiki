@@ -1,10 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5555f26a1e6d9a797f2936a22f78e9abc31d703b--->
+<!---165d4a2f71d2e7dc01f619319dba5d86812ec776--->
 
 ## 2.8.20.dev (unreleased)
 ### Fixed
+- aria2 options from config file were ignored when passing a torrent file rather than uri
+- Prevent crash in aria2 plugin in certain configurations. fix [#1604](https://github.com/Flexget/Flexget/issues/1604)
+- convert_magnet on python 3
+- convert_magnet plugin compatibility for libtorrent version <= 0.16.13.0 fix [#1514](https://github.com/Flexget/Flexget/issues/1514)
 - npo_watchlist: properly strip/convert invalid Windows characters
 
 <!---a20f4757bda9a2cca1cd95797c4dd31800feeae0--->
