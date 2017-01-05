@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ffb140e9f5df5a2efbd82ed98c956e67472227b--->
+<!---721c7dee4fbcc47390c2db41eff24d40db50cd12--->
 
-## 2.8.19.dev (unreleased)
+<!---a20f4757bda9a2cca1cd95797c4dd31800feeae0--->
+
+## 2.8.19 (2017-01-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.18...2.8.19)
 ### Changed
 - trakt_list now populates trakt series/movie name and year fields
 
-<!---c8772528a77f3df9a2628d199591d456051df83b--->
 
 ## 2.8.18 (2017-01-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.17...2.8.18)
