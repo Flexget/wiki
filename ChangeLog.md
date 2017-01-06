@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3c96b9274a26b9e2428184c4838afcf5ead53f9c--->
+<!---dceb7b2cf641f0ab4d0968b4b34634dfccb6197c--->
 
-## 2.8.20.dev (unreleased)
+<!---3d7f74dc5bf631b813e696d9cebceff7ccbdcf58--->
+
+## 2.8.20 (2017-01-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.19...2.8.20)
 ### Fixed
 - aria2 options from config file were ignored when passing a torrent file rather than uri
 - Prevent crash in aria2 plugin in certain configurations. fix [#1604](https://github.com/Flexget/Flexget/issues/1604)
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - Plex improvements ([#1607](https://github.com/Flexget/Flexget/issues/1607))
 
-<!---a20f4757bda9a2cca1cd95797c4dd31800feeae0--->
 
 ## 2.8.19 (2017-01-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.18...2.8.19)
