@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---790972ddcc82de5ca3163e4fe425e822490541c6--->
+<!---f0d01df2a599401dd9d04a91e918d7324f7d63f9--->
 
 ## 2.8.21.dev (unreleased)
 ### Fixed
 - rarbg: tokens are now fetched with the same domain delay as other requests, fixes [#1560](https://github.com/Flexget/Flexget/issues/1560)
+
+### Added
+- *  new search plugin for torrentday
+- new search plugin for private tracker torrentday ([#1597](https://github.com/Flexget/Flexget/issues/1597))
 
 <!---3d7f74dc5bf631b813e696d9cebceff7ccbdcf58--->
 
