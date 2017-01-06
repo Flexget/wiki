@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---165d4a2f71d2e7dc01f619319dba5d86812ec776--->
+<!---3c96b9274a26b9e2428184c4838afcf5ead53f9c--->
 
 ## 2.8.20.dev (unreleased)
 ### Fixed
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - convert_magnet on python 3
 - convert_magnet plugin compatibility for libtorrent version <= 0.16.13.0 fix [#1514](https://github.com/Flexget/Flexget/issues/1514)
 - npo_watchlist: properly strip/convert invalid Windows characters
+
+### Changed
+- Plex improvements ([#1607](https://github.com/Flexget/Flexget/issues/1607))
 
 <!---a20f4757bda9a2cca1cd95797c4dd31800feeae0--->
 
