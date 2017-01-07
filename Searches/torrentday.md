@@ -19,7 +19,7 @@ category, Can be *one* of the following:
  
  ## How to get your cookies
  ### chrome
- - Go to TD > Login if you havn't already
+ - Go to TD > Login if you haven't already
  - Right click then left click *Inspect Elements* (or hit *Ctrl+Shift+I*)
  - Go to *Applications tab* across the top, then *Cookies* on the left
    - expand it if you have to and click on *td*
@@ -29,8 +29,8 @@ category, Can be *one* of the following:
  <img src=https://dl.dropboxusercontent.com/u/28529352/flexGet-TD-chrome-1.png>
 
 ### FireFox
-- From the Tools menu, select Prefrences
-- Go to the Privacy tab
+- From the Tools menu, select *Preferences*
+- Along the top, click the *Privacy* tab
 - Click *remove individual cookies*
 - Search for *torrentday*
 - copy the *Content* for each of the 3 cookies (redacted from the screenshot)
@@ -38,9 +38,9 @@ category, Can be *one* of the following:
  
 <img src=https://dl.dropboxusercontent.com/u/28529352/flexGet-TD-fireFox-1.png>
 
-### Reffrence
+### Reference
 https://kb.iu.edu/d/ajfi
-( Includs steps for Safari and IE )
+( Includes steps for Safari and IE )
 ## Example Config
 ```
 tasks:
