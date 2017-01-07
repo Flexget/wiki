@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87439334ab1bdedcc28f0239d5af92840af7baa8--->
+<!---bb6d3df69475d64c3df18db82a31945686400a3d--->
 
 ## 2.8.22.dev (unreleased)
 ### Fixed
+- bakabt - Update URLs ([#1614](https://github.com/Flexget/Flexget/issues/1614))
 - rarbg: tokens are now fetched with the same domain delay as other requests, fixes [#1560](https://github.com/Flexget/Flexget/issues/1560)
 
 ### Added
