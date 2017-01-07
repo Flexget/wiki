@@ -34,6 +34,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [ptn](/Searches/ptn) | Searches torrent site PtN |
 | [morethantv](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
 | [sceneaccess](/Searches/sceneaccess) | Searches torrent site sceneaccess |
+|[torrentday](/Searches/torrentday)|Generates entries from torrentday.com
 | [torrentshack](/Searches/torrentshack) | Searches torrent site torrentshack |
 | [torrentleech](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
 |[fuzer](/Searches/fuzer) | Searches torrent site Fuzer
