@@ -10,7 +10,6 @@ Please post the version of FlexGet that your config was designed for, so people 
 ## Tested & Working 2.x Configs
 * [crack00r](https://github.com/crack00r/Flexget-Config) (v2.1.25) - Flexget + Trakt + Imdb Sync with jDownloader -  Specialised for HDArea.org & Serienjunkies.org
 * [qvazzler](https://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.0.41) - Ability to download season packs + General purpose Trakt config that including list cleaning
-* [cvium](https://github.com/cvium/.flexget) (v2.2.0) - Utilizes RSS, discover and IRC, includes some custom plugins. Every movie/show is maintained by Trakt lists.
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.1.0) - Movies and series based on trakt and anime from anidb. RSS and discover, backfill, multiple qualities and much more.
 * [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://flexget.com/FlexGetExtras).
