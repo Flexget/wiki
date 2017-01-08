@@ -42,7 +42,7 @@ Please post the version of FlexGet that your config was designed for, so people 
 * [jawilson](https://github.com/jawilson/dotfiles/tree/master/flexget) (atlanta800)
 * [minerva](https://flexget.com/attachment/wiki/Cookbook/Users/Flexget%20Config.txt) RSS monitoring plus track.tv movie and tv intergration, pushover notfications, and series organization. 
 ### Attachments
-* [Flexget Config.txt](/attachments/Cookbook/Users/Flexget Config.txt)
+* [Flexget Config.txt](/attachments/Cookbook/Users/Flexget%20Config.txt)
 * [paulpoco example config file](/attachments/Cookbook/Users/config.yml)
 * [paulpoco example series file](/attachments/Cookbook/Users/series.yml)
 * [Config](/attachments/Cookbook/Users/config.2.yml)
