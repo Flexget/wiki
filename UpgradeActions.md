@@ -6,6 +6,54 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.9.0** -- not yet released
+#### Notifications
+Notification system has been changed once more. Hopefully we worked most of the kinks out of the new system with this one. Summary of changes:
+- notify_task, notify_entries, and notify_abort have all been combined back into 'notify' plugin, with subkeys 'task', 'entries', and 'abort' subkeys.
+- Previously when specifying how a notification should be sent it went under the 'to' key. This has been renamed to 'via'.
+- 'file_template' option has been renamed just 'template'
+- The 'notify_osd' notifier was renamed just 'toast' (and preliminary windows support added)
+- You cannot use the individual notifiers at task level anymore. You must use the 'notify' plugin.
+
+Examples of new notifier config:
+
+```yaml
+# Similar to old email config, one message per task run (when there are results)
+notify:
+  task:
+    template: html  # Optional, if you want html instead of plain text
+    via:
+      - email:
+          to: blah@blah
+          # other email opts here
+          
+```
+```yaml
+# For push messaging services, one message per accepted entry
+notify:
+  entries:
+    title: "custom jinja {{title}}"  # Optional
+    message: "custom jinja message {{series_name}}"  # Optional
+    via:
+      - pushbullet:
+          opts: here
+```
+
+#### Secrets plugin
+The secrets plugin has been renamed to 'variables' to reflect the more general usage pattern it has gotten. The formatting for replacing variables has also been changed so as to not conflict with other jinja in the config file. Example change needed:
+```yaml
+# Before
+secrets: mysecrets.yml
+tasks:
+  a:
+    rss: "{{ secrets.myrss }}"
+# After
+variables: mysecrets.yml
+tasks:
+  a:
+    rss: "{? myrss ?}"
+```
+
 ### **2.8.0** -- 2016.12.07
 
 - Notifier changes, following the feedback from 2.7.0:
