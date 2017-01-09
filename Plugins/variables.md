@@ -1,6 +1,6 @@
 # Variables
 
-Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically processes some jinja2 templates on startup to assign the corresponding values set in a dedicated yaml file or from DB. This can also be useful to re-use certain strings in multiple places in your configuration.
+This plugin can do string replacement on your config file based on data stored in another file. While originally intended to strip off passwords, api keys and other sensitive info from the configuration file, it is also useful to just re-use certain strings in multiple places in your configuration. Any of the fields from your variables file can be referenced in the config inside the special delimiters `{? ?}`. Jinja is used under the hood, so any valid jinja expressions are allowed inside the delimeters.
 
 ### Example
 In this sample `config.yml` we configure the plugin to look for config variables in a file named `variables.yml`:
