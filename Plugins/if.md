@@ -1,22 +1,26 @@
 # If
-The if plugin can evaluate simple python expressions on the [entry fields](/Entry) and take one of several actions if the expression evaluates to True; it can accept, reject, or fail the entry, or it can run certain filter plugins on the matching entries.
+The if plugin can evaluate simple jinja expressions on the [entry fields](/Entry) and take one of several actions if the expression evaluates to True; it can accept, reject, or fail the entry, or it can run certain filter plugins on the matching entries.
 
 ## Available Objects and Functions
-The if plugin allows a limited subset of python. If statements can contain:
+The if plugin allows evaluating [jinja expressions](http://jinja.pocoo.org/docs/2.9/templates/#expressions), which are similar to a limited subset of python. If statements can contain:
 - All of the entry fields are available by name. If an if statement references a field that an entry does not have, the statement will automatically evaluate to false.
-- All python operators are usable, e.g. + - / * and or in == < >
-- Python literals, e.g. True False 1 2 'some string' ['a', 'list, 'of', 'strings'] {'a': 1, 'dictionary', 2}
+- [Math operators](http://jinja.pocoo.org/docs/2.9/templates/#math) are usable, e.g. + - / * and or in == < >
+- [Jijna literals](http://jinja.pocoo.org/docs/2.9/templates/#literals), e.g. `true` `false` `1` `2` `'some string'` `['a', 'list, 'of', 'strings']` `{'a': 1, 'dictionary', 2}`
 - Basic builtin types are also available (for casting): str unicode int float
-- Any of the methods of objects available are useable with the exception of !__doubleunderscore!__ ones. e.g tvdb_genres![0](/0).upper()
-- There are several other functions and objects available:
+- Any of the methods of objects available are useable with the exception of \_\_doubleunderscore\_\_ ones. e.g tvdb_genres[0].upper()
+- [Jinja Filters](http://jinja.pocoo.org/docs/2.9/templates/#list-of-builtin-filters)
+- [Jinja Tests](http://jinja.pocoo.org/docs/2.9/templates/#builtin-tests)
 
-| **Object** | **Decscription** |
-| --- | --- |
-| has_field('<field_name>') | Returns true if the entry has the field field_name. |
-| len(<iterable>) | Returns the length of the iterable |
+There are several other functions and objects available added by FlexGet. Some of them were used before the switch to jinja and have native jinja equivalents that can be switched to:
+
+
+| **Object** | **Decscription** | **Jinja equivalent** |
+| --- | --- | --- |
+| has_field('<field_name>') | Returns true if the entry has the field field_name. | `<field_name> is defined`
+| len(<iterable>) | Returns the length of the iterable | `<iterable>|length` |
 | any(<iterable>) | Returns true if any of the items in the iterable are true. |
 | all(<iterable>) | Returns true if all items in the iterable are true. |
-| sorted(<iterable>) | Return a new sorted list from the items in iterable. |
+| sorted(<iterable>) | Return a new sorted list from the items in iterable. | `<iterable>|sort` |
 | now | This is a python datetime object equal to the time the if statement was evaluated. |
 | timedelta | From the python standard library [datetime.timedelta](http://docs.python.org/library/datetime.html#datetime.timedelta) |
 
