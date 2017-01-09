@@ -5,6 +5,10 @@
   &nbsp; This is part of [managed list](/Plugins/List) plugin system.
 </div>
 
+<div class="alert alert-danger" role="info">
+  IMDb enforces captchas more often than not. If you experience authentication errors, consider using [imdb_watchlist](/Plugins/imdb_watchlist) instead.
+</div>
+
 Creates an [Entry](/Entry) for each item in an IMDb list.
 
 This plugin is useful for example when used in a task with the [movie_list](/Plugins/List/movie_list) plugin to add movies from your IMDb watchlist to your movie list, or to filter entries directly against the watchlist via [list_match](/Plugins/List/list_match) (see example below).
