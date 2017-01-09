@@ -8,6 +8,7 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 
  * Like with other APIs used by FlexGet the IMDb list is cached for 2 hours to avoid hammering.
  * List **must** be public.
+ * All IMDb lists are **read only**. FlexGet cannot modify them in any way.
 
 ## Example:
 
