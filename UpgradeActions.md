@@ -55,7 +55,7 @@ tasks:
 ```
 
 #### If Plugin
-The [if plugin](Plugins/if) has been changed to use [jinja expressions](http://jinja.pocoo.org/docs/2.9/templates/#expressions) rather than raw python ones. As the syntax is very similar, most if statements should continue to work correctly.
+The [if plugin](Plugins/if) has been changed to use [jinja expressions](http://jinja.pocoo.org/docs/2.9/templates/#expressions) rather than raw python ones. As the syntax is very similar, most if statements should continue to work correctly. If notable changes end up being needed, feel free to come discuss in [chat](Chat) and/or update this space with instructions for others.
 
 ### **2.8.0** -- 2016.12.07
 
