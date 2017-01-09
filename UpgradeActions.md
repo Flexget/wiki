@@ -40,7 +40,7 @@ notify:
 ```
 
 #### Secrets plugin
-The secrets plugin has been renamed to 'variables' to reflect the more general usage pattern it has gotten. The formatting for replacing variables has also been changed so as to not conflict with other jinja in the config file. Example change needed:
+The secrets plugin has been renamed to [variables](Plugins/variables) to reflect the more general usage pattern it has gotten. The formatting for replacing variables has also been changed so as to not conflict with other jinja in the config file. Example change needed:
 ```yaml
 # Before
 secrets: mysecrets.yml
@@ -53,6 +53,9 @@ tasks:
   a:
     rss: "{? myrss ?}"
 ```
+
+#### If Plugin
+The [if plugin](Plugins/if) has been changed to use [jinja expressions](http://jinja.pocoo.org/docs/2.9/templates/#expressions) rather than raw python ones. As the syntax is very similar, most if statements should continue to work correctly.
 
 ### **2.8.0** -- 2016.12.07
 
