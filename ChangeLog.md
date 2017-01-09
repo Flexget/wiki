@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff0026dfb3927dde8582140bd733fa01d54c65fc--->
+<!---cd71978fd34c7ebf06c4c7a2edd53e0977ab7eb5--->
 
-## 2.8.24.dev (unreleased)
+<!---1f8f442ef5f7bd7a4a38061ad93fb9e851ae6ba6--->
+
+## 2.8.24 (2017-01-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.20...2.8.24)
 ### Fixed
 - bakabt - Update URLs ([#1614](https://github.com/Flexget/Flexget/issues/1614))
 - rarbg: tokens are now fetched with the same domain delay as other requests, fixes [#1560](https://github.com/Flexget/Flexget/issues/1560)
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - *  new search plugin for torrentday
 - new search plugin for private tracker torrentday ([#1597](https://github.com/Flexget/Flexget/issues/1597))
 
-<!---3d7f74dc5bf631b813e696d9cebceff7ccbdcf58--->
 
 ## 2.8.20 (2017-01-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.19...2.8.20)
