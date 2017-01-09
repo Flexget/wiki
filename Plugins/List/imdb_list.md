@@ -7,7 +7,7 @@
 
 <div class="alert alert-danger" role="info">
 
-  IMDb enforces captchas more often than not. If you experience authentication errors, consider using [imdb_watchlist](/Plugins/imdb_watchlist) instead.
+  This plugin is broken. IMDb enforces captchas more often than not, which there are no ways around currently. Use [imdb_watchlist](/Plugins/imdb_watchlist) instead.
 </div>
 
 Creates an [Entry](/Entry) for each item in an IMDb list.
