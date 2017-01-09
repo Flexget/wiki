@@ -1,21 +1,19 @@
 # Notifier plugins
 
-Notifer plugin are plugins that can be used individually, or via the managing plugins listed below. 
+Notifications can be delivered by many different services. In order to allow any notification service to be used for any type of notification, we have split apart the plugins that generate messages from the plugins that deliver the messages. 
 
-## Managing plugins
+## Configuring your messages
 
-| Plugin name | Description |
-| --- | --- |
-| [notify_task](/Plugins/Notifiers/notify_task) | Use one or more notifer plugins to send notifications about task|
-| [notify_entries](/Plugins/Notifiers/notify_entries) | Use one or more notifer plugins to send notifications about task|
-| [notify_abort](/Plugins/Notifiers/notify_abort) | Use one or more notifer plugins to get FlexGet abort notifications |
+The [notify](Plugins/notify) plugin is used to configure what notifications should be sent for a given task. In the future there may be other FlexGet subsystems which can also send notifications using these plugins.
 
 ## Notifiers
+These plugins are responsible for delivering notifications. One or more of them can be chosen in the `via` section of the [notify](Plugins/notify) plugin.
+
 | Plugin name | Description |
 | --- | --- |
 | [email](/Plugins/Notifiers/email) | Send an email message |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
-| [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
+| [toast](/Plugins/Notifiers/toast) | Popup a message on the computer running FlexGet. |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
@@ -24,7 +22,6 @@ Notifer plugin are plugins that can be used individually, or via the managing pl
 | [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
-| [sns](/Plugins/Notifiers/sns) | Send a [SNS](https://aws.amazon.com/sns/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
 
