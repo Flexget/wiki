@@ -4,10 +4,10 @@ Notifications can be delivered by many different services. In order to allow any
 
 ## Configuring your messages
 
-The [notify](Plugins/notify) plugin is used to configure what notifications should be sent for a given task. In the future there may be other FlexGet subsystems which can also send notifications using these plugins.
+The [notify](/Plugins/notify) plugin is used to configure what notifications should be sent for a given task. In the future there may be other FlexGet subsystems which can also send notifications using these plugins.
 
 ## Notifiers
-These plugins are responsible for delivering notifications. One or more of them can be chosen in the `via` section of the [notify](Plugins/notify) plugin.
+These plugins are responsible for delivering notifications. One or more of them can be chosen in the `via` section of the [notify](/Plugins/notify) plugin.
 
 | Plugin name | Description |
 | --- | --- |
