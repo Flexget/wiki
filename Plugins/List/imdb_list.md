@@ -6,6 +6,7 @@
 </div>
 
 <div class="alert alert-danger" role="info">
+
   IMDb enforces captchas more often than not. If you experience authentication errors, consider using [imdb_watchlist](/Plugins/imdb_watchlist) instead.
 </div>
 
