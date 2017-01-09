@@ -11,10 +11,10 @@ replace everything in ALL_CAPS with your relevant information and you should be 
 
 ```
 schedules:
-  - tasks: [TV-SHOWS,MOVIES](/TV-SHOWS,MOVIES)
+  - tasks: [TV-SHOWS,MOVIES]
     interval:
       minutes: 15
-  - tasks: [IMPORT-MOVIES](/IMPORT-MOVIES)
+  - tasks: [IMPORT-MOVIES]
     interval:
       minutes: 120    
 
@@ -48,7 +48,7 @@ templates:
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "[F](/F) {{series_name}} {{series_id}}"
+      title: "[F] {{series_name}} {{series_id}}"
       body: "{{title}}\n\nSize: {{content_size}}MB"
     inputs:
       - rss:
@@ -84,7 +84,7 @@ templates:
       strict: no
     pushbullet:
       apikey: PUSHBULLET_API_KEY
-      title: "[F](/F) {{imdb_name}}"
+      title: "[F] {{imdb_name}}"
       body: "{{title}}\n\n{{imdb_url}}\n\nSize: {{content_size}}MB"
     inputs:
       - rss:
