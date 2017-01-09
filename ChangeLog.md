@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cd71978fd34c7ebf06c4c7a2edd53e0977ab7eb5--->
+<!---97bcb6e10f654fbc5a3efa0bc00af6769d73ff69--->
+
+## 2.9.0.dev (unreleased)
+### Changed
+- The notification system has been overhauled again
+- Rename 'secrets' plugin to 'variables', and change usage.
+- Convert `if` plugin to use jinja2 expressions instead of raw python
 
 <!---1f8f442ef5f7bd7a4a38061ad93fb9e851ae6ba6--->
 
