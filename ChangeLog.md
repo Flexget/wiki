@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---030a3443ba33bdaaaec45ca2a90e1f5fe95a4861--->
+<!---54c5fdad2c6f3ca546fc26af144d8180e0431d67--->
 
 ## 2.9.1.dev (unreleased)
 ### Changed
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Added
 - subliminal: added support for .rar files
+
+### Fixed
+- est_released_movies: Fixed crash with movie_year of None ([#1602](https://github.com/Flexget/Flexget/issues/1602))
 
 <!---f5782f68b23319404a8eacebd9838cd4555bdf24--->
 
