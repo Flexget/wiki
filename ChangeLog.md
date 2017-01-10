@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---32b4fb3584e08d93d06126692099684d8b010a5f--->
+<!---030a3443ba33bdaaaec45ca2a90e1f5fe95a4861--->
 
 ## 2.9.1.dev (unreleased)
 ### Changed
+- npo_watchlist: updated to only grab broadcasts; previously it also grabbed trailers
 - piratebay: replacing single quotes with spaces as their search engine doesn't like them
 
 ### Added
