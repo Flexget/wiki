@@ -18,17 +18,9 @@ To check the status of the flexget daemon you can use `status`:
 ```
 flexget daemon status
 ```
-To have the daemon reload the config file from disk you can use the `reload` command:
+To have the daemon reload the config file from disk you can use the `reload-config` command:
 ```
-flexget daemon reload
-```
-To enable automatic config reload before task execution:
-```yaml
-flexget daemon enable-autoreload
-```
-To disable automatic config reload before task execution:
-```yaml
-flexget daemon disable-autoreload
+flexget daemon reload-config
 ```
 
 #### Mac OS X note regarding `-d`
