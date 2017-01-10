@@ -18,7 +18,7 @@ series-decompress:
     filesystem:
       path: /Volumes/Drobo/downloads/tv/
       recursive: yes
-      regexp: '\.(rar|r0+[01](/01)|zip)$'
+      regexp: '.*\.(rar|r0[01]?|zip)$'
     archives: yes
     decompress:
       keep_dirs: no
