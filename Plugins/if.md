@@ -42,7 +42,7 @@ if:
 ```
 imdb_lookup: yes
 if:
-  - "any(genre in ['horror', 'documentary'] for genre in imdb_genres)": reject
+  - "'horror' in imdb_genres or 'documentary' in imdb_genres": reject
 ```
 
 ### Run Another Filter
