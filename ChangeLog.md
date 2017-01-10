@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---54c5fdad2c6f3ca546fc26af144d8180e0431d67--->
+<!---81be2e6667633afdae1eb01435d6c9ce6414adcd--->
 
 ## 2.9.1.dev (unreleased)
 ### Changed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - piratebay: replacing single quotes with spaces as their search engine doesn't like them
 
 ### Added
+- convert_magnet: new config option to fail entries if conversion fails, closes [#1619](https://github.com/Flexget/Flexget/issues/1619)
 - subliminal: added support for .rar files
 
 ### Fixed
