@@ -4,9 +4,9 @@ FlexGet can be run in daemon mode, which means it will always run in the backgro
 ## Usage
 To launch the FlexGet daemon, use the `start` command:
   
-^*Note: Using the optional `-d` switch will send the FlexGet daemon to the background. Using `--config-autoreload` will force config reloads before task execution.*^
+^*Note: Using the optional `-d` switch will send the FlexGet daemon to the background. Using `--autoreload-config` will force config reloads before task execution.*^
 ```YAML
-flexget daemon start [-d, --config-autoreload]
+flexget daemon start [-d, --autoreload-config]
 ```
 
 
