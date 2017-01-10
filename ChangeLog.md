@@ -299,6 +299,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
   - jinja2 replacement render issues will not abort task and not fallback to default.
 - Daemon:
   - `flexget daemon reload` has been renamed to `flexget daemon reload-config` to avoid confusion.
+  - `--config-autoreload` action for `flexget daemon start` has been renamed to `--autoreload-config`.
   - `flexget daemon enable-autoreload` and `flexget daemon disable-autoreload` have been removed as their use was limited and ill-conceived.
 
 ### Fixed
