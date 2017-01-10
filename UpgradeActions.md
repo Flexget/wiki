@@ -53,6 +53,11 @@ tasks:
   a:
     rss: "{? myrss ?}"
 ```
+If you use notepad++ or another editor capable of doing search and replace with regular expressions, the following may be sufficient (note: only tested in notepad++):
+```
+find: \{\{\s?secrets\.(.*?)\s?\}\}
+replace: \{\? \1 \?\}
+```
 
 #### If Plugin
 The [if plugin](Plugins/if) has been changed to use [jinja expressions](http://jinja.pocoo.org/docs/2.9/templates/#expressions) rather than raw python ones. As the syntax is very similar, most if statements should continue to work correctly. If notable changes end up being needed, feel free to come discuss in [chat](Chat) and/or update this space with instructions for others.
