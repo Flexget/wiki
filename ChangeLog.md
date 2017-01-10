@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7b2ad3baa5cf59a4267bef7ef5e82b7fc5ae3fbd--->
+<!---e860eed4034a0b33e8cfa4c07a05fe365d679e32--->
+
+## 2.9.1.dev (unreleased)
+### Changed
+- piratebay: replacing single quotes with spaces as their search engine doesn't like them
 
 <!---f5782f68b23319404a8eacebd9838cd4555bdf24--->
 
