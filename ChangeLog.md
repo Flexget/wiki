@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e860eed4034a0b33e8cfa4c07a05fe365d679e32--->
+<!---32b4fb3584e08d93d06126692099684d8b010a5f--->
 
 ## 2.9.1.dev (unreleased)
 ### Changed
 - piratebay: replacing single quotes with spaces as their search engine doesn't like them
+
+### Added
+- subliminal: added support for .rar files
 
 <!---f5782f68b23319404a8eacebd9838cd4555bdf24--->
 
