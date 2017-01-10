@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---97bcb6e10f654fbc5a3efa0bc00af6769d73ff69--->
+<!---7b2ad3baa5cf59a4267bef7ef5e82b7fc5ae3fbd--->
 
-## 2.9.0.dev (unreleased)
+<!---f5782f68b23319404a8eacebd9838cd4555bdf24--->
+
+## 2.9.0 (2017-01-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.8.24...2.9.0)
 ### Changed
 - The notification system has been overhauled again
 - Rename 'secrets' plugin to 'variables', and change usage.
 - Convert `if` plugin to use jinja2 expressions instead of raw python
 
-<!---1f8f442ef5f7bd7a4a38061ad93fb9e851ae6ba6--->
 
 ## 2.8.24 (2017-01-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.20...2.8.24)
