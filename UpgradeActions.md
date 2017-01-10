@@ -6,7 +6,7 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
-### **2.9.0** 
+### **2.9.0** -- 2017.01.10
 #### Notifications
 Notification system has been changed once more. Hopefully we worked most of the kinks out of the new system with this one. Summary of changes:
 - Backwards compatibility with old system has been taken out, it wasn't working quite properly anyway. You cannot use the individual notifiers at task level anymore. You must use the 'notify' plugin.
