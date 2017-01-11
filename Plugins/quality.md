@@ -7,7 +7,7 @@ import:
 
 Allows specifying acceptable qualities. All other qualities will be rejected. 
 
-**NOTE:** If you are using another plugin with it's own quality detection, i.e. [series](/series), it might offer more functionality. Additionally mixing series quality options and quality plugin will cause weird behavior.
+**NOTE:** If you are using another plugin with it's own quality detection, i.e. [series](/Plugins/series), it might offer more functionality. Additionally mixing series quality options and quality plugin will cause weird behavior.
 
 ## Simple Usage
 
