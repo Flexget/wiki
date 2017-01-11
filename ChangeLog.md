@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---81be2e6667633afdae1eb01435d6c9ce6414adcd--->
+<!---9c19a181ff221154cce59c1cef397b184eb3d049--->
 
-## 2.9.1.dev (unreleased)
+<!---9b6219f6b8f9956e4498281839d6afdbfd6798ea--->
+
+## 2.9.1 (2017-01-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.0...2.9.1)
 ### Changed
 - npo_watchlist: updated to only grab broadcasts; previously it also grabbed trailers
 - piratebay: replacing single quotes with spaces as their search engine doesn't like them
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - est_released_movies: Fixed crash with movie_year of None ([#1602](https://github.com/Flexget/Flexget/issues/1602))
 
-<!---f5782f68b23319404a8eacebd9838cd4555bdf24--->
 
 ## 2.9.0 (2017-01-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.8.24...2.9.0)
