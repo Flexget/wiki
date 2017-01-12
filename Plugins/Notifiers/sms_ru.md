@@ -14,8 +14,6 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 | --- | ---| --- |---|
 |*phone_number*|text|Phone number to SMS. **Required**
 |*password*|text|Service password. **Required**
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details|
 
 #### Example:
 ```yaml
