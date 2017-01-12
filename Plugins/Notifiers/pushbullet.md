@@ -17,10 +17,7 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |device|text|Target a specific device. Can also be a list. 
 |email|email|Target user's emails. Can also be a list. 
 |channel|text|Target channel. Can also be a list. 
-|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
-|url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
+|url|URL|Notification URL | 
 
 <div class="alert alert-info" role="info">
   
@@ -40,8 +37,6 @@ pushbullet:
   api_key: API_key
   device: 345623456
   device: mobile
-  title: Downloading {{series_name}}
-  message: Episode {{series_id}}
 ```
 
 
