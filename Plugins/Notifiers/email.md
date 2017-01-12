@@ -16,8 +16,6 @@ The `default` template will notify you of all downloaded entries, and of any fai
 | --- | ---| --- |---|
 | to | email| The email address(es) of the recipient(s). **Required.**
 | from| email| The email address from which the email will be sent. |`flexget_notifer@flexget.com` | 
-| title |text| The subject for the email| Gets default from [notify](/Plugins/Notifiers/notify) plugin
-| message |text| The message body| Gets default from [notify](/Plugins/Notifiers/notify) plugin
 | smtp_host | text|The host of the smtp server. |`localhost`| 
 | smtp_port |numeric| The port of the smtp server. | `25`| 
 | smtp_username |text| The username to use to connect to the smtp server| 
@@ -25,7 +23,6 @@ The `default` template will notify you of all downloaded entries, and of any fai
 | smtp_tls |yes/no| Should TLS be used to connect | no|
 | smtp_ssl | yes/no|Should SSL be used to connect| no
 |html| yes/no | Should parse message as HTML|no
-| file_template | text|Name of the template file to use| 
 
 
 
