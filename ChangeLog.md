@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---08a2bc1f7b86a1ac588b378e0d8adaef50125abb--->
+<!---b7d7d4a9ed2c34036e495a1fe4b243461231d68a--->
 
-## 2.9.2.dev (unreleased)
+<!---8ddbdfddfe4939e18ca7a98dc2e09d16269b8359--->
+
+## 2.9.2 (2017-01-12)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.1...2.9.2)
 ### Fixed
 - sickbeard: fixed a typo that caused a crash when 'include_data: yes', fixes [#1623](https://github.com/Flexget/Flexget/issues/1623)
 
-<!---9b6219f6b8f9956e4498281839d6afdbfd6798ea--->
 
 ## 2.9.1 (2017-01-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.0...2.9.1)
