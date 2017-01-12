@@ -15,8 +15,6 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 |channel|text|Override channel, use "@username" or "#channel"
 |username|text|Override username
 |icon_emoji|text|Override emoji icon
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details|
 
 
 ## Example
