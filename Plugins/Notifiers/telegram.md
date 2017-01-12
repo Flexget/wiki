@@ -27,11 +27,8 @@ pip install python-telegram-bot
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
 |bot_token|text|Bot token. **Required**
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
 |parse_mode|text|Message parsing. Either `html` or `markdown`. 
 |recipients|text|List of recipients type. Can be `username`, `group` or `fullname`. See config example for details
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
-<div class="alert alert-info" role="info">
   
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp; In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be cause due to unclosed tags (watch out for wandering underscore when using markdown)
@@ -43,7 +40,6 @@ Not all Telegram users have a username. In such cases you would have to use the 
 my-task:
   telegram:
     bot_token: token
-    message: "{{title}}"
     parse_mode: markdown
     recipients:
       - username: my-user-name
