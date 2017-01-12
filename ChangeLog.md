@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b7d7d4a9ed2c34036e495a1fe4b243461231d68a--->
+<!---bdc19ba3d59835ef924a39aacfee681fe06aa22b--->
+
+## 2.9.3.dev (unreleased)
+### Added
+- quality: added support for 2160p
 
 <!---8ddbdfddfe4939e18ca7a98dc2e09d16269b8359--->
 
