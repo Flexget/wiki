@@ -14,11 +14,9 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
 | **user_key**| text| Pushover's user key. **Required.** Can also be a list.
-| api_key| text| Application's API key| `aPwSHwkLcNaavShxktBpgJH4bRWc3m` (Flexget's official key)|
+| api_key| text| Application's API key| Flexget's official key|
 |device|text|Target a specific device. Can also be a list|
-|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
-|url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
+|url|URL|Notification URL | 
 |priority|numeric| Set message priority. Values between -2 and 2 are accepted.| `0`|
 |url_title|text|Text to be displayed as URL title 
 |sound|text|Override default notifcation sound. Must one of [Pushover's supported sounds](https://pushover.net/api#sounds)
@@ -26,7 +24,6 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |expire|numeirc|Number of seconds to keep notification alive. Relevant only if priority is set to 2. Minimum value is 30. Maximum value is 86400.
 |callback|URL|A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2
 |html|yes/no|Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
 
 ### Simple
 The simplest Pushover plugin configuration requires only the user key (`user_key`) .This will broadcast the notification to all registered devices.
