@@ -15,20 +15,15 @@ You can now also use the channel feature, to send broadcast notifications to you
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
 | **api_key**| text| User's API key. Can also be a list. **Required**
-|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
 |group|text|Device group
 |channel|text|Target channel
 |priority|numeric| Set message priority. Values between 0 and 6 are accepted.|
-| file_template | text|Name of the template file to use. See [notify](/Plugins/Notifiers/notify) plugin for more details| 
 
 #### Example
 ```yaml
 rapidpush:
   priority: 3
   group: mydevices
-  title: 'New Entries from: {{task}}'
-  message: 'Downloaded: {{title}}'
   api_key: API_KEY
 ```
 
@@ -37,8 +32,6 @@ rapidpush:
 rapidpush:
   priority: 3
   group: mydevices
-  title: 'New Entries from: {{task}}'
-  message: 'Downloaded: {{title}}'
   api_key:
     - API_KEY1
     - API_KEY2
