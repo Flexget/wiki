@@ -16,8 +16,6 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 | **api_key**| text| User's API key. Either this or `device` are **required.**| 
 | **device**| text| Device ID. Can also be a list. Either this or `api_key` are **required.**|
 |group|text|Sepcifed device group to send notification to. One of `all`, `android`, `chrome`, `windows10`, `phone`, `tablet` or `pc`. Requires using `api_key`|`all`
-|title|text|Notification title|Gets default from [notify](/Plugins/Notifiers/notify) plugin|
-|message|text| Notification message| Gets default from [notify](/Plugins/Notifiers/notify) plugin
 |url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
 |icon|URL|Notification icon
 |sms_number|text|Send an SMS to this nubmer using device (in addition to regular notification). Will use `message` as SMS body
@@ -42,8 +40,6 @@ join:
     - DEVICE1
     - DEVICE2
   group: windows10
-  title: Downloading {{series_name}}
-  message: Episode {{series_id}}
   priority: 2
   url: http://server.example.com/path/to/downloader/ui
   icon: http://bla.com/image.jpg
