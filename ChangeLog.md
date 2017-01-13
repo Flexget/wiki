@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f98be60c2d6f939a6bcae510253120eea17d7d7c--->
+<!---bd555dc75eed16345fb4799a1131bb46bdc958a9--->
 
-## 2.9.3.dev (unreleased)
+<!---f147bb9ae0833e3392db7ce52a0087953736eed3--->
+
+## 2.9.3 (2017-01-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.2...2.9.3)
 ### Added
 - quality: added support for 2160p
 
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - [UI] Username is autofilled on login page
 
-<!---8ddbdfddfe4939e18ca7a98dc2e09d16269b8359--->
 
 ## 2.9.2 (2017-01-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.1...2.9.2)
