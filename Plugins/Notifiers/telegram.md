@@ -77,7 +77,7 @@ telegram:
       {% else -%}
       {{title}}
       {%- endif -%}
-      via:
+    via:
       telegram:
         bot_token: '{{secrets.credentials.telegram.bot_token}}'
         parse_mode: markdown
