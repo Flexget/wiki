@@ -77,7 +77,7 @@ flexget web gentoken
 | --- | --- |
 | Log | <ul><li>View real-time logs</li><li>Search in the logs (by task, item, keyword, ...)</li></ul> |
 | Execute | <ul><li>Start execution of tasks</li><li>View results (accepted and undecided)</li></ul> |
-| Config | <ul><li>Edit your config from an in browser editor</li><li>Auto config reload when saved</li></ul> |
+| Config | <ul><li>Edit your config from an in browser editor</li><li>Auto config reload when saved</li><li>Edit your variables</li></ul> |
 | History | <ul><li>View latest accepted history</li><li>Search by task</li></ul> |
 | Series | <ul><li>View all series in your database</li><li>Set beginning of the series</li><li>Manage series<ul><li>Delete show itself</li><li>Delete episode</li><li>Delete releases</li><li>Forget downloaded releases (to redownload)</li></ul></li></ul> |
 | Movies | <ul><li>Manage movie lists<ul><li>Delete lists</li><li>Add lists</li></ul></li><li>Manage movies per list<ul><li>Delete Movie</li><li>Add movie to list</li></ul></li></ul> |
