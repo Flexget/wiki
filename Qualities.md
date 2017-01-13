@@ -1,6 +1,7 @@
 ---
 categories:
   Resolutions:
+  - 2160p
   - 1080p
   - 1080i
   - 720p
