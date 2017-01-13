@@ -38,25 +38,24 @@ Not all Telegram users have a username. In such cases you would have to use the 
 ## Configuration example
 ```yaml
 my-task:
-  telegram:
-    bot_token: token
-    parse_mode: markdown
-    recipients:
-      - username: my-user-name
-      - group: my-group-name
-      - fullname:
-          first: my-first-name
-          sur: my-sur-name
+  notify:
+    message: Notification body.
+    via:
+      - telegram:
+        bot_token: token
+        parse_mode: markdown
+        recipients:
+          - username: my-user-name
+          - group: my-group-name
+          - fullname:
+              first: my-first-name
+              sur: my-sur-name
 ```
 
 ## Example using Jinja2 template and markdown
 ```yaml
 telegram:
-  telegram:
-    bot_token: '{{secrets.credentials.telegram.bot_token}}'
-    parse_mode: markdown
-    recipients:
-      - username: '{{secrets.credentials.telegram.username}}'
+  notify:
     message: |+
       {%if task in ["retreive_from_couchpotato","dynamic_imdb_actors"]%}*New movie added to queue*
       {%else%}*Download Started from task:
@@ -78,6 +77,12 @@ telegram:
       {% else -%}
       {{title}}
       {%- endif -%}
+      via:
+      telegram:
+        bot_token: '{{secrets.credentials.telegram.bot_token}}'
+        parse_mode: markdown
+        recipients:
+          - username: '{{secrets.credentials.telegram.username}}'
 ```
 
 
