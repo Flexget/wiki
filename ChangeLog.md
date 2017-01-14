@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2e7541c790513d13852ada9a23065fd3420a5ef5--->
+<!---4e15f05555a5b804bf70a15e659371dbd00feb24--->
 
-## 2.9.4.dev (unreleased)
+<!---1e62dfc0274d57bec973d46ddb8e240f36febc1b--->
+
+## 2.9.4 (2017-01-14)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.3...2.9.4)
 ### Added
 - [UI] Config section allows editing of variables
 
-<!---f147bb9ae0833e3392db7ce52a0087953736eed3--->
 
 ## 2.9.3 (2017-01-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.2...2.9.3)
