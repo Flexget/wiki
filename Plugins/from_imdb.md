@@ -1,6 +1,6 @@
 # From IMDB
-This plugin creates an [entires](/Entry) based on an IMDB person, company or character. Additional filters like content types and job types can be added to the config to limit down the generated list.
-The main purpose of this plugin is to be used with the [movie_queue](/movie_queue) plugin as an input, but it can be also used with [configure_series](/Plugins/configure_series) if content is set to TV.
+This plugin creates [entries](/Entry) based on an IMDB person, company or character. Additional filters like content types and job types can be added to the config to limit down the generated list.
+The main purpose of this plugin is to be used with the [movie_list](/Plugins/List/movie_list) plugin as an input, but it can be also used with [configure_series](/Plugins/configure_series) if content is set to TV.
 This plugin is based on [IMDBPY](http://imdbpy.sourceforge.net/) and it is required ` pip install imdbpy `
 
 ## Plugin Settings
