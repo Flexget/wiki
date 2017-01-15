@@ -15,14 +15,6 @@ pip install pysftp==0.2.8
 ```
 pysftp depends on the Pycrypto library. If you are using Windows, you may have to install it manually. Windows binaries are available [here](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
 
-**NOTE:** If experiencing issues with connections, you may need to [downgrade](https://github.com/Yenthe666/auto_backup/issues/47) pysftp to 0.2.8 (if using 0.2.9).
-
-This can easily be done by running:
-```
-pip uninstall pysftp
-pip install pysftp==0.2.8
-```
-
 **Example**
 
 ```
