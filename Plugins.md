@@ -52,6 +52,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | Keyword | Description |
 | --- | --- |
 | [anidb_list](/Plugins/anidb_list) | Create entries from your AniDB wishlist. |
+| [my_anime_list](/Plugins/my_anime_list) | Create entries from MyAnimeList animelist. |
 | [apple_trailers](/Plugins/apple_trailers) | Get movie trailers from Apple.com |
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
