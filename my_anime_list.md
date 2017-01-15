@@ -1,3 +1,0 @@
-# AniDB List
-
-WIP
