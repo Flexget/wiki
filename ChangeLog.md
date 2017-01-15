@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4f9e04f75cb9e04fc0b55d07313f8627b7bc08e8--->
+<!---527f39bf0439276780a3064a0c0c1381e0ad0d4d--->
 
 ## 2.9.5.dev (unreleased)
 ### Changed
 - series parser: added support for Exx identifier
+
+### Added
+- *  My Anime List input plugin
+- My Anime List input plugin ([#1629](https://github.com/Flexget/Flexget/issues/1629))
 
 <!---1e62dfc0274d57bec973d46ddb8e240f36febc1b--->
 
