@@ -13,7 +13,7 @@ Common mistakes, read at least these!
  * Missing colons. Pay special attention to these when looking at the examples and documentation
  * If text value contains any of `{}[]%:` characters it must be quoted with `''`
  * If you want to pass a number as a text (ie. series *24*), value must be quoted with `''`
- * [Answsers for common mistakes](/PitFalls)
+ * [Answers for common mistakes](/PitFalls)
 
 ### Location
 By default FlexGet tries to find `config.yml` from several places in this order:
