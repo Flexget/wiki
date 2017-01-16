@@ -5,8 +5,6 @@
   &nbsp; Pushbullet is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
-
-
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [Pushbullet](https://www.pushbullet.com/).
 
 ## Configuration
@@ -25,7 +23,10 @@ This plugin provides the ability to send flexget notifications via the cross-pla
   &nbsp; Only one of `email`, `device` or `channel` can be used per config
 </div>
 
-#### Example
+### Examples
+
+
+### Send notification for each accepted entry
 ```yaml
 notify:
   entries:
