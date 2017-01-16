@@ -25,15 +25,12 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |callback|URL|A callback URL to receive acknowledgement from notifications. Relevant only if priority is set to 2
 |html|yes/no|Formats the messages with HTML tags. Requires Pushover device version to be 2.3 or higher
 
-### Simple
-The simplest Pushover plugin configuration requires only the user key (`user_key`) .This will broadcast the notification to all registered devices.
+### Examples
 
-#### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+
+#### Simple notification for each accepted entry
+The simplest Pushover plugin configuration requires only the user key (`user_key`). This will broadcast the notification to all registered devices.
 
 ```yaml
 notify:
@@ -43,7 +40,7 @@ notify:
           user_key: USER_KEY
 ```
 
-#### Advanced Example
+#### More advanced version
 ```yaml
 notify:
   entries:
