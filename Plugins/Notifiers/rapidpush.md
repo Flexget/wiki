@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; RapidPush can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; RapidPush is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 RapidPush is an easy-to-use push notification service for Android devices.  
 
@@ -19,20 +19,32 @@ You can now also use the channel feature, to send broadcast notifications to you
 |channel|text|Target channel
 |priority|numeric| Set message priority. Values between 0 and 6 are accepted.|
 
-#### Example
+#### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
-rapidpush:
-  priority: 3
-  group: mydevices
-  api_key: API_KEY
+notify:
+  entries:
+    via: 
+      - rapidpush:
+          priority: 3
+          group: mydevices
+          api_key: API_KEY
 ```
 
 #### Example with multiple API-Key
 ```yaml
-rapidpush:
-  priority: 3
-  group: mydevices
-  api_key:
-    - API_KEY1
-    - API_KEY2
+notify:
+  entries:
+    via: 
+      - rapidpush:
+          priority: 3
+          group: mydevices
+          api_key:
+            - API_KEY1
+            - API_KEY2
 ```
