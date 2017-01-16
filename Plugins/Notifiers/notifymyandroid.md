@@ -20,18 +20,30 @@ This plugin provides the ability to send flexget notifications via the  notifica
 |developer_key|text|Optional developer key
 
 
-#### Example
+#### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
-notifymyandroid:
-  api_key: API_KEY
+notify:
+  entries:
+    via:
+      - notifymyandroid:
+          api_key: API_KEY
 ```
 
 #### Advanced Example
 ```yaml
-notifymyandroid:
-  api_key: API_KEY
-  application: Application name
-  priority: 2
-  url: http://server.example.com/path/to/downloader/ui
-  html: yes
+notify:
+  entries:
+    via:
+      - notifymyandroid:
+          api_key: API_KEY
+          application: Application name
+          priority: 2
+          url: http://server.example.com/path/to/downloader/ui
+          html: yes
 ```
