@@ -23,7 +23,13 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |source|text|Notification source name that will be displayed instead of authorization token's app name.|`FlexGet`
 |timetolive|numeric|Time in minutes after which message automatically gets purged. Minimum is `0`, maxiumum is `43200`.
 
-#### Example
+#### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
 notify:
   entries:
