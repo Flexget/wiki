@@ -9,7 +9,7 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 ### **2.9.0** -- 2017.01.10
 #### Notifications
 [Notification system](/Plugins/Notifiers) has been changed once more. Hopefully we worked most of the kinks out of the new system with this one. Summary of changes:
-- Backwards compatibility with old system has been taken out, it wasn't working quite properly anyway. You cannot use the [individual notifiers](/Plugins/Notifiers) at task level anymore. You must use the [notify](/Plugins/notify) plugin.
+- Backwards compatibility with old system has been taken out, it wasn't working quite properly anyway. You cannot use the [individual notifiers](/Plugins/Notifiers#notifiers) at task level anymore. You must use the [notify](/Plugins/notify) plugin.
 - `notify_task`, `notify_entries`, and `notify_abort` have all been combined back into [notify](/Plugins/notify) plugin, with subkeys `task`, `entries`, and `abort` subkeys.
 - Previously when specifying how a notification should be sent it went under the `to` key. This has been renamed to `via`.
 - `file_template` option has been renamed to `template`
