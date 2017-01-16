@@ -19,12 +19,23 @@ Either:
 
 
 **Syntax:**
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
 
 ```yaml
-toast: yes
+notify:
+  task:
+    via:
+      - toast: yes
 # or
-toast:
-  timeout: 5
+notify:
+  task:
+    via:
+      - toast:
+          timeout: 5
 ```
 <div class="alert alert-warning">
   
