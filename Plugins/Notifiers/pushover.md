@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushover can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Pushover is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 
@@ -30,33 +30,36 @@ The simplest Pushover plugin configuration requires only the user key (`user_key
 
 #### Example
 ```yaml
-pushover:
-  user_key: USER_KEY
+notify:
+  entries:
+    via:
+      - pushover:
+          user_key: USER_KEY
 ```
 
 #### Advanced Example
 ```yaml
-pushover:
-  user_key: 
-    - o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
-    - 0ydnaF3023jKadfkja9fjdkjaXfdfsaySGa
-  api_key: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
-  device: mobile
-  title: Downloading {{series_name}}
-  message: Episode {{series_id}}
-  priority: 2
-  url: http://server.example.com/path/to/downloader/ui
-  sound: incoming
-  retry: 60
-  expire: 1000
+notify:
+  entries:
+    via:
+      - pushover:
+          user_key: 
+            - o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
+            - 0ydnaF3023jKadfkja9fjdkjaXfdfsaySGa
+          api_key: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
+          device: mobile
+          title: Downloading {{series_name}}
+          message: Episode {{series_id}}
+          priority: 2
+          url: http://server.example.com/path/to/downloader/ui
+          sound: incoming
+          retry: 60
+          expire: 1000
 ```
 
 #### Example with Jinja2 tags
 ```yaml
-pushover:
-  user_key: '{{secrets.credentials.pushover.userkey}}'
-  api_key: '{{secrets.credentials.pushover.apikey}}'
-  sound: bike
+notify:
   title: >
     {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
     {%else%}Download Started from task {{task}}
@@ -66,18 +69,27 @@ pushover:
     {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
     {% else %}{{title}}
     {% endif %}
-  url: '{{trakt_series_trakt_url|d(imdb_url)}}'
-  url_title: Link
-  priority: >
-    {% if task == "retreive_from_couchpotato" %}-1
-    {% else %}0
-    {% endif %}
+  entries:
+    via:
+      - pushover:
+          user_key: '{? credentials.pushover.user_key ?}'
+          api_key: '{? credentials.pushover.api_key ?}'
+          sound: bike
+          url: '{{trakt_series_trakt_url|d(imdb_url)}}'
+          url_title: Link
+          priority: >
+            {% if task == "retreive_from_couchpotato" %}-1
+            {% else %}0
+            {% endif %}
 ```
 #### Example with HTML tags
 ```yaml
-pushover:
-  user_key: '{{secrets.credentials.pushover.userkey}}'
-  html: yes
+notify:
+  entries:
+    via:
+      - pushover:
+          user_key: '{? credentials.pushover.userkey ?}'
+          html: yes
   message: |+
     <b>word</b> - display word in bold
     <i>word</i> - display word in italics
