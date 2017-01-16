@@ -1,9 +1,9 @@
 # Secrets
 
-<div class="alert alert-warning" role="info">
+<div class="alert alert-danger" role="info">
   
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Warning! The secrets plugin is now the [variables](/Plugins/variables) plugin. You will need to go through the [Upgrade Actions](/UpgradeActions) of version 2.9.0.
+  <span class="glyphicon glyphicon-info-sign"></span>
+  &nbsp; This plugin was renamed in version 2.9.0. The secrets plugin is now the [variables](/Plugins/variables) plugin.
 </div>
 
 
