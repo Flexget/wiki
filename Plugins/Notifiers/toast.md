@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Toast is a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Toast is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 **`Requirement:`**
@@ -18,7 +18,7 @@ Either:
 |timeout|numeric|Number of seconds to display notification|`4`
 
 
-**Syntax:**
+**Examples:**
 <div class="alert alert-warning" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
