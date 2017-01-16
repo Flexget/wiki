@@ -1,5 +1,12 @@
 # Secrets
 
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Warning! The secrets plugin is now the [variables](/Plugins/variables) plugin. You will need to go through the [Upgrade Actions](/UpgradeActions) of version 2.9.0.
+</div>
+
+
 Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically processes some jinja2 templates on startup to assign the corresponding values set in a dedicated yaml file or from DB.
 All the templates to process must begin with the word "secrets".
 
