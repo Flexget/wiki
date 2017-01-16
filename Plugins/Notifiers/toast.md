@@ -25,12 +25,16 @@ Either:
   &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
 </div>
 
+**Basic:**
 ```yaml
 notify:
   task:
     via:
       - toast: yes
-# or
+```
+
+**With timeout:**
+```
 notify:
   task:
     via:
