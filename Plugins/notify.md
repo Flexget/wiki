@@ -37,3 +37,4 @@ notify:
       - <notifier name>:
           <notifier config>
 ```
+See [notification delivery plugins](/Plugins/Notifiers) for specific usage.
