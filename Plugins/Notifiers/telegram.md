@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Telegram can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 Send a message to one or more Telegram users or groups upon accepting a download.
 
@@ -35,7 +35,13 @@ pip install python-telegram-bot
 </div>
 Not all Telegram users have a username. In such cases you would have to use the `fullname` approach. Otherwise, it is much easier to use the `username` configuration.
 
-## Configuration example
+## Configuration examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
 my-task:
   notify:
@@ -79,10 +85,10 @@ telegram:
       {%- endif -%}
     via:
       - telegram:
-        bot_token: '{{secrets.credentials.telegram.bot_token}}'
+        bot_token: '{? credentials.telegram.bot_token ?}'
         parse_mode: markdown
         recipients:
-          - username: '{{secrets.credentials.telegram.username}}'
+          - username: '{? credentials.telegram.username ?}'
 ```
 
 
