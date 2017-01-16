@@ -43,6 +43,7 @@ You can create your own custom templates for the email plugin in the jinja2 temp
   <span class="glyphicon glyphicon glyphicon-cog"></span>
   &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
 </div>
+
 **Config basic example**
 
 ```yaml
