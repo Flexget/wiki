@@ -19,7 +19,16 @@ Send messages to your iPhone using [Prowl](http://prowlapp.com).
 ### Example
 Get your unique API key [here](/https://prowlapp.com/api_settings.php)
 
-```
-prowl:
-  api_key: <your apikey>
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
+```yaml
+notify:
+  entries:
+    via:
+      - prowl:
+          api_key: <your apikey>
 ```
