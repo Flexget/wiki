@@ -38,36 +38,53 @@ The `default` template will notify you of all downloaded entries, and of any fai
 You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `file_template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
 
 ### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
 **Config basic example**
 
 ```yaml
-email:
-  from: xxx@xxx.xxx
-  to: xxx@xxx.xxx
-  smtp_host: smtp.host.com
+notify:
+  task:
+    template: html  # Optional, if you want html instead of plain text
+    via:
+      - email:
+          from: xxx@xxx.xxx
+          to: xxx@xxx.xxx
+          smtp_host: smtp.host.com
 ```
 
 **Config example with smtp login and multiple recipients**
 
 ```yaml
-email:
-  from: xxx@xxx.xxx
-  to:
-    - xxx@xxx.xxx
-    - yyy@yyy.yyy
-  smtp_host: smtp.host.com
-  smtp_port: 25
-  smtp_username: my_smtp_login
-  smtp_password: my_smtp_password
+notify:
+  task:
+    template: html  # Optional, if you want html instead of plain text
+    via:
+      - email:
+          from: xxx@xxx.xxx
+          to:
+            - xxx@xxx.xxx
+            - yyy@yyy.yyy
+          smtp_host: smtp.host.com
+          smtp_port: 25
+          smtp_username: my_smtp_login
+          smtp_password: my_smtp_password
 ```
 **Gmail example**
 ```yaml
-email:
-  from: from@gmail.com
-  to: to@gmail.com
-  smtp_host: smtp.gmail.com
-  smtp_port: 587
-  smtp_username: gmailUser
-  smtp_password: gmailPassword
-  smtp_tls: yes
+notify:
+  task:
+    template: html  # Optional, if you want html instead of plain text
+    via:
+      - email:
+          from: from@gmail.com
+          to: to@gmail.com
+          smtp_host: smtp.gmail.com
+          smtp_port: 587
+          smtp_username: gmailUser
+          smtp_password: gmailPassword
+          smtp_tls: yes
 ```
