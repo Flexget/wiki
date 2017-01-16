@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Prowl is part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Prowl is part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 Send messages to your iPhone using [Prowl](http://prowlapp.com).
