@@ -34,7 +34,7 @@ notify:
 ```
 
 **With timeout:**
-```
+```yaml
 notify:
   task:
     via:
