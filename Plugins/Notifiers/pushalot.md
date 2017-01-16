@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushalot can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Pushalot is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 
@@ -25,22 +25,28 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 #### Example
 ```yaml
-pushalot:
-  api_key: API_KEY
+notify:
+  entries:
+    via:
+      - pushalot:
+          api_key: API_KEY
 ```
 
 #### Advanced Example
 ```yaml
-pushalot: 
-  api_key: 
-    - api_key1
-    - api_key2
-  url: '{{ imdb_url }}'
-  url_title: 'View {{ movie_name }} in IMDB'
-  important: yes
-  silent: no
-  image: '{{ imdb_photo }}'
-  source: test_source
-  timetolive: 5
+notify:
+  entries:
+    via:
+      - pushalot: 
+          api_key: 
+            - api_key1
+            - api_key2
+          url: '{{ imdb_url }}'
+          url_title: 'View {{ movie_name }} in IMDB'
+          important: yes
+          silent: no
+          image: '{{ imdb_photo }}'
+          source: test_source
+          timetolive: 5
 ```
 
