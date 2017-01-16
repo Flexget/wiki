@@ -28,7 +28,13 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 ### Simple
 The simplest Pushover plugin configuration requires only the user key (`user_key`) .This will broadcast the notification to all registered devices.
 
-#### Example
+#### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
 notify:
   entries:
