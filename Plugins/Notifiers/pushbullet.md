@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushbullet can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Pushbullet is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 
@@ -27,16 +27,11 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 #### Example
 ```yaml
-pushbullet:
-  api_key: API_key
-```
-
-#### Advanced Example
-```yaml
-pushbullet:
-  api_key: API_key
-  device: 345623456
-  device: mobile
+notify:
+  entries:
+    via:
+      - pushbullet:
+          api_key: API_key
 ```
 
 
