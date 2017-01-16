@@ -22,26 +22,41 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |priority|numeric|Sets notification priority. Can be between -2 and 2.
 
 
-#### Example
+#### Examples
+<div class="alert alert-warning" role="info">
+  
+  <span class="glyphicon glyphicon glyphicon-cog"></span>
+  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+</div>
+
 ```yaml
-join:
-  api_key: API_LEY
+notify:
+  entries:
+    via:
+      - join:
+          api_key: API_LEY
 ```
 Or:
 ```yaml
-join:
-  device: DEVICE
+notify:
+  entries:
+    via:
+      - join:
+          device: DEVICE
 ```
 
 #### Advanced Example
 ```yaml
-join:
-  device: 
-    - DEVICE1
-    - DEVICE2
-  group: windows10
-  priority: 2
-  url: http://server.example.com/path/to/downloader/ui
-  icon: http://bla.com/image.jpg
-  sms_number: '1800555555'
+notify:
+  entries:
+    via:
+      - join:
+          device: 
+            - DEVICE1
+            - DEVICE2
+          group: windows10
+          priority: 2
+          url: http://server.example.com/path/to/downloader/ui
+          icon: http://bla.com/image.jpg
+          sms_number: '1800555555'
 ```
