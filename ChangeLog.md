@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dae4f64dd8ee37c5ec35fec64636620e0fe67b6d--->
+<!---b16863523771d3488b32c44e1c01bf2087f98a9e--->
 
-## 2.9.6.dev (unreleased)
+<!---58a4d9d7d68395abc3239e32078c434e556273c0--->
+
+## 2.9.6 (2017-01-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.5...2.9.6)
 ### Fixed
 - Remove strictness in API trailing slashes, fixes [#1635](https://github.com/Flexget/Flexget/issues/1635)
 
-<!---bd646b0de85e57d2f7c26b52a0952dcd2ac7bf87--->
 
 ## 2.9.5 (2017-01-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.4...2.9.5)
