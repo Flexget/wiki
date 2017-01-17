@@ -19,7 +19,7 @@ If you use any of the following plugins, you will most likely have to update you
 
 - [email](/Plugins/Notifiers/email)
 - [join](/Plugins/Notifiers/join)
-- [toast](/Plugins/Notifiers/toast)
+- [toast](/Plugins/Notifiers/toast) (previously `notify_osd`)
 - [notifymyandroid](/Plugins/Notifiers/notifymyandroid)
 - [prowl](/Plugins/Notifiers/prowl)
 - [pushalot](/Plugins/Notifiers/pushalot)
