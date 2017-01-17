@@ -15,6 +15,22 @@ Starting from version 2.0.0 we are using semantic versioning in the form that an
 - `file_template` option has been renamed to `template`
 - The `notify_osd` notifier was renamed to [toast](/Plugins/Notifiers/toast) (and preliminary windows support added)
 
+If you use any of the following plugins, you will most likely have to update your config. See their individual wiki pages for the new config format as well as [notify](/Plugins/notify) plugin.
+
+- [email](/Plugins/Notifiers/email)
+- [join](/Plugins/Notifiers/join)
+- [toast](/Plugins/Notifiers/toast)
+- [notifymyandroid](/Plugins/Notifiers/notifymyandroid)
+- [prowl](/Plugins/Notifiers/prowl)
+- [pushalot](/Plugins/Notifiers/pushalot)
+- [pushbullet](/Plugins/Notifiers/pushbullet)
+- [pushover](/Plugins/Notifiers/pushover)
+- [rapidpush](/Plugins/Notifiers/rapidpush)
+- [slack](/Plugins/Notifiers/slack)
+- [sms_ru](/Plugins/Notifiers/sms_ru)
+- [telegram](/Plugins/Notifiers/telegram)
+- [xmpp](/Plugins/Notifiers/xmpp)
+
 Examples of new notifier config:
 
 ```yaml
