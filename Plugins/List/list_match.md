@@ -33,6 +33,8 @@ All accepted entries are deleted from list when task completes. To disable this,
 
 If you wish to reject entries based on a list, as opposed to accept, use `action: reject`.
 
+NOTE: Each list plugin matches differently, eg. [movie_list](/Plugins/List/movie_list) matches on metainfo identifiers while [entry_list](/Plugins/List/entry_list) matches solely on entry title. Consult the list plugin's wiki page for more details.
+
 ### Examples
 
 #### Download queued movies
@@ -46,6 +48,7 @@ list_match:
   from:
     - movie_list: movies
 quality: 720p+ bluray
+imdb_lookup: yes
 ```
 
 This requires that [movie list](/Plugins/List/movie_list) is either managed by hand or synced automatically from other sources. Check [movie list](/Plugins/List/movie_list) page for more information about that.
