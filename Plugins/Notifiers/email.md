@@ -34,6 +34,8 @@ The `default` template will notify you of all downloaded entries, and of any fai
 - `accepted`: This will only send emails about accepted entries.
 - `html`: This attempts to make html formatted emails with images for series and movies.
 
+<b>Note: When using html template, use `tvdb_lookup: yes` in your task, to make sure metainfo is filled in.
+
 ### Custom Templates
 You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `file_template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
 
