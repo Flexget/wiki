@@ -8,6 +8,7 @@ tasks:
     trakt_list:
       account: my_acc_name
       list: watchlist
+      type: movies
     accept_all: yes
     seen: local  # We don't want accepted movies on this feed to affect actual download feed
     list_add:
