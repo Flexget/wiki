@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b16863523771d3488b32c44e1c01bf2087f98a9e--->
+<!---679b62c39e82ea9d38e40d4ca62da5282677efd5--->
+
+## 2.9.7.dev (unreleased)
+### Added
+- imdb_watchlist: added support for choosing types ([#1645](https://github.com/Flexget/Flexget/issues/1645))
+- *  toast - Added mac support
 
 <!---58a4d9d7d68395abc3239e32078c434e556273c0--->
 
