@@ -12,7 +12,7 @@ This plugin produces an [entry](/Entry) for each item on [MyAnimeList](https://m
 | --- | --- |
 | username | MAL username|
 | status | MAL status used to filter entries, possible values: `watching`, `completed`, `on_hold`, `dropped` or `plan_to_watch`. Defaults to all. |
-| type |Type of items to be listed, can be: `series`, `ova`, `movie`, `special` or `ona`. Defaults to all. |
+| type |Type of items to be listed, can be: `unknown`, `series`, `ova`, `movie`, `special`, `ona` or `music`. Defaults to all. |
 
 ## Examples
 ### Autoconfigure series
