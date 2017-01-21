@@ -1,14 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---808b99b62e79fe38372e154191ffc7fef5330d73--->
+<!---2b4736a2e6b1a0ccf9ea2e3abdf7140fee9e2963--->
 
-## 2.9.7.dev (unreleased)
+## 2.9.8.dev (unreleased)
 ### Added
 - imdb_watchlist: added support for choosing types ([#1645](https://github.com/Flexget/Flexget/issues/1645))
 - *  toast - Added mac support
 
 ### Fixed
+- T411 url has changed (still one) ([#1641](https://github.com/Flexget/Flexget/issues/1641))
 - my_anime_list: coerce default status and type to lists in Python 3
 - my_anime_list: added missing anime types, fixes [#1640](https://github.com/Flexget/Flexget/issues/1640)
 
