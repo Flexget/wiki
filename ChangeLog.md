@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2b4736a2e6b1a0ccf9ea2e3abdf7140fee9e2963--->
+<!---b28a6acef34ff90964f487f1d29d020e6ef30507--->
 
 ## 2.9.8.dev (unreleased)
 ### Added
+- Add url rewrite support for bt.hliang.com ([#1630](https://github.com/Flexget/Flexget/issues/1630))
 - imdb_watchlist: added support for choosing types ([#1645](https://github.com/Flexget/Flexget/issues/1645))
 - *  toast - Added mac support
 
