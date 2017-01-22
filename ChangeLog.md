@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b28a6acef34ff90964f487f1d29d020e6ef30507--->
+<!---48c584581f7a9d4a93971dfb8df33954445d5a15--->
 
-## 2.9.8.dev (unreleased)
+<!---73043b4a799e79180646fcec58587edb1928a83c--->
+
+## 2.9.8 (2017-01-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.6...2.9.8)
 ### Added
 - Add url rewrite support for bt.hliang.com ([#1630](https://github.com/Flexget/Flexget/issues/1630))
 - imdb_watchlist: added support for choosing types ([#1645](https://github.com/Flexget/Flexget/issues/1645))
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - my_anime_list: coerce default status and type to lists in Python 3
 - my_anime_list: added missing anime types, fixes [#1640](https://github.com/Flexget/Flexget/issues/1640)
 
-<!---58a4d9d7d68395abc3239e32078c434e556273c0--->
 
 ## 2.9.6 (2017-01-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.5...2.9.6)
