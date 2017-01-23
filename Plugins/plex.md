@@ -40,6 +40,4 @@ plex:
   selection: recentlyAdded
   username: myplexusername
   password: myplexpassword
-download:
-  path: /mnt/downloads/
 ```
