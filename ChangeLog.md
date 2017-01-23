@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e28e9a8c723179a7cc86b034d7069377f9691782--->
+<!---3e4ca9a8893f3e142996c8cc8ce683b131271e4b--->
 
 ## 2.9.9.dev (unreleased)
 ### Fixed
+- plugins cli - Changed `group` to `interface`. Fixes [#1650](https://github.com/Flexget/Flexget/issues/1650)
 - iptorrents - Fix both crash issues mentioned in [#1643](https://github.com/Flexget/Flexget/issues/1643) ([#1651](https://github.com/Flexget/Flexget/issues/1651))
 
 <!---73043b4a799e79180646fcec58587edb1928a83c--->
