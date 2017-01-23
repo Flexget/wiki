@@ -1,5 +1,5 @@
 # IPTorrents
-This search plugin will get results from [http://iptorrents.com](/http://iptorrents.com)
+This search plugin will get results from [http://iptorrents.com](http://iptorrents.com)
 
 ## Configuration
 Configuration requires rss_key, uid, and pass (see below):
