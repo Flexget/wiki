@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3e4ca9a8893f3e142996c8cc8ce683b131271e4b--->
+<!---6ea9440bc397e8d03d318d2410f33bf32c61c152--->
 
 ## 2.9.9.dev (unreleased)
 ### Fixed
+- Stop loading all http responses into memory. fix [#1657](https://github.com/Flexget/Flexget/issues/1657)
 - plugins cli - Changed `group` to `interface`. Fixes [#1650](https://github.com/Flexget/Flexget/issues/1650)
 - iptorrents - Fix both crash issues mentioned in [#1643](https://github.com/Flexget/Flexget/issues/1643) ([#1651](https://github.com/Flexget/Flexget/issues/1651))
 
