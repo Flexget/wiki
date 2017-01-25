@@ -13,7 +13,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.9.9 (2017-01-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.8...2.9.9)
 ### Fixed
-- Stop loading all http responses into memory. fix [#1657](https://github.com/Flexget/Flexget/issues/1657)
+- Stop loading all http responses into memory. fix [#1647](https://github.com/Flexget/Flexget/issues/1647)
 - plugins cli - Changed `group` to `interface`. Fixes [#1650](https://github.com/Flexget/Flexget/issues/1650)
 - iptorrents - Fix both crash issues mentioned in [#1643](https://github.com/Flexget/Flexget/issues/1643) ([#1651](https://github.com/Flexget/Flexget/issues/1651))
 
