@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1b7aa394a224f304b027935998943a5151646709--->
+<!---8041b2b34ce5da9129a334ebc6daef2e10e4034f--->
 
-## 2.9.10.dev (unreleased)
+<!---df8b8370d3b845305d5f89b4545a15903ba6a8e7--->
+
+## 2.9.10 (2017-01-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.9...2.9.10)
 ### Fixed
 - movie_list: fixed cli commands 'add' and 'del', which crashed under certain conditions, fixes [#1606](https://github.com/Flexget/Flexget/issues/1606)
 - Fix crash when kodi_library encounters a network error. fix [#1653](https://github.com/Flexget/Flexget/issues/1653)
 - slack - Fix setting icon_emoji. Fixes [#1649](https://github.com/Flexget/Flexget/issues/1649)
 
-<!---3ea7d43cd0e0fda49ca70edb040d6778e745328e--->
 
 ## 2.9.9 (2017-01-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.8...2.9.9)
