@@ -5,7 +5,7 @@ This plugin can be used to select a path based the disk usage.
 
 | **Option** | **Description** |
 | --- | --- |
-| select | [most_free | most_free_percent | most_used | most_used_percent] |
+| select | [most_free \| most_free_percent \| most_used \| most_used_percent] |
 | paths | The paths to compare |
 | within | Find other paths that are within size or percent. Default is 0 (disabled) |
 | to_field | The entry field where to save the selected path. Default is path |
