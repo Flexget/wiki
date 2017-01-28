@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b9e6899223bbeae1b627dd4ee2ab91a94d3d094--->
+<!---4873ebc74d801a7962cc6a2286c5eadd260eadd4--->
 
-## 2.9.11.dev (unreleased)
+<!---0d7fc0f23f2bc3b4e77bafe9db75c461081208ee--->
+
+## 2.9.11 (2017-01-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.10...2.9.11)
 ### Changed
 - kodi_library: default to port 8080
 
-<!---df8b8370d3b845305d5f89b4545a15903ba6a8e7--->
 
 ## 2.9.10 (2017-01-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.9...2.9.10)
