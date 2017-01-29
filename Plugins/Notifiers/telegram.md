@@ -86,10 +86,10 @@ templates
         {%- endif -%}
       via:
         - telegram:
-          bot_token: '{? credentials.telegram.bot_token ?}'
-          parse_mode: markdown
-          recipients:
-            - username: '{? credentials.telegram.username ?}'
+            bot_token: '{? credentials.telegram.bot_token ?}'
+            parse_mode: markdown
+            recipients:
+              - username: '{? credentials.telegram.username ?}'
 ```
 
 
