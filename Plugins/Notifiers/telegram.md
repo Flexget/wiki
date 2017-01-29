@@ -72,8 +72,8 @@ templates
         *{{series_name}}* - {{series_id}} - {{quality|d('')}}
         *{{tvmaze_episode_name|d(tvdb_ep_name)|d('')}}*
         [Image]({{tvmaze_series_original_image|replace("_", "%5F")}})
-          [Show page]({{tvmaze_series_url|replace("_", "%5F")}})
-      {% elif imdb_name is defined -%}
+        [Show page]({{tvmaze_series_url|replace("_", "%5F")}})
+        {% elif imdb_name is defined -%}
         *{{imdb_name}}* - ({{imdb_year}})
         {{quality|d('')}}
         {{imdb_score}}/10 - {{imdb_votes}} votes
