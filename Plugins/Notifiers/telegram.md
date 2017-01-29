@@ -60,35 +60,36 @@ my-task:
 
 ## Example using Jinja2 template and markdown
 ```yaml
-telegram:
-  notify:
-    message: |+
-      {%if task in ["retreive_from_couchpotato","dynamic_imdb_actors"]%}*New movie added to queue*
-      {%else%}*Download Started from task:
-      *{{task|replace("_", "-")}}
-      {%endif%}
-      {% if series_name is defined -%}
-      *{{series_name}}* - {{series_id}} - {{quality|d('')}}
-      *{{tvmaze_episode_name|d(tvdb_ep_name)|d('')}}*
-      [Image]({{tvmaze_series_original_image|replace("_", "%5F")}})
-      [Show page]({{tvmaze_series_url|replace("_", "%5F")}})
+templates
+  my_template_name:
+    notify:
+      message: |+
+        {%if task in ["retreive_from_couchpotato","dynamic_imdb_actors"]%}*New movie added to queue*
+        {%else%}*Download Started from task:
+        *{{task|replace("_", "-")}}
+        {%endif%}
+        {% if series_name is defined -%}
+        *{{series_name}}* - {{series_id}} - {{quality|d('')}}
+        *{{tvmaze_episode_name|d(tvdb_ep_name)|d('')}}*
+        [Image]({{tvmaze_series_original_image|replace("_", "%5F")}})
+          [Show page]({{tvmaze_series_url|replace("_", "%5F")}})
       {% elif imdb_name is defined -%}
-      *{{imdb_name}}* - ({{imdb_year}})
-      {{quality|d('')}}
-      {{imdb_score}}/10 - {{imdb_votes}} votes
-      {{imdb_genres|join(', ')|title}} 
-      *Plot:* {{imdb_plot_outline}}
-      [Image]({{tmdb_posters[0]|replace("_", "%5F")}})
-      [Movie Page]({{imdb_url|d('')}})
-      {% else -%}
-      {{title}}
-      {%- endif -%}
-    via:
-      - telegram:
-        bot_token: '{? credentials.telegram.bot_token ?}'
-        parse_mode: markdown
-        recipients:
-          - username: '{? credentials.telegram.username ?}'
+        *{{imdb_name}}* - ({{imdb_year}})
+        {{quality|d('')}}
+        {{imdb_score}}/10 - {{imdb_votes}} votes
+        {{imdb_genres|join(', ')|title}} 
+        *Plot:* {{imdb_plot_outline}}
+        [Image]({{tmdb_posters[0]|replace("_", "%5F")}})
+        [Movie Page]({{imdb_url|d('')}})
+        {% else -%}
+        {{title}}
+        {%- endif -%}
+      via:
+        - telegram:
+          bot_token: '{? credentials.telegram.bot_token ?}'
+          parse_mode: markdown
+          recipients:
+            - username: '{? credentials.telegram.username ?}'
 ```
 
 
