@@ -48,19 +48,19 @@ my-task:
     message: Notification body.
     via:
       - telegram:
-        bot_token: token
-        parse_mode: markdown
-        recipients:
-          - username: my-user-name
-          - group: my-group-name
-          - fullname:
-              first: my-first-name
-              sur: my-sur-name
+          bot_token: token
+          parse_mode: markdown
+          recipients:
+            - username: my-user-name
+            - group: my-group-name
+            - fullname:
+                first: my-first-name
+                sur: my-sur-name
 ```
 
 ## Example using Jinja2 template and markdown
 ```yaml
-templates
+templates:
   my_template_name:
     notify:
       message: |+
