@@ -4,7 +4,7 @@ Allows injecting imaginary entry for FlexGet to process. You can also use [the i
 **Syntax:**
 
 ```
---inject <TITLE> [URL](/URL) [ACCEPT](/ACCEPT) [FORCE](/FORCE)
+--inject <TITLE> [URL] [ACCEPT] [FORCE]
 ```
         
 Without URL a random url will be generated. All other inputs are disabled.
