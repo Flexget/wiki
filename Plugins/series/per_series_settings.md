@@ -4,7 +4,7 @@ When specifying a setting for a series, you must add a colon to the end of the s
 ```
 series:
   - series name:
-      [setting](/setting): [value](/value)
+      [setting]: [value]
 ```
 
 For example, with [quality](/Plugins/series/quality) settings:
