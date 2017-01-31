@@ -5,7 +5,7 @@ Many times, you will want to apply a setting to more than one show at once. In t
 series:
   [settings]:
     [group name]:
-      [setting](/setting): [value]
+      [setting]: [value]
   [group name]:
     - first series
     - second series
