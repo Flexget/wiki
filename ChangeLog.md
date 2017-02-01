@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8a24a932ec775087a894c5093a2bc2fa88f71411--->
+<!---6e921cc586b6deba27831cd8504f3fc741d1feb6--->
 
-## 2.9.12.dev (unreleased)
+<!---610e2df5fce3a9268c22f5d4f74da8d6206fab01--->
+
+## 2.9.12 (2017-02-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.11...2.9.12)
 ### Fixed
 - rapidpush - Fixed message format. Closed [#1665](https://github.com/Flexget/Flexget/issues/1665)
 - Update npo_watchlist ([#1664](https://github.com/Flexget/Flexget/issues/1664))
 
-<!---0d7fc0f23f2bc3b4e77bafe9db75c461081208ee--->
 
 ## 2.9.11 (2017-01-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.10...2.9.11)
