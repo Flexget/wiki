@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3cb559fb64052a0d74c37f310ced59a474427ce6--->
+<!---3c3567b9f83211ed1ec49140d32065b1b9082c00--->
 
 ## 2.9.13.dev (unreleased)
 ### Fixed
+- serienjunkies: added 'task' interface, which allows the plugin to be used in a task config
 - download: no longer crashes when cleaning temp files that don't exist
 
 <!---610e2df5fce3a9268c22f5d4f74da8d6206fab01--->
