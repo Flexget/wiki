@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3c3567b9f83211ed1ec49140d32065b1b9082c00--->
+<!---7c20049fbf5874675fe2b1efae4725adcb6776c4--->
 
-## 2.9.13.dev (unreleased)
+<!---28d57dafc7604f7c58f1d4dd52aae66941897173--->
+
+## 2.9.13 (2017-02-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.12...2.9.13)
 ### Fixed
 - serienjunkies: added 'task' interface, which allows the plugin to be used in a task config
 - download: no longer crashes when cleaning temp files that don't exist
 
-<!---610e2df5fce3a9268c22f5d4f74da8d6206fab01--->
 
 ## 2.9.12 (2017-02-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.11...2.9.12)
