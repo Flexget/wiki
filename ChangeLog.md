@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c20049fbf5874675fe2b1efae4725adcb6776c4--->
+<!---d3ebf504662329195bc65f73b06c92accf5106fa--->
+
+## 2.9.14.dev (unreleased)
+### Fixed
+- move/copy: 'along' files are now properly renamed when 'rename' contains an extension, but 'keep_extension: yes' is set
 
 <!---28d57dafc7604f7c58f1d4dd52aae66941897173--->
 
