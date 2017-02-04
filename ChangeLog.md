@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7023564c2abfd1adf9cc70a65d8c24d4008795f7--->
+<!---3f6662722daa04451869292bf7f2e38753256273--->
 
 ## 2.9.15.dev (unreleased)
 ### Fixed
+- myepisodes, myepisodes_list: login check is no longer case sensitive
 - rtorrent: fixed python 3 crash (UnboundLocalError) caused by try-except scope changes, fixes [#1669](https://github.com/Flexget/Flexget/issues/1669)
 
 <!---b3cc97c1d47c48f4707cded816594c2cb598239f--->
