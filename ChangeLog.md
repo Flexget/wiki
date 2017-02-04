@@ -5,7 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.9.15.dev (unreleased)
 ### Fixed
-- myepisodes, myepisodes_list: login check is no longer case sensitive
+- myepisodes, myepisodes_list: login check is no longer dependent on username
 - rtorrent: fixed python 3 crash (UnboundLocalError) caused by try-except scope changes, fixes [#1669](https://github.com/Flexget/Flexget/issues/1669)
 
 <!---b3cc97c1d47c48f4707cded816594c2cb598239f--->
