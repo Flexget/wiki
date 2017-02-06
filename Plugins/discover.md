@@ -7,6 +7,8 @@ Creates entries based on search results. Queries are produced based on another i
   This may seem a bit scary at first, but just remember discover is normal input like rss!
 </div>
 
+Cookbook example: [discoverfeed](/Cookbook/Movies/discoverfeed)
+
 ## Config Format
 ```text
 discover:
