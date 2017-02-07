@@ -1,6 +1,6 @@
 # Flexget & Deluge on Ubuntu
 
-The following is a comprehensive guide on how to setup an ubuntu box as a seedbox with flexget and deluge. by working through this guide, you can have an automated torrenting setup with the following features:
+The following is a comprehensive guide on how to setup an ubuntu box as a seedbox with flexget and deluge. By working through this guide, you can have an automated torrenting setup with the following features:
 
 * Automatically download episodes of tv shows you have watchlisted on your trakt.tv account.
 * Automatically download movies you have watchlisted on your imdb account.
