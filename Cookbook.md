@@ -18,6 +18,7 @@ You can [login](/login) via oauth with either a GitHub or Google account.
 - [Advanced recipes](/Cookbook/Advanced)
 
 ## Client guides
+- [A-Z Tutorial for Deluge](/Cookbook/Deluge)
 - [Complete working example for Transmission ](/Cookbook/Transmission)
 - [Complete working example for rTorrent](/Cookbook/rTorrent)
 - [Brief working example for uTorrent](/Cookbook/uTorrent)
