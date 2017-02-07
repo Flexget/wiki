@@ -14,5 +14,5 @@ This is a comprehensive guide on how to setup an ubuntu box as a seedbox with fl
 
 <div class="alert alert-info" role="alert">
 
-you can access the full tutorial by **[clicking here](https://djnitehawk.com/flexget.htm)**
+**You can access the full tutorial by [clicking here](https://djnitehawk.com/flexget.htm)**
 </div>
