@@ -18,3 +18,10 @@ The following is a comprehensive guide on how to setup an ubuntu box as a seedbo
 
 **You can access the full tutorial by [clicking here](https://djnitehawk.com/flexget.htm)**
 </div>
+
+### PDF Download
+You can download a PDF version of the tutorial from the following google drive link:
+
+```
+https://drive.google.com/open?id=0BzU4nr8FNKaKeGpPTmdrY3lzbUE
+```
