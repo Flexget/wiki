@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---929716c815c830ce273b204c3c1e5fb81d8b6147--->
+<!---d0b520910f329cbbb8f1cfe9f5dd77bc5e131b1c--->
 
 ## 2.9.17.dev (unreleased)
 ### Fixed
+- check_subtitles: now properly finds internal subtitles
 - sickbeard - Handle corrupt data from the API. Fixes [#1672](https://github.com/Flexget/Flexget/issues/1672)
 
 ### Added
