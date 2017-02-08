@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---708da69b17944a1920417736cfbe41b68d1d83a6--->
+<!---929716c815c830ce273b204c3c1e5fb81d8b6147--->
 
 ## 2.9.17.dev (unreleased)
 ### Fixed
 - sickbeard - Handle corrupt data from the API. Fixes [#1672](https://github.com/Flexget/Flexget/issues/1672)
+
+### Added
+- url schema format - Added sock5 as a valid protocol. Related [#992](https://github.com/Flexget/Flexget/issues/992)
 
 <!---dfad1921b16b07aac74bc5b150ebc39f9ae57bb0--->
 
