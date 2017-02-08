@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---201c453cc50570eb7f3ae8377769d6fb70cca309--->
+<!---708da69b17944a1920417736cfbe41b68d1d83a6--->
+
+## 2.9.17.dev (unreleased)
+### Fixed
+- sickbeard - Handle corrupt data from the API. Fixes [#1672](https://github.com/Flexget/Flexget/issues/1672)
 
 <!---dfad1921b16b07aac74bc5b150ebc39f9ae57bb0--->
 
