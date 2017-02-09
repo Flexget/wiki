@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0041e4cf7c67b37cf1d94416d9f3deb3bc745e9f--->
+<!---916447d99952390b590ce775287cbd22d27b9c93--->
+
+## 2.9.18.dev (unreleased)
+### Fixed
+- proxies - Fixed socks5 support
 
 <!---0a7a7c66d867b7c8b0e3ad35fd8e8d891d58e00a--->
 
