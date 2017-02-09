@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d0b520910f329cbbb8f1cfe9f5dd77bc5e131b1c--->
+<!---0041e4cf7c67b37cf1d94416d9f3deb3bc745e9f--->
 
-## 2.9.17.dev (unreleased)
+<!---0a7a7c66d867b7c8b0e3ad35fd8e8d891d58e00a--->
+
+## 2.9.17 (2017-02-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.16...2.9.17)
 ### Fixed
 - check_subtitles: now properly finds internal subtitles
 - sickbeard - Handle corrupt data from the API. Fixes [#1672](https://github.com/Flexget/Flexget/issues/1672)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - url schema format - Added sock5 as a valid protocol. Related [#992](https://github.com/Flexget/Flexget/issues/992)
 
-<!---dfad1921b16b07aac74bc5b150ebc39f9ae57bb0--->
 
 ## 2.9.16 (2017-02-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.15...2.9.16)
