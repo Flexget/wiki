@@ -44,7 +44,7 @@ The (.*) part is what this regexp is extracting (capture group), so everything a
 Regexp can return any number of groups, value is combination of these (separated with a space).
 
 ### Example 2
-Some badly written site has invalid URLs. Uses &amp; instead of &
+Some badly written site has invalid URLs. Uses \&amp; instead of &
 
 ```
 manipulate:
