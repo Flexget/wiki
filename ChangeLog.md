@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9baf0c39aba8f7a4717fadd51820e10124eef45e--->
+<!---00b74ce61e253e12de9dc42e14c544211ed1e0ed--->
 
 ## 2.9.19.dev (unreleased)
 ### Fixed
@@ -11,6 +11,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - from_rtorrent: added `load_date` field (torrent added date)
 - aria2: added filename option (known as --out parameter in aria2)
+
+### Changed
+- jinja: changed parsedate jinja filter to support more formats
 
 <!---cd3816137697fe63d82d86b0637d530eded6740f--->
 
