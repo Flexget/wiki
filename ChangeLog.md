@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---916447d99952390b590ce775287cbd22d27b9c93--->
+<!---b18ca0f6015fb3daedbeea7e77170d593202d210--->
 
-## 2.9.18.dev (unreleased)
+<!---cd3816137697fe63d82d86b0637d530eded6740f--->
+
+## 2.9.18 (2017-02-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.17...2.9.18)
 ### Fixed
 - proxies - Fixed socks5 support
 
-<!---0a7a7c66d867b7c8b0e3ad35fd8e8d891d58e00a--->
 
 ## 2.9.17 (2017-02-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.16...2.9.17)
