@@ -45,7 +45,7 @@ You can always get an up to date overview of the available search plugins by usi
 ### Example 
 
 ```bash
-flexget plugins --group search
+flexget plugins --interface search
 ┌─────────────────┬────────────┬───────┐
 │ Keyword         │ Phases     │ Flags │
 ├─────────────────┼────────────┼───────┤
