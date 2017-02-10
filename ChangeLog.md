@@ -1,7 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b18ca0f6015fb3daedbeea7e77170d593202d210--->
+<!---9baf0c39aba8f7a4717fadd51820e10124eef45e--->
+
+## 2.9.19.dev (unreleased)
+### Fixed
+- divxatope: changed domain to divxatope1, fixes [#1601](https://github.com/Flexget/Flexget/issues/1601)
+- divxatope to use new domain divxatope1 ([#1655](https://github.com/Flexget/Flexget/issues/1655))
+
+### Added
+- from_rtorrent: added `load_date` field (torrent added date)
+- aria2: added filename option (known as --out parameter in aria2)
 
 <!---cd3816137697fe63d82d86b0637d530eded6740f--->
 
