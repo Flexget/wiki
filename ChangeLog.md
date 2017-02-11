@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---00b74ce61e253e12de9dc42e14c544211ed1e0ed--->
+<!---d77c8fd442809cf332eaf25ea46aec2f991a9dc3--->
 
-## 2.9.19.dev (unreleased)
+<!---916de3b40254740408459ac00d9bde08da5103aa--->
+
+## 2.9.19 (2017-02-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.18...2.9.19)
 ### Fixed
 - divxatope: changed domain to divxatope1, fixes [#1601](https://github.com/Flexget/Flexget/issues/1601)
 - divxatope to use new domain divxatope1 ([#1655](https://github.com/Flexget/Flexget/issues/1655))
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - jinja: changed parsedate jinja filter to support more formats
 
-<!---cd3816137697fe63d82d86b0637d530eded6740f--->
 
 ## 2.9.18 (2017-02-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.17...2.9.18)
