@@ -7,7 +7,7 @@ The following is a comprehensive guide on how to setup an ubuntu seedbox/vps wit
 * Use deluge as the client for automatically downloading matched torrents.
 * Use multiple rss feeds as inputs for each task for redundancy.
 * Receive push notifications via pushbullet for each torrent added to deluge.
-* TV shows are downloaded in `720p x264 hdtv or webdl` quality.
+* TV shows are downloaded in `720p x264 hdtv or webdl or webrip` quality.
 * Movies are downloaded in `720p or 1080p x264 bdrip` quality.
 * Movies and tv shows are downloaded into seperate folders.
 * Torrents that contain rar files will be automatically extracted.
