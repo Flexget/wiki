@@ -3,7 +3,7 @@
 The following is a comprehensive guide on how to setup an ubuntu box with flexget and deluge. By working through this guide, you can have an automated torrenting setup with the following features:
 
 * Automatically download new episodes of tv shows you have watchlisted on your trakt.tv account.
-* Automatically download movies you have watchlisted on your imdb account.
+* Automatically download movies you have watchlisted on your imdb account as they get released on trackers.
 * Use deluge as the client for automatically downloading matched torrents.
 * Use multiple rss feeds as inputs for each task for redundancy.
 * Receive push notifications via pushbullet for each torrent added to deluge.
