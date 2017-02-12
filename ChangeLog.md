@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8046ea50fc2c57c771c81e034e1d3d36cea220c7--->
+<!---1810017868046d0995fcba5c6a757135d89fb8db--->
 
-## 2.9.20.dev (unreleased)
+<!---33b78dae65a5ebeed87e02b9a7571936549b9012--->
+
+## 2.9.20 (2017-02-12)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.19...2.9.20)
 ### Changed
 - Update rutracker_auth plugin ([#1684](https://github.com/Flexget/Flexget/issues/1684))
 
-<!---916de3b40254740408459ac00d9bde08da5103aa--->
 
 ## 2.9.19 (2017-02-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.18...2.9.19)
