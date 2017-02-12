@@ -30,5 +30,6 @@ freshon:
   passkey: xxxxxx
   category: hd
   freeleech: half
+  page_limit: 1
 ```
 
