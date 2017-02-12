@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1810017868046d0995fcba5c6a757135d89fb8db--->
+<!---d161acc03dbdda1f6a7fbfdec64033714f8518ed--->
+
+## 2.9.21.dev (unreleased)
+### Added
+- freshon search plugin
 
 <!---33b78dae65a5ebeed87e02b9a7571936549b9012--->
 
