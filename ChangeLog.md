@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d161acc03dbdda1f6a7fbfdec64033714f8518ed--->
+<!---8d3d181a0eeebabc458c8c668a02d61689164adc--->
 
-## 2.9.21.dev (unreleased)
+<!---8ad6024d783d913310105e39f3465299814a5a85--->
+
+## 2.9.21 (2017-02-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.20...2.9.21)
 ### Added
 - freshon search plugin
 
-<!---33b78dae65a5ebeed87e02b9a7571936549b9012--->
 
 ## 2.9.20 (2017-02-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.19...2.9.20)
