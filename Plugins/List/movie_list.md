@@ -100,11 +100,12 @@ discover-movies:
     what:
       - movie_list: movie list name
     from:
-      - kat: <opts>
+      - rarbg: <opts>
   quality: 720p
   imdb_lookup: yes
-  list_queue:
-    - movie_list: movie list name
+  list_match:
+    from:
+      - movie_list: movie list name
   download: /path/to/download
 ```
 
@@ -118,7 +119,7 @@ discover-movies:
           list_name: movie list name
           strip_year: yes
     from:
-      - kat: <opts>
+      - rarbg: <opts>
   quality: 720p
   imdb_lookup: yes
   list_match:
