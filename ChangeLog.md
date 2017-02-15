@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4ccbb7249aa1cadb39801189c278e4c5c8127d78--->
+<!---e3b5049aaaf08e2b0b1657ac19db8492b1b859e8--->
+
+## 2.9.23.dev (unreleased)
+### Added
+- New lostfilm plugin ([#1681](https://github.com/Flexget/Flexget/issues/1681))
 
 <!---4297a586722c739a1705cc0bd801529d7797ff1b--->
 
