@@ -70,6 +70,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [next_trakt_episodes](/Plugins/next_trakt_episodes) | Create entries for the latest or the next episode to watch or collect by your trakt.tv activity. |
 | [trakt_list](/Plugins/List/trakt_list) | Create entries from one of your trakt.tv lists. [Managed List](/Plugins/List) |
 | [twitterfeed](/Plugins/twitterfeed) | Create entries from a twitter account. |
+| [lostfilm](/Plugins/lostfilm) | Create entries from lostfilm.tv |
 
 
 ### 3rd party software input
