@@ -41,6 +41,7 @@ web_server:
   ssl_certificate: '/etc/ssl/private/myCert.pem' # Path to certificate file
   ssl_private_key: '/etc/ssl/private/myKey.key' # Path to private key file
   web_ui: yes # Web-UI can optionally be disabeled, only API will run
+  base_url: Set a different base_url. Default is / (None)
 ```
 
 Set a password and start flexget in daemon mode to start the web server.
@@ -50,9 +51,9 @@ flexget web passwd <some_password>
 flexget daemon start --daemonize
 ```
 
-Flexget UI will be available at http://flexget_ip:3539/ui/
+Flexget UI will be available at http://flexget_ip:3539/
 
-Full API documentation will be available at http://flexget_ip:3539/api/
+Full API documentation will be available at http://flexget_ip:5050/api/
 
 Visit the [API page](/wiki/API) for more information about it.
 
