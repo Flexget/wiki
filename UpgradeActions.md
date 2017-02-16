@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning in the form that any increase in second digit means configuration is not necessarily backwards compatible and needs to be updated.
 
+### **2.10.0** -- 2017.02.17
+- Changed default UI path to be `hostname:port/` instead of `hostname:port/ui`
+-  Added ability to set `base_url` for web server
+
 ### **2.9.0** -- 2017.01.10
 #### Notifications
 [Notification system](/Plugins/Notifiers) has been changed once more. Hopefully we worked most of the kinks out of the new system with this one. Summary of changes:
