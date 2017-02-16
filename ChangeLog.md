@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87548ab5884fea0cb9f5fc9a1a55d7ee2afd4337--->
+<!---bd5d18a430702431cb890c77d467c69b5a60d93d--->
+
+## 2.9.24.dev (unreleased)
+### Added
+- slack - Added ability to override icon via image url
 
 <!---fbc5580ed831f3287d8bf5d626a521d8d738f43b--->
 
