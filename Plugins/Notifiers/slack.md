@@ -13,8 +13,9 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 | --- | ---| --- |---|
 |**web_hook_url**|URL|Web hook URL. **Required**
 |channel|text|Override channel, use "@username" or "#channel"
-|username|text|Override username
+|username|text|Override username|`Flexget`
 |icon_emoji|text|Override emoji icon
+|icon_url|URL|Image URL, will override notification icon
 
 
 ## Examples
