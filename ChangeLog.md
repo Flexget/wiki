@@ -1,11 +1,31 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bd5d18a430702431cb890c77d467c69b5a60d93d--->
+<!---4dc298323665bc4953a9be88c38f8193c9505e03--->
 
-## 2.9.24.dev (unreleased)
+## 2.10.0.dev (unreleased)
 ### Added
+- Added ability to always send task scoped notifications ([#1662](https://github.com/Flexget/Flexget/issues/1662))
+- *  My Anime List input plugin
+- *  My Anime List input plugin ([#1629](https://github.com/Flexget/Flexget/issues/1629))
+- * [UI] Config section allows editing of variables
+- quality: added support for 2160p
+- *  convert_magnet: new config option to fail entries if conversion fails, closes [#1619](https://github.com/Flexget/Flexget/issues/1619)
+- *  subliminal: added support for .rar files
 - slack - Added ability to override icon via image url
+
+### Changed
+- series parser: added support for Exx identifier
+- * [UI] Username is autofilled on login page
+- npo_watchlist: updated to only grab broadcasts; previously it also grabbed trailers
+- piratebay: replacing single quotes with spaces as their search engine doesn't like them
+
+### Fixed
+- *  added ability to always send task scoped notification if when there's no accepted/failed entries. Closes [#1657](https://github.com/Flexget/Flexget/issues/1657)
+- * [UI] Removing a show when in search mode, keeps the UI in search page [#1559](https://github.com/Flexget/Flexget/issues/1559)
+- * [UI] improves version checking, fixes [#1617](https://github.com/Flexget/Flexget/issues/1617)
+- *  sickbeard: fixed a typo that caused a crash when 'include_data: yes', fixes [#1623](https://github.com/Flexget/Flexget/issues/1623)
+- *  est_released_movies: Fixed crash with movie_year of None ([#1602](https://github.com/Flexget/Flexget/issues/1602))
 
 <!---fbc5580ed831f3287d8bf5d626a521d8d738f43b--->
 
