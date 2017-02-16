@@ -25,6 +25,7 @@ notify:
       - <notifier name>:
           <notifier config>
   task:
+    [always_send] yes|no. If set to Yes it will always send notification, even when no entries were accepted to task. Default is No. This is recommended only for advanced usage as it can produce many potentially empty notifications.
     [title]: Notification title.
     [template]: Specify message from a template on disk.
     via:
