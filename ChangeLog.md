@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4dc298323665bc4953a9be88c38f8193c9505e03--->
+<!---8c757933b0a28a4309d936daf0cc0ba223b7ccea--->
 
-## 2.10.0.dev (unreleased)
+<!---8a6b58ca1b59aa8f2f8155e068dfe72489f5d090--->
+
+## 2.10.0 (2017-02-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.9.23...2.10.0)
 ### Added
 - Added ability to always send task scoped notifications ([#1662](https://github.com/Flexget/Flexget/issues/1662))
 - *  My Anime List input plugin
@@ -27,7 +30,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - *  sickbeard: fixed a typo that caused a crash when 'include_data: yes', fixes [#1623](https://github.com/Flexget/Flexget/issues/1623)
 - *  est_released_movies: Fixed crash with movie_year of None ([#1602](https://github.com/Flexget/Flexget/issues/1602))
 
-<!---fbc5580ed831f3287d8bf5d626a521d8d738f43b--->
 
 ## 2.9.23 (2017-02-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.22...2.9.23)
