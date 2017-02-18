@@ -4,7 +4,7 @@ This search plugin will get results from [filelist.ro](https://filelist.ro).
 ## Configuration
 Requires username, password and passkey. Passkey can be retrieved from [here](https://filelist.ro/getrss.php).
 ```
-morethantv:
+filelist:
   username: xxxxxxx
   password: xxxxxxx
   passkey: xxxxxx
