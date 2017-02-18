@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---64e0f7b5ab06962ef5e250fe5fdd192454bf2bd3--->
+<!---9407c46346e0ee7057e5e2261f68b80a0acecbeb--->
 
 ## 2.10.2.dev (unreleased)
 ### Fixed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - btn: no longer crashes if the api does not return a json object, closes [#1698](https://github.com/Flexget/Flexget/issues/1698)
 
 ### Added
+- filelist: new search plugin for FileList
 - unique: reject/accept duplicate entries
 
 <!---782388f5da397f82a4aa92e4ee6f5714393bfb53--->
