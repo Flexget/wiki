@@ -1,9 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8c757933b0a28a4309d936daf0cc0ba223b7ccea--->
+<!---3215b605880b89bd4769896556dc92443c7de84e--->
 
-<!---8a6b58ca1b59aa8f2f8155e068dfe72489f5d090--->
+## 2.10.2.dev (unreleased)
+### Fixed
+- btn: no longer crashes if the api does not return a json object, closes [#1698](https://github.com/Flexget/Flexget/issues/1698)
+
+<!---782388f5da397f82a4aa92e4ee6f5714393bfb53--->
+
+## 2.10.1 (2017-02-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.0...2.10.1)
 
 ## 2.10.0 (2017-02-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.9.23...2.10.0)
