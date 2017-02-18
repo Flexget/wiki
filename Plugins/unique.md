@@ -1,13 +1,13 @@
 # Unique
 
-Take action on entries with duplicate fields, except for the first item.
+Take action on entries with duplicate fields, except for the first item. `action` defaults to `reject`.
 
 **Syntax:**
 
 ```code
 unique:
   field: <field name or list of field names>
-  [action: accept|reject]
+  action: accept|reject
 ```
 
 **Example:**
