@@ -18,6 +18,7 @@ Reject the second+ instance of every movie:
 tasks:
   mytask:
     rss: https://some.feed/rss.php
+    imdb_lookup: yes
     unique:
       field:
         - imdb_id
