@@ -28,6 +28,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | --- | --- |
 | [btn](/Searches/btn) | Searches torrent site BTN |
 | [cpasbien](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
+| [filelist](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
 | [freshon](/Searches/freshon) | Generates entries from [freshon.tv](http://freshon.tv) |
 | [iptorrents](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
 | [newznab](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
