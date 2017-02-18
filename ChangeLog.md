@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3215b605880b89bd4769896556dc92443c7de84e--->
+<!---77dbb6ab68516f8428ec6f50a99cf869ba816472--->
 
 ## 2.10.2.dev (unreleased)
 ### Fixed
 - btn: no longer crashes if the api does not return a json object, closes [#1698](https://github.com/Flexget/Flexget/issues/1698)
+
+### Added
+- unique: reject/accept duplicate entries
 
 <!---782388f5da397f82a4aa92e4ee6f5714393bfb53--->
 
