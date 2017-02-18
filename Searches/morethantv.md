@@ -1,5 +1,5 @@
 # Morethantv
-This search plugin will get results from [http://morethan.tv](/http://morethan.tv), also known as MTV.
+This search plugin will get results from [http://morethan.tv](http://morethan.tv), also known as MTV.
 
 ## Configuration
 Requires username and password. (your usual login credentials)
