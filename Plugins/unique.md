@@ -15,9 +15,12 @@ unique:
 Reject the second+ instance of every movie:
 
 ```yaml
-unique:
-  field:
-  - imdb_id
-  - movie_name
-  action: reject
+tasks:
+  mytask:
+    rss: https://some.feed/rss.php
+    unique:
+      field:
+        - imdb_id
+        - movie_name
+      action: reject
 ```
