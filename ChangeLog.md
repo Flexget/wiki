@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0ace7919df008e48452bbb0493d2ebf4e694dd21--->
+<!---1c3ec234dfd26bf483f4b679a0731e64107cbe30--->
 
 ## 2.10.3.dev (unreleased)
 ### Added
@@ -11,6 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - fixed logic in default jinja statement. Fixes [#1701](https://github.com/Flexget/Flexget/issues/1701)
 
 ### Changed
+- added ability to set a custom message for task notifications
 - made jinja `re_search` filter case insensitive. Closed [#1689](https://github.com/Flexget/Flexget/issues/1689)
 
 <!---dd66fd32d1663f08230a54ed26fb791a38f6d9b9--->
