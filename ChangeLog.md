@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6c0af580501ad1ad92f0c5d88351f67f9fc5cb74--->
+<!---434d5060d92e5c39233af809069e19fc5bf80b19--->
+
+## 2.10.3.dev (unreleased)
+### Added
+- Added Entry list search ability ([#1691](https://github.com/Flexget/Flexget/issues/1691))
 
 <!---dd66fd32d1663f08230a54ed26fb791a38f6d9b9--->
 
