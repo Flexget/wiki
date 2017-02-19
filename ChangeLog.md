@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1c3ec234dfd26bf483f4b679a0731e64107cbe30--->
+<!---8da720ce7b3c6d054267248b06833a48b13a01d4--->
 
 ## 2.10.3.dev (unreleased)
 ### Added
 - Added Entry list search ability ([#1691](https://github.com/Flexget/Flexget/issues/1691))
 
 ### Fixed
+- filelist: search_in now works
+- filelist: fixed search_in config type
 - fixed logic in default jinja statement. Fixes [#1701](https://github.com/Flexget/Flexget/issues/1701)
 
 ### Changed
