@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9407c46346e0ee7057e5e2261f68b80a0acecbeb--->
+<!---6c0af580501ad1ad92f0c5d88351f67f9fc5cb74--->
 
-## 2.10.2.dev (unreleased)
+<!---dd66fd32d1663f08230a54ed26fb791a38f6d9b9--->
+
+## 2.10.2 (2017-02-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.1...2.10.2)
 ### Fixed
 - morethantv: fixed a crash when login request fails
 - btn: no longer crashes if the api does not return a json object, closes [#1698](https://github.com/Flexget/Flexget/issues/1698)
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - filelist: new search plugin for FileList
 - unique: reject/accept duplicate entries
 
-<!---782388f5da397f82a4aa92e4ee6f5714393bfb53--->
 
 ## 2.10.1 (2017-02-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.0...2.10.1)
