@@ -27,6 +27,7 @@
 * [Download nzb for series episodes from a newznab website](/Cookbook/Series/DiscoverSeriesWithNewznab)
 * [Remove and forget episodes by file extension](/Cookbook/Series/RemoveByExtension)
 * [Remove gaps in your series database by searching a folder for episodes you already downloaded](/Cookbook/Series/sync_series)
+* [Get notifications about aired episodes that were missed using Trakt lookup](/Cookbook/Series/monitor_episodes)
  
 ## Resources
 *Torrent feeds*
