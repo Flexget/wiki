@@ -33,10 +33,31 @@ task:
     priority: 2
     entry_list: downloaded movies
     accept_all: yes
-    email: ...
+    notify:
+      task:
+        via:
+          email: ...
 ```
 
 First task `get-movies` will add all accepted entries to an `entry_list` with the name `downloaded movies`. It then later be used as an input itself in a `email-report` task. Effectively this can replace the [digest](/Plugins/digest) plugin.
+
+
+### Search in entry list:
+
+You can use `entry_list` as a [search](/Searches) plugin to use with [discover](/Plugins/discover):
+```yaml
+tasks:
+  series_discover_task:
+    series:
+    - foo:
+        begin: s01e01
+    discover:
+      release_estimations: ignore
+      what:
+        - next_series_episodes: yes
+      from:
+      - entry_list: series list
+```
 
 ## Command line interface
 
