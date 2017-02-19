@@ -4,41 +4,44 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 ## Overview
 
+### Internal
+| **Keyword** | **Description** |
+| --- | --- |
+|`entry_list` | Search in an [entry_list](/Plugins/List/entry_list)
+| [`flexget_archive`](/Searches/flexget_archive) | Searches within previously archived entries |
 ### Public
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
-| [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
-| [isohunt](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
-| [kat](/Searches/kat) | Generate entries from [kat.ph](http://kat.ph) |
-| [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
-| [nyaa](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
-| [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
-| [publichd](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
-| [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
-| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
-| [torrent411](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
-| [torrentz](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
+| [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
+| [`isohunt`](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
+| [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
+| [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
+| [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
+| [`publichd`](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
+| [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
+| [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
+| [`torrent411`](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
+| [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
 
 
 ### Private
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [btn](/Searches/btn) | Searches torrent site BTN |
-| [cpasbien](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
-| [filelist](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
-| [freshon](/Searches/freshon) | Generates entries from [freshon.tv](http://freshon.tv) |
-| [iptorrents](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
-| [newznab](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
-| [ptn](/Searches/ptn) | Searches torrent site PtN |
-| [morethantv](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
-| [sceneaccess](/Searches/sceneaccess) | Searches torrent site sceneaccess |
-|[torrentday](/Searches/torrentday)|Generates entries from torrentday.com
-| [torrentshack](/Searches/torrentshack) | Searches torrent site torrentshack |
-| [torrentleech](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
-|[fuzer](/Searches/fuzer) | Searches torrent site Fuzer
+| [`btn`](/Searches/btn) | Searches torrent site BTN |
+| [`cpasbien`](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
+| [`filelist`](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
+| [`freshon`](/Searches/freshon) | Generates entries from [freshon.tv](http://freshon.tv) |
+| [`iptorrents`](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
+| [`newznab`](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
+| [`ptn`](/Searches/ptn) | Searches torrent site PtN |
+| [`morethantv`](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
+| [`sceneaccess`](/Searches/sceneaccess) | Searches torrent site sceneaccess |
+|[`torrentday`](/Searches/torrentday)|Generates entries from torrentday.com
+| [`torrentshack`](/Searches/torrentshack) | Searches torrent site torrentshack |
+| [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
+|[`fuzer`](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/)
 
 
 You can always get an up to date overview of the available search plugins by using the command line with command 'flexget plugins --group search', and documentation for a plugin can be obtained with 'flexget doc <plugin-name>'.
