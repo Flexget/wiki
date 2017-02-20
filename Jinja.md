@@ -26,6 +26,11 @@ set:
 This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E04.720P-proper.mkv
 
 ### Jinja2 Filters
+**Note**: To get up-to-date information about all available Jinja filters, use the following ClI command:
+```bash
+flexget jinja-filters
+```
+
 When using Jinja2 templates, you can use the following custom filters in addition to the [built-in ones](http://jinja.pocoo.org/docs/dev/templates/#builtin-filters).
 
 |Name|Description|
