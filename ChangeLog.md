@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8da720ce7b3c6d054267248b06833a48b13a01d4--->
+<!---7f21e9d63d50d7154f196edaf8ea1642ca2dda0a--->
 
-## 2.10.3.dev (unreleased)
+<!---15099592a51a8ccd8022891764f668f7c4cdcd66--->
+
+## 2.10.3 (2017-02-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.2...2.10.3)
 ### Added
 - Added Entry list search ability ([#1691](https://github.com/Flexget/Flexget/issues/1691))
 
@@ -16,7 +19,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - added ability to set a custom message for task notifications
 - made jinja `re_search` filter case insensitive. Closed [#1689](https://github.com/Flexget/Flexget/issues/1689)
 
-<!---dd66fd32d1663f08230a54ed26fb791a38f6d9b9--->
 
 ## 2.10.2 (2017-02-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.1...2.10.2)
