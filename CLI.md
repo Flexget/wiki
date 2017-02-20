@@ -21,6 +21,7 @@ Clicking on the commands will take you to the detail page of the command.
 | [`database`](/CLI/database) | Utilities to manage the FlexGet database |
 | [`doc`](/CLI/doc) | Display plugin documentation |
 | [`entry-list`](/CLI/entry-list) | View and manage entry lists |
+| [`jinja-filters`](/CLI/Jinja-Filters)| View avaialble [Jinja](/Jinja) filters
 | [`execute`](/CLI/execute) | Execute tasks now |
 | [`failed`](/CLI/failed) | List or clear remembered failures |
 | [`history`](/CLI/history) | View the history of entries that FlexGet has accepted |
