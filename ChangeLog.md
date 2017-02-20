@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4d8ec26b1a88af6df5fd53a7c342a0032e76296e--->
+<!---d78ccb9dbe6021150f7855223f8cfba0fdeeb065--->
 
 ## 2.10.4.dev (unreleased)
 ### Added
+- *  jinja2 filters CLI
+- jinja2 filters CLI ([#1702](https://github.com/Flexget/Flexget/issues/1702))
 - NewPCT added search feature ([#1680](https://github.com/Flexget/Flexget/issues/1680))
 
 <!---15099592a51a8ccd8022891764f668f7c4cdcd66--->
