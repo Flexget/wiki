@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f21e9d63d50d7154f196edaf8ea1642ca2dda0a--->
+<!---4d8ec26b1a88af6df5fd53a7c342a0032e76296e--->
+
+## 2.10.4.dev (unreleased)
+### Added
+- NewPCT added search feature ([#1680](https://github.com/Flexget/Flexget/issues/1680))
 
 <!---15099592a51a8ccd8022891764f668f7c4cdcd66--->
 
