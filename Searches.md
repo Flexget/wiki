@@ -15,6 +15,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | --- | --- |
 | [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
 | [`isohunt`](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
+| [`newpct`](/Searches/newpct) | Generates entries from [newpct1.com](http://newpct1.com) |
 | [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
