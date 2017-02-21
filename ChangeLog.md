@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---55be8c12d8ad48a86c66f4be7ed7f91e0ea85843--->
+<!---a7c3acd109eaafb77ef436644de3ad751a1d71a8--->
+
+## 2.10.5.dev (unreleased)
+### Fixed
+- btn: updated to new domain, related [#1698](https://github.com/Flexget/Flexget/issues/1698)
 
 <!---003e801055922f3a73fd12530f5e4fe8a7918b87--->
 
