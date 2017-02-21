@@ -316,7 +316,7 @@ sudo systemctl disable flexget
 Read the systemd log: 
 
 ```
-journalctl --u flexget
+journalctl -u flexget
 ```
 
 Control the daemon:
