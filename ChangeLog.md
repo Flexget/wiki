@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---62c9ba3245a5ccba447efaf5e24c0da83d6c662c--->
+<!---55be8c12d8ad48a86c66f4be7ed7f91e0ea85843--->
 
-## 2.10.4.dev (unreleased)
+<!---003e801055922f3a73fd12530f5e4fe8a7918b87--->
+
+## 2.10.4 (2017-02-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.3...2.10.4)
 ### Added
 - *  jinja2 filters CLI
 - jinja2 filters CLI ([#1702](https://github.com/Flexget/Flexget/issues/1702))
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - catch db vacuum crash for now. Fixes [#1596](https://github.com/Flexget/Flexget/issues/1596)
 
-<!---15099592a51a8ccd8022891764f668f7c4cdcd66--->
 
 ## 2.10.3 (2017-02-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.2...2.10.3)
