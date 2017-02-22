@@ -12,12 +12,15 @@ With a well-formed season pack this would actually be preferable for back-fillin
 
 ## Proposed solution
 
+The implementation will be divided into several phases where each one should ideally be pushed to master  before the other one, to reduce the risk of noise and issues that may occur.
+
 * Season pack file will be downloaded as a whole, there will be no attempt to split it, pass parts of it or any other manipulation.
 * Series parser should know how to correctly match season packs.
 * `Season` will be added as a new DB entity. It will link to its relevant `Episode` objects.
 * `Season` object will have a `completed` attribute that will be set to `True` when a season pack has been downloaded.
 * Series tracking will continue to follow conventional style, meaning season packs will respect `begin` attribute.
 * If a season pack was accepted, the `begin` value will be set to the 1st episode of the next season.
+* Needless to say, this should **NOT** affect any tracking for users that did not define `season_packs` in config.
 
 ### Phase 1: Accept a season pack from a feed:
 Configure `series` plugin to accept a season pack if comnfigured to do so:
@@ -47,10 +50,16 @@ series:
 - foo:
     season_packs: force
 ```
+### Phase 4: Support advanced series options
+Extend logic to allow advanced quality options such as `upgrade` and `timeframe`
+
+***
+
 ## Pitfalls
 
 * Verify series parser will be able to identify a wide variety of season pack format (`SXX, Season XX, EXX-EXX, etc.)
 - If a season pack is accepted, all other episodes for the same season should npt be accepted in the same task (search for/sort season packs first)
+
 
 ## Open questions
 
