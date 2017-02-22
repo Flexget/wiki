@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---630a39f74094c4e66747b5327ed1e1215f89416e--->
+<!---80802b1668a81326f134244d33f19c94a2c5688f--->
+
+## 2.10.6.dev (unreleased)
+### Fixed
+- irc: optional fields now default to empty string instead of None
 
 <!---43e6024228951609084088cde670e3496e933e11--->
 
