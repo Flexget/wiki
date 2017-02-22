@@ -53,12 +53,16 @@ series:
 ### Phase 4: Support advanced series options
 Extend logic to allow advanced quality options such as `upgrade` and `timeframe`
 
+### Phase 5: Support partial season packs
+Some series seasons are released in more than 1 part:  
+`Some.Show.S03.PART.1.720p` and `Some.Show.S03.PART.2.720p`
 ***
 
 ## Pitfalls
 
 * Verify series parser will be able to identify a wide variety of season pack format (`SXX, Season XX, EXX-EXX, etc.)
 - If a season pack is accepted, all other episodes for the same season should npt be accepted in the same task (search for/sort season packs first)
+- `guessit` does not support season packs, make sure it doesn't crash
 
 
 ## Open questions
