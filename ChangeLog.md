@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---956c187b0e05a6a8af8891ef6ad8081b597aec19--->
+<!---630a39f74094c4e66747b5327ed1e1215f89416e--->
 
-## 2.10.5.dev (unreleased)
+<!---43e6024228951609084088cde670e3496e933e11--->
+
+## 2.10.5 (2017-02-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.4...2.10.5)
 ### Fixed
 - btn: updated to new domain, related [#1698](https://github.com/Flexget/Flexget/issues/1698)
 
 ### Changed
 - rutracker - always use https ([#1703](https://github.com/Flexget/Flexget/issues/1703))
 
-<!---003e801055922f3a73fd12530f5e4fe8a7918b87--->
 
 ## 2.10.4 (2017-02-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.3...2.10.4)
