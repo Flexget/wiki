@@ -12,47 +12,47 @@ With a well-formed season pack this would actually be preferable for back-fillin
 
 ## Proposed solution
 
+* Season pack file will be downloaded as a whole, there will be no attempt to split it, pass parts of it or any other manipulation.
 * Series parser should know how to correctly match season packs.
-* `season` will be added as a new DB entity. It will link to its relevant `episode` objects.
-* Torrent files cannot but split so they will have to be downloaded as a whole. Even though some torrent client can set `skip_files` via its API, there is no generic way to do this, so we shouldn't even 
+* `Season` will be added as a new DB entity. It will link to its relevant `Episode` objects.
+* `Season` object will have a `completed` attribute that will be set to `True` when a season pack has been downloaded.
+* Series tracking will continue to follow conventional style, meaning season packs will respect `begin` attribute.
+* If a season pack was accepted, the `begin` value will be set to the 1st episode of the next season.
 
-### Suggested modes:
-Using season pack in a series should have several operational modes:
-
-#### auto
-The default mode. If used, decides whether a season pack should be download by parsing it, figuring out how many episodes it hold and then calculating how many episodes are already fetched in DB. If the number is below a certain default threshold, season pack will be fetched.
-```
+### Phase 1: Accept a season pack from a feed:
+Configure `series` plugin to accept a season pack if comnfigured to do so:
+```yaml
 series:
-  - My Series:
-      season_packs: yes
+- foo:
+    season_packs: yes
+mock:
+  - {title="Foo.S01.720p-Flexget}
 ```
-
-A more fine tuned approach could be used like this:
-```
+### Phase 2: Discvoring season packs with `next_series_episodes`
+Enable searching for season packs *first* when season packs are configured:
+```yaml
+discover:
+  what:
+    - next_series_episodes: yes
+  from:
+    - search_site: yes
 series:
-  - My Series:
-      season_packs: 
-        mode: auto
-        threshold: 30  # Will fetch season pack if less than 30 percent of episodes were downloaded
+- foo:
+    season_packs: yes
 ```
-
-#### always
-Will fetch all matching season packs of the series.
-```
+### Phase 3: Support season pack only mode
+Enable a mode that will only accept season packs
+```yaml
 series:
-  - My Series:
-      season_packs: always
+- foo:
+    season_packs: force
 ```
-#### manual
-Will fetch all specific season packs only. Should take season numbers, range (?)
-
-```
-series:
-  - My Series:
-      season_packs: 1,2,5-6,9-
-```
-
 ## Pitfalls
 
 * Verify series parser will be able to identify a wide variety of season pack format (`SXX, Season XX, EXX-EXX, etc.)
-* Support torrent and magnet files 
+- If a season pack is accepted, all other episodes for the same season should npt be accepted in the same task (search for/sort season packs first)
+
+## Open questions
+
+- Should manually setting `begin` set all lower seasons as completed?
+- Not sure how to handle `complete` packages (`Foo.COMPLETE.720p-Flexget`). Should we add a `completed` attribute to `Series` as well?
