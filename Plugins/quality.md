@@ -22,7 +22,7 @@ Any valid [quality requirements](/Plugins/quality#Requirements) string can be us
 You can also use a list form to specify multiple quality requirement strings that are acceptable. In this case, only entries that do not match at least one of the quality strings will be rejected.
 
 ```
-quality:
+qualities:
   - 720p hdtv
   - 1080p webdl
 ```
