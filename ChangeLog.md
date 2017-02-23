@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80802b1668a81326f134244d33f19c94a2c5688f--->
+<!---a893e53ab9c14ad6136cad36fcf1dd776123329a--->
 
-## 2.10.6.dev (unreleased)
+<!---93beec9a01073e5461fa925e5573680afd391917--->
+
+## 2.10.6 (2017-02-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.5...2.10.6)
 ### Fixed
 - irc: optional fields now default to empty string instead of None
 
-<!---43e6024228951609084088cde670e3496e933e11--->
 
 ## 2.10.5 (2017-02-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.4...2.10.5)
