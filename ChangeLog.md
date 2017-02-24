@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a893e53ab9c14ad6136cad36fcf1dd776123329a--->
+<!---6d17d3926e7a34c3c93b72f8b0538102cdb6b098--->
+
+## 2.10.7.dev (unreleased)
+### Fixed
+- filelist: fixed cookie renewal
 
 <!---93beec9a01073e5461fa925e5573680afd391917--->
 
