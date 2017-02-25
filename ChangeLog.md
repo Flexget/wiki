@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---eb51be3d8ec32054f9801ef14bab096a9bc54239--->
+<!---0601be64303048060b3f5302cd2872f085878ad5--->
 
 ## 2.10.8.dev (unreleased)
 ### Fixed
+- filelist: now properly attemps to grab the full title of search results
 - irc: fixed compatibility with py3 (urllib)
 
 <!---249104af920e63f5a37897f32bf835bcba71d524--->
