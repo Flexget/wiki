@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6d17d3926e7a34c3c93b72f8b0538102cdb6b098--->
+<!---1ba72c43ec407248ba1116f66e15059dc8b05bce--->
 
-## 2.10.7.dev (unreleased)
+<!---249104af920e63f5a37897f32bf835bcba71d524--->
+
+## 2.10.7 (2017-02-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.6...2.10.7)
 ### Fixed
 - filelist: fixed cookie renewal
 
-<!---93beec9a01073e5461fa925e5573680afd391917--->
 
 ## 2.10.6 (2017-02-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.5...2.10.6)
