@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ba72c43ec407248ba1116f66e15059dc8b05bce--->
+<!---eb51be3d8ec32054f9801ef14bab096a9bc54239--->
+
+## 2.10.8.dev (unreleased)
+### Fixed
+- irc: fixed compatibility with py3 (urllib)
 
 <!---249104af920e63f5a37897f32bf835bcba71d524--->
 
