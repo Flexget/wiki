@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0601be64303048060b3f5302cd2872f085878ad5--->
+<!---17d56907bfb5b55e605002b356073ac5999f5ef9--->
 
-## 2.10.8.dev (unreleased)
+<!---142f2cfbd2b238ad870b77fa270796998ff9c900--->
+
+## 2.10.8 (2017-02-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.7...2.10.8)
 ### Fixed
 - filelist: now properly attemps to grab the full title of search results
 - irc: fixed compatibility with py3 (urllib)
 
-<!---249104af920e63f5a37897f32bf835bcba71d524--->
 
 ## 2.10.7 (2017-02-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.6...2.10.7)
