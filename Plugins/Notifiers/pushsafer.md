@@ -14,13 +14,13 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
 | **private_key**| text| Pushsafer's private or alias key. **Required.**
-|device|text|Target a specific device or device group id. |
-|url|URL|Notification URL | 
+|device|text|Target a specific device or device group id.|blank
+|url|URL|Notification URL|blank
 |url_title|text|Text to be displayed as URL title 
-|sound|numeric|Override default notifcation sound. Must one of [Pushsafer's supported sounds](https://www.pushsafer.com/en/pushapi)
-|icon|numeric|Override default notifcation icon. Must one of [Pushsafer's supported icons](https://www.pushsafer.com/en/pushapi)
+|sound|numeric|Override default notifcation sound. Must one of [Pushsafer's supported sounds](https://www.pushsafer.com/en/pushapi)|blank
+|icon|numeric|Override default notifcation icon. Must one of [Pushsafer's supported icons](https://www.pushsafer.com/en/pushapi)|1 or blank
 |vibration|numeric|How often the device should vibrate (0-3)|0
-|time2live|numeric|Time in minutes, after which message automatically gets purged (0-43200)
+|time2live|numeric|Time in minutes, after which message automatically gets purged (0-43200)|0 or blank
 
 ### Examples
 
