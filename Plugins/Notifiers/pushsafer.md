@@ -45,8 +45,6 @@ notify:
       - pushsafer:
           private_key: o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
           device: 119
-          title: Downloading {{series_name}}
-          message: Episode {{series_id}}
           url: http://server.example.com/path/to/downloader/ui
           sound: 12
           icon: 20
