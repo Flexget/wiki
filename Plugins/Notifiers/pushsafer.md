@@ -19,7 +19,7 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |url_title|text|Text to be displayed as URL title 
 |sound|numeric|Override default notifcation sound. Must one of [Pushsafer's supported sounds](https://www.pushsafer.com/en/pushapi)
 |icon|numeric|Override default notifcation icon. Must one of [Pushsafer's supported icons](https://www.pushsafer.com/en/pushapi)
-|vibration|numeric|How often the device should vibrate (0-3) default = 0
+|vibration|numeric|How often the device should vibrate (0-3)|0
 |time2live|numeric|Time in minutes, after which message automatically gets purged (0-43200)
 
 ### Examples
@@ -49,9 +49,9 @@ notify:
           message: Episode {{series_id}}
           url: http://server.example.com/path/to/downloader/ui
           sound: 12
-		  icon: 20
-		  sound: 8
-		  vibration: 1
+          icon: 20
+          sound: 8
+          vibration: 1
 ```
 
 #### Example with Jinja2 tags
