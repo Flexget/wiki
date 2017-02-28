@@ -19,7 +19,7 @@ These plugins are responsible for delivering notifications. One or more of them 
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
 | [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://pushover.net/apps/clone/Flexget) notification |
-| [pushsafer](/Plugins/Notifiers/pushsafer) | Send a [Pushsafer](https://www.pushsafer.com//FlexGet) notification |
+| [pushsafer](/Plugins/Notifiers/pushsafer) | Send a [Pushsafer](https://www.pushsafer.com/FlexGet) notification |
 | [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
