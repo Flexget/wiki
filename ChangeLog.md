@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---322f8d68831239d3e000df65b36f46ecbdd24675--->
+<!---a59c20f86c69fb8409e977a04d147b15553048d9--->
 
-## 2.10.9.dev (unreleased)
+<!---ff0ebcd7940d1a551df2e1fa85f9a85af73a862c--->
+
+## 2.10.9 (2017-02-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.8...2.10.9)
 ### Added
 - Add Pushsafer Notification Service ([#1712](https://github.com/Flexget/Flexget/issues/1712))
 
-<!---142f2cfbd2b238ad870b77fa270796998ff9c900--->
 
 ## 2.10.8 (2017-02-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.7...2.10.8)
