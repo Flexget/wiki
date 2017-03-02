@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f51282d7bbef071e8602295dea00769e1c505c7f--->
+<!---2d36112933e4d4de3c19f7389e2fa4cb544c2164--->
 
-## 2.10.10.dev (unreleased)
+<!---3b339b7e4489d21d97d33aefa0ef642a6fc247ab--->
+
+## 2.10.10 (2017-03-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.9...2.10.10)
 ### Fixed
 - plex - Fixed schema defaults. Fixed [#1713](https://github.com/Flexget/Flexget/issues/1713)
 
-<!---ff0ebcd7940d1a551df2e1fa85f9a85af73a862c--->
 
 ## 2.10.9 (2017-02-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.8...2.10.9)
