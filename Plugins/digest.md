@@ -1,5 +1,5 @@
 # Digest
-This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) It is used with `from_digest` plugin in the task where the entries should be collected.
+This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) The `from_digest` plugin is then used in the task where the entries should be acted upon, e.g. notifications sent.
 
 ## Configuration
 ```text
