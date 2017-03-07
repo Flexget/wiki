@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a59e34fe439577d1316d2330da49a9a8a7982d05--->
+<!---87ac5a6c4ddf1413083817487b55a9071ca211af--->
 
-## 2.10.11.dev (unreleased)
+<!---6982938e812c78fb7ee018cac511d6c9889ac835--->
+
+## 2.10.11 (2017-03-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.10...2.10.11)
 ### Fixed
 - Report a config error when 'list' option is not given to next_trakt_episodes
 
-<!---3b339b7e4489d21d97d33aefa0ef642a6fc247ab--->
 
 ## 2.10.10 (2017-03-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.9...2.10.10)
