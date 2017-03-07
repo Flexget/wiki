@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2d36112933e4d4de3c19f7389e2fa4cb544c2164--->
+<!---a59e34fe439577d1316d2330da49a9a8a7982d05--->
+
+## 2.10.11.dev (unreleased)
+### Fixed
+- Report a config error when 'list' option is not given to next_trakt_episodes
 
 <!---3b339b7e4489d21d97d33aefa0ef642a6fc247ab--->
 
