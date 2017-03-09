@@ -65,7 +65,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [npo_watchlist](/Plugins/npo_watchlist) | Create entries for the shows and episodes in your npo.nl account (Dutch public television). |
 | [pogcal](/Plugins/pogcal) | Produce entries for shows marked on your [pogdesign calendar](http://www.pogdesign.co.uk/cat/). |
 | [rottentomatoes_list](/Plugins/rottentomatoes_list) | Use movies from [Rotten Tomatoes](http://www.rottentomatoes.com) lists. |
-| [sceper](/Plugins/sceper) | Parse [http://sceper.ws](/http://sceper.ws). |
+| [sceper](/Plugins/sceper) | Parse [http://sceper.ws](http://sceper.ws). |
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Produce an entry for all shows you have marked as favorites at http://thetvdb.com. [Managed List](/Plugins/List) |
 | [next_trakt_episodes](/Plugins/next_trakt_episodes) | Create entries for the latest or the next episode to watch or collect by your trakt.tv activity. |
 | [trakt_list](/Plugins/List/trakt_list) | Create entries from one of your trakt.tv lists. [Managed List](/Plugins/List) |
