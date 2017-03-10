@@ -15,6 +15,7 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.9.0) - Movies and series based on trakt and anime from mal. RSS and discover to transmission, quality priorities and backfill. Moves and renames files to library folders and downloads subtltles.
 * [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://flexget.com/FlexGetExtras).
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.9.3) YAML anchor examples, use Trakt.tv to manage shows and movies.
+* [malkavi](/Cookbook/Users/malkavi) (2.10.12.dev) Spanish Movies and series config.
 
 ## Untested 1.x Configs
 * [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
@@ -24,7 +25,6 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [UNNEFER'S ULTIMATE FLEXGET CONFIG](/Cookbook/Users/UnNefer) - Flexget (v1.2.149) + Transmission + File Renaming + Sorting + Cleaning + Email Notifications
 * [buthidae](/Cookbook/Users/buthidae) (v1.2.258) RSS monitoring, RAR unpacking, file renaming, transfer to staging directory, and Prowl notifications
 * [Cookbook/Users/lilp](/Cookbook/Users/lilp) (v1.2.283) TvShows VOSTFR, VF, from beginning and existing, T411, file renaming, move. Movie with IMDB watchlist and T411 search in VOSTFR and HD. French User
-* [malkavi](/Cookbook/Users/malkavi) (v1.2.313) Spanish Movies and series config.
 * [nikdoof](https://github.com/nikdoof/flexget-config) (v1.2)
 * [Tommynator](/Cookbook/Users/Tommynator) (flexget v1.2.351) Downloading movies and series from Trakt with Transmission, keeping Transmission downloads list clean and sort movies and series with correct naming for Plex.
 * [Systy](/Cookbook/Users/Systy) (v1.2.454) Downloading VOSTFR series (from existing + Trakt) + VF movies (from Imdb + Trakt) with Transmission on T411 + Cpasbien. Renaming / Email. French user
