@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87ac5a6c4ddf1413083817487b55a9071ca211af--->
+<!---c617a71854a1993c5e2d4ed7a575dbbdec46e63f--->
+
+## 2.10.12.dev (unreleased)
+### Fixed
+- morethantv: site endlessly redirects when cookie is invalid, fixes [#1729](https://github.com/Flexget/Flexget/issues/1729)
 
 <!---6982938e812c78fb7ee018cac511d6c9889ac835--->
 
