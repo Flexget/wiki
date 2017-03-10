@@ -44,7 +44,7 @@ trakt_lookup:
 | trakt_series_genres | List of series genres ex: `'comedy, drama'`  |
 | trakt_series_network | Series network  |
 | imdb_url | IMDB url for linking  |
-| trrakt_series_url | Trakt url for linking  |
+| trakt_series_url | Trakt url for linking  |
 | trakt_series_country | Series country origin  |
 | trakt_series_status | Series status ie. `returning series` (airing right now), `in production` (airing soon), `planned` (in development), `canceled` or `ended`  |
 | trakt_series_overview | Series overview/description  |
