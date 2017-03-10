@@ -2,237 +2,228 @@ After reading other users config and Flexget code, I have write my own config an
 
 I have split my config in several files and include in the main config
 
-== Main config ==
+
+**Flexget:**
++ 2.10.12.dev
++ Latest release: 2.10.11
+
+## Main config
 
 
-{{{
-email:
-  from: MY_USER@gmail.com
-  to: MY_USER@gmail.com
-  smtp_host: smtp.gmail.com
-  smtp_port: 587
-  smtp_username: MY_USER
-  smtp_password: MY_PASS
-  smtp_tls: yes
+```
+variables: secretfile.yml
+templates:
+  torrent_server:
+    transmission:
+      host: localhost
+      port: 9091
+      username: "{? transmission.usr ?}"
+      password: "{? transmission.pwd ?}"
+  avisos_tarea:
+    notify:
+      task:
+        via:
+          - email:
+              from: "{? email.from ?}"
+              to: "{? email.to ?}"
+              smtp_host: smtp.gmail.com
+              smtp_port: 587
+              smtp_username: "{? email.smtp_username ?}"
+              smtp_password: "{? email.smtp_password ?}"
+              smtp_tls: yes
+          - telegram:
+              bot_token: "{? telegram.token ?}"
+              parse_mode: markdown
+              #parse_mode: html
+              recipients:
+                - username: "{? telegram.user ?}"
+  avisos_error:
+    notify:
+      abort:
+        via:
+          - email:
+              from: "{? email.from ?}"
+              to: "{? email.to ?}"
+              smtp_host: smtp.gmail.com
+              smtp_port: 587
+              smtp_username: "{? email.smtp_username ?}"
+              smtp_password: "{? email.smtp_password ?}"
+              smtp_tls: yes
+
+schedules:
+  - tasks: [mis_series, animeindexfs, nyaafs, minglongfs, nyaaevermore, frozenpuya]
+    schedule:
+      minute: 45
+      hour: 7,11,15,19,23
+  - tasks: [watchlist, bajar_pelis]
+    schedule:
+      minute: 30
+      hour: 12
+
+web_server:
+  bind: 0.0.0.0 # IP V4
+  port: 8290 # Valid port number
+  ssl_certificate: 'fullchain.pem' 
+  ssl_private_key: 'privkey.pem'
+  web_ui: yes # Web-UI can optionally be disabeled, only API will run
 
 tasks:
   mis_series:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
     include: 
-      - include/series_divxatope.yml
-      - include/transmission.yml
-      - include/pushover.yml
-#      - include/pushbullet.yml
+#      - series_divxatope.yml
+      - series_newpct.yml
   animeindexfs:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
     include:
-      - include/animes_fs_animeindex.yml
-      - include/transmission.yml
-      - include/pushover.yml
-#      - include/pushbullet.yml
+      - animes_fs_animeindex.yml
   nyaafs:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
     include:
-      - include/animes_fs_nyaa.yml
-      - include/transmission.yml
-      - include/pushover.yml
-#      - include/pushbullet.yml
+      - animes_fs_nyaa.yml
+    cfscraper: yes
   minglongfs:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
     include:
-      - include/animes_fs_minglong.yml
-      - include/transmission.yml
-      - include/pushover.yml
-#      - include/pushbullet.yml
+      - animes_fs_minglong.yml
   nyaaevermore:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
     include:
-      - include/animes_evermore_nyaa.yml
-      - include/transmission.yml
-      - include/pushover.yml
-#      - include/pushbullet.yml
+      - animes_evermore_nyaa.yml
+  frozenpuya:
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
+    include:
+      - animes_puya_frozen.yml
+  watchlist:
+    priority: 1
+    interval: 2 hours
+    imdb_watchlist:
+      user_id: "{? imdb.user_id ?}"
+      list: watchlist
+      force_language: es-es
+    accept_all: yes
+    list_add:
+      - movie_list: wanted_movies
+    template:
+      - avisos_tarea
+  bajar_pelis:
+    priority: 10
+    discover:
+      what:
+        - movie_list: wanted_movies
+#        - emit_movie_queue: yes
+      from:
+#        - divxatope: yes
+        - newpct: yes
+#        - divxatope:
+#            category: all
+#        - elitetorrent:
+#            category: all
+#        - torrentdownloadws: true
+#        - kat:
+#            category: movies
+#            verified: no
+#        - piratebay:
+#            category: video
+#            sort_by: default
+#        - torrentz: verified
+      interval: 1 hours
+      release_estimations:
+        optimistic: 7 days
+    imdb_lookup: yes
+    tmdb_lookup: yes
+    trakt_lookup: yes
+    quality:
+      - dvdrip+
+      - hdrip
+      - hdtv # Make sure no screeners or cams are downloaded
+    set:
+      path: /media/269c2dba-2000-495f-9bd8-e09c36b16f4e/pelis
+    template:
+      - torrent_server
+      - avisos_tarea
+      - avisos_error
+#      - proxyy
+    list_match:
+      from:
+        - movie_list: wanted_movies
+    regexp:
+      reject:
+        - 'sub[s][\s\._]'
+        - '[Ll]atino'
+        - '[Ss]creener'
+        - '[Ss]creener':
+            from: url
+        - Screeener
+        - Screeener:
+            from: url
+        - 3D
+      from: title
+      reject_excluding:
+        - '[Rr]ip|HDTV'
 #EOF      
 
-}}}
+```
 
-== Transmission ==
-
-
-{{{
-transmission:
-  host: localhost
-  port: 9091
-  username: USER
-  password: PASS
-}}}
-
-== PushBullet ==
-
-{{{
-pushbullet:
-  apikey: API_KEY
-}}}
-
-== PushOver ==
-
-{{{
-pushover:
-  userkey: USER_KEY
-  apikey:  API_KEY
-  sound: gamelan
-}}}
-
-== DivXATope ==
+## DivXATope
 
 
-{{{
+```
 rss:
   url: http://divxatope.com/feeds.xml
 series:
   settings:
     normales:
-      ep_regexp:                           
-        - Cap.(\d+)(\d\d)                      
-      quality: hdtv <720p                  
-      path: /volume1/series/{{series_name}}
-  normales:
-    - Arrow
-    - Better Call Saul
-    - Community
-    - Defiance
-    - Falling Skies
-    - Futurama
-    - Juego de Tronos
-    - La Cupula
-    - Les Revenants
-    - Los 100
-    - Padre de Familia
-    - Powers:
-    - Resurrection
-    - Sobrenatural
-    - Star Wars Rebels
-    - The Big Bang Theory
-    - The Walking Dead
-    - The Last Ship
-    - The Strain
-    - True Blood
-    - True Detective
-    - Ultimo Aviso
-    - Vikingos
-regexp:
-  reject:
-    - V.O.:
-        from: title
-}}}
-
-== '''Working with PR from malkavi github repo, waiting merge''' ==
-[https://github.com/Flexget/Flexget/pull/508 PR508]
-
-== Search movies ==
-
-If you remove divxatope from discover, the config will be compatible with the merged version of Flexget.
-With the PR you can use elitetorrent at the same way as divxatope to search movies.
-
-{{{
-tasks:
-  watchlist:
-    interval: 2 hours
-    imdb_list:
-      user_id: USER_ID
-      list: watchlist
-    accept_all: yes
-    seen: local  # We don't want accepted movies on this feed to affect actual download feed
-    movie_queue: add              # you could also use `remove` if you wanted to remove the item from your queue
-    include: include/pushover.yml
-  bajar_pelis:
-    priority: 10
-    discover:
-      what:
-        - emit_movie_queue: yes
-      from:
-        - divxatope:
-            category: all
-        - kat:
-            category: movies
-            verified: no
-      interval: 1 hours
-    torrent_alive: 2 # Will reject results with less than 10 seeds
-    quality: dvdrip+ # Make sure no screeners or cams are downloaded
-    include:
-      - include/transmission.yml
-      - include/pushover.yml
-    movie_queue: accept
-    regexp:
-      reject:
-        - sub[s][\s\._]: {from: title}  # Bloquea todos los torrent que contengan la palabra sub(s) (subtitulos=
-        - '[Ll]atino'
-        - '[Ss]creener'
-      reject_excluding:
-        - '[sS]pa|[Cc]astellano'
-        - '[Rr]ip'
-}}}
-
-== NewPCT1 ==
-{{{
-rss:
-  url: http://www.newpct1.com/feed
-  link: link
-series:
-  settings:
-    normales:
-      quality: hdtv <720p
       ep_regexp:
         - Cap.(\d+)(\d\d)
+      quality: hdtv <720p
+      path: /media/269c2dba-2000-495f-9bd8-e09c36b16f4e/series/{{series_name}}
   normales:
+    - Alli abajo
     - Arrow
-    - Juego de Tronos
-    - Vikingos
-    - Powers
+    - Westworld
 regexp:
   reject:
     - V.O.:
         from: title
-download:
-  path: /home/osmc/torrents/
-}}}
+```
 
-== NewPCT ==
-
-{{{
+## NewPCT
+```
 rss:
   url: http://www.newpct.com/feed/
   link: link
 series:
   settings:
     normales:
-      quality: hdtv <720p
       ep_regexp:
         - Cap.(\d+)(\d\d)
+      quality: hdtv <720p
+      path: /media/269c2dba-2000-495f-9bd8-e09c36b16f4e/series/{{series_name}}
   normales:
+    - Alli abajo
     - Arrow
-    - Juego de Tronos
-    - Vikingos
-    - Powers
+    - Westworld
 regexp:
   reject:
     - V.O.:
         from: title
-download: /home/osmc/torrents/
-}}}
-
-== EliteTorrent ==
-
-{{{
-rss:
-  url: http://www.elitetorrent.net/rss.php
-series:
-  settings:
-    normales:
-      ep_regexp:                           
-        - Cap.(\d+)(\d\d)                      
-  normales:
-    - Arrow
-    - Juego de Tronos
-    - Vikingos
-    - Powers:
-regexp:
-  reject:
-    - V.O.:
-        from: title
-download: torrents/
-}}}
+```
