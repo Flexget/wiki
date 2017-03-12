@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e0281d44c10ea7c6feb2c691ce363b70d020206a--->
+<!---2222d047a67ab776088edfad34403ce12e4ee8f6--->
+
+## 2.10.13.dev (unreleased)
+### Fixed
+- Fixed UI building process, fixes [#1731](https://github.com/Flexget/Flexget/issues/1731)
 
 <!---79c82d0192943163e0792b53880ca99b4314b2b6--->
 
