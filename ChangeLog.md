@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---488c9027996cdc148008c140fdf7c12f9b9a337a--->
+<!---b756e8b306ae61229ee62cee5490b1b933e85b1a--->
+
+## 2.10.14.dev (unreleased)
+### Fixed
+- notify - Fixed an issue whe trying to notify both to `notify` and `task` scope. Fixes [#1726](https://github.com/Flexget/Flexget/issues/1726)
 
 <!---421cd8a141841da4c91ad69849c3757dae5e4e4d--->
 
