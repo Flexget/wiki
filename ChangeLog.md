@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---52d3f9777266e2091aeaba92dabd6829eb32d119--->
+<!---2e6ad1a027fc6e7c93511ae6aee9e240e7c771f0--->
+
+## 2.10.16.dev (unreleased)
+### Added
+- *  mirrors for rutracker plugin
+- mirrors for rutracker plugin ([#1736](https://github.com/Flexget/Flexget/issues/1736))
 
 <!---858c17ab2068cd0624509d84e8be8782f23b6bdd--->
 
