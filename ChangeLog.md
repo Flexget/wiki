@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d61640fc8ec117a1cffeab3d9711c9d324ca2fc1--->
+<!---52d3f9777266e2091aeaba92dabd6829eb32d119--->
 
-## 2.10.15.dev (unreleased)
+<!---858c17ab2068cd0624509d84e8be8782f23b6bdd--->
+
+## 2.10.15 (2017-03-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.14...2.10.15)
 ### Changed
 - delete - Call log.warning instead of raising PluginWarning ([#1723](https://github.com/Flexget/Flexget/issues/1723))
 - use https ([#1724](https://github.com/Flexget/Flexget/issues/1724))
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - clean_transmission: yes now does something
 - strip _id suffix of query params ([#1724](https://github.com/Flexget/Flexget/issues/1724))
 
-<!---505d9ede22877ac40d59454775cc957320edd91c--->
 
 ## 2.10.14 (2017-03-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.13...2.10.14)
