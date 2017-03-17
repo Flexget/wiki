@@ -26,7 +26,7 @@ category, Can be *one* of the following:
  - For each of the 3 cookies, right click on the value (redacted from the screenshot), copy
  - Paste into your flexget config
  
- <img src=https://dl.dropboxusercontent.com/u/28529352/flexGet-TD-chrome-1.png>
+ <img src=http://i68.tinypic.com/2qvqb1g.png>
 
 ### FireFox
 - From the Tools menu, select *Preferences*
@@ -36,7 +36,7 @@ category, Can be *one* of the following:
 - copy the *Content* for each of the 3 cookies (redacted from the screenshot)
 - Paste into your flexget config
  
-<img src=https://dl.dropboxusercontent.com/u/28529352/flexGet-TD-fireFox-1.png>
+<img src=http://i63.tinypic.com/2e6cufr.png>
 
 ### Reference
 https://kb.iu.edu/d/ajfi
