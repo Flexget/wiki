@@ -60,7 +60,7 @@ schedules:
 
 Be sure to check the wiki pages for all the plugins used for more details:
 - [configure_series](/Plugins/configure_series)
-- [trakt_list](/Plugins/trakt_list)
+- [trakt_list](/Plugins/List/trakt_list)
 - [discover](/Plugins/discover)
 - [emit_series](/Plugins/emit_series)
 - [set_series_begin](/Plugins/set_series_begin)
