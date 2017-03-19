@@ -41,3 +41,16 @@ plex:
   username: myplexusername
   password: myplexpassword
 ```
+
+Remote Plex-Cloud Server:
+```
+plex:
+  section: 1
+  server: **.ric.plex.services  # You get Server URL from https://plex.tv/users/cpms
+  port: 80
+  selection: recentlyAdded
+  token: ****** # only use token ore user/pw not both!
+  username: myplexusername
+  password: myplexpassword
+```
+
