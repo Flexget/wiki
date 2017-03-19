@@ -18,7 +18,7 @@ pip install python-telegram-bot
 ```
 </div>
 
-* Create a bot & obtain a token for it (see https://core.telegram.org/bots#botfather).
+* Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 * For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
 * For group messages, add the bot to the desired group and send a start message to the bot: `/start` (mind the
   leading `/`).
