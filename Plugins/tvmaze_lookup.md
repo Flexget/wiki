@@ -34,7 +34,7 @@ tvmaze_lookup: yes
 | tvrage_id | tvrage ID as provided by tvmaze |
 | tvdb_id | tvdb ID as provided by tvmaze |
 | tvmaze_episode_name | Episode name |
-| tvmaze_ep_overview | Episode plot |
+| tvmaze_episode_summary | Episode plot |
 | tvmaze_episode_airdate | Episode air date |
 | tvmaze_ep_runtime | Episode runtime (in minutes) |
 | tvmaze_episode_url | Episode url |
