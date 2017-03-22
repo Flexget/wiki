@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---152a8670db9eb2079ad063282f3e189d9351ae1b--->
+<!---cb3b3702389aa430e13e8130202e81319f89e6c8--->
 
-## 2.10.19.dev (unreleased)
+<!---478cc91f8efee7f7366bc76585a5b3c2cdb5b211--->
+
+## 2.10.19 (2017-03-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.18...2.10.19)
 ### Changed
 - Extend series list help message. ([#1720](https://github.com/Flexget/Flexget/issues/1720)) ([#1737](https://github.com/Flexget/Flexget/issues/1737))
 
-<!---bc03c85bc6a0cd67ef714040d852b6736ffffe91--->
 
 ## 2.10.18 (2017-03-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.17...2.10.18)
