@@ -13,9 +13,10 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
-| **api_key**| text| User's API key. Either this or `device` are **required.**| 
-| **device**| text| Device ID. Can also be a list. Either this or `api_key` are **required.**|
-|group|text|Sepcifed device group to send notification to. One of `all`, `android`, `chrome`, `windows10`, `phone`, `tablet` or `pc`. Requires using `api_key`|`all`
+| **api_key**| text| User's API key. **Required.**| 
+| device| text| Device ID. Can also be a list. Can not select together with `group`|
+| device_name| text| Device name. Can also be a list. |
+|group|text|Sepcifed device group to send notification to. One of `all`, `android`, `chrome`, `windows10`, `phone`, `tablet` or `pc`. can not select together with `device`|`all`
 |url|URL|Notification URL | Gets default from [notify](/Plugins/Notifiers/notify) plugin
 |icon|URL|Notification icon
 |sms_number|text|Send an SMS to this nubmer using device (in addition to regular notification). Will use `message` as SMS body
@@ -36,14 +37,7 @@ notify:
       - join:
           api_key: API_LEY
 ```
-Or:
-```yaml
-notify:
-  entries:
-    via:
-      - join:
-          device: DEVICE
-```
+
 
 #### Advanced Example
 ```yaml
@@ -51,6 +45,7 @@ notify:
   entries:
     via:
       - join:
+          api_key: KEY
           device: 
             - DEVICE1
             - DEVICE2
