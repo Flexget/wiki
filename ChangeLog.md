@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cb3b3702389aa430e13e8130202e81319f89e6c8--->
+<!---33884f6b2bb8515e6ce0d16294cfbf0fe0c6d1fe--->
+
+## 2.10.20.dev (unreleased)
+### Fixed
+- join - Fixed after api change, api_key is now mandatory. Closed [#1746](https://github.com/Flexget/Flexget/issues/1746)
 
 <!---478cc91f8efee7f7366bc76585a5b3c2cdb5b211--->
 
