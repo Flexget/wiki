@@ -22,7 +22,7 @@ The implementation will be divided into several phases where each one should ide
 * If a season pack was accepted, the `begin` value will be set to the 1st episode of the next season.
 * Needless to say, this should **NOT** affect any tracking for users that did not define `season_packs` in config.
 
-### Phase 1: Accept a season pack from a feed:
+### Phase 1: Accept a season pack:
 Configure `series` plugin to accept a season pack if comnfigured to do so:
 ```yaml
 series:
