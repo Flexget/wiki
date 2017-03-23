@@ -58,8 +58,10 @@ series:
 
 - Series CLI operations should support this new mode (correctly display season packs where relevant)
 - API upgrade and adjustments (**Note:** This will probably not be backwards compatible with current API, may require API versioning feature first)
+### Phase 3: Enable season lookup in metadata plugins
+In tvmaze, tvdb and trakt.
 
-### Phase 3: Support partial season packs
+### Phase 4: Support partial season packs
 Some series seasons are released in more than 1 part:  
 `Some.Show.S03.PART.1.720p` and `Some.Show.S03.PART.2.720p`
 ***
