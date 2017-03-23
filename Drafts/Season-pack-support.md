@@ -31,7 +31,6 @@ series:
 mock:
   - {title="Foo.S01.720p-Flexget}
 ```
-### Phase 2: Discvoring season packs with `next_series_episodes`
 Enable searching for season packs *first* when season packs are configured:
 ```yaml
 discover:
@@ -43,17 +42,24 @@ series:
 - foo:
     season_packs: yes
 ```
-### Phase 3: Support season pack only mode
-Enable a mode that will only accept season packs
+Enable different modes:
 ```yaml
 series:
 - foo:
-    season_packs: force
+    season_packs: only # Will reject any non-season pack (Episodes)
+- bar:
+    season_packs: yes # Will accept season pack if no episodes for this season have been downloaded (equivilant to setting `0`)
+- baz:
+    season_packs: 1 # Override episode threshold, set any integer as episode threshold
+- bla:
+    season_packs: loose # Will disregared episode threshold, always fetch season pack for a non-completed season
 ```
-### Phase 4: Support advanced series options
-Extend logic to allow advanced quality options such as `upgrade` and `timeframe`
+### Phase 2: CLI/API support and adjustments
 
-### Phase 5: Support partial season packs
+- Series CLI operations should support this new mode (correctly display season packs where relevant)
+- API upgrade and adjustments (**Note:** This will probably not be backwards compatible with current API, may require API versioning feature first)
+
+### Phase 3: Support partial season packs
 Some series seasons are released in more than 1 part:  
 `Some.Show.S03.PART.1.720p` and `Some.Show.S03.PART.2.720p`
 ***
