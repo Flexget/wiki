@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---72ecd059a73e9373c4f8cb836683f5d3fd923401--->
+<!---c5e6dece6daee86c7cbf627f2edf733f45a3c17a--->
 
-## 2.10.22.dev (unreleased)
+<!---9cdbdae5d8fffdc86cd0710aa50b35878936534a--->
+
+## 2.10.22 (2017-03-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.21...2.10.22)
 ### Fixed
 - move: no longer crashes on permission errors, fixes [#1747](https://github.com/Flexget/Flexget/issues/1747)
 - lostfilm - link changed on site ([#1753](https://github.com/Flexget/Flexget/issues/1753))
 
-<!---5c7294193a7ceda77a56a41dcc73dc738134e044--->
 
 ## 2.10.21 (2017-03-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.20...2.10.21)
