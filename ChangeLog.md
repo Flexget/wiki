@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c6aa4237d2f19065f4c7b2ca645e34b96e840b68--->
+<!---6fc102af9f77ec71b80a9a142d479fda73a1dd0b--->
 
 ## 2.10.23.dev (unreleased)
 ### Fixed
+- rutracker - Made url match based on regexp
 - email - Keep smtp server connection open between notifications. Fixes [#1751](https://github.com/Flexget/Flexget/issues/1751)
 
 <!---9cdbdae5d8fffdc86cd0710aa50b35878936534a--->
