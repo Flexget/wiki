@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---540efbd312af9155ad3b4770c57a0c8a00aa63df--->
+<!---f0a3667778379093755c9e30b597deff9eaae7a7--->
 
-## 2.10.24.dev (unreleased)
+<!---9096e45e81cb411dfc17af97b561952a84d6b904--->
+
+## 2.10.24 (2017-03-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.23...2.10.24)
 ### Fixed
 - email - Fix issue with persistent connection between tasks and wrong config usage. Closes [#1761](https://github.com/Flexget/Flexget/issues/1761)
 - series - Fix correct comparison for special episodes. Closed [#1592](https://github.com/Flexget/Flexget/issues/1592)
 
-<!---f2d03716aa6e3e651877fcbe551bbac7ad1ab2d8--->
 
 ## 2.10.23 (2017-03-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.22...2.10.23)
