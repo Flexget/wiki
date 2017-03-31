@@ -1,5 +1,5 @@
 # RarBG
-This search plugin will get results from [http://rarbg.com](/http://rarbg.com)
+This search plugin will get results from [http://rarbg.com](http://rarbg.com)
 
 ## Configuration
 You can search in a single category:
