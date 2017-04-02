@@ -1,4 +1,6 @@
 # Next Series Seasons
+
+## This IS NOT released yet, just a placeholder!
 Creates an [Entry](/Entry) for the next season needed in each series you have configured in the [series](/Plugins/series) plugin (intended to be used with the [discover](/Plugins/discover) plugin). You must have either [series](/Plugins/series) or [configure_series](/Plugins/configure_series) plugin configured in the same task for this to work. 
 
 If FlexGet has not seen the series for some time and locked to specific episode numbering scheme or if series is not explicitly configured to some format via `begin` or `identified_by` the `next_series_episodes` can not guess what to emit.
