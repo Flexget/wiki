@@ -96,6 +96,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [discover](/Plugins/discover) | Produce entries from search results. |
 | [from_digest](/Plugins/from_digest) | Outputs entries which have been collected by the [digest](/Plugins/digest) plugin. |
 | [next_series_episodes](/Plugins/next_series_episodes) | Emits the next episode needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
+| [next_series_seasons](/Plugins/next_series_seasons) | Emits the next season needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
 | [inputs](/Plugins/inputs) | Configure the same input plugin multiple times in one task. |
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. [Managed List](/Plugins/List) |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. [Managed List](/Plugins/List) |
