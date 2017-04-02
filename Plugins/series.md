@@ -70,6 +70,7 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 | [timeframe](/Plugins/series/timeframe) | Wait given amount of time for specified quality to become available, after that fall back to best so far. |
 | [tracking](/Plugins/series/tracking) | Turn latest episode tracking off, or put into backfill mode. |
 | [upgrade](/Plugins/series/upgrade) | Keeps getting the better qualities as they become available. |
+| [season_packs](/Plugins/series/season_packs) | Enable downloading season packs. 
 
 #### Notes
 
