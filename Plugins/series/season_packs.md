@@ -1,7 +1,5 @@
 # Season packs
 
-## This IS NOT released yet, just a placeholder!
-
 This option can be used if you want to accept season packs in addition to (or instead) of episodes. At this time, only `ep` [identified](Plugins/series/identified_by) shows can accept season packs.
 
 ## Usage:
