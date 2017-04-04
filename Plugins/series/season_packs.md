@@ -2,6 +2,14 @@
 
 This option can be used if you want to accept season packs in addition to (or instead) of episodes. At this time, only `ep` [identified](Plugins/series/identified_by) shows can accept season packs.
 
+## Limitations:
+
+- Season packs are currently supported only to `ep` [identified](Plugins/series/identified_by) series, meaning that only these patterns will be recognizes as a season pack:
+  - `Foo.S01.720p.HDTV-Flexget`
+  - `Bar.1xALL.720p.HDTV-Flexget`
+- Partial season packs are **not** supported at this time: `Foo.S01.Part-1.720p.HDTV-Flexget`
+- Complete series packs are also not supported.
+
 ## Usage:
 
 There are several modes of usage for this option. 
