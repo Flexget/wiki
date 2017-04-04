@@ -1,12 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c1b2c3ecfd7879e9b848558cb51921e037c58918--->
+<!---9bf058579e18cf060503d9867b2119206428a62f--->
 
 ## 2.10.27.dev (unreleased)
 ### Fixed
+- alpharatio: no longer relies on the ordering of table columns, fixes [#1690](https://github.com/Flexget/Flexget/issues/1690)
 - trakt_list - Fixed crash on missing key. Fixes [#1745](https://github.com/Flexget/Flexget/issues/1745)
 - telegram - Handled edited messages in bot updates. Fixes [#1768](https://github.com/Flexget/Flexget/issues/1768)
+
+### Changed
+- irc: "Injecting..." log message has been changed to debug level
 
 <!---1865c4c7ae37db20195ee3e83f9d5b93d2c69ebb--->
 
