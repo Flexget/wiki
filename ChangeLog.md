@@ -7,6 +7,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.26 (2017-04-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.25...2.10.26)
+### Added
+- Series [season pack](Plugins/series/season_packs) support
 
 ## 2.10.25 (2017-04-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.24...2.10.25)
