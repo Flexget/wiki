@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3983e90ccf6222082bb2d5c04faae7fce1dba3cc--->
+<!---c1b2c3ecfd7879e9b848558cb51921e037c58918--->
+
+## 2.10.27.dev (unreleased)
+### Fixed
+- trakt_list - Fixed crash on missing key. Fixes [#1745](https://github.com/Flexget/Flexget/issues/1745)
+- telegram - Handled edited messages in bot updates. Fixes [#1768](https://github.com/Flexget/Flexget/issues/1768)
 
 <!---1865c4c7ae37db20195ee3e83f9d5b93d2c69ebb--->
 
