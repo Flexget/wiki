@@ -1,7 +1,7 @@
 # Exec
 Executes commands on [entries](/Entry).
 
-This plugin can take two configuration formats [#SimpleConfiguration simple] and [#AdvancedConfiguration advanced].
+This plugin can take two configuration formats [simple](#SimpleConfiguration) and [advanced](#AdvancedConfiguration).
 
 ## Simple Configuration
 With this configuration, your command is executed on all accepted entries that //reach output//.
