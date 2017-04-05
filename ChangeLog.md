@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f47891198d2792ab7ecf94d80096066401097b84--->
+<!---5847310f64336c9a94a255fb42bc513dce248f0b--->
+
+## 2.10.28.dev (unreleased)
+### Fixed
+- alpha ratio - Added check for invalid cookie
+- alpharatio - fix crash on no results found
 
 <!---b6120b4be6f5f13e55ee3c9eb28c6b28d6ecacb4--->
 
