@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5847310f64336c9a94a255fb42bc513dce248f0b--->
+<!---6bc176146935cbd4245d65e8b94ea5032184dae9--->
 
-## 2.10.28.dev (unreleased)
+<!---7be29d9f7da61506097601f803fdc9680baee7f6--->
+
+## 2.10.28 (2017-04-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.27...2.10.28)
 ### Fixed
 - alpha ratio - Added check for invalid cookie
 - alpharatio - fix crash on no results found
 
-<!---b6120b4be6f5f13e55ee3c9eb28c6b28d6ecacb4--->
 
 ## 2.10.27 (2017-04-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.26...2.10.27)
