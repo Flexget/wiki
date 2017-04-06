@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6bc176146935cbd4245d65e8b94ea5032184dae9--->
+<!---01ad34891e3db42ed1b896ad16b41be44ea0ed73--->
+
+## 2.10.29.dev (unreleased)
+### Fixed
+- next_series_episodes - Correctly look for next season when all previous downloads are season packs. Fixes [#1776](https://github.com/Flexget/Flexget/issues/1776)
+- series_premiere - Added support to validate against season packs. Fixes [#1775](https://github.com/Flexget/Flexget/issues/1775)
 
 <!---7be29d9f7da61506097601f803fdc9680baee7f6--->
 
