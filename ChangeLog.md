@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dd176169a10ada137250d3c7a33db6c30182ae9f--->
+<!---47f746007101079e7a545d38df6c9a1204d6deac--->
+
+## 2.10.30.dev (unreleased)
+### Fixed
+- Make sure series plugin doesn't crash trying to merge 'series_packs' settings. fix [#1774](https://github.com/Flexget/Flexget/issues/1774)
 
 <!---76cb64f4cbf591be2531df0fcf1bf8343ea741d5--->
 
