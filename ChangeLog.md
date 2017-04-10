@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4397697cf261c21a87f1d5f77bedb7a2f6adacc2--->
+<!---0c2675c467826bc92b772a875af570e9fd35d19f--->
 
-## 2.10.30.dev (unreleased)
+<!---8156e06d7505d34d9f869c8657a16cba2c89784e--->
+
+## 2.10.30 (2017-04-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.29...2.10.30)
 ### Fixed
 - Update torrent411.py ([#1777](https://github.com/Flexget/Flexget/issues/1777))
 - Make sure series plugin doesn't crash trying to merge 'series_packs' settings. fix [#1774](https://github.com/Flexget/Flexget/issues/1774)
 
-<!---76cb64f4cbf591be2531df0fcf1bf8343ea741d5--->
 
 ## 2.10.29 (2017-04-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.28...2.10.29)
