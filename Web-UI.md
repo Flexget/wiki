@@ -23,7 +23,8 @@
 
 ## Enabling Web UI
 
-Add the following to your config.yml, ssl is optional but highly recommended if UI is exposed to internet.
+Add the following to your `config.yml`. SSL is optional but highly recommended if UI is exposed to internet.
+
 Usage can be one of the following:
 ```yaml
 web_server: yes
@@ -51,9 +52,7 @@ flexget web passwd <some_password>
 flexget daemon start --daemonize
 ```
 
-Flexget UI will be available at http://flexget_ip:3539/
-
-Full API documentation will be available at http://flexget_ip:5050/api/
+With the above settings, the Flexget Web UI will be available at http://flexget_ip:3539/ and full API documentation will be available at http://flexget_ip:3939/api/
 
 Visit the [API page](/wiki/API) for more information about it.
 
@@ -63,7 +62,7 @@ The login username is `flexget` and the password is what you set above.
 
 You can also use an authorization header to access the API with the following format: `Authorization: Token <TOKEN>`
 
-You can view the API token using the following commands
+You can view or reset the API token using the following commands:
 
 ```
 # View token
@@ -78,7 +77,7 @@ flexget web gentoken
 | --- | --- |
 | Log | <ul><li>View real-time logs</li><li>Search in the logs (by task, item, keyword, ...)</li></ul> |
 | Execute | <ul><li>Start execution of tasks</li><li>View results (accepted and undecided)</li></ul> |
-| Config | <ul><li>Edit your config from an in browser editor</li><li>Auto config reload when saved</li><li>Edit your variables</li></ul> |
+| Config | <ul><li>Edit your config from an in-browser editor</li><li>Auto config reload when saved</li><li>Edit your variables</li></ul> |
 | History | <ul><li>View latest accepted history</li><li>Search by task</li></ul> |
 | Series | <ul><li>View all series in your database</li><li>Set beginning of the series</li><li>Manage series<ul><li>Delete show itself</li><li>Delete episode</li><li>Delete releases</li><li>Forget downloaded releases (to redownload)</li></ul></li></ul> |
 | Movies | <ul><li>Manage movie lists<ul><li>Delete lists</li><li>Add lists</li></ul></li><li>Manage movies per list<ul><li>Delete Movie</li><li>Add movie to list</li></ul></li></ul> |
@@ -87,18 +86,17 @@ flexget web gentoken
 | Miscellaneous | <ul><li>Shutdown Flexget</li><li>Reload config</li><li>Database management<ul><li>Trigger cleanup</li><li>Trigger vacuum</li><li>Reset database for plugin</li></ul></li></ul> |
 
 ## Development
-We have a functional API with documentation available at the `/api` route of your web server. <br>
-Example: [http://localhost:3539/api/](http://localhost:3539/api/) .
+We have a functional API with documentation available at the `/api` route of your web server. Visit the [API page](/wiki/API) for more information about it.<br>
+Example: `http://localhost:3539/api/`
 
-The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat at gitter [https://gitter.im/Flexget/Flexget](https://gitter.im/Flexget/Flexget)
+The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in AngularJS, CSS or UX Design then please read below and join our chat on [Gitter](https://gitter.im/Flexget/Flexget).
 
 To get started you will first need to setup your environment from Git.
 
 ### Setup from Git
 
-1. You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))
-
-2. Following commands will do that as user, requires g++ to be installed:
+1. You will need to install NPM (see [https://nodejs.org/en/](https://nodejs.org/en/))<br />
+The Following commands will do that as user. This requires g++ to be installed.
 
 ```
 echo 'export PATH=$HOME/local/bin:$PATH' >> ~/.bashrc
@@ -152,7 +150,7 @@ Running `gulp build` will compile all the ui files.
 
 
 ### Running from Git
-The UI communicates to the flexget daemon using the API. When starting the daemon it will make the ui available via http://flexget_ip:3539/ui/.
+The UI communicates to the FlexGet daemon using the API. When starting the daemon it will make the UI available at `http://flexget_ip:port/ui/`.
 
 The daemon will load the compiled UI files if you are NOT in debug mode. To enable debug mode run
 
@@ -162,7 +160,7 @@ flexget -L debug daemon start
 
 ### Plugin development from Git
 
-For plugin development see examples here [https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins](/https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins) and also feel free to chat with us on gitter [https://gitter.im/Flexget/Flexget](/https://gitter.im/Flexget/Flexget)
+For plugin development, see examples on  [Github](/https://github.com/Flexget/Flexget/tree/develop/flexget/ui/plugins), and also feel free to chat with us on [Gitter](/https://gitter.im/Flexget/Flexget).
 
 To make development easy we are using browserify so when you change a file it will be automatically refreshed on your browser. To get this working you will need to start the flexget daemon (as above). Then you can run
 
@@ -193,9 +191,9 @@ npm test
 
 All of these command need to be run inside the /flexget/ui folder.
 
-When using the gulp task, a browser should open by itself, if it does not, you can navigate to `localhost:5050` where the tests will be avaiblable.
+When using the gulp task, a browser should open by itself. If it does not, you can navigate to `http://localhost:5050` where the tests will be available.
 
-Results of the tests (that are run on the develop branch), can we viewed here: http://ci.flexget.com/job/Test-UI/
+Results of the tests (that are run on the develop branch) can be viewed here: http://ci.flexget.com/job/Test-UI/.
 
 The frameworks currently used for the tests are:  
 
@@ -205,7 +203,8 @@ The frameworks currently used for the tests are:
 - Chai: [http://chaijs.com](/http://chaijs.com)
 - Bardjs: [https://github.com/wardbell/bardjs](/https://github.com/wardbell/bardjs)
 
-If you have any more questions regarding testing of the different parts and modules of the UI, you can ask them in our Gitter chat [https://gitter.im/Flexget/Flexget](/https://gitter.im/Flexget/Flexget)
+If you have any more questions regarding testing of the different parts and modules of the UI, you can ask them in our [Gitter chat](/https://gitter.im/Flexget/Flexget).
+
 ### Attachments
 * [Flow.png](/attachments/Web-UI/Flow.png)
 * [UI.png](/attachments/Web-UI/UI.png)
