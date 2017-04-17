@@ -21,7 +21,8 @@ There are several other functions and objects available added by FlexGet. Some o
 | any(<iterable>) | Returns true if any of the items in the iterable are true. |
 | all(<iterable>) | Returns true if all items in the iterable are true. |
 | sorted(<iterable>) | Return a new sorted list from the items in iterable. | `<iterable>|sort` |
-| now | This is a python datetime object equal to the time the if statement was evaluated. |
+| now | This is a python datetime object equal to the time, according the the user's local timezone, the if statement was evaluated. |
+| utcnow | This is a python datetime object equal to the time, [Universal Coordinated Time (UTC)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) with a 00:00 offset, the if statement was evaluated.
 | timedelta | From the python standard library [datetime.timedelta](http://docs.python.org/library/datetime.html#datetime.timedelta) |
 
 ## Actions
@@ -43,6 +44,14 @@ if:
 imdb_lookup: yes
 if:
   - "'horror' in imdb_genres or 'documentary' in imdb_genres": reject
+```
+
+**Example:** Here is an example the uses the rss plugin with an if statatement to only download an entry if it was released more than an hour ago. We use utcnow in this example because most RSS feeds publish their entries in a non-timezone specific manner.
+
+```
+rss: "http://example.com/rss"
+if:
+  - rss_pubdate > utcnow - timedelta(hours=1): reject
 ```
 
 ### Run Another Filter
