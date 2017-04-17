@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---179da1ef3cd2231bed7a91aa9f734e9ae4900fc4--->
+<!---2dce5ea412958138fe9600f2195b67404096f07e--->
+
+## 2.10.32.dev (unreleased)
+### Added
+- `utcnow` variable is available in if plugin statements
 
 <!---ba50152545e98e5eb338f9d9b55c2709ecae51b2--->
 
