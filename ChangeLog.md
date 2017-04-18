@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2dce5ea412958138fe9600f2195b67404096f07e--->
+<!---1038a910bd95692c69241663783a85ada87a561d--->
 
-## 2.10.32.dev (unreleased)
+<!---e5c2c4bb480c6aec23a8b3360f7172e9852bc175--->
+
+## 2.10.32 (2017-04-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.31...2.10.32)
 ### Added
 - `utcnow` variable is available in if plugin statements
 
-<!---ba50152545e98e5eb338f9d9b55c2709ecae51b2--->
 
 ## 2.10.31 (2017-04-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.30...2.10.31)
