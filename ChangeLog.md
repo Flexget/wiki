@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1038a910bd95692c69241663783a85ada87a561d--->
+<!---4d47d6b1263accb1c7d5a274bb6b2214b937b541--->
+
+## 2.10.33.dev (unreleased)
+### Fixed
+- series - Added support for advanced season pack config. Closes [#1791](https://github.com/Flexget/Flexget/issues/1791)
 
 <!---e5c2c4bb480c6aec23a8b3360f7172e9852bc175--->
 
