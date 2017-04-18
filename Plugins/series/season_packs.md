@@ -68,6 +68,14 @@ season_packs: only
 ### Important Note: 
 In all cases and modes, once a season pack is accepted, that particular season will be marked as completed, **and no more seasons or episodes for that particular season would be accepted.**
 
+### Advanced usage
+You can fine tune both the config even further like this:
+```yaml
+season_packs:
+  threhold: 5
+  reject_eps: yes
+```
+
 ### Developer notes:
 - If you're creating/modifying an input plugin, and would like it to emit search string that'll math season pack format, add `season_pack_lookup = True` to the entry. That way the estoimator used by [discover](/Plugins/discover) plugin know to lookup that entity as a season and not an episode.
 - If you're creating/modifying a search plugin, `series` parser adds `season_pack = True` to entries that were parsed to be a season pack, so you could search for that in case the relvant search site has different functionality for season packs.
