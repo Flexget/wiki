@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---267ffd4cb0802e7d46d393c71854d1239871e46c--->
+<!---f0c30000c6b31ccc7f9b4479aa948c8d0421abf8--->
 
-## 2.10.33.dev (unreleased)
+<!---c8ac1fd1759486b0e1305a06f3044ded6da48d5b--->
+
+## 2.10.33 (2017-04-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.32...2.10.33)
 ### Fixed
 - telegram - Fixed update being a channel_post. Closes [#1795](https://github.com/Flexget/Flexget/issues/1795)
 - series - Added support for advanced season pack config. Closes [#1791](https://github.com/Flexget/Flexget/issues/1791)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - deluge - Rename top-level torrent folder ([#1790](https://github.com/Flexget/Flexget/issues/1790))
 
-<!---e5c2c4bb480c6aec23a8b3360f7172e9852bc175--->
 
 ## 2.10.32 (2017-04-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.31...2.10.32)
