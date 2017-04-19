@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f0c30000c6b31ccc7f9b4479aa948c8d0421abf8--->
+<!---768e2ce5376ca04f445ed0475f79f0d62e3fc680--->
+
+## 2.10.34.dev (unreleased)
+### Fixed
+- next_series_episodes - Fixed a scenario where latest entity is an un-downloaded season pack. Closes [#1799](https://github.com/Flexget/Flexget/issues/1799)
 
 <!---c8ac1fd1759486b0e1305a06f3044ded6da48d5b--->
 
