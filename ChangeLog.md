@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---862d020c46fa7ef22d9d2e29a317d9bdc3368fee--->
+<!---eb1b5599918d0663f5737b50e45893b8308c43ca--->
 
-## 2.10.34.dev (unreleased)
+<!---5ca9f52dd49a01fcd1b69fe7cd0a4f59310a7793--->
+
+## 2.10.34 (2017-04-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.33...2.10.34)
 ### Fixed
 - next_series_episodes - Fixed a scenario where latest entity is an un-downloaded season pack. Closes [#1799](https://github.com/Flexget/Flexget/issues/1799)
 
 ### Added
 - crossmatch: added all_fields option, which means all fields between entries must match. Defaults to false.
 
-<!---c8ac1fd1759486b0e1305a06f3044ded6da48d5b--->
 
 ## 2.10.33 (2017-04-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.32...2.10.33)
