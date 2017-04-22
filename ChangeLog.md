@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5286f24ce32e9651848e39d068fab776f3ca8fe--->
+<!---34990c55b8b1855c5fb5b6992de8cbb2a858d082--->
+
+## 2.10.36.dev (unreleased)
+### Fixed
+- couchpotato_list minor fix in debug logging ([#1803](https://github.com/Flexget/Flexget/issues/1803))
 
 <!---ffa676d1d6be0278b3fd2b40912729de92fa5887--->
 
