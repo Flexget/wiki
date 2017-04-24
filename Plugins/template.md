@@ -146,4 +146,4 @@ template:
   - no_global
   - template_b
 ```
-TIP : If you need more advanced template features, you may want to use [YAML anchors](https://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405).
+TIP : If you need a more advanced template feature, you may want to use [YAML anchors](https://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405).
