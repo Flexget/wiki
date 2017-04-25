@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b2175302e85c37857c1bb679aa23b996ddebe944--->
+<!---93e128d58a2e958475ad76ad9712b4d22915882b--->
 
-## 2.10.38.dev (unreleased)
+<!---3310545d01cb2a8f973f743d627a688fa038e5eb--->
+
+## 2.10.38 (2017-04-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.37...2.10.38)
 ### Added
 - trakt_lookup: added season pack support
 
-<!---d4d3037d6e096b4071d7e524fb5aa954e37517ff--->
 
 ## 2.10.37 (2017-04-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.36...2.10.37)
