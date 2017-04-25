@@ -29,7 +29,8 @@ rtorrent:
 | username | Text | Username when using HTTP for basic auth |
 | password | Text | Password when using HTTP for basic auth |
 | digest_auth | [yes\|no] | Use HTTP Digest authentication |
-| timeout | Text | Seconds before timeout when connecting to rtorrent |
+
+[//]: # (| timeout | Text | Seconds before timeout when connecting to rtorrent |)
 
 **Output specific options**
 
