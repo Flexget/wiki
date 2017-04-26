@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---93e128d58a2e958475ad76ad9712b4d22915882b--->
+<!---deb9bb643a9f90617c442dbdbe1efc7343f0f2cc--->
+
+## 2.10.39.dev (unreleased)
+### Changed
+- irc: changed logging level to DEBUG when entry doesn't match task regexp
 
 <!---3310545d01cb2a8f973f743d627a688fa038e5eb--->
 
