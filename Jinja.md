@@ -41,7 +41,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
 |`pathext`|Extension of a path (including the '.').|
 |`pathdir`| Directory containing the given path.|
 |`pathscrub(os)`| Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [pathscrub](/Plugins/pathscrub) plugin will be used.<br> **NOTE:** This should rarely be needed due to the builtin [pathscrub](/Plugins/pathscrub) plugin.
-|`re_replace(pattern, replacement)`| Do regexp substitution on the string.<br> **NOTE:** Captured groups can be accessed using \\1, \\2, etc, in the replacement string.|
+|`re_replace(pattern, replacement)`| Do regexp substitution on the string.<br> **NOTE:** Captured groups can be accessed in the replacement string by using backreferences:<br>- `\\1` when enclosed with apostrophes or `\\\\1` when enclosed with quotes<br>- `\g<1>` when enclosed with either apostrophes or quotes|
 |`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
 |`re_search(pattern)`|Perform a search for given regexp pattern, return the matching portion of the text.
 |`parsedate`|Attempts to parse a date according to the rules in RFC 2822
