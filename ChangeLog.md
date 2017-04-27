@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---deb9bb643a9f90617c442dbdbe1efc7343f0f2cc--->
+<!---b2629e25369effdc12f19b7c3e8db82c2ca00bd7--->
 
-## 2.10.39.dev (unreleased)
+<!---2758d943a2897dc12e525ca5ad057b4563a84ec0--->
+
+## 2.10.39 (2017-04-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.38...2.10.39)
 ### Changed
 - irc: changed logging level to DEBUG when entry doesn't match task regexp
 
-<!---3310545d01cb2a8f973f743d627a688fa038e5eb--->
 
 ## 2.10.38 (2017-04-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.37...2.10.38)
