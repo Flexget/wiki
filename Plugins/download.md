@@ -71,3 +71,6 @@ download:
 
 ### Multiple urls
 Some plugins (ie. [rss](/Plugins/rss), see "group link" value) can store multiple urls, to be tolerant to broken urls. If several urls are available, they will be tried sequentially until one works.
+
+### Authentication
+If basic or digest authentication is needed, use the [download_auth](/Plugins/download_auth) for that.
