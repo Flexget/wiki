@@ -62,7 +62,7 @@ tasks:
       to: /path/to/crap
 ```
 
-See [secrets](/Plugins/secrets) plugin
+See [variables](/Plugins/variables) plugin
 
 ### Accept files any entries from a Filesystem list 
 The task will accept any entry containing an Artist's name (assumes /media/artists/ contains a folder for each Artist)
