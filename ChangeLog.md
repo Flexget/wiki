@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---47c3bd91a32c848139a1a70c9c8efb9f3352c490--->
+<!---8f1027ce5a2175aa69b19a7ec7bd9ad37a1ace36--->
 
-## 2.10.40.dev (unreleased)
+<!---d03b6861fc79de30b8d5b80c435271117a1bc4eb--->
+
+## 2.10.40 (2017-04-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.39...2.10.40)
 ### Added
 - *  auth plugin - Enable generic basic and digest auth
 - download_auth plugin - Enable generic basic and digest auth ([#1806](https://github.com/Flexget/Flexget/issues/1806))
 
-<!---2758d943a2897dc12e525ca5ad057b4563a84ec0--->
 
 ## 2.10.39 (2017-04-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.38...2.10.39)
