@@ -1,8 +1,12 @@
-**THIS GUIDE IS UNDER CONSTRUCTION, but should have enough to get you started**
 
 **Note:** Season pack support is now officially supported by FlexGet without any ugly hacks like I've previously shown below. I am now extending my configuration to include irc daemon usage, but season pack support is still in there.
 
 # Multi-config solution using the IRC daemon
+
+<div class="alert alert-danger" role="info">
+  <span class="glyphicon glyphicon-info-sign"></span>
+  &nbsp; This guide is very complex (+ work in progress) and has many smaller use-cases baked into a big guide. You will find gaps in documentation throughout the writing and sometimes a LOT of commented lines, but I expect experienced FlexGet users to pick it up from there. I am available if you @mention me from Gitter. If you are new to FlexGet you may have a hard time.
+</div>
 
 ## Intro
 One issue that many flexget users have suffered in the past has been the lack of speed to get to those latest torrents. That is, until users cvium and liight gave us the IRC daemon, which acts similarly to autodl.
