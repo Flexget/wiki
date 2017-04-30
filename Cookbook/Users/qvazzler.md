@@ -2,7 +2,7 @@
 
 **Note:** Season pack support is now officially supported by FlexGet without any ugly hacks like I've previously shown below. I am now extending my configuration to include irc daemon usage, but season pack support is still in there.
 
-# Multi-config solutions using the IRC-Daemon
+# Multi-config solution using the IRC daemon
 
 ## Intro
 One issue that many flexget users have suffered in the past has been the lack of speed to get to those latest torrents. That is, until users cvium and liight gave us the IRC daemon, which acts similarly to autodl.
