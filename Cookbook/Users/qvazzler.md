@@ -1,143 +1,252 @@
-**Note:** If you are using the season pack config along with any regular config, it is important that you run the trakt scrobbler either via Plex or Kodi to update your collection. Without the scrobbler you'll see some wonky behaviour since the season pack downloader will bump up your owned episodes in series, causing the regular config to expect to download an episode you actually already have thanks to the other config.
+**THIS GUIDE IS UNDER CONSTRUCTION, but should have enough to get you started**
+
+**Note:** Season pack support is now officially supported by FlexGet without any ugly hacks like I've previously shown below. I am now extending my configuration somewhat to include irc daemon usage, but season pack support is still in there.
+
+# Multi-config solutions (IRC-Daemon)
 
 ## Intro
-Many private trackers have a rule that when a season is finished, all episodes are removed from it, and a season pack is created, often in a separate category like "Archive".
-This config effectively downloads all season packs of a show you are following.
+One issue that many flexget users have suffered in the past has been the lack of speed to get to those latest torrents. That is, until users cvium and liight gave us the IRC daemon, which acts similarly to autodl.
+
+Now if you are like me, you are managing multiple configurations, maybe on behalf of friends or family. This should hopefully set you along the right path.
+
+I am assuming that you have decent skill in the linux shell (bash/others).
 
 **Pros:**
 
-+ Makes you able to watch a new show that already has a few seasons out, _without_ manually downloading the first couple of seasons.
-
-+ Uses trakt.tv where you can add things you want to watch to your watchlist with ONE click. No more setting up RSS feeds and so on.
++ Ability to use a single IRC daemon for multiple users on the same machine.
++ Season pack support
++ Various cleaner tasks
 
 **Cons:**
 
--- Will always download season packs even if your other config has already downloaded all of the episodes in that season. (On the upside, most season packs are freeleech, so no real harm except bandwidth)
-
--- The contents of this config cannot be put into your main config, because it will screw up your database. use start parameter **-c seasonpack.config.yml** so it is 100% sure to use its own db.
-
--- Config is part of a larger solution. You will have to adjust things to suit your solution. (ex: Scrobbler needed for Season pack config)
-
--- Season pack config probably will not work if you are searching in a category that contains both Season packs and regular episodes. You'll have to play with the content filter or something like that.
+* Takes a little longer to get right.
 
 ## How does it work?
 
-The config retrieves whatever TV Show is on your watchlist, and searches on torrent sites for <Name> <Season Number>. Example: Arrow 01
+Basically you have one IRC Daemon config, along with other regular configs.
 
-As the titles are being manipulated from trakt.tv to remove all episode information, it becomes a "hack" for how to download season packs instead. (from Arrow S02E01 to Arrow 02)
+Whenever a new torrent is announced in an IRC channel you're in, the irc daemon sends that torrent to the api of each of the regular user configs.
 
 ## The Season Packs Config using Trakt.tv
 ```
-secrets: secrets.yml
+variables: variables.yml
+schedules: no
 
-# Things that need to be executed as command to new config db
-# * flexget -c config.yml trakt auth <account_name>
+irc:
+  irc_torrentleech_qvazzler:
+    tracker_file: '{? irc_tl_qvazzler.trackerfile ?}'
+    nickname: '{? irc_tl_qvazzler.nickname ?}'
+    nickserv_password: '{? irc_tl_qvazzler.nickserv_password ?}'
+    port: 7011
+    rsskey: '{? irc_tl_qvazzler.rsskey ?}'
+    #task: torrentleech_qvazzler
+    channels: ["#tlannounces"]
+    task_re:
+      torrentleech_qvazzler:
+        - regexp: '(TV :: Episodes HD)|(Movies :: Bluray)|(Movies :: WEBRip)|(Movies :: BDRip)'
+          field: irc_category
 
-# run with for example this command : "flexget -c config.yml -l logs/flexget.log -L debug daemon start --daemonize"
+  irc_iptorrents_qvazzler:
+    tracker_file: '{? irc_ipt_qvazzler.trackerfile ?}'
+    nickname: '{? irc_ipt_qvazzler.nickname ?}'
+    nickserv_password: '{? irc_ipt_qvazzler.nickserv_password ?}'
+    port: 6667
+    passkey: '{? irc_ipt_qvazzler.passkey ?}'
+    #task: iptorrents_qvazzler
+    channels: ["#ipt.announce"]
+    task_re:
+      iptorrents_qvazzler:
+        - regexp: (TV\/x265)|(TV\/x264)|(TV\/Web-DL)|(Movie\/Web-DL)|(Movie\/HD\/Bluray)
+          field: irc_category
 
-schedules:
-  - tasks: [get_series_packs](/get_series_packs)
-    interval:
-      hours: 1
+  irc_mtv_qvazzler:
+    tracker_file: '{? irc_mtv_qvazzler.trackerfile ?}'
+    nickname: '{? irc_mtv_qvazzler.nickname ?}'
+    nickserv_password: '{? irc_mtv_qvazzler.nickserv_password ?}'
+    torrent_pass: '{? irc_mtv_qvazzler.torrent_pass ?}'
+    port: 6667
+    task: morethantv_qvazzler
+    authkey: '{? irc_mtv_qvazzler.authkey ?}'
+    channels: ["#Announce"]
 
-templates:
-  global:
-    torrent_alive: yes #number of seeders needed to accept
-    domain_delay:
-      sceneaccess.eu: 30 seconds
-      sceneaccess.org: 30 seconds
-  transmit-series:
-    transmission:
-      host: '{{ secrets.transmission.host }}'
-      port: 9091
-      username: '{{ secrets.transmission.username }}'
-      password: '{{ secrets.transmission.password }}'
-      path: '{{ secrets.transmission.download_path }}'
+  irc_sceneaccess_qvazzler:
+    tracker_file: '{? irc_sceneaccess.trackerfile ?}'
+    port: 6667
+    nickname: '{? irc_sceneaccess.nickname ?}'
+    nickserv_password: '{? irc_sceneaccess.nickserv_password ?}'
+    authkey: '{? irc_sceneaccess.authkey ?}'
+    channels: ["#announce"]
+    task_re:
+      sceneaccess_qvazzler:
+        - regexp: (Movies\/DVD-R)|(Movies\/x264)|(TV\/HD-x264)|(TV\/SD-x264)
+          field: irc_category
+
 tasks:
-  get_series_packs:
-    priority: 2
-    content_size:
-      min: 1000
-    regexp:
-      reject:
-        - \.[sS](/sS)\d\d[eE](/eE)\d\d\.
-    configure_series:
-      from:
-        trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: 2-b-shows-b-get-backlog
-          type: shows
-          strip_dates: yes
-      settings:
-        timeframe: 2 hours
-        target: 720p hdtv
-        identified_by: sequence
-        sequence_regexp: \b[S](/S)[0](/0)?(\d+)\b
-        exact: yes
-    manipulate:
-      - title:
-          replace:
-            regexp: '(?<=\.[Ss](/Ss)\d\d)[eE](/eE)01(?=\.)' # Remove E01 from each episode and turn it into a "Season entry"
-            format: ''
-      - title:
-          replace:
-            regexp: '.*([eE](/eE)0[^1](/^1)).*|.*[eE](/eE)([1-9](/1-9)\d).*' # Remove any entry that is not the first episode of a season
-            format: ''
-    discover:
-      what:
-        - emit_series:
-            from_start: yes
-            backfill: yes
-      from:
-        - sceneaccess:
-            username: '{{ secrets.sceneaccess.username }}'
-            password: '{{ secrets.sceneaccess.password }}'
-            gravity_multiplier: 200
-            category:
-              archive:
-                - TV/Packs
-    template:
-      - transmit-series
+  sceneaccess_qvazzler:
+    metainfo_series: yes
+    disable: seen
+    accept_all: yes
+    #if:
+    #  - irc_category in ['Movies/DVD-R', 'Movies/x264', 'TV/HD-x264', 'TV/SD-x264']: accept
+    exec:
+      on_output:
+        for_accepted: 
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3543" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_moldrag_injections/{?title?}.log"
+          #- bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_sceneaccess.authkey, irc_sceneaccess.authkey_qvazzler)?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_qvazzler_injections/{?title?}.log"
+
+  torrentleech_qvazzler:
+    metainfo_series: yes
+    disable: seen
+    accept_all: yes
+    #if:
+    #  - "irc_category in ['TV :: Episodes HD', 'Movies :: Bluray', 'Movies :: WEBRip', 'Movies :: BDRip']": accept
+    exec:
+      on_output:
+        for_accepted: 
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_qvazzler_injections/{?title?}.log"
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_tl_qvazzler.rsskey, irc_tl_ringwall.rsskey)?}" "http://pi.bernting.se:3542" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_ringwall_injections/{?title?}.log"
+  iptorrents_qvazzler:
+    metainfo_series: yes
+    disable: seen
+    accept_all: yes
+    #if:
+    #  - "irc_category in ['TV/x265', 'TV/x264', 'TV/Web-DL', 'Movie/Web-DL', 'Movie/HD/Bluray']": accept
+    exec:
+      on_output:
+        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/ipt_qvazzler_injections/{?title?}.log"
+  morethantv_qvazzler:
+    metainfo_series: yes
+    disable: seen
+    accept_all: yes
+    exec:
+      on_output:
+        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/mtv_qvazzler_injections/{?title?}.log"
 ```
 
-Notes about the packs config:
-- It is important that you are using a private tracker with good torrent structure. Using a public tracker like piratebay is _most likely_ going to cause problems.
-- You'll need to create a secrets.yml file alongside this config.
-  
-  
-  
+This config is accompanied by a `trackers` directory, that contains XML information about each of the trackers available through IRC. [Read about the IRC Daemon to find out more.](Plugins/Daemon/irc).
 
-## If you want a decent episode and movie downloading config to go alongside this, please use the below which features:
+## The variables.yml file
+
+Just so you get the idea, it looks like this.
+
+```
+general:
+  notifyscript: /some/path/to/notify_daemons.sh
+
+irc_sceneaccess:
+  trackerfile: '/home/user/trackers/SceneAccess.tracker'
+  #trackerfile_test: /home/qvazzler/.config/flexget/irc_daemon/trackers/SceneAccess.temp.modified.tracker
+  authkey_qvazzler: x
+  #nickname: x-bot
+  #nickserv_password: x
+  authkey: x
+  nickname: x-bot
+  nickserv_password: x
+
+irc_tl_qvazzler:
+  trackerfile: '/home/user/trackers/TorrentLeech.tracker'
+  rsskey: x
+  nickserv_password: x
+  nickname: x-bot
+
+irc_tl_ringwall:
+  rsskey: abc
+
+irc_ipt_qvazzler:
+  trackerfile: '/home/user/trackers/IPTorrents.tracker'
+```
+
+It can feel a bit daunting figuring out all the variables by yourself. The best way to get a good idea is to look inside the trackers file that you've gotten from the autodl community, what variables they surface in it. Also the reading the IRC rules in whatever place you're getting the trackers from is a good idea. (For example, appending -bot to your nick is required in many rules when you downloading stuff automatically)
+
+## This irc daemon instance uses bash scripts to notify the flexget API's
+
+Below is a decent example of how that script would look like.
+
+You can read more about the [FlexGet API on the wiki.](API).
+If you want to get the flexget token for one of your regular flexget instances, make sure API is enabled in your config (`web_server: yes`), password has been generated (`flexget web passwd <some_password>`) and after, use command `flexget web showtoken`.
+
+```
+#!/bin/bash
+
+TITLE=$1
+URL=$2
+
+declare -A daemons
+
+# How the command is being executed from irc daemon
+#./notify_daemons.sh "MovieName 2016 BDRip 720p X265 ReleaseGroupName" "https://www.iptorrents.com/download.php/1844170/Zootopia%202016%20BDRip%20720p%20X265%20Ac3-GANJAMAN.torrent?torrent_pass=bfed75f2199342d5a74f6a129e1f7a82" "http://192.168.1.100:3540"
+
+#the tokens below are faked. Put in the real ones yourself (and the correct ip/port of course)
+#daemons["http://192.168.1.100:3541"]="an_example_token_eawdwad22235814c2458434ffdcb7cdce47d8a1678e5453dd8be9f" #user 1, inactive
+daemons["http://192.168.1.100:3542"]="b915c3eb0b5800f424320e5cc82b03edc5a5b5850aczzzzzzzzzzzzc" #user 2
+daemons["http://192.168.1.100:3543"]="fwaff67dbczczczwczwcwdwdwddwwdwdwqqqrrrrrrrde22696b376a1" #user 3
+
+# If specific hostname was supplied, proceed to only notify that host
+if [ $# -eq 3 ]; then
+  for daemon in "${!daemons[@]}"; do
+    echo "compare ${daemon} against $3"
+    if [ ${daemon} != $3 ]; then
+      unset daemons[${daemon}]
+    fi
+  done
+fi
+
+#Now run the actual query
+for daemon in "${!daemons[@]}"; do
+curl -H "Authorization: Token ${daemons[${daemon}]}" -m 300 -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{\
+\"disable_tracking\": true,\
+\"discover_now\": false,\
+\"entry_dump\": true,\
+\"inject\": [\
+{\
+\"accept\": false,\
+\"fields\": {},\
+\"force\": false,\
+\"title\": \"${TITLE}\",\
+\"url\": \"${URL}\"\
+}\
+],\
+\"learn\": false,\
+\"loglevel\": \"debug\",\
+\"no_cache\": true,\
+\"now\": true,\
+\"progress\": true,\
+\"summary\": true,\
+\"tasks\": [\
+\"get_series_direct\",\
+\"get_movies_direct\"\
+]\
+}" "${daemon}/api/inject/"
+done
+```
+
+## Here's what one of the regular configs look like. (NOTE: Uses Trakt, you need a scrobbler via XBMC/Kodi or Plex)
 - Runs as a daemon. Execute it with 
 ```
 flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize
 ```
 
-- Retrieving movies/shows from the trakt watchlist and putting them in a seperate list so they won't disappear (meaning you only ever have to add shows to the watchlist when adding shows, convenience)
-- Figures out which episode to download next thanks to scrobbling, aka no need to look into the filesystem where your media is
-- Downloading shows/movies
-- Clean up ended and downloaded shows from the lists so flexget doesn't have to keep searching for them
-- Has an untested file delete task for shows/movies you haven't literally touched in a long time
+You'll note that there's a task suffixed "_direct" for movies and shows. There is also a task for season packs.
 
-## General Purpose Config using Trakt.tv
 ```
-secrets: secrets.yml
+variables: variables.yml
+# Things that need to be updated here in case of config-copy (because they are integers..)
+# * 'port' fields (note: web_server port needs to be different from other instances!)
+# * iptorrents 'uid' field
 
-#run with 'flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize'
-#set webui password with 'flexget -c config.yml web passwd <some_password>'
-#set trakt access with 'flexget -c config.yml trakt auth <your_account_name>'
+# Things that need to be executed as command to new config db
+# * flexget -c config.yml web passwd <new_password>
+# * flexget -c config.yml trakt auth <account_name>
 
-#web_server:
-#  bind: 0.0.0.0
-#  port: 3540
-#api: yes
-#webui: yes
+web_server:
+  bind: 0.0.0.0
+  port: 3540
+  web_ui: yes
 
 schedules:
-  - tasks: [copy_trakt_watchlist, copy_trakt_watchlist_movies, fill_movie_list, get_movies_720p, get_series_begin, get_series]
+  - tasks: [copy_trakt_follow_watchlist, copy_trakt_backlog_watchlist, copy_trakt_watchlist_movies, fill_movie_list, get_movies_720p, get_series_begin, get_series, get_series_packs]
     interval:
-      hours: 2
+      hours: 1
   - tasks: [clean_trakt_movies_list, clean_trakt_shows_list, clean_trakt_shows_backlog_list]
     interval:
       days: 5
@@ -153,196 +262,276 @@ templates:
     domain_delay:
       sceneaccess.eu: 30 seconds
       sceneaccess.org: 30 seconds
-    content_size:
-      max: 5000
-      min: 60
   transmit-movies:
     transmission:
-      host: '{{ secrets.transmission.host }}'
-      port: 9091
-      username: '{{ secrets.transmission.username }}'
-      password: '{{ secrets.transmission.password }}'
-      path: '{{ secrets.transmission.download_path_movies }}'
+      host: '{? transmission.host ?}'
+      port: 80
+      username: '{? transmission.username ?}'
+      password: '{? transmission.password ?}'
+      path: '{? transmission.download_path_movies ?}'
   transmit-series:
     transmission:
-      host: '{{ secrets.transmission.host }}'
-      port: 9091
-      username: '{{ secrets.transmission.username }}'
-      password: '{{ secrets.transmission.password }}'
-      path: '{{ secrets.transmission.download_path_shows }}'
+      host: '{? transmission.host ?}'
+      port: 80
+      username: '{? transmission.username ?}'
+      password: '{? transmission.password ?}'
+      path: '{? transmission.download_path_shows ?}'
   download-movie:
     discover:
       what:
         - movie_list: 'movies from trakt'
       from:
-        #- torrentleech:
-            #rss_key: '{{ secrets.torrentleech.rss_key }}'
-            #username: '{{ secrets.torrentleech.username }}'
-            #password: '{{ secrets.torrentleech.password }}'
-        - sceneaccess:
-            username: '{{ secrets.sceneaccess.username }}'
-            password: '{{ secrets.sceneaccess.password }}'
-            gravity_multiplier: 100
+        - morethantv:
+            username: '{? mtv.username ?}'
+            password: '{? mtv.password ?}'
             category:
-              browse:
-                - Movies/x264
-              archive:
-                - Movies/Packs
+              - Movies
+            #tags: [adventure]
+            all_tags: yes
+        #- torrentleech:
+            #rss_key: '{? torrentleech.rss_key ?}'
+            #username: '{? torrentleech.username ?}'
+            #password: '{? torrentleech.password ?}'
+        #- iptorrents:
+            #rss_key: '{? iptorrents.rss_key ?}'
+            #uid: 123
+            #password: '{? iptorrents.password ?}'
+            #category:
+              #- Movie-HD-Bluray
+              #- Movie-DVD-R
+        # This is only for season pack downloading
+        #- sceneaccess:
+            #username: '{? sceneaccess.username ?}'
+            #password: '{? sceneaccess.password ?}'
+            #gravity_multiplier: 100
+            #category:
+              #browse:
+                #- Movies/x264
+              #archive:
+                #- Movies/Packs
 
       #ignore_estimations: no
-    set:
-      content_filename: "{{ imdb_name|replace('/', '_')|replace(':', ' -') }} ({{ imdb_year }}) - {{ quality }}"
+    #set:
+      #content_filename: "{? imdb_name|replace('/', '_')|replace(':', ' -') ?} ({? imdb_year ?}) - {? quality ?}"
     template:
       - transmit-movies
   download-show:
     discover:
       what:
-        - emit_series: yes
-            #from_start: yes backfill: no
+        - next_series_episodes: yes
+            #backfill: yes
+            #from_start: yes
       from:
+        - morethantv:
+            username: '{? mtv.username ?}'
+            password: '{? mtv.password ?}'
+            category:
+              - TV
+            #tags: [adventure]
+            all_tags: yes
         #- torrentleech:
-            #rss_key: '{{ secrets.torrentleech.rss_key }}'
-            #username: '{{ secrets.torrentleech.username }}'
-            #password: '{{ secrets.torrentleech.password }}'
+            #rss_key: '{? torrentleech.rss_key ?}'
+            #username: '{? torrentleech.username ?}'
+            #password: '{? torrentleech.password ?}'
+        #- iptorrents:
+            #rss_key: '{? iptorrents.rss_key ?}'
+            #uid: 123
+            #password: '{? iptorrents.password ?}'
+            #category:
+              #- TV-x264
+              #- TV-Web-DL
+        #- sceneaccess:
+            #username: '{? sceneaccess.username ?}'
+            #password: '{? sceneaccess.password ?}'
+            #gravity_multiplier: 100
+            #category:
+              #archive:
+                #- TV/HD-x264
+
+      release_estimations: strict #only download those with air dates
+    #set:
+      #content_filename: "{? series_name ?} - {? series_id ?} ({? quality|upper ?})"
+    template:
+      - transmit-series
+  download-show-pack:
+    discover:
+      what:
+        - next_series_seasons: yes
+            #backfill: yes
+            #from_start: yes
+      from:
         - sceneaccess:
-            username: '{{ secrets.sceneaccess.username }}'
-            password: '{{ secrets.sceneaccess.password }}'
+            username: '{? sceneaccess.username ?}'
+            password: '{? sceneaccess.password ?}'
             gravity_multiplier: 100
             category:
-              browse:
-                - TV/HD-x264
+              archive:
+                - TV/Packs
+
       release_estimations: strict #only download those with air dates
-    set:
-      content_filename: "{{ series_name }} - {{ series_id }} ({{ quality|upper }})"
+    #set:
+      #content_filename: "{? series_name ?} - {? series_id ?} ({? quality|upper ?})"
     template:
       - transmit-series
 tasks:
-  copy_trakt_watchlist:
+  copy_trakt_follow_watchlist:
     priority: 1
     disable: seen
     trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: watchlist
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.shows_follow ?}'
       type: shows
     accept_all: yes
     list_add:
       - trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.shows_follow }}'
-  copy_trakt_watchlist_movies:
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: watchlist
+  copy_trakt_backlog_watchlist:
     priority: 2
     disable: seen
-
-    trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
     trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: watchlist
-      type: movies
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.shows_backlog ?}'
+      type: shows
     accept_all: yes
-    if:
-      - trakt_collected: reject
     list_add:
       - trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.movies_get }}'
-  fill_movie_list:
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: watchlist
+  copy_trakt_watchlist_movies:
     priority: 3
+    disable: seen
     trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: '{{ secrets.trakt_lists.movies_get }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.movies_get ?}'
+      type: movies
+    accept_all: yes
+    list_add:
+      - trakt_list:
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: watchlist
+  fill_movie_list:
+    priority: 4
+    trakt_list:
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.movies_get ?}'
       type: movies
     accept_all: yes
     list_add:
       - movie_list: 'movies from trakt'
   get_movies_720p:
     torrent_alive: yes #number of seeders needed to accept
-    priority: 4
+    priority: 5
+    list_match:
+      from:
+        - movie_list: 'movies from trakt'
     content_size:
       max: 23040
       min: 1024
     quality: 720p bluray+
     template: download-movie
+
   get_series_begin:
-    priority: 5
+    priority: 6
     disable: seen
-    trakt_emit:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: '{{ secrets.trakt_lists.shows_follow }}'
+    next_trakt_episodes:
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: 'watchlist'
       context: collected
       position: next
     accept_all: yes
     set_series_begin: yes
+
   get_series:
-    priority: 6
+    priority: 7
     configure_series:
       settings:
-        #quality: 720p hdtv+
         timeframe: 6 hours
+        season_packs: no
         target: 720p hdtv
         identified_by: ep
         exact: yes
       from:
         trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.shows_follow }}'
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.shows_follow ?}'
           type: shows
     template:
       - get_series_standards
       - download-show
 
+  get_series_packs:
+    priority: 8
+    configure_series:
+      settings:
+        timeframe: 6 hours
+        season_packs: only
+        target: 720p hdtv
+        identified_by: ep
+        exact: yes
+      from:
+        trakt_list:
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.shows_backlog ?}'
+          type: shows
+    template:
+      - get_series_standards
+      - download-show-pack
+
   get_series_direct:
     manual: yes
     trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
     configure_series:
       settings:
         quality: 720p hdtv+
         exact: yes
       from:
         trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.shows_follow }}'
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.shows_follow ?}'
           type: shows
     template: transmit-series
 
   get_movies_direct:
     manual: yes
     trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
     content_size:
       max: 23040
       min: 1024
     quality: 720p bluray+
-    list_queue:
-      - movie_list: 'movies from trakt'
+    list_match:
+      from:
+        - movie_list: 'movies from trakt'
     template: transmit-movies
-
   # MANUAL TASKS BELOW
 
   clean_trakt_movies_list:
-    priority: 8
+    priority: 9
     disable:
       - seen
       - movie_queue
     trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
     trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: '{{ secrets.trakt_lists.movies_get }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.movies_get ?}'
       type: movies
       strip_dates: yes
     if:
@@ -350,49 +539,49 @@ tasks:
     list_remove:
       - movie_list: 'movies from trakt'
       - trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.movies_get }}'
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.movies_get ?}'
 
   clean_trakt_shows_list:
-    priority: 9
-    disable: seen
-    trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-    trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: '{{ secrets.trakt_lists.shows_follow }}'
-      type: shows
-      strip_dates: yes
-    if:
-      - trakt_collected and (trakt_series_status == 'ended' or trakt_series_status == 'cancelled'): accept
-    list_remove:
-      - trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.shows_follow }}'
-
-  clean_trakt_shows_backlog_list:
     priority: 10
     disable: seen
     trakt_lookup:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
     trakt_list:
-      username: '{{ secrets.trakt.username }}'
-      account: '{{ secrets.trakt.account }}'
-      list: '{{ secrets.trakt_lists.shows_backlog }}'
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.shows_follow ?}'
       type: shows
       strip_dates: yes
     if:
       - trakt_collected and (trakt_series_status == 'ended' or trakt_series_status == 'cancelled'): accept
     list_remove:
       - trakt_list:
-          username: '{{ secrets.trakt.username }}'
-          account: '{{ secrets.trakt.account }}'
-          list: '{{ secrets.trakt_lists.shows_backlog }}'
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.shows_follow ?}'
+
+  clean_trakt_shows_backlog_list:
+    priority: 11
+    disable: seen
+    trakt_lookup:
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+    trakt_list:
+      username: '{? trakt.username ?}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt_lists.shows_backlog ?}'
+      type: shows
+      strip_dates: yes
+    if:
+      - trakt_collected: accept
+    list_remove:
+      - trakt_list:
+          username: '{? trakt.username ?}'
+          account: '{? trakt.account ?}'
+          list: '{? trakt_lists.shows_backlog ?}'
 
   old_files:
     manual: yes
@@ -404,7 +593,7 @@ tasks:
     limit_new: 1     
     filesystem:
       path:
-        - /home/qvazzler/testdir/
+        - /tmp/
       retrieve:
         #- files
         - dirs
@@ -416,25 +605,30 @@ tasks:
       action: 'accept'
 
     set:
-      series_name: "{{'title'}}"
+      series_name: "{?'title'?}"
 
     trakt_lookup:
-      account: '{{ secrets.trakt.account }}'
-      username: '{{ secrets.trakt.username }}'
+      account: '{? trakt.account ?}'
+      username: '{? trakt.username ?}'
 
     if:
       - trakt_watched == False: reject
 
     #exec:    
       #on_exit:
-        #for_accepted: rm -r '{{location}}'
+        #for_accepted: rm -r '{?location?}'
 ```
 
-Notes about the general purpose config:
-- I left the Web UI disabled. It can be re-enabled, but you then need to set a password (see [https://flexget.com/wiki/Web-UI](/https://flexget.com/wiki/Web-UI))
-- The General purpose config will clean up entries from your lists that have been watched already.
-- The old_files task is UNTESTED! Use with caution.
+A small snippet of variables.yml (you get the idea):
 
-Notes about both of my configs:
-- I don't need to worry about where to put my files as I have a bash script that executes Filebot on the files. You might need to modify based on your own needs here.
-- You will most likely not be able to copy this config directly. Please make edits where suitable for you.
+```
+trakt_lists:
+  shows_follow: 1-b-shows-b-follow
+  shows_backlog: 2-b-shows-b-get-backlog
+  movies_get: 3-b-movie-b-get
+```
+
+These are the names of the lists I use in trakt. You will need to create your own lists and provide their URL names here. I have 1-b etc because I've sneaked in some html into my list names, and that gives you 1-b-.. etc in the URL.
+
+Notes about the user config:
+- The old_files task is UNTESTED! Use with caution.
