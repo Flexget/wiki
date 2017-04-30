@@ -8,8 +8,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.10.40 (2017-04-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.39...2.10.40)
 ### Added
-- *  auth plugin - Enable generic basic and digest auth
-- download_auth plugin - Enable generic basic and digest auth ([#1806](https://github.com/Flexget/Flexget/issues/1806))
+- `download_auth` plugin - Enable generic basic and digest auth ([#1806](https://github.com/Flexget/Flexget/issues/1806))
 
 
 ## 2.10.39 (2017-04-27)
