@@ -13,8 +13,9 @@ I am assuming that you have decent skill in the linux shell (bash/others).
 
 **Pros:**
 
-+ Ability to use a single IRC daemon for multiple users on the same machine.
++ Ability to use a single IRC daemon for multiple user configs on the same machine.
 + Season pack support
++ Trakt support
 + Various cleaner tasks
 
 **Cons:**
@@ -91,8 +92,8 @@ tasks:
     exec:
       on_output:
         for_accepted: 
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3543" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_moldrag_injections/{?title?}.log"
-          #- bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_sceneaccess.authkey, irc_sceneaccess.authkey_qvazzler)?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_qvazzler_injections/{?title?}.log"
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3543" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_moldrag_injections/{?title?}.log"
+          #- bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_sceneaccess.authkey, irc_sceneaccess.authkey_qvazzler)?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_qvazzler_injections/{?title?}.log"
 
   torrentleech_qvazzler:
     metainfo_series: yes
@@ -103,8 +104,8 @@ tasks:
     exec:
       on_output:
         for_accepted: 
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_qvazzler_injections/{?title?}.log"
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_tl_qvazzler.rsskey, irc_tl_ringwall.rsskey)?}" "http://pi.bernting.se:3542" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_ringwall_injections/{?title?}.log"
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_qvazzler_injections/{?title?}.log"
+          - bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_tl_qvazzler.rsskey, irc_tl_ringwall.rsskey)?}" "http://192.168.1.100:3542" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_ringwall_injections/{?title?}.log"
   iptorrents_qvazzler:
     metainfo_series: yes
     disable: seen
@@ -113,14 +114,14 @@ tasks:
     #  - "irc_category in ['TV/x265', 'TV/x264', 'TV/Web-DL', 'Movie/Web-DL', 'Movie/HD/Bluray']": accept
     exec:
       on_output:
-        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/ipt_qvazzler_injections/{?title?}.log"
+        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/ipt_qvazzler_injections/{?title?}.log"
   morethantv_qvazzler:
     metainfo_series: yes
     disable: seen
     accept_all: yes
     exec:
       on_output:
-        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://pi.bernting.se:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/mtv_qvazzler_injections/{?title?}.log"
+        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/mtv_qvazzler_injections/{?title?}.log"
 ```
 
 This config is accompanied by a `trackers` directory, that contains XML information about each of the trackers available through IRC. [Read about the IRC Daemon to find out more.](Plugins/Daemon/irc).
@@ -226,7 +227,7 @@ done
 flexget -c config.yml -l logs/flexget.log -L verbose daemon start --daemonize
 ```
 
-You'll note that there's a task suffixed "_direct" for movies and shows. There is also a task for season packs.
+You'll note that there's a task suffixed "_direct" for movies and shows, which are used by the IRC daemon. There is also a task for season packs. There is a lot of commented stuff throughout the configs, I am leaving them in for you to take inspiration from.
 
 ```
 variables: variables.yml
