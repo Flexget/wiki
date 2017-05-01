@@ -42,7 +42,7 @@ web_server:
   ssl_certificate: '/etc/ssl/private/myCert.pem' # Path to certificate file
   ssl_private_key: '/etc/ssl/private/myKey.key' # Path to private key file
   web_ui: yes # Web-UI can optionally be disabeled, only API will run
-  base_url: Set a different base_url. Default is / (None)
+  base_url: /foo # Set a different base_url. Default is / (None)
 ```
 
 Set a password and start flexget in daemon mode to start the web server.
