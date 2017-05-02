@@ -40,7 +40,7 @@ Open Chrome options -> More Tools -> Developer Tools (Or press Ctrl+Shift+I)
 
 <img src="http://i.imgur.com/qzlrjA9.jpg">  
 
-Choose 'Resources' in the newly open tab  
+Choose 'Applications' (n.b. not 'Resources') in the newly open tab  
 
 <img src="http://i.imgur.com/jNFu4Cq.jpg">  
 
