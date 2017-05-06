@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0179c839cf3939ef38d77ac63136ad953375983a--->
+<!---5d3fd5a94ed42a80e928764e0f6b3aa7d7def243--->
 
 ## 2.10.41.dev (unreleased)
 ### Fixed
 - Multiples changes for t411 domain name change : from .ai to .al ([#1811](https://github.com/Flexget/Flexget/issues/1811))
+
+### Added
+- Season packs phase 2 ([#1797](https://github.com/Flexget/Flexget/issues/1797))
 
 <!---d03b6861fc79de30b8d5b80c435271117a1bc4eb--->
 
