@@ -1,16 +1,16 @@
-## [`daemon`](/Daemon)<a name="daemon"></a>
-run continuously, executing tasks according to schedules defined in config
+## [CLI](/CLI) > [`daemon`](/Daemon)<a name="daemon"></a>
+Run FlexGet continuously, executing tasks according to [schedules](/Plugins/Daemon/scheduler) defined in the [config file](/Configuration).
 
-### actions
-| Action | Option | Description |
+### Sub-commands
+| Sub-command | Option | Description |
 | --- | --- | --- |
 | `start` || Starts the daemon  |
-| |`-d, --daemonize`| Causes process to daemonize after starting
-| |`--autoreload-config` | automatically reload the config from disk if the daemon detects any changes |
-| `stop` || shutdown the running daemon |
-|| `--wait`| wait for all queued tasks to finish before stopping daemon |
-| `status` || check if a daemon is running |
-| `reload-config` || causes a running daemon to reload the config from disk |
+| |`-d`, `--daemonize`| Causes process to daemonize after starting
+| |`--autoreload-config` | Automatically reload the config from disk if the daemon detects any changes |
+| `stop` || Shutdown the running daemon |
+|| `--wait`| Wait for all queued tasks to finish before stopping daemon |
+| `status` || Check if a daemon is running |
+| `reload-config` || Causes a running daemon to reload the config from disk |
 
 ### examples
 ```bash
@@ -25,5 +25,4 @@ flexget daemon stop --wait
 ```
 
 ### Related articles
-* [CUI / Command line interface overview](/CLI)
-* [`daemon` Wiki article](/Daemon)
+* [`daemon` information](/Daemon)
