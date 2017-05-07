@@ -1,4 +1,4 @@
-## IRC
+# [Daemon](/Daemon) > IRC
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon glyphicon-download-alt"></span>
   &nbsp;
