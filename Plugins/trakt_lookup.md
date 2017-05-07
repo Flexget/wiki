@@ -23,7 +23,7 @@ trakt_lookup:
    username: <trakt username>
 ```
 
-**NOTE**: `username` is the user for which you wish to lookup specific information such as collection, watched history or user ratings. Option `account` is required if your profile is private (see [trakt](/Plugins/trakt) on how to authenticate).
+**NOTE**: `username` is the user for which you wish to lookup specific information such as collection, watched history or user ratings. The `account` option is required if your profile is private, and is the account name that was set during [Trakt authentication](/Trakt_Authentication).
 
 **Series Metainfo**
 
