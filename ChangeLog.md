@@ -5,10 +5,17 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.41.dev (unreleased)
 ### Fixed
-- Multiples changes for t411 domain name change : from .ai to .al ([#1811](https://github.com/Flexget/Flexget/issues/1811))
+- Change t411 domain name change from .ai to .al ([#1811](https://github.com/Flexget/Flexget/issues/1811))
+- `next_series_episodes`/`next_series_seasons` emitted the begin episode in error if there was a gap in series history
+- CLI `series show` sort bug
+- `next_series_episodes`/`next_series_seasons` didn't emit the next entity if the last one was a season pack without series begin set
+- log message now appears if you to try lookup season packs with `thetvdb_lookup`, which doesn't support them
 
 ### Added
-- Season packs phase 2 ([#1797](https://github.com/Flexget/Flexget/issues/1797))
+- Season packs phase 2 ([#1797](https://github.com/Flexget/Flexget/issues/1797)):
+  - season pack support to CLI `series forget`
+  - forget multiple entities per `series forget` command
+  - Trakt season pack lookup
 
 <!---d03b6861fc79de30b8d5b80c435271117a1bc4eb--->
 
