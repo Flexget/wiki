@@ -29,5 +29,5 @@ View and manage [regexp lists](/Plugins/List/regexp_list).
 ### Examples
 ```bash
 #lists all existing regexp lists
-flexget regexp-list all
+$ flexget regexp-list all
 ```
