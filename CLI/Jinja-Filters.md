@@ -10,7 +10,8 @@ View available [Jinja](/Jinja) filters and their descriptions.
 ### Examples
 ```bash
 # Displays all filters
-flexget jinja-filters
+$ flexget jinja-filters
+
 # Filter by jinja filter name
-flexget jinja-filters --name re_replace
+$ flexget jinja-filters --name re_replace
 ```
