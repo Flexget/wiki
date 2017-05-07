@@ -1,3 +1,8 @@
+---
+import:
+  - TableStylesDiv
+---
+
 ## [CLI](/CLI) > `trakt`
 View and manage [Trakt authentication](/Trakt_Authentication), for use with the [`trakt_list`](/Plugins/List/trakt_list) and [`trakt_lookup`](/Plugins/trakt_lookup) plugins.
 
@@ -16,10 +21,10 @@ View and manage [Trakt authentication](/Trakt_Authentication), for use with the 
 | `delete` || Delete the specified identifier from local database |
 || *positional:* |
 || `<account>`| Identifier (as originally specified with the `auth` command above)
-|||<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>
+|||{{> TableStylesDiv }}
 
 ### Examples
 ```bash
 #refreshes the access token associated with the "my_foo_account"
-flexget trakt refresh my_foo_account
+$ flexget trakt refresh my_foo_account
 ```
