@@ -158,6 +158,12 @@ Remember to consult the [plugins](/Plugins) wiki page to choose your plugins, an
 
 **Now just sit back, and let FlexGet do the work for you!**
 
+<div class="alert alert-info" role="alert">
+
+Check out [this page](/StillConfusedYaml) if you are still confused about YAML syntax.
+
+</div>
+
 ## Common misconceptions
  * Plugin order doesn't matter. You can list them in any order you like. The most logical order would be `inputs` > `filters` > `outputs`.
  * Task order doesn't matter. Tasks are executed in a seemingly random order. Use the  [`priority` plugin](/Plugins/priority) to prioritize tasks when necessary.
@@ -233,10 +239,3 @@ Note that it may report warnings, but these are not errors and can usually safel
 ## References
  * See [how to manage series](/Cookbook/Series/Template) in the Cookbook for how to refine this example into real world usage (with multiple tasks).
  * Continue into [plugins](/Plugins) to learn about all of the available plugins you may use in the configuration file.
- 
- 
-<div class="alert alert-info" role="alert">
-
-Check [this](/StillConfusedYaml) if you are still confused about YAML syntax.
-
-</div>
