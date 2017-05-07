@@ -5,7 +5,7 @@ If you are having problems returning the correct information for a show. Please 
 
 <div class="alert alert-info" role="alert">
 
-Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.</div>
+Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize Flexget to access your private Trakt.tv account.</div>
 <div class="alert alert-danger" role="alert">
 
 As of October 1st 2016, Trakt no longer provides images.</div>
@@ -141,7 +141,7 @@ trakt_lookup:
 
 #### Notes:
 
-* [Trakt Api Images](http://docs.trakt.apiary.io/#introduction/images)
+* [Trakt on Images](http://docs.trakt.apiary.io/#introduction/images)
 * [More information](http://docs.trakt.apiary.io/#introduction/standard-media-objects)
 
 ## Examples
