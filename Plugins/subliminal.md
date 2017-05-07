@@ -37,7 +37,7 @@ tasks:
       providers: [addic7ed, opensubtitles, tvsubtitles]
       single: no
       hearing_impaired: yes
-      authentication:               #consider using the secrets plugin
+      authentication:               #consider using the variables plugin
         addic7ed:
           username: my_user
           password: my_password
@@ -67,6 +67,6 @@ Options `alternatives`, `exact_match`,  `providers`, `single`, `hearing_impaired
 Omitting `providers` means all available providers will be used, which includes the ones that that don't need authentication, or that have been properly configured with the `authentication` option.
 
 ### Related
-- Consider making use of the [Secrets plugin](/Plugins/secrets) to store the usernames and passwords outside of the main configuration file.
+- Consider making use of the [`variables` plugin](/Plugins/variables) to store the usernames and passwords outside of the main configuration file.
 - [periscope plugin](/Plugins/periscope)
 - Works well together with the [`filesystem` plugin](/Plugins/filesystem)
