@@ -28,9 +28,9 @@ This example shows how the next_sonarr_episodes plugin could be used with the [s
 {{{
   set-series-begin-from-sonarr:
       next_sonarr_episodes:
-        base_url: '{{ secrets.credentials.sonarr.url }}'
+        base_url: '{? credentials.sonarr.url ?}'
         port: 8989
-        api_key: '{{ secrets.credentials.sonarr.api_key }}'
+        api_key: '{? credentials.sonarr.api_key ?}'
         include_ended: false
       accept_all: yes
       set_series_begin: yes
@@ -45,9 +45,9 @@ discover_from_sonarr_task:
       discover:
         what:
           - next_sonarr_episodes:
-              base_url: '{{ secrets.credentials.sonarr.url }}'
+              base_url: '{? credentials.sonarr.url ?}'
               port: 8989
-              api_key: '{{ secrets.credentials.sonarr.api_key }}'
+              api_key: '{? credentials.sonarr.api_key ?}'
               include_ended: false
         from:
           - kat:
