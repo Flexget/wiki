@@ -44,6 +44,8 @@ In YAML, indendation is crucially important. Most of your time will be spent wit
 - `web_server`
 - `irc`
 
+Everything else in FlexGet is indented under one of the above keys. For example, your tasks are placed under `tasks`, and plugins are placed within those tasks.
+
 ## Step-by-Step Configuration Tutorial
 The configuration is a hierarchy constructed of various components. The main component of any config are the tasks, so we will start there.
 ```yaml
