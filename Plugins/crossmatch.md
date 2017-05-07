@@ -46,8 +46,8 @@ tasks:
       from:
         - imdb_list:
             list: ratings
-            login: '{{ secrets.imdb.login }}'
-            password: '{{ secrets.imdb.pwd }}'
+            login: '{? imdb.login ?}'
+            password: '{? imdb.pwd ?}'
       fields:
         - imdb_id
       action: accept
@@ -62,7 +62,7 @@ tasks:
       to: /path/to/crap
 ```
 
-See [variables](/Plugins/variables) plugin
+See [variables](/Plugins/variables) plugin.
 
 ### Accept files any entries from a Filesystem list 
 The task will accept any entry containing an Artist's name (assumes /media/artists/ contains a folder for each Artist)
