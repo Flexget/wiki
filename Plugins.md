@@ -340,7 +340,7 @@ Perform various FlexGet operations.
 | [reorder_quality](/Plugins/reorder_quality) | Reorder [qualities](../Qualities) to make one quality better or worse than another. |
 | [retry_failed](/Plugins/retry_failed) | Save failed entries so they can be retried. [Builtin](/Builtin) |
 | [run_task](/Plugins/run_task) | Trigger exectution of another task.
-| [secrets](/Plugins/secrets) | Replace specific jinja2 values in config before executing tasks. |
+| [variables](/Plugins/variables) | Replace specific jinja2 values in config before executing tasks. |
 | [sequence](/Plugins/sequence) | Allows the same plugin to be configured multiple times in a task. |
 | [sleep](/Plugins/sleep) | Causes a pause to occur at a specified point during task execution. |
 | [sort_by](/Plugins/sort_by) | Sort entries in a task. |
