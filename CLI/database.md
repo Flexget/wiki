@@ -14,5 +14,5 @@ Utilities to manage the FlexGet database.
 ### Examples
 ```bash
 # cleanup unnecessary data from the database
-flexget database cleanup
+$ flexget database cleanup
 ```
