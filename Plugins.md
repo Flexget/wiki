@@ -6,7 +6,7 @@ Most plugins are enabled by placing a keyword and required settings in a configu
 This documentation is meant for the latest released version. If you are upgrading from an older version, see [upgrade actions](/UpgradeActions) for help in migrating your configuration file.
 
 ## Indentation in examples
-All configuration examples are assumed to be placed under a task (or template.) So if documentation has this example:
+All configuration examples are assumed to be placed under the `tasks` (or `templates`) [top-level keys](/Configuration#top-level-keys). If the documentation has this example:
 
 ```yaml
 series:
