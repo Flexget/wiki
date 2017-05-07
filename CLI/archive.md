@@ -32,5 +32,5 @@ Search and manipulate the [`archive` plugin](/Plugins/archive) database.
 ### Examples
 ```bash
 #searches the archive for "foo"
-flexget archive search "foo"
+$ flexget archive search "foo"
 ```
