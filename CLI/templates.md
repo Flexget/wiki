@@ -1,21 +1,17 @@
-## `templates`
-View file templates, to be used with [notifer](/Plugins/Notifiers) plugins
+## [CLI](/CLI) > `templates`
+View file templates to be used with [notifer](/Plugins/Notifiers) plugins.
 
-### Actions
-|  Option | Description |
+### Optional arguments
+|  Argument | Description |
 | --- | --- |
-|*optional:*<br>`--name <TEMPLATE NAME>`| Filter by template name
-* Supports [table-styles](/CLI/--table-styles)
-
+|`--name <template_name>`| Filter by `<template_name>`
+||<div align="right">all support [table-styles](/CLI/--table-styles)</div>|
 
 ### Examples
 ```bash
-# Shows all templates:
-flexget templates 
-# Filters by name 'rss':
+# Shows all templates
+flexget templates
+
+# Filters by name 'rss'
 flexget templates --name rss
 ```
-
-### Related articles
-* [CLI / Command line interface overview](/CLI)
-* [notifer](/Plugins/Notifiers) plugins
