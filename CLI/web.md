@@ -16,6 +16,3 @@ flexget web showtoken
 #changes the password to foopass
 flexget web passwd foopass
 ```
-
-### Related articles
-* [CLI / Command line interface overview](/CLI)
