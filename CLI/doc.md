@@ -9,5 +9,5 @@ Displays plugin documentation. It may not be complete or available for all plugi
 ### Examples
 ```bash
 #displays the documentation for the "series" plugin
-flexget doc series
+$ flexget doc series
 ```
