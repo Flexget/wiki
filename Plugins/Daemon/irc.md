@@ -75,16 +75,16 @@ irc:
   irc_cool_tracker:
     tracker_file: 'MyFunTracker.tracker'
     nickname: 'flexget_bot' #make sure to check naming conventions before joining
-    nickserv_password: '{{ secrets.irc.nickserv_password }}'
+    nickserv_password: '{? irc.nickserv_password ?}'
     port: 7011
-    rsskey: '{{ secrets.irc.rsskey }}'
+    rsskey: '{? irc.rsskey ?}'
     task: get_entry
     channels: ["#myannounces"]
   irc_some_other_tracker:
     tracker_file: 'MyOtherFunTracker.tracker'
     nickname: 'flexget-bot'
-    nickserv_password: '{{ secrets.other_irc.nickserv_password }}'
-    passkey: '{{ secrets.other_irc.passkey }}'
+    nickserv_password: '{? other_irc.nickserv_password ?}'
+    passkey: '{? other_irc.passkey ?}'
     task_re:
       get_tv_entry_with_tracking:
         - regexp: (TV\/x265)|(TV\/x264)|(TV\/Web-DL)
@@ -105,7 +105,7 @@ tasks:
     metainfo_series: yes
     template: download-it
     trakt_lookup:
-      account: '{{ secrets.trakt.usr }}'
+      account: '{? trakt.usr ?}'
     if:
       - trakt_watched: reject
     manual: yes
@@ -114,8 +114,8 @@ tasks:
     configure_series:
       from:
         trakt_list:
-          account: '{{ secrets.trakt.usr }}'
-          list: '{{ secrets.trakt.tv }}'
+          account: '{? trakt.usr ?}'
+          list: '{? trakt.tv ?}'
           type: shows
       settings:
         identified_by: ep
@@ -133,7 +133,7 @@ tasks:
         - movie_list: watchlist
     list_remove:
       - trakt_list:
-          account: '{{ secrets.trakt.usr }}'
+          account: '{? trakt.usr ?}'
           list: watchlist
     imdb_lookup: yes
     imdb_required: yes
