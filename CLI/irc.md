@@ -18,5 +18,5 @@ View and manage [IRC connections](/Plugins/Daemon/irc).
 ### Examples
 ```bash
 #shows the status for a specific irc connection
-flexget irc status
+$ flexget irc status
 ```
