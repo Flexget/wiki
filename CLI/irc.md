@@ -1,18 +1,18 @@
-## `irc`
-View and manage irc connections
+## [CLI](/CLI) > `irc`
+View and manage [IRC connections](/Plugins/Daemon/irc).
 
 ### Actions
 | action | option | description |
 | --- | --- | --- |
-| `status` | Shows status for specific irc connection |
+| `status` || Shows status for a specific IRC connection |
 || *positional:* ||
-|| `irc_connection` | Title of the irc connection |
-| `restart` || Restart an irc connection |
+|| `<irc_connection>` | Title of the IRC connection |
+| `restart` || Restart an IRC connection |
 || *positional:* ||
-|| `irc_connection` | Title of the irc connection |
+|| `<irc_connection>` | Title of the IRC connection |
 | `stop` || Stops an irc connection |
 || *positional:* ||
-|| `irc_connection` | Title of the irc connection |
+|| `<irc_connection>` | Title of the IRC connection |
 
 
 ### Examples
@@ -20,7 +20,3 @@ View and manage irc connections
 #shows the status for a specific irc connection
 flexget irc status
 ```
-
-### Related articles
-* [CLI / Command line interface overview](/CLI)
-* [IRC plugin](/Plugins/Daemon/irc)
