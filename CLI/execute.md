@@ -13,5 +13,5 @@ Execute tasks now. If FlexGet is not running as a [daemon](/Daemon) or via [cron
 ### Examples
 ```bash
 #executes the "foo_task"
-flexget execute --tasks foo_task
+$ flexget execute --tasks foo_task
 ```
