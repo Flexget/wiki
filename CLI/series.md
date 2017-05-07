@@ -17,13 +17,13 @@ View and manipulate the series plugin database
 | `begin`|| set the episode to start getting a series from |
 || `<series name>` | The name of the series |
 || `episode_id` | Episode ID to start getting the series from (e.g. S02E01, 2013-12-11, or 9, depending on how the series is numbered)|
-| `forget`|| Removes episodes or whole series from the entire database (including `seen` plugin) |
+| `forget`|| Removes episodes, seasons, or a whole series from the entire database (including `seen` plugin) |
 || `<series name>` | The name of the series |
-|| `episode_id` | episode ID to forget (optional)| `flexget series forget "Show Name" S02E10`
-| `remove` || Removes episodes or whole series from the series database only |
+|| `episode_id`/`season_id` | episode or season ID(s) to forget (optional)| `flexget series forget "Show Name" S02E10`<br>`flexget series forget "Show Name" S02 S03 S03E01`
+| `remove` || Removes episodes, seasons, or a whole series from the series database only |
 || `<series name>` | The name of the series |
-|| `episode_id` | episode ID to forget (optional)|
-|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div> ||
+|| `episode_id`/`season_id` | episode or season ID(s) to forget (optional)||
+<div align="right">* supports [table-styles](/CLI/--table-styles)</div>
 
 ### Examples
 ```bash
@@ -38,5 +38,5 @@ flexget series forget FooSeries
 ```
 
 ### Related articles
-* [CUI / Command line interface overview](/CLI)
+* [CLI / Command line interface overview](/CLI)
 * [series Plugin](/Plugins/series)
