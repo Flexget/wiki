@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5d3fd5a94ed42a80e928764e0f6b3aa7d7def243--->
+<!---031665629bd476a94a22a34da6d1234a89dac711--->
 
-## 2.10.41.dev (unreleased)
+<!---44ea3aaaf310d096b04796a90c7cc2ffa4c21977--->
+
+## 2.10.41 (2017-05-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.40...2.10.41)
 ### Fixed
 - Change t411 domain name change from .ai to .al ([#1811](https://github.com/Flexget/Flexget/issues/1811))
 - `next_series_episodes`/`next_series_seasons` emitted the begin episode in error if there was a gap in series history
@@ -17,7 +20,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
   - forget multiple entities per `series forget` command
   - Trakt season pack lookup
 
-<!---d03b6861fc79de30b8d5b80c435271117a1bc4eb--->
 
 ## 2.10.40 (2017-04-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.39...2.10.40)
