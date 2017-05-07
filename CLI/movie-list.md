@@ -1,32 +1,27 @@
----
-import:
-  - TerminalTable
----
+## [CLI](/CLI) > `movie-list`
+View and manage [movie lists](/Plugins/List/movie_list).
 
-## `movie-list`
-View and manage movie lists
-
-### Actions
-| actions | option | description |
+### Sub-commands
+| Sub-command | Option | Description |
 | --- | --- | --- |
 | `all`* || Shows all existing movie lists |
 | `list`* || List movies from a list |
 || *positional:* ||
-|| `<list name>` | Name of the entry to operate on | 
+|| `<list_name>` | Name of the list to display | 
 | `add` || Add a movie to a list | 
-|| `list_name` | Name of the movie list to operate on | 
+|| `<list_name>` | Name of the list to add to | 
 || *positional:* ||
-|| `movie_title` | Title of the movie |
+|| `<movie_title>` | Title of the movie |
 || *optional:* ||  
-|| `-i <identifiers> [<identifiers> ...], --identifiers <identifiers> [<identifiers> ...]` | Can be a string or a list of string with the format `imdb_id=XXX`, `tmdb_id=XXX`, etc |
+|| `-i <identifiers> [<identifiers> ...]`, `--identifiers <identifiers> [<identifiers> ...]` | Can be a string or a list of string with the format `imdb_id=XXX`, `tmdb_id=XXX`, etc |
 | `del` || Remove a movie from a list using its title | 
 || *positional:* ||
-|| `list_name` | Name of the movie list to operate on | 
-|| `movie_title` | Title of the movie | 
-| `purge` || Removes an entire list with all of its movies. Use this with caution |
+|| `<list_name>` | Name of the list to delete from | 
+|| `<movie_title>` | Title of the movie | 
+| `purge` || Removes an entire list with all of its movies; use this with caution |
 || *positional:* ||
-|| `list_name` | Name of the movie list to operate on |
-|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div> ||
+|| `<list_name>` | Name of the list to remove |
+|||<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>|
 
 
 ### Examples
@@ -36,51 +31,42 @@ For detailed instruction about these CLI commands:
 $ flexget movie-list -h
 ```
 
-Movie list support CLI operations:
+Notes for all examples:
+- If a list name isn't specified, the list name `movies` will be used by default. This is true for all actions.
 
-### Return all movie lists names
+#### Return all movie lists names
 ```cmd
 $ flexget movie-list all
 ```
-{{>TerminalTable}}
 
-### List movies from movie lists
+#### List movies from movie lists
 ```cmd
-$ flexget movie-list list [LIST_NAME]
+$ flexget movie-list list <list_name>
 ```
 
-**Note:** If a list name isn't specified, list name `movies` will be used by default. This is true for all actions.
-<br>{{>TerminalTable}}
-
-### Add or Update a movie to or from a movie list
-Using a title is require. You can also add additional identifiers in the following format:
+### Add or update a movie on a movie list
+Using a title is required. You can also add additional identifiers in the following format:
 
 ```cmd
-$ flexget movie-list add [LIST_NAME] <MOVIE_TITLE> -i imdb_id=tt1234556 tmdb_id=1234
+$ flexget movie-list add <list_name> <move_title> -i imdb_id=tt1234556 tmdb_id=1234
 ```
 
-Movie identifiers should correlate the list mentioned at the top, or they'll be ignored.
+Movie identifiers should correlate to the list mentioned at the top, or they'll be ignored.
 
-If the specified movie list does not exist it will be created.
+If the specified movie list does not exist, it will be created.
 
-If the movie with the title exists on that list, its list of identifiers will be replaced by given list of identifiers (or removed if such a list was not given).
+If the movie with the title exists on that list, its _entire_ list of identifiers will be replaced by the given list of identifiers (or removed altogether if such a list was not given).
 
-Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallback to [TMDB](http://www.tmdb.com). If both lookups fail, the movie will not be added to the list.
+Movies will be looked up from [IMDB](http://www.imdb.com) on add, with a fallback to [TMDB](http://www.tmdb.com). If both of these lookups fail, the movie will not be added to the list.
 
 If a movie is added with identifiers, those will take precedence in the lookup before using its title.
 
-### Removing a movie from movie list
-```cmd
-$ flexget movie-list del [LIST_NAME] <MOVIE_TITLE>
+#### Removing a movie from movie list
+```bash
+$ flexget movie-list del <list_name> <movie_title>
 ```
 
-### Clearing an entire movie list
+#### Clearing an entire movie list
 ```cmd
-$ flexget movie-list purge <LIST_NAME>
+$ flexget movie-list purge <list_name>
 ```
-
-
-
-### Related articles
-* [CUI / Command line interface overview](/CLI)
-* [movie_list plugin](/Plugins/List/movie_list)
