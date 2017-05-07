@@ -12,8 +12,8 @@ View or clear entries from the [`backlog` plugin](/Plugins/backlog).
 ### Examples
 ```bash
 #lists entries from the backlog of task "foo_task"
-flexget backlog list foo_task
+$ flexget backlog list foo_task
 
 #lists entries from the backlog of task "foo_task" with porcelain table type
-flexget backlog --porcelain list foo_task
+$ flexget backlog --porcelain list foo_task
 ```
