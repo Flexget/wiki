@@ -1,8 +1,8 @@
-## Table / list styles
-Pretty much all lists in the FlexGet CLI support the following options / arguments for styling.
+## [CLI](/CLI) > Table / list styles
+Nearly all lists in the FlexGet [CLI](/CLI) support the following arguments for styling.
 
 ### Arguments
-| argument | description |
+| Argument | Description |
 | --- | --- |
 | `--table-type {plain,porcelain,github,single,double}` | Select output table style |
   `--porcelain` | Make the output parseable. Similar to using `--table-type porcelain` |
