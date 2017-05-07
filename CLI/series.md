@@ -28,11 +28,14 @@ View and manage the [`series` plugin](/Plugins/series) database.
 ### Examples
 ```bash
 #lists a summary of the different series being tracked
-flexget series list
+$ flexget series list
+
 #sets the series "FooSeries" to start with episode one of season 6
-flexget series begin FooSeries S06E01
+$ flexget series begin FooSeries S06E01
+
 #shows all releases for the show FooSeries
-flexget series show FooSeries
+$ flexget series show FooSeries
+
 #deletes the whole show FooSeries even from seen plugin
-flexget series forget FooSeries
+$ flexget series forget FooSeries
 ```
