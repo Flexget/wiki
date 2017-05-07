@@ -1,7 +1,9 @@
 # Plugins
 Plugins provide most of the functionality in FlexGet. Plugins usually create, manipulate or download **[entries](/Entry)** but they can also change how FlexGet operates. Many plugins can use the **[Jinja2 ](/Jinja)** template system.
 
-Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the FlexGet package (with the exception of the third-party plugins section). This documentation is meant for latest released version.
+Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the FlexGet package (with the exception of the third-party plugins section). 
+
+This documentation is meant for the latest released version. If you are upgrading from an older version, see [upgrade actions] for help in migrating your configuration file.
 
 ## Indentation in examples
 All configuration examples are assumed to be placed under a task (or template.) So if documentation has this example:
@@ -22,6 +24,8 @@ tasks:
 ```
 
 This makes examples more compact and reduces unnecessary boilerplate.
+
+For further help with YAML and indenting, see [configuration](/Configuration)
 
 
 ## Inputs
