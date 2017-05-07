@@ -1,19 +1,21 @@
-## `plugins`
-Print registered plugin summaries
+---
+import:
+  - TableStylesDiv
+---
+
+## [CLI](/CLI) > `plugins`
+Print summaries for registered [plugins](/Plugins).
 
 ### Optional arguments
-| argument | description |
+| Argument | Description |
 | --- | --- |
-||supports [table-styles](/CLI/--table-styles)|
-| `--group GROUP` | Show plugins belonging to this group |
-| `--phase PHASE` | Show plugins that act on this phase |
-| `--builtins` | Show just builtin plugins |
+| `--group <group>`* | Show plugins belonging to specify `<group>` |
+| `--phase <phase>`* | Show plugins that act on specified `<phase>` |
+| `--builtins`* | Show only [builtin](/Builtin) plugins |
+||{{> TableStylesDiv }}
 
 ### Examples
 ```bash
 #shows all builtin plugins
 flexget plugins --builtins
 ```
-
-### Related articles
-* [CUI / Command line interface overview](/CLI)
