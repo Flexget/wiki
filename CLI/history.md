@@ -1,4 +1,9 @@
-## [CLI](/CLI) > `history`
+---
+import:
+  - TableStylesDiv
+---
+
+## [CLI](/CLI) > `history`*
 View the history of entries that FlexGet has accepted.
 
 ### Optional arguments
@@ -8,10 +13,10 @@ View the history of entries that FlexGet has accepted.
 | `--search <term>` | Limit to results that contain `<term>` |
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--short`, `-s` | Shorter output |
-||<div align="right">all support [table-styles](/CLI/--table-styles)|
+||{{> TableStylesDiv }}|
 
 ### Examples
 ```bash
 #displays the accepted history in porcelain table format
-flexget history --porcelain
+$ flexget history --porcelain
 ```
