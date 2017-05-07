@@ -1,21 +1,16 @@
-## `jinja-filters`
-View and manage avaialble [Jinja](/Jinja) filters
+## [CLI](/CLI) > `jinja-filters`
+View available [Jinja](/Jinja) filters and their descriptions.
 
-### Actions
-| action | option | description |
-| --- | --- | --- |
-|| *positional:* ||
-|| `name` | Filter by jinja filter name |
+### Optional arguments
+| Argument | Description |
+| --- | --- |
+| `--name <name>` | Filter by jinja filter name |
 
 
 ### Examples
 ```bash
 # Displays all filters
 flexget jinja-filters
-# Filter by jinja-filter name
-flexget jinja-filters --name abs
+# Filter by jinja filter name
+flexget jinja-filters --name re_replace
 ```
-
-### Related articles
-* [CLI / Command line interface overview](/CLI)
-* [Jinja](/Jinja)
