@@ -11,7 +11,7 @@ symlink:
 
 
 ### Watchlist directory
-Use your collection to create a symlinked imdb watchlist directory. Removals are not dealth with.
+Use your collection to create a symlinked imdb watchlist directory. Removals are not dealt with.
 
 ```yaml
 link-watchlist-movies:
@@ -25,8 +25,8 @@ link-watchlist-movies:
     from:
       - imdb_list:
           list: watchlist
-          login: '\{{ secrets.imdb.login }}'
-          password: '\{{ secrets.imdb.pwd }}'
+          login: '{? imdb.login ?}'
+          password: '{? imdb.pwd ?}'
     fields:
       - imdb_id
     action: accept
