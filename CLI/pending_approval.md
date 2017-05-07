@@ -11,15 +11,15 @@ View and manage entries [pending approval](/Plugins/pending_approval).
 | --- | --- | --- |
 | `list`* | List pending entries |
 || *optional:* ||
-|| `--task-name <task_name>` | Filter by task name |
+|| `--task-name <task_name>` | Filter by `<task_name>` |
 || `--approved` | Show only approved entires|
 || `--pending` | Show only pending entires|
 | `approve` || Approve pending entries |
 || *positional:* ||
-|| `selection (entry_id|all)` | Approve one pending entry by ID, or all pending entries |
+|| `selection (<entry_id>|all)` | Approve one pending entry by ID, or all pending entries |
 | `reject` || Reject pending entries |
 || *positional:* ||
-|| `selection (entry_id|all)` | Reject one pending entry by ID, or all pending entries |
+|| `selection (<entry_id>|all)` | Reject one pending entry by ID, or all pending entries |
 | `clear` | Clear all unapproved pending entries |
 || *optional:* ||
 || `--task-name <task_name>` | Filter by task name ||
@@ -28,8 +28,8 @@ View and manage entries [pending approval](/Plugins/pending_approval).
 ### Examples
 ```bash
 # List all pending entries
-flexget pending list
+$ flexget pending list
 
 # Approve all pending entries
-flexget pending approve all
+$ flexget pending approve all
 ```
