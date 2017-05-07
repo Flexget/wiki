@@ -1,24 +1,29 @@
-## `regexp-list`
-View and manage regexp lists
+---
+import:
+  - TableStylesDiv
+---
 
-### Actions
-| actions | option | description |
+## [CLI](/CLI) > `regexp-list`
+View and manage [regexp lists](/Plugins/List/regexp_list).
+
+### Sub-commands
+| Sub-command | option | description |
 | --- | --- | --- |
 | `all`* || Shows all existing regexp lists |
-| `list`* || List regexp from a list |
+| `list`* || List regexps from a list |
 || *positional:* ||
-|| `list_name` | Name of the entry to operate on | 
+|| `<list_name>` | Name of the list to display | 
 | `add` || Add a regexp to a list | 
-|| `list_name` | Name of the regexp list to operate on | 
-|| `regexp` | The regexp |
-| `del` || Remove a movie from a list using its title | 
+|| `<list_name>` | Name of the list to add to | 
+|| `<regexp>` | The regexp to add |
+| `del` || Remove a regexp from a list | 
 || *positional:* ||
-|| `list_name` | Name of the movie list to operate on | 
-|| `regexp` | The regexp |
-| `purge` || Removes an entire list. Use this with caution |
+|| `<list_name>` | Name of the list to remove from | 
+|| `<regexp>` | The regexp to remove |
+| `purge` || Removes an entire list; use this with caution |
 || *positional:* ||
-|| `list_name` | Name of the movie list to operate on |
-|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div> ||
+|| `<list_name>` | Name of the regexp list to remove |
+|||{{> TableStylesDiv }}|
 
 
 ### Examples
@@ -26,7 +31,3 @@ View and manage regexp lists
 #lists all existing regexp lists
 flexget regexp-list all
 ```
-
-### Related articles
-* [CUI / Command line interface overview](/CLI)
-* [regexp_list Plugin](/Plugins/List/regexp_list)
