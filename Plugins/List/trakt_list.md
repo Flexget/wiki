@@ -18,7 +18,7 @@ Trakt removes shows from watchlist if you watch them, so **do not** use watchlis
 
 <div class="alert alert-info" role="alert">
 
-Please see [trakt](/Plugins/trakt) on how to authorize FlexGet to access your Trakt.tv account.
+Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize FlexGet to access your Trakt.tv account.
 </div>
 
 **Notes:** 
