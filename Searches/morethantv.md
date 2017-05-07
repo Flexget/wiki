@@ -33,8 +33,8 @@ discover:
     - emit_series: yes
   from:
     - mtv:
-        username: '{{ secrets.mtv.username }}'
-        password: '{{ secrets.mtv.password }}'
+        username: '{? mtv.username ?}'
+        password: '{? mtv.password ?}'
         category:
           - TV
         all_tags: yes
