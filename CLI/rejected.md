@@ -1,18 +1,20 @@
-## `rejected`
-list or clear remembered rejections
+---
+import:
+  - TableStylesDiv
+---
 
-### Actions
-| action | description |
+## [CLI](/CLI) > `rejected`
+List or clear [remembered rejections](/Plugins/remember_rejected).
+
+### Sub-commands
+| Sub-command | description |
 | --- | --- |
-| `list`* | list all the entries that have been rejected |
-| `clear` | clear all rejected entries from database, so they can be retried |
-|<div align="right">\* supports [table-styles](/CLI/--table-styles)</div>
+| `list`* | List all entries that have been rejected |
+| `clear` | Clear all rejected entries from the database so they can be retried |
+||{{> TableStylesDiv }}|
 
 ### Examples
 ```bash
 #lists all rejected entries
 flexget rejected list
 ```
-
-### Related articles
-* [CUI / Command line interface overview](/CLI)
