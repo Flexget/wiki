@@ -1,21 +1,17 @@
-## `history`
-View the history of entries that FlexGet has accepted
+## [CLI](/CLI) > `history`
+View the history of entries that FlexGet has accepted.
 
 ### Optional arguments
-| argument | description |
+| Argument | Description |
 | --- | --- |
-||supports [table-styles](/CLI/--table-styles)|
-| `--limit NUM` | limit to NUM results |
-| `--search TERM` | Limit to results that contain TERM |
-| `--task TASK` | Limit to results in specified TASK |
-| `--short, -s` | Shorter output |
-
+| `--limit <num>` | Limit to `<num>` results |
+| `--search <term>` | Limit to results that contain `<term>` |
+| `--task <task>` | Limit to results in specified `<task>` |
+| `--short`, `-s` | Shorter output |
+||<div align="right">all support [table-styles](/CLI/--table-styles)|
 
 ### Examples
 ```bash
 #displays the accepted history in porcelain table format
 flexget history --porcelain
 ```
-
-### Related articles
-* [CUI / Command line interface overview](/CLI)
