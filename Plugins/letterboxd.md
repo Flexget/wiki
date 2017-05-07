@@ -61,7 +61,7 @@ tasks:
     movie_queue: add
 ```
 
-When dealing with large lists, it may be worthwhile to feed entries to an intermediary plugin such as [trakt_add](/trakt_add). There is [no publicly available API for Letterboxd](http://letterboxd.com/api-coming-soon/) as of yet, so the plugin works by combing through the HTML source code for each film's page on the site. This isn't particularly fast if you want to, say, use [crossmatch](/crossmatch) to reject films you've marked as seen on Letterboxd. In that case, you could have your config set up like this:
+When dealing with large lists, it may be worthwhile to feed entries to an intermediary plugin such as [`trakt_list`](/Plugins/List/trakt_list) with [`list_add`](Plugins/List/list_add). There is no publicly available [API for Letterboxd](http://letterboxd.com/api-coming-soon/) as of yet, so the plugin works by combing through the HTML source code for each film's page on the site. This isn't particularly fast if you want to, say, use [crossmatch](/crossmatch) to reject films you've marked as seen on Letterboxd. In that case, you could have your config set up like this:
 
 ```
 tasks:
