@@ -1,6 +1,9 @@
 ## [CLI](/CLI) > [`daemon`](/Daemon)<a name="daemon"></a>
 Run FlexGet continuously, executing tasks according to [schedules](/Plugins/Daemon/scheduler) defined in the [config file](/Configuration).
 
+### Notes
+Further information is available about [daemon operation](/Daemon).
+
 ### Sub-commands
 | Sub-command | Option | Description |
 | --- | --- | --- |
@@ -15,14 +18,14 @@ Run FlexGet continuously, executing tasks according to [schedules](/Plugins/Daem
 ### examples
 ```bash
 #starts the FlexGet daemon
-flexget daemon start
-#starts the FlexGet daemon and daemonizes the process
-flexget daemon start -d
-#stops the FlexGet daemon
-flexget daemon stop
-#stops the FlexGet daemon but waits for all tasks to finish
-flexget daemon stop --wait
-```
+$ flexget daemon start
 
-### Related articles
-* [`daemon` information](/Daemon)
+#starts the FlexGet daemon and daemonizes the process
+$ flexget daemon start -d
+
+#stops the FlexGet daemon
+$ flexget daemon stop
+
+#stops the FlexGet daemon but waits for all tasks to finish
+$ flexget daemon stop --wait
+```
