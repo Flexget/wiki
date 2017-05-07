@@ -45,7 +45,7 @@ Clicking on the commands will take you to a page with more information about it.
 | [`series`](/CLI/series) | View and manipulate the [`series` plugin](/Plugins/series) database | 
 | [`status`](/CLI/status) | View task health status |
 | [`t4ll`](/CLI/t411) | View and manipulate the Torrent411 plugin database
-| [`trakt`](/CLI/trakt) | View and manage [Trakt](/Plugins/trakt) authentication |
+| [`trakt`](/CLI/trakt) | View and manage [Trakt authentication](/Trakt_Authentication) |
 | [`web`](/CLI/web) | Manage [web server](/Web-UI) settings |
 
 ## FlexGet-level arguments
