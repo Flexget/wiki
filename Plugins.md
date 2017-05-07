@@ -25,7 +25,7 @@ tasks:
 
 This makes examples more compact and reduces unnecessary boilerplate.
 
-For further help with YAML and indenting, see [configuration](/Configuration)
+For further help with YAML and indenting, see [configuration](/Configuration).
 
 
 ## Inputs
