@@ -1,9 +1,12 @@
+# Trakt Add 
 <div class="alert alert-danger" role="alert">Deprecated and removed!
 </div>
 
-Please see [trakt_list](/Plugins/List/trakt_list) for replacement.
+This plugin has been replaced with [`list_add`](/Plugins/List/list_add) and [`trakt_list`](/Plugins/List/trakt_list).
 
-# Trakt Add
+The below information is stored for archival purposes and cannot be used with FlexGet versions past 2.1.0.
+
+## Archived information
 
 **IMPORTANT:**
 
