@@ -1,21 +1,21 @@
-## `web`
+## [CLI](/CLI) > `web`
 Manage web server settings
 
 ### Positional arguments
-| argument | option | description |
+| Argument | Option | Description |
 | --- | --- | --- |
-| `passwd` | change password for web server |
+| `passwd` || change password for web server |
 || `<new password>` | New password |
-| `gentoken` | Generate a new api token |
-| `showtoken` | Show api token |
+| `gentoken` || Generate a new api token |
+| `showtoken` || Show api token |
 
 ### Examples
 ```bash
-#shows the flexget web server API token
+#shows the FlexGet web server API token
 flexget web showtoken
 #changes the password to foopass
 flexget web passwd foopass
 ```
 
 ### Related articles
-* [CUI / Command line interface overview](/CLI)
+* [CLI / Command line interface overview](/CLI)
