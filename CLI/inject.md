@@ -14,11 +14,11 @@ Alternatively, you can use the [`execute` command](/CLI/execute) with the `--inj
 ### Arguments
 | Argument | Description |
 | --- | --- |
-| `title/url` | title or url of the entry to inject |
-| `url` | url of the entry to inject |
-| `--force` | prevent any plugins from rejecting this entry |
-| `--accept` | accept this entry immediately upon injection
-| `--fields NAME=VALUE [NAME=VALUE ...]` | |
+| `<title>` | Title of the entry to inject |
+| `<url>` | Url of the entry to inject |
+| `--force` | Prevent any plugins from rejecting this entry |
+| `--accept` | Accept this entry immediately upon injection
+| `--fields <entry_field=value> [<entry_field=value> ...]` | Populate additional fields in the entry |
 
 ### Arguments to execute task(s)
 If only a URL and no title is given, Flexget will attempt to find a title in the URL's response headers.
@@ -27,11 +27,11 @@ If only a URL and no title is given, Flexget will attempt to find a title in the
 ### Examples
 ```bash
 #Example, passing both title and URL (for example if the remote server doesn’t return a filename in its response headers)
-flexget inject "your.tv.show.s01e01.720p.web-dl.mkv" "http://example.com/torrents.php?id=33"
+$ flexget inject "your.tv.show.s01e01.720p.web-dl.mkv" "http://example.com/torrents.php?id=33"
 
 #Example, passing only a URL (will fail if no title can be determined)
-flexget inject "http://example.com/torrents.php?id=33"
+$ flexget inject "http://example.com/torrents.php?id=33"
 
 #Arguments for the execute command can be appended, for example to tell a particular task to run with the injected entry
-flexget --test inject "http://example.com/your.tv.show.s01e01.torrent" --tasks yourtask --dump
+$ flexget --test inject "http://example.com/your.tv.show.s01e01.torrent" --tasks yourtask --dump
 ```
