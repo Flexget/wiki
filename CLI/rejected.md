@@ -16,5 +16,5 @@ List or clear [remembered rejections](/Plugins/remember_rejected).
 ### Examples
 ```bash
 #lists all rejected entries
-flexget rejected list
+$ flexget rejected list
 ```
