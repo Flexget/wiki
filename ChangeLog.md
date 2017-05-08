@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6e6290fb76f89bc2edfd8915a2296bb393983489--->
+<!---5b62799dd45123ed648e377c19de6575bf57e0d5--->
+
+## 2.10.43.dev (unreleased)
+### Fixed
+- include - Include plugin now correctly reload and trigger config change when needed. Closed [#1733](https://github.com/Flexget/Flexget/issues/1733)
 
 <!---9d9816bd032650547d35bcba9b1b28f529c0f5eb--->
 
