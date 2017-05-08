@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d62f415360bfc2ce1a8e62257149e09122e46f93--->
+<!---6e6290fb76f89bc2edfd8915a2296bb393983489--->
 
-## 2.10.42.dev (unreleased)
+<!---9d9816bd032650547d35bcba9b1b28f529c0f5eb--->
+
+## 2.10.42 (2017-05-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.41...2.10.42)
 ### Fixed
 - IPTorrents - Fix plugin due to new layout. Closes [#1812](https://github.com/Flexget/Flexget/issues/1812)
 
-<!---44ea3aaaf310d096b04796a90c7cc2ffa4c21977--->
 
 ## 2.10.41 (2017-05-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.40...2.10.41)
