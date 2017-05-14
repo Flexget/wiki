@@ -5,9 +5,10 @@ import:
 
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > Python and pip
 
-<div class="alert alert-warning" role="alert">
-
-The instructions in this step assume you have just installed Homebrew as detailed on the [previous page](/InstallWizard/OSX). There are also instructions [for other methods](/InstallWizard/OSX/OtherMethods) of installing Python, pip, and Flexget.</div>
+<div class="alert alert-info" role="alert">
+<span class="glyphicon glyphicon-info-sign"></span>
+&nbsp;The instructions in this step assume you have just installed Homebrew as detailed on the <a href="/InstallWizard/OSX">previous page</a>. There are also instructions available <a href="/InstallWizard/OSX/OtherMethods">for other methods</a> of installing Python, pip, and Flexget.
+</div>
 
 ## Python and pip
 Next you will need to install Python and pip. These versions of Python are currently supported:
