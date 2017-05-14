@@ -1,4 +1,4 @@
-# Install on Windows
+# [Install Wizard](/InstallWizard) > [Windows](/InstallWizard/Windows) > FlexGet
 <div class="alert alert-warning" role="alert">
 
 If you do not have the Python scripts directory in your [PATH](http://en.wikipedia.org/wiki/Environment_variable#System_path_variables) you will 
