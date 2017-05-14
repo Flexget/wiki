@@ -5,9 +5,11 @@ import:
 
 # [Install Wizard](/InstallWizard) > OSX
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning clearfix" role="alert">
+<div class="pull-left"><span class="glyphicon glyphicon-exclamation-sign"></span></div>
+<div class="pull-right" style="display: inline-block;">macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. The easiest and safest way is to install a separate copy of Python for use with FlexGet.</div>
+</div>
 
-macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. The easiest and safest way is to install a separate copy of Python for use with FlexGet.</div>
 
 ## Homebrew
 On macOS 10.10 or higher, the easiest way to install Python, pip, and FlexGet is using [Homebrew](https://brew.sh/), also known as simply Brew. (This may work on prior versions of macOS, but Homebrew is not officially supported prior to 10.10.)
