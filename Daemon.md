@@ -24,8 +24,8 @@ flexget daemon reload-config
 ```
 
 #### Mac OS X note regarding `-d`
-Due to an apparent bug in current versions, the `-d` command may [ticket:2427 cause Flexget to start but quit immediately on Mac OS X]. There are two work-arounds while the issue is looked into:
-1. You can run the command, replacing `-d` with `&`. See [comment:7:ticket:2427 this comment] in the bug thread for details.
+Due to an apparent bug in current versions, the `-d` command may cause Flexget to start but quit immediately on Mac OSX. There are two work-arounds while the issue is looked into:
+1. You can run the command, replacing `-d` with `&`.
 2. Use the app bundle [found here](https://github.com/tubedogg/FlexgetDaemon) to launch the daemon. Instructions can be found at that link as well. **This app bundle was not created, and is not maintained, by Flexget** and questions or issues regarding the app bundle should be directed to [the issues page](https://github.com/tubedogg/FlexgetDaemon/issues) there.
 3. Launch the daemon at login using a Launch Agent (see [here](/Daemon/Startup#AsanOSXLaunchAgent)). This enables the daemon to be run in the background without the `-d` option and without an open Terminal window.
 
