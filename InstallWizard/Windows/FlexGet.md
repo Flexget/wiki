@@ -1,29 +1,29 @@
 # Install on Windows
-<div class="alert alert-info" role="alert">
+<div class="alert alert-warning" role="alert">
 
-If you do not have python scripts directory in your [PATH](http://en.wikipedia.org/wiki/Environment_variable#System_path_variables) you will 
-need to use full path for commands 
-`pip` and `flexget`. Otherwise you will just get command not found complaint.
+If you do not have the Python scripts directory in your [PATH](http://en.wikipedia.org/wiki/Environment_variable#System_path_variables) you will 
+need to use the full path for commands 
+`pip` and `flexget`. Otherwise you will get a "command not found" error. Find instructions on the previous page for [modifying your PATH](/InstallWizard/Windows#verify-python-is-in-your-path) to make your life easier!
 </div>
 
 ### Install
 
-Go to `Start Menu` &rarr; `Accessories` &rarr; `Command Prompt` and run it as administrator.
+Run this program as an administrator: `Start Menu` &rarr; `Accessories` &rarr; `Command Prompt`.
 
-Type this command in the command prompt. 
+Type this command in the command prompt:
 ```cmd
 pip install flexget
 ```
 
-This will install FlexGet and all additional components it requires.
+This will install FlexGet and all of the additional components it requires.
 
 ### Verify installation
-Run command on prompt (cmd):
+Run this command in the command prompt:
 
 ```cmd
 flexget -V
 ```
-This should verbose the installed version.
+This should output the installed version.
 
 ## Continue
 [Scheduling](/InstallWizard/Windows/FlexGet/Scheduling)
