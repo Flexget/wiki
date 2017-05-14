@@ -1,1 +1,6 @@
-[[Include(wiki:InstallWizard/Partial/Crontab)]]
+---
+import:
+ - InstallWizard/Partial/Crontab
+---
+# Scheduling
+{{> InstallWizard/Partial/Crontab }}
