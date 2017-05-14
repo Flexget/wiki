@@ -1,5 +1,8 @@
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > Autorun
 
+## Configure
+Follow the [configuration tutorial](/Configuration) and make a basic configuration file as a starting point. You'll need it before setting up the daemon to run at startup.
+
 ## Autorun
 There are two options for launching FlexGet as a daemon at startup. You can use the macOS launcher package, or setup a launch agent.
 
