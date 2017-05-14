@@ -3,7 +3,7 @@ import:
   - FlexgetCurrentPythonRequirements
 ---
 
-# Installing FlexGet on Windows
+# [Install Wizard](/InstallWizard) > Windows
 
 <div class="alert alert-warning" role="alert">
 
