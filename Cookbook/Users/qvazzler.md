@@ -222,12 +222,12 @@ URL=$2
 declare -A daemons
 
 # How the command is being executed from irc daemon
-#./notify_daemons.sh "MovieName 2016 BDRip 720p X265 ReleaseGroupName" "https://www.iptorrents.com/download.php/1844170/Zootopia%202016%20BDRip%20720p%20X265%20Ac3-GANJAMAN.torrent?torrent_pass=bfed75f2199342d5a74f6a129e1f7a82" "http://192.168.1.100:3540"
+#./notify_daemons.sh "MovieName 2016 BDRip 720p X265 ReleaseGroupName" "https://www.iptorrents.com/download.php/123/file.torrent" "http://192.168.1.100:3540"
 
 #the tokens below are faked. Put in the real ones yourself (and the correct ip/port of course)
-#daemons["http://192.168.1.100:3541"]="an_example_token_eawdwad22235814c2458434ffdcb7cdce47d8a1678e5453dd8be9f" #user 1, inactive
-daemons["http://192.168.1.100:3542"]="b915c3eb0b5800f424320e5cc82b03edc5a5b5850aczzzzzzzzzzzzc" #user 2
-daemons["http://192.168.1.100:3543"]="fwaff67dbczczczwczwcwdwdwddwwdwdwqqqrrrrrrrde22696b376a1" #user 3
+#daemons["http://192.168.1.100:3541"]="token_here" #user 1, inactive
+daemons["http://192.168.1.100:3542"]="another_token...b915c3eb0b5800f424320e5cc82b03edc5a5b5850aczzzzzzzzzzzzc" #user 2
+daemons["http://192.168.1.100:3543"]="another...fwaff67dbczczczwczwcwdwdwddwwdwdwqqqrrrrrrrde22696b376a1" #user 3
 
 # If specific hostname was supplied, proceed to only notify that host
 if [ $# -eq 3 ]; then
