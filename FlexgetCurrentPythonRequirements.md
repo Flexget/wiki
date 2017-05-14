@@ -1,0 +1,3 @@
+- 2.7
+- 3.3 to 3.5
+- 3.6 may have issues and is not currently a supported version
