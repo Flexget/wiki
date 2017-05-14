@@ -34,6 +34,19 @@ python -V
 
 If anything happens other than displaying the version of Python that is installed, it's not in your PATH.
 
+If you used the installer from python.org, there should be an item on the Start Menu for Python. Right-clicking on it and choosing Properties will tell you where the actual program file is located (hint: if the directory contains "Start Menu", that's the Start Menu item and not the actual program). Generally it should be in a directory named `pythonXX` where `XX` is the version, like `27` for v2.7.
+
+You should also add the `scripts` subdirectory of your Python folder to your PATH.
+
+The directories will look something like a set of these, depending on your version of Windows and how Python was installed. It may also look totally different. The important thing is that you're adding the *full directory name* to your PATH, not just `Python35` or `Scripts`.
+```bash
+C:\Python35
+C:\Python35\Scripts
+
+C:\Users\<username>\AppData\Local\Programs\Python\Python35
+C:\Users\<username>\AppData\Local\Programs\Python\Python35\Scripts
+```
+
 [ComputerHope](https://www.computerhope.com/issues/ch000549.htm) has a good article on how to change your PATH. Note that you want to *add* to your path, *not replace it*, or other things on your system might stop working.
 
 ### Install/Upgrade pip
