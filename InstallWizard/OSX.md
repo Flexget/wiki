@@ -1,13 +1,14 @@
----
-import:
-  - FlexgetCurrentPythonRequirements
----
-
 # [Install Wizard](/InstallWizard) > OSX
 
-<div class="alert alert-warning clearfix" role="alert">
-<div class="pull-left"><span class="glyphicon glyphicon-exclamation-sign"></span></div>
-<div class="pull-right" style="display: inline-block;">macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. The easiest and safest way is to install a separate copy of Python for use with FlexGet.</div>
+<div class="container-fluid alert alert-warning">
+  <div class="row text-center">
+    <div class="col-sm-1 col-md-1 col-lg-1">
+      <span class="glyphicon glyphicon-exclamation-sign fa-2x"></span>
+    </div>
+    <div class="col-sm-11 col-md-11 col-lg-11 text-left">
+      macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. The easiest and safest way is to install a separate copy of Python for use with FlexGet.
+    </div>
+  </div>
 </div>
 
 
