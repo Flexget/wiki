@@ -1,7 +1,7 @@
 
 **Note:** Season pack support is now officially supported by FlexGet without any ugly hacks like I've previously shown below. I am now extending my configuration to include irc daemon usage, but season pack support is still in there.
 
-# Multi-config solution using the IRC daemon
+# Multi-config/user solution using the IRC daemon
 
 <div class="alert alert-danger" role="info">
   <span class="glyphicon glyphicon-info-sign"></span>
@@ -32,100 +32,130 @@ Basically you have one IRC Daemon config, along with other regular configs.
 
 Whenever a new torrent is announced in an IRC channel you're in, the irc daemon sends that torrent to the api of each of the regular user configs.
 
-## The Season Packs Config using Trakt.tv
+## The IRC Config
 ```
 variables: variables.yml
 schedules: no
 
+templates:
+  global:
+    disable: seen
+    accept_all: yes    
+
 irc:
-  irc_torrentleech_qvazzler:
-    tracker_file: '{? irc_tl_qvazzler.trackerfile ?}'
-    nickname: '{? irc_tl_qvazzler.nickname ?}'
-    nickserv_password: '{? irc_tl_qvazzler.nickserv_password ?}'
+  torrentleech:
+    tracker_file: '{? general.config_path ?}/{? torrentleech.trackerfile ?}'
+    nickname: '{? torrentleech.qvazzler.nickname ?}'
+    nickserv_password: '{? torrentleech.qvazzler.nickserv_password ?}'
     port: 7011
-    rsskey: '{? irc_tl_qvazzler.rsskey ?}'
-    #task: torrentleech_qvazzler
+    rsskey: '{? torrentleech.qvazzler.rsskey ?}'
     channels: ["#tlannounces"]
     task_re:
-      torrentleech_qvazzler:
+      torrentleech:
         - regexp: '(TV :: Episodes HD)|(Movies :: Bluray)|(Movies :: WEBRip)|(Movies :: BDRip)'
           field: irc_category
-
-  irc_iptorrents_qvazzler:
-    tracker_file: '{? irc_ipt_qvazzler.trackerfile ?}'
-    nickname: '{? irc_ipt_qvazzler.nickname ?}'
-    nickserv_password: '{? irc_ipt_qvazzler.nickserv_password ?}'
+  iptorrents:
+    tracker_file: '{? general.config_path ?}/{? iptorrents.trackerfile ?}'
+    nickname: '{? iptorrents.qvazzler.nickname ?}'
+    nickserv_password: '{? iptorrents.qvazzler.nickserv_password ?}'
     port: 6667
-    passkey: '{? irc_ipt_qvazzler.passkey ?}'
-    #task: iptorrents_qvazzler
+    passkey: '{? iptorrents.qvazzler.passkey ?}'
     channels: ["#ipt.announce"]
     task_re:
-      iptorrents_qvazzler:
+      iptorrents:
         - regexp: (TV\/x265)|(TV\/x264)|(TV\/Web-DL)|(Movie\/Web-DL)|(Movie\/HD\/Bluray)
           field: irc_category
-
-  irc_mtv_qvazzler:
-    tracker_file: '{? irc_mtv_qvazzler.trackerfile ?}'
-    nickname: '{? irc_mtv_qvazzler.nickname ?}'
-    nickserv_password: '{? irc_mtv_qvazzler.nickserv_password ?}'
-    torrent_pass: '{? irc_mtv_qvazzler.torrent_pass ?}'
+  morethantv:
+    tracker_file: '{? general.config_path ?}/{? morethantv.qvazzler.trackerfile ?}'
+    nickname: '{? morethantv.qvazzler.nickname ?}'
+    nickserv_password: '{? morethantv.qvazzler.nickserv_password ?}'
+    torrent_pass: '{? morethantv.qvazzler.torrent_pass ?}'
     port: 6667
-    task: morethantv_qvazzler
-    authkey: '{? irc_mtv_qvazzler.authkey ?}'
+    task: morethantv
+    authkey: '{? morethantv.qvazzler.authkey ?}'
     channels: ["#Announce"]
-
-  irc_sceneaccess_qvazzler:
-    tracker_file: '{? irc_sceneaccess.trackerfile ?}'
+  #sceneaccess:
+    #tracker_file: '{? general.config_path ?}/{? sceneaccess.trackerfile ?}'
+    #port: 6667
+    #nickname: '{? sceneaccess.moldrag.nickname ?}'
+    #nickserv_password: '{? sceneaccess.moldrag.nickserv_password ?}'
+    #authkey: '{? sceneaccess.moldrag.authkey ?}'
+    #channels: ["#announce"]
+    #task_re:
+      #sceneaccess:
+        #- regexp: (Movies\/DVD-R)|(Movies\/x264)|(TV\/HD-x264)|(TV\/SD-x264)
+          #field: irc_category
+  alpharatio:
+    tracker_file: '{? general.config_path ?}/{? alpharatio.trackerfile ?}'
     port: 6667
-    nickname: '{? irc_sceneaccess.nickname ?}'
-    nickserv_password: '{? irc_sceneaccess.nickserv_password ?}'
-    authkey: '{? irc_sceneaccess.authkey ?}'
-    channels: ["#announce"]
+    nickname: '{? alpharatio.qvazzler.nickname ?}'
+    invite_nickname: voyager
+    invite_message: 'enter {? alpharatio.qvazzler.irc_key ?}'
+    torrent_pass: '{? alpharatio.qvazzler.torrent_pass ?}'
+    authkey: '{? alpharatio.qvazzler.authkey ?}'
     task_re:
-      sceneaccess_qvazzler:
-        - regexp: (Movies\/DVD-R)|(Movies\/x264)|(TV\/HD-x264)|(TV\/SD-x264)
-          field: irc_category
+      alpharatio:
+        - regexp: (MovieHD)|(TvHD)|(TvDVDRip)
+          field: category
 
 tasks:
-  sceneaccess_qvazzler:
-    metainfo_series: yes
-    disable: seen
-    accept_all: yes
-    #if:
-    #  - irc_category in ['Movies/DVD-R', 'Movies/x264', 'TV/HD-x264', 'TV/SD-x264']: accept
+  sceneaccess:
     exec:
       on_output:
         for_accepted: 
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3543" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_moldrag_injections/{?title?}.log"
-          #- bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_sceneaccess.authkey, irc_sceneaccess.authkey_qvazzler)?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/scc_qvazzler_injections/{?title?}.log"
+          - >- 
+            bash
+            '{? general.config_path?}/{? general.notifyscript ?}'
+            "{?title?}"
+            "{?url?}"
+            "{?subscribers.moldrag.url?}"
+            >> "{? general.config_path ?}/logs/injections/{?task?}/{?title?}.log"
+          #- >-
+            #bash
+            #'{? general.config_path?}/{? general.notifyscript ?}'
+            #"{?title?}"
+            #"{?url|replace(sceneaccess.moldrag.authkey, sceneaccess.qvazzler.authkey)?}"
+            #"{?subscribers.qvazzler.url?}"
+            #>> "{? general.config_path ?}/logs/{?task?}/{?title?}.log"
 
-  torrentleech_qvazzler:
-    metainfo_series: yes
-    disable: seen
-    accept_all: yes
-    #if:
-    #  - "irc_category in ['TV :: Episodes HD', 'Movies :: Bluray', 'Movies :: WEBRip', 'Movies :: BDRip']": accept
+  torrentleech:
     exec:
       on_output:
         for_accepted: 
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_qvazzler_injections/{?title?}.log"
-          - bash '{? general.notifyscript ?}' "{?title?}" "{?url|replace(irc_tl_qvazzler.rsskey, irc_tl_ringwall.rsskey)?}" "http://192.168.1.100:3542" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/tl_ringwall_injections/{?title?}.log"
-  iptorrents_qvazzler:
-    metainfo_series: yes
-    disable: seen
-    accept_all: yes
-    #if:
-    #  - "irc_category in ['TV/x265', 'TV/x264', 'TV/Web-DL', 'Movie/Web-DL', 'Movie/HD/Bluray']": accept
+          - >-
+            bash
+            '{? general.config_path?}/{? general.notifyscript ?}'
+            "{?title?}"
+            "{?url?}"
+            "{?subscribers.qvazzler.url?}"
+            >> "{? general.config_path ?}/logs/{?task?}/{?title?}.log"
+          - >-
+            bash
+            '{? general.config_path?}/{? general.notifyscript ?}'
+            "{?title?}"
+            "{?url|replace(torrentleech.qvazzler.rsskey, torrentleech.Lorien.rsskey)?}"
+            "{?subscribers.ringwall.url?}"
+            >> "{? general.config_path ?}/logs/{?task?}/{?title?}.log"
+  iptorrents:
     exec:
       on_output:
-        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/ipt_qvazzler_injections/{?title?}.log"
-  morethantv_qvazzler:
-    metainfo_series: yes
-    disable: seen
-    accept_all: yes
+        for_accepted: >-
+          bash
+          '{? general.config_path?}/{? general.notifyscript ?}'
+          "{?title?}"
+          "{?url?}"
+          "{?subscribers.qvazzler.url?}"
+          >> "{? general.config_path ?}/logs/{?task?}/{?title?}.log"
+  morethantv:
     exec:
       on_output:
-        for_accepted: bash '{? general.notifyscript ?}' "{?title?}" "{?url?}" "http://192.168.1.100:3540" >> "/home/qvazzler/.config/flexget/irc_daemon/logs/mtv_qvazzler_injections/{?title?}.log"
+        for_accepted: >-
+          bash
+          '{? general.config_path?}/{? general.notifyscript ?}'
+          "{?title?}"
+          "{?url?}"
+          "{?subscribers.qvazzler.url?}"
+          >> "{? general.config_path ?}/logs/{?task?}/{?title?}.log"
 ```
 
 This config is accompanied by a `trackers` directory, that contains XML information about each of the trackers available through IRC. [Read about the IRC Daemon to find out more.](Plugins/Daemon/irc).
@@ -136,29 +166,42 @@ Just so you get the idea, it looks like this.
 
 ```
 general:
-  notifyscript: /some/path/to/notify_daemons.sh
+  config_path: '/home/flexget/.virtualenvs/irc_daemon'
+  notifyscript: 'notify_daemons.sh'
 
-irc_sceneaccess:
-  trackerfile: '/home/user/trackers/SceneAccess.tracker'
-  #trackerfile_test: /home/qvazzler/.config/flexget/irc_daemon/trackers/SceneAccess.temp.modified.tracker
-  authkey_qvazzler: x
-  #nickname: x-bot
-  #nickserv_password: x
-  authkey: x
-  nickname: x-bot
-  nickserv_password: x
+subscribers:
+  qvazzler:
+    url: 'http://api.myflexgetmachine.com:3540'
+  user2:
+    url: 'http://anotherhost:3541'
+  anotheruser:
+    url: 'http://127.0.0.1:3542'
+  fourthuser:
+    url: 'http://localhost:3543'
 
-irc_tl_qvazzler:
-  trackerfile: '/home/user/trackers/TorrentLeech.tracker'
-  rsskey: x
-  nickserv_password: x
-  nickname: x-bot
+alpharatio:
+  trackerfile: 'trackers/AlphaRatio.tracker'
+  qvazzler:
+    irc_key: x
+    authkey: x
+    torrent_pass: x
+    nickname: qvazzler-bot
+  moldrag:
+    irc_key: x
+    authkey: x
+    torrent_pass: x
+    nickname: moldrag-bot
 
-irc_tl_ringwall:
-  rsskey: abc
+sceneaccess:
+  trackerfile: 'trackers/SceneAccess.tracker'
+  qvazzler:
+    authkey: x
+    nickname: qvazzler-bot
+    nickserv_password: x
+  moldrag:
+    authkey: x
+    nickname: moldrag-bot
 
-irc_ipt_qvazzler:
-  trackerfile: '/home/user/trackers/IPTorrents.tracker'
 ```
 
 It can feel a bit daunting figuring out all the variables by yourself. The best way to get a good idea is to look inside the trackers file that you've gotten from the autodl community, what variables they surface in it. Also the reading the IRC rules in whatever place you're getting the trackers from is a good idea. (For example, appending -bot to your nick is required in many rules when you downloading stuff automatically)
