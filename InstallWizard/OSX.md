@@ -6,7 +6,7 @@
       <span class="glyphicon glyphicon-exclamation-sign fa-2x"></span>
     </div>
     <div class="col-sm-11 col-md-11 col-lg-11 text-left">
-      macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. The easiest and safest way is to install a separate copy of Python for use with FlexGet.
+      macOS (previously called OS X) ships with a version of Python installed, but it is usually not the latest version, and installing additional packages against the system version is not recommended. If you don't already have a separate Python installation, the easiest and safest way is to install a separate copy of Python for use with FlexGet.
     </div>
   </div>
 </div>
@@ -30,9 +30,9 @@ Once Homebrew has been installed, modify your PATH. Edit your `~/.profile` file:
 $ nano ~/.bash_profile
 ```
 
-Add this at the bottom by using your arrow keys to navigate.
+Add this at the bottom by using your arrow keys to navigate and pasting it on a new line.
 ```bash
-$ export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 ```
 
 Press Control+X which will prompt you to save (press Y then Enter) and exit.
