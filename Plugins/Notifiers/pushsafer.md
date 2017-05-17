@@ -1,4 +1,4 @@
-# *Pushsafer*
+# [Notifiers](/Plugins/Notifiers) > Pushsafer
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
@@ -55,16 +55,16 @@ notify:
 #### Example with Jinja2 tags
 ```yaml
 notify:
-  title: >
-    {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
-    {%else%}Download Started from task {{task}}
-    {%endif%}
-  message: >
-    {% if series_name is defined %}{{series_name}} - {{series_id}} - {{trakt_ep_name}} - {{quality|d('')}}
-    {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
-    {% else %}{{title}}
-    {% endif %}
   entries:
+    title: >
+      {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
+      {%else%}Download Started from task {{task}}
+      {%endif%}
+    message: >
+      {% if series_name is defined %}{{series_name}} - {{series_id}} - {{trakt_ep_name}} - {{quality|d('')}}
+      {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
+      {% else %}{{title}}
+      {% endif %}
     via:
       - pushsafer:
           private_key: '{? credentials.pushsafer.private_key ?}'
@@ -81,10 +81,10 @@ notify:
     via:
       - pushsafer:
           private_key: '{? credentials.pushsafer.private_key ?}'
-  message: |+
-    [b]word[/b] - display word in bold
-    [i]word[/i] - display word in italics
-    [u]word[/u] - display word underlined
-    [color=#FF0000>word[/color] - display word in red text (most colors and hex codes permitted)
-    [url=https://www.pushsafer.com]Pushsafer[/url] - display word as a tappable link to https://www.pushsafer.com/
+    message: |+
+      [b]word[/b] - display word in bold
+      [i]word[/i] - display word in italics
+      [u]word[/u] - display word underlined
+      [color=#FF0000>word[/color] - display word in red text (most colors and hex codes permitted)
+      [url=https://www.pushsafer.com]Pushsafer[/url] - display word as a tappable link to https://www.pushsafer.com/
 ```
