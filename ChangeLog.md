@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6b5c46238975eb63b36f43eb79002946a744fd68--->
+<!---8a7d359dfe922c3daba9014baeab912fdb3543ee--->
+
+## 2.10.47.dev (unreleased)
+### Fixed
+- series - Grammar, spellcheck for logging
 
 <!---268053b391ecbe9df5538b5d0692d54f3a9a07f3--->
 
