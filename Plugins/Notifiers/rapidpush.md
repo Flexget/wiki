@@ -1,4 +1,4 @@
-# *RapidPush*
+# [Notifiers](/Plugins/Notifiers) > RapidPush
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
