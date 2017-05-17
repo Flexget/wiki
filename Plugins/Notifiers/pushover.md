@@ -43,9 +43,9 @@ notify:
 #### More advanced version
 ```yaml
 notify:
-  title: Downloading {{series_name}}
-  message: Episode {{series_id}}
   entries:
+    title: Downloading {{series_name}}
+    message: Episode {{series_id}}
     via:
       - pushover:
           user_key: 
@@ -63,16 +63,16 @@ notify:
 #### Example with Jinja2 tags
 ```yaml
 notify:
-  title: >
-    {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
-    {%else%}Download Started from task {{task}}
-    {%endif%}
-  message: >
-    {% if series_name is defined %}{{series_name}} - {{series_id}} - {{trakt_ep_name}} - {{quality|d('')}}
-    {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
-    {% else %}{{title}}
-    {% endif %}
   entries:
+    title: >
+      {%if task in ["task_a","task_b"](/"task_a","task_b")%} New movie added to queue
+      {%else%}Download Started from task {{task}}
+      {%endif%}
+    message: >
+      {% if series_name is defined %}{{series_name}} - {{series_id}} - {{trakt_ep_name}} - {{quality|d('')}}
+      {% elif imdb_name is defined%}{{movie_name}} - {{quality}}
+      {% else %}{{title}}
+      {% endif %}
     via:
       - pushover:
           user_key: '{? credentials.pushover.user_key ?}'
@@ -93,10 +93,10 @@ notify:
       - pushover:
           user_key: '{? credentials.pushover.userkey ?}'
           html: yes
-  message: |+
-    <b>word</b> - display word in bold
-    <i>word</i> - display word in italics
-    <u>word</u> - display word underlined
-    <font color="blue">word</font> - display word in blue text (most colors and   hex codes permitted)
-    <a href="http://example.com/">word</a> - display word as a tappable link to http://example.com/
+    message: |+
+      <b>word</b> - display word in bold
+      <i>word</i> - display word in italics
+      <u>word</u> - display word underlined
+      <font color="blue">word</font> - display word in blue text (most colors and   hex codes permitted)
+      <a href="http://example.com/">word</a> - display word as a tappable link to http://example.com/
 ```
