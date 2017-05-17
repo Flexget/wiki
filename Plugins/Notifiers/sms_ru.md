@@ -12,8 +12,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
-|phone_number|text|Phone number to SMS. **Required**
-|password|text|Service password. **Required**
+|**phone_number**|text|Phone number to SMS. **Required**
+|**password**|text|Service password. **Required**
 
 #### Example:
 <div class="alert alert-warning" role="info">
