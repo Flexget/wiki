@@ -43,6 +43,8 @@ notify:
 #### More advanced version
 ```yaml
 notify:
+  title: Downloading {{series_name}}
+  message: Episode {{series_id}}
   entries:
     via:
       - pushover:
@@ -51,8 +53,6 @@ notify:
             - 0ydnaF3023jKadfkja9fjdkjaXfdfsaySGa
           api_key: nqC2fSOLCEyHHJcnusQtw4wqG2WbWf
           device: mobile
-          title: Downloading {{series_name}}
-          message: Episode {{series_id}}
           priority: 2
           url: http://server.example.com/path/to/downloader/ui
           sound: incoming
