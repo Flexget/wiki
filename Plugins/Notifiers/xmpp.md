@@ -1,4 +1,4 @@
-# *XMPP*
+# [Notifiers](/Plugins/Notifiers) > XMPP
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
@@ -21,9 +21,9 @@ pip install sleekxmpp
 
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
-|sender|email|Sender's JID. **Required**
-|password|text|Sender's password. **Required**
-|recipients|email|Recipients JID. Can also be a list. **Required**
+|**sender**|email|Sender's JID. **Required**
+|**password**|text|Sender's password. **Required**
+|**recipients**|email|Recipients JID. Can also be a list. **Required**
 
 <div class="alert alert-warning" role="info">
   
