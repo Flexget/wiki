@@ -1,4 +1,4 @@
-# *Email*
+# [Notifiers](/Plugins/Notifiers) > Email
 
 <div class="alert alert-success" role="info">
   
