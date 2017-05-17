@@ -1,4 +1,4 @@
-# *Telegram*
+# [Notifiers](/Plugins/Notifiers) > Telegram
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
