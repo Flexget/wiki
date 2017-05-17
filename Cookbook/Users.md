@@ -17,9 +17,10 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.9.3) YAML anchor examples, use Trakt.tv to manage shows and movies.
 * [malkavi](/Cookbook/Users/malkavi) (2.10.12.dev) Spanish Movies and series config.
 * [Systy](https://github.com/Fabien-G/Flexget_t411/tree/master) (v2.10.30) DL VOSTFR series (existing + Trakt) + VF movies (Imdb + Trakt) with Transmission on T411. Renaming / Email. French user
+* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v2.10.45) - A fork of jawilson below. (Trakt-Deluge-Slack-PMS on FreeBSD) 
+
 
 ## Untested 1.x Configs
-* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v1.2.519) - A fork of jawilson below. (Trakt-Deluge-Pushbullet-PMS on FreeBSD) 
 * [KnockiMov](/Cookbook/Users/KnockiMov) - Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 * [tubedogg](https://github.com/tubedogg/.flexget) (v1.2.48)
 * [Saboti](https://github.com/Saboti/.flexget) (1.2.269) pyload and OCH with trakt.tv Movies and Series integration.
