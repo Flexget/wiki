@@ -1,4 +1,4 @@
-# *Notify My Android*
+# [Notifiers](/Plugins/Notifiers) > Notify My Android
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
