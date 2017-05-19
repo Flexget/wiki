@@ -5,9 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.48.dev (unreleased)
 ### Fixed
-- *  next_series_seasons - Limit size of emit in one run
 - next_series_seasons - Limit size of emit in one run ([#1828](https://github.com/Flexget/Flexget/issues/1828))
-- *  next_series_seasons - Use latest download for rerun entry generation
 - next_series_seasons - Use latest download for rerun entry generation ([#1829](https://github.com/Flexget/Flexget/issues/1829))
 
 <!---e6d92f046f377636a172e8ccf23051b681d7fc94--->
@@ -20,12 +18,21 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.46 (2017-05-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.45...2.10.46)
+### Fixed
+- notify/Notifiers - In-file documentation brought up-to-date
 
 ## 2.10.45 (2017-05-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.44...2.10.45)
+### Fixed
+- next_series_seasons - Resolve issue preventing rerun
 
 ## 2.10.44 (2017-05-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.43...2.10.44)
+### Changed
+- next_series_seasons:
+  - Recognize "Season XX" as season pack
+  - Ensure that 4-digit seasons are recognized as such and not SSEE
+strings
 
 ## 2.10.43 (2017-05-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.42...2.10.43)
