@@ -28,6 +28,8 @@
 * [Remove and forget episodes by file extension](/Cookbook/Series/RemoveByExtension)
 * [Remove gaps in your series database by searching a folder for episodes you already downloaded](/Cookbook/Series/sync_series)
 * [Get notifications about aired episodes that were missed using Trakt lookup](/Cookbook/Series/monitor_episodes)
+* [Find duplicates and nuked series on filesystem](/Cookbook/Series/duplicates_and_nukes)
+
  
 ## Resources
 *Torrent feeds*
