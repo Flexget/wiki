@@ -1,4 +1,4 @@
-# GitHub Install
+# [Install Wizard](/InstallWizard) > GitHub Install
 ## Notes
 
  * Requires Python 2.7 or 3.3-3.5, virtualenv, and git client
