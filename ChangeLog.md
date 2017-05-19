@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6845b4c32433f66ee936dffb5debaddc707b6322--->
+<!---3afe32cb32943c48b770c9fd01fc486750041d33--->
+
+## 2.10.48.dev (unreleased)
+### Fixed
+- *  next_series_seasons - Limit size of emit in one run
+- next_series_seasons - Limit size of emit in one run ([#1828](https://github.com/Flexget/Flexget/issues/1828))
+- *  next_series_seasons - Use latest download for rerun entry generation
+- next_series_seasons - Use latest download for rerun entry generation ([#1829](https://github.com/Flexget/Flexget/issues/1829))
 
 <!---e6d92f046f377636a172e8ccf23051b681d7fc94--->
 
