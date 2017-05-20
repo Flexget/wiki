@@ -41,7 +41,7 @@ trakt_lookup:
 | trakt_series_air_time | Time the series ran/runs ex: `'21:00'`  |
 | trakt_series_air_day | Day the series ran/runs ex: `'Thursday'`  |
 | trakt_series_content_rating | Content rating ex: `TV-14`  |
-| trakt_series_genres | List of series genres ex: `'comedy, drama'`  |
+| trakt_genres | List of series genres ex: `'comedy, drama'`  |
 | trakt_series_network | Series network  |
 | imdb_url | IMDB url for linking  |
 | trakt_series_url | Trakt url for linking  |
