@@ -1,14 +1,20 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3afe32cb32943c48b770c9fd01fc486750041d33--->
+<!---ad6386e57a8f1cde223a15d920b243fd727b4dbf--->
 
-## 2.10.48.dev (unreleased)
+## 2.10.49.dev (unreleased)
+### Fixed
+- blu-ray.com: search params changed, updated accordingly, fixes [#1832](https://github.com/Flexget/Flexget/issues/1832)
+
+<!---c0447e6f1f6ad5c94f0f0800a444ffe9af863e38--->
+
+## 2.10.48 (2017-05-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.47...2.10.48)
 ### Fixed
 - next_series_seasons - Limit size of emit in one run ([#1828](https://github.com/Flexget/Flexget/issues/1828))
 - next_series_seasons - Use latest download for rerun entry generation ([#1829](https://github.com/Flexget/Flexget/issues/1829))
 
-<!---e6d92f046f377636a172e8ccf23051b681d7fc94--->
 
 ## 2.10.47 (2017-05-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.46...2.10.47)
