@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ad6386e57a8f1cde223a15d920b243fd727b4dbf--->
+<!---a929d4675022a27c4780c3be6c810cce77d91c3b--->
 
 ## 2.10.49.dev (unreleased)
 ### Fixed
 - blu-ray.com: search params changed, updated accordingly, fixes [#1832](https://github.com/Flexget/Flexget/issues/1832)
+
+### Added
+- *  sort_by - Option to ignore leading articles
+- sort_by - Option to ignore leading articles ([#1831](https://github.com/Flexget/Flexget/issues/1831))
 
 <!---c0447e6f1f6ad5c94f0f0800a444ffe9af863e38--->
 
