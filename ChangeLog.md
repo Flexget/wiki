@@ -8,7 +8,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - blu-ray.com: search params changed, updated accordingly, fixes [#1832](https://github.com/Flexget/Flexget/issues/1832)
 
 ### Added
-- *  sort_by - Option to ignore leading articles
 - sort_by - Option to ignore leading articles ([#1831](https://github.com/Flexget/Flexget/issues/1831))
 
 <!---c0447e6f1f6ad5c94f0f0800a444ffe9af863e38--->
