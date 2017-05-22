@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dde51d14f3b9d0ce38af6b8811bd1326cbabc530--->
+<!---b4a1dfa37a3023e6e35e7d159d8dcc0e6a139de3--->
+
+## 2.10.51.dev (unreleased)
+### Fixed
+- better exception handling of malformed torrents. Closes [#1821](https://github.com/Flexget/Flexget/issues/1821)
+- series CLI - series show now return shows in the correct order (ascending)
 
 <!---88860374ff91c0a5df255902d52cb0658e14501d--->
 
