@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8c546280f82c0103263dd056e6152f46786166a9--->
+<!---dde51d14f3b9d0ce38af6b8811bd1326cbabc530--->
 
-## 2.10.50.dev (unreleased)
+<!---88860374ff91c0a5df255902d52cb0658e14501d--->
+
+## 2.10.50 (2017-05-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.49...2.10.50)
 ### Fixed
 - series - Fixed a rare issue when episode does not have an identified_by field. Fixed [#1833](https://github.com/Flexget/Flexget/issues/1833). Approved by @cvium
 
-<!---84bb4ea3cba9b745d200b902d17503dcfe4f40e8--->
 
 ## 2.10.49 (2017-05-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.48...2.10.49)
