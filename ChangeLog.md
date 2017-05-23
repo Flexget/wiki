@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bef658522618f9e0e83ca0a833ffe2185a56062a--->
+<!---30c59b9f22ddce75b4cd624130b7b243e7d941ca--->
 
 ## 2.10.52.dev (unreleased)
 ### Fixed
 - subtitle_list: fixed a logging error
+
+### Changed
+- series CLI - Hide unseen episodes ([#1835](https://github.com/Flexget/Flexget/issues/1835))
 
 <!---0f862966ed39aad5d55ee77394e496084867acf8--->
 
