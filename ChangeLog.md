@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---30c59b9f22ddce75b4cd624130b7b243e7d941ca--->
+<!---f04a2e58b219c9f78e0419721f9c453e0129d00a--->
 
 ## 2.10.52.dev (unreleased)
 ### Fixed
+- rtorrent: use socket.sendall to ensure all data is sent
 - subtitle_list: fixed a logging error
 
 ### Changed
