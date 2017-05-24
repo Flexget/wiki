@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f04a2e58b219c9f78e0419721f9c453e0129d00a--->
+<!---da01bbdf59cddf1af48460c4cbd1465fcc22bca5--->
 
-## 2.10.52.dev (unreleased)
+<!---d71c032768b4fd343a7a3d783af5d6dc98416d53--->
+
+## 2.10.52 (2017-05-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.51...2.10.52)
 ### Fixed
 - rtorrent: use socket.sendall to ensure all data is sent
 - subtitle_list: fixed a logging error
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - series CLI - Hide unseen episodes ([#1835](https://github.com/Flexget/Flexget/issues/1835))
 
-<!---0f862966ed39aad5d55ee77394e496084867acf8--->
 
 ## 2.10.51 (2017-05-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.50...2.10.51)
