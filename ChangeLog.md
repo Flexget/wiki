@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---54e430319afaa7d09af873ebb757e770f9cfee90--->
+<!---d602c324b370f436110d4684344bdcfa86c9479a--->
+
+## 2.10.54.dev (unreleased)
+### Added
+- trakt_calendar: new plugin for pulling all or personal calendar from trakt.tv
 
 <!---d0b256152ea340568a6fa78d71be297b43c6a3dd--->
 
