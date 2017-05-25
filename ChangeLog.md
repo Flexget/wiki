@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a9326b92da8ce3240dae43848b625b052c3aa35e--->
+<!---54e430319afaa7d09af873ebb757e770f9cfee90--->
 
-## 2.10.53.dev (unreleased)
+<!---d0b256152ea340568a6fa78d71be297b43c6a3dd--->
+
+## 2.10.53 (2017-05-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.52...2.10.53)
 ### Fixed
 - iptorrents: now properly handles when no results are found
 
-<!---d71c032768b4fd343a7a3d783af5d6dc98416d53--->
 
 ## 2.10.52 (2017-05-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.51...2.10.52)
