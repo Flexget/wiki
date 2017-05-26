@@ -1,13 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d602c324b370f436110d4684344bdcfa86c9479a--->
+<!---d72a23ef61939e0977783e73de99ba8b64037523--->
 
-## 2.10.54.dev (unreleased)
+<!---f508f9b6d02379a0cdd4d42437b71f975445c8c4--->
+
+## 2.10.54 (2017-05-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.53...2.10.54)
 ### Added
+- *  series CLI - Sort option for series show
+- series CLI - --sort-by argument for series show ([#1836](https://github.com/Flexget/Flexget/issues/1836))
 - trakt_calendar - new plugin for pulling all or personal calendar from trakt.tv ([#1824](https://github.com/Flexget/Flexget/issues/1824))
 
-<!---d0b256152ea340568a6fa78d71be297b43c6a3dd--->
 
 ## 2.10.53 (2017-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.52...2.10.53)
