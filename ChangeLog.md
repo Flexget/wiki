@@ -5,21 +5,21 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.54.dev (unreleased)
 ### Added
-- trakt_calendar: new plugin for pulling all or personal calendar from trakt.tv
+- trakt_calendar - new plugin for pulling all or personal calendar from trakt.tv ([#1824](https://github.com/Flexget/Flexget/issues/1824))
 
 <!---d0b256152ea340568a6fa78d71be297b43c6a3dd--->
 
 ## 2.10.53 (2017-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.52...2.10.53)
 ### Fixed
-- iptorrents: now properly handles when no results are found
+- iptorrents - now properly handles when no results are found
 
 
 ## 2.10.52 (2017-05-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.51...2.10.52)
 ### Fixed
-- rtorrent: use socket.sendall to ensure all data is sent
-- subtitle_list: fixed a logging error
+- rtorrent - use socket.sendall to ensure all data is sent ([#1818](https://github.com/Flexget/Flexget/issues/1818))
+- subtitle_list - logging error
 
 ### Changed
 - series CLI - Hide unseen episodes ([#1835](https://github.com/Flexget/Flexget/issues/1835))
