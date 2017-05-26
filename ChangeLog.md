@@ -1,12 +1,10 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dba8b0b37dc87316c67c754e98c491c2c015b920--->
+<!---d602c324b370f436110d4684344bdcfa86c9479a--->
 
 ## 2.10.54.dev (unreleased)
 ### Added
-- *  series CLI - Sort option for series show
-- series CLI - --sort-by argument for series show ([#1836](https://github.com/Flexget/Flexget/issues/1836))
 - trakt_calendar: new plugin for pulling all or personal calendar from trakt.tv
 
 <!---d0b256152ea340568a6fa78d71be297b43c6a3dd--->
@@ -30,20 +28,20 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.10.51 (2017-05-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.50...2.10.51)
 ### Fixed
-- better exception handling of malformed torrents. Closes [#1821](https://github.com/Flexget/Flexget/issues/1821)
+- torrent - better exception handling of malformed torrents ([#1821](https://github.com/Flexget/Flexget/issues/1821))
 - series CLI - series show now return shows in the correct order (ascending)
 
 
 ## 2.10.50 (2017-05-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.49...2.10.50)
 ### Fixed
-- series - Fixed a rare issue when episode does not have an identified_by field. Fixed [#1833](https://github.com/Flexget/Flexget/issues/1833). Approved by @cvium
+- series - rare issue when episode does not have an identified_by field ([#1833](https://github.com/Flexget/Flexget/issues/1833))
 
 
 ## 2.10.49 (2017-05-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.48...2.10.49)
 ### Fixed
-- blu-ray.com: search params changed, updated accordingly, fixes [#1832](https://github.com/Flexget/Flexget/issues/1832)
+- blu-ray.com: search params changed, updated accordingly ([#1832](https://github.com/Flexget/Flexget/issues/1832))
 
 ### Added
 - sort_by - Option to ignore leading articles ([#1831](https://github.com/Flexget/Flexget/issues/1831))
@@ -83,13 +81,13 @@ strings
 ## 2.10.43 (2017-05-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.42...2.10.43)
 ### Fixed
-- include - Include plugin now correctly reload and trigger config change when needed. Closed [#1733](https://github.com/Flexget/Flexget/issues/1733)
+- include - correctly reloads and triggers config change when needed ([#1733](https://github.com/Flexget/Flexget/issues/1733))
 
 
 ## 2.10.42 (2017-05-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.41...2.10.42)
 ### Fixed
-- IPTorrents - Fix plugin due to new layout. Closes [#1812](https://github.com/Flexget/Flexget/issues/1812)
+- IPTorrents - fix plugin due to new layout ( [#1812](https://github.com/Flexget/Flexget/issues/1812))
 
 
 ## 2.10.41 (2017-05-07)
@@ -111,19 +109,19 @@ strings
 ## 2.10.40 (2017-04-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.39...2.10.40)
 ### Added
-- `download_auth` plugin - Enable generic basic and digest auth ([#1806](https://github.com/Flexget/Flexget/issues/1806))
+- download_auth - enable generic basic and digest auth ([#1806](https://github.com/Flexget/Flexget/issues/1806))
 
 
 ## 2.10.39 (2017-04-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.38...2.10.39)
 ### Changed
-- irc: changed logging level to DEBUG when entry doesn't match task regexp
+- irc - changed logging level to DEBUG when entry doesn't match task regexp
 
 
 ## 2.10.38 (2017-04-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.37...2.10.38)
 ### Added
-- trakt_lookup: added season pack support
+- trakt_lookup - season pack support ([#1805](https://github.com/Flexget/Flexget/issues/1805))
 
 
 ## 2.10.37 (2017-04-24)
@@ -132,7 +130,7 @@ strings
 ## 2.10.36 (2017-04-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.35...2.10.36)
 ### Fixed
-- couchpotato_list minor fix in debug logging ([#1803](https://github.com/Flexget/Flexget/issues/1803))
+- couchpotato_list - minor fix in debug logging ([#1803](https://github.com/Flexget/Flexget/issues/1803))
 
 
 ## 2.10.35 (2017-04-21)
@@ -141,156 +139,168 @@ strings
 ## 2.10.34 (2017-04-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.33...2.10.34)
 ### Fixed
-- next_series_episodes - Fixed a scenario where latest entity is an un-downloaded season pack. Closes [#1799](https://github.com/Flexget/Flexget/issues/1799)
+- next_series_episodes - scenario where latest entity is an un-downloaded season pack ([#1799](https://github.com/Flexget/Flexget/issues/1799))
 
 ### Added
-- crossmatch: added all_fields option, which means all fields between entries must match. Defaults to false.
+- crossmatch - all_fields option (default False), which requires all fields between entries to match ([#1792](https://github.com/Flexget/Flexget/issues/1792))
 
 
 ## 2.10.33 (2017-04-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.32...2.10.33)
 ### Fixed
-- telegram - Fixed update being a channel_post. Closes [#1795](https://github.com/Flexget/Flexget/issues/1795)
-- series - Added support for advanced season pack config. Closes [#1791](https://github.com/Flexget/Flexget/issues/1791)
+- telegram - update being a channel_post ([#1795](https://github.com/Flexget/Flexget/issues/1795))
+- api - respond correctly to preflight browser CORS checks ([#1784](https://github.com/Flexget/Flegxet/issues/1784))
 
 ### Added
+- series - support for advanced season pack config. ([#1791](https://github.com/Flexget/Flexget/issues/1791))
 - deluge - Rename top-level torrent folder ([#1790](https://github.com/Flexget/Flexget/issues/1790))
+- series - expose `identified_by` and `exact` in entry ([#1796](https://github.com/Flexget/Flexget/issues/1796))
 
 
 ## 2.10.32 (2017-04-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.31...2.10.32)
 ### Added
-- `utcnow` variable is available in if plugin statements
+- if - `utcnow` variable available in expressions ([#1793](https://github.com/Flexget/Flexget/issues/1793))
 
 
 ## 2.10.31 (2017-04-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.30...2.10.31)
+### Added
+- api - `Access-Control-Expose-Headers` is now sent in CORS responses to mark custom headers as safe for JavaScript ([#1786](https://github.com/Flexget/Flexget/issues/1786))
 
 ## 2.10.30 (2017-04-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.29...2.10.30)
 ### Fixed
-- Update torrent411.py ([#1777](https://github.com/Flexget/Flexget/issues/1777))
-- Make sure series plugin doesn't crash trying to merge 'series_packs' settings. fix [#1774](https://github.com/Flexget/Flexget/issues/1774)
+- torrent411 - force download in HTTPS and domain name fix ([#1777](https://github.com/Flexget/Flexget/issues/1777))
+- series - make sure it doesn't crash trying to merge `season_packs` settings ([#1774](https://github.com/Flexget/Flexget/issues/1774))
 
 
 ## 2.10.29 (2017-04-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.28...2.10.29)
 ### Fixed
-- next_series_episodes - Correctly look for next season when all previous downloads are season packs. Fixes [#1776](https://github.com/Flexget/Flexget/issues/1776)
-- series_premiere - Added support to validate against season packs. Fixes [#1775](https://github.com/Flexget/Flexget/issues/1775)
+- next_series_episodes - correctly look for next season when all previous downloads are season packs ([#1776](https://github.com/Flexget/Flexget/issues/1776))
+- next_series_seasons - check following season if latest season is completed
+- series_premiere - added support to validate against season packs ([#1775](https://github.com/Flexget/Flexget/issues/1775))
+- trakt plugins - use HTTPS and correct URLs ([#1760](https://github.com/Flexget/Flexget/issues/1760))
 
 ### Added
-- btn - Search by season when the entry is a season pack
+- btn - search by season when the entry is a season pack ([#1778](https://github.com/Flexget/Flexget/issues/1778))
 
 
 ## 2.10.28 (2017-04-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.27...2.10.28)
 ### Fixed
-- alpha ratio - Added check for invalid cookie
-- alpharatio - fix crash on no results found
+- alpharatio - added check for invalid cookie, fix crash on no results found
 
 
 ## 2.10.27 (2017-04-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.26...2.10.27)
 ### Fixed
-- alpharatio: no longer relies on the ordering of table columns, fixes [#1690](https://github.com/Flexget/Flexget/issues/1690)
-- trakt_list - Fixed crash on missing key. Fixes [#1745](https://github.com/Flexget/Flexget/issues/1745)
-- telegram - Handled edited messages in bot updates. Fixes [#1768](https://github.com/Flexget/Flexget/issues/1768)
+- alpharatio: no longer relies on the ordering of table columns ([#1690](https://github.com/Flexget/Flexget/issues/1690))
+- trakt_list - crash on missing key ([#1745](https://github.com/Flexget/Flexget/issues/1745))
+- telegram - handled edited messages in bot updates ([#1768](https://github.com/Flexget/Flexget/issues/1768))
 
 ### Changed
-- irc: "Injecting..." log message has been changed to debug level
+- irc - "Injecting..." log message has been changed to debug level
 
 
 ## 2.10.26 (2017-04-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.25...2.10.26)
 ### Added
-- Series [season pack](Plugins/series/season_packs) support
+- series - [season pack](Plugins/series/season_packs) support phase 1 ([#1710](https://github.com/Flexget/Flexget/issues/1761))
 
 ## 2.10.25 (2017-04-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.24...2.10.25)
+### Fixed
+- t411 - use HTTPS for accessing API ([#1763](https://github.com/Flexget/Flexget/issues/1761))
 
 ## 2.10.24 (2017-03-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.23...2.10.24)
 ### Fixed
-- email - Fix issue with persistent connection between tasks and wrong config usage. Closes [#1761](https://github.com/Flexget/Flexget/issues/1761)
-- series - Fix correct comparison for special episodes. Closed [#1592](https://github.com/Flexget/Flexget/issues/1592)
+- email - persistent connection between tasks and wrong config usage ([#1761](https://github.com/Flexget/Flexget/issues/1761))
+- series - correct comparison for special episodes ([#1592](https://github.com/Flexget/Flexget/issues/1592))
 
 
 ## 2.10.23 (2017-03-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.22...2.10.23)
 ### Fixed
-- rutracker - Made url match based on regexp
-- email - Keep smtp server connection open between notifications. Fixes [#1751](https://github.com/Flexget/Flexget/issues/1751)
+- rutracker - URL match based on regexp
+- email - keep smtp server connection open between notifications ([#1751](https://github.com/Flexget/Flexget/issues/1751))
+- t411 - official domain change from .li to .ai ([#1759](https://github.com/Flexget/Flexget/issues/1759))
 
 
 ## 2.10.22 (2017-03-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.21...2.10.22)
 ### Fixed
-- move: no longer crashes on permission errors, fixes [#1747](https://github.com/Flexget/Flexget/issues/1747)
+- move - no longer crashes on permission errors ([#1747](https://github.com/Flexget/Flexget/issues/1747))
 - lostfilm - link changed on site ([#1753](https://github.com/Flexget/Flexget/issues/1753))
 
 
 ## 2.10.21 (2017-03-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.20...2.10.21)
+### Fixed
+- deluge - prepared for no files key when magnetizing ([#1752](https://github.com/Flexget/Flexget/issues/1752))
 
 ## 2.10.20 (2017-03-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.19...2.10.20)
 ### Fixed
-- join - Fixed after api change, api_key is now mandatory. Closed [#1746](https://github.com/Flexget/Flexget/issues/1746)
+- join - after API change, api_key is now mandatory ([#1746](https://github.com/Flexget/Flexget/issues/1746))
 
 
 ## 2.10.19 (2017-03-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.18...2.10.19)
 ### Changed
-- Extend series list help message. ([#1720](https://github.com/Flexget/Flexget/issues/1720)) ([#1737](https://github.com/Flexget/Flexget/issues/1737))
+- series CLI - extend `series list` help message ([#1720](https://github.com/Flexget/Flexget/issues/1720) / [#1737](https://github.com/Flexget/Flexget/issues/1737))
 
 
 ## 2.10.18 (2017-03-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.17...2.10.18)
+### Fixed
+- npo_watchlist - use HTTPS ([#1738](https://github.com/Flexget/Flexget/issues/1738))
 
 ## 2.10.17 (2017-03-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.16...2.10.17)
+- npo_watchlist - use `SessionRequests` to rate-limit ([#1739](https://github.com/Flexget/Flexget/issues/1739))
 
 ## 2.10.16 (2017-03-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.15...2.10.16)
 ### Added
-- *  mirrors for rutracker plugin
 - mirrors for rutracker plugin ([#1736](https://github.com/Flexget/Flexget/issues/1736))
 
 
 ## 2.10.15 (2017-03-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.14...2.10.15)
 ### Changed
-- delete - Call log.warning instead of raising PluginWarning ([#1723](https://github.com/Flexget/Flexget/issues/1723))
-- use https ([#1724](https://github.com/Flexget/Flexget/issues/1724))
+- delete - call log.warning instead of raising PluginWarning ([#1723](https://github.com/Flexget/Flexget/issues/1723))
+- tvmaze - use https ([#1724](https://github.com/Flexget/Flexget/issues/1724))
 
 ### Fixed
-- clean_transmission: yes now does something
-- strip _id suffix of query params ([#1724](https://github.com/Flexget/Flexget/issues/1724))
+- clean_transmission - now does something
+- tvmaze - strip `_id` suffix of query params ([#1724](https://github.com/Flexget/Flexget/issues/1724))
 
 
 ## 2.10.14 (2017-03-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.13...2.10.14)
 ### Fixed
-- notify - Fixed an issue whe trying to notify both to `notify` and `task` scope. Fixes [#1726](https://github.com/Flexget/Flexget/issues/1726)
+- notify - issue when trying to notify both to `notify` and `task` scope ([#1726](https://github.com/Flexget/Flexget/issues/1726))
 
 
 ## 2.10.13 (2017-03-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.12...2.10.13)
 ### Fixed
-- Fixed UI building process, fixes [#1731](https://github.com/Flexget/Flexget/issues/1731)
+- web-ui - UI building process  ([#1731](https://github.com/Flexget/Flexget/issues/1731))
 
 
 ## 2.10.12 (2017-03-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.11...2.10.12)
 ### Fixed
-- morethantv: site endlessly redirects when cookie is invalid, fixes [#1729](https://github.com/Flexget/Flexget/issues/1729)
+- morethantv - site endlessly redirects when cookie is invalid ([#1729](https://github.com/Flexget/Flexget/issues/1729))
 
 
 ## 2.10.11 (2017-03-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.10...2.10.11)
 ### Fixed
-- Report a config error when 'list' option is not given to next_trakt_episodes
+- next_trakt_episodes - report config error when 'list' option is not given
 
 
 ## 2.10.10 (2017-03-02)
