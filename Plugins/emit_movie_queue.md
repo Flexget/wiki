@@ -1,12 +1,11 @@
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 2.3.0
+replacement_plugins: '[movie_list](/Plugins/List/movie_list)'
+---
 # Movie Queue Input
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been replaced with [`movie_list`](/Plugins/List/list_remove).
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
-
-## Archived information
+{{> Includes/PluginReplacedArchived }}
 
 Creates an [Entry](/Entry) for each movie in your [movie_queue](/Plugins/movie_queue) (intended to be used with the [discover](/Plugins/discover) plugin).
 
