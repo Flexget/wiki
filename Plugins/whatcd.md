@@ -1,12 +1,11 @@
+---
+import:
+ - Includes/PluginRemovedArchived
+removed_in_version: 2.7.0
+---
 # what.cd
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
+{{> Includes/PluginRemovedArchived }}
 
-This plugin has been removed.
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.7.0.
-
-## Archived Information
 A plugin that performs searches on [https://what.cd](/https://what.cd) and returns entries for each result.
 
 ## Usage
