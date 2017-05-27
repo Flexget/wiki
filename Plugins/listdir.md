@@ -1,4 +1,9 @@
-# Oops, page moved
-Please update the link!
+---
+import:
+ - Includes/PluginReplaced
+removed_in_version: 1.2.452
+replacement_plugins: '[filesystem](/Plugins/filesystem)'
+---
+# Notify Entries
+{{> Includes/PluginReplaced }}
 
-Continue to [filesystem](/Plugins/filesystem)
