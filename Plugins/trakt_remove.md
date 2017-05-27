@@ -1,11 +1,11 @@
 ---
 import:
- - Includes/PluginReplacedArc
+ - Includes/PluginReplacedArchived
 removed_in_version: 2.1.0
 replacement_plugins: '[list_remove](/Plugins/List/list_remove) and [trakt_list](/Plugins/List/trakt_list)'
 ---
 # Trakt Remove 
-{{> Includes/PluginReplacedArc }}
+{{> Includes/PluginReplacedArchived }}
 
 **`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 
