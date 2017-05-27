@@ -1,11 +1,11 @@
 ---
 import:
- - Includes/PluginReplacedArc
+ - Includes/PluginReplacedArchived
 removed_in_version: 2.1.0
 replacement_plugins: '[list_add](/Plugins/List/list_add) and [trakt_list](/Plugins/List/trakt_list)'
 ---
 # Trakt Add 
-{{> Includes/PluginReplacedArc }}
+{{> Includes/PluginReplacedArchived }}
 
 **IMPORTANT:**
 
