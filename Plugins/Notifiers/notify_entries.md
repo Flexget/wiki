@@ -1,11 +1,11 @@
-# *Notify entries*
-
-<div class="alert alert-danger" role="alert">
-
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp;
-  This plugin was removed in 2.9.0. Use [notify](/Plugins/notify) instead.
-</div>
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 2.9.0
+replacement_plugins: 'the entries option in [notify](/Plugins/notify)'
+---
+# Notify Entries
+{{> Includes/PluginReplacedArchived }}
 
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task entries.
 This plugin runs on task exit and can be configured extensively
