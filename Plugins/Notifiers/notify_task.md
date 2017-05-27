@@ -1,11 +1,11 @@
-# *Notify task*
-
-<div class="alert alert-danger" role="alert">
-
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp;
-  This plugin was removed in 2.9.0. Use [notify](/Plugins/notify) instead.
-</div>
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 2.9.0
+replacement_plugins: '[notify](/Plugins/notify)'
+---
+# Notify Entries
+{{> Includes/PluginReplacedArchived }}
 
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task.
 This plugin runs on task exit and can be configured extensively.
@@ -13,7 +13,7 @@ This plugin runs on task exit and can be configured extensively.
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  This plugin will send a single notification per task exectuion if it had <strong>1 or more accepted or failed entries </a>
+  This plugin will send a single notification per task exectuion if it had 1 or more accepted or failed entries
 </div>
 
 ### Config:
@@ -30,7 +30,7 @@ The schema can also take any other property which will be passed to the configur
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
   All passed attributes support
-  <a href="/Jinja/" class="alert-link">Jinja2 </a>
+  <a href="/Jinja/" class="alert-link">Jinja2</a>
 </div>
 
 ### Basic usage:
@@ -72,7 +72,7 @@ In this example we use the global `title` to be passed to both `pushover` and `e
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp;
-  Internal plugin attributes overide global ones
+  Internal plugin attributes override global ones
 </div>
 
 ### Jinja2 usage
