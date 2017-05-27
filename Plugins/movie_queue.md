@@ -1,5 +1,12 @@
 # Movie queue
-'''IMPORTANT: `movie_queue` plugin is set for deprecation and will be replaced with [movie_list](/Plugins/List/movie_list).
+<div class="alert alert-danger" role="alert">Deprecated and removed!
+</div>
+
+This plugin has been replaced with [`movie_list`](/Plugins/List/movie_list).
+
+The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
+
+## Archived Information
 
 Manages an internal list of movies with quality information. Allows you to accept movies, add movies to the queue, or remove movies from the queue when they are seen on the task. You also have the ability to manually add movies to the queue from the command line.
 
