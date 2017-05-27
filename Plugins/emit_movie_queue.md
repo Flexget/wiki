@@ -1,5 +1,5 @@
 # Movie Queue Input
-'''IMPORTANT: `movie_queue` plugin is set for deprecation and will be replaced with [movie_list](/Plugins/List/movie_list).
+_**IMPORTANT**_: `movie_queue` was removed and replaced with the [movie_list](/Plugins/List/movie_list) plugin in v2.3.0. This information is no longer maintained and is only kept for historical purposes.
 
 Creates an [Entry](/Entry) for each movie in your [movie queue](/Plugins/movie_queue) (intended to be used with the [discover](/Plugins/discover) plugin).
 
