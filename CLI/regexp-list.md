@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `regexp-list`
@@ -23,7 +23,7 @@ View and manage [regexp lists](/Plugins/List/regexp_list).
 | `purge` || Removes an entire list; use this with caution |
 || *positional:* ||
 || `<list_name>` | Name of the regexp list to remove |
-|||{{> TableStylesDiv }}|
+|||{{> Includes/TableStylesDiv }}|
 
 
 ### Examples
