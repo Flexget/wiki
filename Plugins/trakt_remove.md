@@ -4,7 +4,7 @@
 
 This plugin has been replaced with [`list_remove`](/Plugins/List/list_remove) and [`trakt_list`](/Plugins/List/trakt_list).
 
-The below information is stored for archival purposes and cannot be used with FlexGet versions past 2.1.0.
+The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.1.0.
 
 ## Archived information
 
