@@ -1,8 +1,8 @@
 ---
 import:
- - Includes/PluginReplacedRedirect
+ - Includes/PluginReplaced
 ---
 
 # couchpotato
 
-{{> Includes/PluginReplacedRedirect }}
+{{> Includes/PluginReplaced }}
