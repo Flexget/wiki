@@ -1,8 +1,8 @@
-# IMDB Required
-
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been replaced with [`require_field`](/Plugins/require_field).
-
-This page is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
+---
+import:
+ - Includes/PluginReplaced
+removed_in_version: 2.3.0
+replacement_plugins: '[require_field](/Plugins/require_field) and [imdb_lookup](/Plugins/imdb_lookup)'
+---
+# Movie Queue Input
+{{> Includes/PluginReplaced }}
