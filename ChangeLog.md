@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e8338cefcb88efe69454e8d2a6555c9695f2ae08--->
+<!---ad0fc953a49163a67c5f480b9eca64f6c549a71c--->
 
 ## 2.10.55.dev (unreleased)
 ### Fixed
+- newpct - Detect correct IDs ([#1838](https://github.com/Flexget/Flexget/issues/1838))
 - locked requests version to ~=2.16.1, fixes [#1846](https://github.com/Flexget/Flexget/issues/1846)
 
 <!---f508f9b6d02379a0cdd4d42437b71f975445c8c4--->
