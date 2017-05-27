@@ -1,11 +1,11 @@
 ---
 import:
-  - Includes/PluginReplac
+  - Includes/PluginRemoved
 removed_in_version: 2.9.0
 replacement_plugins: "[notify](/Plugins/notify)"
 ---
 # Notify Entries
-{{> Includes/PluginReplac }}
+{{> Includes/PluginRemoved }}
 
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task entries.
 This plugin runs on task exit and can be configured extensively
@@ -16,12 +16,11 @@ This plugin runs on task exit and can be configured extensively
   This plugin will send a single notification per accepted entry by default, and get send one per rejected, failed undecided or all of them combined </a>
 </div>
 
-
 ### Config:
 
 | Options |Type|  Description | Default |
 | --- | ---| --- |---|
-|**to**|list|List of at least one notifer plugins, the same plugin can be used more than once. **Required**
+|**to**|list|List of at least one notifer plugin; the same plugin can be used more than once. **Required**
 |what|text| One or more of `entries`, `accepted`, `rejected`, `failed` or `undecided`. The data type to get notified on. |`accepted`
 
 You can also set any other attribute in the config, which will be passed to all configured notifiers. A default `title`, `message` and `url` are set depending on the selected scope.
