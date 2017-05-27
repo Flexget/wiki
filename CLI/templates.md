@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `templates`*
@@ -10,7 +10,7 @@ View file templates to be used with [notifer](/Plugins/Notifiers) plugins.
 |  Argument | Description |
 | --- | --- |
 |`--name <template_name>`| Filter by `<template_name>`
-||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
