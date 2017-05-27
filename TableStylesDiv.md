@@ -1,1 +1,0 @@
-<div align="right">* supports [table-styles](/CLI/--table-styles)</div>
