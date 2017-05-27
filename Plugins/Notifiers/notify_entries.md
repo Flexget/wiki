@@ -1,12 +1,3 @@
----
-import:
-  - Includes/PluginRemoved
-removed_in_version: 2.9.0
-replacement_plugins: "[notify](/Plugins/notify)"
----
-# Notify Entries
-{{> Includes/PluginRemoved }}
-
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task entries.
 This plugin runs on task exit and can be configured extensively
 
