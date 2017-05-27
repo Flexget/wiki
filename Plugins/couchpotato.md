@@ -1,3 +1,8 @@
-This plugin was deprecated.
+---
+import:
+ - Includes/PluginReplacedRedirect
+---
 
-Please go to [couchpotato_list ](/Plugins/couchpotato_list) plugin page.
+# couchpotato
+
+{{> Includes/PluginReplacedRedirect }}
