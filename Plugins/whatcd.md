@@ -1,4 +1,4 @@
-# Whatcd
+# what.cd
 <div class="alert alert-danger" role="alert">Deprecated and removed!
 </div>
 
