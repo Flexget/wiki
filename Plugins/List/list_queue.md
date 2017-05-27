@@ -2,7 +2,7 @@
 import:
  - Includes/PluginReplaced
 removed_in_version: 2.1.0
-replacement_plugins: '[list_queue](/Plugins/List/list_queue)'
+replacement_plugins: '[list_match](/Plugins/List/list_match)'
 ---
-# List Match
+# List Queue
 {{> Includes/PluginReplaced }}
