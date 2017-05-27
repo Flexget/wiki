@@ -1,12 +1,11 @@
+---
+import:
+ - Includes/PluginRemovedArchived
+removed_in_version: 2.3.0
+---
 # Torrentz
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
+{{> Includes/PluginRemovedArchived }}
 
-This plugin has been removed.
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
-
-## Archived Information
 Search plugin which gives results from [torrentz.eu](http://torrentz.eu)
 
 ### Config
