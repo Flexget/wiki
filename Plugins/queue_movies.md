@@ -1,5 +1,11 @@
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 1.2.247
+replacement_plugins: '[movie_queue](/Plugins/movie_queue)'
+---
 # Queue Movies
-**//Deprecated as of 1.2.247. See [movie_queue](/Plugins/movie_queue) plugin//**
+{{> Includes/PluginReplacedArchived }}
 
 This plugin is an output plugin that adds a movies to your [movie_queue](/Plugins/movie_queue) for each accepted entry in a task. This plugin alone is not useful. To accept the queued movies you will need a task with [movie_queue](/Plugins/movie_queue) in it.
 
