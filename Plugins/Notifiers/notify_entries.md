@@ -2,7 +2,7 @@
 import:
  - Includes/PluginReplacedArchived
 removed_in_version: 2.9.0
-replacement_plugins: 'the entries option in [notify](/Plugins/notify)'
+replacement_plugins: "the entries option in [notify](/Plugins/notify)"
 ---
 # Notify Entries
 {{> Includes/PluginReplacedArchived }}
