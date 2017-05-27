@@ -4,7 +4,7 @@ import:
 removed_in_version: 2.9.0
 replacement_plugins: '[variables](/Plugins/variables)'
 ---
-# Variables
+# Secrets
 {{> Includes/PluginReplacedArchived }}
 
 Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically processes some jinja2 templates on startup to assign the corresponding values set in a dedicated yaml file or from DB.
