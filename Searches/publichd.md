@@ -1,13 +1,11 @@
-# Public-HD
+---
+import:
+ - Includes/PluginRemovedArchived
+removed_in_version: 2.3.0
+---
+# Kat
+{{> Includes/PluginRemovedArchived }}
 
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been removed.
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
-
-## Archived Information
 This search plugin will get results from [http://publichd.se](/http://publichd.se)
 
 ## Configuration
