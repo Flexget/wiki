@@ -4,5 +4,3 @@
 This plugin has been removed.
 
 The below information is stored for archival purposes and cannot be used with FlexGet starting with v{{removed_in_version}}.
-
-# Archived Information
