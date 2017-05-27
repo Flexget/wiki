@@ -3,7 +3,7 @@ import:
  - Includes/PluginRemovedArchived
 removed_in_version: 2.3.0
 ---
-# Kat
+# publichd
 {{> Includes/PluginRemovedArchived }}
 
 This search plugin will get results from [http://publichd.se](/http://publichd.se)
