@@ -1,4 +1,12 @@
-# *Notify abort*
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 2.9.0
+replacement_plugins: '[notify](/Plugins/notify)'
+---
+# Notify Abort
+{{> Includes/PluginReplacedArchived }}
+
 Sends a notification to [notifer](/Plugins/Notifiers) plugins on task aborts.
 
 
