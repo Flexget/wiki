@@ -1,8 +1,8 @@
+---
+import:
+ - Includes/PluginReplaced
+removed_in_version: 2.2.0
+replacement_plugins: '[thetvdb_list](/Plugins/List/thetvdb_list) and [list_add](/Plugins/List/list_add)'
+---
 # The TVDB Add
-
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been replaced with [`thetvdb_list`](/Plugins/List/thetvdb_list).
-
-This page is stored for archival purposes and cannot be used with FlexGet starting with v2.2.0.
+{{> Includes/PluginReplaced }}
