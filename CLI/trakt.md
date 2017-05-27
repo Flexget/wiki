@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `trakt`
@@ -21,7 +21,7 @@ View and manage [Trakt authentication](/Trakt_Authentication), for use with the 
 | `delete` || Delete the specified identifier from local database |
 || *positional:* |
 || `<account>`| Identifier (as originally specified with the `auth` command above)
-|||{{> TableStylesDiv }}
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
