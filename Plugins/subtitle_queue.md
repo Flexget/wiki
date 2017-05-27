@@ -1,4 +1,12 @@
 # Subtitle Queue
+<div class="alert alert-danger" role="alert">Deprecated and removed!
+</div>
+
+This plugin has been removed.
+
+The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
+
+## Archived Information
 Queue files and download subtitles. Available since v1.2.256. No command line features as of yet (may come later).
 
 ## Features
