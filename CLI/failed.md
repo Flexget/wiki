@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `failed`
@@ -11,7 +11,7 @@ list or clear remembered failures
 | --- | --- |
 | `list`* | List all the entries that have had failures |
 | `clear` | Clear all failures from database so they can be retried |
-|| {{> TableStylesDiv }} |
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
