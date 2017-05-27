@@ -1,12 +1,11 @@
-# Isohunt Search plugin
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
+---
+import:
+ - Includes/PluginRemovedArchived
+removed_in_version: 2.3.0
+---
+# what.cd
+{{> Includes/PluginRemovedArchived }}
 
-This plugin has been removed.
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
-
-## Archived Information
 A search plugin that generates sorted entries from isohunt.
 
 **Note:** Due to code changes (and domain change from isohunt.com -> isohunt.to) from Isohunt, this plugin no longer works. Ticket ref: [https://flexget.com/ticket/3056#ticket](/https://flexget.com/ticket/3056#ticket)
