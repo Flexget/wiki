@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+ - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `series`
@@ -28,7 +28,7 @@ View and manage the [`series` plugin](/Plugins/series) database.
 | `remove` || Removes episodes, seasons, or a whole series from the series database only |
 || `<series name>` | Name of the series |
 || `<episode_id>`/`<season_id>` | Episode or season ID(s) to forget (optional)||
-|||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
