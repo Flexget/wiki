@@ -1,3 +1,10 @@
+<div class="alert alert-danger" role="alert">Deprecated and removed!
+</div>
+
+This plugin has been removed.
+
+The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.3.0.
+
 ## Search Plugin: sceneaccess
 All the information of how sceneaccess works can be found in the plugin doc inside Flexget.
 
