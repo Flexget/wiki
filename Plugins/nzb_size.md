@@ -1,10 +1,11 @@
-# Nzb size
-**Removed in r1202, replaced by [content_size](/Plugins/content_size)**
-
-  
-  
-  
-
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 1202
+replacement_plugins: '[content_size](/Plugins/content_size)'
+---
+# NZB Size
+{{> Includes/PluginReplacedArchived }}
 
 ### Example:
 ```
