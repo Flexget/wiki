@@ -1,4 +1,11 @@
-# Input RlsLog
+---
+import:
+ - Includes/PluginRemovedArchived
+removed_in_version: 1.2.496
+---
+# Rlslog
+{{> Includes/PluginRemovedArchived }}
+
 Adds support for [rlslog](http://rlslog.net) as a source.
 
 ### Problems
