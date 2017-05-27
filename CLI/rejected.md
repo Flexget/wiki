@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `rejected`
@@ -11,7 +11,7 @@ List or clear [remembered rejections](/Plugins/remember_rejected).
 | --- | --- |
 | `list`* | List all entries that have been rejected |
 | `clear` | Clear all rejected entries from the database so they can be retried |
-||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
