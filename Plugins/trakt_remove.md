@@ -1,12 +1,11 @@
-# Trakt Remove
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been replaced with [`list_remove`](/Plugins/List/list_remove) and [`trakt_list`](/Plugins/List/trakt_list).
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.1.0.
-
-## Archived information
+---
+import:
+ - Includes/PluginReplacedArc
+removed_in_version: 2.1.0
+replacement_plugins: '[list_remove](/Plugins/List/list_remove) and [trakt_list](/Plugins/List/trakt_list)'
+---
+# Trakt Remove 
+{{> Includes/PluginReplacedArc }}
 
 **`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 
