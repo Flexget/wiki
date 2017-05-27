@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `status`*
@@ -11,7 +11,8 @@ View task health status.
 | --- | --- |
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--limit <num>` | Limit to `<num>` results |
-||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
+
 ### Examples
 ```bash
 #shows the status for all tasks
