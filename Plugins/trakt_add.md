@@ -1,12 +1,11 @@
+---
+import:
+ - Includes/PluginReplacedArc
+removed_in_version: 2.1.0
+replacement_plugins: '[list_add](/Plugins/List/list_add) and [trakt_list](/Plugins/List/trakt_list)'
+---
 # Trakt Add 
-<div class="alert alert-danger" role="alert">Deprecated and removed!
-</div>
-
-This plugin has been replaced with [`list_add`](/Plugins/List/list_add) and [`trakt_list`](/Plugins/List/trakt_list).
-
-The below information is stored for archival purposes and cannot be used with FlexGet starting with v2.1.0.
-
-## Archived information
+{{> Includes/PluginReplacedArc }}
 
 **IMPORTANT:**
 
