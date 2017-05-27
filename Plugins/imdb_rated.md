@@ -1,4 +1,10 @@
-# Imdb rated has been removed
-This was done because of imdb site layout changes.
+---
+import:
+ - Includes/PluginReplacedArchived
+removed_in_version: 1.x
+replacement_plugins: '[crossmatch](/Plugins/crossmatch) and [imdb_list](/Plugins/List/imdb_list)'
+---
+# IMDB Rated
+{{> Includes/PluginReplacedArchived }}
 
-Same functionality can be achieved via [crossmatch](/Plugins/crossmatch) and [imdb_list](/Plugins/imdb_list).
+This was done because of IMDB site layout changes.
