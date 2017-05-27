@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `archive`
@@ -27,7 +27,8 @@ Search and manipulate the [`archive` plugin](/Plugins/archive) database.
 || `<source>` | The source whose entries you would like to tag |
 || `<tag>` |  The tag(s) you would like to apply to the entries |
 | `consolidate` || Migrate old archive data to new model. This may take a long time. |
-|||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
+
 
 ### Examples
 ```bash
