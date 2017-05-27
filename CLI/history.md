@@ -1,6 +1,6 @@
 ---
 import:
-  - TableStylesDiv
+  - Includes/TableStylesDiv
 ---
 
 ## [CLI](/CLI) > `history`*
@@ -13,7 +13,7 @@ View the history of entries that FlexGet has accepted.
 | `--search <term>` | Limit to results that contain `<term>` |
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--short`, `-s` | Shorter output |
-||{{> TableStylesDiv }}|
+{{> Includes/TableStylesDiv }}
 
 ### Examples
 ```bash
