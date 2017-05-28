@@ -1,1 +1,1 @@
-See ["Plugins/urlrewrite_search"](/"Plugins/urlrewrite_search").
+See ["Plugins/urlrewrite_search"](/Plugins/urlrewrite_search).
