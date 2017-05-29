@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fe59a6a772811f8685422088b69d1f790abd8094--->
+<!---a149f56cabbf1f65b75075b6d422d1abdaf8f867--->
 
 ## 2.10.56.dev (unreleased)
 ### Fixed
+- python3 compatibility for magnet base32 btih
 - Add support for base32 encoded magnet btih
 
 <!---a2b9992b399d92071408fc7a7205bda44aa836da--->
