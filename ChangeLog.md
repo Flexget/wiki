@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a149f56cabbf1f65b75075b6d422d1abdaf8f867--->
+<!---1211656e377e4c66c5dbd0dd4adeac88851a0c87--->
 
-## 2.10.56.dev (unreleased)
+<!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
+
+## 2.10.56 (2017-05-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.55...2.10.56)
 ### Fixed
 - python3 compatibility for magnet base32 btih
 - Add support for base32 encoded magnet btih
 
-<!---a2b9992b399d92071408fc7a7205bda44aa836da--->
 
 ## 2.10.55 (2017-05-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.54...2.10.55)
