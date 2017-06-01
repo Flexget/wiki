@@ -6,18 +6,19 @@ Downloads content from entry URL and loads it into the [deluge](http://deluge-to
 <ul>
 <li>Deluge requires Python 2.7, it does NOT support Python 3.3+ as of 2016</li>
 <li>
-If you are installing to a virtualenv, you have to create the virtualenv with the --system-site-packages option. This also applies to an GIT install.</li>
+If you are installing to a virtualenv, you have to create the virtualenv with the --system-site-packages option so the deluge package can be found. This also applies to a git install.</li>
 <ul>
 </div>
 
 **Requirements:**
-* Supports Deluge 1.2, and 1.3. This will not work if you are running deluge in classic mode, you must switch to running the daemon separately. 
-* If you are running deluged as a different user, on a different box, or with a non-default config directory, (something other than ~/.config/deluge) you will need to specify the username and password options that you have set up in your deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
+* Supports Deluge 1.2 and 1.3. This will not work if you are running deluge in classic mode. You must switch to running the daemon separately. 
+* If you are running `deluged` as a different user, on a different box, or with a non-default config directory (something other than ~/.config/deluge), you will need to specify the username and password options that you have set up in your Deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
 
 
 ### Configuration
-All options are optional and will default to whatever you have set in deluge.
-If you wish not to set any of the parameters the format is:
+None of the options are required, and they will all default to whatever you have set in Deluge.
+
+If you do not wish to set any of the parameters the format is:
 
 ```yaml
 deluge: yes
@@ -33,7 +34,7 @@ deluge: yes
 | password | Deluged password *(defaults to automatic client authentication if not specified)* |
 | path | The download location |
 | movedone | The location files will be moved when torrent finishes (the location will be created if it doesn't exist). |
-| label | Deluge label |
+| label | Label to assign to torrents in Deluge. This field can be a [Jinja expression](/Jinja) and is rendered before being passed to Deluge. |
 | queuetotop | If yes will move torrent to top of queue when added, if no will move to bottom. |
 | addpaused | If yes, will add the torrents to deluge in the paused state. |
 | maxupspeed | Sets the maximum upload speed. Must be specified as a decimal (i.e. 1.0) |
@@ -57,7 +58,7 @@ deluge: yes
 deluge:
   path: /media/diska/downloads/
   movedone: /media/diska/tv/
-  label: tv
+  label: `{{trakt_series_network}}`
   queuetotop: yes
 ```
 
@@ -132,8 +133,8 @@ Subtitle files will be downloaded to (see the `keep_subs` option):
 
 **NOTE:** In order to perform content renaming on a magnet URI, you must set **magnetization_timeout** to a value greater than 0 so that flexget has a chance to magnetize the torrent and retrieve the file list before performing any file list processing during the content renaming phase. If you use any feeds that supply magnet URIs and you wish to perform content renaming, it is strongly recommended to set **magnetization_timeout** to a reasonable wait period, such as **30** (seconds). Magnetization time varies based on swarm activity and network speed, but is typically completed in under 10 seconds.
 
-## Mac OSX Users
-Should you wish to use the Deluge plugin, Flexget currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source). FlexGet is probably still unable to interact with a deluge.app installation. 
+## macOS / OSX Users
+Should you wish to use the Deluge plugin, the default Flexget installation currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source). FlexGet can interact with a deluge.app installation with the changes noted [here](https://github.com/Flexget/Flexget/issues/1671) made to `flexget/plugins/client/deluge.py`.
 
 ## Windows Users
 FlexGet should be able to detect Deluge in its install directory if:
