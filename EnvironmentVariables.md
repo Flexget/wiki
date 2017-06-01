@@ -4,5 +4,5 @@ Environment variables are read in certain instances by FlexGet to determine defa
 ### Logging (Rotating logs)
 | Environment Variable | Possible Values | Default Value | Description |
 | --- | --- | --- | --- |
-| `FLEXGET_LOG_MAXBYTES` | integer | `1,024,000` | Maximum bytes before creating a new file. |
+| `FLEXGET_LOG_MAXBYTES` | integer | `1024000` | Maximum bytes before creating a new file. |
 | `FLEXGET_LOG_MAXCOUNT` | integer | `9` | Maximum number of log files to create before the oldest one is deleted. |
