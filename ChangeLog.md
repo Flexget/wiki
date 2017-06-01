@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1211656e377e4c66c5dbd0dd4adeac88851a0c87--->
+<!---c39b8deee269f1470fa4f4e5fde2dfe358448ebc--->
+
+## 2.10.57.dev (unreleased)
+### Added
+- logger - use env for rotating log params ([#1857](https://github.com/Flexget/Flexget/issues/1857))
 
 <!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
 
