@@ -1,10 +1,12 @@
 # Command Line Interface (CLI)
 FlexGet is usually invoked as a [Daemon](/Daemon) or via [cron](/InstallWizard/Partial/Crontab), configured with its [configuration](/Configuration) file. Many functions can also be performed on the command line. The following information can be seen on the command line by invoking `flexget --help` or the equivalent `flexget -h`.
 
+There are several [root-level environment variables](/EnvironmentVariables) which can be set to determine the default behavior of FlexGet. Environment variables which apply to specific CLI commands are documented on that command's page.
+
 ## Usage
 FlexGet is invoked from the command line like so:
 ```bash
-flexget <argument> <command> <command-arguments>
+flexget <argument> [<argument> ...] <command> <command-arguments>
 ```
 For example, the FlexGet configuration file can be tested by calling `flexget check`. This does nothing to harm your installation so you can always run this (and it is recommended to be the first command used after [upgrading](/Upgrade)).
 
@@ -48,7 +50,7 @@ Clicking on the commands will take you to a page with more information about it.
 | [`trakt`](/CLI/trakt) | View and manage [Trakt authentication](/Trakt_Authentication) |
 | [`web`](/CLI/web) | Manage [web server](/Web-UI) settings |
 
-## FlexGet-level arguments
+## Root-level arguments
 | Argument | Description |
 | --- | --- |
 | `-h, --help` | Show help message and exit. Note that most commands support this as an argument to the command as well, such as `flexget series show -h` for help on how to use `series show`. This particular argument always follows the command (and any arguments to the command). |
