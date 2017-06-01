@@ -1,13 +1,19 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2db43584289d9718255beb063f2197c3ddd827bd--->
+<!---897900d173e2d4fb56180a7b38043b187d008fec--->
 
 ## 2.10.57.dev (unreleased)
 ### Added
+- *  series CLI - environment vars for defaults
+- series CLI - use environment variables for defaults ([#1850](https://github.com/Flexget/Flexget/issues/1850))
 - *  series CLI - add entities to series database
 - series CLI - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
 - logger - use env for rotating log params ([#1857](https://github.com/Flexget/Flexget/issues/1857))
+
+### Changed
+- *  deluge - Render label
+- deluge - Render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
 
 <!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
 
