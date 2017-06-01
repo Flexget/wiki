@@ -8,12 +8,12 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - series CLI:
   - use environment variables for defaults ([#1850](https://github.com/Flexget/Flexget/issues/1850))
   - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
-- logger - use environment variables for rotating log parameters ([#1857](https://github.com/Flexget/Flexget/issues/1857))
-
-### Changed
 - series begin ([#1841](https://github.com/Flexget/Flexget/issues/1841)):
   - season (e.g. S02) accepted as ID, converted to SXXE01 internally
   - CLI --forget option 
+- logger - use environment variables for rotating log parameters ([#1857](https://github.com/Flexget/Flexget/issues/1857))
+
+### Changed
 - deluge - render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
 
 <!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
