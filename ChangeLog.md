@@ -5,17 +5,16 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.57.dev (unreleased)
 ### Added
-- *  series CLI - environment vars for defaults
-- series CLI - use environment variables for defaults ([#1850](https://github.com/Flexget/Flexget/issues/1850))
-- *  series CLI - add entities to series database
-- series CLI - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
-- logger - use env for rotating log params ([#1857](https://github.com/Flexget/Flexget/issues/1857))
+- series CLI:
+  - use environment variables for defaults ([#1850](https://github.com/Flexget/Flexget/issues/1850))
+  - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
+- logger - use environment variables for rotating log parameters ([#1857](https://github.com/Flexget/Flexget/issues/1857))
 
 ### Changed
-- *  series begin - SXX as ID and CLI forget
-- series begin - SXX accepted as ID / CLI --forget option ([#1841](https://github.com/Flexget/Flexget/issues/1841))
-- *  deluge - Render label
-- deluge - Render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
+- series begin ([#1841](https://github.com/Flexget/Flexget/issues/1841)):
+  - season (e.g. S02) accepted as ID, converted to SXXE01 internally
+  - CLI --forget option 
+- deluge - render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
 
 <!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
 
@@ -30,13 +29,12 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.54...2.10.55)
 ### Fixed
 - newpct - Detect correct IDs ([#1838](https://github.com/Flexget/Flexget/issues/1838))
-- locked requests version to ~=2.16.1, fixes [#1846](https://github.com/Flexget/Flexget/issues/1846)
+- locked requests version to ~=2.16.1 ([#1846](https://github.com/Flexget/Flexget/issues/1846))
 
 
 ## 2.10.54 (2017-05-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.53...2.10.54)
 ### Added
-- *  series CLI - Sort option for series show
 - series CLI - --sort-by argument for series show ([#1836](https://github.com/Flexget/Flexget/issues/1836))
 - trakt_calendar - new plugin for pulling all or personal calendar from trakt.tv ([#1824](https://github.com/Flexget/Flexget/issues/1824))
 
