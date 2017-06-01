@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c39b8deee269f1470fa4f4e5fde2dfe358448ebc--->
+<!---2db43584289d9718255beb063f2197c3ddd827bd--->
 
 ## 2.10.57.dev (unreleased)
 ### Added
+- *  series CLI - add entities to series database
+- series CLI - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
 - logger - use env for rotating log params ([#1857](https://github.com/Flexget/Flexget/issues/1857))
 
 <!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
