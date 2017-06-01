@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---897900d173e2d4fb56180a7b38043b187d008fec--->
+<!---f900a112e8a2abffc8c18faa7ab13c80f00da57e--->
 
 ## 2.10.57.dev (unreleased)
 ### Added
@@ -12,6 +12,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - logger - use env for rotating log params ([#1857](https://github.com/Flexget/Flexget/issues/1857))
 
 ### Changed
+- *  series begin - SXX as ID and CLI forget
+- series begin - SXX accepted as ID / CLI --forget option ([#1841](https://github.com/Flexget/Flexget/issues/1841))
 - *  deluge - Render label
 - deluge - Render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
 
