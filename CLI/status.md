@@ -7,10 +7,10 @@ import:
 View task health status.
 
 ### Optional arguments
-| argument | description |
+| Argument | Description |
 | --- | --- |
 | `--task <task>` | Limit to results in specified `<task>` |
-| `--limit <num>` | Limit to `<num>` results |
+| `--limit <num>` | Limit to `<num>` results (default `50`) |
 {{> Includes/TableStylesDiv }}
 
 ### Examples
