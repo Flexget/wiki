@@ -27,6 +27,17 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 For further help with YAML and indenting, see [configuration](/Configuration).
 
+## Plugin Sections
+- [Inputs](#inputs)
+- [Filters](#filters)
+- [Outputs](#outputs)
+- [Metadata](#metadata)
+- [Modification](#modification)
+- [Daemon](#daemon)
+- [Command Line Interface (CLI)](#command-line-interface)
+- [Third-Party Plugins](#third-party-plugins)
+- [Deprecated](#deprecated)
+
 
 ## Inputs
 Produce **[entries](/Entry)** from external source.  
@@ -176,7 +187,7 @@ Filters based on data retrieved from 3rd party sites
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
-## Output
+## Outputs
 Execute operation(s) on accepted entries.
 
 ### 3rd party software output
@@ -262,7 +273,7 @@ Generate custom output using accepted entries
 | [make_html](/Plugins/make_html) | Generate HTML file from passed entries. |
 | [make_rss](/Plugins/make_rss) | Generate RSS-feed file from passed entries. |
 
-## Metadata plugins
+## Metadata
 Retrieve additional data from internal parsers or 3rd party sites. Used for population of more fields than default or to actively perform data retrieval for specific input types.
 
 These provide metainfo (ie. fields) to [Entry](/Entry).
@@ -281,7 +292,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
 
-## Modification plugins
+## Modification
 Plugins that can manipulate data and perform various operations.
 
 ### Request operations
