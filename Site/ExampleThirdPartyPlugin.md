@@ -1,4 +1,4 @@
-# Third-Party Plugin Template
+# Third-Party Plugin Template and Instructions
 
 This page provides and explains the template for a third-party plugin wiki page. A complete template with no explanation text is available [here](/_edit/Site/ExampleThirdPartyPluginFull). (Copy and paste from that page into your plugin's wiki page. **Do not** save changes directly at that link.)
 
