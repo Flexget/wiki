@@ -1,6 +1,6 @@
 # Third-Party Plugin Template and Instructions
 
-This page provides and explains the template for a third-party plugin wiki page. A complete template with no explanation text is available [here](/_edit/Site/ExampleThirdPartyPluginFull). (Copy and paste from that page into your plugin's wiki page. **Do not** save changes directly at that link.)
+This page provides and explains the template for a third-party plugin wiki page. A complete template with no explanation text is available [here](/_edit/Site/ThirdPartyPluginTemplateFull). (Copy and paste the Markdown source from that page into your plugin's wiki page. **Do not** save changes directly at that link.)
 
 ## Plugin Info
 At the top, enter the link to your plugin, the plugin name (which should match the wiki page URL), and a link to where users can submit issues. If your plugin is installed as a Python package, change the text `Includes/ThirdPartyPluginInstallDotFlexget` to `Includes/ThirdPartyPluginInstallPackage` in both places where it appears in the final template. Do not otherwise modify the imports.
