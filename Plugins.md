@@ -27,10 +27,10 @@ This makes examples more compact and reduces unnecessary boilerplate.
 
 For further help with YAML and indenting, see [configuration](/Configuration).
 
-## Plugin Sections
-- [Inputs](#inputs)
-- [Filters](#filters)
-- [Outputs](#outputs)
+## Plugin Types
+- [Input](#input)
+- [Filter](#filter)
+- [Output](#output)
 - [Metadata](#metadata)
 - [Modification](#modification)
 - [Daemon](#daemon)
@@ -39,7 +39,7 @@ For further help with YAML and indenting, see [configuration](/Configuration).
 - [Deprecated](#deprecated)
 
 
-## Inputs
+## Input
 Produce **[entries](/Entry)** from external source.  
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
@@ -117,7 +117,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. [Managed List](/Plugins/List) |
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. [Managed List](/Plugins/List) |
 
-## Filters
+## Filter
 Reject or Accept **[entries](/Entry)** based on given rules. A single task may have any number of filters.  
 If you plan to use multiple filters per task, you should look at **[filtering operations](/Filtering)** to understand how they work.
 
@@ -187,7 +187,7 @@ Filters based on data retrieved from 3rd party sites
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
-## Outputs
+## Output
 Execute operation(s) on accepted entries.
 
 ### 3rd party software output
