@@ -3,7 +3,7 @@ Plugins provide most of the functionality in FlexGet. Plugins usually create, ma
 
 Most plugins are enabled by placing a keyword and required settings in a configuration file. All plugins listed below are included in the FlexGet package (with the exception of the third-party plugins section). 
 
-This documentation is meant for the latest released version. If you are upgrading from an older version, see [upgrade actions](/UpgradeActions) for help in migrating your configuration file.
+This documentation is meant for the latest released version. If you are upgrading from an older version, see [upgrade actions](/UpgradeActions) and the [changelog](/ChangeLog) for help in migrating your configuration file.
 
 ## Indentation in examples
 All configuration examples are assumed to be placed under the `tasks` (or `templates`) [top-level keys](/Configuration#top-level-keys). If the documentation has this example:
