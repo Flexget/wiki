@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f900a112e8a2abffc8c18faa7ab13c80f00da57e--->
+<!---6ed5a20de4ce2ffe185c590720e8632a654b2d2a--->
 
 ## 2.10.57.dev (unreleased)
 ### Added
+- bittorrent - expose torrent name in Torrent class ([#1862](https://github.com/Flexget/Flexget/issues/1862))
 - series CLI:
   - use environment variables for defaults ([#1850](https://github.com/Flexget/Flexget/issues/1850))
   - manually add entities to series database ([#1856](https://github.com/Flexget/Flexget/issues/1856))
