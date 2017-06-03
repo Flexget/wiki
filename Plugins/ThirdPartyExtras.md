@@ -1,6 +1,8 @@
 # Third-Party and Extra Plugins
 These are plugins that are made by third parties, not common, actively maintained or are otherwise unsuitable for main distribution.
 
+If you wish to add your plugin to this list, please edit this page and add a new row in the "Third-Party Plugins" table. The template for a plugin wiki page is found [here](/Site/ThirdPartyPluginTemplate). Your plugin's wiki page should be located under `/Plugins` on this site. For example, `/Plugins/my_plugin`. `my_plugin` must correspond to your plugin's name as it is used in the config file.
+
 ### Third-Party Plugins
 Refer to the wiki page for download link and installation instructions.
 | **Name** | **Description** |
