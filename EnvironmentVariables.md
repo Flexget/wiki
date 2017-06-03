@@ -8,4 +8,4 @@ Environment variables are read in certain instances by FlexGet to determine defa
 | `FLEXGET_LOG_MAXCOUNT` | integer | `9` | Maximum number of log files to create before the oldest one is deleted. |
 
 ### Other Environment Variables Available in Flexget
-- CLI [`series` command](/CLI/series)
+- CLI [`series` command](/CLI/series#environment-variables)
