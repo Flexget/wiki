@@ -2,13 +2,13 @@
 These are plugins that are made by third parties, not common, actively maintained or are otherwise unsuitable for main distribution.
 
 ### Third-Party Plugins
-| **Name** | **Description** |
-| --- | --- |
-| [`app_deluge_find`](/Plugins/app_deluge_find) | Plugin specifically for macOS which provides compatibility with Deluge.app (instead of requiring installation of the deluge package).
+| **Name** | **Description** | **Link** |
+| --- | --- | --- |
+| [`app_deluge_find`](/Plugins/app_deluge_find) | Plugin specifically for macOS which provides compatibility with Deluge.app (instead of requiring installation of the deluge package). | [GitHub](https://github.com/tubedogg/flexget-plugins/blob/master/app_deluge_find.py) |
 
 ### FlexGet Extras Package
 
-These plugins are not included in the core package and must be installed from the [GitHub repository](https://github.com/Flexget/extras).
+These plugins are not included in the core package and must be installed from the FlexGet [GitHub repository](https://github.com/Flexget/extras).
 
 | **Name** | **Description** |
 | --- | --- |
