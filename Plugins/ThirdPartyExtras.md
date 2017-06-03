@@ -1,7 +1,10 @@
 # Third-Party and Extra Plugins
 These are plugins that are made by third parties, not common, actively maintained or are otherwise unsuitable for main distribution.
 
-If you wish to add your plugin to this list, please edit this page and add a new row in the "Third-Party Plugins" table. The template for a plugin wiki page is found [here](/Site/ThirdPartyPluginTemplate). Your plugin's wiki page should be located under `/Plugins` on this site. For example, `/Plugins/my_plugin`. `my_plugin` must correspond to your plugin's name as it is used in the config file.
+### Adding Your Plugin
+If you wish to add your plugin to this list, please edit this page and add a new row in the "Third-Party Plugins" table. The template and instructions for a plugin wiki page is found [here](/Site/ThirdPartyPluginTemplate).
+
+Your plugin's wiki page must be located under `/Plugins` on this site, unless it is a search plugin, in which case it belongs under `/Searches`. For example, `/Plugins/my_plugin_name` or `/Searches/my_plugin_name`. `my_plugin_name` must correspond to your plugin's name as it is used in the config file. Visiting https://flexget.com/Plugins/\<my_plugin_name> will result in an editor screen that allows you to add the new wiki page.
 
 ### Third-Party Plugins
 Refer to the wiki page for download link and installation instructions.
