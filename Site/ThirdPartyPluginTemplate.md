@@ -3,7 +3,11 @@
 This page provides and explains the template for a third-party plugin wiki page. A complete template with no explanation text is available [here](/_edit/Site/ThirdPartyPluginTemplateFull). (Copy and paste the Markdown source from that page into your plugin's wiki page. **Do not** save changes directly at that link.)
 
 ## Plugin Info
-At the top, enter the link to your plugin, the plugin name (which should match the wiki page URL), and a link to where users can submit issues. If your plugin is installed as a Python package, change the text `Includes/ThirdPartyPluginInstallDotFlexget` to `Includes/ThirdPartyPluginInstallPackage` in both places where it appears in the final template. Do not otherwise modify the imports.
+At the top, enter the link to your plugin, the plugin name (which should match the wiki page URL), and a link to where users can submit issues.
+
+If your plugin is installed as a Python package, change the text `Includes/ThirdPartyPluginInstallDotFlexget` to `Includes/ThirdPartyPluginInstallPackage` in both places where it appears in the final template. The plugin link in that case must be the URL of the location where your plugin's package can be found and installed with `pip`. For an example of such a URL, see the [GitHub page](https://github.com/Flexget/extras#install) for the extras package.
+
+Do not otherwise modify the imports.
 
 ```yaml
 ---
