@@ -388,12 +388,10 @@ Use `flexget execute --help` for full option list.
 | [--inject](/Plugins/--inject) | Injects custom entry into task(s). |
 | [--try-regexp](/Plugins/try_regexp) | Test how regexps work on task(s) interactively. |
 
-## Third-party plugin
-Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate python package like [FlexGet extras](/FlexGetExtras).
+## Third-party plugins
+Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate Python package like [FlexGet extras](https://github.com/Flexget/FlexGetExtras).
 
-## FlexGet extras
-
-The [FlexGet extras](/FlexGetExtras) is a separate package that provides some plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
+There is a list of [third-party and extra plugins](/Plugins/ThirdPartyExtras) available, which are plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
 
 ## Deprecated
 | Keyword | Description |
