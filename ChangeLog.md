@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6ed5a20de4ce2ffe185c590720e8632a654b2d2a--->
+<!---b0029b842fc998f60c0ac83a4c38ad34da52d8ea--->
 
-## 2.10.57.dev (unreleased)
+<!---2ff70cc9562eb8c4d748add139a3a8aebea06f63--->
+
+## 2.10.58 (2017-06-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.56...2.10.58)
 ### Added
 - bittorrent - expose torrent name in Torrent class ([#1862](https://github.com/Flexget/Flexget/issues/1862))
 - series CLI:
@@ -17,7 +20,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - deluge - render label ([#1840](https://github.com/Flexget/Flexget/issues/1840))
 
-<!---cf4435bdf1c1e1c23ef38efa69733a300e1726c2--->
 
 ## 2.10.56 (2017-05-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.55...2.10.56)
