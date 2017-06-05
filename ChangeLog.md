@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bc09bd0f59ea51daf5ce27c03516c1d49ec00ba7--->
+<!---4c2ba3c9f6beb2d3b103960ccdd2b872fcbb1331--->
 
-## 2.10.59.dev (unreleased)
+<!---1f895fa4200a2c217a21eb22a88c079a1d67271a--->
+
+## 2.10.59 (2017-06-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.58...2.10.59)
 ### Fixed
 - make pathlib requirement needed only when version is lower than 3.4. Closes [#1822](https://github.com/Flexget/Flexget/issues/1822)
 
-<!---2ff70cc9562eb8c4d748add139a3a8aebea06f63--->
 
 ## 2.10.58 (2017-06-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.56...2.10.58)
