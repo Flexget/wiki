@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87111e5a795dfb5a3d316c8d0930a637d3357b13--->
+<!---7d158d662eb6875f97957e6e82bffcd6ed9b5a34--->
 
-## 2.10.60.dev (unreleased)
+<!---d1499a6c887ef4b0c09a2df06d82468c9fa04f5e--->
+
+## 2.10.60 (2017-06-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.59...2.10.60)
 ### Added
 - parser - Support for DD+ audio and more channels ([#1842](https://github.com/Flexget/Flexget/issues/1842))
 
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - trakt_lookup: properly handle season lookup failures
 - serienjunkies: fixed crash when serienjunkies urlrewriter was used without the plugin, fixes [#1868](https://github.com/Flexget/Flexget/issues/1868)
 
-<!---1f895fa4200a2c217a21eb22a88c079a1d67271a--->
 
 ## 2.10.59 (2017-06-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.58...2.10.59)
