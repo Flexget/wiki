@@ -134,7 +134,11 @@ Subtitle files will be downloaded to (see the `keep_subs` option):
 **NOTE:** In order to perform content renaming on a magnet URI, you must set **magnetization_timeout** to a value greater than 0 so that flexget has a chance to magnetize the torrent and retrieve the file list before performing any file list processing during the content renaming phase. If you use any feeds that supply magnet URIs and you wish to perform content renaming, it is strongly recommended to set **magnetization_timeout** to a reasonable wait period, such as **30** (seconds). Magnetization time varies based on swarm activity and network speed, but is typically completed in under 10 seconds.
 
 ## macOS / OSX Users
-Should you wish to use the Deluge plugin, the default Flexget installation currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source). FlexGet can interact with a deluge.app installation with the changes noted [here](https://github.com/Flexget/Flexget/issues/1671) made to `flexget/plugins/client/deluge.py`.
+Should you wish to use the Deluge plugin:
+- The default Flexget installation currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source).
+- Alternatively, if you have Deluge.app:
+  - You can use the third-party plugin [`app_deluge_find`](/Plugins/app_deluge_find) by adding `app_deluge_find: yes` to each affected task, which allows FlexGet to recognize /Applications/Deluge.app.
+  - You can also edit flexget/plugins/clients/deluge.py to achieve the same effect with the changes noted [here](https://github.com/Flexget/Flexget/issues/1671) made to `flexget/plugins/client/deluge.py`.
 
 ## Windows Users
 FlexGet should be able to detect Deluge in its install directory if:
