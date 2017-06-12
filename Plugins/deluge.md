@@ -7,6 +7,7 @@ Downloads content from entry URL and loads it into the [deluge](http://deluge-to
 <li>Deluge requires Python 2.7. It does NOT support Python 3.3+ as of 2017.</li>
 <li>
 If you are installing to a virtualenv, you have to create the virtualenv with the --system-site-packages option so the deluge package can be found. This also applies to a git install.</li>
+<li>Mac or Windows users, see important notes regarding your platforms at the bottom of this page.</li>
 <ul>
 </div>
 
