@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6de550c0a622251c1063525475f2c84fab666cab--->
+<!---586dec95bbd03700056a61fba62617c8d57876db--->
 
-## 2.10.61.dev (unreleased)
+<!---312f01f55c37c44015b29bcaae5892fa8accf493--->
+
+## 2.10.61 (2017-06-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.60...2.10.61)
 ### Fixed
 - email - Catch timeout from server exception. Closed [#1873](https://github.com/Flexget/Flexget/issues/1873)
 
-<!---d1499a6c887ef4b0c09a2df06d82468c9fa04f5e--->
 
 ## 2.10.60 (2017-06-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.59...2.10.60)
