@@ -3,7 +3,7 @@ Allows injecting imaginary entry for FlexGet to process. You can also use [the i
 
 **Syntax:**
 
-```
+```text
 --inject <TITLE> [URL] [ACCEPT] [FORCE]
 ```
         
@@ -11,7 +11,7 @@ Without URL a random url will be generated. All other inputs are disabled.
 
 **Example use:**
         
-```
+```bash
 flexget execute --inject "Some.Series.S02E12.Imaginary" --tasks my-series --learn
 ```
         
@@ -20,7 +20,7 @@ assuming task accepts the injected entry.
 
 **Example use 2:**
         
-```
+```bash
 flexget execute --tasks some.task --inject "Some.Title" "Some.direct.url" accept force
 ```
         
@@ -31,6 +31,6 @@ You can also set arbitrary [entry fields](/Entry) when injecting. This is done i
 
 **Example:**
 
-```
+```bash
 flexget execute --tasks some.task --inject "Some Title" "Some.direct.url" imdb_id=tt33333
 ```
