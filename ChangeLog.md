@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---586dec95bbd03700056a61fba62617c8d57876db--->
+<!---2a296a440605a33335b5265fc3f7b08fd3d4ffa4--->
+
+## 2.10.62.dev (unreleased)
+### Fixed
+- rss - Made rss plugin look for task.requests.headers. Also removed calls to basestring. Fixes [#1876](https://github.com/Flexget/Flexget/issues/1876)
+- split_title util crash when got a title that looked like a year. Fixes [#1877](https://github.com/Flexget/Flexget/issues/1877)
 
 <!---312f01f55c37c44015b29bcaae5892fa8accf493--->
 
