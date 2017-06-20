@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f9546915a8dddfb4381aac8551362206133f6b81--->
+<!---5ae77ef6ea89aec5459f3d8744c3c81782cd6a11--->
+
+## 2.10.63.dev (unreleased)
+### Added
+- urlrewrite plugin for rmz.cr (rapidmoviez.com|rapidmoviez.eu) ([#1879](https://github.com/Flexget/Flexget/issues/1879))
 
 <!---6b9a5547c3e479692e7dca09042ad9d4e7742429--->
 
