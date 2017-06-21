@@ -1,4 +1,4 @@
-# Autostart
+# [Install Wizard](/InstallWizard) > [Linux/BSD](/InstallWizard/Linux) > Auto Start
 
 Some options how to start FlexGet Automatically on boot
 
