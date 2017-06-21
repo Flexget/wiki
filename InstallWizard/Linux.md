@@ -107,15 +107,16 @@ Alternatively you can use following command without activating `virtualenv`.
 
 You will need to use this form if you use crontab to schedule FlexGet executions.
 
-## Install globally
+## Alternatively - Install globally
 
 Global install for all users can be achieved with the following command. This is also somewhat easier than to use a `virtualenv`.
 
 ```bash
+sudo pip install --upgrade setuptools
 sudo pip install flexget
 ```
 
-This usually works fine, but in some cases you may run into issues if multiple Python packages request different versions of libraries. `virtualenv` does not suffer from this issue.
+This usually works fine, but in some cases you may run into issues if multiple Python packages request different versions of libraries. `virtualenv` does not suffer from this issue and is the recommended method for new users.
 
 ## Next Step
 
