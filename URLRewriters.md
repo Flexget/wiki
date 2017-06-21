@@ -13,14 +13,13 @@ URL Rewriters do not need to be configured aside from generic [urlrewrite](/Plug
 
 ### Supported
 
-As of 2016-07 following rewriters are included. To get up to date list run command `flexget plugin --group urlrewriter`.
+As of 2017-06 following rewriters are included. To get up to date list run command `flexget plugin --interface urlrewriter`.
 
+* 1337x
+* animeindex
+* anirena
 * archetorrent   
-* animeindex     
-* anirena        
 * bakabt         
-* btchat         
-* btjunkie       
 * cinemageddon   
 * deadfrog       
 * divxatope      
@@ -28,22 +27,21 @@ As of 2016-07 following rewriters are included. To get up to date list run comma
 * eztv           
 * frenchtorrentdb
 * google
-* google_cse     
+* google_cse
+* hliang
 * iptorrents     
-* isohunt        
 * koreus         
 * newpct         
 * newtorrents    
 * nnm-club       
 * nyaa           
 * piratebay      
-* redskunk       
+* [rmz](Plugins/rmz)
 * serienjunkies  
 * shortened      
-* stmusic        
-* torrent411     
+* torrent411
+* torrentday
 * torrentleech   
-* torrentz       
 
 ### Custom rewriting with regexp
 
