@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1723e16282b7f7daee4ba50627fa1b780710608a--->
+<!---100621c14513cec031ce2e38c1dd6610ace99910--->
 
-## 2.10.64.dev (unreleased)
+<!---b2f6359dc6550965677c059075a92bd05f859b9a--->
+
+## 2.10.64 (2017-06-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.63...2.10.64)
 ### Fixed
 - rmz urlrewriter: fixed bug that loses links if another plugin adds links to the urls field of an entry before the urlrewriter is executed ([#1886](https://github.com/Flexget/Flexget/issues/1886))
 
-<!---4640c9b0ce5f0363c7b0f31d69d79f8a98557705--->
 
 ## 2.10.63 (2017-06-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.62...2.10.63)
