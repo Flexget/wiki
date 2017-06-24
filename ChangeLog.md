@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---100621c14513cec031ce2e38c1dd6610ace99910--->
+<!---2266d71d7e41891b01c4ae40f5badb43b5166925--->
+
+## 2.10.65.dev (unreleased)
+### Added
+- Added urlrewrite plugin for Rlsbb ([#1884](https://github.com/Flexget/Flexget/issues/1884))
 
 <!---b2f6359dc6550965677c059075a92bd05f859b9a--->
 
