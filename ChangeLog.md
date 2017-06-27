@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5a1a30f6cbe928fd43a3e6b9dfe528b1bb8ac009--->
+<!---ffb414029cf3176e5f823c85a74179faa31f032c--->
 
 ## 2.10.66.dev (unreleased)
 ### Added
 - Add a threshold setting next_series_seasons
+
+### Fixed
+- updated the nyaa plugin to use the new url. ([#1887](https://github.com/Flexget/Flexget/issues/1887))
 
 <!---f0c2749a6d55463aa5fb8c5629595f95a877f443--->
 
