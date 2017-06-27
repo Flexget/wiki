@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c53bf50c813c5104d351128d37b6b221712cff7d--->
+<!---5a1a30f6cbe928fd43a3e6b9dfe528b1bb8ac009--->
+
+## 2.10.66.dev (unreleased)
+### Added
+- Add a threshold setting next_series_seasons
 
 <!---f0c2749a6d55463aa5fb8c5629595f95a877f443--->
 
