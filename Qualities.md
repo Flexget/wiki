@@ -45,6 +45,7 @@ categories:
   - dts
   - dtshd
   - flac
+  - dd+5.1
   - ac3
   - dd5.1
   - aac
