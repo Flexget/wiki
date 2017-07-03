@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a70d21bde5a70de5474ffc24bbf34bfaf3c5e7ce--->
+<!---1c9741ab8d3647b0da9e6496ce517db3f196132b--->
+
+## 2.10.67.dev (unreleased)
+### Changed
+- *  api - /logout, /server/reload, /server/shutdown, /database/vacuum, /database/cleanup, and /database/reset_plugin use POST instead of GET
+- api - Updated unsafe requests to use POST instead of GET ([#1861](https://github.com/Flexget/Flexget/issues/1861))
 
 <!---3e0757407c7f19f7dd868cffd5aa2b68b2a3aca3--->
 
