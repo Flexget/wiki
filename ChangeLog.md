@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ce311ed5609dcf1c41c6e1a1286cc4691f1201b3--->
+<!---857f6bafd06fe748f797ab32bad10666e787e9f7--->
 
 ## 2.10.67.dev (unreleased)
 ### Changed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - api - Updated unsafe requests to use POST instead of GET ([#1861](https://github.com/Flexget/Flexget/issues/1861))
 
 ### Fixed
+- irc: Print skipped line when skipping ([#1890](https://github.com/Flexget/Flexget/issues/1890))
 - irc: Made sure ignores actually work ([#1889](https://github.com/Flexget/Flexget/issues/1889))
 
 <!---3e0757407c7f19f7dd868cffd5aa2b68b2a3aca3--->
