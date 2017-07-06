@@ -9,6 +9,15 @@ Note that searching for season packs can produce episode results, depending on t
 ### Quality upgrades
 Once one quality has been successfully downloaded that episode is never created again. This means that ``discover`` with ``next_series_seasons`` does not currently work with quality upgrades.
 
+## Plugin Settings
+Currently the following settings are supported:
+
+| Option| Description |
+| --- | --- |
+| **from_start** | Start emitting seasons from the start of a show (season 1) or the series `begin` season |
+| **backfill** | Emit any missing previous seasons back to the series `begin` season |
+| **threshold** | Only emit seasons where `threshold` or less episodes have already been downloaded |
+
 ### New series
 
 If you would like to start every show automatically without setting the begin episode, you can configure `next_series_seasons` like this:
@@ -30,9 +39,9 @@ next_series_seasons:
 
 **NOTE**: Along with this setting, you must also set the [`series`](/Plugins/series)  option [`tracking`](/Plugins/series/tracking) to `backfill`, or `series` will reject the emitted seasons as being too far in the past.
 
-### Examples
+## Examples
 
-#### Manually specify begin in configuration
+### Manually specify begin in configuration
 
 ```yaml
 discover:
@@ -49,7 +58,7 @@ series:
       season_packs: yes
 ```
 
-#### Group configuration with backfill
+### Group configuration with backfill
 
 ```yaml
 discover:
