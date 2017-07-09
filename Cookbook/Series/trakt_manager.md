@@ -31,13 +31,16 @@ tasks:
       type: episodes
     accept_all: yes
     set_series_begin: yes
-    trakt_remove:
-      account: myaccount
-      list: My TV Shows
-    trakt_add:
-      account: myaccount
-      list: My TV Shows
-      type: shows
+    list_remove:
+      - trakt_list:
+          account: myaccount
+          list: My TV Shows
+          type: episodes
+    list_add:
+      - trakt_list:
+          account: myaccount
+          list: My TV Shows
+          type: shows
 
   # This task is what will actually download your shows.
   # See https://flexget.com/wiki/Cookbook/Series/Search for a more detailed explanation of how this search based task works, as well as an example of how to use your `tv` template on an rss based task alongside.
