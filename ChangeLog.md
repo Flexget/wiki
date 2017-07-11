@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---857f6bafd06fe748f797ab32bad10666e787e9f7--->
+<!---92e71fd4696e3e129f5b1f6ee332066420757227--->
 
-## 2.10.67.dev (unreleased)
+<!---8abca8180091e6de238cd1f9fabe9e00fea0a15c--->
+
+## 2.10.67 (2017-07-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.66...2.10.67)
 ### Changed
 - *  api - /logout, /server/reload, /server/shutdown, /database/vacuum, /database/cleanup, and /database/reset_plugin use POST instead of GET
 - api - Updated unsafe requests to use POST instead of GET ([#1861](https://github.com/Flexget/Flexget/issues/1861))
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - irc: Print skipped line when skipping ([#1890](https://github.com/Flexget/Flexget/issues/1890))
 - irc: Made sure ignores actually work ([#1889](https://github.com/Flexget/Flexget/issues/1889))
 
-<!---3e0757407c7f19f7dd868cffd5aa2b68b2a3aca3--->
 
 ## 2.10.66 (2017-06-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.65...2.10.66)
