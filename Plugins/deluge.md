@@ -144,7 +144,7 @@ Should you wish to use the Deluge plugin:
 
 ## Windows Users
 FlexGet should be able to detect Deluge in its install directory if:
-- Deluge is installed in the default install directory <program files>\Deluge
+- Deluge is installed in the default install directory \<program files\>\Deluge
 - FlexGet and Deluge are installed with 32 bit Python 2.7
 
 You can ignore messages about disconnecting from the daemon in a 'non-clean' fashion. This is normal on Windows.
