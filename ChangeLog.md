@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---92e71fd4696e3e129f5b1f6ee332066420757227--->
+<!---2cd76833d1f34b3711908bfa557d19127a4590f0--->
+
+## 2.10.68.dev (unreleased)
+### Fixed
+- retry_failed - Set hard limit for max failures. Closes [#1852](https://github.com/Flexget/Flexget/issues/1852)
 
 <!---8abca8180091e6de238cd1f9fabe9e00fea0a15c--->
 
