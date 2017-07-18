@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dec055b3660c7cfa9cffe2529d3a6468cb179f77--->
+<!---2ae7498c394e5bc635ddd5699a45063791553587--->
+
+## 2.10.69.dev (unreleased)
+### Fixed
+- torrent_alive - Fail gracefully if torrent does not have tracker specified. Closes [#1891](https://github.com/Flexget/Flexget/issues/1891)
 
 <!---6aeb312c8422af475f7822239a418f01dffada21--->
 
