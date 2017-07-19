@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2de25a6a350d760dbcc15a003ae2a38842752330--->
+<!---1d1f006da62a454b3bdfb3c0ccf32feb1f7f3f7e--->
 
-## 2.10.69.dev (unreleased)
+<!---e9472abddb8c4e19ae51c33cc1651abe11373e73--->
+
+## 2.10.69 (2017-07-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.68...2.10.69)
 ### Fixed
 - Update sonarr_list.py ([#1895](https://github.com/Flexget/Flexget/issues/1895))
 - torrent_alive - Fail gracefully if torrent does not have tracker specified. Closes [#1891](https://github.com/Flexget/Flexget/issues/1891)
 
-<!---6aeb312c8422af475f7822239a418f01dffada21--->
 
 ## 2.10.68 (2017-07-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.67...2.10.68)
