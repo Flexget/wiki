@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5cf8bf0c170936f9356a56576d69d838212f2a68--->
+<!---0468b634963ab68add0d18ff70e7d75e6d1b1579--->
 
-## 2.10.71.dev (unreleased)
+<!---6c3a19bb0d3db4a91f0a8382311fde4b17329c35--->
+
+## 2.10.71 (2017-07-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.70...2.10.71)
 ### Fixed
 - series - Tighten season pack custom schema
 
-<!---7a14686464f8bfe6c3b9ab7e3854f5c92c717558--->
 
 ## 2.10.70 (2017-07-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.69...2.10.70)
