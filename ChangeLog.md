@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ab00abb7db00c340b6ef7fc2a053d1888d5e9d39--->
+<!---5cf8bf0c170936f9356a56576d69d838212f2a68--->
+
+## 2.10.71.dev (unreleased)
+### Fixed
+- series - Tighten season pack custom schema
 
 <!---7a14686464f8bfe6c3b9ab7e3854f5c92c717558--->
 
