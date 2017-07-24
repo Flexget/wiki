@@ -56,6 +56,7 @@ notify:
           from: xxx@xxx.xxx
           to: xxx@xxx.xxx
           smtp_host: smtp.host.com
+          html: yes # To parse template as HTML
 ```
 
 **Config example with smtp login and multiple recipients**
@@ -74,6 +75,7 @@ notify:
           smtp_port: 25
           smtp_username: my_smtp_login
           smtp_password: my_smtp_password
+          html: yes # To parse template as HTML
 ```
 **Gmail example**
 ```yaml
@@ -89,4 +91,5 @@ notify:
           smtp_username: gmailUser
           smtp_password: gmailPassword
           smtp_tls: yes
+          html: yes # To parse template as HTML
 ```
