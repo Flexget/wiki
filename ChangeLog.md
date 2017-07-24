@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---734b81c8086ca3d014d3223406f93e3254e4ac6c--->
+<!---7002579e0fc581a1692aa34d265de02b6bfdd6c2--->
 
 ## 2.10.73.dev (unreleased)
 ### Added
+- symlink: Added support for hardlinking files and dirs ([#1898](https://github.com/Flexget/Flexget/issues/1898))
 - New plugin: abort_if_exists ([#1899](https://github.com/Flexget/Flexget/issues/1899))
 
 <!---f72759d1c11b5334544185a1c7106940f613a8da--->
