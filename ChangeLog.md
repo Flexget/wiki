@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5cd592dfe1e33a4150a53db1e4609e0bbb6ed493--->
+<!---1083c26ccf4d42b6b42033c2e3327c74b905c249--->
+
+## 2.10.74.dev (unreleased)
+### Fixed
+- series - Specials that look like season packs were rejected. Fixes [#1900](https://github.com/Flexget/Flexget/issues/1900)
 
 <!---4198cc61145bc3908c6098833c46f43af653077c--->
 
