@@ -1,12 +1,18 @@
 # Symlink
+<div class="alert alert-warning" role="alert">
+  <span class="glyphicon glyphicon-info-sign"></span>
+  &nbsp;
+  Unavailable on windows.
+</div>
 
-Unavailable on windows.
 
 ```text
 symlink:
   to: <destination>
+  existing: <*fail*|ignore>
+  link_type: <hard|*soft*>
 ```
-
+Default marked with \*. Supports hardlinking directories (creates new dirs and recursively hardlinks all files).
 ## Examples
 
 
