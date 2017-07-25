@@ -3,24 +3,40 @@
 ### Below is a sample config.yml file which does the following:
 
  - downloads MMA events from Demonoid RSS feed.
+   - Bellator MMA
+   - Glory (kickboxing)
+   - Invicta FC
+   - LFA (Legacy Fighting Alliance)
+   - One Championship
+   - Titan FC
+   - UFC (Ultimate Fighting Championship)
+   - WSOF (World Series of Fighting)
+   - UFC Now (tv show)
  - keeps track of downloads to prevent duplicates.
  - uses deluge as the client to download torrents.
  - only downloads files in 720p resolution.
 
-### Please replace everything below beginning with `QQQ` with your relevant information.
+
+### The following changes can be made:
+ - replace everything below beginning with `QQQ` with your relevant information.
+ - if using a different download client, replace all lines indented under `deluge` with corresponding lines for a different [supported download client](https://flexget.com/Plugins#output).
+ - Note: `movedone` can only be used with deluge plugin.
+ - The quality can be changed from 720p. [See here](https://flexget.com/Plugins/quality)
+ - The `user-agent` must be changed. [This site](www.whoishostingthis.com/tools/user-agent/) displays your user-agent.
+ - Save the [correct cookies](https://github.com/metaMMA/metaMMA/wiki/Using-FlexGet-to-automate-downloads#4-optional-if-using-a-vpn-cookies-may-need-to-be-stored)
 
 ```
 templates:
   mma:
     deluge:
-      host: localhost
-      port: 58846
+      host: QQQlocalhostQQQ
+      port: QQQ58846QQQ
       username: QQQusernameQQQ
       password: QQQpasswordQQQ
-      path: QQQ/mnt/2.0TB/MMA/downloading/QQQ
-      movedone: QQQ/mnt/2.0TB/MMA/done/QQQ
-      label: MMAevent
-      queuetotop: yes
+      path: QQQ/mnt/2TB/MMA/downloading/QQQ
+      movedone: QQQ/mnt/2TB/MMA/done/QQQ
+      label: QQQMMAeventQQQ
+      queuetotop: QQQyesQQQ
     urlrewrite:
       demonoid:
         regexp: https://www.demonoid.pw/files/details/(?P<id>\d+)/
