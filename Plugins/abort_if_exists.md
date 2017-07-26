@@ -1,5 +1,5 @@
 # Abort If Exists
-Abort the running task if the specified field in an entry matches the regexp.
+Abort the running task if the specified field in an entry matches the regexp. This is useful when moving local files around and a program is currently transferring data to the disk.
 
 ```YEXT
 abort_if_exists:
