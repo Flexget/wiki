@@ -169,6 +169,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [abort_if_exists](/Plugins/abort_if_exists) | Abort if at least one entry contains a field matching a regexp. |
 | [accept_all](/Plugins/accept_all) | Accept all entries. |
 | [archives](/Plugins/archives) | Accept, reject entries based on if they're valid ZIP/RAR archives. |
 | [exists](/Plugins/exists) | Reject entries based on existing files in filesystem. |
@@ -262,7 +263,7 @@ Perform different file operations using accepted entries.
 | [move](/Plugins/move) | Move local files. |
 | [sftp_download](/Plugins/sftp_download) | Download files from an SFTP server |
 | [sftp_upload](/Plugins/sftp_upload) | Upload files to an SFTP server |
-| [symlink](/Plugins/symlink) | Symlink local files. |
+| [symlink](/Plugins/symlink) | Symlink local files. Supports soft and hard links. |
 
 ### Generators output
 Generate custom output using accepted entries
