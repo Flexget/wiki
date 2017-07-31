@@ -336,7 +336,7 @@ Manipulate relevant data based on input.
 | [torrent_scrub](/Plugins/torrent_scrub) | Removes non-standard keys like libtorrent resume information from downloads (which prevents the torrent from properly starting in Rtorrent). |
 | [urlrewrite](/Plugins/urlrewrite) | User regexp for URL Rewriting. |
 | [rmz](/Plugins/rmz)| URL rewrite plugin for rmz.cr rss feed. Filehoster links to be grabbed can be configured.
-| [rlsbb](/Plugins/rlsbb)| URL rewrite plugin for rlsbb.cr rss feed. Filehoster links to be grabbed and comment parsing can be configured.
+| [rlsbb](/Plugins/rlsbb)| URL rewrite plugin for rlsbb.ru rss feed. Filehoster links to be grabbed and comment parsing can be configured.
 
 ### FlexGet internal operations
 Perform various FlexGet operations.
