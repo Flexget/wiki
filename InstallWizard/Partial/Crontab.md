@@ -6,7 +6,7 @@ FlexGet is designed to be executed from user crontab.
 If your system is running with systemd you can directly configure it to run the command every hours as the current user with the following command:
 
 ```bash
-systemd-run --on-active="1h" --uid=`id -u` --gid=`id -g` `which flexget`
+systemd-run --on-active="1h" --uid=`id -u` --gid=`id -g` `which flexget` execute
 ```
 
 This will prompt you for the root password (as system services require root to be configured) and then will let you know the name of the service. You can confirm it was scheduled by looking at the system.d scheduler with `systemctl list-timers`.
