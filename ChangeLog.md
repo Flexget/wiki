@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3000ab932d6e2959a102cec8e3c42892da5a693--->
+<!---6f44b14b218eab86ba5f0d1ae9022e2cd015b418--->
+
+## 2.10.75.dev (unreleased)
+### Fixed
+- fixed bug in rlsbb.py that occurred when the entry had no urls field ([#1904](https://github.com/Flexget/Flexget/issues/1904))
+- fixed bug in rmz.py that caused an error if the entry does not contain an urls field ([#1905](https://github.com/Flexget/Flexget/issues/1905))
+
+### Added
+- added urlrewrite plugin for allyoulike.com ([#1903](https://github.com/Flexget/Flexget/issues/1903))
 
 <!---1c286d9ab02f0334132743a378968dd9d5176367--->
 
