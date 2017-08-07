@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b1e3e4233d1336a9d97d7edc90bf34e0199e873b--->
+<!---3334586e5a7c257b3795600b5a511e083f9f79c5--->
+
+## 2.10.76.dev (unreleased)
+### Fixed
+- series premiere - Fix issue that series premiere accepted all series on rerun. Fix [#1906](https://github.com/Flexget/Flexget/issues/1906)
 
 <!---ad51687a2e575f63a3152e5551012829a3ceb7be--->
 
