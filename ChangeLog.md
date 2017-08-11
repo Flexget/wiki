@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a3b3e2bfc426701afbe27794bb7780c5d83363a9--->
+<!---bc2f5318dc6450a072a9cdef97689c2835bc11b3--->
+
+## 2.10.78.dev (unreleased)
+### Fixed
+- *updated PR* npo_watchlist: Rewrite to support new npo.nl layout ([#1907](https://github.com/Flexget/Flexget/issues/1907))
 
 <!---bb63a073af2b87a55256e786b12d3937fbba3de4--->
 
