@@ -10,7 +10,7 @@ tasks:
       settings:
         720p:
           set:
-            category: '\{{series_name}}'
+            category: '{{series_name}}'
       720p:
         - chuck
         - south park
