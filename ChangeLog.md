@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---912f018d5b0b63140037bc19a2b2d7e1f4246c17--->
+<!---69d02c291c38ae6657fd4aca7662b50dc1e33f84--->
 
-## 2.10.81.dev (unreleased)
+<!---894143601a4143a10617a97f490dfbd612bdd7c2--->
+
+## 2.10.81 (2017-08-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.80...2.10.81)
 ### Fixed
 - Fix missing grid-favourite bug in npo_watchlist ([#1942](https://github.com/Flexget/Flexget/issues/1942))
 
-<!---59ed414f6165f051d82046b7c29c7fbf24f863a9--->
 
 ## 2.10.80 (2017-08-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.79...2.10.80)
