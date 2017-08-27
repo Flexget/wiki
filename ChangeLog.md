@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be710f2669b83f056066e26d0369f2fc857bf271--->
+<!---42b48fa9055ab8a5b4af4bed195700e66331b1e3--->
+
+## 2.10.83.dev (unreleased)
+### Fixed
+- nzb_size: no longer crashes if filename field is None, closes [#1948](https://github.com/Flexget/Flexget/issues/1948)
 
 <!---bf7c7ec0d9cf3d5bd837b186966b5ee61ced66a9--->
 
