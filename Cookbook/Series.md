@@ -34,11 +34,7 @@
 ## Resources
 *Torrent feeds*
 
- * http://showrss.info/feeds/all.rss
  * http://eztv.ag/ezrss.xml
- * http://kat.ph/tv/?rss=1
- * http://torrentz.eu/feed?verified&q=tv%20shows
- * http://extratorrent.cc/rss.xml?cid=8
 
 *NZB Feeds*
 
