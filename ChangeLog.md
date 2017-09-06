@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---47b37ee9727d64fd25ab0d97931b9841d72d86b5--->
+<!---1a4c4c2117924eacfd44b3e68ed196e558a7fa7e--->
 
-## 2.10.85.dev (unreleased)
+<!---3242d3a5e932a0172140acda75ee9ce49eb95d61--->
+
+## 2.10.85 (2017-09-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.84...2.10.85)
 ### Fixed
 - pogcal: fixed login check
 - pogcal: switched to https, which seems to be required for login now, fixes [#1958](https://github.com/Flexget/Flexget/issues/1958)
 
-<!---78d3f3ae94373a63ccb4aed2266f4f2f68927158--->
 
 ## 2.10.84 (2017-09-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.83...2.10.84)
