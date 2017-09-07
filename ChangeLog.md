@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1a4c4c2117924eacfd44b3e68ed196e558a7fa7e--->
+<!---8a8d2d7ba8900b781ab2e96bd447a5d3416db6a2--->
+
+## 2.10.86.dev (unreleased)
+### Fixed
+- nfo_lookup: no longer returns after finding one NFO
 
 <!---3242d3a5e932a0172140acda75ee9ce49eb95d61--->
 
