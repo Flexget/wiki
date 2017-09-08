@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b981492f48bc6a180d9f34039825be2b651e4713--->
+<!---c2cdc6b186a8474792454a0dbb2fee8d0200dd6d--->
+
+## 2.10.87.dev (unreleased)
+### Added
+- quality: Added VP9 quality
 
 <!---e71bbf7803c04b9020c1bff2a53e65415388eb48--->
 
