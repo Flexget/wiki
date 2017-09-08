@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8a8d2d7ba8900b781ab2e96bd447a5d3416db6a2--->
+<!---b981492f48bc6a180d9f34039825be2b651e4713--->
 
-## 2.10.86.dev (unreleased)
+<!---e71bbf7803c04b9020c1bff2a53e65415388eb48--->
+
+## 2.10.86 (2017-09-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.85...2.10.86)
 ### Fixed
 - nfo_lookup: no longer returns after finding one NFO
 
-<!---3242d3a5e932a0172140acda75ee9ce49eb95d61--->
 
 ## 2.10.85 (2017-09-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.84...2.10.85)
