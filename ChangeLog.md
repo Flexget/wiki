@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c2cdc6b186a8474792454a0dbb2fee8d0200dd6d--->
+<!---9385cc311712013bd42d313bc209c4f31a4bbf3c--->
 
-## 2.10.87.dev (unreleased)
+<!---debeb673ffc50547751bbea372e0c882b90468d7--->
+
+## 2.10.87 (2017-09-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.86...2.10.87)
 ### Added
 - quality: Added VP9 quality
 
-<!---e71bbf7803c04b9020c1bff2a53e65415388eb48--->
 
 ## 2.10.86 (2017-09-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.85...2.10.86)
