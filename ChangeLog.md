@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9385cc311712013bd42d313bc209c4f31a4bbf3c--->
+<!---9d6b11b7086e0f81790df8677d7820e18a5cd7cf--->
+
+## 2.10.88.dev (unreleased)
+### Added
+- added a search plugin for AHD
 
 <!---debeb673ffc50547751bbea372e0c882b90468d7--->
 
