@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9d6b11b7086e0f81790df8677d7820e18a5cd7cf--->
+<!---40798b3a51faeef6f970182f35ee4c3a05fe756f--->
 
 ## 2.10.88.dev (unreleased)
 ### Added
 - added a search plugin for AHD
+
+### Fixed
+- Fix series_premiere + series pairing. Fixes [#1960](https://github.com/Flexget/Flexget/issues/1960) ([#1961](https://github.com/Flexget/Flexget/issues/1961))
 
 <!---debeb673ffc50547751bbea372e0c882b90468d7--->
 
