@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---40798b3a51faeef6f970182f35ee4c3a05fe756f--->
+<!---c6328cf2dcf6d852a78a430c24ff9cd46ea734c2--->
 
 ## 2.10.88.dev (unreleased)
 ### Added
+- added passthepopcorn plugin
 - added a search plugin for AHD
 
 ### Fixed
