@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c6328cf2dcf6d852a78a430c24ff9cd46ea734c2--->
+<!---3f00992c09d0b98574eea9809241824a4b4189b9--->
 
-## 2.10.88.dev (unreleased)
+<!---51af01f2563370a7d74928c90e6bb45cd5daae89--->
+
+## 2.10.88 (2017-09-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.87...2.10.88)
 ### Added
 - added passthepopcorn plugin
 - added a search plugin for AHD
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - Fix series_premiere + series pairing. Fixes [#1960](https://github.com/Flexget/Flexget/issues/1960) ([#1961](https://github.com/Flexget/Flexget/issues/1961))
 
-<!---debeb673ffc50547751bbea372e0c882b90468d7--->
 
 ## 2.10.87 (2017-09-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.86...2.10.87)
