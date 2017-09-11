@@ -11,7 +11,7 @@
 
   <span class="glyphicon glyphicon glyphicon-comment"></span>
   &nbsp;
-  We need your help! If you are an AngularJS developer or can help with the layout/design/css then please join in the effort.
+  We're rewritin in react! Check out the new page [here](/Web-UI/v2)!
 </div>
 
 **Related pages**
