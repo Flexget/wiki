@@ -11,7 +11,7 @@
 
   <span class="glyphicon glyphicon glyphicon-comment"></span>
   &nbsp;
-  We're rewritin in react! Check out the new page [here](/Web-UI/v2)!
+  We're re-writing the Web UI in React! Check out the new page [here](/Web-UI/v2)!
 </div>
 
 **Related pages**
