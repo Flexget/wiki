@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---85267da779900ee8f62db501b06396f2016bbf05--->
+<!---ee74d83b265226a169e7d884427d6d4d6d2425a2--->
+
+## 2.10.90.dev (unreleased)
+### Fixed
+- passthepopcorn: no longer set freetorrent to 0 by default as it causes issues
 
 <!---d2634edf3c47c0f97b8a809b0eda26a900b92e79--->
 
