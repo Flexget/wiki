@@ -30,11 +30,13 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [`awesomehd`](/Searches/awesomehd) | Searches torrent site AwesomeHD |
 | [`btn`](/Searches/btn) | Searches torrent site BTN |
 | [`cpasbien`](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
 | [`filelist`](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
 | [`iptorrents`](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
 | [`newznab`](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
+| [`passthepopcorn`](/Searches/passthepopcorn) | Searches torrent site PassThePopcorn |
 | [`ptn`](/Searches/ptn) | Searches torrent site PtN |
 | [`morethantv`](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
 | [`sceneaccess`](/Searches/sceneaccess) | Searches torrent site sceneaccess |
