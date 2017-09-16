@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ee74d83b265226a169e7d884427d6d4d6d2425a2--->
+<!---1e57bf1abd836d97252a72a85c8b20457669dbda--->
 
-## 2.10.90.dev (unreleased)
+<!---cc84d296b6c493b1bf75a5a2cc72a36a7b3e1693--->
+
+## 2.10.90 (2017-09-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.89...2.10.90)
 ### Fixed
 - passthepopcorn: no longer set freetorrent to 0 by default as it causes issues
 
-<!---d2634edf3c47c0f97b8a809b0eda26a900b92e79--->
 
 ## 2.10.89 (2017-09-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.88...2.10.89)
