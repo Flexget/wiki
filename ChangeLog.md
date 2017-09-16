@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bfdd99b2d1611c5f42b274d9d0a0cce0c3ab8b2d--->
+<!---34ab9df64948ad93bc85a7c11c71496841ddf3fc--->
 
 ## 2.10.91.dev (unreleased)
 ### Added
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Fixed
 - newpct: hopefully made the link search more robust, fixes [#1964](https://github.com/Flexget/Flexget/issues/1964)
+
+### Changed
+- awesomehd: changed schema to allow specifying passkey directly
 
 <!---cc84d296b6c493b1bf75a5a2cc72a36a7b3e1693--->
 
