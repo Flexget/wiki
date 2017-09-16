@@ -23,6 +23,7 @@ The `default` template will notify you of all downloaded entries, and of any fai
 | smtp_tls |yes/no| Should TLS be used to connect | no|
 | smtp_ssl | yes/no|Should SSL be used to connect| no
 |html| yes/no | Should parse message as HTML|no
+|autofrom| yes/no | Automatically Generate From address based on username and system hostname|no
 
 
 
@@ -93,3 +94,13 @@ notify:
           smtp_tls: yes
           html: yes # To parse template as HTML
 ```
+**Config example - Autofrom option for systems with local MTA**
+```yaml
+notify:
+  task:
+    via:
+      - email:
+          autofrom: yes
+          to: xxx@xxx.xxx
+```
+
