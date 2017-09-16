@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e6f70ad3e69a0a1bf0773a6f772baad9147a2d2f--->
+<!---bfdd99b2d1611c5f42b274d9d0a0cce0c3ab8b2d--->
 
 ## 2.10.91.dev (unreleased)
 ### Added
 - Add autofrom Option to Email Notify Plugin ([#1966](https://github.com/Flexget/Flexget/issues/1966))
+
+### Fixed
+- newpct: hopefully made the link search more robust, fixes [#1964](https://github.com/Flexget/Flexget/issues/1964)
 
 <!---cc84d296b6c493b1bf75a5a2cc72a36a7b3e1693--->
 
