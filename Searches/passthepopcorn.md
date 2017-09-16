@@ -53,7 +53,8 @@ Choose one or more of the following tags:
 - video.art
 - war
 - western
-### Orderings
+
+### Order by
 - Relevance
 - Time added
 - Time w/o reseed
