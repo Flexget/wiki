@@ -1,9 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff0cda27d2483c0d743347ffbb83d620c1166266--->
+<!---371613687444e5632433b4be262cc1deb5f3c752--->
 
-<!---0e5eba7598e6142efa360f7405ac4035ae8027f2--->
+<!---602e8c212902d932abc330ab4b2ebd1e63dd1d22--->
+
+## 2.10.92 (2017-09-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.91...2.10.92)
+### Fixed
+- ptn: Ptn search plugin gets results again.
+
 
 ## 2.10.91 (2017-09-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.90...2.10.91)
