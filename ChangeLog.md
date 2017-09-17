@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---34ab9df64948ad93bc85a7c11c71496841ddf3fc--->
+<!---ff0cda27d2483c0d743347ffbb83d620c1166266--->
 
-## 2.10.91.dev (unreleased)
+<!---0e5eba7598e6142efa360f7405ac4035ae8027f2--->
+
+## 2.10.91 (2017-09-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.90...2.10.91)
 ### Added
 - Add autofrom Option to Email Notify Plugin ([#1966](https://github.com/Flexget/Flexget/issues/1966))
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - awesomehd: changed schema to allow specifying passkey directly
 
-<!---cc84d296b6c493b1bf75a5a2cc72a36a7b3e1693--->
 
 ## 2.10.90 (2017-09-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.89...2.10.90)
