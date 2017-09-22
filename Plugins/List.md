@@ -12,6 +12,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. |
 | [regexp_list](/Plugins/List/regexp_list) | Use or add entries to a custom made regexp list. |
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
+| [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted
 ### Operating with lists
 
 | Plugin name | Description |
