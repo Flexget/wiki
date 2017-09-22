@@ -2,7 +2,7 @@
 
 ## Note
 
-This is rather complicated and mostly useless as series plugin will continue from next episode it sees in the feed. Some times it may get stuck to wrong older episode for example if S01E01 happens to appear as first episode FlexGet sees but the series is already going on second season. Even then you can tell !FlexGet to ignore that and continue from later episodes but this may be a problematic if you have hundreds of shows. This recipe may come in handy then.
+This is rather complicated and mostly useless as series plugin will continue from next episode it sees in the feed. Some times it may get stuck to wrong older episode for example if S01E01 happens to appear as first episode FlexGet sees but the series is already going on second season. Even then you can tell FlexGet to ignore that and continue from later episodes but this may be a problematic if you have hundreds of shows. This recipe may come in handy then.
 
 
 ## Recipe
