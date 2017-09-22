@@ -27,7 +27,7 @@ tasks:
     manual: yes
 ```
 
-Now, you can run `flexget --task seed_series_db --disable-advancement --learn` to run this task and let the series plugin learn about your existing episodes. This should only need to be done when you first set up FlexGet, or when you add a new show to your config which you already have episodes downloaded for.
+Now, you can run `flexget execute --task seed_series_db --disable-advancement --learn` to run this task and let the series plugin learn about your existing episodes. This should only need to be done when you first set up FlexGet, or when you add a new show to your config which you already have episodes downloaded for.
 
 You can test to see if it worked by running a [`flexget series list`](/CLI/series) report.
 
