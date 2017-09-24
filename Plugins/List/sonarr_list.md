@@ -27,7 +27,12 @@ The following settings are optional:
 | **include_ended** |  Decides whether to retrieve ended shows. Default is True  |
 | **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is False  |
 | **include_data** |  Decides whether to send quality profile, cutoff quality and original show path to Flexget. Default is False. Relevant only when combining with [configure_series](https://flexget.com/wiki/Plugins/configure_series) plugin |
+| **ignore_episodes_with_files** | Unmonitors any episodes with a file.  Default is False |
+| **ignore_episodes_without_files** | Unmonitors any episodes without a file. Default is False | 
+| **search_missing_episodes**  | Searches for missing files after applying `ignore_episodes_with_files` and `ignore_episodes_with_files`. It can be used to control which episodes Sonarr monitors after adding the series, ignoring episodes with and without files will only monitor future episodes. Default if True |
 
+
+  
 ## Examples
 
 ### Configure series from sonarr
