@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---81d19941256d8414587165e9f2e8749ad9c2cc89--->
+<!---fa64bd4a67861a7bb42d651984d85ed0b1557da9--->
+
+## 2.10.94.dev (unreleased)
+### Added
+- -Additional options for adding Sonarr series ([#1969](https://github.com/Flexget/Flexget/issues/1969))
 
 <!---d997cab494991899e32ed254ad3a2a270122ddd2--->
 
