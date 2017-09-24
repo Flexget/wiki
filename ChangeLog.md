@@ -7,6 +7,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.10.93 (2017-09-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.92...2.10.93)
+### Added
+
+- Added [pending_list](/Plugins/List/pending_list) plugin
 
 ## 2.10.92 (2017-09-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.91...2.10.92)
