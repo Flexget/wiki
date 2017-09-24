@@ -44,7 +44,9 @@ task:
   download_new_shows:
     priority: 2
     pending_list: new_shows
-    accept_all: yes
+    list_match:
+      from:
+      - pending_list: new_shows
     notify:
       task:
         via:
