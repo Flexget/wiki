@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0a55edf608f1bdd02e5d6e15e73f302e6c920087--->
+<!---d7d5095dba91b95390c76f57502410e23175c535--->
 
-## 2.10.95.dev (unreleased)
+<!---64e7038b6d65e07908938f83a548cfa4ee1f4b94--->
+
+## 2.10.95 (2017-09-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.94...2.10.95)
 ### Fixed
 - fixed duplicates missing field and added tests. closed [#1972](https://github.com/Flexget/Flexget/issues/1972)
 
-<!---9552fff2635b9420bb748a27dba51d98d4d27ce0--->
 
 ## 2.10.94 (2017-09-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.93...2.10.94)
