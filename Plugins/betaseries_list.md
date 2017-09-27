@@ -1,7 +1,7 @@
 # betaseries list
 This plugin creates an [Entry](/Entry) for each serie a betaseries member follows.
 
-This plugin is useful for when used in a task with the [import_series](/Plugins/import_series) plugin to add series from your betaseries watchlist.
+This plugin is useful for when used in a task with the [configure_series](/Plugins/configure_series) plugin to add series from your betaseries watchlist.
 
 **Notes:** 
 
