@@ -17,7 +17,7 @@ The rest of this page will assume a UID of 1234.
 
 ## Build a FlexGet image
 
-Copy these two files to the same directory your NAS. You'll use them to create your image.
+Create a new directory on your NAS (doesn't really matter where) and copy these two files there. You'll use them to create your image.
 
 `Dockerfile`
 ```
