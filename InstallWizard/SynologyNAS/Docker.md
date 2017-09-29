@@ -113,11 +113,30 @@ alpine              latest              76da55c8019d        2 weeks ago         
 
 ## Launch the container(s)
 
-The provided Dockerfiles use the `VOLUME` directive to create points at which we can mount the host's filesystem into that of our containers. This is very handy for config files, which are much easier to edit if they live on the host.
+The provided Dockerfiles use the `VOLUME` directive to create points at which we can mount the host's filesystem into that of our containers. This is very handy:
 
-It's also a simple way to give separate containers access to a shared directory. We can use this to have FlexGet download .torrent files directly into Transmission's watch directory.
+* It lets us keep config files on the host, which makes them much easier to edit.
+* It lets data created by the containers outlive them. For the purposes of this guide, we want to store our finished torrents in a Shared Folder. We also want our torrent data and metadata to persist even if we have to delete or replace the Transmission container for some reason (e.g. updates).
+* It's a simple way to let two different containers share access to a single directory. FlexGet can download .torrent files directly into Transmission's watch directory.
 
-### Create directories
+The `docker run` commands you need to launch each container are below. Note that once you've launched a container, `docker stop` and `docker start` are used to control its state.
+
+### Transmission
+
+Create the necessary directories on your NAS:
+
+```sh
+mkdir -p \
+  /volume1/docker/transmission/config \
+  /volume1/docker/transmission/incomplete \
+  /volume1/docker/transmission/watch
+```
+
+The `docker run` command below maps Transmission's config, incomplete, and watch directories into locations under `/volume1/docker/transmission` on the host. It also maps the downloads directory to a Shared Folder cat `/volume1/Media/Downloads`.
+
+Note that you'll need to set the correct in-container locations for each of these directories in Transmission's [`settings.json`](https://github.com/transmission/transmission/wiki/Editing-Configuration-Files) file at `/volume1/docker/transmission/config/transmission-daemon/settings.json`. This file gets created automatically the first time the container starts, so you can just start it once to generate a default config.
+
+Use this command to launch the container:
 
 ```sh
 docker run -d \
@@ -133,6 +152,45 @@ docker run -d \
   transmission:latest
 ```
 
+Stop it with `docker stop transmission` before editing the settings file.
+
+Choose a password you'll use to access the Transmission web UI and then change the following settings:
+
+```json
+{
+    "blocklist-enabled": true,
+    "blocklist-url": "http://john.bitsurge.net/public/biglist.p2p.gz",
+    "download-dir": "/home/transmission/downloads",
+    "incomplete-dir": "/home/transmission/incomplete",
+    "incomplete-dir-enabled": true,
+    "rpc-authentication-required": true,
+    "rpc-bind-address": "0.0.0.0",
+    "rpc-enabled": true,
+    "rpc-password": "password",
+    "rpc-port": 9091,
+    "rpc-url": "/transmission/",
+    "rpc-username": "you",
+    "rpc-whitelist": "127.0.0.1",
+    "rpc-whitelist-enabled": false,
+    "start-added-torrents": true,
+    "trash-original-torrent-files": true,
+    "watch-dir": "/home/transmission/watch",
+    "watch-dir-enabled": true
+}
+```
+
+Save your changes and start Transmission back up with `docker start transmission`.
+
+### FlexGet
+
+Create the necessary directories:
+
+```sh
+mkdir -p /volume1/docker/flexget
+```
+
+Start FlexGet:
+
 ```sh
 docker run -d \
   --env "TZ=America/Los_Angeles" \
@@ -142,3 +200,15 @@ docker run -d \
   --volume /volume1/docker/transmission/watch:/home/flexget/torrents \
   flexget:2.10.95
 ```
+
+With these volume settings, FlexGet will download .torrent files directly into Transmission's watch directory.
+
+Your config file lives at `/volume1/docker/flexget/config.yml`. It's not necessary to stop/start the whole container when you make changes – instead, use the following command:
+
+```sh
+docker exec flexget flexget daemon reload-config
+```
+
+## That's all folks
+
+I hope this guide was helpful!
