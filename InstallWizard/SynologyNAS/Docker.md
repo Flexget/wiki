@@ -1,1 +1,1 @@
-# [Install Wizard](/InstallWizard) > SynologyNAS
+# [Install Wizard](/InstallWizard) > [SynologyNAS](/InstallWizard/SynologyNAS) > Docker
