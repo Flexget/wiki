@@ -1,0 +1,1 @@
+# [Install Wizard](/InstallWizard) > [SynologyNAS](/InstallWizard/SynologyNAS) > PythonPackage
