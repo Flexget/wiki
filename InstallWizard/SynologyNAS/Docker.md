@@ -6,7 +6,14 @@ Go to the DSM Package Center and install the Docker package. Run it.
 
 ## Create a user
 
-Use the DSM Control Panel to create a new user called `docker`. Make a note of the user's UID (the rest of this page will assume a UID of 1234).
+Use the DSM Control Panel to create a new user called `docker`. Make a note of the user's UID:
+
+```sh
+$ id -u docker
+1234
+```
+
+The rest of this page will assume a UID of 1234.
 
 ## Build a FlexGet image
 
