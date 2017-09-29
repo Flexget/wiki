@@ -188,7 +188,7 @@ Choose a password you'll use to access the Transmission web UI and then change t
 
 Save your changes and start Transmission back up with `docker start transmission`.
 
-The web UI will be available at `http://your-nas-host:9091/transmission/web/`.
+The web UI will be available at `http://your-nas-host:9091/transmission/web/` (don't omit the trailing slash).
 
 ### FlexGet
 
