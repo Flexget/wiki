@@ -1,11 +1,62 @@
-series:
-      - Star Wars Rebels:
-          begin: S02E03
-          set:
-            tvdb_id: 283468
-          quality: 720p hdtv
-      - The Knick:
-          begin: S01E07
-          set:
-            tvdb_id: 279977
-          quality: dvdrip
+# Configure series
+Generates [series](/Plugins/series) plugin configuration from titles produced by any input. Using this doesn't prevent configuring [series](/Plugins/series) plugin additionally. 
+
+Commonly used with:
+
+* [trakt_list](/Plugins/List/trakt_list)
+* [thetvdb_list](/Plugins/List/thetvdb_list)
+* [filesystem](/Plugins/filesystem)
+
+## Syntax
+```yaml
+configure_series:
+  [settings]:
+    # any series option
+    # e.g. quality, timeframe etc
+  from:
+    # any input(s)
+```
+
+### Settings
+You can use any of the [settings for the series plugin](/Plugins/series#Settings) within the 'settings' block in configure_series. This section is optional, but if included, the settings will be applied to every show configured.
+
+**NOTE:** If you need to set different options for individual series, you can do so using the [series](/Plugins/series) plugin alongside configure_series as shown in this [recipe.](/Cookbook/ForceStrictMatching)
+
+### From
+In this section you must include one or more configured [input plugins](/Plugins#Input). The titles of the entries created by this plugin will be used as the names of the series that you desire.
+
+## Examples 
+### Filesystem
+Let's say you have a directory where all your series are stored in each in the own folder. Something like:
+
+```text
+/media/series/pioneer one/
+/media/series/south park/
+```
+
+To automatically configure series plugin with all these you could do following:
+
+```yaml
+configure_series:
+  settings:
+    quality: 720p
+  from:
+    filesystem:
+      - /media/series/
+```
+
+This will make adding new series easy too, just create new directory there :)
+
+### TheTVDB list
+
+```yaml
+configure_series:
+  from:
+    thetvdb_list:
+      username: <username>
+      account_id: <account identifier>
+  settings:
+    timeframe: 12 hours
+    target: 720p
+    propers: 3 days
+```
