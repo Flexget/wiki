@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3deb24255f1499e784e4aa81d0441896169b339--->
+<!---a59e9c41c4ba7f8285bd0d63a6fbfdb792ccd891--->
+
+## 2.10.97.dev (unreleased)
+### Fixed
+- irc: fixed a bug with cli commands introduced in the last commit
 
 <!---d64133159992fda42ed6de3cb7e536559062654b--->
 
