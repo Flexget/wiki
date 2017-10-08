@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b937f4c4eb1735279638ca4ee5650349f797c072--->
+<!---b3deb24255f1499e784e4aa81d0441896169b339--->
 
-## 2.10.96.dev (unreleased)
+<!---d64133159992fda42ed6de3cb7e536559062654b--->
+
+## 2.10.96 (2017-10-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.95...2.10.96)
 ### Fixed
 - irc: potential fix for IOError 24 too many open files. Now also requires irc_bot 1.0.32+.
 
-<!---64e7038b6d65e07908938f83a548cfa4ee1f4b94--->
 
 ## 2.10.95 (2017-09-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.94...2.10.95)
