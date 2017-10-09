@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a59e9c41c4ba7f8285bd0d63a6fbfdb792ccd891--->
+<!---77a718c6a249fa7599b8e0ba0fd5726bd8ad43ee--->
 
-## 2.10.97.dev (unreleased)
+<!---5c294243ef546ff0da2f016642aeae6fe0ca1c1d--->
+
+## 2.10.97 (2017-10-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.96...2.10.97)
 ### Fixed
 - irc: fixed a bug with cli commands introduced in the last commit
 
-<!---d64133159992fda42ed6de3cb7e536559062654b--->
 
 ## 2.10.96 (2017-10-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.95...2.10.96)
