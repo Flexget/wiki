@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---11377506b82bc9c6016d70e0dd34882a5c2e1593--->
+<!---9a1e59bc5dd3ca0dc4cc948334d6eb7652eb5608--->
 
-## 2.10.98.dev (unreleased)
+<!---a9cece7bd0ffa6bc6de318f70f6a7bcdb55d3f28--->
+
+## 2.10.98 (2017-10-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.97...2.10.98)
 ### Fixed
 - passthepopcorn: fixed movie year comparison by converting to int, fixes [#1982](https://github.com/Flexget/Flexget/issues/1982)
 
-<!---5c294243ef546ff0da2f016642aeae6fe0ca1c1d--->
 
 ## 2.10.97 (2017-10-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.96...2.10.97)
