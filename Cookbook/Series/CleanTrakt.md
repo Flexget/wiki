@@ -10,7 +10,7 @@ trakt_list:
 trakt_lookup: yes
 disable: seen #is necessary to not get cross-contamination effects with caching
 if:
-  - trakt_collected and trakt_series_status in ['ended', 'cancelled']: accept
+  - trakt_collected and trakt_series_status in ['ended', 'canceled']: accept
 list_add: #optional
   - trakt_list:
     username: ***
