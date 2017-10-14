@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e16113d12eec37a44062bd65da2461c1648321c4--->
+<!---b358d011eec4aa374e33c1056920d1de969e8bb1--->
 
 ## 2.10.99.dev (unreleased)
 ### Fixed
+- series parser: will now attempt to parse as an episode before trying as a season pack, fixes [#1986](https://github.com/Flexget/Flexget/issues/1986)
 - convert_magnet: add check for libtorrent version 1.1.3+, fixes [#1983](https://github.com/Flexget/Flexget/issues/1983)
 
 <!---a9cece7bd0ffa6bc6de318f70f6a7bcdb55d3f28--->
