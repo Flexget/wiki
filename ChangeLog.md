@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7abdb9e2792b213451c630540406287ab1cdd6c6--->
+<!---fb622fb81fb79887e45cfabb06867fdd7b5d537b--->
+
+## 2.10.100.dev (unreleased)
+### Added
+- React Web UI ([#1854](https://github.com/Flexget/Flexget/issues/1854))
 
 <!---e81e230105c59d2945235a2e6ea807344b8a0e5a--->
 
