@@ -1,9 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9942c4bc9159b21bdf485fa8fdb69d304dde4832--->
+<!---92eaef8d9a2071b3548e3ac1eee137e1c88157eb--->
 
-## 2.10.101.dev (unreleased)
+## 2.10.102.dev (unreleased)
+### Changed
+- Switch TPB TLD to .org ([#1989](https://github.com/Flexget/Flexget/issues/1989))
+
+<!---98383bdaf8c4794fd3668275eca460f798207973--->
+
+## 2.10.101 (2017-10-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.100...2.10.101)
 ### Added
 - *  session.close statements after session request is sent
 - *  tests for wordpress plugin
@@ -19,7 +26,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - *  confusing function
 - * : Code cleaned up,  useless classes
 
-<!---d0a42f77030220c649c5b3c7cd63fe1f5e726c18--->
 
 ## 2.10.100 (2017-10-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.99...2.10.100)
