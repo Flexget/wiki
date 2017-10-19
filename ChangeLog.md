@@ -1,7 +1,23 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e741a9f2399009798d219bbbbadc230cae2710f0--->
+<!---9942c4bc9159b21bdf485fa8fdb69d304dde4832--->
+
+## 2.10.101.dev (unreleased)
+### Added
+- *  session.close statements after session request is sent
+- *  tests for wordpress plugin
+- *  wordpress_auth plugin
+- Added WordPress Authentication Plugin ([#1954](https://github.com/Flexget/Flexget/issues/1954))
+
+### Changed
+- *  code to make it cleaner, [removed] useless functions
+- * : Code cleaned up, [removed] useless classes
+
+### Removed
+- *  code to make it cleaner,  useless functions
+- *  confusing function
+- * : Code cleaned up,  useless classes
 
 <!---d0a42f77030220c649c5b3c7cd63fe1f5e726c18--->
 
