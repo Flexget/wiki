@@ -12,19 +12,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.10.101 (2017-10-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.100...2.10.101)
 ### Added
-- *  session.close statements after session request is sent
-- *  tests for wordpress plugin
-- *  wordpress_auth plugin
+
 - Added WordPress Authentication Plugin ([#1954](https://github.com/Flexget/Flexget/issues/1954))
-
-### Changed
-- *  code to make it cleaner, [removed] useless functions
-- * : Code cleaned up, [removed] useless classes
-
-### Removed
-- *  code to make it cleaner,  useless functions
-- *  confusing function
-- * : Code cleaned up,  useless classes
 
 
 ## 2.10.100 (2017-10-18)
@@ -68,7 +57,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.10.94 (2017-09-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.93...2.10.94)
 ### Added
-- -Additional options for adding Sonarr series ([#1969](https://github.com/Flexget/Flexget/issues/1969))
+- Additional options for adding Sonarr series ([#1969](https://github.com/Flexget/Flexget/issues/1969))
 
 
 ## 2.10.93 (2017-09-18)
