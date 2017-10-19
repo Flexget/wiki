@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ca66e04928d535e86d8e7cf9d8b253f9b706f3b0--->
+<!---e741a9f2399009798d219bbbbadc230cae2710f0--->
 
-## 2.10.100.dev (unreleased)
+<!---d0a42f77030220c649c5b3c7cd63fe1f5e726c18--->
+
+## 2.10.100 (2017-10-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.99...2.10.100)
 ### Added
 - Series api - season packs ([#1988](https://github.com/Flexget/Flexget/issues/1988))
 - React Web UI ([#1854](https://github.com/Flexget/Flexget/issues/1854))
 
-<!---e81e230105c59d2945235a2e6ea807344b8a0e5a--->
 
 ## 2.10.99 (2017-10-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.98...2.10.99)
