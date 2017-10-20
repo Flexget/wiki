@@ -314,7 +314,7 @@ Perform various operations on request that are being sent and received.
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [wp_auth](/Plugin/wp_auth) | Access WordPress [s2Member](https://s2member.com/) protected RSS feeds. |
+| [wp_auth](/Plugins/wp_auth) | Access WordPress [s2Member](https://s2member.com/) protected RSS feeds. |
 
 ### File operations
 Perform file oriented operations.
