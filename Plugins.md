@@ -310,6 +310,12 @@ Perform various operations on request that are being sent and received.
 | [proxy](/Plugins/proxy) | Use a proxy to access resources. |
 | [urlrewrite_search](/Plugins/urlrewrite_search) | Search for download URL from supported sites by using entry title. |
 
+### 3rd Party Site Request Operations
+
+| **Keyword** | **Description** |
+| --- | --- |
+| [wp_auth](/Plugin/wp_auth) | Access WordPress [s2Member](https://s2member.com/) protected RSS feeds. |
+
 ### File operations
 Perform file oriented operations.
 
