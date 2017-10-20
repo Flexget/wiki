@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---92eaef8d9a2071b3548e3ac1eee137e1c88157eb--->
+<!---dae5cbe5e3497a9bcc4d3af45bd7fc099753d29c--->
 
-## 2.10.102.dev (unreleased)
+<!---a09cb9670c19711f5607deefd208b83ebd567a35--->
+
+## 2.10.102 (2017-10-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.101...2.10.102)
 ### Changed
 - Switch TPB TLD to .org ([#1989](https://github.com/Flexget/Flexget/issues/1989))
 
-<!---98383bdaf8c4794fd3668275eca460f798207973--->
 
 ## 2.10.101 (2017-10-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.100...2.10.101)
