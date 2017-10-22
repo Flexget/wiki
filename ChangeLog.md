@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dae5cbe5e3497a9bcc4d3af45bd7fc099753d29c--->
+<!---79717e4aa1f81be468ecbaa44d0eebc963b261ce--->
+
+## 2.10.103.dev (unreleased)
+### Fixed
+- bluray estimator: properly handle empty results, fixes [#1973](https://github.com/Flexget/Flexget/issues/1973)
 
 <!---a09cb9670c19711f5607deefd208b83ebd567a35--->
 
