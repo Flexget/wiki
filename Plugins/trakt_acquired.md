@@ -1,1 +1,1 @@
-See ["Plugins/trakt_add"](/"Plugins/trakt_add").
+See ["Plugins/trakt_add"](/Plugins/trakt_add).
