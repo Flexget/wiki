@@ -57,7 +57,7 @@ This will allow downloading up to to 10 episodes per season (in any order) and a
 #### Ignoring episode threshold:
 In case you do not care about setting an episode threshold, and would like to always accept a season pack regardless of how many episdoes were already downloaded for that particular series, use the following option:
 ```yaml
-season_pack: always
+season_packs: always
 ```
 
 #### Accepting only season packs:
