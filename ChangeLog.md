@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---911df8ebfda07ddda1b784d40d8a4ae13ce78c67--->
+<!---7c2b245457c9ae5c4fc379f2363613e60beabe0a--->
 
-## 2.10.104.dev (unreleased)
+<!---7c3f4bc21e47b99f95ae0e8a2c06fb3e60facb8c--->
+
+## 2.10.104 (2017-10-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.103...2.10.104)
 ### Fixed
 - fix crash when no series aliases are present. closes [#1971](https://github.com/Flexget/Flexget/issues/1971)
 
-<!---071900c0bbaaf438dd6744e5b0e2c078597cf524--->
 
 ## 2.10.103 (2017-10-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.102...2.10.103)
