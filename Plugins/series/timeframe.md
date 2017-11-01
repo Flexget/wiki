@@ -36,7 +36,7 @@ If the [qualities](/Plugins/series/quality) option is defined alongside timefram
 ### Behavior with upgrade option
 If the [upgrade](/Plugins/series/upgrade) option is defined along with `target`, the target quality will still be allowed to download if it becomes available after a fallback quality has already been accepted.
 
-Note that [upgrade](/Plugins/series/upgrade) will not upgrade past the `target` quality.
+Note that [upgrade](/Plugins/series/upgrade) will not upgrade once the `target` quality has been reached even if the target is a range.
 
 ### Force Timeframe to Stop
 If you'd like the series plugin to stop waiting for your target quality, and accept whatever the current best episode is, you can run the task with the `--stop-waiting` flag. You'll need to specify the name of the series you'd like as well, e.g. `flexget execute --stop-waiting "pioneer one"`.
