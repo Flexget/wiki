@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c2b245457c9ae5c4fc379f2363613e60beabe0a--->
+<!---3db38b899fca84008fa655bd55609f4aecfaf04a--->
+
+## 2.10.105.dev (unreleased)
+### Fixed
+- fix crash when an episode pack was picked up on a next_series_episodes task as latest
 
 <!---7c3f4bc21e47b99f95ae0e8a2c06fb3e60facb8c--->
 
