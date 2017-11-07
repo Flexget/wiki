@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3db38b899fca84008fa655bd55609f4aecfaf04a--->
+<!---37f7036b5f309378c59b43b3514f72d38fcf2ebd--->
 
-## 2.10.105.dev (unreleased)
+<!---b8bd5ec8f0283a5b75f2f8cc69e12da73ca6a710--->
+
+## 2.10.105 (2017-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.104...2.10.105)
 ### Fixed
 - fix crash when an episode pack was picked up on a next_series_episodes task as latest
 
-<!---7c3f4bc21e47b99f95ae0e8a2c06fb3e60facb8c--->
 
 ## 2.10.104 (2017-10-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.103...2.10.104)
