@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1dd469cbfa22c91e5acea3458778157e76ccab40--->
+<!---2040368f7142138a0f950206c3ad8f32ef911b65--->
 
-## 2.10.106.dev (unreleased)
+<!---a4bb39b58ad59219cc40ff9ea4b68b418500daa2--->
+
+## 2.10.106 (2017-11-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.105...2.10.106)
 ### Added
 - Microsoft team notifier added ([#2004](https://github.com/Flexget/Flexget/issues/2004))
 
-<!---b8bd5ec8f0283a5b75f2f8cc69e12da73ca6a710--->
 
 ## 2.10.105 (2017-11-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.104...2.10.105)
