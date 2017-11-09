@@ -237,6 +237,8 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [sns](/Plugins/Notifiers/sns) | Send a [SNS](https://aws.amazon.com/sns/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
+| [ms_teams](/Plugins/Notifiers/ms_teams) |Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |
+
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
 
