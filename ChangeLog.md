@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2040368f7142138a0f950206c3ad8f32ef911b65--->
+<!---7c2e018b03dd0d4133e32910224744f69ab196d8--->
+
+## 2.10.107.dev (unreleased)
+### Fixed
+- newpct: urlrewriter now uses the new web format
 
 <!---a4bb39b58ad59219cc40ff9ea4b68b418500daa2--->
 
