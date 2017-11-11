@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c2e018b03dd0d4133e32910224744f69ab196d8--->
+<!---c847ea7c6ba777a30778af2b75410a3df9647b0a--->
 
-## 2.10.107.dev (unreleased)
+<!---584ef4684693c4e3d535712ce57e7e5dcb19c79f--->
+
+## 2.10.107 (2017-11-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.106...2.10.107)
 ### Fixed
 - newpct: urlrewriter now uses the new web format
 
-<!---a4bb39b58ad59219cc40ff9ea4b68b418500daa2--->
 
 ## 2.10.106 (2017-11-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.105...2.10.106)
