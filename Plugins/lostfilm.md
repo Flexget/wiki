@@ -17,10 +17,10 @@ Example config
 tasks:
   lostfilm:
     headers:
-      cookie: lf_session=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;
+      cookie: lf_session=532656b1724450ccdfc62e4316b862cf;
     lostfilm: yes
     series:
       '1080p':
-        - 'Game of Thrones':
-            alternate_name: 'Игра престолов'
+        - 'Stranger Things':
+            alternate_name: 'Загадочные события'
 ```
