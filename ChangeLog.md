@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d69dd2e2fee38ec7300c956681e00f0ef7cf16f1--->
+<!---10b212a9257a2924ca15f7aa04f0684738c42135--->
+
+## 2.10.110.dev (unreleased)
+### Added
+- rtorrent: added fast_resume option that skips hash checking. Only works when the files are accessible from the Flexget host.
 
 <!---841f631ae512375f75bf00ad7ad8f193ae4d05a3--->
 
