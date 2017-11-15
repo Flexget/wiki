@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---10b212a9257a2924ca15f7aa04f0684738c42135--->
+<!---5cad88c2cd7fd270c853291eed17f1f92d0d14cf--->
 
 ## 2.10.110.dev (unreleased)
 ### Added
 - rtorrent: added fast_resume option that skips hash checking. Only works when the files are accessible from the Flexget host.
+
+### Fixed
+- sonarr_list: Fixed crash when matching failed. Closed [#1963](https://github.com/Flexget/Flexget/issues/1963)
 
 <!---841f631ae512375f75bf00ad7ad8f193ae4d05a3--->
 
