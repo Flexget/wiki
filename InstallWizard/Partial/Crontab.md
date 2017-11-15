@@ -59,7 +59,7 @@ Where 30 is the time between executions.
 #### Verification
 Once FlexGet runs successfully from crontab it will log this few times into the log file. The log file is located in same directory as your configuration file.
 
-#### Daemon Mode
+### Daemon Mode
 With FlexGet running in [daemon mode](/Daemon) you can use the [scheduler](/Plugins/Daemon/scheduler) plugin to define when your tasks should be run inside the configuration file.
 
 To start the daemon at system boot you would use:
