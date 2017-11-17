@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---54c9a8b01065d8e4e7f698f8ff89c91a676fb14d--->
+<!---0a825a971b5175193bc64d3fec468b4347c841b4--->
 
-## 2.10.111.dev (unreleased)
+<!---06d20a5cb055b37445bc8fbf70b6f0be9cbc6a3e--->
+
+## 2.10.111 (2017-11-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.110...2.10.111)
 ### Added
 - Added ability to lookup with language in TMDB ([#2015](https://github.com/Flexget/Flexget/issues/2015))
 
-<!---b93d6c8d7c89fda4da69bbffb6c388aace78fb28--->
 
 ## 2.10.110 (2017-11-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.109...2.10.110)
