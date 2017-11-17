@@ -124,7 +124,7 @@ trakt_lookup:
 | trakt_actors.slug |  trakt slug for actor  |
 | trakt_actors.tmdb |  TMDB id for actor  |
 | trakt_actors.imdb |  IMDB id for actors  |
-| tract_actors.biograph |  Wikipedia overview for actor  |
+| trakt_actors.biograph |  Wikipedia overview for actor  |
 | trakt_actors.birthday |  Birthday of actors in python.date format  |
 | trakt_actors.death |  Date actor died in python.date format  |
 | trakt_actors.homepage |  Official url for actor  |
