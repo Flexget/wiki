@@ -1,11 +1,11 @@
 # Tmdb lookup
 **Example:**
 
-```
+```yaml
 tmdb_lookup: yes
 ```
 Or:
-```
+```yaml
 tmdb_lookup:
   language: de
 ```
