@@ -34,7 +34,7 @@ series:
 If the [qualities](/Plugins/series/quality) option is defined alongside timeframe (instead of `target`), the timeframe will only kick in if *none* of your defined qualities have been downloaded within the timeframe.
 
 ### Behavior with upgrade option
-If the [upgrade](/Plugins/series/upgrade) option is defined along with `target`, the target quality will still be allowed to download if it becomes available after a fallback quality has already been accepted.
+If the [upgrade](/Plugins/series/upgrade) option is defined along with `target`, the target quality will still be allowed to download if it becomes available after a fallback quality has already been accepted. **Note**: It will not allow upgrades that are worse than the target quality.
 
 Note that [upgrade](/Plugins/series/upgrade) will not upgrade once the `target` quality has been reached even if the target is a range.
 
