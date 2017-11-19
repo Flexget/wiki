@@ -4,7 +4,12 @@
 ```
 tmdb_lookup: yes
 ```
-
+Or:
+```
+tmdb_lookup:
+  language: de
+```
+Language can take any [IS0-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code. Default is `en`
 ## Provides fields
 
 | Field Name |
