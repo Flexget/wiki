@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.111...2.11.0)
 ### Added
 - Python 3.6 compatibility ([#1632](https://github.com/Flexget/Flexget/issues/1632))
+- torrent_match: plugin that matches .torrent contents with local files
 
 ### Fixed
 - *  db vacuum - Moved vacuum to its own hook. Fixes  [#1596](https://github.com/Flexget/Flexget/issues/1596)
