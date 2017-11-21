@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d3d8e17f90d58c1aea3901dc1c9cd3b26d1de898--->
+<!---8d6545b867f3516349c74f5ebaeb7d4d0d09a8aa--->
 
-## 2.11.0.dev (unreleased)
+<!---5cd8f3fe0c402d9c0a80b567f81e7d6333280d1b--->
+
+## 2.11.0 (2017-11-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.10.111...2.11.0)
 ### Added
 - Python 3.6 compatibility ([#1632](https://github.com/Flexget/Flexget/issues/1632))
 
 ### Fixed
 - *  db vacuum - Moved vacuum to its own hook. Fixes  [#1596](https://github.com/Flexget/Flexget/issues/1596)
 
-<!---06d20a5cb055b37445bc8fbf70b6f0be9cbc6a3e--->
 
 ## 2.10.111 (2017-11-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.10.110...2.10.111)
