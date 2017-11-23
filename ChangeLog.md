@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8d6545b867f3516349c74f5ebaeb7d4d0d09a8aa--->
+<!---75fd63db8e451f60d8d80456bc8580d44c8b90ef--->
+
+## 2.11.1.dev (unreleased)
+### Added
+- Plugins for Gazelle-based sites (including RED and NWCD) ([#2017](https://github.com/Flexget/Flexget/issues/2017))
 
 <!---5cd8f3fe0c402d9c0a80b567f81e7d6333280d1b--->
 
