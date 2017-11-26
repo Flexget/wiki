@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0116afe25850eced8542f02f1f4759e22efd88ac--->
+<!---89ebfe294d74e169d0b62776809bfdabece14bfb--->
 
 ## 2.11.3.dev (unreleased)
 ### Fixed
+- crossmatch: no longer crashes when exact: no for int fields (and other non-iterable types)
 - decompress - correctly pass exception to logger. Closes [#1953](https://github.com/Flexget/Flexget/issues/1953)
 - status CLI - fix weird issue that task didnt have execution time. Closes [#2022](https://github.com/Flexget/Flexget/issues/2022)
 
 ### Changed
+- crossmatch: inexact matching is now bi-directional
 - Input generation in crossmatch, discover, torrent_match has been moved to a shared util
 
 <!---fe10b1b66a40d5e2035b12f91d052c85329ca5b4--->
