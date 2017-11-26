@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---118743cc8d5ac8e3afe9b8f5f5dcd7e488639027--->
+<!---d8c635d6d88cc83390182f36ac7b459f725d55fd--->
+
+## 2.11.3.dev (unreleased)
+### Fixed
+- decompress - correctly pass exception to logger. Closes [#1953](https://github.com/Flexget/Flexget/issues/1953)
+- status CLI - fix weird issue that task didnt have execution time. Closes [#2022](https://github.com/Flexget/Flexget/issues/2022)
 
 <!---fe10b1b66a40d5e2035b12f91d052c85329ca5b4--->
 
