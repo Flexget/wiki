@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3638bd4bcf17a78568fc522b706cb91036de352b--->
+<!---3b9033e52c65b65a9ea3e516772cc563472a15e4--->
+
+## 2.11.4.dev (unreleased)
+### Fixed
+- entry_list - quality field was not cached
 
 <!---d87414665c68804924cebea5d035d8a887f7c9d9--->
 
