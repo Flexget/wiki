@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---89ebfe294d74e169d0b62776809bfdabece14bfb--->
+<!---3638bd4bcf17a78568fc522b706cb91036de352b--->
 
-## 2.11.3.dev (unreleased)
+<!---d87414665c68804924cebea5d035d8a887f7c9d9--->
+
+## 2.11.3 (2017-11-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.2...2.11.3)
 ### Fixed
 - crossmatch: no longer crashes when exact: no for int fields (and other non-iterable types)
 - decompress - correctly pass exception to logger. Closes [#1953](https://github.com/Flexget/Flexget/issues/1953)
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - crossmatch: inexact matching is now bi-directional
 - Input generation in crossmatch, discover, torrent_match has been moved to a shared util
 
-<!---fe10b1b66a40d5e2035b12f91d052c85329ca5b4--->
 
 ## 2.11.2 (2017-11-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.1...2.11.2)
