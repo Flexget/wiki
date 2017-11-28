@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3b9033e52c65b65a9ea3e516772cc563472a15e4--->
+<!---453ce2ba3315b64c4dddfcab20877d766c01a75a--->
 
-## 2.11.4.dev (unreleased)
+<!---ec885e1b521c7c9fac401cb452324a46c6a98194--->
+
+## 2.11.4 (2017-11-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.3...2.11.4)
 ### Fixed
 - entry_list - quality field was not cached
 
-<!---d87414665c68804924cebea5d035d8a887f7c9d9--->
 
 ## 2.11.3 (2017-11-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.2...2.11.3)
