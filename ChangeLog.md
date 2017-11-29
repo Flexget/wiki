@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---453ce2ba3315b64c4dddfcab20877d766c01a75a--->
+<!---22643a9fdeee13c6b33fa79f7f62addbb654352d--->
+
+## 2.11.5.dev (unreleased)
+### Fixed
+- tmdb_lookup - Language lookup will return translated fields as well. Closed [#2021](https://github.com/Flexget/Flexget/issues/2021)
 
 <!---ec885e1b521c7c9fac401cb452324a46c6a98194--->
 
