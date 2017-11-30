@@ -2,7 +2,7 @@
 <div class="alert alert-info" role="info">
   
   <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; Supported Python versions: 2.7, 3.3, 3.4, 3.5 and 3.6.
+  &nbsp; Supported Python versions: 2.7, 3.4, 3.5 and 3.6.
 </div>
 <div class="alert alert-info" role="info">
   
