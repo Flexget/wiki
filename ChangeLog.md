@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dad436bae03702619c96335f49a274bdd49b91a2--->
+<!---2ba50c70c1818532dd8c1879190fad7f3614eb44--->
+
+## 2.11.7.dev (unreleased)
+### Added
+- btn: new config option "append_quality"
 
 <!---88801b07aebc178b457c4c42f724b462ac680b05--->
 
