@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---04457c16c1cdfc8aabed9682a90d6b628c37ea15--->
+<!---9dd4e1c8b09e365c7af259b4f010c8c308c9287c--->
+
+## 2.11.8.dev (unreleased)
+### Added
+- proxy - Added `socks5h`
 
 <!---8ca3a88e06fc8892498fb8b83bc575bcb6b69106--->
 
