@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9dd4e1c8b09e365c7af259b4f010c8c308c9287c--->
+<!---e174bb60fa38cd567a51d91a4fd7c60f64855b0f--->
 
-## 2.11.8.dev (unreleased)
+<!---2a97f6002a6b882dad65ee4e6d125c0385bdf662--->
+
+## 2.11.8 (2017-12-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.7...2.11.8)
 ### Added
 - proxy - Added `socks5h`
 
-<!---8ca3a88e06fc8892498fb8b83bc575bcb6b69106--->
 
 ## 2.11.7 (2017-12-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.6...2.11.7)
