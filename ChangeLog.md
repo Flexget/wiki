@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---acccb0c8a677092d845498b49c569ad281cc88ae--->
+<!---99ca3d475414a3e058a1ba191498e6cce6f78111--->
+
+## 2.11.11.dev (unreleased)
+### Fixed
+- utorrent - web ui path names in config are case sensitive. Related [#2038](https://github.com/Flexget/Flexget/issues/2038)
 
 <!---022912fada0289c73059155d4c78a0a4c7d350de--->
 
