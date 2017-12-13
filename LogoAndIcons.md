@@ -6,4 +6,4 @@ See page attachments, currently in PDF format. Bitmaps soon?
 * [flexget-symbol-black.pdf](/attachments/LogoAndIcons/flexget-symbol-black.pdf)
 * [flexget-color.pdf](/attachments/LogoAndIcons/flexget-color.pdf)
 * [flexget-black.pdf](/attachments/LogoAndIcons/flexget-black.pdf)
-* [Flexget Transparent PNG Image Set](/attachments/LogoAndIcons/FlexGet PNG Image Set.zip)
+* [Flexget Transparent PNG Image Set](/attachments/LogoAndIcons/FlexGet%20PNG%20Image%20Set.zip)
