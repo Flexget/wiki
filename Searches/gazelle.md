@@ -24,7 +24,7 @@ This can be visualized like so:
 redacted   notwhatcd
 ```
 
-Because of this setup, all functionality and configuration options (except where otherwise noted) from parent plugins also applies to the child plugins.
+Because of this setup, all functionality and configuration options (except where otherwise noted) from parent plugins also apply to the child plugins.
 
 ## Configuration
 The only options that are required are `username`, `password`, and `base_url`. Note that plugins that are specialized for a certain domain like `redacted` and `notwhatcd` do not require `base_url` as they will assume it.
