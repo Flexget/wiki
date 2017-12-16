@@ -24,6 +24,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
 | [`torrent411`](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
 | [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
+| [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 
 
 ### Private
@@ -44,6 +45,8 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`torrentshack`](/Searches/torrentshack) | Searches torrent site torrentshack |
 | [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
 |[`fuzer`](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/)
+| [`redacted`](/Searches/gazelle) | Generates entries from [RED](https://redacted.ch/) |
+| [`notwhatcd`](/Searches/gazelle) | Generates entries from [NWCD](https://notwhat.cd/) |
 
 
 You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --interface search`, and documentation for a plugin can be obtained with [`flexget doc <plugin-name>`](https://flexget.com/CLI/doc).
