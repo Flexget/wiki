@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3aa3407b04eee97f9776950e412cb40a85a4b3d7--->
+<!---4c73325f2e1aed07cee3fe478e4fc54290c94818--->
+
+## 2.11.12.dev (unreleased)
+### Changed
+- symlink - Create directories recursively for hardlinks ([#2044](https://github.com/Flexget/Flexget/issues/2044))
 
 <!---dd4d6ab664e85c3e1b01bb9fde6cdc23037d879a--->
 
