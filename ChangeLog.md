@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ae4225a67def04f7f8b5d591146a9dc7f68b3220--->
+<!---ab779af8cddec5ac27865aaabea3294342538f8b--->
+
+## 2.11.13.dev (unreleased)
+### Changed
+- symlink: Hardlinking folders to a path that does not exist will now create all necessary folders, extension of [#2044](https://github.com/Flexget/Flexget/issues/2044)
 
 <!---a08048ba68668a39ecc47aa2efd94b1938293847--->
 
