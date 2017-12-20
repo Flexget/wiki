@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be5f3abe68f19c72050ffd756077e21e3bd28c08--->
+<!---c4f00593a187556beb68ee11ccf8019692e6af4e--->
 
 ## 2.11.13.dev (unreleased)
 ### Changed
+- sonarr_list -Changes how root_folder_path option is setup ([#2046](https://github.com/Flexget/Flexget/issues/2046))
 - symlink: Hardlinking folders to a path that does not exist will now create all necessary folders, extension of [#2044](https://github.com/Flexget/Flexget/issues/2044)
 
 ### Added
