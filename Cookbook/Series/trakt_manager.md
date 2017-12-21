@@ -14,6 +14,7 @@ templates:
         # Configure all the series options to your taste
         quality: 720p+
         path: /my/shows/{{series_name}}/Season {{series_season}}/  # This will sort your downloads if you are using one of the output plugins which supports it
+        identified_by: ep
       from:
         trakt_list:
           account: myaccount
@@ -49,7 +50,8 @@ tasks:
     template: tv
     discover:
       what:
-        - emit_series: yes
+        - next_series_episodes:
+            from_start: yes
       from:
         - # Pick a search plugin(s) https://flexget.com/wiki/Searches
     # Also add an appropriate output plugin here (perhaps `transmission` or `deluge` if you are using those clients.) https://flexget.com/wiki/Plugins#Output
