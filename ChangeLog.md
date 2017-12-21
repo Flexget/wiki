@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2d845669cb70a2f9317c1c725cbce17008068d68--->
+<!---89cbf055d0357c79cd6ceaf8f68e7c7d4e72768f--->
+
+## 2.11.15.dev (unreleased)
+### Fixed
+- *  sonarr_list - Sonarr list now correctly load all entries, ignoring filters, when relevant. Also refactor. Closes [#2041](https://github.com/Flexget/Flexget/issues/2041)
 
 <!---ad527ad9023d362f61a21e966a3f9ed926a73740--->
 
