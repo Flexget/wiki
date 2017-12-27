@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---94ece75c0d43593297f831caf899c8a14121242d--->
+<!---7397fd3f801b7163043b5ba558bf5db9d0b7fea7--->
+
+## 2.11.16.dev (unreleased)
+### Fixed
+- *  newpct1 urlrewriter
+- newpct1 urlrewriter ([#2048](https://github.com/Flexget/Flexget/issues/2048))
 
 <!---a944961fb072d39a881e11455d5f6105e9d3daa5--->
 
