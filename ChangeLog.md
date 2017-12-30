@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7ca0909e6cf6a026759e858b8611d9cb2ec0c922--->
+<!---c54dcdaeabaada6cffec41497a21bb6ef13df28b--->
+
+## 2.11.17.dev (unreleased)
+### Changed
+- torrent_match: added some debug logging
 
 <!---45ef760fe18824279d4eb32758a026c153a9ed1b--->
 
