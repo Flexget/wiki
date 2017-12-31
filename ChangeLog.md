@@ -18,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 2.11.16 (2017-12-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.15...2.11.16)
 ### Fixed
-- *  newpct1 urlrewriter
 - newpct1 urlrewriter ([#2048](https://github.com/Flexget/Flexget/issues/2048))
 
 
