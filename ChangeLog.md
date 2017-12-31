@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---02286f2815ad7e04493e87f457bcc5e2ea365e25--->
+<!---be381aab994cbf9bd89d1f1d3b7d75b4805dcde1--->
+
+## 2.11.18.dev (unreleased)
+### Fixed
+- imdb_watchlist plugin ([#2050](https://github.com/Flexget/Flexget/issues/2050)). Closes [#2035](https://github.com/Flexget/Flexget/issues/2035)
 
 <!---1c2f76b0164190940753e060c699f51f4283ae17--->
 
