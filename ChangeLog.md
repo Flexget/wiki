@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c54dcdaeabaada6cffec41497a21bb6ef13df28b--->
+<!---02286f2815ad7e04493e87f457bcc5e2ea365e25--->
 
-## 2.11.17.dev (unreleased)
+<!---1c2f76b0164190940753e060c699f51f4283ae17--->
+
+## 2.11.17 (2017-12-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.16...2.11.17)
 ### Changed
 - torrent_match: added some debug logging
 
-<!---45ef760fe18824279d4eb32758a026c153a9ed1b--->
 
 ## 2.11.16 (2017-12-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.15...2.11.16)
