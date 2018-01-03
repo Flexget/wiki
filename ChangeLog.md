@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2cf2a49965bf21716cf387e9265ce280f813cf50--->
+<!---1cc6e0df93aad9aae43e384997d59bc0bacca83d--->
+
+## 2.11.19.dev (unreleased)
+### Added
+- IFTTT notifications ([#2053](https://github.com/Flexget/Flexget/issues/2053))
 
 <!---1a7f50391cf8bf944b66307eb6373e0e2825aad7--->
 
