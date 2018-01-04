@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---49ab77025ca43767566016c917c329b3b4ff1f3e--->
+<!---8175b7e7395a571ed598c967ee6e8596477b342b--->
+
+## 2.11.20.dev (unreleased)
+### Fixed
+- *  More web changes Newpct1
+- More web changes Newpct1 ([#2054](https://github.com/Flexget/Flexget/issues/2054))
 
 <!---4970742053f8529adadd9a4b77fadf8da1465135--->
 
