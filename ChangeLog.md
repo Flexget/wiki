@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8175b7e7395a571ed598c967ee6e8596477b342b--->
+<!---d62a4051533fb56c0a709f4e5d26091aaaa33aab--->
 
-## 2.11.20.dev (unreleased)
+<!---773683120f34b51e773636adf7a7d30f852d1519--->
+
+## 2.11.20 (2018-01-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.19...2.11.20)
 ### Fixed
 - *  More web changes Newpct1
 - More web changes Newpct1 ([#2054](https://github.com/Flexget/Flexget/issues/2054))
 
-<!---4970742053f8529adadd9a4b77fadf8da1465135--->
 
 ## 2.11.19 (2018-01-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.18...2.11.19)
