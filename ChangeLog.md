@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---da45c5fb5f813847549a8a2c711c9caa445f205a--->
+<!---21a916c56991f133f5801fe4ada6a54710c21c2a--->
 
-## 2.11.21.dev (unreleased)
+<!---be937e67decf630fe8b8487aca5a6f0ccf4ff6e2--->
+
+## 2.11.21 (2018-01-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.20...2.11.21)
 ### Added
 - Add filmweb_watchlist input plugin ([#2034](https://github.com/Flexget/Flexget/issues/2034))
 
-<!---773683120f34b51e773636adf7a7d30f852d1519--->
 
 ## 2.11.20 (2018-01-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.19...2.11.20)
