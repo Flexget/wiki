@@ -15,7 +15,7 @@ Upgrade plugin will continue getting better qualities of an entry (tracked by a 
 
 ## Syntax:
 
-```code
+```yaml
 upgrade:
   identified_by: <template>
   tracking: [yes|no]
@@ -25,9 +25,18 @@ upgrade:
   propers: [yes|no]
 ```
 
-## 
+### Example for movies
+In this example the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
+
+```
+all_series:
+  path: /media/TV
+  quality: 720p hdtv
+  propers: no
+```
 
 ### Example for series
 
 
-### Example for movies
+
+
