@@ -1,5 +1,6 @@
 # Upgrade
-Upgrade plugin will continue getting better qualities of an entry (tracked by a unique identifier). It can also blocks any entry that are of a worse quality than you already have.
+
+The upgrade plugin will continue getting better qualities of an entry (tracked by a unique identifier). It can also block any entry that is of a worse quality than you already have.
 
 ## Settings
 
@@ -26,7 +27,7 @@ upgrade:
 ```
 
 ### Example for movies
-In this example the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
+In this example, the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
 
 ```yaml
 tasks:
@@ -47,9 +48,9 @@ tasks:
 
 ### Example for series
 
-Series currently has the concept of upgrade. In the future series will be migrated to leverage this upgrade plugin.
+Series currently has the concept of an upgrade. In the future series will be migrated to leverage this upgrade plugin.
 
-In this example the first task will download epsiodes for existing series on the filesystem. The second task will upgrade any downloaded series.
+In this example, the first task will download episodes for existing series on the filesystem. The second task will upgrade any downloaded series.
 
 ```yaml
 tasks:
@@ -68,9 +69,24 @@ tasks:
       propers: yes
 ```
 
+### Example with custom identifier
+The [metainfo_series](https://flexget.com/Plugins/metainfo_series) and [metainfo_movie](https://flexget.com/Plugins/metainfo_movie) plugins will, by default, set an identifier.
+
+You can override the format using [Jinja Templates](https://flexget.com/Jinja).
+
+```yaml
+tasks:
+  some_task:
+    upgrade:
+      identifier: "{{ some_field }}"
+      tracking: yes
+      target: 1080p
+
+```
+
 ### Example with [timeframe](https://flexget.com/Plugins/timeframe)
 
-In this example the first task will download epsiodes for existing series on the filesystem. It will wait for 720p for 6 hours if not accept what ever quality is available.
+In this example, the first task will download episodes for existing series on the filesystem. It will wait for 720p for 6 hours if not accept whatever quality is available.
 
 The second task will upgrade any downloaded series.
 
