@@ -15,7 +15,7 @@ Upgrade plugin will continue getting better qualities of an entry (tracked by a 
 
 ## Syntax:
 
-```yaml
+```
 upgrade:
   identified_by: <template>
   tracking: [yes|no]
@@ -29,14 +29,44 @@ upgrade:
 In this example the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
 
 ```
-all_series:
-  path: /media/TV
-  quality: 720p hdtv
-  propers: no
+tasks:
+  high_rated_movies:
+    upgrade:
+      # We must add this so the upgrade plugin can track the downloaded qualities
+      tracking: yes
+    imdb_high_rated:
+      imdb:
+      min_score: 8.5
+      min_votes: 5000
+
+  upgrade_movies:
+    upgrade:
+      target: 1080p
+      propers: yes
 ```
 
 ### Example for series
 
+Series currently has the concept of upgrade. In the future series will be migrated to leverage this upgrade plugin.
+
+In this example the first task will download epsiodes for existing series on the filesystem. The second task will upgrade any downloaded series.
+
+```
+tasks:
+  existing_tv_shows:
+    upgrade:
+      # We must add this so the upgrade plugin can track the downloaded qualities
+      tracking: yes
+    configure_series:
+      from:
+        filesystem:
+          - /media/series/
+
+  upgrade_tv:
+    upgrade:
+      target: 1080p
+      propers: yes
+```
 
 
 
