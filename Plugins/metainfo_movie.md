@@ -8,6 +8,7 @@ metainfo_movie: yes
 
 This will add the following fields to an entry:
 
+- id (eg: `Cool Movie 2010`)
 - `movie_parser`
 - `movie_name`
 - `movie_year`
