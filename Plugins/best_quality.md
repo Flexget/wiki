@@ -1,5 +1,6 @@
 # Best Quality
-Best Quality plugin will sort entries, grouped by an identifier, and allow action on the best quality and lower qualities. 
+The best_qality plugin will sort entries, grouped by an identifier, and allow action on the best quality and lower qualities. 
+
 ## Settings
 
 | **Option** | **Description** |
@@ -34,9 +35,22 @@ tasks:
       min_votes: 5000
 ```
 
+### Example with custom identifier
+The [metainfo_series](https://flexget.com/Plugins/metainfo_series) and [metainfo_movie](https://flexget.com/Plugins/metainfo_movie) plugins will, by default, set an identifier.
+
+You can override the format using [Jinja Templates](https://flexget.com/Jinja).
+
+```yaml
+tasks:
+  some_task:
+    best_quality:
+      identifier: "{{ some_field }}"
+      wait: 1 day
+```
+
 ### Example with [timeframe](https://flexget.com/Plugins/timeframe) and [upgrade](https://flexget.com/Plugins/upgrade)
 
-In this example the first task will download movies, waiting 1 day for 1080p. If 720p and 1080p of the same movie pops up in the feed at the same time best_quality will ensure only the best is accepted by imdb.
+In this example the first task will download movies, waiting 1 day for 1080p. If 720p and 1080p of the same movie appears up in the feed at the same time best_quality will ensure only the best is accepted by imdb.
 
 The second task will upgrade the movie in future for 1 week.
 
