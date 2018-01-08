@@ -5,6 +5,14 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 <!---be937e67decf630fe8b8487aca5a6f0ccf4ff6e2--->
 
+## 2.11.22 (2018-01-05)
+### Added
+- Add generic upgrade plugin
+- Add generic timeframe plugin
+- Add best_quality plugin
+- ([#2036](https://github.com/Flexget/Flexget/pull/2036))
+
+
 ## 2.11.21 (2018-01-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.20...2.11.21)
 ### Added
