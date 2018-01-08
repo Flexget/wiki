@@ -81,7 +81,6 @@ tasks:
       identifier: "{{ some_field }}"
       tracking: yes
       target: 1080p
-
 ```
 
 ### Example with [timeframe](https://flexget.com/Plugins/timeframe)
