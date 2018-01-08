@@ -10,11 +10,11 @@ Specify a timeframe in which FlexGet waits for the chosen quality. The desired q
 | target | The target quality that should be upgraded to. Upgrades will not continue after target is met. |
 | wait | How long to wait for `target` quality. |
 | on_waiting | The action to preform on entries which are pending for the `target` quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)). Default is `reject`
-| on_reached | The action to preform on entries which reach the `target` quality or timeframe has expired. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)). Default is `accept`
+| on_reached | The action to perform on entries which reach the `target` quality or timeframe has expired. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)). Default is `accept`
 
 ## Syntax:
 
-```
+```text
 timeframe:
   identified_by: <jinja template>
   target: <quality requirement>
@@ -26,7 +26,7 @@ timeframe:
 ### Example for movies
 In this example the first task will download movies based on imdb ratings. It will wait for 720p-1080p for 1 day, if not fall back to best found.
 
-```
+```yaml
 tasks:
   high_rated_movies:
     timeframe:
@@ -45,7 +45,7 @@ tasks:
 Series currently has the concept of timefeame. In the future series will be migrated to leverage this timeframe plugin.
 
 
-```
+```yaml
 tasks:
   existing_tv_shows:
     timeframe:
@@ -66,7 +66,7 @@ In this example the first task will download epsiodes for existing series on the
 
 The second task will upgrade any downloaded series.
 
-```
+```yaml
 tasks:
   existing_tv_shows:
     upgrade:
