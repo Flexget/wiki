@@ -17,7 +17,7 @@ Upgrade plugin will continue getting better qualities of an entry (tracked by a 
 
 ```
 upgrade:
-  identified_by: <template>
+  identified_by: <jinja template>
   tracking: [yes|no]
   target: <quality requirement>
   on_lower: [accept|reject|allow]
