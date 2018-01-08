@@ -9,62 +9,54 @@ Specify a timeframe in which FlexGet waits for the chosen quality. The desired q
 | identified_by | Define how entries are identified, default `auto` which uses entry id [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja) |
 | target | The target quality that should be upgraded to. Upgrades will not continue after target is met. |
 | wait | How long to wait for `target` quality. |
-| on_waiting | The action to preform on entries which are pending for the `target` quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)) 
-| on_reached | action to preform. `allow` won't act on the entry (undecided) but allow it to by accepted by other plugins 
+| on_waiting | The action to preform on entries which are pending for the `target` quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)). Default is `reject`
+| on_reached | The action to preform on entries which reach the `target` quality or timeframe has expired. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations)). Default is `accept`
 
 ## Syntax:
 
 ```
-upgrade:
-  identified_by: <template>
-  tracking: [yes|no]
+timeframe:
+  identified_by: <jinja template>
   target: <quality requirement>
-  on_lower: [accept|reject|allow]
-  timeframe: <NUM (minutes|hours|days|weeks)>
-  propers: [yes|no]
+  wait: <NUM (minutes|hours|days|weeks)>
+  on_waiting: [accept|reject|allow]
+  on_reached: [accept|reject|allow]
 ```
 
 ### Example for movies
-In this example the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
+In this example the first task will download movies based on imdb ratings. It will wait for 720p-1080p for 1 day, if not fall back to best found.
 
 ```
 tasks:
   high_rated_movies:
-    upgrade:
-      # We must add this so the upgrade plugin can track the downloaded qualities
-      tracking: yes
+    timeframe:
+      wait: 1 day
+      # Let imdb handle the accept
+      on_reached: allow
+      target: 720p-1080p
     imdb_high_rated:
       imdb:
       min_score: 8.5
       min_votes: 5000
-
-  upgrade_movies:
-    upgrade:
-      target: 1080p
-      propers: yes
 ```
 
 ### Example for series
 
-Series currently has the concept of upgrade. In the future series will be migrated to leverage this upgrade plugin.
+Series currently has the concept of timefeame. In the future series will be migrated to leverage this timeframe plugin.
 
-In this example the first task will download epsiodes for existing series on the filesystem. The second task will upgrade any downloaded series.
 
 ```
 tasks:
   existing_tv_shows:
-    upgrade:
-      # We must add this so the upgrade plugin can track the downloaded qualities
-      tracking: yes
+    timeframe:
+      wait: 1 day
+      # Let series handle the accept
+      on_reached: allow
+      target: 720p-1080p
     configure_series:
       from:
         filesystem:
           - /media/series/
-
-  upgrade_tv:
-    upgrade:
-      target: 1080p
-      propers: yes
 ```
 
 
