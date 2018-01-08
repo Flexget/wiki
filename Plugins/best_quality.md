@@ -6,8 +6,8 @@ The best_qality plugin will sort entries, grouped by an identifier, and allow ac
 | **Option** | **Description** |
 | --- | --- |
 | identified_by | Define how entries are identified, default `auto` which uses entry id [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja) |
-| on_best | The action to preform on which has the best quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `allow` |
-| on_lower | The action to preform on entries which are lower then the best quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `reject` |
+| on_best | The action to preform on which has the best quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `do_nothing` |
+| on_lower | The action to preform on entries which are lower then the best quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `reject` |
 
 
 ## Syntax:
@@ -15,8 +15,8 @@ The best_qality plugin will sort entries, grouped by an identifier, and allow ac
 ```
 best_quality:
   identified_by: <jinja template>
-  on_best: [accept|reject|allow]
-  on_lower: [accept|reject|allow]
+  on_best: [accept|reject|do_nothing]
+  on_lower: [accept|reject|do_nothing]
 ```
 
 ### Example
@@ -27,7 +27,7 @@ tasks:
   high_rated_movies:
     best_quality:
       # Let imdb handle the accept
-      on_best: allow
+      on_best: do_nothing
       on_lower: reject
     imdb_high_rated:
       imdb:
@@ -64,11 +64,11 @@ tasks:
     timeframe:
       wait: 1 day
       # Let imdb handle the accept
-      on_reached: allow
+      on_reached: do_nothing
       target: 1080p
     # If input has same movie twice, ensure only best get's through.
     best_quality:
-      on_best: allow
+      on_best: do_nothing
       on_lower: reject
     imdb_high_rated:
       imdb:
