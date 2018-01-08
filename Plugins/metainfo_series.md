@@ -8,7 +8,7 @@ metainfo_series: yes
 
 This will add the following fields to an entry:
 
-* id (eg: Cool Series S01E01)
+* id (eg: `Cool Series` S01E01)
 * proper
 * proper_count
 * release_group
