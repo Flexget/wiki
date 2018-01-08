@@ -68,5 +68,31 @@ tasks:
       propers: yes
 ```
 
+### Example with [timeframe](https://flexget.com/Plugins/timeframe)
+
+In this example the first task will download epsiodes for existing series on the filesystem. It will wait for 720p for 6 hours if not accept what ever quality is available.
+
+The second task will upgrade any downloaded series.
+
+```
+tasks:
+  existing_tv_shows:
+    upgrade:
+      # We must add this so the upgrade plugin can track the downloaded qualities
+      tracking: yes
+    timeframe:
+      wait: 6 hours
+      target: 720p+
+    configure_series:
+      from:
+        filesystem:
+          - /media/series/
+
+  upgrade_tv:
+    upgrade:
+      target: 1080p
+      propers: yes
+```
+
 
 
