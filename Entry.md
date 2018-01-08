@@ -20,6 +20,7 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 
 | **Name** | **Created by** | **Description** |
 | --- | --- | --- |
+| id | multiple plugins | Set by metainfo plugins to the unique identifer for this entry. IE: "movie 2010" or "series S01E01" |
 | path | multiple plugins | Path where this entry content should be saved |
 | description | [rss](/Plugins/rss) | Item description |
 | rss_pubdate | [rss](/Plugins/rss) | Date the RSS item was published |
