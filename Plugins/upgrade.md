@@ -15,7 +15,7 @@ Upgrade plugin will continue getting better qualities of an entry (tracked by a 
 
 ## Syntax:
 
-```
+```text
 upgrade:
   identified_by: <jinja template>
   tracking: [yes|no]
@@ -28,7 +28,7 @@ upgrade:
 ### Example for movies
 In this example the first task will download movies based on imdb ratings. The second task will upgrade the movies already downloaded for 7 days.
 
-```
+```yaml
 tasks:
   high_rated_movies:
     upgrade:
@@ -51,7 +51,7 @@ Series currently has the concept of upgrade. In the future series will be migrat
 
 In this example the first task will download epsiodes for existing series on the filesystem. The second task will upgrade any downloaded series.
 
-```
+```yaml
 tasks:
   existing_tv_shows:
     upgrade:
@@ -74,7 +74,7 @@ In this example the first task will download epsiodes for existing series on the
 
 The second task will upgrade any downloaded series.
 
-```
+```yaml
 tasks:
   existing_tv_shows:
     upgrade:
