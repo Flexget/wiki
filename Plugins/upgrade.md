@@ -9,7 +9,7 @@ The upgrade plugin will continue getting better qualities of an entry (tracked b
 | identified_by | Define how entries are identified, default `auto` which uses entry id [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja) |
 | tracking | If enabled by it's self will track entry but not upgrade. |
 | target | The target quality that should be upgraded to. Upgrades will not continue after target is met. |
-| on_lower | The action to preform on entries which are lower then the best or existing quality. `allow` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by accepted by other plugins |
+| on_lower | The action to preform on entries which are lower then the best or existing quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by accepted by other plugins |
 | timeframe | Allow upgrades for the given peroid of time |
 | propers | Allow upgrade of same quality if proper is released |
 
@@ -21,7 +21,7 @@ upgrade:
   identified_by: <jinja template>
   tracking: [yes|no]
   target: <quality requirement>
-  on_lower: [accept|reject|allow]
+  on_lower: [accept|reject|do_nothing]
   timeframe: <NUM (minutes|hours|days|weeks)>
   propers: [yes|no]
 ```
