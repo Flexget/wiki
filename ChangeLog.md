@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c347ac9e0a580aa666ef5c8cf87d19b87a385386--->
+<!---367ec5691860f0fa5cb06f702ae1819bebc3f25b--->
+
+## 2.11.24.dev (unreleased)
+### Fixed
+- qualities: parsing invalid quality now defaults to 'unknown' instead of raising TypeError, fixes [#2028](https://github.com/Flexget/Flexget/issues/2028)
 
 <!---ac22c21b2024d5ec644e0813e90c57f52ca5083f--->
 
