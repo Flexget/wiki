@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---367ec5691860f0fa5cb06f702ae1819bebc3f25b--->
+<!---2e09a92ffe642ae65d2afd35ff29cd4e99d5e476--->
 
 ## 2.11.24.dev (unreleased)
 ### Fixed
+- imdb_watchlist: no longer crashes when list contains more than 999 items, fixes [#2059](https://github.com/Flexget/Flexget/issues/2059)
 - qualities: parsing invalid quality now defaults to 'unknown' instead of raising TypeError, fixes [#2028](https://github.com/Flexget/Flexget/issues/2028)
 
 <!---ac22c21b2024d5ec644e0813e90c57f52ca5083f--->
