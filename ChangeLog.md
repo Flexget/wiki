@@ -1,7 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4f3f8947b41faf0e09f3fc9f4a1eeb6a67517647--->
+<!---4712a506ef6f128a2fa1ce8d49e8f1da21420e79--->
+
+## 2.12.0.dev (unreleased)
+### Removed
+- torrent411
+- torrentshack
+- t411
+- sceneaccess
+- freshon
+- extratorrent
 
 <!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
 
