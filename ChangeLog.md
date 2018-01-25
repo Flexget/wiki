@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---68e17b84115c9aea9f8ece41ae7735d6ceaf9c2d--->
+<!---c2569f2f116b2c242672570d148c8ba55ce1a603--->
 
 ## 2.12.0.dev (unreleased)
 ### Removed
@@ -13,6 +13,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - extratorrent
 
 ### Fixed
+- download: fixed handling of local files with unicode characters in Python 2, fixes [#1965](https://github.com/Flexget/Flexget/issues/1965)
 - rtorrent: fix unicode handling in Python 2, fixes [#1692](https://github.com/Flexget/Flexget/issues/1692)
 
 <!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
