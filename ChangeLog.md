@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c4481531ad626212b13b79da78670f2407ed2db--->
+<!---4f3f8947b41faf0e09f3fc9f4a1eeb6a67517647--->
 
-## 2.11.24.dev (unreleased)
+<!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
+
+## 2.11.24 (2018-01-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.23...2.11.24)
 ### Fixed
 - imdb_watchlist: no longer crashes when list contains more than 999 items, fixes [#2059](https://github.com/Flexget/Flexget/issues/2059)
 - qualities: parsing invalid quality now defaults to 'unknown' instead of raising TypeError, fixes [#2028](https://github.com/Flexget/Flexget/issues/2028)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - trakt_list: now displays a proper error message when list is 'watched' and type is 'episodes', related [#2056](https://github.com/Flexget/Flexget/issues/2056)
 
-<!---ac22c21b2024d5ec644e0813e90c57f52ca5083f--->
 
 ## 2.11.23 (2018-01-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.22...2.11.23)
