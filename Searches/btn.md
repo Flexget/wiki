@@ -6,3 +6,9 @@ Configuration requires just api key, which can be found by going to the edit pro
 ```
 btn: apikey
 ```
+Some releases on BTN do not include quality tags (anime in particular) and the quality is therefore appended to the title. This means that for a lot of releases, the quality tags will be present twice in the title. This can be turned off with the alternate config:
+```
+btn:
+  api_key: apikey
+  append_quality: yes|no (default yes)
+```
