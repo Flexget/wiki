@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---090e486aad94fe0727cd2385534a5a24d779e72d--->
+<!---544be667c38f721618e8c1fba8467c4c9660022b--->
 
 ## 2.12.0.dev (unreleased)
 ### Removed
@@ -17,6 +17,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - rtorrent: fix unicode handling in Python 2, fixes [#1692](https://github.com/Flexget/Flexget/issues/1692)
 
 ### Changed
+- subliminal: single=yes will now search for subtitles even if other languages are on disk/embedded, fixes [#2016](https://github.com/Flexget/Flexget/issues/2016)
+- subliminal: will reject entries rather than fail when it's unable to find all requested subtitles, closes [#1709](https://github.com/Flexget/Flexget/issues/1709)
 - rss: no longer saves last location if the last entry has no title and no guid, closes [#1885](https://github.com/Flexget/Flexget/issues/1885)
 
 <!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
