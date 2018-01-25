@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c2569f2f116b2c242672570d148c8ba55ce1a603--->
+<!---090e486aad94fe0727cd2385534a5a24d779e72d--->
 
 ## 2.12.0.dev (unreleased)
 ### Removed
@@ -15,6 +15,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - download: fixed handling of local files with unicode characters in Python 2, fixes [#1965](https://github.com/Flexget/Flexget/issues/1965)
 - rtorrent: fix unicode handling in Python 2, fixes [#1692](https://github.com/Flexget/Flexget/issues/1692)
+
+### Changed
+- rss: no longer saves last location if the last entry has no title and no guid, closes [#1885](https://github.com/Flexget/Flexget/issues/1885)
 
 <!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
 
