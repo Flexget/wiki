@@ -6,6 +6,21 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.12.0** -- 2018.01.26
+#### Removed plugins
+The following is a list of search plugins that have been removed due to site closures. Any site claiming to be a direct successor/re-opening cannot be trusted.
+
+- Extratorrent
+- Freshon
+- Sceneaccess
+- T411
+- Torrent411
+- Torrentshack
+#### Subliminal
+The [subliminal](/Plugins/subliminal) plugin has been changed to reject entries for which it cannot find all requested subtitle languages.
+
+In addition, single mode will now ignore existing subtitles if the languages do not match. This is the same behaviour as running subliminal manually via CLI.
+
 ### **2.10.0** -- 2017.02.17
 - Web-UI/API:
   - Changed default UI path to be `hostname:port/` instead of `hostname:port/ui`
