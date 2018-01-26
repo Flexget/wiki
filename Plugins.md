@@ -137,6 +137,7 @@ Filters based on content's metadata such as size and quality
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [best_quality](/Plugins/best_quality) | Group entries by identifier and accept/reject best/worse qualities within these groups. |
 | [content_size](/Plugins/content_size) | Reject torrents and nzb's that do not meet size requirements. |
 | [quality](/Plugins/quality) | Reject entries not of the specified quality. |
 
@@ -170,13 +171,13 @@ Filters that will accept/reject entries based on logical statements or simple fi
 | **Keyword** | **Description** |
 | --- | --- |
 | [accept_all](/Plugins/accept_all) | Accept all entries. |
+| [age](/Plugins/age) | Reject, Accept entries based on age by looking at a date in a specified entry field. |
 | [archives](/Plugins/archives) | Accept, reject entries based on if they're valid ZIP/RAR archives. |
 | [exists](/Plugins/exists) | Reject entries based on existing files in filesystem. |
-| [exists_series](/Plugins/exists_series) | Reject entries based on existing series in filesystem. |
 | [exists_movie](/Plugins/exists_movie) | Reject entries based on existing movies in filesystem. |
+| [exists_series](/Plugins/exists_series) | Reject entries based on existing series in filesystem. |
 | [if](/Plugins/if) | Filter based on simple python statements. |
 | [regexp](/Plugins/regexp) | Reject, Accept entries by using regular expression. |
-| [age](/Plugins/age) | Reject, Accept entries based on age by looking at a date in a specified entry field. |
 
 ### 3rd party sites filters
 Filters based on data retrieved from 3rd party sites
