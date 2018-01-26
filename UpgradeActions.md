@@ -17,7 +17,7 @@ The following is a list of search plugins that have been removed due to site clo
 - Torrent411
 - Torrentshack
 #### Subliminal
-The [subliminal](/Plugins/subliminal) plugin has been changed to reject entries for which it cannot find all requested subtitle languages.
+The [subliminal](/Plugins/subliminal) plugin has been changed to reject entries for which it cannot find all requested subtitle languages. Before this change, it would fail entries, but it was deemed counterintuitive.
 
 In addition, single mode will now ignore existing subtitles if the languages do not match. This is the same behaviour as running subliminal manually via CLI.
 
