@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---544be667c38f721618e8c1fba8467c4c9660022b--->
+<!---6cf8af609d88ce422bb2b1a79d4f05eb730be0c8--->
 
-## 2.12.0.dev (unreleased)
+<!---c7e457780b4bd9b3eb2d657e140c7bc597d3322f--->
+
+## 2.12.0 (2018-01-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.11.24...2.12.0)
 ### Removed
 - torrent411
 - torrentshack
@@ -21,7 +24,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - subliminal: will reject entries rather than fail when it's unable to find all requested subtitles, closes [#1709](https://github.com/Flexget/Flexget/issues/1709)
 - rss: no longer saves last location if the last entry has no title and no guid, closes [#1885](https://github.com/Flexget/Flexget/issues/1885)
 
-<!---8e1bfde6ae884efb345c4daeeaa74118524b1b70--->
 
 ## 2.11.24 (2018-01-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.23...2.11.24)
