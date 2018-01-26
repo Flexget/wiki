@@ -5,9 +5,9 @@
   &nbsp; This is part of [managed list](/Plugins/List) plugin system.
 </div>
 
-<div class="alert alert-danger" role="info">
+<div class="alert alert-warning" role="info">
 
-  This plugin is broken. IMDb enforces captchas more often than not, which there are no ways around currently. Use [imdb_watchlist](/Plugins/imdb_watchlist) instead.
+  IMDb enforces captchas more often than not, which the plugin currently cannot handle. If login fails, please open an issue on [Github](https://www.github.com/Flexget/Flexget/issues). If you do not need to alter IMDb lists, you can use [imdb_watchlist](/Plugins/imdb_watchlist) instead.
 </div>
 
 Creates an [Entry](/Entry) for each item in an IMDb list.
