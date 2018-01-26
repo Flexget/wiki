@@ -14,15 +14,12 @@ FlexGet provides framework for querying searches from supported sites. These can
 | **Keyword** | **Description** |
 | --- | --- |
 | [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
-| [`isohunt`](/Searches/isohunt) | Generates entries from [isohunt.com](http://isohunt.com) |
 | [`newpct`](/Searches/newpct) | Generates entries from [newpct1.com](http://newpct1.com) |
 | [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
-| [`publichd`](/Searches/publichd) | Generates entries from [PublicHD](http://publichd.se/) |
 | [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
-| [`torrent411`](/Searches/t411) | Generates entries from [t411.me](http://www.t411.me/) |
 | [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
 | [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 
@@ -35,19 +32,16 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`btn`](/Searches/btn) | Searches torrent site BTN |
 | [`cpasbien`](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
 | [`filelist`](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
+| [`fuzer`](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/) |
 | [`iptorrents`](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
+| [`morethantv`](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
 | [`newznab`](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
+| [`notwhatcd`](/Searches/gazelle) | Generates entries from [NWCD](https://notwhat.cd/) |
 | [`passthepopcorn`](/Searches/passthepopcorn) | Searches torrent site PassThePopcorn |
 | [`ptn`](/Searches/ptn) | Searches torrent site PtN |
-| [`morethantv`](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
-| [`sceneaccess`](/Searches/sceneaccess) | Searches torrent site sceneaccess |
-|[`torrentday`](/Searches/torrentday)|Generates entries from torrentday.com
-| [`torrentshack`](/Searches/torrentshack) | Searches torrent site torrentshack |
-| [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
-|[`fuzer`](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/)
 | [`redacted`](/Searches/gazelle) | Generates entries from [RED](https://redacted.ch/) |
-| [`notwhatcd`](/Searches/gazelle) | Generates entries from [NWCD](https://notwhat.cd/) |
-
+| [`torrentday`](/Searches/torrentday)|Generates entries from torrentday.com
+| [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
 
 You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --interface search`, and documentation for a plugin can be obtained with [`flexget doc <plugin-name>`](https://flexget.com/CLI/doc).
 
