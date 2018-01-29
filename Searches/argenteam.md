@@ -1,11 +1,9 @@
 # aRGENTeaM
 Search plugin which gives results from [www.argenteam.net](http://www.argenteam.net/), latin american (Argentina) web.
-### Config
-Enabled / Disabled force download release with subtitles made by aRGENTeaM:
-
-Valid choices are `yes`, and `no`
-
-
+### Configuration
+| Option | Description |
+| --- | --- |
+| force_subtitles | `yes` or `no`. Force download release with subtitles made by aRGENTeaM. Default is `yes`|
 
 ### Example
 ```
