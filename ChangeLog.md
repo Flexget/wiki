@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6cf8af609d88ce422bb2b1a79d4f05eb730be0c8--->
+<!---4fb9cf19a39b58cb6c8418d5c3e17db6342c17ef--->
+
+## 2.12.1.dev (unreleased)
+### Added
+- Argenteam: new search plugin
 
 <!---c7e457780b4bd9b3eb2d657e140c7bc597d3322f--->
 
