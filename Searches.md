@@ -55,6 +55,7 @@ flexget plugins --interface search
 ├─────────────────┼────────────┼───────┤
 │ 1337x           │            │ doc   │
 │ alpharatio      │            │ doc   │
+│ argenteam       │            │ doc   │
 │ btn             │            │       │
 │ cpasbien        │            │       │
 │ divxatope       │            │ doc   │
