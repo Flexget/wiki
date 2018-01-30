@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4fb9cf19a39b58cb6c8418d5c3e17db6342c17ef--->
+<!---ef1e762869fdaa60f78f46e3e7ac9631186c5204--->
 
-## 2.12.1.dev (unreleased)
+<!---1b097296eb73cae6b6df97fb40405b0d7498b4d0--->
+
+## 2.12.1 (2018-01-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.0...2.12.1)
 ### Added
 - Argenteam: new search plugin
 
-<!---c7e457780b4bd9b3eb2d657e140c7bc597d3322f--->
 
 ## 2.12.0 (2018-01-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.11.24...2.12.0)
