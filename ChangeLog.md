@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---376c1669c25f8af8dfded751b7633fa6dd4cd118--->
+<!---cd13748a461bd19700b2ace265c759d3f4179f4d--->
 
-## 2.12.2.dev (unreleased)
+<!---368ab02b5f2d4d22bed99b6471c5484eb49b4552--->
+
+## 2.12.2 (2018-02-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.1...2.12.2)
 ### Fixed
 - Series parsing bug. Close [#2057](https://github.com/Flexget/Flexget/issues/2057)
 
-<!---1b097296eb73cae6b6df97fb40405b0d7498b4d0--->
 
 ## 2.12.1 (2018-01-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.0...2.12.1)
