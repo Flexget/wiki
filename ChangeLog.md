@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---aeb7660dc618a70bc7e970a07b4c96bf9002e825--->
+<!---130d21c46199a2fcb9023559c7f8c2259884c0f5--->
 
-## 2.12.3.dev (unreleased)
+<!---f3990c626e80cbb237b910d51f81da3631dd34bb--->
+
+## 2.12.3 (2018-02-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.2...2.12.3)
 ### Changed
 - changed the phrasing of the log message being displayed when a phase is disabled, closes [#2075](https://github.com/Flexget/Flexget/issues/2075)
 
-<!---368ab02b5f2d4d22bed99b6471c5484eb49b4552--->
 
 ## 2.12.2 (2018-02-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.1...2.12.2)
