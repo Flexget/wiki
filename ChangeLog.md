@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---39d15bcdfd33bc281e4691e14cb6c898ab79ed4f--->
+<!---e07218893455d020aedade04b5528a5fa7dca2b1--->
+
+## 2.12.5.dev (unreleased)
+### Added
+- qbittorrent: new config option to specify ssl and ssl verification
+- Add SSL options to qBittorrent plugin ([#2074](https://github.com/Flexget/Flexget/issues/2074))
 
 <!---ef67299f62736fe0fcf767ac8da9e0e5f1190e09--->
 
