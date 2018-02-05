@@ -27,5 +27,7 @@ qbittorrent: yes
 |  port  |  qBittorrent port (default *8080*)  |
 |  username  |  qBittorrent username that was set in the WebUI options. Can be omitted if *Bypass authentication for localhost* is checked  |
 |  password  |  qBittorrent password that was set in the WebUI options. Can be omitted if *Bypass authentication for localhost* is checked  |
+| use_ssl | Connect to the provided hostname using https (default *False*)
+| verify_cert | Enable or disable SSL certficate verification (default *True*)
 |  path  |  The download location  |
 || label || qBittorrent label ||
