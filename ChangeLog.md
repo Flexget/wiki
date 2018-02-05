@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e07218893455d020aedade04b5528a5fa7dca2b1--->
+<!---77c81f5eb9c57eb80609a099d2355c41736dd5a3--->
 
 ## 2.12.5.dev (unreleased)
 ### Added
 - qbittorrent: new config option to specify ssl and ssl verification
 - Add SSL options to qBittorrent plugin ([#2074](https://github.com/Flexget/Flexget/issues/2074))
+
+### Fixed
+- the internal bittorrent utility functions will now use `name.utf-8` and `path.utf-8` if present, fixes [#2024](https://github.com/Flexget/Flexget/issues/2024)
 
 <!---ef67299f62736fe0fcf767ac8da9e0e5f1190e09--->
 
