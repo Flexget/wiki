@@ -146,6 +146,8 @@ Filters based on preexisting data or operations within FlexGet
 
 | **Keyword** | **Description** |
 | --- | --- |
+| [upgrade](/Plugins/upgrade) | Accept/Reject better qualities of an entry (tracked by a unique identifier) |
+| [timeframe](/Plugins/upgrade) | Timeframe in which FlexGet waits for the chosen quality. |
 | [duplicates](/Plugins/duplicates) | Perform action based on duplicate entries by a field. |
 | [limit_new](/Plugins/limit_new) | Allow only given number of entries to pass per execution. |
 | [only_new](/Plugins/only_new) | Causes all entries that were in the task on the previous run to be rejected at the input phase. |
