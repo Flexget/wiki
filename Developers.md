@@ -2,7 +2,7 @@
 View the documentation and tutorials at [flexget.readthedocs.org](https://flexget.readthedocs.org/en/latest/)
 
 ### Python2/3 Compatibility
-We use python-future [http://python-future.org/](/http://python-future.org/) for python2/3 compatibily. See the cheat-sheet for more information [http://python-future.org/compatible_idioms.html](/http://python-future.org/compatible_idioms.html)
+We use python-future [http://python-future.org/](http://python-future.org/) for python2/3 compatibily. See the cheat-sheet for more information [http://python-future.org/compatible_idioms.html](http://python-future.org/compatible_idioms.html)
 
 Within flexget every python module must import the following for python2/3 compatibility. 
 
