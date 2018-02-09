@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---95496a2bcd923dff5e36c65891963fc5e8f1d946--->
+<!---bf3f7eaef0f9d13646b79cec905353249c26d602--->
 
-## 2.12.6.dev (unreleased)
+<!---f6bfb99ba0ce786bf4c5fa0d830edc2467b6597e--->
+
+## 2.12.6 (2018-02-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.5...2.12.6)
 ### Added
 - argenteam: added new entry field `argenteam_subtitle`, which contains the url of the subtitle
 
-<!---68a8d8c806802b609a6d6c824a56ece11c5fd268--->
 
 ## 2.12.5 (2018-02-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.4...2.12.5)
