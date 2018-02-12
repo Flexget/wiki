@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf3f7eaef0f9d13646b79cec905353249c26d602--->
+<!---af631d97a078a9a53c5949d1e5853818607044d2--->
+
+## 2.12.7.dev (unreleased)
+### Added
+- *  Support for Jinja2 Templating in ftp_tmp_path.
+- Add jinja2 templates to ftp_download and fix infinite loop bug. ([#2078](https://github.com/Flexget/Flexget/issues/2078))
+
+### Fixed
+- *   Prevent download loop to last indefinitely.
 
 <!---f6bfb99ba0ce786bf4c5fa0d830edc2467b6597e--->
 
