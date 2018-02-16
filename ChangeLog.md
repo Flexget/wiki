@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a60fb9fa730c7adced0dcbc0766319b3f6e65894--->
+<!---cef32eb8b136497c4af2e9479892fdaa654ff864--->
 
-## 2.12.8.dev (unreleased)
+<!---0b98bc452e48329abf6443fb57935b3a4f822fdd--->
+
+## 2.12.8 (2018-02-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.7...2.12.8)
 ### Added
 - Crash logs API ([#2079](https://github.com/Flexget/Flexget/issues/2079))
 
-<!---b83cd73415fb1a3a38291e79567b3d30a8b20ad0--->
 
 ## 2.12.7 (2018-02-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.6...2.12.7)
