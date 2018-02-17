@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cef32eb8b136497c4af2e9479892fdaa654ff864--->
+<!---048840fdb50201041dd76432a550203be025b21c--->
+
+## 2.12.9.dev (unreleased)
+### Fixed
+- update timeframe plugin to only work on accepted entries to reduce log noise and database hits.
 
 <!---0b98bc452e48329abf6443fb57935b3a4f822fdd--->
 
