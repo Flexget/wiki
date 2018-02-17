@@ -1,6 +1,9 @@
 # Timeframe
 
 Specify a timeframe in which FlexGet waits for the chosen quality. The desired quality should be given with `target` option and should be a valid [quality requirements](/Qualities#Requirements) string. If the specified quality does not become available within given `wait` after a different quality has been seen, the best quality so far is chosen.
+
+`NOTE: The timeframe plugin works on accepted entries.`
+
 ## Settings
 
 | **Option** | **Description** |
