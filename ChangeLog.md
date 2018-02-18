@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---048840fdb50201041dd76432a550203be025b21c--->
+<!---9d832b8bad1f89c894a963a1d0fa78c9621ea0fc--->
 
-## 2.12.9.dev (unreleased)
+<!---99d22bf4473f810a587e9981961fd104338a3661--->
+
+## 2.12.9 (2018-02-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.8...2.12.9)
 ### Fixed
 - update timeframe plugin to only work on accepted entries to reduce log noise and database hits.
 
-<!---0b98bc452e48329abf6443fb57935b3a4f822fdd--->
 
 ## 2.12.8 (2018-02-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.7...2.12.8)
