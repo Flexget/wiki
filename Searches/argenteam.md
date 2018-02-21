@@ -1,7 +1,7 @@
 # aRGENTeaM
 Search plugin which gives results from [www.argenteam.net](http://www.argenteam.net/), latin american (Argentina) web.
 
-Add an entry field `argenteam_subtitle`, which contains the url of the subtitle.
+Add an entry field `argenteam_subtitle`, which contains subtitle’s url.
 ### Configuration
 | Option | Description |
 | --- | --- |
