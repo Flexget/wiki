@@ -36,6 +36,7 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | series_id | [series](/Plugins/series) | Series episode identifier, ie. `S01E02` or `2009-12-1` |
 | series_date | [series](/Plugins/series) | The date of the episode. (only available for date based series) |
 | proper | [series](/Plugins/series) | Whether this entry is a proper or repack release |
+| argenteam_subtitle | [argenteam](/Searches/argenteam) | aRGENTeaM subtitle's url |
 | imdb_url | [imdb_lookup](/Plugins/imdb_lookup)+others | Imdb url |
 | imdb_id | [imdb_lookup](/Plugins/imdb_lookup)* | Imdb identifier |
 | imdb_name | [imdb_lookup](/Plugins/imdb_lookup)* | Imdb name |
