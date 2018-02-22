@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9d832b8bad1f89c894a963a1d0fa78c9621ea0fc--->
+<!---35c4d9b95f10e7fd93bb8719eb1b03bb5d3f52fa--->
+
+## 2.12.10.dev (unreleased)
+### Added
+- piratebay: Added option to specify url eg. alternative proxies in case of ISP blocking
 
 <!---99d22bf4473f810a587e9981961fd104338a3661--->
 
