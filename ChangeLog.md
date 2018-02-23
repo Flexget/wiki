@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---35c4d9b95f10e7fd93bb8719eb1b03bb5d3f52fa--->
+<!---d4e47a450d5d3a3f92c42d354465660c9c6d1676--->
 
-## 2.12.10.dev (unreleased)
+<!---8fcd7b3f99b6acede7ecef2e8e64c9000f5f55f8--->
+
+## 2.12.10 (2018-02-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.9...2.12.10)
 ### Added
 - piratebay: Added option to specify url eg. alternative proxies in case of ISP blocking
 
-<!---99d22bf4473f810a587e9981961fd104338a3661--->
 
 ## 2.12.9 (2018-02-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.8...2.12.9)
