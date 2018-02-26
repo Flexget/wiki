@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d4e47a450d5d3a3f92c42d354465660c9c6d1676--->
+<!---c1714af16aec5e318747a01a569c78ac29c96d11--->
+
+## 2.12.11.dev (unreleased)
+### Fixed
+- *  Update cache control in API to better handle dynamic content in the browser. Cache-control: 0 means the brwoser will check if the etag is different, if so, download new copy else use browser cache.
 
 <!---8fcd7b3f99b6acede7ecef2e8e64c9000f5f55f8--->
 
