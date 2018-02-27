@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---acf4cf46d09990ff00fa8500db903e37b0bd4cb7--->
+<!---4a465861b604c3420b097ae2a2536078bc8b51d6--->
 
 ## 2.12.11.dev (unreleased)
 ### Fixed
+- aria2: fixed crash when connection fails due to socket error
 - *  Update cache control in API to better handle dynamic content in the browser. Cache-control: 0 means the brwoser will check if the etag is different, if so, download new copy else use browser cache.
 
 ### Changed
