@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4a465861b604c3420b097ae2a2536078bc8b51d6--->
+<!---bb31aa7c0921adcd46ac154793008c7f544b6eeb--->
 
-## 2.12.11.dev (unreleased)
+<!---5b1a81822c17e596276f242cd6bf5ecb9295f1af--->
+
+## 2.12.11 (2018-02-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.10...2.12.11)
 ### Fixed
 - aria2: fixed crash when connection fails due to socket error
 - *  Update cache control in API to better handle dynamic content in the browser. Cache-control: 0 means the brwoser will check if the etag is different, if so, download new copy else use browser cache.
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Removed
 - t411: removed cli commands for t411 as the site is dead
 
-<!---8fcd7b3f99b6acede7ecef2e8e64c9000f5f55f8--->
 
 ## 2.12.10 (2018-02-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.9...2.12.10)
