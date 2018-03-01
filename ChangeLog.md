@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bb31aa7c0921adcd46ac154793008c7f544b6eeb--->
+<!---7af5eebf31e903848d5affd7754febb5448d3edd--->
+
+## 2.13.0.dev (unreleased)
+### Changed
+- parsing: the parsers have been greatly simplified. Behaviour of internal parser is unchanged. Guessit 2.1.4+ now supported.
 
 <!---5b1a81822c17e596276f242cd6bf5ecb9295f1af--->
 
