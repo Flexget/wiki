@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7af5eebf31e903848d5affd7754febb5448d3edd--->
+<!---139efc1fc2485789df87302745fba80d8afc8601--->
 
-## 2.13.0.dev (unreleased)
+<!---89ddeb8d7cfcc354534a45c4b4d71d03e6925680--->
+
+## 2.13.0 (2018-03-01)
+[all commits](https://github.com/Flexget/Flexget/compare/2.12.11...2.13.0)
 ### Changed
 - parsing: the parsers have been greatly simplified. Behaviour of internal parser is unchanged. Guessit 2.1.4+ now supported.
 
-<!---5b1a81822c17e596276f242cd6bf5ecb9295f1af--->
 
 ## 2.12.11 (2018-02-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.12.10...2.12.11)
