@@ -11,6 +11,8 @@ Parsing has been greatly simplified. The old interface was difficult to maintain
 
 If you do not make use of Guessit-specific fields, **no** changes to your config are required.
 
+**NOTE**: There are currently a few bugs in Guessit that we have no control over. So if you're parsing anime, it may be better to use the internal parser for now. See [issue #533](https://github.com/guessit-io/guessit/issues/533) and [issue #532](https://github.com/guessit-io/guessit/issues/532).
+
 ### **2.12.0** -- 2018.01.26
 #### Removed plugins
 The following is a list of search plugins that have been removed due to site closures. Any site claiming to be a direct successor/re-opening cannot be trusted.
