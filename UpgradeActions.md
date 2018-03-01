@@ -9,6 +9,8 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 ### **2.13.0** -- 2018.03.01
 Parsing has been greatly simplified. The old interface was difficult to maintain. This also means that the Guessit parser now supports ver. 2.1.4+. Due to the simplification, a lot of the specialized fields such as `is_3d` are no longer available. If you feel that a particular value is missing, open an issue on our [Github](https://www.github.com/Flexget/Flexget/issues).
 
+If you do not make use of Guessit-specific fields, *no* changes to your config are required.
+
 ### **2.12.0** -- 2018.01.26
 #### Removed plugins
 The following is a list of search plugins that have been removed due to site closures. Any site claiming to be a direct successor/re-opening cannot be trusted.
