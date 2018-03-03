@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---139efc1fc2485789df87302745fba80d8afc8601--->
+<!---5dee2c4e761fee4ab88b2e631929659b8be2ae55--->
+
+## 2.13.1.dev (unreleased)
+### Changed
+- all_series: no longer sets identified_by to 'ep'
+
+### Fixed
+- metainfo_series: use  identified_by  value passed from all_series etc., fixes [#2090](https://github.com/Flexget/Flexget/issues/2090)
 
 <!---89ddeb8d7cfcc354534a45c4b4d71d03e6925680--->
 
