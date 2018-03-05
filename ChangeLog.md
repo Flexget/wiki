@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c616922dce762fe5d26ec8b50d27b264f6e91467--->
+<!---9b8b02092d9c02b5e542d7c867d4547c2f505133--->
 
-## 2.13.2.dev (unreleased)
+<!---2a23fa3d586c93ac69f041659cf98545da7c1ced--->
+
+## 2.13.2 (2018-03-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.1...2.13.2)
 ### Fixed
 - series: fixed Too Many Variables crash on some OSs, fixes [#2091](https://github.com/Flexget/Flexget/issues/2091)
 
-<!---7680d27411262566c9124ac2ac5e0bebbd3224a3--->
 
 ## 2.13.1 (2018-03-03)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.0...2.13.1)
