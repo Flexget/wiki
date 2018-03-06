@@ -37,8 +37,8 @@ tasks:
       tracking: yes
     imdb_high_rated:
       imdb:
-      min_score: 8.5
-      min_votes: 5000
+        min_score: 8.5
+        min_votes: 5000
 
   upgrade_movies:
     upgrade:
