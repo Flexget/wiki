@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4165d8a0102d723bad64c1668f3860a816446da9--->
+<!---7f49bd5ca0c53795647986d17d17127620acb95d--->
 
-## 2.13.3.dev (unreleased)
+<!---fc7dcb118282886f8921dd6c5d3932153393d338--->
+
+## 2.13.3 (2018-03-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.2...2.13.3)
 ### Fixed
 - imdb_list: fixed csv indexing by using DictReader, fixes [#2095](https://github.com/Flexget/Flexget/issues/2095) ([#2096](https://github.com/Flexget/Flexget/issues/2096))
 
-<!---2a23fa3d586c93ac69f041659cf98545da7c1ced--->
 
 ## 2.13.2 (2018-03-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.1...2.13.2)
