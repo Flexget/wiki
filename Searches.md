@@ -14,8 +14,8 @@ FlexGet provides framework for querying searches from supported sites. These can
 | **Keyword** | **Description** |
 | --- | --- |
 | [`argenteam`](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
+| [`descargas2020`](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
 | [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
-| [`newpct`](/Searches/newpct) | Generates entries from [newpct1.com](http://newpct1.com) |
 | [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.se](http://nyaa.se/) |
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
