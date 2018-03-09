@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f49bd5ca0c53795647986d17d17127620acb95d--->
+<!---bffbd64a43f66292dcb9bb7cdd9d44549359404d--->
+
+## 2.13.4.dev (unreleased)
+### Changed
+- newpct: plugin has been renamed to descargas2020 due to major site changes
 
 <!---fc7dcb118282886f8921dd6c5d3932153393d338--->
 
