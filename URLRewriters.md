@@ -21,7 +21,8 @@ As of 2017-06 following rewriters are included. To get up to date list run comma
 * archetorrent   
 * bakabt         
 * cinemageddon   
-* deadfrog       
+* deadfrog
+* descargas2020
 * divxatope      
 * extratorrent   
 * eztv           
@@ -31,7 +32,6 @@ As of 2017-06 following rewriters are included. To get up to date list run comma
 * hliang
 * iptorrents     
 * koreus         
-* newpct         
 * newtorrents    
 * nnm-club       
 * nyaa           
