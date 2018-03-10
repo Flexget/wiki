@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---118c739febace7b322d3d598ba4331d41d4c27f7--->
+<!---a8d90e35f17ed70608eca7d25293a9f57863c0d6--->
 
-## 2.13.4.dev (unreleased)
+<!---5e521f5a976bd663f6f7c2cdc8bb7ec398841d99--->
+
+## 2.13.4 (2018-03-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.3...2.13.4)
 ### Changed
 - newpct: plugin has been renamed to descargas2020 due to major site changes
 
 ### Added
 - Pending list API - Added filter by entry title ([#2087](https://github.com/Flexget/Flexget/issues/2087))
 
-<!---fc7dcb118282886f8921dd6c5d3932153393d338--->
 
 ## 2.13.3 (2018-03-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.2...2.13.3)
