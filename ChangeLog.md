@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f8c1c18a154db073dbeb63697b906ce471207f1--->
+<!---2db818ea251a7ad51afc981b71a19bad6d04b51e--->
 
-## 2.13.5.dev (unreleased)
+<!---0673d6e0ee183a98e62b990d9956591992ce712d--->
+
+## 2.13.5 (2018-03-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.4...2.13.5)
 ### Fixed
 - guessit parser: now properly handles strings and lists in quality components, fixes [#2100](https://github.com/Flexget/Flexget/issues/2100)
 
-<!---5e521f5a976bd663f6f7c2cdc8bb7ec398841d99--->
 
 ## 2.13.4 (2018-03-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.3...2.13.4)
