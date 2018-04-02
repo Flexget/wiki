@@ -70,7 +70,7 @@ season_packs: only
 You can fine tune both of the previous options of the config even further like this:
 ```yaml
 season_packs:
-  threhold: 5
+  threshold: 5
   reject_eps: yes
 ```
 ## Important Note: 
