@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8d33c20a136ac03e0e21af5662ba9a66244cf186--->
+<!---a66bf2d615ad47ed90b1bddd0edcd0814fda0806--->
+
+## 2.13.7.dev (unreleased)
+### Changed
+- torrentleech: use task requests session to allow the use of cfscraper and domain limiters
 
 <!---10faee420f0288cbfcbbc149b9e4bd1d32fc5346--->
 
