@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a66bf2d615ad47ed90b1bddd0edcd0814fda0806--->
+<!---14dc0e969c2fbcb9e990a193b379aa1430dd80b7--->
 
-## 2.13.7.dev (unreleased)
+<!---6c3fcb7c8193d7125a28b1533da8d1a23e3170fa--->
+
+## 2.13.7 (2018-04-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.6...2.13.7)
 ### Changed
 - torrentleech: use task requests session to allow the use of cfscraper and domain limiters
 
-<!---10faee420f0288cbfcbbc149b9e4bd1d32fc5346--->
 
 ## 2.13.6 (2018-03-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.5...2.13.6)
