@@ -5,14 +5,15 @@ Python 2 EOL is 2020-01-01 which means now is a good time for us to start droppi
 ## Prepearations 
 
 - Stabalize/add Online tests
-- 
 
 ## Checklist:
 
 - Research which dependencies we currently use that are py2 only
 - Drop `future` and its realted libs usage
-- Drop `builtins` usage
-- 
+- Drop `six`
+- Drop `builtins` 
+- Drop `path.py` and `pathlib` for stdlib `pathlib`
+
 
 ### Py2 only deps that we'll drop/update and plugins that use them
 
@@ -24,3 +25,8 @@ Python 2 EOL is 2020-01-01 which means now is a good time for us to start droppi
 - Should we support "maintenance" stuff for flexget 2.x? Is it that even feasible with our current infrastructure?
 - Is there any thing else we wanna change with this version? Maybe replace argparse with click?
 
+### Nice to have changes
+
+- Replace `argparse` with `click`?
+- Use `pendulum` or `arrow` for all our date/datetime/timedelta/timezone needs?
+- Replace `beautifulsoup` with `requests-html`?
