@@ -9,10 +9,16 @@ Python 2 EOL is 2020-01-01 which means now is a good time for us to start droppi
 ## Checklist:
 
 - Research which dependencies we currently use that are py2 only
+- Drop `__future__` usage
 - Drop `future` and its realted libs usage
 - Drop `six`
 - Drop `builtins` 
 - Drop `path.py` and `pathlib` for stdlib `pathlib`
+
+### Lower priority:
+
+- Remove all inheritence from `object` from all classess
+- 
 
 
 ### Py2 only deps that we'll drop/update and plugins that use them
@@ -30,3 +36,4 @@ Python 2 EOL is 2020-01-01 which means now is a good time for us to start droppi
 - Replace `argparse` with `click`?
 - Use `pendulum` or `arrow` for all our date/datetime/timedelta/timezone needs?
 - Replace `beautifulsoup` with `requests-html`?
+- `apscheduler` is giving us a hard time. Should it be replaced?
