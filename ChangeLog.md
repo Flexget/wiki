@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---14dc0e969c2fbcb9e990a193b379aa1430dd80b7--->
+<!---ff2f1305651e57cfd3d24e71bbcaa8462a567212--->
+
+## 2.13.8.dev (unreleased)
+### Changed
+- The torrentleech output plugin is temporarily using the V4 api ([#2117](https://github.com/Flexget/Flexget/issues/2117))
 
 <!---6c3fcb7c8193d7125a28b1533da8d1a23e3170fa--->
 
