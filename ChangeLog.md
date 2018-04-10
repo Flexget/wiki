@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff2f1305651e57cfd3d24e71bbcaa8462a567212--->
+<!---d600e6e97ebfb80674daf7cd332ffb6e1c494aa8--->
 
-## 2.13.8.dev (unreleased)
+<!---0ebcdc9a71332f3d55cdb0fb43acb7dc8730b513--->
+
+## 2.13.8 (2018-04-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.7...2.13.8)
 ### Changed
 - The torrentleech output plugin is temporarily using the V4 api ([#2117](https://github.com/Flexget/Flexget/issues/2117))
 
-<!---6c3fcb7c8193d7125a28b1533da8d1a23e3170fa--->
 
 ## 2.13.7 (2018-04-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.6...2.13.7)
