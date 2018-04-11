@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d600e6e97ebfb80674daf7cd332ffb6e1c494aa8--->
+<!---bedf84f5f50f5bd236dfd0b3a68e217fc921b316--->
+
+## 2.13.9.dev (unreleased)
+### Fixed
+- Make sqlalchemy 1.1 and 1.2 behave the same. fix [#2058](https://github.com/Flexget/Flexget/issues/2058)
 
 <!---0ebcdc9a71332f3d55cdb0fb43acb7dc8730b513--->
 
