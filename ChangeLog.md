@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cd50119adb3b4c53d11a5e002d1ce92bbbcb400c--->
+<!---ce2a59614428ba12edf5ff6f6beeb9f8b3068262--->
+
+## 2.13.10.dev (unreleased)
+### Fixed
+- *  imdb_list: adding/removal broke due to ajax url having changed. Plugin now uses same endpoints as the site
+- imdb_list: some fields are optional and would therefore cause a crash if not present
 
 <!---6b71faac18fd6e3e73190ef85bb1ceeb61ab9ff3--->
 
