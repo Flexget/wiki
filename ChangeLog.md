@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2705b7974c5905bc4a2667ed6637908de8ecb285--->
+<!---16f16d964400b8a7e940e3e96a202bad472c6a88--->
 
-## 2.13.10.dev (unreleased)
+<!---f9c3dcde683b2d183440403e96e2631d0c59c528--->
+
+## 2.13.10 (2018-04-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.9...2.13.10)
 ### Fixed
 - rss plugin all_entries option broken on python 3.3+
 - *  imdb_list: adding/removal broke due to ajax url having changed. Plugin now uses same endpoints as the site
 - imdb_list: some fields are optional and would therefore cause a crash if not present
 
-<!---6b71faac18fd6e3e73190ef85bb1ceeb61ab9ff3--->
 
 ## 2.13.9 (2018-04-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.8...2.13.9)
