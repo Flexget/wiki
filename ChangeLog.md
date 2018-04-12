@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---16f16d964400b8a7e940e3e96a202bad472c6a88--->
+<!---a3f01e4622904106c280ac48789d6f0d1c06766a--->
+
+## 2.13.11.dev (unreleased)
+### Changed
+- torrentleech: updated to the new v5 interface
 
 <!---f9c3dcde683b2d183440403e96e2631d0c59c528--->
 
