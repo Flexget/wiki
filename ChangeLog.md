@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ce2a59614428ba12edf5ff6f6beeb9f8b3068262--->
+<!---2705b7974c5905bc4a2667ed6637908de8ecb285--->
 
 ## 2.13.10.dev (unreleased)
 ### Fixed
+- rss plugin all_entries option broken on python 3.3+
 - *  imdb_list: adding/removal broke due to ajax url having changed. Plugin now uses same endpoints as the site
 - imdb_list: some fields are optional and would therefore cause a crash if not present
 
