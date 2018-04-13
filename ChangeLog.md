@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a3f01e4622904106c280ac48789d6f0d1c06766a--->
+<!---cddae953d28aac3f9fc79e2d8c9ea23b746e1a02--->
 
-## 2.13.11.dev (unreleased)
+<!---50df8692b1c7043fdcd98369588e595d974de9a9--->
+
+## 2.13.11 (2018-04-12)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.10...2.13.11)
 ### Changed
 - torrentleech: updated to the new v5 interface
 
-<!---f9c3dcde683b2d183440403e96e2631d0c59c528--->
 
 ## 2.13.10 (2018-04-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.9...2.13.10)
