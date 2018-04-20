@@ -1,1 +1,1 @@
-See ["Plugins/disable"](/"Plugins/disable").
+See ["Plugins/disable"](/Plugins/disable).
