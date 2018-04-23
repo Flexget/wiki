@@ -3,7 +3,7 @@
 
 Syntax:
 
-```
+```text
 copy:
   [to]: directory to copy accepted entries to, allows value replacement, defaults to download path
   [rename]: the actual filename inside the 'to' directory to rename the entries, allows value replacement
@@ -20,7 +20,7 @@ Entry field "copy_to" can be used to override given path.
 
 Here is an example of usage in a more comprehensive context
 
-```
+```yaml
 tasks:
   copy-episodes:
     metainfo_series: yes 
