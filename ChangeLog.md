@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---94557b72f25f4534af9b58ca8afdfbdfbfe45904--->
+<!---f05d7c88141edbfc4cfb281b529d76e197aedec9--->
+
+## 2.13.15.dev (unreleased)
+### Fixed
+- imdb_list: changed all urls to https as they enforce it on a lot of them, fixes [#2129](https://github.com/Flexget/Flexget/issues/2129)
 
 <!---edb3c522adc82dedee74e1449e0947be741bd285--->
 
