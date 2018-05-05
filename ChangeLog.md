@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f05d7c88141edbfc4cfb281b529d76e197aedec9--->
+<!---8d88341e2189982094ad6908d5a165a047ee0f5d--->
 
-## 2.13.15.dev (unreleased)
+<!---e07b5a0fbfdf98a281272dc4136f6ba466d2df45--->
+
+## 2.13.15 (2018-05-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.14...2.13.15)
 ### Fixed
 - imdb_list: changed all urls to https as they enforce it on a lot of them, fixes [#2129](https://github.com/Flexget/Flexget/issues/2129)
 
-<!---edb3c522adc82dedee74e1449e0947be741bd285--->
 
 ## 2.13.14 (2018-04-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.13...2.13.14)
