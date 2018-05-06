@@ -17,7 +17,7 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.9.3) YAML anchor examples, use Trakt.tv to manage shows and movies.
 * [malkavi](/Cookbook/Users/malkavi) (2.10.12.dev) Spanish Movies and series config.
 * [Systy](https://github.com/Fabien-G/Flexget_t411/tree/master) (v2.10.30) DL VOSTFR series (existing + Trakt) + VF movies (Imdb + Trakt) with Transmission on T411. Renaming / Email. French user
-* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v2.10.45) - A fork of jawilson below. (Trakt-Deluge-Slack-PMS on FreeBSD)
+* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v2.13.15) - A fork of jawilson below. (Trakt-Deluge-Slack-PMS on FreeBSD)
 * [jawilson](https://github.com/jawilson/dotfiles/tree/master/flexget) (v2.10.108) Trakt-managed movies and TV shows (Flexget + Trakt + Deluge + Pushbullet + PMS)
 - [metaMMA](/Cookbook/Users/metaMMA) (v2.10.67) - Download and keep track of popular MMA events and shows. Can be used with or without additional Plex/KODI application found on [Github](https://github.com/metaMMA/metaMMA)
 
