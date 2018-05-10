@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8d88341e2189982094ad6908d5a165a047ee0f5d--->
+<!---57e495b2dae6736d76cc82df3d35863d0b011360--->
+
+## 2.13.16.dev (unreleased)
+### Added
+- add base_path support to sonarr_list plugin ([#2134](https://github.com/Flexget/Flexget/issues/2134))
 
 <!---e07b5a0fbfdf98a281272dc4136f6ba466d2df45--->
 
