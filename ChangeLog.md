@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f25db05becd63e76049e2f0291b64ed120632b44--->
+<!---fbfe9af75ed63be176d4b58836bd090ead16639f--->
+
+## 2.13.17.dev (unreleased)
+### Fixed
+- torrent_match: entries with non-existing `location` will properly be ignored
 
 <!---06be86b18330f59e935de8e0b688a6c43fc614fa--->
 
