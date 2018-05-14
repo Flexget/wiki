@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---49c64e607bfc16f308e7531d2746ed0864453134--->
+<!---7fa0c332170e2004855623d75feccd97447e94c7--->
+
+## 2.13.18.dev (unreleased)
+### Added
+- quality: Added p60 (fps)
 
 <!---98f9ffde3193408e91feb75f77ed3e9d120e7ee7--->
 
