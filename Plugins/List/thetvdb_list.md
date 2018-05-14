@@ -10,14 +10,13 @@ This plugin is mainly used from the [configure_series](/Plugins/configure_series
 
 You can also add and remove shows from it, like any other managed list plugin.
 
-You configure thetvdb_list plugin with your username, account id (aka unique id) and generated API key from TheTVDB . You can find this information on the [api access page](https://www.thetvdb.com/member/api) after you log in. Note: you must generate an API key with the button on the bottom of that page.
+You configure thetvdb_list plugin with your username and account id at TheTVDB . You can find it on the [account tab](http://thetvdb.com/?tab=userinfo) after you log in.
 
 |Option|Description|
 |---|---|
 |strip_dates|If set to `yes` the trailing year will be stripped from series names that include them. For example, `Merlin (2008)` would become just `Merlin`.|
-|username|Get this from [api access page](https://www.thetvdb.com/member/api)|
-|account_id|Get this from [api access page](https://www.thetvdb.com/member/api)|
-|apikey|Get this from [api access page](https://www.thetvdb.com/member/api)
+|username|Get this from [account tab](http://thetvdb.com/?tab=userinfo)|
+|account_id|Get this from [account tab](http://thetvdb.com/?tab=userinfo)
 
 ## Examples
 
@@ -27,7 +26,6 @@ You configure thetvdb_list plugin with your username, account id (aka unique id)
 thetvdb_list:
   username: <username>
   account_id: <account identifier>
-  api_key: <api key>
   strip_dates: yes
 ```
 
@@ -41,7 +39,6 @@ configure_series:
     thetvdb_list:
       username: <username>
       account_id: <account identifier>
-      api_key: <api key>
   settings:
     timeframe: 12 hours
     target: 720p
@@ -62,7 +59,6 @@ list_add:
   - thetvdb_list:
       username: username
       account_id: account_identifier
-      api_key: <api key>
 seen: local
 ```
 
