@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---043de1e6b0d0ec4b422f44b2157266171bda7cbe--->
+<!---49c64e607bfc16f308e7531d2746ed0864453134--->
 
-## 2.13.17.dev (unreleased)
+<!---98f9ffde3193408e91feb75f77ed3e9d120e7ee7--->
+
+## 2.13.17 (2018-05-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.16...2.13.17)
 ### Fixed
 - passthepopcorn: force cookie expiration after 30 days
 - torrent_match: entries with non-existing `location` will properly be ignored
 
-<!---06be86b18330f59e935de8e0b688a6c43fc614fa--->
 
 ## 2.13.16 (2018-05-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.15...2.13.16)
