@@ -25,7 +25,7 @@ The following settings are optional:
 ### Example: set_series_begin plugin
 This example shows how the next_sonarr_episodes plugin could be used with the [set_series_begin](/Plugins/set_series_begin) plugin in order to set the first episode for all monitored and running shows as defined in [Sonarr](http://sonarr.tv):
 
-{{{
+```
   set-series-begin-from-sonarr:
       next_sonarr_episodes:
         base_url: '{? credentials.sonarr.url ?}'
@@ -34,14 +34,14 @@ This example shows how the next_sonarr_episodes plugin could be used with the [s
         include_ended: false
       accept_all: yes
       set_series_begin: yes
-
+```
 
 ### Example: discover_plugin
 
 This example shows how the next_sonarr_episodes plugin could be used with the [discover](/Plugins/discover) plugin in order to download the first missing episode for all monitored and running shows as defined in [Sonarr](http://sonarr.tv):
 
 ```
-discover_from_sonarr_task:
+  discover_from_sonarr_task:
       discover:
         what:
           - next_sonarr_episodes:
