@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7fa0c332170e2004855623d75feccd97447e94c7--->
+<!---2f6671eb74c49407e5cbd6a63474c0d66b533890--->
 
-## 2.13.18.dev (unreleased)
+<!---68b0252ae819a9978643a1047178b0cfb799ea12--->
+
+## 2.13.18 (2018-05-14)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.17...2.13.18)
 ### Added
 - quality: Added p60 (fps)
 
-<!---98f9ffde3193408e91feb75f77ed3e9d120e7ee7--->
 
 ## 2.13.17 (2018-05-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.16...2.13.17)
