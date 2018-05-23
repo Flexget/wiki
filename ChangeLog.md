@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b7e5cbb05276b2de0cb5af540086b725c4310965--->
+<!---c23fdbf35ba0459e98f644e91a1b0e3181e22923--->
+
+## 2.13.20.dev (unreleased)
+### Fixed
+- thetvdb_list: added api_key requirement to comply with the new API
 
 <!---4255629667085f29e4607f0ab142dcf3832faabf--->
 
