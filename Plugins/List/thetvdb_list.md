@@ -6,17 +6,18 @@
   &nbsp; This is part of [managed list](/Plugins/List) plugin system.
 </div>
 
-This plugin is mainly used from the [configure_series](/Plugins/configure_series) plugin to automatically configure FlexGet to download all of your TVDB favorites. The plugin can work as input that returns entries for all the shows you have marked as favorites at [http://thetvdb.com](/http://thetvdb.com). If TheTVDB goes down, the last known list of favorites will be used until it comes back online. 
+This plugin is mainly used from the [configure_series](/Plugins/configure_series) plugin to automatically configure FlexGet to download all of your TVDB favorites. The plugin can work as input that returns entries for all the shows you have marked as favorites at [Member Favorites](https://www.thetvdb.com/member/favorites). If TheTVDB goes down, the last known list of favorites will be used until it comes back online. 
 
 You can also add and remove shows from it, like any other managed list plugin.
 
-You configure thetvdb_list plugin with your username and account id at TheTVDB . You can find it on the [account tab](http://thetvdb.com/?tab=userinfo) after you log in.
+You configure thetvdb_list plugin with your username, account id and generated api key at TheTVDB . You can find this information on the [Member API](https://www.thetvdb.com/member/api) page after you log in. You will need to generate an api key on that page if you have not already done so.
 
 |Option|Description|
 |---|---|
 |strip_dates|If set to `yes` the trailing year will be stripped from series names that include them. For example, `Merlin (2008)` would become just `Merlin`.|
-|username|Get this from [account tab](http://thetvdb.com/?tab=userinfo)|
-|account_id|Get this from [account tab](http://thetvdb.com/?tab=userinfo)
+|username|Get this from the [Member API](https://www.thetvdb.com/member/api) page|
+|account_id|Get this from the [Member API](https://www.thetvdb.com/member/api) page|
+|api_key|Get this from the [Member API](https://www.thetvdb.com/member/api) page
 
 ## Examples
 
@@ -25,7 +26,8 @@ You configure thetvdb_list plugin with your username and account id at TheTVDB .
 ```yaml
 thetvdb_list:
   username: <username>
-  account_id: <account identifier>
+  account_id: <account_id>
+  api_key: <api_key>
   strip_dates: yes
 ```
 
@@ -38,7 +40,8 @@ configure_series:
   from:
     thetvdb_list:
       username: <username>
-      account_id: <account identifier>
+      account_id: <account_id>
+      api_key: <api_key>
   settings:
     timeframe: 12 hours
     target: 720p
@@ -57,8 +60,9 @@ accept_all: yes
 thetvdb_lookup: yes
 list_add:
   - thetvdb_list:
-      username: username
-      account_id: account_identifier
+      username: <username>
+      account_id: <account_id>
+      api_key: <api_key>
 seen: local
 ```
 
