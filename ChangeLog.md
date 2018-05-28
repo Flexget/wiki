@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---16ebcf4ca177f86f4256694b97ec9fbf00ec6a08--->
+<!---9f23b2925cbabba1c89a161e0c248e0d658b6152--->
+
+## 2.13.21.dev (unreleased)
+### Added
+- imdb: Add metacritic score lookup functionality
 
 <!---ef5d34cc568bce9deb2958e94a24e377951dcfce--->
 
