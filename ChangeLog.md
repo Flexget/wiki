@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9f23b2925cbabba1c89a161e0c248e0d658b6152--->
+<!---b1a3563a2e4fcdc53745df1a490805c54fe98c91--->
 
-## 2.13.21.dev (unreleased)
+<!---e3c3fef6c3bbde7e51dcb5c55d93efb606a98c39--->
+
+## 2.13.21 (2018-05-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.20...2.13.21)
 ### Added
 - imdb: Add metacritic score lookup functionality
 
-<!---ef5d34cc568bce9deb2958e94a24e377951dcfce--->
 
 ## 2.13.20 (2018-05-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.19...2.13.20)
