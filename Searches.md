@@ -74,7 +74,6 @@ flexget plugins --interface search
 │ rarbg           │            │ doc   │
 │ sceneaccess     │            │ doc   │
 │ search_rss      │            │ doc   │
-│ torrent411      │            │ doc   │
 │ torrentleech    │            │ doc   │
 │ torrentshack    │            │ doc   │
 └─────────────────┴────────────┴───────┘
