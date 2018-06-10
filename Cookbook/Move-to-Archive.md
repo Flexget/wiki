@@ -20,7 +20,7 @@ This will find all your tv shows and movies that are no longer listed in the Del
 
   * Replace `<download path>` with the path to the location where your files are. 
 
-  * Change `days=15` to your decided time limit. 
+  * Change `age: 15 days` to your decided time limit. 
 
   * Replace `<archive path>` with the path to the location where your archive is. 
 
@@ -103,8 +103,11 @@ tasks:
       action: reject
     accept_all: yes
     require_field: series_name
+    age:
+      field: created
+      action: accept
+      age: 15 days
     if:
-      - 'created > now - timedelta(days=15)': reject
       - "'Sample' in title": reject
     move:
       to: '<tv archive path>\{{ series_name }}\''
@@ -128,8 +131,11 @@ tasks:
       remove_on_match: no
       single_match: no
       action: reject
+    age:
+      field: created
+      action: accept
+      age: 15 days
     if:
-      - 'created < now - timedelta(days=15)': accept
       - "'Sample' in title": reject
     require_field: movie_name
     move:
@@ -157,5 +163,6 @@ Uses plugins:
   * [if](/Plugins/if)
   * [move](/Plugins/move)
   * [metainfo_movie](/Plugins/metainfo_movie)
+  * [age](/Plugins/age)
 
 [Back to The Cookbook](/Cookbook)
