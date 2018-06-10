@@ -27,6 +27,20 @@ This will find all your tv shows and movies that are no longer listed in the Del
   * Under `extensions:` you can add other file extension types that if they have the same name will be copied along with the media file. 
 
   * This setup will move the file types `avi|mkv|mp4|m4v` change according to your needs.
+  * If the source folder size is under 10mb after copying it will be deleted - change `clean_source:` from [move](/Plugins/move) as wanted. - **Be careful**
+  
+
+### Copying takes time
+  * Do not run these tasks to often - I run once every 24h
+### May cause a loss of files - Be carful!
+  * I take no responsibility of any damage or anything else anything here may cause - this works on my setup it may not work on yours.
+  * Large number of files may be copied
+  * Large amount of disk size may be moved - Do you have the space?
+  * Large files may be copied
+  * If the file is synced/cloud/... Will your network manage?
+  * The script uses the OS Move - it may fail and cause a loss of data
+  * If you copy to a Null location you may lose your data
+  * Moving files is the same as if you moved them manually - consider how and when to run!
   
 
 ```
