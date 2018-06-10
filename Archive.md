@@ -1,9 +1,9 @@
 # Move to Archive - TV shows and Movies
 This will find all your tv shows and movies that are no longer listed in the Deluge torrent client and that were downloaded over 15 days ago (in this example) and will move the files and there subtitle files (srt only in this example) to a different folder (this can be to any mounted drive or local cloud folder).
-
+  * This setup uses Deluge torrent downloader, you can change the collecting task `old-deluge` according to your [input plugins](/Plugins#input) requiermints.
   * Each type (Movies or TV shows) include two tasks in order to work:
-  1. old-deluge gets the list from the deluge client's label and creates a list: gotdeluge
-  2. old-files gets the files from the filesystem, removes files listed in the gotdeluge list and any that are younger then the 15 days. Remaining madia files are moves to the new destionation along with subtitle files.
+  1. `old-deluge` gets the list from the deluge client's label and creates a list: `gotdeluge`
+  2. `old-files` gets the files from the filesystem, removes files listed in the `gotdeluge` list and any that are younger then the 15 days. Remaining madia files are moves to the new destionation along with subtitle files.
 ##  old-deluge Tasks
   * Replace `<deluge config path>` with the path to your deluge config folder as explained in the pligin [from_deluge](/Plugins/from_deluge).
   * Change the Deluge label accordingly.
@@ -103,7 +103,7 @@ tasks:
       - "'Sample' in title": reject
     require_field: movie_name
     move:
-      to: '<movie archive path>{{ movie_name }}\'
+      to: '<movie archive path>\{{ movie_name }}\'
       allow_dir: yes
       clean_source: 10
       along:
@@ -111,21 +111,21 @@ tasks:
           - srt
 ```
 Uses plugins:
-  
-  * [priority](/Plugins/priority)
-  * [disable]()
-  * [list_clear]()
-  * [from_deluge]()
-  * [accept_all]()
-  * [list_add]()
-  * [manipulate]()
-  * [seen]()
-  * [filesystem]()
-  * [metainfo_series]()
-  * [list_match]()
-  * [require_field]()
-  * [if]()
-  * [move]()
-  * [metainfo_movie]()
+  * [template](/Plugins/template) - was not used in order for easier understanding. Can be used to cut down on the amount of repeating lines.
+  * [priority](/Plugins/priority) - in order for the tasks to run in the  proper order.
+  * [disable](/Plugins/disable) - used so that every run will not take into consideration any previous runs of the task. Every Deluge pull will get all files listed.
+  * [list_clear](/Plugins/List/list_clear) 
+  * [from_deluge](/Plugins/from_deluge)
+  * [accept_all](/Plugins/accept_all)
+  * [list_add](/Plugins/List/list_add)
+  * [manipulate](/Plugins/manipulate)
+  * [seen](/Plugins/seen)
+  * [filesystem](/Plugins/filesystem)
+  * [metainfo_series](/Plugins/metainfo_series)
+  * [list_match](/Plugins/List/list_match)
+  * [require_field](/Plugins/require_field)
+  * [if](/Plugins/if)
+  * [move](/Plugins/move)
+  * [metainfo_movie](/Plugins/metainfo_movie)
 
 [Back to The Cookbook](/Cookbook)
