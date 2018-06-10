@@ -8,13 +8,13 @@ This will find all your tv shows and movies that are no longer listed in the Del
 
     1. `old-deluge` gets the list from the deluge client's label and creates a list: `gotdeluge` 
 
-    2. `old-files` gets the files from the filesystem, removes files listed in the `gotdeluge` list and any that are younger then the 15 days. Remaining media files are moves to the new destination along with subtitle files. 
+    2. `old-files` gets the files from the filesystem, removes files listed in the `gotdeluge` list and any that are younger then the 15 days. Remaining media files are moved to the new destination along with subtitle files.
 
 ##  old-deluge Tasks 
 
   * Replace `<deluge config path>` with the path to your deluge config folder as explained in the plugin [from_deluge](/Plugins/from_deluge). 
 
-  * Change the Deluge label accordingly. 
+  * Change the Deluge `label` accordingly. 
 
 ## old-files Tasks 
 
