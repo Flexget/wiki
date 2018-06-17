@@ -9,3 +9,4 @@
  Pushbullet example configuration for series with episode name, formatted date etc.
  * [Download results of a search on the pirate bay](/Cookbook/thepiratebay):
 This supports proxies and works around some issues with magnet links.
+* [Filter RSS Feed to different folders](/Cookbook/Filter-RSS-Feed): Created to download all entries in a bookmark feed.
