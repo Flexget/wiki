@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b1a3563a2e4fcdc53745df1a490805c54fe98c91--->
+<!---0cdf4fb09991a2e6fc2b6f26b97b5986c285cbb0--->
+
+## 2.13.22.dev (unreleased)
+### Changed
+- npo_watchlist: overhauled the plugin to match the new url and layout
 
 <!---e3c3fef6c3bbde7e51dcb5c55d93efb606a98c39--->
 
