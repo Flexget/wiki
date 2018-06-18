@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0cdf4fb09991a2e6fc2b6f26b97b5986c285cbb0--->
+<!---be4f58c7ca7f216d3c04bcf53a3f137a86ee7966--->
 
-## 2.13.22.dev (unreleased)
+<!---84ee31d790e1d20b0ec6c9fd43e0841ceee900fc--->
+
+## 2.13.22 (2018-06-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.21...2.13.22)
 ### Changed
 - npo_watchlist: overhauled the plugin to match the new url and layout
 
-<!---e3c3fef6c3bbde7e51dcb5c55d93efb606a98c39--->
 
 ## 2.13.21 (2018-05-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.20...2.13.21)
