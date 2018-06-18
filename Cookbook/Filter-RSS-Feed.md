@@ -5,7 +5,7 @@ This setup will take a RSS Feed that you want to download everything from. For e
 * Change the folder locations from 'D:\...' to your setups. 
 ```
 templates:
-  ipt-book:
+  book:
     rss: 
       url: '<RSS Feed URL>'
       all_entries: no
@@ -17,7 +17,7 @@ templates:
     no_entries_ok: yes
   
 tasks:
-  ipt-book-tv:
+  book-tv:
     priority: 1
     # Set your download location and label acording to downloader plugin
     set:
@@ -28,9 +28,9 @@ tasks:
     tvmaze_lookup: yes
     require_field:
       - tvmaze_series_name
-    template: ipt-book
+    template: book
 
-  ipt-book-movie:
+  book-movie:
     priority: 2
     # Set your download location and label acording to downloader plugin
     set:
@@ -46,9 +46,9 @@ tasks:
     # For IMDB lookup issues failuers
     if:
       - imdb_name == None: reject
-    template: ipt-book
+    template: book
       
-  ipt-book-other:
+  book-other:
     priority: 3
     metainfo_series: yes
     imdb_lookup: yes
@@ -63,7 +63,7 @@ tasks:
     set:
       movedone: 'D:\Other'
       label: 'Bookmarks'
-    template: ipt-book
+    template: book
 ```
 Uses plugins: [template](/Plugins/template), [priority](/Plugins/priority), [rss](/Plugins/rss), [deluge](/Plugins/deluge), [no_entries_ok](/Plugins/no_entries_ok), [set](/Plugins/set), [exists_series](/Plugins/exists_series), [tvmaze_lookup](/Plugins/tvmaze_lookup), [imdb_lookup](/Plugins/imdb_lookup), [accept_all](/Plugins/accept_all), [metainfo_series](/Plugins/metainfo_series), [require_field](/Plugins/require_field), [if](/Plugins/if), [metainfo_movie](/Plugins/metainfo_movie)
 
