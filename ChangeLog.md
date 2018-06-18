@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be4f58c7ca7f216d3c04bcf53a3f137a86ee7966--->
+<!---5d35a9462592b22f5fc5dbfa2adb0767abc5af8e--->
+
+## 2.13.23.dev (unreleased)
+### Fixed
+- imdb: Added `min_meta_score` to the config schema
 
 <!---84ee31d790e1d20b0ec6c9fd43e0841ceee900fc--->
 
