@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5d35a9462592b22f5fc5dbfa2adb0767abc5af8e--->
+<!---3ebbc58636d39c45ff9fc0ca04e93b61db1be073--->
 
-## 2.13.23.dev (unreleased)
+<!---ab140ccb84fab63b4c56e0248cd9f984472e7821--->
+
+## 2.13.23 (2018-06-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.22...2.13.23)
 ### Fixed
 - imdb: Added `min_meta_score` to the config schema
 
-<!---84ee31d790e1d20b0ec6c9fd43e0841ceee900fc--->
 
 ## 2.13.22 (2018-06-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.21...2.13.22)
