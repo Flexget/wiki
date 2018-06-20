@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3ebbc58636d39c45ff9fc0ca04e93b61db1be073--->
+<!---7f3b502ad35e5d09d6ffb4a4cd5aa4dd11c2a49b--->
+
+## 2.13.24.dev (unreleased)
+### Fixed
+- imdb_list: only fetch the hidden form value if logged in
+- imdb_list: Fixed a problem with expired cookies not being reset properly, fixes [#2156](https://github.com/Flexget/Flexget/issues/2156)
 
 <!---ab140ccb84fab63b4c56e0248cd9f984472e7821--->
 
