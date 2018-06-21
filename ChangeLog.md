@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7f3b502ad35e5d09d6ffb4a4cd5aa4dd11c2a49b--->
+<!---521251d83450fff762ede146e1da2422eb8ddf10--->
 
-## 2.13.24.dev (unreleased)
+<!---fc473a122b9a355d439c2af0373fe0f6b84e7667--->
+
+## 2.13.24 (2018-06-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.23...2.13.24)
 ### Fixed
 - imdb_list: only fetch the hidden form value if logged in
 - imdb_list: Fixed a problem with expired cookies not being reset properly, fixes [#2156](https://github.com/Flexget/Flexget/issues/2156)
 
-<!---ab140ccb84fab63b4c56e0248cd9f984472e7821--->
 
 ## 2.13.23 (2018-06-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.22...2.13.23)
