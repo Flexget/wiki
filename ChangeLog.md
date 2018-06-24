@@ -1,7 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---521251d83450fff762ede146e1da2422eb8ddf10--->
+<!---b7ec7894c6f6f6eba29105bf1734eb5cb5b49bc7--->
+
+## 2.14.0.dev (unreleased)
+### Changed
+- trakt: all trakt plugins have been refactored, but functionality remains the same
+- torrentleech: updated categories to match the new ones on the site
+- iptorrents: categories have changed
+- irc: task_re has been altered to allow more complex conditionals
+
+### Fixed
+- Fuzer fix ([#2158](https://github.com/Flexget/Flexget/issues/2158))
 
 <!---fc473a122b9a355d439c2af0373fe0f6b84e7667--->
 
