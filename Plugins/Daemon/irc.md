@@ -53,7 +53,7 @@ templates:
 | --- | --- | --- |
 | **tracker_file** |  *(required & preferred, unless **server** & **channels** are specified)* Path to the tracker file for your tracker  |  'MyFunTracker.tracker'  |
 | **task** |  *(required: task or task_re)* Task(s) to execute and send entry to  | get_entry  |
-| **task_re** |  *(required: task or task_re)* Execute task(s) if the regex matches the specified field. Useful for filtering announcements  |  *see below*  |
+| **task_re** |  *(required: task or task_re)* Execute task(s) if all of their defined regex patterns match.  Useful for filtering announcements  |  *see below*  |
 | **nickname** |  *(required)* Specify your nickname. Make sure it's allowed.  | myusername-bot  |
 | **server** |  Explicitly specify server address  |  irc.someplace.net  |
 | **port** |  *(required)* Explicitly specify port number (integer)  |  6667 *(default)*  |
@@ -69,9 +69,13 @@ templates:
 ### task vs task_re
 The `task_re` option allows you to specify where to send certain entries eg. send TV announcements to a TV task and movie announcements to a movie task. Any entry field created from the IRC announcement can be used for filtering. The most commonly used is `irc_category`, but you are free to filter on uploader, size or whatever else information is available.
 
+When executing a task using the `task_re` option with multiple patterns defined, the task will only be executed if all of the patterns are a match (an AND condition).  If you have multiple patterns that should execute a task when ANY of them are a match (an OR condition), you can use the same task name with different patterns.
+
 `task` is simpler and will send all entries to the task(s). The filtering will have to be done in the tasks. If your tracker is specialized (e.g. exclusively TV), then `task_re` might be overkill.
 
 The categories are different for each tracker (and may not even called `irc_category`; check the tracker file), but usually they match the category names on their website. You could also just monitor the announcements made in their IRC to understand the pattern.
+
+
 
 ### Example config
 ```
@@ -90,13 +94,21 @@ irc:
     nickserv_password: '{? other_irc.nickserv_password ?}'
     passkey: '{? other_irc.passkey ?}'
     task_re:
-      get_tv_entry_with_tracking:
-        - regexp: (TV\/x265)|(TV\/x264)|(TV\/Web-DL)
-          field: irc_category
-      get_movie_entry:
-        - regexp: Movie
-          field: irc_category
-    channels: ["#myotherannounce"]
+      - task: get_movie_entry
+        patterns:
+          - regexp: Movie
+            field: irc_category
+          - regexp: 'true'
+            field: irc_scene
+      - task: get_movie_entry
+        patterns:
+          - regexp: MovieHD
+            field: irc_category
+      - task: get_tv_entry_with_tracking
+        patterns:
+          - regexp: (TV\/x265)|(TV\/x264)|(TV\/Web-DL)
+            field: irc_category
+    channels: ["#myotherannounce"]    
 
 tasks:
   get_entry:  # this task greedily accepts anything matching the categories
