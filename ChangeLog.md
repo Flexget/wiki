@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b7ec7894c6f6f6eba29105bf1734eb5cb5b49bc7--->
+<!---6fd662f7e5410d1a4be4e32b040739ed6bc75fbe--->
 
-## 2.14.0.dev (unreleased)
+<!---89c3247dcb2ccea91c19ddcf8619b44da9f3a2ac--->
+
+## 2.14.0 (2018-06-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.13.24...2.14.0)
 ### Changed
 - trakt: all trakt plugins have been refactored, but functionality remains the same
 - torrentleech: updated categories to match the new ones on the site
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - Fuzer fix ([#2158](https://github.com/Flexget/Flexget/issues/2158))
 
-<!---fc473a122b9a355d439c2af0373fe0f6b84e7667--->
 
 ## 2.13.24 (2018-06-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.13.23...2.13.24)
