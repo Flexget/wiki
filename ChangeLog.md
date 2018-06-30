@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8edd89cc03e599e224b95f2bcbd5cd592cf4e237--->
+<!---9073b71e65192aeea94b8fe6523948d64e7d2aa6--->
 
-## 2.14.2.dev (unreleased)
+<!---508828da9d5fa9c512ccb85ccb619b56c6bfa3e1--->
+
+## 2.14.2 (2018-06-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.1...2.14.2)
 ### Fixed
 - trakt_lookup: unknown media type will simply not perform user data lookup, fixes [#2159](https://github.com/Flexget/Flexget/issues/2159)
 - trakt: return an empty list instead of None to avoid None-checks, fixes [#2161](https://github.com/Flexget/Flexget/issues/2161)
 
-<!---1d4b10da2eb2e6ef6ac5607120569512aad37d3e--->
 
 ## 2.14.1 (2018-06-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.0...2.14.1)
