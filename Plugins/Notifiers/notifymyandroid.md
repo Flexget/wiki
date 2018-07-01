@@ -6,7 +6,7 @@
 </div>
 
 
-This plugin provides the ability to send flexget notifications via the  notification system called [Notify My Android](http://www.notifymyandroid.com/).
+Now defunct May 2018 - This plugin provides the ability to send flexget notifications via the  notification system called [Notify My Android](http://www.notifymyandroid.com/).
 
 ## Configuration
 
