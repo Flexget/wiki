@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---15cd7bf1cdea4556b0bad0c3ac0ec09362cabc1c--->
+<!---cfb8360f7fdbb0322d05746f89a2e693466bbd62--->
 
-## 2.14.3.dev (unreleased)
+<!---11b8c7dd94dc9ae60e77443dc08426251bb14178--->
+
+## 2.14.3 (2018-07-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.2...2.14.3)
 ### Fixed
 - horriblesubs: updated to work with new site layout, fixes [#2166](https://github.com/Flexget/Flexget/issues/2166) ([#2169](https://github.com/Flexget/Flexget/issues/2169))
 
-<!---508828da9d5fa9c512ccb85ccb619b56c6bfa3e1--->
 
 ## 2.14.2 (2018-06-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.1...2.14.2)
