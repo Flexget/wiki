@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cfb8360f7fdbb0322d05746f89a2e693466bbd62--->
+<!---07f080408f25ebceb7bf69c0313b1dbdd47bce53--->
+
+## 2.14.4.dev (unreleased)
+### Changed
+- npo_watchlist: increased domain delay to 8 seconds and no longer raises plugin errors on failure
+
+### Fixed
+- newznab: no longer crashes when trying to catch RequestException
 
 <!---11b8c7dd94dc9ae60e77443dc08426251bb14178--->
 
