@@ -21,7 +21,7 @@ Making custom plugins should be easy for anyone with some python experience.
 If you're working on good re-usable plugin we're be more than happy to include it in official distribution. See [Contribute](/Contribute) for more information.
 
 ## Unit testing
-FlexGet has over 200 unit tests so changes are that if your modifications pass the tests nothing major has been broken. We also have CI at [http://ci.flexget.com](http://ci.flexget.com).
+FlexGet has over 1200 unit tests so changes are that if your modifications pass the tests nothing major has been broken.
 
 ## Enhancement proposals
  * [Drafts](/_index/Drafts/)
