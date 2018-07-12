@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---07f080408f25ebceb7bf69c0313b1dbdd47bce53--->
+<!---fd4c8301c1ba72db51e9c2b38f00c5e130663770--->
 
-## 2.14.4.dev (unreleased)
+<!---4df134aaed1cd6264205e6ca14d965d6532ffe11--->
+
+## 2.14.4 (2018-07-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.3...2.14.4)
 ### Changed
 - npo_watchlist: increased domain delay to 8 seconds and no longer raises plugin errors on failure
 
 ### Fixed
 - newznab: no longer crashes when trying to catch RequestException
 
-<!---11b8c7dd94dc9ae60e77443dc08426251bb14178--->
 
 ## 2.14.3 (2018-07-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.2...2.14.3)
