@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ba13528c5a9d711c575a0897760459758c5ca3cc--->
+<!---dbe83d5337ed114fac71dcf387c7d8f4e7581ce9--->
 
-## 2.14.5.dev (unreleased)
+<!---c394f5b0f6d7a9a7903ff0bea6b06a3560b7dc79--->
+
+## 2.14.5 (2018-07-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.4...2.14.5)
 ### Fixed
 - npo_watchlist: NPO Updated their website on July 12th and added capitalization to the parameters
 - trakt_list: fixed the endpoints for special lists (collection etc.) -- thanks to @kasperj, fixes [#2165](https://github.com/Flexget/Flexget/issues/2165) [#2167](https://github.com/Flexget/Flexget/issues/2167)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - qbittorrent: allow jinja replacement in path (config and entry), closes [#2113](https://github.com/Flexget/Flexget/issues/2113)
 
-<!---4df134aaed1cd6264205e6ca14d965d6532ffe11--->
 
 ## 2.14.4 (2018-07-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.3...2.14.4)
