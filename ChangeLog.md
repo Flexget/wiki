@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dbe83d5337ed114fac71dcf387c7d8f4e7581ce9--->
+<!---555be7fa1e454900e8c128dcbe106ea334b03f0a--->
+
+## 2.14.6.dev (unreleased)
+### Changed
+- rtorrent: no longer fails an entry when it cannot verify the torrent has been added ([#2174](https://github.com/Flexget/Flexget/issues/2174))
 
 <!---c394f5b0f6d7a9a7903ff0bea6b06a3560b7dc79--->
 
