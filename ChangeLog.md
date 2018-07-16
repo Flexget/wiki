@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2a97122a008c4fe417833be9dde97586939f2593--->
+<!---ecfe1c7b5521869b7273cfe274667b587ce88b7d--->
 
 ## 2.14.7.dev (unreleased)
 ### Added
 - btn: added Origin as a config option
+
+### Fixed
+- passthepopcorn: if a 429 code is returned, the cookie must be deleted to avoid being locked out again
+- passthepopcorn: nuke old cookies with wrong expiration dates
 
 <!---2aa17f9ec455ab2a716934bbd7c4822d7d945575--->
 
