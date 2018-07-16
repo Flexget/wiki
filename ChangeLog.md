@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---608ef676055a4390ae43e1f202f946429847d687--->
+<!---5857ef4dce9a65c1028dfc15b91cce32704a25f3--->
 
-## 2.14.6.dev (unreleased)
+<!---2aa17f9ec455ab2a716934bbd7c4822d7d945575--->
+
+## 2.14.6 (2018-07-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.5...2.14.6)
 ### Changed
 - rtorrent: no longer fails an entry when it cannot verify the torrent has been added ([#2174](https://github.com/Flexget/Flexget/issues/2174))
 
 ### Added
 - btn: added `btn_origin` field eg. P2P, Internal, Scene
 
-<!---c394f5b0f6d7a9a7903ff0bea6b06a3560b7dc79--->
 
 ## 2.14.5 (2018-07-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.4...2.14.5)
