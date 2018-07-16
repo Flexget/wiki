@@ -11,4 +11,15 @@ Some releases on BTN do not include quality tags (anime in particular) and the q
 btn:
   api_key: apikey
   append_quality: yes|no (default yes)
+  origin: string or list (see below)
 ```
+
+### Origins
+Plugin can be configured to filter the search based on "origin":
+
+    'None'
+    'Scene'
+    'P2P'
+    'User'
+    'Mixed'
+    'Internal'
