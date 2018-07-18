@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ecfe1c7b5521869b7273cfe274667b587ce88b7d--->
+<!---f112ff119ee2e62682b734e3dc386e2553e35b6b--->
 
-## 2.14.7.dev (unreleased)
+<!---2da085527543d42c79320ea660f2398079319996--->
+
+## 2.14.7 (2018-07-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.6...2.14.7)
 ### Added
 - btn: added Origin as a config option
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - passthepopcorn: if a 429 code is returned, the cookie must be deleted to avoid being locked out again
 - passthepopcorn: nuke old cookies with wrong expiration dates
 
-<!---2aa17f9ec455ab2a716934bbd7c4822d7d945575--->
 
 ## 2.14.6 (2018-07-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.5...2.14.6)
