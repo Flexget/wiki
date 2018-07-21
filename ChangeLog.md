@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d05ea7e1f1612bbbe511bf27e90f0686dbb77223--->
+<!---338a343bb467ce39b62e9f47ec0d9937422d89ef--->
+
+## 2.14.9.dev (unreleased)
+### Fixed
+- guessit: better handling of weird titles, fixes [#2176](https://github.com/Flexget/Flexget/issues/2176)
 
 <!---09f32afab89cc629159642315a2728ded3a6e4f0--->
 
