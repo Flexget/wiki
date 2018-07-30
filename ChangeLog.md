@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2cffa70bec94a10e6984178cfce355669121bc30--->
+<!---5d4026899382233f92e9e8b6969379c5302ea500--->
 
-## 2.14.10.dev (unreleased)
+<!---b4697050958180012bffc8a149cc058a2ce1ff2d--->
+
+## 2.14.10 (2018-07-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.9...2.14.10)
 ### Fixed
 - fuzer changed format a bit
 
-<!---2559320f19896732b29e850183460940f2fd6847--->
 
 ## 2.14.9 (2018-07-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.8...2.14.9)
