@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c0db41df7f3dc1c75da2a605eb4347a3e65dda2--->
+<!---670e4dd2d3b31d41e07ac6e583190ac77c0b1de5--->
 
-## 2.14.11.dev (unreleased)
+<!---432b8c4d33d5f1ad50cf27d3fb8a0c9fd7f99784--->
+
+## 2.14.11 (2018-07-30)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.10...2.14.11)
 ### Fixed
 - series CLI - Could not remove dated episodes. Closes [#2179](https://github.com/Flexget/Flexget/issues/2179) ([#2182](https://github.com/Flexget/Flexget/issues/2182))
 
-<!---b4697050958180012bffc8a149cc058a2ce1ff2d--->
 
 ## 2.14.10 (2018-07-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.9...2.14.10)
