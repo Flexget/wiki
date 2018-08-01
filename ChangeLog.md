@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---46670bb2d29192cc3750085ede079b0127e39636--->
+<!---8ed55405badc24dab4749a14432cab6d9dfebaf0--->
 
-## 2.14.12.dev (unreleased)
+<!---beb3b2013d20364355fd71bd941dc92794a6ac37--->
+
+## 2.14.12 (2018-07-31)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.11...2.14.12)
 ### Added
 - slack: Support message attachments ([#2184](https://github.com/Flexget/Flexget/issues/2184))
 
-<!---432b8c4d33d5f1ad50cf27d3fb8a0c9fd7f99784--->
 
 ## 2.14.11 (2018-07-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.10...2.14.11)
