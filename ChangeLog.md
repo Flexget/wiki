@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8ed55405badc24dab4749a14432cab6d9dfebaf0--->
+<!---65d3d64db82ea4529a840cb13e6c0a86b91c3c56--->
+
+## 2.14.13.dev (unreleased)
+### Fixed
+- sabnzbd: Handle local nzb files correctly ([#2187](https://github.com/Flexget/Flexget/issues/2187))
 
 <!---beb3b2013d20364355fd71bd941dc92794a6ac37--->
 
