@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b639ec0b5fe062124248082892e5257eeae85044--->
+<!---90513865e8d0fb7112534b0a897baf4da84944ce--->
+
+## 2.14.14.dev (unreleased)
+### Fixed
+- *  MyAnimeList - Use JSON instead of XML
+- *  Use JSON instead of XML for MyAnimeList
+- MyAnimeList - Use JSON instead of XML ([#2183](https://github.com/Flexget/Flexget/issues/2183))
 
 <!---3e7b36cc9be2edbd750b460553daac09d11ff1c2--->
 
