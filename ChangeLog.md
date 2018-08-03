@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---66079b3851898808f8dcd1167e9f9c03aac76b0c--->
+<!---9b373925777965dd8aefd12ca69cbb3f5411f622--->
 
-## 2.14.14.dev (unreleased)
+<!---5806a0865bb771f49197a7fe034b85910c16b872--->
+
+## 2.14.14 (2018-08-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.13...2.14.14)
 ### Fixed
 - qbittorrent: no longer crashes when path is empty, fixes [#2188](https://github.com/Flexget/Flexget/issues/2188)
 - *  MyAnimeList - Use JSON instead of XML
 - *  Use JSON instead of XML for MyAnimeList
 - MyAnimeList - Use JSON instead of XML ([#2183](https://github.com/Flexget/Flexget/issues/2183))
 
-<!---3e7b36cc9be2edbd750b460553daac09d11ff1c2--->
 
 ## 2.14.13 (2018-08-01)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.12...2.14.13)
