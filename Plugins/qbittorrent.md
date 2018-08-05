@@ -30,4 +30,4 @@ qbittorrent: yes
 | use_ssl | Connect to the provided hostname using https (default *False*)
 | verify_cert | Enable or disable SSL certficate verification (default *True*)
 |  path  |  The download location  |
-|| label || qBittorrent label ||
+| label | qBittorrent label. On qBittorrent v3.3.4+ *Labels* are called *Categories* in the client|
