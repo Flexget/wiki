@@ -14,7 +14,7 @@ This plugin produces an [entry](/Entry) for each movie or series in a public [Ki
 | username | (required) Your or another user's kitsu.io username |
 | lists | (required) list of libraries can contain `current`, `planned`, `completed`, `on_hold`, `dropped` |
 | latest | If set to `yes` only the latest episode of the anime will be added as Entry (by appending the episode number to the end of the title) |
-| limit_to | can be `airing` or `finished`. Depends on the field `endDate` in the kitsu.io api which seems not always to be set or available at all. If it causes problems just remove this option |
+| status | can be `airing` or `finished`. Depends on the field `endDate` in the kitsu.io api which seems not always to be set or available at all. If it causes problems just remove this option |
 
 ## Examples
 
