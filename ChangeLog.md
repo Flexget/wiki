@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b373925777965dd8aefd12ca69cbb3f5411f622--->
+<!---9e85203ae2be7a12892a2f88dc8a78625b99ee46--->
+
+## 2.14.15.dev (unreleased)
+### Fixed
+- trakt_list: fixed collection and watched not supporting episodes type when pushing to Trakt
 
 <!---5806a0865bb771f49197a7fe034b85910c16b872--->
 
