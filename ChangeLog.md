@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9e85203ae2be7a12892a2f88dc8a78625b99ee46--->
+<!---264706be8f776f385fc3bc425abe83fe662a41a9--->
 
-## 2.14.15.dev (unreleased)
+<!---88d351c1350f392217f8d625895423e9bd4fbf8f--->
+
+## 2.14.15 (2018-08-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.14...2.14.15)
 ### Fixed
 - trakt_list: fixed collection and watched not supporting episodes type when pushing to Trakt
 
-<!---5806a0865bb771f49197a7fe034b85910c16b872--->
 
 ## 2.14.14 (2018-08-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.13...2.14.14)
