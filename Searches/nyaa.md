@@ -1,5 +1,5 @@
 # Nyaa
-Search plugin which gives results from [nyaa.se](http://nyaa.se/)
+Search plugin which gives results from [nyaa.si](http://nyaa.si/)
 ### Config
 Takes two options:
 
