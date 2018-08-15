@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---264706be8f776f385fc3bc425abe83fe662a41a9--->
+<!---8b96394818f7834eb395adc15bb52dd32a9ed773--->
+
+## 2.14.16.dev (unreleased)
+### Fixed
+- pytest crash if running tests without -q
 
 <!---88d351c1350f392217f8d625895423e9bd4fbf8f--->
 
