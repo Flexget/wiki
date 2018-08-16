@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8b96394818f7834eb395adc15bb52dd32a9ed773--->
+<!---b1cc26e12b759f47fb2b6a17a0f38eddd298ca7b--->
 
-## 2.14.16.dev (unreleased)
+<!---dc7e34ef668b81c9d78a323c95943d022072d448--->
+
+## 2.14.16 (2018-08-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.15...2.14.16)
 ### Fixed
 - pytest crash if running tests without -q
 
-<!---88d351c1350f392217f8d625895423e9bd4fbf8f--->
 
 ## 2.14.15 (2018-08-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.14...2.14.15)
