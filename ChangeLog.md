@@ -1,9 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b1cc26e12b759f47fb2b6a17a0f38eddd298ca7b--->
+<!---4ec773f37f546832647278b927b5a4e7533d51c3--->
 
-<!---dc7e34ef668b81c9d78a323c95943d022072d448--->
+<!---b246ee0f401836adf60d4dec60c9305e906a1486--->
+
+## 2.14.17 (2018-08-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.16...2.14.17)
+### Fixed
+- *  imdb_lookup: updated the scraper for the newish html structure
+
 
 ## 2.14.16 (2018-08-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.15...2.14.16)
