@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5c1a1baf6fb9a81a0075fd0848d61d6d8bcd9fde--->
+<!---208953f20bdae3bdcd867e0cb67fe7aeb6f285b0--->
 
-## 2.14.18.dev (unreleased)
+<!---99d41855ef8c523034d5270f937b1cc1d5e12310--->
+
+## 2.14.18 (2018-08-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.17...2.14.18)
 ### Added
 - Add option to allow empty links in html plugin ([#2098](https://github.com/Flexget/Flexget/issues/2098))
 
-<!---b246ee0f401836adf60d4dec60c9305e906a1486--->
 
 ## 2.14.17 (2018-08-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.16...2.14.17)
