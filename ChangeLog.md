@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---208953f20bdae3bdcd867e0cb67fe7aeb6f285b0--->
+<!---43f8252a28639ba8de431749571277c68e574b94--->
+
+## 2.14.19.dev (unreleased)
+### Fixed
+- imdb: fixed title parsing for long titles
 
 <!---99d41855ef8c523034d5270f937b1cc1d5e12310--->
 
