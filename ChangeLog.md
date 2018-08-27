@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---43f8252a28639ba8de431749571277c68e574b94--->
+<!---81a7c7ae2f68c7056ea01ba6df590c9ee9c6e041--->
 
-## 2.14.19.dev (unreleased)
+<!---480d684f450fda7e3ec7c069da29550bad2caec2--->
+
+## 2.14.19 (2018-08-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.18...2.14.19)
 ### Fixed
 - imdb: fixed title parsing for long titles
 
-<!---99d41855ef8c523034d5270f937b1cc1d5e12310--->
 
 ## 2.14.18 (2018-08-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.17...2.14.18)
