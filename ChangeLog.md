@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---81a7c7ae2f68c7056ea01ba6df590c9ee9c6e041--->
+<!---de646b35ead734e7e23c56e9e0605055a0373448--->
+
+## 2.14.20.dev (unreleased)
+### Fixed
+- torrentleech: PluginError only takes one string as an argument, it does not do string formatting.
 
 <!---480d684f450fda7e3ec7c069da29550bad2caec2--->
 
