@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---de646b35ead734e7e23c56e9e0605055a0373448--->
+<!---d614df86a460b9ca6df82ac296e0fabfb7272751--->
 
-## 2.14.20.dev (unreleased)
+<!---1d437ecc1a3738a6a1ab78829defaeac77028f1a--->
+
+## 2.14.20 (2018-09-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.19...2.14.20)
 ### Fixed
 - torrentleech: PluginError only takes one string as an argument, it does not do string formatting.
 
-<!---480d684f450fda7e3ec7c069da29550bad2caec2--->
 
 ## 2.14.19 (2018-08-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.18...2.14.19)
