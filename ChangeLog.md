@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d614df86a460b9ca6df82ac296e0fabfb7272751--->
+<!---a4ad8ad2492a541a61bffb24a836fa18de851834--->
+
+## 2.14.21.dev (unreleased)
+### Fixed
+- 1337x: updated to match new html structure
 
 <!---1d437ecc1a3738a6a1ab78829defaeac77028f1a--->
 
