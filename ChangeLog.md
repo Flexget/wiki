@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a4ad8ad2492a541a61bffb24a836fa18de851834--->
+<!---785706183426a385fef830753b52ad78b622a7e0--->
 
-## 2.14.21.dev (unreleased)
+<!---d5cafd1a53a78bb2986dd5bcf44601dda7bf3eb3--->
+
+## 2.14.21 (2018-09-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.20...2.14.21)
 ### Fixed
 - 1337x: updated to match new html structure
 
-<!---1d437ecc1a3738a6a1ab78829defaeac77028f1a--->
 
 ## 2.14.20 (2018-09-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.19...2.14.20)
