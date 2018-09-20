@@ -1,4 +1,4 @@
-task:
+tasks:
   move_kent:
     priority: 50
     filesystem:
