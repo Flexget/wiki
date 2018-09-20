@@ -1,4 +1,5 @@
-move_kent:
+task:
+  move_kent:
     priority: 50
     filesystem:
       path: "/{? folder.down_path ?}{? folder.downkent ?}"
