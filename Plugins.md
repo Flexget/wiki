@@ -413,7 +413,7 @@ Use `flexget execute --help` for full option list.
 | [--try-regexp](/Plugins/try_regexp) | Test how regexps work on task(s) interactively. |
 
 ## Third-party plugins
-Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate Python package like [FlexGet extras](https://github.com/Flexget/FlexGetExtras).
+Plugins can be installed by simply placing them in `~/.flexget/plugins/`. It is also possible to package plugins in a separate Python package like [FlexGet extras](https://github.com/Flexget/extras).
 
 There is a list of [third-party and extra plugins](/Plugins/ThirdPartyExtras) available, which are plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
 
