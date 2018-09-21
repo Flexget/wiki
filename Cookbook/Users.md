@@ -13,7 +13,7 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [qvazzler](https://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.10.38) - Multi-config usage with IRC daemon and flexget API, season pack support, trakt and scrobbling examples, cleaning scripts, etc.
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
 * [jonybat](https://github.com/Jonybat/flexget_config) (v2.9.0) - Movies and series based on trakt and anime from mal. RSS and discover to transmission, quality priorities and backfill. Moves and renames files to library folders and downloads subtltles.
-* [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://flexget.com/FlexGetExtras).
+* [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://github.com/Flexget/extras).
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.9.3) YAML anchor examples, use Trakt.tv to manage shows and movies.
 * [malkavi](/Cookbook/Users/malkavi) (2.10.12.dev) Spanish Movies and series config.
 * [Systy](https://github.com/Fabien-G/Flexget_t411/tree/master) (v2.10.30) DL VOSTFR series (existing + Trakt) + VF movies (Imdb + Trakt) with Transmission on T411. Renaming / Email. French user
