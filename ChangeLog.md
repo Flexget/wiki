@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---785706183426a385fef830753b52ad78b622a7e0--->
+<!---a72fd85e56ebc291f51f12453d24505a8d89aa95--->
+
+## 2.14.22.dev (unreleased)
+### Fixed
+- General usage of regex updated to match Py3.7
 
 <!---d5cafd1a53a78bb2986dd5bcf44601dda7bf3eb3--->
 
