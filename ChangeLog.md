@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2e215c3b595d0c11f0c2068eacf9fc7da1c47838--->
+<!---bd63c1e70bf0784c78253971cf1e99d661e6ce03--->
 
-## 2.14.23.dev (unreleased)
+<!---6b7602eb3a5c3ec2730019afc58e16d42ee12593--->
+
+## 2.14.23 (2018-09-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.22...2.14.23)
 ### Fixed
 - letterboxd - Fix query for next page link ([#2206](https://github.com/Flexget/Flexget/issues/2206)). Closes [#2194](https://github.com/Flexget/Flexget/issues/2194)
 
-<!---37326a49e6a508734cd1ba60279e9d004a82fbab--->
 
 ## 2.14.22 (2018-09-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.21...2.14.22)
