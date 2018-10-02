@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f3a92bebc740964519d2b17ec5760934c424bceb--->
+<!---e62f0e9237f92d47c85f8bdc42c770ed7fc69b8c--->
+
+## 2.14.25.dev (unreleased)
+### Fixed
+- subliminal: chardet failing to guess encoding no longer crashes the plugin, fixes [#2145](https://github.com/Flexget/Flexget/issues/2145) ([#2207](https://github.com/Flexget/Flexget/issues/2207))
 
 <!---f7d58cfdcf6282d771ada78e44df5624097026f2--->
 
