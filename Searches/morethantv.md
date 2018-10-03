@@ -30,9 +30,9 @@ Say you want to perform a search on mtv using your [input](/Plugins) entries, an
 ```
 discover:
   what:
-    - emit_series: yes
+    - next_series_episodes: yes
   from:
-    - mtv:
+    - morethantv:
         username: '{? mtv.username ?}'
         password: '{? mtv.password ?}'
         category:
