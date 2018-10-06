@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8755fe6cf060956e8badff0c15aca1c28ea4dde8--->
+<!---faac20368d53810811247831810660384da737c1--->
+
+## 2.14.26.dev (unreleased)
+### Changed
+- exists_series: Changed rejection message to "episode already exists" since it has nothing to do with propers, closes [#1902](https://github.com/Flexget/Flexget/issues/1902) ([#2212](https://github.com/Flexget/Flexget/issues/2212))
+
+### Fixed
+- *  simple_persistence: Any value that cannot be decoded will simply be removed, fixes [#2154](https://github.com/Flexget/Flexget/issues/2154), fixes [#2101](https://github.com/Flexget/Flexget/issues/2101), fixes [#2031](https://github.com/Flexget/Flexget/issues/2031), fixes [#1176](https://github.com/Flexget/Flexget/issues/1176), fixes [#1788](https://github.com/Flexget/Flexget/issues/1788)
 
 <!---46a4ac13d2d8641d8728dca05fff74671228ab34--->
 
