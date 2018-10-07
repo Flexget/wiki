@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9c0392b2d852ebdd03c4f169943ed0d9299a5834--->
+<!---9e6d8bc9f7b6f6fe0cd857d658db03536f1ed186--->
+
+## 2.15.1.dev (unreleased)
+### Fixed
+- parsing: a movie is only properly parsed if it has a name, fixes [#2214](https://github.com/Flexget/Flexget/issues/2214)
+- *  series: save entry state before metainfo phase to avoid lazy lookups during backlog (timeframe), fixes [#1000](https://github.com/Flexget/Flexget/issues/1000)
 
 <!---43b48a54fb6a67ba97a6426185ee445e7b8708d7--->
 
