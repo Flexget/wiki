@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c85e4d7aa177a69534b43b56594b9f71a7a496e5--->
+<!---9c0392b2d852ebdd03c4f169943ed0d9299a5834--->
 
-## 2.15.0.dev (unreleased)
+<!---43b48a54fb6a67ba97a6426185ee445e7b8708d7--->
+
+## 2.15.0 (2018-10-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.14.25...2.15.0)
 ### Changed
 - exists_series: Changed rejection message to "episode already exists" since it has nothing to do with propers, closes [#1902](https://github.com/Flexget/Flexget/issues/1902) ([#2212](https://github.com/Flexget/Flexget/issues/2212))
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - *  scheduler: the scheduler now uses a separate DB-file to avoid DB locks, fixes [#2205](https://github.com/Flexget/Flexget/issues/2205), fixes [#2025](https://github.com/Flexget/Flexget/issues/2025), maybe related [#2198](https://github.com/Flexget/Flexget/issues/2198), fixes [#1371](https://github.com/Flexget/Flexget/issues/1371)
 - *  simple_persistence: Any value that cannot be decoded will simply be removed, fixes [#2154](https://github.com/Flexget/Flexget/issues/2154), fixes [#2101](https://github.com/Flexget/Flexget/issues/2101), fixes [#2031](https://github.com/Flexget/Flexget/issues/2031), fixes [#1176](https://github.com/Flexget/Flexget/issues/1176), fixes [#1788](https://github.com/Flexget/Flexget/issues/1788)
 
-<!---46a4ac13d2d8641d8728dca05fff74671228ab34--->
 
 ## 2.14.25 (2018-10-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.24...2.14.25)
