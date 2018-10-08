@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---611cff80cd92d7e2354b845c052e28773cda467d--->
+<!---2069c6d35901ef8ae772ad54403e0d4619225ced--->
 
-## 2.15.1.dev (unreleased)
+<!---2bcc01cf11633d4b71dff4e17b2d9c0385fa3719--->
+
+## 2.15.1 (2018-10-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.15.0...2.15.1)
 ### Fixed
 - parsing: a movie is only properly parsed if it has a name, fixes [#2214](https://github.com/Flexget/Flexget/issues/2214)
 - *  series: save entry state before metainfo phase to avoid lazy lookups during backlog (timeframe), fixes [#1000](https://github.com/Flexget/Flexget/issues/1000)
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - betaseries: recommends the use of the HTTPS endpoint. Edited the plugin accordingly.
 - qualities: added support for channels in dtshd and truehd audio codecs ([#2217](https://github.com/Flexget/Flexget/issues/2217))
 
-<!---43b48a54fb6a67ba97a6426185ee445e7b8708d7--->
 
 ## 2.15.0 (2018-10-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.14.25...2.15.0)
