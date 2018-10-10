@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2069c6d35901ef8ae772ad54403e0d4619225ced--->
+<!---80fdc98886c70082de5efab699f1d4afa4f82870--->
+
+## 2.15.2.dev (unreleased)
+### Changed
+- RSS: Add option to escape unescaped ampersands (can fix some invalid feeds)
 
 <!---2bcc01cf11633d4b71dff4e17b2d9c0385fa3719--->
 
