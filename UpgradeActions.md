@@ -6,6 +6,14 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.16.0** -- 2018.10.XX
+
+The `variables` plugin has been changed to allow arbitrary sections of config to be substituted. This means it can be used in config sections which require numbers, or even bigger config sections such as a list or dictionary. If you were relying on variable replacement always producing a string, and get config errors after the upgrade, you may need to add extra quotes to the replacement with this version. e.g. `some_setting: "'{? a_variable ?}'"`
+
+### **2.16.0** -- 2018.10.XX
+
+The `variables` plugin has been changed to allow arbitrary sections of config to be substituted. This means it can be used in config sections which require numbers, or even bigger config sections such as a list or dictionary. If you were relying on variable replacement always producing a string, and get config errors after the upgrade, you may need to add extra quotes to the replacement with this version. e.g. `some_setting: "'{? a_variable ?}'"`
+
 ### **2.14.0** -- 2018.06.24
 - Configuration structure for the `irc_daemon` plugins `task_re` option has been modified to treat tasks with more than one pattern defined as an AND condition rather than OR.  This requires modification of existing configurations to the new structure.  More information with an example is available in the updated [`irc_daemon` plugin documentation](https://flexget.com/Plugins/Daemon/irc).
 - [`fuzer` search plugin](https://flexget.com/Searches/fuzer) was changed to accomodate site's usage of recaptcha.
