@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80fdc98886c70082de5efab699f1d4afa4f82870--->
+<!---783392eb70b659301680272e39b99f991863de22--->
 
-## 2.15.2.dev (unreleased)
+<!---5fafe5097acf2a5b7e5e627b467db1f4508d2c06--->
+
+## 2.15.2 (2018-10-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.15.1...2.15.2)
 ### Changed
 - RSS: Add option to escape unescaped ampersands (can fix some invalid feeds)
 
-<!---2bcc01cf11633d4b71dff4e17b2d9c0385fa3719--->
 
 ## 2.15.1 (2018-10-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.15.0...2.15.1)
