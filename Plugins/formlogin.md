@@ -1,10 +1,10 @@
 # Form Login
 Log in to a site using a webform
 
-This plugin requires the mechanize library. To install it, run:
+This plugin requires the mechanicalsoup library. To install it, run:
 
 ```cmd
-$ pip install mechanize
+$ pip install mechanicalsoup
 ```
 
 ### Example
