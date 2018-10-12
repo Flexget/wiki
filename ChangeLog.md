@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---783392eb70b659301680272e39b99f991863de22--->
+<!---23a21fc5a61a308ecd4f83e620c0beb668a49b6d--->
+
+## 2.16.0.dev (unreleased)
+### Changed
+- Allow variables to be defined directly in config
+- Allow variables plugin to replace arbitrary sections of config
 
 <!---5fafe5097acf2a5b7e5e627b467db1f4508d2c06--->
 
