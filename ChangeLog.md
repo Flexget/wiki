@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---23a21fc5a61a308ecd4f83e620c0beb668a49b6d--->
+<!---3e36b1b0803856cde583d0441179255b4003bcc6--->
 
 ## 2.16.0.dev (unreleased)
 ### Changed
+- Convert form plugin to use mechanicalsoup rather than mechanize. ([#2224](https://github.com/Flexget/Flexget/issues/2224))
 - Allow variables to be defined directly in config
 - Allow variables plugin to replace arbitrary sections of config
 
