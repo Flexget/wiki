@@ -28,6 +28,7 @@ pip install python-telegram-bot
 | --- | ---| --- |---|
 |bot_token|text|Bot token. **Required**
 |parse_mode|text|Message parsing. Either `html` or `markdown`. 
+|disable_previews|boolean|Disable web page previews in messages. Optional (Default: `no`)
 |recipients|text|List of recipients type. Can be `username`, `group` or `fullname`. See config example for details. **Note:** Values here are case-sensitive
   
   <span class="glyphicon glyphicon-info-sign"></span>
@@ -51,6 +52,7 @@ my-task:
         - telegram:
             bot_token: token
             parse_mode: markdown
+            disable_previews: no
             recipients:
               - username: my-user-name
               - group: my-group-name
