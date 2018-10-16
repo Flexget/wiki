@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---eb05875cede67d525de9920aeb6452b90cf71838--->
+<!---ad4280e00674e3cd7eafcb7950d96dcedb0e0657--->
+
+## 2.16.3.dev (unreleased)
+### Fixed
+- command line parsing crashing in some situations
 
 <!---c667014c61d6303368b73b003b574d1585834f01--->
 
