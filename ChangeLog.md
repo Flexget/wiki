@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0f2619e36d71317d5aa2a15eefb462aafad3e92e--->
+<!---eb05875cede67d525de9920aeb6452b90cf71838--->
 
-## 2.16.2.dev (unreleased)
+<!---c667014c61d6303368b73b003b574d1585834f01--->
+
+## 2.16.2 (2018-10-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.16.1...2.16.2)
 ### Fixed
 - anidb_list ([#2219](https://github.com/Flexget/Flexget/issues/2219))
 
-<!---d2b23d3f9028a3a92602d3225747b6129fbe26a8--->
 
 ## 2.16.1 (2018-10-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.16.0...2.16.1)
