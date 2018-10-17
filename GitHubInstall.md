@@ -27,8 +27,6 @@ Initialize a `virtualenv` in your checkout directory:
 ```bash
 $ virtualenv ~/flexget-dev
 ```
-**NOTE:** If you need to use the Python packages already installed, such as the `deluge` package for use with the [`deluge`](/Plugins/deluge) plugin, create your virtualenv with the `--system-site-packages` flag.
-
 
 Once the virtualenv has been created, we need to install the checked-out copy of FlexGet inside it.
 
