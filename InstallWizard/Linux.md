@@ -30,8 +30,6 @@ Example of installation in an Arch-based system:
 sudo pacman -S python2
 ```
 
-**NOTE:** Deluge doesn't support Python 3.x yet. Stick with Python 2.7 if you plan to use it.
-
 ### PIP
 
 The next piece of required software is the Python package manager called PIP. This can be usually found from your operating system's package repository under the name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via the command `pip-3.5` or something similar.
@@ -72,12 +70,6 @@ This creates an isolated Python environment. You can create as many of these as 
 
 ```bash
 virtualenv ~/flexget/
-```
-
-**NOTE:** If you plan to use the [deluge](/Plugins/deluge) plugin, you need to build your virtualenv with the --system-site-packages option so that the deluge package is available to FlexGet.
-
-```bash
-virtualenv --system-site-packages ~/flexget/
 ```
 
 ### Install FlexGet in the `virtualenv`
