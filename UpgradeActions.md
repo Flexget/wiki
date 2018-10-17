@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.17.0** -- 2018.10.17
+
+The `deluge` plugin has been changed to use the [deluge-client](https://pypi.org/project/deluge-client/) library. You will need to `pip install deluge-client` if you are using this plugin.
+
 ### **2.16.0** -- 2018.10.12
 
 The `variables` plugin has been changed to allow arbitrary sections of config to be substituted. This means it can be used in config sections which require numbers, or even bigger config sections such as a list or dictionary. If you were relying on variable replacement always producing a string, and get config errors after the upgrade, you may need to add extra quotes to the replacement with this version. e.g. `some_setting: "'{? a_variable ?}'"`
