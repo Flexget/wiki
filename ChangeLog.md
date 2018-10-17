@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a93cdecc35ae7e0b38bea1774d168eaeb35fe078--->
+<!---c1d5c122da04ab5316ce235bcff33191104fd2a3--->
+
+## 2.17.0.dev (unreleased)
+### Changed
+- Switch deluge plugin to use deluge-client available in pypi.
 
 <!---878208bbcabbec1b0d362c68856afac1e74cfab5--->
 
