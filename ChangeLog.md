@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c1d5c122da04ab5316ce235bcff33191104fd2a3--->
+<!---1617f774c523cf4b8e28f25f9cbf68d466ae1c3d--->
 
 ## 2.17.0.dev (unreleased)
 ### Changed
 - Switch deluge plugin to use deluge-client available in pypi.
+
+### Fixed
+- Catch timeouts getting imdb_list contents. fix [#2114](https://github.com/Flexget/Flexget/issues/2114)
 
 <!---878208bbcabbec1b0d362c68856afac1e74cfab5--->
 
