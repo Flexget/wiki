@@ -2,17 +2,10 @@
 
 Downloads content from entry URL and loads it into the [deluge](http://deluge-torrent.org) bittorrent client.
 
-<div class="alert alert-warning" role="alert">
-<ul>
-<li>Deluge requires Python 2.7. It does NOT support Python 3.3+ as of 2017.</li>
-<li>
-If you are installing to a virtualenv, you have to create the virtualenv with the --system-site-packages option so the deluge package can be found. This also applies to a git install.</li>
-<li>Mac or Windows users, see important notes regarding your platforms at the bottom of this page.</li>
-<ul>
-</div>
-
 **Requirements:**
-* Supports Deluge 1.2 and 1.3. This will not work if you are running deluge in classic mode. You must switch to running the daemon separately. 
+* Requires [deluge-client](https://pypi.org/project/deluge-client/). `pip install deluge-client`
+* Supports Deluge 1.3 and 2.0.
+* This will not work if you are running deluge in classic mode. You must switch to running the daemon separately. 
 * If you are running `deluged` as a different user, on a different box, or with a non-default config directory (something other than ~/.config/deluge), you will need to specify the username and password options that you have set up in your Deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
 
 
@@ -134,17 +127,5 @@ Subtitle files will be downloaded to (see the `keep_subs` option):
 ```
 
 **NOTE:** In order to perform content renaming on a magnet URI, you must set **magnetization_timeout** to a value greater than 0 so that flexget has a chance to magnetize the torrent and retrieve the file list before performing any file list processing during the content renaming phase. If you use any feeds that supply magnet URIs and you wish to perform content renaming, it is strongly recommended to set **magnetization_timeout** to a reasonable wait period, such as **30** (seconds). Magnetization time varies based on swarm activity and network speed, but is typically completed in under 10 seconds.
-
-## macOS / OSX Users
-Should you wish to use the Deluge plugin:
-- The default Flexget installation currently requires Deluge to be installed via [macports](http://dev.deluge-torrent.org/wiki/Installing/MacOSX/) (or source).
-- Alternatively, if you have Deluge.app:
-  - You can use the third-party plugin [`app_deluge_find`](/Plugins/app_deluge_find) by adding `app_deluge_find: yes` to each affected task, which allows FlexGet to recognize /Applications/Deluge.app.
-  - You can also edit flexget/plugins/clients/deluge.py to achieve the same effect with the changes noted [here](https://github.com/Flexget/Flexget/issues/1671) made to `flexget/plugins/client/deluge.py`.
-
-## Windows Users
-FlexGet should be able to detect Deluge in its install directory if:
-- Deluge is installed in the default install directory \<program files\>\Deluge
-- FlexGet and Deluge are installed with 32 bit Python 2.7
 
 You can ignore messages about disconnecting from the daemon in a 'non-clean' fashion. This is normal on Windows.
