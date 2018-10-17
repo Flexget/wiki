@@ -23,8 +23,8 @@ Python 2 EOL is 2020-01-01 which means now is a good time for us to start droppi
 
 ### Py2 only deps that we'll drop/update and plugins that use them
 
-- deluge/deluge
-- mechanize (?)
+- deluge/deluge [Done](https://github.com/Flexget/Flexget/pull/2102)
+- mechanize/form [Done](https://github.com/Flexget/Flexget/pull/2224)
 
 ## Open questions?
 
