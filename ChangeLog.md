@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d165742c8827f025c531b5b34b07edd1341b0fe6--->
+<!---a93cdecc35ae7e0b38bea1774d168eaeb35fe078--->
 
-## 2.16.3.dev (unreleased)
+<!---878208bbcabbec1b0d362c68856afac1e74cfab5--->
+
+## 2.16.3 (2018-10-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.16.2...2.16.3)
 ### Fixed
 - ugly fix for another command line crash
 - command line parsing crashing in some situations
 
-<!---c667014c61d6303368b73b003b574d1585834f01--->
 
 ## 2.16.2 (2018-10-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.16.1...2.16.2)
