@@ -9,11 +9,6 @@ import:
 
 FlexGet is currently mostly command line based, although we have an experimental [Web UI](/Web-UI) under development. Be aware that this is not "double click to install and a beautiful UI pops up". But it's not that hard either. [Help is available.](/NeedHelp)</div>
 
-<div class="alert alert-info" role="alert">
-
-If you plan on using the [deluge](/Plugins/deluge) plugin on Windows, you must make sure your Deluge python version matches your system python version. [Read more here.](/Plugins/deluge#WindowsUsers)
-</div>
-
 ## Set up environment
 
 ### Install Python
