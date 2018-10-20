@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3feac6de627e66cef79005ac85d8cb9406cc0ceb--->
+<!---d25e1c064a4a13c5a79251d4534f8da5acdde782--->
+
+## 2.17.2.dev (unreleased)
+### Changed
+- Allow deluge plugin to unset labels by setting 'No Label'
 
 <!---868dc80f2dbadf952eb80d6c6af82ff68d2b024a--->
 
