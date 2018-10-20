@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---32c8f8194040f343a3d68e277960fe044aed2f23--->
+<!---8df71173082ee569ed8ac120a8cbe4c5279e3e72--->
+
+## 2.17.1.dev (unreleased)
+### Fixed
+- Fix deluge plugin crashes with new deluge-client implementation. fix [#2233](https://github.com/Flexget/Flexget/issues/2233)
 
 <!---592c17cefd6b03d36f4c499ae9078d2bce96ab21--->
 
