@@ -28,7 +28,7 @@ deluge: yes
 | password | Deluged password *(defaults to automatic client authentication if not specified)* |
 | path | The download location |
 | movedone | The location files will be moved when torrent finishes (the location will be created if it doesn't exist). |
-| label | Label to assign to torrents in Deluge. This field can be a [Jinja expression](/Jinja) and is rendered before being passed to Deluge. |
+| label | Label to assign to torrents in Deluge. This field can be a [Jinja expression](/Jinja) and is rendered before being passed to Deluge. The special value `No Label` will remove an existing label from a torrent. |
 | queuetotop | If yes will move torrent to top of queue when added, if no will move to bottom. |
 | addpaused | If yes, will add the torrents to deluge in the paused state. |
 | maxupspeed | Sets the maximum upload speed. Must be specified as a decimal (i.e. 1.0) |
