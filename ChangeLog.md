@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d25e1c064a4a13c5a79251d4534f8da5acdde782--->
+<!---77e3dce1f69a07a71b35c3fa0ea7cd19c429be7d--->
 
-## 2.17.2.dev (unreleased)
+<!---ab26dffc8f4d0b1765d1132c2a6cb3e41c026cdf--->
+
+## 2.17.2 (2018-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.1...2.17.2)
 ### Changed
 - Allow deluge plugin to unset labels by setting 'No Label'
 
-<!---868dc80f2dbadf952eb80d6c6af82ff68d2b024a--->
 
 ## 2.17.1 (2018-10-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.0...2.17.1)
