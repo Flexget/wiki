@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cba6a85c53511a54d493137227d66cb342599546--->
+<!---b49be3029258ea40c37a5eb4f505d375541f9ad5--->
 
-## 2.17.4.dev (unreleased)
+<!---bb482c13c6d8460c74fff3013570b8fca4703769--->
+
+## 2.17.4 (2018-10-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.3...2.17.4)
 ### Fixed
 - form plugin will respect user-agent set for the task. fix [#2238](https://github.com/Flexget/Flexget/issues/2238)
 
-<!---e0a6ba3b6f7973d1a5e1182768cffc4f2e1dd31d--->
 
 ## 2.17.3 (2018-10-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.2...2.17.3)
