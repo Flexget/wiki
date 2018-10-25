@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b49be3029258ea40c37a5eb4f505d375541f9ad5--->
+<!---2135757f0f228b856da38b9b38da1502cb490676--->
+
+## 2.17.5.dev (unreleased)
+### Fixed
+- npo_watchlist: no longer crashes when a series cannot be found
+
+### Changed
+- anidb_list: custom user-agent is no longer set for the whole task
+- passthepopcorn: Skip movie year validation if imdb_id is set/used
 
 <!---bb482c13c6d8460c74fff3013570b8fca4703769--->
 
