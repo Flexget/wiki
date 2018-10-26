@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2135757f0f228b856da38b9b38da1502cb490676--->
+<!---85ddec489a26a150cb23294d3ea2999b1cc216f8--->
 
-## 2.17.5.dev (unreleased)
+<!---bdee1f71d853214a53a7730947744f42010b58b0--->
+
+## 2.17.5 (2018-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.4...2.17.5)
 ### Fixed
 - npo_watchlist: no longer crashes when a series cannot be found
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - anidb_list: custom user-agent is no longer set for the whole task
 - passthepopcorn: Skip movie year validation if imdb_id is set/used
 
-<!---bb482c13c6d8460c74fff3013570b8fca4703769--->
 
 ## 2.17.4 (2018-10-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.3...2.17.4)
