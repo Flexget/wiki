@@ -19,27 +19,33 @@ mount -oremount,size=128M /tmp
 # NO8080: write
 For Python 2.7 on QNAP perform the following steps,
 
-1) Install the QNAP Optware QPKG from the web GUI
+1) Install the Python 2.7.12.1 package from the Qnap App Store
 
 2) Log in to your NAS via ssh
 
-3) Enter the commands
+3) Enter the command below
 
 ```
-ipkg install python27
-ipkg install py27-setuptools
-easy_install-2.7 flexget
+export PATH=/opt/QPython2/bin:$PATH
+```
+Check the correct version of Python is installed and active using
+```
+python --version
+```
+This should return
+```
+python 2.7.12.1
+```
+Install Pip using
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+Install Flexget using
+```
+Pip install flexget
 ```
 
-If you want to use Transmission then enter the command
-```
-easy_install-2.7 transmissionrpc
-```
-
-To test it is working use the command
-```
-python2.7 /opt/local/bin/flexget -V
-```
 
 Create your config.yml file in the directory /opt/local/
 
