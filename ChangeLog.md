@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---85ddec489a26a150cb23294d3ea2999b1cc216f8--->
+<!---239bc297e3cc3d8b00a06297f0aefa6efc79f42b--->
+
+## 2.17.6.dev (unreleased)
+### Fixed
+- trakt_list: KeyError on trakt_movie_id
 
 <!---bdee1f71d853214a53a7730947744f42010b58b0--->
 
