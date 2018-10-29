@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---239bc297e3cc3d8b00a06297f0aefa6efc79f42b--->
+<!---a5fa1403a526b28226df0c70bd1be2cfd203dd2d--->
 
-## 2.17.6.dev (unreleased)
+<!---ef0ad7efec32e5b60f53e55ff8bbb25bec2505f1--->
+
+## 2.17.6 (2018-10-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.5...2.17.6)
 ### Fixed
 - trakt_list: KeyError on trakt_movie_id
 
-<!---bdee1f71d853214a53a7730947744f42010b58b0--->
 
 ## 2.17.5 (2018-10-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.4...2.17.5)
