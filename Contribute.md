@@ -1,5 +1,5 @@
 # Contributing to FlexGet
-We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [here](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/).
+We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [here](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/).
 
 For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions, the pull request should be made against the `next` branch (though you may need to bug us in chat if that branch isn't up to date with develop at the moment.)
 
