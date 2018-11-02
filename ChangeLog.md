@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a5fa1403a526b28226df0c70bd1be2cfd203dd2d--->
+<!---7654d1b20fcb24cf9ad2af96ce5e023d96461a63--->
+
+## 2.17.7.dev (unreleased)
+### Fixed
+- trakt_list: fix `coercing to Unicode: need string or buffer, int found` for translations
 
 <!---ef0ad7efec32e5b60f53e55ff8bbb25bec2505f1--->
 
