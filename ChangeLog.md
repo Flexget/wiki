@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7654d1b20fcb24cf9ad2af96ce5e023d96461a63--->
+<!---9987f6bb729e398745cd49aa4f31b4b0b78997a2--->
 
-## 2.17.7.dev (unreleased)
+<!---05f57ccebc555a4d716bb60b51d9b8682a42124e--->
+
+## 2.17.7 (2018-11-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.6...2.17.7)
 ### Fixed
 - trakt_list: fix `coercing to Unicode: need string or buffer, int found` for translations
 
-<!---ef0ad7efec32e5b60f53e55ff8bbb25bec2505f1--->
 
 ## 2.17.6 (2018-10-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.5...2.17.6)
