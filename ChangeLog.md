@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9987f6bb729e398745cd49aa4f31b4b0b78997a2--->
+<!---a77d3f1f291c02e66381e8a573f02a7210d75222--->
+
+## 2.17.8.dev (unreleased)
+### Changed
+- Swap out GPL SGCITransport implementation for public domain one in rtorrent plugin
 
 <!---05f57ccebc555a4d716bb60b51d9b8682a42124e--->
 
