@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---65a01c0f87722079cd8617e08a6b7c89a7b0da64--->
+<!---f6b01c1176ffa835edb80d2c455a0b8110c90bba--->
+
+## 2.17.9.dev (unreleased)
+### Changed
+- guessit: upgraded to 3.0.3
 
 <!---5448ccff98996aaca5baa5fd6f03f407ec9e8266--->
 
