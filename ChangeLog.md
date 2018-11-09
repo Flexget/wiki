@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f6b01c1176ffa835edb80d2c455a0b8110c90bba--->
+<!---860358c094df58964316dd9eb14fedffd42c8eeb--->
 
-## 2.17.9.dev (unreleased)
+<!---51a861bcff6de82543d7a9b1f2357b06d3e69b09--->
+
+## 2.17.9 (2018-11-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.8...2.17.9)
 ### Changed
 - guessit: upgraded to 3.0.3
 
-<!---5448ccff98996aaca5baa5fd6f03f407ec9e8266--->
 
 ## 2.17.8 (2018-11-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.7...2.17.8)
