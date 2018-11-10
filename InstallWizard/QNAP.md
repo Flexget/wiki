@@ -15,10 +15,6 @@ export PATH=/opt/QPython2/bin:$PATH
 ```
 python --version
 ```
-This should return
-```
-python 2.7.12.1
-```
 5) Install Pip using
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
