@@ -28,3 +28,7 @@ Install Flexget using
 ```
 Pip install flexget
 ```
+Create the directory below and add your config.yml
+```
+/root/.flexget
+```
