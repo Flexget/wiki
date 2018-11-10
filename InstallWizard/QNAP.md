@@ -11,7 +11,7 @@ For Python 2.7 and Pip on QNAP perform the following steps,
 ```
 export PATH=/opt/QPython2/bin:$PATH
 ```
-Check the correct version of Python is installed and active using
+4) Check the correct version of Python is installed and active using
 ```
 python --version
 ```
@@ -19,16 +19,16 @@ This should return
 ```
 python 2.7.12.1
 ```
-Install Pip using
+5) Install Pip using
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
-Install Flexget using
+6) Install Flexget using
 ```
 Pip install flexget
 ```
-Create the directory below and add your config.yml
+7) Create the directory below and add your config.yml
 ```
 /root/.flexget
 ```
