@@ -28,3 +28,5 @@ Pip install flexget
 ```
 /root/.flexget
 ```
+
+### !!! qnap root is reset after every reboot along with the path changes in step 3. Steps 3 and 7 need to be redone after every reboot. This will be updated with how to enact permenant changes shortly
