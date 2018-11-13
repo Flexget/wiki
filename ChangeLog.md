@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---860358c094df58964316dd9eb14fedffd42c8eeb--->
+<!---2524c3ca35bf877350bea69a4ebc7e8806c8fdf7--->
+
+## 2.17.10.dev (unreleased)
+### Fixed
+- Fix potential crashes with guessit parser. fix [#2249](https://github.com/Flexget/Flexget/issues/2249)
 
 <!---51a861bcff6de82543d7a9b1f2357b06d3e69b09--->
 
