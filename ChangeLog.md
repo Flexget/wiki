@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3dc07b61b67e6775642676fe0ef942470ba43ef5--->
+<!---7818298b484b3e538e8636a0e71d1eb680f0f1c2--->
 
-## 2.17.10.dev (unreleased)
+<!---4ceb6ec66752d82a269a8c60c592630b98020b9a--->
+
+## 2.17.10 (2018-11-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.9...2.17.10)
 ### Fixed
 - Fix potential crashes with guessit parser. fix [#2249](https://github.com/Flexget/Flexget/issues/2249)
 
 ### Changed
 - rtorrent: replaced d.multicall with d.multicall2 since it's been deprecated since 0.9.0, Fixes [#2239](https://github.com/Flexget/Flexget/issues/2239)
 
-<!---51a861bcff6de82543d7a9b1f2357b06d3e69b09--->
 
 ## 2.17.9 (2018-11-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.8...2.17.9)
