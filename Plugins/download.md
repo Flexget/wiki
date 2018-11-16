@@ -36,7 +36,7 @@ For even more customization you can use [set](/Plugins/set) plugin to manually c
 series:
   - pioneer one
 set:
-  path: /home/usera/TV/{{series_name}}/Season {{series_season}}/
+  path: '/home/usera/TV/{{series_name}}/Season {{series_season}}/'
 download: yes
 ```
 
@@ -47,7 +47,7 @@ You can also override filename that is saved by `filename` field. Here's an exam
 
 ```yaml
 set:
-  filename: {{title|pathscrub}}.torrent
+  filename: '{{title|pathscrub}}.torrent'
 ```
 
 ### Options (advanced)
