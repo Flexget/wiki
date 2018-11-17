@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5344551f45973386dada3f0ee933a038d05e41fb--->
+<!---8344c76349dca18aac4eb604942562938afb5a22--->
+
+## 2.17.12.dev (unreleased)
+### Fixed
+- passthepopcorn: no longer crashes when cookie is invalid
 
 <!---3f4851aae727272def83c81bc8f055d77a2e7231--->
 
