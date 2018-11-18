@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8344c76349dca18aac4eb604942562938afb5a22--->
+<!---b6b752e9435519b966f4cd3d574393fa6981c70f--->
 
-## 2.17.12.dev (unreleased)
+<!---e14a9de793418a8e716dbdab7f083092a6562475--->
+
+## 2.17.12 (2018-11-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.11...2.17.12)
 ### Fixed
 - passthepopcorn: no longer crashes when cookie is invalid
 
-<!---3f4851aae727272def83c81bc8f055d77a2e7231--->
 
 ## 2.17.11 (2018-11-14)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.10...2.17.11)
