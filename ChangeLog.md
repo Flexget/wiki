@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0509d2c0437edd605d0fd6f12e147821960c7261--->
+<!---9b8ba2285d83dcac3b748de111e28783935e767f--->
 
-## 2.17.13.dev (unreleased)
+<!---ef2ab8599c5c06f2fa4ca598fb6ca4dbfb5ac1b8--->
+
+## 2.17.13 (2018-11-19)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.12...2.17.13)
 ### Fixed
 - deluge: Disconnect from deluge when complete. fix [#2255](https://github.com/Flexget/Flexget/issues/2255)
 
-<!---e14a9de793418a8e716dbdab7f083092a6562475--->
 
 ## 2.17.12 (2018-11-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.11...2.17.12)
