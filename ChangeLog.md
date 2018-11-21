@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b8ba2285d83dcac3b748de111e28783935e767f--->
+<!---39ddab6e375519b29ad7c91f6b144fc1ab25ec2a--->
+
+## 2.17.14.dev (unreleased)
+### Changed
+- torrentleech: Show reasonable error if login to to torrentleech.org fails ([#2256](https://github.com/Flexget/Flexget/issues/2256))
 
 <!---ef2ab8599c5c06f2fa4ca598fb6ca4dbfb5ac1b8--->
 
