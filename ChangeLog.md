@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1cff3a403b0515707505d7d0a10e8ab5a50b7002--->
+<!---cbd8a64c56145451e46d72d309c7d24e404d4212--->
 
-## 2.17.14.dev (unreleased)
+<!---94f8afc7f4e23abcbc614155de952936f97089a0--->
+
+## 2.17.14 (2018-11-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.13...2.17.14)
 ### Changed
 - torrentleech: Show reasonable error if login to to torrentleech.org fails ([#2256](https://github.com/Flexget/Flexget/issues/2256))
 
 ### Added
 - nyaa: add missing categories, add seed/leech info, add info_hash, add content_size
 
-<!---ef2ab8599c5c06f2fa4ca598fb6ca4dbfb5ac1b8--->
 
 ## 2.17.13 (2018-11-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.12...2.17.13)
