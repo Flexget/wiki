@@ -21,7 +21,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
-| [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu) |
+| [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz.eu](http://torrentz.eu)(deprecated) |
 | [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 
 
