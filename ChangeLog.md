@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cee2d6ad92b71df6868dc923f5d82b6718794b9c--->
+<!---a6d9764fb9f939064df0102fc7ff246f0b5b46fb--->
+
+## 2.17.16.dev (unreleased)
+### Fixed
+- update url to match current hliang url ([#2260](https://github.com/Flexget/Flexget/issues/2260))
+- sftp plugin doesn't properly handle paths with characters not allowed in normal URLs.
 
 <!---88763f2903bc6109f2916f357a2f1619c8f157d1--->
 
