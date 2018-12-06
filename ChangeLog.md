@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fd0823b9d54f8e822ece5fcbf1c01c89af55c62e--->
+<!---86cb7ee8f46ce32fd54b64af6d75559d1806f070--->
+
+## 2.17.17.dev (unreleased)
+### Fixed
+- Fix torrentday plugin. fix [#2105](https://github.com/Flexget/Flexget/issues/2105)
 
 <!---cd74126411b8c02911a7479abb4139318c3733da--->
 
