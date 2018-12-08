@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b97c44d558f4cef8b7b9158d18144699007cdf83--->
+<!---86932916bc9e8f2ebd25e8725981c9c044ca6997--->
 
-<!---21e3a685d3552e8767dffaac5dbcd1f980ce0dfe--->
+<!---92b87891e1a795a309ad723dcd01fd6f951fba13--->
+
+## 2.17.18 (2018-12-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.17...2.17.18)
 
 ## 2.17.17 (2018-12-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.16...2.17.17)
