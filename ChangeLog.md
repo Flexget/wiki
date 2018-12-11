@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---20dfec10962359e0da5f4cbe7659dfe2564a21a2--->
+<!---b06f8b0e06852b9609495dfd5b75b7f187151535--->
 
 ## 2.17.19.dev (unreleased)
 ### Fixed
@@ -10,6 +10,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Changed
 - added --timeout to manager arguments (default 5 minutes)
+
+### Added
+- new notifier/Discord plugin ([#2275](https://github.com/Flexget/Flexget/issues/2275))
 
 <!---92b87891e1a795a309ad723dcd01fd6f951fba13--->
 
