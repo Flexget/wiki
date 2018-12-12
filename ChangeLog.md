@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b06f8b0e06852b9609495dfd5b75b7f187151535--->
+<!---c121eebe52e4421d185e9368d291d556275d3e51--->
 
-## 2.17.19.dev (unreleased)
+<!---a7cb0dddda0805a1919619d07c6d096df1477bb2--->
+
+## 2.17.19 (2018-12-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.18...2.17.19)
 ### Fixed
 - Python 3.7: get rid of time.clock DeprecationWarning
 - kodi: changed from GET to POST to accommodate v18 changes, fixes [#2210](https://github.com/Flexget/Flexget/issues/2210)
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - new notifier/Discord plugin ([#2275](https://github.com/Flexget/Flexget/issues/2275))
 
-<!---92b87891e1a795a309ad723dcd01fd6f951fba13--->
 
 ## 2.17.18 (2018-12-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.17...2.17.18)
