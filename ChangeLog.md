@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c121eebe52e4421d185e9368d291d556275d3e51--->
+<!---348bd1ea5a4d657fea82e8ed18d3b3d67e3dc691--->
+
+## 2.17.20.dev (unreleased)
+### Fixed
+- torrentday: Fix finding seeders and leechers.
+- torrentday: Fix no results.
 
 <!---a7cb0dddda0805a1919619d07c6d096df1477bb2--->
 
