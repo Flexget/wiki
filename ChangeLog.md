@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---348bd1ea5a4d657fea82e8ed18d3b3d67e3dc691--->
+<!---1ac69cdd787c39bdf5e52ac5da7a14db8d985a1f--->
 
-## 2.17.20.dev (unreleased)
+<!---e6112120aafff278384d534e1346d7241ec583e4--->
+
+## 2.17.20 (2018-12-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.19...2.17.20)
 ### Fixed
 - torrentday: Fix finding seeders and leechers.
 - torrentday: Fix no results.
 
-<!---a7cb0dddda0805a1919619d07c6d096df1477bb2--->
 
 ## 2.17.19 (2018-12-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.18...2.17.19)
