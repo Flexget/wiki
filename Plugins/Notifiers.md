@@ -21,6 +21,7 @@ These plugins are responsible for delivering notifications. One or more of them 
 | [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://pushover.net/apps/clone/Flexget) notification |
 | [pushsafer](/Plugins/Notifiers/pushsafer) | Send a [Pushsafer](https://www.pushsafer.com/en/FlexGet) notification |
 | [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
+|[discord](/Plugins/Notifiers/discord) | Send a [Discord](https://discordapp.com/) notification
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
