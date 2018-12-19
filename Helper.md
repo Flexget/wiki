@@ -1,3 +1,4 @@
+```
 ######## Secrets 참고 #########
 variables: secrets.yml
 ######## scedules 설정 ########
@@ -14,10 +15,10 @@ templates:
 # Transmission 전송용 설정
   anchors:
     _transmission-settings: &transmission-settings
-      host: 192.168.4.11
-      port: 9595
-      username: wndghk23
-      password: tkdgns23
+      host: 
+      port: 
+      username: 
+      password: 
 
 # Global Settings (항상 적용 되는 세팅, 적용안하려면 template: no_global)
   global:
