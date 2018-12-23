@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ac69cdd787c39bdf5e52ac5da7a14db8d985a1f--->
+<!---d7b1db9bf78262317fbd93c6d03a942f2875724c--->
+
+## 2.17.21.dev (unreleased)
+### Fixed
+- npo_watchlist: Update for website changes.
 
 <!---e6112120aafff278384d534e1346d7241ec583e4--->
 
