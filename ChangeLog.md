@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d7b1db9bf78262317fbd93c6d03a942f2875724c--->
+<!---298d333f776014bcfda62ad1a1138cdd19783db7--->
 
-## 2.17.21.dev (unreleased)
+<!---9303e46cb8e8dd30b8130f1c80df2e9ca0ab6a24--->
+
+## 2.17.21 (2018-12-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.20...2.17.21)
 ### Fixed
 - npo_watchlist: Update for website changes.
 
-<!---e6112120aafff278384d534e1346d7241ec583e4--->
 
 ## 2.17.20 (2018-12-13)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.19...2.17.20)
