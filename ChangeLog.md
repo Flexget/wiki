@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---298d333f776014bcfda62ad1a1138cdd19783db7--->
+<!---1dab338870dc454d810b21d3eaa4a64906ddc6ad--->
+
+## 2.17.22.dev (unreleased)
+### Added
+- medusa plugin ([#2282](https://github.com/Flexget/Flexget/issues/2282))
 
 <!---9303e46cb8e8dd30b8130f1c80df2e9ca0ab6a24--->
 
