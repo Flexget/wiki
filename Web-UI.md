@@ -67,7 +67,7 @@ $ flexget web passwd <some_password>
 $ flexget daemon start --daemonize
 ```
 
-Using the full configuration example above, the Flexget Web UI would now be available at `http://flexget_ip:3539/`. Full API documentation would be available at `http://flexget_ip:3939/api/`.
+Using the full configuration example above, the Flexget Web UI would now be available at `http://flexget_ip:3539/`. Full API documentation would be available at `http://flexget_ip:3539/api/`.
 
 Visit the [API page](/wiki/API) for more information about it.
 
