@@ -12,7 +12,7 @@ Each schedule consists of a list of tasks to run, and an interval which they sho
 ```
 
 ### Disabling
-If you would like to run the daemon without any builtin schedules -- perhaps you are sending executions from cron or some other source -- you can turn off the scheduler like so:
+If you would like to run the daemon without any built in schedules -- perhaps you are sending executions from cron or some other source -- you can turn off the scheduler like so:
 ```
 schedules: no
 ```
