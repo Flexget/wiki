@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---36415bee0eb2511b5bd6191445adc02ea731e243--->
+<!---4b31e0ed7bb3de67ffccc02385c8cca9fd7c6601--->
+
+## 2.17.23.dev (unreleased)
+### Fixed
+- guessit parser: Added a validity check for parsed series name
 
 <!---ca4a06c66672dc7ef2b48c5446e2cd0e0ad1b23f--->
 
