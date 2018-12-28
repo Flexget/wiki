@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---95f8dcc9fbabeef0d43f8d0839e427e013cc6159--->
+<!---6c6b13d8089fb48382333b2114fe41d90df95079--->
 
 ## 2.17.23.dev (unreleased)
 ### Fixed
+- quality metainfo: force quality field to Quality object during metainfo phase, fixes [#2242](https://github.com/Flexget/Flexget/issues/2242) ([#2288](https://github.com/Flexget/Flexget/issues/2288))
 - descargas2020: updated url scraping
 - guessit parser: Added a validity check for parsed series name
 
