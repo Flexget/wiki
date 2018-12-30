@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d8d8d53916cdafa2beb3f4e78a7d5a0c9110bfac--->
+<!---febce4d4206626e0f22555b995dbee24c584303c--->
 
-## 2.17.24.dev (unreleased)
+<!---0024844187f694c16c8db7d0a280e65111521139--->
+
+## 2.17.24 (2018-12-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.17.23...2.17.24)
 ### Fixed
 - trakt_list: added pagination handling, fixes [#2254](https://github.com/Flexget/Flexget/issues/2254)
 
-<!---111b8adbd96f45be4936b3d6349a74f913b9c2ee--->
 
 ## 2.17.23 (2018-12-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.17.22...2.17.23)
