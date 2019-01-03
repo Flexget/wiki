@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---febce4d4206626e0f22555b995dbee24c584303c--->
+<!---fe02d6474dc231e2dfb4c7707778c5f03c10d228--->
+
+## 2.17.25.dev (unreleased)
+### Added
+- "Airing Status" filter to MyAnimeList ([#2290](https://github.com/Flexget/Flexget/issues/2290))
 
 <!---0024844187f694c16c8db7d0a280e65111521139--->
 
