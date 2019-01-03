@@ -42,7 +42,7 @@ tasks:
 
   upgrade_movies:
     upgrade:
-      target: 1080p
+      target: <=1080p
       propers: yes
 ```
 
@@ -65,7 +65,7 @@ tasks:
 
   upgrade_tv:
     upgrade:
-      target: 1080p
+      target: <=1080p
       propers: yes
 ```
 
@@ -105,7 +105,7 @@ tasks:
 
   upgrade_tv:
     upgrade:
-      target: 1080p
+      target: <=1080p
       propers: yes
 ```
 
