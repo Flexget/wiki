@@ -1,6 +1,6 @@
 # Upgrade
 
-The upgrade plugin will continue getting better qualities of an entry (tracked by a unique identifier). It can also block any entry that is of a worse quality than you already have.
+The upgrade plugin will continue getting better qualities of an entry (tracked by a unique identifier). It can also reject entries that are of lower quality compared to the latest accepted quality.
 
 ## Settings
 
@@ -8,10 +8,10 @@ The upgrade plugin will continue getting better qualities of an entry (tracked b
 | --- | --- |
 | identified_by | Define how entries are identified, default `auto` which uses entry id [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja) |
 | tracking | If enabled by it's self will track entry but not upgrade. |
-| target | The target quality that should be upgraded to. Upgrades will not continue after target is met. |
+| target | Continue to upgrade until reaching target quality OR better.NOTE: Use the [quality](https://flexget.com/Plugins/quality) plugin to restrict the uppper quality. |
 | on_lower | The action to preform on entries which are lower then the best or existing quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by accepted by other plugins |
-| timeframe | Allow upgrades for the given peroid of time |
-| propers | Allow upgrade of same quality if proper is released |
+| timeframe | Allow upgrades for the given peroid of time.   |
+| propers | Allow upgrade to propers. NOTE: If timeframe has reached propers will be rejected |
 
 
 ## Syntax:
