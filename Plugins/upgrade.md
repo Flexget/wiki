@@ -10,7 +10,7 @@ The upgrade plugin will continue getting better qualities of an entry (tracked b
 | tracking | If enabled by it's self will track entry but not upgrade. |
 | target | Continue to upgrade until reaching target quality OR better.NOTE: Use the [quality](https://flexget.com/Plugins/quality) plugin to restrict the uppper quality. |
 | on_lower | The action to preform on entries which are lower then the best or existing quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by accepted by other plugins |
-| timeframe | Allow upgrades for the given peroid of time.   |
+| timeframe | Allow upgrades for the given peroid of time. NOTE: This options takes priority |
 | propers | Allow upgrade to propers. NOTE: If timeframe has reached propers will be rejected |
 
 
