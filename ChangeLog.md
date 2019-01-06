@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---21f6032e34e018c3b44b5d7dcdc008fd1e3564f7--->
+<!---aa014b8e3dd0fe2963dba8f13dac4aa0a3fb2523--->
 
-## 2.17.26.dev (unreleased)
+## 2.18.0.dev (unreleased)
 ### Added
 - trakt_next_episode - 'aired' context ([#1721](https://github.com/Flexget/Flexget/issues/1721))
+
+### Changed
+- Enable python 3.7 compatibility ([#2225](https://github.com/Flexget/Flexget/issues/2225))
 
 <!---d72f17f853e14e46e159380c7babf2434bf32e5f--->
 
