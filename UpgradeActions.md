@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.18.0** -- 2019.01.05
+
+If you are using Python 3.7, and you have escape sequences in your regex replacements in `manipulate` plugin, they will need to be double escaped now.
+
 ### **2.17.0** -- 2018.10.17
 
 The `deluge` plugin has been changed to use the [deluge-client](https://pypi.org/project/deluge-client/) library. You will need to `pip install deluge-client` if you are using this plugin.
