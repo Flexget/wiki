@@ -21,7 +21,7 @@ Currently the following settings are supported:
 | --- | --- |
 | **username** | This is your username at [trakt.tv](http://trakt.tv)  |
 | **account** | Your account name set during [Trakt authentication](/Trakt_Authentication). **Required** if the list is private. |
-| **context** | Can be **watched** (default) or **collected**. It refers to the seen and collected status for your account on Trakt. |
+| **context** | Can be **watched** (default), **collected**, or **aired**. It refers to the seen and collected status for your account on Trakt. |
 | **position** | Can be **next** (default) or **last**. Combined with the `context` option, this instructs the plugin to emit the next episode to watch, the next episode to collect, the last episode watched or the last episode collected for each series. |
 | **list** | The name of a Trakt custom or built-in list to limit the series for which to emit entries. |
 | **strip_dates** | If set to `yes` the year will be removed from the end of titles that contain them.  (Note 1: as of 2017, Trakt includes the year in the title of _all_ television series, even those that wouldn't ordinarily need them to distinguish from another series. This option removes years from _all_ series titles. Note 2: To search and accept series that do not have release year in the series title, the Discover plugin needs this set to `yes` unless you set the beginning of an episode manually. The search plugins will still search series with and without release year.
