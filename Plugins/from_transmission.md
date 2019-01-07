@@ -31,4 +31,4 @@ from_transmission:
 | netrc | File |  |
 | username | Text |  |
 | password | Text |  |
-| onlycomplete | [yes\|no] | If this is enabled, only completed torrents will have entries created. |
+| onlycomplete | [yes\|no] | If this is enabled, only completed torrents will have entries created. ('complete' ATM means: downloaded, stopped, seed limits reached) |
