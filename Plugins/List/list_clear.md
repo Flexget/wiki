@@ -28,8 +28,8 @@ fill_series_list
     what:
       - entry_list: trakt
   trakt_list:
-      account: '{{secrets.trakt.account}}'
-      list: '{{secrets.trakt.series}}'
+      account: '{? trakt.account ?}'
+      list: '{? trakt.series ?}'
       type: shows
   list_add:
     - entry_list: trakt
