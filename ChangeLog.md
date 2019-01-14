@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b04925da27be380d45995f6d8557c4b71575dddc--->
+<!---611f1f05d99735e014884f6d0c09ac55eece8a87--->
+
+## 2.18.3.dev (unreleased)
+### Added
+- Add torrentz2 search/urlrewrite plugin ([#2296](https://github.com/Flexget/Flexget/issues/2296))
 
 <!---79d69c3395b8fef4b55fffa02994349d09caf9cc--->
 
