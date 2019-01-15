@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7da7c4c99d9f9e60e2a26e556c36887ebd649338--->
+<!---d1d732ca3c7d4e67e646981aa541cfcc478c2566--->
 
-## 2.18.3.dev (unreleased)
+<!---e2ee828f9bcf49d68530349654095e636b66e50a--->
+
+## 2.18.3 (2019-01-14)
+[all commits](https://github.com/Flexget/Flexget/compare/2.18.2...2.18.3)
 ### Added
 - Add torrentz2 search/urlrewrite plugin ([#2296](https://github.com/Flexget/Flexget/issues/2296))
 
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - Make sure from_deluge works from inside other plugins
 
-<!---79d69c3395b8fef4b55fffa02994349d09caf9cc--->
 
 ## 2.18.2 (2019-01-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.18.1...2.18.2)
