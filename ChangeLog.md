@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---561293132b652f8f0f2e439bc1d458e514a95075--->
+<!---7da7c4c99d9f9e60e2a26e556c36887ebd649338--->
 
 ## 2.18.3.dev (unreleased)
 ### Added
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Removed
 - Remove old, long deprecated config validation system.
+
+### Fixed
+- Make sure from_deluge works from inside other plugins
 
 <!---79d69c3395b8fef4b55fffa02994349d09caf9cc--->
 
