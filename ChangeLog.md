@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6aebea93d8e46b549103fbf376eb97b0474c98ed--->
+<!---70a58425f3ca72d6283f86daa7e688624c853a8b--->
+
+## 2.18.6.dev (unreleased)
+### Fixed
+- Address import error, fixes [#2304](https://github.com/Flexget/Flexget/issues/2304)
 
 <!---5c8ff2d94457c4a2f70fe16603629b5a296d9a21--->
 
