@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---73a0008ef6b657ba3253afcb537c7fddaeaf475d--->
+<!---2e6f3afc2e7e3806196fcd03030734b7c0b9b27f--->
+
+## 2.18.10.dev (unreleased)
+### Added
+- qbittorrent: speed limit support
 
 <!---4e0bed08693d3c2808ff77099571d93853932b78--->
 
