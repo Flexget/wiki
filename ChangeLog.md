@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2e6f3afc2e7e3806196fcd03030734b7c0b9b27f--->
+<!---288ba8fb1e11d70b7e81ac5210c14d409506bc46--->
 
-## 2.18.10.dev (unreleased)
+<!---9eeef399c8d38c1e9f0286ef7fba19a42ef269d4--->
+
+## 2.18.10 (2019-01-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.18.9...2.18.10)
 ### Added
 - qbittorrent: speed limit support
 
-<!---4e0bed08693d3c2808ff77099571d93853932b78--->
 
 ## 2.18.9 (2019-01-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.18.8...2.18.9)
