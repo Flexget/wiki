@@ -10,6 +10,7 @@ Entries can be downloaded using [download-npo](https://github.com/Carpetsmoker/d
 | **password** | Your password for npo.nl |
 | **remove_accepted** | If set to 'yes', the plugin will delete accepted entries from the watchlist after download is complete. Defaults to 'no'. |
 | **max_episode_age_days** | If set (and not 0), entries will only be generated for episodes broadcast in the last x days. This only applies to episodes related to series the user is following.
+| **download_premium** | If 'download_premium' is set to 'yes', the plugin will also download entries that are marked as exclusive content for NPO Plus subscribers.
 
 ## Example
 ```
@@ -19,6 +20,7 @@ your_task:
     password: xxx
     remove_accepted: yes
     max_episode_age_days: 7
+    download_premium: no
   accept_all: yes
   exec:
     fail_entries: yes
