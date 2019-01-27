@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8e36ea84fff02ad308178c239090639552fa9542--->
+<!---f3d3a73d2fd2412e51f232dc6d2156456e386a25--->
+
+## 2.18.13.dev (unreleased)
+### Fixed
+- guessit: Prevent an exception in Guessit from crashing the parser
 
 <!---e5128e72d5bf180779845f0e5a6a599feb8b7981--->
 
