@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8cf275207bac5bdaa554db8fbdea5735959bdcf8--->
+<!---88fbe512cc767b99cf8e074395b1b65803ddb504--->
+
+## 2.18.12.dev (unreleased)
+### Changed
+- sort_by: Allow jinja expressions for field.
+- sort_by: Allow sorting on multiple fields.
+- Revert " Remove sorting from discover plugin."
+- Remove sorting from discover plugin.
+- Allow sort_by plugin to sort on multiple fields
 
 <!---4387bf286313336869c76a9c298226334c52f6aa--->
 
