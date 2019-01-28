@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f3d3a73d2fd2412e51f232dc6d2156456e386a25--->
+<!---47e21574576224ce988d8f9b69a7bd7b61e15248--->
 
-## 2.18.13.dev (unreleased)
+<!---de3204d4c001fc45482eba09e9e8d753d5f08996--->
+
+## 2.18.13 (2019-01-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.18.12...2.18.13)
 ### Fixed
 - guessit: Prevent an exception in Guessit from crashing the parser
 
-<!---e5128e72d5bf180779845f0e5a6a599feb8b7981--->
 
 ## 2.18.12 (2019-01-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.18.11...2.18.12)
