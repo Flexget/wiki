@@ -70,3 +70,24 @@ My Entry
 His Entry
 The Cats Entry
 ```
+
+#### Using jinja expressions
+The field specification is a jinja expression for more advanced sorting.
+e.g.
+```yaml
+sort_by:
+  - field: quality.resolution
+    reverse: yes
+  - title|lower
+```
+
+## Sorting on multiple fields
+
+Secondary (and further) search fields can be specified by providing the config in a list format.
+
+```yaml
+sort_by:
+  - field: field1
+    reverse: yes
+  - field2
+```
