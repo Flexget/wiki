@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---47e21574576224ce988d8f9b69a7bd7b61e15248--->
+<!---ccea470b7062f0807ccc205e7d5054fc0a521036--->
+
+## 2.19.0.dev (unreleased)
+### Changed
+- Remove sorting from discover plugin.
 
 <!---de3204d4c001fc45482eba09e9e8d753d5f08996--->
 
