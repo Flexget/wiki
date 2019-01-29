@@ -5,7 +5,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.19.0.dev (unreleased)
 ### Changed
-- Remove sorting from discover plugin.
+- Removed internal sorting from discover plugin.
+- Removed internal sorting from series plugin.
 
 <!---de3204d4c001fc45482eba09e9e8d753d5f08996--->
 
