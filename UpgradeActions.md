@@ -6,6 +6,26 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.19.0** -- 2019.01.29
+
+Internal sorting of entries has been removed from both the [discover](/Plugins/discover) and [series](/Plugins/series) plugins.
+
+#### Series
+Formerly, the series plugin sorted by quality, and when multiple copies of an episode were available on a given run of a task, the highest quality would be chosen. Now that this internal sorting has been removed, the [sort_by](/Plugins/sort_by) plugin can be used in the task to prioritize based on quality, or other metrics. To emulate the old behavior the following can be added to the task:
+```yaml
+sort_by:
+  field: quality
+  reverse: yes
+```
+
+#### Discover
+The discover plugin used to sort all results based upon torrent availability (for search plugins on torrent sites) before adding them to the task. Entries are now released in whatever order the search plugin returns. Torrent search plugins now populate the `torrent_availability` field which can be used if you wish emulate the old behavior.
+```yaml
+sort_by:
+  field: torrent_availability
+  reverse: yes
+```
+
 ### **2.18.0** -- 2019.01.05
 
 If you are using Python 3.7, and you have escape sequences in your regex replacements in `manipulate` plugin, they will need to be double escaped now.
