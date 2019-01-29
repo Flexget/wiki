@@ -1,11 +1,11 @@
 # Sort By
-Sorts task entries in order by a specified field. Useful for generating RSS in particular order.
+Sorts task entries in order by a specified field. Useful for generating RSS in particular order. By default the sort will be in ascending (lowest first) order.
 
 ### Plugin Options
 | Option| Description |
 | --- | --- |
 | field | The field by which to sort the entries. Default: _title_. **Required** if you are utilizing either of the other two options. |
-| reverse | If set to `yes`, reverses the order of the sort. |
+| reverse | If set to `yes`, the sort will be in descending order. |
 | ignore_articles | If set to `yes`, ignores 'a', 'an', and 'the' when sorting. Alternatively, this can be set to a regular expression of articles to be ignored (useful if you primarily use a different language). `yes` is equivelant to using the regex `^(the|a|an)\s`. |
 
 ### Example
