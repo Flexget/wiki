@@ -16,9 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - sort_by: Allow jinja expressions for field.
 - sort_by: Allow sorting on multiple fields.
-- Revert " Remove sorting from discover plugin."
-- Remove sorting from discover plugin.
-- Allow sort_by plugin to sort on multiple fields
 
 
 ## 2.18.11 (2019-01-25)
