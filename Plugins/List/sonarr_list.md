@@ -23,6 +23,7 @@ The following settings are optional:
 |  Option  |  Description  | Default
 | --- | --- |--- |
 | **base_url** | This is the URL of your Sonarr installation| `http://localhost`.  |
+| **base_path** | If you set the URL base option in sonarr, you will need to specify that here. | |
 | **port** | This is the port used by your Sonarr installation (usually 8989)| `80`  |
 | **include_ended** |  Decides whether to retrieve ended shows. | True  |
 | **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr|False  |
