@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ccea470b7062f0807ccc205e7d5054fc0a521036--->
+<!---95dbc4be05f01b2ac26c212ffd618855eac9f4ba--->
 
-## 2.19.0.dev (unreleased)
+<!---ef490e38b7835269bb178285d571414cb9116050--->
+
+## 2.19.0 (2019-01-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.18.13...2.19.0)
 ### Changed
 - Removed internal sorting from discover plugin.
 - Removed internal sorting from series plugin.
 
-<!---de3204d4c001fc45482eba09e9e8d753d5f08996--->
 
 ## 2.18.13 (2019-01-27)
 [all commits](https://github.com/Flexget/Flexget/compare/2.18.12...2.18.13)
