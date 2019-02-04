@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bb7df215fdc9b44f349658de61253b895969e334--->
+<!---5280601f72808f4220ea4af1772de38863c61f13--->
 
 ## 2.19.2.dev (unreleased)
 ### Fixed
 - Give traceback with ctrl-c when debugging
+
+### Added
+- radarr_list plugin
 
 <!---4b15eb9b19f216a686d05957036de5ad4b2bfc78--->
 
