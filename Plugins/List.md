@@ -7,6 +7,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
 | [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
+| [radarr_list](/Plugins/List/radarr_list) | Use or add entries from Radarr. |
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. |
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. |
