@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5280601f72808f4220ea4af1772de38863c61f13--->
+<!---5256f2f34f898fd29dc82d2ffbd56a12a7c71b72--->
 
-## 2.19.2.dev (unreleased)
+<!---d90e60ac7fb9c1c8e1d576438eadae8e323cf5e6--->
+
+## 2.19.2 (2019-02-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.19.1...2.19.2)
 ### Fixed
 - Give traceback with ctrl-c when debugging
 
 ### Added
 - radarr_list plugin
 
-<!---4b15eb9b19f216a686d05957036de5ad4b2bfc78--->
 
 ## 2.19.1 (2019-02-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.19.0...2.19.1)
