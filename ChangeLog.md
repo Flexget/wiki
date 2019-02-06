@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f096aa4ca4ec38908e94c4944caa93025429d9cb--->
+<!---4f15ce2f786ca77020e00e5e876d8bb325983fb0--->
+
+## 2.19.4.dev (unreleased)
+### Removed
+- Eliminate rpc timeout. Remove --timeout option
 
 <!---2fae2e8fd6122f3d205ae2161fa484b4843565d5--->
 
