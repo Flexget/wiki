@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4b372a27e525684d9fe06c96dc1cee43e96dfa62--->
+<!---a8435c5125f013f3cde751fb8f643f723ce77278--->
 
-## 2.19.4.dev (unreleased)
+<!---195c6b8cdb635abf58939545b0fda11f142f8d6d--->
+
+## 2.19.4 (2019-02-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.19.3...2.19.4)
 ### Removed
 - Eliminate rpc timeout. Remove --timeout option
 
 ### Fixed
 - Prevent crashing when guessit parsing fails.
 
-<!---2fae2e8fd6122f3d205ae2161fa484b4843565d5--->
 
 ## 2.19.3 (2019-02-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.19.2...2.19.3)
