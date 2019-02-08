@@ -8,14 +8,14 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 
 ### **2.20.0** -- Unreleased
 #### clean_transmission
-The `clean_transmission` plugin has been deprecated. The transmission plugin has gained the ability to remove torrents, which should be used in place of clean_transmission. A recipe detailing how to do this can be found [here](/Cookbook/TorrentCleanup). (The deluge plugin has gained the same ability now too.)
+The `clean_transmission` plugin has been deprecated. The transmission plugin has gained the ability to remove torrents, which should be used in place of `clean_transmission`. A recipe detailing how to do this can be found [here](/Cookbook/TorrentCleanup). (The deluge plugin has gained the same ability now too.)
 
-clean_transmission is still available to use at the moment, but some of its internals had to be tweaked. If you do not immidiately replace this plugin, make sure to do a `--test` run to ensure it still causes the behavior you expect.
+`clean_transmission` is still available to use at the moment, but some of its internals had to be tweaked. If you do not immediately replace this plugin, make sure to do a `--test` run to ensure it still causes the behavior you expect.
 
 #### [from_transmission](/Plugins/from_transmission)
-The `onlycomplete` option default has been changed from yes to no in addition to being renamed `only_complete`. By default all entries loaded in transmission will be provided now.
+The `onlycomplete` option default has been changed from `yes` to `no` in addition to being renamed `only_complete`. By default all entries loaded in transmission will be provided now.
 
-from_transmission also provides more entry fields with the `transmission_` prefix with information provided by transmission.
+`from_transmission` also provides more information from transmission with entry fields prefixed with `transmission_`.
 
 #### [transmission](/Plugins/transmission)
 All multi-word options have been changed to have an underscore for consistency and readability. In addition, the spelling of 'honour' has been changed to match the spelling in transmission.
