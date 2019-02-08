@@ -6,6 +6,49 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **2.20.0** -- Unreleased
+#### clean_transmission
+The `clean_transmission` plugin has been deprecated. The transmission plugin has gained the ability to remove torrents, which should be used in place of clean_transmission. A recipe detailing how to do this can be found [here](/Cookbook/TorrentCleanup). (The deluge plugin has gained the same ability now too.)
+
+clean_transmission is still available to use at the moment, but some of its internals had to be tweaked. If you do not immidiately replace this plugin, make sure to do a `--test` run to ensure it still causes the behavior you expect.
+
+#### [from_transmission](/Plugins/from_transmission)
+The `onlycomplete` option default has been changed from yes to no in addition to being renamed `only_complete`. By default all entries loaded in transmission will be provided now.
+
+from_transmission also provides more entry fields with the `transmission_` prefix with information provided by transmission.
+
+#### [transmission](/Plugins/transmission)
+All multi-word options have been changed to have an underscore for consistency and readability. In addition, the spelling of 'honour' has been changed to match the spelling in transmission.
+|old name|new name|
+|---|---|
+|maxupspeed|max_up_speed|
+|maxdownspeed|max_down_speed|
+|maxconnections|max_connections|
+|addpaused|add_paused|
+|bandwidthpriority|bandwidth_priority|
+|hono**u**rlimits|honor_limits<br/>* *note the spelling change*|
+
+#### [from_deluge](/Plugins/from_deluge)
+The `keys` option has been removed. from_deluge now provides all fields from deluge with the `deluge_` prefix. Field names may vary slightly between deluge versions. Do a test run of your task to verify field names after the update:
+```sh
+flexget --test execute --tasks my_from_deluge_task --dump
+```
+This will show all available field names and values which you can use to update your config appropriately.
+
+#### [deluge](/Plugins/deluge)
+All multi-word options have been changed to have an underscore for consistency and readability.
+|old name|new name|
+|---|---|
+|movedone|move_completed_path|
+|queuetotop|queue_to_top|
+|automanaged|auto_managed|
+|maxupspeed|max_up_speed|
+|maxdownspeed|max_down_speed|
+|maxconnections|max_connections|
+|maxupslots|max_up_slots|
+|removeatratio|remove_at_ratio|
+|addpaused|add_paused|
+
 ### **2.19.0** -- 2019.01.29
 
 Internal sorting of entries has been removed from both the [discover](/Plugins/discover) and [series](/Plugins/series) plugins.
