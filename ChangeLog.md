@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---037a733e6ed5db1f2d770be06e4d80b9f9ef0173--->
+<!---1051434ebe2563c22593fa4a9fbc679784fff51f--->
 
 ## 2.19.5.dev (unreleased)
 ### Fixed
+- seen forget CLI [#2333](https://github.com/Flexget/Flexget/issues/2333)
 - descargas2020: Fix requests exception handling. fix [#2332](https://github.com/Flexget/Flexget/issues/2332)
 
 <!---195c6b8cdb635abf58939545b0fda11f142f8d6d--->
