@@ -1,4 +1,11 @@
 # Clean Transmission
+
+<div class="alert alert-warning" role="alert">
+<span class="glyphicon glyphicon-exclamation-sign"></span>
+  &nbsp;
+This plugin has been deprecated as of FlexGet 2.20 See <a href="/Cookbook/TorrentCleanup">this</a> cookbook entry for a replacement.
+</div>
+
 This plugin cleans the Transmission's queue of finished torrents (=the torrents that have completed the download process and are in **stopped, finished or seeding** state).
 
 This plugin requires the transmissionrpc library. To install it, run:
