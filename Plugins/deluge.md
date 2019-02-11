@@ -26,6 +26,7 @@ deluge: yes
 | port | Deluge port (default *58846*) |
 | username | Deluged username *(defaults to automatic client authentication if not specified)* |
 | password | Deluged password *(defaults to automatic client authentication if not specified)* |
+| config_path | If you use a non-standard deluge config folder, specifying this allows automatic authentication to work. |
 | action | The action that should be performed on this torrent. add/remove/purge (remove and delete data)/pause/resume (default *add*) |
 | path | The download location |
 | move_completed_path | The location files will be moved when torrent finishes (the location will be created if it doesn't exist). |
