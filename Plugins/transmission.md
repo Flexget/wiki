@@ -56,13 +56,14 @@ transmission:
 | netrc | File |  |
 | username | Text |  |
 | password | Text |  |
+| action | [add\|remove\|purge\|pause\|resume] | The action that should be performed on this torrent. 'purge' means remove torrent and data. (default: add) |
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
-| addpaused | [Yes\|No] |  |
-| bandwidthpriority | [-1,0,1] |  |
-| honourlimits | [Yes\|No] |  |
-| maxconnections | Number |  |
-| maxupspeed | Number |  |
-| maxdownspeed | Number |  |
+| add_paused | [Yes\|No] |  |
+| bandwidth_priority | [-1,0,1] |  |
+| honor_limits | [Yes\|No] |  |
+| max_connections | Number |  |
+| max_upspeed | Number |  |
+| max_downspeed | Number |  |
 | ratio | Decimal | The ratio to stop seeding at (-1 means infinite) |
 | enabled | [Yes\|No] | Plugin enabled (Default: Yes) |
 | main_file_only | [Yes\|No] | If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip' |
@@ -104,7 +105,7 @@ series:
     - name 4:
         set:
           ratio: 5.0
-          addpaused: yes
+          add_paused: yes
 transmission:
   host: localhost
   port: 9091
