@@ -1,6 +1,6 @@
 # Deluge
 
-Downloads content from entry URL and loads it into the [deluge](http://deluge-torrent.org) bittorrent client.
+Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
 
 **Requirements:**
 * Requires [deluge-client](https://pypi.org/project/deluge-client/). `pip install deluge-client`
@@ -26,19 +26,20 @@ deluge: yes
 | port | Deluge port (default *58846*) |
 | username | Deluged username *(defaults to automatic client authentication if not specified)* |
 | password | Deluged password *(defaults to automatic client authentication if not specified)* |
+| action | The action that should be performed on this torrent. add/remove/purge (remove and delete data)/pause/resume (default *add*) |
 | path | The download location |
-| movedone | The location files will be moved when torrent finishes (the location will be created if it doesn't exist). |
+| move_completed_path | The location files will be moved when torrent finishes (the location will be created if it doesn't exist). |
 | label | Label to assign to torrents in Deluge. This field can be a [Jinja expression](/Jinja) and is rendered before being passed to Deluge. The special value `No Label` will remove an existing label from a torrent. |
-| queuetotop | If yes will move torrent to top of queue when added, if no will move to bottom. |
-| addpaused | If yes, will add the torrents to deluge in the paused state. |
-| maxupspeed | Sets the maximum upload speed. Must be specified as a decimal (i.e. 1.0) |
-| maxdownspeed | Sets the maximum download speed. |
-| maxconnections | Sets the maximum connections. |
-| maxupslots | Sets the maximum upload slots. |
+| queue_to_top | If yes will move torrent to top of queue when added, if no will move to bottom. |
+| add_paused | If yes, will add the torrents to deluge in the paused state. |
+| max_up_speed | Sets the maximum upload speed. Must be specified as a decimal (i.e. 1.0) |
+| max_down_speed | Sets the maximum download speed. |
+| max_connections | Sets the maximum connections. |
+| max_up_slots | Sets the maximum upload slots. |
 | ratio | Sets the ratio to stop seeding at. |
-| removeatratio | If yes, torrent will be removed from deluge when ratio is reached. |
+| remove_at_ratio | If yes, torrent will be removed from deluge when ratio is reached. |
 | compact | If yes, will allocate torrent in compact mode. |
-| automanaged | If set to false torrents will be added to deluge without the automanaged flag. |
+| auto_managed | If set to false torrents will be added to deluge without the automanaged flag. |
 | content_filename | Jinja template used to rename the main file and/or directory of the torrent. |
 | content_directory | Jinja template used to rename the top-level folder of the torrent. |
 | main_file_only | If yes, all files but the main file inside the torrent (the one file with greater than _main_file_ratio_% of the torrent's total size; 90% by default) will be set to 'do not download' |
