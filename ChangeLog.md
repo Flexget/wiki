@@ -4,6 +4,10 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 <!---f18e53b59b768515d8e67464b8cc41bddfc00c33--->
 
 ## 2.20.0.dev (unreleased)
+deluge and transmission plugins have both been given the ability to control (remove/pause/resume) torrents already loaded in the client. clean_transmission is now deperecated in favor of these features. See [this](/Cookbook/TorrentCleanup) recipe.
+
+Many deluge/transmission option names were also tweaked. See [UpgradeActions](/UpgradeActions#2200-20190211)
+
 ### Fixed
 - irc: Fix ImportError crash for irc CLI
 
