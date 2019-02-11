@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---66bb2646860c236f913e3533280ef35c3db7d3ea--->
+<!---f3fd804e69cecb2e3548ba6d7b4bda66235e5c2d--->
+
+## 2.19.7.dev (unreleased)
+### Fixed
+- irc: Fix ImportError crash for irc CLI
 
 <!---38ac98f532f00f009a711bda106d93118c231fb7--->
 
