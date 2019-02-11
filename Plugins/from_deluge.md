@@ -39,4 +39,4 @@ Here are some of the more common entry fields which will be created:
 | content_files | List of the filenames in the torrent |
 |  | *(the following fields are only available if `config_path` is specified)* |
 | location | Path to torrent file |
-||url||Path to torrent file in '!file://' format||
+|url|Path to torrent file in 'file://' format|
