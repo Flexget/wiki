@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f18e53b59b768515d8e67464b8cc41bddfc00c33--->
+<!---e3b14bab3dd8c071a7f8653220e4e6999ebef111--->
 
 ## 2.20.0.dev (unreleased)
 deluge and transmission plugins have both been given the ability to control (remove/pause/resume) torrents already loaded in the client. clean_transmission is now deperecated in favor of these features. See [this](/Cookbook/TorrentCleanup) recipe.
@@ -12,6 +12,7 @@ Many deluge/transmission option names were also tweaked. See [UpgradeActions](/U
 - irc: Fix ImportError crash for irc CLI
 
 ### Changed
+- deluge: Add config_path option which can be used to find auth file
 - deluge: Add underscores between words in multi-word options
 - deluge: Add `action` option to allow remove/pause/resume of loaded torrents
 - clean_transmission: This plugin has been deprecated
