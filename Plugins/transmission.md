@@ -1,5 +1,5 @@
 # Transmission
-Passes the url of an entry to Transmission bittorrent client. Can also pass magnet links to Transmission.
+Manages torrents within the [Transmission](https://transmissionbt.com) bittorrent client. Mainly used to add new torrents to transmission, but can also be used to pause/resume/remove torrents already loaded in transmission. Supports magnet links.
 
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon glyphicon-download-alt"></span>
