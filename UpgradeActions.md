@@ -6,7 +6,7 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
-### **2.20.0** -- Unreleased
+### **2.20.0** -- 2019.02.11
 #### clean_transmission
 The `clean_transmission` plugin has been deprecated. The transmission plugin has gained the ability to remove torrents, which should be used in place of `clean_transmission`. A recipe detailing how to do this can be found [here](/Cookbook/TorrentCleanup). (The deluge plugin has gained the same ability now too.)
 
