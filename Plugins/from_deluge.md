@@ -10,20 +10,26 @@ This plugin creates an [entry](/Entry) for each torrent that is currently loaded
 | password | Deluge password (defaults to automatic local client authentication if not specified) |
 | config_path | The path to your Deluge config folder. (must be specified for .torrent files to be available) |
 | filter | Criteria can be specified to limit which items from Deluge will have entries created. |
-| keys | Any extra attributes that should be collected from Deluge |
 |  | **Filter options** |
 | label | Match torrents with the specified label. |
 | state | Can be 'active', 'downloading', 'seeding', 'queued' or 'paused' |
 
 ## Entry Fields
-The [entries](/Entry) that this plugin creates will have the following entry fields:
+This plugin passes on all information provided by deluge on as entry fields. The names of these fields will all be prefixed with `deluge_`. The naming may vary slightly depending on deluge version.
+
+To get a full listing of fields provided, run the following command:
+```sh
+flexget --test execute --tasks <name of from_transmission task> --dump
+```
+
+Here are some of the more common entry fields which will be created:
 
 | deluge_state | Current state in Deluge, e.g. 'Downloading' |
 | --- | --- |
 | deluge_progress | Current percentage completed. |
 | deluge_label | Label from Deluge |
 | deluge_path | Deluge download location |
-| deluge_movedone | Deluge move completed path |
+| deluge_move_completed_path | Deluge move completed path |
 | deluge_ratio | Deluge stop ratio |
 | torrent_info_hash | The info hash for the torrent |
 | torrent_seeds | The current number of seeds for the torrent |
@@ -34,18 +40,3 @@ The [entries](/Entry) that this plugin creates will have the following entry fie
 |  | *(the following fields are only available if `config_path` is specified)* |
 | location | Path to torrent file |
 ||url||Path to torrent file in '!file://' format||
-
-## Keys fields
-The `keys` attribute can contain a list with any of the keys below:
-
-`
-active_time, compact, distributed_copies, download_payload_rate, file_priorities,
-file_progress, is_auto_managed, is_seed, max_connections,
-max_download_speed, max_upload_slots, max_upload_speed, message, move_on_completed,
-next_announce, num_files, num_pieces, 
-paused, peers, piece_length, prioritize_first_last, queue, remove_at_ratio, seed_rank, stop_at_ratio, stop_ratio, total_done, total_payload_download, total_payload_upload,
-total_peers, total_seeds, total_uploaded, total_wanted, tracker,
-tracker_host, tracker_status, trackers, upload_payload_rate
-`
-
-When any of these keys are present, the entry will get populated with these values from Deluge
