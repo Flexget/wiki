@@ -1,11 +1,22 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f3fd804e69cecb2e3548ba6d7b4bda66235e5c2d--->
+<!---f18e53b59b768515d8e67464b8cc41bddfc00c33--->
 
-## 2.19.7.dev (unreleased)
+## 2.20.0.dev (unreleased)
 ### Fixed
 - irc: Fix ImportError crash for irc CLI
+
+### Changed
+- deluge: Add underscores between words in multi-word options
+- deluge: Add `action` option to allow remove/pause/resume of loaded torrents
+- clean_transmission: This plugin has been deprecated
+- transmission: Added underscores between words in multi-word options
+- transmission: Added `action` option, to allow pause/resume/remove/purge of torrents in transmission
+- from_transmission: onlycomplete option changed to only_complete, now False by default
+- from_transmission: Now provides more info in `transmission_` prefixed fields
+- from_deluge: Remove `keys` option
+- from_deluge: Always provide all info from deluge in standardized `deluge_` prefixed fields
 
 <!---38ac98f532f00f009a711bda106d93118c231fb7--->
 
