@@ -53,9 +53,9 @@ deluge: yes
 ```yaml
 deluge:
   path: /media/diska/downloads/
-  movedone: /media/diska/tv/
+  move_completed_path: /media/diska/tv/
   label: `{{trakt_series_network}}`
-  queuetotop: yes
+  queue_to_top: yes
 ```
 
 ### Advanced
@@ -72,13 +72,13 @@ series:
       quality: 720p hdtv|webdl
       set:
         path: /media/diska/incomplete/
-        movedone: "/media/diska/TV/{{series_name}}/"
+        move_completed_path: "/media/diska/TV/{{series_name}}/"
         label: 720p
     hdtv:
       quality: hdtv <720p
       set:
         path: /media/diskb/incomplete/
-        movedone: "/media/diskb/TV/{{series_name}}/Season {{series_season}}/"
+        move_completed_path: "/media/diskb/TV/{{series_name}}/Season {{series_season}}/"
         label: tv
   720p:
     - name 1
@@ -87,8 +87,8 @@ series:
     - name 3
     - name 4:
         set:
-          movedone: /media/diskb/otherfolder/
-          queuetotop: yes
+          move_completed_path: /media/diskb/otherfolder/
+          queue_to_top: yes
 deluge: yes
 ```
 
@@ -107,7 +107,7 @@ series:
     groupa:
       set:
         content_filename: "{{series_name}} - {{series_id}}/{{series_name}} - {{series_id}} - {{quality}}"
-        movedone: /home/user/TV/{{series_name}}/Season {{series_season}}/
+        move_completed_path: /home/user/TV/{{series_name}}/Season {{series_season}}/
   groupa:
     - Show Name
 deluge: yes
