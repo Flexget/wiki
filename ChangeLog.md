@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e3b14bab3dd8c071a7f8653220e4e6999ebef111--->
+<!---c47688d76b069ddb8ec0c3dae4c7cc8dc0b7b0c8--->
 
-## 2.20.0.dev (unreleased)
+<!---6d0dcd19476cc890e9f2ef68cc6458f5403a9e78--->
+
+## 2.20.0 (2019-02-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.19.6...2.20.0)
 deluge and transmission plugins have both been given the ability to control (remove/pause/resume) torrents already loaded in the client. clean_transmission is now deperecated in favor of these features. See [this](/Cookbook/TorrentCleanup) recipe.
 
 Many deluge/transmission option names were also tweaked. See [UpgradeActions](/UpgradeActions#2200-20190211)
@@ -23,7 +26,6 @@ Many deluge/transmission option names were also tweaked. See [UpgradeActions](/U
 - from_deluge: Remove `keys` option
 - from_deluge: Always provide all info from deluge in standardized `deluge_` prefixed fields
 
-<!---38ac98f532f00f009a711bda106d93118c231fb7--->
 
 ## 2.19.6 (2019-02-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.19.5...2.19.6)
