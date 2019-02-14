@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---26a69a3d2a6832cf8978ae0d4cb947c123ee9cb5--->
+<!---6320df78116307c99e9ec56d583aca4d50fdea6d--->
 
-## 2.20.2.dev (unreleased)
+<!---f5ae3300e60514f0607bb321c75204e93d04c3fd--->
+
+## 2.20.2 (2019-02-13)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.1...2.20.2)
 ### Fixed
 - guessit_parser: Fix special detection in some cases. refs [#2340](https://github.com/Flexget/Flexget/issues/2340)
 - remember_rejected: Fix crash when using CLI. fix [#2339](https://github.com/Flexget/Flexget/issues/2339)
 - from_transmission: Include date_done field for torrents that were already complete when added to transmission
 
-<!---123c0261198b30928d56ef0bf48732276c70d76b--->
 
 ## 2.20.1 (2019-02-12)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.0...2.20.1)
