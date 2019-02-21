@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---27928b0b7da60df185c6a3bfd5319754321e0b15--->
+<!---5e9bdd7bed94b3599a8206697cf445825b096dad--->
 
-## 2.20.5.dev (unreleased)
+<!---eb9649e2b1e7c446ee2b321d50a1e2ae7f2dbb07--->
+
+## 2.20.5 (2019-02-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.4...2.20.5)
 ### Changed
 - `set` plugin can now set entry fields to types other than string
 - `set` plugin can now set entry fields to types other than string.
 
-<!---92a0053f328e9e49723a3ad1709f0ccf87905201--->
 
 ## 2.20.4 (2019-02-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.3...2.20.4)
