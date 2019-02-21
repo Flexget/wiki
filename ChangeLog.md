@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9a340214c40919b8c256303bb28e966cdcd5e4c9--->
+<!---27928b0b7da60df185c6a3bfd5319754321e0b15--->
+
+## 2.20.5.dev (unreleased)
+### Changed
+- `set` plugin can now set entry fields to types other than string
+- `set` plugin can now set entry fields to types other than string.
 
 <!---92a0053f328e9e49723a3ad1709f0ccf87905201--->
 
