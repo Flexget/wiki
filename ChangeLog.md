@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---db7a12665bc1611329dd1cf8a89e96991f14c413--->
+<!---ccf1fb5d5ef1e2b12bc49afd260b1d2d0a166a43--->
 
-## 2.20.6.dev (unreleased)
+<!---76ea0b454e0491d8ef199c6f4ec93418482ebd2a--->
+
+## 2.20.6 (2019-02-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.5...2.20.6)
 ### Fixed
 - transmission: Strips trailing slashes from 'path' refs [#2131](https://github.com/Flexget/Flexget/issues/2131)
 
-<!---eb9649e2b1e7c446ee2b321d50a1e2ae7f2dbb07--->
 
 ## 2.20.5 (2019-02-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.4...2.20.5)
