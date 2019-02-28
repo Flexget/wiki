@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ccf1fb5d5ef1e2b12bc49afd260b1d2d0a166a43--->
+<!---94ae197bae91fab4a822b4fabcbe9437314afc96--->
+
+## 2.20.7.dev (unreleased)
+### Changed
+- guessit parser: add support for dd+5.1 quality
 
 <!---76ea0b454e0491d8ef199c6f4ec93418482ebd2a--->
 
