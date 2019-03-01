@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---94ae197bae91fab4a822b4fabcbe9437314afc96--->
+<!---9184d4cebf95ee31836970bedffaddc3bfaa2c2d--->
 
-## 2.20.7.dev (unreleased)
+<!---c7162fdccde0fa6c99b7f74bc22074447f82ca00--->
+
+## 2.20.7 (2019-02-28)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.6...2.20.7)
 ### Changed
 - guessit parser: add support for dd+5.1 quality
 
-<!---76ea0b454e0491d8ef199c6f4ec93418482ebd2a--->
 
 ## 2.20.6 (2019-02-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.5...2.20.6)
