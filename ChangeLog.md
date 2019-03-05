@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9184d4cebf95ee31836970bedffaddc3bfaa2c2d--->
+<!---2bb14a2d0bbff2ca55d08d5c80c75443f3bca993--->
+
+## 2.20.8.dev (unreleased)
+### Changed
+- trakt_list: add support for popular/trending lists
 
 <!---c7162fdccde0fa6c99b7f74bc22074447f82ca00--->
 
