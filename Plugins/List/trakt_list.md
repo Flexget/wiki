@@ -37,7 +37,7 @@ Currently the following settings are supported:
 | **username** | This is the username at [trakt.tv](http://trakt.tv) which owns the list. If `account` is specified, this will default to the owner of said account. |
 | **account** | This is **required** if the profile is protected or to get private custom lists or manipulating lists eg. adding a movie to the list. It should be created via the `flexget trakt auth` CLI command. |
 | **strip_dates** | If set to `yes` the year will be removed from the end of titles that contain them. |
-| **list** |Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, or `watched` |
+| **list** |Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, `watched`, `popular`, or `trending` |
 | **type** | Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`|
 
 ## Config format
