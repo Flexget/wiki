@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2bb14a2d0bbff2ca55d08d5c80c75443f3bca993--->
+<!---332159fb45ccd10cb5107e2f54ea5d5bfae67ed9--->
 
-## 2.20.8.dev (unreleased)
+<!---d1b76824aea2ca53442bfd141dcf0a395a0afe90--->
+
+## 2.20.8 (2019-03-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.7...2.20.8)
 ### Changed
 - trakt_list: add support for popular/trending lists
 
-<!---c7162fdccde0fa6c99b7f74bc22074447f82ca00--->
 
 ## 2.20.7 (2019-02-28)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.6...2.20.7)
