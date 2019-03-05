@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---332159fb45ccd10cb5107e2f54ea5d5bfae67ed9--->
+<!---0adc5686f600c0d3f5fc0c78bc76ece8ec360443--->
+
+## 2.20.9.dev (unreleased)
+### Fixed
+- irc: Error on config validation with bad regex instead of crashing
+- irc: Don't allow extra keys in config
+
+### Changed
+- irc: Allow specifying both task and task_re at same time in config
 
 <!---d1b76824aea2ca53442bfd141dcf0a395a0afe90--->
 
