@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0adc5686f600c0d3f5fc0c78bc76ece8ec360443--->
+<!---b73ac1b2cdf394c141cf58949147d1559ccbb6b6--->
 
 ## 2.20.9.dev (unreleased)
 ### Fixed
+- torrent_cache: Disable built-in status as this plugin is currently broken
 - irc: Error on config validation with bad regex instead of crashing
 - irc: Don't allow extra keys in config
 
