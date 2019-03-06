@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b73ac1b2cdf394c141cf58949147d1559ccbb6b6--->
+<!---61ed76e47f13d134270de733446ff74ec0947e2f--->
 
-## 2.20.9.dev (unreleased)
+<!---968245cf707e4df8fd63e6ae0e7bcec231a2385a--->
+
+## 2.20.9 (2019-03-05)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.8...2.20.9)
 ### Fixed
 - torrent_cache: Disable built-in status as this plugin is currently broken
 - irc: Error on config validation with bad regex instead of crashing
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - irc: Allow specifying both task and task_re at same time in config
 
-<!---d1b76824aea2ca53442bfd141dcf0a395a0afe90--->
 
 ## 2.20.8 (2019-03-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.7...2.20.8)
