@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---61ed76e47f13d134270de733446ff74ec0947e2f--->
+<!---fb4e0135d23a8248a9b21ba58e1177334b3c0b25--->
+
+## 2.20.10.dev (unreleased)
+### Fixed
+- irc: Allow extra config keys again. Some trackers require them.
 
 <!---968245cf707e4df8fd63e6ae0e7bcec231a2385a--->
 
