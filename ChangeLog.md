@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fb4e0135d23a8248a9b21ba58e1177334b3c0b25--->
+<!---104d5edf21d6b0a14f4af6be8b8bbfea9966041e--->
 
-## 2.20.10.dev (unreleased)
+<!---df221176eec8486b8db402d4467bf026d0862e9f--->
+
+## 2.20.10 (2019-03-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.9...2.20.10)
 ### Fixed
 - irc: Allow extra config keys again. Some trackers require them.
 
-<!---968245cf707e4df8fd63e6ae0e7bcec231a2385a--->
 
 ## 2.20.9 (2019-03-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.8...2.20.9)
