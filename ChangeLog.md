@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---104d5edf21d6b0a14f4af6be8b8bbfea9966041e--->
+<!---2453fc98262a105541f5dfb1a344ed1a7ccf090f--->
+
+## 2.20.11.dev (unreleased)
+### Fixed
+- piratebay: Fix crash in tpb plugin when trying to sort search results. fix [#2347](https://github.com/Flexget/Flexget/issues/2347)
 
 <!---df221176eec8486b8db402d4467bf026d0862e9f--->
 
