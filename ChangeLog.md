@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2453fc98262a105541f5dfb1a344ed1a7ccf090f--->
+<!---2138773deb8402c201a973e0fd677822ee60b1a3--->
 
-## 2.20.11.dev (unreleased)
+<!---ecad6a86b423e3bd1c8ec51e180f781dfbe09475--->
+
+## 2.20.11 (2019-03-08)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.10...2.20.11)
 ### Fixed
 - piratebay: Fix crash in tpb plugin when trying to sort search results. fix [#2347](https://github.com/Flexget/Flexget/issues/2347)
 
-<!---df221176eec8486b8db402d4467bf026d0862e9f--->
 
 ## 2.20.10 (2019-03-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.9...2.20.10)
