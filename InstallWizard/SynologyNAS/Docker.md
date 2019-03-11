@@ -17,11 +17,11 @@ The rest of this page will assume a UID of 1234.
 
 ## Build a FlexGet image
 
-Create a new directory on your NAS (doesn't really matter where) and copy these two files there. You'll use them to create your image.
+Create a new directory on your NAS (doesn't really matter where) and copy these two files there. You'll use them to create your image. Flexget versions after 2.11 work with Python 3.6 so there's no need to stick with 3.5.
 
 `Dockerfile`
 ```
-FROM     python:3.5-alpine
+FROM     python:3.6-alpine
 
 ARG      DOCKER_UID
 
@@ -53,12 +53,12 @@ fi
 flexget daemon start
 ```
 
-Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 2.10.95.
+Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 2.20.11.
 
 Navigate into the directory containing the files above. To build your image, run the following command (don't forget to substitute in your `docker` user's UID):
 
 ```sh
-docker build --build-arg DOCKER_UID=1234 -t flexget:2.10.95 .
+docker build --build-arg DOCKER_UID=1234 -t flexget:2.20.11 .
 ```
 
 Make sure that it worked by running `docker images`. You should see something like this:
@@ -66,15 +66,15 @@ Make sure that it worked by running `docker images`. You should see something li
 ```sh
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-flexget             2.10.95             ff4e5f3f1239        20 hours ago        160.4 MB
-python              3.5-alpine          2070486450e1        2 weeks ago         88.63 MB
+flexget             2.20.11             ff4e5f3f1239        20 hours ago        160.4 MB
+python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
 ```
 
 ## Build a Transmission image (optional)
 
 FlexGet and Transmission make a great pair; FlexGet decides what .torrents to grab (say, from an RSS feed) and Transmission handles downloading the actual content. Docker makes it really easy to run Transmission as well.
 
-As above, copy the file below into its own directory (not the one you used for FlexGet).
+As above, copy the file below into its own directory (not the one you used for FlexGet). Note, the download folder in the container starts with a capital D!
 
 `Dockerfile`
 ```
@@ -88,7 +88,7 @@ WORKDIR     /home/transmission
 
 # Data and config volumes
 VOLUME      /home/transmission/.config
-VOLUME      /home/transmission/downloads
+VOLUME      /home/transmission/Downloads
 VOLUME      /home/transmission/incomplete
 VOLUME      /home/transmission/watch
 
@@ -104,7 +104,7 @@ ENTRYPOINT  ["transmission-daemon", "--foreground", "--log-info"]
 Navigate into said directory and run this command to build an image:
 
 ```sh
-docker build --build-arg DOCKER_UID=1234 -t transmission:2.92-r5 .
+docker build --build-arg DOCKER_UID=1234 -t transmission:2.94-r1 .
 ```
 
 And again, check that it worked:
@@ -112,9 +112,9 @@ And again, check that it worked:
 ```sh
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-transmission        2.92-r5             15577a02872f        20 hours ago        8.157 MB
-flexget             2.10.95             ff4e5f3f1239        20 hours ago        160.4 MB
-python              3.5-alpine          2070486450e1        2 weeks ago         88.63 MB
+transmission        2.94-r1             15577a02872f        20 hours ago        8.157 MB
+flexget             2.20.11             ff4e5f3f1239        20 hours ago        160.4 MB
+python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
 alpine              latest              76da55c8019d        2 weeks ago         3.962 MB
 ```
 
@@ -155,7 +155,7 @@ docker run -d \
   --volume /volume1/docker/transmission/config:/home/transmission/.config \
   --volume /volume1/docker/transmission/incomplete:/home/transmission/incomplete \
   --volume /volume1/docker/transmission/watch:/home/transmission/watch \
-  --volume /volume1/Media/Downloads:/home/transmission/downloads \
+  --volume /volume1/Media/Downloads:/home/transmission/Downloads \
   transmission:latest
 ```
 
@@ -167,7 +167,7 @@ Choose a password you'll use to access the Transmission web UI and then change t
 {
     "blocklist-enabled": true,
     "blocklist-url": "http://john.bitsurge.net/public/biglist.p2p.gz",
-    "download-dir": "/home/transmission/downloads",
+    "download-dir": "/home/transmission/Downloads",
     "incomplete-dir": "/home/transmission/incomplete",
     "incomplete-dir-enabled": true,
     "rpc-authentication-required": true,
@@ -207,7 +207,7 @@ docker run -d \
   --restart always \
   --volume /volume1/docker/flexget:/home/flexget/.flexget \
   --volume /volume1/docker/transmission/watch:/home/flexget/torrents \
-  flexget:2.10.95
+  flexget:2.20.11
 ```
 
 With these volume settings, FlexGet will download .torrent files directly into Transmission's watch directory.
