@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2138773deb8402c201a973e0fd677822ee60b1a3--->
+<!---f84affaf3fbc814312165669b24f4a66b3584f05--->
+
+## 2.20.12.dev (unreleased)
+### Fixed
+- sort_by: Make sure this plugin runs first, before other filter plugins.
 
 <!---ecad6a86b423e3bd1c8ec51e180f781dfbe09475--->
 
