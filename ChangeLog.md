@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f84affaf3fbc814312165669b24f4a66b3584f05--->
+<!---a152426a3efe102a5aa314ef18c683e5823fe718--->
 
-## 2.20.12.dev (unreleased)
+<!---f35b51a15acc080aba965e040a9478dd11f1a5d4--->
+
+## 2.20.12 (2019-03-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.11...2.20.12)
 ### Fixed
 - sort_by: Make sure this plugin runs first, before other filter plugins.
 
-<!---ecad6a86b423e3bd1c8ec51e180f781dfbe09475--->
 
 ## 2.20.11 (2019-03-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.10...2.20.11)
