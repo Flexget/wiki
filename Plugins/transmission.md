@@ -62,8 +62,8 @@ transmission:
 | bandwidth_priority | [-1,0,1] |  |
 | honor_limits | [Yes\|No] |  |
 | max_connections | Number |  |
-| max_upspeed | Number |  |
-| max_downspeed | Number |  |
+| max_up_speed | Number |  |
+| max_down_speed | Number |  |
 | ratio | Decimal | The ratio to stop seeding at (-1 means infinite) |
 | enabled | [Yes\|No] | Plugin enabled (Default: Yes) |
 | main_file_only | [Yes\|No] | If yes, all files but the main file inside the torrent (> 'main_file_ratio' of total) will be set to 'skip' |
