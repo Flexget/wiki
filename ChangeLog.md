@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc8dbb34a0266ccf61659a199a1e653efa5994f4--->
+<!---490fc95064d74f374b4741db1711c3f466ff2c59--->
 
-## 2.20.13.dev (unreleased)
+<!---bf0fa2cc2950727477dca6f1a029167dd7b25005--->
+
+## 2.20.13 (2019-03-16)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.12...2.20.13)
 ### Fixed
 - guessit: Change to lowercase 'rip' in comparison since all properties are normalized, fixes [#2348](https://github.com/Flexget/Flexget/issues/2348) ([#2349](https://github.com/Flexget/Flexget/issues/2349))
 
-<!---f35b51a15acc080aba965e040a9478dd11f1a5d4--->
 
 ## 2.20.12 (2019-03-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.11...2.20.12)
