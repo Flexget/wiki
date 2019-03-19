@@ -73,6 +73,13 @@ regexp:
     - my_tracker:
         from: transmission_trackers
 ```
+Or if you want to remove torrents from multiple trackers.
+```yaml
+regexp:
+  reject_excluding:
+    - tracker_a|tracker_b:
+        from: transmission_trackers
+```
 
 #### preserve_tracker
 If do not want to remove any torrents from a given tracker.
