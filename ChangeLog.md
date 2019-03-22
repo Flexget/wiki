@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---490fc95064d74f374b4741db1711c3f466ff2c59--->
+<!---100e4a175faac37895c2485553c99cb2677d9104--->
+
+## 2.20.14.dev (unreleased)
+### Fixed
+- typo in fuzer plugin
 
 <!---bf0fa2cc2950727477dca6f1a029167dd7b25005--->
 
