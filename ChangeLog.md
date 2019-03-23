@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---100e4a175faac37895c2485553c99cb2677d9104--->
+<!---1b13495ccb8614f4b82d122cdc2c308162526269--->
 
-## 2.20.14.dev (unreleased)
+<!---246e141d64ecab5dfc56c1d35067a062c2f7d168--->
+
+## 2.20.14 (2019-03-22)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.13...2.20.14)
 ### Fixed
 - typo in fuzer plugin
 
-<!---bf0fa2cc2950727477dca6f1a029167dd7b25005--->
 
 ## 2.20.13 (2019-03-16)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.12...2.20.13)
