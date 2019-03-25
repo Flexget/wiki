@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2a65e44143b7f8a5a1464f7e0b2b260d72a6089b--->
+<!---0869628ad021facbe89c5bc2aada0c48fd13970e--->
 
 ## 2.20.15.dev (unreleased)
 ### Fixed
+- guessit: Fix 10bit quality detection
+- guessit: Fix r5 detection
 - guessit: Fix webrip quality parsing on repacks/propers. ref [#2348](https://github.com/Flexget/Flexget/issues/2348)
 
 <!---246e141d64ecab5dfc56c1d35067a062c2f7d168--->
