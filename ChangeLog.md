@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0869628ad021facbe89c5bc2aada0c48fd13970e--->
+<!---ccb2e01a28570574f16e9ccd4f360f915a59de27--->
 
-## 2.20.15.dev (unreleased)
+<!---dc4af734088ab948510946744d6b7f6eeefc8997--->
+
+## 2.20.15 (2019-03-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.14...2.20.15)
 ### Fixed
 - guessit: Fix 10bit quality detection
 - guessit: Fix r5 detection
 - guessit: Fix webrip quality parsing on repacks/propers. ref [#2348](https://github.com/Flexget/Flexget/issues/2348)
 
-<!---246e141d64ecab5dfc56c1d35067a062c2f7d168--->
 
 ## 2.20.14 (2019-03-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.13...2.20.14)
