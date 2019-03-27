@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---130ca81ee752522f609c73251f966d99af614c59--->
+<!---5084eb8f76fb669d081bb3249efe3021b1e4a1d0--->
+
+## 2.20.17.dev (unreleased)
+### Fixed
+- cronitor typos
 
 <!---323d499d36327f8ddbe82093d0487aafa48ba574--->
 
