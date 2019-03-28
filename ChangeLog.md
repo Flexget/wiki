@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5084eb8f76fb669d081bb3249efe3021b1e4a1d0--->
+<!---853d9e0d6bdcf5c675afd50b8604b9e5805d9b11--->
 
-## 2.20.17.dev (unreleased)
+<!---6264d91b6725c966a769359e3528497e4813432e--->
+
+## 2.20.17 (2019-03-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.16...2.20.17)
 ### Fixed
 - cronitor typos
 
-<!---323d499d36327f8ddbe82093d0487aafa48ba574--->
 
 ## 2.20.16 (2019-03-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.15...2.20.16)
