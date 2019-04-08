@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---853d9e0d6bdcf5c675afd50b8604b9e5805d9b11--->
+<!---4863020c72265f452222e84028d3bc521f4181c1--->
+
+## 2.20.18.dev (unreleased)
+### Changed
+- imdb: Recognize 8-digit imdb IDs.
 
 <!---6264d91b6725c966a769359e3528497e4813432e--->
 
