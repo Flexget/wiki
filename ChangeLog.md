@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ab13d57bf1c32d0f486b33c99f9c3e29ee2fe3d4--->
+<!---f9454fcf5e06c86e1e7a377e564c2a474cd49297--->
+
+## 2.20.19.dev (unreleased)
+### Fixed
+- rutracker: Remove obsolete mirror
+- proxy: Allow socks5h proxies to pass config validation. fix [#2364](https://github.com/Flexget/Flexget/issues/2364)
+
+### Changed
+- crossmatch: Add case_sensitive option
 
 <!---7ce77a1ca3e28ead46525916325695d9db0fddfa--->
 
