@@ -7,6 +7,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.20.20 (2019-04-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.19...2.20.20)
+### Changed
+- Update version requirements for sqlalchemy and urllib3
 
 ## 2.20.19 (2019-04-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.18...2.20.19)
