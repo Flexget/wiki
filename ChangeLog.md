@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---20f7f3c4a615aecdfc9ad437cafbca89d288a6c3--->
+<!---866000c97a15a651cf5e10347495e4a19a96b781--->
+
+## 2.20.21.dev (unreleased)
+### Added
+- kitsu: Add 'type' option
+- types to kitsu input
 
 <!---a014455fd60049cc04a6e6b61bc62d006229ce14--->
 
