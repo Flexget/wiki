@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---866000c97a15a651cf5e10347495e4a19a96b781--->
+<!---1400d84aee8c4f45b36ce109f870bb3e8c5a836e--->
 
-## 2.20.21.dev (unreleased)
+<!---4b3cb5f079f92813905ef4d72233af57a2f630d3--->
+
+## 2.20.21 (2019-04-23)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.20...2.20.21)
 ### Added
 - kitsu: Add 'type' option
 - types to kitsu input
 
-<!---a014455fd60049cc04a6e6b61bc62d006229ce14--->
 
 ## 2.20.20 (2019-04-22)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.19...2.20.20)
