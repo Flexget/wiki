@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1400d84aee8c4f45b36ce109f870bb3e8c5a836e--->
+<!---d9d8876b02c2b747f0972464248d8b5c07cbe945--->
+
+## 2.20.22.dev (unreleased)
+### Fixed
+- series: Fix regression causing crash on python 2 with non-ascii alternate names fix [#2373](https://github.com/Flexget/Flexget/issues/2373)
 
 <!---4b3cb5f079f92813905ef4d72233af57a2f630d3--->
 
