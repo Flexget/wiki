@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---15e09295b51b525dbdf6902716cd36a2d5845aff--->
+<!---128550f05a604a04a1c9b51ad6e96a9da4ce9be9--->
 
 ## 2.20.24.dev (unreleased)
 ### Added
 - slack notifier: Allow buttons/actions
+
+### Fixed
+- descargas2020: fix url rewriting. fix [#2377](https://github.com/Flexget/Flexget/issues/2377)
 
 <!---b39afba50bdca65af06e15f9db07707851345bd5--->
 
