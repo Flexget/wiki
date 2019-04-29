@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3e4956dd959c8df51d2ed269d78962241f6a3399--->
+<!---15e09295b51b525dbdf6902716cd36a2d5845aff--->
+
+## 2.20.24.dev (unreleased)
+### Added
+- slack notifier: Allow buttons/actions
 
 <!---b39afba50bdca65af06e15f9db07707851345bd5--->
 
