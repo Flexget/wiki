@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ad1ad6d0d1e2fa196f247a16a8ba30b0e4e56779--->
+<!---b8266700002919ad9dff9f871567c77c16fbae8d--->
+
+## 2.20.25.dev (unreleased)
+### Changed
+- cfscraper: Replace cfscrape by cloudscraper
+
+### Added
+- Add torznab search plugin
 
 <!---a45fac380fc92fe5295aba25a2435efafff630fe--->
 
