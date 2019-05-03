@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b8266700002919ad9dff9f871567c77c16fbae8d--->
+<!---f4f81ef72866b20834f441a0fa9b6e3cecf01d6e--->
 
-## 2.20.25.dev (unreleased)
+<!---72633e53ebd4b91967bd19afb6eea39e449d1ced--->
+
+## 2.20.25 (2019-05-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.24...2.20.25)
 ### Changed
 - cfscraper: Replace cfscrape by cloudscraper
 
 ### Added
 - Add torznab search plugin
 
-<!---a45fac380fc92fe5295aba25a2435efafff630fe--->
 
 ## 2.20.24 (2019-04-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.23...2.20.24)
