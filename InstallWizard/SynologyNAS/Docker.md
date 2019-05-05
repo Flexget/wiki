@@ -53,12 +53,12 @@ fi
 flexget daemon start
 ```
 
-Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 2.20.11.
+Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 2.20.25.
 
 Navigate into the directory containing the files above. To build your image, run the following command (don't forget to substitute in your `docker` user's UID):
 
 ```sh
-docker build --build-arg DOCKER_UID=1234 -t flexget:2.20.11 .
+docker build --build-arg DOCKER_UID=1234 -t flexget:2.20.25 .
 ```
 
 Make sure that it worked by running `docker images`. You should see something like this:
@@ -66,7 +66,7 @@ Make sure that it worked by running `docker images`. You should see something li
 ```sh
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-flexget             2.20.11             ff4e5f3f1239        20 hours ago        160.4 MB
+flexget             2.20.25             ff4e5f3f1239        20 hours ago        160.4 MB
 python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
 ```
 
@@ -113,7 +113,7 @@ And again, check that it worked:
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 transmission        2.94-r1             15577a02872f        20 hours ago        8.157 MB
-flexget             2.20.11             ff4e5f3f1239        20 hours ago        160.4 MB
+flexget             2.20.25             ff4e5f3f1239        20 hours ago        160.4 MB
 python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
 alpine              latest              76da55c8019d        2 weeks ago         3.962 MB
 ```
@@ -207,7 +207,7 @@ docker run -d \
   --restart always \
   --volume /volume1/docker/flexget:/home/flexget/.flexget \
   --volume /volume1/docker/transmission/watch:/home/flexget/torrents \
-  flexget:2.20.11
+  flexget:2.20.25
 ```
 
 With these volume settings, FlexGet will download .torrent files directly into Transmission's watch directory.
