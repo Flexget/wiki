@@ -39,6 +39,7 @@ Currently the following settings are supported:
 | **strip_dates** | If set to `yes` the year will be removed from the end of titles that contain them. |
 | **list** |Name of a custom trakt list, or one of the built in ones: `watchlist`, `collection`, `watched`, `popular`, or `trending` |
 | **type** | Type of items to be listed, can be one of: `movies`, `shows`, or `episodes`|
+| **limit** | Maximum amount of produced items; especially useful for `trending` and `popular` lists |
 
 ## Config format
 ```text
@@ -46,6 +47,7 @@ trakt_list:
   username: <trakt username>
   [account]: <account set up in CLI>
   [strip_dates]: <yes|no>
+  [limit]: <integer>
   list: <list name>
   type: <movies|shows|episodes>
 ```
