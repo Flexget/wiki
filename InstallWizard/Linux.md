@@ -32,7 +32,7 @@ sudo pacman -S python2
 
 ### PIP
 
-The next piece of required software is the Python package manager called PIP. This can be usually found from your operating system's package repository under the name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via the command `pip-3.5` or something similar.
+The next piece of required software is the Python package manager called PIP. This can be usually found from your operating system's package repository under the name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via the command `pip3`, `pip-3.5` or something similar.
 
 Example of installation in a Debian-based system:
 
@@ -46,13 +46,7 @@ Example of installation in an Arch-based system:
 sudo pacman -S python2-pip
 ```
 
-## Upgrade setuptools
-
-Using the latest setuptools will save headaches. This can be achieved with the following command:
-
-```bash
-sudo pip install --upgrade setuptools
-```
+Since Python 2 is going to be retired at the end of 2019 it is highly recommended to proceed with Python 3 based environment.
 
 ## Install in a `virtualenv`
 
@@ -104,7 +98,6 @@ You will need to use this form if you use crontab to schedule FlexGet executions
 Global install for all users can be achieved with the following command. This is also somewhat easier than to use a `virtualenv`.
 
 ```bash
-sudo pip install --upgrade setuptools
 sudo pip install flexget
 ```
 
