@@ -257,7 +257,6 @@ Use accepted entries as an input for various FlexGet plugins such as add to movi
 ### File operations output
 Perform different file operations using accepted entries.
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [copy](/Plugins/copy) | Copy local files. |
@@ -272,8 +271,7 @@ Perform different file operations using accepted entries.
 | [symlink](/Plugins/symlink) | Symlink local files. |
 
 ### Generators output
-Generate custom output using accepted entries
-
+Generate custom output using accepted entries.
 
 | **Keyword** | **Description** |
 | --- | --- |
@@ -305,7 +303,6 @@ Plugins that can manipulate data and perform various operations.
 ### Request operations
 Perform various operations on request that are being sent and received. 
 
-
 | **Keyword** | **Description** |
 | --- | --- |
 | [cfscraper](/Plugins/cfscraper) | Enables cloudflare scraping in a task. |
@@ -322,6 +319,8 @@ Perform various operations on request that are being sent and received.
 | **Keyword** | **Description** |
 | --- | --- |
 | [wp_auth](/Plugins/wp_auth) | Access WordPress [s2Member](https://s2member.com/) protected RSS feeds. |
+| [rutracker](/Plugins/rutracker) | Supports downloading torrents from rutracker. |
+
 
 ### File operations
 Perform file oriented operations.
@@ -378,14 +377,6 @@ Perform various FlexGet operations.
 | [verify_ssl_certificates](/Plugins/verify_ssl_certificates) | Can turn off SSL certificate verification on a task. |
 | [version_checker](/Plugins/version_checker) | Checks if user is running latest Flexget version on a given interval. |
 
-### 3rd party software
-Perform operations on 3rd part software.
-
-| **Keyword** | **Description** |
-| --- | --- |
-| [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
-| [rutracker](/Plugins/rutracker) | Supports downloading torrents from rutracker. |
-
 ## Daemon
 These plugins are specifically for when FlexGet is being used in daemon mode. They differ from the other plugins documented here, in that they should be configured at the root of your config. Not inside any tasks or templates.
 
@@ -393,7 +384,6 @@ These plugins are specifically for when FlexGet is being used in daemon mode. Th
 | --- | --- |
 | [scheduler](/Plugins/Daemon/scheduler) | Executes tasks with a given interval or schedule while daemon is running. |
 | [irc](/Plugins/Daemon/irc) | Connect a bot to an IRC channel and act on tracker announcements.|
-
 
 ## Command Line Interface
 Use `flexget --help` for full list of subcommands. `--help` can also be used with any of the subcommands for further help text.
@@ -422,6 +412,7 @@ There is a list of [third-party and extra plugins](/Plugins/ThirdPartyExtras) av
 ## Deprecated
 | Keyword | Description |
 | --- | --- |
+| [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
 |[emit_movie_queue](/Plugins/emit_movie_queue)|Emit your [movie_queue](/Plugins/movie_queue).|| 
 | [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
 | [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
