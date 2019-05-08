@@ -1,17 +1,22 @@
 # Upgrading
+
 ## Check current version
 
+Write your current version down somewhere.
+
+### Installed via PIP
 Start by checking what version you currently have with command:
 
 ```
 flexget -V
 ```
 
-***Git Users:*** You can check the latest release you have by getting new tags with `git fetch --tags` then running `git describe`
+### Installed via GIT
 
-Write this down somewhere.
+Check the latest release you have by getting new tags with `git fetch --tags` then running `git describe`
 
 ### Backup database(s) (optional)
+
 In case you wish to roll back to previous version you will need to make backup of your database since running new version will upgrade it and downgrade is not supported.
 
 Each configuration file has corresponding database file, so for example config.yml will have db-config.sqlite
@@ -27,24 +32,17 @@ There has been alot of errors arising from setuptools package being out of date 
 Please make sure to upgrade setuptools.
 
 ```cmd
-pip install --upgrade setuptools
 pip install --upgrade flexget
 ```
 
-[Problems with pip](/PipProblems)
-
-Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bin/pip install -e .` again to upgrade them.
+[Problems with pip?](/PipProblems)
 
 ## Upgrade GIT checkout
 
-If you are running GIT checkout (development environment). You may need to run following commands at the checkout directory after pulling code:
-
-```cmd
-bin/pip install --upgrade -r requirements.txt
-bin/python setup.py develop
-```
+Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bin/pip install -e .` again to upgrade them.
 
 ## Verify
+
 Check if your configuration file is still valid, there may have been some changes to it.
 
 ```cmd
