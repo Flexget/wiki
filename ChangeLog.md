@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dab091d1190c6b18f2df2ec8f64a8af318b474b1--->
+<!---ac946cab55c5804645f6031b8f974ac863107d1b--->
 
-## 2.20.26.dev (unreleased)
+<!---8da0845e97f5884dc3ca6c04c96e1c69f0623da0--->
+
+## 2.20.26 (2019-05-07)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.25...2.20.26)
 ### Fixed
 - torznab: Properly handle RequestExceptions. fix [#2384](https://github.com/Flexget/Flexget/issues/2384)
 
 ### Changed
 - trakt_list: Add 'limit' option
 
-<!---72633e53ebd4b91967bd19afb6eea39e449d1ced--->
 
 ## 2.20.25 (2019-05-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.24...2.20.25)
