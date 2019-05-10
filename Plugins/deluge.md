@@ -42,7 +42,7 @@ deluge: yes
 | compact | If yes, will allocate torrent in compact mode. |
 | auto_managed | If set to false torrents will be added to deluge without the automanaged flag. |
 | content_filename | Jinja template used to rename the main file and/or directory of the torrent. |
-| content_directory | Jinja template used to rename the top-level folder of the torrent. |
+| container_directory | Jinja template used to rename the top-level folder of the torrent. |
 | main_file_only | If yes, all files but the main file inside the torrent (the one file with greater than _main_file_ratio_% of the torrent's total size; 90% by default) will be set to 'do not download' |
 |main_file_ratio | Sets the threshold value for *main_file_only*. Expects a number between 0 and 1 (i.e. `0.85` to change to 85%). `0.9` (90%) by default.|
 | magnetization_timeout | When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0) |
