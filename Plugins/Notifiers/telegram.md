@@ -30,6 +30,7 @@ pip install python-telegram-bot
 |parse_mode|text|Message parsing. Either `html` or `markdown`. 
 |disable_previews|boolean|Disable web page previews in messages. Optional (Default: `no`)
 |recipients|text|List of recipients type. Can be `username`, `group` or `fullname`. See config example for details. **Note:** Values here are case-sensitive
+|socks_proxy|text|Configuration for socks proxy to be used, must include `url` with URL to proxy, can include `username` and `password` for authentication. See config example below
   
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp; In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be cause due to unclosed tags (watch out for wandering underscore when using markdown)
@@ -59,6 +60,10 @@ my-task:
               - fullname:
                   first: my-first-name
                   sur: my-sur-name
+            socks_proxy:
+              url: http://127.0.0.1:3128
+              username: username
+              password: password
 ```
 
 ## Example using Jinja2 template and markdown
