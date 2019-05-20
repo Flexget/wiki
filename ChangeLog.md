@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---076f1dc0d9f9e2a64b4575c419aef945756d4b0c--->
+<!---8ccfa9bb90de089f9a24b37dafe781d3e5bcb4a5--->
+
+## 2.20.28.dev (unreleased)
+### Added
+- Add `limit` plugin. Limits the number of entries created by an input.
+- from_transmission: Add 'transmission_error_state'
+- from_transmission: Add 'transmission_error_state'
 
 <!---d3b9c5c664d4c287bd3cf47384f4030a6ed00648--->
 
