@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---946a9a5ed6e32259070edef499afecfe9ae41f43--->
+<!---e71d73127de776c2d97c07f800a29f7ede86e805--->
+
+## 2.21.0.dev (unreleased)
+### Fixed
+- Include ordered headers to prevent CloudScraper from hitting ReCaptcha
 
 <!---da826efcb01771bf7ca20720b75f32dcf668611f--->
 
