@@ -4,7 +4,6 @@ Simple plugin to send clean or scan requests to a remote or local Kodi server. J
 ## Plugin Settings
 Currently the following settings are supported:
 
-
 |  Option  |  Description  |
 | --- | --- |
 | **action** | Can be either `scan` or `clean`. |
@@ -15,13 +14,16 @@ Currently the following settings are supported:
 | **password** (optional) | Password for accessing the webserver. |
 | **only_on_accepted** | Only send the request if entries were accepted (default `yes`). |
 
-## Example task
-This plugin can be used in a move/sorting task such that Kodi scans for new video files after the moving/sorting is complete. Example:
+## Example
+This plugin can be used in a move/sorting task in such way that Kodi scans for new video files after the moving/sorting is completed.
 
-```
+```yaml
 tasks:
-  move_stuff:
-    # move plugin etc
+  organize_my_stuff:
+    filesystem:
+      ...
+    move:
+      ...
     kodi_library:
       action: scan
       category: video
