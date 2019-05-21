@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8ccfa9bb90de089f9a24b37dafe781d3e5bcb4a5--->
+<!---946a9a5ed6e32259070edef499afecfe9ae41f43--->
 
-## 2.20.28.dev (unreleased)
+<!---da826efcb01771bf7ca20720b75f32dcf668611f--->
+
+## 2.20.28 (2019-05-20)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.27...2.20.28)
 ### Added
 - Add `limit` plugin. Limits the number of entries created by an input.
 - from_transmission: Add 'transmission_error_state'
 - from_transmission: Add 'transmission_error_state'
 
-<!---d3b9c5c664d4c287bd3cf47384f4030a6ed00648--->
 
 ## 2.20.27 (2019-05-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.26...2.20.27)
