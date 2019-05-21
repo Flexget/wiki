@@ -8,7 +8,7 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 
 ### **2.21.0** -- 2019.05.21
 
-Added new (/Plugins/limit) limit plugin which replaces limit option from older plugins (ie. trakt_list). Some are still backwards compatible.
+Added new [limit](/Plugins/limit) plugin which replaces limit option from older plugins (ie. trakt_list). Some are still backwards compatible.
 
 
 ### **2.20.0** -- 2019.02.11
