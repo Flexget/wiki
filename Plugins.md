@@ -53,6 +53,7 @@ Input plugins that directly parse data from a source based on its type.
 | [csv](/Plugins/csv) | Parse any CSV-file |
 | [filesystem](/Plugins/filesystem) | Search through a local directory looking for files as a input.  |
 | [html](/Plugins/html) | Parse any HTML-page. |
+| [limit](/Plugins/limit) | Limit the amount of entries created by another input plugin. |
 | [rss](/Plugins/rss) | Parse RSS-feed. |
 | [sftp_list](/Plugins/sftp_list) | List files from an SFTP server |
 | [search_rss](/Plugins/search_rss) | Search with parametrized rss feed. |
