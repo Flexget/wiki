@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e71d73127de776c2d97c07f800a29f7ede86e805--->
+<!---edc1b6546debbaa4277a2c740cf1c79fe75d8298--->
 
 ## 2.21.0.dev (unreleased)
 ### Fixed
+- imdb_watchlist: Allow longer user IDs in config. fix [#2397](https://github.com/Flexget/Flexget/issues/2397)
 - Include ordered headers to prevent CloudScraper from hitting ReCaptcha
 
 <!---da826efcb01771bf7ca20720b75f32dcf668611f--->
