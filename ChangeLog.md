@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---edc1b6546debbaa4277a2c740cf1c79fe75d8298--->
+<!---85d60daf215b14c8ef68f40304644e4e6e27f7a4--->
 
-## 2.21.0.dev (unreleased)
+<!---3a9da46a9e618345fe7b1dfd95e5ee74aefa48ad--->
+
+## 2.21.0 (2019-05-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.20.28...2.21.0)
 ### Fixed
 - imdb_watchlist: Allow longer user IDs in config. fix [#2397](https://github.com/Flexget/Flexget/issues/2397)
 - Include ordered headers to prevent CloudScraper from hitting ReCaptcha
 
-<!---da826efcb01771bf7ca20720b75f32dcf668611f--->
 
 ## 2.20.28 (2019-05-20)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.27...2.20.28)
