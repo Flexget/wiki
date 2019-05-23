@@ -64,6 +64,16 @@ transmission:
   action: purge
 ```
 
+#### directories
+If you want to only remove files downloaded on specific directories.
+
+```yaml
+regexp:
+  reject_excluding:
+    - "/storage/downloads/(tv|movies)":
+        from: transmission_downloadDir
+```
+
 #### tracker
 If you only want to remove torrents from a given tracker.
 
