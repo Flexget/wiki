@@ -20,22 +20,23 @@ best_quality:
 ```
 
 ### Example
+
 Let's assume the input has several of the same movie. The best_quality plugin will only allow the best quality.
 
-```
+```yaml
 tasks:
   high_rated_movies:
     best_quality:
       # Let imdb handle the accept
       on_best: do_nothing
       on_lower: reject
-    imdb_high_rated:
-      imdb:
+    imdb:
       min_score: 8.5
       min_votes: 5000
 ```
 
 ### Example with custom identifier
+
 The [metainfo_series](https://flexget.com/Plugins/metainfo_series) and [metainfo_movie](https://flexget.com/Plugins/metainfo_movie) plugins will, by default, set an identifier.
 
 You can override the format using [Jinja Templates](https://flexget.com/Jinja).
@@ -54,10 +55,11 @@ In this example the first task will download movies, waiting 1 day for 1080p. If
 
 The second task will upgrade the movie in future for 1 week.
 
-```
-
+```yaml
 tasks:
-  high_rated_movies:
+  great_movies:
+    # any input works, using rss as an example
+    rss: https://examample.com/feed.xml
     upgrade:
       # We must add this so the upgrade plugin can track the downloaded qualities
       tracking: yes
@@ -70,17 +72,19 @@ tasks:
     best_quality:
       on_best: do_nothing
       on_lower: reject
-    imdb_high_rated:
-      imdb:
-      min_score: 8.5
+    imdb:
+      min_score: 7.5
       min_votes: 5000
+    # any output works, using download as an example
+    download: ~/watchfolder/
 
   upgrade_movies:
+    # any input works, using rss as an example
+    rss: https://examample.com/feed.xml
     upgrade:
       timeframe: 1 week
       target: 1080p
       propers: yes
+    # any output works, using download as an example
+    download: ~/watchfolder/
 ```
-
-
-
