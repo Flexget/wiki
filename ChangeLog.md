@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5ae7291d036180426a74baec54bf80eb0910308c--->
+<!---4f5aaebfc2e17e3dfa2fe9dd65d5aaa514498eb3--->
 
 ## 2.21.1.dev (unreleased)
 ### Fixed
+- rss: Prevent potential crash with group_links option. fix [#2361](https://github.com/Flexget/Flexget/issues/2361)
 - proxy: Proxy plugin now affects configure_series plugin. fix [#2382](https://github.com/Flexget/Flexget/issues/2382)
 - scan_imdb: Prevent crash when description field is None. fix [#2385](https://github.com/Flexget/Flexget/issues/2385)
 
