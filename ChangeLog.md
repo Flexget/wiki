@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4f5aaebfc2e17e3dfa2fe9dd65d5aaa514498eb3--->
+<!---189849f69a9f682b6b06e3e7259260677c7e5408--->
 
-## 2.21.1.dev (unreleased)
+<!---197e6ee631aab928655ad64b414da286a9490dbe--->
+
+## 2.21.1 (2019-05-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.0...2.21.1)
 ### Fixed
 - rss: Prevent potential crash with group_links option. fix [#2361](https://github.com/Flexget/Flexget/issues/2361)
 - proxy: Proxy plugin now affects configure_series plugin. fix [#2382](https://github.com/Flexget/Flexget/issues/2382)
 - scan_imdb: Prevent crash when description field is None. fix [#2385](https://github.com/Flexget/Flexget/issues/2385)
 
-<!---3a9da46a9e618345fe7b1dfd95e5ee74aefa48ad--->
 
 ## 2.21.0 (2019-05-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.20.28...2.21.0)
