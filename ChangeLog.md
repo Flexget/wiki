@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---189849f69a9f682b6b06e3e7259260677c7e5408--->
+<!---6d1581803f788de0cacc91ae685d876747311bbd--->
+
+## 2.21.2.dev (unreleased)
+### Fixed
+- Disable broken torrentz2 url rewriting. refs [#2307](https://github.com/Flexget/Flexget/issues/2307) fix [#2363](https://github.com/Flexget/Flexget/issues/2363)
 
 <!---197e6ee631aab928655ad64b414da286a9490dbe--->
 
