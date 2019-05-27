@@ -27,10 +27,10 @@ movie_list:
   [strip_year]: <yes|no>
 ```
 
-**Clarification**: By default, entries that are generated from `movie_list` include the movie year (if available) in the title. Using `strip_year` only affects how `movie_list` **OUTPUTS** the title and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [discover](/Plugins/discover) plugin.
+**Clarification**: By default, entries that are generated from `movie_list` include the movie year (if available) in the entry _title_. Using `strip_year` only affects how `movie_list` creates the entry _title_ and not how it stores it. In other words, this option is only relevant when using `movie_list` as an input, either by itself in a task or when using [discover](/Plugins/discover) plugin.
 
 ### Matching
-When using `movie_list` with a filter like [list_match](/Plugins/List/list_match) for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
+When using `movie_list` with a filter like [list_match](/Plugins/List/list_match) for example, the identifiers take precedence in matching over title, meaning that if the movie has an identifier (eg. _imdb_id_) and an entry with that same identifier type and value is examined, that movie will be matched. Thus it's preferable to use a lookup plugin in the task, preferably, the same one(s) that was used to add movie to the list.
 If matching by identifiers fail, then title is [parsed](/Plugins/parsing) and proceeded to try to match by `movie_name` and `movie_year` fields.
 
 ## Usage
@@ -44,6 +44,8 @@ list_add:
 ```
 
 ### Fill list
+
+#### Easily from trakt
 ```yaml
 trakt_list:
   username: traktusername
@@ -51,10 +53,12 @@ trakt_list:
   type: movies 
 accept_all: yes
 list_add:
-  - movie_list: movies from trakt
+  - movie_list: movies
 ```
 
-This will add all accepted entries to an `movie_list` with the name `movies from trakt`. It then later be used as an input itself. This can be used a base to filter on with other tasks. You can add multiple inputs if you wish.
+This will add all accepted entries to an `movie_list` with the name `movies`. It then later be used as an input itself. CLI tools will default to list name `movies` if nothing is given so that is convenient name if you only have one list, with multiple lists you probably want something more descriptive. This created `movies` list can then be used a base to filter on with other tasks. 
+
+#### With multiple inputs
 
 ```yaml
 trakt_list:
@@ -70,25 +74,15 @@ list_add:
 ```
 
 ### Download matches
+
 ```yaml
-rss: ...
+rss: http://example.com/feed.xml
+quality: 720p
+imdb_lookup: yes
 list_match:
   from:
-    - movie_list: movie from trakt
-download: ...
-```
-
-Concrete example with a task:
-
-```yaml
-task_name:
-  rss: http://url.com/feed.xml
-  quality: 720p
-  imdb_lookup: yes
-  list_match:
-    from:
-      - movie_list: movie list name
-  download: /path/to/download
+    - movie_list: movie list name
+download: /path/to/download
 ```
 
 [quality](/Plugins/quality) is used to weed out any unwanted qualities. [imdb_lookup](/Plugins/imdb_lookup) is required for entries to be matched with movie_list.
@@ -98,14 +92,14 @@ task_name:
 discover-movies:
   discover:
     what:
-      - movie_list: movie list name
+      - movie_list: movies
     from:
       - rarbg: <opts>
   quality: 720p
   imdb_lookup: yes
   list_match:
     from:
-      - movie_list: movie list name
+      - movie_list: movies
   download: /path/to/download
 ```
 
@@ -116,7 +110,7 @@ discover-movies:
   discover:
     what:
       - movie_list: 
-          list_name: movie list name
+          list_name: movies
           strip_year: yes
     from:
       - rarbg: <opts>
@@ -124,7 +118,7 @@ discover-movies:
   imdb_lookup: yes
   list_match:
     from:
-      - movie_list: movie list name
+      - movie_list: movies
   download: /path/to/download
 ```
 
