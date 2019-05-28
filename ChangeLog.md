@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6d1581803f788de0cacc91ae685d876747311bbd--->
+<!---63ff68b0513d1522eeea7bd0fa43b9e4eb20b6c9--->
 
-## 2.21.2.dev (unreleased)
+<!---8f26e2835fd1549507c3a235c6a404ac19542eee--->
+
+## 2.21.2 (2019-05-27)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.1...2.21.2)
 ### Fixed
 - Disable broken torrentz2 url rewriting. refs [#2307](https://github.com/Flexget/Flexget/issues/2307) fix [#2363](https://github.com/Flexget/Flexget/issues/2363)
 
-<!---197e6ee631aab928655ad64b414da286a9490dbe--->
 
 ## 2.21.1 (2019-05-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.0...2.21.1)
