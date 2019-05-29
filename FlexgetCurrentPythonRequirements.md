@@ -1,3 +1,3 @@
 - 2.7 (legacy, not recommended)
-- 3.3 to 3.6
-- 3.7 (may have minor issues)
+- 3.3 to 3.7
+- 3.8 (untested, but should work)
