@@ -18,52 +18,30 @@ You can check your installed version of Python with this command:
 python -V
 ```
 
+It's also worth trying `python3` and/or hitting tab for autocomplete in case you already have python 3 installed, which is often the case.
+
 Example of installation in a Debian-based system:
 
 ```bash
 sudo apt-get install python3.5
 ```
 
-Example of installation in an Arch-based system:
+### Python 2.7 virtualenv (legacy)
 
-```bash
-sudo pacman -S python2
-```
-
-### PIP
-
-The next piece of required software is the Python package manager called PIP. This can be usually found from your operating system's package repository under the name `python-pip` or `python3-pip`. If you install `python3-pip` it may need to be used via the command `pip3`, `pip-3.5` or something similar.
-
-Example of installation in a Debian-based system:
+We no longer recommend or provide detailed instructions for Python 2.7 as it is going to be retired at the end of 2019. It is highly recommended to proceed with Python 3 based environment. To install Python 2.7 based system you will need to install pip and virtualenv then create virtual environment and follow instructions from there. On debian this would be something like this:
 
 ```bash
 sudo apt-get install python-pip
-```
-
-Example of installation in an Arch-based system:
-
-```bash
-sudo pacman -S python2-pip
-```
-
-Since Python 2 is going to be retired at the end of 2019 it is highly recommended to proceed with Python 3 based environment.
-
-## Install in a `virtualenv`
-
-This is the recommended way to install FlexGet, unless you want multiple accounts in the system to be able to use FlexGet without each having to install it themselves.
-
-Install virtualenv with this command:
-
-```bash
 sudo pip install virtualenv
+virtualenv ~/flexget/
 ```
 
-### Create the `virtualenv`
+### Python 3 virtualenv
 
-This creates an isolated Python environment. You can create as many of these as you like for each Python application you use.
+Python3 ships with virtualenv. Simply run:
 
 ```bash
-virtualenv ~/flexget/
+python3 -m venv ~/flexget/
 ```
 
 ### Install FlexGet in the `virtualenv`
@@ -95,7 +73,7 @@ You will need to use this form if you use crontab to schedule FlexGet executions
 
 ## Alternatively - Install globally
 
-Global install for all users can be achieved with the following command. This is also somewhat easier than to use a `virtualenv`.
+Not generally recommended. Global install for all users can be achieved with the following command. This requires `pip` to be available for root.
 
 ```bash
 sudo pip install flexget
