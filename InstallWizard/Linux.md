@@ -26,7 +26,19 @@ Example of installation in a Debian-based system:
 sudo apt-get install python3.5
 ```
 
-### Python 2.7 virtualenv (legacy)
+## Create virtualenv
+
+Python virtualenvs provide isolated python runtime. It does not mess with your operating system and can be easily deleted and recreated if needed.
+
+### Python 3
+
+Python3 ships with virtualenv. Simply run:
+
+```bash
+python3 -m venv ~/flexget/
+```
+
+### Python 2.7 (legacy)
 
 We no longer recommend or provide detailed instructions for Python 2.7 as it is going to be retired at the end of 2019. It is highly recommended to proceed with Python 3 based environment. To install Python 2.7 based system you will need to install pip and virtualenv then create virtual environment and follow instructions from there. On debian this would be something like this:
 
@@ -36,15 +48,7 @@ sudo pip install virtualenv
 virtualenv ~/flexget/
 ```
 
-### Python 3 virtualenv
-
-Python3 ships with virtualenv. Simply run:
-
-```bash
-python3 -m venv ~/flexget/
-```
-
-### Install FlexGet in the `virtualenv`
+## Install FlexGet in the `virtualenv`
 
 ```bash
 cd ~/flexget/
@@ -53,7 +57,7 @@ bin/pip install flexget
 
 This will install FlexGet and all of it's dependencies.
 
-### Running FlexGet from the `virtualenv`
+## Running FlexGet from the `virtualenv`
 
 The `virtualenv` can be activated with this command:
 
