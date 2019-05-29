@@ -6,7 +6,7 @@ FlexGet is invoked from the command line like so:
 ```bash
 flexget <argument> <command> <command-arguments>
 ```
-For example, the FlexGet configuration file can be tested by calling `flexget check`. This does nothing to harm your installation so you can always run this (and it is recommended to be the first command used after [upgrading](/Upgrade)).
+For example, the FlexGet configuration file can be checked against configuration errors by calling `flexget check`. This particularly useful command should be ran whenever you make changes or after [upgrading](/Upgrade).
 
 ### `<command>`
 In the above example, `check` is the `<command>` being used. 
@@ -16,7 +16,7 @@ One-letter "shortcut" arguments are prefixed with a single dash (`-`). The long 
 
 Some arguments are directed to FlexGet itself, such as `--loglevel`. They change the overall settings of the FlexGet operation or output. These are placed before the command when invoking FlexGet.
 
-Most commands also have arguments. In the command `flexget execute --tasks task_name`, `--tasks task_name` is an argument to the `execute` command. These direct specific commands to operate in certain ways, or to perform particular functions, such as executing the task named `task_name` in the above example. Because they affect specific commands, they follow those commands when invoking FlexGet.
+Most commands also have arguments. In the command `flexget execute --task awesome`, `--task awesome` is an argument to the `execute` command. These direct specific commands to operate in certain ways, or to perform particular functions, such as executing the task named `awesome` in the above example. Because they affect specific commands, they follow those commands when invoking FlexGet.
 
 Some commands will have mandatory arguments called positional arguments or actions. These are not prefixed and look like commands. FlexGet has a lot of list-type options/arguments. These usually support different [output table styles](/CLI/--table-styles).
 
