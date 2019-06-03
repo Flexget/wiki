@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---63ff68b0513d1522eeea7bd0fa43b9e4eb20b6c9--->
+<!---48d3599c17080a70ad705122d82a0839f680295c--->
+
+## 2.21.3.dev (unreleased)
+### Changed
+- api_bluray: Release date will use the year of the movie when no explicit date is given. fix [#2401](https://github.com/Flexget/Flexget/issues/2401)
 
 <!---8f26e2835fd1549507c3a235c6a404ac19542eee--->
 
