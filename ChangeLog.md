@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b6605cc582337a38724d3a73c6a8902cd38ff24e--->
+<!---2521bd2ef2df469fc8fcf8076ef26093f51c240e--->
 
-## 2.21.4.dev (unreleased)
+<!---2058da3de3ef9dae43e848c57b1e2e715935a3e0--->
+
+## 2.21.4 (2019-06-03)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.3...2.21.4)
 ### Fixed
 - Make sure bluray release estimates are dates (without times). fix [#2405](https://github.com/Flexget/Flexget/issues/2405)
 
-<!---be3639e6d22bf2e5f8721818ca7617128e0c3aa1--->
 
 ## 2.21.3 (2019-06-02)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.2...2.21.3)
