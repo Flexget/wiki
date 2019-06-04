@@ -60,7 +60,7 @@ notify:
                   short: true
                 - title: Cast
                   value: >
-                    {% for key, value in imdb_actors.iteritems() %}
+                    {% for key, value in imdb_actors.items() %}
                       {{ value }}
                       {% if not loop.last %}, {% endif %}
                     {% endfor %}
