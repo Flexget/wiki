@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dc1e336adb1a336373ce902ed7f4d01dd9cf651f--->
+<!---c60c9c1016bc3d091bd03ebbf7e53e7551ccb575--->
+
+## 2.21.6.dev (unreleased)
+### Fixed
+- api_bluray: Fix blu-ray estimator crash on certain movies. fix [#2407](https://github.com/Flexget/Flexget/issues/2407)
+
+### Added
+- transmission plugin: added ability to move torrent data to new location
+- transmission plugin: added ability to move torrent data to new location
 
 <!---84222f48cff311cf478e810b2bee55e6fdc5961f--->
 
