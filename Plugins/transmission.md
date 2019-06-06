@@ -6,7 +6,7 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
   &nbsp;
 This plugin requires the transmissionrpc library. To install it, run:
 
-```
+``` sh
 easy_install transmissionrpc
 or
 pip install transmissionrpc
@@ -57,7 +57,7 @@ transmission:
 | username | Text |  |
 | password | Text |  |
 | action | [add\|remove\|purge\|pause\|resume] | The action that should be performed on this torrent. 'purge' means remove torrent and data. (default: add) |
-| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). |
+| path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja).<br />If this options is specified for already downloaded torrent then transmission will move downloaded torrent data to new location.|
 | add_paused | [Yes\|No] |  |
 | bandwidth_priority | [-1,0,1] |  |
 | honor_limits | [Yes\|No] |  |
