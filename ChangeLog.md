@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---559c68bea6b56821e8628262c26d33ad471dfa19--->
+<!---858f4d0384303df716d643c6a1d14769f2bacf33--->
+
+## 2.21.7.dev (unreleased)
+### Added
+- jinja tests: added tests for filesystem: fs_file, fs_dir, fs_link
 
 <!---8c28872d098c593ff4fe3cdb47fe5c526d429620--->
 
