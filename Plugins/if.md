@@ -10,6 +10,7 @@ The if plugin allows evaluating [jinja expressions](http://jinja.pocoo.org/docs/
 - Any of the methods of objects available are useable with the exception of \_\_doubleunderscore\_\_ ones. e.g tvdb_genres[0].upper()
 - [Jinja Filters](http://jinja.pocoo.org/docs/2.9/templates/#list-of-builtin-filters)
 - [Jinja Tests](http://jinja.pocoo.org/docs/2.9/templates/#builtin-tests)
+- Any of FlexGet's [custom Jinja filters/tests](/Jinja)
 
 There are several other functions and objects available added by FlexGet. Some of them were used before the switch to jinja and have native jinja equivalents that can be switched to:
 
