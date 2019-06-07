@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---858f4d0384303df716d643c6a1d14769f2bacf33--->
+<!---cf929114af32775ba9615abe11ea53253e9951bb--->
 
-## 2.21.7.dev (unreleased)
+<!---b958d5f3d1b5deec034829813f983f643952d4ce--->
+
+## 2.21.7 (2019-06-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.6...2.21.7)
 ### Added
 - jinja tests: added tests for filesystem: fs_file, fs_dir, fs_link
 
-<!---8c28872d098c593ff4fe3cdb47fe5c526d429620--->
 
 ## 2.21.6 (2019-06-05)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.5...2.21.6)
