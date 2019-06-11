@@ -70,5 +70,5 @@ When using Jinja2 tests, you can use the following custom tests in addition to t
 ```YAML
 if:
   # check whether torrent file is in incomplete directory
-  - ('/path/torrents/inclomplete' ~ title) is fs_file: reject
+  - ('/path/torrents/incomplete' ~ title) is fs_file: reject
 ```
