@@ -176,8 +176,7 @@ tasks:
                 </div>
                 <div class="col-lg-6">
                     <h3>Donate</h3>
-                    <p>We appreciate any donations towards hosting costs and the development of FlexGet.</p>
-                    <p><a href="https://gratipay.com/flexget" target="_blank"><img src="https://flexget.com/_static/gratipay.svg"></a></p>
+                    <p>We appreciate any donations towards hosting costs and the development of FlexGet, however we don't have a good platform to accept them at the moment.</p>
                 </div>
                 <div class="col-lg-12">
                     <hr class="small">
