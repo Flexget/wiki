@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cf929114af32775ba9615abe11ea53253e9951bb--->
+<!---26318525f4b605523d5ef5616467664ad588f046--->
+
+## 2.21.8.dev (unreleased)
+### Added
+- thetvdb_list: Add 'language' option
 
 <!---b958d5f3d1b5deec034829813f983f643952d4ce--->
 
