@@ -17,7 +17,8 @@ You configure thetvdb_list plugin with your username, account id and generated a
 |strip_dates|If set to `yes` the trailing year will be stripped from series names that include them. For example, `Merlin (2008)` would become just `Merlin`.|
 |username|Get this from the [Member API](https://www.thetvdb.com/member/api) page|
 |account_id|Get this from the [Member API](https://www.thetvdb.com/member/api) page|
-|api_key|Get this from the [Member API](https://www.thetvdb.com/member/api) page
+|api_key|Get this from the [Member API](https://www.thetvdb.com/member/api) page|
+|language|Specify the language code to get translations of series titles. (_default_: en)|
 
 ## Examples
 
