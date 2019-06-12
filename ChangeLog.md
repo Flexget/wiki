@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---26318525f4b605523d5ef5616467664ad588f046--->
+<!---1a475b2189b21b5b602decc9e2cd4051fda7c8b6--->
 
-## 2.21.8.dev (unreleased)
+<!---495e1d0d36fdc5f5606d39868ae85dd87df007e0--->
+
+## 2.21.8 (2019-06-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.7...2.21.8)
 ### Added
 - thetvdb_list: Add 'language' option
 
-<!---b958d5f3d1b5deec034829813f983f643952d4ce--->
 
 ## 2.21.7 (2019-06-06)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.6...2.21.7)
