@@ -5,7 +5,7 @@ Many website allow the generation of rss feeds based on a query. This plugin tak
 
 
 ## Config Format
-All valid [rss](/Plugins/rss) plugin config options are valid here, just place `{{search_term}}` into the url where the search term should go. Jinja is used with this replacement, so you can also use [jinja](/Jinja) filters to manipulate the term.
+All valid [rss](/Plugins/rss) plugin config options are valid here, just place `{{search_term}}` into the url where the search term should go. This will be replaced with a percent encoded version of the serach term when searched. Jinja is used with this replacement, so you can also use [jinja](/Jinja) filters to manipulate the term.
 
 ### Simple configuration
 
