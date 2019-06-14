@@ -5,12 +5,12 @@ Many website allow the generation of rss feeds based on a query. This plugin tak
 
 
 ## Config Format
-All valid [rss](/Plugins/rss) plugin config options are valid here, just place `\{{search_term}}` into the url where the search term should go.
+All valid [rss](/Plugins/rss) plugin config options are valid here, just place `{{search_term}}` into the url where the search term should go. Jinja is used with this replacement, so you can also use [jinja](/Jinja) filters to manipulate the term.
 
 ### Simple configuration
 
 ```yaml
-search_rss: http://url/q=\{{search_term}}
+search_rss: http://url/q={{search_term}}
 ```
 
 ### Complex configuration
@@ -19,7 +19,7 @@ Search_rss supports all the advanced options from [rss](/Plugins/rss)
 #### Example
 ```yaml
 search_rss:
-  url: http://url/q=\{{search_term}}
+  url: http://url/q={{search_term}}
   link:
     - link
     - magneturi
@@ -33,7 +33,7 @@ discover:
   what:
     - emit_movie_queue: yes
   from:
-    - search_rss: http://isohunt.com/js/rss/\{{search_term}}?iht=
+    - search_rss: http://isohunt.com/js/rss/{{search_term}}?iht=
 ```
 
 For more information about the usage see this [recipe](/Cookbook/Movies/discoverfeed).
