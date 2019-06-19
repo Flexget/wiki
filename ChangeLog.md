@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2f77faf0c2ccd68a4bd45d00666c3bd7c0662758--->
+<!---9ac5bfa6393a32bf35ae3240baa407a92464106b--->
 
-## 2.21.10.dev (unreleased)
+<!---bf5213188752f714cd58b917eeca6ad0a3bf9312--->
+
+## 2.21.10 (2019-06-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.9...2.21.10)
 ### Fixed
 - trakt_list: Make strip_dates and language options work together. fix [#2417](https://github.com/Flexget/Flexget/issues/2417)
 
-<!---f04f7ebb089fdfc22f573c1dbdb007d24adf2894--->
 
 ## 2.21.9 (2019-06-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.8...2.21.9)
