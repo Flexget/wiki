@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---31e7f0e239c31f7aa5e5c18dee6f78aee729b4ec--->
+<!---b84f34f391c8ed6858f0f36e2e38f780b5010847--->
+
+## 2.21.12.dev (unreleased)
+### Added
+- Add `debug-info` command to get info about current flexget install for debugging.
 
 <!---6da8c8de568d665731c8b3c905e5e290e2471a7b--->
 
