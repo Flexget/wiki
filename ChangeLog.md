@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b84f34f391c8ed6858f0f36e2e38f780b5010847--->
+<!---b4b23745fdde2cecaca7bf28ac978168c970a3c7--->
 
-## 2.21.12.dev (unreleased)
+<!---424b8a1b3b626aa93f1b617752b735d6328b96ab--->
+
+## 2.21.12 (2019-07-09)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.11...2.21.12)
 ### Added
 - Add `debug-info` command to get info about current flexget install for debugging.
 
-<!---6da8c8de568d665731c8b3c905e5e290e2471a7b--->
 
 ## 2.21.11 (2019-07-08)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.10...2.21.11)
