@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5d57ae943fbc5d851b20d5cb6c2fb7daae2c277c--->
+<!---9e25b41010c3b038c63c5437a28da1f3ba1f115c--->
 
 ## 2.21.13.dev (unreleased)
 ### Fixed
+- deluge: Prevent crash when set plugin failed to render some deluge settings. fix [#2419](https://github.com/Flexget/Flexget/issues/2419)
 - anidb_list: Prevent crash when 'pass' is not specified. fix [#2418](https://github.com/Flexget/Flexget/issues/2418)
 
 <!---424b8a1b3b626aa93f1b617752b735d6328b96ab--->
