@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b4b23745fdde2cecaca7bf28ac978168c970a3c7--->
+<!---5d57ae943fbc5d851b20d5cb6c2fb7daae2c277c--->
+
+## 2.21.13.dev (unreleased)
+### Fixed
+- anidb_list: Prevent crash when 'pass' is not specified. fix [#2418](https://github.com/Flexget/Flexget/issues/2418)
 
 <!---424b8a1b3b626aa93f1b617752b735d6328b96ab--->
 
