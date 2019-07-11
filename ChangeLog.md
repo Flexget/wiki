@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d04c7483914fd3f647f58884a25381f453cc66ce--->
+<!---b072d38b93e7348f18db76ed2b95cfbed10bd3d6--->
 
-## 2.21.13.dev (unreleased)
+<!---04f8912ec2316b363eab73304b90547d3ff63e72--->
+
+## 2.21.13 (2019-07-10)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.12...2.21.13)
 ### Fixed
 - deluge: Prevent crash when set plugin failed to render some deluge settings. fix [#2419](https://github.com/Flexget/Flexget/issues/2419)
 - anidb_list: Prevent crash when 'pass' is not specified. fix [#2418](https://github.com/Flexget/Flexget/issues/2418)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - notify: All config fields will be attempted to render even after one fails. ref [#2406](https://github.com/Flexget/Flexget/issues/2406)
 
-<!---424b8a1b3b626aa93f1b617752b735d6328b96ab--->
 
 ## 2.21.12 (2019-07-09)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.11...2.21.12)
