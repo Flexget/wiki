@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---47007d6a47d3030052c085734e944dd1117d9a1e--->
+<!---6329af491bf00bb3651296fed12c5d8e25b716f3--->
 
-## 2.21.14.dev (unreleased)
+<!---954ad47ac2ddeef4d47be0b10bef60f7cd187a4e--->
+
+## 2.21.14 (2019-07-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.13...2.21.14)
 ### Fixed
 - debug-info: Oops, pathlib isn't available on python 2. fix [#2420](https://github.com/Flexget/Flexget/issues/2420)
 
-<!---04f8912ec2316b363eab73304b90547d3ff63e72--->
 
 ## 2.21.13 (2019-07-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.12...2.21.13)
