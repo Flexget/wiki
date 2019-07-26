@@ -1,8 +1,12 @@
 # Chat
-Chat can be accessed via multiple ways. We are using a bot to sync chat between Gitter, and #flexget in freenode IRC.
+Chat can be accessed via multiple ways. We are using a bot to sync chat between all of the chat services.
 
-## Gitter Web Client
-[Gitter](http://gitter.im/Flexget/Flexget) has a rich web interface, accessible anywhere, with backlog built in. If you are not already using IRC for anything else, this is probably the nicest chatting method.
+## Rich Web Clients
+There are several rich web interfaces we support, accessible anywhere, with backlog built in. If you are not already using IRC for anything else, these are probably the nicest chatting methods.
+
+- [Slack](https://join.slack.com/t/flexget/shared_invite/enQtNTQzNjM4MTY3ODYzLTA3NTRhZGNlMjBiN2FmNjZiZDVmZGQzMGFiODdhMWI1NjYyMzYwYWEyYjRlMGNjMWIzZTczMzMwZjdiODQ5OGI)
+- [Gitter](http://gitter.im/Flexget/Flexget)
+- [Discord](https://discord.gg/W6CQrJx)
 
 ## IRC
 There are a couple of ways to chat via IRC client now.
