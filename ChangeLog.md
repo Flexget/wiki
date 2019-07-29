@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6329af491bf00bb3651296fed12c5d8e25b716f3--->
+<!---6ceb052dcd5fbf3ca10368ac0213b5d7c331983c--->
+
+## 2.21.15.dev (unreleased)
+### Changed
+- Add pagination headers to history api even if no items are present
 
 <!---954ad47ac2ddeef4d47be0b10bef60f7cd187a4e--->
 
