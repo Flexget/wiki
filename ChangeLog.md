@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6ceb052dcd5fbf3ca10368ac0213b5d7c331983c--->
+<!---ff6cc401b52d4db5a6d5a7e758275faf2252117c--->
 
-## 2.21.15.dev (unreleased)
+<!---2ad28470f46effa21e91cf521b166ea81ff31288--->
+
+## 2.21.15 (2019-07-29)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.14...2.21.15)
 ### Changed
 - Add pagination headers to history api even if no items are present
 
-<!---954ad47ac2ddeef4d47be0b10bef60f7cd187a4e--->
 
 ## 2.21.14 (2019-07-11)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.13...2.21.14)
