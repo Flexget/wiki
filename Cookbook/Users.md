@@ -9,6 +9,9 @@ Please post the version of FlexGet that your config was designed for, so people 
 
 ## Tested & Working 2.x Configs
 While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/UpgradeActions) regarding breaking changes in minor version incrementations.
+
+* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v2.13.15) - A fork of jawilson below. (Trakt-Deluge-Slack-PMS on FreeBSD)
+* [jawilson](https://github.com/jawilson/dotfiles/tree/master/flexget) (v2.10.108) Trakt-managed movies and TV shows (Flexget + Trakt + Deluge + Pushbullet + PMS)
 * [snickers2k](https://github.com/crack00r/Flexget-Config) (v2.x) Up to date -  Trakt-managed - add manual (by Watchlist) or automatic (by Popular and Trending). Download with jDownloader/pyLoad - Specialised for Germany
 * [qvazzler](https://flexget.com/wiki/Cookbook/Users/qvazzler) (v2.10.38) - Multi-config usage with IRC daemon and flexget API, season pack support, trakt and scrobbling examples, cleaning scripts, etc.
 * [Đĵ ΝιΓΞΗΛψΚ](/Cookbook/Users/djnitehawk) (v2.1.1) - Simple movie & tv downloading config with trakt and imdb watchlist intergration.
@@ -16,10 +19,8 @@ While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/Upgr
 * [tarzasai](https://github.com/tarzasai/.flexget) (v2.3.2) - Movies and series, requires [FlexGetExtras](https://github.com/Flexget/extras).
 * [ianstalk](https://github.com/ianstalk/dotfiles/tree/master/flexget) (v2.9.3) YAML anchor examples, use Trakt.tv to manage shows and movies.
 * [malkavi](/Cookbook/Users/malkavi) (2.10.12.dev) Spanish Movies and series config.
-* [Systy](https://github.com/Fabien-G/Flexget_t411/tree/master) (v2.10.30) DL VOSTFR series (existing + Trakt) + VF movies (Imdb + Trakt) with Transmission on T411. Renaming / Email. French user
-* [sysfs](https://gitlab.com/sisfs/dotfiles/) (v2.13.15) - A fork of jawilson below. (Trakt-Deluge-Slack-PMS on FreeBSD)
-* [jawilson](https://github.com/jawilson/dotfiles/tree/master/flexget) (v2.10.108) Trakt-managed movies and TV shows (Flexget + Trakt + Deluge + Pushbullet + PMS)
-- [metaMMA](/Cookbook/Users/metaMMA) (v2.10.67) - Download and keep track of popular MMA events and shows. Can be used with or without additional Plex/KODI application found on [Github](https://github.com/metaMMA/metaMMA)
+* [Systy](https://github.com/Fabien-G/Flexget_t411/tree/master) (v2.10.30) DL VOSTFR series (existing + Trakt) + VF movies (Imdb + Trakt) with Transmission on T411. Renaming / Email. French users
+* [metaMMA](/Cookbook/Users/metaMMA) (v2.10.67) - Download and keep track of popular MMA events and shows. Can be used with or without additional Plex/KODI application found on [Github](https://github.com/metaMMA/metaMMA)
 
 ## Untested 1.x Configs
 * [KnockiMov](/Cookbook/Users/KnockiMov) - Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
