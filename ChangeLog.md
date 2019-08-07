@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d3b39076837b396a551d1eb463b6907c7f69f04f--->
+<!---fc53c687f0e45ec355f56f18817f8230934a190d--->
 
-## 2.21.16.dev (unreleased)
+<!---e6f88f723be3725f7dd5239955340d4d7720b74e--->
+
+## 2.21.16 (2019-08-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.15...2.21.16)
 ### Changed
 - descargas2020: Updated to new domain
 
-<!---2ad28470f46effa21e91cf521b166ea81ff31288--->
 
 ## 2.21.15 (2019-07-29)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.14...2.21.15)
