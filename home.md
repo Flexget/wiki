@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h2>Chat and Support</h2>
-                    <p>Join us for chat and discussions via <a href="https://gitter.im/Flexget/Flexget">FlexGet @ Gitter</a> or <a href="http://webchat.freenode.net/?channels=#flexget">FlexGet @ Freenode</a></p>
+                    <p>Join us for chat and discussions via your preferred chat client. See all methods <a href="/Chat">here.</a></p>
                     <p>For support and help use the <a href="http://discuss.flexget.com/">Flexget Forums</a></p>
                     <p>For bugs open a <a href="https://github.com/Flexget/Flexget/issues">Github Issue</a></p>
                     <p>As we are always trying to update and expand the features of FlexGet, please refer to <strong><a href="/UpgradeActions">UpgradeActions</a></strong> for <strong>relevant information</strong> and <strong>configuration changes</strong> before upgrading your installation.</p>
