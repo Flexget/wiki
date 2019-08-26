@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---21fbcfc4707e9d35f4717da9441a5e646b31394d--->
+<!---f00bda2018635c5f0b19f500259b0d224ae58dd7--->
+
+## 2.21.18.dev (unreleased)
+### Fixed
+- thetvdb component retrieve first aired date
+- thetvdb component retrieve first aired date
 
 <!---57892c9260d8f253f162cbc66aeb5e646708a418--->
 
