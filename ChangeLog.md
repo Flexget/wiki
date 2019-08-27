@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f00bda2018635c5f0b19f500259b0d224ae58dd7--->
+<!---6b044a8f10125ece1049879605354865329bcc6b--->
 
-## 2.21.18.dev (unreleased)
+<!---3f43fdfc8f2d3d60288303684cdaf93b8c033e0a--->
+
+## 2.21.18 (2019-08-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.17...2.21.18)
 ### Fixed
 - thetvdb component retrieve first aired date
 - thetvdb component retrieve first aired date
 
-<!---57892c9260d8f253f162cbc66aeb5e646708a418--->
 
 ## 2.21.17 (2019-08-23)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.16...2.21.17)
