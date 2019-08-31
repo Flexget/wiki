@@ -16,7 +16,7 @@ This method uses the Python installation available in DSM's Package Center. As s
 
 ## synocommunity package
 
-The [synocommunity](/https://synocommunity.com/) repository includes a FlexGet package for DSM.  This package is in beta, so for it to appear you'll need to allow it via *Settings > Beta*.
+The [synocommunity](https://synocommunity.com/) repository includes a FlexGet package for DSM.  This package is in beta, so for it to appear you'll need to allow it via *Settings > Beta*.
 
 If you are less comfortable with the command line, you will probably find this method easier. It may, however, be more difficult to maintain. You must also wait for the package maintainers to update the FlexGet package; with the above method, updates to FlexGet may be installed as soon as they are released.
 
