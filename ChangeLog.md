@@ -9,9 +9,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - thetvdb component retrieve first aired date
 - thetvdb component retrieve first aired date
 
-### Changed
-- Update versions on many dependencies
-
 <!---ee8e31069f455a347ddc75fc82843dd02a2006b3--->
 
 ## 2.21.19 (2019-09-19)
