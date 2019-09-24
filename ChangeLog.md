@@ -7,7 +7,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - decompress: Fix error reporting when extraction failed.
 - thetvdb component retrieve first aired date
-- thetvdb component retrieve first aired date
 
 <!---ee8e31069f455a347ddc75fc82843dd02a2006b3--->
 
