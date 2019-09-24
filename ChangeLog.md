@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---42f5cf3ae8c8ca02e0f4cdd39784d0b34dd2cf99--->
+<!---4a5b167bf27965641940685ecdc0ae43487f98e4--->
 
 ## 2.21.20.dev (unreleased)
 ### Fixed
 - decompress: Fix error reporting when extraction failed.
 - thetvdb component retrieve first aired date
+
+### Changed
+- Revert " Update versions on many dependencies"
 
 <!---ee8e31069f455a347ddc75fc82843dd02a2006b3--->
 
