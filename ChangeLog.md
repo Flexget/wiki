@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4a5b167bf27965641940685ecdc0ae43487f98e4--->
+<!---b3600c3a475cd54fbc6b36da2cdc0871b36eb439--->
 
-## 2.21.20.dev (unreleased)
+<!---34bfb9fece2241b3b88edd5d36e0f3b1a268d3a6--->
+
+## 2.21.20 (2019-09-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.19...2.21.20)
 ### Fixed
 - decompress: Fix error reporting when extraction failed.
 - thetvdb component retrieve first aired date
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - Revert " Update versions on many dependencies"
 
-<!---ee8e31069f455a347ddc75fc82843dd02a2006b3--->
 
 ## 2.21.19 (2019-09-19)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.18...2.21.19)
