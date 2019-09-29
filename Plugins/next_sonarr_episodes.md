@@ -20,12 +20,12 @@ The following settings are optional:
 | **port** | This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80.  |
 | **include_ended** |  Decides whether to retrieve ended shows. Default is True  |
 | **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is False  |
-||**page_size**|| Defines the number of results to be retunred with every page of the API request. Set to 50 by default. Can be changed in order to resolve performance issues.
+|**page_size**| Defines the number of results to be retunred with every page of the API request. Set to 50 by default. Can be changed in order to resolve performance issues.
 
 ### Example: set_series_begin plugin
 This example shows how the next_sonarr_episodes plugin could be used with the [set_series_begin](/Plugins/set_series_begin) plugin in order to set the first episode for all monitored and running shows as defined in [Sonarr](http://sonarr.tv):
 
-```
+```yaml
   set-series-begin-from-sonarr:
       next_sonarr_episodes:
         base_url: '{? credentials.sonarr.url ?}'
@@ -40,7 +40,7 @@ This example shows how the next_sonarr_episodes plugin could be used with the [s
 
 This example shows how the next_sonarr_episodes plugin could be used with the [discover](/Plugins/discover) plugin in order to download the first missing episode for all monitored and running shows as defined in [Sonarr](http://sonarr.tv):
 
-```
+```yaml
   discover_from_sonarr_task:
       discover:
         what:
