@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---41191dc9308f5a394fd7c634f9ee2b9202f7e999--->
+<!---2e2d512f01e55ddff8816f32c86ab9f7cb1c0d9d--->
+
+## 2.21.22.dev (unreleased)
+### Fixed
+- trakt_list: Skip invalid items. fix [#2445](https://github.com/Flexget/Flexget/issues/2445)
 
 <!---e3e354bebe6445c003501d89fd086e22904d2bb6--->
 
