@@ -143,7 +143,7 @@ $ npm install -g bower
 $ npm install -g gulp
 ```
 
-3. Next, install the Web UI dependencies by running the following commands under the `<flexget github folder>/flexget/ui` folder, or run `python dev_tools.py build_webui`. Running `gulp build` will compile all the ui files.
+3. Next, install the Web UI dependencies by running the following commands under the `<flexget github folder>/flexget/ui/v1` folder, or run `python dev_tools.py build_webui`. Running `gulp build` will compile all the ui files.
 
 ```bash
 $ npm install
