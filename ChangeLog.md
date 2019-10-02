@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ecf8388bd51062200ce34cef2761a640de902a10--->
+<!---8ae138522f6cca612bc37300d473f8fca3229c9e--->
+
+## 2.21.24.dev (unreleased)
+### Added
+- Allow to add paused torrents to qbittorrent
 
 <!---2310401343637ee1a805f81697d3e217426ec946--->
 
