@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8ae138522f6cca612bc37300d473f8fca3229c9e--->
+<!---865da610682cd96b7007ff9ad1ee3657af83e5fd--->
 
-## 2.21.24.dev (unreleased)
+<!---4005bd898ab76ff0db08c41030389cb325ee9b5a--->
+
+## 2.21.24 (2019-10-02)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.23...2.21.24)
 ### Added
 - Allow to add paused torrents to qbittorrent
 
-<!---2310401343637ee1a805f81697d3e217426ec946--->
 
 ## 2.21.23 (2019-09-30)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.22...2.21.23)
