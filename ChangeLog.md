@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---865da610682cd96b7007ff9ad1ee3657af83e5fd--->
+<!---c38992ca5337ebd073c38d9cab60f184ab60793f--->
+
+## 2.21.25.dev (unreleased)
+### Fixed
+- deluge: Fix log messages for actions other than adding. fix [#2427](https://github.com/Flexget/Flexget/issues/2427)
 
 <!---4005bd898ab76ff0db08c41030389cb325ee9b5a--->
 
