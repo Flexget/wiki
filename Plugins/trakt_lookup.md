@@ -6,9 +6,7 @@ If you are having problems returning the correct information for a show, please 
 <div class="alert alert-info" role="alert">
 
 Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize Flexget to access your private Trakt.tv account.</div>
-<div class="alert alert-danger" role="alert">
 
-As of October 1st 2016, Trakt no longer provides images.</div>
 
 #### Syntax
 
