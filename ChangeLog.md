@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---de9cc3f10508558f8f94031b1616f603454de377--->
+<!---dede74413f1af6b20247963aac701fd8e05bd585--->
+
+## 2.21.26.dev (unreleased)
+### Fixed
+- python 3 support to yts site component
+- python 3 support to yts site component
 
 <!---d89a50c2f57ea74468660fae34a1cd6afdbec930--->
 
