@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dede74413f1af6b20247963aac701fd8e05bd585--->
+<!---89e9e9374c567fe4c11a298d5210497127aed47b--->
 
-## 2.21.26.dev (unreleased)
+<!---1be3d57656cc9c271aa390bc21dde9b6bbdb10f3--->
+
+## 2.21.26 (2019-10-15)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.25...2.21.26)
 ### Fixed
 - python 3 support to yts site component
 - python 3 support to yts site component
 
-<!---d89a50c2f57ea74468660fae34a1cd6afdbec930--->
 
 ## 2.21.25 (2019-10-10)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.24...2.21.25)
