@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---39ecd3e2a20b12231e631201bc6813ab39f8e1d6--->
+<!---de16784614c2672c728b95c31c0cef6f37b7e40e--->
+
+## 2.21.28.dev (unreleased)
+### Added
+- New AniList input plugin
+- Input Plugin for Anilist
 
 <!---83c0020b3cefb88d5a9304375bc302babe6742db--->
 
