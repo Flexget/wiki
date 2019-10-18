@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---77f892da3a16eef377408f0561ce4fae4c36e8a1--->
+<!---39ecd3e2a20b12231e631201bc6813ab39f8e1d6--->
 
-## 2.21.27.dev (unreleased)
+<!---83c0020b3cefb88d5a9304375bc302babe6742db--->
+
+## 2.21.27 (2019-10-17)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.26...2.21.27)
 ### Fixed
 - bad import on yts site
 - regexp: Fix edge cases with 'rest' operation
 - bad import on yts site
 
-<!---1be3d57656cc9c271aa390bc21dde9b6bbdb10f3--->
 
 ## 2.21.26 (2019-10-15)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.25...2.21.26)
