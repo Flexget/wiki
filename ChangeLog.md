@@ -5,7 +5,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 2.21.28.dev (unreleased)
 ### Added
-- New AniList input plugin
 - Input Plugin for Anilist
 
 <!---83c0020b3cefb88d5a9304375bc302babe6742db--->
