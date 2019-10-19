@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---de16784614c2672c728b95c31c0cef6f37b7e40e--->
+<!---3211fb6d0dcd27815610abb7f1d4f3d60a2fedc5--->
 
-## 2.21.28.dev (unreleased)
+<!---245f81eeb6c1a63ae8475cc524a3c743d5677a94--->
+
+## 2.21.28 (2019-10-18)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.27...2.21.28)
 ### Added
 - Input Plugin for Anilist
 
-<!---83c0020b3cefb88d5a9304375bc302babe6742db--->
 
 ## 2.21.27 (2019-10-17)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.26...2.21.27)
