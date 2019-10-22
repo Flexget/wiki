@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3211fb6d0dcd27815610abb7f1d4f3d60a2fedc5--->
+<!---d557f8236784f427e8e9b9f04bef65bd51f3a621--->
+
+## 2.21.29.dev (unreleased)
+### Fixed
+- betaseries_list: Update to comply with betaseries API change
 
 <!---245f81eeb6c1a63ae8475cc524a3c743d5677a94--->
 
