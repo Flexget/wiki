@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d557f8236784f427e8e9b9f04bef65bd51f3a621--->
+<!---252ca75bec55f0c89e35b311735fb4cb71e76326--->
 
-## 2.21.29.dev (unreleased)
+<!---8d7525d4d6eb080d8965bc464510b2637db549f2--->
+
+## 2.21.29 (2019-10-21)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.28...2.21.29)
 ### Fixed
 - betaseries_list: Update to comply with betaseries API change
 
-<!---245f81eeb6c1a63ae8475cc524a3c743d5677a94--->
 
 ## 2.21.28 (2019-10-18)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.27...2.21.28)
