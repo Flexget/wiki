@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---252ca75bec55f0c89e35b311735fb4cb71e76326--->
+<!---9bf8dd5764fa55a75bdc8d6811bcd71a67c38ccd--->
+
+## 2.21.30.dev (unreleased)
+### Added
+- passthepopcorn sort by individual torrents
+- passthepopcorn sort by individual torrents
 
 <!---8d7525d4d6eb080d8965bc464510b2637db549f2--->
 
