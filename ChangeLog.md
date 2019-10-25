@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---347575db71cae48f3887dcb9447b8a491b002ed6--->
+<!---46c7e3236b1da46535f7eedcc8b84d9351f45d5b--->
 
 ## 2.21.31.dev (unreleased)
 ### Fixed
+- *  exists_movie support movie same name different year
+- exists_movie support movie same name different year ([#2455](https://github.com/Flexget/Flexget/issues/2455))
 - horriblesubs: remove dependence on cfscrape library (cfscraper plugin can be used if needed)
 - remove horriblesubs scraper in favour of cfscraper plugin
 
