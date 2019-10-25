@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6b93e1eaf24a23678d7faf9372dda9f5334c80aa--->
+<!---347575db71cae48f3887dcb9447b8a491b002ed6--->
+
+## 2.21.31.dev (unreleased)
+### Fixed
+- horriblesubs: remove dependence on cfscrape library (cfscraper plugin can be used if needed)
+- remove horriblesubs scraper in favour of cfscraper plugin
 
 <!---cab3b480f4fa37ec1eb2a12b96ab0f0ab4f4e2e5--->
 
