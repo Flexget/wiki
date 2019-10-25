@@ -19,7 +19,12 @@ This plugin works as an input and as a search backend.
 ### As plain input
 
 ```yaml
-horriblesubs: yes
+tasks:
+  watchlist-anime:
+    inputs: 
+      - horriblesubs: yes
+    accept_all: yes
+    seen: local
 ```
 
 ### Discover next episodes of series
