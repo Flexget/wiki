@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9bf8dd5764fa55a75bdc8d6811bcd71a67c38ccd--->
+<!---6b93e1eaf24a23678d7faf9372dda9f5334c80aa--->
 
-## 2.21.30.dev (unreleased)
+<!---cab3b480f4fa37ec1eb2a12b96ab0f0ab4f4e2e5--->
+
+## 2.21.30 (2019-10-24)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.29...2.21.30)
 ### Added
 - passthepopcorn sort by individual torrents
 - passthepopcorn sort by individual torrents
 
-<!---8d7525d4d6eb080d8965bc464510b2637db549f2--->
 
 ## 2.21.29 (2019-10-21)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.28...2.21.29)
