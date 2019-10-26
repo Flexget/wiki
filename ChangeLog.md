@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---46c7e3236b1da46535f7eedcc8b84d9351f45d5b--->
+<!---a5e1e9bb4c8d542e44c833fdabc09422e0326d91--->
 
-## 2.21.31.dev (unreleased)
+<!---f7b18de54800efeb3b3aa76810d0540d76ba772b--->
+
+## 2.21.31 (2019-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.30...2.21.31)
 ### Fixed
 - *  exists_movie support movie same name different year
 - exists_movie support movie same name different year ([#2455](https://github.com/Flexget/Flexget/issues/2455))
 - horriblesubs: remove dependence on cfscrape library (cfscraper plugin can be used if needed)
 - remove horriblesubs scraper in favour of cfscraper plugin
 
-<!---cab3b480f4fa37ec1eb2a12b96ab0f0ab4f4e2e5--->
 
 ## 2.21.30 (2019-10-24)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.29...2.21.30)
