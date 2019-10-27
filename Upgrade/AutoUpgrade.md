@@ -17,32 +17,32 @@ if (echo $FUPDATE | grep "You are on the") > /dev/null; then
         echo "Already on the latest version"
 	exit
 else
-	echo Flexget Upgrade Avalable
+	echo Flexget Upgrade Available
 	echo $FUPDATE
 fi
 
 CURVER=$(/usr/local/bin/flexget -V | sed -n '1p')
 FAILED=0
 echo Disabling Cron Jobs
-sudo -u $FLEXGET_USER crontab -l > /home/flexget/cron_backup.txt
+sudo -u $FLEXGET_USER crontab -l > $CONFIG_PATH/cron_backup.txt
 sudo -u $FLEXGET_USER crontab -r
 echo Stoping Services
 /usr/sbin/service flexget stop
 sleep 10
 
-PSCOUNT=$(ps -f -u flexget --no-headers | grep -c flexget)
+PSCOUNT=$(ps -f -u $FLEXGET_USER --no-headers | grep -c flexget)
 if [ $PSCOUNT -ne 0 ]; then
 	sleep 10
-	PSCOUNT=$(ps -f -u flexget --no-headers | grep -c flexget)
+	PSCOUNT=$(ps -f -u $FLEXGET_USER --no-headers | grep -c flexget)
 fi
 if [ $PSCOUNT -ne 0 ]; then
         sleep 10
-        PSCOUNT=$(ps -f -u flexget --no-headers | grep -c flexget)
+        PSCOUNT=$(ps -f -u $FLEXGET_USER --no-headers | grep -c flexget)
 fi
 if [ $PSCOUNT -ne 0 ]; then
         sleep 10
 	echo Sending PKill
-        pkill -u flexget
+        pkill -u $FLEXGET_USER
 fi
 
 # Install Flexget Upgrade
@@ -75,7 +75,7 @@ else
 fi
 
 echo Restore Cron Jobs
-sudo -u $FLEXGET_USER crontab /home/flexget/cron_backup.txt
+sudo -u $FLEXGET_USER crontab $CONFIG_PATH/cron_backup.txt
 echo Starting Services
 /usr/sbin/service flexget start
 echo Complete
