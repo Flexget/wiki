@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---78c0ec2fcc3f6eb65cc76220e6191a84b42b756d--->
+<!---ea11cdccce95c6513d8be9978bdd9d0baeb88b7b--->
 
-## 2.21.32.dev (unreleased)
+<!---4ad92aeaf53bdda6a8c288410ecbab852ab7df2a--->
+
+## 2.21.32 (2019-10-26)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.31...2.21.32)
 ### Added
 - *  added ability to updated variables via patch. closes [#2464](https://github.com/Flexget/Flexget/issues/2464)
 - added ability to updated variables via patch. closes [#2464](https://github.com/Flexget/Flexget/issues/2464) ([#2470](https://github.com/Flexget/Flexget/issues/2470))
 
-<!---f7b18de54800efeb3b3aa76810d0540d76ba772b--->
 
 ## 2.21.31 (2019-10-25)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.30...2.21.31)
