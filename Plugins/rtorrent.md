@@ -105,6 +105,8 @@ File .rtorrent.rc
 ```
 system.method.set_key = event.download.finished,move_complete,"execute=mv,-u,$d.get_base_path=,$d.get_custom1=;d.set_directory=$d.get_custom1="
 ```
+*This configuration for rtorrent is outdated and needs to be updated.*
+[Source](https://github.com/rakshasa/rtorrent/issues/242)
 
 Add TVShows to rTorrent and set the download directory to `/data/downloads/TV/{{ tvdb_series_name }}`
 
