@@ -14,7 +14,7 @@ Integrate with Radarr.
 | **api_key** | \<Radarr API key> | Found in 'Settings' -> 'General' -> 'Security' |
 | **only_monitored** | <yes/no> | If 'yes', this plugin will only return movies that are 'monitored' by Radarr |
 | **include_data** | <yes/no> | If 'yes', this plugin will include Radarr quality profile information for the movie and translate it to FlexGet qualities |
-| **only_use_cutoff_quality** | <yes/no> | TBD |
+| **only_use_cutoff_quality** | <yes/no> | If 'yes', any quality that is 'allowed' for the movie will be ignored. Only the quality cutoff will be accepted. |
 
 
 **Example:**
