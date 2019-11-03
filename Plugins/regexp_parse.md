@@ -48,8 +48,8 @@ regexp_parse:
       required: False
     custom_field2:
       regexps:
-        - {regexp: 'first custom regexps'}
-        - {regexp: 'can't find first regexp so try this one'}
+        - {regexp: "first custom regexps"}
+        - {regexp: "can't find first regexp so try this one"}
 ```
 
 TIP : You may want to use [lookaround assertions](https://www.rexegg.com/regex-lookarounds.html).
