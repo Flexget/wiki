@@ -12,9 +12,9 @@ Integrate with Radarr.
 | **base_url** | \<Radarr location> | The url used to access Radarr. |
 | **port** | \<Radarr port> | The port used the access Radarr (default '7878') |
 | **api_key** | \<Radarr API key> | Found in 'Settings' -> 'General' -> 'Security' |
-| **only_monitored** | <yes/no> | If 'yes', this plugin will only return movies that are 'monitored' by Radarr |
-| **include_data** | <yes/no> | If 'yes', this plugin will include Radarr quality profile information for the movie and translate it to FlexGet qualities |
-| **only_use_cutoff_quality** | <yes/no> | If 'yes', any quality that is 'allowed' for the movie will be ignored. Only the quality cutoff will be accepted. |
+| **only_monitored** | <yes/no> | If 'yes' , this plugin will only return movies that are 'monitored' by Radarr |
+| **include_data** | <yes/no> | If 'yes' , this plugin will include Radarr quality profile information for the movie and translate it to FlexGet qualities |
+| **only_use_cutoff_quality** | <yes/no> | If 'yes' , any quality that is 'allowed' for the movie will be ignored. Only the quality cutoff will be accepted. |
 
 
 **Example:**
