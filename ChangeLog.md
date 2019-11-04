@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ea11cdccce95c6513d8be9978bdd9d0baeb88b7b--->
+<!---3afe2942728c54a2cb9939d2d9ebc19aea7c3cf0--->
+
+## 2.21.33.dev (unreleased)
+### Fixed
+- next_trakt_episodes: fix 'aired' context
 
 <!---4ad92aeaf53bdda6a8c288410ecbab852ab7df2a--->
 
