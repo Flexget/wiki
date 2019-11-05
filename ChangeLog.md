@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3afe2942728c54a2cb9939d2d9ebc19aea7c3cf0--->
+<!---77a58b76f8738745060acf4b19ba9d1bd6bbd665--->
 
-## 2.21.33.dev (unreleased)
+<!---6d9ac00551c760eab8bdf89243cfa5cfefa00832--->
+
+## 2.21.33 (2019-11-04)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.32...2.21.33)
 ### Fixed
 - next_trakt_episodes: fix 'aired' context
 
-<!---4ad92aeaf53bdda6a8c288410ecbab852ab7df2a--->
 
 ## 2.21.32 (2019-10-26)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.31...2.21.32)
