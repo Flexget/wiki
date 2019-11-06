@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---77a58b76f8738745060acf4b19ba9d1bd6bbd665--->
+<!---f211caf077b2c9033f4717f86eae07b313dbbafe--->
+
+## 2.21.34.dev (unreleased)
+### Fixed
+- Make sure exceptions during generator inputs are handled properly.
 
 <!---6d9ac00551c760eab8bdf89243cfa5cfefa00832--->
 
