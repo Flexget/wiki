@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f211caf077b2c9033f4717f86eae07b313dbbafe--->
+<!---493dc1d19e3a193abb41201859135e1586b6874c--->
 
-## 2.21.34.dev (unreleased)
+<!---0d82b31259382ff6bcbdfbc2e91afd0975d55ed7--->
+
+## 2.21.34 (2019-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.33...2.21.34)
 ### Fixed
 - Make sure exceptions during generator inputs are handled properly.
 
-<!---6d9ac00551c760eab8bdf89243cfa5cfefa00832--->
 
 ## 2.21.33 (2019-11-04)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.32...2.21.33)
