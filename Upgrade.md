@@ -49,7 +49,7 @@ Check if your configuration file is still valid, there may have been some change
 flexget check
 ```
 
-If your configuration doesn't pass check, ave a look at [upgrade actions](/UpgradeActions) to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [upgrade actions](/UpgradeActions) even if your config is passing.
+If your configuration doesn't pass check, have a look at [upgrade actions](/UpgradeActions) to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [upgrade actions](/UpgradeActions) even if your config is passing.
 
 For example, if you were running 1.1.2 follow all the steps above this revision.
 
