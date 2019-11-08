@@ -2,13 +2,10 @@
 <div class="alert alert-info" role="info">
   
   <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; Supported Python versions: 2.7, 3.4, 3.5 and 3.6.
+  &nbsp; Starting from version 3.0.0, Flexget supports only Python 3.6 and higher
 </div>
-<div class="alert alert-info" role="info">
   
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; Python 3.6 is supported from version 2.11.x.
-</div>
+
 This wizard guides you through installing FlexGet.
 
 *Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated!*
