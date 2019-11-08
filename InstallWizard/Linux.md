@@ -38,16 +38,6 @@ Python3 ships with virtualenv. Simply run:
 python3 -m venv ~/flexget/
 ```
 
-### Python 2.7 (legacy)
-
-We no longer recommend or provide detailed instructions for Python 2.7 as it is going to be retired at the end of 2019. It is highly recommended to proceed with Python 3 based environment. To install Python 2.7 based system you will need to install pip and virtualenv then create virtual environment and follow instructions from there. On debian this would be something like this:
-
-```bash
-sudo apt-get install python-pip
-sudo pip install virtualenv
-virtualenv ~/flexget/
-```
-
 ## Install FlexGet in the `virtualenv`
 
 ```bash
