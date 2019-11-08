@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **3.0.0** -- 2019.11.08
+
+Python 2 support is dropped as Python 2 reaches EOL in Jan 1st 2020. The minimal python version is now Python 3.6. We highly recommend upgrading your python if you're still using Python 2. Note that if you're already running Flexget on python 3.6 and higher, there should be no breaking changes in this version.
+
 ### **2.21.0** -- 2019.05.21
 
 Added new [limit](/Plugins/limit) plugin which replaces limit option from older plugins (ie. trakt_list). Some are still backwards compatible.
