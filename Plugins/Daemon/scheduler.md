@@ -88,3 +88,17 @@ schedules:
     schedule:
       hour: 8-20/2
 ```
+
+**Jitter**
+
+Both interval and schedule type scheduling allow the `jitter` option. When used this option will randomize the execution time by up to the number of seconds specified.
+
+Example:
+```
+schedules:
+  # Run every task once an hour plus or minus 60 seconds
+  - tasks: '*'
+    interval:
+      hours: 1
+      jitter: 60
+```
