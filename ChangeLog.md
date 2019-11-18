@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---00b3efda4dd22d662e959789e10b8c3837c20df2--->
+<!---5347d6587219080bd1fd6bb82e60b7a9e5bf9ad2--->
 
 ## 3.0.6.dev (unreleased)
 ### Fixed
 - Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
+
+### Added
+- Support Python 3.8
 
 <!---a51310dce157281cb0726a2da0a5d55324e1634d--->
 
