@@ -34,6 +34,11 @@ Please make sure to upgrade setuptools.
 ```cmd
 pip install --upgrade flexget
 ```
+Please have in mind that Python 2 is going away, therefore using `pip` might not upgrade you to the latest version. Best choice would be using Python3 tools.
+
+```cmd
+pip3 install --upgrade flexget
+```
 
 [Problems with pip?](/PipProblems)
 
