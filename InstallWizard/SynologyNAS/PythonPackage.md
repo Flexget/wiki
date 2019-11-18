@@ -3,7 +3,7 @@
 ## Caveats
 
 <div class="alert alert-warning" role="alert">
-  FlexGet supports Python 2.7, 3.3, 3.4 and 3.5. Python 3.6 is not yet supported.
+  FlexGet supports Python 3.6-3.8
 </div>
 
 This method uses the Python installation available in DSM's Package Center. As such, it will only work while the version of Python available there is one of those listed above. At time of writing, the DSM package provides Python 3.5.1.
