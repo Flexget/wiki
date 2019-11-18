@@ -15,7 +15,7 @@ You can use whatever directory you like in place of `~/flexget-dev`.
 
 After checkout is complete, you need to initialize the environment.
 
-Make sure the `python` command uses Python 2.7 or 3.3-3.6. On some systems with multiple python installations, you may need to use a command specific to a particular version, such as `python2.7` or `python3`.
+Make sure the `python` command uses Python 3.6-3.8. On some systems with multiple python installations, you may need to use a command specific to a particular version, such as `python3.8` or `python3`.
 
 ```bash
 $ python -V
