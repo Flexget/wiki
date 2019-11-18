@@ -1,9 +1,48 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---60851afa102b00f9cc84acd00877b1551c4796f6--->
+<!---00b3efda4dd22d662e959789e10b8c3837c20df2--->
 
-<!---b4d536ccab4cfa07791004d4f4e251f7b536f01a--->
+## 3.0.6.dev (unreleased)
+### Fixed
+- Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
+
+<!---a51310dce157281cb0726a2da0a5d55324e1634d--->
+
+## 3.0.5 (2019-11-17)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.4...3.0.5)
+### Fixed
+- filesystem: Make sure 'location' field is a string. fix [#2496](https://github.com/Flexget/Flexget/issues/2496)
+
+
+## 3.0.4 (2019-11-16)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.3...3.0.4)
+
+## 3.0.3 (2019-11-15)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.2...3.0.3)
+### Fixed
+- Prevent crashes on PirateBay plugin when scanning ads
+- Replace folder.walk with folder.rglob in exist ([#2495](https://github.com/Flexget/Flexget/issues/2495))
+
+
+## 3.0.2 (2019-11-14)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.1...3.0.2)
+### Added
+- scheduler: Add 'jitter' option to slightly randomize scheduled execution times.
+
+
+## 3.0.1 (2019-11-12)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.0...3.0.1)
+### Fixed
+- Switch debug-info plugin to use pathlib. fix [#2491](https://github.com/Flexget/Flexget/issues/2491)
+- transmission: fix path setting after 3.0
+
+
+## 3.0.0 (2019-11-11)
+[all commits](https://github.com/Flexget/Flexget/compare/2.21.35...3.0.0)
+### Changed
+- Dropping python2 support
+
 
 ## 2.21.35 (2019-11-07)
 [all commits](https://github.com/Flexget/Flexget/compare/2.21.34...2.21.35)
