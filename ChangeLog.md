@@ -1,9 +1,9 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5347d6587219080bd1fd6bb82e60b7a9e5bf9ad2--->
+<!---9c1403045aace25394617a069becb46104b9a7dc--->
 
-## 3.0.6.dev (unreleased)
+## 3.0.7.dev (unreleased)
 ### Fixed
 - Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
 
