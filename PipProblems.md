@@ -1,11 +1,11 @@
 ## Problems with using pip
-Make sure your `pip` command uses python 2.7, 3.4 or newer. 
+Make sure your `pip` command uses python 3.6 or newer. 
 
 ```cmd
 pip --version
 ```
 
-If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 2.7, 3.4 or newer. Continue with [pip install](https://pip.pypa.io/en/latest/installing.html).
+If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 3.6 or newer. Continue with [pip install](https://pip.pypa.io/en/latest/installing.html).
 
 ```cmd
 pip install --upgrade pip

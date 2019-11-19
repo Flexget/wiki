@@ -18,7 +18,7 @@ Supported versions of Python:
 
 If you already have a compatible version of Python installed, you can continue to the next step.
 
-Otherwise, install the latest version of Python 2.7 or a compatible version of 3.x (see supported versions list above) from [python.org](http://python.org/download/).
+Otherwise, install a compatible version of 3.x (see supported versions list above) from [python.org](http://python.org/download/).
 
 ### Verify Python is in your PATH
 
