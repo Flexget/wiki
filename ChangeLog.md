@@ -5,8 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 3.0.7.dev (unreleased)
 ### Fixed
-- Update TVDB Episode Schema
-- Update TVDB Episode Schema
+- tvdb: Fix crash getting directors
 - AlphaRatio: category mapping update
 - Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
 
