@@ -1,9 +1,9 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---563118bb72c8b77107d4d5a5d14eb7e01e147def--->
+<!---c322035b0e8464206646c8d9298576af9d33de80--->
 
-## 3.0.7.dev (unreleased)
+## 3.0.8.dev (unreleased)
 ### Fixed
 - tvdb: Fix crash getting directors
 - AlphaRatio: category mapping update
