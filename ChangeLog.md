@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e743ade5ff3d8b360b7edb28a841f9e85a2b27a2--->
+<!---563118bb72c8b77107d4d5a5d14eb7e01e147def--->
 
 ## 3.0.7.dev (unreleased)
 ### Fixed
+- Update TVDB Episode Schema
+- Update TVDB Episode Schema
 - AlphaRatio: category mapping update
 - Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
 
