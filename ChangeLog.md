@@ -1,18 +1,25 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c322035b0e8464206646c8d9298576af9d33de80--->
+<!---2ee7b6835adeacfd9eba94b24a372161e047d13d--->
 
-## 3.0.8.dev (unreleased)
+<!---fdd2dc358eac804c3f05f91bb89ce9eba3c33e6b--->
+
+## 3.0.7 (2019-11-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.6...v3.0.7)
 ### Fixed
 - tvdb: Fix crash getting directors
 - AlphaRatio: category mapping update
+
+
+## 3.0.6 (2019-11-19)
+[all commits](https://github.com/Flexget/Flexget/compare/3.0.5...v3.0.6)
+### Fixed
 - Fixed issue [#2351](https://github.com/Flexget/Flexget/issues/2351) with new argenteam API ([#2474](https://github.com/Flexget/Flexget/issues/2474))
 
 ### Added
 - Support Python 3.8
 
-<!---a51310dce157281cb0726a2da0a5d55324e1634d--->
 
 ## 3.0.5 (2019-11-17)
 [all commits](https://github.com/Flexget/Flexget/compare/3.0.4...3.0.5)
