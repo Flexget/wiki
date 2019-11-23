@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---40c8f9653fd5ab02a5fcac7378d22f71d90ab0ea--->
+<!---00bba32cd38127f82e6ceb67ce73d147c1f37652--->
 
-## 3.0.9.dev (unreleased)
+<!---7c960cd048b56ff7227ddf94e0ad22886dcce303--->
+
+## 3.0.9 (2019-11-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.8...v3.0.9)
 ### Fixed
 - content_size: Don't crash on non-string description field.
 
-<!---83d6a8c7310acfde1cb846fb5f4e099f549f21d5--->
 
 ## 3.0.8 (2019-11-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.7...v3.0.8)
