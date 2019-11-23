@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c3ca644efd64fcea58b36ec96ca853b96b641b9f--->
+<!---40c8f9653fd5ab02a5fcac7378d22f71d90ab0ea--->
+
+## 3.0.9.dev (unreleased)
+### Fixed
+- content_size: Don't crash on non-string description field.
 
 <!---83d6a8c7310acfde1cb846fb5f4e099f549f21d5--->
 
