@@ -5,7 +5,7 @@ The [discover](/Plugins/discover) plugin will act as an input just like [rss](/P
 
 If FlexGet does not already have a history of a given show, normally the [begin](/Plugins/series/begin) option or `series begin` command must be used for the series in order for [next_series_episodes](/Plugins/next_series_episodes) to start working. In this example we set the `from_start` option of [next_series_episodes](/Plugins/next_series_episodes) so that FlexGet will start looking for the episodes of all shows starting at the first one.
 
-```
+```yaml
 templates:
   tv:
     series:
@@ -18,12 +18,12 @@ templates:
 
 tasks:
   # classic rss feed monitoring
-  monitor feed:
+  monitor-feed:
     rss: http://example.com
     template: [tv]
 
   # automatic searching
-  search series:
+  discover-series:
     template: [tv]
     discover:
       what:
