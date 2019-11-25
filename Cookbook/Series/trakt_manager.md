@@ -1,4 +1,5 @@
 # Manage your FlexGet series entirely from trakt.tv
+
 This is a system designed for easily managing your FlexGet series from trakt.tv.
 
 - You define shows you want to follow by creating a trakt list called `My TV Shows` (in this example, you can call it anything you want) and adding any shows you want the FlexGet series plugin to follow to that list.
@@ -6,8 +7,10 @@ This is a system designed for easily managing your FlexGet series from trakt.tv.
 
 ```
 templates:
-  # This is just in a template so that it can easily be re-used in multiple tasks (for example in an rss based and discover based task)
-  # If you only have one task using your series config, you can place the configure_series plugin directly in that task rather than in a template
+  # This is just in a template so that it can easily be re-used in multiple tasks 
+  # (for example in an rss based and discover based task)
+  # If you only have one task using your series config, you can place
+  # the configure_series plugin directly in that task rather than in a template
   tv:
     configure_series:
       settings:
@@ -23,8 +26,9 @@ templates:
   
 tasks:
   # This task will look for episodes you have added to your `My TV Shows` list at trakt.
-  # It will set the `begin` series option for that show, then remove the episode and re-add it to your `My TV Shows` list as a show.
-  follow show from ep:
+  # It will set the `begin` series option for that show, then remove the episode and re-add 
+  # it to your `My TV Shows` list as a show.
+  follow-from-trakt:
     seen: local
     trakt_list:
       account: myaccount
@@ -44,9 +48,13 @@ tasks:
           type: shows
 
   # This task is what will actually download your shows.
-  # See https://flexget.com/wiki/Cookbook/Series/Search for a more detailed explanation of how this search based task works, as well as an example of how to use your `tv` template on an rss based task alongside.
-  get shows:
-    # If this is your only task getting shows, you can just include the configure_series plugin here instead of using the template.
+  # See https://flexget.com/wiki/Cookbook/Series/Search 
+  # for a more detailed explanation of how this search based task works,
+  # as well as an example of how to use your `tv` template on an rss
+  # based task alongside.
+  discover-shows:
+    # If this is your only task getting shows, you can just include 
+    # the configure_series plugin here instead of using the template.
     template: tv
     discover:
       what:
@@ -54,11 +62,14 @@ tasks:
             from_start: yes
       from:
         - # Pick a search plugin(s) https://flexget.com/wiki/Searches
-    # Also add an appropriate output plugin here (perhaps `transmission` or `deluge` if you are using those clients.) https://flexget.com/wiki/Plugins#Output
+    # Add an appropriate output plugin here 
+    # (perhaps `transmission` or `deluge` if you are using those clients.) 
+    # https://flexget.com/wiki/Plugins#Output
 
-# If you are using daemon mode, make sure you schedule the tasks in the right order, so that the begin episode gets set before it tries to download your shows
+# If you are using daemon mode, make sure you schedule the tasks in the right order, so
+# that the begin episode gets set before it tries to download your shows
 schedules:
-  - tasks: [follow show from ep, get shows]
+  - tasks: [follow-from-trakt, discover-shows]
     interval:
       minutes: 30
 ```
