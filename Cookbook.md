@@ -29,8 +29,5 @@ You can [login](/login) via oauth with either a GitHub or Google account.
 ## User configurations
 - [Complete user configurations](/Cookbook/Users)
 
-## Database management
-- [Repair 1.2 -> 2.0 upgrade failure](/Cookbook/export) *- (nobody should need this)*
-
 ## Helper scripts
 - [Helper](/Helper) scripts and other quick one-liners
