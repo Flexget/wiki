@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---00bba32cd38127f82e6ceb67ce73d147c1f37652--->
+<!---0fb5a208d33cfa668d78fd1a7455a8a792c90563--->
+
+## 3.0.10.dev (unreleased)
+### Changed
+- update Dockerfile to use python3 and add webUI v2
 
 <!---7c960cd048b56ff7227ddf94e0ad22886dcce303--->
 
