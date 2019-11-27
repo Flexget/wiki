@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7d7bb3f66222daff7f651c60fb22ff034af4d21a--->
+<!---ddebf528f2bbe16dafb0b765d55da1fb1af43d17--->
 
 ## 3.0.11.dev (unreleased)
 ### Added
 - Symlink plugin now supports rename option like move does
 
 ### Fixed
+- check for header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2512](https://github.com/Flexget/Flexget/issues/2512))
 - check for 'X-Limit-App-Reset' header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2511](https://github.com/Flexget/Flexget/issues/2511))
 
 <!---2edf254e719b5fe58fbbc427edc905b2e5e63a8a--->
