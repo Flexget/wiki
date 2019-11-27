@@ -5,18 +5,22 @@
   Unavailable on windows.
 </div>
 
+# Move
 
-```text
-symlink:
-  to: <destination>
-  existing: <*fail*|ignore>
-  link_type: <hard|*soft*>
-```
-Default marked with \*. Supports hardlinking directories (creates new dirs and recursively hardlinks all files).
+### Syntax:
+
+|Option|Description|
+|---|---|
+|to| Directory to move accepted entries to, allows value replacement, defaults to download path. Entry field `move_to` can be used to override given path per entry basis.|
+|existing| *fail* (default), *ignore* |
+|rename| The actual filename inside the 'to' directory to rename the entries, allows value replacement. |
+|link_type| *soft* (default), *hard*. Supports hardlinking directories (creates new dirs and recursively hardlinks all files). |
+
 ## Examples
 
 
 ### Watchlist directory
+
 Use your collection to create a symlinked imdb watchlist directory. Removals are not dealt with.
 
 ```yaml
