@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5c33f15d85d157a3f50ece344632af6d3e46db2--->
+<!---1a70ba40efa090c56648b09745d1d3f425c95e51--->
+
+## 3.0.11.dev (unreleased)
+### Added
+- Symlink plugin now supports rename option like move does
 
 <!---2edf254e719b5fe58fbbc427edc905b2e5e63a8a--->
 
