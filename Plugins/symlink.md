@@ -5,17 +5,16 @@
   Unavailable on windows.
 </div>
 
-# Move
-
 ### Syntax:
 
-|Option|Description|
-|---|---|
-|to| Directory to move accepted entries to, allows value replacement, defaults to download path. Entry field `move_to` can be used to override given path per entry basis.|
-|existing| *fail* (default), *ignore* |
-|rename| The actual filename inside the 'to' directory to rename the entries, allows value replacement. |
-|link_type| *soft* (default), *hard*. Supports hardlinking directories (creates new dirs and recursively hardlinks all files). |
+|  Option  |  Values  |  Description  |
+| --- | --- | --- |
+| to | \<directory path> | Accepted entries are moved to this directory. Capable of *value replacement. Defaults to download path. Entry field `move_to` can be used to override the given path on a per entry basis. |
+| existing | \<fail/ignore> | If the link already exists, choose to have the entry fail, or force the link to be replaced. Default is `fail`.
+| rename | \<filename> | Accepted entries are renamed to this filename (inside of the `to` directory). Capable of *value replacement. |
+| link_type | \<soft/hard> | Hardlinking directories creates new dirs and recursively hardlinks all files. Default is `soft`. |
 
+*Note: Info on value replacement can be found in the example [here](https://flexget.com/Jinja). Commonly used replacement values come from the `Entry field` found [here](https://flexget.com/Entry)
 ## Examples
 
 
