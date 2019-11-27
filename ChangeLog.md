@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0fb5a208d33cfa668d78fd1a7455a8a792c90563--->
+<!---d5c33f15d85d157a3f50ece344632af6d3e46db2--->
 
-## 3.0.10.dev (unreleased)
+<!---2edf254e719b5fe58fbbc427edc905b2e5e63a8a--->
+
+## 3.0.10 (2019-11-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.9...v3.0.10)
 ### Changed
 - update Dockerfile to use python3 and add webUI v2
 
-<!---7c960cd048b56ff7227ddf94e0ad22886dcce303--->
 
 ## 3.0.9 (2019-11-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.8...v3.0.9)
