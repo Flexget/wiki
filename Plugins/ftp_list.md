@@ -1,10 +1,12 @@
 
 ## FTP List
+
 Generate entries from a remote FTP server. Entries can be downloaded via [ftp_download](/Plugins/ftp_download) plugin or by passing it to other output plugins. See examples for details.
 
 **Note**: This plugin requires a 3rd party called [ftputil](http://ftputil.sschwarzer.net/trac/wiki/WikiStart). `pip install ftputil` in order to use.
 
-## Plugin Settings
+### Plugin Settings
+
 Currently the following settings are required:
 
 
@@ -26,9 +28,12 @@ The following settings are optional:
 | **recursion** | boolean |  Choose if to recursively retrieve object from selected dirs. Default is false  |
 | **recursion_depth** | boolean |  Relative level to retrieve, relevant only if `recursion` is true, set to infinity by default.  |
 
-**example Configuration:**
-```
-ftp_task:
+#### Examples:
+
+This is a complete task
+
+```yaml
+taskname:
   ftp_list:
     username: username
     password: password
