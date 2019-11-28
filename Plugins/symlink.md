@@ -41,4 +41,6 @@ link-watchlist-movies:
     action: accept
   symlink:
     to: /storage/movies-watchlist/
+    link_type: hard
+    existing: ignore
 ```
