@@ -1,13 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ddebf528f2bbe16dafb0b765d55da1fb1af43d17--->
+<!---0ebc04c866d6a162fc04d68b4fd736e873603015--->
 
 ## 3.0.11.dev (unreleased)
 ### Added
 - Symlink plugin now supports rename option like move does
 
 ### Fixed
+- set utf-8 as default encoding for RotatingFileHandler ([#2510](https://github.com/Flexget/Flexget/issues/2510))
 - check for header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2512](https://github.com/Flexget/Flexget/issues/2512))
 - check for 'X-Limit-App-Reset' header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2511](https://github.com/Flexget/Flexget/issues/2511))
 
