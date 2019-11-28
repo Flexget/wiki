@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0ebc04c866d6a162fc04d68b4fd736e873603015--->
+<!---1256c71a7c4908c32920b081c62075d3c9efbadf--->
 
-## 3.0.11.dev (unreleased)
+<!---f28ba61d21001872a7a3bf2d8eaba436a17711ec--->
+
+## 3.0.11 (2019-11-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.10...v3.0.11)
 ### Added
 - Symlink plugin now supports rename option like move does
 
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - check for header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2512](https://github.com/Flexget/Flexget/issues/2512))
 - check for 'X-Limit-App-Reset' header. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2511](https://github.com/Flexget/Flexget/issues/2511))
 
-<!---2edf254e719b5fe58fbbc427edc905b2e5e63a8a--->
 
 ## 3.0.10 (2019-11-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.9...v3.0.10)
