@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ee4517b09e851e5af8bfbe7e00b1da3574684ff--->
+<!---c956cdeb546fae73011d80567de3767568172de8--->
 
-## 3.0.12.dev (unreleased)
+<!---68647e4b2be47195d4d64566c3cc176f4a413cbb--->
+
+## 3.0.12 (2019-12-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.11...v3.0.12)
 ### Fixed
 - even more check. Closes [#2507](https://github.com/Flexget/Flexget/issues/2507) ([#2513](https://github.com/Flexget/Flexget/issues/2513))
 
-<!---f28ba61d21001872a7a3bf2d8eaba436a17711ec--->
 
 ## 3.0.11 (2019-11-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.10...v3.0.11)
