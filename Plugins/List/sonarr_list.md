@@ -30,7 +30,7 @@ The following settings are optional:
 | **include_data** |  Decides whether to send quality profile, cutoff quality and original show path to Flexget. Relevant only when combining with  [configure_series](https://flexget.com/wiki/Plugins/configure_series) plugin | False
 | **ignore_episodes_with_files** | Unmonitors any episodes with a file|False |
 | **ignore_episodes_without_files** | Unmonitors any episodes without a file| False | 
-| **search_missing_episodes**  | Searches for missing files after applying `ignore_episodes_with_files` and `ignore_episodes_with_files`. It can be used to control which episodes Sonarr monitors after adding the series, ignoring episodes with and without files will only monitor future episodes.| True |
+| **search_missing_episodes**  | Searches for missing files after applying `ignore_episodes_with_files`. It can be used to control which episodes Sonarr monitors after adding the series, ignoring episodes with and without files will only monitor future episodes.| True |
 | **profile_id**  | Allows you to change the quality profile that is selected during series creation. You can find quality profile/profile ID at `http://localhost:8989/api/profile?apikey=APIKEY`|1 |
 | **season_folder**  | Allows you to set the season folder to either true or false| False |
 | **monitored**  | Allows you to set the whole series to either monitored or paused. If set to false you don't have to use `ignore_episodes_with_files` or `ignore_episodes_without_files`| True |
