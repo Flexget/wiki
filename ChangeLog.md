@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1fe58e28afe98039b857d20673b94ec9c553d3b6--->
+<!---ee9b3cec2d1eca60c6c05d724d495c2fcafc83ed--->
 
-## 3.0.13.dev (unreleased)
+<!---9c8352056e988cb4637244e7466e401d7c3baf06--->
+
+## 3.0.13 (2019-12-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.12...v3.0.13)
 ### Fixed
 - web server inserts base_url into webui v2 ([#2518](https://github.com/Flexget/Flexget/issues/2518))
 
-<!---68647e4b2be47195d4d64566c3cc176f4a413cbb--->
 
 ## 3.0.12 (2019-12-01)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.11...v3.0.12)
