@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---76bd37d5cd5c2bc8ab4aed8029d7db04ac59b77d--->
+<!---ae3b44b12e064e2a13190234d773f0964e519472--->
 
-## 3.0.14.dev (unreleased)
+<!---61e4fbfe30daf5e77fd359f8e9bbce140669b435--->
+
+## 3.0.14 (2019-12-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.13...v3.0.14)
 ### Fixed
 - deluge: Handle and report connection errors instead of crashing. fix [#2521](https://github.com/Flexget/Flexget/issues/2521)
 - deluge: Don't crash when username/password isn't specified. fix [#2523](https://github.com/Flexget/Flexget/issues/2523)
 
-<!---9c8352056e988cb4637244e7466e401d7c3baf06--->
 
 ## 3.0.13 (2019-12-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.12...v3.0.13)
