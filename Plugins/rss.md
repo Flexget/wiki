@@ -23,7 +23,7 @@ Some feeds are private and require that you use some form of authentication, try
 ### Read from a file
 You can also use local file instead of url.
 
-** Example **
+**Example**
 
 ```YAML
 rss:
