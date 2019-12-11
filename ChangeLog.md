@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---994ef1fff4e7d1a36ffaece938c9652efe3541f9--->
+<!---6853fc6c823f7d8a38f8c3ed529dab8b5fcc2c67--->
+
+## 3.0.16.dev (unreleased)
+### Changed
+- Support qBittorrent v4.1+, fixes [#2522](https://github.com/Flexget/Flexget/issues/2522) ([#2525](https://github.com/Flexget/Flexget/issues/2525))
 
 <!---fbe3ec1b06d52e34a0f59305eecdccba5c154f07--->
 
