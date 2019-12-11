@@ -15,8 +15,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 3.0.15 (2019-12-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.14...v3.0.15)
 ### Changed
-- *  Make `tvdb_posters[0]` the main poster
-- `tvdb_lookup` - Always have the main poster as the first entry of `tvdb_posters` ([#2524](https://github.com/Flexget/Flexget/issues/2524))
+- `thetvdb_lookup` - Always have the main poster as the first entry of `tvdb_posters` ([#2524](https://github.com/Flexget/Flexget/issues/2524))
 
 
 ## 3.0.14 (2019-12-10)
