@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0e2f2b04b2c04be409dfc08d522b82198d0fdc13--->
+<!---994ef1fff4e7d1a36ffaece938c9652efe3541f9--->
 
-## 3.0.15.dev (unreleased)
+<!---fbe3ec1b06d52e34a0f59305eecdccba5c154f07--->
+
+## 3.0.15 (2019-12-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.14...v3.0.15)
 ### Changed
 - *  Make `tvdb_posters[0]` the main poster
 - `tvdb_lookup` - Always have the main poster as the first entry of `tvdb_posters` ([#2524](https://github.com/Flexget/Flexget/issues/2524))
 
-<!---61e4fbfe30daf5e77fd359f8e9bbce140669b435--->
 
 ## 3.0.14 (2019-12-10)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.13...v3.0.14)
