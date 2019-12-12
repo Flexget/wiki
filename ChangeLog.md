@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---20c934529e6313d296e40027b3a2147c4545b431--->
+<!---57bdbebe76137dff71875c3bd9c6caa73f9e4a62--->
 
-## 3.0.16.dev (unreleased)
+<!---6dc3fd8219b5320934410729d9149f02976e8172--->
+
+## 3.0.16 (2019-12-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.15...v3.0.16)
 ### Changed
 - Support qBittorrent v4.1+, fixes [#2522](https://github.com/Flexget/Flexget/issues/2522) ([#2525](https://github.com/Flexget/Flexget/issues/2525))
 
 ### Fixed
 - qBittorrent API adresses
 
-<!---fbe3ec1b06d52e34a0f59305eecdccba5c154f07--->
 
 ## 3.0.15 (2019-12-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.14...v3.0.15)
