@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3095fef1bc15f7c6ca25abca60be8381a5a8e3a--->
+<!---cec873ffcda65aed7072ca16f133b4a2f1f18edb--->
+
+## 3.0.18.dev (unreleased)
+### Added
+- pending list batch operation and deletion endpoint ([#2535](https://github.com/Flexget/Flexget/issues/2535))
 
 <!---00a18ad3acc8b41d8a04d3b9921e82bc2d4a7384--->
 
