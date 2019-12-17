@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---eca217525288f11704ee84f873a3b7dea39ed32a--->
+<!---b3095fef1bc15f7c6ca25abca60be8381a5a8e3a--->
 
-## 3.0.17.dev (unreleased)
+<!---00a18ad3acc8b41d8a04d3b9921e82bc2d4a7384--->
+
+## 3.0.17 (2019-12-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.16...v3.0.17)
 ### Changed
 - irc plugin configuration supports password
 
-<!---6dc3fd8219b5320934410729d9149f02976e8172--->
 
 ## 3.0.16 (2019-12-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.15...v3.0.16)
