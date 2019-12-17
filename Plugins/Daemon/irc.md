@@ -4,7 +4,7 @@
   &nbsp;
 This plugin requires the irc_bot Python module. To install the Python module run: <br/><br/>
 
-```
+```bash
 $ pip install irc_bot
 ```
 </div>
@@ -19,16 +19,17 @@ You can always get the current status of the IRC plugin, as well as restart and 
 * **Install irc_bot**.
 * Run FlexGet in `daemon` mode. This means you may want to migrate your cron jobs to use the [scheduler plugin](/Plugins/Daemon/scheduler) instead.
 <br>
-```
+```bash
 $ flexget daemon start --daemonize
 ```
 * Have an autodl-tracker file relevant to your intended tracker. Either the name (case insensitive) or downloaded from [here](https://github.com/autodl-community/autodl-trackers).
 * rsskey or other needed credentials located in the tracker file and in the guide section of your tracker's website. (hint: look for autodl guides)
 
-### Tips
-* **Note that this is a daemon plugin**. Unlike most plugins, it is not placed under the tasks section of the config, but rather is a [top-level key](/Configuration#top-level-keys). For example:
+### Daemon plugin
 
-```
+Note that this is a daemon plugin. Unlike most plugins, it is not placed under the tasks section of the config, but rather is a [top-level key](/Configuration#top-level-keys). Example:
+
+```text
 irc:
   my_irc_name:
     <irc_config>
@@ -39,6 +40,10 @@ templates:
   my_template:
     <template_config>
 ```
+
+
+### Tips
+
 * Read your tracker's wiki/FAQ very carefully. Using this plugin and getting banned for not following rules is your own fault.
 * The tasks you use for IRC should have `manual: yes` in them to avoid the scheduler automatically executing them.
 * The plugin populates a few IRC-specific entry fields. These are all prefixed with `irc_`. You can see which fields are available by opening the `.tracker` file (see above where to get it). Any lines with the format `<var name="category"/>` will be available, though some of them may be optional.
@@ -57,12 +62,13 @@ templates:
 | **nickname** |  *(required)* Specify your nickname. Make sure it's allowed.  | myusername-bot  |
 | **server** |  Explicitly specify server address  |  irc.someplace.net  |
 | **port** |  *(required)* Explicitly specify port number (integer)  |  6667 *(default)*  |
+| **password** |  Specify password for server  |  |
+| **use_ssl** |  Use SSL when connecting to the server(s).  |  No *(default)*  |
 | **channels** |  Explicitly specify announce channel(s). **Joining channels that are not announce-channels can get you banned.**  | ['#announce_channel']  |
 | **nickserv_password** |  Password for authenticating your nickname to nickserv  |   |
-| **invite_nickname** |  Some trackers require this for authentication  |   |
-| **invite_message** |  Some trackers require this for authentication  |   |
+| **invite_nickname** |  Some channels require this for authentication  |   |
+| **invite_message** |  Some channels require this for authentication  |   |
 | **queue_size** |  If set to higher than 1, it will wait until it has received `queue_size` announcements before sending them to the task(s).  |  1 *(default)*  |
-| **use_ssl** |  Use SSL when connecting to the server(s).  |  No *(default)*  |
 | **task_delay** |  The amount of time in seconds to delay task execution. Useful for when announcements are too early (unregistered torrent error).  |  30 |
 
 
@@ -78,7 +84,7 @@ The categories are different for each tracker (and may not even called `irc_cate
 
 
 ### Example config
-```
+```yaml
 irc:
   irc_cool_tracker:
     tracker_file: 'MyFunTracker.tracker'
