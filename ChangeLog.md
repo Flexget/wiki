@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---57bdbebe76137dff71875c3bd9c6caa73f9e4a62--->
+<!---eca217525288f11704ee84f873a3b7dea39ed32a--->
+
+## 3.0.17.dev (unreleased)
+### Changed
+- irc plugin configuration supports password
 
 <!---6dc3fd8219b5320934410729d9149f02976e8172--->
 
