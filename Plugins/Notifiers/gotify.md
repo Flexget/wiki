@@ -15,14 +15,7 @@ This plugin provides the ability to send flexget notifications via the self-host
 | **token**| text| User's Gotify token. **Required**|
 |priority|integer|Message priority. The Android client classifies messages by High (>7), Normal (4-7), Low (1-3) and Minimum priority (<1).|4
 
-<div class="alert alert-info" role="info">
-  
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; Only one of `email`, `device` or `channel` can be used per config
-</div>
-
 ### Examples
-
 
 ### Send notification for each accepted entry
 ```yaml
