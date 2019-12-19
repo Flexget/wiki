@@ -2,7 +2,7 @@
 <div class="alert alert-success" role="info">
   
   <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushbullet is a part of the [notifier](/Plugins/Notifiers) plugin system.
+  &nbsp; Gotify is a part of the [notifier](/Plugins/Notifiers) plugin system.
 </div>
 
 This plugin provides the ability to send flexget notifications via the self-hosted Gotify notification server (https://gotify.net).
