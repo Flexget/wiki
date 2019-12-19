@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ca0a0cc665f6c520afda807e5410c79f3471d1d7--->
+<!---0842c4f23f3bb5c8e6d7f06daa50fc604da5e6a5--->
+
+## 3.0.19.dev (unreleased)
+### Changed
+- Logging system has been changed to Loguru
 
 <!---1a70dbe373b27976c0259fd9d357854439a4cd18--->
 
