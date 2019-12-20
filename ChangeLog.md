@@ -5,7 +5,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 3.0.20.dev (unreleased)
 ### Fixed
-- Fix crash on startup when there is no sys.stdout (pythonw)
+- Fix crash on startup when there is no sys.stdout (pythonw). This fixes flexget-headless regression from 3.0.19
 
 <!---003ada7060a2392dbc81a9169d7b5ddfdb2b941b--->
 
