@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0842c4f23f3bb5c8e6d7f06daa50fc604da5e6a5--->
+<!---4706670f32effa6d8aa1f9821cbbace5a4c4acee--->
 
-## 3.0.19.dev (unreleased)
+<!---003ada7060a2392dbc81a9169d7b5ddfdb2b941b--->
+
+## 3.0.19 (2019-12-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.18...v3.0.19)
 ### Changed
 - Logging system has been changed to Loguru
 
-<!---1a70dbe373b27976c0259fd9d357854439a4cd18--->
 
 ## 3.0.18 (2019-12-18)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.17...v3.0.18)
