@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4706670f32effa6d8aa1f9821cbbace5a4c4acee--->
+<!---acb1983d9e02d20d24b8f6c472c8b62912e772dc--->
+
+## 3.0.20.dev (unreleased)
+### Fixed
+- Fix crash on startup when there is no sys.stdout (pythonw)
 
 <!---003ada7060a2392dbc81a9169d7b5ddfdb2b941b--->
 
