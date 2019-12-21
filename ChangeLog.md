@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a5bcf1f014083591789862f5bdd2358d7e799847--->
+<!---0f8b76536dd2f0e369083adf44ed0adf723e11de--->
+
+## 3.0.21.dev (unreleased)
+### Fixed
+- sftp: Fix crash due to missing logging import. fix [#2538](https://github.com/Flexget/Flexget/issues/2538)
 
 <!---0f5df8d22544f5dd7c1d43365404436f71bc8b79--->
 
