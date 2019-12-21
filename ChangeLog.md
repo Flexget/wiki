@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---139385d1b628c19f07f315bf9dc9d1280c67a955--->
+<!---a5bcf1f014083591789862f5bdd2358d7e799847--->
 
-## 3.0.20.dev (unreleased)
+<!---0f5df8d22544f5dd7c1d43365404436f71bc8b79--->
+
+## 3.0.20 (2019-12-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.19...v3.0.20)
 ### Fixed
 - Fix crash on startup when there is no sys.stdout (pythonw). This fixes flexget-headless regression from 3.0.19
 
 ### Changed
 - Crash reports will now be created alongside the logfile, rather than config file
 
-<!---003ada7060a2392dbc81a9169d7b5ddfdb2b941b--->
 
 ## 3.0.19 (2019-12-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.18...v3.0.19)
