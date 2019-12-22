@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9faecd87ccef2e1d2858b90cdd92003f24001561--->
+<!---b9453315fff955f214e2e3aba32287e0ee1dddcb--->
 
-## 3.0.21.dev (unreleased)
+<!---1b8b6ea173ed1704ceb4ca67a2f0c9e29f466243--->
+
+## 3.0.21 (2019-12-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.20...v3.0.21)
 ### Fixed
 - sftp: Fix crash due to missing logging import. fix [#2538](https://github.com/Flexget/Flexget/issues/2538)
 
 ### Added
 - Implement Gotify notification plugin
 
-<!---0f5df8d22544f5dd7c1d43365404436f71bc8b79--->
 
 ## 3.0.20 (2019-12-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.19...v3.0.20)
