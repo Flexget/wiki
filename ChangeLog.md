@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---048112a35872349952711305f3ede2f77a30d8e7--->
+<!---63aef0f7d9054f994eee408368b64bf73a0810ad--->
 
 ## 3.0.22.dev (unreleased)
 ### Added
 - from_task: New input plugin which runs another task
+
+### Fixed
+- trakt_calendar: correctly set title and url to avoid incorrect duplication
+- trakt_calendar: correctly set title and url for episodes
 
 <!---1b8b6ea173ed1704ceb4ca67a2f0c9e29f466243--->
 
