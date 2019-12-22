@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b9453315fff955f214e2e3aba32287e0ee1dddcb--->
+<!---048112a35872349952711305f3ede2f77a30d8e7--->
+
+## 3.0.22.dev (unreleased)
+### Added
+- from_task: New input plugin which runs another task
 
 <!---1b8b6ea173ed1704ceb4ca67a2f0c9e29f466243--->
 
