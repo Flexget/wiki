@@ -89,7 +89,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [twitterfeed](/Plugins/twitterfeed) | Create entries from a twitter account. |
 | [lostfilm](/Plugins/lostfilm) | Create entries from lostfilm.tv |
 
-
 ### 3rd party software input
 Input plugins designed to retrieve data from 3rd party software, such as Sonarr, couchpotato, deluge & etc.
 
@@ -105,6 +104,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
 | [next_sonarr_episodes](/Plugins/next_sonarr_episodes) | Produce entries for missing episodes from Sonarr |
 | [medusa](/Plugins/Medusa) |  Produce entries from Medusa's show list |
+
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
 
@@ -113,6 +113,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [configure_series](/Plugins/configure_series) | Configures the series plugin with all the shows given by any input plugin (eg. filesystem, rss).  |
 | [discover](/Plugins/discover) | Produce entries from search results. |
 | [from_digest](/Plugins/from_digest) | Outputs entries which have been collected by the [digest](/Plugins/digest) plugin. |
+| [from_task](/Plugins/from_task) | Runs another task and outputs accepted entries from that task. |
 | [next_series_episodes](/Plugins/next_series_episodes) | Emits the next episode needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
 | [next_series_seasons](/Plugins/next_series_seasons) | Emits the next season needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
 | [inputs](/Plugins/inputs) | Configure the same input plugin multiple times in one task. |
