@@ -229,6 +229,7 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | **Keyword** | **Description** |
 | --- | --- |
 | [email](/Plugins/Notifiers/email) | Send an email message |
+| [gotify](/Plugins/Notifiers/gotify) | Send a [Gotify](https://gotify.net) notification |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
 | [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
