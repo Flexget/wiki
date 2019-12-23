@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---63aef0f7d9054f994eee408368b64bf73a0810ad--->
+<!---4a38f86b4b3e1e391a0de7731340262cff64702a--->
 
-## 3.0.22.dev (unreleased)
+<!---1c83fd016214cabad1b69651a5eae367221e596c--->
+
+## 3.0.22 (2019-12-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.21...v3.0.22)
 ### Added
 - from_task: New input plugin which runs another task
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - trakt_calendar: correctly set title and url to avoid incorrect duplication
 - trakt_calendar: correctly set title and url for episodes
 
-<!---1b8b6ea173ed1704ceb4ca67a2f0c9e29f466243--->
 
 ## 3.0.21 (2019-12-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.20...v3.0.21)
