@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d881f5ec2f5b319df350b3a2d0658c30b0c6a962--->
+<!---4f84192bf9d4cb0438c2f11fe4304ab8e556fa54--->
 
 ## 3.0.24.dev (unreleased)
 ### Fixed
+- deluge: Prevent crash when there was an error adding a magnet to deluge. fix [#2469](https://github.com/Flexget/Flexget/issues/2469)
 - filesystem: Prevent crashing after a directory is removed. fix [#2526](https://github.com/Flexget/Flexget/issues/2526)
 
 <!---2b5330d9354604108bbe4932ec3dcc8d0f8919db--->
