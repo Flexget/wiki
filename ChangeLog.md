@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---85ba67843d265e0b4d88de649d98fa27687442ba--->
+<!---d881f5ec2f5b319df350b3a2d0658c30b0c6a962--->
+
+## 3.0.24.dev (unreleased)
+### Fixed
+- filesystem: Prevent crashing after a directory is removed. fix [#2526](https://github.com/Flexget/Flexget/issues/2526)
 
 <!---2b5330d9354604108bbe4932ec3dcc8d0f8919db--->
 
