@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d82809a933acccdb2cf2a0b91e27a02c4eec5772--->
+<!---85ba67843d265e0b4d88de649d98fa27687442ba--->
 
-## 3.0.23.dev (unreleased)
+<!---2b5330d9354604108bbe4932ec3dcc8d0f8919db--->
+
+## 3.0.23 (2019-12-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.22...v3.0.23)
 ### Fixed
 - discover: Using the 'limit' option works even if search plugin returns non-list iterables
 - next_series_episode within discover properly searches for next episode on reruns. fix [#2370](https://github.com/Flexget/Flexget/issues/2370)
 
-<!---1c83fd016214cabad1b69651a5eae367221e596c--->
 
 ## 3.0.22 (2019-12-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.21...v3.0.22)
