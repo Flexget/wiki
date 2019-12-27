@@ -26,11 +26,11 @@ Example with local file:
 
 ```yaml
 csv:
-      url: file:///home/pi/flexget/output.csv
-      values:
-        filename: 1
-        title: 2
-        url: 3
+  url: file:///home/pi/flexget/output.csv
+  values:
+    filename: 1
+    title: 2
+    url: 3
 ```
 
 Fields title and url are mandatory. First field is 1.
