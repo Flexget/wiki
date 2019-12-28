@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c907c5dabc34831cc7da4317c080533de316b8bc--->
+<!---920dafdd148c2fe47ce86251f88d2d81d515298f--->
 
-## 3.0.26.dev (unreleased)
+<!---d364a27fc0aac5e4e6983536a6ea2f478ec9e2ff--->
+
+## 3.0.26 (2019-12-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.25...v3.0.26)
 ### Fixed
 - Restore logging import in check_subtitles plugin
 - Fix loglevel defaulting to INFO for daemon.
 
-<!---4a5f14f89f71620c197727ed5726ad9fd175c7f0--->
 
 ## 3.0.25 (2019-12-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.24...v3.0.25)
