@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1715885143dd98ea130b7aacf596b2a2765c986e--->
+<!---c907c5dabc34831cc7da4317c080533de316b8bc--->
 
 ## 3.0.26.dev (unreleased)
 ### Fixed
+- Restore logging import in check_subtitles plugin
 - Fix loglevel defaulting to INFO for daemon.
 
 <!---4a5f14f89f71620c197727ed5726ad9fd175c7f0--->
