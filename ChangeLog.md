@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b9ea9c688fcd323fd800ddf37b9d7a7dc438b830--->
+<!---1715885143dd98ea130b7aacf596b2a2765c986e--->
+
+## 3.0.26.dev (unreleased)
+### Fixed
+- Fix loglevel defaulting to INFO for daemon.
 
 <!---4a5f14f89f71620c197727ed5726ad9fd175c7f0--->
 
