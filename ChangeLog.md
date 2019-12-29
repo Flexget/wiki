@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---240afcb5c171c83680364d6cd8b0f618a71f4f20--->
+<!---158f7316215a08ed6bf6e53e84bf0189f0aca33e--->
+
+## 3.0.28.dev (unreleased)
+### Fixed
+- Generate a proper media id for movies and series
 
 <!---2c3a8ddc4d55088e472ff215553db4f573ebc3fd--->
 
