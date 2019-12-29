@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---158f7316215a08ed6bf6e53e84bf0189f0aca33e--->
+<!---29be89fb042ab08ff6f7be80039cf5b2704c683e--->
 
 ## 3.0.28.dev (unreleased)
 ### Fixed
 - Generate a proper media id for movies and series
+
+### Added
+- : Movie list and Entry list batch remove endpoints ([#2545](https://github.com/Flexget/Flexget/issues/2545))
 
 <!---2c3a8ddc4d55088e472ff215553db4f573ebc3fd--->
 
