@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---29be89fb042ab08ff6f7be80039cf5b2704c683e--->
+<!---03526c1e7fdd411bb5c12ebe661c0de95cb25ec2--->
 
 ## 3.0.28.dev (unreleased)
 ### Fixed
@@ -9,6 +9,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Added
 - : Movie list and Entry list batch remove endpoints ([#2545](https://github.com/Flexget/Flexget/issues/2545))
+
+### Changed
+- : Allow trakt lookup api without title ([#2547](https://github.com/Flexget/Flexget/issues/2547))
 
 <!---2c3a8ddc4d55088e472ff215553db4f573ebc3fd--->
 
