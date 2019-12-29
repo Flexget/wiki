@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---920dafdd148c2fe47ce86251f88d2d81d515298f--->
+<!---85d503ced8787d9b91a6bfd01a2fd1a05bbbf361--->
+
+## 3.0.27.dev (unreleased)
+### Fixed
+- : Add overview to tmdb_lookup ([#2546](https://github.com/Flexget/Flexget/issues/2546))
 
 <!---d364a27fc0aac5e4e6983536a6ea2f478ec9e2ff--->
 
