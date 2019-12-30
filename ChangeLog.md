@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---03526c1e7fdd411bb5c12ebe661c0de95cb25ec2--->
+<!---b1215762abd6ca0652134b3e078f26134fba9550--->
 
 ## 3.0.28.dev (unreleased)
 ### Fixed
+- : Properly parse timestamp in log api ([#2548](https://github.com/Flexget/Flexget/issues/2548))
 - Generate a proper media id for movies and series
 
 ### Added
