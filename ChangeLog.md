@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b1215762abd6ca0652134b3e078f26134fba9550--->
+<!---f17305a87e2923b1c862335e87930be2b2b0a5bf--->
 
-## 3.0.28.dev (unreleased)
+<!---6cef54ac2fb2cfdcf87a3a7863e3a0fb4c1e5e09--->
+
+## 3.0.28 (2019-12-30)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.27...v3.0.28)
 ### Fixed
 - : Properly parse timestamp in log api ([#2548](https://github.com/Flexget/Flexget/issues/2548))
 - Generate a proper media id for movies and series
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - : Allow trakt lookup api without title ([#2547](https://github.com/Flexget/Flexget/issues/2547))
 
-<!---2c3a8ddc4d55088e472ff215553db4f573ebc3fd--->
 
 ## 3.0.27 (2019-12-29)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.26...v3.0.27)
