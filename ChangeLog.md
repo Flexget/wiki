@@ -8,20 +8,20 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 3.0.28 (2019-12-30)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.27...v3.0.28)
 ### Fixed
-- : Properly parse timestamp in log api ([#2548](https://github.com/Flexget/Flexget/issues/2548))
+- Properly parse timestamp in log api ([#2548](https://github.com/Flexget/Flexget/issues/2548))
 - Generate a proper media id for movies and series
 
 ### Added
-- : Movie list and Entry list batch remove endpoints ([#2545](https://github.com/Flexget/Flexget/issues/2545))
+- Movie list and Entry list batch remove endpoints ([#2545](https://github.com/Flexget/Flexget/issues/2545))
 
 ### Changed
-- : Allow trakt lookup api without title ([#2547](https://github.com/Flexget/Flexget/issues/2547))
+- Allow trakt lookup api without title ([#2547](https://github.com/Flexget/Flexget/issues/2547))
 
 
 ## 3.0.27 (2019-12-29)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.26...v3.0.27)
 ### Fixed
-- : Add overview to tmdb_lookup ([#2546](https://github.com/Flexget/Flexget/issues/2546))
+- Add overview to tmdb_lookup ([#2546](https://github.com/Flexget/Flexget/issues/2546))
 
 
 ## 3.0.26 (2019-12-28)
