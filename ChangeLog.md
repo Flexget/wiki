@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f17305a87e2923b1c862335e87930be2b2b0a5bf--->
+<!---41e0da06354cc26fd12d1bbdcd506c8c93fcb962--->
+
+## 3.0.29.dev (unreleased)
+### Changed
+- trakt_calendar: automatically handle more than 31 days
+- trakt_calendar: automatically handle more than 31 days
 
 <!---6cef54ac2fb2cfdcf87a3a7863e3a0fb4c1e5e09--->
 
