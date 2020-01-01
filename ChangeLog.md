@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1c8d0a81b8f49bff13881ec18973e15dc1b8e511--->
+<!---dd72fe80de356cb37842676267adcde8014f56b1--->
+
+## 3.0.30.dev (unreleased)
+### Changed
+- Colorize entry action in logs ([#2541](https://github.com/Flexget/Flexget/issues/2541))
 
 <!---ae0f3a6800dd856c7a1ebb1d357b35166bf2179d--->
 
