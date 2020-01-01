@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---41e0da06354cc26fd12d1bbdcd506c8c93fcb962--->
+<!---1c8d0a81b8f49bff13881ec18973e15dc1b8e511--->
 
-## 3.0.29.dev (unreleased)
+<!---ae0f3a6800dd856c7a1ebb1d357b35166bf2179d--->
+
+## 3.0.29 (2020-01-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.28...v3.0.29)
 ### Changed
 - trakt_calendar: automatically handle more than 31 days
 - trakt_calendar: automatically handle more than 31 days
 
-<!---6cef54ac2fb2cfdcf87a3a7863e3a0fb4c1e5e09--->
 
 ## 3.0.28 (2019-12-30)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.27...v3.0.28)
