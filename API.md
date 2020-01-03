@@ -97,4 +97,4 @@ In addition, the response contains the following headers:
 
 ## Additional notes:
 
-- Some endpoint operation operate on you config file. Those that do will CHANGE IT LAYOUT AND STRCUTURE AND REMOVE ALL REMARKS. Do not operate via the API if those things are of value to you (the functionality will remain in tact).
+- Some endpoint operation operate on you config file. Those that do will CHANGE IT LAYOUT AND STRCUTURE AND REMOVE ALL REMARKS. Do not operate via the API if those things are of value to you (functionality will remain intact).
