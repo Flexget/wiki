@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---65e50151612483efb99757f12e5e28453fa53093--->
+<!---6647a0616d694e2c3fc899767d378f1933c06eed--->
 
-## 3.0.31.dev (unreleased)
+<!---24b71929a0ec61023f4b4c6385422afa89493646--->
+
+## 3.0.31 (2020-01-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.0.30...v3.0.31)
 ### Fixed
 - utorrent: Fix crash in logging fix [#2555](https://github.com/Flexget/Flexget/issues/2555)
 
-<!---72bfc6be1193101a91ec8c47ae9c0aa98f899ddf--->
 
 ## 3.0.30 (2020-01-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.29...v3.0.30)
