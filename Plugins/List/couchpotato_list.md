@@ -24,17 +24,18 @@ The following setting are optional:
 | --- | --- |
 | **port** | This is the port used by your couchpotato installation (usually 5050). Use this if your CP installation is at a different port than 80 (which it probably is).  |
 
-### Example: add movies to the movie list
-```
-queue_movies_couchpotato:
-    couchpotato_list:
-      base_url: http://localhost
-      port: 5050
-      api_key: <your key here>
-      include_data: yes
-    accept_all: yes
-    list_add:
-      - movie_list: from couchpotato
-```
+### Example: 
 
-For more information about list action go to the [list_interface](/list_interface) page.
+Add movies to the movie list from couchpotato
+
+```yaml
+queue_movies_couchpotato:
+  couchpotato_list:
+    base_url: http://localhost
+    port: 5050
+    api_key: APIKEYHERE
+    include_data: yes
+  accept_all: yes
+  list_add:
+    - movie_list: from couchpotato
+```
