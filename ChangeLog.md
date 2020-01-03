@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---16dc835330d94e7d4dd8b1f9607c48cbcd0e44ea--->
+<!---65e50151612483efb99757f12e5e28453fa53093--->
+
+## 3.0.31.dev (unreleased)
+### Fixed
+- utorrent: Fix crash in logging fix [#2555](https://github.com/Flexget/Flexget/issues/2555)
 
 <!---72bfc6be1193101a91ec8c47ae9c0aa98f899ddf--->
 
