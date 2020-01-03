@@ -3,11 +3,11 @@ The best_qality plugin will sort entries, grouped by an identifier, and allow ac
 
 ## Settings
 
-| **Option** | **Description** |
-| --- | --- |
-| identified_by | Define how entries are identified, default `auto` which uses entry id [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja) |
-| on_best | The action to preform on which has the best quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `do_nothing` |
-| on_lower | The action to preform on entries which are lower then the best quality. `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. Default `reject` |
+| **Option** | **Default** | **Description** |
+| --- | --- | --- |
+| identified_by | auto | Define how entries are identified to be a same content, default value `auto` uses entry `media_id` [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja). |
+| on_best | do_nothing | The action to preform on which has the best quality. Value `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. |
+| on_lower | reject | The action to preform on entries which are lower then the best quality. Value `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allows it to by handled by other plugins. |
 
 
 ## Syntax:
@@ -42,11 +42,8 @@ The [metainfo_series](https://flexget.com/Plugins/metainfo_series) and [metainfo
 You can override the format using [Jinja Templates](https://flexget.com/Jinja).
 
 ```yaml
-tasks:
-  some_task:
-    best_quality:
-      identifier: "{{ some_field }}"
-      wait: 1 day
+best_quality:
+  identifier: "{{ some_identifying_field }}"
 ```
 
 ### Example with [timeframe](https://flexget.com/Plugins/timeframe) and [upgrade](https://flexget.com/Plugins/upgrade)
@@ -59,7 +56,7 @@ The second task will upgrade the movie in future for 1 week.
 tasks:
   great_movies:
     # any input works, using rss as an example
-    rss: https://examample.com/feed.xml
+    rss: https://example.com/feed.xml
     upgrade:
       # We must add this so the upgrade plugin can track the downloaded qualities
       tracking: yes
@@ -80,7 +77,7 @@ tasks:
 
   upgrade_movies:
     # any input works, using rss as an example
-    rss: https://examample.com/feed.xml
+    rss: https://example.com/feed.xml
     upgrade:
       timeframe: 1 week
       target: 1080p
