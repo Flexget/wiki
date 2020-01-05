@@ -172,7 +172,7 @@ tasks:
                 <h1>Get Involved!</h1>
                 <div class="col-lg-6">
                     <h3>Developers wanted</h3>
-                    <p>We're seeking new developers for <a href="/Web-UI/v2">web interface</a>. Python and Typescript/React developers are all needed. Join us for chat and discussions via your preferred chat client if you are up for the task. See all methods <a href="/Chat">here</a></p>
+                    <p>We're seeking new developers for <a href="/Web-UI">web interface</a>. Python and Typescript/React developers are all needed. Join us for chat and discussions via your preferred chat client if you are up for the task. See all methods <a href="/Chat">here</a></p>
                 </div>
                 <div class="col-lg-6">
                     <h3>Donate</h3>
