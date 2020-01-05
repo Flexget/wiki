@@ -108,7 +108,7 @@
                                 <i class="fa fa-globe fa-stack-1x text-flexdark"></i>
                             </span>
                             <h4><strong>Web Interface</strong></h4>
-                            <p>A brand new <a href="/Web-UI">web interface</a> is being developed to help with configuration and settings.</p>
+                            <p>A brand new <a href="/Web-UI/v2">web interface</a> is being developed to help with configuration and settings.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
@@ -172,7 +172,7 @@ tasks:
                 <h1>Get Involved!</h1>
                 <div class="col-lg-6">
                     <h3>Developers wanted</h3>
-                    <p>We're seeking new developers for <a href="/Web-UI">web interface</a>. Python and AngularJS developers are all needed. Join the <a href="http://webchat.freenode.net/?channels=#flexget">FlexGet @ Freenode</a> IRC-channel if you're up for the task.</p>
+                    <p>We're seeking new developers for <a href="/Web-UI/v2">web interface</a>. Python and Typescript/React developers are all needed. Join us for chat and discussions via your preferred chat client if you are up for the task. See all methods <a href="/Chat">here</a></p>
                 </div>
                 <div class="col-lg-6">
                     <h3>Donate</h3>
