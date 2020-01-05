@@ -108,7 +108,7 @@
                                 <i class="fa fa-globe fa-stack-1x text-flexdark"></i>
                             </span>
                             <h4><strong>Web Interface</strong></h4>
-                            <p>A brand new <a href="/Web-UI/v2">web interface</a> is being developed to help with configuration and settings.</p>
+                            <p>A brand new <a href="/Web-UI">web interface</a> is being developed to help with configuration and settings.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
