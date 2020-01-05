@@ -20,7 +20,7 @@
 * [UI mockups](https://flexget.mybalsamiq.com/projects) - accounts can be requested
 * [Concepts](/Web-UI/Concepts)
 * [Roadmap (more ideas)](/Roadmap)
-* [Git Project](https://github.com/Flexget/webui/issue)
+* [Github Status Issue](https://github.com/Flexget/webui/issues/42)
 * [API](/API)
 * [Web UI v1](/Web-UI/v1)
 
