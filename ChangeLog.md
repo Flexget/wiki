@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0b0c837204e0b8c1c569bd5293b337f69896fc35--->
+<!---35fe98a3ed35f847b3fd14f3f84d2d9934984d72--->
 
 ## 3.1.1.dev (unreleased)
 ### Added
 - webui version 2.0.2
+
+### Changed
+- Prevent guessit from using 'regex' module over stdlib 're'
 
 <!---9bd27692c89d2f8c1b224836b611d993d2361890--->
 
