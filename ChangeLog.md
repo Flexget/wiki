@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---35fe98a3ed35f847b3fd14f3f84d2d9934984d72--->
+<!---2a0aece494f79dec4eecdcb9501ecbc4f2ed7f0f--->
 
 ## 3.1.1.dev (unreleased)
 ### Added
+- Hebits search plugin ([#2559](https://github.com/Flexget/Flexget/issues/2559))
 - webui version 2.0.2
 
 ### Changed
