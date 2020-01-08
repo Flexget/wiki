@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2a0aece494f79dec4eecdcb9501ecbc4f2ed7f0f--->
+<!---d25cb3007f01108503ab7a74a70dc48503677f77--->
 
-## 3.1.1.dev (unreleased)
+<!---01032ef413e5a0b82cc87b33514c85dec28b870d--->
+
+## 3.1.1 (2020-01-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.0...v3.1.1)
 ### Added
 - Hebits search plugin ([#2559](https://github.com/Flexget/Flexget/issues/2559))
 - webui version 2.0.2
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - Prevent guessit from using 'regex' module over stdlib 're'
 
-<!---9bd27692c89d2f8c1b224836b611d993d2361890--->
 
 ## 3.1.0 (2020-01-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.0.31...v3.1.0)
