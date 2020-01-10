@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d25cb3007f01108503ab7a74a70dc48503677f77--->
+<!---d47fe624d5a80e4ac3e2179a55c44df3007fa6a5--->
+
+## 3.1.2.dev (unreleased)
+### Fixed
+- v1/api redirect ([#2563](https://github.com/Flexget/Flexget/issues/2563))
 
 <!---01032ef413e5a0b82cc87b33514c85dec28b870d--->
 
