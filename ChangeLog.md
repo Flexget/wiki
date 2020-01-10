@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d47fe624d5a80e4ac3e2179a55c44df3007fa6a5--->
+<!---415b3c363087709c464f594cef9b248c1799d977--->
 
-## 3.1.2.dev (unreleased)
+<!---51fd55d777f263a15b8d3e003a913b673c70e89a--->
+
+## 3.1.2 (2020-01-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.1...v3.1.2)
 ### Fixed
 - v1/api redirect ([#2563](https://github.com/Flexget/Flexget/issues/2563))
 
-<!---01032ef413e5a0b82cc87b33514c85dec28b870d--->
 
 ## 3.1.1 (2020-01-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.0...v3.1.1)
