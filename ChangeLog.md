@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d56fb2e7d74864150c29e6dac063be305fa918e8--->
+<!---b9faa6cf333795af0dc5493ec9cab8ad93864ee7--->
 
 ## 3.1.5.dev (unreleased)
 ### Fixed
+- tvmaze: make sure lookups prefer using IDs rather than show names
 - anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
 
 <!---ad8047553f8d791db82ff0adaa91002e9fd89402--->
