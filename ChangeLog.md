@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6fe01d096d361bb921b448ef413743ebbf7d0303--->
+<!---2aa2c623d15ba0b9c915e9a3d5e5ed17c3e43c66--->
 
 ## 3.1.4.dev (unreleased)
 ### Added
+- webui version 2.0.5
 - api: add /schema/ endpoint for use by the config editor
 
 <!---7f0bf0875abb821caa7b6d93b962704ff022eafd--->
