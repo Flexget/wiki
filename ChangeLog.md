@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6838e6db3d7d9678b134e8c2d4dfc746b0a27fba--->
+<!---d56fb2e7d74864150c29e6dac063be305fa918e8--->
+
+## 3.1.5.dev (unreleased)
+### Fixed
+- anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
 
 <!---ad8047553f8d791db82ff0adaa91002e9fd89402--->
 
