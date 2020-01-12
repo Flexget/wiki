@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b9faa6cf333795af0dc5493ec9cab8ad93864ee7--->
+<!---435c8b69ec1fb4d446869da7e2da128543c83ee2--->
 
 ## 3.1.5.dev (unreleased)
 ### Fixed
 - tvmaze: make sure lookups prefer using IDs rather than show names
 - anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
+
+### Added
+- webui version 2.0.6
 
 <!---ad8047553f8d791db82ff0adaa91002e9fd89402--->
 
