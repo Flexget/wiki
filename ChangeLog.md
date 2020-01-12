@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2fe443db7fad33360f22d6e2a3eb2c24283f91a3--->
+<!---6fe01d096d361bb921b448ef413743ebbf7d0303--->
+
+## 3.1.4.dev (unreleased)
+### Added
+- api: add /schema/ endpoint for use by the config editor
 
 <!---7f0bf0875abb821caa7b6d93b962704ff022eafd--->
 
