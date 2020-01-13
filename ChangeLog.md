@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---071873ab24f74bdde5dc9a7efa60e6afe0963448--->
+<!---c5b0581c1f49063ea5f6c0cca80f248732fdf4a4--->
 
-## 3.1.5.dev (unreleased)
+<!---aed9f4a1ff0a1106f6536bae55419099c2f6a796--->
+
+## 3.1.5 (2020-01-13)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.4...v3.1.5)
 ### Fixed
 - tvmaze: make sure lookups prefer using IDs rather than show names
 - anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - webui version 2.0.7
 - webui version 2.0.6
 
-<!---ad8047553f8d791db82ff0adaa91002e9fd89402--->
 
 ## 3.1.4 (2020-01-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.3...v3.1.4)
