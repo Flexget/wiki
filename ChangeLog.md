@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---435c8b69ec1fb4d446869da7e2da128543c83ee2--->
+<!---071873ab24f74bdde5dc9a7efa60e6afe0963448--->
 
 ## 3.1.5.dev (unreleased)
 ### Fixed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
 
 ### Added
+- webui version 2.0.7
 - webui version 2.0.6
 
 <!---ad8047553f8d791db82ff0adaa91002e9fd89402--->
