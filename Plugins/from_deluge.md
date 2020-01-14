@@ -29,7 +29,7 @@ Here are some of the more common entry fields which will be created:
 | deluge_state | Current state in Deluge, e.g. 'Downloading' |
 | deluge_progress | Current percentage completed. |
 | deluge_label | Label from Deluge |
-| deluge_path | Deluge download location |
+| deluge_save_path | Deluge download location |
 | deluge_move_completed_path | Deluge move completed path |
 | deluge_ratio | Deluge stop ratio |
 | torrent_info_hash | The info hash for the torrent |
