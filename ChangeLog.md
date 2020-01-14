@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6ead240174e1c95af4fcbf58e56e97bed569a777--->
+<!---62b72aa3526882c16a169219a2abc31af9eabd4e--->
 
 ## 3.1.7.dev (unreleased)
 ### Fixed
+- Fix `TimeoutError: result expired` when piping daemon output to 'less' over ipc
 - Make sure log colors are stripped when redirecting output.
 
 <!---60c82ccc1b56e569c958400da8317353b8f73779--->
