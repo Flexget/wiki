@@ -19,13 +19,14 @@ This plugin passes on all information provided by deluge on as entry fields. The
 
 To get a full listing of fields provided, run the following command:
 ```sh
-flexget --test execute --tasks <name of from_transmission task> --dump
+flexget --test execute --tasks <name of from_deluge task> --dump
 ```
 
 Here are some of the more common entry fields which will be created:
 
-| deluge_state | Current state in Deluge, e.g. 'Downloading' |
+| Field | Description |
 | --- | --- |
+| deluge_state | Current state in Deluge, e.g. 'Downloading' |
 | deluge_progress | Current percentage completed. |
 | deluge_label | Label from Deluge |
 | deluge_path | Deluge download location |
