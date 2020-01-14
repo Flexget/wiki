@@ -20,7 +20,7 @@
 * [UI mockups](https://flexget.mybalsamiq.com/projects) - accounts can be requested
 * [Concepts](/Web-UI/Concepts)
 * [Roadmap (more ideas)](/Roadmap)
-* [Github Status Issue](https://github.com/Flexget/webui/issues/42)
+* [Git Project](https://github.com/Flexget/webui/issue)
 * [API](/API)
 * [Web UI v1](/Web-UI/v1)
 
@@ -49,7 +49,7 @@ web_server: 8080
 - `ssl_private_key`: Path to private key file
 - `web_ui`: `yes|no` Set to no to disable the web UI; only the API will run
 - `base_url`: Set a different base_url; default is `/`
-- `run_v2`: Enable V2 UI. **Note:** This is subject to change.
+- `run_v1`: Enable old v1 UI. **Note:** This is subject to change.
 
 Fully configured example:
 ```YAML
@@ -59,8 +59,7 @@ web_server:
   ssl_certificate: '/etc/ssl/private/myCert.pem'
   ssl_private_key: '/etc/ssl/private/myKey.key'
   web_ui: yes
-  base_url: /foo
-  run_v2: yes
+  base_url: /flexget
 ```
 
 ## Starting Web UI
@@ -71,9 +70,15 @@ $ flexget web passwd <some_password>
 $ flexget daemon start --daemonize
 ```
 
-Using the full configuration example above, the Flexget Web UI would now be available at `http://flexget_ip:3539/v2`. Full API documentation would be available at `http://flexget_ip:3939/api/`.
+Using the full configuration example above, the Flexget Web UI would now be available at `http://flexget_ip:3539/flexget`. Full API documentation would be available at `http://flexget_ip:3939/flexget/api/`.
 
 Visit the [API page](/wiki/API) for more information about it.
+
+### Running Flexget from Git
+If you are running flexget from git, you can run the following to get the latest release of webui. 
+```bash
+python dev_tools.py bundle_webui
+```
 
 
 ## Authentication
@@ -90,8 +95,6 @@ flexget web showtoken
 # Generate new token
 flexget web gentoken
 ```
-
-## Sections currently working
 
 ## Development
 The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in React, CSS or UX Design then please join our chat on [Gitter](https://gitter.im/Flexget/Flexget) and checkout the [CONTRIBUTING.md](https://github.com/Flexget/webui/blob/develop/.github/CONTRIBUTING.md) for getting setup and feel free to ask any questions in chat. 
