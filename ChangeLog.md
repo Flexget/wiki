@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---35df2d4011b4daa8efe0c605987b954b2673edd7--->
+<!---f76d30882d289cda9ce32846a479e9e815213334--->
 
-## 3.1.6.dev (unreleased)
+<!---60c82ccc1b56e569c958400da8317353b8f73779--->
+
+## 3.1.6 (2020-01-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.5...v3.1.6)
 ### Added
 - webui version 2.0.8
 
-<!---aed9f4a1ff0a1106f6536bae55419099c2f6a796--->
 
 ## 3.1.5 (2020-01-13)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.4...v3.1.5)
