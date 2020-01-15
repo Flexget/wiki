@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---62b72aa3526882c16a169219a2abc31af9eabd4e--->
+<!---da337d43602dde4bfc6a92bf100a367b14df341c--->
 
-## 3.1.7.dev (unreleased)
+<!---5ea0a7b8ff34d80a05643b31aa4c93929b718c11--->
+
+## 3.1.7 (2020-01-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.6...v3.1.7)
 ### Fixed
 - Fix `TimeoutError: result expired` when piping daemon output to 'less' over ipc
 - Make sure log colors are stripped when redirecting output.
 
-<!---60c82ccc1b56e569c958400da8317353b8f73779--->
 
 ## 3.1.6 (2020-01-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.5...v3.1.6)
