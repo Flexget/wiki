@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---da337d43602dde4bfc6a92bf100a367b14df341c--->
+<!---b3904c5069261dd4b4bac1f4ba9ac2f0eed6d7a4--->
+
+## 3.1.8.dev (unreleased)
+### Fixed
+- lostfilm http -> https in URLs ([#2576](https://github.com/Flexget/Flexget/issues/2576))
 
 <!---5ea0a7b8ff34d80a05643b31aa4c93929b718c11--->
 
