@@ -26,7 +26,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.4...v3.1.5)
 ### Fixed
 - tvmaze: make sure lookups prefer using IDs rather than show names
-- anilist al_list_status value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
+- anilist: `al_list_status` value ([#2566](https://github.com/Flexget/Flexget/issues/2566))
 
 ### Added
 - webui version 2.0.7
