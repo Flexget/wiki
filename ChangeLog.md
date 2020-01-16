@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3904c5069261dd4b4bac1f4ba9ac2f0eed6d7a4--->
+<!---fc60a0e29b4077773bf723877c89d0784f1da38e--->
 
-## 3.1.8.dev (unreleased)
+<!---a66717fd2bbb383c360bd4dac953a4118692297a--->
+
+## 3.1.8 (2020-01-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.7...v3.1.8)
 ### Fixed
 - lostfilm http -> https in URLs ([#2576](https://github.com/Flexget/Flexget/issues/2576))
 
-<!---5ea0a7b8ff34d80a05643b31aa4c93929b718c11--->
 
 ## 3.1.7 (2020-01-15)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.6...v3.1.7)
