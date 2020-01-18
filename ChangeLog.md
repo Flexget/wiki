@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7b7dde9ac436f477816fec8a20aaa24b12668f8a--->
+<!---fd04b5f2d4496d119af58cc134ca60fa3d1d1fad--->
 
-## 3.1.9.dev (unreleased)
+<!---e49dba7df4a74368fec82c4ce8cfe950d512a0f6--->
+
+## 3.1.9 (2020-01-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.8...v3.1.9)
 ### Changed
 - yts: YTS plugin now provides better quality info and movie id fields. fix [#2542](https://github.com/Flexget/Flexget/issues/2542)
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - newznab: Fix crash when searching for entries without imdb_id. fix [#2543](https://github.com/Flexget/Flexget/issues/2543)
 - series: Prevent crashes when begin episode did not match identified_by type for the series. fix [#2362](https://github.com/Flexget/Flexget/issues/2362)
 
-<!---a66717fd2bbb383c360bd4dac953a4118692297a--->
 
 ## 3.1.8 (2020-01-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.7...v3.1.8)
