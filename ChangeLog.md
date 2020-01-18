@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc60a0e29b4077773bf723877c89d0784f1da38e--->
+<!---6541703d0676edf9215d98ea45cbcda62635ed3b--->
+
+## 3.1.9.dev (unreleased)
+### Changed
+- yts: YTS plugin now provides better quality info and movie id fields. fix [#2542](https://github.com/Flexget/Flexget/issues/2542)
 
 <!---a66717fd2bbb383c360bd4dac953a4118692297a--->
 
