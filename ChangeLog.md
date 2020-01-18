@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6541703d0676edf9215d98ea45cbcda62635ed3b--->
+<!---135254cbd628fab62c261428a74afde7e5c3d56b--->
 
 ## 3.1.9.dev (unreleased)
 ### Changed
 - yts: YTS plugin now provides better quality info and movie id fields. fix [#2542](https://github.com/Flexget/Flexget/issues/2542)
+
+### Fixed
+- series: Prevent crashes when begin episode did not match identified_by type for the series. fix [#2362](https://github.com/Flexget/Flexget/issues/2362)
 
 <!---a66717fd2bbb383c360bd4dac953a4118692297a--->
 
