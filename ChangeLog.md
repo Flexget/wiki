@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e1fd2a103dfa19b3ff02223c9b09362c1b2faeef--->
+<!---a9dc2b3a145feea589ea3676b0bc6f443e6e4a36--->
 
-## 3.1.10.dev (unreleased)
+<!---13db2652a82e41aa2f3b3ef9a160a1e8855a2e79--->
+
+## 3.1.10 (2020-01-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.9...v3.1.10)
 ### Fixed
 - Make sure color codes are stripped from log messages over IPC. fix [#2558](https://github.com/Flexget/Flexget/issues/2558)
 
-<!---e49dba7df4a74368fec82c4ce8cfe950d512a0f6--->
 
 ## 3.1.9 (2020-01-18)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.8...v3.1.9)
