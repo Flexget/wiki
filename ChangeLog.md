@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fd04b5f2d4496d119af58cc134ca60fa3d1d1fad--->
+<!---e1fd2a103dfa19b3ff02223c9b09362c1b2faeef--->
+
+## 3.1.10.dev (unreleased)
+### Fixed
+- Make sure color codes are stripped from log messages over IPC. fix [#2558](https://github.com/Flexget/Flexget/issues/2558)
 
 <!---e49dba7df4a74368fec82c4ce8cfe950d512a0f6--->
 
