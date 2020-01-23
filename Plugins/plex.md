@@ -21,6 +21,14 @@ Available configuration parameters:
 | fetch | file | No | Run "flexget doc plex" for options. |
 Using selection 'all' or 'recentlyViewedShows' will only produce a list of show names while the others will produce filename and download url.
 
+    'selection'         Can be set to different keys:
+        - all                   : Default
+        - unwatched             :
+        - recentlyAdded         :
+        - recentlyViewed        :
+        - recentlyViewedShows   : Series only.
+
+
 ## Sample configuration
 Server on local network used as input for show listing:
 ```
