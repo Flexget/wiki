@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4fba9f516aa9167ce4f40255bf78ebc94260ec1b--->
+<!---df0f1411e84b419dcea504023e6295d7cd8ebec1--->
+
+## 3.1.12.dev (unreleased)
+### Fixed
+- Fix some issues with serializing lazy lookups.
 
 <!---851b54d1171aeff30621de7c223255b5c5926a43--->
 
