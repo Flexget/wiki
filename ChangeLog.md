@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---df0f1411e84b419dcea504023e6295d7cd8ebec1--->
+<!---6e87d0706740328a4e6e8299dbab1f25493d5514--->
 
-## 3.1.12.dev (unreleased)
+<!---598f84f641816bd217035c4facd287dea49980ca--->
+
+## 3.1.12 (2020-01-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.11...v3.1.12)
 ### Fixed
 - Fix some issues with serializing lazy lookups.
 
-<!---851b54d1171aeff30621de7c223255b5c5926a43--->
 
 ## 3.1.11 (2020-01-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.10...v3.1.11)
