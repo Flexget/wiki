@@ -1,7 +1,7 @@
 # Seen
 Remembers downloaded entries across all tasks and rejects them on subsequent executions.
 
-This plugin is enabled on all tasks by default. See plugin [disable_builtins](/Plugins/disable_builtins) for information how to disable builtin plugins. Note that disabling this will (likely) cause FlexGet to download all matches on every execution!
+This plugin is enabled on all tasks by default. See plugin [disable](/Plugins/disable) for information how to disable builtin plugins. Note that disabling this will (likely) cause FlexGet to download all matches on every execution!
 
 ## Local Mode
 You may not want entries seen on some tasks to affect other tasks. Seen plugin can be put into local mode, such that it will only reject entries that have been accepted previously in the same task. You can use the following configuration to enable this mode:
