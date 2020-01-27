@@ -33,7 +33,7 @@ The `--test` will ensure nothing is actually removed while you are testing, and 
 Here is how you can emulate the old options for `clean_transmission` with this new system.
 
 #### transmission_seed_limits
-If you want to make sure the built in transmission seed limits (ratio and/or idle time) are respected, you can set the `only_complete` option for `from_transmission` plugin to `yes`. You can also check the `transmission_seed_ratio_ok` and/or `transmission_seed_ratio_ok` fields as shown in the example above.
+If you want to make sure the built in transmission seed limits (ratio and/or idle time) are respected, you can set the `only_complete` option for `from_transmission` plugin to `yes`. You can also check the `transmission_seed_ratio_ok` and/or `transmission_idle_limit_ok` fields as shown in the example above.
 
 ```yaml
 from_transmission:
