@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5e9b23e37a93c7f55ca2af0842c5049ba3ba3757--->
+<!---10646fd7f8b47c361faaac8cca3da1992f622fe6--->
+
+## 3.1.14.dev (unreleased)
+### Fixed
+- Prevent errors when rotating log file. fix [#2549](https://github.com/Flexget/Flexget/issues/2549)
+- Don't double log messages when sending a command to a running daemon.
 
 <!---6e01eae0ca5abce52075b4063c2a546921075fa3--->
 
