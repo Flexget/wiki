@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---10646fd7f8b47c361faaac8cca3da1992f622fe6--->
+<!---bb57f9a56d0aacd8ef13d9b49eb5829d6dd9d70c--->
 
-## 3.1.14.dev (unreleased)
+<!---02db90649122f18d6f9a423073220264046dcb95--->
+
+## 3.1.14 (2020-01-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.13...v3.1.14)
 ### Fixed
 - Prevent errors when rotating log file. fix [#2549](https://github.com/Flexget/Flexget/issues/2549)
 - Don't double log messages when sending a command to a running daemon.
 
-<!---6e01eae0ca5abce52075b4063c2a546921075fa3--->
 
 ## 3.1.13 (2020-01-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.12...v3.1.13)
