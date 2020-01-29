@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4642224957d3659bea1e9e223ed6bb4635984235--->
+<!---4a14b89caa0db5056ec73b65e7b10f4fc70f6d42--->
 
 ## 3.1.15.dev (unreleased)
 ### Fixed
 - entry_list: Coerce entries to a JSON serializable format before attempting to send them over the API. fix [#2582](https://github.com/Flexget/Flexget/issues/2582)
+
+### Added
+- webui version 2.0.9
 
 <!---02db90649122f18d6f9a423073220264046dcb95--->
 
