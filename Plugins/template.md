@@ -34,7 +34,7 @@ tasks:
 
 ```
 
-## Execute tasks with a given template
+# Execute tasks with a given template
 To execute all tasks that have certain template you can use `--template NAME` or `-T NAME`.
 
 **Examples:**
@@ -47,7 +47,7 @@ $ flexget exec --template movies
 $ flexget exec -T tv
 ```
 
-## Merging limitations
+# Merging limitations
 
 In case you're using multiple templates in a task and more than one template has same plugin, they must be
 configured in same format for merge to be possible. Additionally (as of 1.2), all plugins, whether configured in a task or a preset, must be valid on their own, before merging. This means that all required fields must be included anywhere a plugin is configured, rather than having multiple presets merged to create a complete one.
@@ -112,7 +112,7 @@ series:
 
 Simple values cannot never be merged. So for example multiple `rss: <url>` or `include: <file>` cannot be defined within task & template. Include accepts list format for files so that can be used instead. 
 
-## Global template
+# Global template
 
 <div class="alert alert-danger" role="alert">
 New users should avoid using global templates as it is way too easy to shoot yourself in the foot if you're not careful.
