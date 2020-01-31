@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b93949d6e62e1a756a2833987558e4320d1d8677--->
+<!---a85efb54174b00dfa09af54dd7673dd93426acd0--->
+
+## 3.1.16.dev (unreleased)
+### Fixed
+- imdb_watchlist no longer crashes with empty lists
 
 <!---b863c099c3edb91c1a988ba69f893b645b66266a--->
 
