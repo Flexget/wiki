@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a85efb54174b00dfa09af54dd7673dd93426acd0--->
+<!---7988cfd2b4cc32af8146a6b0921f411c441428c1--->
 
-## 3.1.16.dev (unreleased)
+<!---89106b8d9c3b045ef0cde4f2b5a5788af5d26312--->
+
+## 3.1.16 (2020-02-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.15...v3.1.16)
 ### Fixed
 - imdb_watchlist no longer crashes with empty lists
 
-<!---b863c099c3edb91c1a988ba69f893b645b66266a--->
 
 ## 3.1.15 (2020-01-29)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.14...v3.1.15)
