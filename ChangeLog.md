@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9ce046e0d288a45e1a166303e1a4e3522f8904fc--->
+<!---6dcb4e977dac63f377336f25a062c74a83e66dbe--->
+
+## 3.1.18.dev (unreleased)
+### Fixed
+- transmission: Prevent accidental downloading of magnet links
 
 <!---79adc28f29e1ea1d8fe80cdd631094dddcbf5dcc--->
 
