@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6dcb4e977dac63f377336f25a062c74a83e66dbe--->
+<!---ff53e662aeefffa729642dc00523c69e5a7a3aed--->
 
-## 3.1.18.dev (unreleased)
+<!---b4549c22fb294bd1a4ce502c71ffb6d1f3cda73a--->
+
+## 3.1.18 (2020-02-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.17...v3.1.18)
 ### Fixed
 - transmission: Prevent accidental downloading of magnet links
 
-<!---79adc28f29e1ea1d8fe80cdd631094dddcbf5dcc--->
 
 ## 3.1.17 (2020-02-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.16...v3.1.17)
