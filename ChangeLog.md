@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---88eaae5a488a056c4ac02f8fafd94bbedd4f4a35--->
+<!---d0ba44d4c668b8449714ee4851e54fedfa733dd6--->
 
-## 3.1.19.dev (unreleased)
+<!---5ed22b836fda181a8d4dc196bebe0ec3f7f8ac8d--->
+
+## 3.1.19 (2020-02-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.18...v3.1.19)
 ### Added
 - json: Added plugin to take JSON file(s) as input.
 
-<!---b4549c22fb294bd1a4ce502c71ffb6d1f3cda73a--->
 
 ## 3.1.18 (2020-02-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.17...v3.1.18)
