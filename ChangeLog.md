@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff53e662aeefffa729642dc00523c69e5a7a3aed--->
+<!---88eaae5a488a056c4ac02f8fafd94bbedd4f4a35--->
+
+## 3.1.19.dev (unreleased)
+### Added
+- json: Added plugin to take JSON file(s) as input.
 
 <!---b4549c22fb294bd1a4ce502c71ffb6d1f3cda73a--->
 
