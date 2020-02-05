@@ -3,16 +3,15 @@ Upload files to a SFTP server.
 
 This plugin requires the pysftp Python module; to install it module run:
 
-```
-easy_install pysftp
-or
-pip install  pysftp
+```cmd
+pip install pysftp
 ```
 
 pysftp depends on the Pycrypto library. If you are using Windows,you may have to install it manually. Windows binaries are available [here](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
 
 ## Example
-```
+
+```yaml
 sftp_upload:
     host: 'hostname'
     username: 'user'
