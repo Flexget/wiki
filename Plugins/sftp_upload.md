@@ -9,16 +9,6 @@ pip install pysftp
 
 pysftp depends on the Pycrypto library. If you are using Windows,you may have to install it manually. Windows binaries are available [here](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
 
-## Example
-
-```yaml
-sftp_upload:
-    host: 'hostname'
-    username: 'user'
-    private_key: ~/.ssh/id_rsa
-    to: './TV/{{series_name}}/Season {{series_season}}/'
-```
-
 ## Options
 
 | **Name** | **Info** | **Description** |
@@ -30,4 +20,14 @@ sftp_upload:
 |  private_key  |  Path  |  Path to the private key (if any) to log into the SSH server  |
 |  private_key_pass  |  Text  |  Password for the private key (if needed)  |
 |  to  |  Text  |  Path to upload the file to; supports Jinja2 templating on the input entry. Fields suchas series_name must be populated prior to input into this plugin using metainfo_series or similar.  |
-|| delete_origin || [Yes|No](/Yes|No) || Indicates wheter to delete the original file after a successful upload. ||
+| delete_origin | Yes/No | Indicates wheter to delete the original file after a successful upload. |
+
+## Example
+
+```yaml
+sftp_upload:
+  host: 'hostname'
+  username: 'user'
+  private_key: ~/.ssh/id_rsa
+  to: './TV/{{series_name}}/Season {{series_season}}/'
+```
