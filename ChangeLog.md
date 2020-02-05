@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d0ba44d4c668b8449714ee4851e54fedfa733dd6--->
+<!---2afc77f12ed7cfd5fe36592ce0ccf7f6505ef3c2--->
+
+## 3.1.20.dev (unreleased)
+### Added
+- webui version 2.0.11
 
 <!---5ed22b836fda181a8d4dc196bebe0ec3f7f8ac8d--->
 
