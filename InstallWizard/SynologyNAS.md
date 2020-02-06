@@ -12,7 +12,7 @@ Running FlexGet in a Docker container gives you the ultimate level of control ov
   FlexGet supports Python 3.6-3.8.
 </div>
 
-This method uses the Python installation available in DSM's Package Center. As such, it will only work while the version of Python available there is one of those listed above. At time of writing, the DSM package provides Python 3.5.1.
+This method uses the Python installation available from Entware-ng's opkg Package Center. This is a relatively easy process for anyone with basic CLI experience, but does require some maintenance and troubleshooting.
 
 ## synocommunity package
 
