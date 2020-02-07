@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8f389316c023fc8d7a96a3004e163574adcff66d--->
+<!---513c122a2321cb202d151e36114d3458c8aa622f--->
 
 ## 3.1.21.dev (unreleased)
 ### Fixed
 - convert to timezone aware datetime for execution time in the api
 - convert to timezone aware datetime for status in the api
+
+### Changed
+- newznab: Allow searching all categories
 
 <!---91e2ce587086e2d876f66d1302f12e003a533c8c--->
 
