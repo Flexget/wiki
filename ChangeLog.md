@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---513c122a2321cb202d151e36114d3458c8aa622f--->
+<!---dfe92d03415aab8254c5cf4827e06ad13da10504--->
 
-## 3.1.21.dev (unreleased)
+<!---d1912839e0b598ec48a949df13d3c3ff405fd72e--->
+
+## 3.1.21 (2020-02-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.20...v3.1.21)
 ### Fixed
 - convert to timezone aware datetime for execution time in the api
 - convert to timezone aware datetime for status in the api
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - newznab: Allow searching all categories
 
-<!---91e2ce587086e2d876f66d1302f12e003a533c8c--->
 
 ## 3.1.20 (2020-02-05)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.19...v3.1.20)
