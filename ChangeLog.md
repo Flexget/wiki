@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4af1712441f9bbefa9af09a6b0ffe42041478d21--->
+<!---13dd4f571aa60c46d97b8fe1ec641981f058a7d8--->
 
 ## 3.1.23.dev (unreleased)
 ### Fixed
+- filelist login, changed set to list for entries ([#2603](https://github.com/Flexget/Flexget/issues/2603))
 - trakt_lookup: lazy lookups can now be properly serialized fix [#2583](https://github.com/Flexget/Flexget/issues/2583)
 
 <!---d862081876ccfc654efafb9dbca3d2414799a853--->
