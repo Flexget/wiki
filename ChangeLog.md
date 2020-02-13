@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c1bf4ff642a6a65ff6209eb80dbf0a67699510bd--->
+<!---5dd6a9701b281fa24b098e8c19ee5a45cfe90710--->
+
+## 3.1.25.dev (unreleased)
+### Fixed
+- Fix trakt_lookup crash when looking up items where media type detection failed. fix [#2606](https://github.com/Flexget/Flexget/issues/2606)
 
 <!---d3a97528874aad72574056d5f99a550f2ea8e757--->
 
