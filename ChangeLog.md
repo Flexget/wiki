@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5dd6a9701b281fa24b098e8c19ee5a45cfe90710--->
+<!---9e2c7ab41eec0a6aa31fc7daeaebf07e0a2ea97e--->
 
-## 3.1.25.dev (unreleased)
+<!---bd846566253a7d36c1e8bc5c80098e7999ca9747--->
+
+## 3.1.25 (2020-02-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.24...v3.1.25)
 ### Fixed
 - Fix trakt_lookup crash when looking up items where media type detection failed. fix [#2606](https://github.com/Flexget/Flexget/issues/2606)
 
-<!---d3a97528874aad72574056d5f99a550f2ea8e757--->
 
 ## 3.1.24 (2020-02-13)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.23...v3.1.24)
