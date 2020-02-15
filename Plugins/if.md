@@ -41,9 +41,12 @@ if:
 **Example:** Here is a more advanced example to reject multiple imdb_genres.
 
 ```
-imdb_lookup: yes
 if:
-  - "'horror' in imdb_genres or 'documentary' in imdb_genres": reject
+      - "imdb_genres == ['TV-Special'] or ['Short'] or ['Music']": reject
+      - "trakt_series_genres or tvdb_genres == 'Anime'": reject
+      - "tvdb_genres == 'Animation' and trakt_series_country == 'Japan'": accept
+      - "'Comedy' in (imdb_genres or []) and 1 == len(imdb_actors or [])": accept
+      - "tvmaze_series_language == 'Japanese' and tvmaze_series_show_type == 'Animation' or 'anime' in trakt_genres": accept
 ```
 
 ### Run Another Filter
