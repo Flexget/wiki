@@ -4,7 +4,7 @@ Intelligent filter for TV-series.
 ## Features
  * Episode history aware, no duplicate downloads - refer to [seen](/Plugins/seen) plugin page for more information
  * Plenty of [quality](/Plugins/series/quality) options
- * [Timeframe](/Plugins/series/timeframe), get best quality in given timeframe
+ * [Timeframe](/Plugins/series/timeframe), when used with sort_by plugin, selects the entry best matching the criteria in given timeframe
  * Episode [tracking](/Plugins/series/tracking) (for season, episode).
  * [Proper & Repack](/Plugins/series/propers) aware
  * Specials aware (grabs episodes with the series title and the word 'special')
@@ -28,7 +28,13 @@ So if we get same episode twice:
  * Some.Series.S2E10.720p.x264-FlexGet
  * Some.Series.S2E10.HR.x264-FooBar
 
-Only one of them is downloaded, with default configuration best quality is chosen.
+Only one of them is downloaded, with default configuration the first entry matching quality requirements is chosen. To get the best quality within specified timeframe use the sort_by plugin in the task.
+
+```
+sort_by:
+  field: quality
+  reverse: yes
+```
 
 ## Related plugins
 These plugins are complementary to the series plugin.
