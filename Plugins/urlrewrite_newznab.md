@@ -1,5 +1,5 @@
 # Newnzab plugin
-The newznab plugins is used in conjunction with the [discover](/Plugins/discover) plugins.
+The newznab plugin is used in conjunction with the [discover](/Plugins/discover) plugin.
 
 With the [next_series_episodes](/Plugins/next_series_episodes)
 ```
@@ -21,8 +21,8 @@ discover:
 ```
 
 
-You need then to configure the newznab plugins, which take 4 parameters :
+You need then to configure the newznab plugin, which take 4 parameters :
 - website: website of the newznab server
-- apikey:  mosst newznab requires this key in order to make search on their website
-- category: type of search to do on newznab tv or movie
-- wait  interval between two newznab call : (default  30 seconds)
+- apikey:  most newznab require this key in order to execute a search on their website
+- category: limit searches to this newznab category (tv, movie, or all)
+- wait  interval between two newznab call: (default is 30 seconds)
