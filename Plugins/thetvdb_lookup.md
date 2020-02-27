@@ -27,7 +27,7 @@ This plugin looks up more information from thetvdb.com about any entries that Fl
 | tvdb_first_air_date | Series premier date |
 | tvdb_air_time | Series air time |
 | tvdb_content_rating | Series content ration |
-| tvdb_genres | Series genres |
+| tvdb_genres | Series genres (https://www.thetvdb.com/genres)|
 | tvdb_network | Series network |
 | tvdb_banner | Series banner url |
 | tvdb_fanart | Series fanart url |
