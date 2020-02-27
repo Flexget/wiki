@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f6f0a435d8796abfbbd9d55180e00983b73959fd--->
+<!---bbab28b3bebf0724b2b84e8a10c011fa18a1f8de--->
+
+## 3.1.30.dev (unreleased)
+### Changed
+- filelist: adding missing 4k categories
 
 <!---2f3dc6d5b9dec22338da42d1b8ec004a60e6ccbe--->
 
