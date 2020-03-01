@@ -1,31 +1,45 @@
-# IMDB watch list 
+# Filmweb watch list
 
-This plugin creates an [entry](/Entry) for each item in an IMDB list.
+<div class="alert alert-info" role="alert">
+  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
+  &nbsp;
+This plugin requires the pyfilmweb Python module for accessing filmweb API. To install the Python module run: <br/><br/>
 
-This plugin is useful for example when used in a task with the [movie_list](/Plugins/List/movie_list) plugin  to add movies from your IMDb watchlist to your movie list.
+```
+$ pip install pyfilmweb==0.1.1.1
+```
+</div>
+
+This plugin creates an [entry](/Entry) for each item in an Filmweb watch list.
+
+This plugin is useful for example when used in a task with the [movie_list](/Plugins/List/movie_list) plugin  to add movies from your Filmweb watch list to your movie list.
 
 **Notes:**
 
- * Like with other APIs used by FlexGet the IMDb list is cached for 2 hours to avoid hammering.
- * List **must** be public.
+ * Like with other APIs used by FlexGet the Filmweb list is cached for 2 hours to avoid hammering.
 
 ## Example:
 
 ```yaml
 tasks:
   populate_movie_list:
-    imdb_watchlist:
-      user_id: ur9999999
-      list: watchlist
-      force_language: es-mx # Optional - Force Specified Language
+    filmweb_watchlist:
+      login: 'username/email'
+      password: 'password'
+      min_star: 5
     accept_all: yes
     list_add:
-      - movie_list: imdb_movies
+      - movie_list: filmweb_movies
 ```
 
-Your user id can be found [here](http://www.imdb.com/list/watchlist) when you are logged in.<br>
-You can force a returned language using the `force_language` parameter. A list of valid language values can be found [here](http://web.archive.org/web/20151206203420/http://www.science.co.il/Language/Locale-codes.asp). You will need to select the proper **LCID language string**.
 
-*****WARNING:***** If you are using a list other than the `watchlist`, `ratings` or `checkins`, you currently have to look up the list id from imdb and use that instead of the name. 
+**Note:** Adding this to your movie tasks or preset will NOT cause movies in Filmweb's watchlist to be accepted since this is an input, not a filter.
 
-**Note:** Adding this to your movie tasks or preset will NOT cause movies in IMDB's watchlist to be accepted since this is an input, not a filter.
+## Properties
+
+| **Name** | **Type** | **Required** | **Description** |
+| --- | --- | --- | --- |
+| login | string | true | Username or email address to your account
+| password | string | true | Password to your account
+| type | enum | false | Type of entries, 'movies' or 'shows'
+| min_star | integer | false | Minimum stars for the 'movie' or 'show' to be taken into account
