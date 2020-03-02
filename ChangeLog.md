@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2951b336721c141b6907d20db0616b7f0f8e2402--->
+<!---44a1ff1b3e47af8e655e8c3513e124cdb1b421ba--->
+
+## 3.1.31.dev (unreleased)
+### Fixed
+- guessit: Fix potential crash when name could not be found. fix [#2611](https://github.com/Flexget/Flexget/issues/2611)
 
 <!---23f38ee49e824a33c9ef05cb65c0235d136bd7dd--->
 
