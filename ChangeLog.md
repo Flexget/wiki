@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---aecfc73d927ba9898ca1e4277f3db0fd7e5b8eaa--->
+<!---fb42bfef8526eca7f0d2874402c9c3b904660662--->
+
+## 3.1.32.dev (unreleased)
+### Added
+- free_space: Add ability to use plugin on remote server
 
 <!---6f3552f59cd3b0336fa03bf34b7f87fb61db030f--->
 
