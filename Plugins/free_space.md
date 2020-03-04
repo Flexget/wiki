@@ -2,8 +2,8 @@
 This plugin will abort a task if free space on a given drive is getting low.
 
 
-| **Option** | **Values** | **Description** |
-| --- | --- | --- |
+| **Option** |     **Values** | **Description** |
+| --- | ------- | --- |
 | path | \<directory path> | The path to monitor for free space. |
 | space | \<integer> | Amount of free space (in MB) that you require for new entries to be allowed. |
 | port <sup>**a**</sup> | \<integer> | The port used for SSH connection to remote server. Default is 22. |
@@ -14,7 +14,7 @@ This plugin will abort a task if free space on a given drive is getting low.
 
 **a/b/c:** These options are only used if checking for free space on a remote server.
 
-**a:** Only use this option if port 22 has been port-forwarded to a different port for SSH access.
+**a:** Only use this option if the remote server is listening for an SSH connection on a port that is different than port 22 or id port 22 is being port-forwarded.
 
 **b:** These three options are required for checking for free space on a remote server.
 
