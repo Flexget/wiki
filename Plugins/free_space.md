@@ -7,7 +7,7 @@ This plugin will abort a task if free space on a given drive is getting low.
 | path | \<directory path> | The path to monitor for free space. |
 | space | \<integer> | Amount of free space (in MB) that you require for new entries to be allowed. |
 | port <sup>**a**</sup> | \<integer> | The port used for SSH connection to remote server. Default is 22. |
-| host <sup>**b**</sup> | \<URL/IP>| The URL or IP address of the remote server. Often similar to `unique.hostingcompany.com`.|
+| host <sup>**b**</sup> | \<URL/IP>| The URL or IP address of the remote server. Often similar to `unique.hostingcompany.com` for a seedbox/VPS or `192.168.1.42` if the server is on your network.|
 | user <sup>**b**</sup> | \<username> | The username that is used to login to the remote server.|
 | ssh_key_filepath <sup>**b**</sup> | \<directory path> | The directory path to the public RSA key. This is needed for passwordless login. Often `/home/user_name/.ssh/id_rsa`. [Example setup guide](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/).|
 | allotment <sup>**c**</sup> | \<integer> | The amount of space that is allowed to be used (in MB) on the remote server. |
