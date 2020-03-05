@@ -28,12 +28,12 @@ Abort task if less than 500MB remaining on the disk where `/location/to/monitor`
 
 ```
 free_space:
-  path: /location/to/monitor
+  path: location/to/monitor
   space: 500
 ```
 **Basic remote server example**:
 
-Abort task if less than 5000MB (5GB) remaining on the disk where `/remote/location/to/monitor` is located.
+Abort task if less than 5000MB (5GB) remaining on the disk where `/remote/location/to/monitor` is located. Remote paths must be enclosed in quotation marks. 
 
 ```
 free_space:
@@ -46,7 +46,7 @@ free_space:
 
 **Advanced remote server example**:
 
-Abort task if less than 15000MB (15GB) remaining in the directory where `/media/sdh1/username` is located. This assumes that 1000000 (1TB) of usage is allowed and the user's home directory is specified by `path`. This also assumes that the remote server is listening on port 8022 for an SSH connection.
+Abort task if less than 15000MB (15GB) remaining in the directory where `/media/sdh1/username` is located. This assumes that 1000000MB (1TB) of usage is allowed and the user's home directory is specified by `path`. This also assumes that the remote server is listening on port 8022 for an SSH connection. Remote paths must be enclosed in quotation marks. 
 
 ```
 free_space:
