@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d1ce17f23396d6d8731c6c70b553983f317015f8--->
+<!---84e8c563c25800ce981f2b75357faf508f3366a0--->
 
-## 3.1.33.dev (unreleased)
+<!---f177b9bb4390e1d902fb3e44e4fb963f46bc453e--->
+
+## 3.1.33 (2020-03-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.32...v3.1.33)
 ### Fixed
 - Limit get requests so cloudflare challenge answers timely ([#2614](https://github.com/Flexget/Flexget/issues/2614))
 
-<!---0e13c30c5431552ee6318b5002d766060fb0fea4--->
 
 ## 3.1.32 (2020-03-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.31...v3.1.32)
