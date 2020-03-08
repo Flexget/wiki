@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---84e8c563c25800ce981f2b75357faf508f3366a0--->
+<!---f0f51c933b1a3681b40f1cde4d558d44496aa8d7--->
+
+## 3.1.34.dev (unreleased)
+### Fixed
+- cfscrape [#2614](https://github.com/Flexget/Flexget/issues/2614)
 
 <!---f177b9bb4390e1d902fb3e44e4fb963f46bc453e--->
 
