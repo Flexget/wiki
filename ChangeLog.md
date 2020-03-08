@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---44b5adb19989b0ff96e4d7cd9dea67adc4fe87f7--->
+<!---d1ce17f23396d6d8731c6c70b553983f317015f8--->
+
+## 3.1.33.dev (unreleased)
+### Fixed
+- Limit get requests so cloudflare challenge answers timely ([#2614](https://github.com/Flexget/Flexget/issues/2614))
 
 <!---0e13c30c5431552ee6318b5002d766060fb0fea4--->
 
