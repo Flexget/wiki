@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f0f51c933b1a3681b40f1cde4d558d44496aa8d7--->
+<!---45fdc8df6211fe6c64e1b0caa0452fd640b5b162--->
 
-## 3.1.34.dev (unreleased)
+<!---21f34ae093518ea2eb7a2502d410f49bd304e5f7--->
+
+## 3.1.34 (2020-03-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.33...v3.1.34)
 ### Fixed
 - cfscrape [#2614](https://github.com/Flexget/Flexget/issues/2614)
 
-<!---f177b9bb4390e1d902fb3e44e4fb963f46bc453e--->
 
 ## 3.1.33 (2020-03-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.32...v3.1.33)
