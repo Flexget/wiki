@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---45fdc8df6211fe6c64e1b0caa0452fd640b5b162--->
+<!---e0e5f9b7d8cfbf8a7748091bd8fbc9cbb9f2dc66--->
+
+## 3.1.35.dev (unreleased)
+### Fixed
+- cfscrape fixes
 
 <!---21f34ae093518ea2eb7a2502d410f49bd304e5f7--->
 
