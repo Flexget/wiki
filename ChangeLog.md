@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ecb6c87829f1466d5a9fb9eb8520355166c5dd0e--->
+<!---ebc981432e9fd6d3c2d5ff1164ed676b54b7c7ce--->
 
-## 3.1.37.dev (unreleased)
+<!---917a82123587480c0b33de3c02e6544b9d5439c3--->
+
+## 3.1.37 (2020-03-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.36...v3.1.37)
 ### Added
 - webui version 2.0.15
 
 ### Changed
 - anilist: Prevent duplicates and None values in alternate names
 
-<!---9a9327e420df7bbd4009fa84ef6139608c280d30--->
 
 ## 3.1.36 (2020-03-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.35...v3.1.36)
