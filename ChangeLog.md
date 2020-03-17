@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---222ba74ad6ff2c82328fb945c6a6e2e4e067bad0--->
+<!---ecb6c87829f1466d5a9fb9eb8520355166c5dd0e--->
 
 ## 3.1.37.dev (unreleased)
 ### Added
 - webui version 2.0.15
+
+### Changed
+- anilist: Prevent duplicates and None values in alternate names
 
 <!---9a9327e420df7bbd4009fa84ef6139608c280d30--->
 
