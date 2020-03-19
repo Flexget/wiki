@@ -14,5 +14,6 @@ If you need to configure a proxy for only one protocol, or different proxies for
 ```
 proxy:
   http: http://myproxy.com:8080
-  ftp: http://otherproxy.com:9090
+  ftp: http://otherproxy.com:
+  socks5: socks5://proxy:22
 ```
