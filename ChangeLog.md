@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fb7651bc8c7acfc7cf66904dec50f9cf81da8758--->
+<!---0cabd82f95faeeda2a629d1c4c3dd96402406c1e--->
 
 ## 3.1.41.dev (unreleased)
 ### Fixed
+- fix tray_icon image path by using relative path from file
 - Don't crash when systray related imports fail. fix [#2629](https://github.com/Flexget/Flexget/issues/2629)
 
 <!---cd0f3e95734a4bba44ebc8997aa306a1df04090c--->
