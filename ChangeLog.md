@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0cabd82f95faeeda2a629d1c4c3dd96402406c1e--->
+<!---00a0f715bb74d6f786714317afc97647d72fa16f--->
 
-## 3.1.41.dev (unreleased)
+<!---ff8e8b22529dbf19a97176653d84834ccf9fd7ab--->
+
+## 3.1.41 (2020-03-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.40...v3.1.41)
 ### Fixed
 - fix tray_icon image path by using relative path from file
 - Don't crash when systray related imports fail. fix [#2629](https://github.com/Flexget/Flexget/issues/2629)
 
-<!---cd0f3e95734a4bba44ebc8997aa306a1df04090c--->
 
 ## 3.1.40 (2020-03-19)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.39...v3.1.40)
