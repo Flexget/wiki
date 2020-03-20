@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---00a0f715bb74d6f786714317afc97647d72fa16f--->
+<!---04e789014304c045df6bd21a513d46020ab6bd6d--->
+
+## 3.1.42.dev (unreleased)
+### Added
+- AniList: Option to filter by custom lists
 
 <!---ff8e8b22529dbf19a97176653d84834ccf9fd7ab--->
 
