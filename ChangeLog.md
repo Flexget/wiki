@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---83e2bd4b765750734e5976be833848e8ed18c92f--->
+<!---f35461073927ed853d6d1b7d07595de455feb2af--->
+
+## 3.1.43.dev (unreleased)
+### Changed
+- added ability to disable tray icon. Closes [#2633](https://github.com/Flexget/Flexget/issues/2633)
 
 <!---f3a11250215da79b5d71f52e1b6305dd760f6a65--->
 
