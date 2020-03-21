@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---04e789014304c045df6bd21a513d46020ab6bd6d--->
+<!---83e2bd4b765750734e5976be833848e8ed18c92f--->
 
-## 3.1.42.dev (unreleased)
+<!---f3a11250215da79b5d71f52e1b6305dd760f6a65--->
+
+## 3.1.42 (2020-03-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.41...v3.1.42)
 ### Added
 - AniList: Option to filter by custom lists
 
-<!---ff8e8b22529dbf19a97176653d84834ccf9fd7ab--->
 
 ## 3.1.41 (2020-03-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.40...v3.1.41)
