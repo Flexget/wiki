@@ -10,6 +10,7 @@ Further information is available about [daemon operation](/Daemon).
 | `start` || Starts the daemon  |
 | |`-d`, `--daemonize`| Causes process to daemonize after starting
 | |`--autoreload-config` | Automatically reload the config from disk if the daemon detects any changes |
+| | `--disable-tray-icon` | Disable the tray icon from loading |
 | `stop` || Shutdown the running daemon |
 || `--wait`| Wait for all queued tasks to finish before stopping daemon |
 | `status` || Check if a daemon is running |
