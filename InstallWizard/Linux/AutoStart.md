@@ -17,9 +17,9 @@ put
 @reboot /path/to/flexget daemon start -d
 ```
 
-### Upstart script (Ubuntu family)
+### Upstart script (Ubuntu =<16.04)
 
-sudo vim /etc/init/flexget.conf
+`sudo nano /etc/init/flexget.conf`
 ```/bin/bash
 # Flexget daemon autostart                                                                                                                                                      
 
@@ -325,12 +325,12 @@ systemctl start flexget
 ```
 
 
-### Systemd user unit (Arch Linux, Fedora, etc)
+### Systemd user unit (Ubuntu >=18.04, Arch Linux, Fedora, etc)
 To have FlexGet accessible as a systemd user unit.
 
 See [here](https://wiki.archlinux.org/index.php/Systemd/User#User_Services) for more.
 
-`sudo vim /usr/lib/systemd/user/flexget.service` or `vim ~/.config/systemd/user/flexget.service`
+`sudo nano /usr/lib/systemd/user/flexget.service` or `vim ~/.config/systemd/user/flexget.service`
 ```
 [Unit](/Unit)
 Description=FlexGet Daemon
