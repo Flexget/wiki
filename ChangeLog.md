@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0cd6712f0c8cfe0fe994054f437b1e6f4c5888ba--->
+<!---7893273f38ef526e0d4a6bd5f0b7c58f3e774af2--->
 
 ## 3.1.44.dev (unreleased)
 ### Fixed
+- Made tray icon opt in instead of opt out, by using `--enable-tray-icon`. Closes [#2633](https://github.com/Flexget/Flexget/issues/2633)
 - moved the import of tray icon to only occur if not disabled. closes [#2633](https://github.com/Flexget/Flexget/issues/2633)
 
 <!---e5c52e7e9039da0842ecea2994af4924ccb73c7f--->
