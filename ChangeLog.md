@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---aa0c06626c74e1bf189418b137b097b28d98b4d8--->
+<!---0b72433adb28823a30af2ce25ac1668c68a4bdf6--->
 
-## 3.1.44.dev (unreleased)
+<!---8bf49e697ee0088293bff1f97a4e2e6f5b6d0e3e--->
+
+## 3.1.44 (2020-03-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.43...v3.1.44)
 ### Fixed
 - Made tray icon opt in instead of opt out, by using `--enable-tray-icon`. Closes [#2633](https://github.com/Flexget/Flexget/issues/2633)
 - moved the import of tray icon to only occur if not disabled. closes [#2633](https://github.com/Flexget/Flexget/issues/2633)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - qbittorent - Added ability to render `label` field. Closes [#2604](https://github.com/Flexget/Flexget/issues/2604)
 
-<!---e5c52e7e9039da0842ecea2994af4924ccb73c7f--->
 
 ## 3.1.43 (2020-03-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.42...v3.1.43)
