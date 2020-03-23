@@ -1,4 +1,9 @@
 # Pending approval
+<div class="alert alert-warning" role="alert">
+<span class="glyphicon glyphicon-exclamation-sign"></span>
+  &nbsp;
+This plugin has been deprecated. Use <a href="/Plugins/List/pending_list"><code>pending_list</code></a> instead.
+</div>
 A manual operation filter plugin. Stores entries in local cache until their status is set to approved via CLI or API. All approved entries will be accepted in filter phase.  
 Used to cherrypick entries from a source.
 
