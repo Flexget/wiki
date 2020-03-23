@@ -121,6 +121,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. [Managed List](/Plugins/List) |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. [Managed List](/Plugins/List) |
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. [Managed List](/Plugins/List) |
+| [pending_list](/Plugins/List/pending_list) | Manually approve entries |
 
 ## Filter
 Reject or Accept **[entries](/Entry)** based on given rules. A single task may have any number of filters.  
@@ -158,8 +159,7 @@ Filters based on preexisting data or operations within FlexGet
 | [only_new](/Plugins/only_new) | Causes all entries that were in the task on the previous run to be rejected at the input phase. |
 | [require_field](/Plugins/require_field) | Reject entries that do not have the specified fields. |
 | [seen_movies](/Plugins/seen_movies) | Rejects already downloaded movies (detected by imdb-link). |
-| [seen](/Plugins/seen) | Reject already downloaded entries. [Builtin](/Builtin) | 
-|[pending_approval](/Plugins/pending_approval)| Accept by manually approving entries
+| [seen](/Plugins/seen) | Reject already downloaded entries. [Builtin](/Builtin) |
 
 ### Torrent specific filters
 Filters based specifically for torrents
