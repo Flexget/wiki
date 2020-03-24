@@ -24,11 +24,11 @@ To have flexget run as a system unit.
 `sudo nano /usr/lib/systemd/system/flexget.service`
 
 ```
-[Unit](/Unit)
+[Unit]
 Description=Flexget Daemon
 After=network.target
 
-[Service](/Service)
+[Service]
 Type=simple
 User=daemon
 Group=daemon
@@ -38,7 +38,7 @@ ExecStart=/usr/bin/flexget daemon start
 ExecStop=/usr/bin/flexget daemon stop
 ExecReload=/usr/bin/flexget daemon reload
 
-[Install](/Install)
+[Install]
 WantedBy=multi-user.target
 ```
 
@@ -82,16 +82,16 @@ See [here](https://wiki.archlinux.org/index.php/Systemd/User#User_Services) for 
 
 `sudo nano /usr/lib/systemd/user/flexget.service` or `vim ~/.config/systemd/user/flexget.service`
 ```
-[Unit](/Unit)
+[Unit]
 Description=FlexGet Daemon
 After=network.target
 
-[Service](/Service)
+[Service]
 ExecStart=/usr/bin/flexget daemon start
 ExecStop=/usr/bin/flexget daemon stop
 ExecReload=/usr/bin/flexget daemon reload
 
-[Install](/Install)
+[Install]
 WantedBy=default.target
 ```
 
