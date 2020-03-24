@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---093a3a84cbd641f75034c5c9f6247862f5fb730a--->
+<!---d5d5cdfda9e803c9062a1a20f9fe3e77d71f5614--->
 
-## 3.1.45.dev (unreleased)
+<!---6c464c0f4e4ee34b417cdd45a9de93f67467bdd3--->
+
+## 3.1.45 (2020-03-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.44...v3.1.45)
 ### Changed
 - update pyload api (co-author: stefan.bischoff@9plus.de)
 
-<!---8bf49e697ee0088293bff1f97a4e2e6f5b6d0e3e--->
 
 ## 3.1.44 (2020-03-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.43...v3.1.44)
