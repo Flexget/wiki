@@ -34,9 +34,9 @@ User=daemon
 Group=daemon
 UMask=000
 WorkingDirectory=/etc/flexget
-ExecStart=/usr/bin/flexget daemon start
-ExecStop=/usr/bin/flexget daemon stop
-ExecReload=/usr/bin/flexget daemon reload
+ExecStart=/usr/local/bin/flexget daemon start
+ExecStop=/usr/local/bin/flexget daemon stop
+ExecReload=/usr/local/bin/flexget daemon reload
 
 [Install]
 WantedBy=multi-user.target
@@ -87,9 +87,9 @@ Description=FlexGet Daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/flexget daemon start
-ExecStop=/usr/bin/flexget daemon stop
-ExecReload=/usr/bin/flexget daemon reload
+ExecStart=/usr/local/bin/flexget daemon start
+ExecStop=/usr/local/bin/flexget daemon stop
+ExecReload=/usr/local/bin/flexget daemon reload
 
 [Install]
 WantedBy=default.target
