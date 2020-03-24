@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0b72433adb28823a30af2ce25ac1668c68a4bdf6--->
+<!---093a3a84cbd641f75034c5c9f6247862f5fb730a--->
+
+## 3.1.45.dev (unreleased)
+### Changed
+- update pyload api (co-author: stefan.bischoff@9plus.de)
 
 <!---8bf49e697ee0088293bff1f97a4e2e6f5b6d0e3e--->
 
