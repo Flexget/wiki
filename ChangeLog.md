@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5d5cdfda9e803c9062a1a20f9fe3e77d71f5614--->
+<!---180f9eb9668705623e842f8e7ad92e7cfc552c62--->
+
+## 3.1.46.dev (unreleased)
+### Fixed
+- Fix crash related to missing packaging package. fix [#2641](https://github.com/Flexget/Flexget/issues/2641)
 
 <!---6c464c0f4e4ee34b417cdd45a9de93f67467bdd3--->
 
