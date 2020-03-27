@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---180f9eb9668705623e842f8e7ad92e7cfc552c62--->
+<!---101455eef26ccf9f216b000ca9700c7b85d5ae99--->
 
-## 3.1.46.dev (unreleased)
+<!---46afbe1d96eb578c9478bfa90643dc8a40189503--->
+
+## 3.1.46 (2020-03-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.45...v3.1.46)
 ### Fixed
 - Fix crash related to missing packaging package. fix [#2641](https://github.com/Flexget/Flexget/issues/2641)
 
-<!---6c464c0f4e4ee34b417cdd45a9de93f67467bdd3--->
 
 ## 3.1.45 (2020-03-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.44...v3.1.45)
