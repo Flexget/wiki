@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8683a5ed6fe1a6f9f74e765add4675816d728a50--->
+<!---da4b0fbee9c9eab1079b9f9e1c022c4eaaec25a4--->
 
-## 3.1.47.dev (unreleased)
+<!---7a6c34f8c9d06262024baf1ede2dd9074fdd64f4--->
+
+## 3.1.47 (2020-04-02)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.46...v3.1.47)
 ### Added
 - *  ETTV rewriter plugin
 - ETTV rewriter ([#2645](https://github.com/Flexget/Flexget/issues/2645))
 
-<!---46afbe1d96eb578c9478bfa90643dc8a40189503--->
 
 ## 3.1.46 (2020-03-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.45...v3.1.46)
