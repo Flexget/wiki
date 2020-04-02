@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---101455eef26ccf9f216b000ca9700c7b85d5ae99--->
+<!---8683a5ed6fe1a6f9f74e765add4675816d728a50--->
+
+## 3.1.47.dev (unreleased)
+### Added
+- *  ETTV rewriter plugin
+- ETTV rewriter ([#2645](https://github.com/Flexget/Flexget/issues/2645))
 
 <!---46afbe1d96eb578c9478bfa90643dc8a40189503--->
 
