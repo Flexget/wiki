@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b990741e6f6b2baa0164c3e3c5bd90c2b8458628--->
+<!---6130715e6f17c1c1ff259cebfcb86622b2d4ad39--->
 
-## 3.1.48.dev (unreleased)
+<!---a6fd174f4e24d351a9bf3f74fc18ab99aa688a1a--->
+
+## 3.1.48 (2020-04-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.47...v3.1.48)
 ### Fixed
 - imdb_id usage in tmdb api
 
-<!---7a6c34f8c9d06262024baf1ede2dd9074fdd64f4--->
 
 ## 3.1.47 (2020-04-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.46...v3.1.47)
