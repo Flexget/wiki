@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---da4b0fbee9c9eab1079b9f9e1c022c4eaaec25a4--->
+<!---b990741e6f6b2baa0164c3e3c5bd90c2b8458628--->
+
+## 3.1.48.dev (unreleased)
+### Fixed
+- imdb_id usage in tmdb api
 
 <!---7a6c34f8c9d06262024baf1ede2dd9074fdd64f4--->
 
