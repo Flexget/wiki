@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d2211dd2b034501392ced3f4a61c201ca1ffe36c--->
+<!---dbc3e6b4daaba96ca9a40d6348932576c972171f--->
 
-## 3.1.49.dev (unreleased)
+<!---8813eca6c37a9fc609b285d9fad04008387d8f4c--->
+
+## 3.1.49 (2020-04-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.48...v3.1.49)
 ### Added
 - from_transmission: Add field 'transmission_errorString' ([#2648](https://github.com/Flexget/Flexget/issues/2648))
 
-<!---a6fd174f4e24d351a9bf3f74fc18ab99aa688a1a--->
 
 ## 3.1.48 (2020-04-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.47...v3.1.48)
