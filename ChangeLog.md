@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6130715e6f17c1c1ff259cebfcb86622b2d4ad39--->
+<!---d2211dd2b034501392ced3f4a61c201ca1ffe36c--->
+
+## 3.1.49.dev (unreleased)
+### Added
+- from_transmission: Add field 'transmission_errorString' ([#2648](https://github.com/Flexget/Flexget/issues/2648))
 
 <!---a6fd174f4e24d351a9bf3f74fc18ab99aa688a1a--->
 
