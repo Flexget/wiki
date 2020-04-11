@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---39aa2c003656078739666b37aaa1183a69e39325--->
+<!---d7a56ea6d057298da11a1cde09ebe3dc941db54f--->
+
+## 3.1.51.dev (unreleased)
+### Fixed
+- check for `title` in entry for `input_cache` upgrade. Closes [#2636](https://github.com/Flexget/Flexget/issues/2636)
 
 <!---e21cd22ec0147152cead0850fada284316a15280--->
 
