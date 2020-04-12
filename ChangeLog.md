@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d7a56ea6d057298da11a1cde09ebe3dc941db54f--->
+<!---1b121724ebe4be28fc2b908e419dc4ad948fab44--->
 
 ## 3.1.51.dev (unreleased)
 ### Fixed
+- removes warning when using sftp_download ([#2649](https://github.com/Flexget/Flexget/issues/2649))
 - check for `title` in entry for `input_cache` upgrade. Closes [#2636](https://github.com/Flexget/Flexget/issues/2636)
 
 <!---e21cd22ec0147152cead0850fada284316a15280--->
