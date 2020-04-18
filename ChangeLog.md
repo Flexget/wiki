@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bd41350970fc18d508fa5871868c53db9ea45483--->
+<!---995f637f94afdf812d4818a21a40a5baa2d6844f--->
 
-## 3.1.51.dev (unreleased)
+<!---65470b674beff7d0680d8f459e7ae3d60cb6a76f--->
+
+## 3.1.51 (2020-04-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.50...v3.1.51)
 ### Fixed
 - Removed pillow and pystray as dependencies ([#2652](https://github.com/Flexget/Flexget/issues/2652))
 - removes warning when using sftp_download ([#2649](https://github.com/Flexget/Flexget/issues/2649))
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - webui version 2.0.16
 
-<!---e21cd22ec0147152cead0850fada284316a15280--->
 
 ## 3.1.50 (2020-04-10)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.49...v3.1.50)
