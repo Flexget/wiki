@@ -5,13 +5,21 @@ The clean_transmission plugin used to exist to remove old torrents from transmis
 ```yaml
 tasks:
   remove stale torrents:
-    from_transmission: yes
+    from_transmission: 
+      host: localhost
+      port: 9091
+      username: myusername
+      password: mypassword
     disable: [seen, seen_info_hash]
     if:
       - transmission_progress == 100: accept
       - not transmission_seed_ratio_ok: reject
       - not transmission_idle_limit_ok: reject
     transmission:
+      host: localhost
+      port: 9091
+      username: myusername
+      password: mypassword
       action: remove
 ```
 
