@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---266f8c520fbd83ee6db74d899d0b5f2f73811bfe--->
+<!---01d1f469e9efaf98b8a0f309d4a9c75f0b1083e2--->
 
 ## 3.1.52.dev (unreleased)
 ### Fixed
 - Updated lostfilm url and regexp
+
+### Changed
+- new search plugin for Filelist with API ([#2658](https://github.com/Flexget/Flexget/issues/2658))
 
 <!---65470b674beff7d0680d8f459e7ae3d60cb6a76f--->
 
