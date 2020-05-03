@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---995f637f94afdf812d4818a21a40a5baa2d6844f--->
+<!---266f8c520fbd83ee6db74d899d0b5f2f73811bfe--->
+
+## 3.1.52.dev (unreleased)
+### Fixed
+- Updated lostfilm url and regexp
 
 <!---65470b674beff7d0680d8f459e7ae3d60cb6a76f--->
 
