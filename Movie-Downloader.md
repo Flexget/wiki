@@ -1,28 +1,31 @@
 tasks:
-  #task to pull movies from trakt.tv watchlist and add to the movie list
   watchlist:
     priority: 1
-    trakt_list:  # You can also use imdb_list
-      account: my_acc_name
-      list: watchlist
+    trakt_list:  
+      account: asljasfh
+      list: movies
     accept_all: yes
-    seen: local  # We don't want accepted movies on this feed to affect actual download feed
+    seen: local
     list_add:
-      - movie_list: watchlist  # you can call this whatever you want
+      - movie_list: movies
 
   # task that automatically downloads movies from the movie_list
   movies search:
-    trakt_lookup: yes  # can also use imdb_lookup or tmdb_lookup
-    priority: 10 # run after the movie queue fill task
+    trakt_lookup: yes
+    priority: 10 
     discover:
       what:
-        - movie_list: watchlist
+        - movie_list: movies
       from:
         - piratebay: yes
       interval: 7 days
     torrent_alive: 10 # Will reject results with less than 10 seeds
     quality: dvdrip+ # Make sure no screeners or cams are downloaded
+    content_size:
+      min: 12
+      max: 2500
+  strict: no
     list_match:
       from:
-        - movie_list: watchlist
+        - movie_list: movies
     download: Users/petersterling/Desktop/torrents
