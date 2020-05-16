@@ -1,9 +1,9 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---da198d9b677172f35d7604c87522658459a509cb--->
+<!---cf27b9846514d5047fbe8790a1ab2332e2277e9e--->
 
-## 3.1.52.dev (unreleased)
+## 3.1.53.dev (unreleased)
 ### Fixed
 - torznab search should use the search_strings if available
 - Updated lostfilm url and regexp
