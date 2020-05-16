@@ -25,34 +25,35 @@ filelist:
 ```
 
 **Categories**
-* Anime 
-* Audio 
-* Desene
-* Diverse
-* Docs
-* FLAC
-* Filme 3D
-* Filme 4K
-* Filme 4K Blu-Ray
-* Filme Blu-Ray
-* Filme DVD
-* Filme DVD-RO
-* Filme HD
-* Filme HD-RO
-* Filme SD
-* Jocuri Console
-* Jocuri PC
-* Linux
-* Mobile
-* Programe
-* Seriale 4K
-* Seriale HD
-* Seriale SD
-* Sport
-* TV
-* Videoclip
-* XXX
-
+```
+Anime 
+Audio 
+Desene
+Diverse
+Docs
+FLAC
+Filme 3D
+Filme 4K
+Filme 4K Blu-Ray
+Filme Blu-Ray
+Filme DVD
+Filme DVD-RO
+Filme HD
+Filme HD-RO
+Filme SD
+Jocuri Console
+Jocuri PC
+Linux
+Mobile
+Programe
+Seriale 4K
+Seriale HD
+Seriale SD
+Sport
+TV
+Videoclip
+XXX
+```
 ## Example Usage
 
 ```
