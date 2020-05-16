@@ -58,7 +58,7 @@ XXX
 
 ```
 tasks:
-    movies-discover:
+  movies-discover:
     template: movies
     sort_by:
       - field: torrent_seeds
