@@ -1,6 +1,10 @@
 # FileList
 This search plugin will get results from [filelist.ro](https://filelist.ro).
 
+<div class="alert alert-warning" role="alert">
+This plugin will be deprecated with the next flexget release please consider using the new <a href="https://flexget.com/Searches/filelist_api">filelist_api</a>. Also since the .ro domain stopped working this plugin is broken.
+</div>
+
 ## Configuration
 Requires username, password and passkey. Passkey can be retrieved from [here](https://filelist.ro/getrss.php).
 ```
