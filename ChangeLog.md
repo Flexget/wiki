@@ -1,9 +1,9 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4d41dc84b955f85dd09be20b5f7a88e9bf27da2e--->
+<!---65212732236d92db4a9d32343467ede2e4b2a459--->
 
-## 3.1.53.dev (unreleased)
+## 3.1.54.dev (unreleased)
 ### Fixed
 - newznab indexers imdb id usage
 - torznab search should use the search_strings if available
