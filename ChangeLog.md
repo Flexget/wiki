@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e6abd60193d2fd63043ec05f95baa4b0017ff2a1--->
+<!---4d41dc84b955f85dd09be20b5f7a88e9bf27da2e--->
 
 ## 3.1.53.dev (unreleased)
 ### Fixed
@@ -13,6 +13,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - new search plugin for Filelist with API ([#2658](https://github.com/Flexget/Flexget/issues/2658))
 
 ### Added
+- webui version 2.0.18
 - webui version 2.0.17
 
 <!---65470b674beff7d0680d8f459e7ae3d60cb6a76f--->
