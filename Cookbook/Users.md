@@ -5,7 +5,8 @@ These are the complete configurations of actual end users. Feel free to add your
   
 Please post the version of FlexGet that your config was designed for, so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
 
-
+## Tested & Working 3.x Configs
+* [frankyw](https://github.com/frankyw/flexget) (v3.1.51) - Trakt Movie + Multiple TV Lists, Transmission, list cleanup, YAML anchors, IRC plugin.
 
 ## Tested & Working 2.x Configs
 While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/UpgradeActions) regarding breaking changes in minor version incrementations.
