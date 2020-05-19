@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---89c9e9e074c31760c5b3c9cf5538193b5c9f4b8b--->
+<!---0b688564356f2d93463f4e795da793d514fce4d3--->
 
-## 3.1.55.dev (unreleased)
+<!---fa20a7cb216057e9ca9c2abc73a2348d70e7a888--->
+
+## 3.1.55 (2020-05-19)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.51...v3.1.55)
 ### Fixed
 - newznab indexers imdb id usage
 - torznab search should use the search_strings if available
@@ -16,7 +19,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - webui version 2.0.18
 - webui version 2.0.17
 
-<!---65470b674beff7d0680d8f459e7ae3d60cb6a76f--->
 
 ## 3.1.51 (2020-04-18)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.50...v3.1.51)
