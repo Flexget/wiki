@@ -4,7 +4,7 @@ Generate entries from SFTP to download with [sftp_download](sftp_download). This
 This plugin requires the pysftp Python module; to install it run:
 
 ```
-pip install  pysftp
+pip install pysftp
 ```
 **NOTE:** If experiencing issues with connections, you may need to [downgrade](https://github.com/Yenthe666/auto_backup/issues/47) pysftp to 0.2.8 (if using 0.2.9).
 
@@ -13,6 +13,15 @@ This can easily be done by running:
 pip uninstall pysftp
 pip install pysftp==0.2.8
 ```
+
+If you are using a custom port, make sure to not put it in quotes so it is specified as a number:
+```
+sftp_list:
+  host: example.com
+  username: Username
+  port: 2222
+```
+
 pysftp depends on the Pycrypto library. If you are using Windows, you may have to install it manually. Windows binaries are available [here](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
 
 **Example**
