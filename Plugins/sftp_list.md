@@ -44,3 +44,5 @@ sftp_list:
 |  get_size  |  [Yes\|No]  |  Indicates whether to calculate the size of the remote file/directory. WARNING: This can be very slow when computing the size of directories!  |
 |  files_only  |  [Yes\|No]  |  Indicates whether to omit directories from the results.  |
 | dirs | Text | List of directories to list |
+| socket_timeout_sec | Number | Socket timeout in seconds (default 15 seconds). |
+| connection_tries | Number | Number of times to attempt to connect before failing (default 3). |
