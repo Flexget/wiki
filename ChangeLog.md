@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6b5b9921e7122bd27dee45dad6773bce371307e3--->
+<!---87cf2a792475e9ada841027d834ff90ef1f628cc--->
+
+## 3.1.58.dev (unreleased)
+### Changed
+- Fail entries instead of throwing a PluginError when Jinja templating fails for file operations plugins([#2685](https://github.com/Flexget/Flexget/issues/2685))
 
 <!---450e9d0bd4b503403fac4a683e6f7a46f3353c4d--->
 
