@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87cf2a792475e9ada841027d834ff90ef1f628cc--->
+<!---31a95056a4582a12068f88dc078b5e4d0ca463cb--->
 
-## 3.1.58.dev (unreleased)
+<!---3c3398854196426f7c58573bfc45dc47ff1edf4d--->
+
+## 3.1.58 (2020-05-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.57...v3.1.58)
 ### Changed
 - Fail entries instead of throwing a PluginError when Jinja templating fails for file operations plugins([#2685](https://github.com/Flexget/Flexget/issues/2685))
 
-<!---450e9d0bd4b503403fac4a683e6f7a46f3353c4d--->
 
 ## 3.1.57 (2020-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.56...v3.1.57)
