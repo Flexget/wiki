@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6bdae164e568b54e01c1fbeaa07af102183d7216--->
+<!---b458c4946274d1ade2e3b67501c14816c52cf82a--->
+
+## 3.1.60.dev (unreleased)
+### Changed
+- Switch from flask-restplus to flask-restx
 
 <!---6a0c38f18150865406d31b00582d1d4d3fa89996--->
 
