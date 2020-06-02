@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b458c4946274d1ade2e3b67501c14816c52cf82a--->
+<!---6467b52a74276e5927c6d206961eb4162c33b1b9--->
 
-## 3.1.60.dev (unreleased)
+<!---a3ad31d7ab69e9291d78b4937b9536bbd339fd68--->
+
+## 3.1.60 (2020-06-02)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.59...v3.1.60)
 ### Changed
 - Switch from flask-restplus to flask-restx
 
-<!---6a0c38f18150865406d31b00582d1d4d3fa89996--->
 
 ## 3.1.59 (2020-05-29)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.58...v3.1.59)
