@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3d21a58267805f3c3bca2442b6cbd2e5ff3f19bf--->
+<!---e8a474654672caf6c667a5e40c3dde5c8000f5fc--->
+
+## 3.1.62.dev (unreleased)
+### Fixed
+- Make sure disable plugin works properly when used with 'from_task' plugin. fix [#2691](https://github.com/Flexget/Flexget/issues/2691)
 
 <!---95303217291a55ed0f0788828aaedc95ad2e0af9--->
 
