@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2382691157afb824e780d34b9ffcfe4d39dcc342--->
+<!---6feb23f4ced28304a3a62fb8c92f306aa311e925--->
 
-## 3.1.63.dev (unreleased)
+<!---8e4f27689b0e8a8b1c54e114066c83ce774ecb5c--->
+
+## 3.1.63 (2020-06-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.62...v3.1.63)
 ### Fixed
 - trakt_api - make sure get_db_actors always return a list. Closes [#2695](https://github.com/Flexget/Flexget/issues/2695)
 
-<!---89fe001118dccfd53dee6177202e0e92f46ae2e1--->
 
 ## 3.1.62 (2020-06-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.61...v3.1.62)
