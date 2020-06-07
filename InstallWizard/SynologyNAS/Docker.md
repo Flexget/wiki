@@ -17,11 +17,11 @@ The rest of this page will assume a UID of 1234.
 
 ## Build a FlexGet image
 
-Create a new directory on your NAS (doesn't really matter where) and copy these two files there. You'll use them to create your image. Flexget versions after 2.11 work with Python 3.6 so there's no need to stick with 3.5.
+Create a new directory on your NAS (doesn't really matter where) and copy these two files there. You'll use them to create your image. 
 
 `Dockerfile`
 ```
-FROM     python:3.6-alpine
+FROM     python:alpine
 
 ARG      DOCKER_UID
 
@@ -53,12 +53,12 @@ fi
 flexget daemon start
 ```
 
-Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 2.20.25.
+Make a note of the current version of [FlexGet on PyPI](https://pypi.python.org/pypi/FlexGet) (we'll use this to label the image we create). At time of writing, this is 3.1.62.
 
 Navigate into the directory containing the files above. To build your image, run the following command (don't forget to substitute in your `docker` user's UID):
 
 ```sh
-docker build --build-arg DOCKER_UID=1234 -t flexget:2.20.25 .
+docker build --build-arg DOCKER_UID=1234 -t flexget:3.1.62 .
 ```
 
 Make sure that it worked by running `docker images`. You should see something like this:
@@ -66,8 +66,8 @@ Make sure that it worked by running `docker images`. You should see something li
 ```sh
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-flexget             2.20.25             ff4e5f3f1239        20 hours ago        160.4 MB
-python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
+flexget             3.1.62              ff4e5f3f1239        20 hours ago        160.4 MB
+python              alpine              2070486450e1        2 weeks ago         88.63 MB
 ```
 
 ## Build a Transmission image (optional)
@@ -113,7 +113,7 @@ And again, check that it worked:
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 transmission        2.94-r1             15577a02872f        20 hours ago        8.157 MB
-flexget             2.20.25             ff4e5f3f1239        20 hours ago        160.4 MB
+flexget             3.1.62              ff4e5f3f1239        20 hours ago        160.4 MB
 python              3.6-alpine          2070486450e1        2 weeks ago         88.63 MB
 alpine              latest              76da55c8019d        2 weeks ago         3.962 MB
 ```
@@ -207,7 +207,7 @@ docker run -d \
   --restart always \
   --volume /volume1/docker/flexget:/home/flexget/.flexget \
   --volume /volume1/docker/transmission/watch:/home/flexget/torrents \
-  flexget:2.20.25
+  flexget:3.1.62
 ```
 
 With these volume settings, FlexGet will download .torrent files directly into Transmission's watch directory.
