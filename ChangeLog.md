@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9c5a12134483232f5a3635f858849c6281d0ed40--->
+<!---2382691157afb824e780d34b9ffcfe4d39dcc342--->
+
+## 3.1.63.dev (unreleased)
+### Fixed
+- trakt_api - make sure get_db_actors always return a list. Closes [#2695](https://github.com/Flexget/Flexget/issues/2695)
 
 <!---89fe001118dccfd53dee6177202e0e92f46ae2e1--->
 
