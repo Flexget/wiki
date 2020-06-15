@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cbdfe808a2638e7e152d683685bcce3fba67a6e9--->
+<!---fc28bd04a98099fae62a1107e6e9e0b04b9cfcdd--->
 
-## 3.1.64.dev (unreleased)
+<!---9ebfe5582f1a08b0be61008e1898151d6aaedd7a--->
+
+## 3.1.64 (2020-06-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.63...v3.1.64)
 ### Added
 - Added free parameter to iptorrents search plugin ([#2697](https://github.com/Flexget/Flexget/issues/2697))
 - rutracker.org topic pages urlrewrite ([#2609](https://github.com/Flexget/Flexget/issues/2609))
 
-<!---8e4f27689b0e8a8b1c54e114066c83ce774ecb5c--->
 
 ## 3.1.63 (2020-06-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.62...v3.1.63)
