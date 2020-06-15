@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---43934e921bdace422a0bcf878e43742462b04d55--->
+<!---cbdfe808a2638e7e152d683685bcce3fba67a6e9--->
 
 ## 3.1.64.dev (unreleased)
 ### Added
+- Added free parameter to iptorrents search plugin ([#2697](https://github.com/Flexget/Flexget/issues/2697))
 - rutracker.org topic pages urlrewrite ([#2609](https://github.com/Flexget/Flexget/issues/2609))
 
 <!---8e4f27689b0e8a8b1c54e114066c83ce774ecb5c--->
