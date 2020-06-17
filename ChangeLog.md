@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc28bd04a98099fae62a1107e6e9e0b04b9cfcdd--->
+<!---c826f92eabc5808f5f39ae7647123f22da53daee--->
+
+## 3.1.65.dev (unreleased)
+### Fixed
+- Allow from_task plugin to run tasks marked as manual. fix [#2700](https://github.com/Flexget/Flexget/issues/2700)
 
 <!---9ebfe5582f1a08b0be61008e1898151d6aaedd7a--->
 
