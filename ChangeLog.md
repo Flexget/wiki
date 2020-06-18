@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c826f92eabc5808f5f39ae7647123f22da53daee--->
+<!---ab2b52b758b6dbdfa625de8ec74068d9309dd2e6--->
 
-## 3.1.65.dev (unreleased)
+<!---ef0f3a2d75f43339490ba4d7b10e2697bbff00bf--->
+
+## 3.1.65 (2020-06-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.64...v3.1.65)
 ### Fixed
 - Allow from_task plugin to run tasks marked as manual. fix [#2700](https://github.com/Flexget/Flexget/issues/2700)
 
-<!---9ebfe5582f1a08b0be61008e1898151d6aaedd7a--->
 
 ## 3.1.64 (2020-06-15)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.63...v3.1.64)
