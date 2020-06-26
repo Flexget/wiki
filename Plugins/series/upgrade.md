@@ -1,5 +1,7 @@
 # Upgrade
-Upgrade mode causes the series plugin to continue getting the best quality of an episode it sees. It also blocks any episodes that are of a worse quality than you already have. It can be used alongside the [qualities](/Plugins/series/qualities) option or [quality](/Plugins/series/quality) options to restrict which qualities will be upgraded to.
+Upgrade mode causes the series plugin to continue accepting the better quality of an episode than what have been previously accepted. It also blocks acepting any episodes that are of a worse quality than what already has been accepted. 
+
+It can optionally be used alongside the [qualities](/Plugins/series/qualities) option or [quality](/Plugins/series/quality) options to restrict which qualities will be upgraded to.
 
 ### Example
 ```yaml
