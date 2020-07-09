@@ -33,8 +33,9 @@ WORKDIR  /home/flexget
 VOLUME   /home/flexget/.flexget
 VOLUME   /home/flexget/torrents
 
-# Install FlexGet
-RUN      pip3 install -U pip && pip3 install flexget
+# Install build dependencies and FlexGet
+RUN      apk add --no-cache --virtual  .build-deps gcc musl-dev && \
+         pip3 install -U pip && pip3 install flexget
 
 # Add start script
 COPY     start.sh /home/flexget/
