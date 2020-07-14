@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e62afcdb088d6a18c9c173369ab873745ac62591--->
+<!---babca725a2a4f9c75dda50814e35b04a86a7123a--->
+
+## 3.1.67.dev (unreleased)
+### Fixed
+- filelist_api: NameError: name 'valid_extras' ([#2709](https://github.com/Flexget/Flexget/issues/2709))
 
 <!---8655208cb4f0d991e9e3694901801ed2e05f12a8--->
 
