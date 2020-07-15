@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---babca725a2a4f9c75dda50814e35b04a86a7123a--->
+<!---ebd1d54e706c21fc1a92d5744d3db4f1747670cf--->
 
-## 3.1.67.dev (unreleased)
+<!---99995747f70a9f7c6dde72cc3fa54f882459449b--->
+
+## 3.1.67 (2020-07-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.66...v3.1.67)
 ### Fixed
 - filelist_api: NameError: name 'valid_extras' ([#2709](https://github.com/Flexget/Flexget/issues/2709))
 
-<!---8655208cb4f0d991e9e3694901801ed2e05f12a8--->
 
 ## 3.1.66 (2020-06-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.65...v3.1.66)
