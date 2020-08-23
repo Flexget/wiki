@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ea8d70c690d552def4cb6142305282f765f20019--->
+<!---be11a39cc361406b9ae5543032d1e9a0f5739892--->
 
 ## 3.1.68.dev (unreleased)
 ### Added
 - webui version 2.0.20
+
+### Fixed
+- respect base_url on v1 ([#2717](https://github.com/Flexget/Flexget/issues/2717))
 
 <!---99995747f70a9f7c6dde72cc3fa54f882459449b--->
 
