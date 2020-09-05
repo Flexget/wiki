@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b80835f653e4139d41fa0d3ebe381b51b8889476--->
+<!---ae41ec5b54d98fb6a00f17e80d6cd749b0111c61--->
+
+## 3.1.71.dev (unreleased)
+### Fixed
+- swagger API docs ([#2724](https://github.com/Flexget/Flexget/issues/2724))
 
 <!---253306b61223793fbde559697f36b5a63cbc031b--->
 
