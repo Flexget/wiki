@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e38805f79b22d69adeb79627a0d15972d3de7829--->
+<!---d469e4cf91ed903a820644a12465b5017b3a43f7--->
 
-## 3.1.71.dev (unreleased)
+<!---9dd751d85f5414b0a4b122535090291fe9d88e37--->
+
+## 3.1.71 (2020-09-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.70...v3.1.71)
 ### Fixed
 - swagger API docs ([#2724](https://github.com/Flexget/Flexget/issues/2724))
 
 ### Added
 - webui version 2.0.23
 
-<!---253306b61223793fbde559697f36b5a63cbc031b--->
 
 ## 3.1.70 (2020-08-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.69...v3.1.70)
