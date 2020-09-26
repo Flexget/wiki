@@ -27,7 +27,7 @@ tasks:
     rss: bla
     series:
       - Foo:
-        season_packs: yes
+          season_packs: yes
     download: '/shows/{{ series_name }}'
 ```
 
@@ -42,7 +42,7 @@ tasks:
     rss: bla
     series:
       - Foo:
-        season_packs: 0
+          season_packs: 0
     download: '/shows/{{ series_name }}'
 ```
 The number `0` after season packs refers to the number of episodes each season is allowed to previously download before accepting a season pack. 
