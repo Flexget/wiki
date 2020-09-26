@@ -26,7 +26,7 @@ tasks:
   series_task:
     rss: bla
     series:
-    - Foo:
+      - Foo:
         season_packs: yes
     download: '/shows/{{ series_name }}'
 ```
@@ -41,7 +41,7 @@ tasks:
   series_task:
     rss: bla
     series:
-    - Foo:
+      - Foo:
         season_packs: 0
     download: '/shows/{{ series_name }}'
 ```
