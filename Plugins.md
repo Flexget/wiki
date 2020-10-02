@@ -74,7 +74,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
 | [kitsu](/Plugins/kitsu) | Produce Entries based on your  [Kitsu.io](http://kitsu.io) libraries. |
-| [horriblesubs](/Plugins/horriblesubs) | Latest [horriblesubs.info](http://horriblesubs.info) releases. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List).<br> **Note:** This plugin does not currently work, look into [`imdb_watchlist`](/Plugins/imdb_watchlist) |
 | [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
 | [imdb_watchlist](/Plugins/imdb_watchlist) |Use you IMDB watchlist as an input|
