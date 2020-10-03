@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f2898fb635ad029c62483e21fba064e9c23c3fad--->
+<!---5e3b8156247887df8fa74fd26205bb6c2055c186--->
 
 ## 3.1.72.dev (unreleased)
 ### Added
+- /user/token to check if you are logged in ([#2731](https://github.com/Flexget/Flexget/issues/2731))
 - webui version 2.0.25
 - webui version 2.0.24
 
