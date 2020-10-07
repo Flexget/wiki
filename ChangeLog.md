@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be55529f3caba92198edde3d04eb2445d1d7d81a--->
+<!---2a771a566bce8d62bd34c9486ee46ed41d3769bf--->
 
-## 3.1.72.dev (unreleased)
+<!---cc70bb7e815c6704183202e3b92cbabd9ec926d6--->
+
+## 3.1.72 (2020-10-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.71...v3.1.72)
 ### Added
 - webui version 2.0.27
 - webui version 2.0.26
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - add ettvcentral.com domain to ettv rewriter
 
-<!---9dd751d85f5414b0a4b122535090291fe9d88e37--->
 
 ## 3.1.71 (2020-09-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.70...v3.1.71)
