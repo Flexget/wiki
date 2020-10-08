@@ -14,10 +14,13 @@ Send a message to one or more Telegram users or groups upon accepting a download
 <br/><br/>
 
 ```bash
-pip install python-telegram-bot
+pip install python-telegram-bot==12.8
 ```
 </div>
-
+<div class="alert alert-warning" role="alert">
+  <span class="glyphicon glyphicon glyphicon-alert"></span>
+  Newer versions (13.0+) of python-telegram-bot are not compatible
+</div>
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 * For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
 * For group messages, add the bot to the desired group and send a start message to the bot: `/start` (mind the
