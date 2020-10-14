@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c5f258ed52859d114bd74801016752fda70ebc53--->
+<!---3cc5f00546909b8575d8c1c0b21966d1be1cf9b7--->
 
-## 3.1.73.dev (unreleased)
+<!---acea6e4642effd247893ca9d888544dcfd877a04--->
+
+## 3.1.73 (2020-10-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.72...v3.1.73)
 ### Changed
 - manipulate: Added find_all option
 
-<!---cc70bb7e815c6704183202e3b92cbabd9ec926d6--->
 
 ## 3.1.72 (2020-10-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.71...v3.1.72)
