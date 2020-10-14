@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2a771a566bce8d62bd34c9486ee46ed41d3769bf--->
+<!---c5f258ed52859d114bd74801016752fda70ebc53--->
+
+## 3.1.73.dev (unreleased)
+### Changed
+- manipulate: Added find_all option
 
 <!---cc70bb7e815c6704183202e3b92cbabd9ec926d6--->
 
