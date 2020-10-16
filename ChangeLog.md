@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d729fe72869f7548768181b85e02e5e7ceaa7530--->
+<!---557963c03b8048f39f8c4fef49d35d6291b82c47--->
+
+## 3.1.77.dev (unreleased)
+### Fixed
+- `anilist`: Exception if field is not set on the site
 
 <!---395771bb414d6666fd1caf7a716c149461e4dc31--->
 
