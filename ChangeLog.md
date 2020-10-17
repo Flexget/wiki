@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---557963c03b8048f39f8c4fef49d35d6291b82c47--->
+<!---d801644a0514d97d1ecb6571ae9595314b7a2cc6--->
 
-## 3.1.77.dev (unreleased)
+<!---89bf65f6fc1c087f079a41a856d9b7c0ec490bfc--->
+
+## 3.1.77 (2020-10-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.76...v3.1.77)
 ### Fixed
 - `anilist`: Exception if field is not set on the site
 
-<!---395771bb414d6666fd1caf7a716c149461e4dc31--->
 
 ## 3.1.76 (2020-10-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.75...v3.1.76)
