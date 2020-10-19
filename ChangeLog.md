@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---48fd82e16b3e252d09daf589bc31b7b4ad52564c--->
+<!---49fa7759401769b250594a636d7fa8b1004ecce9--->
+
+## 3.1.79.dev (unreleased)
+### Fixed
+- fix sqlalchemy error on startup introduced with last version
 
 <!---78ea5ad349c9d941f377bdff88dfa1108880fcf4--->
 
