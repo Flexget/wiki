@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---49fa7759401769b250594a636d7fa8b1004ecce9--->
+<!---9286e7c66d5f8be96010ff56e59866a1bcf17f84--->
 
-## 3.1.79.dev (unreleased)
+<!---a5d3ef1f8c4b29632f13a6d9bc86e7192ac160e6--->
+
+## 3.1.79 (2020-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.78...v3.1.79)
 ### Fixed
 - fix sqlalchemy error on startup introduced with last version
 
-<!---78ea5ad349c9d941f377bdff88dfa1108880fcf4--->
 
 ## 3.1.78 (2020-10-19)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.77...v3.1.78)
