@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---183a1371f35800ecddd8727714728ab19d9612f4--->
+<!---1d96d686b9d6744b13f68ead6a5587fbbf74ed84--->
+
+## 3.1.81.dev (unreleased)
+### Added
+- Python 3.9 support
 
 <!---2cf94d99df75d8e97ae43e2a944b9bf79a800b47--->
 
