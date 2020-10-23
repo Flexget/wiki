@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1d96d686b9d6744b13f68ead6a5587fbbf74ed84--->
+<!---9727fb38288b4df1820e7c7ad8b21959e6907e6a--->
 
-## 3.1.81.dev (unreleased)
+<!---08a160cdaf952423ac5a11ce209e6205a920e7e3--->
+
+## 3.1.81 (2020-10-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.80...v3.1.81)
 ### Added
 - Python 3.9 support
 
-<!---2cf94d99df75d8e97ae43e2a944b9bf79a800b47--->
 
 ## 3.1.80 (2020-10-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.79...v3.1.80)
