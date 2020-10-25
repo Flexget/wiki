@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5b87cdd9af58aa333f5ce7c56a6556a94e6ce14c--->
+<!---a735a749c202a62b63fed94ffa5b638bbe980c80--->
 
-## 3.1.82.dev (unreleased)
+<!---ee247964787985013d01a3a49ab2ec7af1bfc1ee--->
+
+## 3.1.82 (2020-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.81...v3.1.82)
 ### Fixed
 - torrentz: Update to new domain.
 
-<!---08a160cdaf952423ac5a11ce209e6205a920e7e3--->
 
 ## 3.1.81 (2020-10-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.80...v3.1.81)
