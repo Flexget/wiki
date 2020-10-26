@@ -42,7 +42,7 @@ $ ln -s /opt/bin/python3 /opt/bin/python
 ```
 Finally, we are going to upgrade pip from the outdated opkg release, and install setuptools to be able to install FlexGet.
 ```
-$ pip install -–upgrade pip
+$ pip3 install -–upgrade pip
 $ pip install setuptools
 ```
 ## Install FlexGet
@@ -50,7 +50,6 @@ $ pip install setuptools
 Install using the following command:
 ```
 $ pip install flexget
-$ pip install feedparser==6.0.0b1
 ```
 NOTE: You will receive an error that FlexGet requires feedparser v.5.2.1, and that 6.0.0b1 is incompatible. Ignore this message as its quite the opposite since some lib2to3 requirements are either non-functional or missing in the Synology releases of Python. Without upgrading to the beta version of feedparser, you will get Syntax errors, and FlexGet will not run. You must, however install feedparser AFTER installing FlexGet, as the FlexGet installation will replace the feedparser installation.
 
