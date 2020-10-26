@@ -59,7 +59,7 @@ Run the following command, and FlexGet will display its version number:
 
 ```
 $ flexget -V
-3.1.20
+3.1.82
 You are on the latest release.
 ```
 
