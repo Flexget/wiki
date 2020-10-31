@@ -16,7 +16,7 @@ This method uses the Python installation available from Entware-ng's opkg Packag
 
 ## Synocommunity package
 
-The [synocommunity](https://synocommunity.com/) repository includes a FlexGet package for DSM.  This package is in beta, so for it to appear you'll need to allow it via *Settings > Beta*.
+The [synocommunity](https://synocommunity.com/) repository includes a FlexGet package for DSM.
 
 If you are less comfortable with the command line, you may find this method easier. It will be, however, be more difficult to maintain, and has the least amount of documentation to help with errors. You must also wait for the package maintainers to update the FlexGet package; with the above methods, updates to FlexGet may be installed as soon as they are released.
 
