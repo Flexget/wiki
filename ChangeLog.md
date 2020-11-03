@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a735a749c202a62b63fed94ffa5b638bbe980c80--->
+<!---ab222ee9d6ca7d1a9477125424e55714de41c435--->
+
+## 3.1.83.dev (unreleased)
+### Fixed
+- iptorrents: parse new search page redesign
+- iptorrents: parse new search page redesign
 
 <!---ee247964787985013d01a3a49ab2ec7af1bfc1ee--->
 
