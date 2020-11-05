@@ -34,3 +34,4 @@ qbittorrent: yes
 | maxdownspeed | Set torrent download speed limit. Unit in kilobytes/second |
 | maxupspeed | Set torrent upload speed limit. Unit in kilobytes/second |
 | add_paused | Add torrents in the paused state (default: *False*)|
+| skip_check | Skip initial hash check (default: *False*)|
