@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a9675975893ba51416b32449ac5a5e936400081c--->
+<!---5d7382550b094c2741b6cbd15cf37503d12cbac0--->
+
+## 3.1.84.dev (unreleased)
+### Added
+- qBittorrent: Optional `skip_check` flag ([#2765](https://github.com/Flexget/Flexget/issues/2765))
 
 <!---825937f52ca886d5d128ae49e7256b2e229ab9d3--->
 
