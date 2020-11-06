@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2c8a8964b2cf361a305c0c8ca19000909d7e62b2--->
+<!---346c1289dbe53fcf759f4fe1dcd7e67a2a74f619--->
+
+## 3.1.85.dev (unreleased)
+### Added
+- transmission - Added possibility to bypass queue in transmission
 
 <!---3ee18625295e6d9d7b87edc80ecbe672a8ce70f3--->
 
