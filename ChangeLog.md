@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5d7382550b094c2741b6cbd15cf37503d12cbac0--->
+<!---2c8a8964b2cf361a305c0c8ca19000909d7e62b2--->
 
-## 3.1.84.dev (unreleased)
+<!---3ee18625295e6d9d7b87edc80ecbe672a8ce70f3--->
+
+## 3.1.84 (2020-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.83...v3.1.84)
 ### Added
 - qBittorrent: Optional `skip_check` flag ([#2765](https://github.com/Flexget/Flexget/issues/2765))
 
-<!---825937f52ca886d5d128ae49e7256b2e229ab9d3--->
 
 ## 3.1.83 (2020-11-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.82...v3.1.83)
