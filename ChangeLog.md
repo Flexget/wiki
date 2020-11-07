@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---346c1289dbe53fcf759f4fe1dcd7e67a2a74f619--->
+<!---99d15f95d582fb3ca6f71a35cbf9153b2df725d6--->
 
-## 3.1.85.dev (unreleased)
+<!---e00543047234e26d782405eaf8ff0f738b8d3917--->
+
+## 3.1.85 (2020-11-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.84...v3.1.85)
 ### Added
 - transmission - Added possibility to bypass queue in transmission
 
-<!---3ee18625295e6d9d7b87edc80ecbe672a8ce70f3--->
 
 ## 3.1.84 (2020-11-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.83...v3.1.84)
