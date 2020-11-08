@@ -56,7 +56,7 @@ transmission:
 | netrc | File |  |
 | username | Text |  |
 | password | Text |  |
-| action | [add\|remove\|purge\|pause\|resume] | The action that should be performed on this torrent. 'purge' means remove torrent and data. (default: add) |
+| action | [add\|remove\|purge\|pause\|resume\|bypass_queue] | The action that should be performed on this torrent. 'purge' means remove torrent and data. (default: add) |
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja).<br />If this options is specified for already downloaded torrent then transmission will move downloaded torrent data to new location.|
 | add_paused | [Yes\|No] |  |
 | bandwidth_priority | [-1,0,1] |  |
