@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6f2874befde64b1e2739196a2eb6fd00a6722a8f--->
+<!---3743d510bc2c1cb7f71debed746f2eaf16595252--->
+
+## 3.1.87.dev (unreleased)
+### Changed
+- Sonarr - Handle when the title or id is not found in the entry object ([#2780](https://github.com/Flexget/Flexget/issues/2780))
 
 <!---ed9ec8e620ae49e4d1aca35ca7758f336d6f6d7f--->
 
