@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3743d510bc2c1cb7f71debed746f2eaf16595252--->
+<!---5bc34d344b505ab880f6f0166a933bc79694666b--->
 
-## 3.1.87.dev (unreleased)
+<!---eb929fe18580b265e5b12ba7034cc250d7086c0e--->
+
+## 3.1.87 (2020-11-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.86...v3.1.87)
 ### Changed
 - Sonarr - Handle when the title or id is not found in the entry object ([#2780](https://github.com/Flexget/Flexget/issues/2780))
 
-<!---ed9ec8e620ae49e4d1aca35ca7758f336d6f6d7f--->
 
 ## 3.1.86 (2020-11-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.85...v3.1.86)
