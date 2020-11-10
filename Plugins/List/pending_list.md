@@ -14,6 +14,15 @@ See [managed_list](/Plugins/List/) how to use lists in general.
 pending_list: <NAME>
 ```
 
+Or:
+
+```text
+pending_list: 
+  list_name: <name>
+  [include]: [pending|approved|all]
+```
+
+
 ## Examples
 
 
