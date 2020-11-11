@@ -36,7 +36,8 @@ The following settings are optional:
 | **monitored**  | Allows you to set the whole series to either monitored or paused. If set to false you don't have to use `ignore_episodes_with_files` or `ignore_episodes_without_files`| True |
 | **root_folder_path**  | Allows you to set the location of the root folder path. example: `D:\Media\TV Shows` Default points to the root folder path you first setup in sonarr. |
 | **series_type**  | Allows you to change the series type between `standard, daily, or anime`.|`standard` |
-| **tags**  | Allows you to set tags. Has to be a number value between brackets like example: `[1,2,3,4,5]`. Tag ID's can be found at `http://localhost:8989/api/tag?apikey=APIKEY`. Requires you to have pre-setup any tags you plan on using. | [0] (not passing any tags) |
+| **tags**  | Allows you to set tags. Can be a number (tag id) or string, If string it will add the tag if it doe snot exist. For example: `[1,2,3,4,5]` or `['tv_hd','some_tag']`. Tag ID's can be found at `http://localhost:8989/api/tag?apikey=APIKEY`. Requires you to have pre-setup any tags you plan on using. | [0] (not passing any tags) |
+
   
 ## Examples
 
