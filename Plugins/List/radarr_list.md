@@ -15,6 +15,9 @@ Integrate with Radarr.
 | **only_monitored** | <yes/no> | If 'yes' , this plugin will only return movies that are 'monitored' by Radarr |
 | **include_data** | <yes/no> | If 'yes' , this plugin will include Radarr quality profile information for the movie and translate it to FlexGet qualities |
 | **only_use_cutoff_quality** | <yes/no> | If 'yes' , any quality that is 'allowed' for the movie will be ignored. Only the quality cutoff will be accepted. |
+| **monitored** | <yes/no> | Set the monitored flag when adding to Radarr |
+| **profile_id** | <yes/no> | Set the profile_id when adding to Radarr |
+| **tags** | [string, string] | Set the tags when adding to Radarr |
 
 
 **Example:**
