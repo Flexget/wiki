@@ -17,3 +17,5 @@ proxy:
   ftp: http://otherproxy.com:
   socks5: socks5://proxy:22
 ```
+
+**NOTE:** The proxy plugin requires pysocks as a dependency. In order to use the proxy plugin, it may be necessary to install the pysocks package: `pip install pysocks`
