@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6105b4b6330ef3627b79475e73680ca4890b383b--->
+<!---db6ecb522b49e97a962a415a7ab59470d56a8e43--->
+
+## 3.1.90.dev (unreleased)
+### Changed
+- API - Add type annotations to api module ([#2754](https://github.com/Flexget/Flexget/issues/2754))
 
 <!---5eb52f575f96ea7d5127fa7bf1a1701478f2636f--->
 
