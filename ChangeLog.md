@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a9d0394836cb24027f8192f9910b6f7493642acd--->
+<!---84c1e21f4a980acaf21db45d7ba67a7303f865fa--->
 
-## 3.1.91.dev (unreleased)
+<!---81c6acc86bf770301280cb7ed4a8387a8dea1bdc--->
+
+## 3.1.91 (2020-12-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.90...v3.1.91)
 ### Fixed
 - trakt_lookup: Fix crash when air time had seconds. fix [#2783](https://github.com/Flexget/Flexget/issues/2783)
 
-<!---faaf2cf8c1b015f0e62cd884f2f8b0d8b758794d--->
 
 ## 3.1.90 (2020-11-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.89...v3.1.90)
