@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---84c1e21f4a980acaf21db45d7ba67a7303f865fa--->
+<!---ed454bc6079ec23201a34a73668a3f48121cab74--->
+
+## 3.1.92.dev (unreleased)
+### Changed
+- transmission: Replace obsoleted and unmaintained transmissionrpc with transmission-rpc
 
 <!---81c6acc86bf770301280cb7ed4a8387a8dea1bdc--->
 
