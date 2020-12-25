@@ -1,13 +1,13 @@
 # Transmission Files
 This plugin creates an entry for each file within the torrents you have loaded in transmission.
 
-This plugin requires the transmissionrpc library. To install it, run:
+This plugin requires the transmission-rpc library. To install it, run:
 
 ```
-easy_install transmissionrpc
+pip install transmission-rpc
 ```
 
-You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
+You may be required to upgrade transmission-rpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 
 **Example:**
 

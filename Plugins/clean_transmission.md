@@ -8,13 +8,13 @@ This plugin has been deprecated as of FlexGet 2.20 See <a href="/Cookbook/Torren
 
 This plugin cleans the Transmission's queue of finished torrents (=the torrents that have completed the download process and are in **stopped, finished or seeding** state).
 
-This plugin requires the transmissionrpc library. To install it, run:
+This plugin requires the transmission-rpc library. To install it, run:
 
 ```
-pip install transmissionrpc
+pip install transmission-rpc
 ```
 
-You may be required to upgrade transmissionrpc after upgrading transmission, for that just add `--upgrade` to the previous command.
+You may be required to upgrade transmission-rpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 
 ## Config settings
 
