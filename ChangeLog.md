@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ed454bc6079ec23201a34a73668a3f48121cab74--->
+<!---70366a2ff5dbcde669c305043e9d26c10b26aff0--->
 
-## 3.1.92.dev (unreleased)
+<!---7fa2e10556e92b787af01c13236887876489d61e--->
+
+## 3.1.92 (2020-12-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.91...v3.1.92)
 ### Changed
 - transmission: Replace obsoleted and unmaintained transmissionrpc with transmission-rpc
 
-<!---81c6acc86bf770301280cb7ed4a8387a8dea1bdc--->
 
 ## 3.1.91 (2020-12-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.90...v3.1.91)
