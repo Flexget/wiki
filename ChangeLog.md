@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---70366a2ff5dbcde669c305043e9d26c10b26aff0--->
+<!---5ff9f7778f05b522231d07fb5bcbfc030b98a7f8--->
+
+## 3.1.93.dev (unreleased)
+### Fixed
+- torznab: Fix None value in description
+- torznab: Fix None value in description
 
 <!---7fa2e10556e92b787af01c13236887876489d61e--->
 
