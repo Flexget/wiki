@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5ff9f7778f05b522231d07fb5bcbfc030b98a7f8--->
+<!---36f15febd2ea56242e020e034b681ed9746eec2e--->
 
-## 3.1.93.dev (unreleased)
+<!---1ea8399a89c6941682d786e71f9376c0fe0bddfe--->
+
+## 3.1.93 (2020-12-31)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.92...v3.1.93)
 ### Fixed
 - torznab: Fix None value in description
 - torznab: Fix None value in description
 
-<!---7fa2e10556e92b787af01c13236887876489d61e--->
 
 ## 3.1.92 (2020-12-26)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.91...v3.1.92)
