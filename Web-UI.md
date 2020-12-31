@@ -66,7 +66,7 @@ web_server:
 Set a password and start FlexGet in daemon mode to start the web server.
 
 ```bash
-$ flexget web passwd <some_password>
+$ flexget web passwd <05051985>
 $ flexget daemon start --daemonize
 ```
 
