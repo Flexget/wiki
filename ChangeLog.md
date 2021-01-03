@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---36f15febd2ea56242e020e034b681ed9746eec2e--->
+<!---210b50db0a18f10d6e330cccee7b1aeedd763bcd--->
+
+## 3.1.94.dev (unreleased)
+### Fixed
+- convert_magnet: Fix issues with newer libtorrent versions
 
 <!---1ea8399a89c6941682d786e71f9376c0fe0bddfe--->
 
