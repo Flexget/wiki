@@ -6,6 +6,10 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **3.1.92**  -- 2020-12-26
+Transmission plugin now uses transmission-rpc. `pip install transmission-rpc`
+
+
 ### **3.0.19**  -- 2019-12-20
 
 IRC plugin now requires irc-bot 1.0.35 or later. `pip install --ugprade irc-bot`
