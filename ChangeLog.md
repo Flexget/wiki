@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0daea962cd47efafa5b68548bfafbff23b8dca19--->
+<!---05ff360d6360259cfd33f3fe720ee8f1b51b5814--->
+
+## 3.1.95.dev (unreleased)
+### Fixed
+- Transmission: Make host config option backwards compatible
 
 <!---c06e5e8470b05777e24a2ca12764b7ce1d849ffd--->
 
