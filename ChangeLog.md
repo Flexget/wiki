@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---05ff360d6360259cfd33f3fe720ee8f1b51b5814--->
+<!---acb04e0e0da7fdd9aaf23383009bd19d60ff7184--->
 
-## 3.1.95.dev (unreleased)
+<!---ddd49dcc409522e1fb6c7c614263e9fbd0c32c93--->
+
+## 3.1.95 (2021-01-05)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.94...v3.1.95)
 ### Fixed
 - Transmission: Make host config option backwards compatible
 
-<!---c06e5e8470b05777e24a2ca12764b7ce1d849ffd--->
 
 ## 3.1.94 (2021-01-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.93...v3.1.94)
