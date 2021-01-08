@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fb1725db9052068396e16a9fed1241e93e44a3f0--->
+<!---9b4c7472b1d67c74ae53685f9ef514b5769481ce--->
+
+## 3.1.97.dev (unreleased)
+### Fixed
+- from_transmission: fix compatibility with new transmission-rpc library
 
 <!---7ad61613f3a940edfe4bcab589c1e3f8ce53fb6a--->
 
