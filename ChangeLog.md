@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b4c7472b1d67c74ae53685f9ef514b5769481ce--->
+<!---a396c4220b07450a464d17162e82d63930b12739--->
 
-## 3.1.97.dev (unreleased)
+<!---d0c8fe1c34e330cd7ad7de6b993efdc7b2e51860--->
+
+## 3.1.97 (2021-01-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.96...v3.1.97)
 ### Fixed
 - from_transmission: fix compatibility with new transmission-rpc library
 
-<!---7ad61613f3a940edfe4bcab589c1e3f8ce53fb6a--->
 
 ## 3.1.96 (2021-01-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.95...v3.1.96)
