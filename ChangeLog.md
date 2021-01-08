@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5be2bf34d69e79bed77d3ed2c0e46b8605d70dbf--->
+<!---ee4cbff2441be3038206b4f831c1d1839ddede96--->
 
 ## 3.1.98.dev (unreleased)
 ### Fixed
+- transmission: Fix file selection and renaming options for use with new transmission-rpc library. refs [#2798](https://github.com/Flexget/Flexget/issues/2798)
 - quality: Make sure rejection message shows the required quality. fix [#2801](https://github.com/Flexget/Flexget/issues/2801)
 
 <!---d0c8fe1c34e330cd7ad7de6b993efdc7b2e51860--->
