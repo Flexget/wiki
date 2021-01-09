@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ee4cbff2441be3038206b4f831c1d1839ddede96--->
+<!---d8928f6c40781d1622abe6e9ca08e81babee3225--->
 
-## 3.1.98.dev (unreleased)
+<!---92ef87fb0b3ac95cdc117fcd4bc2cb0d41328f7e--->
+
+## 3.1.98 (2021-01-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.97...v3.1.98)
 ### Fixed
 - transmission: Fix file selection and renaming options for use with new transmission-rpc library. refs [#2798](https://github.com/Flexget/Flexget/issues/2798)
 - quality: Make sure rejection message shows the required quality. fix [#2801](https://github.com/Flexget/Flexget/issues/2801)
 
-<!---d0c8fe1c34e330cd7ad7de6b993efdc7b2e51860--->
 
 ## 3.1.97 (2021-01-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.96...v3.1.97)
