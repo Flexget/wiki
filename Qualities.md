@@ -42,8 +42,8 @@ categories:
   
   Audio:
   - truehd
-  - dts
   - dtshd
+  - dts
   - flac
   - dd+5.1
   - ac3
