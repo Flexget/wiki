@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4b3d0617a86f97b2ad0c56180ae9b0c94671e3bc--->
+<!---c7bc01c563538c653d792021824e20b18c0e2bfa--->
+
+## 3.1.100.dev (unreleased)
+### Fixed
+- sftp_upload: Create non-existing directories
 
 <!---d61d01c97a54a09846d435fad5dcce0997c73962--->
 
