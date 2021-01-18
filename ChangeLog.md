@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c7bc01c563538c653d792021824e20b18c0e2bfa--->
+<!---3c23db60943e6cfbb9ca38af800b14f1f7dbf910--->
 
-## 3.1.100.dev (unreleased)
+<!---c30be7902231f71abb72b353e935f8f26a78380f--->
+
+## 3.1.100 (2021-01-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.99...v3.1.100)
 ### Fixed
 - sftp_upload: Create non-existing directories
 
-<!---d61d01c97a54a09846d435fad5dcce0997c73962--->
 
 ## 3.1.99 (2021-01-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.98...v3.1.99)
