@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f4d2f707aa218a512538f030c43905eff563c77d--->
+<!---99d6a8525d1ce03e263d21dc6b9f8747c4163713--->
+
+## 3.1.102.dev (unreleased)
+### Fixed
+- Fix for torrentday search
 
 <!---369643c92296775e5f4dfd2b1ece90bd0d521d84--->
 
