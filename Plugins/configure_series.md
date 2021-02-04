@@ -60,3 +60,23 @@ configure_series:
     target: 720p
     propers: 3 days
 ```
+
+### Cross-task settings
+You can store settings with [set](/Plugins/set) and `configure_series_<option>` to be reused on other tasks
+```yaml
+task1:
+  trakt_list:
+    account: <trakt account>
+    list: <trakt list>
+    type: shows
+    strip_dates: yes
+  set:
+    # Strip non-alphanumeric characters from title and add as an alternate_title during configure_series
+    configure_series_alternate_name: {{trakt_series_name|d(title)|re_replace('[^\w\s]',''}}
+  list_add:
+    - entry-list: my-list
+
+task2:
+  configure_series:
+    # Series will be configured with a symbol-less alternate_title defined
+    from: my-list
