@@ -3,7 +3,7 @@
 | **Name** | **Description** |
 | --- | --- |
 | quality | Accept only qualities that match this quality requirement. No other quality will be accepted. |
-| qualities | Accept all given qualities, multiple downloads |
+| [qualities](/Plugins/series/qualities) | Accept all given qualities, multiple downloads |
 
 Values should all be specified as a valid [quality requirement](/Qualities#Requirements) string.
 
