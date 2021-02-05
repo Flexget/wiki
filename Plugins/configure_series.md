@@ -72,7 +72,7 @@ task1:
     strip_dates: yes
   set:
     # Strip non-alphanumeric characters from title and add as an alternate_title during configure_series
-    configure_series_alternate_name: "{{trakt_series_name|d(title)|re_replace('[^\w\s]',''}}"
+    configure_series_alternate_name: "{{trakt_series_name|d(title)|re_replace('[^\\w\\s]',''}}"
   list_add:
     - entry-list: my-list
 
