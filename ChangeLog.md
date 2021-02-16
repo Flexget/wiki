@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3320292be40cecffa53a4700963cb31067b7f2a2--->
+<!---7c1964db50d0a06ecde453a9322e42aa6abc2f30--->
+
+## 3.1.103.dev (unreleased)
+### Fixed
+- torrentday: Allow uid as a number. Allow multiple categories.
 
 <!---2d2732374b73c5b7f6439c1d101529e09f5d72a2--->
 
