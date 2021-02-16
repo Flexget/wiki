@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c1964db50d0a06ecde453a9322e42aa6abc2f30--->
+<!---90655debc3bcd924408b0804182f8333bf9a6bd8--->
 
 ## 3.1.103.dev (unreleased)
 ### Fixed
+- decompress: respect the --test flag. fix [#2853](https://github.com/Flexget/Flexget/issues/2853)
 - torrentday: Allow uid as a number. Allow multiple categories.
 
 <!---2d2732374b73c5b7f6439c1d101529e09f5d72a2--->
