@@ -9,6 +9,7 @@ Match current entries against some other input entries and take action on matche
 | action | `accept` or `reject` |
 | exact | `yes` or `no` Default is yes |
 |all_fields|Require all fields to match. `yes` or `no`. Default is `no`
+|case_sensitive|Case sensitive match. `yes` or `no`. Default is `yes`
 
 ## Examples
 
