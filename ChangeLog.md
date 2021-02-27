@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bff5260dd9bc8a2550b3ff8387000c74c5e27bb7--->
+<!---7c334a81ce3b29f12b4cc3575b6b02a4517e9ad3--->
+
+## 3.1.104.dev (unreleased)
+### Fixed
+- series - Added hook to add season to accepted season on any entry acceptance ([#2851](https://github.com/Flexget/Flexget/issues/2851))
 
 <!---ebc16f822555b6e2af969dbd419508a21922baaa--->
 
