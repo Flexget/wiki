@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c334a81ce3b29f12b4cc3575b6b02a4517e9ad3--->
+<!---bd823d6ad4cd75147b115554247fe70f74232e41--->
 
-## 3.1.104.dev (unreleased)
+<!---868edb9cb4b305c8a263dec1ab25cc4fe293d368--->
+
+## 3.1.104 (2021-02-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.103...v3.1.104)
 ### Fixed
 - series - Added hook to add season to accepted season on any entry acceptance ([#2851](https://github.com/Flexget/Flexget/issues/2851))
 
-<!---ebc16f822555b6e2af969dbd419508a21922baaa--->
 
 ## 3.1.103 (2021-02-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.102...v3.1.103)
