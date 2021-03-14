@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c5864997d8b1e19c2beb445e601b3ca0bdd2cbc0--->
+<!---7fbe39c46cfa6f9955f85edd44f4539f72a947dc--->
+
+## 3.1.106.dev (unreleased)
+### Added
+- Add Telegram Input Plugin ([#2861](https://github.com/Flexget/Flexget/issues/2861))
 
 <!---16e995c8bad59d0f869073c4610d98d95302f0cb--->
 
