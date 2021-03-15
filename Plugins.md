@@ -98,6 +98,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [from_deluge](/Plugins/from_deluge) | Use torrents loaded in a Deluge daemon as input. |
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |
+| [from_telegram](/Plugins/from_telegram) | Use telegram messages as input. |
 | [plex](/Plugins/plex) | Produce entries for shows present in a [Plex Media Server](http://www.plexapp.com) section. |
 | [radarr_list](/Plugins/Lists/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
