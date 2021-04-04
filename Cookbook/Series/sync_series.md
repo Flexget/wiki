@@ -25,3 +25,5 @@ sync-series:
 ```
 
 Your folder names need to be very clear and clean "Subfolder should be series names".. 
+
+To run this task, use: flexget execute --task sync-series
