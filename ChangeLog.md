@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---97ca6d2219c43f723be67bfb7ef2021dbe3c1f72--->
+<!---1ffcf0f09654bed32fe860fa2f59f5ba54715277--->
+
+## 3.1.108.dev (unreleased)
+### Fixed
+- Transmission file skipping with main_file_only
 
 <!---3a83bcc5f4f37da1f015555bbc8c28d1cd2225ca--->
 
