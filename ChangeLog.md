@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ffcf0f09654bed32fe860fa2f59f5ba54715277--->
+<!---3a1b50556283f1c1902e9e77e0c2611ce33e4a53--->
 
-## 3.1.108.dev (unreleased)
+<!---775821730c9fef9a7a8e42f55dc01234d757a43c--->
+
+## 3.1.108 (2021-04-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.107...v3.1.108)
 ### Fixed
 - Transmission file skipping with main_file_only
 
-<!---3a83bcc5f4f37da1f015555bbc8c28d1cd2225ca--->
 
 ## 3.1.107 (2021-03-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.106...v3.1.107)
