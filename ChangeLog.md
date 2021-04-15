@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---376ded177c6cbd61645061918616c4220876a21e--->
+<!---f2f40b21426679594c9c2adc830c1cd492d40895--->
 
 ## 3.1.109.dev (unreleased)
 ### Fixed
 - Prevent problem using MAL with titles that were numbers. fix [#2901](https://github.com/Flexget/Flexget/issues/2901)
+
+### Changed
+- Prevent warning about deprecated 'limit' option in from_digest. fix [#2886](https://github.com/Flexget/Flexget/issues/2886)
 
 <!---775821730c9fef9a7a8e42f55dc01234d757a43c--->
 
