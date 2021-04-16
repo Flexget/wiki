@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f2f40b21426679594c9c2adc830c1cd492d40895--->
+<!---46a160435f336fbd25d0cbdfeeaa4545b9741c75--->
 
-## 3.1.109.dev (unreleased)
+<!---c9f3e4aac197d418d616ac9e79e1cbe364117764--->
+
+## 3.1.109 (2021-04-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.108...v3.1.109)
 ### Fixed
 - Prevent problem using MAL with titles that were numbers. fix [#2901](https://github.com/Flexget/Flexget/issues/2901)
 
 ### Changed
 - Prevent warning about deprecated 'limit' option in from_digest. fix [#2886](https://github.com/Flexget/Flexget/issues/2886)
 
-<!---775821730c9fef9a7a8e42f55dc01234d757a43c--->
 
 ## 3.1.108 (2021-04-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.107...v3.1.108)
