@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---631723c2ae26ab7ed998e129fe8d055839b3f332--->
+<!---0525a2595c74d727e7f640a842150c4c8b4b76ac--->
 
-## 3.1.111.dev (unreleased)
+<!---6c453a8069643d8c7c7c803a12bea0ae4c502d06--->
+
+## 3.1.111 (2021-04-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.110...v3.1.111)
 ### Fixed
 - [Lostfilm Plugin] Upd ate regex according to new feed version ([#2912](https://github.com/Flexget/Flexget/issues/2912))
 
-<!---d9e1c617f86d23d99a020938ffed87dbf54f79f5--->
 
 ## 3.1.110 (2021-04-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.109...v3.1.110)
