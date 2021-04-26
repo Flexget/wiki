@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0525a2595c74d727e7f640a842150c4c8b4b76ac--->
+<!---6770a83ebe15bdfd1550613c980d2d18396574e0--->
+
+## 3.1.112.dev (unreleased)
+### Changed
+- series: Make sure alternate_names get merged between configure_series and series configs
 
 <!---6c453a8069643d8c7c7c803a12bea0ae4c502d06--->
 
