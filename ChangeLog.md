@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6770a83ebe15bdfd1550613c980d2d18396574e0--->
+<!---ffe2ee1658b532c71c284b0bec313e912f797d58--->
 
 ## 3.1.112.dev (unreleased)
 ### Changed
 - series: Make sure alternate_names get merged between configure_series and series configs
+
+### Added
+- Emby Components
 
 <!---6c453a8069643d8c7c7c803a12bea0ae4c502d06--->
 
