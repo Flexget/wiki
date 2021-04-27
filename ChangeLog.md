@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ffe2ee1658b532c71c284b0bec313e912f797d58--->
+<!---7269f042e2e645293df162784c6cf664854174f7--->
 
 ## 3.1.112.dev (unreleased)
 ### Changed
+- lostfilm: added proxy support
 - series: Make sure alternate_names get merged between configure_series and series configs
 
 ### Added
