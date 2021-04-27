@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7269f042e2e645293df162784c6cf664854174f7--->
+<!---deca2650b1e47c5a56ffa31435bba2bc7297a6c5--->
 
-## 3.1.112.dev (unreleased)
+<!---da4c2b9173b4aa4fa5187b9ff3b07e11ddaf183e--->
+
+## 3.1.112 (2021-04-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.111...v3.1.112)
 ### Changed
 - lostfilm: added proxy support
 - series: Make sure alternate_names get merged between configure_series and series configs
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - Emby Components
 
-<!---6c453a8069643d8c7c7c803a12bea0ae4c502d06--->
 
 ## 3.1.111 (2021-04-26)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.110...v3.1.111)
