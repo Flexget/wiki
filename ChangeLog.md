@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9ee0aedf1d6657b07780dbb554e71c6e378efab4--->
+<!---5bf24e774af4582d74658df742bc8a1f2ede43b5--->
+
+## 3.1.114.dev (unreleased)
+### Fixed
+- transmission: Handle rpc client exception
+- transmission: Handle rpc client exception
 
 <!---34ea25877af1aa3581f3a629c9771eca877e91a8--->
 
