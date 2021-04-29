@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5bf24e774af4582d74658df742bc8a1f2ede43b5--->
+<!---322e02db00741b891a8caae697990a402a0456bb--->
 
-## 3.1.114.dev (unreleased)
+<!---dfa56de7370aa787427ddc44d013699133d538d1--->
+
+## 3.1.114 (2021-04-29)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.113...v3.1.114)
 ### Fixed
 - transmission: Handle rpc client exception
 - transmission: Handle rpc client exception
 
-<!---34ea25877af1aa3581f3a629c9771eca877e91a8--->
 
 ## 3.1.113 (2021-04-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.112...v3.1.113)
