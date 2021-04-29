@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---322e02db00741b891a8caae697990a402a0456bb--->
+<!---2f52efbeeec006782b9b9a36e2d7e7fb0e34f9e8--->
+
+## 3.1.115.dev (unreleased)
+### Fixed
+- telegram notifier: Handles chat migrations
+- telegram notifier: Handles chat migrations
+- telegram notifier: Handles chat migrations
 
 <!---dfa56de7370aa787427ddc44d013699133d538d1--->
 
