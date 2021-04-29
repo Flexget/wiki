@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2f52efbeeec006782b9b9a36e2d7e7fb0e34f9e8--->
+<!---d6a74b264446c34c2d5e23c85ec21b39c50333be--->
 
 ## 3.1.115.dev (unreleased)
 ### Fixed
+- qbittorrent: handle existing torrent. fix [#2701](https://github.com/Flexget/Flexget/issues/2701)
+- qbittorrent: handle existing torrent ([#2942](https://github.com/Flexget/Flexget/issues/2942))
 - telegram notifier: Handles chat migrations
 - telegram notifier: Handles chat migrations
 - telegram notifier: Handles chat migrations
