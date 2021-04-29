@@ -15,7 +15,7 @@ If you need to configure a proxy for only one protocol, or different proxies for
 proxy:
   http: http://myproxy.com:8080
   ftp: http://otherproxy.com:
-  socks5: socks5://proxy:22
+  https: socks5://proxy:22
 ```
 
 **NOTE:** The proxy plugin requires pysocks as a dependency. In order to use the proxy plugin, it may be necessary to install the pysocks package: `pip install pysocks`
