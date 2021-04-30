@@ -34,7 +34,7 @@ VOLUME   /home/flexget/.flexget
 VOLUME   /home/flexget/torrents
 
 # Install build dependencies and FlexGet
-RUN      apk add --no-cache --virtual  .build-deps gcc musl-dev && \
+RUN      apk add --no-cache --virtual  .build-deps gcc g++ musl-dev && \
          pip3 install -U pip && pip3 install flexget && \
          apk del .build-deps gcc musl-dev
 
