@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c4a3ee492242f8ebec7d144c88d25032aefc25c2--->
+<!---45b25dc064e7b4bc0e2ce3ea63022778719fae82--->
+
+## 3.1.116.dev (unreleased)
+### Fixed
+- Fix talking to daemon started by task scheduler on windows. fix [#2730](https://github.com/Flexget/Flexget/issues/2730)
 
 <!---459a6d7307601b51b523828d5ac3dbad39bbb4e3--->
 
