@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d6a74b264446c34c2d5e23c85ec21b39c50333be--->
+<!---c4a3ee492242f8ebec7d144c88d25032aefc25c2--->
 
-## 3.1.115.dev (unreleased)
+<!---459a6d7307601b51b523828d5ac3dbad39bbb4e3--->
+
+## 3.1.115 (2021-04-30)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.114...v3.1.115)
 ### Fixed
 - qbittorrent: handle existing torrent. fix [#2701](https://github.com/Flexget/Flexget/issues/2701)
 - qbittorrent: handle existing torrent ([#2942](https://github.com/Flexget/Flexget/issues/2942))
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - telegram notifier: Handles chat migrations
 - telegram notifier: Handles chat migrations
 
-<!---dfa56de7370aa787427ddc44d013699133d538d1--->
 
 ## 3.1.114 (2021-04-29)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.113...v3.1.114)
