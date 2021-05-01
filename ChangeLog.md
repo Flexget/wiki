@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b6697749e4550e06e722fa95c1709af03ea85f9f--->
+<!---db85ce1f03c4db309531ed2d0b40adb326c8ad3a--->
 
-## 3.1.116.dev (unreleased)
+<!---28f14b240a826188d322c81c7056f78234753877--->
+
+## 3.1.116 (2021-05-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.115...v3.1.116)
 ### Fixed
 - Fix talking to daemon started by task scheduler on windows. (really) fix [#2730](https://github.com/Flexget/Flexget/issues/2730)
 - Fix talking to daemon started by task scheduler on windows. fix [#2730](https://github.com/Flexget/Flexget/issues/2730)
 
-<!---459a6d7307601b51b523828d5ac3dbad39bbb4e3--->
 
 ## 3.1.115 (2021-04-30)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.114...v3.1.115)
