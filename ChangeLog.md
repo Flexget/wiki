@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---db85ce1f03c4db309531ed2d0b40adb326c8ad3a--->
+<!---dab230b192a2928f02411283e403356732b1d422--->
+
+## 3.1.117.dev (unreleased)
+### Fixed
+- api_bluray: Handle exception when fails to get content
+- Handle exception when api_bluray fails to get content ([#2468](https://github.com/Flexget/Flexget/issues/2468))
 
 <!---28f14b240a826188d322c81c7056f78234753877--->
 
