@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---93715a77a3813a63d9bc441bd2252af8b5cd1edc--->
+<!---9d000c1458e76aa26a60e1e866ac2a8939d4c251--->
 
 ## 3.1.118.dev (unreleased)
 ### Changed
+- Remove `ftp`, `socks5`, and `socks5h` as valid protocols to be proxied. fix [#2744](https://github.com/Flexget/Flexget/issues/2744)
 - Switch some `daemon status` output from the log to the console. fix [#2748](https://github.com/Flexget/Flexget/issues/2748)
 
 <!---53b4b99ae888669745201bf55bc9dff0c8411080--->
