@@ -14,7 +14,10 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [regexp_list](/Plugins/List/regexp_list) | Use or add entries to a custom made regexp list. |
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
 | [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted
+| [emby_list](https://flexget.com/Plugins/emby_list) | Allows list managemnts in emby server
+
 ### Operating with lists
+
 
 | Plugin name | Description |
 | --- | --- |
