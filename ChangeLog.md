@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---920d71c417b04a9e789b4e0031d0d61bf63a1546--->
+<!---93715a77a3813a63d9bc441bd2252af8b5cd1edc--->
+
+## 3.1.118.dev (unreleased)
+### Changed
+- Switch some `daemon status` output from the log to the console. fix [#2748](https://github.com/Flexget/Flexget/issues/2748)
 
 <!---53b4b99ae888669745201bf55bc9dff0c8411080--->
 
