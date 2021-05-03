@@ -301,6 +301,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
+| [emby_lookup](/Plugins/emby_lookup) | Search emby for fields on-demand. |
 
 ## Modification
 Plugins that can manipulate data and perform various operations.
