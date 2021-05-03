@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dab230b192a2928f02411283e403356732b1d422--->
+<!---920d71c417b04a9e789b4e0031d0d61bf63a1546--->
 
-## 3.1.117.dev (unreleased)
+<!---53b4b99ae888669745201bf55bc9dff0c8411080--->
+
+## 3.1.117 (2021-05-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.116...v3.1.117)
 ### Fixed
 - api_bluray: Handle exception when fails to get content
 - Handle exception when api_bluray fails to get content ([#2468](https://github.com/Flexget/Flexget/issues/2468))
 
-<!---28f14b240a826188d322c81c7056f78234753877--->
 
 ## 3.1.116 (2021-05-01)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.115...v3.1.116)
