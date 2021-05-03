@@ -107,6 +107,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [medusa](/Plugins/Medusa) |  Produce entries from Medusa's show list |
 | [emby_list](/Plugins/emby_list) | Allows list managemnts in emby server
 | [from_emby](/Plugins/from_emby) | Creates entries from emby server media
+| [emby_refresh](/Plugins/emby_refresh) | Refresh emby library
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
