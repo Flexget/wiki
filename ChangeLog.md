@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e9c88897959564236fff8f4765c14a220e8fa132--->
+<!---350e816c99cc04bb4f8436178bb910c5b23a99bb--->
 
 ## 3.1.118.dev (unreleased)
 ### Changed
+- Pyload: Support for Group Links
+- Pyload: Support for Group Links
 - Remove `ftp`, `socks5`, and `socks5h` as valid protocols to be proxied. fix [#2744](https://github.com/Flexget/Flexget/issues/2744)
 - Switch some `daemon status` output from the log to the console. fix [#2748](https://github.com/Flexget/Flexget/issues/2748)
 
