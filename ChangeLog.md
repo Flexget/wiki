@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---350e816c99cc04bb4f8436178bb910c5b23a99bb--->
+<!---976107b7392215f57513d009900504ec846729f8--->
 
 ## 3.1.118.dev (unreleased)
 ### Changed
+- subliminal: Remove addic7ed from subliminal fallback providers
 - Pyload: Support for Group Links
 - Pyload: Support for Group Links
 - Remove `ftp`, `socks5`, and `socks5h` as valid protocols to be proxied. fix [#2744](https://github.com/Flexget/Flexget/issues/2744)
