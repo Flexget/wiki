@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---95e3883e50ce8d6a3949de3ae74a15e45d78eb9d--->
+<!---f29900b4dd0d8cc88b0f31b506b283b7b9ed5afd--->
 
 ## 3.1.118.dev (unreleased)
 ### Changed
@@ -12,6 +12,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Switch some `daemon status` output from the log to the console. fix [#2748](https://github.com/Flexget/Flexget/issues/2748)
 
 ### Fixed
+- alpharatio: handle invalid values
+- alpharatio: handle invalid values
+- alpharatio: handle invalid values
 - emby: Handle no persist data
 - emby: Handle no persist data
 - emby: Handle no persist data
