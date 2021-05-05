@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f29900b4dd0d8cc88b0f31b506b283b7b9ed5afd--->
+<!---496b12dcfd7603482ac54027d1e6615f3791c8a9--->
 
-## 3.1.118.dev (unreleased)
+<!---f47e54241180314ba16c5d62d3f10921b71c213e--->
+
+## 3.1.118 (2021-05-05)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.117...v3.1.118)
 ### Changed
 - subliminal: Remove addic7ed from subliminal fallback providers
 - Pyload: Support for Group Links
@@ -21,7 +24,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - pyload: Fix api detection of pyload vs pyload-ng
 - Pyload: with packaging installed and/or with using pyload-ng
 
-<!---53b4b99ae888669745201bf55bc9dff0c8411080--->
 
 ## 3.1.117 (2021-05-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.116...v3.1.117)
