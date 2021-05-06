@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6818298b553b034ad0ee5bf4fe97314241a861ec--->
+<!---5c27ff8acc831333eccda3610604ee44d14cae0f--->
 
-## 3.1.119.dev (unreleased)
+<!---ea4cd33b87927525ad8c39152712ceff00d179cd--->
+
+## 3.1.119 (2021-05-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.118...v3.1.119)
 ### Fixed
 - Fix crash from explain_sql with new sqlalchemy.
 
-<!---f47e54241180314ba16c5d62d3f10921b71c213e--->
 
 ## 3.1.118 (2021-05-05)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.117...v3.1.118)
