@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5c27ff8acc831333eccda3610604ee44d14cae0f--->
+<!---603853e07d73c35a3407ec114db1d6f7ea3f8f64--->
+
+## 3.1.120.dev (unreleased)
+### Fixed
+- emby: strip year in search
+- emby: strip year in search ([#2966](https://github.com/Flexget/Flexget/issues/2966))
 
 <!---ea4cd33b87927525ad8c39152712ceff00d179cd--->
 
