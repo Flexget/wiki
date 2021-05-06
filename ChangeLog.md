@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---496b12dcfd7603482ac54027d1e6615f3791c8a9--->
+<!---6818298b553b034ad0ee5bf4fe97314241a861ec--->
+
+## 3.1.119.dev (unreleased)
+### Fixed
+- Fix crash from explain_sql with new sqlalchemy.
 
 <!---f47e54241180314ba16c5d62d3f10921b71c213e--->
 
