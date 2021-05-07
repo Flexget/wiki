@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9098627c50b1d37f9fc90ea4f304c90352a79b09--->
+<!---5209219b354f54866547aec0f577a478f07abaef--->
 
 ## 3.1.121.dev (unreleased)
 ### Fixed
 - piratbay: invalid json response
 - piratbay: invalid json response
+
+### Changed
+- series plugin settings override configure_series settings for the same show
 
 <!---29227d9223b8362eaaba86b45911a738bd37ce96--->
 
