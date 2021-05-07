@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---603853e07d73c35a3407ec114db1d6f7ea3f8f64--->
+<!---0e6209aa28754f1710d285e20387b0f674872fd3--->
 
-## 3.1.120.dev (unreleased)
+<!---29227d9223b8362eaaba86b45911a738bd37ce96--->
+
+## 3.1.120 (2021-05-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.119...v3.1.120)
 ### Fixed
 - emby: strip year in search
 - emby: strip year in search ([#2966](https://github.com/Flexget/Flexget/issues/2966))
 
-<!---ea4cd33b87927525ad8c39152712ceff00d179cd--->
 
 ## 3.1.119 (2021-05-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.118...v3.1.119)
