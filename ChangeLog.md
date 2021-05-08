@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5209219b354f54866547aec0f577a478f07abaef--->
+<!---90208cd888fe90e919dc0eeb36a886dbee4142c2--->
 
-## 3.1.121.dev (unreleased)
+<!---83176c015ed86aea4278aa6915e3b2e7043df9cf--->
+
+## 3.1.121 (2021-05-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.120...v3.1.121)
 ### Fixed
 - piratbay: invalid json response
 - piratbay: invalid json response
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - series plugin settings override configure_series settings for the same show
 
-<!---29227d9223b8362eaaba86b45911a738bd37ce96--->
 
 ## 3.1.120 (2021-05-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.119...v3.1.120)
