@@ -1,7 +1,7 @@
 # Proxy
 Configures FlexGet to use a proxy when accessing sites. This plugin will be automatically configured if you have the appropriate environment variables set. (http_proxy, https_proxy or ftp_proxy)
 
-**NOTE:** Not all communication will go through the proxy, only certain plugins have been refactored to use this. The [rss](/Plugins/rss) and [download](/Plugins/download) plugins will both use this proxy.
+**NOTE:** Not all communication will go through the proxy, only certain plugins have been refactored to use this. The [rss](/Plugins/rss), [download](/Plugins/download), and some other plugins will use this proxy.
 
 **Example:**
 ```
