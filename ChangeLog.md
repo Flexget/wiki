@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---99fecd74294beb516fd96aca6ce12a5009b29bf5--->
+<!---1bf79a7d823b50df8769f2b496e64aa8179d2c71--->
 
 ## 3.1.122.dev (unreleased)
 ### Changed
@@ -9,6 +9,10 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Fixed
 - api_tvdb: Fix crash when tvdb didn't have name
+
+### Added
+- quality: add color range component
+- quality: add color range ([#2941](https://github.com/Flexget/Flexget/issues/2941))
 
 <!---83176c015ed86aea4278aa6915e3b2e7043df9cf--->
 
