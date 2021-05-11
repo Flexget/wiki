@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0b3ec5485cfcdd9ea3d29d796715e03ace416195--->
+<!---99fecd74294beb516fd96aca6ce12a5009b29bf5--->
 
 ## 3.1.122.dev (unreleased)
 ### Changed
 - lostfilm: heavy update
+
+### Fixed
+- api_tvdb: Fix crash when tvdb didn't have name
 
 <!---83176c015ed86aea4278aa6915e3b2e7043df9cf--->
 
