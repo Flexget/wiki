@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1bf79a7d823b50df8769f2b496e64aa8179d2c71--->
+<!---32458cc65d971d6a1b5f85d1fb28caa2f2d75721--->
 
-## 3.1.122.dev (unreleased)
+<!---4ef0359a6bd0b2ed51dea766c641c00de704fec9--->
+
+## 3.1.122 (2021-05-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.121...v3.1.122)
 ### Changed
 - lostfilm: heavy update
 
@@ -14,7 +17,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - quality: add color range component
 - quality: add color range ([#2941](https://github.com/Flexget/Flexget/issues/2941))
 
-<!---83176c015ed86aea4278aa6915e3b2e7043df9cf--->
 
 ## 3.1.121 (2021-05-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.120...v3.1.121)
