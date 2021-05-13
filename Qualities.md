@@ -33,8 +33,14 @@ categories:
   - cam
   - workprint
   
-  Codecs:
+  Color:
+  - dolbyvision
+  - hdr
+  - hdrplus
   - 10bit
+  - 8bit
+  
+  Codecs:
   - h265
   - h264
   - xvid
