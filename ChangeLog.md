@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b10f0a5f7eb5544a3026f3e7964fc2e6f26ba532--->
+<!---a835ea705c82f5ddbfc47d7460232e86511e2b92--->
 
-## 3.1.123.dev (unreleased)
+<!---5855acbbec13154ba760d3d9d03e9cd8115cbc3f--->
+
+## 3.1.123 (2021-05-13)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.122...v3.1.123)
 ### Fixed
 - emby: login and list matching
 - emby: login and list matching
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - parameterize: new plugin, which allows using results from one input to configure another input multiple times with different settings
 
-<!---4ef0359a6bd0b2ed51dea766c641c00de704fec9--->
 
 ## 3.1.122 (2021-05-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.121...v3.1.122)
