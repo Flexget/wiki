@@ -58,7 +58,7 @@ categories:
   - mp3
 ---
 # Qualities
-Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
+Qualities are split into five separate categories: resolution, source, codec, color range and audio. Any given release can have a value in all five of these categories. Here are all of the values within each category, listed with highest value at the top:
 
 <div class="row">
 {{#each categories }}
@@ -72,7 +72,7 @@ Qualities are split into four separate categories: resolution, source, codec, an
 </div>
 
 ## Requirements
-In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all four categories. Any category you do not specify in your requirements implies that any value is ok for that category.
+In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all five categories. Any category you do not specify in your requirements implies that any value is ok for that category.
 
 **Ranges:**
 To specify a range in a given category, write the lower and upper bound, with a dash in between. Note that a range must be between two items of the same category (in the same column above.) Examples:
