@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---32458cc65d971d6a1b5f85d1fb28caa2f2d75721--->
+<!---4b6259f048568e4eed4c5bc8c7f0560b166e37c2--->
+
+## 3.1.123.dev (unreleased)
+### Fixed
+- emby: login and list matching
+- emby: login and list matching
 
 <!---4ef0359a6bd0b2ed51dea766c641c00de704fec9--->
 
