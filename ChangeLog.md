@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a835ea705c82f5ddbfc47d7460232e86511e2b92--->
+<!---82468b82f5c860e80a6e2dc7ca1ac40240f2262d--->
+
+## 3.1.124.dev (unreleased)
+### Fixed
+- imdb_watchlist: Fix error while retrieving ratings
+- Fix error while retrieving imdb_watchlist ratings
 
 <!---5855acbbec13154ba760d3d9d03e9cd8115cbc3f--->
 
