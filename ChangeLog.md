@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---82468b82f5c860e80a6e2dc7ca1ac40240f2262d--->
+<!---7914cc83b80b69dffe48facca5c93e82a8ac5f03--->
 
-## 3.1.124.dev (unreleased)
+<!---7ed974b4d003bd13fc05e7bda5a72999e58300d7--->
+
+## 3.1.124 (2021-05-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.123...v3.1.124)
 ### Fixed
 - imdb_watchlist: Fix error while retrieving ratings
 - Fix error while retrieving imdb_watchlist ratings
 
-<!---5855acbbec13154ba760d3d9d03e9cd8115cbc3f--->
 
 ## 3.1.123 (2021-05-13)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.122...v3.1.123)
