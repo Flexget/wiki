@@ -38,4 +38,7 @@ notify:
       - <notifier name>:
           <notifier config>
 ```
+
+**Note:** Any templates referenced in the configuration must be stored in a `templates` folder within your configuration directory.
+
 See [notification delivery plugins](/Plugins/Notifiers) for specific usage.
