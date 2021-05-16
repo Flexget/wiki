@@ -35,8 +35,8 @@ categories:
   
   Color:
   - dolbyvision
-  - hdr
   - hdrplus
+  - hdr
   - 10bit
   - 8bit
   
