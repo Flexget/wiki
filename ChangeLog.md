@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5c5dd1dd7eee471ed612168ccb9ebf004903f065--->
+<!---aec901f65ebc6249fb73a0770e17f439ca646c55--->
+
+## 3.1.127.dev (unreleased)
+### Added
+- support for solidtorrents to search
+- support for Solidtorrents searches ([#2978](https://github.com/Flexget/Flexget/issues/2978))
 
 <!---b6564bde13ff497a231ac7c1141ec6215a2fb292--->
 
