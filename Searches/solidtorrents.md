@@ -10,7 +10,7 @@ Advanced usage:
 
 | Option | Description |
 | --- | --- |
-| category | One of: all, Audio, Video, Image, Document, eBook, Program, Android, Archive, Diskimage, Sourcecode, Database. Keep in mind that it's case-sensitive. |
+| category | One of: all, Audio, Video, Image, Document, eBook, Program, Android, Archive, Diskimage, Sourcecode, Database. Default is all. Keep in mind that it's case-sensitive. |
 | sort_by | One of: seeders, leechers, downloads, date, size. Default is seeders. |
 | sort_reverse | `yes` or `no`. |
 | remove_potentially_unsafe | `yes` or `no`. Remove potentially unsafe torrents from result. Default is yes. |
