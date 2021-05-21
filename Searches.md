@@ -16,13 +16,14 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`argenteam`](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
 | [`descargas2020`](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
 | [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
+| [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 | [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
-| [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
+| [`solidtorrents`](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
+| [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 | [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz2.eu](http://torrentz2.eu) |
-| [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 
 
 ### Private
