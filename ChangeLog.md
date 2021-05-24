@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e3efb4562c11bdb449736fdfc627909dd6779062--->
+<!---651d29f7e5d20a0849d9da049d274e5994f42295--->
+
+## 3.1.128.dev (unreleased)
+### Fixed
+- lostfilm: Fixed crash of the LostFilm plugin when page download failed
 
 <!---5d438c3ab68573062a71ef9da9c0baaed3e8c06d--->
 
