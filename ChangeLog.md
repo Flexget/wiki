@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---651d29f7e5d20a0849d9da049d274e5994f42295--->
+<!---58ed2bba0c6a7a8ee251ac8575131da785c50673--->
 
-## 3.1.128.dev (unreleased)
+<!---95860143043f2064e58b22c11e6e059754aa7516--->
+
+## 3.1.128 (2021-05-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.127...v3.1.128)
 ### Fixed
 - lostfilm: Fixed crash of the LostFilm plugin when page download failed
 
-<!---5d438c3ab68573062a71ef9da9c0baaed3e8c06d--->
 
 ## 3.1.127 (2021-05-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.126...v3.1.127)
