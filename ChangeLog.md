@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---58ed2bba0c6a7a8ee251ac8575131da785c50673--->
+<!---911286da81bf1bb08e242258512064ca93348ed8--->
+
+## 3.1.129.dev (unreleased)
+### Fixed
+- imdb: parse new layout
+- imdb: parse new layout
 
 <!---95860143043f2064e58b22c11e6e059754aa7516--->
 
