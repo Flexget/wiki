@@ -23,3 +23,58 @@ from_piratebay:
   list: top
   rank: all
 ```
+
+## Categories
+|category | id|
+|--|--|
+|All| 0|
+|Audio| 100|
+|Music| 101|
+|Audio books| 102|
+|Sound clips| 103|
+|FLAC| 104|
+|Audio Other| 199|
+|Video| 200|
+|Movies| 201|
+|Movies DVDR| 202|
+|Music videos| 203|
+|Movie clips| 204|
+|TV shows| 205|
+|Video Handheld| 206|
+|HD - Movies| 207|
+|HD - TV shows| 208|
+|3D| 209|
+|Video Other| 299|
+|Applications| 300|
+|App Windows| 301|
+|App Mac| 302|
+|App UNIX| 303|
+|App Handheld| 304|
+|App IOS (iPad/iPhone)| 305|
+|App Android| 306|
+|App Other OS| 399|
+|Games| 400|
+|Game PC| 401|
+|Game Mac| 402|
+|Game PSx| 403|
+|Game XBOX360| 404|
+|Game Wii| 405|
+|Game Handheld| 406|
+|Game IOS (iPad/iPhone)| 407|
+|Game Android| 408|
+|Game Other| 499|
+|Porn| 500|
+|Porn Movies| 501|
+|Porn Movies DVDR| 502|
+|Porn Pictures| 503|
+|Porn Games| 504|
+|Porn HD - Movies| 505|
+|Porn Movie clips| 506|
+|Porn Other| 599|
+|Other| 600|
+|E-books| 601|
+|Comics| 602|
+|Pictures| 603|
+|Covers| 604|
+|Physibles| 605|
+|Other Other| 699|
