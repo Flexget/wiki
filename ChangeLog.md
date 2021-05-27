@@ -9,8 +9,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.128...v3.1.129)
 ### Fixed
 - emby: Research if first search fails
-- emby: Research if first search fails
-- imdb: parse new layout
 - imdb: parse new layout
 
 ### Added
