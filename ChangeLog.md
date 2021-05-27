@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---911286da81bf1bb08e242258512064ca93348ed8--->
+<!---cc8522e9932e6a88ddbf119a36774c9b1c09bc93--->
 
 ## 3.1.129.dev (unreleased)
 ### Fixed
 - imdb: parse new layout
 - imdb: parse new layout
+
+### Added
+- INPUT from_piratebay ([#3000](https://github.com/Flexget/Flexget/issues/3000))
 
 <!---95860143043f2064e58b22c11e6e059754aa7516--->
 
