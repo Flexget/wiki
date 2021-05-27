@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dedc546b10804d8da689ed2101097c017e5cc9e0--->
+<!---0d74477b86c392f409911735877c47d39dde0205--->
 
-## 3.1.129.dev (unreleased)
+<!---acac42c8853e0bfa2d17aff6c5f285735c27008f--->
+
+## 3.1.129 (2021-05-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.128...v3.1.129)
 ### Fixed
 - emby: Research if first search fails
 - emby: Research if first search fails
@@ -13,7 +16,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - INPUT from_piratebay ([#3000](https://github.com/Flexget/Flexget/issues/3000))
 
-<!---95860143043f2064e58b22c11e6e059754aa7516--->
 
 ## 3.1.128 (2021-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.127...v3.1.128)
