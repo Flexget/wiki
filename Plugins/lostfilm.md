@@ -10,7 +10,7 @@ Alternatively, if you already have *lf_session* set in flexget cookies, you can 
 ``` yaml
 lostfilm: yes
 ```
-Lostfilm plugin extracts original series names, therefore you need to specify original series names for **series** plugin.
+Lostfilm plugin extracts original series names, therefore you need to specify original series names for [**series**](https://flexget.com/Plugins/series) plugin.
 ### Advanced usage
 ``` yaml
 lostfilm:
@@ -47,5 +47,5 @@ tasks:
       '1080p':
         - 'Stranger Things'
 ```
-### Proxy support
-If access to lostfilm site is blocked by your ISP, you can use [Proxy Plugin](https://flexget.com/Plugins/proxy).
+### [Proxy](https://flexget.com/Plugins/proxy) support
+If access to lostfilm site is blocked by your ISP, you can use [**Proxy Plugin**](https://flexget.com/Plugins/proxy).
