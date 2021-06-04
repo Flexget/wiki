@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0d74477b86c392f409911735877c47d39dde0205--->
+<!---e666d4d716a6b2ae12a88f871e7df026176a2a97--->
+
+## 3.1.130.dev (unreleased)
+### Fixed
+- emby: allow emby connect login
+
+### Changed
+- emby: allow media discover
 
 <!---acac42c8853e0bfa2d17aff6c5f285735c27008f--->
 
