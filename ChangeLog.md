@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---61d2fb0eaf6aa2bacddbf88824b3fa90d632ca83--->
+<!---2218c0fafbc0a01f0928c5992c9ce28e4e946e1f--->
 
-## 3.1.130.dev (unreleased)
+<!---9a57a5c9c720121bb29a68f8ee61f693481f70b3--->
+
+## 3.1.130 (2021-06-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.129...v3.1.130)
 ### Fixed
 - lostfilm plugin: updated to support the latest site changes
 - emby: allow emby connect login
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - jinja split year: Jinja split name and year
 - jinja split year: Jinja split name and year
 
-<!---acac42c8853e0bfa2d17aff6c5f285735c27008f--->
 
 ## 3.1.129 (2021-05-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.128...v3.1.129)
