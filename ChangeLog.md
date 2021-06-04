@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e666d4d716a6b2ae12a88f871e7df026176a2a97--->
+<!---2f80ce4b6ce0419e87729ac720992eb2da543ce4--->
 
 ## 3.1.130.dev (unreleased)
 ### Fixed
+- lostfilm plugin: updated to support the latest site changes
 - emby: allow emby connect login
 
 ### Changed
