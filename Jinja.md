@@ -47,7 +47,8 @@ When using Jinja2 templates, you can use the following custom filters in additio
 |`parsedate`|Attempts to parse a date according to the rules in RFC 2822
 |`format_number`|Formats a number according to the user's locale.
 |`to_date`|Formats date
-
+|`strip_year`|Removes year from end of string (for example: remove year from the end of movie name)
+|`get_year`|Get year from end of string (for example: get year from the end of movie name)
 
 
 #### Example:
