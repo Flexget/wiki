@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2f80ce4b6ce0419e87729ac720992eb2da543ce4--->
+<!---61d2fb0eaf6aa2bacddbf88824b3fa90d632ca83--->
 
 ## 3.1.130.dev (unreleased)
 ### Fixed
@@ -10,6 +10,10 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ### Changed
 - emby: allow media discover
+
+### Added
+- jinja split year: Jinja split name and year
+- jinja split year: Jinja split name and year
 
 <!---acac42c8853e0bfa2d17aff6c5f285735c27008f--->
 
