@@ -41,7 +41,7 @@ The lostfilm plugin sets additional fields for each produced entry: *series_name
 ### Example config
 ``` yaml
 tasks:
-  lostfilm:
+  download-task:
     lostfilm: "532656b1724450ccdfc62e4316b862cf"
     series:
       '1080p':
