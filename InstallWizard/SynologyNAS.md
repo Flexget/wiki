@@ -20,4 +20,4 @@ The [synocommunity](https://synocommunity.com/) repository includes a FlexGet pa
 
 If you are less comfortable with the command line, you may find this method easier. It will be, however, be more difficult to maintain, and has the least amount of documentation to help with errors. You must also wait for the package maintainers to update the FlexGet package; with the above methods, updates to FlexGet may be installed as soon as they are released.
 
-Follow the homepage instructions to add synocommunity to your NAS, and then install Python and FlexGet through the web interface. The config file is located at `/usr/local/flexget/var/config.yml`.
+Follow the homepage instructions to add synocommunity to your NAS, and then install Python and FlexGet through the web interface. The config file is located at `/usr/local/flexget/var/config.yml` on DSM v6 and at `/var/packages/flexget/target/share/config.yml` on DSM v7 RC.
