@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0d1b4e217e366cb5f708ea7cc7edc854784c5d83--->
+<!---8307541ea275fcd9cfb8efe23918de49ce18c680--->
 
 ## 3.1.131.dev (unreleased)
 ### Fixed
@@ -9,6 +9,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - letterboxd: Handle no tmdb id
 
 ### Changed
+- Add `timestamp_finished` field to `from_rtorrent`
 - lostfilm plugin: added new mirror
 
 <!---9a57a5c9c720121bb29a68f8ee61f693481f70b3--->
