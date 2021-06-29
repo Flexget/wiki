@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2218c0fafbc0a01f0928c5992c9ce28e4e946e1f--->
+<!---d261bc03900194e388d9869aec41716e1c751048--->
+
+## 3.1.131.dev (unreleased)
+### Fixed
+- letterboxd: Handle no tmdb id
+- letterboxd: Handle no tmdb id
 
 <!---9a57a5c9c720121bb29a68f8ee61f693481f70b3--->
 
