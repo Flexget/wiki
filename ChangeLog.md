@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8307541ea275fcd9cfb8efe23918de49ce18c680--->
+<!---ed41e678ac5e5e700cde7c2345b7004d2c1e03ef--->
 
-## 3.1.131.dev (unreleased)
+<!---ad5d0c84245d846c55dd4e429da3b15fd5d7c78e--->
+
+## 3.1.131 (2021-06-30)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.130...v3.1.131)
 ### Fixed
 - letterboxd: Handle no tmdb id
 - letterboxd: Handle no tmdb id
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Add `timestamp_finished` field to `from_rtorrent`
 - lostfilm plugin: added new mirror
 
-<!---9a57a5c9c720121bb29a68f8ee61f693481f70b3--->
 
 ## 3.1.130 (2021-06-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.129...v3.1.130)
