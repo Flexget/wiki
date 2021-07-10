@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ed41e678ac5e5e700cde7c2345b7004d2c1e03ef--->
+<!---7b3487a94d81239cda1690c484b7bb9ccd400d27--->
+
+## 3.1.132.dev (unreleased)
+### Fixed
+- verbose log message in decompress plugin ([#3071](https://github.com/Flexget/Flexget/issues/3071))
 
 <!---ad5d0c84245d846c55dd4e429da3b15fd5d7c78e--->
 
