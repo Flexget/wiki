@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7b3487a94d81239cda1690c484b7bb9ccd400d27--->
+<!---6c43d652c283db9ef2109d81323b0cf7a514aef5--->
 
-## 3.1.132.dev (unreleased)
+<!---5fbdcb4a0462e27090ff1320f2524195686390a6--->
+
+## 3.1.132 (2021-07-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.131...v3.1.132)
 ### Fixed
 - verbose log message in decompress plugin ([#3071](https://github.com/Flexget/Flexget/issues/3071))
 
-<!---ad5d0c84245d846c55dd4e429da3b15fd5d7c78e--->
 
 ## 3.1.131 (2021-06-30)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.130...v3.1.131)
