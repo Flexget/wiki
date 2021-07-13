@@ -1,8 +1,6 @@
 # Dowload movies using movie_list and discover
 This recipe aims to allow adding of movies as simple as adding a movie to your trakt.tv watchlist.
 
-How to create a task that adds movies from 3rd party sources to your movie_list is explained in this [cookbook](/Cookbook/Movies/TraktList).
-
 This recipe goes one step further and also uses the [discover plugin](/Plugins/discover) to dynamically search for the desired movies. The [torrent_alive plugin](/Plugins/torrent_alive) is used to reject results that do not have at least a minimum number of seeds, which usually improves the quality of the results.
 
 ```
