@@ -1,6 +1,7 @@
 
-  This
+
   
+  ```
   movies search:
     trakt_lookup: yes  # can also use imdb_lookup or tmdb_lookup
     priority: 10 # run after the movie queue fill task
@@ -16,3 +17,7 @@
       from:
         - movie_list: watchlist
     transmission: yes # You could use another output plugin instead of this (deluge, download)
+```
+    
+    Plugins used: [movie_list](/Plugins/List/movie_list),  [trakt_lookup](/Plugins/trakt_lookup),[transmission](/Plugins/transmission),
+    [accept_all](/Plugins/accept_all), [movie_list](/Plugins/List/movie_list), [list_match](/Plugins/List/list_match), [seen](/Plugins/seen), [torrent_alive](/Plugins/torrent_alive), [discover](/Plugins/discover) using [search plugin](/Searches) [piratebay](/Searches/piratebay).
