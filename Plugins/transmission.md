@@ -11,7 +11,7 @@ pip install transmission-rpc
 ```
 
 You may be required to upgrade transmission-rpc after upgrading transmission, for that just add `--upgrade` to the previous command.
-Newer versions of flexget now depend on transmission-rpc 0.11 or higher.
+Newer versions of flexget now depend on transmission-rpc 3.2.6 or higher.
 </div>
 
 **Example:**
