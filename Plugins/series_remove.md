@@ -1,5 +1,5 @@
 # series_remove
-Removes an accepted series, season or episode from the [series](/Plugins/series) plugin database.
+Removes an accepted entry for series, season or episode from the [series](/Plugins/series) plugin database.
 
 Similar to the CLI command [`flexget series remove`](/CLI/series)
 ```
