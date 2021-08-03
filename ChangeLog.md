@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---21130c47e9d42cf72ccbdb87910864cd8b2bf7e3--->
+<!---2d1b6dc4c38833ee15612b1a893a7cc719608d4a--->
+
+## 3.1.134.dev (unreleased)
+### Fixed
+- transmission: Restore compatibility with latest transmission-rpc release. fix [#3084](https://github.com/Flexget/Flexget/issues/3084)
 
 <!---3cbdac4987ce14a2f180e0828b70ad661f2eb9dd--->
 
