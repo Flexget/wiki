@@ -73,7 +73,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [apple_trailers](/Plugins/apple_trailers) | Get movie trailers from Apple.com |
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
-| [from_piratebay](/Plugins/from_piratebay) | Produce entries based on www.thepiratebay.org listings, filtered by  categories |
 | [kitsu](/Plugins/kitsu) | Produce Entries based on your  [Kitsu.io](http://kitsu.io) libraries. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List).<br> **Note:** This plugin does not currently work, look into [`imdb_watchlist`](/Plugins/imdb_watchlist) |
 | [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
@@ -99,16 +98,12 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [from_deluge](/Plugins/from_deluge) | Use torrents loaded in a Deluge daemon as input. |
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |
-| [from_telegram](/Plugins/from_telegram) | Use telegram messages as input. |
 | [plex](/Plugins/plex) | Produce entries for shows present in a [Plex Media Server](http://www.plexapp.com) section. |
 | [radarr_list](/Plugins/Lists/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
 | [next_sonarr_episodes](/Plugins/next_sonarr_episodes) | Produce entries for missing episodes from Sonarr |
 | [medusa](/Plugins/Medusa) |  Produce entries from Medusa's show list |
-| [emby_list](/Plugins/emby_list) | Allows list managemnts in emby server
-| [from_emby](/Plugins/from_emby) | Creates entries from emby server media
-| [emby_refresh](/Plugins/emby_refresh) | Refresh emby library
 
 ### Internal Input
 Input plugins that will generate entries based on preexisting data in FlexGet.
@@ -119,7 +114,6 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [discover](/Plugins/discover) | Produce entries from search results. |
 | [from_digest](/Plugins/from_digest) | Outputs entries which have been collected by the [digest](/Plugins/digest) plugin. |
 | [from_task](/Plugins/from_task) | Runs another task and outputs accepted entries from that task. |
-| [parameterize](/Plugins/parameterize) | Configures one input plugin with the results of another input plugin. Also good for confusing FlexGet users. |
 | [next_series_episodes](/Plugins/next_series_episodes) | Emits the next episode needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
 | [next_series_seasons](/Plugins/next_series_seasons) | Emits the next season needed for each series configured in the series plugin. Useful for example with [discover](/Plugins/discover). |
 | [inputs](/Plugins/inputs) | Configure the same input plugin multiple times in one task. |
@@ -260,6 +254,7 @@ Use accepted entries as an input for various FlexGet plugins such as add to movi
 | **Keyword** | **Description** |
 | --- | --- |
 | [digest](/Plugins/digest) | Collects entries from tasks to be combined into another task (usually for notification.) |
+| [series_remove](/Plugins/series_remove) | Remove accepted series \ episodes from the [series](/Plugins/series) plugin |
 | [set_series_begin](/Plugins/set_series_begin) | Set the first episode to download for series. |
 | [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to another list plugin. |
 | [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries to another list plugin. |
@@ -306,7 +301,6 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
-| [emby_lookup](/Plugins/emby_lookup) | Search emby for fields on-demand. |
 
 ## Modification
 Plugins that can manipulate data and perform various operations.
