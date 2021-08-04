@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---caf270ecddba2c6039348a22f4a76060dc145c42--->
+<!---75a65d36bc860dbe45cc190012a7ef8aa4a64e85--->
+
+## 3.1.135.dev (unreleased)
+### Fixed
+- telegram: Fix crash due to bad db session management. fix [#3108](https://github.com/Flexget/Flexget/issues/3108)
 
 <!---4fb250844d59e73304b7d306457ad61e070e1261--->
 
