@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b96f05b6f16de2c45bde6edbb3a894742dd97266--->
+<!---caf270ecddba2c6039348a22f4a76060dc145c42--->
 
-## 3.1.134.dev (unreleased)
+<!---4fb250844d59e73304b7d306457ad61e070e1261--->
+
+## 3.1.134 (2021-08-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.133...v3.1.134)
 ### Fixed
 - transmission: Restore compatibility with latest transmission-rpc release. fix [#3084](https://github.com/Flexget/Flexget/issues/3084)
 
 ### Changed
 - `series_remove`: Episode identifier is now optional. Optional `forget` parameter (originally would just remove)
 
-<!---3cbdac4987ce14a2f180e0828b70ad661f2eb9dd--->
 
 ## 3.1.133 (2021-07-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.132...v3.1.133)
