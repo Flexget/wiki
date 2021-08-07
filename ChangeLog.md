@@ -15,7 +15,10 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - transmission: Restore compatibility with latest transmission-rpc release. fix [#3084](https://github.com/Flexget/Flexget/issues/3084)
 
 ### Changed
-- `series_remove`: Episode identifier is now optional. Optional `forget` parameter (originally would just remove)
+- [`series_remove`](/Plugins/series_remove):
+  - Episode identifier is now optional
+  - Optional `forget` parameter to remove from entire database (including `seen` plugin)
+  - [Documented](/Plugins/series_remove)
 
 
 ## 3.1.133 (2021-07-22)
