@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---75a65d36bc860dbe45cc190012a7ef8aa4a64e85--->
+<!---545bd484898bdfce6a8a7460a1fc236d6241e0b2--->
 
-## 3.1.135.dev (unreleased)
+<!---94232a9cccdca68812873fa9388243581523eb39--->
+
+## 3.1.135 (2021-08-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.134...v3.1.135)
 ### Fixed
 - telegram: Fix crash due to bad db session management. fix [#3108](https://github.com/Flexget/Flexget/issues/3108)
 
-<!---4fb250844d59e73304b7d306457ad61e070e1261--->
 
 ## 3.1.134 (2021-08-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.133...v3.1.134)
