@@ -23,28 +23,30 @@ The following settings are optional:
 
 
 ### Example 1: Add all listed shows to series list
-```
+```yaml
 configure_series:
-            settings:
-              quality:
-                - 720p
-            from:
-              sickbeard:
-                base_url: http://localhost
-                port: 8531
-                api_key: MYAPIKEY1123
+  settings:
+    quality:
+      - 720p
+  from:
+    sickbeard:
+      base_url: http://localhost
+      port: 8531
+      api_key: MYAPIKEY1123
 ```
 
 ### Example 2: Add monitored, non-ended shows with their quality
-```
+
+```yaml
 configure_series:
-         from:
-           sickbeard:
-             base_url: http://localhost
-             port: 8531
-             api_key: MYAPIKEY1123
-             include_ended: false
-             only_monitored: true
-             include_data: true
+  from:
+    sickbeard:
+      base_url: http://localhost
+      port: 8531
+      api_key: MYAPIKEY1123
+      include_ended: no
+      only_monitored: yes
+      include_data: yes
 ```
-Note that by using the [configure_series](/Plugins/configure_series) plugin on a schedule you basically sync the shows on your Sickbeard show list with Flexget shows list. Meaning that unless you have manually set up additional shows using the [series](/Plugins/series) plugin, removing a show from Sickbeard will remove it from Flexget's show list as well (which can be good or bad, depending on your usage).
+
+Note that by using the [configure_series](/Plugins/configure_series) plugin on a schedule you basically sync the shows on your Sickbeard show list with FlexGet shows list. Meaning that unless you have manually set up additional shows using the [series](/Plugins/series) plugin, removing a show from Sickbeard will remove it from FlexGet's show list as well (which can be good or bad, depending on your usage).
