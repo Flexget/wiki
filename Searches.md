@@ -4,6 +4,11 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 ## Overview
 
+This list is possibly out of date, it is maintained infrequently.
+
+You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --interface search`. Short documentation for a plugin can be obtained with [`flexget doc <plugin-name>`](https://flexget.com/CLI/doc) if included within source file.
+
+
 ### Internal
 | **Keyword** | **Description** |
 | --- | --- |
@@ -23,8 +28,6 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
 | [`solidtorrents`](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
 | [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
-| [`torrentz`](/Searches/torrentz) | Generates entries from [torrentz2.eu](http://torrentz2.eu) |
-
 
 ### Private
 
@@ -45,38 +48,3 @@ FlexGet provides framework for querying searches from supported sites. These can
 | [`torrentday`](/Searches/torrentday)|Generates entries from torrentday.com
 | [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
 
-You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --interface search`, and documentation for a plugin can be obtained with [`flexget doc <plugin-name>`](https://flexget.com/CLI/doc).
-
-### Example 
-
-```bash
-flexget plugins --interface search
-┌─────────────────┬────────────┬───────┐
-│ Keyword         │ Phases     │ Flags │
-├─────────────────┼────────────┼───────┤
-│ 1337x           │            │ doc   │
-│ alpharatio      │            │ doc   │
-│ argenteam       │            │ doc   │
-│ btn             │            │       │
-│ cpasbien        │            │       │
-│ divxatope       │            │ doc   │
-│ extratorrent    │            │ doc   │
-│ flexget_archive │            │ doc   │
-│ fuzer           │            │       │
-│ horriblesubs    │ input(128) │ doc   │
-│ iptorrents      │            │ doc   │
-│ limetorrents    │            │ doc   │
-│ morethantv      │            │ doc   │
-│ newtorrents     │            │ doc   │
-│ newznab         │            │ doc   │
-│ nyaa            │            │ doc   │
-│ piratebay       │            │ doc   │
-│ ptn             │            │       │
-│ rarbg           │            │ doc   │
-│ sceneaccess     │            │ doc   │
-│ search_rss      │            │ doc   │
-│ torrentleech    │            │ doc   │
-│ torrentshack    │            │ doc   │
-└─────────────────┴────────────┴───────┘
--------------------------------------------------------------------------------
-```
