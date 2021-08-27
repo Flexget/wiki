@@ -44,6 +44,9 @@ These plugins are complementary to the series plugin.
 | [all_series](/Plugins/all_series) | Grab all series in the task|
 | [configure_series](/Plugins/configure_series) | Automatically configures series by using another input, some examples: [thetvdb_favorites](/Plugins/thetvdb_favorites), [trakt_list](/Plugins/List/trakt_list) and [filesystem](/Plugins/filesystem).<br> With this you don't need to maintain series configuration in the configuration file.  |
 | [series_premiere](/Plugins/series_premiere) | Download all premieres| 
+| [next_series_episodes](/Plugins/next_series_episodes) | Emit next episodes for [discover](/Plugins/discover) | 
+| [next_series_seasons](/Plugins/next_series_seasons) | Emit next seasons for [discover](/Plugins/discover) | 
+
 
 ## Settings
 The series plugin supports a number of settings to customize it's behavior. Though the examples show the settings being applied to a single series, they can all be applied to a group of series as well.
