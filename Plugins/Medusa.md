@@ -17,13 +17,13 @@ The following settings are optional:
 |  Option  |  Description  |
 | --- | --- |
 | **port** | This is the port used by your medusa installation (8081 by deafult)
-| **include_ended** |  Decides whether to retrieve ended shows. Default is True  |
-| **only_monitored** |  Retrieves only shows that are not marked as 'Paused' in sickbeard. Default is False  |
+| **include_ended** |  Decides whether to retrieve ended shows. Default is `yes`.  |
+| **only_monitored** |  Retrieves only shows that are not marked as 'Paused' in sickbeard. Default is `no`.  |
 
 
 
 ### Example 1: Add all listed shows to series list
-```
+```yaml
   configure_series:
     from:
       medusa:
@@ -34,7 +34,7 @@ The following settings are optional:
 ```
 
 ### Example 2: Add only monitored series
-```
+```yaml
 templates:
   medusa:
     configure_series:
@@ -44,6 +44,6 @@ templates:
           port: 8081
           username: USERNAME
           password: PASSWORD
-          only_monitored: True
+          only_monitored: yes
 ```
 Note that by using the [configure_series](/Plugins/configure_series) plugin on a schedule you basically sync the shows on your Medusa show list with Flexget shows list. Meaning that unless you have manually set up additional shows using the [series](/Plugins/series) plugin, removing a show from Medusa will remove it from Flexget's show list as well (which can be good or bad, depending on your usage).
