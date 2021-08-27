@@ -3,12 +3,16 @@ This plugin serves several purposes. It will save failed entries in the backlog,
 
 By default, there is a 1 hour wait time in between retries of failed entries. This will be increased by 1.5 times on each successive failure of the entry. By default, entries will be retried 3 times, (meaning 4 total failures are possible.)
 
-This plugin is a [builtin](/Builtin) and does not need to be explicitly placed in your task unless you would like to override the defaults. Here is an example of overriding the defaults:
-```
+CLI `flexget failed` provides tools to `list` and `clear` failed entries.
+
+This plugin is a [builtin](/Builtin) and does not need to be explicitly placed in your task unless you would like to override the defaults. 
+
+### Example
+
+```yaml
 retry_failed:
   retry_time: 30 minutes # Base time in between retries
   retry_time_multiplier: 2 # Amount retry time will be multiplied by after each successive failure
   max_retries: 5 # Number of times the entry will be retried
 ```
 
-Command line argument `failed` can be used to list and clear items currently in the feed.
