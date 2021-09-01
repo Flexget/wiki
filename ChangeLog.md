@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---545bd484898bdfce6a8a7460a1fc236d6241e0b2--->
+<!---87ad578752e9919a2c73e812fd75f72fae993958--->
+
+## 3.1.136.dev (unreleased)
+### Added
+- content_filter: Add min_files and max_files options
 
 <!---94232a9cccdca68812873fa9388243581523eb39--->
 
