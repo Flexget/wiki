@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87ad578752e9919a2c73e812fd75f72fae993958--->
+<!---ccdebe23b1d8c49463a655f8d697a6f6513d3ea1--->
 
-## 3.1.136.dev (unreleased)
+<!---7eecf1b47451901cc013ef04dd7cd696c81bc5e6--->
+
+## 3.1.136 (2021-09-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.135...v3.1.136)
 ### Added
 - content_filter: Add min_files and max_files options
 
-<!---94232a9cccdca68812873fa9388243581523eb39--->
 
 ## 3.1.135 (2021-08-10)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.134...v3.1.135)
