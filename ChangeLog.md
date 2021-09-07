@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1e19d174d80a5e5b3fd6803021e522c71bde6c84--->
+<!---5abb122fc51b792547be2eab7c0c3f255fb8bae4--->
 
 ## 3.1.137.dev (unreleased)
 ### Fixed
+- update `ettv` download link selector
 - set Manipulate to ignore rejected entries ([#3126](https://github.com/Flexget/Flexget/issues/3126))
 
 ### Changed
