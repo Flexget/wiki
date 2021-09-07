@@ -1,7 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ccdebe23b1d8c49463a655f8d697a6f6513d3ea1--->
+<!---1e19d174d80a5e5b3fd6803021e522c71bde6c84--->
+
+## 3.1.137.dev (unreleased)
+### Fixed
+- set Manipulate to ignore rejected entries ([#3126](https://github.com/Flexget/Flexget/issues/3126))
+
+### Changed
+- `manipulate` ignores rejected entries
 
 <!---7eecf1b47451901cc013ef04dd7cd696c81bc5e6--->
 
