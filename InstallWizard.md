@@ -28,6 +28,7 @@ Written and maintained by user community, please improve and update!
 ### Advanced
 This is useful also if you're having problems with pip based installation or have a really small root filesystem.
 
+ * [Docker](/InstallWizard/Docker)
  * [GitHub install](/GitHubInstall) (true bleeding edge)
 
 ### Problems?
