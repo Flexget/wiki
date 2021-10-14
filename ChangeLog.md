@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f84190e43dea67322d804bf54b0f3ce8ddc8f45c--->
+<!---8eeab62276b423d61b15b906d6bc1dfda0df66ba--->
 
 ## 3.1.138.dev (unreleased)
 ### Fixed
 - Fix color-range matching
+
+### Added
+- Add force_recheck option for deluge
 
 <!---0f54d742e72bc990f4f47b7b9a1b45aa2a934496--->
 
