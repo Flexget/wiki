@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---78ca81ea599d45c6d5998f0b61c65ce3a42cc66a--->
+<!---9c1ca0deb8a5025bc329f204221fd97f7dea347b--->
+
+## 3.1.139.dev (unreleased)
+### Added
+- Add no_data_ignore to discover
 
 <!---00bb930334c76c2fc0e1bce67d3f56bb94510bd3--->
 
