@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---022c5e294f62e5512b48cdc6ec91041b22c253f4--->
+<!---78ca81ea599d45c6d5998f0b61c65ce3a42cc66a--->
 
-## 3.1.138.dev (unreleased)
+<!---00bb930334c76c2fc0e1bce67d3f56bb94510bd3--->
+
+## 3.1.138 (2021-10-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.137...v3.1.138)
 ### Fixed
 - ettv rewriter magnet url selector
 - Fix color-range matching
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - Add force_recheck option for deluge
 
-<!---0f54d742e72bc990f4f47b7b9a1b45aa2a934496--->
 
 ## 3.1.137 (2021-09-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.136...v3.1.137)
