@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e625eb09324a9d6be4cfb42601c6af4628b2226a--->
+<!---f84190e43dea67322d804bf54b0f3ce8ddc8f45c--->
+
+## 3.1.138.dev (unreleased)
+### Fixed
+- Fix color-range matching
 
 <!---0f54d742e72bc990f4f47b7b9a1b45aa2a934496--->
 
