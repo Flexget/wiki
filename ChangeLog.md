@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8eeab62276b423d61b15b906d6bc1dfda0df66ba--->
+<!---022c5e294f62e5512b48cdc6ec91041b22c253f4--->
 
 ## 3.1.138.dev (unreleased)
 ### Fixed
+- ettv rewriter magnet url selector
 - Fix color-range matching
 
 ### Added
