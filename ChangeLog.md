@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9c1ca0deb8a5025bc329f204221fd97f7dea347b--->
+<!---947568aafa88901c6bcadd24b64deff4b9091ac5--->
 
-## 3.1.139.dev (unreleased)
+<!---f30dbb7761e2cc1d290f716b5c47d4d1da4d1e9b--->
+
+## 3.1.139 (2021-10-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.138...v3.1.139)
 ### Added
 - Add no_data_ignore to discover
 
-<!---00bb930334c76c2fc0e1bce67d3f56bb94510bd3--->
 
 ## 3.1.138 (2021-10-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.137...v3.1.138)
