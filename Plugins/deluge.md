@@ -48,6 +48,7 @@ deluge: yes
 | magnetization_timeout | When the timeout is set greater than 0 and a magnet URI is added, the task will wait up to the timeout (seconds) for the torrent to magnetize before continuing (Default: 0) |
 | hide_sparse_files | If *main_file_only* is set, all the other (sparse) files will be put inside a hidden subdirectory (called ".sparse_files"). On by default. |
 | keep_subs | If *main_file_only* is set, the subtitle file is also downloaded. If *content_filename* is set, the subtitle file will be renamed too. If *hide_sparse_files* is set, the subtitle will not be hidden. On by default. |
+| force_recheck | If yes, will perform a data recheck before starting a download. |
 
 ### Example
 
