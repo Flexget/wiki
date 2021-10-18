@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---947568aafa88901c6bcadd24b64deff4b9091ac5--->
+<!---452356316f902e8172a496a67b5487e54c1abe70--->
+
+## 3.1.140.dev (unreleased)
+### Fixed
+- updated allyoulike plugin to account for site changes
 
 <!---f30dbb7761e2cc1d290f716b5c47d4d1da4d1e9b--->
 
