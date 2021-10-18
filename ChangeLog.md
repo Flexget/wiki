@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---452356316f902e8172a496a67b5487e54c1abe70--->
+<!---25ee2c0030a344d04a5af2fefdd046cf21dc24b9--->
 
-## 3.1.140.dev (unreleased)
+<!---15ee7f09906ab9cc5735ee4048b838345e4410b3--->
+
+## 3.1.140 (2021-10-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.139...v3.1.140)
 ### Fixed
 - updated allyoulike plugin to account for site changes
 
-<!---f30dbb7761e2cc1d290f716b5c47d4d1da4d1e9b--->
 
 ## 3.1.139 (2021-10-15)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.138...v3.1.139)
