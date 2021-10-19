@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---25ee2c0030a344d04a5af2fefdd046cf21dc24b9--->
+<!---634d8ccea1e5315d8fe5924938f3bb061615ec00--->
+
+## 3.1.141.dev (unreleased)
+### Changed
+- Change library used to render colors (outside of logs) in the terminal
+- Change library used to render tables in the terminal
 
 <!---15ee7f09906ab9cc5735ee4048b838345e4410b3--->
 
