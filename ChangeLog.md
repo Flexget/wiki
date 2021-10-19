@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---634d8ccea1e5315d8fe5924938f3bb061615ec00--->
+<!---c2f91e57c5a504666f03588eb48d7a8425306c41--->
 
 ## 3.1.141.dev (unreleased)
 ### Changed
 - Change library used to render colors (outside of logs) in the terminal
 - Change library used to render tables in the terminal
+
+### Fixed
+- sftp_download - `to` property renders Jinja templates
 
 <!---15ee7f09906ab9cc5735ee4048b838345e4410b3--->
 
