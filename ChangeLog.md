@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a32cd59db9d6125eefc7fef86ff38f9400c0477e--->
+<!---dd481a47390ff06b586bdd3a69db928b1fc0074c--->
 
-## 3.1.141.dev (unreleased)
+<!---66e478d454c44c0f52b118f90967e27aea86d4c9--->
+
+## 3.1.141 (2021-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.140...v3.1.141)
 ### Changed
 - Upgrade a lot of dependencies
 - Change library used to render colors (outside of logs) in the terminal
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - sftp_download - `to` property renders Jinja templates
 
-<!---15ee7f09906ab9cc5735ee4048b838345e4410b3--->
 
 ## 3.1.140 (2021-10-18)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.139...v3.1.140)
