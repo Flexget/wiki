@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1565bf2b2c797724acdfd92a3a6afbcddb6c3646--->
+<!---53042c06cd33af72fd285cd9e595a798ac058a75--->
 
-## 3.1.142.dev (unreleased)
+<!---d4a055a07a5cbe0033961b12da13bca2f83f2caf--->
+
+## 3.1.142 (2021-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.141...v3.1.142)
 ### Added
 - Add python 3.10 support
 
 ### Fixed
 - Remove leftover imports from colorclass. fix [#3205](https://github.com/Flexget/Flexget/issues/3205)
 
-<!---66e478d454c44c0f52b118f90967e27aea86d4c9--->
 
 ## 3.1.141 (2021-10-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.140...v3.1.141)
