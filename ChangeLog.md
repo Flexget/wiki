@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dd481a47390ff06b586bdd3a69db928b1fc0074c--->
+<!---d8f4efce61462e794d6ee6737b91e193128a52ef--->
+
+## 3.1.142.dev (unreleased)
+### Added
+- Add python 3.10 support
 
 <!---66e478d454c44c0f52b118f90967e27aea86d4c9--->
 
