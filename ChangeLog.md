@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---53042c06cd33af72fd285cd9e595a798ac058a75--->
+<!---caffdca4cd0c4004fc112a843be6e14404a190bd--->
+
+## 3.1.143.dev (unreleased)
+### Fixed
+- imdb_lookup: Unescape ampersand character references in movie titles. fix [#3142](https://github.com/Flexget/Flexget/issues/3142)
 
 <!---d4a055a07a5cbe0033961b12da13bca2f83f2caf--->
 
