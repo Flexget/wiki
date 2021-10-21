@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0b8fc615073b18e363d381874f82a94f338d956a--->
+<!---ee9464a5197db5e2d6036c8b6eeb84a9aac72901--->
+
+## 3.1.144.dev (unreleased)
+### Fixed
+- trakt_list: Support getting 'watched' 'shows' fix [#2760](https://github.com/Flexget/Flexget/issues/2760)
 
 <!---afdd89d2ff58fd507a756b7cb533b6bb8768bbec--->
 
