@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3f83ee8e6c7f72558f7297ab242917a9c60dd8cc--->
+<!---0b8fc615073b18e363d381874f82a94f338d956a--->
 
-## 3.1.143.dev (unreleased)
+<!---afdd89d2ff58fd507a756b7cb533b6bb8768bbec--->
+
+## 3.1.143 (2021-10-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.142...v3.1.143)
 ### Fixed
 - imdb_lookup: Unescape ampersand character references in movie titles. fix [#3142](https://github.com/Flexget/Flexget/issues/3142)
 
 ### Changed
 - status cli: Rename 'produced' column to 'entries' to clarify meaning. fix [#3047](https://github.com/Flexget/Flexget/issues/3047)
 
-<!---d4a055a07a5cbe0033961b12da13bca2f83f2caf--->
 
 ## 3.1.142 (2021-10-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.141...v3.1.142)
