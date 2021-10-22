@@ -1,4 +1,9 @@
 # TheTVDB Lookup
+<div class="alert alert-danger" role="danger">
+  <span class="glyphicon glyphicon-exclamation-sign"></span>
+  &nbsp; This plugin does not work currently, as thetvdb has shut down their free api. It could be reworked to use their v4 api if anybody is willing, but the v4 api requires a subscription fee.
+</div>
+
 
 Uses `series_name` (or `tvdb_id`) to perform lookup.
 
