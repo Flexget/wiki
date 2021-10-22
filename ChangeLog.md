@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0bb2985ec5f011e5380a9786deef6cc7aa5e18f4--->
+<!---9884f5f6621334cd4841f00b47a77faf07409dfd--->
+
+## 3.1.145.dev (unreleased)
+### Added
+- Log filter plugin
 
 <!---6bf029a6d571a592831837a42401a00d0515b014--->
 
