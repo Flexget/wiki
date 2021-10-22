@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ee9464a5197db5e2d6036c8b6eeb84a9aac72901--->
+<!---0bb2985ec5f011e5380a9786deef6cc7aa5e18f4--->
 
-## 3.1.144.dev (unreleased)
+<!---6bf029a6d571a592831837a42401a00d0515b014--->
+
+## 3.1.144 (2021-10-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.143...v3.1.144)
 ### Fixed
 - trakt_list: Support getting 'watched' 'shows' fix [#2760](https://github.com/Flexget/Flexget/issues/2760)
 
-<!---afdd89d2ff58fd507a756b7cb533b6bb8768bbec--->
 
 ## 3.1.143 (2021-10-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.142...v3.1.143)
