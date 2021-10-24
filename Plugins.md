@@ -365,6 +365,7 @@ Perform various FlexGet operations.
 | [disable](/Plugins/disable) | Disable builtin plugin(s) from a task, or plugins included from a template. |
 | [include](/Plugins/include) | Include configuration from another yaml file. |
 | [interval](/Plugins/interval) | Maintain minimum poll interval for the task. |
+| [log_filter](/Plugins/log_filter) | Filter prevent certain messages from being logged. |
 | [manual](/Plugins/manual) | Only run the task when explicitly specified. |
 | [max_reruns](/Plugins/max_reruns) | Limit the maximum number of task reruns. |
 | [no_entries_ok](/Plugins/no_entries_ok) | Silence warnings about task not producing entries, for tasks where that is normal. |
