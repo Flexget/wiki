@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5136bfb71d3ee88f6bad40538b540321bd5b5a28--->
+<!---d5605214ba8afc93f1a97e2155c2771c96f3e94a--->
 
-## 3.1.146.dev (unreleased)
+<!---4a3bb6e9890b9424d4b11bef958570d41f8b2f18--->
+
+## 3.1.146 (2021-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.145...v3.1.146)
 ### Fixed
 - convert_magnet: Fix compatibility with older libtorrent
 
-<!---9bf383805b14a4552d7133bca303813be330ffa5--->
 
 ## 3.1.145 (2021-10-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.144...v3.1.145)
