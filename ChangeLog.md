@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7fdc99dc050d8d5c7a5183a03ca19b1acf19f307--->
+<!---aa4a938fe177a9e4613327ec92ff68efae273ff8--->
 
-## 3.1.147.dev (unreleased)
+<!---ca5898c614e6dbaf3259d490cd2827ba761aa7b0--->
+
+## 3.1.147 (2021-10-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.146...v3.1.147)
 ### Changed
 - redirect_url: Switch method of redirection to work for Jackett and more types of redirects. fix [#3154](https://github.com/Flexget/Flexget/issues/3154)
 
-<!---4a3bb6e9890b9424d4b11bef958570d41f8b2f18--->
 
 ## 3.1.146 (2021-10-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.145...v3.1.146)
