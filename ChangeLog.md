@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5d20645d0d89fedad5e2b5e77304fb2a181f5aa3--->
+<!---1a394627ce54d2b6cf771dc13e9240db70ead5e8--->
+
+## 3.1.150.dev (unreleased)
+### Fixed
+- api_tvdb: fix crash from referencing non-existent original_name
 
 <!---282dae980b684bfb0ae6e011142d61c9e908daf0--->
 
