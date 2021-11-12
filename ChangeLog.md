@@ -1,7 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dc8f82e834f9b0c5fe34d7dba293fb04028dbf75--->
+<!---4dd8a3a1306fa5147443a627715fae192bcc0ae3--->
+
+## 3.1.152.dev (unreleased)
+### Added
+- yaml_list: list plugin to load/save entries to yaml
+- yaml_list: remove old interface
+- yaml_list: quote url string
+- yaml_list: add new test
+- yaml: add yaml list
+- yaml: get and save entry from yaml
 
 <!---88c942a75b5885746607a4581fd9a25f23653e02--->
 
