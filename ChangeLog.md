@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4dd8a3a1306fa5147443a627715fae192bcc0ae3--->
+<!---0699047773d48a59e87881aec30cf6c65fbbd0be--->
 
-## 3.1.152.dev (unreleased)
+<!---5044cb0fc2afba88ac3d94a4f4bddf6e5484bd0d--->
+
+## 3.1.152 (2021-11-13)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.151...v3.1.152)
 ### Added
 - yaml_list: list plugin to load/save entries to yaml
 - yaml_list: remove old interface
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - yaml: add yaml list
 - yaml: get and save entry from yaml
 
-<!---88c942a75b5885746607a4581fd9a25f23653e02--->
 
 ## 3.1.151 (2021-11-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.150...v3.1.151)
