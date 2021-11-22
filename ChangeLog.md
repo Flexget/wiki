@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e1aa3ffd35f6d6c7804df0ea3daeddffc2099c5a--->
+<!---ca7f1aa7cf3f2f607c82ed8a325ff66a290a238b--->
+
+## 3.1.154.dev (unreleased)
+### Added
+- imdb_list: change authenticate to cookies
+- imdb_list: change authenticate to cookies
 
 <!---be695af81da850b09c0e8e703dc74d90d1b6ca2a--->
 
