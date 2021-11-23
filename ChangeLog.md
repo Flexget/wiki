@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---842b66e5611f5b1dc8e70dbc66a7ccc81dcc0bbe--->
+<!---76ee7d82641512832bb7ff60370020b8e262e817--->
 
 ## 3.1.155.dev (unreleased)
 ### Changed
@@ -12,6 +12,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - emby: Manage all media types in lists ([#3253](https://github.com/Flexget/Flexget/issues/3253))
 
 ### Fixed
+- Fix issues with some plugins during re-runs caused by next_series_episodes. fix [#3254](https://github.com/Flexget/Flexget/issues/3254)
 - pathscrub: prevent leavivng spaces at beginning/end of folders/filenames when there was an illegal character there
 
 <!---4b43e1897a013ee693c611507453bb04c2259947--->
