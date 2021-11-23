@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4e3499a5a3a65743812717734272b5ffda538aba--->
+<!---46350bd40f0d6db207a77c067a76b5aa800374db--->
 
-## 3.1.154.dev (unreleased)
+<!---4b43e1897a013ee693c611507453bb04c2259947--->
+
+## 3.1.154 (2021-11-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.153...v3.1.154)
 ### Added
 - imdb_list: change authenticate to cookies
 - imdb_list: change authenticate to cookies
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - quality: Recognize 'dovi' as 'dolbyvision' color profile
 
-<!---be695af81da850b09c0e8e703dc74d90d1b6ca2a--->
 
 ## 3.1.153 (2021-11-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.152...v3.1.153)
