@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fcd16ff7b82e3d9224f6c0530d719009069c98b8--->
+<!---70b12f9110d05fa5d4a4d1b0da31f8a0f7092476--->
 
 ## 3.1.155.dev (unreleased)
 ### Changed
+- yaml_list: Adding an existing entry will now update that entry in the list
+- yaml_list: Allow specifying file encoding
 - from_emby: Properly handle 'types' option
 - emby: Manage all media types in lists ([#3253](https://github.com/Flexget/Flexget/issues/3253))
 
