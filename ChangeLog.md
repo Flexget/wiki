@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---46350bd40f0d6db207a77c067a76b5aa800374db--->
+<!---fcd16ff7b82e3d9224f6c0530d719009069c98b8--->
+
+## 3.1.155.dev (unreleased)
+### Changed
+- from_emby: Properly handle 'types' option
+- emby: Manage all media types in lists ([#3253](https://github.com/Flexget/Flexget/issues/3253))
 
 <!---4b43e1897a013ee693c611507453bb04c2259947--->
 
