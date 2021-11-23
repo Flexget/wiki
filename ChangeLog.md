@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---70b12f9110d05fa5d4a4d1b0da31f8a0f7092476--->
+<!---f7acbc8ea65056d3d84db54d95e0f28e11913100--->
 
 ## 3.1.155.dev (unreleased)
 ### Changed
+- yaml_list: Sort important fields first in output (title, url)
 - yaml_list: Adding an existing entry will now update that entry in the list
 - yaml_list: Allow specifying file encoding
 - from_emby: Properly handle 'types' option
