@@ -1,12 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ca7f1aa7cf3f2f607c82ed8a325ff66a290a238b--->
+<!---4e3499a5a3a65743812717734272b5ffda538aba--->
 
 ## 3.1.154.dev (unreleased)
 ### Added
 - imdb_list: change authenticate to cookies
 - imdb_list: change authenticate to cookies
+
+### Changed
+- quality: Recognize 'dovi' as 'dolbyvision' color profile
 
 <!---be695af81da850b09c0e8e703dc74d90d1b6ca2a--->
 
