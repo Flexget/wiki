@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e1e6b253102298a97d01709b95b7de8ce3a9b403--->
+<!---004f1442e92a774abec2576ace2c484949223a5b--->
 
 ## 3.1.156.dev (unreleased)
 ### Changed
 - history: add a db cleanup for items over a year old
+
+### Fixed
+- status: Fix NotRenderableError crash on failed CLI fix [#3239](https://github.com/Flexget/Flexget/issues/3239)
+- status: Fix NotRenderableError crash on status CLI
 
 <!---88726348ca51b9c73a4ffbb8977a2117a50441c2--->
 
