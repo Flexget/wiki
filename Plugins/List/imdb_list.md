@@ -19,7 +19,7 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
  * In order to avoid IMDB lockout due to hammering, credentials are cached to DB on first successful login and are used with every call to the plugin after that. (Password itself is not saved, just the login, resolved user ID and generated cookies)
  * When matching against the list, it will skip any entry that does not have an `imdb_id`, so using `imdb_lookup: yes` is advised.
 
-**Cookies:**
+## Cookies
 
 In order to login into imdb we now use cookies! You can get this cookies information from your browser and load the required fields into flexget. The required fields are:
 
@@ -63,7 +63,8 @@ imdb_list:
   cookies: '{? imdb.cookie ?}'
   list: '{? imdb.list ?}'
 ```
-**Example:**
+
+## Example
 
 ```
 imdb_list:
