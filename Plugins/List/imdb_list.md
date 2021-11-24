@@ -42,8 +42,27 @@ imdb_list:
   list: watchlist
 ```
 
+**Set Cookie with secrets.yaml:**
 
+secrets.yaml:
 
+```
+imdb:
+  login: mylogin@mail.com
+  cookie:
+    ubid-main: "xxx-xxxxxxxx-xxxxxxx"
+    sess-at-main: "XxXxXxXxXxXxXxXxXx
+  list: 'mylist'
+```
+
+config.yaml:
+
+```
+imdb_list:
+  login: '{? imdb.login ?}'
+  cookies: '{? imdb.cookie ?}'
+  list: '{? imdb.list ?}'
+```
 **Example:**
 
 ```
