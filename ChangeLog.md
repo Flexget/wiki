@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---76ee7d82641512832bb7ff60370020b8e262e817--->
+<!---c1bf056e0c8b5297515c4e871e5980c7396803b3--->
 
-## 3.1.155.dev (unreleased)
+<!---88726348ca51b9c73a4ffbb8977a2117a50441c2--->
+
+## 3.1.155 (2021-11-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.1.154...v3.1.155)
 ### Changed
 - yaml_list: Sort important fields first in output (title, url)
 - yaml_list: Adding an existing entry will now update that entry in the list
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Fix issues with some plugins during re-runs caused by next_series_episodes. fix [#3254](https://github.com/Flexget/Flexget/issues/3254)
 - pathscrub: prevent leavivng spaces at beginning/end of folders/filenames when there was an illegal character there
 
-<!---4b43e1897a013ee693c611507453bb04c2259947--->
 
 ## 3.1.154 (2021-11-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.153...v3.1.154)
