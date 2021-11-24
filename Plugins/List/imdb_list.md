@@ -51,7 +51,7 @@ imdb:
   login: mylogin@mail.com
   cookie:
     ubid-main: "xxx-xxxxxxxx-xxxxxxx"
-    sess-at-main: "XxXxXxXxXxXxXxXxXx
+    sess-at-main: "XxXxXxXxXxXxXxXxXx"
   list: 'mylist'
 ```
 
