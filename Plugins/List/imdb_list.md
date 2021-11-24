@@ -21,10 +21,28 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 
 **Cookies:**
 
-In order to login into imdb we now use cookies! You can get this cookies information from your browser and load the requeired fields into flexget. The requeired fields are:
+In order to login into imdb we now use cookies! You can get this cookies information from your browser and load the required fields into flexget. The required fields are:
 
 * ubid-main
 * sess-at-main
+
+**Get Cookie from Chrome:**
+
+* Click the tree top right dots
+* More Tools > Developer Tools
+* On the left side select Cookies > https://www.imdb.com/
+* Copy the content of ubid-main and sess-at-main into cookie
+
+```
+imdb_list:
+  login: my_login
+  cookies:
+    ubid-main: "<<from cookie>>"
+    sess-at-main: "<<from cookie>>"
+  list: watchlist
+```
+
+
 
 **Example:**
 
