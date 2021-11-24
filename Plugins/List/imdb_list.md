@@ -42,9 +42,9 @@ imdb_list:
   list: watchlist
 ```
 
-**Set Cookie with secrets.yaml:**
+**Set Cookie with [variables](/Plugins/variables):**
 
-secrets.yaml:
+variables.yaml:
 
 ```
 imdb:
