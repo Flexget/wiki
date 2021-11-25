@@ -24,7 +24,7 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 In order to login into imdb we now use cookies! You can get this cookies information from your browser and load the required fields into flexget. The required fields are:
 
 * ubid-main
-* sess-at-main
+* at-main
 
 **Get Cookie from Chrome:**
 
@@ -38,7 +38,7 @@ imdb_list:
   login: my_login
   cookies:
     ubid-main: "<<from cookie>>"
-    sess-at-main: "<<from cookie>>"
+    at-main: "<<from cookie>>"
   list: watchlist
 ```
 
@@ -51,7 +51,7 @@ imdb:
   login: mylogin@mail.com
   cookie:
     ubid-main: "xxx-xxxxxxxx-xxxxxxx"
-    sess-at-main: "XxXxXxXxXxXxXxXxXx"
+    at-main: "XxXxXxXxXxXxXxXxXx"
   list: 'mylist'
 ```
 
@@ -71,7 +71,7 @@ imdb_list:
   login: 123@abc.com
   cookies:
     ubid-main: "xxxxxxxxxxxx"
-    sess-at-main: "xxxxxxxxxx"
+    at-main: "xxxxxxxxxx"
   list: watchlist
   force_language: es-mx # Optional - Force Specified Language
 ```
@@ -89,7 +89,7 @@ list_match:
         login: 123@abc.com
         cookies:
           ubid-main: "xxxxxxxxxxxx"
-          sess-at-main: "xxxxxxxxxx"
+          at-main: "xxxxxxxxxx"
         list: watchlist
 download: /downloads/
 ```
