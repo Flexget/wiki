@@ -1,9 +1,9 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---004f1442e92a774abec2576ace2c484949223a5b--->
+<!---b44cabf6428d944d4b454886910887f6ff8d6f0f--->
 
-## 3.1.156.dev (unreleased)
+## 3.2.0.dev (unreleased)
 ### Changed
 - history: add a db cleanup for items over a year old
 
