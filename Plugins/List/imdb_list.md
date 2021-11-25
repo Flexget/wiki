@@ -33,6 +33,11 @@ In order to login into imdb we now use cookies! You can get this cookies informa
 * On the left side select Cookies > https://www.imdb.com/
 * Copy the content of ubid-main and sess-at-main into cookie
 
+
+Cookies can be added to the config in several ways:
+
+**Set Cookie in config:**
+
 ```
 imdb_list:
   login: my_login
@@ -49,7 +54,7 @@ variables.yaml:
 ```
 imdb:
   login: mylogin@mail.com
-  cookie:
+  cookies:
     ubid-main: "xxx-xxxxxxxx-xxxxxxx"
     at-main: "XxXxXxXxXxXxXxXxXx"
   list: 'mylist'
@@ -62,6 +67,28 @@ imdb_list:
   login: '{? imdb.login ?}'
   cookies: '{? imdb.cookie ?}'
   list: '{? imdb.list ?}'
+```
+
+**Set Cookie in json format:**
+
+```
+imdb_list:
+  login: '{? imdb.login ?}'
+  cookies: '{"ubid-main":"xxx-xxxxxxxx-xxxxxxx","at-main":"XxXxXxXxXxXxXxXxXx"}'
+  list: '{? imdb.list ?}'
+```
+
+**Set Cookie from a file in JSON format:**
+```
+imdb_list:
+  login: '{? imdb.login ?}'
+  cookies: '/path/to/file.json'
+  list: '{? imdb.list ?}'
+```
+
+file.json
+```
+{"ubid-main":"xxx-xxxxxxxx-xxxxxxx","at-main":"XxXxXxXxXxXxXxXxXx"}
 ```
 
 ## Example
