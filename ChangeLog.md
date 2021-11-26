@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7234c4d4b06de19290cb100364694e7d012f52e8--->
+<!---34121f79eaef2ce27dd2d37b6d1c2e8dfbf98c51--->
 
-## 3.2.1.dev (unreleased)
+<!---7cefd13ec39064bafb64194c04b10dd448bc37e1--->
+
+## 3.2.1 (2021-11-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.0...v3.2.1)
 ### Fixed
 - imdb_list: cookie login field map ([#3255](https://github.com/Flexget/Flexget/issues/3255))
 
-<!---5748d921387d6f4316e234564697fa9bf2faa5f4--->
 
 ## 3.2.0 (2021-11-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.1.155...v3.2.0)
