@@ -1,3 +1,8 @@
+---
+import:
+ - Includes/PluginRequiresPip
+packages: sleekxmpp
+---
 # [Notifiers](/Plugins/Notifiers) > XMPP
 <div class="alert alert-success" role="info">
   
@@ -7,15 +12,8 @@
 This plugin sends messages via XMPP, has been tested on Windows 7/64 so far, sending messages to Google Hangouts recipients.
 
 ## Preparations
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp; The SleekXMPP library is required. To install it, run: 
-<br/><br/>
 
-```bash
-pip install sleekxmpp
-```
-</div>
+{{> Includes/PluginRequiresPip }}
 
 ## Configuration
 
