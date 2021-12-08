@@ -1,13 +1,20 @@
+---
+import:
+ - Includes/PluginRequiresPip
+packages: deluge-client
+---
+
 # Deluge
+
+{{> Includes/PluginRequiresPip }}
 
 Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
 
-**Requirements:**
-* Requires [deluge-client](https://pypi.org/project/deluge-client/). `pip install deluge-client`
+**Notes:**
+
 * Supports Deluge 1.3 and 2.0.
 * This will not work if you are running deluge in classic mode. You must switch to running the daemon separately. 
 * If you are running `deluged` as a different user, on a different box, or with a non-default config directory (something other than ~/.config/deluge), you will need to specify the username and password options that you have set up in your Deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
-
 
 ### Configuration
 None of the options are required, and they will all default to whatever you have set in Deluge.
