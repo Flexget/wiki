@@ -1,29 +1,27 @@
+---
+import:
+ - Includes/PluginInfo
+info: Make sure pyload is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible so FlexGet can use the API.
+---
 # pyLoad
+
 Output plugin for [pyLoad](http://pyload.net/) download manager.
 
 
-----
 ## Features
-  * Scan the accepted feeds for urls
-  * Scan the feed's html page for additional urls
-  * Check for prefered hoster
-  * Add found links as package to pyLoad
 
+* Scan the accepted feeds for urls
+* Scan the feed's html page for additional urls
+* Check for prefered hoster
+* Add found links as package to pyLoad
 
-
-----
-## Prerequisites
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp;
-Make sure <a href="http://pyload.net">pyLoad</a> is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible, so FlexGet can use the API.
-</div>
-
-----
 ## Configuration
+
+{{> Includes/PluginInfo }}
+
 **Example:**
 
-```
+```yaml
 pyload:
   api: http://localhost:8000/api
   username: <user>
@@ -34,7 +32,7 @@ pyload:
   queue: [yes|no](/yes|no)
   parse_url: [yes|no](/yes|no)
   hoster:
-    - List of prefered Hoster
+    - List of prefered hoster
   multiple_hoster: [yes|no](/yes|no)
   enabled: [yes|no](/yes|no)
 ```
@@ -52,13 +50,15 @@ pyload:
 
 
 ### API Access
+
 The **api** parameter should be the address of the webinterface followed by "/api", in case the webinterface runs locally on port 8000 the default value will suffice.
 Don't forget to set the correct **username** and **password**.
 
-### How to Add Downloads
+### How to add downloads
+
 You can define the naming format for the packages to be added with every entry by specifying the **package** parameter accordingly. It is [Jinja](https://flexget.com/wiki/Jinja) enabled and, therefore, allows for a dynamic formatting by applying the [entry](https://flexget.com/wiki/Entry)'s field values.
-For example, the following will result in packages like "The Walking Dead - S01E05":
-```
+For example, the following will result in packages like "Foobar - S01E05":
+```yaml
 pyload:
   ...
   package: '{{series_name}} - {{series_id}}'
@@ -74,7 +74,8 @@ The **queue** parameter specifies whether new packages should be queued immediat
 ### Hosters and URL Parsing
 By default this plugin will accept all hoster, if you want to filter prefered ones lookup the names at pyloads [plugin overview](https://github.com/pyload/pyload/wiki/Supported-Hoster) first.
 Then simply create a list like this:
-```
+
+```yaml
 hoster:
   - YoutubeCom
   - MyvideoDe
@@ -91,7 +92,8 @@ When **parse_url** is activated pyload will load the html page at the feed url a
 You can define the password for the package send to pyload, this password will be used for extraction.
 
 For example, the following will result in the package password "test123":
-```
+
+```yaml
 pyload:
   ...
   package_password: test123
