@@ -17,6 +17,18 @@ Then, in the body of the page, add this where you want the content to show up. N
 
 If you are adding something that will be used on multiple pages, please add it in the [Includes](/Includes/) directory. Click the Index button on that page (at the top-left next to "FLEXGET") to view existing files.
 
+## Plugin information
+
+### Requires additional libraries via pip
+```yaml
+---
+import:
+ - Includes/PluginRequiresPip
+packages: a b c
+---
+
+{{> Includes/PluginRequiresPip }}
+```
 
 ## Replaced and Removed Plugins
 #### Plugin Replaced with Archived Content On Page
