@@ -37,5 +37,3 @@ configure_series:
   settings:
     identified_by: sequence
 ```
-
-**Note:** using kitsu.io to match/accept entries in nyaa.se rss feeds works well (as long as the titles match more or less)
