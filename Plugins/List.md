@@ -1,5 +1,17 @@
 # Managed List Plugins
+
 Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.
+
+### Operating with lists
+
+
+| Plugin name | Description |
+| --- | --- |
+| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
+| [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
+| [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
+| [list_clear](/Plugins/List/list_clear) | Use this plugin to clear all items from a list plugin. |
+
 
 | Plugin name | Description |
 | --- | --- |
@@ -15,16 +27,6 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
 | [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted
 | [emby_list](https://flexget.com/Plugins/emby_list) | Allows list management in emby server
-
-### Operating with lists
-
-
-| Plugin name | Description |
-| --- | --- |
-| [list_add](/Plugins/List/list_add) | Use this plugin to add accepted entries to a list plugin. |
-| [list_remove](/Plugins/List/list_remove) | Use this plugin to remove accepted entries from a list plugin. |
-| [list_match ](/Plugins/List/list_match) | Use this plugin to filter entries based on the contents of a list. |
-| [list_clear](/Plugins/List/list_clear) | Use this plugin to clear all items from a list plugin. |
 
 ## List action advanced usage
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
