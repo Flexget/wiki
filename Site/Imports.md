@@ -30,6 +30,19 @@ packages: a b c
 {{> Includes/PluginRequiresPip }}
 ```
 
+## Info
+
+```yaml
+---
+import:
+ - Includes/PluginInfo
+info: text here
+---
+
+{{> Includes/PluginInfo }}
+
+```
+
 ## Replaced and Removed Plugins
 #### Plugin Replaced with Archived Content On Page
 
