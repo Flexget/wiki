@@ -6,9 +6,9 @@ packages: deluge-client
 
 # Deluge
 
-{{> Includes/PluginRequiresPip }}
-
 Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
+
+{{> Includes/PluginRequiresPip }}
 
 **Notes:**
 
