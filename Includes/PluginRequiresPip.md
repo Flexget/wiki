@@ -6,5 +6,6 @@
 ```bash
 pip install {{packages}}
 ```
-**Note:** Make sure to use pip from the same python virtualenv where FlexGet is installed
+**Note:** Make sure to use pip from the same python virtualenv where FlexGet is installed.
+{{note}}
 </div>
