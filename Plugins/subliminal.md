@@ -1,18 +1,14 @@
+---
+import:
+ - Includes/PluginRequiresPip
+packages: subliminal
+---
+
 # Subliminal
 
-Download subtitles for entries referred to existing video files. 
+Download subtitles for entries referring to existing video files. 
 
-### Installation
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp;
-This plugin requires the <a href="http://subliminal.readthedocs.io/">subliminal</a> Python library, version 2.0 or newer. To install it, run the following command:
-<br/><br/>
-
-```cmd
-pip install subliminal>=2.0
-```
-</div>
+{{> Includes/PluginRequiresPip }}
 
 ### Example (complete task)
 
@@ -33,11 +29,11 @@ tasks:
       alternatives:
         - eng
       exact_match: yes
-      #only use the following providers
+      # only use the following providers
       providers: [addic7ed, opensubtitles, tvsubtitles]
       single: no
       hearing_impaired: yes
-      authentication:               #consider using the variables plugin
+      authentication:               # consider using the variables plugin
         addic7ed:
           username: my_user
           password: my_password
