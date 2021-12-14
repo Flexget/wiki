@@ -1,13 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a4ad21f170198a22f66e9e11ad52ff4e0152f990--->
+<!---eea7c08487213c5c8837dd41b9e8116182e13537--->
 
 ## 3.2.5.dev (unreleased)
 ### Fixed
 - parsing: nested tasks reset selected parser prematurely
 - parsing: nested parsing select
 - parsing: nested parsing select
+
+### Added
+- asciffy and strip_symbols jinja filters
+- normalize filter: add tests
+- normalize filter
 
 <!---d25b48940e07fc4a4636b91c55199c894684214d--->
 
