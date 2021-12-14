@@ -1,7 +1,13 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4a19168fc32cbb117615d6ec60bb1ae0c3fda0a3--->
+<!---a4ad21f170198a22f66e9e11ad52ff4e0152f990--->
+
+## 3.2.5.dev (unreleased)
+### Fixed
+- parsing: nested tasks reset selected parser prematurely
+- parsing: nested parsing select
+- parsing: nested parsing select
 
 <!---d25b48940e07fc4a4636b91c55199c894684214d--->
 
