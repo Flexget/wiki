@@ -1,7 +1,7 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---eea7c08487213c5c8837dd41b9e8116182e13537--->
+<!---e3f2fb5c45e26d28346a64715f2cc85604ccd831--->
 
 ## 3.2.5.dev (unreleased)
 ### Fixed
@@ -10,6 +10,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - parsing: nested parsing select
 
 ### Added
+- `anilist`: Include more metadata (`al_date_start`, `al_date_end`, `mal_id`)
 - asciffy and strip_symbols jinja filters
 - normalize filter: add tests
 - normalize filter
