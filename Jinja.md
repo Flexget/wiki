@@ -49,6 +49,8 @@ When using Jinja2 templates, you can use the following custom filters in additio
 |`to_date`|Formats date
 |`strip_year`|Removes year from end of string (for example: remove year from the end of movie name)
 |`get_year`|Get year from end of string (for example: get year from the end of movie name)
+|`asciify`|Simplify a string replacing for example `à` with `a`, `õ` with `o` and `ç` with `c`
+|`strip_symbols`|Removes all special chars from a string, keeps accent words. The symbols are removed, only `()-_[].` and replaced by a `space`. Double `space` are also replaced by a single `space`
 
 
 #### Example:
@@ -57,6 +59,8 @@ When using Jinja2 templates, you can use the following custom filters in additio
 set:
   # Replace filename by title and keep the extension
   filename: '{{title}}{{filename | pathext}}'
+  # Create a simple title
+  id_name: '{{title|asciify|strip_symbols}}'
 ```
 ### Jinja2 Tests
 When using Jinja2 tests, you can use the following custom tests in addition to the [built-in tests](http://jinja.pocoo.org/docs/dev/templates/#list-of-builtin-tests).
