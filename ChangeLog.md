@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---da4e04de194da396981cab1893e8bf236a6efb54--->
+<!---0a7dbe70ac475036b5f5a90d3201bdf1019a1770--->
+
+## 3.2.6.dev (unreleased)
+### Added
+- qbittorrent: Pass tag(s) when adding torrents to client
+- qbittorrent: Pass tag(s) when adding torrents to client ([#3271](https://github.com/Flexget/Flexget/issues/3271))
 
 <!---3f8c7b60a4cb06ef98f1037aa619bf80bbe2c92b--->
 
