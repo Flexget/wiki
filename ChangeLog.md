@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e3f2fb5c45e26d28346a64715f2cc85604ccd831--->
+<!---da4e04de194da396981cab1893e8bf236a6efb54--->
 
-## 3.2.5.dev (unreleased)
+<!---3f8c7b60a4cb06ef98f1037aa619bf80bbe2c92b--->
+
+## 3.2.5 (2021-12-15)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.4...v3.2.5)
 ### Fixed
 - parsing: nested tasks reset selected parser prematurely
 - parsing: nested parsing select
@@ -15,7 +18,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - normalize filter: add tests
 - normalize filter
 
-<!---d25b48940e07fc4a4636b91c55199c894684214d--->
 
 ## 3.2.4 (2021-12-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.3...v3.2.4)
