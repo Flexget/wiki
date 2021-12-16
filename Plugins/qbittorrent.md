@@ -11,6 +11,9 @@ qbittorrent:
   label: tv
   host: localhost
   port: 8080
+  tags:
+    - flexget
+    - '{quality.resolution}'
 ```
 
 ## Options
@@ -31,6 +34,7 @@ qbittorrent: yes
 | verify_cert | Enable or disable SSL certficate verification (default *True*)
 |  path  |  The download location  |
 | label | Assigns corresponding qBittorrent label/category|
+| tags | Assign one or more tags to torrent. Can be used both in config and in a task.
 | maxdownspeed | Set torrent download speed limit. Unit in kilobytes/second |
 | maxupspeed | Set torrent upload speed limit. Unit in kilobytes/second |
 | add_paused | Add torrents in the paused state (default: *False*)|
