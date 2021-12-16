@@ -13,7 +13,12 @@ qbittorrent:
   port: 8080
   tags:
     - flexget
-    - '{quality.resolution}'
+
+Tasks
+  movies:
+    set:
+      tags:
+        - '{quality.resolution}'
 ```
 
 ## Options
