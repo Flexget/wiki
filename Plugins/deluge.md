@@ -115,8 +115,8 @@ series:
   settings:
     groupa:
       set:
-        content_filename: "{{series_name}} - {{series_id}}/{{series_name}} - {{series_id}} - {{quality}}"
-        move_completed_path: /home/user/TV/{{series_name}}/Season {{series_season}}/
+        content_filename: "\{{series_name}} - \{{series_id}} - \{{quality}}"
+        move_completed_path: /home/user/TV/\{{series_name}}/Season \{{series_season}}/
   groupa:
     - Show Name
 deluge: yes
