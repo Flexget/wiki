@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---93dc87d2b332f7ed5aff704f86b6d3c190c1ffba--->
+<!---0e65c946f1a2c1cdcc9e29e65661ed071b5f77d8--->
 
-## 3.2.7.dev (unreleased)
+<!---d122d06b8ea5296a8f8dc6a02e329affccce9d9d--->
+
+## 3.2.7 (2021-12-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.6...v3.2.7)
 ### Changed
 - aria2: add `add_extension` option for renaming
 - aria2: allow settings via `set` plugin
 
-<!---a3414b19d516521d47cc57c802ee9d1de0c3bd85--->
 
 ## 3.2.6 (2021-12-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.5...v3.2.6)
