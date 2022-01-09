@@ -111,7 +111,17 @@ If you want to keep information in another rss field attached to the flexget [en
 ```YAML
 rss:
   url: <url>
-  other_fields: [date]
+  other_fields:
+    - date
+```
+
+If you want to remap the rss field to a different field in FlexGet, that is also possible. This can be useful for rss fields that contain special characters, like colons.
+
+```yaml
+rss:
+  url: "<url>"
+  other_fields:
+    - "some:rssfield": the_flexget_field
 ```
 
 ### Convert to ASCII
