@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2b9eafb70e211644bd14aa48b9c9fd22866e6a92--->
+<!---488fe6f3d9af0ccc9147a2e4b09273bd5bed585e--->
 
 ## 3.2.10.dev (unreleased)
 ### Fixed
+- imdb_list: Allow tvspecials when matching movies
+- imdb_list: assume tvspecial
 - api_bluray: Handle Invalid JSON
 - api_bluray: Invalid JSON handle
 
