@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---31dd13d46e555217931f7e4f2af7084519b8e1c4--->
+<!---2b9eafb70e211644bd14aa48b9c9fd22866e6a92--->
+
+## 3.2.10.dev (unreleased)
+### Fixed
+- api_bluray: Handle Invalid JSON
+- api_bluray: Invalid JSON handle
 
 <!---ed8953b77468a96ec7405a2c0722d5388dcc3edd--->
 
