@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---488fe6f3d9af0ccc9147a2e4b09273bd5bed585e--->
+<!---18ed6d08fc078fe149703f2c0a54286d54601323--->
 
-## 3.2.10.dev (unreleased)
+<!---3b49c3f07a8610c9b7329954110ee6e2f894e9d4--->
+
+## 3.2.10 (2022-01-19)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.9...v3.2.10)
 ### Fixed
 - imdb_list: Allow tvspecials when matching movies
 - imdb_list: assume tvspecial
 - api_bluray: Handle Invalid JSON
 - api_bluray: Invalid JSON handle
 
-<!---ed8953b77468a96ec7405a2c0722d5388dcc3edd--->
 
 ## 3.2.9 (2022-01-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.8...v3.2.9)
