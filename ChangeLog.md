@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---18ed6d08fc078fe149703f2c0a54286d54601323--->
+<!---05d53fbe965debe8d8b897a08bc259fd004416a4--->
+
+## 3.2.11.dev (unreleased)
+### Added
+- *  free_space: Allow reversing logic to abort task when there is above a threshold of free space.
+- free_space: abort_if: above/below ([#3293](https://github.com/Flexget/Flexget/issues/3293))
 
 <!---3b49c3f07a8610c9b7329954110ee6e2f894e9d4--->
 
