@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f82b093e7cbe39c6afefc4e94c203794f3d4c648--->
+<!---d96fdeea4573b57f1e8a89f9cb4d36d371ad69ec--->
 
-## 3.2.12.dev (unreleased)
+<!---8aab2496fb6ac0d7e27a3c52ab2c6f532f6705c5--->
+
+## 3.2.12 (2022-01-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.11...v3.2.12)
 ### Changed
 - Upgrade --dump and --dump-config formatting
 
-<!---12368247252251195a33b0a648bd7f3751144e36--->
 
 ## 3.2.11 (2022-01-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.10...v3.2.11)
