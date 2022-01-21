@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ec918563683f8c4c1898f1c575cce2c817a38c52--->
+<!---f82b093e7cbe39c6afefc4e94c203794f3d4c648--->
+
+## 3.2.12.dev (unreleased)
+### Changed
+- Upgrade --dump and --dump-config formatting
 
 <!---12368247252251195a33b0a648bd7f3751144e36--->
 
