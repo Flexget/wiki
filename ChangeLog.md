@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf690906f1afc35650703521adc9d3a8fe0f2924--->
+<!---43a2cfce4e659c970387829ae5d243298527d1df--->
+
+## 3.2.14.dev (unreleased)
+### Fixed
+- free_space: Use keyword arguments to pass key_filename [#3323](https://github.com/Flexget/Flexget/issues/3323)
+- free_space: Solve the problem that the remaining free space of the remote server cannot be obtained [#3323](https://github.com/Flexget/Flexget/issues/3323)
 
 <!---4c6d6f691bfd58f8ee722d89a202e0028b2bccad--->
 
