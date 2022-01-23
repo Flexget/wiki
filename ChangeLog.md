@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---34d8d3688a5514d116847273d451da9218a7eacb--->
+<!---38ba770c61cabfa5b7ca3544fdd273e7b8c3c306--->
+
+## 3.2.15.dev (unreleased)
+### Changed
+- add 540p quality
 
 <!---bc1ed979149a3a5d7d02a7644a4d8896709e4a60--->
 
