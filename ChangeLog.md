@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---38ba770c61cabfa5b7ca3544fdd273e7b8c3c306--->
+<!---6dcd7ab3e8e1bc18210fd31c39b1ea790cdf1f4a--->
 
 ## 3.2.15.dev (unreleased)
 ### Changed
+- from_deluge: Stop populating deluge_pieces field to declutter --dump output
 - add 540p quality
 
 <!---bc1ed979149a3a5d7d02a7644a4d8896709e4a60--->
