@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6dcd7ab3e8e1bc18210fd31c39b1ea790cdf1f4a--->
+<!---5073050e7469b34e6503aeed1bc658241c33de45--->
 
-## 3.2.15.dev (unreleased)
+<!---7341efe7ac1b83389f9128f8816f77162acef56b--->
+
+## 3.2.15 (2022-01-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.14...v3.2.15)
 ### Changed
 - from_deluge: Stop populating deluge_pieces field to declutter --dump output
 - add 540p quality
 
-<!---bc1ed979149a3a5d7d02a7644a4d8896709e4a60--->
 
 ## 3.2.14 (2022-01-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.13...v3.2.14)
