@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5b92c48dad74978932a8ac778d71de477040a243--->
+<!---610419adff741204e396636e0cf1eda09d1dd538--->
 
-## 3.2.16.dev (unreleased)
+<!---3667b507d290d1ce3915023b82105c9eba4e782a--->
+
+## 3.2.16 (2022-01-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.15...v3.2.16)
 ### Fixed
 - qBittorrent: Avoid plugin error adding file
 - qBittorrent: Avoid plugin error adding file
 
-<!---7341efe7ac1b83389f9128f8816f77162acef56b--->
 
 ## 3.2.15 (2022-01-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.14...v3.2.15)
