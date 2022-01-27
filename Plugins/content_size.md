@@ -13,4 +13,4 @@ content_size:
 
 Size is given in MiB
 
-This would reject all torrents below 12MiB and above 1200MiB and over rides the strict behaviour. Same would work also for nzbs.
+This would reject all torrents below 12MiB and above 1200MiB and over rides the strict behaviour. Same would work also for nzbs. As this plugin only **Rejects**, you need to accept entries with some other filter (ie. [accept_all](/Plugins/accept_all), [series](/Plugins/series) etc.)
