@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---610419adff741204e396636e0cf1eda09d1dd538--->
+<!---8ba1faa21868cd128512f7dd83e8024922973fab--->
+
+## 3.2.17.dev (unreleased)
+### Fixed
+- npo_watchlist: login fix
 
 <!---3667b507d290d1ce3915023b82105c9eba4e782a--->
 
