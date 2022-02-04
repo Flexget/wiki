@@ -1,7 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4a90d96885eef4e35f51b9c218e3acea5554394a--->
+<!---48ca13e721feb1d76216baaf59455db5eb31fd52--->
+
+## 3.2.18.dev (unreleased)
+### Added
+- seen cli: add task options
+- seen cli: add task options
+- seen cli: add task options
+- seen cli: add task options
+- seen cli: add task options
 
 <!---98faa37e1c79d84afb3db058e95da456aa12f095--->
 
