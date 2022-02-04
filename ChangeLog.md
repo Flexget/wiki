@@ -1,15 +1,17 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---998084f92021dcf3694058aabd409d25c4d33670--->
+<!---4a90d96885eef4e35f51b9c218e3acea5554394a--->
 
-## 3.2.17.dev (unreleased)
+<!---98faa37e1c79d84afb3db058e95da456aa12f095--->
+
+## 3.2.17 (2022-02-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.16...v3.2.17)
 ### Fixed
 - decompress: check module exists
 - decompress: check module exists
 - npo_watchlist: login fix
 
-<!---3667b507d290d1ce3915023b82105c9eba4e782a--->
 
 ## 3.2.16 (2022-01-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.15...v3.2.16)
