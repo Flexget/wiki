@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---48ca13e721feb1d76216baaf59455db5eb31fd52--->
+<!---4a8fdc97ab2b2cf34556b40c5462d21cd14dac84--->
 
-## 3.2.18.dev (unreleased)
+<!---3c69896a602fedd6971cac47d73c5d3f3e74ce17--->
+
+## 3.2.18 (2022-02-05)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.17...v3.2.18)
 ### Added
 - seen cli: add task options
 - seen cli: add task options
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - seen cli: add task options
 - seen cli: add task options
 
-<!---98faa37e1c79d84afb3db058e95da456aa12f095--->
 
 ## 3.2.17 (2022-02-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.16...v3.2.17)
