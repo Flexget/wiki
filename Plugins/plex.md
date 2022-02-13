@@ -14,6 +14,7 @@ Available configuration parameters:
 | section | N/A | Yes | Section to use as input, numerical (/library/sections/<num>) or section name. |
 | username | N/A | No | Myplex username, for logging in to remote servers |
 | password | N/A | No | Myplex password, see above |
+| token    | N/A | No | [Plex Token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/). Use it instead of username/password parameters but not both! |
 | lowercase_title | No | No | Convert filename (title) to lower case. |
 | strip_year | Yes | No | Remove year from title, ex: Show Name (2012) 01x01 => Show Name 01x01 |
 | original_filename | No | No | Use filename stored in PMS instead of transformed name. lowercase_title and strip_year will be ignored. |
