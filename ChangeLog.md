@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---19569511de34ed5b11c11a3ceff8ffa2b06740c4--->
+<!---b64847d2febd1a66f2173268c0cae7033ac5a350--->
 
 ## 3.3.0.dev (unreleased)
 ### Changed
 - from_transmission: Strip timezone info from datetimes
+
+### Fixed
+- transmission: Fix issue using multiple different transmission servers. fix [#3331](https://github.com/Flexget/Flexget/issues/3331)
 
 <!---3c69896a602fedd6971cac47d73c5d3f3e74ce17--->
 
