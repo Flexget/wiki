@@ -1,16 +1,18 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b64847d2febd1a66f2173268c0cae7033ac5a350--->
+<!---e8983be50bfabf5f5f55c3cf9188ff2cefb3b0a5--->
 
-## 3.3.0.dev (unreleased)
+<!---16685d3b3c82411aa67a22b6624cb8ef1aed2c72--->
+
+## 3.3.0 (2022-02-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.2.18...v3.3.0)
 ### Changed
 - from_transmission: Strip timezone info from datetimes
 
 ### Fixed
 - transmission: Fix issue using multiple different transmission servers. fix [#3331](https://github.com/Flexget/Flexget/issues/3331)
 
-<!---3c69896a602fedd6971cac47d73c5d3f3e74ce17--->
 
 ## 3.2.18 (2022-02-05)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.17...v3.2.18)
