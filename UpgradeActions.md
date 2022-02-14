@@ -6,6 +6,17 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
+### **3.3.0** -- 2022-02-14
+`from_transmission` was setting entry fields with timezone aware datetimes depending on what version was installed. If you were using any `if` statements comparing to these dates with `now.astimezone()` you must now remove the `.astimezone()`
+
+```yaml
+if:
+  # before
+  - transmission_date_added > now.astimezone() - timedelta(hours=3): accept 
+  # after
+  - transmission_date_added > now - timedelta(hours=3): accept 
+```
+
 ### **3.1.154** -- 2021-11-23
 `imdb_list` plugin has been changed to use cookies to avoid issues with captcha. See updatad [wiki here](/Plugins/List/imdb_list#cookies) _Sorry, we missed this breaking change in the version system, we bumped to version 3.2 to retroactively document this breaking change._
 
