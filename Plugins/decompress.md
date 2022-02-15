@@ -45,7 +45,7 @@ move-series-rar:
   filesystem:
     path: /Volumes/Drobo/downloads/
     recursive: yes
-    regexp: '\.(rar|r0+[01](/01)|zip)'
+    regexp: '\.(rar|r0+[01]|zip)'
   decompress:
     to: '/Volumes/Drobo/TV/{{series_name}}/Season \{{series_season}}/'
     keep_dirs: no
