@@ -1,7 +1,7 @@
 # Search_rss
 Many website allow the generation of rss feeds based on a query. This plugin takes advantage of this can generate rss feeds that contain the result of a query.
 
-**NOTE:** This plugin can not be used on the feed level and that it can only be used within [discover](/Plugins/discover) & [urlrewrite_search](/Plugins/urlrewrite_search) plugin.
+**NOTE:** This plugin can not be used on the task level and that it can only be used within [discover](/Plugins/discover) & [urlrewrite_search](/Plugins/urlrewrite_search) plugin.
 
 
 ## Config Format
