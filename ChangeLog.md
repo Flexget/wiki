@@ -1,10 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d66114a53a7d26ef6d9e81a87dcbb90ff4c38c2a--->
+<!---73a08a80ee7398a4d944b8a415bc4cfe0149de92--->
 
 ## 3.3.1.dev (unreleased)
 ### Fixed
+- anilist: fix crash when yuna.moe is unreacheable
+- anilist: fix crash when yuna.moe is unreacheable
 - scheduler: Ensure schedules running '*' tasks actually work. fix [#3369](https://github.com/Flexget/Flexget/issues/3369)
 
 ### Changed
