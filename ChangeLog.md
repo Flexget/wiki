@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---73a08a80ee7398a4d944b8a415bc4cfe0149de92--->
+<!---123f223ea367cdd678a29f14623bf23734e2439f--->
 
-## 3.3.1.dev (unreleased)
+<!---3cb510839bdfd6f50339ac53986767b0f7c86867--->
+
+## 3.3.1 (2022-02-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.0...v3.3.1)
 ### Fixed
 - anilist: fix crash when yuna.moe is unreacheable
 - anilist: fix crash when yuna.moe is unreacheable
@@ -12,7 +15,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - jinja: Make jinja variables available in different contexts more similar. (add 'now' and 'timedelta' everywhere)
 
-<!---16685d3b3c82411aa67a22b6624cb8ef1aed2c72--->
 
 ## 3.3.0 (2022-02-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.2.18...v3.3.0)
