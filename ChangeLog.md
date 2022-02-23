@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---178d6d27c91f20a6e3e20ad3e880ac3f45bdc0bf--->
+<!---d66114a53a7d26ef6d9e81a87dcbb90ff4c38c2a--->
 
 ## 3.3.1.dev (unreleased)
 ### Fixed
 - scheduler: Ensure schedules running '*' tasks actually work. fix [#3369](https://github.com/Flexget/Flexget/issues/3369)
+
+### Changed
+- jinja: Make jinja variables available in different contexts more similar. (add 'now' and 'timedelta' everywhere)
 
 <!---16685d3b3c82411aa67a22b6624cb8ef1aed2c72--->
 
