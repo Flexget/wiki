@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---250b0a24161264bda00e1123d2b7d1e2db3c3b62--->
+<!---9099753a391eb7258f62615082b19bb956468a89--->
 
-## 3.3.2.dev (unreleased)
+<!---a8304993b75bd43cc3cd8976fa0b70a59fd6a873--->
+
+## 3.3.2 (2022-02-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.1...v3.3.2)
 ### Fixed
 - jinja: Fix `now` actually updating to current time. fix [#3373](https://github.com/Flexget/Flexget/issues/3373)
 
-<!---3cb510839bdfd6f50339ac53986767b0f7c86867--->
 
 ## 3.3.1 (2022-02-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.0...v3.3.1)
