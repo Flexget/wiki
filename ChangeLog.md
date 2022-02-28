@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---123f223ea367cdd678a29f14623bf23734e2439f--->
+<!---250b0a24161264bda00e1123d2b7d1e2db3c3b62--->
+
+## 3.3.2.dev (unreleased)
+### Fixed
+- jinja: Fix `now` actually updating to current time. fix [#3373](https://github.com/Flexget/Flexget/issues/3373)
 
 <!---3cb510839bdfd6f50339ac53986767b0f7c86867--->
 
