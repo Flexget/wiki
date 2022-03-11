@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9099753a391eb7258f62615082b19bb956468a89--->
+<!---ee724ee5cf3f0c703969ad3b2712efd1ba197102--->
+
+## 3.3.3.dev (unreleased)
+### Added
+- *  magnetdl input / search plugin
+- magnetdl input ([#3357](https://github.com/Flexget/Flexget/issues/3357))
 
 <!---a8304993b75bd43cc3cd8976fa0b70a59fd6a873--->
 
