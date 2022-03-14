@@ -69,7 +69,6 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | --- | --- |
 | [anidb_list](/Plugins/anidb_list) | Create entries from your AniDB wishlist. |
 | [anilist](/Plugins/anilist) | Create entries from your AniList watchlist. |
-| [my_anime_list](/Plugins/my_anime_list) | Create entries from MyAnimeList animelist. |
 | [apple_trailers](/Plugins/apple_trailers) | Get movie trailers from Apple.com |
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
@@ -78,6 +77,8 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
 | [imdb_watchlist](/Plugins/imdb_watchlist) |Use you IMDB watchlist as an input|
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
+| [magnetdl](/Plugins/magnetdl) | Create entries from magnetdl.com |
+| [my_anime_list](/Plugins/my_anime_list) | Create entries from MyAnimeList animelist. |
 | [myepisodes_list](/Plugins/myepisodes_list) | Create entries from the shows in your myepisodes.com account. |
 | [npo_watchlist](/Plugins/npo_watchlist) | Create entries for the shows and episodes in your npo.nl account (Dutch public television). |
 | [pogcal](/Plugins/pogcal) | Produce entries for shows marked on your [pogdesign calendar](http://www.pogdesign.co.uk/cat/). |
