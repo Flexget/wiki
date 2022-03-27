@@ -1,11 +1,14 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a0be492bc15c00ce10000d0fc3c689deb3767308--->
+<!---85e9311d012120ed1a2ac5ea82bc3188b8a6ef90--->
 
 ## 3.3.5.dev (unreleased)
 ### Fixed
 - cli templates: Fix crash when using `flexget templates` fix [#3377](https://github.com/Flexget/Flexget/issues/3377)
+
+### Changed
+- lostfilm: Don't abort task when there is an issue getting rss.
 
 <!---334d80a3fe14c806bd686e20baa7320c84b78b62--->
 
