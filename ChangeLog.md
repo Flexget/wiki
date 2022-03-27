@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---85e9311d012120ed1a2ac5ea82bc3188b8a6ef90--->
+<!---301ee85a0b4481b51b6be654d8d378bdfc9db53b--->
 
 ## 3.3.5.dev (unreleased)
 ### Fixed
+- hebits: overhaul search plugin for new site
 - cli templates: Fix crash when using `flexget templates` fix [#3377](https://github.com/Flexget/Flexget/issues/3377)
 
 ### Changed
