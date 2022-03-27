@@ -1,9 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5622436a412918ef204c51e9f984cd9fe784ea7c--->
+<!---a0be492bc15c00ce10000d0fc3c689deb3767308--->
 
-<!---9fe5e9038a41613601da84845753ef33b2daac57--->
+## 3.3.5.dev (unreleased)
+### Fixed
+- cli templates: Fix crash when using `flexget templates` fix [#3377](https://github.com/Flexget/Flexget/issues/3377)
+
+<!---334d80a3fe14c806bd686e20baa7320c84b78b62--->
+
+## 3.3.4 (2022-03-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.3...v3.3.4)
 
 ## 3.3.3 (2022-03-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.2...v3.3.3)
