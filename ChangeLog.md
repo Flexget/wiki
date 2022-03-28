@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---301ee85a0b4481b51b6be654d8d378bdfc9db53b--->
+<!---9d8af8eb039461375efe5dcb57381ea4172bc445--->
 
-## 3.3.5.dev (unreleased)
+<!---07c50dfd57217b27b61070e8c4098bad1c8350ec--->
+
+## 3.3.5 (2022-03-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.4...v3.3.5)
 ### Fixed
 - hebits: overhaul search plugin for new site
 - cli templates: Fix crash when using `flexget templates` fix [#3377](https://github.com/Flexget/Flexget/issues/3377)
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - lostfilm: Don't abort task when there is an issue getting rss.
 
-<!---334d80a3fe14c806bd686e20baa7320c84b78b62--->
 
 ## 3.3.4 (2022-03-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.3...v3.3.4)
