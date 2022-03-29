@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9d8af8eb039461375efe5dcb57381ea4172bc445--->
+<!---1e086318cf0beb08019104ad7227a70b92748611--->
+
+## 3.3.6.dev (unreleased)
+### Added
+- sftp_list: add dirs_only option to exclude files from processing
+- sftp_list - add dirs_only option to exclude files from entry parsing
 
 <!---07c50dfd57217b27b61070e8c4098bad1c8350ec--->
 
