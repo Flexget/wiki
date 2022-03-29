@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1e086318cf0beb08019104ad7227a70b92748611--->
+<!---f023fe851349cd4e82c3eaaeed5aa76275acd1c6--->
 
-## 3.3.6.dev (unreleased)
+<!---4ee9dd5e2bab8fd3519af243148f3127527062c1--->
+
+## 3.3.6 (2022-03-29)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.5...v3.3.6)
 ### Added
 - sftp_list: add dirs_only option to exclude files from processing
 - sftp_list - add dirs_only option to exclude files from entry parsing
 
-<!---07c50dfd57217b27b61070e8c4098bad1c8350ec--->
 
 ## 3.3.5 (2022-03-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.4...v3.3.5)
