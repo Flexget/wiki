@@ -22,18 +22,23 @@ Will try to populate the following fields for its entries:
 | --- | --- |
 | `al_banner` | Banner image |
 | `al_cover` | Cover image |
+| `al_date_start` | Date object for premiere date |
+| `al_date_end` | Date object for ending date |
 | `al_episodes` | Episode count |
-| `al_format` | Media format (same as the `format` setting above) |
-| `al_genres` | |
-| `al_idMal` | ID on MyAnimeList |
+| `al_format` | Media format (same as the `format` _setting_ above) |
+| `al_genres` | Action, Adventure, Comedy, etc... |
+| `al_id` | Anilist ID number |
 | `al_links` | Official links from AniList. eg: The show's official site and streaming services |
 | `al_list` | List title |
 | `al_list_status` | Populated by default lists, custom lists will return empty. |
 | `al_release_status`| Airing status (same as the `release_status` setting above) |
-| `al_tags` | |
+| `al_tags` | Cast Composition \ Traits, Demographic, Setting, Themes, etc... |
 | `al_title` | Dictionary with show titles in Romaji and English (if available) |
 | `al_trailer` | URL to trailer embed (YouTube or Dailymotion) |
 | `alternate_name` | Show's alternate titles. Automatically includes English |
+| `anilist_id` | ID on AniDB.net |
+| `kitsu_id` | ID on Kitsu.io |
+| `mal_id` | ID on MyAnimeList.net |
 | `title` | Romaji title |
 
 ## Examples
