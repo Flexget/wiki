@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---60ff07a7e5bf809cf47c3c0f18fb2d4c052c5e84--->
+<!---bf5b9a359c4106af2568b7c0d1b6ac9bdcfcd111--->
+
+## 3.3.10.dev (unreleased)
+### Fixed
+- magnetdl: Search api was severely broken
 
 <!---728354eb9ed1ba3982b2c75e4d2a193933aec15a--->
 
