@@ -1,11 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf5b9a359c4106af2568b7c0d1b6ac9bdcfcd111--->
+<!---20a673b582ca0039ea298f317caf2296cd6dac51--->
 
 ## 3.3.10.dev (unreleased)
 ### Fixed
 - magnetdl: Search api was severely broken
+
+### Added
+- Discord Notifier: `timestamp` support and rate-limit prevention
+- `timestamp` support and rate-limit prevention
 
 <!---728354eb9ed1ba3982b2c75e4d2a193933aec15a--->
 
