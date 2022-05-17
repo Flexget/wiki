@@ -11,8 +11,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - magnetdl: Search api was severely broken
 
 ### Added
-- Discord Notifier: `timestamp` support and rate-limit prevention
-- `timestamp` support and rate-limit prevention
+- [Discord Notifier](https://flexget.com/Plugins/Notifiers/discord): `timestamp` support and rate-limit prevention
 
 
 ## 3.3.9 (2022-05-07)
