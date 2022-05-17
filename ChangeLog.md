@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---20a673b582ca0039ea298f317caf2296cd6dac51--->
+<!---e63019eb7f47d443e92cde854a39bfcf0b6b41cf--->
 
-## 3.3.10.dev (unreleased)
+<!---4088ce4257e5e928d4950959c48ffef262333612--->
+
+## 3.3.10 (2022-05-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.9...v3.3.10)
 ### Fixed
 - magnetdl: Search api was severely broken
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - Discord Notifier: `timestamp` support and rate-limit prevention
 - `timestamp` support and rate-limit prevention
 
-<!---728354eb9ed1ba3982b2c75e4d2a193933aec15a--->
 
 ## 3.3.9 (2022-05-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.8...v3.3.9)
