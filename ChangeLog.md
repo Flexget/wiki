@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ad8d07694deefe1957dab47ca4f333ab7b7f199a--->
+<!---c49de8fd2531fab97b7081b3d285723e3c38eda4--->
 
-## 3.3.11.dev (unreleased)
+<!---edd2564533acd3237843eea578b9cae1facdc46d--->
+
+## 3.3.11 (2022-05-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.10...v3.3.11)
 ### Fixed
 - pyparsing: lock pyparsing to 2.4.7 to fix the webui log page ([#3443](https://github.com/Flexget/Flexget/issues/3443))
 
-<!---4088ce4257e5e928d4950959c48ffef262333612--->
 
 ## 3.3.10 (2022-05-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.9...v3.3.10)
