@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---08502161a25ed2685a41a9911135df80af3ad1b6--->
+<!---e1de22947ad86bb3ffa7a1dd0bf43b2f3e605e3d--->
 
-## 3.3.12.dev (unreleased)
+<!---54046dc2ef784667d887058c2736ee304b343b68--->
+
+## 3.3.12 (2022-05-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.11...v3.3.12)
 ### Added
 - gotify: add support for setting content_type
 - gotify: add support for setting content_type
 
-<!---edd2564533acd3237843eea578b9cae1facdc46d--->
 
 ## 3.3.11 (2022-05-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.10...v3.3.11)
