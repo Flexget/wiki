@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c49de8fd2531fab97b7081b3d285723e3c38eda4--->
+<!---08502161a25ed2685a41a9911135df80af3ad1b6--->
+
+## 3.3.12.dev (unreleased)
+### Added
+- gotify: add support for setting content_type
+- gotify: add support for setting content_type
 
 <!---edd2564533acd3237843eea578b9cae1facdc46d--->
 
