@@ -14,6 +14,7 @@ You can [login](/login) via oauth with either a GitHub or Google account.
 - [Recipes for movies](/Cookbook/Movies)
 - [Recipes for URL rewriting](/Cookbook/Urlrewrite)
 - [Recipes for Ebooks](/Cookbook/Ebooks)
+- [Recipes for Sports](/Cookbook/Sports)
 - [General recipes](/Cookbook/General)
 - [Advanced recipes](/Cookbook/Advanced)
 
