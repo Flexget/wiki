@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e1de22947ad86bb3ffa7a1dd0bf43b2f3e605e3d--->
+<!---e8f151481c18ad6d3a9872bca21b364b92ba3337--->
+
+## 3.3.13.dev (unreleased)
+### Added
+- ntfy.sh notification support
+- add ntfy.sh notifier support
 
 <!---54046dc2ef784667d887058c2736ee304b343b68--->
 
