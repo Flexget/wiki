@@ -15,7 +15,7 @@ These plugins are responsible for delivering notifications. One or more of them 
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
 | [toast](/Plugins/Notifiers/toast) | Popup a message on the computer running FlexGet. |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
-|ntfy.sh|Send a ntfy.sh notification
+|[ntfy.sh](/Plugins/Notifiers/ntfysh)|Send a ntfy.sh notification
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
