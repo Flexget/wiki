@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9dfa91b61834e6989d1169d208adc85ce67233ce--->
+<!---a54dc25780b62f80d2e638278277a945428ffd05--->
+
+## 3.3.14.dev (unreleased)
+### Changed
+- Added pagination to `my_anime_list`
+- Added pagination to `my_anime_list`
 
 <!---2d8689a8d6e0908a34e91fe4cf7959947ac8632b--->
 
