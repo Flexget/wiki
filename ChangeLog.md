@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e8f151481c18ad6d3a9872bca21b364b92ba3337--->
+<!---9dfa91b61834e6989d1169d208adc85ce67233ce--->
 
-## 3.3.13.dev (unreleased)
+<!---2d8689a8d6e0908a34e91fe4cf7959947ac8632b--->
+
+## 3.3.13 (2022-05-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.12...v3.3.13)
 ### Added
 - ntfy.sh notification support
 - add ntfy.sh notifier support
 
-<!---54046dc2ef784667d887058c2736ee304b343b68--->
 
 ## 3.3.12 (2022-05-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.11...v3.3.12)
