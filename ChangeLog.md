@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a54dc25780b62f80d2e638278277a945428ffd05--->
+<!---83e9db2386283b1cf2095f98b985077006ab0efa--->
 
-## 3.3.14.dev (unreleased)
+<!---04c882ac885c1f1531384949d34ed758a901d46a--->
+
+## 3.3.14 (2022-05-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.13...v3.3.14)
 ### Changed
 - Added pagination to `my_anime_list`
 - Added pagination to `my_anime_list`
 
-<!---2d8689a8d6e0908a34e91fe4cf7959947ac8632b--->
 
 ## 3.3.13 (2022-05-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.12...v3.3.13)
