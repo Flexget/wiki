@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---83e9db2386283b1cf2095f98b985077006ab0efa--->
+<!---bef10218ebaa330346f7c4981179feeaf6ad851f--->
+
+## 3.3.15.dev (unreleased)
+### Fixed
+- use datetime to detect running systems tzinfo
+- use datetime to detect running systems tzinfo
 
 <!---04c882ac885c1f1531384949d34ed758a901d46a--->
 
