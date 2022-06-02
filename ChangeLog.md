@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bef10218ebaa330346f7c4981179feeaf6ad851f--->
+<!---50e3875026173ebd3469e6bb0d70109e9631c300--->
 
-## 3.3.15.dev (unreleased)
+<!---467d671d9d9f1ea4ad8a3c4504534e8f0bb7c008--->
+
+## 3.3.15 (2022-06-02)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.14...v3.3.15)
 ### Fixed
 - use datetime to detect running systems tzinfo
 - use datetime to detect running systems tzinfo
 
-<!---04c882ac885c1f1531384949d34ed758a901d46a--->
 
 ## 3.3.14 (2022-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.13...v3.3.14)
