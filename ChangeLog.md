@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---50e3875026173ebd3469e6bb0d70109e9631c300--->
+<!---544cc9182432fa7b823c27ee80cea5c32ec16692--->
+
+## 3.3.16.dev (unreleased)
+### Fixed
+- convert_magnet - correct issues with certain url characters ([#3477](https://github.com/Flexget/Flexget/issues/3477))
 
 <!---467d671d9d9f1ea4ad8a3c4504534e8f0bb7c008--->
 
