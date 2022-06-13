@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf09fe294cb8a5ef197c6be1d4ae31ae46089e24--->
+<!---cda2fa5d378893d33e6716f3778a3b218212a572--->
+
+## 3.3.17.dev (unreleased)
+### Fixed
+- parsing improvements for quality hdrplus
 
 <!---38ee35721c18616ff2c9dae54e06b71943f4cc70--->
 
