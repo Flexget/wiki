@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cda2fa5d378893d33e6716f3778a3b218212a572--->
+<!---8e73b5f23d19d8feea6d0f3a71667e4e4484a959--->
 
-## 3.3.17.dev (unreleased)
+<!---4b86fab9bbef9840b3dd9b4323c9f06b0d66e3cb--->
+
+## 3.3.17 (2022-06-13)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.16...v3.3.17)
 ### Fixed
 - parsing improvements for quality hdrplus
 
-<!---38ee35721c18616ff2c9dae54e06b71943f4cc70--->
 
 ## 3.3.16 (2022-06-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.15...v3.3.16)
