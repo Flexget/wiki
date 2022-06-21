@@ -12,6 +12,7 @@ These plugins are responsible for delivering notifications. One or more of them 
 | Plugin name | Description |
 | --- | --- |
 | [email](/Plugins/Notifiers/email) | Send an email message |
+| [gotify](/Plugins/Notifiers/gotify) | Send a [Gotify](https://gotify.net) notification |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
 | [toast](/Plugins/Notifiers/toast) | Popup a message on the computer running FlexGet. |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
