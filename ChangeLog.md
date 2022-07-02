@@ -1,14 +1,16 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a335154d7d32e0623256f82365cae308708a24eb--->
+<!---2dc0bedc3cb1ca6edac1e46b3618e6a31aceb500--->
 
-## 3.3.19.dev (unreleased)
+<!---a917b4668d3d253e1ca61495b66ed52c3511ae49--->
+
+## 3.3.19 (2022-07-02)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.18...v3.3.19)
 ### Added
 - webui version 2.0.28
 - ncore site ([#3468](https://github.com/Flexget/Flexget/issues/3468))
 
-<!---aafb5dce07c698b8ebaf3d86243d51dcb93cd318--->
 
 ## 3.3.18 (2022-06-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.17...v3.3.18)
