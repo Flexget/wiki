@@ -1,10 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a0711ad7b94362e3510b35eb8e8ef0c880e0318e--->
+<!---be3c706019d2e1c3c146bc0dee20f24ed6380cd3--->
 
 ## 3.3.20.dev (unreleased)
 ### Fixed
+- skip all test_decompress tests if rarfile module missing
 - Telegram notify - fix distutils deprecation warning
 - replace use of distutils with pacakge to remove deprecation warning
 - medusa - use correct header for bearer token
