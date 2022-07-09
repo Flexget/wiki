@@ -1,7 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2dc0bedc3cb1ca6edac1e46b3618e6a31aceb500--->
+<!---04f1fb710e929885fe32a30e401a13ab26269e6d--->
+
+## 3.3.20.dev (unreleased)
+### Fixed
+- medusa - use correct header for bearer token
+- medusa - use correct header for bearer token
 
 <!---a917b4668d3d253e1ca61495b66ed52c3511ae49--->
 
