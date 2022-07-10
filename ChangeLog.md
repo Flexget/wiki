@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be3c706019d2e1c3c146bc0dee20f24ed6380cd3--->
+<!---9171f86495ef18ef939fe04ba6cc0f8031c25287--->
 
-## 3.3.20.dev (unreleased)
+<!---804be3daea91b4c4825d916339b1c7f378990918--->
+
+## 3.3.20 (2022-07-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.19...v3.3.20)
 ### Fixed
 - skip all test_decompress tests if rarfile module missing
 - Telegram notify - fix distutils deprecation warning
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - medusa - use correct header for bearer token
 - medusa - use correct header for bearer token
 
-<!---a917b4668d3d253e1ca61495b66ed52c3511ae49--->
 
 ## 3.3.19 (2022-07-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.18...v3.3.19)
