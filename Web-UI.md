@@ -17,7 +17,6 @@
 **Related pages**
 
 * [Repo](https://github.com/flexget/webui)
-* [Concepts](/Web-UI/Concepts)
 * [Roadmap (more ideas)](/Roadmap)
 * [Git Project](https://github.com/Flexget/webui/issue)
 * [API](/API)
