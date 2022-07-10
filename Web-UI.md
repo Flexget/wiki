@@ -17,7 +17,6 @@
 **Related pages**
 
 * [Repo](https://github.com/flexget/webui)
-* [UI mockups](https://flexget.mybalsamiq.com/projects) - accounts can be requested
 * [Concepts](/Web-UI/Concepts)
 * [Roadmap (more ideas)](/Roadmap)
 * [Git Project](https://github.com/Flexget/webui/issue)
@@ -98,7 +97,3 @@ flexget web gentoken
 
 ## Development
 The UI has a solid base but we need help building the plugins. If you would like to get your hands dirty in React, CSS or UX Design then please join our chat on [Gitter](https://gitter.im/Flexget/Flexget) and checkout the [CONTRIBUTING.md](https://github.com/Flexget/webui/blob/develop/.github/CONTRIBUTING.md) for getting setup and feel free to ask any questions in chat. 
-
-### Attachments
-* [Web UI Flow](/attachments/Web-UI/Flow.png)
-* [UI](/attachments/Web-UI/UI.png)
