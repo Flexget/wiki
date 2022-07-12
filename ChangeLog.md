@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9171f86495ef18ef939fe04ba6cc0f8031c25287--->
+<!---75a4adfebbb123a21b901ad8dc15bb2c064fbba3--->
+
+## 3.3.21.dev (unreleased)
+### Fixed
+- add colorama back in requirements
 
 <!---804be3daea91b4c4825d916339b1c7f378990918--->
 
