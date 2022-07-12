@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---75a4adfebbb123a21b901ad8dc15bb2c064fbba3--->
+<!---1ac7390a4589b6f28c2aa74f06a39f069b3ce4ab--->
 
-## 3.3.21.dev (unreleased)
+<!---1add6fbea785deca3c268d88b726ade9df6b6a39--->
+
+## 3.3.21 (2022-07-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.20...v3.3.21)
 ### Fixed
 - add colorama back in requirements
 
-<!---804be3daea91b4c4825d916339b1c7f378990918--->
 
 ## 3.3.20 (2022-07-10)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.19...v3.3.20)
