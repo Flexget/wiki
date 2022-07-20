@@ -49,14 +49,14 @@ You can use `entry_list` as a [search](/Searches) plugin to use with [discover](
 tasks:
   series_discover_task:
     series:
-    - foo:
-        begin: s01e01
+      - foo:
+          begin: s01e01
     discover:
       release_estimations: ignore
       what:
         - next_series_episodes: yes
       from:
-      - entry_list: series list
+        - entry_list: series list
 ```
 
 ## Command line interface
