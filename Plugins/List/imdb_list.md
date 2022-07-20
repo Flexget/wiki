@@ -21,7 +21,7 @@ This plugin is useful for example when used in a task with the [movie_list](/Plu
 
 ## Cookies
 
-In order to login into imdb we now use cookies! You can get this cookies information from your browser and load the required fields into flexget. The required fields are:
+In order to login into imdb we have to rely on browser cookies. You can get the cookie information from your browser. The required fields are:
 
 * ubid-main
 * at-main
@@ -33,12 +33,11 @@ In order to login into imdb we now use cookies! You can get this cookies informa
 * On the left side select Cookies > https://www.imdb.com/
 * Copy the content of ubid-main and sess-at-main into cookie
 
-
 Cookies can be added to the config in several ways:
 
 **Set Cookie in config:**
 
-```
+```yaml
 imdb_list:
   login: my_login
   cookies:
@@ -51,7 +50,7 @@ imdb_list:
 
 variables.yaml:
 
-```
+```yaml
 imdb:
   login: mylogin@mail.com
   cookies:
@@ -62,7 +61,7 @@ imdb:
 
 config.yaml:
 
-```
+```yaml
 imdb_list:
   login: '{? imdb.login ?}'
   cookies: '{? imdb.cookie ?}'
@@ -71,7 +70,7 @@ imdb_list:
 
 **Set Cookie in json format:**
 
-```
+```yaml
 imdb_list:
   login: '{? imdb.login ?}'
   cookies: '{"ubid-main":"xxx-xxxxxxxx-xxxxxxx","at-main":"XxXxXxXxXxXxXxXxXx"}'
@@ -79,7 +78,8 @@ imdb_list:
 ```
 
 **Set Cookie from a file in JSON format:**
-```
+
+```yaml
 imdb_list:
   login: '{? imdb.login ?}'
   cookies: '/path/to/file.json'
@@ -87,13 +87,14 @@ imdb_list:
 ```
 
 file.json
-```
+
+```yaml
 {"ubid-main":"xxx-xxxxxxxx-xxxxxxx","at-main":"XxXxXxXxXxXxXxXxXx"}
 ```
 
 ## Example
 
-```
+```yaml
 imdb_list:
   login: 123@abc.com
   cookies:
@@ -107,7 +108,8 @@ You can force a returned language using the `force_language` parameter. A list o
 
 
 **List Action Example**
-```
+
+```yaml
 rss: http://rss.com
 imdb_lookup: yes
 list_match:
