@@ -30,7 +30,7 @@ In order to login into imdb we have to rely on browser cookies. You can get the 
 
 * Click the tree top right dots
 * More Tools > Developer Tools
-* On the left side select Cookies > https://www.imdb.com/
+* Go to the Application tab, and on the left side select Cookies > https://www.imdb.com/
 * Copy the content of ubid-main and sess-at-main into cookie
 
 Cookies can be added to the config in several ways:
