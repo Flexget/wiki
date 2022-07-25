@@ -1,5 +1,7 @@
 # Upgrading
 
+Detailed changes can be found from [ChangeLog](/ChangeLog).
+
 ## Check current version
 
 Write your current version down somewhere.
@@ -56,9 +58,10 @@ flexget check
 
 If your configuration doesn't pass check, have a look at [upgrade actions](/UpgradeActions) to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [upgrade actions](/UpgradeActions) even if your config is passing.
 
-For example, if you were running 1.1.2 follow all the steps above this revision.
+For example, if you were running 3.1.2 follow all the steps above this revision.
 
 ### Problems ?
+
 If you encounter problems, there are ways to get [help](/NeedHelp) !
 
 If you receive errors about database upgrades please report them via a [ticket](https://github.com/Flexget/Flexget/issues). If you do not care about the history for that plugin, you can reset the database for that plugin with `--reset-plugin PLUGINNAME` to get it working again.
