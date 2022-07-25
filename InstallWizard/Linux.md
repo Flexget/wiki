@@ -23,7 +23,7 @@ It's also worth trying `python3` and/or hitting tab for autocomplete in case you
 Example of installation in a Debian-based system:
 
 ```bash
-sudo apt-get install python3.5
+sudo apt-get install python3.8
 ```
 
 ## Create virtualenv
@@ -32,17 +32,30 @@ Python virtualenvs provide isolated python runtime. It does not mess with your o
 
 ### Python 3
 
-Python3 ships with virtualenv. Simply run:
+Python3 generally ships with virtualenv. Simply run:
 
 ```bash
 python3 -m venv ~/flexget/
 ```
 
+If this does not work (eg. on ubuntu) you may need to install virtualenv package with:
+
+```bash
+sudo apt install python3-venv
+```
+
+## Upgrade virtualenv tools
+
+Virtualenv is very likely created with old versions of some necessary tools and this can fail the installation or FlexGet may seem broken after installation. Please upgrade them with:
+
+```bash
+~/flexget/bin/pip install --upgrade pip setuptools
+```
+
 ## Install FlexGet in the `virtualenv`
 
 ```bash
-cd ~/flexget/
-bin/pip install flexget
+~/flexget/bin/pip install flexget
 ```
 
 This will install FlexGet and all of it's dependencies.
