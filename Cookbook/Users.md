@@ -3,7 +3,8 @@ These are the complete configurations of actual end users. Feel free to add your
 
 **Note for users adding their config:**
   
-Please post the version of FlexGet that your config was designed for, so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
+- Please post the version of FlexGet that your config was designed for so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
+- Do not include personal information (Passwords, API Keys) 
 
 ## Tested & Working 3.x Configs
 * [ksurl](https://github.com/ksurl/flexget-template) (v3.1.131) - Trakt Movies, TV, Anime series, Transmission, list cleanup, YAML anchors, discord notifier, http proxy
