@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1ac7390a4589b6f28c2aa74f06a39f069b3ce4ab--->
+<!---368c313f6f299e19fefc47c91a0ffda4ed9705b9--->
+
+## 3.3.22.dev (unreleased)
+### Fixed
+- ncore site category fix ([#3508](https://github.com/Flexget/Flexget/issues/3508))
 
 <!---1add6fbea785deca3c268d88b726ade9df6b6a39--->
 
