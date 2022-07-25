@@ -137,4 +137,5 @@ www.somesite.com/search/?category=10&from=450&to=499
 | name | Name of the variable used in {{...}} jinja2 blocks | Text | "i" |
 | step | The value that will be added to the variable, for each iteration (Can be negative) | Number | 1 |
 | stop_when_empty | With `yes` plugin will stop when a page retrieves no entry | boolean | Yes |
+| stop_when_404 | With `yes` plugin will stop when a server responds with 404 | boolean | Yes |
 |entries_count|If total entries count exceed this value, plugin will stop|Number|200|
