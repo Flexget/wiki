@@ -29,6 +29,3 @@ You can [login](/login) via oauth with either a GitHub or Google account.
 
 ## User configurations
 - [Complete user configurations](/Cookbook/Users)
-
-## Helper scripts
-- [Helper](/Helper) scripts and other quick one-liners
