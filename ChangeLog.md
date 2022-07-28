@@ -1,9 +1,12 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---990d9bd35c7eafde0e82a6af24fe1a80a4f0dd0f--->
+<!---f2b76390879d3956c2ebadf0692a96b8384ae5c7--->
 
-## 3.3.22.dev (unreleased)
+<!---dc0a9f0894e65e032b564fa96accb0248068fe52--->
+
+## 3.3.22 (2022-07-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.21...v3.3.22)
 ### Fixed
 - ncore site category fix ([#3508](https://github.com/Flexget/Flexget/issues/3508))
 
@@ -11,7 +14,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - html should stop on 404 by default
 - html plugin add stop_when_404 increment option ([#3240](https://github.com/Flexget/Flexget/issues/3240))
 
-<!---1add6fbea785deca3c268d88b726ade9df6b6a39--->
 
 ## 3.3.21 (2022-07-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.20...v3.3.21)
