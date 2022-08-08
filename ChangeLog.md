@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0982effccce5f65d29cecafd3e5c216125dbce4f--->
+<!---5e71aeadab47b85a5a902e372fdfce7bae4c3306--->
 
-## 3.3.23.dev (unreleased)
+<!---6134fe7fc204913995d9663cb2b7394c8179a790--->
+
+## 3.3.23 (2022-08-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.22...v3.3.23)
 ### Fixed
 - trakt_list titles without translation
 
-<!---dc0a9f0894e65e032b564fa96accb0248068fe52--->
 
 ## 3.3.22 (2022-07-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.21...v3.3.22)
