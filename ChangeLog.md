@@ -1,7 +1,11 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f2b76390879d3956c2ebadf0692a96b8384ae5c7--->
+<!---0982effccce5f65d29cecafd3e5c216125dbce4f--->
+
+## 3.3.23.dev (unreleased)
+### Fixed
+- trakt_list titles without translation
 
 <!---dc0a9f0894e65e032b564fa96accb0248068fe52--->
 
