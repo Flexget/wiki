@@ -6,7 +6,7 @@ apt-get -y install transmission
 apt-get -y install transmission-daemon
 apt-get -y install python-pip
 pip install flexget
-pip install transmissionrpc
+pip install transmission-rpc
 ```
 
 
