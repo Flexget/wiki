@@ -235,6 +235,7 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
 | [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
+| [mqtt](/Plugins/Notifiers/mqtt) | Send MQTT notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
