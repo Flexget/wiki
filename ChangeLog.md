@@ -1,13 +1,15 @@
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---67c68ca65e7717dd41a087c91f6980bd891ff579--->
+<!---31db4965248b91de59452f6128617e6ff94a1aae--->
 
-## 3.3.25.dev (unreleased)
+<!---f0de71afb5e3f3608d83ed70854465ae4ac94cbd--->
+
+## 3.3.25 (2022-09-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.24...v3.3.25)
 ### Added
 - MQTT notify plugin ([#2624](https://github.com/Flexget/Flexget/issues/2624))
 
-<!---d728df098dfe99fd7e7c4fabbb179ecb8b620322--->
 
 ## 3.3.24 (2022-08-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.23...v3.3.24)
