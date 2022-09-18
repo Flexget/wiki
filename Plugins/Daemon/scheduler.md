@@ -1,3 +1,13 @@
+---
+title: scheduler
+description: 
+published: true
+date: 2022-09-18T05:24:22.564Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:19.856Z
+---
+
 # [Daemon](/Daemon]) > Scheduler
 The scheduler is a plugin for use in daemon mode which can execute tasks periodically.
 

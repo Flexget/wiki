@@ -1,3 +1,13 @@
+---
+title: trakt_manager
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:05.600Z
+---
+
 # Manage your FlexGet series entirely from trakt.tv
 
 This is a system designed for easily managing your FlexGet series from trakt.tv.

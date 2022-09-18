@@ -1,3 +1,13 @@
+---
+title: TransmissionToDeluge
+description: 
+published: true
+date: 2022-09-18T04:56:37.931Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:35.310Z
+---
+
 # Transfer torrents in transmission to deluge
 `Note:` This has not been tested, if somebody tests it, please report results and fix the recipe with needed updates.
 

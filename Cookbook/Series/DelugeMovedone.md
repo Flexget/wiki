@@ -1,3 +1,13 @@
+---
+title: DelugeMovedone
+description: 
+published: true
+date: 2022-09-18T05:20:31.415Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:28.873Z
+---
+
 # Movedone groups
 ```
 series:

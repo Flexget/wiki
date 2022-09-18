@@ -1,3 +1,13 @@
+---
+title: TimeframeWithMinMaxQuality
+description: 
+published: true
+date: 2022-09-18T05:21:40.554Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:38.004Z
+---
+
 # Series timeframe with min and max quality
 The [series](/Plugins/series) plugin supports defining a min and max quality along with [timeframe](/Plugins/series#Timeframe) option.
 ```

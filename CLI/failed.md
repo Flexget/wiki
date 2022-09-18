@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: failed
+description: 
+published: true
+date: 2022-09-18T04:53:49.300Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:46.699Z
 ---
 
 ## [CLI](/CLI) > `failed`

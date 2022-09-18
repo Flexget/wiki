@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: status
+description: 
+published: true
+date: 2022-09-18T04:54:35.751Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:33.151Z
 ---
 
 ## [CLI](/CLI) > `status`*

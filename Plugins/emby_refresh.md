@@ -1,3 +1,13 @@
+---
+title: emby_refresh
+description: 
+published: true
+date: 2022-09-18T05:04:30.684Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:28.129Z
+---
+
 # Trigger Emby Refrsh
 This plugin triggers a emby refresh
 

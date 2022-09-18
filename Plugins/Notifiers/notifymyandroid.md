@@ -1,3 +1,13 @@
+---
+title: notifymyandroid
+description: 
+published: true
+date: 2022-09-18T05:26:20.407Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:17.705Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Notify My Android
 <div class="alert alert-success" role="info">
   

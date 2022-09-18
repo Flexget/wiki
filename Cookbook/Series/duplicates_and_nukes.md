@@ -1,3 +1,13 @@
+---
+title: duplicates_and_nukes
+description: 
+published: true
+date: 2022-09-18T05:21:48.923Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:45.614Z
+---
+
 This recepie scans filesystem for duplicates, nuked releases and lesser quality outputting a list of directories that can be deleted to a file.
 
     tasks:

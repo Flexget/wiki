@@ -1,3 +1,13 @@
+---
+title: wp_auth
+description: 
+published: true
+date: 2022-09-18T05:16:53.274Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:50.676Z
+---
+
 # WordPress Authorization
 Access WordPress [s2Member](https://s2member.com/) protected RSS feeds.
 ## Example

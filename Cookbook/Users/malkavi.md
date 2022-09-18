@@ -1,3 +1,13 @@
+---
+title: malkavi
+description: 
+published: true
+date: 2022-09-18T05:23:18.694Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:16.036Z
+---
+
 After reading other users config and Flexget code, I have write my own config and prepare some PR to search movies in Spanish webs.
 
 I have split my config in several files and include in the main config

@@ -1,3 +1,13 @@
+---
+title: FilterOperations
+description: 
+published: true
+date: 2022-09-18T04:49:33.484Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:30.771Z
+---
+
 # Actions
 All plugins may do following actions (sometimes referred as operation) to [entry](/Entry).
 

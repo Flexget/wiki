@@ -1,3 +1,13 @@
+---
+title: series_remove
+description: 
+published: true
+date: 2022-09-18T05:12:48.403Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:45.819Z
+---
+
 # Series Remove
 Removes accepted entries for series, season or episode from the [series](/Plugins/series) plugin database.
 

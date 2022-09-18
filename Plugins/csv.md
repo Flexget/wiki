@@ -1,3 +1,13 @@
+---
+title: csv
+description: 
+published: true
+date: 2022-09-18T05:03:25.716Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:23.161Z
+---
+
 # Input CSV
 Adds support for CSV format (comma-delimited only). Configuration may seem a bit complex,
 but this has advantage of being universal solution regardless of CSV

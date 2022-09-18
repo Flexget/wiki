@@ -1,3 +1,13 @@
+---
+title: piratebay
+description: 
+published: true
+date: 2022-09-18T05:18:27.276Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:24.726Z
+---
+
 # Pirate Bay
 This search plugin will get results from [https://thepiratebay.org](/https://thepiratebay.org) or a reverse proxy if specified.
 

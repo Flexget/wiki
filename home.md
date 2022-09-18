@@ -1,3 +1,13 @@
+---
+title: home
+description: 
+published: true
+date: 2022-09-18T05:24:23.833Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:44.526Z
+---
+
 <section id="about" class="about header-main row">
     <div class="container">
         <div class="row">

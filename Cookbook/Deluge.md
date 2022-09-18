@@ -1,3 +1,13 @@
+---
+title: Deluge
+description: 
+published: true
+date: 2022-09-18T04:55:13.762Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:11.145Z
+---
+
 # Flexget & Deluge on Ubuntu
 
 The following is a comprehensive guide on how to setup an ubuntu seedbox/vps with flexget and deluge. By working through this guide, you can have an automated torrenting setup with the following features:

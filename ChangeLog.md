@@ -1,3 +1,13 @@
+---
+title: ChangeLog
+description: 
+published: true
+date: 2022-09-18T05:25:10.821Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:48:39.193Z
+---
+
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 

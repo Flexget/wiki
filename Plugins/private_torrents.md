@@ -1,3 +1,13 @@
+---
+title: private_torrents
+description: 
+published: true
+date: 2022-09-18T05:10:11.472Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:08.926Z
+---
+
 # Private Torrents
 Uses private flag in torrent file to determine what to do with private torrents.
 

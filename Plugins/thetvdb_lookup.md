@@ -1,3 +1,13 @@
+---
+title: thetvdb_lookup
+description: 
+published: true
+date: 2022-09-18T05:14:18.025Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:15.311Z
+---
+
 # TheTVDB Lookup
 <div class="alert alert-warning" role="warning">
   <span class="glyphicon glyphicon-exclamation-sign"></span>

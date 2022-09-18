@@ -1,3 +1,13 @@
+---
+title: closematch
+description: 
+published: true
+date: 2022-09-18T05:28:23.066Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:32.262Z
+---
+
 # How to deal with similarly named series
 There are a few ways to deal with this problem, but this simplest is this:
 

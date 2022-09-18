@@ -1,3 +1,13 @@
+---
+title: Plugbox
+description: 
+published: true
+date: 2022-09-18T05:00:26.122Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:23.622Z
+---
+
 ## Plugbox
 Wiki explaining installation [here](http://plugapps.com/index.php5?title=Application:Flexget).
 

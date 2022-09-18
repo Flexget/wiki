@@ -1,3 +1,13 @@
+---
+title: Jdownloader2
+description: 
+published: true
+date: 2022-09-18T04:55:40.180Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:37.615Z
+---
+
 You can use JDownloader2 as output.
 
 Activate Jdownloader2's folderwatch function and use the exec plugin in flexget.

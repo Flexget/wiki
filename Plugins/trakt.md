@@ -1,3 +1,13 @@
+---
+title: trakt
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:46.370Z
+---
+
 # Using Trakt in FlexGet
 
 - For information on authenticating FlexGet with Trakt to use the `account` option in plugins, see [Trakt Authentication](/Trakt_Authentication).

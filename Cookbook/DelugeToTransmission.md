@@ -1,3 +1,13 @@
+---
+title: DelugeToTransmission
+description: 
+published: true
+date: 2022-09-18T04:55:17.414Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:14.914Z
+---
+
 # Transfer torrents from deluge to transmission
 ```yml
 tasks:

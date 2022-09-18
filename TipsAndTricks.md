@@ -1,3 +1,13 @@
+---
+title: TipsAndTricks
+description: 
+published: true
+date: 2022-09-18T04:52:04.507Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:01.842Z
+---
+
 # Advanced Tips And Tricks
 Here you can find some advanced YML configuration tricks. Check [global section](/GlobalSection) for some tips as well. These are mainly for those who really like to tinker with application.
 

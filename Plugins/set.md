@@ -1,3 +1,13 @@
+---
+title: set
+description: 
+published: true
+date: 2022-09-18T05:15:25.520Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:49.699Z
+---
+
 # Set
 
 Stores info in an [entry](/Entry). Can also do dynamic formatting per entry.

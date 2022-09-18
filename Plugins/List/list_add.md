@@ -1,3 +1,13 @@
+---
+title: list_add
+description: 
+published: true
+date: 2022-09-18T05:24:42.100Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:39.574Z
+---
+
 ## List Add
 <div class="alert alert-success" role="info">
   

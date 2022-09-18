@@ -1,3 +1,13 @@
+---
+title: ReadyNAS
+description: 
+published: true
+date: 2022-09-18T05:00:33.840Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:31.101Z
+---
+
 # Readynas FlexGet installation
 17/12-2010:
 This is second revision of the guide. Something did break and people had trouble getting sqlite support to work. This is tested on a readynas Duo box running Radiator 4.1.7 released November 12, 2010. This new release may have caused the breakage. I've removed some packages that is not used for this install. Warning, this is experimental at least. Use at your own risk :-)

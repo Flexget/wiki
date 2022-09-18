@@ -1,3 +1,13 @@
+---
+title: myepisodes
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:28.744Z
+---
+
 # MyEpisodes
 Marks a series episode as acquired in your myepisodes.com account.
 

@@ -1,3 +1,13 @@
+---
+title: Medusa
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:13.107Z
+---
+
 # Medusa
 This plugin creates an [Entry](/Entry) for each show in your [medusa](https://github.com/pymedusa/Medusa) show list (including ended ones).
 This plugin can be used with the [discover](/Plugins/discover) or [configure_series](/Plugins/configure_series) plugins to add those shows to the shows list.

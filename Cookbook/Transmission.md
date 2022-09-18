@@ -1,3 +1,13 @@
+---
+title: Transmission
+description: 
+published: true
+date: 2022-09-18T05:22:17.382Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:31.035Z
+---
+
 ## A Complete Transmission Recipe
 **`ATTENTION:`** This recipe is for an older version of FlexGet and may not be valid anymore. An updated guide with similar features has been posted for deluge [here](/Cookbook/Deluge). 
 

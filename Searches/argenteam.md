@@ -1,3 +1,13 @@
+---
+title: argenteam
+description: 
+published: true
+date: 2022-09-18T05:17:08.862Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:06.213Z
+---
+
 # aRGENTeaM
 Search plugin which gives results from [www.argenteam.net](http://www.argenteam.net/), latin american (Argentina) web.
 

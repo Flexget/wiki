@@ -1,3 +1,13 @@
+---
+title: emby_lookup
+description: 
+published: true
+date: 2022-09-18T05:12:53.598Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:24.094Z
+---
+
 # Emby lookup
 Performs [Emby](https://emby.media/) search for all entries in the feed  .
 

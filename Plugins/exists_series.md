@@ -1,3 +1,13 @@
+---
+title: exists_series
+description: 
+published: true
+date: 2022-09-18T05:05:01.065Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:58.504Z
+---
+
 # Existing series
 This plugin will reject all entries that represent an episode of a series that is already on disk.
 

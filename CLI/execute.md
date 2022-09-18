@@ -1,8 +1,12 @@
 ---
-import:
-  - ExecuteArguments
+title: execute
+description: 
+published: true
+date: 2022-09-18T05:23:59.814Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:42.902Z
 ---
-
 
 ## [CLI](/CLI) > `execute`
 Execute tasks now. If FlexGet is not running as a [daemon](/Daemon) or via [cron](/InstallWizard/Partial/Crontab), this is the only way tasks can be executed.

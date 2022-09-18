@@ -1,3 +1,13 @@
+---
+title: rtorrent
+description: 
+published: true
+date: 2022-09-18T05:11:39.669Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:36.911Z
+---
+
 # rTorrent
 
 This plugin adds URL's directly into rTorrent or create entries from rTorrent for further automation.

@@ -1,3 +1,13 @@
+---
+title: tvmaze_lookup
+description: 
+published: true
+date: 2022-09-18T05:15:39.685Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:37.019Z
+---
+
 # TV Maze Lookup
 This plugin looks up more information from tvmaze.com about any entries that FlexGet has identified as series. tvmaze_lookup will populate several more entry fields that can be used in other plugins.
 

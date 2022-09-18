@@ -1,3 +1,13 @@
+---
+title: lostfilm
+description: 
+published: true
+date: 2022-09-18T05:07:37.728Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:35.082Z
+---
+
 # Lostfilm plugin
 This plugin gets torrents from lostfilm RSS feed. You need to get your personal value of *lf_session* cookie for lostfilm site.
 

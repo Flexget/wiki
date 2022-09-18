@@ -1,3 +1,13 @@
+---
+title: imdb_lookup
+description: 
+published: true
+date: 2022-09-18T05:12:53.598Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:26.755Z
+---
+
 # IMDB lookup
 Performs [IMDB](http://www.imdb.com) search for all entries in the feed and provides IMDB lookup functionality to other plugins.
 

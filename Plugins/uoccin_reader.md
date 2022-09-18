@@ -1,3 +1,13 @@
+---
+title: uoccin_reader
+description: 
+published: true
+date: 2022-09-18T05:16:06.795Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:04.190Z
+---
+
 # Uoccin reader
 This plugin synchronizes a local uoccin.json file with the updates coming from the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app via Google Drive.
 

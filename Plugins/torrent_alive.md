@@ -1,3 +1,13 @@
+---
+title: torrent_alive
+description: 
+published: true
+date: 2022-09-18T05:14:33.573Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:31.020Z
+---
+
 # Torrent Alive
 This plugin will reject any accepted entries that are torrents, but do not meet a minimum seed requirement. Default is to require 1 seed.
 

@@ -1,3 +1,13 @@
+---
+title: KnockiMov
+description: 
+published: true
+date: 2022-09-18T05:22:39.340Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:36.645Z
+---
+
 ## Flexget 1.2.313 configuration - TV & movies using showRSS and IMDB-watchlist
 For this to work you have to setup a few things.
 

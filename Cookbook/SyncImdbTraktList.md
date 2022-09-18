@@ -1,3 +1,13 @@
+---
+title: SyncImdbTraktList
+description: 
+published: true
+date: 2022-09-18T04:56:25.871Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:23.298Z
+---
+
 # Sync from an IMDb to a trakt.tv list
 This recipe will keep your trakt watchlist in sync with your imdb watchlist. It is a one way sync, so direct changes to your trakt list will be overwritten by the imdb watchlist. This example is adaptable to sync any imdb list to any trakt list.
 

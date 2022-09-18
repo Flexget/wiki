@@ -1,3 +1,13 @@
+---
+title: monitor_episodes
+description: 
+published: true
+date: 2022-09-18T05:21:52.701Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:50.178Z
+---
+
 This task will enable you to monitor and get notification for aired episodes that were not download using series plugin.
 
 ### Important notes:

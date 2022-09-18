@@ -1,3 +1,13 @@
+---
+title: qualities
+description: 
+published: true
+date: 2022-09-18T05:28:50.257Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:11.371Z
+---
+
 # Qualities
 This option can be used if you want to allow multiple qualities of the same episode of a series. The option takes a list of [quality requirements](/Qualities#Requirements). A maximum of one release can be accepted that matches each line you specify for this option. One release may satisfy the requirements of multiple lines you have specified.
 

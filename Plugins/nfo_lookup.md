@@ -1,3 +1,13 @@
+---
+title: nfo_lookup
+description: 
+published: true
+date: 2022-09-18T05:08:54.604Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:52.026Z
+---
+
 # Nfo lookup
 
 Read metadata from an [`nfo` file](http://kodi.wiki/view/NFO_files) when the entries come from the filesystem input. It will also set the

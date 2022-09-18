@@ -1,3 +1,13 @@
+---
+title: mysql_input
+description: 
+published: true
+date: 2022-09-18T05:11:36.896Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:54.532Z
+---
+
 You can use the [Exec](/Plugins/exec) plugin to pass certain fields of an entry to a MySQL database. Make yourself comfortable with basic MySQL syntax first [here](http://dev.mysql.com/doc/refman/5.6/en/index.html).
 
 The correct command for [Exec](/Plugins/exec) on Win7 is as follows:

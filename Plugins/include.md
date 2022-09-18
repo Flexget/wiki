@@ -1,3 +1,13 @@
+---
+title: include
+description: 
+published: true
+date: 2022-09-18T05:06:51.938Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:49.371Z
+---
+
 # Include
 Allows including configuration from another file into a task.
 

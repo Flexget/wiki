@@ -1,3 +1,13 @@
+---
+title: discover
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:57.309Z
+---
+
 # Discover
 Creates entries based on search results. Queries are produced based on another input plugin(s).
 

@@ -1,3 +1,13 @@
+---
+title: gotify
+description: 
+published: true
+date: 2022-09-18T05:25:45.140Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:42.529Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Gotify
 <div class="alert alert-success" role="info">
   

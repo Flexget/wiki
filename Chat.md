@@ -1,3 +1,13 @@
+---
+title: Chat
+description: 
+published: true
+date: 2022-09-18T04:48:50.416Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:48:47.761Z
+---
+
 # Chat
 Chat can be accessed via multiple ways. We are using a bot to sync chat between all of the chat services.
 

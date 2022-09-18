@@ -1,3 +1,13 @@
+---
+title: digest
+description: 
+published: true
+date: 2022-09-18T05:03:44.882Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:42.246Z
+---
+
 # Digest
 This plugin works as an output plugin, and collects entries from tasks to be combined into another task (usually for notification.) The `from_digest` plugin is then used in the task where the entries should be acted upon, e.g. notifications sent.
 

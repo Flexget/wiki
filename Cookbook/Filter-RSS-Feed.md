@@ -1,3 +1,13 @@
+---
+title: Filter-RSS-Feed
+description: 
+published: true
+date: 2022-09-18T05:15:40.961Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:22.355Z
+---
+
 #  Filter RSS Feed to different folders
 This setup will take a RSS Feed that you want to download everything from. For example, a RSS Feed of your torrent sites Bookmarks/Favorites/...  and will filter TV shows, Movies, and other (everything else) into separate locations. 
 * Replace 'RSS Feed URL' with your Feeds URL 

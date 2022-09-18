@@ -1,3 +1,13 @@
+---
+title: CLISearch
+description: 
+published: true
+date: 2022-09-18T04:55:06.207Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:03.600Z
+---
+
 This example is missing an output, but it was designed to use Deluge since movedone and content_filename are included.
 This task was created to do two things:
 1. Grab / Start a folder for a series

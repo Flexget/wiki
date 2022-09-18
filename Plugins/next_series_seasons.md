@@ -1,3 +1,13 @@
+---
+title: next_series_seasons
+description: 
+published: true
+date: 2022-09-18T05:28:46.416Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:40.286Z
+---
+
 # Next Series Seasons
 
 Creates an [Entry](/Entry) for the next season needed in each series you have configured in the [`series`](/Plugins/series) plugin (intended to be used with the [`discover`](/Plugins/discover) plugin). You must have one of either [`series`](/Plugins/series) or [`configure_series`](/Plugins/configure_series)  configured in the same task for this to work. 

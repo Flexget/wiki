@@ -1,3 +1,13 @@
+---
+title: urlrewrite_search
+description: 
+published: true
+date: 2022-09-18T05:16:29.986Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:27.393Z
+---
+
 # Search
 
 Use entry title and try to search it from supported sites. Accepts list of [search plugins](/Searches) in order of priority. If entry is not found from any of the sites it will be rejected.

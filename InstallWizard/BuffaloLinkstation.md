@@ -1,3 +1,13 @@
+---
+title: BuffaloLinkstation
+description: 
+published: true
+date: 2022-09-18T05:00:07.014Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:04.357Z
+---
+
 # Python set-up
 Assuming you are using the IPKG package manager, you will first need to set up python by using:
 ```

@@ -1,3 +1,13 @@
+---
+title: move
+description: 
+published: true
+date: 2022-09-18T05:08:19.487Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:16.895Z
+---
+
 # Move
 
 ### Syntax:

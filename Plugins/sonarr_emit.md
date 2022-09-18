@@ -1,8 +1,12 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.1.0
-replacement_plugins: '[next_sonarr_episodes](/Plugins/next_sonarr_episodes)'
+title: sonarr_emit
+description: 
+published: true
+date: 2022-09-18T05:13:27.302Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:24.722Z
 ---
+
 # Sonarr Emit
 {{> Includes/PluginReplaced }}

@@ -1,3 +1,13 @@
+---
+title: aria2
+description: 
+published: true
+date: 2022-09-18T05:02:24.575Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:21.992Z
+---
+
 # Aria2
 Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net). Supports HTTP, HTTPS, FTP, Torrent, Magnet.
 

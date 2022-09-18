@@ -1,3 +1,13 @@
+---
+title: seen_info_hash
+description: 
+published: true
+date: 2022-09-18T05:12:25.393Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:22.874Z
+---
+
 # Seen_info_hash
 In the rare event where same torrent is downloaded with different title and url this plugin will step in and see its unique fingerprint (info_hash) and reject it.
 

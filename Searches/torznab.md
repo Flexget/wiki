@@ -1,3 +1,13 @@
+---
+title: torznab
+description: 
+published: true
+date: 2022-09-18T05:19:09.760Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:07.131Z
+---
+
 # torznab
 Designed to search using Torznab indexers with with [discover](/Plugins/discover) plugins. Tested using [Jackett](https://github.com/Jackett/Jackett), though should work with any Torznab indexer.
 

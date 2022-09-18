@@ -1,3 +1,13 @@
+---
+title: torrent_size
+description: 
+published: true
+date: 2022-09-18T05:14:45.066Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:42.511Z
+---
+
 # Torrent size
 **Removed in r1202, replaced by [content_size](/Plugins/content_size)**
 

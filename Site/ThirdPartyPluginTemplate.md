@@ -1,3 +1,13 @@
+---
+title: ThirdPartyPluginTemplate
+description: 
+published: true
+date: 2022-09-18T05:19:21.613Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:18.925Z
+---
+
 # Third-Party Plugin Template and Instructions
 
 This page provides and explains the template for a third-party plugin wiki page. A complete template with no explanation text is available [here](/_edit/Site/ThirdPartyPluginTemplateFull). (Copy and paste the Markdown source from that page into your plugin's wiki page. **Do not** save changes directly at that link.)

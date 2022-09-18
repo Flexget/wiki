@@ -1,3 +1,13 @@
+---
+title: btn
+description: 
+published: true
+date: 2022-09-18T05:17:17.295Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:14.052Z
+---
+
 # BTN
 This search plugin will get series episode results from torrent site BTN. There is a limit of 150 api calls per hour, so make sure you do not schedule tasks using this to run too often.
 

@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.9.0
-replacement_plugins: '[notify](/Plugins/notify)'
+title: notify_task
+description: 
+published: true
+date: 2022-09-18T05:26:16.385Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:13.726Z
 ---
+
 # Notify Task
 {{> Includes/PluginReplacedArchived }}
 

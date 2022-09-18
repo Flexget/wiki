@@ -1,3 +1,13 @@
+---
+title: backlog
+description: 
+published: true
+date: 2022-09-18T04:53:22.670Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:20.039Z
+---
+
 ## [CLI](/CLI) > `backlog`
 View or clear entries from the [`backlog` plugin](/Plugins/backlog).
 ### Actions

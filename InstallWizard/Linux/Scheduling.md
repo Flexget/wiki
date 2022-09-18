@@ -1,7 +1,13 @@
 ---
-import:
-  - InstallWizard/Partial/Crontab
+title: Scheduling
+description: 
+published: true
+date: 2022-09-18T05:23:38.781Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:36.180Z
 ---
+
 # [Install Wizard](/InstallWizard) > [Linux/BSD](/InstallWizard/Linux) > Scheduling
 
 ## Configuration

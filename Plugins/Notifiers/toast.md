@@ -1,3 +1,13 @@
+---
+title: toast
+description: 
+published: true
+date: 2022-09-18T05:27:03.894Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:01.218Z
+---
+
 # Toast
 <div class="alert alert-success" role="info">
   

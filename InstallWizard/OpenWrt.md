@@ -1,3 +1,13 @@
+---
+title: OpenWrt
+description: 
+published: true
+date: 2022-09-18T05:29:16.383Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:19.800Z
+---
+
 OpenWrt is described as a Linux distribution for embedded devices.
   
   

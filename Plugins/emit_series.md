@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.1.0
-replacement_plugins: '[next_series_episodes](/Plugins/next_series_episodes)'
+title: emit_series
+description: 
+published: true
+date: 2022-09-18T05:04:45.752Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:43.238Z
 ---
+
 # Emit Series
 {{> Includes/PluginReplaced }}
 

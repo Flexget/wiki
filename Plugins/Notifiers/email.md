@@ -1,3 +1,13 @@
+---
+title: email
+description: 
+published: true
+date: 2022-09-18T05:25:41.250Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:38.605Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Email
 
 <div class="alert alert-success" role="info">

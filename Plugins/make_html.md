@@ -1,3 +1,13 @@
+---
+title: make_html
+description: 
+published: true
+date: 2022-09-18T05:07:48.984Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:46.475Z
+---
+
 # Make HTML
 Generate an HTML file for accepted entries.
 

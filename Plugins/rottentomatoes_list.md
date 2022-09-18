@@ -1,3 +1,13 @@
+---
+title: rottentomatoes_list
+description: 
+published: true
+date: 2022-09-18T05:11:27.837Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:25.271Z
+---
+
 # Rotten Tomatoes List
 Emits an entry for each movie in a [Rotten Tomatoes](http://www.rottentomatoes.com) list.
 

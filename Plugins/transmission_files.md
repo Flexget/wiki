@@ -1,3 +1,13 @@
+---
+title: transmission_files
+description: 
+published: true
+date: 2022-09-18T05:15:28.076Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:25.536Z
+---
+
 # Transmission Files
 This plugin creates an entry for each file within the torrents you have loaded in transmission.
 

@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRequiresPip
-packages: sleekxmpp
+title: xmpp
+description: 
+published: true
+date: 2022-09-18T05:27:07.779Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:05.215Z
 ---
+
 # [Notifiers](/Plugins/Notifiers) > XMPP
 <div class="alert alert-success" role="info">
   

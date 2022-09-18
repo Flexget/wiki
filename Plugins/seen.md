@@ -1,3 +1,13 @@
+---
+title: seen
+description: 
+published: true
+date: 2022-09-18T05:12:21.637Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:19.039Z
+---
+
 # Seen
 Remembers downloaded entries across all tasks and rejects them on subsequent executions.
 

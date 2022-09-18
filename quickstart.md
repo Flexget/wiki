@@ -1,3 +1,13 @@
+---
+title: quickstart
+description: 
+published: true
+date: 2022-09-18T04:52:59.623Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:57.042Z
+---
+
 # Quickstart
 
 The idea is to enable a quicker way for new users to create a rudimentry config via an interactive prompt.  

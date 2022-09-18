@@ -1,3 +1,13 @@
+---
+title: SeriesSabNZBd
+description: 
+published: true
+date: 2022-09-18T05:21:13.683Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:11.136Z
+---
+
 # Series name as a category
 When using [sabnzbd](/Plugins/sabnzbd) you can use series name as a category by utilizing [set](/Plugins/set) plugin. The category name will be exactly the one written in as a series name.
 

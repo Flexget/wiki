@@ -1,3 +1,13 @@
+---
+title: letterboxd
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:16.026Z
+---
+
 # Letterboxd
 This plugin produces an [entry](/Entry) for each film in any public [Letterboxd](http://letterboxd.com) list. These entries can then be added to the [movie_queue](/movie_queue#AddingRemovingusingTasks), used to initiate a search with [discover](/discover), or passed to some other [output plugin](/Plugins#Outputs). Results are cached for two hours to avoid flooding the site.
  

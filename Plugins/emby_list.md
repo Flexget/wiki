@@ -1,3 +1,13 @@
+---
+title: emby_list
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:20.312Z
+---
+
 # Emby list
 <div class="alert alert-success" role="info">
   

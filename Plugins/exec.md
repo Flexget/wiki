@@ -1,3 +1,13 @@
+---
+title: exec
+description: 
+published: true
+date: 2022-09-18T05:04:49.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:46.977Z
+---
+
 # Exec
 Executes commands on [entries](/Entry).
 

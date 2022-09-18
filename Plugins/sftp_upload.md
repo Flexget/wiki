@@ -1,3 +1,13 @@
+---
+title: sftp_upload
+description: 
+published: true
+date: 2022-09-18T05:13:07.774Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:05.170Z
+---
+
 # SFTP Upload
 Upload files to a SFTP server. 
 

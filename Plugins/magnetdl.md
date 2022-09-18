@@ -1,3 +1,13 @@
+---
+title: magnetdl
+description: 
+published: true
+date: 2022-09-18T05:07:41.483Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:38.943Z
+---
+
 # Magnetdl
 
 Works as input or as a search plugin.

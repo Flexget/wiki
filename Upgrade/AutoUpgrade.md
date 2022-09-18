@@ -1,3 +1,13 @@
+---
+title: AutoUpgrade
+description: 
+published: true
+date: 2022-09-18T05:19:29.422Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:26.849Z
+---
+
 # Bash Script for automatically updating Flexget
 This bash script is for safely automating upgrading of flexget.  It checks the config after upgrade and reverts to the previous version if the config check fails, this way flexget continues to run until the user can update the config and upgrade flexget manually
 

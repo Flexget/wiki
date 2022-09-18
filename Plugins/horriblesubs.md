@@ -1,3 +1,13 @@
+---
+title: horriblesubs
+description: 
+published: true
+date: 2022-09-18T05:08:40.268Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:11.281Z
+---
+
 # HorribleSubs
 
 <div class="alert alert-warning" role=alert>

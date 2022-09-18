@@ -1,3 +1,13 @@
+---
+title: interval
+description: 
+published: true
+date: 2022-09-18T05:07:07.034Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:04.468Z
+---
+
 # Interval
 Allows specifying minimum interval for task execution. If cron execution happens before interval is met the task is skipped.
 

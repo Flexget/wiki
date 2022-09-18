@@ -1,3 +1,13 @@
+---
+title: clean_transmission
+description: 
+published: true
+date: 2022-09-18T05:02:51.469Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:48.807Z
+---
+
 # Clean Transmission
 
 <div class="alert alert-warning" role="alert">

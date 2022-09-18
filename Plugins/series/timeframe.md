@@ -1,3 +1,13 @@
+---
+title: timeframe
+description: 
+published: true
+date: 2022-09-18T05:28:50.257Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:38.635Z
+---
+
 # Timeframe and Target
 Timeframe value: NUM (minutes|hours|days|weeks)
 

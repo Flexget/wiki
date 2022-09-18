@@ -1,3 +1,13 @@
+---
+title: path_by_ext
+description: 
+published: true
+date: 2022-09-18T05:09:25.220Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:22.655Z
+---
+
 # Path by ext
 Allows overwriting entry path based on it's extension / mime-type.
 

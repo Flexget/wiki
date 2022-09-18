@@ -1,3 +1,13 @@
+---
+title: awesomehd
+description: 
+published: true
+date: 2022-09-18T05:17:12.773Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:10.159Z
+---
+
 # AwesomeHD
 This search plugin will get tv seasons (they do not allow single episodes) and movie results from AwesomeHD. While their API provides a `type` parameter in the response, it seems to always be `Movie`, even for tv shows.
 

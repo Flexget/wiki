@@ -1,3 +1,13 @@
+---
+title: EntryTypes
+description: 
+published: true
+date: 2022-09-18T04:57:54.227Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:51.618Z
+---
+
 # Adding a typing system to entries
 Just some brainstorming, I'm thinking about adding a new system to entries, where it can declare what type of content it represents. Don't have all my ideas together yet, so this is super drafty.
 

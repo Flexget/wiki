@@ -1,3 +1,13 @@
+---
+title: inputs
+description: 
+published: true
+date: 2022-09-18T05:07:03.227Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:00.655Z
+---
+
 # Inputs
 This plugin allows you to configure the same [input plugin](/Plugins#Inputs) multiple times in one task.
 

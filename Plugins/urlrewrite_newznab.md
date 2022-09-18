@@ -1,3 +1,13 @@
+---
+title: urlrewrite_newznab
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:23.630Z
+---
+
 # Newnzab plugin
 The newznab plugin is used in conjunction with the [discover](/Plugins/discover) plugin.
 

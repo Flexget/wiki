@@ -1,3 +1,13 @@
+---
+title: tracking
+description: 
+published: true
+date: 2022-09-18T05:28:45.121Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:42.511Z
+---
+
 # Tracking
 Series plugin keeps track of downloaded episodes for each series and rejects episodes that are too far in the past or future from the latest downloaded one. Past seasons are not be allowed, and only the first couple eps in the next season are allowed. This helps prevent skipping back to old seasons, or skipping too far ahead and missing episodes.
 

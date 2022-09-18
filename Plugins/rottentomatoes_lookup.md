@@ -1,3 +1,13 @@
+---
+title: rottentomatoes_lookup
+description: 
+published: true
+date: 2022-09-18T05:11:31.645Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:29.080Z
+---
+
 # Rotten Tomatoes lookup
 Performs Rotten Tomatoes search for all entries in the feed and provides Rotten Tomatoes lookup functionality to other plugins.
 

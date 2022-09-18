@@ -1,3 +1,13 @@
+---
+title: content_size
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:00.354Z
+---
+
 # Content size
 Allow specifying minimum and maximum sizes for contents such as torrents and nzbs. By default the plugin operates in "strict" mode where if the size of a download cannot be determined it will be rejected.
 

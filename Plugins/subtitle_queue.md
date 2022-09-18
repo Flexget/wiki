@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRemovedArchived
-removed_in_version: 2.3.0
+title: subtitle_queue
+description: 
+published: true
+date: 2022-09-18T05:13:43.078Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:40.368Z
 ---
+
 # Subtitle Queue
 {{> Includes/PluginRemovedArchived }}
 

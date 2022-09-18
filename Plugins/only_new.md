@@ -1,3 +1,13 @@
+---
+title: only_new
+description: 
+published: true
+date: 2022-09-18T05:10:54.634Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:15.024Z
+---
+
 # Only New
 Process only new entries.
 

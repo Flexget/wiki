@@ -1,3 +1,13 @@
+---
+title: Emit
+description: 
+published: true
+date: 2022-09-18T04:57:50.425Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:47.892Z
+---
+
 # Emit cleanup
 ### Problem description
 We currently have multiple plugins with various different naming and configuration convention. These should be unified.

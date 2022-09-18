@@ -1,3 +1,13 @@
+---
+title: from_imdb
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:40.351Z
+---
+
 # From IMDB
 This plugin creates [entries](/Entry) based on an IMDB person, company or character. Additional filters like content types and job types can be added to the config to limit down the generated list.
 The main purpose of this plugin is to be used with the [movie_list](/Plugins/List/movie_list) plugin as an input, but it can be also used with [configure_series](/Plugins/configure_series) if content is set to TV.

@@ -1,3 +1,13 @@
+---
+title: pushbullet-complete-body
+description: 
+published: true
+date: 2022-09-18T04:57:00.991Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:58.383Z
+---
+
 A more complete example of a configuration for pushbullet including more information from the series plugin. This of course can be expanded, but it is good to for figuring out how Jinja2 templates work. Also to test this try the mock task.
 
 ## Pushbullet configuration

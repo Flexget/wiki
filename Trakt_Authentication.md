@@ -1,3 +1,13 @@
+---
+title: Trakt_Authentication
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:05.667Z
+---
+
 # Trakt Authentication
 There are multiple Trakt plugins (such as [`trakt_list`](/Plugins/List/trakt_list), [`list_remove`](/Plugins/List/list_remove), [`trakt_lookup`](/Plugins/trakt_lookup), and [`list_clear`](/Plugins/List/list_clear)) that need to authenticate with your Trakt account if the profile or list is private, or if you are trying to edit lists. Any such plugin will have an `account` option.
 

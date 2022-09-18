@@ -1,3 +1,13 @@
+---
+title: archives
+description: 
+published: true
+date: 2022-09-18T05:02:20.770Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:18.168Z
+---
+
 # archives
 Accepts entries that are valid Zip or RAR archives; reject entries that are not. This is particularly useful when notifying after extracting a multipart RAR.
 

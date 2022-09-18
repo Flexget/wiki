@@ -1,3 +1,13 @@
+---
+title: periscope
+description: 
+published: true
+date: 2022-09-18T05:09:44.136Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:41.587Z
+---
+
 # Periscope
 Download subtitles for entries referred to existing video files.
 <div class="alert alert-info" role="alert">

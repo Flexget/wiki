@@ -1,3 +1,13 @@
+---
+title: notify
+description: 
+published: true
+date: 2022-09-18T05:09:02.294Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:59.677Z
+---
+
 # Notify
 This plugin can be used to send messages about different events during task execution. These messages can be delivered by one (or more) of the [notification delivery plugins](/Plugins/Notifiers). There are 3 main categories of message this plugin can send:
 

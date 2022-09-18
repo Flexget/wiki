@@ -1,8 +1,12 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.2.0
-replacement_plugins: '[thetvdb_list](/Plugins/List/thetvdb_list) and [list_add](/Plugins/List/list_add)'
+title: thetvdb_add
+description: 
+published: true
+date: 2022-09-18T05:14:10.146Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:07.581Z
 ---
+
 # The TVDB Add
 {{> Includes/PluginReplaced }}

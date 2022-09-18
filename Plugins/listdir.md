@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 1.2.452
-replacement_plugins: '[filesystem](/Plugins/filesystem)'
+title: listdir
+description: 
+published: true
+date: 2022-09-18T05:07:30.112Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:27.581Z
 ---
+
 # Listdir
 {{> Includes/PluginReplaced }}
 

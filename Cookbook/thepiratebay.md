@@ -1,3 +1,13 @@
+---
+title: thepiratebay
+description: 
+published: true
+date: 2022-09-18T05:07:57.801Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:06.098Z
+---
+
 # Download From The Pirate Bay
 The default handling of magnet links with the html plugin tries to generate a title from
 the url, but sometimes results in duplicates. The following extracts the title from the dn=

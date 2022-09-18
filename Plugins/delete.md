@@ -1,3 +1,13 @@
+---
+title: delete
+description: 
+published: true
+date: 2022-09-18T05:03:37.006Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:34.490Z
+---
+
 # Delete
 *TODO: Improve documentation*
 

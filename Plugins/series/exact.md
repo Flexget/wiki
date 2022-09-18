@@ -1,3 +1,13 @@
+---
+title: exact
+description: 
+published: true
+date: 2022-09-18T05:27:38.794Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:36.207Z
+---
+
 ## Exact mode
 Enable strict name matching. Useful for differentiating between series whose names start similarly.
 

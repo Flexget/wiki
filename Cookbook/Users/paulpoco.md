@@ -1,3 +1,13 @@
+---
+title: paulpoco
+description: 
+published: true
+date: 2022-09-18T05:23:26.641Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:23.975Z
+---
+
 Example of my Config and Series files for Flexget 1.2.231
 
 Using Next-Episode a source of TV series that can easily be added with Android app or their web site.

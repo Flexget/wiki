@@ -1,3 +1,13 @@
+---
+title: from_digest
+description: 
+published: true
+date: 2022-09-18T05:05:35.303Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:32.750Z
+---
+
 # From Digest
 This plugin outputs entries which have been collected by the [digest](/Plugins/digest) plugin. See [that](/Plugins/digest) wiki page for more usage examples.
 

@@ -1,3 +1,13 @@
+---
+title: TraktUpload
+description: 
+published: true
+date: 2022-09-18T05:20:08.270Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:05.668Z
+---
+
 # Upload movie/tv collection to trakt.tv
 These feeds will upload your collection to [trakt.tv](http://trakt.tv).
 

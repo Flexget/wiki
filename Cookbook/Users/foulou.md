@@ -1,3 +1,13 @@
+---
+title: foulou
+description: 
+published: true
+date: 2022-09-18T05:23:02.903Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:00.218Z
+---
+
 This is the personal configuration of user foulou . I will try to remember to update this page when I make changes.
 
 Updated Config if this one is outdated : http://pastebin.com/CsSLVCJA

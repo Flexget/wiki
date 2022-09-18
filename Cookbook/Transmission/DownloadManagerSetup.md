@@ -1,3 +1,13 @@
+---
+title: DownloadManagerSetup
+description: 
+published: true
+date: 2022-09-18T05:22:16.066Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:13.329Z
+---
+
 ## Download Manager Setup
 this is a continuation of the [recipe for setting up flexget with transmission client. ](/Cookbook/Transmission)  
 please refer to that recipe if you are interested in how to setup flexget & transmission for automating your torrenting.

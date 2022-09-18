@@ -1,3 +1,13 @@
+---
+title: imdb
+description: 
+published: true
+date: 2022-09-18T05:12:30.430Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:22.850Z
+---
+
 # Filter IMDB
 This module allows filtering based on IMDB score, votes and genres etc.
 Results are cached so this doesn't cause unnecessary load to [imdb](http://www.imdb.com).

@@ -1,3 +1,13 @@
+---
+title: Movies
+description: 
+published: true
+date: 2022-09-18T04:58:13.420Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:10.896Z
+---
+
 ### New movies plugin
 ```
 movies:

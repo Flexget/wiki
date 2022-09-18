@@ -1,3 +1,13 @@
+---
+title: Configguide
+description: 
+published: true
+date: 2022-09-18T05:27:59.676Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:40.246Z
+---
+
 ## Step by Step Configuration Tutorial
 The configuration is a hierarchy constructed of various components. The main component of any config are the feeds, so we will start there. (Do not confuse this with an RSS feed. A 'feed' in FlexGet is more akin to a 'task', and may be renamed as such in the future.)
 ```

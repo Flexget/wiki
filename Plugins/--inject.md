@@ -1,3 +1,13 @@
+---
+title: --inject
+description: 
+published: true
+date: 2022-09-18T05:00:56.660Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:54.096Z
+---
+
 # Inject
 Allows injecting imaginary entry for FlexGet to process. You can also use [the inject cli command](/CLI/inject) for a slightly easier format.
 

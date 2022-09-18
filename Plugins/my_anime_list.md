@@ -1,3 +1,13 @@
+---
+title: my_anime_list
+description: 
+published: true
+date: 2022-09-18T05:08:27.519Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:24.882Z
+---
+
 # MyAnimeList
 
 This plugin produces an [entry](/Entry) for each item on [MyAnimeList](https://myanimelist.net) list. It can be used as a source for the [configure_series](/Plugins/configure_series) plugin.

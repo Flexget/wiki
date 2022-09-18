@@ -1,3 +1,13 @@
+---
+title: InstallWizard
+description: 
+published: true
+date: 2022-09-18T05:00:42.742Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:10.906Z
+---
+
 # Installation Tutorial
 <div class="alert alert-info" role="info">
   <span class="glyphicon glyphicon-info-sign"></span>

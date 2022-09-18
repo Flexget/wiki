@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.9.0
-replacement_plugins: '[notify](/Plugins/notify)'
+title: notify_entries
+description: 
+published: true
+date: 2022-09-18T05:26:08.543Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:05.807Z
 ---
+
 # Notify Entries
 {{> Includes/PluginReplacedArchived }}
 

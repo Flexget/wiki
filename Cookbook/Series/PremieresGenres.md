@@ -1,3 +1,13 @@
+---
+title: PremieresGenres
+description: 
+published: true
+date: 2022-09-18T05:20:50.685Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:48.146Z
+---
+
 # Premieres with genre filtering
 ```
 tasks:

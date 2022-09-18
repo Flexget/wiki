@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.9.0
-replacement_plugins: '[variables](/Plugins/variables)'
+title: secrets
+description: 
+published: true
+date: 2022-09-18T05:12:17.809Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:15.174Z
 ---
+
 # Secrets
 {{> Includes/PluginReplacedArchived }}
 

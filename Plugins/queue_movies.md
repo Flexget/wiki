@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 1.2.247
-replacement_plugins: '[movie_queue](/Plugins/movie_queue)'
+title: queue_movies
+description: 
+published: true
+date: 2022-09-18T05:10:34.472Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:31.892Z
 ---
+
 # Queue Movies
 {{> Includes/PluginReplacedArchived }}
 

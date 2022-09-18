@@ -1,3 +1,13 @@
+---
+title: 404notfound
+description: 
+published: true
+date: 2022-09-18T05:22:27.690Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:25.076Z
+---
+
 This is my current flexget configuration. I think mine is a little different than most because I'm not on a linux machine. I think most people use transmission to manage their torrent downloads. I didn't have much luck getting transmission-qt to work. What I do instead is to save the torrents to a blackhole and use a script to pass them to aria2. I'll post the script once I finish debugging. 
 
 Also, I haven't seen anyone else use both torrent files and magnet links. Below is a technique that will download the torrent file if available or create a file containing the magnet link for future parsing.

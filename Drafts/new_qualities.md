@@ -1,3 +1,13 @@
+---
+title: new_qualities
+description: 
+published: true
+date: 2022-09-18T04:58:55.814Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:53.084Z
+---
+
 # Qualities
 Qualities are split into four separate categories: resolution, source, codec, and audio. Any given release can have a value in all four of these categories. Here are all of the values within each category, listed with highest value at the top:
 

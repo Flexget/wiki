@@ -1,3 +1,13 @@
+---
+title: SeriesTransmissionshowRSS
+description: 
+published: true
+date: 2022-09-18T05:21:17.541Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:14.994Z
+---
+
 This configuration is to be used with the a website like [showRSS](http://showrss.karmorra.info/) where you choose which series you want to watch and the Transmission torrent client.
 
 Let's say a new series you fancy comes out and you want to add it to your download list, instead of opening your configuration file and add it manually (while being prone to all sorts of syntax errors) your go to your showRSS account and add it there, this configuration will fetch all the series it finds from your personal feed at showRSS, download them and organise them with the episode name inside the series folder.

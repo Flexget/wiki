@@ -1,3 +1,13 @@
+---
+title: uoccin_watchlist
+description: 
+published: true
+date: 2022-09-18T05:16:14.629Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:11.956Z
+---
+
 # Uoccin watchlist add/remove
 The `uoccin_watchlist_add` plugin adds the accepted movies and/or episodes in the watchlist inside your local uoccin.json file and update the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app database (if you are using it). The [uoccin_emit](/uoccin_emit) plugin can be used to produce titles from the watchlist in combination with other plugins like [configure_series](/configure_series) or [discover](/discover).
 

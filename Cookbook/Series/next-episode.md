@@ -1,3 +1,13 @@
+---
+title: next-episode
+description: 
+published: true
+date: 2022-09-18T05:21:56.552Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:53.927Z
+---
+
 # Use next-episode.net as input for import_series
 This feed will pull your series from [http://next-episode.net](http://next-episode.net) using [import_series](/Plugins/import_series)
 There are some transmission stuff included in the example to. 

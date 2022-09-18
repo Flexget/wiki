@@ -1,3 +1,13 @@
+---
+title: manipulate
+description: 
+published: true
+date: 2022-09-18T05:07:56.601Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:54.028Z
+---
+
 # Manipulate
 Mainly for advanced users only. Allows setting and cleaning entry fields with regexp.
 

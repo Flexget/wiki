@@ -1,3 +1,13 @@
+---
+title: begin
+description: 
+published: true
+date: 2022-09-18T05:27:30.941Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:28.320Z
+---
+
 # Begin
 If you already have part of a show and need to specify where FlexGet should begin downloading, it can be done using the `begin` option. This should be equal to the first episode you want FlexGet to accept. This may not be needed in most cases, since FlexGet will not skip forward and back seasons due to [episode advancement](/Plugins/series/advancement) functionality. If you are using [``next_series_episodes``](/Plugins/next_series_episodes) or [``next_series_seasons``](/Plugins/next_series_seasons), those plugins will reference the `begin` episode if it's set. There are two ways to set this value: from config or from the CLI.
 

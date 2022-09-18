@@ -1,3 +1,13 @@
+---
+title: utorrent
+description: 
+published: true
+date: 2022-09-18T05:16:33.889Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:31.293Z
+---
+
 # uTorrent
 
 This plugin passes entry URLs directly to uTorrent to be added. Supports dynamically setting the save path. You must set up your allowed download directories for the uTorrent webui to contain a parent folder of any path you wish to be able to save to from FlexGet.

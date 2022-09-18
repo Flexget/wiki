@@ -1,3 +1,13 @@
+---
+title: convert_magnet
+description: 
+published: true
+date: 2022-09-18T05:03:06.664Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:04.121Z
+---
+
 # Convert Magnet
 
 Simple plugin for converting magnet links to torrent files without the use of torrent caches.

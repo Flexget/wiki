@@ -1,3 +1,13 @@
+---
+title: remove_trackers
+description: 
+published: true
+date: 2022-09-18T05:10:57.190Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:54.645Z
+---
+
 # Remove Trackers
 Removes trackers from torrent files using regexp matching. Also works on magnet urls.
 

@@ -1,3 +1,13 @@
+---
+title: Daemon
+description: 
+published: true
+date: 2022-09-18T05:24:23.833Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:07.237Z
+---
+
 # Daemon
 FlexGet can be run in daemon mode, which means it will always run in the background, periodically running tasks on a schedule, or running the tasks initiated by another instance of FlexGet. Also see the [daemon CLI documentation](/CLI/daemon).
 

@@ -1,3 +1,13 @@
+---
+title: Anime
+description: 
+published: true
+date: 2022-09-18T04:54:58.717Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:56.146Z
+---
+
 For a long time, I would organize my anime collection as I would acquire it.  Each series would go directly into it's own folder.  And then my HDD died, presumably due to all the stress of constantly serving files.
 
 So now, I have a smaller HDD that I use to simply dump files into.  Once the series is complete, I transfer it all over to storage, which remains blissfully unstressed.  My torrent client is set up to watch the Temp directory where the torrent files are downloaded.  I'm not using Deluge in Windows 7 since I've had it crash on me multiple times.  From R:\Temp, the client saves all of the files into a Videos folder.  Viewing this folder in Windows Explorer works out pretty well, when sorted by timestamp.

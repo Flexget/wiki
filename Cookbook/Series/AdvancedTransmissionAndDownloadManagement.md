@@ -1,3 +1,13 @@
+---
+title: AdvancedTransmissionAndDownloadManagement
+description: 
+published: true
+date: 2022-09-18T05:20:23.822Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:21.161Z
+---
+
 ## Download series with transmission (advanced)
 
 

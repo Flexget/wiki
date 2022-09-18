@@ -1,3 +1,13 @@
+---
+title: apple_trailers
+description: 
+published: true
+date: 2022-09-18T05:02:13.149Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:10.541Z
+---
+
 # Input AppleTrailers
 Adds support for [Apple Trailers](http://trailers.apple.com/) as an input source.
 

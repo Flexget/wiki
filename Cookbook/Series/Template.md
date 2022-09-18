@@ -1,3 +1,13 @@
+---
+title: Template
+description: 
+published: true
+date: 2022-09-18T05:21:36.754Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:34.227Z
+---
+
 # Manage series easier with a template
 With [template](/Plugins/template) plugin you can avoid having to duplicate configuration in multiple tasks. This can be adapted for movies, comics etc. easily. See [template](/Plugins/template) documentation for more tips.
 

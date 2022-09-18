@@ -1,3 +1,13 @@
+---
+title: adrellias
+description: 
+published: true
+date: 2022-09-18T05:22:51.131Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:48.581Z
+---
+
 **Adrellias flexget config**
 
 My config file is mostly based off the below users configuration.   

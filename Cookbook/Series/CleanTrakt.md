@@ -1,3 +1,13 @@
+---
+title: CleanTrakt
+description: 
+published: true
+date: 2022-09-18T05:20:27.605Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:25.092Z
+---
+
 # Cleaning a Trakt List
 If you are using configure_series with a trakt list, periodically you may wish to remove shows which have ended. Nobody wants to do that manually, so here is a task to help.
 The `list_add` is optional, but maybe you want to move the show to an *Archive* list after having it removed from your *Watching* list?

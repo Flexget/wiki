@@ -1,3 +1,13 @@
+---
+title: retry_failed
+description: 
+published: true
+date: 2022-09-18T05:11:08.726Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:06.191Z
+---
+
 # Retry Failed
 This plugin serves several purposes. It will save failed entries in the backlog, to make sure they can be retried even if they scroll out of your input. It also enforces an interval before retrying again, so that other possibly acceptable entries may be grabbed in place of the failing entry. Lastly, it rejects entries that have failed more than a certain number of times.
 

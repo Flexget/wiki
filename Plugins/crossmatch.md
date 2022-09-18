@@ -1,3 +1,13 @@
+---
+title: crossmatch
+description: 
+published: true
+date: 2022-09-18T05:16:39.074Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:19.274Z
+---
+
 # Crossmatch
 Match current entries against some other input entries and take action on matches.
 

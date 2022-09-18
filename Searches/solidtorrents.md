@@ -1,3 +1,13 @@
+---
+title: solidtorrents
+description: 
+published: true
+date: 2022-09-18T05:18:50.317Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:47.774Z
+---
+
 # Solid Torrents
 This search plugin will get results from [https://solidtorrents.net](/https://solidtorrents.net) or a reverse proxy if specified.
 

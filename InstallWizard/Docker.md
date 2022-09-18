@@ -1,3 +1,13 @@
+---
+title: Docker
+description: 
+published: true
+date: 2022-09-18T05:24:07.769Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:08.245Z
+---
+
 # [Install Wizard](/InstallWizard) > Docker
 
 ## Install Docker

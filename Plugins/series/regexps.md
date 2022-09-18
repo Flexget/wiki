@@ -1,3 +1,13 @@
+---
+title: regexps
+description: 
+published: true
+date: 2022-09-18T05:28:21.737Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:19.116Z
+---
+
 ## Advanced matching with regexps
 The standard name matching works quite well, but in some cases you may need to specify regexp(s) manually. Usually the `name_regexp` when series is written in multiple different ways.
 

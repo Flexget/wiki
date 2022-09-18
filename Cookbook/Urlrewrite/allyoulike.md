@@ -1,3 +1,13 @@
+---
+title: allyoulike
+description: 
+published: true
+date: 2022-09-18T05:24:51.199Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:17.394Z
+---
+
 # allyoulike.com urlrewriter
     
 Version 0.1

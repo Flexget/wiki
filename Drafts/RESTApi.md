@@ -1,3 +1,13 @@
+---
+title: RESTApi
+description: 
+published: true
+date: 2022-09-18T04:58:17.406Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:14.645Z
+---
+
 # **REST API **
 Anyone interested in developing the webui should feel free to input here.
 

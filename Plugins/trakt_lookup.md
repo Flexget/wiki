@@ -1,3 +1,13 @@
+---
+title: trakt_lookup
+description: 
+published: true
+date: 2022-09-18T05:28:30.871Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:09.550Z
+---
+
 # Trakt Lookup
 
 This plugin returns series information from Trakt.tv. The name of the series usually has to be VERY close to what's shown on Trakt.  

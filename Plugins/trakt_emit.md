@@ -1,8 +1,12 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.1.0
-replacement_plugins: '[next_trakt_episodes](/Plugins/next_trakt_episodes)'
+title: trakt_emit
+description: 
+published: true
+date: 2022-09-18T05:15:04.395Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:01.831Z
 ---
+
 # Trakt Emit
 {{> Includes/PluginReplaced }}

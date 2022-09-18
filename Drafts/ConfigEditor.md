@@ -1,3 +1,13 @@
+---
+title: ConfigEditor
+description: 
+published: true
+date: 2022-09-18T04:57:39.078Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:36.495Z
+---
+
 # Webui Config Editor
 We are hoping to get a web developer to help out with a new config editor for the webui, thought I'd sketch out some ideas on how I think it could work.
 

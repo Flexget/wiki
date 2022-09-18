@@ -1,3 +1,13 @@
+---
+title: anilist
+description: 
+published: true
+date: 2022-09-18T05:24:31.761Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:02.754Z
+---
+
 # AniList
 
 This plugin produces an [entry](/Entry) for each item on a user's [AniList](https://anilist.co) list. It can be used as a source for the [configure_series](/Plugins/configure_series) plugin.

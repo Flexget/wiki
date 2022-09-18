@@ -1,3 +1,13 @@
+---
+title: all_series
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:55.012Z
+---
+
 # All Series
 Automatically configures the [series](/Plugins/series) plugin for all series that appear in the feed.
 

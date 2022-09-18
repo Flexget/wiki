@@ -1,3 +1,13 @@
+---
+title: no_entries_ok
+description: 
+published: true
+date: 2022-09-18T05:08:58.447Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:55.840Z
+---
+
 # No Entries Ok
 FlexGet normally expects a task to produce entries on every run, and outputs a warning log entry if no entries were produced:
 ```

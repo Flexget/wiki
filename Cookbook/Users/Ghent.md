@@ -1,3 +1,13 @@
+---
+title: Ghent
+description: 
+published: true
+date: 2022-09-18T05:22:35.347Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:32.799Z
+---
+
 This is my configuration.  I try to keep things as simple as possible.  I lean heavily towards scene releases as they're confirmed clean and have good quality.
 
 Because I pull from a site that uses unrarred files and you subscribe to shows along with another site that is more vanilla I have 2 templates that are anchored to each other using the power of YAML.

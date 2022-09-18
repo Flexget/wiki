@@ -1,3 +1,13 @@
+---
+title: uoccin_collection
+description: 
+published: true
+date: 2022-09-18T05:15:55.129Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:52.503Z
+---
+
 # Uoccin collection add/remove
 The `uoccin_collection_add` plugin marks the accepted movies and/or episodes as collected (downloaded) in your local uoccin.json file and update the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app database (if you are using it).
 

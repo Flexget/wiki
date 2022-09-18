@@ -1,3 +1,13 @@
+---
+title: RemoveByExtension
+description: 
+published: true
+date: 2022-09-18T05:20:58.383Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:55.765Z
+---
+
 Sometimes the content-filter does not work and you end up with *.wmv -files that often are fake episodes
 
 This task-recipe removes the files and creates a script to forget the episodes

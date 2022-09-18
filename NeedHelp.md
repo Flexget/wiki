@@ -1,3 +1,13 @@
+---
+title: NeedHelp
+description: 
+published: true
+date: 2022-09-18T04:50:55.489Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:52.841Z
+---
+
 # Having troubles?
 If you're having problems getting something to work that should clearly work (by wiki) do not hesitate to ask help.
 

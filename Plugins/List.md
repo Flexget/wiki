@@ -1,3 +1,13 @@
+---
+title: List
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:09.230Z
+---
+
 # Managed List Plugins
 
 Managed list plugins are a class of plugin which work as input plugins, but can also be used in other contexts to edit the list or act certain way based on the list content.

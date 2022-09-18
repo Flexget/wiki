@@ -1,62 +1,13 @@
 ---
-categories:
-  Resolutions:
-  - 2160p
-  - 1080p
-  - 1080i
-  - 720p
-  - 720i
-  - hr
-  - 576p
-  - 480p
-  - 368p
-  - 360p
-  
-  Sources:
-  - bluray
-  - remux
-  - dvdrip
-  - webdl
-  - hdtv
-  - webrip
-  - bdscr
-  - dvdscr
-  - sdtv
-  - dsr
-  - tvrip
-  - preair
-  - ppvrip
-  - hdrip
-  - r5
-  - tc
-  - ts
-  - cam
-  - workprint
-  
-  Color:
-  - dolbyvision
-  - hdrplus
-  - hdr
-  - 10bit
-  - 8bit
-  
-  Codecs:
-  - h265
-  - h264
-  - xvid
-  - divx
-  
-  Audio:
-  - truehd
-  - dtshd
-  - dts
-  - flac
-  - dd+5.1
-  - ac3
-  - dd5.1
-  - aac
-  - mp3
+title: Qualities
+description: 
+published: true
+date: 2022-09-18T04:51:23.187Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:20.513Z
 ---
+
 # Qualities
 Qualities are split into five separate categories: resolution, source, codec, color range and audio. Any given release can have a value in all five of these categories. Here are all of the values within each category, listed with highest value at the top:
 

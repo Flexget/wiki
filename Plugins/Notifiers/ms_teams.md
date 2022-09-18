@@ -1,3 +1,13 @@
+---
+title: ms_teams
+description: 
+published: true
+date: 2022-09-18T05:25:56.777Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:54.232Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Microsoft Teams
 <div class="alert alert-success" role="info">
   

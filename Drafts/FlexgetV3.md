@@ -1,3 +1,13 @@
+---
+title: FlexgetV3
+description: 
+published: true
+date: 2022-09-18T04:57:58.016Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:55.413Z
+---
+
 # Flexget V3 - Drop Py2 support
 
 Python 2 EOL is 2020-01-01 which means now is a good time for us to start dropping it completely.

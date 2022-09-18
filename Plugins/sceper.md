@@ -1,3 +1,13 @@
+---
+title: sceper
+description: 
+published: true
+date: 2022-09-18T05:12:06.267Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:03.764Z
+---
+
 # Sceper
 Uses sceper.ws category url as input.
 

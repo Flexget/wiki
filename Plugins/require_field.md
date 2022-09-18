@@ -1,3 +1,13 @@
+---
+title: require_field
+description: 
+published: true
+date: 2022-09-18T05:11:04.939Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:02.345Z
+---
+
 # Require field
 This plugin will reject any [entries](/Entry) that do not have the specified [fields](/Entry#Knownfields). Also rejects if specified field is present, but is an empty string.
 

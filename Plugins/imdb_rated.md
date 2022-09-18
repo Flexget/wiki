@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 1.x
-replacement_plugins: '[crossmatch](/Plugins/crossmatch) and [imdb_list](/Plugins/List/imdb_list)'
+title: imdb_rated
+description: 
+published: true
+date: 2022-09-18T05:06:36.878Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:34.322Z
 ---
+
 # IMDB Rated
 {{> Includes/PluginReplacedArchived }}
 

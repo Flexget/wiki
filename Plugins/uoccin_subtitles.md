@@ -1,3 +1,13 @@
+---
+title: uoccin_subtitles
+description: 
+published: true
+date: 2022-09-18T05:16:10.667Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:08.075Z
+---
+
 # Uoccin subtitles
 This plugin only purpose is to update the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app about the subtitles downloaded.
 

@@ -1,3 +1,13 @@
+---
+title: priority
+description: 
+published: true
+date: 2022-09-18T05:10:07.649Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:05.032Z
+---
+
 # Priority
 This plugin changes task execution order. Without explicitly setting priority, tasks are executed in more or less random order. Execution order is 1,2,3...
 

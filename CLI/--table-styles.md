@@ -1,3 +1,13 @@
+---
+title: --table-styles
+description: 
+published: true
+date: 2022-09-18T04:53:11.039Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:08.375Z
+---
+
 ## [CLI](/CLI) > Table / list styles
 Nearly all lists in the FlexGet [CLI](/CLI) support the following arguments for styling.
 

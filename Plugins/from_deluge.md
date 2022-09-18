@@ -1,3 +1,13 @@
+---
+title: from_deluge
+description: 
+published: true
+date: 2022-09-18T05:05:31.499Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:28.840Z
+---
+
 # Deluge Input Plugin
 This plugin creates an [entry](/Entry) for each torrent that is currently loaded in Deluge (with optional filters.) It is useful for learning items you have manually added to Deluge into your FlexGet database, or changing settings (or renaming, moving) of torrents currently running in Deluge.
 

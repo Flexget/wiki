@@ -1,3 +1,13 @@
+---
+title: myepisodes_list
+description: 
+published: true
+date: 2022-09-18T05:08:35.222Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:32.611Z
+---
+
 # MyEpisodes list
 This plugin creates an [Entry](/Entry) for each show in your [myepisodes.com](http://www.myepisodes.com) show list.
 

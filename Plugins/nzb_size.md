@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 1202
-replacement_plugins: '[content_size](/Plugins/content_size)'
+title: nzb_size
+description: 
+published: true
+date: 2022-09-18T05:09:09.927Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:07.380Z
 ---
+
 # NZB Size
 {{> Includes/PluginReplacedArchived }}
 

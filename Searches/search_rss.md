@@ -1,3 +1,13 @@
+---
+title: search_rss
+description: 
+published: true
+date: 2022-09-18T05:20:13.419Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:43.993Z
+---
+
 # Search_rss
 Many website allow the generation of rss feeds based on a query. This plugin takes advantage of this can generate rss feeds that contain the result of a query.
 

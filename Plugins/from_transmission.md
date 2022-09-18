@@ -1,3 +1,13 @@
+---
+title: from_transmission
+description: 
+published: true
+date: 2022-09-18T05:05:58.420Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:55.831Z
+---
+
 # From Transmission
 This plugin creates an entry for each item you have loaded in transmission.
 <div class="alert alert-info" role="alert">

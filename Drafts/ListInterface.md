@@ -1,3 +1,13 @@
+---
+title: ListInterface
+description: 
+published: true
+date: 2022-09-18T04:58:05.924Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:03.204Z
+---
+
 # Idea: add a new list interface plugins can follow.
 Used at task level, it would be an input plugin, and emit all items in its list. Same as something like trakt_list already does
 In addition it would have methods to add and remove from the list. These could be called by another plugin, which allowed a list plugin to be nested inside.

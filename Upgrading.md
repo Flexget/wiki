@@ -1,3 +1,13 @@
+---
+title: Upgrading
+description: 
+published: true
+date: 2022-09-18T04:52:24.497Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:21.874Z
+---
+
 # Upgrading
 ## Check current version
 

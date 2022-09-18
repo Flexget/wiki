@@ -1,3 +1,13 @@
+---
+title: download_auth
+description: 
+published: true
+date: 2022-09-18T05:04:11.578Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:08.992Z
+---
+
 # Download Authentication
 
 In case accepted files that are passed to download plugin require basic or digest authentication, you can set it using this plugin.

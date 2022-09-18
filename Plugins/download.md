@@ -1,3 +1,13 @@
+---
+title: download
+description: 
+published: true
+date: 2022-09-18T05:12:53.598Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:05.107Z
+---
+
 # Download
 Downloads content from entry url and writes it into a file. As a default html response is considered as a download failure.
 

@@ -1,3 +1,13 @@
+---
+title: proxy
+description: 
+published: true
+date: 2022-09-18T05:11:36.896Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:16.534Z
+---
+
 # Proxy
 Configures FlexGet to use a proxy when accessing sites. This plugin will be automatically configured if you have the appropriate environment variables set. (http_proxy, https_proxy or ftp_proxy)
 

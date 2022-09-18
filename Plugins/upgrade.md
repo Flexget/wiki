@@ -1,3 +1,13 @@
+---
+title: upgrade
+description: 
+published: true
+date: 2022-09-18T05:16:18.476Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:15.872Z
+---
+
 # Upgrade
 Upgrade plugin will continue getting better qualities of an entry (tracked by a unique identifier). It can also blocks any entry that are of a worse quality than you already have.
 

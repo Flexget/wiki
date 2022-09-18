@@ -1,3 +1,13 @@
+---
+title: SeriesPresetMultipleRSStoTransmission
+description: 
+published: true
+date: 2022-09-18T05:21:09.863Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:07.327Z
+---
+
 Execute commands below as Root with "sudo su -" command to install the Transmission and FlexGet packages.  (Debian, Ubuntu examples shown, for RedHat use "yum install" instead of "apt-get install".)
 
 **Commands - (As Root)**

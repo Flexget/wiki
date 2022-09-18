@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: regexp-list
+description: 
+published: true
+date: 2022-09-18T05:25:18.683Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:17.520Z
 ---
 
 ## [CLI](/CLI) > `regexp-list`

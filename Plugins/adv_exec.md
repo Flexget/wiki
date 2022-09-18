@@ -1,3 +1,13 @@
+---
+title: adv_exec
+description: 
+published: true
+date: 2022-09-18T05:01:50.046Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:47.534Z
+---
+
 = Advanced exec =
 
 '''As of r1552 adv_exec has become [wiki:Plugins/exec#AdvancedConfiguration exec plugin advanced configuration].'''

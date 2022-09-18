@@ -1,12 +1,13 @@
 ---
-plugin_link: "[GitHub](https://github.com/tubedogg/flexget-plugins/blob/master/app_deluge_find.py)"
-plugin_name: app_deluge_find
-plugin_issues: "[GitHub](https://github.com/tubedogg/flexget-plugins/issues)"
-import:
-- Includes/ThirdPartyPluginWarning
-- Includes/ThirdPartyPluginInstallDotFlexget
-- Includes/ThirdPartyPluginIssues
+title: app_deluge_find
+description: 
+published: true
+date: 2022-09-18T05:05:32.739Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:06.727Z
 ---
+
 # Find Deluge.app
 
 <div class="alert alert-warning" role="alert">

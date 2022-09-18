@@ -1,3 +1,13 @@
+---
+title: template
+description: 
+published: true
+date: 2022-09-18T05:14:02.431Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:59.746Z
+---
+
 # Template
 
 Allows defining config templates containing one or more plugins and re-using them in multiple tasks. Note that templates are not executed separately. All included templates will be merged into the task before it is run.

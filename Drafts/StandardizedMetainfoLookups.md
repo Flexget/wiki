@@ -1,3 +1,13 @@
+---
+title: StandardizedMetainfoLookups
+description: 
+published: true
+date: 2022-09-18T04:58:32.665Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:30.066Z
+---
+
 ## Goals
 - Have a standardized framework for metainfo providers, so that plugins which require metainfo aren't coupled so tightly to one specific metainfo provider.
 - Let the user customize priority and which providers are allowed in the task.

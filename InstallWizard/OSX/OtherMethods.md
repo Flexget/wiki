@@ -1,3 +1,13 @@
+---
+title: OtherMethods
+description: 
+published: true
+date: 2022-09-18T05:23:50.588Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:47.949Z
+---
+
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > Other Methods
 
 ## Other / Deprecated

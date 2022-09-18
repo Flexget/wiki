@@ -1,3 +1,13 @@
+---
+title: ftp_list
+description: 
+published: true
+date: 2022-09-18T05:06:06.157Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:03.487Z
+---
+
 
 ## FTP List
 

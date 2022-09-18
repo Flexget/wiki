@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 1.x
-replacement_plugins: '[movie_queue](/Plugins/movie_queue)'
+title: imdb_queue
+description: 
+published: true
+date: 2022-09-18T05:06:33.134Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:30.573Z
 ---
+
 # IMDB Queue
 {{> Includes/PluginReplaced }}
 

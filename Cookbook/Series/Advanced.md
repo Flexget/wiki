@@ -1,3 +1,13 @@
+---
+title: Advanced
+description: 
+published: true
+date: 2022-09-18T05:20:19.903Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:17.440Z
+---
+
 # Advanced example
 How to use most of the series plugin features, with template:
 

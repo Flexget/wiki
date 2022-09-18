@@ -1,3 +1,13 @@
+---
+title: CLI
+description: 
+published: true
+date: 2022-09-18T05:25:18.683Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:48:35.139Z
+---
+
 # Command Line Interface (CLI)
 FlexGet is usually invoked as a [Daemon](/Daemon) or via [cron](/InstallWizard/Partial/Crontab), configured with its [configuration](/Configuration) file. Many functions can also be performed on the command line. The following information can be seen on the command line by invoking `flexget --help` or the equivalent `flexget -h`.
 

@@ -1,3 +1,13 @@
+---
+title: season_packs
+description: 
+published: true
+date: 2022-09-18T05:28:25.712Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:23.076Z
+---
+
 # Season packs
 
 This option can be used if you want to accept season packs in addition to (or instead) of episodes. At this time, only `ep` [identified](/Plugins/series/identified_by) shows can accept season packs.

@@ -1,3 +1,13 @@
+---
+title: MailErrorLog
+description: 
+published: true
+date: 2022-09-18T04:55:43.941Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:41.377Z
+---
+
 This is a simple script that sends all ERRORS, WARNINGS and CRITICALS in FlexGet's log file as an email.
 
 Prerequisites:

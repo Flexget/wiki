@@ -1,8 +1,12 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 1.2.452
-replacement_plugins: '[filesystem](/Plugins/filesystem)'
+title: find
+description: 
+published: true
+date: 2022-09-18T05:05:16.337Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:13.773Z
 ---
+
 # Find
 {{> Includes/PluginReplaced }}

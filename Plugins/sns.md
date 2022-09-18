@@ -1,3 +1,13 @@
+---
+title: sns
+description: 
+published: true
+date: 2022-09-18T05:13:19.637Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:17.013Z
+---
+
 # SNS
 ## Overview
 This is a provides the ability for FlexGet to send notifications via [Amazon SNS](https://aws.amazon.com/sns/).

@@ -1,6 +1,11 @@
 ---
-import:
-  - FlexgetCurrentPythonRequirements
+title: Linux
+description: 
+published: true
+date: 2022-09-18T05:23:40.104Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:12.084Z
 ---
 
 # Linux/BSD

@@ -1,8 +1,11 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 1.2.505
-replacement_plugins: "[couchpotato_list](/Plugins/couchpotato_list)"
+title: couchpotato
+description: 
+published: true
+date: 2022-09-18T05:03:18.090Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:15.510Z
 ---
 
 # couchpotato

@@ -1,3 +1,13 @@
+---
+title: SimpleSeries
+description: 
+published: true
+date: 2022-09-18T05:21:29.031Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:26.520Z
+---
+
 # Using download plugin
 This recipe uses the series plugin to download torrents from an rss feed to a specified path.
 ```

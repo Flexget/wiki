@@ -1,3 +1,13 @@
+---
+title: TorrentCleanup
+description: 
+published: true
+date: 2022-09-18T05:15:25.520Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:27.078Z
+---
+
 # Torrent Cleanup Task
 
 The clean_transmission plugin used to exist to remove old torrents from transmission after certain criteria had been met. This plugin was removed, but the behavior can now be replicated in a more flexible fashion. This recipe can also be adapted for deluge using the from_deluge and deluge plugins.

@@ -1,3 +1,13 @@
+---
+title: html
+description: 
+published: true
+date: 2022-09-18T05:10:39.625Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:15.055Z
+---
+
 # Html
 Parses URLs from html page. Useful on sites which have direct download links of any type (mp3, jpg, torrent, ...).
 

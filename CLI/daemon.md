@@ -1,3 +1,13 @@
+---
+title: daemon
+description: 
+published: true
+date: 2022-09-18T05:24:23.833Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:27.617Z
+---
+
 ## [CLI](/CLI) > [`daemon`](/Daemon)<a name="daemon"></a>
 Run FlexGet continuously, executing tasks according to [schedules](/Plugins/Daemon/scheduler) defined in the [config file](/Configuration).
 

@@ -1,3 +1,13 @@
+---
+title: EnvironmentVariables
+description: 
+published: true
+date: 2022-09-18T04:54:33.141Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:23.115Z
+---
+
 # Environment Variables
 Environment variables are read in certain instances by FlexGet to determine default values. Variables used by FlexGet at a "root" level, that is, those not related to a specific [plugin](/Plugin) or [CLI command](/CLI), are documented on this page. Variables which do apply to specific items are documented on the respective plugin or CLI page, links to which are in the 'Other' section below.
 

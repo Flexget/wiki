@@ -1,3 +1,13 @@
+---
+title: irc
+description: 
+published: true
+date: 2022-09-18T05:24:23.833Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:15.663Z
+---
+
 # [Daemon](/Daemon) > IRC
 <div class="alert alert-info" role="alert">
   <span class="glyphicon glyphicon glyphicon-download-alt"></span>

@@ -1,3 +1,13 @@
+---
+title: refactoring_thoughts
+description: 
+published: true
+date: 2022-09-18T04:59:03.333Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:59:00.694Z
+---
+
 Just brainstorming on things that can be looked at if we attempt a major refactor.
 
 Things to handle better:

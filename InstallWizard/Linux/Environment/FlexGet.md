@@ -1,3 +1,13 @@
+---
+title: FlexGet
+description: 
+published: true
+date: 2022-09-18T05:29:16.383Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:56.916Z
+---
+
 # Installing FlexGet
 ### Install
 Run command:

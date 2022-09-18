@@ -1,3 +1,13 @@
+---
+title: SeriesTransmissionshowRSSkodi
+description: 
+published: true
+date: 2022-09-18T05:21:21.417Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:18.813Z
+---
+
 This configuration is to be used with the a website like [showRSS](http://new.showrss.info/) where you choose which series you want to watch.  Flexget will grab all the series every 30 minutes and send them to Transmission to download.  When the download is complete, Flexget is called again to copy and rename all the files in the download directory.  Finally Flexget tells Kodi to update its video library. 
 
 

@@ -1,3 +1,13 @@
+---
+title: limit_new
+description: 
+published: true
+date: 2022-09-18T05:07:26.355Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:23.795Z
+---
+
 # Limit New
 Limit number of new items.
 

@@ -1,3 +1,13 @@
+---
+title: SynologyNAS
+description: 
+published: true
+date: 2022-09-18T05:24:11.746Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:35.039Z
+---
+
 # [Install Wizard](/InstallWizard) > SynologyNAS
 
 There are a few different ways to go about running FlexGet on your NAS. They are listed below in order of preference.

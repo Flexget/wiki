@@ -1,3 +1,13 @@
+---
+title: hyper_ch
+description: 
+published: true
+date: 2022-09-18T05:23:06.865Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:04.183Z
+---
+
 This is the personal configuration of user hyper_ch.
 
 This config consists of 5 main parts:

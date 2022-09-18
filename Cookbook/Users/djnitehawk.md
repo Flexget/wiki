@@ -1,3 +1,13 @@
+---
+title: djnitehawk
+description: 
+published: true
+date: 2022-09-18T05:22:58.872Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:56.282Z
+---
+
 this is my personal config.yml which does the following:
 
 * downloads tv shows watchlisted on trakt.

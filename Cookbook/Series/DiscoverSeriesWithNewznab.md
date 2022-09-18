@@ -1,3 +1,13 @@
+---
+title: DiscoverSeriesWithNewznab
+description: 
+published: true
+date: 2022-09-18T05:20:43.019Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:40.443Z
+---
+
 # Discover nzb files from Newznab
 This recipe will cause FlexGet to search for series episode using a newznab website rather than using a RSS feed. This can be helpful if you want to download series episode for older Series that wouldn't normally appear in a newznab RSS, but are indexed by the newznab website.
 

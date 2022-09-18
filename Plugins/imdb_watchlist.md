@@ -1,3 +1,13 @@
+---
+title: imdb_watchlist
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:41.768Z
+---
+
 # IMDB watch list 
 
 This plugin creates an [entry](/Entry) for each item in an IMDB list.

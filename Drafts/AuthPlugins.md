@@ -1,3 +1,13 @@
+---
+title: AuthPlugins
+description: 
+published: true
+date: 2022-09-18T04:57:31.445Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:28.841Z
+---
+
 # Authentication Plugins
 Things I'd like to solve:
 - Current authentication plugins (cookies, headers) are task wide, and can affect communication with other sites they shouldn't.

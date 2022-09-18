@@ -1,3 +1,13 @@
+---
+title: Advanced
+description: 
+published: true
+date: 2022-09-18T04:56:27.068Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:52.370Z
+---
+
 ## Advanced Recipes
 These recipes are not representing the normal use cases. Abandon sanity.
 

@@ -1,3 +1,13 @@
+---
+title: AutoStart
+description: 
+published: true
+date: 2022-09-18T05:23:34.847Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:32.052Z
+---
+
 # [Install Wizard](/InstallWizard) > [Linux/BSD](/InstallWizard/Linux) > Auto Start
 
 Some options how to start FlexGet Automatically on boot

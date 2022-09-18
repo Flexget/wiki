@@ -1,3 +1,13 @@
+---
+title: Flexget
+description: 
+published: true
+date: 2022-09-18T05:23:46.652Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:44.044Z
+---
+
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > FlexGet
 
 ## Install FlexGet

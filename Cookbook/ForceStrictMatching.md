@@ -1,3 +1,13 @@
+---
+title: ForceStrictMatching
+description: 
+published: true
+date: 2022-09-18T05:27:40.112Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:26.237Z
+---
+
 # Force Exact Matching
 Certain times, when using [configure_series](/Plugins/configure_series) you might want to force FlexGet into exact matching for a TV series.
 

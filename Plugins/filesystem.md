@@ -1,3 +1,13 @@
+---
+title: filesystem
+description: 
+published: true
+date: 2022-09-18T05:05:08.704Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:06.058Z
+---
+
 # Filesystem
 Uses local path content as an input. Generate entries from files, dirs & symlinks found in path(s).   
 

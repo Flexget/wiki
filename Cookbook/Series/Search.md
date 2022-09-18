@@ -1,3 +1,13 @@
+---
+title: Search
+description: 
+published: true
+date: 2022-09-18T05:27:32.249Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:59.634Z
+---
+
 # Search for Episodes
 This recipe will cause FlexGet to search for the next episode you need for any of your configured series rather than wait for it to appear in a rss feed for example.
 

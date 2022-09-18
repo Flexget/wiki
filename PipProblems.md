@@ -1,3 +1,13 @@
+---
+title: PipProblems
+description: 
+published: true
+date: 2022-09-18T04:51:06.901Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:04.212Z
+---
+
 ## Problems with using pip
 Make sure your `pip` command uses python 3.6 or newer. 
 

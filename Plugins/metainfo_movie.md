@@ -1,3 +1,13 @@
+---
+title: metainfo_movie
+description: 
+published: true
+date: 2022-09-18T05:09:22.645Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:05.364Z
+---
+
 ## Metainfo Movie
 Allows parsing the received title by selected movie parser, and populating entry fields with relevant movie attributes.
 

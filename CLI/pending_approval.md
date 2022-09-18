@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: pending_approval
+description: 
+published: true
+date: 2022-09-18T05:09:41.566Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:09.833Z
 ---
 
 ## [CLI](/CLI) > `pending`

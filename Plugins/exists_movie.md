@@ -1,3 +1,13 @@
+---
+title: exists_movie
+description: 
+published: true
+date: 2022-09-18T05:04:57.267Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:54.617Z
+---
+
 # Existing movies
 This plugin will scan through accepted entries, and reject any movie entry that is already found on disk.
 

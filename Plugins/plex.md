@@ -1,3 +1,13 @@
+---
+title: plex
+description: 
+published: true
+date: 2022-09-18T05:09:48.701Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:45.359Z
+---
+
 # Plex
 **Note:** This plugin has been reported as incompatible with [PlexHome](https://blog.plex.tv/2014/11/20/introducing-plex-home/)*
 

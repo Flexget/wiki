@@ -1,3 +1,13 @@
+---
+title: mock
+description: 
+published: true
+date: 2022-09-18T05:08:15.649Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:13.069Z
+---
+
 # Mock
 Mainly for testing / development.
 

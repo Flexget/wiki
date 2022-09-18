@@ -1,3 +1,13 @@
+---
+title: Move-to-Archive
+description: 
+published: true
+date: 2022-09-18T05:24:51.199Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:52.697Z
+---
+
 # Move to Archive - TV shows and Movies 
 
 This will find all your tv shows and movies that are no longer listed in the Deluge torrent client and that were downloaded over a certain amount of days ago and will move the files and their subtitle files to a different folder (Any mounted drive or local cloud folder). 

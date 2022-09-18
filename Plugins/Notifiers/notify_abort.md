@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.9.0
-replacement_plugins: '[notify](/Plugins/notify)'
+title: notify_abort
+description: 
+published: true
+date: 2022-09-18T05:26:04.482Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:01.887Z
 ---
+
 # Notify Abort
 {{> Includes/PluginReplacedArchived }}
 

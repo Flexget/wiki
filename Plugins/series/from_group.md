@@ -1,3 +1,13 @@
+---
+title: from_group
+description: 
+published: true
+date: 2022-09-18T05:27:42.658Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:40.123Z
+---
+
 ## Specify group (eg. anime fansubs)
 **Example:**
 

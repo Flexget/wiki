@@ -1,3 +1,13 @@
+---
+title: gazelle
+description: 
+published: true
+date: 2022-09-18T05:17:56.120Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:53.398Z
+---
+
 # Gazelle-based sites
 This family of search plugins will search for torrents on most Gazelle-based websites.
 

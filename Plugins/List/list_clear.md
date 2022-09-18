@@ -1,3 +1,13 @@
+---
+title: list_clear
+description: 
+published: true
+date: 2022-09-18T05:24:46.036Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:43.451Z
+---
+
 ## List Clear
 <div class="alert alert-success" role="info">
   

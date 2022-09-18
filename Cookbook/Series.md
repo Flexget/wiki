@@ -1,3 +1,13 @@
+---
+title: Series
+description: 
+published: true
+date: 2022-09-18T05:22:09.534Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:11.693Z
+---
+
 # Series recipes
 ### Good starting points
 * [Very basic series configuration](/Cookbook/Series/SimpleSeries)

@@ -1,3 +1,13 @@
+---
+title: rmz
+description: 
+published: true
+date: 2022-09-18T05:11:20.183Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:17.618Z
+---
+
 # Url Rewriter for rmz.cr
 Read [how URL rewriting works](/URLRewriters).
 

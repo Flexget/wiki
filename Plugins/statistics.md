@@ -1,3 +1,13 @@
+---
+title: statistics
+description: 
+published: true
+date: 2022-09-18T05:15:33.210Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:32.517Z
+---
+
 # Output Statistics
 **UNMAINTAINED - WORKS POORLY. Dropped in r1238**
 

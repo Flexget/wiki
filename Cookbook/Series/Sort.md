@@ -1,3 +1,13 @@
+---
+title: Sort
+description: 
+published: true
+date: 2022-09-18T05:21:32.912Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:30.299Z
+---
+
 # Sort downloads
 This recipe is to sort your already downloaded series into their own folders. Note that FlexGet is not really made for sorting so this is a bit complicated and hackish.
 

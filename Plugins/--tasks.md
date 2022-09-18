@@ -1,3 +1,13 @@
+---
+title: --tasks
+description: 
+published: true
+date: 2022-09-18T05:07:08.261Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:01.695Z
+---
+
 # Command Line --tasks option
 Allows running only selected tasks from the config.
 

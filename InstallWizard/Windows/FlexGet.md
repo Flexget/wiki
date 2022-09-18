@@ -1,3 +1,13 @@
+---
+title: FlexGet
+description: 
+published: true
+date: 2022-09-18T05:29:08.684Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:11.771Z
+---
+
 # [Install Wizard](/InstallWizard) > [Windows](/InstallWizard/Windows) > FlexGet
 <div class="alert alert-warning" role="alert">
 

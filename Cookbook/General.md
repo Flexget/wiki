@@ -1,3 +1,13 @@
+---
+title: General
+description: 
+published: true
+date: 2022-09-18T04:57:09.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:55:30.067Z
+---
+
 ## General purpose recipes
  * [Generate download RSS for other clients](/Cookbook/MakeRssForDownload):
  Useful for clients that do not support watch directories or if downloading is meant to happen in somewhere else than where FlexGet is running.

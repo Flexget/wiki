@@ -1,3 +1,13 @@
+---
+title: Searches
+description: 
+published: true
+date: 2022-09-18T05:24:31.761Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:39.112Z
+---
+
 # Search Plugins
 FlexGet provides framework for querying searches from supported sites. These cannot be used directly in a task, but can be used with the [urlrewrite_search](/Plugins/urlrewrite_search) & [discover](/Plugins/discover) plugins where they act like options for their parent plugins. This page lists these options and gives a brief description of their function.
 

@@ -1,3 +1,13 @@
+---
+title: age
+description: 
+published: true
+date: 2022-09-18T05:05:09.921Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:51.243Z
+---
+
 # Age
 Simple plugin to filter based on age. The age is determined via a date set in an entry field. It can for example be used in conjunction with entries created by [filesystem](/Plugins/filesystem), which sets the fields `accessed`, `modified`, `created`, which are last accessed, last modified and file creation respectively.
 

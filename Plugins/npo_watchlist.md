@@ -1,3 +1,13 @@
+---
+title: npo_watchlist
+description: 
+published: true
+date: 2022-09-18T05:09:06.148Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:03.529Z
+---
+
 # NPO watchlist
 Produces entries for every episode on the user's npo.nl watchlist (Dutch public television). To add series / episodes, login to npo.nl and add them to your profile.
 

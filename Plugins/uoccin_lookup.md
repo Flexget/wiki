@@ -1,3 +1,13 @@
+---
+title: uoccin_lookup
+description: 
+published: true
+date: 2022-09-18T05:16:02.900Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:00.283Z
+---
+
 # Uoccin Lookup
 This plugin looks up for the information stored in the local uoccin.json file about any entries that FlexGet has identified as movies or series. uoccin_lookup will populate more entry fields that can be used in other plugins.
 

@@ -1,3 +1,13 @@
+---
+title: qvazzler
+description: 
+published: true
+date: 2022-09-18T05:23:30.693Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:27.917Z
+---
+
 
 **Note:** Season pack support is now officially supported by FlexGet without any ugly hacks like I've previously shown below. I am now extending my configuration to include irc daemon usage, but season pack support is still in there.
 

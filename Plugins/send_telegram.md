@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.1.0
-replacement_plugins: '[telegram](/Plugins/Notifiers/telegram)'
+title: send_telegram
+description: 
+published: true
+date: 2022-09-18T05:12:32.990Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:30.443Z
 ---
+
 # Send Telegram
 {{> Includes/PluginReplaced }}
 

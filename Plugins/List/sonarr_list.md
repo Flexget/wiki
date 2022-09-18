@@ -1,3 +1,13 @@
+---
+title: sonarr_list
+description: 
+published: true
+date: 2022-09-18T05:25:21.332Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:18.692Z
+---
+
 # Sonarr List
 <div class="alert alert-success" role="info">
   

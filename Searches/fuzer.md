@@ -1,3 +1,13 @@
+---
+title: fuzer
+description: 
+published: true
+date: 2022-09-18T05:17:52.098Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:49.520Z
+---
+
 # Fuzer
 This search plugin will get results from Fuzer
 

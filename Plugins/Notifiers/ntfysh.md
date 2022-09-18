@@ -1,3 +1,13 @@
+---
+title: ntfysh
+description: 
+published: true
+date: 2022-09-18T05:26:24.306Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:21.737Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > ntfy.sh
 <div class="alert alert-success" role="info">
   

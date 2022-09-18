@@ -1,3 +1,13 @@
+---
+title: service
+description: 
+published: true
+date: 2022-09-18T05:27:11.691Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:09.100Z
+---
+
 # Windows Service Installer
 **`WARNING:`** This plugin is not very well tested. Somebody please improve this documentation.
 

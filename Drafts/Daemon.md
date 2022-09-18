@@ -1,3 +1,13 @@
+---
+title: Daemon
+description: 
+published: true
+date: 2022-09-18T04:57:46.719Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:44.113Z
+---
+
 # Daemon / Scheduler
 Implement daemon mode + scheduler.
 

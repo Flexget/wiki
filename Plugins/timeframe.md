@@ -1,3 +1,13 @@
+---
+title: timeframe
+description: 
+published: true
+date: 2022-09-18T05:14:25.832Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:23.125Z
+---
+
 # Timeframe
 
 Specify a timeframe in which FlexGet waits for the chosen quality. The desired quality should be given with `target` option and should be a valid [quality requirements](/Qualities#Requirements) string. If the specified quality does not become available within given `wait` after a different quality has been seen, the best quality so far is chosen.

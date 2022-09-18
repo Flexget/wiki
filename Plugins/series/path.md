@@ -1,3 +1,13 @@
+---
+title: path
+description: 
+published: true
+date: 2022-09-18T05:27:54.381Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:51.840Z
+---
+
 ## Override path
 Specify a custom path for a series. Note that this does **not** download it, your feed must have output plugin (eg. [download](/Plugins/download), [deluge](/Plugins/deluge))
 

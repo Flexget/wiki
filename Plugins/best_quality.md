@@ -1,3 +1,13 @@
+---
+title: best_quality
+description: 
+published: true
+date: 2022-09-18T05:02:32.338Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:29.675Z
+---
+
 # Best Quality
 The best_qality plugin will sort entries, grouped by an identifier, and allow action on the best quality and lower qualities. 
 

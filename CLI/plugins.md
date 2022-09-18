@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: plugins
+description: 
+published: true
+date: 2022-09-18T04:54:16.309Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:13.633Z
 ---
 
 ## [CLI](/CLI) > `plugins`

@@ -1,3 +1,13 @@
+---
+title: Entry
+description: 
+published: true
+date: 2022-09-18T05:17:10.135Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:18.595Z
+---
+
 # Entry
 Entry represents a single item created by input(s), usually a downloadable content.
 It contains all the information necessary for [plugins](/Plugins) to perform their job . Usually some [action](/FilterOperations) like accept or reject on the entry.

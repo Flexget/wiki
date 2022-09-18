@@ -1,3 +1,13 @@
+---
+title: ApiVer3
+description: 
+published: true
+date: 2022-09-18T04:57:27.648Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:25.052Z
+---
+
 # Some sketches for api_ver 3
 We're planning to move away from task.entries and instead pass iterable to the plugin, new method signature will be:
 

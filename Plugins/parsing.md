@@ -1,3 +1,13 @@
+---
+title: parsing
+description: 
+published: true
+date: 2022-09-18T05:09:21.435Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:18.888Z
+---
+
 # Parsing
 Flexget often have to analyze raw text from your input sources. It gives proper information from file/release name, like name, title, year, quality, ... This processing is called parsing.
 

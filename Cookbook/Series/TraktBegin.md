@@ -1,3 +1,13 @@
+---
+title: TraktBegin
+description: 
+published: true
+date: 2022-09-18T05:27:32.249Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:21:41.802Z
+---
+
 # Sync series plugin begin episode with trakt
 **`WARNING:`** This recipe may have issues until #2831 is fixed.
 

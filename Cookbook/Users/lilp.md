@@ -1,3 +1,13 @@
+---
+title: lilp
+description: 
+published: true
+date: 2022-09-18T05:23:14.753Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:12.104Z
+---
+
 Exemple de fichier de configuration pour le téléchargement des séries en VOSTFR et HD depuis T411, films avec IMDB en VOSTFR et HD avec le logiciel Deluged.
 -Une partie Série TV qui récupère les séries en VOSTFR à partir du dernier épisode en date, ou depuis un épisode précis.
 -Une partie Série Animation qui récupère les séries en VOSTFR depuis un épisode précis.

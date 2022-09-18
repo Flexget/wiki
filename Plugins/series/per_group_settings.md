@@ -1,3 +1,13 @@
+---
+title: per_group_settings
+description: 
+published: true
+date: 2022-09-18T05:28:11.362Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:55.705Z
+---
+
 ## Group settings
 Many times, you will want to apply a setting to more than one show at once. In this instance, you can use a more advanced config format, to define groups, and settings that apply to the whole group.
 

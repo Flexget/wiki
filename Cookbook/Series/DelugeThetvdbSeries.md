@@ -1,3 +1,13 @@
+---
+title: DelugeThetvdbSeries
+description: 
+published: true
+date: 2022-09-18T05:20:39.173Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:36.560Z
+---
+
 # Advanced Deluge and thetvdb features
 ```
 templates:

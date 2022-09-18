@@ -1,3 +1,13 @@
+---
+title: betaseries_list
+description: 
+published: true
+date: 2022-09-18T05:02:56.550Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:33.572Z
+---
+
 # betaseries list
 This plugin creates an [Entry](/Entry) for each serie a betaseries member follows.
 

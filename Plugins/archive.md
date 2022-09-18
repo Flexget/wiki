@@ -1,3 +1,13 @@
+---
+title: archive
+description: 
+published: true
+date: 2022-09-18T05:17:45.625Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:14.367Z
+---
+
 ## Archive
 The archive plugin will keep a history of all entries from a given task, whether they have been accepted or not. This archive can then later be searched, and entries injected into a task again.
 

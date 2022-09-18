@@ -1,3 +1,13 @@
+---
+title: configure_series
+description: 
+published: true
+date: 2022-09-18T05:25:34.631Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:52.680Z
+---
+
 # Configure series
 Generates [series](/Plugins/series) plugin configuration from titles produced by any input. Using this doesn't prevent configuring [series](/Plugins/series) plugin additionally. 
 

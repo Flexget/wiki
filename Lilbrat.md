@@ -1,3 +1,13 @@
+---
+title: Lilbrat
+description: 
+published: true
+date: 2022-09-18T04:50:29.086Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:26.525Z
+---
+
 movies search:
   trakt_lookup: yes  # can also use imdb_lookup or tmdb_lookup
   priority: 10 # run after the movie queue fill task

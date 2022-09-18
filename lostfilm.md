@@ -1,3 +1,13 @@
+---
+title: lostfilm
+description: 
+published: true
+date: 2022-09-18T04:52:52.149Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:48.454Z
+---
+
 [bash]
 schedules:
 

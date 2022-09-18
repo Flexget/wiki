@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginInfo
-info: Make sure pyload is running and you have at least version **0.4.9**. The webinterface needs to be activated and accessible so FlexGet can use the API.
+title: pyload
+description: 
+published: true
+date: 2022-09-18T05:10:23.030Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:20.347Z
 ---
+
 # pyLoad
 
 Output plugin for [pyLoad](http://pyload.net/) download manager.

@@ -1,3 +1,13 @@
+---
+title: free_space
+description: 
+published: true
+date: 2022-09-18T05:05:27.608Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:24.999Z
+---
+
 # Free Space
 This plugin will abort a task if free space on a given drive is getting low.
 

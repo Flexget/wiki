@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: movie-list
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:02.004Z
 ---
 
 ## [CLI](/CLI) > `movie-list`

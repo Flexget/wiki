@@ -1,3 +1,13 @@
+---
+title: metainfo_series
+description: 
+published: true
+date: 2022-09-18T05:12:45.808Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:09.227Z
+---
+
 # Metainfo Series
 
 Adds series metainfo fields to entries.

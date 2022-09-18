@@ -1,3 +1,13 @@
+---
+title: API
+description: 
+published: true
+date: 2022-09-18T04:52:33.289Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:48:23.548Z
+---
+
 # API
 
 Flexget offers a JSON API, that is the basis of its [Web-UI](/Web-UI) and can also be used independently of it. 

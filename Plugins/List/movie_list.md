@@ -1,3 +1,13 @@
+---
+title: movie_list
+description: 
+published: true
+date: 2022-09-18T05:25:05.652Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:02.950Z
+---
+
 # Movie List
 <div class="alert alert-success" role="info">
   

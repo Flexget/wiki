@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRemovedArchived
-removed_in_version: 2.3.0
+title: sceneaccess
+description: 
+published: true
+date: 2022-09-18T05:18:42.721Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:40.096Z
 ---
+
 # sceneaccess
 {{> Includes/PluginRemovedArchived }}
 

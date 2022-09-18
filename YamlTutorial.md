@@ -1,3 +1,13 @@
+---
+title: YamlTutorial
+description: 
+published: true
+date: 2022-09-18T04:52:39.610Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:52:37.060Z
+---
+
 # Yaml in 30 seconds
 *(TODO: not very user friendly)*
 

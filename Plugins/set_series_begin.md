@@ -1,3 +1,13 @@
+---
+title: set_series_begin
+description: 
+published: true
+date: 2022-09-18T05:12:56.105Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:53.611Z
+---
+
 # Set series begin
 This plugin sets the episode to start getting a series from, for each accepted entry with fields `series_name` (show title) and `series_id` (episode id, eg. S01E03).
 

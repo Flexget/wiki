@@ -1,3 +1,13 @@
+---
+title: GitHubInstall
+description: 
+published: true
+date: 2022-09-18T04:50:14.744Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:49.605Z
+---
+
 # [Install Wizard](/InstallWizard) > GitHub Install
 ## Notes
 

@@ -1,6 +1,11 @@
 ---
-import:
-  - Qualities
+title: quality
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:28.137Z
 ---
 
 # Quality

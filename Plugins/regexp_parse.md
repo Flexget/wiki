@@ -1,3 +1,13 @@
+---
+title: regexp_parse
+description: 
+published: true
+date: 2022-09-18T05:10:42.202Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:39.638Z
+---
+
 # regexp_parse
 *NOTE:* Regexp is not suitable for parsing HTML / XML reliably.
 

@@ -1,3 +1,13 @@
+---
+title: --cli-config
+description: 
+published: true
+date: 2022-09-18T05:00:45.321Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:42.751Z
+---
+
 # Commandline config
 Allows specifying configuration values from commandline parameters.
 

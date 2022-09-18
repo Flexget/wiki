@@ -1,3 +1,13 @@
+---
+title: cookies
+description: 
+published: true
+date: 2022-09-18T05:03:10.517Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:07.897Z
+---
+
 # Cookies
 Loads cookies from a file. Supports Firefox3, mozilla, and lwp cookie files.  This can be used for sites/services that require cookies for authentication, captcha challenges, or any other stateful/session functionality that uses cookies.
 

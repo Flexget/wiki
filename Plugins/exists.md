@@ -1,3 +1,13 @@
+---
+title: exists
+description: 
+published: true
+date: 2022-09-18T05:04:53.406Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:50.831Z
+---
+
 # Exists
 Reject entries if same filename or directory already exists in given path (recursively).
 

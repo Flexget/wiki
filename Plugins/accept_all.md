@@ -1,3 +1,13 @@
+---
+title: accept_all
+description: 
+published: true
+date: 2022-09-18T05:01:42.598Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:40.049Z
+---
+
 # Accept all
 
 Accepts all entries in the task. Remember that accepted entries can still be rejected by other plugins.

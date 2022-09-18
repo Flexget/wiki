@@ -1,3 +1,13 @@
+---
+title: next_sonarr_episodes
+description: 
+published: true
+date: 2022-09-18T05:12:57.326Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:08:44.162Z
+---
+
 # Next Sonarr Episodes
 This plugin creates an [Entry](/Entry) for the first missing episode for every show as defined in [Sonarr](http://sonarr.tv) .
 

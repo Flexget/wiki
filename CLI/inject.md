@@ -1,6 +1,11 @@
 ---
-import:
-  - ExecuteArguments
+title: inject
+description: 
+published: true
+date: 2022-09-18T04:53:56.972Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:54.289Z
 ---
 
 ## [CLI](/CLI) > `inject`

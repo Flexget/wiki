@@ -1,3 +1,13 @@
+---
+title: search_rss
+description: 
+published: true
+date: 2022-09-18T05:12:13.923Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:11.388Z
+---
+
 # Seach RSS
 
 A generic search plugin that can use rss based search feeds. Configure it like rss

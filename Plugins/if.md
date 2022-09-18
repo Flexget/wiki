@@ -1,3 +1,13 @@
+---
+title: if
+description: 
+published: true
+date: 2022-09-18T05:06:21.619Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:06:18.971Z
+---
+
 # If
 The if plugin can evaluate simple jinja expressions on the [entry fields](/Entry) and take one of several actions if the expression evaluates to True; it can accept, reject, or fail the entry, or it can run certain filter plugins on the matching entries.
 

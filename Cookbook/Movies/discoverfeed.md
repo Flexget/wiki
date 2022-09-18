@@ -1,3 +1,13 @@
+---
+title: discoverfeed
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:09.548Z
+---
+
 # Dowload movies using movie_list and discover
 This recipe aims to allow adding of movies as simple as adding a movie to your trakt.tv watchlist.
 

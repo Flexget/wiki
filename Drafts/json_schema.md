@@ -1,3 +1,13 @@
+---
+title: json_schema
+description: 
+published: true
+date: 2022-09-18T04:58:51.912Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:49.178Z
+---
+
 Ideas for how to incorporate json schema validation
 
 # Schemas

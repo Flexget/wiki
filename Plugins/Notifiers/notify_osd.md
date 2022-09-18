@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.9.0
-replacement_plugins: '[toast](/Plugins/Notifiers/toast)'
+title: notify_osd
+description: 
+published: true
+date: 2022-09-18T05:26:12.391Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:09.883Z
 ---
+
 # Notify OSD
 {{> Includes/PluginReplaced }}
 

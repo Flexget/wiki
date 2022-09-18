@@ -1,3 +1,13 @@
+---
+title: propers
+description: 
+published: true
+date: 2022-09-18T05:28:10.033Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:07.497Z
+---
+
 ## Propers
 Default behavior is to download propers always.
 

@@ -1,3 +1,13 @@
+---
+title: cpasbien
+description: 
+published: true
+date: 2022-09-18T05:17:21.242Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:17:18.576Z
+---
+
 # WARNING
 As cpasbien switched to cloudflare, I had to modify the code.
 So now, you have to have https://github.com/Anorov/cloudflare-scrape and all it's dependency to make it work.

@@ -1,3 +1,13 @@
+---
+title: transmission
+description: 
+published: true
+date: 2022-09-18T05:15:25.520Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:21.461Z
+---
+
 # Transmission
 Manages torrents within the [Transmission](https://transmissionbt.com) bittorrent client. Mainly used to add new torrents to transmission, but can also be used to pause/resume/remove torrents already loaded in transmission. Supports magnet links.
 

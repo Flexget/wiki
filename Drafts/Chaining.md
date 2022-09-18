@@ -1,3 +1,13 @@
+---
+title: Chaining
+description: 
+published: true
+date: 2022-09-18T04:57:35.309Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:32.649Z
+---
+
 # Plugin chaining
 Consider single tv preset for all series feeds ..
 

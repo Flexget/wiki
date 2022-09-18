@@ -1,3 +1,13 @@
+---
+title: bluray_lookup
+description: 
+published: true
+date: 2022-09-18T05:02:40.048Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:37.361Z
+---
+
 # Blu-ray.com lookup
 
 This plugin returns bluray information about movies and tv seasons from blu-ray.com. It cannot be used to lookup information about individual tv episodes, **only** tv seasons with (future) bluray releases.

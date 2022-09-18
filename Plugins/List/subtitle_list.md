@@ -1,3 +1,13 @@
+---
+title: subtitle_list
+description: 
+published: true
+date: 2022-09-18T05:25:25.343Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:22.645Z
+---
+
 # Subtitle list
 <div class="alert alert-success" role="info">
   

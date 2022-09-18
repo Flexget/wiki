@@ -1,3 +1,13 @@
+---
+title: generic_timeframe
+description: 
+published: true
+date: 2022-09-18T04:58:47.995Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:45.416Z
+---
+
 Ideas for a generic timeframe plugin, decoupled from series plugin.
 
 Entries would need to be tagged with a unique content id field to work with this. For example, series plugin might add content_id field set to seriesname.seriesid, and movie content id might be imdb id.

@@ -1,3 +1,13 @@
+---
+title: from_task
+description: 
+published: true
+date: 2022-09-18T05:12:22.859Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:48.174Z
+---
+
 # From Task
 
 This plugin runs another task, and inputs any accepted entries from that task in this one. Any modifications made to the entries, or fields populated will be preserved.

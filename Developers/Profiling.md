@@ -1,3 +1,13 @@
+---
+title: Profiling
+description: 
+published: true
+date: 2022-09-18T04:57:20.085Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:17.551Z
+---
+
 # How to profile FlexGet
 Quick hack:
 

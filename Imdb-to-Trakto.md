@@ -1,3 +1,13 @@
+---
+title: Imdb-to-Trakto
+description: 
+published: true
+date: 2022-09-18T04:50:05.900Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:03.258Z
+---
+
 tasks:
   imdb_to_trakt:  # This task adds all the movies in your imdb watchlist to your trakt watchlist
     imdb_list:

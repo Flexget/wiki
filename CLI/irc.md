@@ -1,3 +1,13 @@
+---
+title: irc
+description: 
+published: true
+date: 2022-09-18T05:24:19.841Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:58.170Z
+---
+
 ## [CLI](/CLI) > `irc`
 View and manage [IRC connections](/Plugins/Daemon/irc).
 

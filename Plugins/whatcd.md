@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRemovedArchived
-removed_in_version: 2.7.0
+title: whatcd
+description: 
+published: true
+date: 2022-09-18T05:16:49.394Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:46.771Z
 ---
+
 # what.cd
 {{> Includes/PluginRemovedArchived }}
 

@@ -1,3 +1,13 @@
+---
+title: series_premiere
+description: 
+published: true
+date: 2022-09-18T05:12:44.586Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:42.053Z
+---
+
 # Series Premiere
 Accepts any entry that appears to be the first episode of a series.
 

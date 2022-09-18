@@ -1,3 +1,13 @@
+---
+title: copy
+description: 
+published: true
+date: 2022-09-18T05:03:14.288Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:11.752Z
+---
+
 # Copy
 *TODO: Improve documentation*
 

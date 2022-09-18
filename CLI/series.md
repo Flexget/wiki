@@ -1,9 +1,11 @@
 ---
-import:
- - Includes/TableStylesDiv
- - Includes/TableStylesMarker
- - Includes/EnvDiv
- - Includes/EnvMarker
+title: series
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:29.061Z
 ---
 
 ## [CLI](/CLI) > `series`

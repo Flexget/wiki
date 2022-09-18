@@ -1,3 +1,13 @@
+---
+title: entry-list
+description: 
+published: true
+date: 2022-09-18T05:24:31.761Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:38.983Z
+---
+
 ## [CLI](/CLI) > `entry-list`
 View and manage [entry lists](/Plugins/List/entry_list).
 

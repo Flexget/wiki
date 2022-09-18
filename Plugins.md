@@ -1,3 +1,13 @@
+---
+title: Plugins
+description: 
+published: true
+date: 2022-09-18T05:27:12.975Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:15.647Z
+---
+
 # Plugins
 Plugins provide most of the functionality in FlexGet. Plugins usually create, manipulate or download **[entries](/Entry)** but they can also change how FlexGet operates. Many plugins can use the **[Jinja2 ](/Jinja)** template system.
 

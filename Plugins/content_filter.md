@@ -1,3 +1,13 @@
+---
+title: content_filter
+description: 
+published: true
+date: 2022-09-18T05:07:46.465Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:02:56.562Z
+---
+
 # Content Filter
 This allows filtering based on the filenames inside of torrents. This plugin does not accept entries on its own, only rejects already accepted entries that do not pass your requirements. You'll need another [filter plugin](/Plugins#Filters) in the task to accept the entries you want. You can specify either an acceptable file mask, a file mask to reject, or both. You can also specify a list of masks for either option.
 

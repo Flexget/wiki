@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRemovedArchived
-removed_in_version: 2.3.0
+title: publichd
+description: 
+published: true
+date: 2022-09-18T05:18:34.982Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:32.385Z
 ---
+
 # publichd
 {{> Includes/PluginRemovedArchived }}
 

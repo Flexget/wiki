@@ -1,3 +1,13 @@
+---
+title: anidb_list
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:58.841Z
+---
+
 # AniDB List
 
 This plugin produces an [entry](/Entry) for each movie or series on a public [AniDB](http://www.anidb.net) wishlist. These entries can then be added to the [movie_list](/Plugins/List/movie_list), used to initiate a search with [discover](/discover), or passed to some other [output plugin](/Plugins#Outputs). Results are cached for two hours to avoid flooding the site.

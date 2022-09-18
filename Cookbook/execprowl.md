@@ -1,3 +1,13 @@
+---
+title: execprowl
+description: 
+published: true
+date: 2022-09-18T04:56:49.586Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:46.899Z
+---
+
 # Use exec and curl to send a Prowl notification
 **DEPRECATED**
 

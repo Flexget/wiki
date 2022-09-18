@@ -1,3 +1,13 @@
+---
+title: LogoContest
+description: 
+published: true
+date: 2022-09-18T04:50:36.613Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:33.935Z
+---
+
 # Logo ~~Wanted~~ Picked!
 We picked a logo! Thank you everybody for your contributions, we got a lot of nice ones. After some discussion decided to go with the logo by Linus Olsson, thank you Linus!
 

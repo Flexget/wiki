@@ -1,3 +1,13 @@
+---
+title: GenericSeriesFeatures
+description: 
+published: true
+date: 2022-09-18T04:58:02.038Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:59.219Z
+---
+
 # Generic series features
 **GOAL:** Extract nice functionalities like timeframe, quality upgrades etc into separate plugins that can be re-used with movies.
 

@@ -1,3 +1,13 @@
+---
+title: OSX
+description: 
+published: true
+date: 2022-09-18T05:23:55.849Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:15.886Z
+---
+
 # [Install Wizard](/InstallWizard) > OSX
 
 <div class="container-fluid alert alert-warning">

@@ -1,3 +1,13 @@
+---
+title: movie_list_timeframe_upgrade
+description: 
+published: true
+date: 2022-09-18T05:20:16.120Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:13.430Z
+---
+
 # Fancy Movie List Magic
 Series plugin has some really nice features, like timeframe and upgrade, which it might be desirable to replicate with movies. This config shows how you can use multiple tasks to emulate series plugin features like timeframe with upgrade on a list of movies you want.
 

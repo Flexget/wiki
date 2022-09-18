@@ -1,3 +1,13 @@
+---
+title: text
+description: 
+published: true
+date: 2022-09-18T05:14:06.297Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:03.752Z
+---
+
 # Text
 Parse any text for entries using regular expression. This doesn't work well with HTML, please use [html](/Plugins/html) instead.
 

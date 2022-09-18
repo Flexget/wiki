@@ -1,3 +1,13 @@
+---
+title: MyMoviesRSS
+description: 
+published: true
+date: 2022-09-18T05:20:00.522Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:58.005Z
+---
+
 ## My movie list
 Generates RSS with Imdb details, ordered by imdb score. Throw in [imdb_rated](/Plugins/imdb_rated) and you get list of unwatched movies!
 

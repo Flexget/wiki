@@ -1,3 +1,13 @@
+---
+title: path_by_space
+description: 
+published: true
+date: 2022-09-18T05:09:29.039Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:26.475Z
+---
+
 # Path Selector
 This plugin can be used to select a path based the disk usage.
 

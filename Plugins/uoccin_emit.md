@@ -1,3 +1,13 @@
+---
+title: uoccin_emit
+description: 
+published: true
+date: 2022-09-18T05:15:59.003Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:56.396Z
+---
+
 # Uoccin emit
 This plugin creates an [Entry](/Entry) for each series or movies you have added to your watchlist in [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin), and can be used in combination with [configure_series](/Plugins/configure_series) or [discover](/Plugins/discover) to search for episodes or movies to download.
 

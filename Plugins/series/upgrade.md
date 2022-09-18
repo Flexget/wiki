@@ -1,3 +1,13 @@
+---
+title: upgrade
+description: 
+published: true
+date: 2022-09-18T05:28:48.960Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:28:46.427Z
+---
+
 # Upgrade
 Upgrade mode causes the series plugin to continue accepting the better quality of an episode than what have been previously accepted. It also blocks acepting any episodes that are of a worse quality than what already has been accepted. 
 

@@ -1,3 +1,13 @@
+---
+title: from_emby
+description: 
+published: true
+date: 2022-09-18T05:05:39.142Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:36.525Z
+---
+
 # Emby Input
 This plugin creates an [Entry](/Entry) for each movie/series/season/episode from emby's, watched list, favorites, libraries or playlists and filter based on some criteria
 

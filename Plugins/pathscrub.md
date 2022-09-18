@@ -1,3 +1,13 @@
+---
+title: pathscrub
+description: 
+published: true
+date: 2022-09-18T05:09:36.544Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:33.978Z
+---
+
 # Pathscrub
 This plugin is used by plugins that create files. (currently: download, move, deluge, transmission) It automatically removes any invalid characters for the current OS from generated filenames.
 

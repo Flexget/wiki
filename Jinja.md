@@ -1,3 +1,13 @@
+---
+title: Jinja
+description: 
+published: true
+date: 2022-09-18T05:12:42.022Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:50:14.756Z
+---
+
 # Jinja2 Templating
 
 <div class="alert alert-info" role="alert">

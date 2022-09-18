@@ -1,3 +1,13 @@
+---
+title: metaMMA
+description: 
+published: true
+date: 2022-09-18T05:23:22.677Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:20.003Z
+---
+
 # Configuration for downloading MMA events
 
 ### Below is a sample config.yml file which does the following:

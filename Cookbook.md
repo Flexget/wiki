@@ -1,3 +1,13 @@
+---
+title: Cookbook
+description: 
+published: true
+date: 2022-09-18T04:57:13.812Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:49:03.276Z
+---
+
 # The Cookbook
 
 To get started, create these as a file `~/.flexget/config.yml` (see [Configuration](/Configuration) for more details)

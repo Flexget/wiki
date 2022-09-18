@@ -1,3 +1,13 @@
+---
+title: torrent_scrub
+description: 
+published: true
+date: 2022-09-18T05:14:41.240Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:14:38.616Z
+---
+
 # Torrent metafile scrubber
 
 Removes resume information and other non-standard data from torrent downloads. Note that this resume information prevents the torrent from properly starting in rTorrent, and is added by ruTorrent users if they incorrectly check the "Fast Resume" option while creating a torrent for uploading.

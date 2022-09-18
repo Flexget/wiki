@@ -1,7 +1,11 @@
 ---
-import:
- - Includes/PluginRequiresPip
-packages: subliminal
+title: subliminal
+description: 
+published: true
+date: 2022-09-18T05:16:39.074Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:36.421Z
 ---
 
 # Subliminal

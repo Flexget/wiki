@@ -1,8 +1,13 @@
 ---
-import:
- - Includes/PluginRemovedArchived
-removed_in_version: 2.2.0
+title: kat
+description: 
+published: true
+date: 2022-09-18T05:18:07.900Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:18:05.323Z
 ---
+
 # Kat
 {{> Includes/PluginRemovedArchived }}
 

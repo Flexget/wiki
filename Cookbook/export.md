@@ -1,3 +1,13 @@
+---
+title: export
+description: 
+published: true
+date: 2022-09-18T04:56:53.346Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:56:50.756Z
+---
+
 Because upgrade 1.x > 2.x broke some functions, I must reset all the config directory.
 
 So i have backup my config directory.

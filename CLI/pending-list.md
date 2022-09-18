@@ -1,3 +1,13 @@
+---
+title: pending-list
+description: 
+published: true
+date: 2022-09-18T05:25:10.821Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:54:05.907Z
+---
+
 ## [CLI](/CLI) > `pending-list`
 View and manage [pending lists](/Plugins/List/pending_list).
 

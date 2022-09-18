@@ -1,3 +1,13 @@
+---
+title: InstallVirtualenv
+description: 
+published: true
+date: 2022-09-18T05:24:02.426Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:59.824Z
+---
+
 ### Install FlexGet in the virtualenv
 ```
 cd ~/flexget

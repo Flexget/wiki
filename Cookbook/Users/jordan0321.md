@@ -1,3 +1,13 @@
+---
+title: jordan0321
+description: 
+published: true
+date: 2022-09-18T05:23:10.820Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:08.170Z
+---
+
 This is my current flexget configuration. I'll update this to add comments and explanations soon.
 
 Here are some things to know about my motivation for this configuration:

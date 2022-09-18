@@ -1,3 +1,13 @@
+---
+title: QNAP
+description: 
+published: true
+date: 2022-09-18T05:00:29.895Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:00:27.301Z
+---
+
 # Python and PIP on Qnap
 
 For Python 2.7 and Pip on QNAP perform the following steps,

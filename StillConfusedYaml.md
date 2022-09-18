@@ -1,3 +1,13 @@
+---
+title: StillConfusedYaml
+description: 
+published: true
+date: 2022-09-18T04:51:45.715Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:43.072Z
+---
+
 ## Still confused about Yaml?
 Please note that each indentation level must be precisely **2 spaces**. Tabs are forbidden for indentation. Why are indentation even required in Yaml? It is used for semantics or **relation**. Consider example:
 

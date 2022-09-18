@@ -1,3 +1,13 @@
+---
+title: rtorrent_magnet
+description: 
+published: true
+date: 2022-09-18T05:11:43.433Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:40.910Z
+---
+
 # rTorrent Magnet URI Handler
 This plugin will scan accepted items that haven't been downloaded for magnet URI's. if a magnet URI is detected, this plugin will process an rtorrent compatible magnet torrent file to the configured output directory.
 

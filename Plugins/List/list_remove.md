@@ -1,3 +1,13 @@
+---
+title: list_remove
+description: 
+published: true
+date: 2022-09-18T05:25:01.587Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:58.968Z
+---
+
 ## List Remove
 <div class="alert alert-success" role="info">
   

@@ -1,3 +1,13 @@
+---
+title: discover_refactor
+description: 
+published: true
+date: 2022-09-18T04:58:40.345Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:37.728Z
+---
+
 Ideas for improvements to the discover plugin: (all names are open for improvements)
 
 Add an `est_release` plugin, which would be used by the discover plugin to predict a release date for a given search entry. This would be an interface to media specific plugins, e.g. `series_release` or `movie_release`. Discover plugin would then check `est_release(entry)`, and if a date in the future was returned, it would not perform a search for that entry.

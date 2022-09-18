@@ -1,3 +1,13 @@
+---
+title: flexget2ideas
+description: 
+published: true
+date: 2022-09-18T04:58:44.192Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:41.541Z
+---
+
 # Ideas for larger changes that may come with flexget 2
 All input on any of these ideas is welcome.
 

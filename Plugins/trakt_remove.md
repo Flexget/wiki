@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.1.0
-replacement_plugins: '[list_remove](/Plugins/List/list_remove) and [trakt_list](/Plugins/List/trakt_list)'
+title: trakt_remove
+description: 
+published: true
+date: 2022-09-18T05:15:16.360Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:15:13.763Z
 ---
+
 # Trakt Remove 
 {{> Includes/PluginReplacedArchived }}
 

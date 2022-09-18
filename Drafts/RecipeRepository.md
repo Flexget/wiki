@@ -1,3 +1,13 @@
+---
+title: RecipeRepository
+description: 
+published: true
+date: 2022-09-18T04:58:21.238Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:18.600Z
+---
+
 
 ## Rationale
 It's impossible to have sane defaults that suit everyone. At the same time, having extensive configurability makes for a steep learning curve that not everyone wants to go through.

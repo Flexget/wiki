@@ -1,3 +1,13 @@
+---
+title: PlexToPlexDownload
+description: 
+published: true
+date: 2022-09-18T05:20:46.828Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:20:44.314Z
+---
+
 This recipe allows you to download the latest episodes from a remote PMS by using a section from your local PMS to configure the series plugin.
 
 

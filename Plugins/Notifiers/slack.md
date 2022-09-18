@@ -1,3 +1,13 @@
+---
+title: slack
+description: 
+published: true
+date: 2022-09-18T05:26:51.909Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:26:49.250Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Slack
 <div class="alert alert-success" role="info">
   

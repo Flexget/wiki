@@ -1,3 +1,13 @@
+---
+title: identified_by
+description: 
+published: true
+date: 2022-09-18T05:28:46.416Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:43.992Z
+---
+
 ## Identified by
 Specify how episode number is detected.
 

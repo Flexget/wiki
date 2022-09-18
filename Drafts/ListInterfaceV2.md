@@ -1,3 +1,13 @@
+---
+title: ListInterfaceV2
+description: 
+published: true
+date: 2022-09-18T04:58:09.705Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:58:07.119Z
+---
+
 # Refactor list usage
 Just some ideas ...
 

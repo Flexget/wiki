@@ -1,6 +1,11 @@
 ---
-import:
-  - FlexgetCurrentPythonRequirements
+title: Python
+description: 
+published: true
+date: 2022-09-18T05:23:54.522Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:51.904Z
 ---
 
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > Python and pip

@@ -1,3 +1,13 @@
+---
+title: pogcal_acquired
+description: 
+published: true
+date: 2022-09-18T05:09:59.954Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:09:57.411Z
+---
+
 # Pogcal Acquired
 This plugin marks the checkbox for accepted episodes on the [pogdesign TV calendar](http://pogdesign.co.uk/cat).
 

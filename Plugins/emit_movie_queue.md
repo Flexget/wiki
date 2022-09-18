@@ -1,9 +1,13 @@
 ---
-import:
- - Includes/PluginReplacedArchived
-removed_in_version: 2.3.0
-replacement_plugins: '[movie_list](/Plugins/List/movie_list)'
+title: emit_movie_queue
+description: 
+published: true
+date: 2022-09-18T05:12:11.379Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:04:39.378Z
 ---
+
 # Movie Queue Input
 {{> Includes/PluginReplacedArchived }}
 

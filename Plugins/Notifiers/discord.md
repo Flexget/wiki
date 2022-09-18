@@ -1,3 +1,13 @@
+---
+title: discord
+description: 
+published: true
+date: 2022-09-18T05:25:37.311Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:25:34.649Z
+---
+
 # [Notifiers](/Plugins/Notifiers) > Discord
 <div class="alert alert-success" role="info">
   

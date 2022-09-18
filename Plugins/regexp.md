@@ -1,3 +1,13 @@
+---
+title: regexp
+description: 
+published: true
+date: 2022-09-18T05:15:37.009Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:10:35.699Z
+---
+
 ## Regexp
 Use regular expression to Accept or Reject entries. FlexGet uses python regexp format and all matching is done case insensitive. This plugin may look a bit scary but in reality you rarely want anything more than what simple examples describe.
 

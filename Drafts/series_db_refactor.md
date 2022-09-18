@@ -1,3 +1,13 @@
+---
+title: series_db_refactor
+description: 
+published: true
+date: 2022-09-18T04:59:07.214Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:59:04.577Z
+---
+
 # Allow controlling series settings from db
 The idea is to adapt series plugin so that followed series (and all settings for them) can be controlled via the db (and thus via api) rather than just in the config.
 

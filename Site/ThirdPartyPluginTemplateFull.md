@@ -1,12 +1,13 @@
 ---
-plugin_link: "[GitHub](https://github.com/example/example-repo/blob/master/example-plugin.py)"
-plugin_name: my_plugin
-plugin_issues: "[GitHub](https://github.com/example/example-repo/issues)"
-import:
-- Includes/ThirdPartyPluginWarning
-- Includes/ThirdPartyPluginInstallDotFlexget
-- Includes/ThirdPartyPluginIssues
+title: ThirdPartyPluginTemplateFull
+description: 
+published: true
+date: 2022-09-18T05:19:25.551Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:22.896Z
 ---
+
 # Plugin Title
 {{> Includes/ThirdPartyPluginWarning }}
 

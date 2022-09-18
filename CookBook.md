@@ -1,3 +1,13 @@
+---
+title: CookBook
+description: 
+published: true
+date: 2022-09-18T04:49:02.096Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:48:59.487Z
+---
+
 templates:
   movie:
     transmission:

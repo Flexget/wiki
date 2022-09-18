@@ -1,3 +1,13 @@
+---
+title: Parameterize
+description: 
+published: true
+date: 2022-09-18T05:11:36.896Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:01:20.968Z
+---
+
 # Parameterize
 
 <div class="alert alert-danger" role="info">

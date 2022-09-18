@@ -1,3 +1,13 @@
+---
+title: PitFalls
+description: 
+published: true
+date: 2022-09-18T04:51:10.738Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:51:08.067Z
+---
+
 # Common pitfalls and answers
 ### `mapping values are not allowed here, line x column y`
 **Possible cause**: You have `:` somewhere where it's not allowed.

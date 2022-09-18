@@ -1,3 +1,13 @@
+---
+title: imdb_list
+description: 
+published: true
+date: 2022-09-18T05:25:06.944Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:31.772Z
+---
+
 # IMDb list
 <div class="alert alert-success" role="info">
   

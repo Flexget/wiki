@@ -1,3 +1,13 @@
+---
+title: Autorun
+description: 
+published: true
+date: 2022-09-18T05:23:42.717Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:23:40.115Z
+---
+
 # [Install Wizard](/InstallWizard) > [OSX](/InstallWizard/OSX) > Autorun
 
 ## Configure

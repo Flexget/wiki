@@ -1,3 +1,13 @@
+---
+title: make_rss
+description: 
+published: true
+date: 2022-09-18T05:07:52.808Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:50.210Z
+---
+
 # Output RSS
 
 Write RSS containing succeeded (downloaded) entries.

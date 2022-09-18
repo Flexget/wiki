@@ -1,3 +1,13 @@
+---
+title: sort_by
+description: 
+published: true
+date: 2022-09-18T05:13:31.247Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:28.569Z
+---
+
 # Sort By
 Sorts task entries in order by a specified field. Useful for generating RSS in particular order. By default the sort will be in ascending (lowest first) order.
 

@@ -1,3 +1,13 @@
+---
+title: kitsu
+description: 
+published: true
+date: 2022-09-18T05:07:10.911Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:08.273Z
+---
+
 # Kitsu
 
 This plugin produces an [entry](/Entry) for each movie or series in a public [Kitsu.io](http://www.kitsu.io) library. Results are cached for two hours to avoid flooding the api.

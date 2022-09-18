@@ -1,6 +1,11 @@
 ---
-import:
-  - Includes/TableStylesDiv
+title: history
+description: 
+published: true
+date: 2022-09-18T04:53:53.075Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:53:50.457Z
 ---
 
 ## [CLI](/CLI) > `history`*

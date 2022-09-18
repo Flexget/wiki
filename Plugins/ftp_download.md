@@ -1,3 +1,13 @@
+---
+title: ftp_download
+description: 
+published: true
+date: 2022-09-18T05:06:02.253Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:05:59.661Z
+---
+
 ## ftp_download
 Downloads content from a ftp and saves it into a local path. Path is retrieved from an entry plugin. The Entry URL must contain the FTP username and password
 

@@ -1,8 +1,12 @@
 ---
-import:
- - Includes/PluginReplaced
-removed_in_version: 2.1.0
-replacement_plugins: '[list_match](/Plugins/List/list_match)'
+title: list_accept
+description: 
+published: true
+date: 2022-09-18T05:24:38.253Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:24:35.735Z
 ---
+
 # List Accept
 {{> Includes/PluginReplaced }}

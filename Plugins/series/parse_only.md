@@ -1,3 +1,13 @@
+---
+title: parse_only
+description: 
+published: true
+date: 2022-09-18T05:27:50.502Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:27:47.932Z
+---
+
 # Parse Only
 
 If this option is set, the series plugin will not accept or reject any entries, it will merely fill in parsed metadata for the matching series on each entry. This can be useful if you want to reuse your series config on another task which may contain old episodes which you still want to act on.

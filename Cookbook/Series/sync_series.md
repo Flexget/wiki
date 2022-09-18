@@ -1,3 +1,13 @@
+---
+title: sync_series
+description: 
+published: true
+date: 2022-09-18T05:22:04.282Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:22:01.720Z
+---
+
 # Remove gaps in your series database by searching a folder for episodes you already downloaded
 
 This task will search the paths you select for series related files in an effort to fill in gaps in your series tracking database.

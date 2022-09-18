@@ -1,3 +1,13 @@
+---
+title: anon
+description: 
+published: true
+date: 2022-09-18T05:19:33.429Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:19:30.730Z
+---
+
 After quite extensive research and help from the good people in Freenode/#flexget i have now created a few scripts that make life a lot easier.
 
 The user defines what it wants to watch via trakt.tv, or imdb.com.

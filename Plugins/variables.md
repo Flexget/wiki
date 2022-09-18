@@ -1,3 +1,13 @@
+---
+title: variables
+description: 
+published: true
+date: 2022-09-18T05:16:37.822Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:35.201Z
+---
+
 # Variables
 
 This plugin can do value replacement on your config file . While originally intended to strip off passwords, api keys and other sensitive info from the configuration file, it is also useful to just re-use certain values in multiple places in your configuration. Any of the fields from your variables file can be referenced in the config inside the special delimiters `{? ?}`. Jinja is used under the hood, so any valid jinja expressions are allowed inside the delimeters.

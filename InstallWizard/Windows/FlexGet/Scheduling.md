@@ -1,3 +1,13 @@
+---
+title: Scheduling
+description: 
+published: true
+date: 2022-09-18T05:29:07.361Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:29:04.739Z
+---
+
 # [Install Wizard](/InstallWizard) > [Windows](/InstallWizard/Windows) > Scheduling
 
 ## Configure

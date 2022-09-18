@@ -1,3 +1,13 @@
+---
+title: version_checker
+description: 
+published: true
+date: 2022-09-18T05:16:45.471Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:16:42.897Z
+---
+
 # Version Checker
 
 This plugin checks wether the user is running the latest version of flexget. To avoid unnecesary requests, this happens on an interval by default (1 request per day).

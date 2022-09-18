@@ -1,3 +1,13 @@
+---
+title: disable
+description: 
+published: true
+date: 2022-09-18T05:14:03.735Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:03:46.078Z
+---
+
 # Disable
 This plugin can be used to disable a plugin which you have included via the [template](/Plugins/template) or [include](/Plugins/include) plugin, as well as to disable [builtin](/Builtin) plugins.
 

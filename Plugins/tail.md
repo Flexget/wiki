@@ -1,3 +1,13 @@
+---
+title: tail
+description: 
+published: true
+date: 2022-09-18T05:14:07.567Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:13:55.881Z
+---
+
 # Tail
 Similar to the [text](/Plugins/text) plugin but remembers the file position and continues from it. This plugins does NOT work for log files that are rotated.
 

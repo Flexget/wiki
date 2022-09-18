@@ -1,3 +1,13 @@
+---
+title: magnets
+description: 
+published: true
+date: 2022-09-18T05:14:38.606Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:07:42.673Z
+---
+
 # Magnets
 This plugin will remove any magnet links from the entry urls list, and reject any entries that only have magnet links. 
 

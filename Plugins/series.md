@@ -1,3 +1,13 @@
+---
+title: series
+description: 
+published: true
+date: 2022-09-18T05:28:50.257Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:12:38.011Z
+---
+
 # Series
 Intelligent filter for TV-series.
 

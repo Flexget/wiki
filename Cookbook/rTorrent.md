@@ -1,3 +1,13 @@
+---
+title: rTorrent
+description: 
+published: true
+date: 2022-09-18T05:14:42.498Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T04:57:02.181Z
+---
+
 ## Complete rTorrent example
 This is a complete example for hooking up rTorrent with FlexGet for automatic downloads. This setup will download releases automatically and seed them until the given percentage (here 300%) and then stop seeding. This is important to keep the torrent alive but still avoid overloading your connection. If you delete the torrent from rTorrent the incomplete data is deleted and the torrent directory is cleaned.
 

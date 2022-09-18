@@ -1,3 +1,13 @@
+---
+title: rottentomatoes
+description: 
+published: true
+date: 2022-09-18T05:12:30.430Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-18T05:11:21.398Z
+---
+
 # Filter Rotten Tomatoes
 This plugin allows filtering based on Rotten Tomatoes score, rating and genres etc.
 Results are cached so this doesn't cause unnecessary load to [Rotten Tomatoes](http://www.rottentomatoes.com).
