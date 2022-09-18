@@ -9,17 +9,11 @@ dateCreated: 2022-09-18T05:25:02.950Z
 ---
 
 # Movie List
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
-<div class="alert alert-info" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-info-sign"></span>
-  &nbsp; To improve matching, make sure you have a lookup plugin enabled, eg. [imdb_lookup](/Plugins/imdb_lookup).
-</div>
+> To improve matching, make sure you have a lookup plugin enabled, eg. [imdb_lookup](/Plugins/imdb_lookup).
+{.is-info}
 
 Any entry containing field(s) `imdb_id`, `trakt_movie_id` or `tmdb_id` can be added to movie list for later matching. This allows user to maintain one or more movie queues.
 

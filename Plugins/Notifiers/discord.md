@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:34.649Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Discord
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Discord is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Discord is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin is used to send notification to a discord server using the [webhook](https://discordapp.com/developers/docs/resources/webhook#execute-webhook) functionnality.
 
@@ -27,11 +24,8 @@ This plugin is used to send notification to a discord server using the [webhook]
 |embeds|array|[embeded](https://discordapp.com/developers/docs/resources/channel#embed-object) content
 
 ## Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 The following configuration send a webhook message to a discord server containing embeds object. Refer to [Embed object documentation](https://discordapp.com/developers/docs/resources/channel#embed-object) for more information on how to use them.
 ```yaml

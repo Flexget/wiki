@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:21.737Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > ntfy.sh
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; ntfy.sh is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> ntfy.sh is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called ntfy.sh.
 
@@ -30,11 +27,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |password|text| Password if authentication is required
 
 #### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

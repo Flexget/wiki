@@ -10,12 +10,8 @@ dateCreated: 2022-09-18T05:02:06.727Z
 
 # Find Deluge.app
 
-<div class="alert alert-warning" role="alert">
-  
-  <span class="glyphicon glyphicon-exclamation-sign"></span>
-  &nbsp;
-  This plugin should no longer be needed as of FlexGet 2.16.0
-</div>
+> This plugin should no longer be needed as of FlexGet 2.16.0
+{.is-warning}
 
 {{> Includes/ThirdPartyPluginWarning }}
 

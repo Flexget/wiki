@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:10.841Z
 ---
 
 # Radarr list
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 Integrate with Radarr.
 

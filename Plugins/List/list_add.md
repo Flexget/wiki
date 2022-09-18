@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:24:39.574Z
 ---
 
 ## List Add
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 List plugins can have entries added to them by using the `list_add` plugin:
 ```

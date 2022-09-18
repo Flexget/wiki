@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:24:23.848Z
 ---
 
 # Couchpotato List
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 Creates an [Entry](/Entry) for each movie in your [couchpotato](https://couchpota.to/) wanted list. This plugin can be used with the [movie_list ](/Plugins/List/movie_list) plugin to add those movies to the list.
 

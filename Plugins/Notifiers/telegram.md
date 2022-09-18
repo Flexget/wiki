@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:57.151Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Telegram
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 Send a message to one or more Telegram users or groups upon accepting a download.
 
 
@@ -27,10 +24,8 @@ Send a message to one or more Telegram users or groups upon accepting a download
 pip install python-telegram-bot==12.8
 ```
 </div>
-<div class="alert alert-warning" role="alert">
-  <span class="glyphicon glyphicon glyphicon-alert"></span>
-  Newer versions (13.0+) of python-telegram-bot are not compatible
-</div>
+> Newer versions (13.0+) of python-telegram-bot are not compatible
+{.is-warning}
 
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 * For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
@@ -53,11 +48,8 @@ pip install python-telegram-bot==12.8
 Not all Telegram users have a username. In such cases you would have to use the `fullname` approach. Otherwise, it is much easier to use the `username` configuration.
 
 ## Configuration examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 my-task:

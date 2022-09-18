@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:18.692Z
 ---
 
 # Sonarr List
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 Creates an [Entry](/Entry) for each show in your [Sonarr](https://sonarr.tv/) show list (including ended ones by default).
 

@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:06.960Z
 ---
 
 # Pending List
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 Stores a copy of any entry that was added to it, and can be used in a variety of ways. Will only emit the entry after it has been approved via [CLI](/CLI/pending-list)/[API](/API). Very useful in creating a broad scoped task where you can cherry pick entries.  
 See [managed_list](/Plugins/List/) how to use lists in general. 

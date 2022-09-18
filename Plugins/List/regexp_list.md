@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:14.773Z
 ---
 
 # Regexp List
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 It is a list of strings that represent regular expressions to be used for matching entries. The matching is case insensitive and only match single lines (no newline matching etc).
 

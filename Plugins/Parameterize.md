@@ -10,11 +10,8 @@ dateCreated: 2022-09-18T05:01:20.968Z
 
 # Parameterize
 
-<div class="alert alert-danger" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-alert"></span>
-  &nbsp; This is a very advanced plugin. If you don't understand it, you probably don't need it, or want to be bothered trying to get it working. Proceed with caution.
-</div>
+> This is a very advanced plugin. If you don't understand it, you probably don't need it, or want to be bothered trying to get it working. Proceed with caution.
+{.is-error}
 
 This allows the config for an input plugin to be parameterized using another input plugin.
 

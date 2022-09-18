@@ -12,9 +12,8 @@ dateCreated: 2022-09-18T05:24:07.782Z
 
 ## Before We Begin
 
-<div class="alert alert-warning" role="alert">
-  FlexGet supports Python 3.6-3.8
-</div>
+> FlexGet supports Python 3.6-3.8
+{.is-warning}
 
 The Python installation available in DSM’s Package Center provides Python 3.5.1, and as such, is not compatible with current releases of FlexGet. As a result, the current recommendation is to uninstall Python and Python 3 from the DSM Package Center, and to use Entware-NG’s opkg source instead.
 

@@ -9,16 +9,11 @@ dateCreated: 2022-09-18T05:24:31.772Z
 ---
 
 # IMDb list
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
-<div class="alert alert-warning" role="info">
-
-  IMDb enforces captchas more often than not, which the plugin currently cannot handle. If login fails, please open an issue on [Github](https://www.github.com/Flexget/Flexget/issues). If you do not need to alter IMDb lists, you can use [imdb_watchlist](/Plugins/imdb_watchlist) instead.
-</div>
+> IMDb enforces captchas more often than not, which the plugin currently cannot handle. If login fails, please open an issue on [Github](https://www.github.com/Flexget/Flexget/issues). If you do not need to alter IMDb lists, you can use [imdb_watchlist](/Plugins/imdb_watchlist) instead.
+{.is-warning}
 
 Creates an [Entry](/Entry) for each item in an IMDb list.
 

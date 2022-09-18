@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:42.529Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Gotify
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Gotify is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Gotify is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin provides the ability to send flexget notifications via the self-hosted Gotify notification server (https://gotify.net).
 

@@ -10,11 +10,8 @@ dateCreated: 2022-09-18T05:02:48.807Z
 
 # Clean Transmission
 
-<div class="alert alert-warning" role="alert">
-<span class="glyphicon glyphicon-exclamation-sign"></span>
-  &nbsp;
-This plugin has been deprecated as of FlexGet 2.20 See <a href="/Cookbook/TorrentCleanup">this</a> cookbook entry for a replacement.
-</div>
+> This plugin has been deprecated as of FlexGet 2.20 See <a href="/Cookbook/TorrentCleanup">this</a> cookbook entry for a replacement.
+{.is-warning}
 
 This plugin cleans the Transmission's queue of finished torrents (=the torrents that have completed the download process and are in **stopped, finished or seeding** state).
 

@@ -10,19 +10,11 @@ dateCreated: 2022-09-18T04:52:29.384Z
 
 # Web UI v2
 
-<div class="alert alert-danger" role="alert">
+> Web UI is currently experimental and _is not_ recommended for new users!
+{.is-error}
 
-  <span class="glyphicon glyphicon glyphicon-exclamation-sign"></span>
-  &nbsp;
-  Web UI is currently experimental and _is not_ recommended for new users!
-</div>
-
-<div class="alert alert-info" role="alert">
-
-  <span class="glyphicon glyphicon glyphicon-comment"></span>
-  &nbsp;
-  We need your help! If you are a React developer or can help with the layout/design/css then please join in the effort.
-</div>
+> We need your help! If you are a React developer or can help with the layout/design/css then please join in the effort.
+{.is-info}
 
 **Related pages**
 

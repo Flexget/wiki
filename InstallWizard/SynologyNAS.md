@@ -18,9 +18,8 @@ Running FlexGet in a Docker container gives you the ultimate level of control ov
 
 ## [Local Python package](/InstallWizard/SynologyNAS/PythonPackage)
 
-<div class="alert alert-warning" role="alert">
-  FlexGet supports Python 3.6-3.8.
-</div>
+> FlexGet supports Python 3.6-3.8.
+{.is-warning}
 
 This method uses the Python installation available from Entware-ng's opkg Package Center. This is a relatively easy process for anyone with basic CLI experience, but does require some maintenance and troubleshooting.
 

@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:29.574Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Pushalot
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushalot is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Pushalot is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 
 
@@ -34,11 +31,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |timetolive|numeric|Time in minutes after which message automatically gets purged. Minimum is `0`, maxiumum is `43200`.
 
 #### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

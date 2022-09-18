@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:49.250Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Slack
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Slack can is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Slack can is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin allows Flexget to send notifications to a [Slack](https://www.slack.com/) channel or username via the [Incoming Webhooks](https://api.slack.com/incoming-webhooks) functionality.
 
@@ -30,11 +27,8 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 
 
 ## Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 The following example sends a Slack message along with an attachment for more context. Refer to the [message attachment docs](https://api.slack.com/docs/message-attachments) for all available parameters.
 

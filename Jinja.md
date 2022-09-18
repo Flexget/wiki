@@ -10,10 +10,8 @@ dateCreated: 2022-09-18T04:50:14.756Z
 
 # Jinja2 Templating
 
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon-info-sign"></span>
-  Advanced use. Not required for most things.
-</div>
+> Advanced use. Not required for most things.
+{.is-info}
 
 Some options can have dynamically formatted values based on other [entry fields](/Entry). This is done using the powerful [jinja2 template](http://jinja.pocoo.org/docs/templates/) system to create or modify [entry fields](/Entry).
 

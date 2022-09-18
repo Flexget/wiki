@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:41.361Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Pushsafer
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushsafer is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Pushsafer is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 
 

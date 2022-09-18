@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:25.614Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Prowl
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Prowl is part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Prowl is part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 Send messages to your iPhone using [Prowl](http://prowlapp.com).
 ## Configuration
@@ -29,11 +26,8 @@ Send messages to your iPhone using [Prowl](http://prowlapp.com).
 ### Example
 Get your unique API key [here](/https://prowlapp.com/api_settings.php)
 
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

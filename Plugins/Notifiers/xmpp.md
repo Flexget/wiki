@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:27:05.215Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > XMPP
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; XMPP is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> XMPP is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 This plugin sends messages via XMPP, has been tested on Windows 7/64 so far, sending messages to Google Hangouts recipients.
 
 ## Preparations
@@ -28,11 +25,8 @@ This plugin sends messages via XMPP, has been tested on Windows 7/64 so far, sen
 |**password**|text|Sender's password. **Required**
 |**recipients**|email|Recipients JID. Can also be a list. **Required**
 
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

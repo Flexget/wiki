@@ -10,11 +10,8 @@ dateCreated: 2022-09-18T05:26:53.223Z
 
 # [Notifiers](/Plugins/Notifiers) > SMS RU
 
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; SMS RU can be is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> SMS RU can be is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [SMS RU](http://sms.ru/).
 
@@ -26,11 +23,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |**password**|text|Service password. **Required**
 
 #### Example:
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

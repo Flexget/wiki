@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:17.705Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Notify My Android
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Notify My Android can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Notify My Android can be used as a part of [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 
 Now defunct May 2018 - This plugin provides the ability to send flexget notifications via the  notification system called [Notify My Android](http://www.notifymyandroid.com/).
@@ -31,11 +28,8 @@ Now defunct May 2018 - This plugin provides the ability to send flexget notifica
 
 
 #### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

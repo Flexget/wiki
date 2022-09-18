@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:50.356Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > mqtt
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; MQTT is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> MQTT is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 ## Configuration
 

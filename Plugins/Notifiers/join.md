@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:25:46.443Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Join
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Join is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Join is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 
 
@@ -34,11 +31,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 
 
 #### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

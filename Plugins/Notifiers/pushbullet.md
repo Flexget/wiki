@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:33.564Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Pushbullet
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushbullet is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Pushbullet is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 This plugin provides the ability to send flexget notifications via the cross-platform notification system called [Pushbullet](https://www.pushbullet.com/).
 
@@ -27,11 +24,8 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |channel|text|Target channel. Can also be a list. 
 |url|URL|Notification URL | 
 
-<div class="alert alert-info" role="info">
-  
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; Only one of `email`, `device` or `channel` can be used per config
-</div>
+> Only one of `email`, `device` or `channel` can be used per config
+{.is-info}
 
 ### Examples
 

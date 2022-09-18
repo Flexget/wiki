@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:45.353Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > RapidPush
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; RapidPush is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> RapidPush is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 RapidPush is an easy-to-use push notification service for Android devices.  
 
 To use this Plugin you need the Android application "RapidPush" which can be found within the [Google Play Store](https://play.google.com/store/apps/details?id=com.syncoorp.rapidpush).  
@@ -30,11 +27,8 @@ You can now also use the channel feature, to send broadcast notifications to you
 |priority|numeric| Set message priority. Values between 0 and 6 are accepted.|
 
 #### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 ```yaml
 notify:

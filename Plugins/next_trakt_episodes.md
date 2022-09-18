@@ -9,14 +9,11 @@ dateCreated: 2022-09-18T05:08:48.136Z
 ---
 
 # Next Trakt Episodes
-<div class="alert alert-info" role="alert">
+> Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize FlexGet to access your Trakt.tv account.
+{.is-info}
 
-Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize FlexGet to access your Trakt.tv account.
-</div>
-
-<div class="alert alert-danger" role="alert">
-Warning: There is currently a problem where this plugin will not emit the next episode for a season when it has not yet aired. #2831
-</div>
+> Warning: There is currently a problem where this plugin will not emit the next episode for a season when it has not yet aired. #2831
+{.is-error}
 
 This plugin creates an [Entry](/Entry) for the next episode to watch or to collect for each show you have marked seen or collected in your [trakt.tv](http://trakt.tv) account.
 

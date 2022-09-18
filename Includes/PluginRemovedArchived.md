@@ -8,8 +8,8 @@ editor: markdown
 dateCreated: 2022-09-18T04:59:26.941Z
 ---
 
-<div class="alert alert-danger" role="alert"><span class="fa-lg glyphicon glyphicon-remove-circle"></span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa-lg">Plugin Removed!</span>
-</div>
+> Plugin Removed!
+{.is-error}
 
 This plugin was removed in v{{removed_in_version}}.
 

@@ -10,9 +10,8 @@ dateCreated: 2022-09-18T05:00:38.884Z
 
 # [Install Wizard](/InstallWizard) > Windows
 
-<div class="alert alert-warning" role="alert">
-
-FlexGet is currently mostly command line based, although we have an experimental [Web UI](/Web-UI) under development. Be aware that this is not "double click to install and a beautiful UI pops up". But it's not that hard either. [Help is available.](/NeedHelp)</div>
+> FlexGet is currently mostly command line based, although we have an experimental [Web UI](/Web-UI) under development. Be aware that this is not "double click to install and a beautiful UI pops up". But it's not that hard either. [Help is available.](/NeedHelp)
+{.is-warning}
 
 ## Set up environment
 

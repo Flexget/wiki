@@ -10,11 +10,8 @@ dateCreated: 2022-09-18T05:25:38.605Z
 
 # [Notifiers](/Plugins/Notifiers) > Email
 
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Email is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Email is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 The email plugin can be used to notify you of task results and/or failures. There are two built in templates, or you can make your own template using the Jinja2 templating language.
 
@@ -50,11 +47,8 @@ The `default` template will notify you of all downloaded entries, and of any fai
 You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
 
 ### Examples
-<div class="alert alert-warning" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-</div>
+> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
+{.is-warning}
 
 **Config basic example**
 

@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:04:20.312Z
 ---
 
 # Emby list
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 This plugin creates an [Entry](/Entry) for each movie/series/season/episode from emby's, watched list, favorites, libraries or playlists
 

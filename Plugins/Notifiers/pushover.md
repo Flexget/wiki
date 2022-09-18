@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:26:37.408Z
 ---
 
 # [Notifiers](/Plugins/Notifiers) > Pushover
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; Pushover is a part of the [notifier](/Plugins/Notifiers) plugin system.
-</div>
+> Pushover is a part of the [notifier](/Plugins/Notifiers) plugin system.
+{.is-success}
 
 
 

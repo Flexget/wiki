@@ -14,11 +14,8 @@ dateCreated: 2022-09-18T05:26:13.726Z
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task.
 This plugin runs on task exit and can be configured extensively.
 
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp;
-  This plugin will send a single notification per task exectuion if it had 1 or more accepted or failed entries
-</div>
+> This plugin will send a single notification per task execution if it had 1 or more accepted or failed entries
+{.is-info}
 
 ### Config:
 

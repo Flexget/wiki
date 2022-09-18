@@ -124,9 +124,8 @@ Simple values cannot never be merged. So for example multiple `rss: <url>` or `i
 
 # Global template
 
-<div class="alert alert-danger" role="alert">
-New users should avoid using global templates as it is way too easy to shoot yourself in the foot if you're not careful.
-</div>
+> New users should avoid using global templates as it is way too easy to shoot yourself in the foot if you're not careful.
+{.is-error}
 
 Allow specifying plugins for every task without being explicitly told so. 
 

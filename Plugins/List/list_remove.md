@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:24:58.968Z
 ---
 
 ## List Remove
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 List plugins can have entries removed from them by using the `list_remove` plugin:
 ```

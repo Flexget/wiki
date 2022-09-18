@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:13:48.127Z
 ---
 
 # Symlink
-<div class="alert alert-warning" role="alert">
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp;
-  Unavailable on windows.
-</div>
+> Unavailable on windows.
+{.is-warning}
 
 ### Syntax:
 

@@ -10,11 +10,8 @@ dateCreated: 2022-09-18T05:24:47.367Z
 
 ## List Match
 
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 This is a filter plugin that uses a list to accept or reject generated entries based on other list content. For operating any input  see [crossmatch](/Plugins/crossmatch) plugin instead.
 

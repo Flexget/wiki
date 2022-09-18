@@ -9,11 +9,8 @@ dateCreated: 2022-09-18T05:24:43.451Z
 ---
 
 ## List Clear
-<div class="alert alert-success" role="info">
-  
-  <span class="glyphicon glyphicon glyphicon-cog"></span>
-  &nbsp; This is part of [managed list](/Plugins/List) plugin system.
-</div>
+> This is part of [managed list](/Plugins/List) plugin system.
+{.is-success}
 
 This is a list plugin that clears the contents of the given lists.
 
