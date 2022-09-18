@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2022-09-18T05:24:23.833Z
+date: 2022-09-18T16:18:44.151Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:44.526Z
@@ -62,8 +62,8 @@ dateCreated: 2022-09-18T04:52:44.526Z
                     <div class="col-md-3 col-sm-6">
                         <div class="feature-item">
                             <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-plug fa-stack-1x text-flexdark"></i>
+                                <i class="mdi mdi-circle md-24"></i>
+                                <i class="mdi mdi-power-plug"></i>
                             </span>
                             <h4><strong>Plugins</strong></h4>
                             <p>Custom <a href="/Plugins">plugins support</a> to add features, and to work with sites that do not provide useful feeds.</p>
