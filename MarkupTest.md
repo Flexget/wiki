@@ -2,7 +2,7 @@
 title: MarkupTest
 description: 
 published: true
-date: 2022-09-19T00:14:21.900Z
+date: 2022-09-19T00:15:12.441Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:37.802Z
@@ -37,4 +37,4 @@ The div style alerts were from the old wiki. The wiki.js format is the blockquot
 > foobar
 {.is-danger}
 
-[](http://google.com){.include}
+[](/Includes/EnvDiv){.include}
