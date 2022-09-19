@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:24:35.735Z
 ---
 
 # List Accept
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

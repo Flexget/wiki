@@ -10,4 +10,4 @@ dateCreated: 2022-09-18T05:03:15.510Z
 
 # couchpotato
 
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:13:20.891Z
 ---
 
 # Sonarr
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

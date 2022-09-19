@@ -23,7 +23,7 @@ The [`execute` option](/CLI/execute) `--learn` (optionally combined with `--task
 || `<value>` | Title or URL to add |
 | `search`* || Search text from the seen database |
 || `<search term>` | Term to search for |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

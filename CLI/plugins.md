@@ -17,7 +17,7 @@ Print summaries for registered [plugins](/Plugins).
 | `--group <group>`* | Show plugins belonging to specify `<group>` |
 | `--phase <phase>`* | Show plugins that act on specified `<phase>` |
 | `--builtins`* | Show only [builtin](/Builtin) plugins |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

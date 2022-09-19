@@ -15,7 +15,7 @@ This plugin sends messages via XMPP, has been tested on Windows 7/64 so far, sen
 
 ## Preparations
 
-{{> Includes/PluginRequiresPip }}
+[Includes/PluginRequiresPip](/Includes/PluginRequiresPip){.include}
 
 ## Configuration
 

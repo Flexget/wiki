@@ -26,7 +26,7 @@ View and manage [Trakt authentication](/Trakt_Authentication), for use with the 
 | `delete` || Delete the specified identifier from local database |
 || *positional:* |
 || `<account>`| Identifier (as originally specified with the `auth` command above)
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

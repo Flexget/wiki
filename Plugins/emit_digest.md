@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:04:31.893Z
 ---
 
 # Emit Digest
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

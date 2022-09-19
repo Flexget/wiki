@@ -22,7 +22,7 @@ Output plugin for [pyLoad](http://pyload.net/) download manager.
 
 ## Configuration
 
-{{> Includes/PluginInfo }}
+[Includes/PluginInfo](/Includes/PluginInfo){.include}
 
 **Example:**
 

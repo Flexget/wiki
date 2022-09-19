@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:26:09.883Z
 ---
 
 # Notify OSD
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

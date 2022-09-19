@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:09:30.266Z
 ---
 
 # Path Select
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

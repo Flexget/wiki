@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:18:01.338Z
 ---
 
 # what.cd
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 A search plugin that generates sorted entries from isohunt.
 

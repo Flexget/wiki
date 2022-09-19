@@ -32,4 +32,4 @@ quality:
   - 1080p webdl
 ```
 
-{{> Qualities }}
+[Qualities](/Qualities){.include}

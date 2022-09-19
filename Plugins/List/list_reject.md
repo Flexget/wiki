@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:24:55.089Z
 ---
 
 # List Reject
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

@@ -16,7 +16,7 @@ View task health status.
 | --- | --- |
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--limit <num>` | Limit to `<num>` results (default `50`) |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:15:01.831Z
 ---
 
 # Trakt Emit
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

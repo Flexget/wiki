@@ -9,6 +9,6 @@ dateCreated: 2022-09-18T05:29:24.338Z
 ---
 
 # Scheduling
-{{> InstallWizard/Partial/Crontab }}
+[InstallWizard/Partial/Crontab](/InstallWizard/Partial/Crontab){.include}
 
 ## Installation completed

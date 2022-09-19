@@ -27,7 +27,7 @@ Alternatively, you can use the [`execute` command](/CLI/execute) with the `--inj
 
 ### Arguments to execute task(s)
 If only a URL and no title is given, Flexget will attempt to find a title in the URL's response headers.
-{{> ExecuteArguments }}
+[ExecuteArguments](/ExecuteArguments){.include}
 
 ### Examples
 ```bash

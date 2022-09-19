@@ -9,6 +9,6 @@ dateCreated: 2022-09-18T05:06:34.322Z
 ---
 
 # IMDB Rated
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 This was done because of IMDB site layout changes.

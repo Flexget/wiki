@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:04:43.238Z
 ---
 
 # Emit Series
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

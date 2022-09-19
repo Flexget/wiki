@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:10:31.892Z
 ---
 
 # Queue Movies
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 This plugin is an output plugin that adds a movies to your [movie_queue](/Plugins/movie_queue) for each accepted entry in a task. This plugin alone is not useful. To accept the queued movies you will need a task with [movie_queue](/Plugins/movie_queue) in it.
 

@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:18:40.096Z
 ---
 
 # sceneaccess
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 All the information of how sceneaccess works can be found in the plugin doc inside Flexget.
 

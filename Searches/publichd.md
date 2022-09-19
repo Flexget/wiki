@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:18:32.385Z
 ---
 
 # publichd
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 This search plugin will get results from [http://publichd.se](/http://publichd.se)
 

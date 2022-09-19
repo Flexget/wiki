@@ -15,7 +15,7 @@ View file templates to be used with [notifer](/Plugins/Notifiers) plugins.
 |  Argument | Description |
 | --- | --- |
 |`--name <template_name>`| Filter by `<template_name>`
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

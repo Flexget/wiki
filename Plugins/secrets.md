@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:12:15.174Z
 ---
 
 # Secrets
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Born to strip off passwords, api keys and other sensitive info from the configuration file, this plugin basically processes some jinja2 templates on startup to assign the corresponding values set in a dedicated yaml file or from DB.
 All the templates to process must begin with the word "secrets".

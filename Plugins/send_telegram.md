@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:12:30.443Z
 ---
 
 # Send Telegram
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

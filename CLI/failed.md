@@ -16,7 +16,7 @@ list or clear remembered failures
 | --- | --- |
 | `list`* | List all the entries that have had failures |
 | `clear` | Clear all failures from database so they can be retried |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

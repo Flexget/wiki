@@ -22,7 +22,7 @@ import:
 Then, in the body of the page, add this where you want the content to show up. Note it must exactly match the path as entered in the `import` statement above.
 
 ```markdown
-{{> /Path/To/OtherPage }}
+[Path/To/OtherPage](/Path/To/OtherPage){.include}
 ```
 
 If you are adding something that will be used on multiple pages, please add it in the [Includes](/Includes/) directory. Click the Index button on that page (at the top-left next to "FLEXGET") to view existing files.
@@ -37,7 +37,7 @@ import:
 packages: a b c
 ---
 
-{{> Includes/PluginRequiresPip }}
+[Includes/PluginRequiresPip](/Includes/PluginRequiresPip){.include}
 ```
 
 ## Info
@@ -49,7 +49,7 @@ import:
 info: text here
 ---
 
-{{> Includes/PluginInfo }}
+[Includes/PluginInfo](/Includes/PluginInfo){.include}
 
 ```
 
@@ -64,7 +64,7 @@ removed_in_version: 2.1.0
 replacement_plugins: '[content_size](/Plugins/content_size)'
 ---
 # NZB Size
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 ```
 
 See result at [nzb_size](/Plugins/nzb_size).
@@ -79,7 +79,7 @@ removed_in_version: 2.1.0
 replacement_plugins: '[transmission](/Plugins/transmission)'
 ---
 # Transmission RPC
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 ```
 
 See result at [transmissionrpc](/Plugins/transmissionrpc).
@@ -92,7 +92,7 @@ import:
 removed_in_version: 2.3.0
 ---
 # Rlslog
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 ```
 
 See result at [rlslog](/Plugins/rlslog).
@@ -106,7 +106,7 @@ removed_in_version: 2.1.0
 replacement_plugins: '[transmission](/Plugins/transmission)'
 ---
 # Transmission RPC
-{{> Includes/PluginRemoved }}
+[Includes/PluginRemoved](/Includes/PluginRemoved){.include}
 ```
 
 No examples of this yet.

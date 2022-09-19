@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:15:13.763Z
 ---
 
 # Trakt Remove 
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 **`IMPORTANT:` Please see [trakt](/Plugins/trakt) on how to authorize Flexget to access your private Trakt.tv account.**
 

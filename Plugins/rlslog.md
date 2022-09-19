@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:11:13.855Z
 ---
 
 # Rlslog
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 Adds support for [rlslog](http://rlslog.net) as a source.
 

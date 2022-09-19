@@ -12,36 +12,36 @@ dateCreated: 2022-09-18T04:54:29.061Z
 View and manage the [`series` plugin](/Plugins/series) database.
 
 ### Sub-commands
-| Sub-command | Option | Description/Example|
-| --- | --- | --- |
-| `list`<a name="subcommand-list"></a>{{> Includes/TableStylesMarker }} || List a summary of the different series being tracked |
-||`(configured|unconfigured|all)`{{>Includes/EnvMarker}} | Limit list to series that are currently in the config or not (default: configured)
-|| `--premieres`{{>Includes/EnvMarker}} | Limit list to series which only have episode 1 (and maybe also 2) downloaded |
-|| `--new <days>`{{>Includes/EnvMarker}} | Limit list to series with a release seen in last 7 days. number of days can be overridden with DAYS |
-|| `--stale <days>`{{>Includes/EnvMarker}} | Limit list to series which have not seen a release in 365 days. number of days can be overridden with DAYS |
-|| `--sort-by (name|age)`{{>Includes/EnvMarker}} | Choose list sort attribute
-|| `--descending`{{>Includes/EnvMarker}} | Sort in descending order |
-|| `--ascending`{{>Includes/EnvMarker}} | Sort in ascending order |
-| `show`<a name="subcommand-show"></a>{{> Includes/TableStylesMarker }} || Show the releases FlexGet has seen for a given series | 
-|| `<series name>` | Name of the series
-|| `--sort-by (age|identifier)`{{>Includes/EnvMarker}} | Choose list sort attribute |
-|| `--descending`{{>Includes/EnvMarker}} | Sort in descending order |
-|| `--ascending`{{>Includes/EnvMarker}} | Sort in ascending order |
-| `begin`|| Set the episode to start getting a series from (use `forget` to remove it) |
-|| `<series name>` | Name of the series |
-|| `<episode_id>` | Episode or season ID to start getting the series from (e.g. S02E01, 2013-12-11, or 9, depending on how the series is numbered, or S02 for season)|
-| `forget`|| Removes episodes, seasons, or a whole series from the entire database (including [`seen`](/Plugins/seen) plugin) |
-|| `<series name>` | Name of the series |
-|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]` | Episode or season ID(s) to forget (optional)
-| `remove` || Removes episodes, seasons, or a whole series from the series database only |
-|| `<series name>` | Name of the series |
-|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]` | Episode or season ID(s) to forget (optional)||
-| `add`<a name="subcommand-add"></a> |||
-|| `<series name>` | Name of the series |
-|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]` | Episode or season ID(s)  to add
-|| `--quality <quality_string>`{{>Includes/EnvMarker}} | [Quality](/Plugins/quality#qualities) string that is attached to each entity added
-{{> Includes/TableStylesDiv }}
-{{> Includes/EnvDiv }}
+| Sub-command                                                           | Option | Description/Example|
+|-----------------------------------------------------------------------| --- | --- |
+| `list`<a name="subcommand-list"></a>[*](#TableStylesDiv)            || List a summary of the different series being tracked |
+|| `(configured                                                          |unconfigured|all)`[^†^](#EnvDiv) | Limit list to series that are currently in the config or not (default: configured)
+|| `--premieres`[^†^](#EnvDiv)                                  | Limit list to series which only have episode 1 (and maybe also 2) downloaded |
+|| `--new <days>`[^†^](#EnvDiv)                                 | Limit list to series with a release seen in last 7 days. number of days can be overridden with DAYS |
+|| `--stale <days>`[^†^](#EnvDiv)                               | Limit list to series which have not seen a release in 365 days. number of days can be overridden with DAYS |
+|| `--sort-by (name                                                      |age)`[^†^](#EnvDiv) | Choose list sort attribute
+|| `--descending`[^†^](#EnvDiv)                                 | Sort in descending order |
+|| `--ascending`[^†^](#EnvDiv)                                  | Sort in ascending order |
+| `show`<a name="subcommand-show"></a>[*](#TableStylesDiv) || Show the releases FlexGet has seen for a given series | 
+|| `<series name>`                                                       | Name of the series
+|| `--sort-by (age                                                       |identifier)`[^†^](#EnvDiv) | Choose list sort attribute |
+|| `--descending`[^†^](#EnvDiv)                                 | Sort in descending order |
+|| `--ascending`[^†^](#EnvDiv)                                  | Sort in ascending order |
+| `begin`                                                               || Set the episode to start getting a series from (use `forget` to remove it) |
+|| `<series name>`                                                       | Name of the series |
+|| `<episode_id>`                                                        | Episode or season ID to start getting the series from (e.g. S02E01, 2013-12-11, or 9, depending on how the series is numbered, or S02 for season)|
+| `forget`                                                              || Removes episodes, seasons, or a whole series from the entire database (including [`seen`](/Plugins/seen) plugin) |
+|| `<series name>`                                                       | Name of the series |
+|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]`  | Episode or season ID(s) to forget (optional)
+| `remove`                                                              || Removes episodes, seasons, or a whole series from the series database only |
+|| `<series name>`                                                       | Name of the series |
+|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]`  | Episode or season ID(s) to forget (optional)||
+| `add`<a name="subcommand-add"></a>                                    |||
+|| `<series name>`                                                       | Name of the series |
+|| `<episode_id> [<episode_id> ...]`<br>`<season_id> [<season_id> ...]`  | Episode or season ID(s)  to add
+|| `--quality <quality_string>`[^†^](#EnvDiv)                   | [Quality](/Plugins/quality#qualities) string that is attached to each entity added
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
+[Includes/EnvDiv](/Includes/EnvDiv){.include}
 
 
 ### Environment Variables

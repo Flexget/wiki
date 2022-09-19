@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T05:13:36.421Z
 
 Download subtitles for entries referring to existing video files. 
 
-{{> Includes/PluginRequiresPip }}
+[Includes/PluginRequiresPip](/Includes/PluginRequiresPip){.include}
 
 ### Example (complete task)
 

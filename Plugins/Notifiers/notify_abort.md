@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:26:01.887Z
 ---
 
 # Notify Abort
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Sends a notification to [notifer](/Plugins/Notifiers) plugins on task aborts.
 

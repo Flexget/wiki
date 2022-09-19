@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:14:54.058Z
 ---
 
 # Trakt Add 
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 **IMPORTANT:**
 

@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:06:38.093Z
 ---
 
 # IMDB Required
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

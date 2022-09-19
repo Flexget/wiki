@@ -8,4 +8,4 @@ editor: markdown
 dateCreated: 2022-09-18T04:50:07.085Z
 ---
 
-{{> InstallWizard }}
+[InstallWizard](/InstallWizard){.include}

@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:14:19.302Z
 ---
 
 # The TVDB Remove
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

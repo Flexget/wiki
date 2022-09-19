@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:26:13.726Z
 ---
 
 # Notify Task
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task.
 This plugin runs on task exit and can be configured extensively.

@@ -31,7 +31,7 @@ View and manage [movie lists](/Plugins/List/movie_list).
 | `purge` || Removes an entire list with all of its movies; use this with caution |
 || *positional:* ||
 || `<list_name>` | Name of the list to remove |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 
 ### Examples

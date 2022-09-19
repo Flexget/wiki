@@ -15,7 +15,7 @@ Before scheduling FlexGet you must must [write a configuration file](/Configurat
 
 
 ## Scheduling
-{{> InstallWizard/Partial/Crontab }}
+[InstallWizard/Partial/Crontab](/InstallWizard/Partial/Crontab){.include}
 
 
 ## More options

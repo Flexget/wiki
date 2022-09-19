@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:12:07.521Z
 ---
 
 # Search
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

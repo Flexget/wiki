@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:13:40.368Z
 ---
 
 # Subtitle Queue
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 Queue files and download subtitles. Available since v1.2.256. No command line features as of yet (may come later).
 

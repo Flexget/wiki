@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:09:07.380Z
 ---
 
 # NZB Size
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 ### Example:
 ```

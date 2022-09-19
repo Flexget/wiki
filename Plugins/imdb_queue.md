@@ -9,5 +9,5 @@ dateCreated: 2022-09-18T05:06:30.573Z
 ---
 
 # IMDB Queue
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}
 

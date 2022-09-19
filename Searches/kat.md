@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:18:05.323Z
 ---
 
 # Kat
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 Generate entries from [kat.ph](http://kat.ph) search results.		
 

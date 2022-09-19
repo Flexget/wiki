@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:26:05.807Z
 ---
 
 # Notify Entries
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Use this plugin to send notification to one or more [notifer](/Plugins/Notifiers) plugins about the task entries.
 This plugin runs on task exit and can be configured extensively

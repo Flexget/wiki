@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:08:20.754Z
 ---
 
 # Movie Queue
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Manages an internal list of movies with quality information. Allows you to accept movies, add movies to the queue, or remove movies from the queue when they are seen on the task. You also have the ability to manually add movies to the queue from the command line.
 

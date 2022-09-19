@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:15:29.418Z
 ---
 
 # Transmission RPC
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

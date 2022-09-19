@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:24:51.228Z
 ---
 
 # List Queue
-{{> Includes/PluginReplaced }}
+[Includes/PluginReplaced](/Includes/PluginReplaced){.include}

@@ -28,7 +28,7 @@ View and manage entries [pending approval](/Plugins/pending_approval).
 | `clear` | Clear all unapproved pending entries |
 || *optional:* ||
 || `--task-name <task_name>` | Filter by task name ||
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

@@ -9,4 +9,4 @@ dateCreated: 2022-09-18T05:14:11.421Z
 ---
 
 # The TVDB Favorites
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}

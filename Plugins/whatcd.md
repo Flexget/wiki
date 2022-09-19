@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:16:46.771Z
 ---
 
 # what.cd
-{{> Includes/PluginRemovedArchived }}
+[Includes/PluginRemovedArchived](/Includes/PluginRemovedArchived){.include}
 
 A plugin that performs searches on [https://what.cd](/https://what.cd) and returns entries for each result.
 

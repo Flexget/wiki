@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T05:04:39.378Z
 ---
 
 # Movie Queue Input
-{{> Includes/PluginReplacedArchived }}
+[Includes/PluginReplacedArchived](/Includes/PluginReplacedArchived){.include}
 
 Creates an [Entry](/Entry) for each movie in your [movie_queue](/Plugins/movie_queue) (intended to be used with the [discover](/Plugins/discover) plugin).
 

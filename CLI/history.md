@@ -18,7 +18,7 @@ View the history of entries that FlexGet has accepted.
 | `--search <term>` | Limit to results that contain `<term>` |
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--short`, `-s` | Shorter output |
-{{> Includes/TableStylesDiv }}
+[Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
 
 ### Examples
 ```bash

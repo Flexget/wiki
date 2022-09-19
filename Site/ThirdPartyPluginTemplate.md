@@ -36,7 +36,7 @@ The `Plugin Title` should generally be the same as the name, with underscores re
 
 ```markdown
 # Plugin Title
-{{> Includes/ThirdPartyPluginWarning }}
+[Includes/ThirdPartyPluginWarning](/Includes/ThirdPartyPluginWarning){.include}
 
 
 This is where your plugin description goes.
@@ -46,7 +46,7 @@ This is where your plugin description goes.
 ## Installation
 Install instructions are provided in an imported bit of text. If your plugin is installed as a Python package, change the text `Includes/ThirdPartyPluginInstallDotFlexget` to `Includes/ThirdPartyPluginInstallPackage` in both places where it appears in the final template. Do not otherwise modify this line.
 ```yaml
-{{> Includes/ThirdPartyPluginInstallDotFlexget }}
+[Includes/ThirdPartyPluginInstallDotFlexget](/Includes/ThirdPartyPluginInstallDotFlexget){.include}
 ```
 
 ## Usage
@@ -83,5 +83,5 @@ my_plugin:
 The issues link is provided in an imported bit of text. The link to your issues page is designated in the first section. Do not modify this section.
 
 ```
-{{> Includes/ThirdPartyPluginIssues }}
+[Includes/ThirdPartyPluginIssues](/Includes/ThirdPartyPluginIssues){.include}
 ```

@@ -9,12 +9,12 @@ dateCreated: 2022-09-18T05:19:22.896Z
 ---
 
 # Plugin Title
-{{> Includes/ThirdPartyPluginWarning }}
+[Includes/ThirdPartyPluginWarning](/Includes/ThirdPartyPluginWarning){.include}
 
 
 Plugin description text.
 
-{{> Includes/ThirdPartyPluginInstallDotFlexget }}
+[Includes/ThirdPartyPluginInstallDotFlexget](/Includes/ThirdPartyPluginInstallDotFlexget){.include}
 
 ## Usage
 Usage description text.
@@ -37,4 +37,4 @@ my_plugin:
   optional_option: green
 ```
 
-{{> Includes/ThirdPartyPluginIssues }}
+[Includes/ThirdPartyPluginIssues](/Includes/ThirdPartyPluginIssues){.include}
