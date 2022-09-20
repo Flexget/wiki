@@ -2,7 +2,7 @@
 title: Developers
 description: 
 published: true
-date: 2022-09-18T04:51:39.100Z
+date: 2022-09-20T13:30:39.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:11.127Z
@@ -42,8 +42,7 @@ import IPython; IPython.embed()
 -------------------------
 Thanks to JetBrains for the free open source PyCharm license!
 
-
-<img src="https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2015/12/PyCharm_400x400_Twitter_logo_white.png" width=200 link=https://www.jetbrains.com/pycharm/ alt="pycharm logo">  
+[![PyCharm Logo](https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm.png =200x)](https://www.jetbrains.com/pycharm/)
 
 ### Attachments  
 
