@@ -17,7 +17,7 @@ dateCreated: 2022-09-18T05:00:38.884Z
 
 ### Install Python
 Supported versions of Python:
-[FlexgetCurrentPythonRequirements](/FlexgetCurrentPythonRequirements){.include}
+[FlexgetCurrentPythonRequirements](/Includes/FlexgetCurrentPythonRequirements){.include}
 
 
 If you already have a compatible version of Python installed, you can continue to the next step.

@@ -15,7 +15,7 @@ dateCreated: 2022-09-18T05:23:51.904Z
 
 ## Python and pip
 Next you will need to install Python and pip. These versions of Python are currently supported:
-[FlexgetCurrentPythonRequirements](/FlexgetCurrentPythonRequirements){.include}
+[FlexgetCurrentPythonRequirements](/Includes/FlexgetCurrentPythonRequirements){.include}
 
 
 Homebrew will install the latest version of Python 3, and pip alongside it.

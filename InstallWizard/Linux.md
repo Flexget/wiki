@@ -14,7 +14,7 @@ dateCreated: 2022-09-18T05:00:12.084Z
 ### Python
 
 Supported versions of Python:
-[FlexgetCurrentPythonRequirements](/FlexgetCurrentPythonRequirements){.include}
+[FlexgetCurrentPythonRequirements](/Includes/FlexgetCurrentPythonRequirements){.include}
 
 
 You can check your installed version of Python with this command:
