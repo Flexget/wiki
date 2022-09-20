@@ -2,7 +2,7 @@
 title: Imports
 description: 
 published: true
-date: 2022-09-18T05:19:17.629Z
+date: 2022-09-20T05:12:20.187Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:19:14.943Z
@@ -11,23 +11,18 @@ dateCreated: 2022-09-18T05:19:14.943Z
 # Wiki `import`
 
 ## Using Import
-Import of other wiki pages can be done on any page by adding this block at the top, above all other content:
-```yaml
----
-import:
- - Path/To/OtherPage
----
-```
-
-Then, in the body of the page, add this where you want the content to show up. Note it must exactly match the path as entered in the `import` statement above.
+Wiki.js currently does not have an official way to import content, but we have a workaround with javascript. Putting a link to another wiki page, followed by `{.include}` to mark it with the include class will cause the link to be replaced with the contents of that page. 
 
 ```markdown
-[Path/To/OtherPage](/Path/To/OtherPage){.include}
+[Anything you want here](/Path/To/OtherPage){.include}
 ```
 
 If you are adding something that will be used on multiple pages, please add it in the [Includes](/Includes/) directory. Click the Index button on that page (at the top-left next to "FLEXGET") to view existing files.
 
 ## Plugin information
+
+> These kinds of imports with variable filling do not currently work on our new wiki software (wiki.js)!
+{.is-danger}
 
 ### Requires additional libraries via pip
 ```yaml
