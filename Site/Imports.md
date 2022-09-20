@@ -2,7 +2,7 @@
 title: Imports
 description: 
 published: true
-date: 2022-09-20T05:12:20.187Z
+date: 2022-09-20T05:15:25.141Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:19:14.943Z
@@ -17,7 +17,7 @@ Wiki.js currently does not have an official way to import content, but we have a
 [Anything you want here](/Path/To/OtherPage){.include}
 ```
 
-If you are adding something that will be used on multiple pages, please add it in the [Includes](/Includes/) directory. Click the Index button on that page (at the top-left next to "FLEXGET") to view existing files.
+If you are adding something that will be used on multiple pages, please add it in the [Includes](/Includes/) directory. Click the 'Browse' button on the sidebar to view current contents of that directory.
 
 ## Plugin information
 
