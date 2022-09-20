@@ -14,7 +14,7 @@ dateCreated: 2022-09-18T05:23:27.917Z
 # Multi-config/user solution using the IRC daemon
 
 > This guide is very complex (+ work in progress) and has many smaller use-cases baked into a big guide. You will find gaps in documentation throughout the writing and sometimes a LOT of commented lines, but I expect experienced FlexGet users to pick it up from there. I am available if you @mention me from Gitter. If you are new to FlexGet you may have a hard time.
-{.is-error}
+{.is-danger}
 
 ## Intro
 One issue that many flexget users have suffered in the past has been the lack of speed to get to those latest torrents. That is, until users cvium and liight gave us the IRC daemon, which acts similarly to autodl.

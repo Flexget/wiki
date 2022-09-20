@@ -13,7 +13,7 @@ dateCreated: 2022-09-18T05:08:48.136Z
 {.is-info}
 
 > Warning: There is currently a problem where this plugin will not emit the next episode for a season when it has not yet aired. #2831
-{.is-error}
+{.is-danger}
 
 This plugin creates an [Entry](/Entry) for the next episode to watch or to collect for each show you have marked seen or collected in your [trakt.tv](http://trakt.tv) account.
 

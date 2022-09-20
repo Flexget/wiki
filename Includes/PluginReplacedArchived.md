@@ -9,7 +9,7 @@ dateCreated: 2022-09-18T04:59:34.402Z
 ---
 
 > Plugin Replaced!
-{.is-error}
+{.is-danger}
 
 This plugin was replaced with {{replacement_plugins}} in v{{removed_in_version}}.
 

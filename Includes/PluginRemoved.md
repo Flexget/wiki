@@ -9,6 +9,6 @@ dateCreated: 2022-09-18T04:59:23.223Z
 ---
 
 > Plugin Removed!
-{.is-error}
+{.is-danger}
 
 This plugin was removed in v{{removed_in_version}}.
