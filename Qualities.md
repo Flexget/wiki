@@ -2,7 +2,7 @@
 title: Qualities
 description: 
 published: true
-date: 2022-09-21T23:12:23.930Z
+date: 2022-09-21T23:43:53.090Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:20.513Z
@@ -15,28 +15,27 @@ Qualities are split into five separate categories: resolution, source, codec, co
 To update this table, you can run `flexget wiki-qualities` which will output the markdown to paste here.
 -->
 
-|Resolution|Source|Codec|Color Range|Audio|
-|---|---|---|---|---|
-|2160p|bluray|h265|dolbyvision|truehd|
-|1080p|remux|vp9|hdrplus|dtshd|
-|1080i|dvdrip|h264|hdr|dts|
-|720p|webdl|xvid|10bit|flac|
-|720i|hdtv|divx|8bit|dd+5.1|
-|hr|webrip| | |ac3|
-|576p|bdscr| | |dd5.1|
-|540p|dvdscr| | |aac|
-|480p|sdtv| | |mp3|
-|368p|dsr| | | |
-|360p|tvrip| | | |
-| |preair| | | |
-| |ppvrip| | | |
-| |hdrip| | | |
-| |r5| | | |
-| |tc| | | |
-| |ts| | | |
-| |cam| | | |
-| |workprint| | | |
-
+| Resolution | Source    | Codec | Color Range | Audio  |
+|------------|-----------|-------|-------------|--------|
+| 2160p      | bluray    | h265  | dolbyvision | truehd |
+| 1080p      | remux     | vp9   | hdrplus     | dtshd  |
+| 1080i      | dvdrip    | h264  | hdr         | dts    |
+| 720p       | webdl     | xvid  | 10bit       | flac   |
+| 720i       | hdtv      | divx  | 8bit        | dd+5.1 |
+| hr         | webrip    |       |             | ac3    |
+| 576p       | bdscr     |       |             | dd5.1  |
+| 540p       | dvdscr    |       |             | aac    |
+| 480p       | sdtv      |       |             | mp3    |
+| 368p       | dsr       |       |             |        |
+| 360p       | tvrip     |       |             |        |
+|            | preair    |       |             |        |
+|            | ppvrip    |       |             |        |
+|            | hdrip     |       |             |        |
+|            | r5        |       |             |        |
+|            | tc        |       |             |        |
+|            | ts        |       |             |        |
+|            | cam       |       |             |        |
+|            | workprint |       |             |        |
 
 ## Requirements
 In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all five categories. Any category you do not specify in your requirements implies that any value is ok for that category.
