@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-09-21T12:31:02.001Z
+date: 2022-09-21T12:31:22.093Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -21,12 +21,12 @@ This wizard guides you through installing FlexGet.
  * [Windows](/InstallWizard/Windows)
  * [Linux / BSD](/InstallWizard/Linux)
  * [Mac OSX](/InstallWizard/OSX)
- * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
 
 ### Hardware-specific
 
 Written and maintained by user community, please improve and update!
 
+ * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
  * [OpenWrt](/InstallWizard/OpenWrt)
  * [Plugbox](/InstallWizard/Plugbox)
  * [QNAP NAS](/InstallWizard/QNAP)
