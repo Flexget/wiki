@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-09-18T05:00:42.742Z
+date: 2022-09-21T12:31:02.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -21,6 +21,7 @@ This wizard guides you through installing FlexGet.
  * [Windows](/InstallWizard/Windows)
  * [Linux / BSD](/InstallWizard/Linux)
  * [Mac OSX](/InstallWizard/OSX)
+ * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
 
 ### Hardware-specific
 
