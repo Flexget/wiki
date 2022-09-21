@@ -2,7 +2,7 @@
 title: Qualities
 description: 
 published: true
-date: 2022-09-21T21:41:35.471Z
+date: 2022-09-21T23:12:23.930Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:20.513Z
@@ -17,7 +17,25 @@ To update this table, you can run `flexget wiki-qualities` which will output the
 
 |Resolution|Source|Codec|Color Range|Audio|
 |---|---|---|---|---|
-|2160p<br>1080p<br>1080i<br>720p<br>720i<br>hr<br>576p<br>540p<br>480p<br>368p<br>360p|bluray<br>remux<br>dvdrip<br>webdl<br>hdtv<br>webrip<br>bdscr<br>dvdscr<br>sdtv<br>dsr<br>tvrip<br>preair<br>ppvrip<br>hdrip<br>r5<br>tc<br>ts<br>cam<br>workprint|h265<br>vp9<br>h264<br>xvid<br>divx|dolbyvision<br>hdrplus<br>hdr<br>10bit<br>8bit|truehd<br>dtshd<br>dts<br>flac<br>dd+5.1<br>ac3<br>dd5.1<br>aac<br>mp3|
+|2160p|bluray|h265|dolbyvision|truehd|
+|1080p|remux|vp9|hdrplus|dtshd|
+|1080i|dvdrip|h264|hdr|dts|
+|720p|webdl|xvid|10bit|flac|
+|720i|hdtv|divx|8bit|dd+5.1|
+|hr|webrip| | |ac3|
+|576p|bdscr| | |dd5.1|
+|540p|dvdscr| | |aac|
+|480p|sdtv| | |mp3|
+|368p|dsr| | | |
+|360p|tvrip| | | |
+| |preair| | | |
+| |ppvrip| | | |
+| |hdrip| | | |
+| |r5| | | |
+| |tc| | | |
+| |ts| | | |
+| |cam| | | |
+| |workprint| | | |
 
 
 ## Requirements
