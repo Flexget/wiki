@@ -2,7 +2,7 @@
 title: Qualities
 description: 
 published: true
-date: 2022-09-18T04:51:23.187Z
+date: 2022-09-21T21:25:07.640Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:20.513Z
@@ -11,16 +11,9 @@ dateCreated: 2022-09-18T04:51:20.513Z
 # Qualities
 Qualities are split into five separate categories: resolution, source, codec, color range and audio. Any given release can have a value in all five of these categories. Here are all of the values within each category, listed with highest value at the top:
 
-<div class="row">
-{{#each categories }}
-  <ul class="list-group col-xs-4 col-sm-3">
-  <li class="list-group-item active">{{@key}}</li>
-  {{# this }}
-  <li class="list-group-item">{{ this }}</li>
-  {{/this}}
-  </ul>
-{{/each}}
-</div>
+|Resolution|Source|Codec|Color Range|Audio|
+|---|---|---|---|---|
+|2160p<br>1080p<br>1080i<br>720p<br>720i<br>hr<br>576p<br>540p<br>480p<br>368p<br>360p|bluray<br>remux<br>dvdrip<br>webdl<br>hdtv<br>webrip<br>bdscr<br>dvdscr<br>sdtv<br>dsr<br>tvrip<br>preair<br>ppvrip<br>hdrip<br>r5<br>tc<br>ts<br>cam<br>workprint|h265<br>vp9<br>h264<br>xvid<br>divx|dolbyvision<br>hdrplus<br>hdr<br>10bit<br>8bit|truehd<br>dtshd<br>dts<br>flac<br>dd+5.1<br>ac3<br>dd5.1<br>aac<br>mp3|
 
 ## Requirements
 In your config, you are not limited to specifying a single quality you want, you can specify individual values, or ranges, in all five categories. Any category you do not specify in your requirements implies that any value is ok for that category.
