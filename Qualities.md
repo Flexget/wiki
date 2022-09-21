@@ -2,7 +2,7 @@
 title: Qualities
 description: 
 published: true
-date: 2022-09-21T23:44:45.034Z
+date: 2022-09-21T23:44:57.965Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:20.513Z
