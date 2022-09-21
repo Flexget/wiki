@@ -2,7 +2,7 @@
 title: RaspberryPi OS Lite
 description: 
 published: true
-date: 2022-09-21T12:50:50.567Z
+date: 2022-09-21T12:52:26.673Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T12:50:50.567Z
@@ -59,3 +59,7 @@ Test, you should see version number
 ```bash
 flexget -V
 ```
+
+## Next Step
+
+Continue to [Scheduling](/InstallWizard/Linux/Scheduling).
