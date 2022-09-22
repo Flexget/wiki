@@ -11,7 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bbf4ba5972d6efea509a47b7b9845c949959053d--->
+<!---bae1eddd239bb16e0bdb76132b58b0dff48b73b6--->
+
+## 3.3.30.dev (unreleased)
+### Fixed
+- Aria2 works again via jsonrpc
 
 <!---6d057967043eeb20956f66d1dd6299055aebadd3--->
 
