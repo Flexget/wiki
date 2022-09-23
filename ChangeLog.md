@@ -11,13 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bae1eddd239bb16e0bdb76132b58b0dff48b73b6--->
+<!---6652758bf8fde45d52542a01d4ce5615490fbbaf--->
 
-## 3.3.30.dev (unreleased)
+<!---b7a037ecfbea4b5cddf9f5eef27c685e74cf7c19--->
+
+## 3.3.30 (2022-09-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.29...v3.3.30)
 ### Fixed
 - Aria2 works again via jsonrpc
 
-<!---6d057967043eeb20956f66d1dd6299055aebadd3--->
 
 ## 3.3.29 (2022-09-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.28...v3.3.29)
