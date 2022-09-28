@@ -2,7 +2,7 @@
 title: Cookbook
 description: 
 published: true
-date: 2022-09-28T17:41:53.142Z
+date: 2022-09-28T17:47:11.891Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:03.276Z
@@ -24,6 +24,7 @@ You can [login](/login) via oauth with either a GitHub or Google account.
 - [Recipes for movies](/Cookbook/Movies)
 - [Recipes for URL rewriting](/Cookbook/Urlrewrite)
 - [Recipes for Ebooks](/Cookbook/SimpleEbooks)
+- [Recipes for Sports](/Cookbook/Sports)
 - [General recipes](/Cookbook/General)
 - [Advanced recipes](/Cookbook/Advanced)
 
