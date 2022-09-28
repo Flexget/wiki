@@ -2,17 +2,16 @@
 title: ConfigFileEditor-noarch-14spk
 description: 
 published: true
-date: 2022-09-18T05:29:34.743Z
+date: 2022-09-28T18:00:41.651Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:29:32.019Z
 ---
 
-templates:
-  # This is just in a template so that it can easily be re-used in multiple tasks 
-  # (for example in an rss based and discover based task)
-  # If you only have one task using your series config, you can place
-  # the configure_series plugin directly in that task rather than in a template
+# Templates
+  This is just in a template so that it can easily be re-used in multiple tasks (for example in an rss based and discover based task).
+  If you only have one task using your series config, you can place   the `configure_series` plugin directly in that task rather than in a template.
+  ```
   tv:
     configure_series:
       settings:
@@ -25,11 +24,12 @@ templates:
           account: juricaz
           list: Watchlist
           type: shows
+  ```
+# Tasks
+  This task will look for episodes you have added to your `Watchlist` list at trakt.
+  It will set the `begin` series option for that show, then remove the episode and re-add it to your `Watchlist` list as a show.
   
-tasks:
-  # This task will look for episodes you have added to your `Watchlist` list at trakt.
-  # It will set the `begin` series option for that show, then remove the episode and re-add 
-  # it to your `Watchlist` list as a show.
+```
   follow-from-trakt:
     seen: local
     trakt_list:
@@ -48,13 +48,12 @@ tasks:
           account: juricaz
           list: Watchlist
           type: shows
+```
+This task is what will actually download your shows.
+See https://flexget.com/wiki/Cookbook/Series/Search for a more detailed explanation of how this search based task works, as well as an example of how to use your `tv` template on an rss-based task alongside.
 
-  # This task is what will actually download your shows.
-  # See https://flexget.com/wiki/Cookbook/Series/Search 
-  # for a more detailed explanation of how this search based task works,
-  # as well as an example of how to use your `tv` template on an rss
-  # based task alongside.
-  discover-shows:
+```
+discover-shows:
     # If this is your only task getting shows, you can just include 
     # the configure_series plugin here instead of using the template.
     template: tv
@@ -132,10 +131,12 @@ tasks:
       begin: S04E01
     - The Witcher
       begin: S02E01
+```
 
-# If you are using daemon mode, make sure you schedule the tasks in the right order, so
-# that the begin episode gets set before it tries to download your shows
+If you are using daemon mode, make sure you schedule the tasks in the right order, so that the begin episode gets set before it tries to download your shows
+```
 schedules:
   - tasks: [follow-from-trakt, discover-shows]
     interval:
       minutes: 30
+```
