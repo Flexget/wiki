@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-09-18T05:27:12.975Z
+date: 2022-10-06T10:30:42.170Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -306,6 +306,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [rottentomatoes_lookup](/Plugins/rottentomatoes_lookup) | Enable Rotten Tomatoes parsing for Rotten Tomatoes fields on-demand. |
 | [thetvdb_lookup](/Plugins/thetvdb_lookup) | Fetch series information from http://thetvdb.com/ |
 | [tmdb_lookup](/Plugins/tmdb_lookup) | Enable http://www.themoviedb.org/ parsing for tmdb fields on-demand. |
+| [torrent_files](/Plugins/torrent_files) | Builtin. Parse torrent files for metadata |
 | [trakt_lookup](/Plugins/trakt_lookup) | Enable http://trakt.tv/ parsing for trakt fields on-demand. |
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
 | [bluray_lookup](/Plugins/bluray_lookup) | Enable http://m.blu-ray.com/ parsing for bluray fields on-demand. |
