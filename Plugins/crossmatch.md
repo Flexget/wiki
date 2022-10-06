@@ -2,7 +2,7 @@
 title: crossmatch
 description: 
 published: true
-date: 2022-09-18T05:16:39.074Z
+date: 2022-10-06T22:20:08.937Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:19.274Z
@@ -38,6 +38,29 @@ crossmatch:
 ```
 
 You will also need to enable [imdb_lookup](/Plugins/imdb_lookup) on the feed in order to get imdb_id populated. Granted, this is a lot more complicated than old imdb_rated used to be, but crossmatch allows all kinds of other clever uses as well.
+
+### Organize rated movies
+
+Move imdb rated (watched) movies into another location.
+
+```yaml
+interval: 1 days
+filesystem: /path/to/movies/
+seen: no
+history: no
+imdb_lookup: yes
+crossmatch:
+  from:
+  - imdb_watchlist:
+      list: ratings
+      user_id: '{? imdb.user_id ?}'
+  fields:
+  - imdb_id
+  action: accept
+move:
+  allow_dir: yes
+  to: /path/to/movies-rated/
+```
 
 ### Organize movies you rated badly
 
@@ -83,8 +106,7 @@ rss:
   url: http://example.com/rss.xml
 crossmatch:
   from:
-    - filesystem:
-    - /media/artists/
+    - filesystem: /media/artists/
   fields:
     - title
   action: accept
