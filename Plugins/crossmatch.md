@@ -2,7 +2,7 @@
 title: crossmatch
 description: 
 published: true
-date: 2022-10-06T22:20:08.937Z
+date: 2022-10-06T22:20:32.217Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:19.274Z
@@ -51,11 +51,11 @@ history: no
 imdb_lookup: yes
 crossmatch:
   from:
-  - imdb_watchlist:
-      list: ratings
-      user_id: '{? imdb.user_id ?}'
+    - imdb_watchlist:
+        list: ratings
+        user_id: '{? imdb.user_id ?}'
   fields:
-  - imdb_id
+    - imdb_id
   action: accept
 move:
   allow_dir: yes
