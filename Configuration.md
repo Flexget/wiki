@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-09-18T05:28:19.107Z
+date: 2022-10-06T10:54:01.450Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:51.632Z
@@ -78,7 +78,7 @@ tasks:
 ```
 We aren't finished yet; this line ends with a colon, which means we need to provide the next section, which would be the options for the rss plugin.
 
-When configuring any plugin, visit that plugin's [wiki page](/Plugins) to find out what format the options for that plugin should be in. The most simple configuration format for the rss plugin allows us to just define the url for the rss feed. If the plugin has more complicated configuration, follow the indentation shown in the plugin documentation.
+When configuring any plugin, visit that plugin's [wiki page](/Plugins) to find out what format the options for that plugin should be in. The most simple configuration format for the rss plugin allows us to just define the url for the rss feed. If the plugin has more complex configuration, follow the indentation shown in the plugin documentation.
 
 **NOTE**: If you copy and paste examples from the documentation, you must increase the indentation so it is within your task.
 
@@ -174,7 +174,7 @@ Remember to consult the [plugins](/Plugins) wiki page to choose your plugins, an
 ## Common misconceptions
  * Plugin order doesn't matter. You can list them in any order you like. The most logical order would be `inputs` > `filters` > `outputs`.
  * Task order doesn't matter. Tasks are executed in a seemingly random order. Use the  [`priority` plugin](/Plugins/priority) to prioritize tasks when necessary.
- * With very few exceptions, you cannot use plugins more than once in a single task. This is limited by the chosen simpler syntax in the configuration file. Instead, see the [`template` plugin](/Plugins/template).
+ * With very few exceptions, you cannot use plugins more than once in a single task. This limitation was chosen because it allows simpler syntax in the configuration file. Some plugins such as [`sequence` plugin](/Plugins/sequence) and [`inputs` plugin](/Plugins/inputs) can be used to overcome this when neccessary.
 
 ## Tips
 ### Task Naming
