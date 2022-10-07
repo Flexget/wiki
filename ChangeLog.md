@@ -11,10 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d8d3dffc99e245f96a126c0c957994ff0e207688--->
+<!---5959769aefa1edc519832d3007cdd3ff72c0bfb6--->
 
 ## 3.3.31.dev (unreleased)
 ### Fixed
+- aria2: Auto-covert aria options to strings (which is required by their api)
 - kitsu: fix plugin failures, allow user_id login
 
 <!---b7a037ecfbea4b5cddf9f5eef27c685e74cf7c19--->
