@@ -11,7 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6652758bf8fde45d52542a01d4ce5615490fbbaf--->
+<!---d8d3dffc99e245f96a126c0c957994ff0e207688--->
+
+## 3.3.31.dev (unreleased)
+### Fixed
+- kitsu: fix plugin failures, allow user_id login
 
 <!---b7a037ecfbea4b5cddf9f5eef27c685e74cf7c19--->
 
