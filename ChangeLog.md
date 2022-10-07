@@ -11,14 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5959769aefa1edc519832d3007cdd3ff72c0bfb6--->
+<!---0d7c69bbae5bca21b0a8b4a6f03383bfb990e328--->
 
-## 3.3.31.dev (unreleased)
+<!---08a7caad042a0c983aa6d0e25612171d818f7464--->
+
+## 3.3.31 (2022-10-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.30...v3.3.31)
 ### Fixed
 - aria2: Auto-covert aria options to strings (which is required by their api)
 - kitsu: fix plugin failures, allow user_id login
 
-<!---b7a037ecfbea4b5cddf9f5eef27c685e74cf7c19--->
 
 ## 3.3.30 (2022-09-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.29...v3.3.30)
