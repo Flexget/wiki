@@ -11,7 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---467646355f8cfd0405d17ee41bf8d34be53e34f5--->
+<!---ce698c16015c421f985312e804e71c7a88365126--->
+
+## 3.3.33.dev (unreleased)
+### Added
+- Notification plugin for Bark
 
 <!---a94618c861c4aa442bb43e3d4e5c1699aaa97605--->
 
