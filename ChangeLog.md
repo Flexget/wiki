@@ -11,13 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ce698c16015c421f985312e804e71c7a88365126--->
+<!---97343fb0809973dad664d1e9d05e111c93e90aae--->
 
-## 3.3.33.dev (unreleased)
+<!---3bf94ed2316a6931f547b4cc4760fdb9c51b0656--->
+
+## 3.3.33 (2022-10-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.32...v3.3.33)
 ### Added
 - Notification plugin for Bark
 
-<!---a94618c861c4aa442bb43e3d4e5c1699aaa97605--->
 
 ## 3.3.32 (2022-10-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.31...v3.3.32)
