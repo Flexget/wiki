@@ -22,12 +22,12 @@ This plugin allows Flexget to send notifications to a [Bark](https://github.com/
 | **device_key**| string | Key of the device. **Required**
 | level | string | `'active'`, `'timeSensitive'`, or `'passive'`. |
 | badge | integer | The number displayed next to App icon. ([Apple Developer](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/1649864-badge)) |
-| automaticallyCopy | string | Must be `1`. |
+| automatically_copy | boolean | Automatically copy to the clipboard. |
 | copy | string |  The value to be copied. |
 | sound | string | Value from [here](https://github.com/Finb/Bark/tree/master/Sounds). |
 | icon | string | An url to the icon, available only on iOS 15 or later. |
 | group | string | The group of the notification. |
-| isArchive | string | Value must be `1`. Whether or not should be archived by the app. |
+| is_archive | boolean | Whether or not should be archived by the app. |
 | url | string | Url that will jump when click notification. |
 
 
