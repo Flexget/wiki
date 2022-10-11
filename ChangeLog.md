@@ -11,7 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---97343fb0809973dad664d1e9d05e111c93e90aae--->
+<!---786548862078b972ebd4524efe90e2d313dca147--->
+
+## 3.3.34.dev (unreleased)
+### Added
+- docker: tzdata for timezone support via env
 
 <!---3bf94ed2316a6931f547b4cc4760fdb9c51b0656--->
 
