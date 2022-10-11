@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-11T16:47:11.854Z
+date: 2022-10-11T18:37:12.536Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -23,7 +23,7 @@ docker cli:
 ```
 docker run -d \
   --name flexget \
-  -v $config:/root/.flexget \ # required
+  -v /host/config:/root/.flexget \ # required
   -e TZ=$TIMEZONE \ # optional: defaults to UTC
   -p 5050:5050 \ # optional: for webui
   ghcr.io/flexget/flexget \
