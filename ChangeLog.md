@@ -11,14 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9671a94dc5a0f4b657e5ca2fd909af44da8d9be5--->
+<!---1f99b13ca4e766895f2d79c7843472ff53379681--->
 
-## 3.3.34.dev (unreleased)
+<!---c67a8af8eb070d58ecbbe92b3aef3a86b85a70d0--->
+
+## 3.3.34 (2022-10-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.33...v3.3.34)
 ### Added
 - docker: build caching
 - docker: tzdata for timezone support via env
 
-<!---3bf94ed2316a6931f547b4cc4760fdb9c51b0656--->
 
 ## 3.3.33 (2022-10-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.32...v3.3.33)
