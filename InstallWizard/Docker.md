@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-11T18:45:54.267Z
+date: 2022-10-12T04:40:14.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -30,8 +30,8 @@ docker cli:
 docker run -d \
   --name flexget \
   -v /host/config:/root/.flexget \ # required
-  -e TZ=$TIMEZONE \ # optional: defaults to UTC
-  -p 5050:5050 \ # optional: for webui
+  -e TZ=$TIMEZONE \                # optional: defaults to UTC
+  -p 5050:5050 \                   # optional: for webui
   ghcr.io/flexget/flexget \
   daemon start --autoreload-config
 ```
@@ -44,11 +44,11 @@ services:
     commands:
       - daemon
       - start
-      - --autoreload-config
+      - --autoreload-config         # optional
     ports:
-      - 5050:5050 # optional: for webui
+      - 5050:5050                   # optional: for webui
     environment:
-      - TZ=$TIMEZONE # optional: defaults to UTC
+      - TZ=$TIMEZONE                # optional: defaults to UTC
     volumes:
       - /host/config:/root/.flexget # required
       - /host/downloads:/downloads 
@@ -98,6 +98,7 @@ services:
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget)
   - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
   - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
+  - [ksurl/flexget](https://github.com/ksurl/docker-flexget)
 
 ### Build your own image
 
