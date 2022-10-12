@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-12T04:40:14.259Z
+date: 2022-10-12T04:41:26.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -98,7 +98,7 @@ services:
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget)
   - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
   - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
-  - [ksurl/flexget](https://github.com/ksurl/docker-flexget)
+  - [ksurl/flexget](https://github.com/ksurl/docker-flexget/pkgs/container/flexget)
 
 ### Build your own image
 
