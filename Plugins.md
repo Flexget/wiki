@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-10-06T10:30:42.170Z
+date: 2022-10-14T16:46:52.041Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -190,6 +190,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 | [accept_all](/Plugins/accept_all) | Accept all entries. |
 | [age](/Plugins/age) | Reject, Accept entries based on age by looking at a date in a specified entry field. |
 | [archives](/Plugins/archives) | Accept, reject entries based on if they're valid ZIP/RAR archives. |
+| [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [exists](/Plugins/exists) | Reject entries based on existing files in filesystem. |
 | [exists_movie](/Plugins/exists_movie) | Reject entries based on existing movies in filesystem. |
 | [exists_series](/Plugins/exists_series) | Reject entries based on existing series in filesystem. |
@@ -201,7 +202,6 @@ Filters based on data retrieved from 3rd party sites
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
