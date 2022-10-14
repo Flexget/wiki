@@ -11,16 +11,18 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d9cde703a37dbae9b174a012add0e540467b0183--->
+<!---d3e9bccc4d4bc68a777abd25e03d04a3546cc601--->
 
-## 3.3.35.dev (unreleased)
+<!---80127e77bc9cc972c0952249e82067b668b5e067--->
+
+## 3.3.35 (2022-10-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.34...v3.3.35)
 ### Fixed
 - docker: typo on develop caching, extra latest tag on releases tag
 
 ### Changed
 - Add warning that python 3.6 will not be supported soon.
 
-<!---c67a8af8eb070d58ecbbe92b3aef3a86b85a70d0--->
 
 ## 3.3.34 (2022-10-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.33...v3.3.34)
