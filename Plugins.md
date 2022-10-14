@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-10-14T16:46:52.041Z
+date: 2022-10-14T16:49:47.823Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -427,11 +427,3 @@ Use `flexget execute --help` for full option list.
 Plugins can be installed by simply placing them in a `plugins` folder alongside your configuration file. (This would usually be `~/.flexget/plugins/`, however it may be different if your config is in a different [location](https://www.flexget.com/Configuration#location).) It is also possible to package plugins in a separate Python package like [FlexGet extras](https://github.com/Flexget/extras).
 
 There is a list of [third-party and extra plugins](/Plugins/ThirdPartyExtras) available, which are plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
-
-## Deprecated
-| Keyword | Description |
-| --- | --- |
-| [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
-|[emit_movie_queue](/Plugins/emit_movie_queue)|Emit your [movie_queue](/Plugins/movie_queue).|| 
-| [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
-| [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
