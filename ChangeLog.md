@@ -11,11 +11,14 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f028c339cfb7fb0416dcc48922167528fcac5157--->
+<!---d9cde703a37dbae9b174a012add0e540467b0183--->
 
 ## 3.3.35.dev (unreleased)
 ### Fixed
 - docker: typo on develop caching, extra latest tag on releases tag
+
+### Changed
+- Add warning that python 3.6 will not be supported soon.
 
 <!---c67a8af8eb070d58ecbbe92b3aef3a86b85a70d0--->
 
