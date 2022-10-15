@@ -11,7 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d3e9bccc4d4bc68a777abd25e03d04a3546cc601--->
+<!---fa57528903636fd5225fa29a3fe5e50bab16186c--->
+
+## 3.3.36.dev (unreleased)
+### Fixed
+- docker: typo on tags and labels
 
 <!---80127e77bc9cc972c0952249e82067b668b5e067--->
 
