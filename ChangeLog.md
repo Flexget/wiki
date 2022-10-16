@@ -11,13 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fa57528903636fd5225fa29a3fe5e50bab16186c--->
+<!---2f27271c727d47b3721af482cd74cb5522ef765b--->
 
-## 3.3.36.dev (unreleased)
+<!---4bdad7b5d73c8fe35a65794a08b827e924d9a197--->
+
+## 3.3.36 (2022-10-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.35...v3.3.36)
 ### Fixed
 - docker: typo on tags and labels
 
-<!---80127e77bc9cc972c0952249e82067b668b5e067--->
 
 ## 3.3.35 (2022-10-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.34...v3.3.35)
