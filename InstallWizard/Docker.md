@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-12T04:41:26.652Z
+date: 2022-10-17T18:53:14.002Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -96,10 +96,10 @@ services:
 
 ### 3rd party images
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget)
-  - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
-  - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
   - [ksurl/flexget](https://github.com/ksurl/docker-flexget/pkgs/container/flexget)
-
+  - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
+  - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
+  
 ### Build your own image
 
 If you want to build your own, the Synology installation has a docker option with [instructions](/InstallWizard/SynologyNAS/Docker) (adjust to your OS as needed since some instructions are Synology specific such as the volume paths).
