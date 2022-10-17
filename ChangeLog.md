@@ -11,14 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e9b9063d4ea285ff8b7dd18ca9b2fc64c5396760--->
+<!---8d1025d4f9307aa49e9638a0d2c2df9dd9bba657--->
 
-## 3.3.37.dev (unreleased)
+<!---8abbbdbb7d6c4a788a850851e0b326c47f85ef56--->
+
+## 3.3.37 (2022-10-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.36...v3.3.37)
 ### Fixed
 - morethantv domain ([#3492](https://github.com/Flexget/Flexget/issues/3492))
 - morethantv domain ([#3492](https://github.com/Flexget/Flexget/issues/3492))
 
-<!---4bdad7b5d73c8fe35a65794a08b827e924d9a197--->
 
 ## 3.3.36 (2022-10-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.35...v3.3.36)
