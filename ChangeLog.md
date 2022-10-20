@@ -11,16 +11,18 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f55093c976a26e0fd1e46d8cd43143717c3b536e--->
+<!---658f88619e49def5060e8006bc2409fa68ca6c30--->
 
-## 3.3.38.dev (unreleased)
+<!---72781f58429d2ed0209883786625536f0a0c0a78--->
+
+## 3.3.38 (2022-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.37...v3.3.38)
 ### Fixed
 - release: add changelog to release body with changelog-builder-action
 
 ### Changed
 - Dockerfile: switch to python 3.10
 
-<!---8abbbdbb7d6c4a788a850851e0b326c47f85ef56--->
 
 ## 3.3.37 (2022-10-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.36...v3.3.37)
