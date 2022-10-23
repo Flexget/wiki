@@ -2,7 +2,7 @@
 title: plex
 description: 
 published: true
-date: 2022-09-18T05:09:48.701Z
+date: 2022-10-23T01:38:44.006Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:09:45.359Z
@@ -20,8 +20,8 @@ Available configuration parameters:
 | --- | --- | --- | --- |
 | server | localhost | No | IP or host of PMS |
 | port | 32400 | No | Port that PMS listens on |
-| selection | all | No | Default selection to use, listing can be found at http://<yourplexserver>:32400/library/sections/<section>/ |
-| section | N/A | Yes | Section to use as input, numerical (/library/sections/<num>) or section name. |
+| selection | all | No | Default selection to use, listing can be found at http://\<yourplexserver>:32400/library/sections/\<section>/ |
+| section | N/A | Yes | Section to use as input, numerical (/library/sections/\<num>) or section name. |
 | username | N/A | No | Myplex username, for logging in to remote servers |
 | password | N/A | No | Myplex password, see above |
 | token    | N/A | No | [Plex Token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/). Use it instead of username/password parameters but not both! |
