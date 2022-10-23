@@ -2,7 +2,7 @@
 title: plex
 description: 
 published: true
-date: 2022-10-23T01:38:44.006Z
+date: 2022-10-23T01:44:02.306Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:09:45.359Z
@@ -32,12 +32,12 @@ Available configuration parameters:
 | fetch | file | No | Run "flexget doc plex" for options. |
 Using selection 'all' or 'recentlyViewedShows' will only produce a list of show names while the others will produce filename and download url.
 
-    'selection'         Can be set to different keys:
-        - all                   : Default
-        - unwatched             :
-        - recentlyAdded         :
-        - recentlyViewed        :
-        - recentlyViewedShows   : Series only.
+`selection` Can be set to different keys:
+- `all` (Default)
+- `unwatched`
+- `recentlyAdded`
+- `recentlyViewed`
+- `recentlyViewedShows` (Series only)
 
 
 ## Sample configuration
