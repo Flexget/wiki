@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-09-18T05:25:10.821Z
+date: 2022-10-23T13:29:03.465Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -12,6 +12,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
 <!---9b7d2f5e1e3f1c9902ef11e653b73c7c1d715f8e--->
+
+## 3.3.40 (unreleased)
+### Fixed
+- docker: Fix webui build in docker release
+
+### Changed
+- newznab: Search using more IDs than just tvrage if available
 
 <!---4a4d2e5c78ac1b615a557f7b7fad9f3367af1ec2--->
 
