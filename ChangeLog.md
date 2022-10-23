@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1086578a0b5e90f6ab22c0f13a60cfdc5bda0e7d--->
+<!---87d33aaeb7048d9ca16335db2860d4f9d8e46c74--->
 
-## 3.3.40.dev (unreleased)
+<!---3c65b52216f63e3c6919cc9a9b97164e28b765d6--->
+
+## 3.3.40 (2022-10-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.39...v3.3.40)
 ### Fixed
 - docker: Fix webui build in docker release
 
@@ -23,7 +26,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - series pack support for guessit parser ([#3548](https://github.com/Flexget/Flexget/issues/3548))
 
-<!---4a4d2e5c78ac1b615a557f7b7fad9f3367af1ec2--->
 
 ## 3.3.39 (2022-10-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.38...v3.3.39)
