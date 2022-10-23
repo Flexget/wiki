@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-17T18:57:08.374Z
+date: 2022-10-23T14:45:27.314Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -19,14 +19,16 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 ### Official Image
 [ghcr.io/flexget/flexget](https://github.com/flexget/flexget/pkgs/container/flexget)
 
-Based on python:3.9-alpine
+Based on python:3.10-alpine
 
 This image includes deluge-client, transmission-rpc and cloudscraper.
 
 If you need other pip or alpine packages, create a custom script to run as an entrypoint to install them before running flexget.
 
+### Usage
+
 docker cli:
-```
+```bash
 docker run -d \
   --name flexget \
   -v /host/config:/root/.flexget \ # required
@@ -35,8 +37,9 @@ docker run -d \
   ghcr.io/flexget/flexget \
   daemon start --autoreload-config
 ```
+
 docker compose:
-```
+```yaml
 services:
   flexget:
     image: ghcr.io/flexget/flexget
@@ -84,14 +87,13 @@ docker cli:
 `docker run ... -v /host/config:/root/.flexget --entrypoint /root/.flexget/entrypoint.sh ...`
 
 docker compose:
-```
+```yaml
 services:
   flexget:
     ...
     entrypoint: /root/.flexget/entrypoint.sh
     ...
 ```
-
 
 
 ### 3rd party images
