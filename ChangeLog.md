@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4b1e1c973440aef2c17650186e94f101f704408d--->
+<!---4ae7d09865d701f4e4d197354b4c4f7db8d858bd--->
 
 ## 3.3.42.dev (unreleased)
+### Changed
+- docker: make `/config` the default location to mount the config directory.
+
 <!---0efebe2cba6e17088c746023f9f639a92930dfe4--->
 
 ## 3.3.41 (2022-10-24)
