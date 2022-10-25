@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1d453612866a86214ccb97b9f6adcf78ffce19fa--->
+<!---ca04c3ffe4ee7e0102dac251e2c69d54eb05dcec--->
 
 ## 3.4.1.dev (unreleased)
+### Changed
+- docker: Push to docker hub as well as ghcr
+
 <!---cff64e25ca533f51d045cd77e350bd94ec5bd465--->
 
 ## 3.4.0 (2022-10-25)
