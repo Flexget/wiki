@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-23T14:45:27.314Z
+date: 2022-10-25T19:14:40.404Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -31,7 +31,7 @@ docker cli:
 ```bash
 docker run -d \
   --name flexget \
-  -v /host/config:/root/.flexget \ # required
+  -v /host/config:/config        \ # required
   -e TZ=$TIMEZONE \                # optional: defaults to UTC
   -p 5050:5050 \                   # optional: for webui
   ghcr.io/flexget/flexget \
@@ -53,7 +53,7 @@ services:
     environment:
       - TZ=$TIMEZONE                # optional: defaults to UTC
     volumes:
-      - /host/config:/root/.flexget # required
+      - /host/config:/config        # required
       - /host/downloads:/downloads 
 ```
 Replace bindmount host paths with the host directory path you would like to use for the config and download folders.
@@ -84,14 +84,14 @@ flexget daemon start --autoreload-config
 Make sure it's executeable: `chmod +x entrypoint.sh`
 
 docker cli:
-`docker run ... -v /host/config:/root/.flexget --entrypoint /root/.flexget/entrypoint.sh ...`
+`docker run ... -v /host/config:/config --entrypoint /config/entrypoint.sh ...`
 
 docker compose:
 ```yaml
 services:
   flexget:
     ...
-    entrypoint: /root/.flexget/entrypoint.sh
+    entrypoint: /config/entrypoint.sh
     ...
 ```
 
