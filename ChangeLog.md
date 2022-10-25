@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f83dc15b87dfcdae7d5822b69000c429d7040a19--->
+<!---1d453612866a86214ccb97b9f6adcf78ffce19fa--->
 
-## 3.4.0.dev (unreleased)
+## 3.4.1.dev (unreleased)
+<!---cff64e25ca533f51d045cd77e350bd94ec5bd465--->
+
+## 3.4.0 (2022-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.41...v3.4.0)
 ### Changed
 - docker: make `/config` the default location to mount the config directory.
 
-<!---0efebe2cba6e17088c746023f9f639a92930dfe4--->
 
 ## 3.3.41 (2022-10-24)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.40...v3.3.41)
