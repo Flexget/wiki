@@ -2,7 +2,7 @@
 title: best_quality
 description: 
 published: true
-date: 2022-09-18T05:02:32.338Z
+date: 2022-10-25T00:16:25.464Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:29.675Z
@@ -53,7 +53,7 @@ You can override the format using [Jinja Templates](https://flexget.com/Jinja).
 
 ```yaml
 best_quality:
-  identifier: "{{ some_identifying_field }}"
+  identified_by: "{{ some_identifying_field }}"
 ```
 
 ### Example with [timeframe](https://flexget.com/Plugins/timeframe) and [upgrade](https://flexget.com/Plugins/upgrade)
