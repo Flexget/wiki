@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-25T19:22:03.180Z
+date: 2022-10-25T22:10:23.866Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -17,11 +17,12 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 ## Running a Docker FlexGet image
 
 ### Official Image
-[ghcr.io/flexget/flexget](https://github.com/flexget/flexget/pkgs/container/flexget)
+- [flexget/flexget](https://hub.docker.com/r/flexget/flexget)
+- [ghcr.io/flexget/flexget](https://github.com/flexget/flexget/pkgs/container/flexget)
 
-Based on python:3.10-alpine
+#### Based on python:3.10-alpine
 
-This image includes deluge-client, transmission-rpc and cloudscraper.
+This image includes `deluge-client`, `transmission-rpc` and `cloudscraper`.
 
 If you need other pip or alpine packages, create a custom script to run as an entrypoint to install them before running flexget.
 
@@ -64,8 +65,8 @@ Replace `$TIMEZONE` with desired timezone. See list of valid timezones [here](ht
 Valid image tags:
  - latest (default) - latest tagged version release
  - develop - latest commit on develop branch
- - major.minor.patch version (e.g. ghcr.io/flexget/flexget:3.3.33)
- - major.minor version (e.g ghcr.io/flexget/flexget:3.3)
+ - major.minor.patch version (e.g. ghcr.io/flexget/flexget:3.4.0)
+ - major.minor version (e.g ghcr.io/flexget/flexget:3.4)
  - major version (e.g. ghcr.io/flexget/flexget:3)
 
 #### Custom entrypoint
