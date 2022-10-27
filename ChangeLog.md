@@ -11,15 +11,18 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87b3ddc6c681d5d4e4acbc4bfde4f25122dbbc74--->
+<!---8159f7e5e87e6bb7ec9744ba32613fba8e87eadd--->
 
-## 3.4.2.dev (unreleased)
+## 3.4.3.dev (unreleased)
+<!---cd722a2233ebe43192939019f56495fb937a3a89--->
+
+## 3.4.2 (2022-10-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.4.1...v3.4.2)
 ### Fixed
 - imdb_lookup: fix populating plot_keywords
 - imdb_lookup: fix populating plot_outline
 - imdb_lookup: fix searching by using the suggestions api
 
-<!---fb572198dbfc48605400fe7e9b68a95fedc3251c--->
 
 ## 3.4.1 (2022-10-26)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.4.0...v3.4.1)
