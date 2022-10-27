@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-10-23T13:29:03.465Z
+date: 2022-10-27T02:39:42.791Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -30,7 +30,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 3.4.0 (2022-10-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.41...v3.4.0)
 ### Changed
-- docker: make `/config` the default location to mount the config directory.
+- docker: make `/config` the default location to mount the config directory. See [UpgradeActions](/UpgradeActions#h-340-2022-10-25)
 
 
 ## 3.3.41 (2022-10-24)
