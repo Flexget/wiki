@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2022-09-19T01:50:11.267Z
+date: 2022-11-01T01:43:49.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -13,7 +13,7 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
 
 > This plugin requires the transmission-rpc library. To install it, run:
 > 
-> ``` sh
+> ```sh
 > pip install transmission-rpc
 > ```
 > 
@@ -39,9 +39,9 @@ Also make sure that rpc-whitelist isn't preventing flexget from connecting to lo
 
 ```
 ...
-    "rpc-whitelist": "127.0.0.1,192.168.*.*",
-    "rpc-whitelist-enabled": true,
-    ...
+"rpc-whitelist": "127.0.0.1,192.168.*.*",
+"rpc-whitelist-enabled": true,
+...
 ```
 
 ## Transmission-GTK
