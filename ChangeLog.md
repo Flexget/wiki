@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-11-03T01:57:11.138Z
+date: 2022-11-03T20:32:05.795Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -18,6 +18,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 3.5.1 (2022-11-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.0...v3.5.1)
+### Fixed
+- Fixed wheel release properly specifying dependencies
 
 ## 3.5.0 (2022-11-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.4.2...v3.5.0)
