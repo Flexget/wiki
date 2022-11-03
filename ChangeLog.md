@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8919407c9191cbc954f2f0d766fcebb1ef073dfe--->
+<!---6a4db76bec09100b1697ffa7f4b0b46c03a3fd00--->
 
-## 3.5.0.dev (unreleased)
+## 3.5.1.dev (unreleased)
+<!---4162f782ce1e3650a344ec39e56c247f4330ead8--->
+
+## 3.5.0 (2022-11-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.4.2...v3.5.0)
 ### Removed
 - Python 3.6 support has been dropped
 ### Changed
@@ -23,7 +27,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - Python 3.11 support
 
-<!---cd722a2233ebe43192939019f56495fb937a3a89--->
 
 ## 3.4.2 (2022-10-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.4.1...v3.4.2)
