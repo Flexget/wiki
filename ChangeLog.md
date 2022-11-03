@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-10-27T02:39:58.583Z
+date: 2022-11-03T01:57:11.138Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -14,6 +14,12 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 <!---6598367528ec4df2db0448071de05f9008cc3bc4--->
 
 ## 3.5.0.dev (unreleased)
+### Removed
+- Python 3.6 support has been dropped
+### Changed
+- (development) Poetry is now used for dependency management
+- Many dependencies have been updated
+
 <!---cd722a2233ebe43192939019f56495fb937a3a89--->
 
 ## 3.4.2 (2022-10-27)
