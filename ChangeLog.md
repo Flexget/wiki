@@ -11,7 +11,7 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6598367528ec4df2db0448071de05f9008cc3bc4--->
+<!---8919407c9191cbc954f2f0d766fcebb1ef073dfe--->
 
 ## 3.5.0.dev (unreleased)
 ### Removed
@@ -19,6 +19,9 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Changed
 - (development) Poetry is now used for dependency management
 - Many dependencies have been updated
+
+### Added
+- Python 3.11 support
 
 <!---cd722a2233ebe43192939019f56495fb937a3a89--->
 
