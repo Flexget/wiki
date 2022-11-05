@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f3da49917e280aca7b96b332fc97531dc090b6d9--->
+<!---e052295b100dbba486b72bbb79ee96b42be8bca6--->
 
 ## 3.5.3.dev (unreleased)
+### Fixed
+- Fix hanging when sending commands to the daemon. [#3601](https://github.com/Flexget/Flexget/issues/3601)
+
 <!---972048ef630e95e8685ed977f00aa37bb8e1b869--->
 
 ## 3.5.2 (2022-11-04)
