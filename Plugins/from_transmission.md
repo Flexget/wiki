@@ -2,7 +2,7 @@
 title: from_transmission
 description: 
 published: true
-date: 2022-09-18T05:05:58.420Z
+date: 2022-11-06T14:38:15.952Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:05:55.831Z
@@ -10,11 +10,9 @@ dateCreated: 2022-09-18T05:05:55.831Z
 
 # From Transmission
 This plugin creates an entry for each item you have loaded in transmission.
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp;
-This plugin requires the transmission-rpc library. To install it, run:
-<br/><br/>
+
+> This plugin requires the transmission-rpc library. To install it, run:
+{.is-info}
 
 ```
 pip install transmission-rpc
