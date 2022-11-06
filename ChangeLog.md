@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-11-03T20:32:05.795Z
+date: 2022-11-06T14:39:52.430Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -15,7 +15,7 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 
 ## 3.5.4.dev (unreleased)
 ### Changed
-- Add activityDate and isStalled fields to transmission input
+- from_transmission: Add activityDate and isStalled fields
 
 <!---216a2d9c1500bdc07336c4b6be2e3ac49dafbc9e--->
 
