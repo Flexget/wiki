@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ee8fd7017c83fda5c2082b2d3e02ddc35ad7cb3f--->
+<!---821aa3f41c6144eeea6bfd3a5db9eceb16f106a8--->
 
 ## 3.5.5.dev (unreleased)
+### Fixed
+- Fix crash with --dump with certain bracketed text.
+
 <!---5863727f7b091264dd7ea49b505c39aab8c2bc3e--->
 
 ## 3.5.4 (2022-11-06)
