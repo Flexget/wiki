@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---68bff7ab233ec1393fc38974af1f59faf60b9b9c--->
+<!---ee8fd7017c83fda5c2082b2d3e02ddc35ad7cb3f--->
 
-## 3.5.4.dev (unreleased)
+## 3.5.5.dev (unreleased)
+<!---5863727f7b091264dd7ea49b505c39aab8c2bc3e--->
+
+## 3.5.4 (2022-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.3...v3.5.4)
 ### Changed
 - from_transmission: Add activityDate and isStalled fields
 
-<!---216a2d9c1500bdc07336c4b6be2e3ac49dafbc9e--->
 
 ## 3.5.3 (2022-11-05)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.2...v3.5.3)
