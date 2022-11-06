@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4099e199fd49513f0d2668a29c547821ddbfaa6d--->
+<!---68bff7ab233ec1393fc38974af1f59faf60b9b9c--->
 
 ## 3.5.4.dev (unreleased)
+### Changed
+- Add activityDate and isStalled fields to transmission input
+
 <!---216a2d9c1500bdc07336c4b6be2e3ac49dafbc9e--->
 
 ## 3.5.3 (2022-11-05)
