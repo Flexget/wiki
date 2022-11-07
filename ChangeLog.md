@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---022b6b21c5843915ba4ba41cfd3d1184f8964f80--->
+<!---aaa28b743e7e8458dc8f2a326e6b2e218478f485--->
 
-## 3.5.5.dev (unreleased)
+## 3.5.6.dev (unreleased)
+<!---dea62ac63eb6b30be9aeab698cbc5fd6ae3674c5--->
+
+## 3.5.5 (2022-11-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.4...v3.5.5)
 ### Fixed
 - Fix crash with --dump with certain bracketed URLs.
 - Fix crash with --dump with certain bracketed text.
 
-<!---5863727f7b091264dd7ea49b505c39aab8c2bc3e--->
 
 ## 3.5.4 (2022-11-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.3...v3.5.4)
