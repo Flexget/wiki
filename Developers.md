@@ -2,7 +2,7 @@
 title: Developers
 description: 
 published: true
-date: 2022-09-20T13:30:39.380Z
+date: 2022-11-21T05:49:13.359Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:11.127Z
@@ -20,7 +20,7 @@ Making custom plugins should be easy for anyone with some python experience.
 If you're working on good re-usable plugin we're be more than happy to include it in official distribution. See [Contribute](/Contribute) for more information.
 
 ## Unit testing
-FlexGet has over 1200 unit tests so changes are that if your modifications pass the tests nothing major has been broken.
+FlexGet has over 1200 unit tests so chances are that if your modifications pass the tests nothing major has been broken.
 
 ## Enhancement proposals
  * [Drafts](/_index/Drafts/)
