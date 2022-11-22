@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-11-03T03:14:59.991Z
+date: 2022-11-22T17:28:34.933Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -12,9 +12,7 @@ dateCreated: 2022-09-18T04:50:10.906Z
 > Starting from version 3.5.0, Flexget supports only Python 3.7 and higher
 {.is-info}
 
-This wizard guides you through installing FlexGet.
-
-*Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated!*
+This guides you through installing FlexGet.
 
 ### By operating system
 
@@ -25,6 +23,8 @@ This wizard guides you through installing FlexGet.
 ### Hardware-specific
 
 Written and maintained by user community, please improve and update!
+
+*Note: Some guides may be out of date*
 
  * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
  * [OpenWrt](/InstallWizard/OpenWrt)
