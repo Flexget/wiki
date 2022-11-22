@@ -2,20 +2,20 @@
 title: PipProblems
 description: 
 published: true
-date: 2022-09-18T04:51:06.901Z
+date: 2022-11-22T17:44:09.291Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:04.212Z
 ---
 
 ## Problems with using pip
-Make sure your `pip` command uses python 3.6 or newer. 
+Make sure your `pip` command uses python version that is compatible with FlexGet. 
 
 ```cmd
 pip --version
 ```
 
-If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 3.6 or newer. Continue with [pip install](https://pip.pypa.io/en/latest/installing.html).
+If this crashes you will need to reinstall pip. Try to remove pip from operating system package manager if possible. You could also run `which pip` and delete the script. Open fresh shell and verify that `python -V` reports 3.7 or newer. Continue with [pip install](https://pip.pypa.io/en/latest/installing.html).
 
 ```cmd
 pip install --upgrade pip
@@ -147,4 +147,3 @@ Removing traces of old FlexGet from your python site-packages, eg.
 ```cmd
 rm /usr/local/lib/python2.6/site-packages/FlexGet-*
 ```
-
