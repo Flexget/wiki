@@ -2,7 +2,7 @@
 title: Users
 description: 
 published: true
-date: 2022-11-22T18:00:06.029Z
+date: 2022-11-22T18:00:16.140Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:56:42.883Z
@@ -18,7 +18,7 @@ These are the complete configurations of actual end users. Feel free to add your
 - Do not include personal information (Passwords, API Keys)
 - Best way to share and keep your config backed up is via github.
 - If you create new page, it should be under /Cookbook/Users/[UserName]
-- Do not make attachments
+- Do not add attachments
 
 ## Tested & Working 3.x Configs
 * [ksurl](https://github.com/ksurl/flexget-template) (v3.1.131) - Trakt Movies, TV, Anime series, Transmission, list cleanup, YAML anchors, discord notifier, http proxy
