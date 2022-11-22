@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-11-22T17:28:34.933Z
+date: 2022-11-22T17:42:17.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -22,17 +22,16 @@ This guides you through installing FlexGet.
 
 ### Hardware-specific
 
-Written and maintained by user community, please improve and update!
-
-*Note: Some guides may be out of date*
+> Written and maintained by user community, please improve and update!
+{.is-info}
 
  * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
  * [OpenWrt](/InstallWizard/OpenWrt)
- * [Plugbox](/InstallWizard/Plugbox)
- * [QNAP NAS](/InstallWizard/QNAP)
- * [ReadyNAS](/InstallWizard/ReadyNAS)
+ * [Plugbox](/InstallWizard/Plugbox) (out-of-date)
+ * [QNAP NAS](/InstallWizard/QNAP) (out-of-date)
+ * [ReadyNAS](/InstallWizard/ReadyNAS) (out-of-date)
  * [SynologyNAS](/InstallWizard/SynologyNAS)
- * [Buffalo Linkstation](/InstallWizard/BuffaloLinkstation)
+ * [Buffalo Linkstation](/InstallWizard/BuffaloLinkstation) (out-of-date)
 
 ### Advanced
 This is useful also if you're having problems with pip based installation or have a really small root filesystem.
