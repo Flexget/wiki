@@ -2,7 +2,7 @@
 title: Users
 description: 
 published: true
-date: 2022-11-22T18:00:16.140Z
+date: 2022-11-23T21:48:17.242Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:56:42.883Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-18T04:56:42.883Z
 ## Complete user configurations
 These are the complete configurations of actual end users. Feel free to add your own so others may learn from it. Some of them are horribly complex, if you're new user do not tempt to conjure such feats at start. In fact, always try to make simplest and cleanest possible configuration.
 
->**Please read these notes before adding configs**
+>**Please read these notes before adding your config**
 {.is-warning}
 
 - Please post the version of FlexGet that your config was designed for so people trying to use them as a base will be able to see what changes may need to be made by viewing UpgradeActions.
