@@ -2,8 +2,8 @@
 title: transmission
 description: 
 published: true
-date: 2022-11-01T01:43:49.700Z
-tags: 
+date: 2022-12-03T03:16:57.379Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
 ---
@@ -13,15 +13,13 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
 
 > This plugin requires the transmission-rpc library. To install it, run:
 > 
-> ```sh
+> ```
 > pip install transmission-rpc
 > ```
 > 
 > You may be required to upgrade transmission-rpc after upgrading transmission, for that just add `--upgrade` to the previous command.
 > Newer versions of flexget now depend on transmission-rpc 3.2.6 or higher.
 {.is-info}
-
-
 
 **Example:**
 
