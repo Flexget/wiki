@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-03T03:49:16.351Z
+date: 2022-12-03T04:00:31.471Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -46,8 +46,6 @@ For further help with YAML and indenting, see [configuration](/Configuration).
 - [Daemon](#daemon)
 - [Command Line Interface (CLI)](#command-line-interface)
 - [Third-Party Plugins](#third-party-plugins)
-- [Deprecated](#deprecated)
-
 
 ## Input
 Produce **[entries](/Entry)** from external source.  
