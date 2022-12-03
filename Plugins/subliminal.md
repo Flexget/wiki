@@ -2,8 +2,8 @@
 title: subliminal
 description: 
 published: true
-date: 2022-09-18T05:16:39.074Z
-tags: 
+date: 2022-12-03T03:25:27.758Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:36.421Z
 ---
