@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-03T03:34:39.096Z
+date: 2022-12-03T03:49:16.351Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -243,7 +243,6 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [email](/Plugins/Notifiers/email) | Send an email message |
 | [gotify](/Plugins/Notifiers/gotify) | Send a [Gotify](https://gotify.net) notification |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
-| [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
 | [mqtt](/Plugins/Notifiers/mqtt) | Send MQTT notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
@@ -255,7 +254,6 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 |[discord](/Plugins/Notifiers/discord) | Send a [Discord](https://discordapp.com/) notification
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
-| [sns](/Plugins/Notifiers/sns) | Send a [SNS](https://aws.amazon.com/sns/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
 | [ms_teams](/Plugins/Notifiers/ms_teams) |Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |
