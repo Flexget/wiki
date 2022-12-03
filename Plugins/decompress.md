@@ -2,8 +2,8 @@
 title: decompress
 description: 
 published: true
-date: 2022-09-18T05:03:29.561Z
-tags: 
+date: 2022-12-03T03:51:00.339Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:26.935Z
 ---
