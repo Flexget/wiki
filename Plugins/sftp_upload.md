@@ -2,8 +2,8 @@
 title: sftp_upload
 description: 
 published: true
-date: 2022-09-18T05:13:07.774Z
-tags: 
+date: 2022-12-03T03:51:45.779Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:05.170Z
 ---
