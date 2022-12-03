@@ -2,8 +2,8 @@
 title: from_transmission
 description: 
 published: true
-date: 2022-11-06T14:38:15.952Z
-tags: 
+date: 2022-12-03T03:32:03.539Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:05:55.831Z
 ---
