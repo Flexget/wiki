@@ -2,8 +2,8 @@
 title: periscope
 description: 
 published: true
-date: 2022-09-18T05:09:44.136Z
-tags: 
+date: 2022-12-03T03:39:18.813Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:09:41.587Z
 ---
