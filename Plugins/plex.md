@@ -2,14 +2,15 @@
 title: plex
 description: 
 published: true
-date: 2022-10-23T01:44:02.306Z
+date: 2022-12-03T03:32:55.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:09:45.359Z
 ---
 
 # Plex
-**Note:** This plugin has been reported as incompatible with [PlexHome](https://blog.plex.tv/2014/11/20/introducing-plex-home/)*
+>This plugin has been reported as incompatible with [PlexHome](https://blog.plex.tv/2014/11/20/introducing-plex-home/)
+{.is-warning}
 
 Produces an entry for each show present in a  [Plex Media Server](http://www.plexapp.com) TV section. Can be used with [configure_series](/Plugins/configure_series) plugin or an output plugin.
 
