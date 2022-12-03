@@ -2,8 +2,8 @@
 title: from_deluge
 description: 
 published: true
-date: 2022-09-18T05:05:31.499Z
-tags: 
+date: 2022-12-03T03:31:32.822Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:05:28.840Z
 ---
