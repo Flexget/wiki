@@ -2,7 +2,7 @@
 title: rottentomatoes_list
 description: 
 published: true
-date: 2022-09-18T05:11:27.837Z
+date: 2022-12-03T03:30:55.365Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:11:25.271Z
@@ -24,14 +24,15 @@ rottentomatoes_list:
 
 You should [[http://developer.rottentomatoes.com/|create]] and use your own API key instead of the default, as Rotten Tomatoes limits the number of concurrent users per key.
 
-** Possible lists are **
+**Possible lists are**
 
-* dvds:
+*dvds*
  * top_rentals
  * current_releases
  * new_releases
  * upcoming
-* movies
+
+*movies*
  * box_office
  * in_theaters
  * opening
