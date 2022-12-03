@@ -2,16 +2,17 @@
 title: aria2
 description: 
 published: true
-date: 2022-09-18T05:02:24.575Z
+date: 2022-12-03T03:38:20.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:21.992Z
 ---
 
 # Aria2
-Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net). Supports HTTP, HTTPS, FTP, Torrent, Magnet.
+>**Requirements:** Aria2 running and in daemon mode, with XML-RPC enabled 
+{.is-info}
 
-**Requirements:** Aria2 running and in daemon mode, with XML-RPC enabled 
+Passes URIs in entries to the [Aria2 downloader](http://aria2.sourceforge.net). Supports HTTP, HTTPS, FTP, Torrent, Magnet.
 
 Start can be simple as
 
