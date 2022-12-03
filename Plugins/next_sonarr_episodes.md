@@ -2,7 +2,7 @@
 title: next_sonarr_episodes
 description: 
 published: true
-date: 2022-09-18T05:12:57.326Z
+date: 2022-12-03T03:35:57.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:44.162Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-18T05:08:44.162Z
 # Next Sonarr Episodes
 This plugin creates an [Entry](/Entry) for the first missing episode for every show as defined in [Sonarr](http://sonarr.tv) .
 
-This plugin can be used in combination with several plugins, like [discover](/Plugins/discover) to search for new episodes to download, or [set_series_begin](/Plugins/set_series_begin) to reset the first episode for configured series, and so on.(XXX macro: "BR").
+This plugin can be used in combination with several plugins, like [discover](/Plugins/discover) to search for new episodes to download, or [set_series_begin](/Plugins/set_series_begin) to reset the first episode for configured series, and so on.
 
 ## Plugin Settings
 Currently the following settings are required:
