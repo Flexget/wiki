@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2022-12-03T03:16:57.379Z
+date: 2022-12-03T03:40:30.057Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
