@@ -2,8 +2,8 @@
 title: telegram
 description: 
 published: true
-date: 2022-12-03T03:05:21.810Z
-tags: 
+date: 2022-12-03T03:45:42.124Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
 ---
