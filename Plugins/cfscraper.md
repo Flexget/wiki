@@ -2,8 +2,8 @@
 title: cfscraper
 description: 
 published: true
-date: 2022-09-18T05:06:18.960Z
-tags: 
+date: 2022-12-03T03:52:13.152Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:02:41.285Z
 ---
