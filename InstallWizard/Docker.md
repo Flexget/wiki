@@ -45,7 +45,7 @@ services:
   flexget:
     image: ghcr.io/flexget/flexget
     container_name: flexget
-    commands:
+    command:
       - daemon
       - start
       - --autoreload-config         # optional
