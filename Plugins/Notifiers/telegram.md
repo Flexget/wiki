@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2022-12-03T03:45:42.124Z
+date: 2022-12-05T03:42:51.736Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -17,7 +17,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 ## Preparations
 
->Install `python-telegram-bot` python pkg
+>Install `python-telegram-bot` python package
 >```bash
 >pip install python-telegram-bot==12.8
 >```
@@ -106,5 +106,3 @@ templates:
               recipients:
                 - username: '{? credentials.telegram.username ?}'
 ```
-
-
