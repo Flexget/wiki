@@ -2,7 +2,7 @@
 title: API
 description: 
 published: true
-date: 2022-09-18T04:52:33.289Z
+date: 2022-12-05T23:54:22.938Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:23.548Z
@@ -105,6 +105,7 @@ In addition, the response contains the following headers:
 - `Total-Count`: Total number of entities
 - `Count`: Actual number of entities returned in current page
 
-## Additional notes:
+## Additional notes
 
-- Some endpoint operation operate on you config file. Those that do will CHANGE IT LAYOUT AND STRCUTURE AND REMOVE ALL REMARKS. Do not operate via the API if those things are of value to you (functionality will remain intact).
+>Some endpoint operation operate on you config file. Those that do will CHANGE YAML LAYOUT AND REMOVE ALL COMMENTS. Do not operate via the API if those things are of value to you (functionality will remain intact).
+{.is-danger}
