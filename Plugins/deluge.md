@@ -2,7 +2,7 @@
 title: deluge
 description: 
 published: true
-date: 2022-12-03T03:24:35.949Z
+date: 2022-12-05T03:27:11.058Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:38.228Z
@@ -10,9 +10,10 @@ dateCreated: 2022-09-18T05:03:38.228Z
 
 # Deluge
 
-Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
+> Requires installing deluge libraries via pip
+{.is-warning}
 
-[Includes/PluginRequiresPip](/Includes/PluginRequiresPip){.include}
+Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
 
 **Notes:**
 
