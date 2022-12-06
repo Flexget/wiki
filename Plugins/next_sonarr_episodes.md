@@ -2,7 +2,7 @@
 title: next_sonarr_episodes
 description: 
 published: true
-date: 2022-12-03T03:35:57.300Z
+date: 2022-12-06T02:11:25.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:44.162Z
@@ -28,8 +28,8 @@ The following settings are optional:
 |  Option  |  Description  |
 | --- | --- |
 | **port** | This is the port used by your Sonarr installation (usually 8989). Use if port is different than 80.  |
-| **include_ended** |  Decides whether to retrieve ended shows. Default is True  |
-| **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is False  |
+| **include_ended** |  Decides whether to retrieve ended shows. Default is `yes`  |
+| **only_monitored** |  Retrieves only [monitored](https://github.com/Sonarr/Sonarr/wiki/Monitoring-Series-and-Episodes) shows on Sonarr. Default is `no`  |
 |**page_size**| Defines the number of results to be retunred with every page of the API request. Set to 50 by default. Can be changed in order to resolve performance issues.
 
 ### Example: set_series_begin plugin
@@ -41,7 +41,7 @@ This example shows how the next_sonarr_episodes plugin could be used with the [s
         base_url: '{? credentials.sonarr.url ?}'
         port: 8989
         api_key: '{? credentials.sonarr.api_key ?}'
-        include_ended: false
+        include_ended: no
       accept_all: yes
       set_series_begin: yes
 ```
@@ -58,7 +58,7 @@ This example shows how the next_sonarr_episodes plugin could be used with the [d
               base_url: '{? credentials.sonarr.url ?}'
               port: 8989
               api_key: '{? credentials.sonarr.api_key ?}'
-              include_ended: false
+              include_ended: no
         from:
           - kat:
               verified: yes
