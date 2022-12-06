@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2aa49659d6ef43750ab87e20d3e70871a36f4009--->
+<!---4d14d8c7f1a5e61c4b33ee6c9dcfe1faf8c725bd--->
 
 ## 3.5.8.dev (unreleased)
+### Fixed
+- imdb_lookup: avoid 403 by spoofing browser user agent
+
 <!---2b02a5da06e22d3f8483bce4e61e94c05c612485--->
 
 ## 3.5.7 (2022-12-06)
