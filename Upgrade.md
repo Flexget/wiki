@@ -2,7 +2,7 @@
 title: Upgrade
 description: 
 published: true
-date: 2022-09-18T04:52:21.848Z
+date: 2022-12-06T00:06:10.355Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
@@ -10,7 +10,8 @@ dateCreated: 2022-09-18T04:52:13.370Z
 
 # Upgrading
 
-Detailed changes can be found from [ChangeLog](/ChangeLog).
+>Detailed changes can be found from [ChangeLog](/ChangeLog).
+{.is-info}
 
 ## Check current version
 
@@ -43,16 +44,18 @@ If you are using cron and have short cron interval, comment FlexGet out from the
 There has been alot of errors arising from setuptools package being out of date and failing an upgrade.
 Please make sure to upgrade setuptools.
 
+> Note: On some environments, pip might be available under name pip3 to differentiate it from Python 2. Check [Problems with pip](/PipProblems) page if issues arise.
+{.is-info}
+
 ```cmd
 pip install --upgrade flexget
 ```
-Please have in mind that Python 2 is going away, therefore using `pip` might not upgrade you to the latest version. Best choice would be using Python3 tools.
+
+Upgrade FlexGet
 
 ```cmd
-pip3 install --upgrade flexget
+pip install --upgrade flexget
 ```
-
-[Problems with pip?](/PipProblems)
 
 ## Upgrade GIT checkout
 
