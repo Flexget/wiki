@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-07T05:12:24.806Z
+date: 2022-12-07T05:14:21.701Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -51,7 +51,7 @@ For further help with YAML and indenting, see [configuration](/Configuration).
 Produce **[entries](/Entry)** from external source.  
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
-**Note:** If you are looking for torrent search plugins, refer to [Search Plugins](/Searches).
+**Note:** If you are looking for torrent search plugins, refer to [Search Plugins](/Plugins/Searches).
 
 ### Raw Input
 Input plugins that directly parse data from a source based on its type.
