@@ -11,10 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---efd3c8b865e510f558e42404b47d3c4720caf322--->
+<!---4af128ff7d1aff09e2cb7a569a84f065b2a593ed--->
 
 ## 3.5.8.dev (unreleased)
 ### Fixed
+- toast icon path ([#3628](https://github.com/Flexget/Flexget/issues/3628))
 - handling of empty `url` in *toast* on macOS ([#3629](https://github.com/Flexget/Flexget/issues/3629))
 - imdb_lookup: avoid 403 by spoofing browser user agent
 
