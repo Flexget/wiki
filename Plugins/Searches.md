@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-07T05:39:32.890Z
+date: 2022-12-07T06:34:55.185Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -35,6 +35,7 @@ You can always get an up to date overview of the available search plugins by usi
 | [gazelle/gazellemusic](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 | [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
+| [limetorrents](/Searches/limetorrents) | Generates entries from limetorrents.cc |
 | [magnetdl](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [search_rss](/Searches/search_rss) | Generates query based rss feeds |
