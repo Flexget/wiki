@@ -11,11 +11,14 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4d14d8c7f1a5e61c4b33ee6c9dcfe1faf8c725bd--->
+<!---6c35eeb13e29bfb7a9993b698c3a4ac4736e3e17--->
 
 ## 3.5.8.dev (unreleased)
 ### Fixed
 - imdb_lookup: avoid 403 by spoofing browser user agent
+
+### Added
+- matrix notifier ([#3529](https://github.com/Flexget/Flexget/issues/3529))
 
 <!---2b02a5da06e22d3f8483bce4e61e94c05c612485--->
 
