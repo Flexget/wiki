@@ -2,7 +2,7 @@
 title: Matrix
 description: 
 published: true
-date: 2022-12-07T05:19:48.582Z
+date: 2022-12-07T07:19:17.024Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T04:46:20.436Z
@@ -15,24 +15,31 @@ dateCreated: 2022-12-07T04:46:20.436Z
 # Overview
 Sends messages via Matrix protocol.  Uses a simple **Access Token** authentication to send messages to a **room**.  Using an Access Token allows for encrypted messages to be used, unlike bots which only work on unencrypted rooms.
 
-# Config
+## Config
 All fields are required.
-    server: Matrix hostname to integrate to (required)
-    token: Is available in Element under Help/About. (required)
-    room_id: Is available in Element under room settings. (required)
 
-    Example::
+| Options | Description | 
+| --- | --- |
+| server | Matrix hostname to integrate to (required) |
+| token | Is available in Element under Help/About. (required) |
+| room_id | Is available in Element under room settings. (required) |
 
-      notify:
-        entries:
-          via:
-            - matrix:
-                server: "https://matrix.org"
-                token: senders token
-                room_id: room identifier
+## Example
+
+```yaml
+notify:
+  entries:
+    via:
+      - matrix:
+          server: "https://matrix.org"
+          token: senders token
+          room_id: room identifier
+```
 
 # Element Steps
+
 ## Room ID
+
 Find or Create a matrix room.  Right-click the room icon and select Settings.  Click the menu item "Advanced" and find the heading "Room Information".  You should have a Internal Room ID key which looks like: 
 `!uyR5dGzDkPOLIODSzy:matrix.org`
 
