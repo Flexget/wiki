@@ -1,8 +1,8 @@
 ---
-title: Searches
+title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-07T05:02:35.097Z
+date: 2022-12-07T05:14:53.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -35,7 +35,6 @@ You can always get an up to date overview of the available search plugins by usi
 | [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
 | [`magnetdl`](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
-
 | [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
 | [`solidtorrents`](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
