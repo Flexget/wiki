@@ -2,16 +2,19 @@
 title: cpasbien
 description: 
 published: true
-date: 2022-09-18T05:17:21.242Z
+date: 2022-12-07T05:43:29.415Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:18.576Z
 ---
 
-# WARNING
-As cpasbien switched to cloudflare, I had to modify the code.
-So now, you have to have https://github.com/Anorov/cloudflare-scrape and all it's dependency to make it work.
-Also, the file cfscrape.py must be put in the folder : /var/lib/flexget
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
+>As cpasbien switched to cloudflare, some tweaks are required
+You have to have https://github.com/Anorov/cloudflare-scrape and all it's dependency to make it work.
+Additionally, the file cfscrape.py must be put in the folder : /var/lib/flexget
+{.is-danger}
 
 # CPASBIEN Search plugin
 This search plugin will get results from [http://www.cpasbien.pw/](/http://www.cpasbien.pw/)
