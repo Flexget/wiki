@@ -2,13 +2,16 @@
 title: alpharatio
 description: 
 published: true
-date: 2022-09-18T05:17:04.940Z
+date: 2022-12-07T06:19:48.448Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:02.370Z
 ---
 
 # Alpharatio
+
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
 
 Search plugin for the private tracker AlphaRatio.
 
