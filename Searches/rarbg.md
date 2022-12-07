@@ -2,24 +2,27 @@
 title: rarbg
 description: 
 published: true
-date: 2022-09-18T05:18:38.840Z
+date: 2022-12-07T05:20:10.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:36.271Z
 ---
 
 # RarBG
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [http://rarbg.com](http://rarbg.com)
 
 ## Configuration
 You can search in a single category:
-```
+```yaml
 rarbg: 
   category: x264 1080p
 ```
 
 or in multiple categories:
-```
+```yaml
 rarbg: 
   category:
     - x264 720p
