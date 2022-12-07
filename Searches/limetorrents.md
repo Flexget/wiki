@@ -2,13 +2,18 @@
 title: limetorrents
 description: 
 published: true
-date: 2022-09-18T05:18:11.808Z
+date: 2022-12-07T06:23:19.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:09.193Z
 ---
 
 # Limetorrents
+
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
+
 This search plugin will get results from [https://www.limetorrents.cc](https://www.limetorrents.cc)
 
 ## Configuration
