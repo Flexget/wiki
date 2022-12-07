@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4af128ff7d1aff09e2cb7a569a84f065b2a593ed--->
+<!---9079ca491f89edfc1802cbe91659d5f1f8243be2--->
 
-## 3.5.8.dev (unreleased)
+## 3.5.9.dev (unreleased)
+<!---a3eac95bacb060423f768b67345f7eeedcec81d9--->
+
+## 3.5.8 (2022-12-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.7...v3.5.8)
 ### Fixed
 - toast icon path ([#3628](https://github.com/Flexget/Flexget/issues/3628))
 - handling of empty `url` in *toast* on macOS ([#3629](https://github.com/Flexget/Flexget/issues/3629))
@@ -22,7 +26,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Added
 - matrix notifier ([#3529](https://github.com/Flexget/Flexget/issues/3529))
 
-<!---2b02a5da06e22d3f8483bce4e61e94c05c612485--->
 
 ## 3.5.7 (2022-12-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.6...v3.5.7)
