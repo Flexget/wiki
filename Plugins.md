@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-03T04:00:31.471Z
+date: 2022-12-07T04:43:35.065Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -243,6 +243,7 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
 | [mqtt](/Plugins/Notifiers/mqtt) | Send MQTT notification |
+| [matrix](/Plugins/Notifiers/matrix) | Send [matrix](https://matrix.org) notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
