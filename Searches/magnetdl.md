@@ -2,13 +2,16 @@
 title: magnetdl
 description: 
 published: true
-date: 2022-09-18T05:07:41.483Z
+date: 2022-12-07T05:22:44.477Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:07:38.943Z
 ---
 
 # Magnetdl
+
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
 
 Works as input or as a search plugin.
 
