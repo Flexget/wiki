@@ -2,14 +2,16 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2022-11-03T01:58:48.285Z
+date: 2022-12-07T07:11:51.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
 ---
 
 # Required Upgrading Actions
-Just planning upgrading? See the [upgrade guide](/Upgrade) first!
+
+>Just planning upgrading? See the [upgrade guide](/Upgrade) first!
+{.is-warning}
 
 ## Instructions
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
