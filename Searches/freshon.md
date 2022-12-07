@@ -2,13 +2,17 @@
 title: freshon
 description: 
 published: true
-date: 2022-09-18T05:17:48.241Z
+date: 2022-12-07T06:21:38.738Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:45.635Z
 ---
 
 # Freshon
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
+
 This search plugin will get results from [http://FreshOn.tv](/http://FreshOn.tv)
 
 ## Configuration
