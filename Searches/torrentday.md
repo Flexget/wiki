@@ -2,13 +2,16 @@
 title: torrentday
 description: 
 published: true
-date: 2022-09-18T05:18:58.058Z
+date: 2022-12-07T05:47:20.922Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:55.430Z
 ---
 
 # Torrentday
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [https://torrentday.com](https://torrentday.com)
 
 ## Configuration
