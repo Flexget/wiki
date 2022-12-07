@@ -2,13 +2,16 @@
 title: urlrewrite_newznab
 description: 
 published: true
-date: 2022-09-18T05:25:06.944Z
+date: 2022-12-07T05:46:46.018Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:19:11.047Z
 ---
 
 # Newznab plugin
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 The newznab plugins is used in conjunction with the [discover](/Plugins/discover) plugins.
 
 With the [next_series_episodes](/Plugins/next_series_episodes)
