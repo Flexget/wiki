@@ -2,13 +2,16 @@
 title: torrentleech
 description: 
 published: true
-date: 2022-09-18T05:19:01.950Z
+date: 2022-12-07T05:47:30.572Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:59.329Z
 ---
 
 # Torrentleech
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [http://torrentleech.org](/http://torrentleech.org)
 
 ## Configuration
