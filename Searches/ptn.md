@@ -2,13 +2,16 @@
 title: ptn
 description: 
 published: true
-date: 2022-09-18T05:18:31.117Z
+date: 2022-12-07T05:47:08.912Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:28.546Z
 ---
 
 # PtN
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This plugin searches the private bittorent site PtN. You'll need to enter your username, password, as well as your login key, which can be found on your profile page.
 
 **Basic config:**
