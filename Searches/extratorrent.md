@@ -2,13 +2,16 @@
 title: extratorrent
 description: 
 published: true
-date: 2022-09-18T05:17:32.777Z
+date: 2022-12-07T06:20:57.290Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:30.237Z
 ---
 
 # Extratorrent
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [http://extratorrent.cc](http://extratorrent.cc)
 
 ## Configuration
