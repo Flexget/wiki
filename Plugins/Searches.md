@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-07T05:38:45.798Z
+date: 2022-12-07T05:39:32.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -22,7 +22,7 @@ You can always get an up to date overview of the available search plugins by usi
 ### Internal
 | **Keyword** | **Description** |
 | --- | --- |
-| [entry_list](Plugins/List/entry_list) | Search in an [entry_list](/Plugins/List/entry_list)
+| [entry_list](/Plugins/List/entry_list) | Search in an [entry_list](/Plugins/List/entry_list)
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
 ### Public
 
