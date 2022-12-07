@@ -2,14 +2,17 @@
 title: filelist_api
 description: 
 published: true
-date: 2022-09-18T05:17:40.561Z
+date: 2022-12-07T05:44:42.713Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:37.986Z
 ---
 
 # FileList w/ API
-This search plugin will get results from [FileList](https://filelist.io) using the new API.
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
+This search plugin will get results from [FileList](https://filelist.io).
 
 **Key improvments over the old version**
 * Search with imdb_id if available
