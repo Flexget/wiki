@@ -2,13 +2,16 @@
 title: search_rss
 description: 
 published: true
-date: 2022-09-18T05:20:13.419Z
+date: 2022-12-07T05:19:35.772Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:43.993Z
 ---
 
 # Search_rss
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 Many website allow the generation of rss feeds based on a query. This plugin takes advantage of this can generate rss feeds that contain the result of a query.
 
 **NOTE:** This plugin can not be used on the task level and that it can only be used within [discover](/Plugins/discover) & [urlrewrite_search](/Plugins/urlrewrite_search) plugin.
