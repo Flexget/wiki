@@ -2,18 +2,21 @@
 title: solidtorrents
 description: 
 published: true
-date: 2022-09-18T05:18:50.317Z
+date: 2022-12-07T05:19:53.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:47.774Z
 ---
 
 # Solid Torrents
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [https://solidtorrents.net](/https://solidtorrents.net) or a reverse proxy if specified.
 
 ## Configuration
 Simplest configuration, uses default search options. (all categories, sort by seeders)
-```
+```yaml
 solidtorrent: yes
 ```
 Advanced usage:
