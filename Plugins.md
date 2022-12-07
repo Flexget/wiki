@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-07T04:43:35.065Z
+date: 2022-12-07T05:12:24.806Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -85,7 +85,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
 | [imdb_watchlist](/Plugins/imdb_watchlist) |Use you IMDB watchlist as an input|
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
-| [magnetdl](/Plugins/magnetdl) | Create entries from magnetdl.com |
+| [magnetdl](/Plugins/Searches/magnetdl) | Create entries from magnetdl.com |
 | [my_anime_list](/Plugins/my_anime_list) | Create entries from MyAnimeList animelist. |
 | [myepisodes_list](/Plugins/myepisodes_list) | Create entries from the shows in your myepisodes.com account. |
 | [npo_watchlist](/Plugins/npo_watchlist) | Create entries for the shows and episodes in your npo.nl account (Dutch public television). |
