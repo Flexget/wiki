@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-07T05:14:53.754Z
+date: 2022-12-07T05:38:45.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -22,40 +22,41 @@ You can always get an up to date overview of the available search plugins by usi
 ### Internal
 | **Keyword** | **Description** |
 | --- | --- |
-|`entry_list` | Search in an [entry_list](/Plugins/List/entry_list)
-| [`flexget_archive`](/Searches/flexget_archive) | Searches within previously archived entries |
+| [entry_list](Plugins/List/entry_list) | Search in an [entry_list](/Plugins/List/entry_list)
+| [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
 ### Public
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [`argenteam`](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
-| [`descargas2020`](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
-| [`divxatope`](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
-| [`gazelle`/`gazellemusic`](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
-| [`newtorrents`](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
-| [`nyaa`](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
-| [`magnetdl`](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
-| [`piratebay`](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
-| [`search_rss`](/Searches/search_rss) | Generates query based rss feeds |
-| [`solidtorrents`](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
-| [`rarbg`](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
+| [133tx.to](/Searches/133tx) | Search [133tx.to](https://1337x.to/) |
+| [argenteam](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
+| [descargas2020](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
+| [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
+| [gazelle/gazellemusic](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
+| [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
+| [nyaa](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
+| [magnetdl](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
+| [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
+| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
+| [solidtorrents](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
+| [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 
 ### Private
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [`awesomehd`](/Searches/awesomehd) | Searches torrent site AwesomeHD |
-| [`btn`](/Searches/btn) | Searches torrent site BTN |
-| [`cpasbien`](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
-| [`filelist`](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
-| [`fuzer`](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/) |
-| [`iptorrents`](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
-| [`morethantv`](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
-| [`newznab`](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
-| [`notwhatcd`](/Searches/gazelle) | Generates entries from [NWCD](https://notwhat.cd/) |
-| [`passthepopcorn`](/Searches/passthepopcorn) | Searches torrent site PassThePopcorn |
-| [`ptn`](/Searches/ptn) | Searches torrent site PtN |
-| [`redacted`](/Searches/gazelle) | Generates entries from [RED](https://redacted.ch/) |
-| [`torrentday`](/Searches/torrentday)|Generates entries from torrentday.com
-| [`torrentleech`](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
+| [awesomehd](/Searches/awesomehd) | Searches torrent site AwesomeHD |
+| [btn](/Searches/btn) | Searches torrent site BTN |
+| [cpasbien](/Searches/cpasbien) | Generates entries from [cpasbien.pw](http://www.cpasbien.pw/) |
+| [filelist](/Searches/filelist) | Generates entries from [filelist.ro](https://filelist.ro) |
+| [fuzer](/Searches/fuzer) | Searches torrent site [Fuzer](https://www.fuzer.me/) |
+| [iptorrents](/Searches/iptorrents) | Generates entries from [iptorrents.com](http://iptorrents.com) |
+| [morethantv](/Searches/morethantv) | Generates entries from [morethan.tv](http://morethan.tv) (mtv) |
+| [newznab](/Searches/urlrewrite_newznab) | Generates entries from [newznab.com](http://newznab.com) |
+| [notwhatcd](/Searches/gazelle) | Generates entries from [NWCD](https://notwhat.cd/) |
+| [passthepopcorn](/Searches/passthepopcorn) | Searches torrent site PassThePopcorn |
+| [ptn](/Searches/ptn) | Searches torrent site PtN |
+| [redacted](/Searches/gazelle) | Generates entries from [RED](https://redacted.ch/) |
+| [torrentday](/Searches/torrentday)|Generates entries from torrentday.com
+| [torrentleech](/Searches/torrentleech) | Generates entries from [torrentleech.org](http://torrentleech.org/) |
 
