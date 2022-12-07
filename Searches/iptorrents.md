@@ -2,13 +2,16 @@
 title: iptorrents
 description: 
 published: true
-date: 2022-09-18T05:18:00.018Z
+date: 2022-12-07T05:46:27.617Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:57.391Z
 ---
 
 # IPTorrents
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get results from [http://iptorrents.com](http://iptorrents.com)
 
 ## Configuration
