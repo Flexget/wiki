@@ -2,7 +2,7 @@
 title: Entry
 description: 
 published: true
-date: 2022-09-18T05:17:10.135Z
+date: 2022-12-07T06:02:48.321Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:18.595Z
@@ -25,7 +25,10 @@ These are mandatory fields. You don't necessarily need to deal with anything mor
 | url | http://torrents.linuxmint.com/torrents/linuxmint-17.3-cinnamon-64bit.iso.torrent |
 
 ### Known fields
-Entry *may* have any of these fields, but is not *guaranteed* to have any of them. It may have other fields as well depending on configuration. Use `--dump` option to see your task content as this is not complete or always up-to-date list.
+Entry *may* have any of these fields, but is not *guaranteed* to have any of them. It may have other fields as well depending on configuration. 
+
+>Use `--dump` option to see your task content as this list is not complete or always up-to-date.
+{.is-warning}
 
 
 | **Name** | **Created by** | **Description** |
@@ -174,11 +177,5 @@ Entry *may* have any of these fields, but is not *guaranteed* to have any of the
 | tvmaze_episode_id | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Episode's TVMaze ID. |
 | tvmaze_episode_airstamp | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Date and Time Episode aired |
 | tvmaze_series_actors | [tvmaze_lookup](/Plugins/tvmaze_lookup) | A list of the cast of the show. |
-| uoccin_collected | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or the episode is marked as collected |
-| uoccin_rating | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or series assigned rating (as set in the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app) |
-| uoccin_subtitles | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or episode downloaded subtitles |
-| uoccin_tags | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or series assigned tags (by [uoccin_watchlist_add](/Plugins/uoccin_watchlist) or in the [Uoccin](https://play.google.com/store/apps/details?id=net.ggelardi.uoccin) Android app) |
-| uoccin_watched | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or the episode is marked as watched |
-| uoccin_watchlist | [uoccin_lookup](/Plugins/uoccin_lookup) | The movie or series is in the watchlist |
 
 ^* = and other plugins that utilize this plugin^
