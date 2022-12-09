@@ -2,15 +2,16 @@
 title: crossmatch
 description: 
 published: true
-date: 2022-12-07T23:56:32.193Z
+date: 2022-12-09T12:00:52.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:19.274Z
 ---
 
 # Crossmatch
-Match current entries against some other input entries and take action on matches.
+Match current entries against some other input entries and take action on matches. 
 
+Note that all matching entries created in `from` will be merged into corresponding task entry. 
 
 | **Option** | **Description** | **Default** |
 | --- | --- | --- |
