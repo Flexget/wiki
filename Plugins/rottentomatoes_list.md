@@ -2,13 +2,16 @@
 title: rottentomatoes_list
 description: 
 published: true
-date: 2022-12-03T03:30:55.365Z
-tags: 
+date: 2022-12-09T12:06:15.560Z
+tags: abandoned
 editor: markdown
 dateCreated: 2022-09-18T05:11:25.271Z
 ---
 
 # Rotten Tomatoes List
+> API registration seems to be broken, making this plugin defunct
+{.is-danger}
+
 Emits an entry for each movie in a [Rotten Tomatoes](http://www.rottentomatoes.com) list.
 
 ### Configuration
