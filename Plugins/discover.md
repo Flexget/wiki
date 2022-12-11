@@ -2,7 +2,7 @@
 title: discover
 description: 
 published: true
-date: 2022-09-18T05:25:06.944Z
+date: 2022-12-11T20:36:56.143Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:57.309Z
@@ -11,11 +11,8 @@ dateCreated: 2022-09-18T05:03:57.309Z
 # Discover
 Creates entries based on search results. Queries are produced based on another input plugin(s).
 
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp;
-  This may seem a bit scary at first, but just remember discover is normal input like rss!
-</div>
+
+This may seem a bit scary at first, but just remember discover is normal input like rss feed
 
 Cookbook example: [discoverfeed](/Cookbook/Movies/discoverfeed)
 
