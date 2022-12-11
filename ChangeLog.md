@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3b1da1d3536957c54119d23022c642149e2cbacb--->
+<!---e87e5031961a262be64517ba7858869050bea55c--->
 
-## 3.5.10.dev (unreleased)
+## 3.5.11.dev (unreleased)
+<!---b8aa65cab566b5b7e70ae8b42ff5e307a1d8aa0f--->
+
+## 3.5.10 (2022-12-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.9...v3.5.10)
 ### Added
 - plex_watchlist: Add a new list plugin to access plex watchlist  ([#3632](https://github.com/Flexget/Flexget/issues/3632))
 
-<!---0e842977b656ecb36e18047b06d970f389cd626a--->
 
 ## 3.5.9 (2022-12-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.8...v3.5.9)
