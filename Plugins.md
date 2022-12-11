@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-07T05:25:30.628Z
+date: 2022-12-11T17:52:04.469Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -108,6 +108,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |
 | [plex](/Plugins/plex) | Produce entries for shows present in a [Plex Media Server](http://www.plexapp.com) section. |
+| [plex_watchlist](/Plugins/List/plex_watchlist) | Plex watchlist [Managed List](/Plugins/List) |
 | [radarr_list](/Plugins/List/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
