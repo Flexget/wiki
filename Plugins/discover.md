@@ -2,7 +2,7 @@
 title: discover
 description: 
 published: true
-date: 2022-12-11T20:36:56.143Z
+date: 2022-12-11T20:40:08.043Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:57.309Z
@@ -59,7 +59,7 @@ series:
 Requires [series](/Plugins/series) configuration or [configure_series](/Plugins/configure_series) in the task.
 
 ### Search movie list
-This example would produce results from the piratebay search engine based on the movies in the list "wanted_movies" in the [movie_list](/Plugins/List/movie_list) plugin. It will only search for movies that have a release date that is no more than 30 days in the future.
+This example would produce results from the piratebay search engine based on the movies in the list `movies` (default name) in the [movie_list](/Plugins/List/movie_list) plugin. It will only search for movies that have a release date that is no more than 30 days in the future.
 
 ```yaml
 tasks:
@@ -68,7 +68,7 @@ tasks:
       release_estimations:
         optimistic: 30 days
       what:
-        - movie_list: wanted_movies
+        - movie_list: movies
       from:
         - piratebay:
             category: "highres movies"
@@ -76,7 +76,7 @@ tasks:
       interval: 1 day
     list_match:
       from:
-        - movie_list: wanted_movies
+        - movie_list: movies
 ```
 
 It's also possible to have inputs directly looked up here (but not advised as it would look up each time and not appear in your queues):
