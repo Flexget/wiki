@@ -2,7 +2,7 @@
 title: exists_movie
 description: 
 published: true
-date: 2022-09-18T05:04:57.267Z
+date: 2022-12-11T20:27:55.220Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:04:54.617Z
@@ -22,12 +22,12 @@ exists_movie:
 
 
 ### Example
-```
+```yaml
 exists_movie: /storage/movies/
 ```
 
 ### Example
-```
+```yaml
 exists_movie:
   - /storage/movies-sd/
   - /storage/movies-hd/
@@ -37,16 +37,16 @@ exists_movie:
 ### type
 By default, exists_movie will scan for directories within the given folder(s). If you would like to scan for files instead, use:
 
-```
+```yaml
 exists_movie:
   path: /storage/movies
   type: files
 ```
 
 ### allow_different_qualities
-By default, the exists_movie will not allow downloading of different qualities of the same movie. (If you already have Moon.720p, Moon.1080p will be rejected.) If you would like to allow different qualities of the same movie, you can use the advanced form of configuration, like so:
+By default, the exists_movie will not allow downloading of different qualities of the same movie. (If you already have `Movie.720p` then `Movie.1080p` will be rejected.) If you would like to allow different qualities of the same movie, you can use the advanced form of configuration, like so:
 
-```
+```yaml
 exists_movie:
   path: /storage/movies
   allow_different_qualities: yes
@@ -54,7 +54,7 @@ exists_movie:
 
 If you would only like to allow qualities that are better than what is currently on disk, you can use this format:
 
-```
+```yaml
 exists_movie:
   path: /storage/movies
   allow_different_qualities: better
@@ -63,12 +63,8 @@ exists_movie:
 ### lookup
 By default, exists_movie will use the internal movie parser. If you would like to use imdb_lookup instead, use:
 
-```
+```yaml
 exists_movie:
   path: /storage/movies
   lookup: imdb
 ```
-
-
-''Note: As of version 1.1.98 plugin will follow symbolically linked directories.
-''
