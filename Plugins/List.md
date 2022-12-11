@@ -2,7 +2,7 @@
 title: List
 description: 
 published: true
-date: 2022-09-18T05:25:34.631Z
+date: 2022-12-11T17:47:38.613Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:01:09.230Z
@@ -25,18 +25,20 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 
 | Plugin name | Description |
 | --- | --- |
-| [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
-| [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
-| [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
-| [radarr_list](/Plugins/List/radarr_list) | Use or add entries from Radarr. |
+| [emby_list](https://flexget.com/Plugins/emby_list) | Allows list management in emby server |
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. |
+| [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. |
-| [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. |
+| [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted |
+| [plex_watchlist](/Plugins/List/plex_watchlist) | Use or add entries from plex |
+| [radarr_list](/Plugins/List/radarr_list) | Use or add entries from Radarr. |
 | [regexp_list](/Plugins/List/regexp_list) | Use or add entries to a custom made regexp list. |
+| [sonarr_list](/Plugins/List/sonarr_list) | Use or add entries from Sonarr shows. |
+| [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. |
 | [thetvdb_list ](/Plugins/List/thetvdb_list) | Use or add entries from your TheTVDB favorites list. |
-| [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted
-| [emby_list](https://flexget.com/Plugins/emby_list) | Allows list management in emby server
+| [trakt_list](/Plugins/List/trakt_list) | Use or add entries from one of your trakt.tv lists. |
+
 
 ## List action advanced usage
 All of the aforementioned list plugins take a list of list plugin in their schema, so all operation can be used on multiple plugins at the same time:
