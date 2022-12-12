@@ -2,7 +2,7 @@
 title: next_sonarr_episodes
 description: 
 published: true
-date: 2022-12-06T02:11:25.889Z
+date: 2022-12-12T06:32:29.251Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:44.162Z
@@ -51,7 +51,7 @@ This example shows how the next_sonarr_episodes plugin could be used with the [s
 This example shows how the next_sonarr_episodes plugin could be used with the [discover](/Plugins/discover) plugin in order to download the first missing episode for all monitored and running shows as defined in [Sonarr](http://sonarr.tv):
 
 ```yaml
-  discover_from_sonarr_task:
+  discover-tv-from-sonarr:
       discover:
         what:
           - next_sonarr_episodes:
