@@ -2,7 +2,7 @@
 title: list_match
 description: 
 published: true
-date: 2022-09-18T05:25:06.944Z
+date: 2022-12-12T06:49:45.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:47.367Z
@@ -26,21 +26,14 @@ list_match:
   single_match: [yes|no]
 ```
 
-|Option|Default|
-|---|---|
-|action|accept|
-|remove_on_match|yes|
-|single_match|yes|
+| Option | Default | Description |
+| --- | --- | --- |
+| action | accept | What action to take, possible values are `accept` and `reject` |
+| remove_on_match | yes | All accepted entries are deleted from list when task completes. To disable this, use the `no` option. |
+| single_match | yes | By default, `list_match` will accept the first entry it sees from the list, so even if there are multiple potential matches, only the first one will be used If you wish to match **all** entries and not just the first one, use the `no` option. |
 
-By default, `list_match` will accept the first entry it sees from the list, so if there are multiple potential matches, only the first one will be used.
-
-If you wish to match **all** entries and not just the first one, use the `single_match: no` option.
-
-All accepted entries are deleted from list when task completes. To disable this, use the `remove_on_match: no` option.
-
-If you wish to reject entries based on a list, as opposed to accept, use `action: reject`.
-
-**NOTE**: Each list plugin matches differently, eg. [movie_list](/Plugins/List/movie_list) matches on metainfo identifiers while [entry_list](/Plugins/List/entry_list) matches solely on entry title. Consult the list plugin's wiki page for more details.
+> Each list plugin matches differently, eg. [movie_list](/Plugins/List/movie_list) matches on metainfo identifiers (eg. imdb_id) while [entry_list](/Plugins/List/entry_list) matches solely on entry title. Consult the list plugin's wiki page for more details.
+{.is-info}
 
 ### Examples
 
@@ -61,22 +54,23 @@ imdb_lookup: yes
 This requires that [movie list](/Plugins/List/movie_list) is either managed by hand or synced automatically from other sources. Check [movie list](/Plugins/List/movie_list) page for more information about that.
 
 #### Sync lists (untested)
-This example shows you how to sync a list from Trakt in Flexget, if you remove an entry in Trakt, it will get removed from your my-watchlist in Flexget as well. 
+This example shows you how to sync a list from Trakt in FlexGet, if you remove an entry in Trakt, it will get removed from your my-watchlist in FlexGet as well. 
 
 ```yaml
-remove-from-list
-  entry_list: my-watchlist
-  list_match:
-    from:
-      - trakt_list:
-          account: xxx
-          list: watchlist
-          type: shows
-    action: reject 
-    remove_on_match: no
-  accept_all: yes
-  list_remove:
-    - entry_list: my-watchlist
+tasks:
+  remove-from-list:
+    entry_list: tv-watchlist
+    list_match:
+      from:
+        - trakt_list:
+            account: xxx
+            list: watchlist
+           type: shows
+      action: reject 
+      remove_on_match: no
+    accept_all: yes
+    list_remove:
+      - entry_list: tv-watchlist
 ```
 Notes:
 * `action: reject` -- will reject the entry if it's still in Trakt.
