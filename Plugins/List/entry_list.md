@@ -2,7 +2,7 @@
 title: entry_list
 description: 
 published: true
-date: 2022-09-18T05:24:30.445Z
+date: 2022-12-12T03:26:39.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:27.859Z
@@ -52,18 +52,19 @@ First task `get-movies` will add all accepted entries to an `entry_list` with th
 ### Search in entry list:
 
 You can use `entry_list` as a [search](/Searches) plugin to use with [discover](/Plugins/discover):
+
 ```yaml
 tasks:
-  series_discover_task:
-    series:
-      - foo:
-          begin: s01e01
+  discover-series:
     discover:
       release_estimations: ignore
       what:
         - next_series_episodes: yes
       from:
         - entry_list: series list
+    series:
+      - foo:
+          begin: s01e01
 ```
 
 ## Command line interface
