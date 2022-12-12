@@ -2,7 +2,7 @@
 title: list_remove
 description: 
 published: true
-date: 2022-12-12T06:57:11.846Z
+date: 2022-12-12T07:01:51.509Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:58.968Z
@@ -16,7 +16,7 @@ List plugins can have entries removed from them by using the `list_remove` plugi
 
 ## Examples
 
-(Not very good example)
+Move items from account to another.
 
 ```yaml
 trakt_list:
