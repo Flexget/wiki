@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-12-11T17:52:04.469Z
+date: 2022-12-12T10:16:27.105Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -130,7 +130,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. [Managed List](/Plugins/List) |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. [Managed List](/Plugins/List) |
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. [Managed List](/Plugins/List) |
-| [pending_list](/Plugins/List/pending_list) | Manually approve entries |
+| [pending_list](/Plugins/List/pending_list) | Manually approve entries. [Managed List](/Plugins/List) |
 
 ## Filter
 Reject or Accept **[entries](/Entry)** based on given rules. A single task may have any number of filters.  
