@@ -2,7 +2,7 @@
 title: trakt_list
 description: 
 published: true
-date: 2022-09-18T05:25:33.347Z
+date: 2022-12-12T07:01:12.191Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:25:30.683Z
@@ -17,16 +17,11 @@ This plugin creates an [Entry](/Entry) for each movie/show in one of the availab
 This plugin is useful for example when used in a task with the [movie_list](/Plugins/List/movie_list) plugin to add movies from your trakt watchlist to your [movie_list](/Plugins/List/movie_list), or to control the series plugin using [configure_series](/Plugins/configure_series).  
 
 
-<div class="alert alert-warning" role="alert">
+>Trakt removes shows from watchlist if you watch them, so **do not** use watchlist as your primary series source, use a  [custom list](http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after-) instead!
+{.is-warning}
 
-Trakt removes shows from watchlist if you watch them, so **do not** use watchlist as your primary series source, use a 
-[custom list](http://support.trakt.tv/knowledgebase/articles/154739-why-do-things-get-removed-from-my-watchlist-after-) instead!
-</div>
-
-<div class="alert alert-info" role="alert">
-
-Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize FlexGet to access your Trakt.tv account.
-</div>
+>Please see [Trakt Authentication](/Trakt_Authentication) for how to authorize FlexGet to access your Trakt.tv account.
+{.is-info}
 
 **Notes:** 
 
