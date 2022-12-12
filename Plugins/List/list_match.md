@@ -2,13 +2,13 @@
 title: list_match
 description: 
 published: true
-date: 2022-12-12T06:49:45.567Z
+date: 2022-12-12T06:51:37.094Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:47.367Z
 ---
 
-## List Match
+# List Match
 
 > This is part of [managed list](/Plugins/List) plugin system.
 {.is-success}
@@ -35,9 +35,9 @@ list_match:
 > Each list plugin matches differently, eg. [movie_list](/Plugins/List/movie_list) matches on metainfo identifiers (eg. imdb_id) while [entry_list](/Plugins/List/entry_list) matches solely on entry title. Consult the list plugin's wiki page for more details.
 {.is-info}
 
-### Examples
+## Examples
 
-#### Download queued movies
+### Download queued movies
 
 
 ```yaml
@@ -53,7 +53,7 @@ imdb_lookup: yes
 
 This requires that [movie list](/Plugins/List/movie_list) is either managed by hand or synced automatically from other sources. Check [movie list](/Plugins/List/movie_list) page for more information about that.
 
-#### Sync lists (untested)
+### Sync lists (untested)
 This example shows you how to sync a list from Trakt in FlexGet, if you remove an entry in Trakt, it will get removed from your my-watchlist in FlexGet as well. 
 
 ```yaml
