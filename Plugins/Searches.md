@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-11T20:49:13.424Z
+date: 2022-12-12T03:21:15.738Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -20,10 +20,18 @@ You can always get an up to date overview of the available search plugins by usi
 
 
 ### Internal
+
 | **Keyword** | **Description** |
 | --- | --- |
 | [entry_list](/Plugins/List/entry_list) | Search in an [entry_list](/Plugins/List/entry_list)
 | [flexget_archive](/Searches/flexget_archive) | Searches within previously archived entries |
+
+### General
+
+| **Keyword** | **Description** |
+| --- | --- |
+| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
+
 ### Public
 
 | **Keyword** | **Description** |
@@ -38,7 +46,6 @@ You can always get an up to date overview of the available search plugins by usi
 | [limetorrents](/Searches/limetorrents) | Generates entries from limetorrents.cc |
 | [magnetdl](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
-| [search_rss](/Searches/search_rss) | Generates query based rss feeds |
 | [solidtorrents](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
 | [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 
