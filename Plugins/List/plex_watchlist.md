@@ -2,7 +2,7 @@
 title: plex_watchlist
 description: 
 published: true
-date: 2022-12-13T16:10:50.446Z
+date: 2022-12-13T16:11:03.932Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-11T17:52:44.194Z
@@ -14,8 +14,6 @@ dateCreated: 2022-12-11T17:52:44.194Z
 {.is-success}
 
 Allows management of the [Plex watchlist](https://support.plex.tv/articles/universal-watchlist/).
-
-TBD
 
 |  Option  |  Description  |
 | --- | --- |
