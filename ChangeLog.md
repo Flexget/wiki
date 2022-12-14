@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---31be5ebaea13efea89a24096d65c442631ea10a3--->
+<!---94880a3f939b870ff90b405d123ef11d334761fc--->
 
-## 3.5.11.dev (unreleased)
+## 3.5.12.dev (unreleased)
+<!---e170d41b355c89d67cad798aa632a94831362f4d--->
+
+## 3.5.11 (2022-12-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.10...v3.5.11)
 ### Fixed
 - iptorrents: Add a delay between requests to avoid being rate limited
 
-<!---b8aa65cab566b5b7e70ae8b42ff5e307a1d8aa0f--->
 
 ## 3.5.10 (2022-12-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.9...v3.5.10)
