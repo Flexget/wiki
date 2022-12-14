@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e87e5031961a262be64517ba7858869050bea55c--->
+<!---31be5ebaea13efea89a24096d65c442631ea10a3--->
 
 ## 3.5.11.dev (unreleased)
+### Fixed
+- iptorrents: Add a delay between requests to avoid being rate limited
+
 <!---b8aa65cab566b5b7e70ae8b42ff5e307a1d8aa0f--->
 
 ## 3.5.10 (2022-12-11)
