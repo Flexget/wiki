@@ -2,7 +2,7 @@
 title: iptorrents
 description: 
 published: true
-date: 2022-12-15T02:34:16.937Z
+date: 2022-12-15T02:34:57.866Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:57.391Z
@@ -118,5 +118,5 @@ Navigate to `IPTorrents` under `Cookies`. `uid` and `password` are listed there:
 
 <img src="http://i.imgur.com/45WW0Ok.jpg">
 
-### A Note on Rate Limiting
+## A Note on Rate Limiting
 IPTorrents has been observed to return `429: Too Many Requests` errors when searching for a large number of TV series or movies with `alternate_name` configurations. The plugin defaults to a 2 second delay between searches, but this can be configured differently using the `domain_delay` plugin.
