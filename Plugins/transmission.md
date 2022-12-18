@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2022-12-05T03:45:16.506Z
+date: 2022-12-18T11:46:07.573Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -33,9 +33,9 @@ transmission:
   password: mypassword
 ```
 
-If you're having authentication issues, see ticket 1066 in old trac and see if it helps (feel free to improve this wiki page). The username and password can be set from the GUI, but if you're using the headless version you must change it in `/home/<user>/.config/transmission-daemon/settings.json`. First stop transmissiond, edit settings.json and enter a password in clear text; it will be overwritten with its hash once transmissiond is started again.
+The username and password can be set from the GUI, but if you're using the headless version you must change it in `/home/<user>/.config/transmission-daemon/settings.json`. First stop transmissiond, edit settings.json and enter a password in clear text; it will be overwritten with its hash once transmissiond is started again.
 
-Also make sure that rpc-whitelist isn't preventing flexget from connecting to localhost or whatever IP address it's using. The settings below will permit clients connecting from localhost and 192.168.x.x, assuming they also provide the correct credentials, it will also deny all other IP ranges:
+Also make sure that rpc-whitelist isn't preventing FlexGet from connecting to localhost or whatever IP address it's using. The settings below will permit clients connecting from localhost and 192.168.x.x, assuming they also provide the correct credentials, it will also deny all other IP ranges:
 
 ```
 ...
@@ -45,7 +45,7 @@ Also make sure that rpc-whitelist isn't preventing flexget from connecting to lo
 ```
 
 ## Transmission-GTK
-If you are running Ubuntu, or most any modern distribution, chances are great that you have transmission-gtk instead of transmission-daemon. In this case: Open transmission-gtk, go to Edit > Preferences, and navigate to the Remote tab. Check "Allow remote access" and set your username and password. If "Only allow these IP addresses" is checked, be sure to have your IP included. Test the connection by clicking on "Open web client" button. If you can authenticate from the web client, you should have no problems authenticating with your flexget configuration file as follows:
+If you are running Ubuntu, or most any modern distribution, chances are great that you have transmission-gtk instead of transmission-daemon. In this case: Open transmission-gtk, go to *Edit > Preferences*, and navigate to the *Remote* tab. Check *"Allow remote access"* and set your username and password. If *"Only allow these IP addresses"* is checked, be sure to have your IP included. Test the connection by clicking on *"Open web client"* button. If you can authenticate from the web client, you should have no problems authenticating with your flexget configuration file as follows:
 ```
 transmission:
   host: localhost
@@ -84,7 +84,7 @@ transmission:
 | queue_position | Number | Will set the torrent's position in the queue to the specified number, where 0 is the top of the queue |
 
 To use all default values use this config form:
-```
+```yaml
 transmission: yes
 ```
 
@@ -93,16 +93,16 @@ Transmission plugin will also utilize options from [entry](/Entry) fields. This 
 
 Here is an example task using the series plugin:
 
-```
+```yaml
 series:
   settings:
     720p:
       set:
-        path: /media/diska/incomplete/
+        path: /media/disk_a/incomplete/
         label: 720p
     hdtv:
       set:
-        path: /media/diskb/incomplete/
+        path: /media/disk_b/incomplete/
         label: tv
   720p:
     - name 1
@@ -120,16 +120,13 @@ transmission:
   password: mypassword
 ```
 
-
-**NOTE:** with **addpaused** the plugin will pause the torrent after a 5 secs wait, to allow metadata download and content renaming on magnet URIs.
-
-### Transmission Tips
-After 1.2.34 the removewhendone option does not exists anymore, you can now clean the Transmission queue using the [clean_transmission](/Plugins/clean_transmission) plugin
+>**NOTE:** with **addpaused** option the plugin will pause the torrent after a 5 secs wait, to allow metadata download and content renaming on magnet URIs.
+{.is-info}
 
 ### Content Renaming
 The transmission plugin also supports another advanced feature: content file renaming. This will allow you to change the filename of the main file inside the torrent in transmission. It will only rename a file if it finds that 1 file in the torrent is larger than 90% of the total torrent content. Here is an example configuration:
 
-```
+```yaml
 templates:
   torrent:
     transmission:
@@ -162,7 +159,7 @@ The Transmission Plugin also supports selective file downloading using the setti
 
 **Example:**
 
-```
+```yaml
 ...
   set:
     path: /mnt/storage/Series/{{ tvdb_series_name }}
@@ -188,7 +185,7 @@ If a main file IS found any *.txt file will be downloaded.
 Because include_subs is set any *.srt, *.sub, *.idx, *.ass, *.ssa will also be downloaded.
 
 Setting include_subs to yes is the same as:
-```
+```yaml
 ...
   set:
     include_files:
