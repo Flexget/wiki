@@ -2,7 +2,7 @@
 title: kitsu
 description: 
 published: true
-date: 2022-09-18T05:07:10.911Z
+date: 2022-12-18T11:55:02.569Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:07:08.273Z
@@ -10,7 +10,7 @@ dateCreated: 2022-09-18T05:07:08.273Z
 
 # Kitsu
 
-This plugin produces an [entry](/Entry) for each movie or series in a public [Kitsu.io](http://www.kitsu.io) library. Results are cached for two hours to avoid flooding the api.
+This plugin produces an [entry](/Entry) for each movie or series in a public [Kitsu.io](http://www.kitsu.io) library. 
 
 **Notes:** 
 
@@ -37,7 +37,7 @@ This example shows how the `kitsu` plugin could be used with the [configure_seri
 configure_series:
   from:
     kitsu:
-      username: NikkyAi
+      username: <USERNAME>
       lists:
         - current
         - planned
