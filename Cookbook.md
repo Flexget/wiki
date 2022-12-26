@@ -2,7 +2,7 @@
 title: Cookbook
 description: 
 published: true
-date: 2022-09-28T17:47:11.891Z
+date: 2022-12-07T05:55:05.925Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:03.276Z
@@ -15,9 +15,13 @@ To get started, create these as a file `~/.flexget/config.yml` (see [Configurati
 From here you can find tips and recipes for common tasks.
 Feel free to add your own recipes or improve existing ones.  
 
-**To edit the wiki:**
+>**To edit the wiki:**
+>
+>You can [login](/login) via oauth with either a GitHub or Google account.
 
-You can [login](/login) via oauth with either a GitHub or Google account.
+> Please create new pages only under /Cookbook/ ! 
+> Don't create new pages in the root of the wiki.
+{.is-warning}
 
 ## Delicious recipes
 - [Recipes for series](/Cookbook/Series)

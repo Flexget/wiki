@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-09-18T05:25:10.821Z
+date: 2022-11-06T14:39:52.430Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -11,13 +11,172 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ce698c16015c421f985312e804e71c7a88365126--->
+<!---f28d3b27a4ea18ae3ea6de8ce171a873e8260a9f--->
 
-## 3.3.33.dev (unreleased)
+## 3.5.14.dev (unreleased)
+<!---13ae9c448d1d0860849cc549fc855516f1af15fa--->
+
+## 3.5.13 (2022-12-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.12...v3.5.13)
+
+## 3.5.12 (2022-12-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.11...v3.5.12)
+
+## 3.5.11 (2022-12-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.10...v3.5.11)
+### Fixed
+- iptorrents: Add a delay between requests to avoid being rate limited
+
+
+## 3.5.10 (2022-12-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.9...v3.5.10)
+### Added
+- plex_watchlist: Add a new list plugin to access plex watchlist  ([#3632](https://github.com/Flexget/Flexget/issues/3632))
+
+
+## 3.5.9 (2022-12-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.8...v3.5.9)
+### Fixed
+- Make sure http connections get closed automatically. o_O
+
+
+## 3.5.8 (2022-12-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.7...v3.5.8)
+### Fixed
+- toast icon path ([#3628](https://github.com/Flexget/Flexget/issues/3628))
+- handling of empty `url` in *toast* on macOS ([#3629](https://github.com/Flexget/Flexget/issues/3629))
+- imdb_lookup: avoid 403 by spoofing browser user agent
+
+### Added
+- matrix notifier ([#3529](https://github.com/Flexget/Flexget/issues/3529))
+
+
+## 3.5.7 (2022-12-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.6...v3.5.7)
+
+## 3.5.6 (2022-11-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.5...v3.5.6)
+
+## 3.5.5 (2022-11-07)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.4...v3.5.5)
+### Fixed
+- Fix crash with --dump with certain bracketed URLs.
+- Fix crash with --dump with certain bracketed text.
+
+
+## 3.5.4 (2022-11-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.3...v3.5.4)
+### Changed
+- from_transmission: Add activityDate and isStalled fields
+
+
+## 3.5.3 (2022-11-05)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.2...v3.5.3)
+### Fixed
+- Fix hanging when sending commands to the daemon. [#3601](https://github.com/Flexget/Flexget/issues/3601)
+
+
+## 3.5.2 (2022-11-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.1...v3.5.2)
+
+## 3.5.1 (2022-11-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.0...v3.5.1)
+### Fixed
+- Fixed wheel release properly specifying dependencies
+
+## 3.5.0 (2022-11-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.4.2...v3.5.0)
+### Removed
+- Python 3.6 support has been dropped
+### Changed
+- (development) Poetry is now used for dependency management
+- Many dependencies have been updated
+
+### Added
+- Python 3.11 support
+
+
+## 3.4.2 (2022-10-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.4.1...v3.4.2)
+### Fixed
+- imdb_lookup: fix populating plot_keywords
+- imdb_lookup: fix populating plot_outline
+- imdb_lookup: fix searching by using the suggestions api
+
+
+## 3.4.1 (2022-10-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.4.0...v3.4.1)
+### Changed
+- docker: Push to docker hub as well as ghcr
+
+
+## 3.4.0 (2022-10-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.41...v3.4.0)
+### Changed
+- docker: make `/config` the default location to mount the config directory. See [UpgradeActions](/UpgradeActions#h-340-2022-10-25)
+
+
+## 3.3.41 (2022-10-24)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.40...v3.3.41)
+
+## 3.3.40 (2022-10-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.39...v3.3.40)
+### Fixed
+- docker: Fix webui build in docker release
+
+### Changed
+- newznab: Search using more IDs than just tvrage if available
+
+### Added
+- series pack support for guessit parser ([#3548](https://github.com/Flexget/Flexget/issues/3548))
+
+
+## 3.3.39 (2022-10-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.38...v3.3.39)
+
+## 3.3.38 (2022-10-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.37...v3.3.38)
+### Fixed
+- release: add changelog to release body with changelog-builder-action
+
+### Changed
+- Dockerfile: switch to python 3.10
+
+
+## 3.3.37 (2022-10-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.36...v3.3.37)
+### Fixed
+- morethantv domain ([#3492](https://github.com/Flexget/Flexget/issues/3492))
+- morethantv domain ([#3492](https://github.com/Flexget/Flexget/issues/3492))
+
+
+## 3.3.36 (2022-10-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.35...v3.3.36)
+### Fixed
+- docker: typo on tags and labels
+
+
+## 3.3.35 (2022-10-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.34...v3.3.35)
+### Fixed
+- docker: typo on develop caching, extra latest tag on releases tag
+
+### Changed
+- Add warning that python 3.6 will not be supported soon.
+
+
+## 3.3.34 (2022-10-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.33...v3.3.34)
+### Added
+- docker: build caching
+- docker: tzdata for timezone support via env
+
+
+## 3.3.33 (2022-10-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.3.32...v3.3.33)
 ### Added
 - Notification plugin for Bark
 
-<!---a94618c861c4aa442bb43e3d4e5c1699aaa97605--->
 
 ## 3.3.32 (2022-10-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.3.31...v3.3.32)

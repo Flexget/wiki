@@ -2,7 +2,7 @@
 title: SynologyNAS
 description: 
 published: true
-date: 2022-09-18T05:24:11.746Z
+date: 2022-11-22T17:36:09.372Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:35.039Z
@@ -18,7 +18,7 @@ Running FlexGet in a Docker container gives you the ultimate level of control ov
 
 ## [Local Python package](/InstallWizard/SynologyNAS/PythonPackage)
 
-> FlexGet supports Python 3.6-3.8.
+> FlexGet supports Python 3.7 and later
 {.is-warning}
 
 This method uses the Python installation available from Entware-ng's opkg Package Center. This is a relatively easy process for anyone with basic CLI experience, but does require some maintenance and troubleshooting.

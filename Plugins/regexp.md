@@ -2,7 +2,7 @@
 title: regexp
 description: 
 published: true
-date: 2022-09-18T05:15:37.009Z
+date: 2022-10-14T22:30:56.192Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:35.699Z
@@ -78,14 +78,14 @@ By default, regexp plugin will only try to match in the title and description fi
 
 ### Examples
 Reject drama from the tvdb_genre field which is filled by [thetvdb_lookup](/Plugins/thetvdb_lookup) plugin.
-```
+```yaml
 regexp:
   reject:
     - drama:
         from: tvdb_genres
 ```
 Make sure all regexps only apply to title field.
-```
+```yaml
 regexp:
   accept:
     - good.stuff
@@ -95,7 +95,7 @@ regexp:
 ```
 
 ## Full syntax
-```
+```yaml
 regexp:
   <operation>:
     - pattern 1
@@ -108,10 +108,11 @@ regexp:
         [set]:
             <entry field>: <value>
   [rest]: <operation>
-  [from]: <entry field> # applies to all patterns
+  [from]:
+  	- <entry fields> # applies to all patterns
 ```
+^[\ ]^ ^=^ ^optional^ ^|^ ^<>^ ^=^ ^value^
 
-^[] = optional, <> = value^
 
 Available operations: `accept`, `reject`, `accept_excluding` and `reject_excluding`.
 Configuration may contain any number and combination of different operations.

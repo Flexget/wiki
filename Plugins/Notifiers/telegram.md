@@ -2,8 +2,8 @@
 title: telegram
 description: 
 published: true
-date: 2022-09-18T05:26:59.889Z
-tags: 
+date: 2022-12-05T03:42:51.736Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
 ---
@@ -11,21 +11,20 @@ dateCreated: 2022-09-18T05:26:57.151Z
 # [Notifiers](/Plugins/Notifiers) > Telegram
 > Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
 {.is-success}
+
 Send a message to one or more Telegram users or groups upon accepting a download.
 
 
 ## Preparations
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp; Install `python-telegram-bot` python pkg
-<br/><br/>
 
-```bash
-pip install python-telegram-bot==12.8
-```
-</div>
+>Install `python-telegram-bot` python package
+>```bash
+>pip install python-telegram-bot==12.8
+>```
+{.is-info}
+
 > Newer versions (13.0+) of python-telegram-bot are not compatible
-{.is-warning}
+{.is-danger}
 
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 * For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
@@ -107,5 +106,3 @@ templates:
               recipients:
                 - username: '{? credentials.telegram.username ?}'
 ```
-
-

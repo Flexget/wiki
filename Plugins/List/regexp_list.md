@@ -2,7 +2,7 @@
 title: regexp_list
 description: 
 published: true
-date: 2022-09-18T05:25:34.631Z
+date: 2022-12-12T10:00:01.508Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:25:14.773Z
@@ -15,7 +15,7 @@ dateCreated: 2022-09-18T05:25:14.773Z
 It is a list of strings that represent regular expressions to be used for matching entries. The matching is case insensitive and only match single lines (no newline matching etc).
 
 ### Config
-```
+```yaml
 regexp_list: <NAME>
 ```
 
@@ -24,8 +24,9 @@ Maintain a list of regular expressions instead of writing them out in the config
 
 Below is an example that converts a list of series from a [trakt_list](/Plugins/List/trakt_list) to a list of regular expressions that can be used to match entries from RSS feeds. Useful if you don't care about series tracking.
 
-```
-populate_regexp_list:
+```yaml
+tasks:
+  populate-regexp-list:
     disable: seen
     trakt_list:
       account: trakt_username
@@ -34,7 +35,7 @@ populate_regexp_list:
       strip_dates: yes
     list_add:
       - regexp_list: series_regexp
-    manipulate:  # example: Game of Thrones becomes game.*of.*thrones.*s\d{2}e\d{2}
+    manipulate:  # example: Pioneer One becomes pioneer.*one.*s\d{2}e\d{2}
       - title:
           replace:
             regexp: '$'
@@ -44,7 +45,8 @@ populate_regexp_list:
             regexp: ' '
             format: '.*'
     accept_all: yes
-  download_with_regexp:
+    
+  download-with-regexp:
     rss: https://some.url.com/rss
     list_match:
       from:
@@ -53,5 +55,6 @@ populate_regexp_list:
       single_match: no
     download: /some/download/path
 ```
+
 ### CLI
 You can also [interact with regexp_list](/CLI/regexp-list) via command line.

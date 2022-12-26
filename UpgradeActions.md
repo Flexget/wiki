@@ -2,19 +2,28 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2022-09-18T05:27:09.080Z
+date: 2022-12-07T07:11:51.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
 ---
 
 # Required Upgrading Actions
-Just planning upgrading? See the [upgrade guide](/Upgrade) first!
+
+>Just planning upgrading? See the [upgrade guide](/Upgrade) first!
+{.is-warning}
 
 ## Instructions
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.5.0** -- 2022-11-03
+Support for python 3.6 has been dropped. Install FlexGet using python 3.7 or newer to continue upgrading.
+
+### **3.4.0** -- 2022-10-25
+The official docker image is changing the default config bindmount from `/root/.flexget` to `/config` to allow running a container as a non-root user. Please change your `-v` path or `volumes` in `docker-compose.yml` if using docker compose.
+
 
 ### **3.3.0** -- 2022-02-14
 `from_transmission` was setting entry fields with timezone aware datetimes depending on what version was installed. If you were using any `if` statements comparing to these dates with `now.astimezone()` you must now remove the `.astimezone()`

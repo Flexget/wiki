@@ -2,14 +2,14 @@
 title: sftp_list
 description: 
 published: true
-date: 2022-09-18T05:13:03.890Z
-tags: 
+date: 2022-12-03T03:29:30.570Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:01.185Z
 ---
 
 # SFTP List
-Generate entries from SFTP to download with [sftp_download](sftp_download). This plugin requires the pysftp Python module and its dependencies.
+Generate entries from SFTP to download with [sftp_download](/Plugins/sftp_download). This plugin requires the pysftp Python module and its dependencies.
 
 This plugin requires the pysftp Python module; to install it run:
 

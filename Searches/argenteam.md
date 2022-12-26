@@ -2,14 +2,18 @@
 title: argenteam
 description: 
 published: true
-date: 2022-09-18T05:17:08.862Z
+date: 2022-12-07T05:16:18.924Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:06.213Z
 ---
 
 # aRGENTeaM
-Search plugin which gives results from [www.argenteam.net](http://www.argenteam.net/), latin american (Argentina) web.
+
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
+Retrieves results from [www.argenteam.net](http://www.argenteam.net/), latin american (Argentina) web.
 
 Add an entry field `argenteam_subtitle`, which contains subtitle’s url.
 ### Configuration

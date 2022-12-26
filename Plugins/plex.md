@@ -2,14 +2,15 @@
 title: plex
 description: 
 published: true
-date: 2022-09-18T05:09:48.701Z
+date: 2022-12-03T03:32:55.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:09:45.359Z
 ---
 
 # Plex
-**Note:** This plugin has been reported as incompatible with [PlexHome](https://blog.plex.tv/2014/11/20/introducing-plex-home/)*
+>This plugin has been reported as incompatible with [PlexHome](https://blog.plex.tv/2014/11/20/introducing-plex-home/)
+{.is-warning}
 
 Produces an entry for each show present in a  [Plex Media Server](http://www.plexapp.com) TV section. Can be used with [configure_series](/Plugins/configure_series) plugin or an output plugin.
 
@@ -20,8 +21,8 @@ Available configuration parameters:
 | --- | --- | --- | --- |
 | server | localhost | No | IP or host of PMS |
 | port | 32400 | No | Port that PMS listens on |
-| selection | all | No | Default selection to use, listing can be found at http://<yourplexserver>:32400/library/sections/<section>/ |
-| section | N/A | Yes | Section to use as input, numerical (/library/sections/<num>) or section name. |
+| selection | all | No | Default selection to use, listing can be found at http://\<yourplexserver>:32400/library/sections/\<section>/ |
+| section | N/A | Yes | Section to use as input, numerical (/library/sections/\<num>) or section name. |
 | username | N/A | No | Myplex username, for logging in to remote servers |
 | password | N/A | No | Myplex password, see above |
 | token    | N/A | No | [Plex Token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/). Use it instead of username/password parameters but not both! |
@@ -32,12 +33,12 @@ Available configuration parameters:
 | fetch | file | No | Run "flexget doc plex" for options. |
 Using selection 'all' or 'recentlyViewedShows' will only produce a list of show names while the others will produce filename and download url.
 
-    'selection'         Can be set to different keys:
-        - all                   : Default
-        - unwatched             :
-        - recentlyAdded         :
-        - recentlyViewed        :
-        - recentlyViewedShows   : Series only.
+`selection` Can be set to different keys:
+- `all` (Default)
+- `unwatched`
+- `recentlyAdded`
+- `recentlyViewed`
+- `recentlyViewedShows` (Series only)
 
 
 ## Sample configuration

@@ -2,7 +2,7 @@
 title: Notifiers
 description: 
 published: true
-date: 2022-09-18T05:27:09.080Z
+date: 2022-12-07T05:00:06.532Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:01:16.981Z
@@ -17,16 +17,16 @@ Notifications can be delivered by many different services. In order to allow any
 The [notify](/Plugins/notify) plugin is used to configure what notifications should be sent for a given task. In the future there may be other FlexGet subsystems which can also send notifications using these plugins.
 
 ## Notifiers
-These plugins are responsible for delivering notifications. One or more of them can be chosen in the `via` section of the [notify](/Plugins/notify) plugin.
+These plugins are responsible for delivering notifications. One or more of them can be chosen in the `via` configuration option of the [notify](/Plugins/notify) plugin.
 
-| Plugin name | Description |
+| **Keyword** | **Description** |
 | --- | --- |
 | [email](/Plugins/Notifiers/email) | Send an email message |
 | [gotify](/Plugins/Notifiers/gotify) | Send a [Gotify](https://gotify.net) notification |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
-| [toast](/Plugins/Notifiers/toast) | Popup a message on the computer running FlexGet. |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
-|[ntfy.sh](/Plugins/Notifiers/ntfysh)|Send a ntfy.sh notification
+| [mqtt](/Plugins/Notifiers/mqtt) | Send MQTT notification |
+| [matrix](/Plugins/Notifiers/matrix) | Send [matrix](https://matrix.org) notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
@@ -38,4 +38,4 @@ These plugins are responsible for delivering notifications. One or more of them 
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
-
+| [ms_teams](/Plugins/Notifiers/ms_teams) |Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |

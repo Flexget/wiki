@@ -2,13 +2,18 @@
 title: Docker
 description: 
 published: true
-date: 2022-09-18T05:24:06.462Z
+date: 2022-11-22T17:39:11.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:03.756Z
 ---
 
 # [Install Wizard](/InstallWizard) > [SynologyNAS](/InstallWizard/SynologyNAS) > Docker
+
+> Since this guide, there is official docker image which might be much better starting point. This guide should be re-evaluated.
+>
+> Updates are appreciated
+{.is-warning}
 
 ## Install Docker
 

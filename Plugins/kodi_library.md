@@ -2,15 +2,17 @@
 title: kodi_library
 description: 
 published: true
-date: 2022-09-18T05:07:14.791Z
+date: 2022-12-03T03:42:34.131Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:07:12.176Z
 ---
 
 # Kodi library
-Simple plugin to send clean or scan requests to a remote or local Kodi server. JSON-RPC must be enabled. See http://kodi.wiki/view/JSON-RPC_API#Enabling_JSON-RPC on how to enable it.
+> **Requirements:** JSON-RPC must be enabled. See http://kodi.wiki/view/JSON-RPC_API#Enabling_JSON-RPC on how to enable it.
+{.is-info}
 
+Simple plugin to send clean or scan requests to a remote or local Kodi server. 
 ## Plugin Settings
 Currently the following settings are supported:
 

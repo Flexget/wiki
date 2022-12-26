@@ -2,7 +2,7 @@
 title: Web-UI
 description: 
 published: true
-date: 2022-09-18T05:19:42.666Z
+date: 2022-10-29T20:41:57.168Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:29.384Z
@@ -77,7 +77,7 @@ Visit the [API page](/wiki/API) for more information about it.
 ### Running Flexget from Git
 If you are running flexget from git, you can run the following to get the latest release of webui. 
 ```bash
-python dev_tools.py bundle_webui
+python dev_tools.py bundle-webui
 ```
 
 

@@ -2,8 +2,8 @@
 title: xmpp
 description: 
 published: true
-date: 2022-09-18T05:27:07.779Z
-tags: 
+date: 2022-12-03T03:46:48.952Z
+tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:27:05.215Z
 ---
@@ -11,6 +11,7 @@ dateCreated: 2022-09-18T05:27:05.215Z
 # [Notifiers](/Plugins/Notifiers) > XMPP
 > XMPP is a part of the [notifier](/Plugins/Notifiers) plugin system.
 {.is-success}
+
 This plugin sends messages via XMPP, has been tested on Windows 7/64 so far, sending messages to Google Hangouts recipients.
 
 ## Preparations
@@ -37,5 +38,3 @@ notify:
           password: mypassword
           recipients: to_jid@whatever.com
 ```
-
-

@@ -2,7 +2,7 @@
 title: rapidpush
 description: 
 published: true
-date: 2022-09-18T05:26:47.947Z
+date: 2022-12-03T03:44:30.543Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:45.353Z
@@ -11,6 +11,7 @@ dateCreated: 2022-09-18T05:26:45.353Z
 # [Notifiers](/Plugins/Notifiers) > RapidPush
 > RapidPush is a part of the [notifier](/Plugins/Notifiers) plugin system.
 {.is-success}
+
 RapidPush is an easy-to-use push notification service for Android devices.  
 
 To use this Plugin you need the Android application "RapidPush" which can be found within the [Google Play Store](https://play.google.com/store/apps/details?id=com.syncoorp.rapidpush).  

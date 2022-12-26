@@ -2,13 +2,16 @@
 title: passthepopcorn
 description: 
 published: true
-date: 2022-09-18T05:18:23.467Z
+date: 2022-12-07T05:46:59.651Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:20.861Z
 ---
 
 # PassThePopcorn
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
+
 This search plugin will get movie results from PassThePopcorn.
 
 ## Configuration

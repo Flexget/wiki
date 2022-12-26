@@ -2,19 +2,17 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-09-21T12:31:22.093Z
+date: 2022-11-22T17:42:17.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
 ---
 
 # Installation Tutorial
-> Starting from version 3.0.0, Flexget supports only Python 3.6 and higher
+> Starting from version 3.5.0, Flexget supports only Python 3.7 and higher
 {.is-info}
 
-This wizard guides you through installing FlexGet.
-
-*Note: Some steps are not tested, and some may even be wrong. Feedback is appreciated!*
+This guides you through installing FlexGet.
 
 ### By operating system
 
@@ -24,15 +22,16 @@ This wizard guides you through installing FlexGet.
 
 ### Hardware-specific
 
-Written and maintained by user community, please improve and update!
+> Written and maintained by user community, please improve and update!
+{.is-info}
 
  * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
  * [OpenWrt](/InstallWizard/OpenWrt)
- * [Plugbox](/InstallWizard/Plugbox)
- * [QNAP NAS](/InstallWizard/QNAP)
- * [ReadyNAS](/InstallWizard/ReadyNAS)
+ * [Plugbox](/InstallWizard/Plugbox) (out-of-date)
+ * [QNAP NAS](/InstallWizard/QNAP) (out-of-date)
+ * [ReadyNAS](/InstallWizard/ReadyNAS) (out-of-date)
  * [SynologyNAS](/InstallWizard/SynologyNAS)
- * [Buffalo Linkstation](/InstallWizard/BuffaloLinkstation)
+ * [Buffalo Linkstation](/InstallWizard/BuffaloLinkstation) (out-of-date)
 
 ### Advanced
 This is useful also if you're having problems with pip based installation or have a really small root filesystem.

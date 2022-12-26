@@ -2,7 +2,7 @@
 title: movie-list
 description: 
 published: true
-date: 2022-09-18T05:25:06.944Z
+date: 2022-12-11T20:45:25.649Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:54:02.004Z
@@ -41,8 +41,8 @@ For detailed instruction about these CLI commands:
 $ flexget movie-list -h
 ```
 
-Notes for all examples:
-- If a list name isn't specified, the list name `movies` will be used by default. This is true for all actions.
+>If a list name isn't specified, the list name `movies` will be used by default. This is true for all actions.
+{.is-info}
 
 #### Return all movie lists names
 ```cmd

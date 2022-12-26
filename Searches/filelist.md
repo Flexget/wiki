@@ -2,17 +2,20 @@
 title: filelist
 description: 
 published: true
-date: 2022-09-18T05:17:36.701Z
+date: 2022-12-07T05:48:24.092Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:17:34.076Z
 ---
 
 # FileList
-This search plugin will get results from [filelist.ro](https://filelist.ro).
+> This plugin is part of [search](/Plugins/Searches) plugin system
+{.is-success}
 
 > This plugin will be deprecated with the next flexget release please consider using the new <a href="https://flexget.com/Searches/filelist_api">filelist_api</a>. Also since the .ro domain stopped working this plugin is broken.
-{.is-warning}
+{.is-danger}
+
+This search plugin will get results from [filelist.ro](https://filelist.ro).
 
 ## Configuration
 Requires username, password and passkey. Passkey can be retrieved from [here](https://filelist.ro/getrss.php).

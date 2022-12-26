@@ -2,7 +2,7 @@
 title: SeriesSabNZBd
 description: 
 published: true
-date: 2022-09-18T05:21:13.683Z
+date: 2022-12-03T03:26:34.842Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:21:11.136Z
@@ -22,8 +22,8 @@ tasks:
           set:
             category: '{{series_name}}'
       720p:
-        - chuck
-        - south park
+        - name a
+        - name b
     sabnzbd:
       key: 1234567890
       url: http://127.0.0.1:8080/sabnzbd/api?

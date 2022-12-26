@@ -2,7 +2,7 @@
 title: run_task
 description: 
 published: true
-date: 2022-09-18T05:11:50.954Z
+date: 2022-12-12T06:37:04.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:11:48.375Z
@@ -15,7 +15,8 @@ dateCreated: 2022-09-18T05:11:48.375Z
 | when | always | Specify when other task(s) is/are executed. Possible values are `accepted`, `rejected`, `failed`, `aborted`, `always`.|
 | task | -- | Name of task(s) to be executed
 
-NOTE: `aborted` is not included in `always`. Tasks will only run on `aborted` if specified.
+> Note that `aborted` is not included in `always`. Tasks will only run on `aborted` if specified.
+{.is-warning}
 
 #### Example
 

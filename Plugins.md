@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2022-10-06T10:30:42.170Z
+date: 2022-12-12T10:16:27.105Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -46,14 +46,12 @@ For further help with YAML and indenting, see [configuration](/Configuration).
 - [Daemon](#daemon)
 - [Command Line Interface (CLI)](#command-line-interface)
 - [Third-Party Plugins](#third-party-plugins)
-- [Deprecated](#deprecated)
-
 
 ## Input
 Produce **[entries](/Entry)** from external source.  
 Most requests are cached so there is no penalty for using the same RSS URL multiple times in the configuration, for example.
 
-**Note:** If you are looking for torrent search plugins, refer to [Search Plugins](/Searches).
+**Note:** If you are looking for torrent search plugins, refer to [Search Plugins](/Plugins/Searches).
 
 ### Raw Input
 Input plugins that directly parse data from a source based on its type.
@@ -87,7 +85,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
 | [imdb_watchlist](/Plugins/imdb_watchlist) |Use you IMDB watchlist as an input|
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
-| [magnetdl](/Plugins/magnetdl) | Create entries from magnetdl.com |
+| [magnetdl](/Searches/magnetdl) | Create entries from magnetdl.com |
 | [my_anime_list](/Plugins/my_anime_list) | Create entries from MyAnimeList animelist. |
 | [myepisodes_list](/Plugins/myepisodes_list) | Create entries from the shows in your myepisodes.com account. |
 | [npo_watchlist](/Plugins/npo_watchlist) | Create entries for the shows and episodes in your npo.nl account (Dutch public television). |
@@ -110,7 +108,8 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |
 | [plex](/Plugins/plex) | Produce entries for shows present in a [Plex Media Server](http://www.plexapp.com) section. |
-| [radarr_list](/Plugins/Lists/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
+| [plex_watchlist](/Plugins/List/plex_watchlist) | Plex watchlist [Managed List](/Plugins/List) |
+| [radarr_list](/Plugins/List/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
 | [sickbeard](/Plugins/sickbeard) | Produce entries from Sickbeard's show list |
 | [sonarr_list](/Plugins/List/sonarr_list) | Produce entries from Sonarr's show list. [Managed List](/Plugins/List) |
 | [next_sonarr_episodes](/Plugins/next_sonarr_episodes) | Produce entries for missing episodes from Sonarr |
@@ -131,7 +130,7 @@ Input plugins that will generate entries based on preexisting data in FlexGet.
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. [Managed List](/Plugins/List) |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. [Managed List](/Plugins/List) |
 | [subtitle_list](/Plugins/List/subtitle_list) | Use or add entries to a custom made subtitle list. [Managed List](/Plugins/List) |
-| [pending_list](/Plugins/List/pending_list) | Manually approve entries |
+| [pending_list](/Plugins/List/pending_list) | Manually approve entries. [Managed List](/Plugins/List) |
 
 ## Filter
 Reject or Accept **[entries](/Entry)** based on given rules. A single task may have any number of filters.  
@@ -190,6 +189,7 @@ Filters that will accept/reject entries based on logical statements or simple fi
 | [accept_all](/Plugins/accept_all) | Accept all entries. |
 | [age](/Plugins/age) | Reject, Accept entries based on age by looking at a date in a specified entry field. |
 | [archives](/Plugins/archives) | Accept, reject entries based on if they're valid ZIP/RAR archives. |
+| [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [exists](/Plugins/exists) | Reject entries based on existing files in filesystem. |
 | [exists_movie](/Plugins/exists_movie) | Reject entries based on existing movies in filesystem. |
 | [exists_series](/Plugins/exists_series) | Reject entries based on existing series in filesystem. |
@@ -201,7 +201,6 @@ Filters based on data retrieved from 3rd party sites
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [crossmatch](/Plugins/crossmatch) | Accept/reject based on other inputs (eg. imdb_list watchlist, ratings history). |
 | [imdb](/Plugins/imdb) | Accept movie entries based on imdb details. |
 | [rottentomatoes](/Plugins/rottentomatoes) | Accept movie entries based on Rotten Tomatoes details. |
 
@@ -243,9 +242,9 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [email](/Plugins/Notifiers/email) | Send an email message |
 | [gotify](/Plugins/Notifiers/gotify) | Send a [Gotify](https://gotify.net) notification |
 | [join](/Plugins/Notifiers/join) | Send a [Join](https://joaoapps.com/join/) notification |
-| [notify_osd](/Plugins/Notifiers/notify_osd) | Send a [NotifyOSD](https://wiki.ubuntu.com/NotifyOSD) notification |
 | [notifymyandroid](/Plugins/Notifiers/notifymyandroid) | Send a [NMA](http://www.notifymyandroid.com/) notification |
 | [mqtt](/Plugins/Notifiers/mqtt) | Send MQTT notification |
+| [matrix](/Plugins/Notifiers/matrix) | Send [matrix](https://matrix.org) notification |
 | [prowl](/Plugins/Notifiers/prowl) | Send a [Prowl](https://www.prowlapp.com/) notification |
 | [pushalot](/Plugins/Notifiers/pushalot) | Send a [Pushalot](https://pushalot.com/) notification |
 | [pushbullet](/Plugins/Notifiers/pushbullet) | Send a [Pushbullet](https://www.pushbullet.com/) notification |
@@ -255,7 +254,6 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 |[discord](/Plugins/Notifiers/discord) | Send a [Discord](https://discordapp.com/) notification
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
-| [sns](/Plugins/Notifiers/sns) | Send a [SNS](https://aws.amazon.com/sns/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
 | [ms_teams](/Plugins/Notifiers/ms_teams) |Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |
@@ -427,11 +425,3 @@ Use `flexget execute --help` for full option list.
 Plugins can be installed by simply placing them in a `plugins` folder alongside your configuration file. (This would usually be `~/.flexget/plugins/`, however it may be different if your config is in a different [location](https://www.flexget.com/Configuration#location).) It is also possible to package plugins in a separate Python package like [FlexGet extras](https://github.com/Flexget/extras).
 
 There is a list of [third-party and extra plugins](/Plugins/ThirdPartyExtras) available, which are plugins that are not common, actively maintained or are otherwise unsuitable for main distribution.
-
-## Deprecated
-| Keyword | Description |
-| --- | --- |
-| [clean_transmission](/Plugins/clean_transmission) | Clean Transmission queue. |
-|[emit_movie_queue](/Plugins/emit_movie_queue)|Emit your [movie_queue](/Plugins/movie_queue).|| 
-| [movie_queue](/Plugins/movie_queue) | Accept movies from movie queue. |
-| [subtitle_queue](/Plugins/subtitle_queue) | Add or accept files to get subtitles for. |
