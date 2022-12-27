@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3cd5c39f3d437e827b4e08470f4e38b585420a10--->
+<!---5249dbcaa5eec082b62685933556ee3c541c02db--->
 
 ## 3.5.15.dev (unreleased)
+### Fixed
+- magnetdl error 404 when search string contains a special character ([#3644](https://github.com/Flexget/Flexget/issues/3644))
+
 <!---6b0634ca426f95e59bbab0fd3e3acfa468adcf86--->
 
 ## 3.5.14 (2022-12-26)
