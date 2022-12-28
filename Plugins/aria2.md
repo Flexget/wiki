@@ -2,7 +2,7 @@
 title: aria2
 description: 
 published: true
-date: 2022-12-03T03:38:20.209Z
+date: 2022-12-26T07:30:00.301Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:21.992Z
@@ -26,10 +26,13 @@ Which is also very insecure. See Aria2 documentation for improving on that.
 
 | Name | Default | Required | Description |
 | --- | --- | --- | --- |
-| server | localhost | No | Hostname or IP of the server where Aria2 is running and has XML-RPC enabled. |
+| rpc_mode | xml | No | Mode of the aria2 RPC server. (Currently supported ```xml``` and ```json```) |
+| rpc_path | rpc | No | Path of the RPC server URL. (By default, it's ```rpc``` on XML-RPC mode and ```jsonrpc``` on JSON-RPC mode.) |
+| scheme | http | No | Scheme used by the aria2 RPC server. (Currently supported ```http``` and ```https```) |
+| server | localhost | No | Hostname or IP of the server where Aria2 is running and has RPC enabled. |
 | port | 6800 | No | Port to connect to on the server listed above. |
-| username | N/A | No | Username used to connect to the aria2 XML-RPC server. (Corresponds to ```rpc-user``` in the Aria2 config file.) |
-| password | N/A | No | Password used to connect to the aria2 XML-RPC server. (Corresponds to ```rpc-passwd``` in the Aria2 config file.)|
+| username | N/A | No | Username used to connect to the aria2 RPC server. (Corresponds to ```rpc-user``` in the Aria2 config file.) |
+| password | N/A | No | Password used to connect to the aria2 RPC server. (Corresponds to ```rpc-passwd``` in the Aria2 config file.)|
 | path | N/A | Yes | Output directory|
 | secret | N/A | No | Aria2 `rpc-secret`|
 | options | N/A | No | Any Aria2 options in key-value format.|
