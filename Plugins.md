@@ -251,12 +251,13 @@ Send accepted entries to notification services. More details [here](/Plugins/Not
 | [pushover](/Plugins/Notifiers/pushover) | Send a [Pushover](https://pushover.net/apps/clone/Flexget) notification |
 | [pushsafer](/Plugins/Notifiers/pushsafer) | Send a [Pushsafer](https://www.pushsafer.com/en/FlexGet) notification |
 | [rapidpush](/Plugins/Notifiers/rapidpush) | Send a [Rapidpush](https://rapidpush.net/) notification |
-|[discord](/Plugins/Notifiers/discord) | Send a [Discord](https://discordapp.com/) notification
+| [discord](/Plugins/Notifiers/discord) | Send a [Discord](https://discordapp.com/) notification |
 | [slack](/Plugins/Notifiers/slack) | Send a [Slack](https://slack.com/) notification |
 | [sms_ru](/Plugins/Notifiers/sms_ru) | Send a [SMS.RU](http://sms.ru/) notification |
 | [telegram](/Plugins/Notifiers/telegram) | Send a [Telegram](https://telegram.org/) notification |
 | [xmpp](/Plugins/Notifiers/xmpp) | Send an [XMPP](https://xmpp.org/) notification |
-| [ms_teams](/Plugins/Notifiers/ms_teams) |Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |
+| [ms_teams](/Plugins/Notifiers/ms_teams) | Send a [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) notification |
+| [bark](/Plugins/Notifiers/bark) | Send a [Bark](https://github.com/Finb/Bark/blob/master/README.en.md) notification |
 
 ### FlexGet internal output
 Use accepted entries as an input for various FlexGet plugins such as add to movie queue, set series begin & etc.
