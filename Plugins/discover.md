@@ -2,7 +2,7 @@
 title: discover
 description: 
 published: true
-date: 2022-12-11T20:40:08.043Z
+date: 2023-01-01T06:41:18.026Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:57.309Z
@@ -35,7 +35,7 @@ discover:
 | --- | --- | --- |
 |limit| - | Set max results from each search engine. |
 |<a name="interval"></a>interval| 5 hours| Time between trying searches again. |
-|release_estimations|strict|Can be `loose`, `strict` or `ignore`, or `optimistic: <interval>`. <br/><br/> `strict` will reject all episodes/movies without air dates.<br/> `loose` will check for release dates, if release date can not be determined perform search anyway.<br/>`optimistic` sets the estimation mode to `strict` but starts searching `interval` units (eg. 7 days) before release date. <br/>`ignore` no release date checking will be attempted (try to use `optimistic` if possible).|
+|release_estimations|strict|Can be `loose`, `strict` or `ignore`, `smart` or `optimistic: <interval>`. <br/><br/> `strict` will reject all episodes/movies without air dates.<br/> `loose` will check for release dates, if release date can not be determined perform search anyway.<br/>`optimistic` sets the estimation mode to `strict` but starts searching `interval` units (eg. 7 days) before release date. <br/>`ignore` no release date checking will be attempted (try to use `optimistic` if possible)<br/> `smart` will reject entries that are identified but do not contain a release date and accept entries that are not found |
 
 ### Supported search engines
 An overview of available [search plugins](/Searches) can be found [here](/Searches). For a list of installed search plugins use command `flexget plugins --interface search`.
