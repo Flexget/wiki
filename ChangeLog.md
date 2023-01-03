@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---07f838bf53efe3ba8362b3d18854af5559365dbb--->
+<!---278ad19c3f4d59bcfa368907ee30c5b5e7c381a0--->
 
-## 3.5.17.dev (unreleased)
+## 3.5.18.dev (unreleased)
+<!---340b6d7995e476a7296b6a721ae811bbbedfdd6f--->
+
+## 3.5.17 (2023-01-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.16...v3.5.17)
 ### Fixed
 - magnetdl import error ([#3651](https://github.com/Flexget/Flexget/issues/3651))
 
-<!---ab440a8788daa8f6c6b2b408dbdb14cc10387bff--->
 
 ## 3.5.16 (2023-01-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.15...v3.5.16)
