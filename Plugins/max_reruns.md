@@ -2,7 +2,7 @@
 title: max_reruns
 description: 
 published: true
-date: 2022-09-18T05:08:04.126Z
+date: 2023-01-04T16:18:19.703Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:01.604Z
@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T05:08:01.604Z
 
 Simple plugin that limits the number of reruns a specific task is allowed to perform consecutively. Useful for limiting the number of reruns [discover](discover) performs.
 
-Example:
+### Example
 
 ```YAML
   download-task:
