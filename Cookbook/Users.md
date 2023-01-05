@@ -2,7 +2,7 @@
 title: Users
 description: 
 published: true
-date: 2023-01-05T01:49:57.277Z
+date: 2023-01-05T01:52:29.660Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:56:42.883Z
@@ -22,7 +22,7 @@ These are the complete configurations of actual end users. Feel free to add your
 
 ## Tested & Working 3.x Configs
 * [ksurl](https://github.com/ksurl/flexget-template) (v3.1.131) - Trakt Movies, TV, Anime series, Transmission, list cleanup, YAML anchors, discord notifier, http proxy
-* [frankyw](https://github.com/frankyw/flexget) (v3.5.15) - Trakt Movie + Multiple TV Lists, Transmission, list cleanup, YAML anchors, IRC plugin.
+* [frankyw](https://github.com/frankyw/flexget) (v3.5.15) - Trakt Movie + Multiple TV Lists, Transmission, list cleanup, YAML anchors, IRC plugin, Pushover notification.
 
 ## Tested & Working 2.x Configs
 While tested for 2.x, please refer to [Upgrade Actions](https://flexget.com/UpgradeActions) regarding breaking changes in minor version incrementations.
