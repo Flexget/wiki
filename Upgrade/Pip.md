@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2023-01-15T14:06:41.185Z
+date: 2023-01-15T14:09:45.956Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
@@ -34,7 +34,7 @@ Please make sure to upgrade setuptools.
 {.is-info}
 
 ```cmd
-pip install --upgrade flexget
+pip install --upgrade setuptools
 ```
 
 Upgrade FlexGet
