@@ -2,7 +2,7 @@
 title: Upgrade
 description: 
 published: true
-date: 2023-01-15T14:04:30.142Z
+date: 2023-01-15T14:08:22.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
@@ -21,8 +21,8 @@ Copy this file to backup file containing the version number you are were last us
 
 ## Choose installation method
 
-[PIP installation](Uprade/Pip)
-[GIT installation](Uprade/Git)
+[PIP installation](/Upgrade/Pip)
+[GIT installation](/Upgrade/Git)
 
 
 ### Problems ?
