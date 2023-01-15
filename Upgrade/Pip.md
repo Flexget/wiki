@@ -1,8 +1,8 @@
 ---
-title: Upgrade Pip
+title: Pip
 description: 
 published: true
-date: 2023-01-15T13:59:04.528Z
+date: 2023-01-15T14:06:41.185Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
