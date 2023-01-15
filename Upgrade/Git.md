@@ -1,8 +1,8 @@
 ---
-title: Upgrade git
+title: Git
 description: 
 published: true
-date: 2023-01-15T13:55:09.588Z
+date: 2023-01-15T14:07:03.111Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:55:09.588Z
