@@ -2,7 +2,7 @@
 title: Git
 description: 
 published: true
-date: 2023-01-16T20:02:51.422Z
+date: 2023-01-16T20:07:56.555Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:55:09.588Z
@@ -19,8 +19,10 @@ Check the latest release you have by getting new tags with `git fetch --tags` th
 
 Write this version number down somewhere.
 
+[Backup](/Upgrade/Partial/Backup){.include}
+
 ## Upgrade GIT checkout
 
 Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bin/pip install -e .` again to upgrade them.
 
-[Verify](/Upgrade/Verify){.include}
+[Verify](/Upgrade/Partial/Verify){.include}
