@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2023-01-16T19:54:20.786Z
+date: 2023-01-16T19:58:06.603Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
@@ -43,14 +43,5 @@ Upgrade FlexGet
 pip install --upgrade flexget
 ```
 
-## Verify
-
-Check if your configuration file is still valid, there may have been some changes to it.
-
-```cmd
-flexget check
-```
-
-If your configuration doesn't pass check, have a look at [upgrade actions](/UpgradeActions) to see if there are any actions you must take. The behavior of certain plugins may also have changed, so check [upgrade actions](/UpgradeActions) even if your config is passing.
-
-For example, if you were running 3.1.2 follow all the steps above this revision.
+[Verify upgrade](/Upgrade/Verify)
+{.include}
