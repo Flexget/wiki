@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2023-01-16T19:50:28.311Z
+date: 2023-01-16T19:54:20.786Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
@@ -12,6 +12,16 @@ dateCreated: 2023-01-15T13:59:04.528Z
 
 >Detailed changes can be found from [ChangeLog](/ChangeLog).
 {.is-info}
+
+## Check current version
+
+Start by checking what version you currently have with command:
+
+```bash
+flexget -V
+```
+
+Write your current version down somewhere.
 
 ## Upgrade
 
