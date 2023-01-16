@@ -2,7 +2,7 @@
 title: Verify upgrade
 description: 
 published: true
-date: 2023-01-16T20:03:53.170Z
+date: 2023-01-16T20:04:10.784Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-16T19:57:17.927Z
@@ -10,7 +10,7 @@ dateCreated: 2023-01-16T19:57:17.927Z
 
 ## Verify
 
-Check if your configuration file is still valid, there may have been some changes to it.
+Check if your configuration file is still valid, there may have been some changes to the configuration format.
 
 ```cmd
 flexget check
