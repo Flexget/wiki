@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2023-01-15T14:09:45.956Z
+date: 2023-01-16T19:50:28.311Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
@@ -13,18 +13,8 @@ dateCreated: 2023-01-15T13:59:04.528Z
 >Detailed changes can be found from [ChangeLog](/ChangeLog).
 {.is-info}
 
-## Check current version
-
-Write your current version down somewhere.
-Start by checking what version you currently have with command:
-
-```
-flexget -V
-```
-
 ## Upgrade
 
-If you have followed normal installation procedure follow this.
 If you are using cron and have short cron interval, comment FlexGet out from the cron. If you are running the daemon, you should [stop the daemon](/Daemon) until the upgrade is complete and you verify your config file works with the updated version.
 
 There has been alot of errors arising from setuptools package being out of date and failing an upgrade.
