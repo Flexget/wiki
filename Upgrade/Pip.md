@@ -2,7 +2,7 @@
 title: Pip
 description: 
 published: true
-date: 2023-01-16T19:58:50.898Z
+date: 2023-01-16T20:01:20.126Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:59:04.528Z
@@ -43,5 +43,4 @@ Upgrade FlexGet
 pip install --upgrade flexget
 ```
 
-[Verify](/Upgrade/Verify)
-{.include}
+[Verify](/Upgrade/Verify){.include}
