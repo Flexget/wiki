@@ -2,22 +2,13 @@
 title: Upgrade
 description: 
 published: true
-date: 2023-01-16T19:52:11.915Z
+date: 2023-01-16T20:09:08.450Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
 ---
 
 # Upgrading
-
-## Backup database(s) (optional)
-
-In case you wish to roll back to previous version you will need to make backup of your database since running new version will upgrade it and downgrade is not supported.
-
-Each configuration file has corresponding database file, so for example config.yml will have db-config.sqlite
-
-Copy this file to backup file containing the version number you are were last using, e.g. db-config.sqlite_1.1.59
-
 
 ## Choose installation method
 
