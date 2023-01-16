@@ -2,13 +2,23 @@
 title: Upgrade
 description: 
 published: true
-date: 2023-01-15T14:08:22.604Z
+date: 2023-01-16T19:51:28.346Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
 ---
 
 # Upgrading
+
+## Check current version
+
+Start by checking what version you currently have with command:
+
+```bash
+flexget -V
+```
+
+Write your current version down somewhere.
 
 ## Backup database(s) (optional)
 
