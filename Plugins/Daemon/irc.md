@@ -2,22 +2,13 @@
 title: irc
 description: 
 published: true
-date: 2022-09-18T05:24:23.833Z
+date: 2023-01-21T20:36:46.331Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:15.663Z
 ---
 
 # [Daemon](/Daemon) > IRC
-<div class="alert alert-info" role="alert">
-  <span class="glyphicon glyphicon glyphicon-download-alt"></span>
-  &nbsp;
-This plugin requires the irc_bot Python module. To install the Python module run: <br/><br/>
-
-```bash
-$ pip install irc_bot
-```
-</div>
 
 This plugin will allow you to connect a bot to an IRC channel. It listens for release announcements, parses them and sends them to the FlexGet daemon, which executes a task of your choice with the input from IRC.
 
@@ -26,12 +17,20 @@ The benefit to this plugin over regular search plugins that utilize API/scraping
 You can always get the current status of the IRC plugin, as well as restart and stop it, via the [command line](/CLI/irc).
 
 ### Prerequisites
-* **Install irc_bot**.
+* **Install `irc_bot`**.
+
+This plugin requires you to install [the `irc_bot` Python module](https://github.com/cvium/irc_bot) separately. To install, run:
+
+```bash
+$ pip install irc_bot
+```
+  
 * Run FlexGet in `daemon` mode. This means you may want to migrate your cron jobs to use the [scheduler plugin](/Plugins/Daemon/scheduler) instead.
-<br>
+
 ```bash
 $ flexget daemon start --daemonize
 ```
+
 * Have an autodl-tracker file relevant to your intended tracker. Either the name (case insensitive) or downloaded from [here](https://github.com/autodl-community/autodl-trackers).
 * rsskey or other needed credentials located in the tracker file and in the guide section of your tracker's website. (hint: look for autodl guides)
 
@@ -74,7 +73,7 @@ templates:
 | **port** |  *(required)* Explicitly specify port number (integer)  |  6667 *(default)*  |
 | **password** |  Specify password for server  |  |
 | **use_ssl** |  Use SSL when connecting to the server(s).  |  No *(default)*  |
-| **channels** |  Explicitly specify announce channel(s). **Joining channels that are not announce-channels can get you banned.**  | ['#announce_channel']  |
+| **channels** |  Explicitly specify announce channel(s). **Joining channels that are not announce-channels can get you banned.** <br><br>Optionally, provide a channel `key` (password) next to the channel name, separated by a space (as of `irc_bot` v1.0.41) | ['#announce_channel'] <br>or<br> ['#channel YourKey'] |
 | **nickserv_password** |  Password for authenticating your nickname to nickserv  |   |
 | **invite_nickname** |  Some channels require this for authentication  |   |
 | **invite_message** |  Some channels require this for authentication  |   |
