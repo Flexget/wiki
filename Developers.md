@@ -2,7 +2,7 @@
 title: Developers
 description: 
 published: true
-date: 2022-11-21T05:49:13.359Z
+date: 2023-01-21T21:32:44.324Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:11.127Z
@@ -23,7 +23,6 @@ If you're working on good re-usable plugin we're be more than happy to include i
 FlexGet has over 1200 unit tests so chances are that if your modifications pass the tests nothing major has been broken.
 
 ## Enhancement proposals
- * [Drafts](/_index/Drafts/)
  * [Roadmap](/Roadmap)
 
 ## Running IPython inside FlexGet
