@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-10-26T01:32:34.924Z
+date: 2023-01-22T14:30:16.762Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -106,3 +106,19 @@ services:
 ### Build your own image
 
 If you want to build your own, the Synology installation has a docker option with [instructions](/InstallWizard/SynologyNAS/Docker) (adjust to your OS as needed since some instructions are Synology specific such as the volume paths).
+
+## Tips and tricks
+
+### Bash alias for execution
+
+You can set up bash alias (.bashrc) to execute with non standard configuration location:
+
+```bash
+alias flexget='flexget -c /volume1/config.yml'
+```
+
+Then commands like this will simply work
+
+```bash
+flexget check
+```
