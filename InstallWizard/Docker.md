@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2023-01-22T14:30:16.762Z
+date: 2023-01-22T14:42:17.802Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -57,8 +57,8 @@ services:
       - /host/config:/config        # required
       - /host/downloads:/downloads 
 ```
-Replace bindmount host paths with the host directory path you would like to use for the config and download folders.
-Add additional bindmounts as needed for downloads and other storage.
+
+Replace `volumes:` host paths (eg. `/host/config`) with the host directory path you would like to use for the config and download folders. Add additional as needed.
 
 Replace `$TIMEZONE` with desired timezone. See list of valid timezones [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). Use the name in the tz database name column. Defaults to UTC if not specified.
 
@@ -84,10 +84,16 @@ flexget daemon start --autoreload-config
 
 Make sure it's executeable: `chmod +x entrypoint.sh`
 
-docker cli:
-`docker run ... -v /host/config:/config --entrypoint /config/entrypoint.sh ...`
+##### Entrypoint usage
 
-docker compose:
+With docker cli, add `--entrypoint` argument:
+
+```bash
+docker run ... -v /host/config:/config --entrypoint /config/entrypoint.sh ...
+```
+
+With docker compose, add `entrypoint`:
+
 ```yaml
 services:
   flexget:
@@ -95,7 +101,6 @@ services:
     entrypoint: /config/entrypoint.sh
     ...
 ```
-
 
 ### 3rd party images
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget) / [ghcr.io/wiserain/flexget](https://github.com/wiserain/docker-flexget/pkgs/container/flexget)
