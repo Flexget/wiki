@@ -2,7 +2,7 @@
 title: morethantv
 description: 
 published: true
-date: 2022-12-07T05:46:36.534Z
+date: 2023-01-23T15:01:55.513Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:13.140Z
@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T05:18:13.140Z
 > This plugin is part of [search](/Plugins/Searches) plugin system
 {.is-success}
 
-This search plugin will get results from [http://morethan.tv](http://morethan.tv), also known as MTV.
+This search plugin will get results from [https://www.morethantv.me/](https://www.morethantv.me/), also known as MTV.
 
 ## Configuration
 Requires username and password. (your usual login credentials)
