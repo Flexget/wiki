@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-10-06T10:54:01.450Z
+date: 2023-01-23T15:54:41.970Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:51.632Z
@@ -61,19 +61,19 @@ The configuration is a hierarchy constructed of various components. The main com
 ```yaml
 tasks:
 ```
-The line ends in a colon, which means we will be defining this section on the lines following. We then indent (with two spaces) everything that belongs to this section. The tasks sections is made up of all your individual tasks, which can be named whatever we want. Let's make one called `test task`.
+The line ends in a colon, which means we will be defining this section on the lines following. We then indent (with two spaces) everything that belongs to this section. The tasks sections is made up of all your individual tasks, which can be named whatever we want. Let's make one called `test-task`.
 ```yaml
 tasks:
-  test task:
+  test-task:
 ```
-This line defining the task name (`test task`) also ends with a colon, which means we will be defining what belongs in this task on the following lines with another indent (two more spaces.)
+This line defining the task name (`test-task`) also ends with a colon, which means we will be defining what belongs in this task on the following lines with another indent (two more spaces.)
 
 The contents of an individual task are always [plugins](/Plugins). There are three main types of plugins we normally want in a task, an [input](/Plugins#inputs) (where do you want FlexGet to look for things?), a [filter](/Plugins#filter) (which of those things do you want?), and an [output](/Plugins#output) (what do you want FlexGet to do with those things?).
 
-Let's start by adding an input plugin to our task, `test task`. In this case we will use the [rss](/Plugins/rss) plugin as our input. The indentation of rss is increased and means that it belongs to the `test task`.
+Let's start by adding an input plugin to our task, `test-task`. In this case we will use the [rss](/Plugins/rss) plugin as our input. The indentation of rss is increased and means that it belongs to the `test-task`.
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss:
 ```
 We aren't finished yet; this line ends with a colon, which means we need to provide the next section, which would be the options for the rss plugin.
@@ -84,17 +84,17 @@ When configuring any plugin, visit that plugin's [wiki page](/Plugins) to find o
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
 ```
 
 Our input plugin will create an entry for every item that comes into the RSS feed, but we still need to tell FlexGet which of those items we want.
 
-We do this with a [filter](/Plugins#filter) plugin. One of the most common is the [`series`](/Plugins/series) plugin, so we will configure that here. This plugin will belong to our `test task` so we remain at the same indentation level, two more spaces than `test task`.
+We do this with a [filter](/Plugins#filter) plugin. One of the most common is the [`series`](/Plugins/series) plugin, so we will configure that here. This plugin will belong to our `test-task` so we remain at the same indentation level, two more spaces than `test-task`.
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
 ```
@@ -105,7 +105,7 @@ In the simple format, the series plugin just takes a list of the series you want
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
       - My Favorite Show
@@ -114,7 +114,7 @@ The series plugin also allows defining options per show, which we will do with o
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
       - My Favorite Show
@@ -126,7 +126,7 @@ There is a slight exception when defining options for a list item, in that we ha
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
       - My Favorite Show
@@ -139,7 +139,7 @@ One common output plugin is the [`download`](/Plugins/download) plugin, which we
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
       - My Favorite Show
@@ -148,13 +148,13 @@ tasks:
     download:
 ```
 
-Note in the above example, this is the first time we have unindented (moved the text back towards the left side of the screen). Since `download` is a plugin of its own and it doesn't belong to `series`, but rather to our `test task`, it's moved back to line up with `series` and `rss`.
+Note in the above example, this is the first time we have unindented (moved the text back towards the left side of the screen). Since `download` is a plugin of its own and it doesn't belong to `series`, but rather to our `test-task`, it's moved back to line up with `series` and `rss`.
 
 The [`download`](/Plugins/download) plugin also has a simple configuration option, in which we just define the path where we would like FlexGet to save our content.
 
 ```yaml
 tasks:
-  test task:
+  test-task:
     rss: http://mysite.com/myfeed.rss
     series:
       - My Favorite Show
