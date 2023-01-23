@@ -2,7 +2,7 @@
 title: Series
 description: 
 published: true
-date: 2023-01-23T15:47:08.731Z
+date: 2023-01-23T15:48:20.315Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:56:11.693Z
@@ -26,7 +26,6 @@ dateCreated: 2022-09-18T04:56:11.693Z
 * [Advanced deluge/thetvdb config showing many features](/Cookbook/Series/DelugeThetvdbSeries)
 * [Download series with transmission (advanced)](/Cookbook/Series/AdvancedTransmissionAndDownloadManagement)
 * [Get series premieres with genre filtering](/Cookbook/Series/PremieresGenres)
-* [Fix the nzbclub feed to get series](/Cookbook/Urlrewrite/nzbclub)
 * [Upload movie/tv collection to trakt.tv](/Cookbook/Movies/TraktUpload)
 * [Set category from series name with sabnzbd](/Cookbook/Series/SeriesSabNZBd)
 * [Use next-episode.net as input for import_series](/Cookbook/Series/next-episode)
