@@ -2,7 +2,7 @@
 title: Cookbook
 description: 
 published: true
-date: 2022-12-07T05:55:05.925Z
+date: 2023-01-23T16:56:33.206Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:03.276Z
@@ -33,7 +33,7 @@ Feel free to add your own recipes or improve existing ones.
 - [Advanced recipes](/Cookbook/Advanced)
 
 ## Client guides
-- [A-Z Tutorial for Deluge](/Cookbook/Deluge)
+- [A-Z Tutorial for Deluge (ubuntu)](/Cookbook/Deluge)
 - [Complete working example for Transmission ](/Cookbook/Transmission)
 - [Complete working example for rTorrent](/Cookbook/rTorrent)
 - [Brief working example for uTorrent](/Cookbook/uTorrent)
