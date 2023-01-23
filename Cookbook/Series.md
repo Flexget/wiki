@@ -2,7 +2,7 @@
 title: Series
 description: 
 published: true
-date: 2022-09-18T05:22:09.534Z
+date: 2023-01-23T15:47:08.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:56:11.693Z
@@ -45,15 +45,3 @@ dateCreated: 2022-09-18T04:56:11.693Z
 *Torrent feeds*
 
  * http://eztv.ag/ezrss.xml
-
-*NZB Feeds*
-
- * [www.nzbs.org](http://www.nzbs.org/) (See footnote^1^)
-
-**Footnotes**
-
- 1. The RSS URL for **www.nzbs.org** needs authentication data.  
- First you need to [register](http://nzbs.org/user.php?action=register) with the site.  
- Then follow these [instructions](http://nzbs.org/index.php?action=rss).  
- Example: !http://nzbs.org/rss.php?type=1&i=<uid>&h=<hash>&num=100&dl=1  
- Both the **i** and **h** values are required and account-specific.(XXX macro: "BR") 
