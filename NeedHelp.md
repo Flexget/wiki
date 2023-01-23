@@ -2,7 +2,7 @@
 title: NeedHelp
 description: 
 published: true
-date: 2023-01-22T14:59:29.713Z
+date: 2023-01-23T17:00:02.928Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:52.841Z
@@ -13,7 +13,7 @@ If you're having problems getting something to work that should clearly work (by
 
 ### Chat
 
-IRC [#FlexGet @ libera chat](https://libera.chat/) or via [gitter](https://gitter.im/Flexget/Flexget).
+Join support and development [Chat](/Chat)
 
 ### Forum
 Join the [Forum](http://discuss.flexget.com/) for discussion and support.
