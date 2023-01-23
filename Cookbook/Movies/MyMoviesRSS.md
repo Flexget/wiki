@@ -2,7 +2,7 @@
 title: MyMoviesRSS
 description: 
 published: true
-date: 2022-09-18T05:20:00.522Z
+date: 2023-01-23T16:49:05.522Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:19:58.005Z
@@ -24,7 +24,7 @@ templates:
 
 tasks:
 
-  storage_movies:
+  rss-unwatched:
     template: generate
     filesystem: /storage/movies/
     make_rss:
