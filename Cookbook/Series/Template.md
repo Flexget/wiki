@@ -2,7 +2,7 @@
 title: Template
 description: 
 published: true
-date: 2022-09-18T05:21:36.754Z
+date: 2023-01-23T15:59:58.658Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:21:34.227Z
@@ -21,11 +21,11 @@ templates:
       - south park
 
 tasks:
-  some feed:
+  some-feed:
     rss: http://example.com/feed.xml
     template: tv
 
-  another feed:
+  another-feed:
     rss: http://foobar.com/feed.xml
     template: tv
 ```  
