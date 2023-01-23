@@ -2,7 +2,7 @@
 title: template
 description: 
 published: true
-date: 2022-09-18T05:14:02.431Z
+date: 2023-01-23T16:02:26.726Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:13:59.746Z
@@ -28,15 +28,15 @@ templates:
     download: ~/download/movies/
 
 tasks:
-  some_task:
+  some-task:
     rss: http://example.com
     template: tv
 
-  another_task:
+  another-task:
     rss: http://example2.com
     template: movies
 
-  third_task:
+  third-task:
     rss: http://example3.com
     template: 
       - tv
@@ -153,6 +153,6 @@ or, if you also need to include other templates
 ```yaml
 template:
   - no_global
-  - template_b
+  - template-b
 ```
 TIP : If you need a more advanced template feature, you may want to use [YAML anchors](https://discuss.flexget.com/t/advanced-yaml-trick-anchors/2405).
