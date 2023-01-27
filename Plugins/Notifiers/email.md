@@ -2,7 +2,7 @@
 title: email
 description: 
 published: true
-date: 2022-09-18T05:25:41.250Z
+date: 2023-01-27T22:49:13.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:25:38.605Z
@@ -44,7 +44,7 @@ The `default` template will notify you of all downloaded entries, and of any fai
 <b>Note: When using html template, use `tvdb_lookup: yes` in your task, to make sure metainfo is filled in.</b>
 
 ### Custom Templates
-You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `template` option. See the [default template](https://github.com/Flexget/Flexget/blob/master/flexget/templates/email/default.template) for an example.
+You can create your own custom templates for the email plugin in the jinja2 templating language. They should be placed in `/templates` in config path, and their filename specified as the `template` option. See the [default template](https://github.com/Flexget/Flexget/blob/develop/flexget/templates/task/default.template) for an example.
 
 ### Examples
 > Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
