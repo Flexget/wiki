@@ -2,7 +2,7 @@
 title: configure_series
 description: 
 published: true
-date: 2022-09-18T05:25:34.631Z
+date: 2023-01-30T03:03:47.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:52.680Z
@@ -16,6 +16,7 @@ Commonly used with:
 * [trakt_list](/Plugins/List/trakt_list)
 * [thetvdb_list](/Plugins/List/thetvdb_list)
 * [filesystem](/Plugins/filesystem)
+* [my_anime_list](/Plugins/my_anime_list)
 
 ## Syntax
 ```yaml
