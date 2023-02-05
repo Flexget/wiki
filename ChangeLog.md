@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c0bf79f47e7d61be48a3d47cc0ed0f3dd68efcdd--->
+<!---ffd23cf4d5cfdfc0d51b3ba1599e889fdfcda189--->
 
 ## 3.5.22.dev (unreleased)
+### Fixed
+- irc: Update irc to download tracker config correctly
+
 <!---1440edbdb8306ce023a2bc05aec8de2eba4364d1--->
 
 ## 3.5.21 (2023-01-25)
