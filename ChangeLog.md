@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ffd23cf4d5cfdfc0d51b3ba1599e889fdfcda189--->
+<!---085112492261c9d051cac9119b958ed55870fe05--->
 
-## 3.5.22.dev (unreleased)
+## 3.5.23.dev (unreleased)
+<!---a1915ea7a1d137e60f2c6c24366e43f5aa4a3d97--->
+
+## 3.5.22 (2023-02-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.21...v3.5.22)
 ### Fixed
 - irc: Update irc to download tracker config correctly
 
-<!---1440edbdb8306ce023a2bc05aec8de2eba4364d1--->
 
 ## 3.5.21 (2023-01-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.20...v3.5.21)
