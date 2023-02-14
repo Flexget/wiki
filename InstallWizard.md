@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2022-11-22T17:42:17.990Z
+date: 2023-02-14T03:30:51.039Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -26,7 +26,7 @@ This guides you through installing FlexGet.
 {.is-info}
 
  * [RaspberryPi OS Lite](/InstallWizard/RPi4Lite)
- * [OpenWrt](/InstallWizard/OpenWrt)
+ * [OpenWrt](/InstallWizard/OpenWrt) (out-of-date)
  * [Plugbox](/InstallWizard/Plugbox) (out-of-date)
  * [QNAP NAS](/InstallWizard/QNAP) (out-of-date)
  * [ReadyNAS](/InstallWizard/ReadyNAS) (out-of-date)
