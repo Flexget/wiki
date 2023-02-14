@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4c630fb5468374a33f1667856b73e91613f35c70--->
+<!---a8d635952902e3fe0436682c2562b8007838baad--->
 
-## 3.5.24.dev (unreleased)
+## 3.5.25.dev (unreleased)
+<!---bdb5f9331f3c244a9cfda42b37fb90e7d9dce44e--->
+
+## 3.5.24 (2023-02-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.23...v3.5.24)
 ### Fixed
 - pyload ng ([#3684](https://github.com/Flexget/Flexget/issues/3684))
 
-<!---1be90eaeb913993d0d0fee4b8525792ca343e73a--->
 
 ## 3.5.23 (2023-02-13)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.22...v3.5.23)
