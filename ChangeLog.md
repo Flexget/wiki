@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d43701466348f5d0525f6deceeb7c72f7ee1e56a--->
+<!---5f2f17cf74512e6872c715c7ec9e5e04be10f1a2--->
 
-## 3.5.26.dev (unreleased)
+## 3.5.27.dev (unreleased)
+<!---c2ce5a4ad07320bdcf9e66777390c5711420ead9--->
+
+## 3.5.26 (2023-02-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.25...v3.5.26)
 ### Fixed
 - sftp_list host_key accessing exception ([#3694](https://github.com/Flexget/Flexget/issues/3694))
 
-<!---2ffbbb9b4140e1584417b96374e77f5d5794c81d--->
 
 ## 3.5.25 (2023-02-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.24...v3.5.25)
