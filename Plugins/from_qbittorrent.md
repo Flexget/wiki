@@ -2,7 +2,7 @@
 title: from_qbittorrent
 description: 
 published: true
-date: 2023-02-22T02:27:17.805Z
+date: 2023-02-22T02:30:31.589Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-22T02:23:13.583Z
@@ -27,8 +27,8 @@ pip install qbittorrent-api
 | port | Number | Connected port  |
 | username | Text |  |
 | password | Text |  |
-| password | Text | Create entries only from given category name |
-| completed | [yes\|no] | If this is enabled, only completed torrents have entries created. |
+| category | Text | Create entries only from given category name |
+| completed | [yes\|no] | Create only completed torrents |
 
 ## Provides entry fields
 
