@@ -11,16 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---373dade3885593954a695770de5c16060461fcdc--->
+<!---b5e7a2f820e0b3c0c009278a77331ab0140e5efe--->
 
-## 3.5.27.dev (unreleased)
+## 3.5.28.dev (unreleased)
+<!---9ee7cabab4ebde416acae172cad92b9033d06064--->
+
+## 3.5.27 (2023-02-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.26...v3.5.27)
 ### Added
 - from_qbittorrent plugin ([#3692](https://github.com/Flexget/Flexget/issues/3692))
 
 ### Changed
 - Add support for 'labels' in Transmission. ([#3693](https://github.com/Flexget/Flexget/issues/3693))
 
-<!---c2ce5a4ad07320bdcf9e66777390c5711420ead9--->
 
 ## 3.5.26 (2023-02-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.25...v3.5.26)
