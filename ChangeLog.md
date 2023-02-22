@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5f2f17cf74512e6872c715c7ec9e5e04be10f1a2--->
+<!---8c98c7a2c4884c791cfc032b2bf31786c9a7baea--->
 
 ## 3.5.27.dev (unreleased)
+### Added
+- from_qbittorrent plugin ([#3692](https://github.com/Flexget/Flexget/issues/3692))
+
 <!---c2ce5a4ad07320bdcf9e66777390c5711420ead9--->
 
 ## 3.5.26 (2023-02-21)
