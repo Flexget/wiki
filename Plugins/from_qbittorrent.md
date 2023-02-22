@@ -2,7 +2,7 @@
 title: from_qbittorrent
 description: 
 published: true
-date: 2023-02-22T02:23:13.583Z
+date: 2023-02-22T02:23:43.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-22T02:23:13.583Z
@@ -23,8 +23,8 @@ pip install qbittorrent-api
 
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
-| host | Text | Where transmission is listening (default: localhost) |
-| port | Number | Connected port (default: 9091) |
+| host | Text | Where qbittorrent is listening |
+| port | Number | Connected port  |
 | username | Text |  |
 | password | Text |  |
 | password | Text | Create entries only from given category name |
