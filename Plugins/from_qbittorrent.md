@@ -2,7 +2,7 @@
 title: from_qbittorrent
 description: 
 published: true
-date: 2023-02-22T02:23:43.768Z
+date: 2023-02-22T02:27:17.805Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-22T02:23:13.583Z
@@ -29,6 +29,34 @@ pip install qbittorrent-api
 | password | Text |  |
 | password | Text | Create entries only from given category name |
 | completed | [yes\|no] | If this is enabled, only completed torrents have entries created. |
+
+## Provides entry fields
+
+- content_files
+- content_size
+- torrent_info_hash
+- torrent_info_hash_v2
+- torrent_seeds
+- torrent_peers
+- qbittorrent_ratio
+- qbittorrent_category
+- qbittorrent_state
+- qbittorrent_eta
+- qbittorrent_added_on
+- qbittorrent_completion_on
+- qbittorrent_completed_path
+- qbittorrent_download_path
+- qbittorrent_save_path
+- qbittorrent_size
+- qbittorrent_dl_speed
+- qbittorrent_up_speed
+- qbittorrent_is_checking
+- qbittorrent_is_complete
+- qbittorrent_is_downloading
+- qbittorrent_is_errored
+- qbittorrent_is_paused
+- qbittorrent_is_uploading
+
 
 
 **Example:**
