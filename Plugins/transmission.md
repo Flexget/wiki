@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2023-02-23T03:51:52.636Z
+date: 2023-02-23T03:56:07.866Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -25,7 +25,7 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
 
 >Transmission version 3.0 or older requires transmission-rpc version between 3.2.6 to 3.4.1.
 >
->Transmission version 4.0.0 or newer requires transmission-rpc version 4.0.0 or newer
+>Transmission version 4.0.0 or newer requires transmission-rpc version 3.4.1 or newer. transmission-rpc 4.0.0 or newer requires python 3.8 or newer.
 >
 > Install a specific version:
 >```cmd
