@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b5e7a2f820e0b3c0c009278a77331ab0140e5efe--->
+<!---24fc75b701e567a6fa6403c030eaba8faee9042c--->
 
 ## 3.5.28.dev (unreleased)
+### Fixed
+- memusage debugging module updated for python 3
+
 <!---9ee7cabab4ebde416acae172cad92b9033d06064--->
 
 ## 3.5.27 (2023-02-22)
