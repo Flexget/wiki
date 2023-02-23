@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2022-12-18T11:46:07.573Z
+date: 2023-02-23T03:41:10.395Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -22,6 +22,16 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
 
 > Newer versions of flexget now depend on transmission-rpc 3.2.6 or higher.
 {.is-warning}
+
+>Transmission version 3.0 or older requires transmission-rpc version between 3.2.6 to 3.4.1.
+>
+>Transmission version 4.0.0 or newer requires transmission-rpc version 4.0.0 or newer
+>
+> Install a specific version:
+>```cmd
+> pip install transmission-rpc==3.4.1
+> pip install transmission-rpc==4.0.0
+>```
 
 **Example:**
 
