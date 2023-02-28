@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---27e1a2ccbb8a167837964544f32405c5eba972b7--->
+<!---849ed15795c38845b19e1cc75b5ed41ca1ad8258--->
 
-## 3.5.28.dev (unreleased)
+## 3.5.29.dev (unreleased)
+<!---835a77b946845ca262ab78b9671eef975a2a9bd7--->
+
+## 3.5.28 (2023-02-28)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.27...v3.5.28)
 ### Fixed
 - memusage plugin crashes with windows
 - memusage debugging module updated for python 3
 
-<!---9ee7cabab4ebde416acae172cad92b9033d06064--->
 
 ## 3.5.27 (2023-02-22)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.26...v3.5.27)
