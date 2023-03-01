@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---849ed15795c38845b19e1cc75b5ed41ca1ad8258--->
+<!---237a8fea2da68c225fbafcd00f8913cd58385b47--->
 
 ## 3.5.29.dev (unreleased)
+### Fixed
+- Memory leak when there is no sys.stderr ([#3701](https://github.com/Flexget/Flexget/issues/3701))
+
 <!---835a77b946845ca262ab78b9671eef975a2a9bd7--->
 
 ## 3.5.28 (2023-02-28)
