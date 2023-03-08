@@ -2,7 +2,7 @@
 title: html
 description: 
 published: true
-date: 2022-09-18T05:10:39.625Z
+date: 2023-03-08T06:21:52.153Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:06:15.055Z
@@ -67,6 +67,10 @@ html:
 ```
 
 This will create only entries from links which match any of given regexps. Do NOT use this for filtering content, just limit selecting to correct type of links and use real filtering plugins like [regexp](/Plugins/regexp) to do actual filtering.
+
+## Allow empty links
+
+To allow grabbing links where there is no content (e.g. magnet links sometimes). Use option `allow_empty_links`.
 
 ## Basic Authentication
 This plugin supports baisic authentication, it can be specified in the url:
