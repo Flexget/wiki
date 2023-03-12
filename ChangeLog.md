@@ -11,16 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fccab103dad5d4e0ad7135a762fd0885197eb6d8--->
+<!---5569961dafcbc6a7a603460894d1ae9e324aad80--->
 
-## 3.5.31.dev (unreleased)
+## 3.5.32.dev (unreleased)
+<!---2c536d42f196806c025c7a490d364179839c21a4--->
+
+## 3.5.31 (2023-03-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.30...v3.5.31)
 ### Fixed
 - transmission: transmission-rpc deprecated base64 torrent content ([#3715](https://github.com/Flexget/Flexget/issues/3715))
 
 ### Added
 - Torznab: Add timeout parameter ([#2738](https://github.com/Flexget/Flexget/issues/2738))
 
-<!---92981b650769910c3c4a995c844fa669e10c8535--->
 
 ## 3.5.30 (2023-03-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.29...v3.5.30)
