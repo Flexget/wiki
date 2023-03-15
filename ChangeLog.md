@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5569961dafcbc6a7a603460894d1ae9e324aad80--->
+<!---fbde16c6f6be0acacd69da2c0c358797eaca8f58--->
 
 ## 3.5.32.dev (unreleased)
+### Added
+- sftp plugin supports additional SSH key types ([#3714](https://github.com/Flexget/Flexget/issues/3714))
+
 <!---2c536d42f196806c025c7a490d364179839c21a4--->
 
 ## 3.5.31 (2023-03-12)
