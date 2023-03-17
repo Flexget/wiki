@@ -2,7 +2,7 @@
 title: pushsafer
 description: 
 published: true
-date: 2022-09-18T05:26:44.006Z
+date: 2023-03-17T18:57:54.711Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:41.361Z
@@ -26,8 +26,16 @@ This plugin provides the ability to send flexget notifications via the cross-pla
 |url_title|text|Text to be displayed as URL title|blank
 |sound|numeric|Override default notifcation sound. Must one of [Pushsafer's supported sounds](https://www.pushsafer.com/en/pushapi)|blank
 |icon|numeric|Override default notifcation icon. Must one of [Pushsafer's supported icons](https://www.pushsafer.com/en/pushapi)|1 or blank
+|iconcolor|text|The icons color. Hexadecimal Colorcode, Example: #FF0000|blank
 |vibration|numeric|How often the device should vibrate (0-3)|0
+|priority|numeric|Notification priority, -2=lowest, -1=lower, 0=normal, 1=high, 2=highest (Critical Alerts)|0
 |time2live|numeric|Time in minutes, after which message automatically gets purged (0-43200)|0 or blank
+|retry|numeric|Time in seconds, after a message should resend (60-10800).|0 or blank
+|expire|numeric|Time in seconds, after the retry/resent should stop (60-10800).|0 or blank
+|confirm|numeric|Time in seconds after a message is resent before being confirmed (10-10800)|0 or blank
+|answer|numeric|1 = Answer is possible, 0 = Answer is not possible.|0 or blank
+|answeroptions|text|predefined answer options divided by a pipe character e.g. Yes\|No\|Maybe|blank
+|answerforce|numeric|Force Answer 1=yes 0=no|0 or blank
 
 ### Examples
 
@@ -51,12 +59,19 @@ notify:
     via:
       - pushsafer:
           private_key: o23ywmAaaxTYxn00jY2JAwQ2EeYXGt    
-          device: 119
+          device: 118
           url: http://server.example.com/path/to/downloader/ui
+          url_title: Open Link
           sound: 12
           icon: 20
+          iconcolor: #FF0000
           sound: 8
           vibration: 1
+          priority: 2
+          confirm: 10
+          answer: 1
+					answeroptions: yes|no|maybe
+          answerforce: 1
 ```
 
 #### Example with Jinja2 tags
@@ -77,9 +92,13 @@ notify:
           private_key: '{? credentials.pushsafer.private_key ?}'
           sound: 8
           icon: 20
-          vibration: 1
+          iconcolor: #00CC00
+          vibration: 2
+          priority: 2
           url: '{{trakt_series_trakt_url|d(imdb_url)}}'
           url_title: Link
+					retry: 60
+          expire: 600
 ```
 #### Example with HTML tags
 ```yaml
