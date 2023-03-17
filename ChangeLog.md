@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8b04065febd979b158c4309ca4c4c6b42b5015b5--->
+<!---b255b5e598dea89069bec2e89c565488690fe8c7--->
 
 ## 3.5.33.dev (unreleased)
+### Changed
+- pushsafer: Adds more options to customize notification
+
 <!---404ae9bf251a952e5041933e3227a7b92940275f--->
 
 ## 3.5.32 (2023-03-15)
