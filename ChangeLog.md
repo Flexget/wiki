@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b255b5e598dea89069bec2e89c565488690fe8c7--->
+<!---4f1f01b7022f78bb216e017e0feba00c25a5b3ff--->
 
-## 3.5.33.dev (unreleased)
+## 3.5.34.dev (unreleased)
+<!---2afbb09bb3931fb49c82b9e144f5568f124a6870--->
+
+## 3.5.33 (2023-03-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.5.32...v3.5.33)
 ### Changed
 - pushsafer: Adds more options to customize notification
 
-<!---404ae9bf251a952e5041933e3227a7b92940275f--->
 
 ## 3.5.32 (2023-03-15)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.5.31...v3.5.32)
