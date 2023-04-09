@@ -2,7 +2,7 @@
 title: from_transmission
 description: 
 published: true
-date: 2022-12-05T03:30:37.072Z
+date: 2023-04-09T16:23:02.745Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:05:55.831Z
@@ -12,6 +12,7 @@ dateCreated: 2022-09-18T05:05:55.831Z
 This plugin creates an entry for each item you have loaded in transmission.
 
 > This plugin requires the `transmission-rpc` library. 
+> Newer versions of FlexGet require `transmission-rpc` 4.0 or greater.
 {.is-warning}
 
 To install it, run:
