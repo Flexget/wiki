@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d9c7a83a5181d3cf54015b8c38c670686d8c6f26--->
+<!---d01784c6bb8c17bba09dcd37a43e276b8cfb2a46--->
 
 ## 3.6.1.dev (unreleased)
+### Changed
+- rarbg: allow using domain_delay and increase default delay. fix [#3705](https://github.com/Flexget/Flexget/issues/3705)
+
 <!---37493fc2ce3e422758f3a933205404864bf0f7a1--->
 
 ## 3.6.0 (2023-04-10)
