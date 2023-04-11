@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2022-11-06T14:39:52.430Z
+date: 2023-04-11T19:35:46.968Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -14,6 +14,8 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 <!---eb5f3c4a330003535cfc17b678e155f3f2225c16--->
 
 ## 3.6.2.dev (unreleased)
+### Changed
+- docker: Move to Python 3.11
 <!---ce031f379100db76fe745ea94008b7d5f073c352--->
 
 ## 3.6.1 (2023-04-11)
