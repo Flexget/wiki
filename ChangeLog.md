@@ -11,12 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---eb5f3c4a330003535cfc17b678e155f3f2225c16--->
+<!---faf30112d2821ff3e43ffe25e95aa092e54d8f7e--->
 
-## 3.6.2.dev (unreleased)
+## 3.6.3.dev (unreleased)
+<!---3028a2120dcd6f368758ddb36aa1273ea047e957--->
+
+## 3.6.2 (2023-04-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.6.1...v3.6.2)
 ### Changed
 - docker: Move to Python 3.11
-<!---ce031f379100db76fe745ea94008b7d5f073c352--->
 
 ## 3.6.1 (2023-04-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.6.0...v3.6.1)
