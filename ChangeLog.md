@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bf0fd6d311f66fd89f7490a3682f1ce8de43a48f--->
+<!---2eb510b1172b03db11d0b0e18fb8a0c9406538a8--->
 
 ## 3.6.5.dev (unreleased)
+### Fixed
+- from_transmission: Don't crash when generating done_date. fix [#3745](https://github.com/Flexget/Flexget/issues/3745)
+
 <!---f58fb6ad09bb288e83c829f149e57725186b48d2--->
 
 ## 3.6.4 (2023-04-25)
