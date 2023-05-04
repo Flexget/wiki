@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---084ed12d2aaa1d675aa579bfc56b385d424d3a48--->
+<!---c1de49c2e8dab0b00638095b48082d9110ea5c50--->
 
-## 3.6.7.dev (unreleased)
+## 3.6.8.dev (unreleased)
+<!---d6c3f65b0b6eda82eabcdbebc8e2aca0a5fa8cd9--->
+
+## 3.6.7 (2023-05-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.6.6...v3.6.7)
 ### Added
 - template filter to parse human-readable file size to bytes ([#3750](https://github.com/Flexget/Flexget/issues/3750))
 
-<!---a44b8aa48f4a8425c096b7a470e75d93558e4aa9--->
 
 ## 3.6.6 (2023-05-03)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.6.5...v3.6.6)
