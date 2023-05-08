@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3dee0e5b195ef186581bbc0776b40e82a1b21f2f--->
+<!---52574ec5aad9712a67bf97980a0571c9fd9a6bf3--->
 
 ## 3.6.9.dev (unreleased)
+### Fixed
+- download: Fix streaming downloads to disk instead of loading entirely in memory. fix [#3762](https://github.com/Flexget/Flexget/issues/3762) ([#3764](https://github.com/Flexget/Flexget/issues/3764))
+
 <!---c301f5fa7fc8af7a0b73a60e317f9585c5937165--->
 
 ## 3.6.8 (2023-05-08)
