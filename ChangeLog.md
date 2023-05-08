@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c1de49c2e8dab0b00638095b48082d9110ea5c50--->
+<!---ff8714fcd46c160071aaaee839e2fd3e280e18df--->
 
 ## 3.6.8.dev (unreleased)
+### Changed
+- Update dockerfile for faster builds and smaller updates
+
 <!---d6c3f65b0b6eda82eabcdbebc8e2aca0a5fa8cd9--->
 
 ## 3.6.7 (2023-05-04)
