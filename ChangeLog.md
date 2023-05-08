@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ff8714fcd46c160071aaaee839e2fd3e280e18df--->
+<!---3dee0e5b195ef186581bbc0776b40e82a1b21f2f--->
 
-## 3.6.8.dev (unreleased)
+## 3.6.9.dev (unreleased)
+<!---c301f5fa7fc8af7a0b73a60e317f9585c5937165--->
+
+## 3.6.8 (2023-05-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.6.7...v3.6.8)
 ### Changed
 - Update dockerfile for faster builds and smaller updates
 
-<!---d6c3f65b0b6eda82eabcdbebc8e2aca0a5fa8cd9--->
 
 ## 3.6.7 (2023-05-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.6.6...v3.6.7)
