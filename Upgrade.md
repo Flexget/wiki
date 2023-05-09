@@ -2,13 +2,16 @@
 title: Upgrade
 description: 
 published: true
-date: 2023-01-16T20:09:08.450Z
+date: 2023-05-09T15:34:21.915Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
 ---
 
 # Upgrading
+
+> Before upgrading, check if your config or anything else needs updated on the [upgrade actions](/UpgradeActions) page.
+{.is-warning}
 
 ## Choose installation method
 
