@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-04-09T21:05:08.615Z
+date: 2023-05-09T15:31:23.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,9 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.7.0** – 2023-05-09
+The [morethantv](/Searches/morethantv) plugin categories have been updated to match changes made at the site. They will need to be updated in your config to use the new categories.
 
 ### **3.6.0** – 2023-04-09
 The [transmission](/Plugins/transmission) (and [from_transmission](/Plugins/from_transmission)) plugins now require [transmission-rpc]() version 4.1.4 or greater. Run ```pip install --upgrade transmission-rpc``` from the environment where flexget is installed to upgrade.
