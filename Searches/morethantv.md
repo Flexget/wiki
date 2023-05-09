@@ -2,7 +2,7 @@
 title: morethantv
 description: 
 published: true
-date: 2023-01-23T15:01:55.513Z
+date: 2023-05-09T15:30:03.508Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:13.140Z
@@ -25,9 +25,12 @@ morethantv:
 ```
 
 **Categories**
-* TV
-* Movies
-* Other
+- HD Episode
+- HD Movies
+- HD Season
+- SD Epiosde
+- SD Movies
+- SD Season
 
 **Tags**
 
@@ -49,7 +52,7 @@ discover:
         username: '{? mtv.username ?}'
         password: '{? mtv.password ?}'
         category:
-          - TV
+          - HD Episode
         all_tags: yes
 ```
 
