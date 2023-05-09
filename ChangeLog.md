@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---38f504e99cd52879c1389556330b9dd9b9529428--->
+<!---2711281c177fd665f9dfe1d60521ba716fcfb7dd--->
 
-## 3.6.10.dev (unreleased)
+## 3.7.0.dev (unreleased)
+### Changed
+- morethantv: Update categories to match website
+
 <!---21acd9c7f6af531e9cc8957b6a7ba9983021ad12--->
 
 ## 3.6.9 (2023-05-09)
