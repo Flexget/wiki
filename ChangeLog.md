@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2711281c177fd665f9dfe1d60521ba716fcfb7dd--->
+<!---6b588f32a24e2760f7842eff72189b145d601256--->
 
-## 3.7.0.dev (unreleased)
+## 3.7.1.dev (unreleased)
+<!---bc70675cbdc829cd2ef5990b73bea9194cb6f513--->
+
+## 3.7.0 (2023-05-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.6.9...v3.7.0)
 ### Changed
 - morethantv: Update categories to match website
 
-<!---21acd9c7f6af531e9cc8957b6a7ba9983021ad12--->
 
 ## 3.6.9 (2023-05-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.6.8...v3.6.9)
