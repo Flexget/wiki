@@ -2,7 +2,7 @@
 title: ntfysh
 description: 
 published: true
-date: 2022-09-18T05:26:24.306Z
+date: 2023-05-23T00:49:39.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:21.737Z
@@ -53,3 +53,18 @@ notify:
           password: "ntfy_password"
 ```
 
+#### Access Token
+Access tokens can also be used in place of passwords for authentication.
+Leave username blank and use the token as the password.
+
+```yaml
+
+notify:
+  entries:
+    via:
+      - ntfysh: 
+          topic: "topic"
+          url: "https://ntfy.domain.com"
+          username: ""
+          password: "ntfy_token"
+```
