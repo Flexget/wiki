@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6b588f32a24e2760f7842eff72189b145d601256--->
+<!---2e576a962448dea6d7b0ac8f651cc9860d1ee69f--->
 
 ## 3.7.1.dev (unreleased)
+### Fixed
+- emby: solve reconnect error ([#3772](https://github.com/Flexget/Flexget/issues/3772))
+
 <!---bc70675cbdc829cd2ef5990b73bea9194cb6f513--->
 
 ## 3.7.0 (2023-05-11)
