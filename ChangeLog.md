@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0e675598cae934062290d3c87a6e59a1c3e6e142--->
+<!---71f07383776d46ed86963b197244fd2ed80e358f--->
 
-## 3.7.1.dev (unreleased)
+## 3.7.2.dev (unreleased)
+<!---7f7b664d8de57bff42c2504efaaa72dce19b8b44--->
+
+## 3.7.1 (2023-05-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.0...v3.7.1)
 ### Fixed
 - *  download: Fix streaming downloads to disk instead of loading entirely in memory. fix [#3762](https://github.com/Flexget/Flexget/issues/3762) ([#3764](https://github.com/Flexget/Flexget/issues/3764))
 - *  from_transmission: Don't crash when generating done_date. fix [#3745](https://github.com/Flexget/Flexget/issues/3745)
@@ -40,7 +44,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - pushsafer: Adds more options to customize notification
 - *  Add support for 'labels' in Transmission. ([#3693](https://github.com/Flexget/Flexget/issues/3693))
 
-<!---bc70675cbdc829cd2ef5990b73bea9194cb6f513--->
 
 ## 3.7.0 (2023-05-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.6.9...v3.7.0)
