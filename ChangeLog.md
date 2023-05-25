@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---71f07383776d46ed86963b197244fd2ed80e358f--->
+<!---fbf613a7a9321286dab25334f2e9a5fb55c63f69--->
 
 ## 3.7.2.dev (unreleased)
+### Fixed
+- transmission: Fix transmission deprecation warnings
+
 <!---7f7b664d8de57bff42c2504efaaa72dce19b8b44--->
 
 ## 3.7.1 (2023-05-25)
