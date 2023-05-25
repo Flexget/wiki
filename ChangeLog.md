@@ -11,11 +11,34 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2e576a962448dea6d7b0ac8f651cc9860d1ee69f--->
+<!---0e675598cae934062290d3c87a6e59a1c3e6e142--->
 
 ## 3.7.1.dev (unreleased)
 ### Fixed
+- *  download: Fix streaming downloads to disk instead of loading entirely in memory. fix [#3762](https://github.com/Flexget/Flexget/issues/3762) ([#3764](https://github.com/Flexget/Flexget/issues/3764))
+- *  from_transmission: Don't crash when generating done_date. fix [#3745](https://github.com/Flexget/Flexget/issues/3745)
+- *  transmission: transmission-rpc deprecated base64 torrent content ([#3715](https://github.com/Flexget/Flexget/issues/3715))
+- *  Memory leak when there is no sys.stderr ([#3701](https://github.com/Flexget/Flexget/issues/3701))
+- *  memusage plugin crashes with windows
+- *  memusage debugging module updated for python 3
+- *  sftp_list host_key accessing exception ([#3694](https://github.com/Flexget/Flexget/issues/3694))
+- *  pyload ng ([#3684](https://github.com/Flexget/Flexget/issues/3684))
+- irc: Update irc to download tracker config correctly
+- *  imdb_lookup: updated the scraper for the newish html structure
 - emby: solve reconnect error ([#3772](https://github.com/Flexget/Flexget/issues/3772))
+
+### Added
+- *  template filter to parse human-readable file size to bytes ([#3750](https://github.com/Flexget/Flexget/issues/3750))
+- *  sftp plugin supports additional SSH key types ([#3714](https://github.com/Flexget/Flexget/issues/3714))
+- *  Torznab: Add timeout parameter ([#2738](https://github.com/Flexget/Flexget/issues/2738))
+- *  from_qbittorrent plugin ([#3692](https://github.com/Flexget/Flexget/issues/3692))
+
+### Changed
+- *  morethantv: Update categories to match website
+- *  Update dockerfile for faster builds and smaller updates
+- *  rarbg: allow using domain_delay and increase default delay. fix [#3705](https://github.com/Flexget/Flexget/issues/3705)
+- pushsafer: Adds more options to customize notification
+- *  Add support for 'labels' in Transmission. ([#3693](https://github.com/Flexget/Flexget/issues/3693))
 
 <!---bc70675cbdc829cd2ef5990b73bea9194cb6f513--->
 
