@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fbf613a7a9321286dab25334f2e9a5fb55c63f69--->
+<!---8ae7e50233d725ec158bd206e5ac8fca46c17e4b--->
 
-## 3.7.2.dev (unreleased)
+## 3.7.3.dev (unreleased)
+<!---6e8e5c7636a2425272bb3b8d2b2b461875afd4f5--->
+
+## 3.7.2 (2023-05-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.1...v3.7.2)
 ### Fixed
 - transmission: Fix transmission deprecation warnings
 
-<!---7f7b664d8de57bff42c2504efaaa72dce19b8b44--->
 
 ## 3.7.1 (2023-05-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.0...v3.7.1)
