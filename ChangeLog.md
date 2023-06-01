@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7e5fc7f38d37ff118c66cc4b8e84382d44577081--->
+<!---45db8e287ee9ea080cdf1c22a8292ab8c62e1cbd--->
 
-## 3.7.4.dev (unreleased)
+## 3.7.5.dev (unreleased)
+<!---cad3159b9e41873d18dcc82fe401ee6aec45f414--->
+
+## 3.7.4 (2023-06-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.3...v3.7.4)
 ### Fixed
 - pending_list: Fix crash when outputting table to terminal
 
-<!---0695949d1fb674c7b930f177b90b456f6c396656--->
 
 ## 3.7.3 (2023-05-31)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.2...v3.7.3)
