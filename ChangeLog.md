@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dfb206140cc33022771b1e9d5fab26855daea422--->
+<!---7e5fc7f38d37ff118c66cc4b8e84382d44577081--->
 
 ## 3.7.4.dev (unreleased)
+### Fixed
+- pending_list: Fix crash when outputting table to terminal
+
 <!---0695949d1fb674c7b930f177b90b456f6c396656--->
 
 ## 3.7.3 (2023-05-31)
