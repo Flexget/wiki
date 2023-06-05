@@ -2,7 +2,7 @@
 title: sonarr_list
 description: 
 published: true
-date: 2022-09-18T05:25:21.332Z
+date: 2023-06-05T15:24:30.444Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:25:18.692Z
@@ -39,6 +39,7 @@ The following settings are optional:
 | **ignore_episodes_without_files** | Unmonitors any episodes without a file| False | 
 | **search_missing_episodes**  | Searches for missing files after applying `ignore_episodes_with_files`. It can be used to control which episodes Sonarr monitors after adding the series, ignoring episodes with and without files will only monitor future episodes.| True |
 | **profile_id**  | Allows you to change the quality profile that is selected during series creation. You can find quality profile/profile ID at `http://localhost:8989/api/profile?apikey=APIKEY`|1 |
+| **language_id**  | Allows you to change the language profile that is selected during series creation. You can find language profile/profile ID at `http://localhost:8989/api/languageprofile?apikey=APIKEY`|1 |
 | **season_folder**  | Allows you to set the season folder to either true or false| False |
 | **monitored**  | Allows you to set the whole series to either monitored or paused. If set to false you don't have to use `ignore_episodes_with_files` or `ignore_episodes_without_files`| True |
 | **root_folder_path**  | Allows you to set the location of the root folder path. example: `D:\Media\TV Shows` Default points to the root folder path you first setup in sonarr. |
