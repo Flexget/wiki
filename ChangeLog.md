@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---56756afd1b7009057b9e60776c745e74a4730ca0--->
+<!---6aefa943a3b8e9b173b89515ef4bf7270dbe4219--->
 
-## 3.7.5.dev (unreleased)
+## 3.7.6.dev (unreleased)
+<!---257c0df294e35eccd319d14cfbc71f35ca902745--->
+
+## 3.7.5 (2023-06-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.4...v3.7.5)
 ### Fixed
 - pyload: Fix pyload-ng api support
 - pyload: Fix pyload-ng api support
 
-<!---cad3159b9e41873d18dcc82fe401ee6aec45f414--->
 
 ## 3.7.4 (2023-06-01)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.3...v3.7.4)
