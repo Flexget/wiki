@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---45db8e287ee9ea080cdf1c22a8292ab8c62e1cbd--->
+<!---56756afd1b7009057b9e60776c745e74a4730ca0--->
 
 ## 3.7.5.dev (unreleased)
+### Fixed
+- pyload: Fix pyload-ng api support
+- pyload: Fix pyload-ng api support
+
 <!---cad3159b9e41873d18dcc82fe401ee6aec45f414--->
 
 ## 3.7.4 (2023-06-01)
