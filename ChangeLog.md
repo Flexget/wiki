@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6aefa943a3b8e9b173b89515ef4bf7270dbe4219--->
+<!---92ccfd5adcb5eb630370aa16c9daf4013517fb92--->
 
 ## 3.7.6.dev (unreleased)
+### Fixed
+- transmission: fix content_filename for magnets
+
 <!---257c0df294e35eccd319d14cfbc71f35ca902745--->
 
 ## 3.7.5 (2023-06-09)
