@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2023-06-14T03:07:00.139Z
+date: 2023-06-14T03:15:08.828Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -121,6 +121,11 @@ RUN   set -x; \
 Build the image:
 ```bash
 docker build -t <flexget image tag here>
+
+```
+To upgrade your image to the latest FlexGet version make sure you add the --pull argument to your build command:
+```bash
+docker build --pull -t <flexget image tag here>
 
 ```
 
