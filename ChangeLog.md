@@ -11,10 +11,11 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---92ccfd5adcb5eb630370aa16c9daf4013517fb92--->
+<!---68706657329b86ea559913928ce6ac918438fa31--->
 
 ## 3.7.6.dev (unreleased)
 ### Fixed
+- newznab: requests after first request skipped parameters ([#3795](https://github.com/Flexget/Flexget/issues/3795))
 - transmission: fix content_filename for magnets
 
 <!---257c0df294e35eccd319d14cfbc71f35ca902745--->
