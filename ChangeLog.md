@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cb13d7d76230e8a048b2cdd36d056a6f9dc8c029--->
+<!---20340db1670c01b80a332c4cbadf916d6f4752cb--->
 
-## 3.7.7.dev (unreleased)
+## 3.7.8.dev (unreleased)
+<!---095c50cfb4784e5c6dab9051d64557ee320d2bac--->
+
+## 3.7.7 (2023-06-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.5...v3.7.7)
 ### Fixed
 - newznab: requests after first request skipped parameters ([#3795](https://github.com/Flexget/Flexget/issues/3795))
 - transmission: fix content_filename for magnets
 
-<!---257c0df294e35eccd319d14cfbc71f35ca902745--->
 
 ## 3.7.5 (2023-06-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.4...v3.7.5)
