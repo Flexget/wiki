@@ -2,7 +2,7 @@
 title: RaspberryPi OS Lite
 description: 
 published: true
-date: 2022-09-21T12:52:26.673Z
+date: 2023-07-05T22:53:33.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T12:50:50.567Z
@@ -59,6 +59,17 @@ Test, you should see version number
 ```bash
 flexget -V
 ```
+
+## Installing extra dependencies with pipx
+
+Our plugin documentation instructs to use pip to install libraries such as transmission-rpc. This needs to be adjusted with pipx
+
+Use following pipx command instead:
+
+```bash
+pipx inject flexget transmission-rpc
+```
+
 
 ## Next Step
 
