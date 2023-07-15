@@ -2,7 +2,7 @@
 title: manipulate
 description: 
 published: true
-date: 2022-09-18T05:07:56.601Z
+date: 2023-07-15T16:59:41.080Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:07:54.028Z
@@ -64,7 +64,7 @@ manipulate:
         format: '&'
 ```
 
-Starting from r1420 these are fixed automatically by [urlfix](/Plugins/urlfix) plugin.
+Currently these are fixed automatically by [urlfix](/Plugins/urlfix) plugin.
 
 ### Example 3
 You can do multiple manipulates in a row, and they will be executed in order. You can also do multiple manipulates on the same field.
