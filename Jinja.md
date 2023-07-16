@@ -2,7 +2,7 @@
 title: Jinja
 description: 
 published: true
-date: 2022-09-18T05:12:42.022Z
+date: 2023-07-16T17:47:27.061Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:14.756Z
@@ -43,22 +43,22 @@ When using Jinja2 templates, you can use the following custom filters in additio
 
 |Name|Description|
 |---|---|
+|`asciify`|Simplify a string replacing for example `à` with `a`, `õ` with `o` and `ç` with `c`
+|`format_number`|Formats a number according to the user's locale.
+|`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
+|`get_year`|Get year from end of string (for example: get year from the end of movie name)
 |`pad(length)`| Pad a number with 0s to the specified length|
+|`parsedate`|Attempts to parse a date according to the rules in RFC 2822
 |`pathbase`|Base name of a path.|
-|`pathname`|Base name of a path, without its extension.|
-|`pathext`|Extension of a path (including the '.').|
 |`pathdir`| Directory containing the given path.|
+|`pathext`|Extension of a path (including the '.').|
+|`pathname`|Base name of a path, without its extension.|
 |`pathscrub(os)`| Replace problematic characters in a path. If os parameter is omitted, the current os, or os defined by [pathscrub](/Plugins/pathscrub) plugin will be used.<br> **NOTE:** This should rarely be needed due to the builtin [pathscrub](/Plugins/pathscrub) plugin.
 |`re_replace(pattern, replacement)`| Do regexp substitution on the string.<br>**NOTE 1**: Case-sensitive. You can change this behaviour by starting your pattern with `(?i)`<br>- `'This MIGHT Match'|re_replace('might', 'WON’T')`<br>- `'This MIGHT Match'|re_replace('(?i)might', 'WILL')`<br>**NOTE 2:** Captured groups can be accessed in the replacement string by using backreferences:<br>- `\\1` when enclosed with apostrophes or `\\\\1` when enclosed with quotes<br>- `\g<1>` when enclosed with either apostrophes or quotes|
-|`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
 |`re_search(pattern)`|Perform a search for given regexp pattern, return the matching portion of the text.
-|`parsedate`|Attempts to parse a date according to the rules in RFC 2822
-|`format_number`|Formats a number according to the user's locale.
-|`to_date`|Formats date
-|`strip_year`|Removes year from end of string (for example: remove year from the end of movie name)
-|`get_year`|Get year from end of string (for example: get year from the end of movie name)
-|`asciify`|Simplify a string replacing for example `à` with `a`, `õ` with `o` and `ç` with `c`
 |`strip_symbols`|Removes all special chars from a string, keeps accent words. The symbols are removed, only `()-_[].` and replaced by a `space`. Double `space` are also replaced by a single `space`
+|`strip_year`|Removes year from end of string (for example: remove year from the end of movie name)
+|`to_date`|Formats date
 
 
 #### Example:
