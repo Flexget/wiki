@@ -2,7 +2,7 @@
 title: Jinja
 description: 
 published: true
-date: 2023-07-16T17:47:27.061Z
+date: 2023-07-16T17:49:11.103Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:14.756Z
@@ -48,6 +48,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
 |`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
 |`get_year`|Get year from end of string (for example: get year from the end of movie name)
 |`pad(length)`| Pad a number with 0s to the specified length|
+|`parse_size`|Tries to parse a size from a human readable format. e.g. 3GB, 32 kb|
 |`parsedate`|Attempts to parse a date according to the rules in RFC 2822
 |`pathbase`|Base name of a path.|
 |`pathdir`| Directory containing the given path.|
