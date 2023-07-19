@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2023-07-15T17:31:30.837Z
+date: 2023-07-19T02:19:53.934Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -22,7 +22,9 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 
 ### LinuxServer.io
 
-- [linuxserver](https://github.com/linuxserver/docker-flexget)
+- lscr.io/linuxserver/flexget
+- [linuxserver/flexget](https://hub.docker/com/r/linuxserver/flexget)
+- [ghcr.io/linuxserver/flexget](https://github.com/linuxserver/docker-flexget/pkgs/container/flexget)
 
 #### Based on python:3.11-alpine
 
