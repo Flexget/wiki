@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-05-09T15:31:23.032Z
+date: 2023-07-29T17:08:21.174Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,11 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.8.0** – 2023-07-30
+All measurements of file size have been standardized to use bytes as the unit. This should be transparent for most users. Your config will need to be updated if you were using the `content_size` entry field with the `if` plugin, or in a template, you will need to adjust since it is now measured in bytes rather than mebibytes.
+In addition, if you were using a plugin that takes a filesize in the config, you should now be more explicit with the size, e.g. `1 GiB`, rather than `1G`
+More info in [the PR](https://github.com/Flexget/Flexget/pull/3802)
 
 ### **3.7.0** – 2023-05-09
 The [morethantv](/Searches/morethantv) plugin categories have been updated to match changes made at the site. They will need to be updated in your config to use the new categories.
