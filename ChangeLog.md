@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---023a1a0cba23cf89d71a1a19acb0e06a47059481--->
+<!---e0fb206891b394b59de6b7f92a1326fedfde90b9--->
 
-## 3.7.12.dev (unreleased)
+## 3.8.0.dev (unreleased)
+### Changed
+- Standardize content_size field to be in bytes
+
 <!---c34ecb01f9cc72cece0efb3718108452652e5f18--->
 
 ## 3.7.11 (2023-07-25)
