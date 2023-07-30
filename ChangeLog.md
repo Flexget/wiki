@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---980059bc19a2b4f41b3b4c1371f228d55694cae8--->
+<!---d962cd2829ffc30e34dd50176638c09a3beff73c--->
 
-## 3.8.0.dev (unreleased)
+## 3.8.1.dev (unreleased)
+<!---3074dec44740fd0fc610b1020acf60bdb272fa2c--->
+
+## 3.8.0 (2023-07-30)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.7.11...v3.8.0)
 ### Changed
 - --dump: Print human-readable content_size along with raw bytes
 - Standardize content_size field to be in bytes
 
-<!---c34ecb01f9cc72cece0efb3718108452652e5f18--->
 
 ## 3.7.11 (2023-07-25)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.10...v3.7.11)
