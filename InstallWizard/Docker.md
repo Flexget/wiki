@@ -23,7 +23,7 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 ### LinuxServer.io
 
 - lscr.io/linuxserver/flexget
-- [linuxserver/flexget](https://hub.docker/com/r/linuxserver/flexget)
+- [linuxserver/flexget](https://hub.docker.com/r/linuxserver/flexget)
 - [ghcr.io/linuxserver/flexget](https://github.com/linuxserver/docker-flexget/pkgs/container/flexget)
 
 #### Based on python:3.11-alpine
