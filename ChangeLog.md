@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---23ef2bb94d12dab3f7616c0408b7fb71d14851e3--->
+<!---fcc8d855176b26fa05cb9eca05da9e71dbd6c059--->
 
-## 3.8.1.dev (unreleased)
+## 3.8.2.dev (unreleased)
+<!---4d7b483e814f288c51ef2d57d9c86c435f91c7dd--->
+
+## 3.8.1 (2023-08-03)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.8.0...v3.8.1)
 ### Changed
 - rtorrent: add the ability to read and set custom fields ([#3807](https://github.com/Flexget/Flexget/issues/3807))
 
-<!---3074dec44740fd0fc610b1020acf60bdb272fa2c--->
 
 ## 3.8.0 (2023-07-30)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.7.11...v3.8.0)
