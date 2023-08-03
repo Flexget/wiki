@@ -2,7 +2,7 @@
 title: rtorrent
 description: 
 published: true
-date: 2022-09-18T05:11:39.669Z
+date: 2023-08-03T14:42:55.074Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:11:36.911Z
@@ -15,7 +15,7 @@ This plugin adds URL's directly into rTorrent or create entries from rTorrent fo
 **Supports**
 
 * Protocols XMLRPC, SCGI and Local SCGI
-* Dynamically setting the download directory and custom attributes supporting [jinja replacement](/Jinja)
+* Dynamically setting the download directory and custom attributes (numeric 1-5 and named) supporting [jinja replacement](/Jinja)
 * Magnet urls
 * HTTP Digest authentication (**NOTE**: if 401 error code is returned, it falls back to either Basic or Digest depending on config setting)
 
@@ -57,6 +57,7 @@ rtorrent:
 | custom3 | Text | Set custom field |
 | custom4 | Text | Set custom field |
 | custom5 | Text | Set custom field |
+| custom_fields | dictionary | Set named custom fields |
 
 **Input specific options**
 
@@ -64,7 +65,8 @@ rtorrent:
 | **Name** | **Info** | **Description** |
 | --- | --- | --- |
 | view | Text | View to use as input (default main) |
-| fields | list | specify which fields to get from rtorrent. See below for default fields |
+| fields | list | Specify which fields to get from rTorrent. See below for default fields |
+| custom_fields | list | Specify which named custom fields to get from rTorrent |
 
 The following entry fields are set by default on input.
 
@@ -164,4 +166,22 @@ tasks:
       custom2: complete
       uri: http://192.168.0.20/rtorrent
       path: /data/seeding/{{ custom1 }}/{{ tvdb_series_name }}
+```
+
+### Example: Using named custom fields
+
+```yaml
+tasks:
+  update-rtorrent-custom-status:
+  	from_rtorrent:
+    	uri: scgi://localhost:5000
+      custom_fields:
+      	- my_custom_status
+    if:
+    	- "my_custom_status == 'download-completed'": accept
+    rtorrent:
+      action: update
+    	uri: scgi://localhost:5000
+      custom_fields:
+      	my_custom_status: 'ready-to-move'
 ```
