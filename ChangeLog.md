@@ -11,11 +11,14 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1a0ee8eaddc2bde23015b2f87bdaf82969fc0ae6--->
+<!---c1c6781a6087835f6d1553160942e3376303cdcf--->
 
 ## 3.8.2.dev (unreleased)
 ### Fixed
 - content_size: Make sure max size is unlimited when unspecified.
+
+### Changed
+- rtorrent: now supports the purge action to remove torrent and delete files ([#3811](https://github.com/Flexget/Flexget/issues/3811))
 
 <!---4d7b483e814f288c51ef2d57d9c86c435f91c7dd--->
 
