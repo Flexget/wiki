@@ -2,7 +2,7 @@
 title: rtorrent
 description: 
 published: true
-date: 2023-08-03T14:42:55.074Z
+date: 2023-08-04T15:15:33.622Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:11:36.911Z
@@ -49,7 +49,7 @@ rtorrent:
 | --- | --- | --- |
 | mkdir | [yes\|no] | Create the destination folder on the rTorrent server (default: yes) |
 | start | [yes\|no] | Automatically start newly added torrent (default: yes) |
-| action | [add\|update\|delete] | Default is add |
+| action | [add\|update\|delete\|purge] | Default is add. Purge deletes a torrent and it's associated data|
 | path | Directory | Destination for downloaded file(s). Supports [jinja replacement](/Jinja). <br>**Note:** Will contain incomplete ongoing downloads.|
 | priority | [off\|low\|medium\|high] | Set torrent priority (default off) |
 | custom1 | Text | Set custom field |
