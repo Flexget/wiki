@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e2c8b40d9a754f7d0a8adb18780be981496df289--->
+<!---eca3d3e863f0d3b71e583e4d180c722761a1b897--->
 
 ## 3.8.5.dev (unreleased)
+### Changed
+- allow manually specifying a unit for the format_filesize helper (and format_size jinja filter)
+
 <!---418ef81d3fb5e66f5a89872bc24549e9f8fe6296--->
 
 ## 3.8.4 (2023-08-10)
