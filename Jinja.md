@@ -2,7 +2,7 @@
 title: Jinja
 description: 
 published: true
-date: 2023-07-29T17:19:56.951Z
+date: 2023-08-10T13:02:28.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:14.756Z
@@ -45,6 +45,7 @@ When using Jinja2 templates, you can use the following custom filters in additio
 |---|---|
 |`asciify`|Simplify a string replacing for example `à` with `a`, `õ` with `o` and `ç` with `c`
 |`format_number`|Formats a number according to the user's locale.
+|`format_size(si=false)`| Formats a number of bytes into an appropriate unit. (biggest unit where the value is still over 1) e.g. `1.3 GiB`
 |`formatdate(format)`| Do string formatting on datetime objects according to [strftime](http://strftime.org/).|
 |`get_year`|Get year from end of string (for example: get year from the end of movie name)
 |`pad(length)`| Pad a number with 0s to the specified length|
