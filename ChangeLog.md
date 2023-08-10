@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f8b44fa6c4c51a11a67dd7699278dea5d357e1aa--->
+<!---7732169e92fcfb4c8c651b1459dcc7c6813cbb49--->
 
 ## 3.8.4.dev (unreleased)
+### Added
+- Add format_size jinja filter to format a number of bytes into a human readable format
+
 <!---08dce685807825f22068c12c21857ffde35ed53e--->
 
 ## 3.8.3 (2023-08-09)
