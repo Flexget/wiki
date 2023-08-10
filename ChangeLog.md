@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7732169e92fcfb4c8c651b1459dcc7c6813cbb49--->
+<!---e2c8b40d9a754f7d0a8adb18780be981496df289--->
 
-## 3.8.4.dev (unreleased)
+## 3.8.5.dev (unreleased)
+<!---418ef81d3fb5e66f5a89872bc24549e9f8fe6296--->
+
+## 3.8.4 (2023-08-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.8.3...v3.8.4)
 ### Added
 - Add format_size jinja filter to format a number of bytes into a human readable format
 
-<!---08dce685807825f22068c12c21857ffde35ed53e--->
 
 ## 3.8.3 (2023-08-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.8.2...v3.8.3)
