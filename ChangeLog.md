@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f043d3137a5ad17914170c86f4dadc1bda0a74c3--->
+<!---3207a5ca77d6324be6ee97955bba65d8efcfc305--->
 
 ## 3.8.6.dev (unreleased)
+### Fixed
+- dump: Make sure dump can't crash printing `None` values.
+
 <!---6bdb6191bf7ecb37f98d5bd524a76d8aff454bcd--->
 
 ## 3.8.5 (2023-08-11)
