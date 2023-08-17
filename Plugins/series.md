@@ -2,7 +2,7 @@
 title: series
 description: 
 published: true
-date: 2022-09-18T05:28:50.257Z
+date: 2023-08-17T01:55:23.487Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:12:38.011Z
@@ -15,7 +15,6 @@ Intelligent filter for TV-series.
  * Episode history aware, no duplicate downloads - refer to [seen](/Plugins/seen) plugin page for more information
  * Plenty of [quality](/Plugins/series/quality) options
  * [Timeframe](/Plugins/series/timeframe), when used with sort_by plugin, selects the entry best matching the criteria in given timeframe
- * Episode [tracking](/Plugins/series/tracking) (for season, episode).
  * [Proper & Repack](/Plugins/series/propers) aware
  * Specials aware (grabs episodes with the series title and the word 'special')
  * Tries to ignore season packs, you can use [content_size](/Plugins/content_size) for extra insurance against them.
@@ -87,7 +86,6 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 | [specials](/Plugins/series/specials) | Turn off specials support for series. (on by default) |
 | [target](/Plugins/series/timeframe) | The target quality that should be downloaded without waiting for `timeframe` to complete. |
 | [timeframe](/Plugins/series/timeframe) | Wait given amount of time for specified quality to become available, after that fall back to best so far. |
-| [tracking](/Plugins/series/tracking) | Turn latest episode tracking off, or put into backfill mode. |
 | [upgrade](/Plugins/series/upgrade) | Keeps getting the better qualities as they become available. |
 | [season_packs](/Plugins/series/season_packs) | Enable downloading season packs. 
 
@@ -105,10 +103,7 @@ The series plugin has several features available at the command line via the [`f
 ## `execute` Commandline Arguments
 There are also options to the `flexget execute` command which affect the series plugin:
 
-### \-\-disable-tracking
-If episode tracking is causing problems downloading latest episode due large gap in the series history, you can use this option to disable advancement enforcement temporarily. 
-
-Using `series begin` to set new starting point is recommended and should resolve any tracking issues. If you for some reason need to record episode into history it can be achieved with command `flexget inject "Pioneer One 05" --task <name> --learn --disable-tracking`.
+Using `series begin` to set new starting point is recommended and should resolve any tracking issues. If you for some reason need to record episode into history it can be achieved with command `flexget inject "Pioneer One 05" --task <name> --learn`.
 
 
 ### \-\-stop-waiting \<name\>
