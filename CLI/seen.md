@@ -2,7 +2,7 @@
 title: seen
 description: 
 published: true
-date: 2022-09-18T05:12:22.859Z
+date: 2023-08-17T02:02:09.882Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:54:25.155Z
@@ -18,12 +18,14 @@ The [`execute` option](/CLI/execute) `--learn` (optionally combined with `--task
 | Sub-command | option | description |
 | --- | --- | --- |
 | `forget` || Forget entry or entire task from seen plugin database |
-|| `<value>` |  Title or URL of entry to forget, or name of task to forget |
+|| `<value>` |  Title or URL of entry to forget |
 | `add` || Add a title or URL to the seen database |
 || `<value>` | Title or URL to add |
 | `search`* || Search text from the seen database |
 || `<search term>` | Term to search for |
 [Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
+
+All sub-commands support the `--task` option, which can be specified to only act on certain tasks. It can contain wildcards, or be specified more than once to select multiple tasks.
 
 ### Examples
 ```bash
@@ -31,7 +33,7 @@ The [`execute` option](/CLI/execute) `--learn` (optionally combined with `--task
 $ flexget seen add "The Foo Movie"
 
 #Can be used to forget everything seen from the FooTask.
-$ flexget seen forget FooTask
+$ flexget seen forget --task FooTask *
 
 #Can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again
 $ flexget seen forget <value>
@@ -43,7 +45,4 @@ $ flexget seen add <value>
 seen add "http://example.com/torrents/1235321"
 #With tasks using plugin seen_movies you can also use imdb id to mark any movie as already seen
 $ flexget seen add tt0119698
-
-#If you want to remove manually added "seen" things
-$ flexget seen forget "--seen"
 ```
