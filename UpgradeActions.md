@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-07-29T17:11:54.682Z
+date: 2023-08-17T01:53:40.473Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,12 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.9.0** – 2023-08-17
+##### Series Tracking
+The `tracking` option for series has been removed, and will need to be removed from your config if you specified it. It often created more problems than it solved. There have been improvements to automatically set a reasonable begin episode for series if one was not already set, but you should set it manually to be completele sure nothing from the past will be needlessly downloaded.
+##### Seen CLI
+The seen plugin CLI has been altered to make the `--tasks` parameter more consistent. The argument has now been renamed to `--task`, and if you'd like to operate on more than one task at a time, you can use wildcards in the argument, or specify `--task` more than once.
 
 ### **3.8.0** – 2023-07-30
 All measurements of file size have been standardized to use bytes as the unit. This should be transparent for most users. Your config will need to be updated if you were using the `content_size` entry field with the `if` plugin, in a jinja template, or in a custom plugin, you will need to adjust since it is now measured in bytes rather than mebibytes.
