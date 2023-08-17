@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1771941e1770703fc958c253aa82097bdbf8c7f4--->
+<!---80fe9f11ef5baa267204c981f42ac2b24546bdd4--->
 
 ## 3.8.8.dev (unreleased)
+### Changed
+- seen CLI: Improved --task parameter behavior
+
 <!---0380ba7d53cd83bbbf67728eb7928309533f2b91--->
 
 ## 3.8.7 (2023-08-15)
