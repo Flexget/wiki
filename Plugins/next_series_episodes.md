@@ -2,7 +2,7 @@
 title: next_series_episodes
 description: 
 published: true
-date: 2022-09-18T05:28:46.416Z
+date: 2023-08-17T21:19:04.433Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:36.477Z
@@ -35,8 +35,6 @@ next_series_episodes:
   backfill: yes
 ```
 
-**NOTE**: Along with this setting, you must also set the [`series`](/Plugins/series)  option [`tracking`](/Plugins/series/tracking) to `backfill`, or `series` will reject the emitted episodes as being too far in the past.
-
 ### Examples
 
 #### Manually specify begin in configuration
@@ -68,7 +66,6 @@ series:
   settings:
     shows:
       identified_by: ep
-      tracking: backfill
   shows:
     - my show
     - other show
