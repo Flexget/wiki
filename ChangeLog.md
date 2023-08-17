@@ -11,11 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80fe9f11ef5baa267204c981f42ac2b24546bdd4--->
+<!---a7da2c721217a047d61e8d56c26377d27385d304--->
 
-## 3.8.8.dev (unreleased)
+## 3.9.dev (unreleased)
 ### Changed
+- *  Remove tracking from series plugin
+- Remove tracking from series plugin ([#3679](https://github.com/Flexget/Flexget/issues/3679))
 - seen CLI: Improved --task parameter behavior
+
+### Added
+- *  imdb_watchlist ratings includes imdb_user_score field
 
 <!---0380ba7d53cd83bbbf67728eb7928309533f2b91--->
 
