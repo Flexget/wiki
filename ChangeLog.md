@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e2eb5d87695849edaa98717acc311c6c2795d971--->
+<!---3d2699b1e7afadeb565d193734f44be2cdd1046b--->
 
-## 3.9.2.dev (unreleased)
+## 3.9.3.dev (unreleased)
+<!---00a7a3bde7adeb27b1d144db11f57add5fbe9dfb--->
+
+## 3.9.2 (2023-08-19)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.9.1...v3.9.2)
 ### Added
 - webui version 2.0.29
 
-<!---9bebcd7566af6143ed73b3c68e87664c8e4e6964--->
 
 ## 3.9.1 (2023-08-18)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.9...v3.9.1)
