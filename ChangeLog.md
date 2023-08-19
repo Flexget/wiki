@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3d2699b1e7afadeb565d193734f44be2cdd1046b--->
+<!---2a9d3e1967979cf366234c66096400ad50b91cc3--->
 
 ## 3.9.3.dev (unreleased)
+### Changed
+- Discord embed colors now support Jinja
+
 <!---00a7a3bde7adeb27b1d144db11f57add5fbe9dfb--->
 
 ## 3.9.2 (2023-08-19)
