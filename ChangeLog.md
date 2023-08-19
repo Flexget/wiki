@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f735a8b03dc45e40057d941f94146b628a2b14ac--->
+<!---e2eb5d87695849edaa98717acc311c6c2795d971--->
 
 ## 3.9.2.dev (unreleased)
+### Added
+- webui version 2.0.29
+
 <!---9bebcd7566af6143ed73b3c68e87664c8e4e6964--->
 
 ## 3.9.1 (2023-08-18)
