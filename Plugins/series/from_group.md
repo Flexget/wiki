@@ -2,28 +2,29 @@
 title: from_group
 description: 
 published: true
-date: 2022-09-18T05:27:42.658Z
+date: 2023-08-20T12:37:23.322Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:27:40.123Z
 ---
 
 ## Specify group (eg. anime fansubs)
+
 **Example:**
 
-```
+```yaml
 series:
-  - fullmetal alchemist brotherhood:
-      from_group: eclipse
-  - naruto:
+  - some series name:
+      from_group: fansubber 1
+  - another series name:
       from_group:
-        - horriblesubs
-        - crunchysubs
+        - fansubber 1
+        - fansubber 2
 ```
 
 **Supported notations:**
 
- * [Group](/Group) Series
+ * [Group] Series
  * Series XviD-Group
 
 To disallow certain groups use [regexp](/Plugins/regexp) plugin to reject them.
