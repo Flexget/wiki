@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2a9d3e1967979cf366234c66096400ad50b91cc3--->
+<!---8698341b7d8f974610ce0ee360cd5dcffec80dc4--->
 
-## 3.9.3.dev (unreleased)
+## 3.9.4.dev (unreleased)
+<!---57cebf1db160b54de9c14a86c44a8fc094c46dbc--->
+
+## 3.9.3 (2023-08-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.9.2...v3.9.3)
 ### Changed
 - Discord embed colors now support Jinja
 
-<!---00a7a3bde7adeb27b1d144db11f57add5fbe9dfb--->
 
 ## 3.9.2 (2023-08-19)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.9.1...v3.9.2)
