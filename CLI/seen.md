@@ -2,7 +2,7 @@
 title: seen
 description: 
 published: true
-date: 2023-08-17T02:02:09.882Z
+date: 2023-10-01T17:29:35.869Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:54:25.155Z
@@ -33,7 +33,7 @@ All sub-commands support the `--task` option, which can be specified to only act
 $ flexget seen add "The Foo Movie"
 
 #Can be used to forget everything seen from the FooTask.
-$ flexget seen forget --task FooTask *
+$ flexget seen forget --task FooTask "*"
 
 #Can be used to remove any url, title or even imdb url which already has been seen once to be downloaded again
 $ flexget seen forget <value>
