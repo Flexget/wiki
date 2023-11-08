@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a97a40604a7f8573fa63c4fe288900b3e85cf9f7--->
+<!---4404429b207e0462770b057ff5107521da9f2ab9--->
 
 ## 3.9.18.dev (unreleased)
+### Fixed
+- ncore: fix parsing of several fields
+
 <!---d2fadc6f37698d700b1621e6674880f6543082f5--->
 
 ## 3.9.17 (2023-11-07)
