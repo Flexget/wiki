@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4404429b207e0462770b057ff5107521da9f2ab9--->
+<!---13bca7ff059b024d4c5673f76b2a02eabdb0c271--->
 
-## 3.9.18.dev (unreleased)
+## 3.9.19.dev (unreleased)
+<!---f97c5faf7bd922fcb3495f4b4991e8557f0352b4--->
+
+## 3.9.18 (2023-11-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.9.17...v3.9.18)
 ### Fixed
 - ncore: fix parsing of several fields
 
-<!---d2fadc6f37698d700b1621e6674880f6543082f5--->
 
 ## 3.9.17 (2023-11-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.9.16...v3.9.17)
