@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---cc46c467cfae33d270fe83a9c33f947bc1abee0f--->
+<!---cfd96d7d66a3c53c224e98324517bd7a5be8eb55--->
 
 ## 3.9.20.dev (unreleased)
+### Fixed
+- copy: prevent failing when copying between certain file systems
+
 <!---c2c84ab70e4bc2f4df26bc4188e1a15b0bad8267--->
 
 ## 3.9.19 (2023-11-14)
