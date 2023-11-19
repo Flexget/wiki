@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8e05b8bbb007ce87249ffd38838b5604eabe1066--->
+<!---146ca117d38dbfe808dd785f3273b3e9e21958a6--->
 
-## 3.10.0.dev (unreleased)
+## 3.10.1.dev (unreleased)
+<!---4407619a80b7c40dfc55f2bdf4c40cda6353057e--->
+
+## 3.10.0 (2023-11-19)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.9.19...v3.10.0)
 ### Fixed
 - passthepopcorn: Fixes login and rate limit issues.
 - copy: prevent failing when copying between certain file systems
@@ -23,7 +27,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 - passthepopcorn: Improves searching and matching.
 - passthepopcorn: Switch to using apiuser and apikey instead of username and password.
 
-<!---c2c84ab70e4bc2f4df26bc4188e1a15b0bad8267--->
 
 ## 3.9.19 (2023-11-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.9.18...v3.9.19)
