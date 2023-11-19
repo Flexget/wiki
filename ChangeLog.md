@@ -11,14 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9afe5de70fc1a7611c6701eae892b7605a2bb2be--->
+<!---8e05b8bbb007ce87249ffd38838b5604eabe1066--->
 
-## 3.9.20.dev (unreleased)
+## 3.10.0.dev (unreleased)
 ### Fixed
 - passthepopcorn: Fixes login and rate limit issues.
 - copy: prevent failing when copying between certain file systems
 
 ### Changed
+- Drop support for python 3.7
 - passthepopcorn: Improves searching and matching.
 - passthepopcorn: Switch to using apiuser and apikey instead of username and password.
 
