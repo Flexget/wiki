@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-08-17T01:53:40.473Z
+date: 2023-11-19T03:36:26.418Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,12 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.10.0** – 2023-11-19
+#### Python 3.7 Dropped
+Python 3.7 has been EoL since June. Support for it has now been dropped. You'll need to install Flexget with Python 3.8+ in order to upgrade.
+#### passthepopcorn login
+The [passthepopcorn](/Searches/passthepopcorn) plugin has been fixed, but configs need to be updated to use the `apiuser` and `apikey` configuration rather than `username` and `password`.
 
 ### **3.9.0** – 2023-08-17
 ##### Series Tracking
