@@ -2,7 +2,7 @@
 title: passthepopcorn
 description: 
 published: true
-date: 2022-12-07T05:46:59.651Z
+date: 2023-11-19T03:35:53.405Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:20.861Z
@@ -15,15 +15,15 @@ dateCreated: 2022-09-18T05:18:20.861Z
 This search plugin will get movie results from PassThePopcorn.
 
 ## Configuration
-`username`, `password` and `passkey` are required. Everything else is optional. Your passkey is visible on your PTP profile page or in any download link on the site. It uniquely identifies you, so keep it secret, keep it safe.
+`apiuser`, `apikey` and `passkey` are required. Everything else is optional. Your passkey is visible on your PTP profile page or in any download link on the site. It uniquely identifies you, so keep it secret, keep it safe.
 
 The option `grouping` affects how `order_by` and `order_desc` influences search results. With it on, it sorts results by release group, without it, it sorts by individual torrents uploaded.
 
 NOTE: `freeleech: no` removes all freeleech results.
 ```
 passthepopcorn:
-  username: myusername (required)
-  password: mypassword (required)
+  apiuser: myusername (required)
+  apikey: myapikey (required)
   passkey: mypasskey (required)
   tags:
     - list of tags
