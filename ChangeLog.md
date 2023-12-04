@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6df60666154bf76400c6ba86d4cc151f5bd37724--->
+<!---ca4fe5e3585325d309d5f80ddf34ed7ce3e2764d--->
 
 ## 3.10.3.dev (unreleased)
+### Added
+- Python 3.12 support
+
 <!---753c24405bc8e0c2cc3a124933a1a0bfec73b314--->
 
 ## 3.10.2 (2023-11-27)
