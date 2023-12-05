@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7c854fd8988cd9d299f87da242e0ddd0364ab29e--->
+<!---b35a75f3eda97c72fba59ecde9bb4f8e14748b5b--->
 
-## 3.10.3.dev (unreleased)
+## 3.10.4.dev (unreleased)
+<!---f5d0818ec969c699361664be63e701e1df253444--->
+
+## 3.10.3 (2023-12-05)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.10.2...v3.10.3)
 ### Added
 - transmission: allow Jinja templating for labels ([#3886](https://github.com/Flexget/Flexget/issues/3886))
 - Python 3.12 support
 
-<!---753c24405bc8e0c2cc3a124933a1a0bfec73b314--->
 
 ## 3.10.2 (2023-11-27)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.10.1...v3.10.2)
