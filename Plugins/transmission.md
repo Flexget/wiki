@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2023-04-09T21:05:34.759Z
+date: 2023-12-11T13:18:53.224Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -11,13 +11,13 @@ dateCreated: 2022-09-18T05:15:21.461Z
 # Transmission
 Manages torrents within the [Transmission](https://transmissionbt.com) bittorrent client. Mainly used to add new torrents to transmission, but can also be used to pause/resume/remove torrents already loaded in transmission. Supports magnet links.
 
-> Newer versions of flexget now depend on transmission-rpc 4.1.4 or higher.
+> Newer versions of flexget now depend on transmission-rpc versions 4.1.4 to 4.3.1.
 {.is-warning}
 
 > This plugin requires the transmission-rpc library. To install it, run:
 > 
 > ```cmd
-> pip install transmission-rpc
+> pip install transmission-rpc==4.3.1
 > ```
 > 
 > You may be required to upgrade transmission-rpc after upgrading transmission, for that just add `--upgrade` to the previous command.
