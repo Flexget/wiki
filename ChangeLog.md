@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6d5d3db11785ec01da4450a87837e7096dadfeaf--->
+<!---17296fe7712d52d16643b77259ad7be48bfd64fe--->
 
 ## 3.10.7.dev (unreleased)
+### Fixed
+- alpharatio: strips characters from search that alpharatio doesn't handle
+
 <!---f4403d773486719f01df926c2efdf58303445ab2--->
 
 ## 3.10.6 (2023-12-12)
