@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---17296fe7712d52d16643b77259ad7be48bfd64fe--->
+<!---6de4b52916d1287566d64d6f147f96a32551eb49--->
 
-## 3.10.7.dev (unreleased)
+## 3.10.8.dev (unreleased)
+<!---a7572ddc9c8134ff3f58df2a8dc2eaffe7fafd0f--->
+
+## 3.10.7 (2023-12-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.10.6...v3.10.7)
 ### Fixed
 - alpharatio: strips characters from search that alpharatio doesn't handle
 
-<!---f4403d773486719f01df926c2efdf58303445ab2--->
 
 ## 3.10.6 (2023-12-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.10.5...v3.10.6)
