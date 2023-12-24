@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-11-19T03:36:26.418Z
+date: 2023-12-24T15:55:19.274Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,17 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.11.0** – 2023-12-25
+#### Better Timezone support
+The entry fields and template system have been upgraded to use timezone aware datetimes. We have done our best to make this transparent in most cases, but if you are doing date comparison with the `if` plugin, or `age` plugin, you may need to check everything is working how you intended. Most plugins have been upgraded to provide entry fields with datetimes in the proper timezone, but if there are any without a timezone, when compared with a time including a timezone, it will be assumed to be in the same timezone. Some other changes and notes to be aware of:
+- All dates and datetimes in entry fields are now [pendulum](https://pendulum.eustace.io/) instances. This gives many convienince methods you can now use in your templates. (e.g. `transmission_date_done < somedate.subtract(days=10)`, `Something was released {{rss_pubdate.diff_for_humans()}}`)
+- Dates in entry fields are now converted to datetimes at midnight. This makes it easier to compare any two dates/datetimes in a template. If you need to get back to the raw date, you can use `.date()`
+- The `timedelta` helper in templates has been converted to be a pendulum `duration`, and an alias `duration` has been added.
+
+
+Help reporting any bugs, or upgrading any plugins still using naive times would be much appreciated. More details in [the PR](https://github.com/Flexget/Flexget/pull/3758)
+
 
 ### **3.10.0** – 2023-11-19
 #### Python 3.7 Dropped
