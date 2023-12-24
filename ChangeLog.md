@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6de4b52916d1287566d64d6f147f96a32551eb49--->
+<!---48fec6a238e02a14d117f2269f4220f11bbce5e4--->
 
 ## 3.10.8.dev (unreleased)
+### Changed
+- add 'NVENC' and 'AV-1' as codecs in the quality system
+
 <!---a7572ddc9c8134ff3f58df2a8dc2eaffe7fafd0f--->
 
 ## 3.10.7 (2023-12-23)
