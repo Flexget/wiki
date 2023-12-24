@@ -11,11 +11,14 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c01d313a146ee726cea57eb350efbebb6433c882--->
+<!---b494313054139902bae32132cd713c92ccf826c0--->
 
 ## 3.11.0.dev (unreleased)
 ### Changed
 - add 'NVENC' and 'AV-1' as codecs in the quality system
+
+### Added
+- ombi_list plugin
 
 <!---a7572ddc9c8134ff3f58df2a8dc2eaffe7fafd0f--->
 
