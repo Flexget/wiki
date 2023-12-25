@@ -11,16 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b494313054139902bae32132cd713c92ccf826c0--->
+<!---07acacd956c1d058c05452e4adf89e71dbdaca84--->
 
-## 3.11.0.dev (unreleased)
+## 3.11.1.dev (unreleased)
+<!---d030c72f7fb2fb99c0771fbc083b0616a20f91b9--->
+
+## 3.11.0 (2023-12-25)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.10.7...v3.11.0)
 ### Changed
 - add 'NVENC' and 'AV-1' as codecs in the quality system
 
 ### Added
 - ombi_list plugin
 
-<!---a7572ddc9c8134ff3f58df2a8dc2eaffe7fafd0f--->
 
 ## 3.10.7 (2023-12-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.10.6...v3.10.7)
