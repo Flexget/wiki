@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fcec754dd31860e59effa50597b9f316d7cf261f--->
+<!---f0ae2ebf8aa5bb28cecd1b3586678a956003c7c9--->
 
-## 3.11.2.dev (unreleased)
+## 3.11.3.dev (unreleased)
+<!---48568dc94f4e3f8f39a4e0239f6a191b8542aa38--->
+
+## 3.11.2 (2023-12-27)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.1...v3.11.2)
 ### Changed
 - Allow comparing 'date's to 'datetime's in templates rather than failing. The date will be considered to be at midnight in the same timezone as the datetime.
 - Revert the casting of 'date's to 'datetime's when set as entry fields ([#3907](https://github.com/Flexget/Flexget/issues/3907))
@@ -21,7 +25,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - These changes fix some templates/if statements that weren't backwards compatible as intended in 3.11.0
 
-<!---7cd19d3a5c2836754ec6dc6348071f5e0ad1ea83--->
 
 ## 3.11.1 (2023-12-26)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.0...v3.11.1)
