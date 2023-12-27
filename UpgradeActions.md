@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-12-24T15:55:19.274Z
+date: 2023-12-27T03:47:56.725Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -22,7 +22,7 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 #### Better Timezone support
 The entry fields and template system have been upgraded to use timezone aware datetimes. We have done our best to make this transparent in most cases, but if you are doing date comparison with the `if` plugin, or `age` plugin, you may need to check everything is working how you intended. Most plugins have been upgraded to provide entry fields with datetimes in the proper timezone, but if there are any without a timezone, when compared with a time including a timezone, it will be assumed to be in the same timezone. Some other changes and notes to be aware of:
 - All dates and datetimes in entry fields are now [pendulum](https://pendulum.eustace.io/) instances. This gives many convienince methods you can now use in your templates. (e.g. `transmission_date_done < somedate.subtract(days=10)`, `Something was released {{rss_pubdate.diff_for_humans()}}`)
-- Dates in entry fields are now converted to datetimes at midnight. This makes it easier to compare any two dates/datetimes in a template. If you need to get back to the raw date, you can use `.date()`
+- ~~Dates in entry fields are now converted to datetimes at midnight. This makes it easier to compare any two dates/datetimes in a template. If you need to get back to the raw date, you can use `.date()`~~ This behavior was reverted in 3.11.2. You can however compare a date to a datetime still, and at this point the date will be considered to be at midnight of the day.
 - The `timedelta` helper in templates has been converted to be a pendulum `duration`, and an alias `duration` has been added.
 
 
