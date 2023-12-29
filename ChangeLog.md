@@ -11,11 +11,14 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fc3d35ce0d10b22b4f22517cdbbcdb720b224fe0--->
+<!---e1399e2489aba1f9e33b8dab28f14f6db88ce60f--->
 
 ## 3.11.3.dev (unreleased)
 ### Changed
 - Improves string output when subtracting dates in templates, or using .diff()
+
+### Fixed
+- discord notifier: Unhandled crash on timeout. [#3909](https://github.com/Flexget/Flexget/issues/3909)
 
 <!---48568dc94f4e3f8f39a4e0239f6a191b8542aa38--->
 
