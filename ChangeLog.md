@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4cf54baa77f12c08838ef73d8e0c2382ebb02cbc--->
+<!---a2612685ec63dfabb043863afd2423bf0c6b58c8--->
 
 ## 3.11.4.dev (unreleased)
+### Changed
+- Bump dependencies
+
 <!---7d91278d8936f8e7cdb76ea1712e2e56e302d728--->
 
 ## 3.11.3 (2023-12-29)
