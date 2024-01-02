@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7560d21a8ee7097234ad2046aad15116c5295312--->
+<!---16767071e1b2b90290ae121423ca09791195e81f--->
 
-## 3.11.5.dev (unreleased)
+## 3.11.6.dev (unreleased)
+<!---210956ab4aaebee030fa40bb717dace53914ed9c--->
+
+## 3.11.5 (2024-01-02)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.4...v3.11.5)
 ### Fixed
 - Make sure dates parsed using `parsedate` jinja filter can be compared with or without timezone. refs [#3912](https://github.com/Flexget/Flexget/issues/3912)
 
-<!---34d7a4aab919065dbd5945e32bca0a88ca32da25--->
 
 ## 3.11.4 (2024-01-01)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.3...v3.11.4)
