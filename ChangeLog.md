@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---16767071e1b2b90290ae121423ca09791195e81f--->
+<!---53b04d79cb6f96b61f67da75821ddf068fe389c0--->
 
 ## 3.11.6.dev (unreleased)
+### Fixed
+- DeprecationWarning from jsonschema module
+
 <!---210956ab4aaebee030fa40bb717dace53914ed9c--->
 
 ## 3.11.5 (2024-01-02)
