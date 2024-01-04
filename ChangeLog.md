@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---53b04d79cb6f96b61f67da75821ddf068fe389c0--->
+<!---d6862b99264d69872539edd05710851604fe0026--->
 
-## 3.11.6.dev (unreleased)
+## 3.11.7.dev (unreleased)
+<!---abcf8b47cde1771f9957aaa3965be77c28c96677--->
+
+## 3.11.6 (2024-01-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.5...v3.11.6)
 ### Fixed
 - DeprecationWarning from jsonschema module
 
-<!---210956ab4aaebee030fa40bb717dace53914ed9c--->
 
 ## 3.11.5 (2024-01-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.4...v3.11.5)
