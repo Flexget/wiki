@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e163baf61348484b0738d3c66fa0d694771d8454--->
+<!---3f26408734b536e111ec60d51e4802c57b8e6ce2--->
 
-## 3.11.8.dev (unreleased)
+## 3.11.9.dev (unreleased)
+<!---a369c8433a18d0676d0bfdf73ad25ad131b0d01e--->
+
+## 3.11.8 (2024-01-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.7...v3.11.8)
 ### Fixed
 - quality system: Identify AVC as h264 ([#3918](https://github.com/Flexget/Flexget/issues/3918))
 
-<!---df674f31c64141982dadf1a68f2fd76071ff2da0--->
 
 ## 3.11.7 (2024-01-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.6...v3.11.7)
