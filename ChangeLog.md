@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---962e1d4b2fcb5ce2911a8695e4ace702cb744141--->
+<!---b41cc0c15bcef50b0e3003b41017707777a197b5--->
 
 ## 3.11.12.dev (unreleased)
+### Changed
+- transmission: update version of transmission-rpc library
+
 <!---c56b7df1a84d5a434cd270ed4260f2e61371f346--->
 
 ## 3.11.11 (2024-01-23)
