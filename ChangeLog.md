@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b41cc0c15bcef50b0e3003b41017707777a197b5--->
+<!---1cdfa89baace0deaf865296ecf2f79a351859149--->
 
-## 3.11.12.dev (unreleased)
+## 3.11.13.dev (unreleased)
+<!---ac4fbe8594ccb1b3055173c3d2ec24405adc3a8d--->
+
+## 3.11.12 (2024-01-26)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.11...v3.11.12)
 ### Changed
 - transmission: update version of transmission-rpc library
 
-<!---c56b7df1a84d5a434cd270ed4260f2e61371f346--->
 
 ## 3.11.11 (2024-01-23)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.10...v3.11.11)
