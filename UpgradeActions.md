@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2023-12-27T03:47:56.725Z
+date: 2024-01-27T19:39:08.719Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,10 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.11.13** - 2024-01-27
+
+The [transmission](/Plugins/transmission) (and [from_transmission](/Plugins/from_transmission)) plugins now require [transmission-rpc]() version 7.0.3 or greater. Run ```pip install --upgrade transmission-rpc``` from the environment where flexget is installed to upgrade.
 
 ### **3.11.0** – 2023-12-25
 #### Better Timezone support
