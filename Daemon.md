@@ -2,7 +2,7 @@
 title: Daemon
 description: 
 published: true
-date: 2022-09-18T05:24:23.833Z
+date: 2024-02-01T19:51:53.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:07.237Z
