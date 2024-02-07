@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3ee38a7a7deefba151f2a003869e3886a6f1571d--->
+<!---69b90ff09ac7172bf966eefc346c0ac51509be13--->
 
 ## 3.11.16.dev (unreleased)
+### Changed
+- sonarr: update API version to v3 ([#3914](https://github.com/Flexget/Flexget/issues/3914))
+
 <!---db7ba5bec216e6ad770e727472396e9d4874157f--->
 
 ## 3.11.15 (2024-02-06)
