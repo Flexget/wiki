@@ -2,14 +2,14 @@
 title: headers
 description: 
 published: true
-date: 2022-09-18T05:06:10.016Z
+date: 2024-02-11T22:32:31.549Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:06:07.407Z
 ---
 
 # Headers
-Allows editing request headers. This will affect most of the plugins in a task (everything that uses urllib2).
+Allows editing request headers. This will affect most of the plugins in a task (everything that uses the task's requests session).
 
 **Example: cookies**
 
