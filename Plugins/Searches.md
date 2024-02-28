@@ -40,6 +40,7 @@ You can always get an up to date overview of the available search plugins by usi
 | [argenteam](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
 | [descargas2020](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
+| [eztv](/Plugins/eztv) | Searches EZTV by IMDB ID |
 | [gazelle/gazellemusic](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
 | [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
