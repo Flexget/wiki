@@ -48,7 +48,6 @@ You can always get an up to date overview of the available search plugins by usi
 | [magnetdl](/Searches/magnetdl) | Generates entries from [magnetdl.com](https://magnetdl.com/) |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
 | [solidtorrents](/Searches/solidtorrents) | Generates entries from [solidtorrents](http://solidtorrents.net/) |
-| [rarbg](/Searches/rarbg) | Generates entries from [RarBG](http://rarbg.com/) |
 
 ### Private
 
