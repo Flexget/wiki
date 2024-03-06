@@ -79,6 +79,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [anilist](/Plugins/anilist) | Create entries from your AniList watchlist. |
 | [apple_trailers](/Plugins/apple_trailers) | Get movie trailers from Apple.com |
 | [betaseries_list](/Plugins/betaseries_list) | Use series you follow on www.betaseries.com as an input |
+| [eztv](/Plugins/eztv) | Use latest entries from EZTV |
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
 | [kitsu](/Plugins/kitsu) | Produce Entries based on your  [Kitsu.io](http://kitsu.io) libraries. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List).<br> **Note:** This plugin does not currently work, look into [`imdb_watchlist`](/Plugins/imdb_watchlist) |
