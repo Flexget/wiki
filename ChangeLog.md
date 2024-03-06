@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---dfd53b5ac7a3c38bea4b74c5a1144df99ac4aa60--->
+<!---ad7aa2f2beb77e9a53692a6d182dfdd296eeebc2--->
 
-## 3.11.20.dev (unreleased)
+## 3.11.21.dev (unreleased)
+<!---e44a152ba772a52989f42e3b72bad362bd1d6932--->
+
+## 3.11.20 (2024-03-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.19...v3.11.20)
 ### Changed
 - *  EZTV: add Input and Search interfaces
 - eztv: Support usage as a search and input plugin ([#3943](https://github.com/Flexget/Flexget/issues/3943))
@@ -21,7 +25,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Removed
 - *  RARBG closed their portal
 
-<!---d062c01def2122ae4ba1d0d80155b9a0377b40a1--->
 
 ## 3.11.19 (2024-02-21)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.18...v3.11.19)
