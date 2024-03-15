@@ -2,7 +2,7 @@
 title: ChangeLog
 description: 
 published: true
-date: 2023-04-11T19:35:46.968Z
+date: 2024-03-15T00:33:34.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:39.193Z
@@ -28,11 +28,10 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ## 3.11.20 (2024-03-06)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.19...v3.11.20)
 ### Changed
-- *  EZTV: add Input and Search interfaces
-- eztv: Support usage as a search and input plugin ([#3943](https://github.com/Flexget/Flexget/issues/3943))
+- [EZTV](/Plugins/eztv): Support usage as a search and input plugin ([#3943](https://github.com/Flexget/Flexget/issues/3943))
 
 ### Removed
-- *  RARBG closed their portal
+- RARBG - closed their portal
 
 
 ## 3.11.19 (2024-02-21)
