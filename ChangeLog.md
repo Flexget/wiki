@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---bc0c3a34bf663f70f47f5304862b131e0b12c277--->
+<!---3b74ed5d6e353814f683dec5d453a00d0b66e5d2--->
 
 ## 3.11.28.dev (unreleased)
+### Changed
+- *  best_quality: can now return multiple best entries
+- Update best_quality.py ([#3959](https://github.com/Flexget/Flexget/issues/3959))
+
 <!---38482b65160330d3c3bb631ad3044a2de2291b43--->
 
 ## 3.11.27 (2024-03-26)
