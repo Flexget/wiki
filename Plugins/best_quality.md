@@ -2,7 +2,7 @@
 title: best_quality
 description: 
 published: true
-date: 2022-10-25T00:16:25.464Z
+date: 2024-04-02T16:50:36.654Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:29.675Z
@@ -18,6 +18,7 @@ The best_qality plugin will sort entries, grouped by an identifier, and allow ac
 | identified_by | auto | Define how entries are identified to be a same content, default value `auto` uses entry `media_id` [field](https://flexget.com/Entry). Supports [Jinja Template](https://flexget.com/Jinja). |
 | on_best | do_nothing | The action to preform on which has the best quality. Value `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allow it to by handled by other plugins. |
 | on_lower | reject | The action to preform on entries which are lower then the best quality. Value `do_nothing` won't act on the entry ([undecided](https://flexget.com/FilterOperations))  but allows it to by handled by other plugins. |
+| single_best | yes | Consider only the first one as the best entry. |
 
 
 ## Syntax:
@@ -27,6 +28,7 @@ best_quality:
   identified_by: <jinja template>
   on_best: [accept|reject|do_nothing]
   on_lower: [accept|reject|do_nothing]
+  single_best: [yes|no]
 ```
 
 ### Example
