@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---020e3e95b2942c7ec7402b661ad5750875c7c363--->
+<!---cb7e7c9c6cd3d270b03114069b67643da13bfc8e--->
 
-## 3.11.34.dev (unreleased)
+## 3.11.35.dev (unreleased)
+<!---e2c675e5559bec6087b36349d5b8b95a239c1ca9--->
+
+## 3.11.34 (2024-05-22)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.33...v3.11.34)
 ### Changed
 - nfo_lookup: Fallback to movie.nfo if same name .nfo not found ([#3994](https://github.com/Flexget/Flexget/issues/3994))
 
-<!---662c50e321cc5313fb23f53f12e91ef18f7adb4a--->
 
 ## 3.11.33 (2024-05-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.32...v3.11.33)
