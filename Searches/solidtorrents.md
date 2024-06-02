@@ -2,7 +2,7 @@
 title: solidtorrents
 description: 
 published: true
-date: 2022-12-07T05:19:53.059Z
+date: 2024-06-02T03:39:28.026Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:18:47.774Z
@@ -17,7 +17,7 @@ This search plugin will get results from [https://solidtorrents.net](/https://so
 ## Configuration
 Simplest configuration, uses default search options. (all categories, sort by seeders)
 ```yaml
-solidtorrent: yes
+solidtorrents: yes
 ```
 Advanced usage:
 
