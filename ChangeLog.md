@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0dcc073a192cdc51647991b058f2803119196f21--->
+<!---4c5c5346ba17ecaa5f943165d842d33d1a87748f--->
 
-## 3.11.36.dev (unreleased)
+## 3.11.37.dev (unreleased)
+<!---102ff10be670c6ad5d909583cfc28d84e77a2e64--->
+
+## 3.11.36 (2024-06-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.35...v3.11.36)
 ### Fixed
 - Don't obscure errors with messages about tzinfo when doing invalid datetime comparisons
 - from_transmission: transmission_date_done was not being set in the proper time zone
 
-<!---9c444b1f149dcdaa9b4da0d8e5c2592f45ab15ab--->
 
 ## 3.11.35 (2024-05-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.34...v3.11.35)
