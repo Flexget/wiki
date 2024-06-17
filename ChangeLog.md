@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---92455b18e7bf613063245d197c2e25a4f2aae4a2--->
+<!---49e8f1b0d451c483ed641ad67bb2f257f8a6cdab--->
 
 ## 3.11.38.dev (unreleased)
+### Fixed
+- Restrict python-telegram-bot version
+- Import error preventing telegram notifier to initialize correctly
+
 <!---a4d9a39053ba6c383f4fafe0d0de2c3ac253e3d9--->
 
 ## 3.11.37 (2024-06-14)
