@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---49e8f1b0d451c483ed641ad67bb2f257f8a6cdab--->
+<!---b2667f528aa7ca7b4d2dbf10294192ee7d07ab4c--->
 
-## 3.11.38.dev (unreleased)
+## 3.11.39.dev (unreleased)
+<!---f4ff5e74c939cb490e48009d93f30050a5b4a7a0--->
+
+## 3.11.38 (2024-06-17)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.37...v3.11.38)
 ### Fixed
 - Restrict python-telegram-bot version
 - Import error preventing telegram notifier to initialize correctly
 
-<!---a4d9a39053ba6c383f4fafe0d0de2c3ac253e3d9--->
 
 ## 3.11.37 (2024-06-14)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.36...v3.11.37)
