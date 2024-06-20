@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---10a3eafe82e6ae6393e6e993685ebe16557e48e0--->
+<!---b4e263826e7935da0376d772e85066b8fa15915f--->
 
-## 3.11.39.dev (unreleased)
+## 3.11.40.dev (unreleased)
+<!---b3d1bcb82ed04e178623b480c0d80aede55a46f8--->
+
+## 3.11.39 (2024-06-20)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.38...v3.11.39)
 ### Fixed
 - : Wrap telegram imports to avoid runtime crashes
 - : Wrap telegram imports to avoid runtime crashes
 
-<!---f4ff5e74c939cb490e48009d93f30050a5b4a7a0--->
 
 ## 3.11.38 (2024-06-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.37...v3.11.38)
