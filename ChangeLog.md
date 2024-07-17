@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6219a392448cdfc1cc89f581e19c479a729312a5--->
+<!---cc92fad0955a8521dff55eea0d251b33bc7a5d20--->
 
 ## 3.11.41.dev (unreleased)
+### Added
+- Discord Notifier: silent notification property
+
 <!---b2fdaafd9bd869bc67d116879b68342326a1f3dc--->
 
 ## 3.11.40 (2024-07-09)
