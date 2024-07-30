@@ -2,7 +2,7 @@
 title: trakt_list
 description: 
 published: true
-date: 2022-12-12T07:01:12.191Z
+date: 2024-07-30T17:29:48.011Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:25:30.683Z
@@ -48,7 +48,6 @@ trakt_list:
   username: <trakt username>
   [account]: <account set up in CLI>
   [strip_dates]: <yes|no>
-  [limit]: <integer>
   list: <list name>
   type: <movies|shows|episodes>
 ```
