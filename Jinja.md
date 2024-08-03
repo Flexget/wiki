@@ -2,7 +2,7 @@
 title: Jinja
 description: 
 published: true
-date: 2023-08-10T13:02:28.057Z
+date: 2024-08-03T20:33:06.010Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:14.756Z
@@ -39,7 +39,7 @@ This will result in filenames like: The.Show.S02E03.HDTV.avi and Other.Show.S02E
 flexget jinja-filters
 ```
 
-When using Jinja2 templates, you can use the following custom filters in addition to the [built-in ones](http://jinja.pocoo.org/docs/dev/templates/#builtin-filters).
+When using Jinja2 templates, you can use the following custom filters in addition to the [built-in ones](https://jinja.palletsprojects.com/en/latest/templates/#list-of-builtin-filters).
 
 |Name|Description|
 |---|---|
