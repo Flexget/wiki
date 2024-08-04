@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---be717bf5d105f35cf45ddf305d6f4ffed897657b--->
+<!---1df3ee8ab7d332f6336bbd344565ad4803cad7e0--->
 
 ## 3.11.42.dev (unreleased)
+### Fixed
+- Telegram: Fix behavior change from [#4016](https://github.com/Flexget/Flexget/issues/4016)
+
 <!---b7179dd72e1f45f3313cce09bb4d6025f4d2a588--->
 
 ## 3.11.41 (2024-07-18)
