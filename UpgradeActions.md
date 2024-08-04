@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2024-08-04T03:24:13.281Z
+date: 2024-08-04T03:24:35.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -18,7 +18,7 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
-### **3.11.42** - 2024-04-08
+### **3.11.42** - 2024-08-04
 #### [Telegram](/Plugins/Notifiers/telegram)
 The `parse_mode: markdown` setting was updated to use [MarkdownV2](https://core.telegram.org/bots/api#markdownv2-style).
 The [legacy parse mode](https://core.telegram.org/bots/api#markdown-style) was moved to `parse_mode: markdown_legacy`
