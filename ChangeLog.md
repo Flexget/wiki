@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c9c583bfd6ef79d915dd08d05819c83d86aa1593--->
+<!---b6ef5bd3961d6c135e7d642dda31151a107974d2--->
 
 ## 3.11.43.dev (unreleased)
+### Changed
+- Stale lock files will be removed on startup if the old instance is not connectable.
+
 <!---0862fe311c3db7771998f99013ff373b3f54b7f6--->
 
 ## 3.11.42 (2024-08-04)
