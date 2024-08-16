@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b6ef5bd3961d6c135e7d642dda31151a107974d2--->
+<!---91e1d32c8287eaa7d484bc0ee88ae31e0e39df44--->
 
-## 3.11.43.dev (unreleased)
+## 3.11.44.dev (unreleased)
+<!---8ad073c5c8fc2d1acebe9d7e950513c27d686bed--->
+
+## 3.11.43 (2024-08-16)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.42...v3.11.43)
 ### Changed
 - Stale lock files will be removed on startup if the old instance is not connectable.
 
-<!---0862fe311c3db7771998f99013ff373b3f54b7f6--->
 
 ## 3.11.42 (2024-08-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.41...v3.11.42)
