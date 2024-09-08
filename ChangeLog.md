@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---91e1d32c8287eaa7d484bc0ee88ae31e0e39df44--->
+<!---9d6abbaae6a0d7fcb91f27c00c7e5251c7493f06--->
 
 ## 3.11.44.dev (unreleased)
+### Changed
+- Add simpler string-only format to mock plugin's schema
+
 <!---8ad073c5c8fc2d1acebe9d7e950513c27d686bed--->
 
 ## 3.11.43 (2024-08-16)
