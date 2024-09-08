@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9d6abbaae6a0d7fcb91f27c00c7e5251c7493f06--->
+<!---7528526d4290031e4623aef694fc2705b2c4c7ac--->
 
-## 3.11.44.dev (unreleased)
+## 3.11.45.dev (unreleased)
+<!---521459e12504068619aad0a66372557e2494efa2--->
+
+## 3.11.44 (2024-09-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.43...v3.11.44)
 ### Changed
 - Add simpler string-only format to mock plugin's schema
 
-<!---8ad073c5c8fc2d1acebe9d7e950513c27d686bed--->
 
 ## 3.11.43 (2024-08-16)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.42...v3.11.43)
