@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---7528526d4290031e4623aef694fc2705b2c4c7ac--->
+<!---06f5369cdea87c088f6784b18ca8fb06cba0410f--->
 
 ## 3.11.45.dev (unreleased)
+### Changed
+- Update all pinned deps
+
 <!---521459e12504068619aad0a66372557e2494efa2--->
 
 ## 3.11.44 (2024-09-08)
