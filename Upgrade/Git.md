@@ -2,7 +2,7 @@
 title: Git
 description: 
 published: true
-date: 2023-01-16T20:07:56.555Z
+date: 2024-09-30T16:05:35.744Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-15T13:55:09.588Z
@@ -23,6 +23,6 @@ Write this version number down somewhere.
 
 ## Upgrade GIT checkout
 
-Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `bin/pip install -e .` again to upgrade them.
+Git users can just run `git pull`. If the dependencies have changed, you'll also have to run `poetry update` again to upgrade them.
 
 [Verify](/Upgrade/Partial/Verify){.include}
