@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b6081550b226c13d78381849f2d3381b21c76e64--->
+<!---96e31bc203645baafc9c6818b03962b497492afc--->
 
-## 3.11.48.dev (unreleased)
+## 3.11.49.dev (unreleased)
+<!---b17525da464911ef5497abcc5717079342decfb6--->
+
+## 3.11.48 (2024-10-10)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.47...v3.11.48)
 ### Changed
 - qbittorrent: make sure add_paused option works on qbittorrent 5
 
-<!---7480f9363ce24fde8919d24815720173304454e5--->
 
 ## 3.11.47 (2024-10-09)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.46...v3.11.47)
