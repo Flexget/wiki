@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---58d75fbf9e46cea38668e2f45c172223c1d6e495--->
+<!---b6081550b226c13d78381849f2d3381b21c76e64--->
 
 ## 3.11.48.dev (unreleased)
+### Changed
+- qbittorrent: make sure add_paused option works on qbittorrent 5
+
 <!---7480f9363ce24fde8919d24815720173304454e5--->
 
 ## 3.11.47 (2024-10-09)
