@@ -2,7 +2,7 @@
 title: --tasks
 description: 
 published: true
-date: 2024-10-21T06:28:46.072Z
+date: 2024-10-21T06:38:57.398Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:01:01.695Z
@@ -29,9 +29,9 @@ flexget execute --tasks mytask
 
 **Multiple tasks example:**
 
-If you would like to run multiple tasks you can list them with comma separators (and no space.) This example runs `mytask` and `yourtask`:
+If you would like to run multiple tasks you can list them separated by spaces. This example runs `my task` and `yourtask`:
 ```
-flexget execute —-tasks mytask,yourtask
+flexget execute —-tasks "my task" yourtask
 ```
 
 **Pattern example:**
