@@ -2,7 +2,7 @@
 title: --tasks
 description: 
 published: true
-date: 2024-10-21T06:28:15.870Z
+date: 2024-10-21T06:28:46.072Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:01:01.695Z
@@ -38,7 +38,7 @@ flexget execute —-tasks mytask,yourtask
 
 If you would like to select a number of tasks that have similar names:
 ```
-flexget execute --tasks --tasks "tv*"
+flexget execute --tasks "tv*"
 ```
 
 
