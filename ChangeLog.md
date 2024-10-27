@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a364a8ea32b82bbe9eddf4631e1c1412a7404e3e--->
+<!---f537726b691eca3b901470a2a1960fb0a1ca35c3--->
 
 ## 3.11.51.dev (unreleased)
+### Removed
+- Remove --bugreport cli option
+
 <!---c2d83bf70b435c95b8430c1f916f21aec6ff5bab--->
 
 ## 3.11.50 (2024-10-27)
