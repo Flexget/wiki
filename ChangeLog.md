@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---33921a443d7827e35ee44e407601d2d511ad1d20--->
+<!---ee2434d4ef3ef410d79693f32c29fe0b9ea6239d--->
 
 ## 3.11.52.dev (unreleased)
+### Added
+- qBittorrent: add options for ratio limit and seeding time limit
+
 <!---8ddd3505fedbef57c035807a431197249516f8af--->
 
 ## 3.11.51 (2024-10-28)
