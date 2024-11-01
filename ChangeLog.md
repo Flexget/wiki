@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ee2434d4ef3ef410d79693f32c29fe0b9ea6239d--->
+<!---3afad74be1386016fead51e0403d8bd9713ed113--->
 
-## 3.11.52.dev (unreleased)
+## 3.11.53.dev (unreleased)
+<!---f2e857c7d72d262c0718a18dee45bc9dcdc41db4--->
+
+## 3.11.52 (2024-11-01)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.51...v3.11.52)
 ### Added
 - qBittorrent: add options for ratio limit and seeding time limit
 
-<!---8ddd3505fedbef57c035807a431197249516f8af--->
 
 ## 3.11.51 (2024-10-28)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.50...v3.11.51)
