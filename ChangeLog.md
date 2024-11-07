@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6a12d86e81a9d49808386b83cfca98973b84a493--->
+<!---ef8a1a623ec0616f70f47f20abbb3133dd7ab89f--->
 
 ## 3.11.55.dev (unreleased)
+### Changed
+- free_space: Allow home dir (~) in path. fix [#4002](https://github.com/Flexget/Flexget/issues/4002)
+- free_space: Allow specifying space with a unit, e.g. '10 GiB'
+
 <!---0dc02366e4cf0e49c71657719fcaf759f6ea5abd--->
 
 ## 3.11.54 (2024-11-03)
