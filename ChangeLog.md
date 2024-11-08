@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---97d69404cc730bd2d27c72580648bc31c26ef4d1--->
+<!---f57d60e6a0c601d045f8160f1bf8635bd5aa2e33--->
 
 ## 3.11.56.dev (unreleased)
+### Fixed
+- Prevent error from redirect_url plugin when a redirect points to a magnet. fix [#3944](https://github.com/Flexget/Flexget/issues/3944)
+
 <!---7914f24c95fe41829be8e16760bf6e8eefe302ea--->
 
 ## 3.11.55 (2024-11-07)
