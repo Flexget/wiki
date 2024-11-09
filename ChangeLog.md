@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---0cc38dd9a29462901e0abfbaa559368339898a4f--->
+<!---b2ef57af496ad737347225014d6229b6deb3d9fb--->
 
-## 3.11.57.dev (unreleased)
+## 3.11.58.dev (unreleased)
+<!---39de0abd56f3c263a1720480cea42808ebfccb82--->
+
+## 3.11.57 (2024-11-09)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.11.56...v3.11.57)
 ### Fixed
 - Make sure CoercingDateTimes don't crash when compared against unlike types. fix [#4024](https://github.com/Flexget/Flexget/issues/4024)
 
-<!---14ecbe2a2b626aa4715cfb4e0a419d6c94e8f643--->
 
 ## 3.11.56 (2024-11-08)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.11.55...v3.11.56)
