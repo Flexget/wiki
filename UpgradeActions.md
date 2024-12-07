@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2024-08-04T03:24:35.325Z
+date: 2024-12-07T23:19:40.429Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,11 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+
+### **3.12.0** – 2024-12-03
+#### Python 3.8 Dropped
+Python 3.8 has been EoL since June. Support for it has now been dropped. You'll need to install Flexget with Python 3.9+ in order to upgrade.
 
 ### **3.11.42** - 2024-08-04
 #### [Telegram](/Plugins/Notifiers/telegram)
