@@ -19,12 +19,9 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 >Install `python-telegram-bot` python package
 >```bash
->pip install python-telegram-bot==12.8
+>pip install python-telegram-bot
 >```
 {.is-info}
-
-> Newer versions (13.0+) of python-telegram-bot are not compatible
-{.is-danger}
 
 * Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 * For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
@@ -33,13 +30,13 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 ## Configuration
 
-| Option |Type|  Description | Default |
-| --- | ---| --- |---|
-|bot_token|text|Bot token. **Required**
-|parse_mode|text|[Message parsing](https://core.telegram.org/bots/api#formatting-options). Can be `html`, `markdown` or `markdown_legacy`. 
-|disable_previews|boolean|Disable web page previews in messages. Optional (Default: `no`)
-|recipients|text|List of recipients type. Can be `username`, `group` or `fullname`. See config example for details. **Note:** Values here are case-sensitive
-|socks_proxy|text|Configuration for socks proxy to be used, must include `url` with URL to proxy, can include `username` and `password` for authentication. See config example below
+|Option|Type|Description|Default|
+|---|---|---|---|
+|bot_token|text|**Required.** Bot token.|N/A
+|parse_mode|text|[Message parsing](https://core.telegram.org/bots/api#formatting-options). Can be `html`, `markdown` or `markdown_legacy`.|None
+|disable_previews|boolean|Disable web page previews in messages.|False
+|recipients|text|**At least one is required.** List of recipients type. Can be `chat_id`(recommended), `username`, `group` or `fullname`. See config example for details. Note: Values here are case-sensitive.|N/A
+|socks_proxy|text|`socks5://user:pass@host:port` If no authentication is required, `user:pass` should be omitted, and you can omit the `@` at your discretion.|None
   
   <span class="glyphicon glyphicon-info-sign"></span>
   &nbsp; In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be cause due to unclosed tags (watch out for wandering underscore when using markdown)
@@ -57,19 +54,17 @@ my-task:
       message: Notification body.
       via:
         - telegram:
-            bot_token: token
+            bot_token: 5247092814:AAHmk7qdOMXEtZtGrnrzNxcoOazKNM51Atg
             parse_mode: markdown
             disable_previews: no
             recipients:
+              - chat_id: 1694213419
               - username: my-user-name
               - group: my-group-name
               - fullname:
                   first: my-first-name
                   sur: my-sur-name
-            socks_proxy:
-              url: http://127.0.0.1:3128
-              username: username
-              password: password
+            socks_proxy: socks5://username:password@127.0.0.1:7897
 ```
 
 ## Example using Jinja2 template and markdown
@@ -104,5 +99,5 @@ templates:
               bot_token: '{? credentials.telegram.bot_token ?}'
               parse_mode: markdown_legacy
               recipients:
-                - username: '{? credentials.telegram.username ?}'
+                - chat_id: '{? credentials.telegram.chat_id ?}'
 ```
