@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2024-12-12T07:14:30.211Z
+date: 2024-12-12T08:44:59.053Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -39,9 +39,9 @@ Send a message to one or more Telegram users or groups upon accepting a download
 |socks_proxy|text|`socks5://user:pass@host:port` If no authentication is required, `user:pass` should be omitted, and you can omit the `@` at your discretion.|None
 |images|array|Image paths, the specified images will be sent to Telegram.|None
   
-  <span class="glyphicon glyphicon-info-sign"></span>
-  &nbsp; In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be cause due to unclosed tags (watch out for wandering underscore when using markdown)
-</div>
+
+In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be caused due to unclosed tags (watch out for wandering underscore when using markdown)
+
 Not all Telegram users have a username. In such cases you would have to use the `fullname` approach. Otherwise, it is much easier to use the `username` configuration.
 
 ## Configuration examples
