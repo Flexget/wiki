@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2024-08-04T03:28:02.902Z
+date: 2024-12-12T06:42:20.641Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -35,7 +35,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 |bot_token|text|**Required.** Bot token.|N/A
 |parse_mode|text|[Message parsing](https://core.telegram.org/bots/api#formatting-options). Can be `html`, `markdown` or `markdown_legacy`.|None
 |disable_previews|boolean|Disable web page previews in messages.|False
-|recipients|text|**At least one is required.** List of recipients type. Can be `chat_id`(recommended), `username`, `group` or `fullname`. See config example for details. Note: Values here are case-sensitive.|N/A
+|recipients|integer/text|**At least one is required.** List of recipients type. Can be `chat_id`(recommended), `username`, `group` or `fullname`. See config example for details. Note: Values here are case-sensitive.|N/A
 |socks_proxy|text|`socks5://user:pass@host:port` If no authentication is required, `user:pass` should be omitted, and you can omit the `@` at your discretion.|None
   
   <span class="glyphicon glyphicon-info-sign"></span>
