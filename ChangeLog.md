@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5f51b1a931922b542fd3cad08ecce6d9f0f7bc0f--->
+<!---b2214108f9abd63b7c191c10436de49aba2d707b--->
 
-## 3.13.0.dev (unreleased)
+## 3.13.1.dev (unreleased)
+<!---8505b5af67c7f1a15a2034f30e70e86f4cbda6ba--->
+
+## 3.13.0 (2024-12-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.12.4...v3.13.0)
 ### Changed
 - telegram: Update python-telegram-bot from v12.8 to v21.9
 
-<!---3212e0aecfe46042028a4a3681da3557686542e7--->
 
 ## 3.12.4 (2024-12-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.12.3...v3.12.4)
