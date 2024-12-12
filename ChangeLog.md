@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---68e4992c8bceb730cc2a528bde761e963a587f1d--->
+<!---5f51b1a931922b542fd3cad08ecce6d9f0f7bc0f--->
 
-## 3.12.5.dev (unreleased)
+## 3.13.0.dev (unreleased)
+### Changed
+- telegram: Update python-telegram-bot from v12.8 to v21.9
+
 <!---3212e0aecfe46042028a4a3681da3557686542e7--->
 
 ## 3.12.4 (2024-12-11)
