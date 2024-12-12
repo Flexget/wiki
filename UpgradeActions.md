@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2024-12-12T06:50:23.207Z
+date: 2024-12-12T07:03:41.427Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -19,7 +19,10 @@ This page contains information about configuration file format changes, as well 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
 ### **3.13.0** - To be announced
+#### [Telegram](/Plugins/Notifiers/telegram)
 Telegram plugin now requires python-telegram-bot v21.9 or later. `pip install --ugprade python-telegram-bot`
+You can specify `chat_id` directly in the configuration file.
+`socks_proxy` option now uses standard `socks5://user:pass@host:port`.
 
 ### **3.12.0** – 2024-12-03
 #### Python 3.8 Dropped
