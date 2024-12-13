@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b2214108f9abd63b7c191c10436de49aba2d707b--->
+<!---5331743355d13c951a61bca0f2380362ec297667--->
 
 ## 3.13.1.dev (unreleased)
+### Fixed
+- Stop requiring telegram module when telegram plugin is not in use.
+
 <!---8505b5af67c7f1a15a2034f30e70e86f4cbda6ba--->
 
 ## 3.13.0 (2024-12-12)
