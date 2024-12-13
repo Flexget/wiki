@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5331743355d13c951a61bca0f2380362ec297667--->
+<!---b4a6ea7b3252be7920168fe93e154da474c2f087--->
 
-## 3.13.1.dev (unreleased)
+## 3.13.2.dev (unreleased)
+<!---9a7c9bb3182ec9b1acb8874ae598020413d2de8b--->
+
+## 3.13.1 (2024-12-13)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.13.0...v3.13.1)
 ### Fixed
 - Stop requiring telegram module when telegram plugin is not in use.
 
-<!---8505b5af67c7f1a15a2034f30e70e86f4cbda6ba--->
 
 ## 3.13.0 (2024-12-12)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.12.4...v3.13.0)
