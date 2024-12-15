@@ -2,63 +2,71 @@
 title: content_filter
 description: 
 published: true
-date: 2022-09-18T05:07:46.465Z
+date: 2024-12-15T03:08:03.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:56.562Z
 ---
 
 # Content Filter
-This allows filtering based on the filenames inside of torrents. This plugin does not accept entries on its own, only rejects already accepted entries that do not pass your requirements. You'll need another [filter plugin](/Plugins#Filters) in the task to accept the entries you want. You can specify either an acceptable file mask, a file mask to reject, or both. You can also specify a list of masks for either option.
+This allows filtering based on the filenames inside of torrents.
+> This plugin does not accept entries on its own, only rejects already accepted entries that do not pass your requirements. You'll need another [filter plugin](/Plugins#Filters) in the task to accept the entries you want.
+{.is-info}
 
-**Note:** content_filter doesn't work with magnet links, as it works by analyzing the file list present in the .torrent file. You can include the [magnets](/Plugins/magnets) plugin to reject any magnet entries.
+> `content_filter` doesn't work with magnet links, as it works by analyzing the file list present in the .torrent file. You can include the [magnets](/Plugins/magnets) plugin to reject any magnet entries.
+{.is-warning} 
+ 
+ |---|---|---|
+ | Field | Default | Description |
+ | `require` | `None` | Reject the entry if **none** of the files in the torrent matches **any** of the masks |
+ | `reject` | `None` | Reject the entry if **any** of the files in the torrent matches **any** of the masks |
+ | `require_all` | `None` | Reject the entry if **all** of the masks **do not** match across the files in the torrent |
+ | `reject_all` | `None` | Reject the entry if **all** of the masks **do** match across the files in the torrent |
+ | `require_mainfile` | `false` | Reject the entry unless the torrent contains a single file or one of the files accounts for at least 90% of the size |
+ | `strict` | `false` | Reject the entry if `content_filter` is unable to parse the torrent files |
+ | `regexp_mode` | `false` | Switches filename matching from filesystem patterns to case-insensitive Regular Expressions |
 
-** Example **
+For the requirement and rejection fields, you can specify a single mask, a list of masks or an input plugin.
 
+
+
+## Examples
+- Reject torrents that do not have mkv file in them:
 ```
 content_filter:
-  require: '*.avi'
+  require: '*.mkv'
 ```
-
-Rejects torrents that do not have avi file in them.
-
-** Example **
+- Reject torrents that have rars in them:
 
 ```
 content_filter:
   reject: '*.rar'
 ```
-
-Reject torrents that have rars in them.
-
-** Example **
-
+- Reject torrent if it doesn't have mp4 OR mkv in it. Reject also if there are wmv files
 ```
 content_filter:
   require:
-    - '*.avi'
+    - '*.mp4'
     - '*.mkv'
   reject: '*.wmv'
 ```
-
-Reject torrent if it doesn't have avi OR mkv in it. Reject also if there are wmv files.
-
-** Example **
-
+- Reject torrents that don't have a matroska container AND a nfo file:
 ```
 content_filter:
   require_all: 
     - '*.mkv'
     - '*.nfo'
 ```
-
-Reject torrents that don't have a matroska container AND a nfo file.
-
-** Example **
-
+- Reject multifile torrents that don't have one file at least 90% of total size (single-file torrents are not affected)
 ```
 content_filter:
   require_mainfile: yes
 ```
-
-Reject multifile torrents that don't have one file at least 90% of total size (single-file torrents are not affected).
+- Reject torrent if none of its files match any of the entries in a previously populated [`regexp_list`](/Plugins/List/regexp_list)
+```
+content_filter:
+  regexp_mode: yes
+  require:
+    from:
+      - regexp_list: my-wanted-files
+```
