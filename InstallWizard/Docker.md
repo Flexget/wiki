@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2023-07-19T02:19:53.934Z
+date: 2024-12-18T21:48:44.799Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -134,6 +134,12 @@ To upgrade your image to the latest FlexGet version make sure you add the --pull
 docker build --pull -t <flexget image tag here>
 
 ```
+
+### Upgrading
+Since config files may need updating when the minor version gets bumped, best practice would be to pin the minor version in your compose file or docker run command. e.g. `ghcr.io/flexget/flexget:3.13` If you are not pinning it, make sure you understand what docker commands will cause new versions to be pulled, and check [Upgrade Actions](/UpgradeActions) and make sure everything is working as expected after upgrading.
+
+#### Compose
+Run `docker compose pull` (after updating your pinned version if set) to pull the latest image.
 
 ### 3rd party images
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget) / [ghcr.io/wiserain/flexget](https://github.com/wiserain/docker-flexget/pkgs/container/flexget)
