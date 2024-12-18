@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b8fda90b1b48d200f8afd0196b7cf2947fca988--->
+<!---257af95ddae356fa54b27275dfb4d74b7ac85ac0--->
 
 ## 3.13.3.dev (unreleased)
+### Fixed
+- Pin alpine version in docker image to fix segfault with pendulum. [#4085](https://github.com/Flexget/Flexget/issues/4085)
+
 <!---ac13118a7c1ae8b5560c6ad1fae9ab70bfab57bf--->
 
 ## 3.13.2 (2024-12-14)
