@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f36be75535b13458e3dc8c0842a440c00a5e3c0c--->
+<!---bde6b87f63e5aafb6a307bb45df0f3704e0c2ed7--->
 
 ## 3.13.6.dev (unreleased)
+### Changed
+- Strictly ignore 19xx-20xx from episode parsing
+- Strictly ignore 19xx-20xx from episode parsing
+
 <!---32f817810de6807eab3f03ffc76231f58ce05913--->
 
 ## 3.13.5 (2024-12-25)
