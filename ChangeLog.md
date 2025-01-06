@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---71495dee73287a63eca4e759f9ad32c986a320f1--->
+<!---9b3b32632f97e3f9e53d44b31f4601ab43c3b330--->
 
-## 3.13.7.dev (unreleased)
+## 3.13.8.dev (unreleased)
+<!---4d3d4633243990907c869c6d4fcfec63268220e6--->
+
+##  (2025-01-06)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.13.6...v)
 ### Changed
 - No longer pin dependencies to exact versions. Just restrict to major version.
 - Change dependency manager to uv
 
-<!---8d7f830f4d6caad6d579cdeb08dc832d402fd44b--->
 
 ## 3.13.6 (2025-01-04)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.13.5...v3.13.6)
