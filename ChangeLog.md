@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---14bb8d02f54a394af8f689a8e653510e0a70676d--->
+<!---94e831354f64244db8ff517c6548f707ff8d8e3b--->
 
 ## 3.13.9.dev (unreleased)
+### Fixed
+- include the webui in releases again. fix [#4129](https://github.com/Flexget/Flexget/issues/4129)
+
 <!---6954fb08562322065f4e912fe3e206eb6c940d1b--->
 
 ## 3.13.8 (2025-01-07)
