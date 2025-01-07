@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9b3b32632f97e3f9e53d44b31f4601ab43c3b330--->
+<!---5ca95273eb724b94a697f9b24695e101fabb8a77--->
 
 ## 3.13.8.dev (unreleased)
+### Added
+- New extras to install optional dependencies needed for plugins along with flexget: deluge, qbittorrent, telegram, transmission
+
 <!---4d3d4633243990907c869c6d4fcfec63268220e6--->
 
 ##  (2025-01-06)
