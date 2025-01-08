@@ -11,16 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---34cf6a5477199223c817350e564f7cc7bac963c4--->
+<!---6f6792038347d8bf48670416bdc47109cf24ae6e--->
 
-## 3.13.9.dev (unreleased)
+## 3.13.10.dev (unreleased)
+<!---21532e9f5876057efd20338acf39f1935f568e99--->
+
+## 3.13.9 (2025-01-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.13.8...v3.13.9)
 ### Fixed
 - include the webui in releases again. fix [#4129](https://github.com/Flexget/Flexget/issues/4129)
 
 ### Removed
 - Deprecate `cloudscraper` it has been broken anyway
 
-<!---6954fb08562322065f4e912fe3e206eb6c940d1b--->
 
 ## 3.13.8 (2025-01-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.13.7...v3.13.8)
