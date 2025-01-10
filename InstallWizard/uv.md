@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:58:53.464Z
+date: 2025-01-10T04:00:46.306Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -57,7 +57,7 @@ To update to the latest version of FlexGet, you can run:
 ```
 uv tool upgrade flexget
 ```
-if you need to get a specific version, you can specify it
+If you need to get a specific version, you can specify it:
 ```
 uv tool upgrade flexget==3.13.10
 ```
