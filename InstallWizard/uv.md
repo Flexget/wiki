@@ -1,8 +1,8 @@
 ---
-title: uv install
+title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:31:25.007Z
+date: 2025-01-10T03:32:54.279Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
