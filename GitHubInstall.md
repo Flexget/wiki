@@ -2,7 +2,7 @@
 title: GitHubInstall
 description: 
 published: true
-date: 2022-09-18T04:50:14.744Z
+date: 2025-01-10T02:43:42.034Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:49.605Z
@@ -11,8 +11,11 @@ dateCreated: 2022-09-18T04:49:49.605Z
 # [Install Wizard](/InstallWizard) > GitHub Install
 ## Notes
 
- * Requires Python 3.6+, virtualenv, and git client
+ * Requires Python 3.9+, uv, and git client
  * This where we develop
+ 
+## Install uv
+uv is a Python package and project manager. Install instructions can be found [here.](https://docs.astral.sh/uv/getting-started/installation/)
 
 ## Initial clone
 To checkout use this command:
@@ -23,38 +26,17 @@ $ git clone https://github.com/Flexget/Flexget.git ~/flexget-dev
 
 You can use whatever directory you like in place of `~/flexget-dev`.
 
-After checkout is complete, you need to initialize the environment.
+## `uv sync`
+In your virtualenv, run `uv sync`. This will create a virtualenv in the `.venv` directory within your checkout, and install flexget in editable mode, (such that editing your checkout will directly edit the copy of flexget that runs in your venv,) and all of the needed dependencies.
 
-Make sure the `python` command uses Python 3.6-3.8. On some systems with multiple python installations, you may need to use a command specific to a particular version, such as `python3.8` or `python3`.
-
+## Running FlexGet in the venv
+To run Flexget (or any other command) inside the venv, you can use `uv run` followed by the command. e.g.
 ```bash
-$ python -V
+$ uv run flexget execute
 ```
-
-## `virtualenv`
-Initialize a `virtualenv` in your checkout directory:
-
+or, you can explicitly run the binaries from the venv
 ```bash
-$ virtualenv ~/flexget-dev
-```
-
-Once the virtualenv has been created, we need to install the checked-out copy of FlexGet inside it.
-
-Make sure you are using the pip installed in your virtualenv by either activating the `virtualenv` first, or explicitly calling `bin/pip` as shown below. (On Windows, use `Scripts/` any place you see `bin/` in this guide.)
-
-The `-e` flag to pip says this should be an editable install, meaning it uses the files directly in the checkout rather than installing a package in site-packages.
-
-```bash
-$ cd ~/flexget-dev
-$ bin/pip install -e .
-```
-
-Once this is completed you'll have FlexGet installed in a virtualenv.
-
-You can execute FlexGet via:
-
-```bash
-$ ~/flexget-dev/bin/flexget execute
+$ ~/flexget-dev/.venv/bin/flexget execute
 ```
 
 ## Upgrading
@@ -65,10 +47,10 @@ $ cd ~/flexget-dev
 $ git pull
 ```
 
-If the dependencies have changed, you can reinstall to upgrade all the dependencies:
+If the dependencies have changed, you can re-sync to upgrade all the dependencies:
 
 ```bash
-$ bin/pip install --upgrade -e .
+$ uv sync
 ```
 
 ## Become a contributor
