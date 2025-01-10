@@ -2,17 +2,24 @@
 title: InstallWizard
 description: 
 published: true
-date: 2023-02-14T03:30:51.039Z
+date: 2025-01-10T03:25:51.545Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
 ---
 
 # Installation Tutorial
-> Starting from version 3.5.0, Flexget supports only Python 3.7 and higher
-{.is-info}
-
 This guides you through installing FlexGet.
+
+## Reccomended install method
+
+ * Install using [uv tool](/InstalWizard/uv)
+ 
+This is the simplest method, and will even install python for you with no extra steps.
+
+## Other install methods
+> Flexget supports only Python 3.9 and higher
+{.is-info}
 
 ### By operating system
 
