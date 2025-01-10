@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:33:33.745Z
+date: 2025-01-10T03:37:25.342Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -48,6 +48,8 @@ if you need to get a specific version, you can specify it
 ```
 uv tool upgrade flexget==3.13.10
 ```
+> You probably don't want to specify a specific FlexGet version during `uv tool install`, as this version constraint will keep applying when you try to `uv tool upgrade flexget` later. It is better to do the install, then "upgrade" to the specific version you need right now.
+{.is-warning}
 
 ## Next Step
 
