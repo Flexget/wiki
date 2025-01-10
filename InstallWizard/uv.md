@@ -2,7 +2,7 @@
 title: uv install
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:27:38.037Z
+date: 2025-01-10T03:31:25.007Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -51,4 +51,7 @@ uv tool upgrade flexget==3.13.10
 
 ## Next Step
 
-Continue to [Scheduling](/InstallWizard/Linux/Scheduling).
+Choose your OS to continue setting up scheduling:
+ * [Linux](/InstallWizard/Linux/Scheduling)
+ * [Windows](/InstallWizard/Windows/Scheduling)
+ * [Mac OSX](/InstallWizard/OSX/Autorun)
