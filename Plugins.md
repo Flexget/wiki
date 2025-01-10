@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2023-02-22T02:19:14.891Z
+date: 2025-01-10T21:40:32.674Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -64,7 +64,6 @@ Input plugins that directly parse data from a source based on its type.
 | [limit](/Plugins/limit) | Limit the amount of entries created by another input plugin. |
 | [rss](/Plugins/rss) | Parse RSS-feed. |
 | [sftp_list](/Plugins/sftp_list) | List files from an SFTP server |
-| [search_rss](/Plugins/search_rss) | Search with parametrized rss feed. |
 | [tail](/Plugins/tail) | Tail a log file (eg. irc logs) |
 | [text](/Plugins/text) | Parse any text data |
 | [regexp_parse](/Plugins/regexp_parse) | Use regular expressions to parse text from a web resource or file |
