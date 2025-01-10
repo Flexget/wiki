@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:57:42.562Z
+date: 2025-01-10T03:58:30.621Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -35,7 +35,7 @@ There are several extras we include that install optional dependencies needed by
 - telegram
 - all (this will include all 4 of the above)
 
-You can specify them when installing and an appropriate version of the dependency will be installed and maintained for you. e.g.
+You can specify them when installing and an appropriate version of the dependency will be installed and upgraded alongside flexget for you. e.g.
 ```
 uv tool install flexget[locked,all]
 uv tool install flexget[locked,deluge,telegram]
