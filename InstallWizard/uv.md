@@ -2,14 +2,14 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T03:32:54.279Z
+date: 2025-01-10T03:33:33.745Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
 ---
 
 # Installing FlexGet with uv
-[uv](https://docs.astral.sh/uv/) is a multi-faceted tool with many purposes, but one of them ([uv tool](https://docs.astral.sh/uv/guides/tools/)) is to easily install python based CLI tools (like FlexGet!) and not worry about the virtual environment or python management yourself. Here are the steps to install and update FlexGet using uv tool.
+[uv](https://docs.astral.sh/uv/) has multiple purposes, but one of them ([uv tool](https://docs.astral.sh/uv/guides/tools/)) is to easily install python based CLI tools (like FlexGet!) and not worry about the virtual environment or python management yourself. Here are the steps to install and update FlexGet using uv tool.
 
 ### Install uv
 Instructions can be found [at the uv website.](https://docs.astral.sh/uv/getting-started/installation/)
