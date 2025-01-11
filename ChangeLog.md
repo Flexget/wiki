@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---6d39fe6b49a17f1ac985ebdb8c674907c7007f14--->
+<!---be15cf7ce9c246dc4bee6da6da52b6f42b93ccd0--->
 
-## 3.13.12.dev (unreleased)
+## 3.13.13.dev (unreleased)
+<!---a59c4fa201aee4a7f629d7238c1aede988cf1009--->
+
+## 3.13.12 (2025-01-11)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.13.11...v3.13.12)
 ### Fixed
 - Include optional deps in docker image again. fix [#4147](https://github.com/Flexget/Flexget/issues/4147)
 
-<!---3d5f6c006fb80a09158870da454bd58fd104ab25--->
 
 ## 3.13.11 (2025-01-10)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.13.10...v3.13.11)
