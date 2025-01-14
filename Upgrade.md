@@ -2,7 +2,7 @@
 title: Upgrade
 description: 
 published: true
-date: 2023-05-09T15:34:21.915Z
+date: 2025-01-14T17:21:34.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:13.370Z
@@ -15,6 +15,7 @@ dateCreated: 2022-09-18T04:52:13.370Z
 
 ## Choose installation method
 
+[uv tool installation](/InstallWizard/uv#updating)
 [PIP installation](/Upgrade/Pip)
 [GIT installation](/Upgrade/Git)
 
