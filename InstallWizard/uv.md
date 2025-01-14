@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-10T04:03:42.777Z
+date: 2025-01-14T17:28:47.152Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -26,6 +26,8 @@ You can also specify what version of python you would like to use
 ```
 uv tool install flexget[locked] --python 3.12
 ```
+> One of our deps (pendulum) does not provide wheels for python 3.13 at the moment. You probably want to manually specify python 3.12 for now to avoid complications.
+{.is-warning}
 
 #### Adding extra dependencies
 There are several extras we include that install optional dependencies needed by some of the most common plugins. They are:
