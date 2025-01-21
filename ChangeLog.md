@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---802e610924e6e4e5deaf1792a4df7a99618c968a--->
+<!---33d77b8eb1ffcafcd3742f9492ec7b6f561a4c75--->
 
-## 3.13.19.dev (unreleased)
+## 3.13.20.dev (unreleased)
+<!---7a58c0f8e332b8bb238303b335d3760a9cc7adaa--->
+
+## 3.13.19 (2025-01-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.13.18...v3.13.19)
 ### Fixed
 - Make sure cached_input doesn't crash if an input plugin returns None. fix [#4167](https://github.com/Flexget/Flexget/issues/4167)
 - Make sure imdb_watchlist always input always returns a list. fix [#4167](https://github.com/Flexget/Flexget/issues/4167)
@@ -21,7 +25,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Removed
 - Remove `.editorconfig` ([#4183](https://github.com/Flexget/Flexget/issues/4183))
 
-<!---d7a9f08c2b234c148ffc7a0a8f0e0821d4c388ed--->
 
 ## 3.13.18 (2025-01-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.13.17...v3.13.18)
