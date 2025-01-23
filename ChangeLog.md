@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---f652ecb8832e72c6ec8bc2ec3e67374209da3b39--->
+<!---0e21e01f95dfe3a9858e2728fcfaa2165dd69b65--->
 
 ## 3.13.21.dev (unreleased)
+### Added
+- Add export-schema cli command to output the full config json schema.
+
 <!---db3c8a2c5afc691bc41a4d18866d4ae2c6e3905e--->
 
 ## 3.13.20 (2025-01-22)
