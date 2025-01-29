@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2025-01-14T17:24:17.511Z
+date: 2025-01-29T21:06:03.896Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -15,7 +15,7 @@ This guides you through installing FlexGet.
 > This is the simplest method, and will even install python for you with no extra steps.
 {.is-success}
 
- * Install using [uv tool](/InstallWizard/uv)
+ * [Install using uv tool](/InstallWizard/uv)
 
 ## Other install methods
 > Flexget supports only Python 3.9 and higher
