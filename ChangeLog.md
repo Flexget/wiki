@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---72459452283f87ee8967aa7f18a74dee55b4f1a8--->
+<!---387fe005f2016ea4c1f843b8c6747054453808b7--->
 
-## 3.13.28.dev (unreleased)
+## 3.14.0.dev (unreleased)
+### Changed
+- log the target when waiting for series timeframe
+- Error out if series timeframe is set without a target. refs [#4201](https://github.com/Flexget/Flexget/issues/4201)
+
 <!---7e0240231a77e4c56c73256fc5820dbb24bd2b45--->
 
 ## 3.13.27 (2025-02-01)
