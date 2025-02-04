@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9f8b7fe59a37cdd655036695e31a310fbcd0f170--->
+<!---9d63b20f675f94ac64195a8466e1bd2d57ccedea--->
 
 ## 3.14.2.dev (unreleased)
+### Changed
+- Allow custom flexget jinja filters in variables plugin templates
+
 <!---6d434a1a12ca1a00299de2a45b32512f49b3109a--->
 
 ## 3.14.1 (2025-02-04)
