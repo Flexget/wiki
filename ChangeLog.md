@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---91ddd050cb05adb6684e3529a73eaab04732be5c--->
+<!---9f8b7fe59a37cdd655036695e31a310fbcd0f170--->
 
-## 3.14.1.dev (unreleased)
+## 3.14.2.dev (unreleased)
+<!---6d434a1a12ca1a00299de2a45b32512f49b3109a--->
+
+## 3.14.1 (2025-02-04)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.14.0...v3.14.1)
 ### Changed
 - Update JSON schemas to draft 2020-12
 
-<!---399add92b004f5ff26e99b467bc275c60d9299f3--->
 
 ## 3.14.0 (2025-02-02)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.13.27...v3.14.0)
