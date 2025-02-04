@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---94b08e9b628b6b4ca17d080f2d37d4de868321e4--->
+<!---91ddd050cb05adb6684e3529a73eaab04732be5c--->
 
 ## 3.14.1.dev (unreleased)
+### Changed
+- Update JSON schemas to draft 2020-12
+
 <!---399add92b004f5ff26e99b467bc275c60d9299f3--->
 
 ## 3.14.0 (2025-02-02)
