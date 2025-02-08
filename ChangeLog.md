@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---83c2712f3c90680709fd5a7858836d8d56018ef9--->
+<!---e568714062ce493aa6536681a381c0bc0722ce26--->
 
-## 3.15.0.dev (unreleased)
+## 3.15.1.dev (unreleased)
+<!---62167c7ff07f0ca739a71d3bb0573204937b714c--->
+
+## 3.15.0 (2025-02-08)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.14.4...v3.15.0)
 ### Removed
 - Remove the `cfscraper` plugin
 
-<!---ce098461d81526d54ce6ee7d04c9f38821f31bce--->
 
 ## 3.14.4 (2025-02-07)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.14.3...v3.14.4)
