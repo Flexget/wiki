@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---fdeb0ee03daf1396e92b650f11853f78d105eafa--->
+<!---83c2712f3c90680709fd5a7858836d8d56018ef9--->
 
-## 3.14.5.dev (unreleased)
+## 3.15.0.dev (unreleased)
+### Removed
+- Remove the `cfscraper` plugin
+
 <!---ce098461d81526d54ce6ee7d04c9f38821f31bce--->
 
 ## 3.14.4 (2025-02-07)
