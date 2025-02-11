@@ -2,7 +2,7 @@
 title: exists_movie
 description: 
 published: true
-date: 2022-12-11T20:27:55.220Z
+date: 2025-02-11T18:17:53.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:04:54.617Z
@@ -18,6 +18,7 @@ exists_movie:
   [type]: {dirs|files}
   [allow_different_qualities]: {better|yes|no}
   [lookup]: {imdb|no}
+  [recursive]: {yes|no}
 ```
 
 
@@ -67,4 +68,12 @@ By default, exists_movie will use the internal movie parser. If you would like t
 exists_movie:
   path: /storage/movies
   lookup: imdb
+```
+
+### recursive
+By default, exists_movie doesn't look into subfolders, to change that behavior use:
+```yaml
+exists_movie:
+  path: /storage/movies
+  recursive: yes
 ```
