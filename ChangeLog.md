@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ffd95de3ec37b0e7dda171400324889819738953--->
+<!---87a09269f2b6358c716d566b938e3c8c54c4a822--->
 
 ## 3.15.4.dev (unreleased)
+### Fixed
+- Fix imdb_watchlist to work with changes at imdb
+
 <!---4a6da18b4953ae9b6197ada94a53d74c29e8e00e--->
 
 ## 3.15.3 (2025-02-11)
