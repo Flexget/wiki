@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c6011e11ddf14b87747d6592f4e0f0d111ac50ea--->
+<!---d7e280f03e11db50af9a5f10da449eb25c94313b--->
 
 ## 3.15.3.dev (unreleased)
+### Changed
+- Allow `exists_movie` to recurse subfolders
+
 <!---6d7bee615ffdb45bf2c48b93d670452c3a17077b--->
 
 ## 3.15.2 (2025-02-10)
