@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---87a09269f2b6358c716d566b938e3c8c54c4a822--->
+<!---085ee1c1e5360ab1b1494739af8ef8cca848af05--->
 
-## 3.15.4.dev (unreleased)
+## 3.15.5.dev (unreleased)
+<!---aa9c2f51c90d9efe109c3f563631c48ea81d3030--->
+
+## 3.15.4 (2025-02-12)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.15.3...v3.15.4)
 ### Fixed
 - Fix imdb_watchlist to work with changes at imdb
 
-<!---4a6da18b4953ae9b6197ada94a53d74c29e8e00e--->
 
 ## 3.15.3 (2025-02-11)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.15.2...v3.15.3)
