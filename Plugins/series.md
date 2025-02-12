@@ -2,7 +2,7 @@
 title: series
 description: 
 published: true
-date: 2023-08-17T01:55:23.487Z
+date: 2025-02-12T00:48:34.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:12:38.011Z
@@ -17,7 +17,7 @@ Intelligent filter for TV-series.
  * [Timeframe](/Plugins/series/timeframe), when used with sort_by plugin, selects the entry best matching the criteria in given timeframe
  * [Proper & Repack](/Plugins/series/propers) aware
  * Specials aware (grabs episodes with the series title and the word 'special')
- * Tries to ignore season packs, you can use [content_size](/Plugins/content_size) for extra insurance against them.
+ * Tries to ignore season packs (if not configured explicitly to get them), you can use [content_size](/Plugins/content_size) for extra insurance against them.
  * Supports double episodes. i.e. S01E01-E02
  * [Series searching support](/Cookbook/Series/Search) (via [discover](/Plugins/discover) and [next_series_episodes](/Plugins/next_series_episodes) plugins)
 
