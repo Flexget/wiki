@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---085ee1c1e5360ab1b1494739af8ef8cca848af05--->
+<!---d99e6c73b803e9ec5e4fd2e248bde8da620564bd--->
 
 ## 3.15.5.dev (unreleased)
+### Fixed
+- These are actually class methods
+- These are actually class methods
+
 <!---aa9c2f51c90d9efe109c3f563631c48ea81d3030--->
 
 ## 3.15.4 (2025-02-12)
