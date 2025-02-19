@@ -2,7 +2,7 @@
 title: from_telegram
 description: 
 published: true
-date: 2022-09-18T05:05:54.625Z
+date: 2025-02-19T18:59:19.494Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:05:51.980Z
@@ -28,7 +28,7 @@ Parse and filter any message that arrives to a telegram bot!
 
 ## Config
 
-```
+```yaml
   from_telegram:
     token: <bot_token>
     only_new: <yes|no>
@@ -43,7 +43,7 @@ Parse and filter any message that arrives to a telegram bot!
 ## Example
 The user asks for a download, and the system adds that movie to a movie list. Then the user asks to run a task do download that movie, and the system will run a task that calls the download movie task.
 
-```
+```yaml
 tasks: 
 
   #Task To add a Movie to the Queue
@@ -67,9 +67,9 @@ tasks:
       entry:
         title: download (?:movie )?(.*)
 
-      require_field:
-        - imdb_name
-        - imdb_id
+    require_field:
+      - imdb_name
+      - imdb_id
 
     accept_all: yes
 
