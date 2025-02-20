@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---b3c51f7005aa418ca41c5b9a1ccdcef6d8b80488--->
+<!---5147eb3b80d7415c419694c9d942527d68de7353--->
 
 ## 3.15.11.dev (unreleased)
+### Removed
+- Remove unused or redundant dependencies
+- Remove unused dependencies
+
 <!---9932b9d85344182d1f7091a3d105158e07a26048--->
 
 ## 3.15.10 (2025-02-20)
