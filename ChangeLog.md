@@ -11,12 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5147eb3b80d7415c419694c9d942527d68de7353--->
+<!---1b39bb932417f2d5445e117347718740f71fb72d--->
 
 ## 3.15.11.dev (unreleased)
 ### Removed
 - Remove unused or redundant dependencies
 - Remove unused dependencies
+
+### Added
+- Add support for testing extras
+- Add support for testing extras
+
+### Fixed
+- Python run-time won't complain about `-> (int, int)`, but it is not correct type annotation according to PEP 484. https://stackoverflow.com/a/43443331/12340650
 
 <!---9932b9d85344182d1f7091a3d105158e07a26048--->
 
