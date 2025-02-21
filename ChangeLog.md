@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1b39bb932417f2d5445e117347718740f71fb72d--->
+<!---2e18f3bc0287d147d220621b1e77005018b4f3e4--->
 
-## 3.15.11.dev (unreleased)
+## 3.15.12.dev (unreleased)
+<!---8cba1937a50a3a63d76a920b0e3d30fd6ee8a439--->
+
+## 3.15.11 (2025-02-21)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.15.10...v3.15.11)
 ### Removed
 - Remove unused or redundant dependencies
 - Remove unused dependencies
@@ -25,7 +29,6 @@ This changelog is in progress. It can be manually updated via the wiki, but is a
 ### Fixed
 - Python run-time won't complain about `-> (int, int)`, but it is not correct type annotation according to PEP 484. https://stackoverflow.com/a/43443331/12340650
 
-<!---9932b9d85344182d1f7091a3d105158e07a26048--->
 
 ## 3.15.10 (2025-02-20)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.15.9...v3.15.10)
