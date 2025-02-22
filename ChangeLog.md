@@ -11,11 +11,15 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---c3e8a894655163cc015bfeb8c3bb1306b9517c6f--->
+<!---f5434dabd1dd53e0efa24510255ab5a9dafb4f7a--->
 
 ## 3.15.12.dev (unreleased)
 ### Fixed
 - series: Strip all instances of quality from the title before attempting parsing to reduce bad matches of qualities as episode ids.
+
+### Changed
+- next_series_episodes: Put a limit on number of episodes to backfill [#4244](https://github.com/Flexget/Flexget/issues/4244)
+- next_series_episodes: Don't do backfill if there are more than 50 missing episodes. refs [#4237](https://github.com/Flexget/Flexget/issues/4237)
 
 <!---8cba1937a50a3a63d76a920b0e3d30fd6ee8a439--->
 
