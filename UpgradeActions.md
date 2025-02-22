@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2024-12-12T17:05:11.117Z
+date: 2025-02-22T18:40:01.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,9 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.15.0** - 2024-02-08
+The cfscraper plugin was previously deprecated, (and broken,) and has now been removed. If you still have it in your config, it will need to be removed.
 
 ### **3.13.0** - 2024-12-12
 #### [Telegram](/Plugins/Notifiers/telegram)
