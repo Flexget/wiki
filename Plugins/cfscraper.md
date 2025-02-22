@@ -2,13 +2,17 @@
 title: cfscraper
 description: 
 published: true
-date: 2022-12-05T03:19:39.025Z
+date: 2025-02-22T21:33:24.134Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:02:41.285Z
 ---
 
 # Cloudflare Scraper
+
+> This plugin has been removed from [Flexget 3.15](https://flexget.com/UpgradeActions#h-3150-2025-02-08) onwards
+{.is-warning}
+
 
 This plugin requires the cloudscraper Python library. To install it, run the following command:
 
