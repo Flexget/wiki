@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---953e7e9d536d203e9e5b5c6b180dd3c26bb728fc--->
+<!---7af5fbe4e1b991b01ca52fb901799e323c446bbf--->
 
 ## 3.15.13.dev (unreleased)
+### Changed
+- populate more entry fields from imdb_watchlist
+- Add strip_dates option to imdb_watchlist
+
 <!---d92c796e42f920b14de0662d8ff6d68e5903db02--->
 
 ## 3.15.12 (2025-02-22)
