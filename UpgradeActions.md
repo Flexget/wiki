@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2025-02-22T18:42:41.179Z
+date: 2025-02-22T21:28:03.982Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -18,10 +18,11 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
-### **3.15.0** - 2024-02-08
-The cfscraper plugin was previously deprecated, (and broken,) and has now been removed. If you still have it in your config, it will need to be removed.
+### **3.15.0** - 2025-02-08
+#### [cfscraper](/Plugins/cfscraper)
+The `cloudscraper` dependency was previously deprecated (and broken), so the `cfscraper` plugin has now been removed. If you still have it in your config, it will need to be removed.
 
-### **3.14.0** - 2024
+### **3.14.0** - 2025-02-02
 Previously the series plugin would default to a target of `720p hdtv+` if timeframe was specified without a target. It is now required that a target be explicitly set along with timeframe or it will be considered a configuration error.
 
 ### **3.13.0** - 2024-12-12
