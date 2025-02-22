@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---2e18f3bc0287d147d220621b1e77005018b4f3e4--->
+<!---c3e8a894655163cc015bfeb8c3bb1306b9517c6f--->
 
 ## 3.15.12.dev (unreleased)
+### Fixed
+- series: Strip all instances of quality from the title before attempting parsing to reduce bad matches of qualities as episode ids.
+
 <!---8cba1937a50a3a63d76a920b0e3d30fd6ee8a439--->
 
 ## 3.15.11 (2025-02-21)
