@@ -11,9 +11,12 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---8afcafdc6d33fa4c721544711c676d2c1de6d57e--->
+<!---5b9fcaeba525f509c81b0e0d876a927f6b33a60c--->
 
 ## 3.15.18.dev (unreleased)
+### Changed
+- transmission: now preserves the order labels are added
+
 <!---2be803df27430ad3a14c6b5b34fe142bd8f70622--->
 
 ## 3.15.17 (2025-02-28)
