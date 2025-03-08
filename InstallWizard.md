@@ -11,7 +11,7 @@ dateCreated: 2022-09-18T04:50:10.906Z
 # Installation Tutorial
 This guides you through installing FlexGet.
 
-## Reccomended install method
+## Recommended install method
 > This is the simplest method, and will even install python for you with no extra steps.
 {.is-success}
 
