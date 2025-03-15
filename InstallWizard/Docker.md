@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2024-12-18T21:48:44.799Z
+date: 2025-03-15T02:22:08.479Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -20,19 +20,10 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 - [flexget/flexget](https://hub.docker.com/r/flexget/flexget)
 - [ghcr.io/flexget/flexget](https://github.com/flexget/flexget/pkgs/container/flexget)
 
-### LinuxServer.io
-
-- lscr.io/linuxserver/flexget
-- [linuxserver/flexget](https://hub.docker.com/r/linuxserver/flexget)
-- [ghcr.io/linuxserver/flexget](https://github.com/linuxserver/docker-flexget/pkgs/container/flexget)
-
-#### Based on python:3.11-alpine
-
-This image includes:
-- `cloudscraper`
+This image is based on python:3.11-alpine. It includes:
 - `deluge-client`
-- `qbittorrent-api`
 - `python-telegram-bot`
+- `qbittorrent-api`
 - `transmission-rpc`
 
 If you need other pip or alpine packages, you can create a custom script to run as an entrypoint to install them before running flexget or create your own custom image with this image as a base.
@@ -46,7 +37,7 @@ docker run -d \
   -v /host/config:/config \        # required
   -e TZ=$TIMEZONE \                # optional: defaults to UTC
   -p 5050:5050 \                   # optional: for webui
-  ghcr.io/flexget/flexget \
+  flexget/flexget \
   daemon start --autoreload-config
 ```
 
@@ -54,7 +45,7 @@ docker compose:
 ```yaml
 services:
   flexget:
-    image: ghcr.io/flexget/flexget
+    image: flexget/flexget
     container_name: flexget
     command:
       - daemon
@@ -76,9 +67,9 @@ Replace `$TIMEZONE` with desired timezone. See list of valid timezones [here](ht
 Valid image tags:
  - latest (default) - latest tagged version release
  - develop - latest commit on develop branch
- - major.minor.patch version (e.g. ghcr.io/flexget/flexget:3.4.0)
- - major.minor version (e.g ghcr.io/flexget/flexget:3.4)
- - major version (e.g. ghcr.io/flexget/flexget:3)
+ - major.minor.patch version (e.g. flexget/flexget:3.4.0)
+ - major.minor version (e.g flexget/flexget:3.4)
+ - major version (e.g. flexget/flexget:3)
 
 #### Custom entrypoint
 
@@ -116,7 +107,7 @@ services:
 #### Custom Dockerfile
 
 ```Dockerfile
-FROM  ghcr.io/flexget/flexget
+FROM  flexget/flexget
 
 RUN   set -x; \
 		  apk add --no-cache PKG 
@@ -136,13 +127,16 @@ docker build --pull -t <flexget image tag here>
 ```
 
 ### Upgrading
-Since config files may need updating when the minor version gets bumped, best practice would be to pin the minor version in your compose file or docker run command. e.g. `ghcr.io/flexget/flexget:3.13` If you are not pinning it, make sure you understand what docker commands will cause new versions to be pulled, and check [Upgrade Actions](/UpgradeActions) and make sure everything is working as expected after upgrading.
+Since config files may need updating when the minor version gets bumped, best practice would be to pin the minor version in your compose file or docker run command. e.g. `flexget/flexget:3.13` If you are not pinning it, make sure you understand what docker commands will cause new versions to be pulled, and check [Upgrade Actions](/UpgradeActions) and make sure everything is working as expected after upgrading.
 
 #### Compose
 Run `docker compose pull` (after updating your pinned version if set) to pull the latest image.
 
 ### 3rd party images
+  - [linuxserver/flexget](https://hub.docker.com/r/linuxserver/flexget) / [ghcr.io/linuxserver/flexget](https://github.com/linuxserver/docker-flexget/pkgs/container/flexget) / lscr.io/linuxserver/flexget
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget) / [ghcr.io/wiserain/flexget](https://github.com/wiserain/docker-flexget/pkgs/container/flexget)
+  
+Unmaintained:
   - [ksurl/flexget](https://hub.docker.com/r/ksurl/flexget) / [ghcr.io/ksurl/flexget](https://github.com/ksurl/docker-flexget/pkgs/container/flexget)
   - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
   - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
