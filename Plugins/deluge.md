@@ -2,7 +2,7 @@
 title: deluge
 description: 
 published: true
-date: 2022-12-05T03:51:16.634Z
+date: 2025-03-16T17:46:14.381Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:38.228Z
@@ -10,16 +10,20 @@ dateCreated: 2022-09-18T05:03:38.228Z
 
 # Deluge
 
-> Requires installing `deluge-client` via pip
-{.is-warning}
-
 Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent client. Mainly used to add new torrents to deluge, but can also be used to pause/resume/remove torrents already loaded in deluge.
 
 **Notes:**
 
-* Supports Deluge 1.3 and 2.0.
 * This will not work if you are running deluge in classic mode. You must switch to running the daemon separately. 
 * If you are running `deluged` as a different user, on a different box, or with a non-default config directory (something other than ~/.config/deluge), you will need to specify the username and password options that you have set up in your Deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
+
+## Prerequisites
+- The `Deluge` extra provided by FlexGet is installed.
+  ```
+  pip install flexget[deluge]
+  ```
+- The version of Deluge is 1.3 or 2.0.
+
 
 ### Configuration
 None of the options are required, and they will all default to whatever you have set in Deluge.
