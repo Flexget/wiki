@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2023-12-20T22:06:58.747Z
+date: 2025-03-16T18:23:17.778Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:38.884Z
@@ -50,20 +50,8 @@ C:\Users\<username>\AppData\Local\Programs\Python\Python35\Scripts
 
 [ComputerHope](https://www.computerhope.com/issues/ch000549.htm) has a good article on how to change your PATH. Note that you want to *add* to your path, *not replace it*, or other things on your system might stop working.
 
-### Install/Upgrade pip
-<!-- https://sites.google.com/site/pydatalog/python/pip-for-windows
-pipwin is broken as of September 2016 - setuptools moved to Github and pipwin is still trying (as of May 2017) to access the old bitbucket.org URL -->
-
-#### Installing
-pip is included with Python as of v2.7.9 and v3.4.
-
-If you must use a prior version of Python, you can install PIP using the instructions found [here](https://packaging.python.org/installing/#install-pip-setuptools-and-wheel):
-
-- Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py).
-- In a command prompt, run `python get-pip.py`. This will install or upgrade pip. Additionally, it will install setuptools and wheel if they’re not installed already.
-
-#### Upgrading
-If your version of Python came with pip, you still need to ensure it's upgraded to the latest version. Open a command prompt and run this command:
+### Upgrade pip
+Ensure `pip` is upgraded to the latest version. Open a command prompt and run this command:
 
 ```bash
 python -m pip install -U pip setuptools
