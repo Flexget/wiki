@@ -2,7 +2,7 @@
 title: Web-UI
 description: 
 published: true
-date: 2025-03-16T17:21:20.834Z
+date: 2025-03-16T17:21:48.128Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:29.384Z
@@ -20,7 +20,6 @@ dateCreated: 2022-09-18T04:52:29.384Z
 
 * [Repo](https://github.com/flexget/webui)
 * [Roadmap (more ideas)](/Roadmap)
-* [Git Project](https://github.com/Flexget/webui/issues)
 * [API](/API)
 * [Web UI v1](/Web-UI/v1)
 
