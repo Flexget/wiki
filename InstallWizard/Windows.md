@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2025-03-16T18:28:40.190Z
+date: 2025-03-16T18:32:02.691Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:38.884Z
@@ -54,7 +54,7 @@ C:\Users\<username>\AppData\Local\Programs\Python\Python35\Scripts
 #### Install
 Typically, Python comes with pip pre-installed. If not, you will need to install pip by following the instructions at [packaging.python.org](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line).
 #### Upgrade
-Ensure `pip` is upgraded to the latest version. Open a command prompt and run this command:
+Ensure `pip` is on a supported version. If not, open a command prompt and run this command:
 
 ```bash
 python -m pip install -U pip setuptools
