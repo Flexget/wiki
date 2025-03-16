@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2024-12-12T10:07:08.098Z
+date: 2025-03-16T17:32:09.358Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -10,22 +10,22 @@ dateCreated: 2022-09-18T05:26:57.151Z
 
 # [Notifiers](/Plugins/Notifiers) > Telegram
 > Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
-{.is-success}
+{.is-info}
 
 Send a message to one or more Telegram users or groups upon accepting a download.
 
 
 ## Preparations
 
->Install `python-telegram-bot` python package
->```bash
->pip install python-telegram-bot
->```
-{.is-info}
+- Install the `Telegram` extra provided by FlexGet.
+  ```bash
+  pip install flexget[telegram]
+  ```
 
-* Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
-* For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
-* For group messages, add the bot to the desired group and send a start message to the bot: `/start` (mind the
+
+- Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
+- For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
+- For group messages, add the bot to the desired group and send a start message to the bot: `/start` (mind the
   leading `/`).
 
 ## Configuration
