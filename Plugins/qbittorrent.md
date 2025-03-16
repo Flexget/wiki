@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-03-16T17:56:37.939Z
+date: 2025-03-16T19:19:04.730Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T05:10:24.266Z
 Downloads content from entry URL and loads it into the  qBittorrent bittorrent client.
 
 ## Requirements
-- Telegram extra provided by FlexGet is installed.
+- The `qbittorrent` extra provided by FlexGet is installed.
   ```
   uv tool install flexget[qbittorrent]
   ```
