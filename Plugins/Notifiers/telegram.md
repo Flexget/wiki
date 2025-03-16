@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-03-16T18:13:17.750Z
+date: 2025-03-16T19:19:19.803Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -17,7 +17,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 ## Preparations
 
-- Install the `Telegram` extra provided by FlexGet.
+- Install the `telegram` extra provided by FlexGet.
   ```bash
   uv tool install flexget[telegram]
   ```
