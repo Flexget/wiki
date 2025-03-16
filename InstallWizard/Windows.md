@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2025-03-16T18:23:17.778Z
+date: 2025-03-16T18:28:40.190Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:38.884Z
@@ -50,14 +50,17 @@ C:\Users\<username>\AppData\Local\Programs\Python\Python35\Scripts
 
 [ComputerHope](https://www.computerhope.com/issues/ch000549.htm) has a good article on how to change your PATH. Note that you want to *add* to your path, *not replace it*, or other things on your system might stop working.
 
-### Upgrade pip
+### Install/Upgrade pip
+#### Install
+Typically, Python comes with pip pre-installed. If not, you will need to install pip by following the instructions at [packaging.python.org](https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line).
+#### Upgrade
 Ensure `pip` is upgraded to the latest version. Open a command prompt and run this command:
 
 ```bash
 python -m pip install -U pip setuptools
 ```
 
-This will upgrade PIP and setuptools to the latest versions.
+This will upgrade `pip` and `setuptools` to the latest versions.
 
 ### Continue
 After successfully installing *Python* and *pip*, continue to [Install FlexGet](/InstallWizard/Windows/FlexGet).
