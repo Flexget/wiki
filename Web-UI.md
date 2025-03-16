@@ -2,7 +2,7 @@
 title: Web-UI
 description: 
 published: true
-date: 2025-03-16T17:21:48.128Z
+date: 2025-03-16T17:25:38.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:29.384Z
@@ -64,7 +64,7 @@ web_server:
 ## Starting Web UI
 Set a password and start FlexGet in daemon mode to start the web server.
 
-```bash
+```sh
 $ flexget web passwd <05051985>
 $ flexget daemon start --daemonize
 ```
