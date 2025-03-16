@@ -2,7 +2,7 @@
 title: Cookbook
 description: 
 published: true
-date: 2023-12-20T22:00:17.518Z
+date: 2025-03-16T17:27:47.757Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:03.276Z
@@ -18,6 +18,7 @@ Feel free to add your own recipes or improve existing ones.
 >**To edit the wiki:**
 >
 >You can [login](/login) via oauth with either a GitHub or Google account.
+{.is-info}
 
 > Please create new pages only under /Cookbook/ ! 
 > Don't create new pages in the root of the wiki.
