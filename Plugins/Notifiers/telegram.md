@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-03-16T17:56:55.043Z
+date: 2025-03-16T18:13:17.750Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -21,12 +21,10 @@ Send a message to one or more Telegram users or groups upon accepting a download
   ```bash
   uv tool install flexget[telegram]
   ```
-
-
 - Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
-- For direct messages (not to a group), start a conversation with the bot and click `START` in the Telegram app.
-- For group messages, add the bot to the desired group and send a start message to the bot: `/start` (mind the
-  leading `/`).
+- It is strongly advised to directly consult [@raw_data_bot](https://t.me/raw_data_bot) to ascertain the chat ID. Otherwise, you have to:
+  - For private messages (as opposed to group chats), initiate a dialogue with the bot and press `START` within the Telegram application.
+  - For group interactions, incorporate the bot into the target group and dispatch the `/start` directive (heed the leading `/`).
 
 ## Configuration
 
