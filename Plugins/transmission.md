@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2025-03-16T17:54:49.565Z
+date: 2025-03-16T19:18:35.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T05:15:21.461Z
 Manages torrents within the [Transmission](https://transmissionbt.com) bittorrent client. Mainly used to add new torrents to transmission, but can also be used to pause/resume/remove torrents already loaded in transmission. Supports magnet links.
 
 ## Requisites
-Install the `Transmission` extra provided by FlexGet.
+Install the `transmission` extra provided by FlexGet.
 ```bash
 uv tool install flexget[transmission]
 ```
