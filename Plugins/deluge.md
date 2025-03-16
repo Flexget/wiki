@@ -2,7 +2,7 @@
 title: deluge
 description: 
 published: true
-date: 2025-03-16T17:55:58.284Z
+date: 2025-03-16T17:56:09.908Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:38.228Z
@@ -20,7 +20,7 @@ Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent clien
 ## Prerequisites
 - The `Deluge` extra provided by FlexGet is installed.
   ```
-uv tool install flexget[deluge]
+  uv tool install flexget[deluge]
   ```
 - The version of Deluge is 1.3 or 2.0.
 
