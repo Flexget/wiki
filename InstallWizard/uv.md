@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-01-14T17:28:47.152Z
+date: 2025-03-16T18:37:14.087Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -31,10 +31,10 @@ uv tool install flexget[locked] --python 3.12
 
 #### Adding extra dependencies
 There are several extras we include that install optional dependencies needed by some of the most common plugins. They are:
-- deluge
-- qbittorrent
-- transmission
-- telegram
+- [deluge](/Plugins/deluge)
+- [qbittorrent](/Plugins/qbittorrent)
+- [transmission](/Plugins/transmission)
+- [telegram](/Plugins/Notifiers/telegram)
 - all (this will include all 4 of the above)
 
 You can specify them when installing and an appropriate version of the dependency will be installed and upgraded alongside flexget for you. e.g.
