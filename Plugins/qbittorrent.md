@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2024-11-01T01:17:07.948Z
+date: 2025-03-16T17:40:20.501Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -11,7 +11,13 @@ dateCreated: 2022-09-18T05:10:24.266Z
 # qBittorrent
 Downloads content from entry URL and loads it into the  qBittorrent bittorrent client.
 
-Requirements: Supports qBittorrent 3.1.3 and above. qBittorrent WebUI must be enabled in the options menu.
+## Requirements
+- Telegram extra provided by FlexGet is installed.
+  ```
+  pip install flexget[qbittorrent]
+  ```
+- The version of qBittorrent is 3.1.3 and above.
+- qBittorrent web UI is enabled in the options menu.
 
 ## Options
 
