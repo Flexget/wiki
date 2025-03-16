@@ -2,7 +2,7 @@
 title: deluge
 description: 
 published: true
-date: 2025-03-16T17:56:09.908Z
+date: 2025-03-16T19:18:19.374Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:38.228Z
@@ -18,7 +18,7 @@ Manages torrents within the [deluge](http://deluge-torrent.org) bittorrent clien
 * If you are running `deluged` as a different user, on a different box, or with a non-default config directory (something other than ~/.config/deluge), you will need to specify the username and password options that you have set up in your Deluge [auth](http://dev.deluge-torrent.org/wiki/UserGuide/Authentication) file.
 
 ## Prerequisites
-- The `Deluge` extra provided by FlexGet is installed.
+- The `deluge` extra provided by FlexGet is installed.
   ```
   uv tool install flexget[deluge]
   ```
