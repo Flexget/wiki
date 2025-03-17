@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-03-16T19:19:19.803Z
+date: 2025-03-17T11:44:12.484Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -22,9 +22,9 @@ Send a message to one or more Telegram users or groups upon accepting a download
   uv tool install flexget[telegram]
   ```
 - Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
-- It is strongly advised to directly consult [@raw_data_bot](https://t.me/raw_data_bot) to ascertain the chat ID. Otherwise, you have to:
-  - For private messages (as opposed to group chats), initiate a dialogue with the bot and press `START` within the Telegram application.
-  - For group interactions, incorporate the bot into the target group and dispatch the `/start` directive (heed the leading `/`).
+- For private messages (as opposed to group chats), initiate a dialogue with the bot and press `START` within the Telegram application.
+- For group interactions, incorporate the bot into the target group and dispatch the `/start` directive (heed the leading `/`).
+- It is strongly advised to directly consult [@raw_data_bot](https://t.me/raw_data_bot) to ascertain the chat ID. Otherwise, a message must be sent to the bot some time before the Telegram notifier component runs for the first time to retrieve the chat ID.
 
 ## Configuration
 
