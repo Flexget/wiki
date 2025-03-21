@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-03-16T19:19:04.730Z
+date: 2025-03-21T15:37:13.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -66,7 +66,7 @@ tasks
   movies:
     set:
       tags:
-        - '{quality.resolution}'
+        - '{{quality.resolution}}'
 ```
 
 Set an overall ratio limit
