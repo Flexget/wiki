@@ -2,7 +2,7 @@
 title: content_filter
 description: 
 published: true
-date: 2025-04-03T20:41:48.939Z
+date: 2025-04-03T20:42:46.910Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:02:56.562Z
@@ -16,8 +16,8 @@ This allows filtering based on the filenames inside of torrents.
 > `content_filter` doesn't work with magnet links, as it works by analyzing the file list present in the .torrent file. You can include the [magnets](/Plugins/magnets) plugin to reject any magnet entries.
 {.is-warning} 
  
- | --- | --- | --- |
  | Field | Default | Description |
+ | --- | --- | --- |
  | `require` | `None` | Reject the entry if **none** of the files in the torrent matches **any** of the masks |
  | `reject` | `None` | Reject the entry if **any** of the files in the torrent matches **any** of the masks |
  | `require_all` | `None` | Reject the entry if **all** of the masks **do not** match across the files in the torrent |
