@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---80abf65ebb41bca121076cb326265cd1dd3659ae--->
+<!---01e0b9917330067a40a168214b0334cadd6f54ad--->
 
 ## 3.15.32.dev (unreleased)
+### Added
+- Add encoding option for the `ftp_list` plugin
+- Add an encoding option for the `ftp_list` plugin
+
 <!---5bc7090b71f1fe7283d29745ac868ff6b736ae30--->
 
 ## 3.15.31 (2025-03-31)
