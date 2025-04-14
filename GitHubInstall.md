@@ -2,7 +2,7 @@
 title: GitHubInstall
 description: 
 published: true
-date: 2025-01-10T02:43:42.034Z
+date: 2025-04-14T23:34:33.282Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:49.605Z
@@ -26,8 +26,21 @@ $ git clone https://github.com/Flexget/Flexget.git ~/flexget-dev
 
 You can use whatever directory you like in place of `~/flexget-dev`.
 
-## `uv sync`
-In your virtualenv, run `uv sync`. This will create a virtualenv in the `.venv` directory within your checkout, and install flexget in editable mode, (such that editing your checkout will directly edit the copy of flexget that runs in your venv,) and all of the needed dependencies.
+## Create environment with uv sync
+In your checkout directory, run:
+
+```bash
+$ uv sync
+```
+
+This will create a virtualenv in the `.venv` directory within your checkout, and install flexget in editable mode, (such that editing your checkout will directly edit the copy of flexget that runs in your venv,) and all of the needed dependencies.
+
+To install additional dependencies such as qbittorrent use:
+
+
+```bash
+$ uv sync --group all
+```
 
 ## Running FlexGet in the venv
 To run Flexget (or any other command) inside the venv, you can use `uv run` followed by the command. e.g.
