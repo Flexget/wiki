@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---01e0b9917330067a40a168214b0334cadd6f54ad--->
+<!---824efd9a4a5f3ee4aa84f643fd371d2226b34f19--->
 
-## 3.15.32.dev (unreleased)
+## 3.15.33.dev (unreleased)
+<!---c593c1503506fd685a79a0110b07ec7cabebf021--->
+
+## 3.15.32 (2025-04-14)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.15.31...v3.15.32)
 ### Added
 - Add encoding option for the `ftp_list` plugin
 - Add an encoding option for the `ftp_list` plugin
 
-<!---5bc7090b71f1fe7283d29745ac868ff6b736ae30--->
 
 ## 3.15.31 (2025-03-31)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.15.30...v3.15.31)
