@@ -2,7 +2,7 @@
 title: Contribute
 description: 
 published: true
-date: 2025-04-15T19:15:18.623Z
+date: 2025-04-15T19:18:11.856Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:55.741Z
@@ -15,10 +15,10 @@ For code submissions we accept GitHub pull requests to the `develop` branch. If 
 
 You can find a [guide here](https://help.github.com/articles/fork-a-repo) for forking a repo and making a pull request. Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
 
-If you really want to make us happy, make sure your changes pass PEP8 guidelines. We have task for checking them. You can run it via
+If you really want to make us happy, make sure your changes pass python style guidelines. We have task for checking them. You can run it via
 
 ```
-bin/flake8
+uv run ruff check
 ```
 
 Any & additional unit tests are also huge bonus.
