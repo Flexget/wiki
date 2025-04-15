@@ -2,7 +2,7 @@
 title: Contribute
 description: 
 published: true
-date: 2025-04-15T19:10:32.244Z
+date: 2025-04-15T19:15:18.623Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:55.741Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-18T04:48:55.741Z
 # Contributing to FlexGet
 We very much appreciate any contributions to the project, you don't even necessarily need to do any coding.
 
-For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions, the pull request should be made against the `next` branch (though you may need to bug us in chat if that branch isn't up to date with develop at the moment.)
+For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions it should bump the version number according to [format specified here](/UpgradeActions).
 
 You can find a [guide here](https://help.github.com/articles/fork-a-repo) for forking a repo and making a pull request. Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
 
@@ -31,4 +31,4 @@ Development tutorials and documentation:
 
 [https://flexget.readthedocs.org/en/latest/](https://flexget.readthedocs.org/en/latest/)
 
-Feel free to drop in to IRC to discuss any ideas, #flexget on freenode. You can also visit the forum at http://discuss.flexget.com
+Feel free to drop in to [chat](/Chat).
