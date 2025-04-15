@@ -2,14 +2,14 @@
 title: Contribute
 description: 
 published: true
-date: 2022-09-18T04:48:58.308Z
+date: 2025-04-15T19:10:32.244Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:55.741Z
 ---
 
 # Contributing to FlexGet
-We very much appreciate any contributions to the project, you don't even necessarily need to do any coding! There's really good blog post how to contribute [here](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/).
+We very much appreciate any contributions to the project, you don't even necessarily need to do any coding.
 
 For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions, the pull request should be made against the `next` branch (though you may need to bug us in chat if that branch isn't up to date with develop at the moment.)
 
