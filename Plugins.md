@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2025-01-10T21:40:32.674Z
+date: 2025-04-18T21:01:06.589Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -82,7 +82,7 @@ Input plugins designed to retrieve data from 3rd party web-sites, such as IMDB, 
 | [from_imdb](/Plugins/from_imdb) | Produce entries based on an IMDB person, company or character  |
 | [kitsu](/Plugins/kitsu) | Produce Entries based on your  [Kitsu.io](http://kitsu.io) libraries. |
 | [imdb_list](/Plugins/List/imdb_list) | Use movies in your IMDb list as an input (eg. watchlist, rating history). [Managed List](/Plugins/List).<br> **Note:** This plugin does not currently work, look into [`imdb_watchlist`](/Plugins/imdb_watchlist) |
-| [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb wathlist as an input
+| [filmweb_watchlist](/Plugins/filmweb_watchlist) | Use your Filmweb watchlist as an input
 | [imdb_watchlist](/Plugins/imdb_watchlist) |Use you IMDB watchlist as an input|
 | [letterboxd](/Plugins/letterboxd) | Create entries for movies on any public [Letterboxd](http://letterboxd.com) list |
 | [magnetdl](/Searches/magnetdl) | Create entries from magnetdl.com |
