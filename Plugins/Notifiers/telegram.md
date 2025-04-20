@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-03-17T11:44:12.484Z
+date: 2025-04-20T19:08:43.857Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -10,7 +10,7 @@ dateCreated: 2022-09-18T05:26:57.151Z
 
 # [Notifiers](/Plugins/Notifiers) > Telegram
 > Telegram is a part of the [notifier](/Plugins/Notifiers) plugin system.
-{.is-info}
+{.is-success}
 
 Send a message to one or more Telegram users or groups upon accepting a download.
 
