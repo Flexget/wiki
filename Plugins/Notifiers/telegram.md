@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-04-20T19:09:26.214Z
+date: 2025-04-20T19:09:50.691Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -47,7 +47,7 @@ Not all Telegram users have a username. In such cases you would have to use the 
 
 ## Configuration examples
 > Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-{.is-warning}
+{.is-info}
 
 ```yaml
 my-task:
