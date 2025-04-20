@@ -2,7 +2,7 @@
 title: Developers
 description: 
 published: true
-date: 2023-01-21T21:32:44.324Z
+date: 2025-04-20T19:11:07.935Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:11.127Z
@@ -12,7 +12,7 @@ dateCreated: 2022-09-18T04:49:11.127Z
 View the documentation and tutorials at [flexget.readthedocs.org](https://flexget.readthedocs.org/en/latest/)
 
 ## Resources
- * [Good overview of SQLAlchemy concepts](http://techspot.zzzeek.org/2012/02/07/patterns-implemented-by-sqlalchemy/)
+ * https://www.sqlalchemy.org
 
 ## Contributing
 Making custom plugins should be easy for anyone with some python experience.
