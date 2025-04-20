@@ -2,7 +2,7 @@
 title: Contribute
 description: 
 published: true
-date: 2025-04-15T19:18:11.856Z
+date: 2025-04-20T19:13:47.540Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:55.741Z
@@ -13,7 +13,7 @@ We very much appreciate any contributions to the project, you don't even necessa
 
 For code submissions we accept GitHub pull requests to the `develop` branch. If the update will force users to change their configuration, or take any other manual actions it should bump the version number according to [format specified here](/UpgradeActions).
 
-You can find a [guide here](https://help.github.com/articles/fork-a-repo) for forking a repo and making a pull request. Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
+You can find a [guide here](https://flexget.readthedocs.io/en/latest/contributor/Getting%20started/Development%20workflow.html) for forking a repo and making a pull request. Feel free to mark a PR as a work in progress and submit it early, a PR is a good place to follow progress and get feedback.
 
 If you really want to make us happy, make sure your changes pass python style guidelines. We have task for checking them. You can run it via
 
