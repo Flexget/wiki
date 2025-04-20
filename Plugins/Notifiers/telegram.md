@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-04-20T19:08:43.857Z
+date: 2025-04-20T19:09:26.214Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -41,6 +41,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 In case of message error when using `parse_mode`, the parsing will fall back to basic. This can be caused due to unclosed tags (watch out for wandering underscore when using markdown)
 
 `chat_id` can be obtained by asking [@raw_data_bot](https://t.me/raw_data_bot). The `chat_id` approach is the most recommended, because with this approach, you don't have to send a message to the bot to get the chat ID before the program runs. In addition, it is the most stable. Even if you change your name, the program will still work properly. `chat_id` can be a user's or a group's (including private groups). If the chat is a group, the chat id is negative. If it is a person, then positive.
+
 Methods other than `chat_id` require sending a message just before the first run of the plugin (if you delete `db-config.sqlite` you will have to **do** this again). Note that Telegram does not allow robots to initiate conversations. With `chat_id` approach, you still need to have sent a message to the robot before (even if you delete "db-config.sqlite", you **do not** need to send a message again).
 Not all Telegram users have a username. In such cases you would have to use the `fullname` approach. Otherwise, it is much easier to use the `username` configuration.
 
