@@ -11,9 +11,9 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d5a34393e115211c822331094661e83e0273cd96--->
+<!---d441f74e694b2ab165e51ccd95aa0fdcfe7fdc0e--->
 
-## 3.15.36.dev (unreleased)
+## 3.15.37.dev (unreleased)
 ### Fixed
 - Fix the `nzb_size` plugin
 
