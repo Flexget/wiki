@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-03-16T18:37:14.087Z
+date: 2025-04-22T17:44:06.865Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -15,7 +15,11 @@ dateCreated: 2025-01-10T03:22:17.273Z
 Instructions can be found [at the uv website.](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Install FlexGet
-We can then use uv to install FlexGet.
+We can then use uv to install FlexGet:
+```
+uv tool install flexget
+```
+or with fully locked dependencies:
 ```
 uv tool install flexget[locked]
 ```
@@ -24,12 +28,10 @@ This will install FlexGet into a uv managed virtual environment, and add the bin
 #### Specifying python version
 You can also specify what version of python you would like to use
 ```
-uv tool install flexget[locked] --python 3.12
+uv tool install flexget[locked] --python 3.13
 ```
-> One of our deps (pendulum) does not provide wheels for python 3.13 at the moment. You probably want to manually specify python 3.12 for now to avoid complications.
-{.is-warning}
 
-#### Adding extra dependencies
+#### Adding extras
 There are several extras we include that install optional dependencies needed by some of the most common plugins. They are:
 - [deluge](/Plugins/deluge)
 - [qbittorrent](/Plugins/qbittorrent)
@@ -63,7 +65,7 @@ uv tool upgrade flexget
 ```
 If you need to get a specific version, you can specify it:
 ```
-uv tool upgrade flexget==3.13.10
+uv tool upgrade flexget==3.15.36
 ```
 > You probably don't want to specify a specific FlexGet version during `uv tool install`, as this version constraint will keep applying when you try to `uv tool upgrade` later. It is better to do the install, then "upgrade" to the specific version you need right now.
 {.is-warning}
