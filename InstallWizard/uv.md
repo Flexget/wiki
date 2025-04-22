@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-04-22T17:44:27.880Z
+date: 2025-04-22T17:45:13.896Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -19,7 +19,7 @@ We can then use uv to install FlexGet:
 ```
 uv tool install flexget
 ```
-or with fully locked dependencies:
+or with fully locked dependency versions:
 ```
 uv tool install flexget[locked]
 ```
