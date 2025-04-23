@@ -11,13 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---d441f74e694b2ab165e51ccd95aa0fdcfe7fdc0e--->
+<!---a394e49d0130e206dffb3694bd065592edfc3147--->
 
-## 3.15.37.dev (unreleased)
+## 3.15.38.dev (unreleased)
+<!---a5ae51d0b9de44c9f35bd9f7e87eda036cd23e5f--->
+
+## 3.15.37 (2025-04-23)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.15.34...v3.15.37)
 ### Fixed
 - Fix the `nzb_size` plugin
 
-<!---7aa37ab27d33da34bb882e25933898bf844ac79d--->
 
 ## 3.15.34 (2025-04-17)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.15.33...v3.15.34)
