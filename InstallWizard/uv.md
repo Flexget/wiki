@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-04-22T17:45:13.896Z
+date: 2025-04-23T08:17:24.332Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -25,7 +25,7 @@ uv tool install flexget[locked]
 ```
 This will install FlexGet into a uv managed virtual environment, and add the binaries to your PATH.
 
-The `locked` extra is not required, but is recommended, and makes sure you get the exact dependencies that we have tested with.
+The `locked` extra is not required, but is recommended, because it makes sure you get the exact dependencies that we have tested with.
 
 #### Specifying python version
 You can also specify what version of python you would like to use
