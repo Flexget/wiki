@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2025-03-15T02:22:08.479Z
+date: 2025-04-24T18:00:38.571Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -135,11 +135,6 @@ Run `docker compose pull` (after updating your pinned version if set) to pull th
 ### 3rd party images
   - [linuxserver/flexget](https://hub.docker.com/r/linuxserver/flexget) / [ghcr.io/linuxserver/flexget](https://github.com/linuxserver/docker-flexget/pkgs/container/flexget) / lscr.io/linuxserver/flexget
   - [wiserain/flexget](https://hub.docker.com/r/wiserain/flexget) / [ghcr.io/wiserain/flexget](https://github.com/wiserain/docker-flexget/pkgs/container/flexget)
-  
-Unmaintained:
-  - [ksurl/flexget](https://hub.docker.com/r/ksurl/flexget) / [ghcr.io/ksurl/flexget](https://github.com/ksurl/docker-flexget/pkgs/container/flexget)
-  - [cptactionhank/flexget](https://hub.docker.com/r/cptactionhank/flexget)
-  - [cpoppema/docker-flexget](https://hub.docker.com/r/cpoppema/docker-flexget)
   
 ### Build your own image
 
