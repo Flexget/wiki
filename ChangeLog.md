@@ -11,14 +11,17 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---a05bd2b34935cb87cb09345d0b55123550016b1d--->
+<!---c2f0ffdb0f6f84db57e5c484eb65f82964866785--->
 
-## 3.16.0.dev (unreleased)
+## 3.16.1.dev (unreleased)
+<!---48f7b86419410784db92be223b10540bad104352--->
+
+## 3.16.0 (2025-05-18)
+[all commits](https://github.com/Flexget/Flexget/compare/v3.15.42...v3.16.0)
 ### Fixed
 - Fix jinja filters regarding path
 - Fix jinja filters regarding path
 
-<!---2117e5cd0225d234a4dfdf75f1e6e20f56dd8e9b--->
 
 ## 3.15.42 (2025-05-13)
 [all commits](https://github.com/Flexget/Flexget/compare/v3.15.41...v3.15.42)
