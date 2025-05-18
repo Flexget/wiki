@@ -11,9 +11,9 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---594d841d47dccb27ccc755bd387b3cdcb6cf9c60--->
+<!---a05bd2b34935cb87cb09345d0b55123550016b1d--->
 
-## 3.15.43.dev (unreleased)
+## 3.16.0.dev (unreleased)
 ### Fixed
 - Fix jinja filters regarding path
 - Fix jinja filters regarding path
