@@ -2,7 +2,7 @@
 title: Cookbook
 description: 
 published: true
-date: 2025-03-16T17:27:47.757Z
+date: 2025-06-06T21:02:48.609Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:03.276Z
