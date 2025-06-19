@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---050ea7c9084ab631fcac6ec2d1594f37e9565f59--->
+<!---f01312eb531b9d93c7206dae8f013841dc885ccf--->
 
 ## 3.16.7.dev (unreleased)
+
+### Added
+
+- `hybrid-hdr` Quality for Color Range
 
 <!---c9eaef5c5e45b8586f368256d1b3fccd2587bfdd--->
 
