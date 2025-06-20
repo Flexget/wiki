@@ -2,7 +2,7 @@
 title: move
 description: 
 published: true
-date: 2022-09-18T05:08:19.487Z
+date: 2025-06-20T12:30:27.182Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:08:16.895Z
@@ -19,7 +19,7 @@ dateCreated: 2022-09-18T05:08:16.895Z
 |allow_dir| Allows or denies to operate on entries pointing to directories|
 |keep_extension | Enable or disable automatic adding of extension (e.g. .torrent) to renamed file. Default: Yes
 |unpack_safety | Enable or disable unpacking safety checks, enabled by default. causes 1 sec delay per processed entry|
-|clean_source| Delete source directory if it has less MB left than given after move
+|clean_source| Delete this entry's parent directory if its size in MB drops below this value. Entry field `clean_source` can be used to override this value on a per entry basis.
 |along|Move additional files such as subtitles<br><br>[extensions]: file extensions<br>[subdirs]: sub directories to search in|
 
 **NOTE** : It is important to note that the files are moved as single files and no checks are made if multiple files match the same name. The files already present in the directory (even if moved during the same pass) are overwritten.
