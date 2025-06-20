@@ -2,7 +2,7 @@
 title: Qualities
 description: 
 published: true
-date: 2023-12-25T12:04:07.569Z
+date: 2025-06-20T02:12:13.999Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:20.513Z
@@ -17,12 +17,12 @@ To update this table, you can run `flexget wiki-qualities` which will output the
 
 | Resolution | Source    | Codec | Color Range | Audio  |
 |------------|-----------|-------|-------------|--------|
-| 2160p      | bluray    | av1   | dolbyvision | truehd |
-| 1080p      | remux     | h265  | hdrplus     | dtshd  |
-| 1080i      | dvdrip    | vp9   | hdr         | dts    |
-| 720p       | webdl     | h264  | 10bit       | flac   |
-| 720i       | hdtv      | nvenc | 8bit        | dd+5.1 |
-| hr         | webrip    | xvid  |             | ac3    |
+| 2160p      | bluray    | av1   | hybrid-hdr  | truehd |
+| 1080p      | remux     | h265  | dolbyvision | dtshd  |
+| 1080i      | dvdrip    | vp9   | hdrplus     | dts    |
+| 720p       | webdl     | h264  | hdr         | flac   |
+| 720i       | hdtv      | nvenc | 10bit       | dd+5.1 |
+| hr         | webrip    | xvid  | 8bit        | ac3    |
 | 576p       | bdscr     | divx  |             | dd5.1  |
 | 540p       | dvdscr    |       |             | aac    |
 | 480p       | sdtv      |       |             | mp3    |
