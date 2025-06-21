@@ -2,14 +2,14 @@
 title: delete
 description: 
 published: true
-date: 2025-06-21T00:36:28.642Z
+date: 2025-06-21T00:55:05.180Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:34.490Z
 ---
 
 # Delete
-*TODO: Improve documentation*
+Deletes files and/or directories from the local files ystem.
 
 Syntax:
 
