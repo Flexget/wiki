@@ -2,7 +2,7 @@
 title: delete
 description: 
 published: true
-date: 2022-09-18T05:03:37.006Z
+date: 2025-06-21T00:34:36.053Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:34.490Z
@@ -13,16 +13,11 @@ dateCreated: 2022-09-18T05:03:34.490Z
 
 Syntax:
 
-```code
-delete:
-  [allow_dir]: allows or denies to operate on entries pointing to directories
-  [along]: delete additional files such as subtitles
-    [extensions]: file extensions
-    [subdirs]: sub directories to search in
-  [clean_source]: delete source directory if it has less MB left than given after delete
-```
-
-[] = optional
+|Option|Description|
+|---|---|
+allow_dir | Allows the deletion of directories when set to true
+along | Delete additional files such as subtitles while removing the main file.<br><br>Options:<br>*extensions* - file extensions to remove<br>*subdirs* - subdirectories to search in
+clean_source | Delete this entry's parent directory if its size in MB is less than the supplied threshold after the deletion. Entry field `clean_source` can be used to override this value on a per entry basis.
 
 Here is an example of usage in a more comprehensive context (untested)
 
