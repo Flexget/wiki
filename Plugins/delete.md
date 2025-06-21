@@ -2,7 +2,7 @@
 title: delete
 description: 
 published: true
-date: 2025-06-21T00:34:36.053Z
+date: 2025-06-21T00:36:28.642Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:34.490Z
