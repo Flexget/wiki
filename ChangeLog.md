@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---3f3ce8268fa82d33d3f1b472d564565443318ceb--->
+<!---ded3258f6b32fd37b09e80ea74f581aae3bb38eb--->
 
 ## 3.16.13.dev (unreleased)
+
+### Changed
+
+- AniList: Map more relations and make their lookup lazy
 
 <!---327c518e40ce7beebcc7342f8060196465de558d--->
 
