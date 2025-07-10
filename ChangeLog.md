@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---ded3258f6b32fd37b09e80ea74f581aae3bb38eb--->
+<!---0a811f2e6709ab897e2b0234b61e77fa24f28724--->
 
-## 3.16.13.dev (unreleased)
+## 3.16.14.dev (unreleased)
+
+<!---f4fba1f41d85a42b540e3886131443643e35bf60--->
+
+## 3.16.13 (2025-07-10)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.16.12...v3.16.13)
 
 ### Changed
 
 - AniList: Map more relations and make their lookup lazy
-
-<!---327c518e40ce7beebcc7342f8060196465de558d--->
 
 ## 3.16.12 (2025-07-01)
 
