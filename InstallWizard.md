@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2025-07-21T15:15:32.209Z
+date: 2025-07-21T15:17:48.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -20,7 +20,7 @@ This guides you through installing FlexGet.
 ## Other install methods
 > Supported Python versions:
 >
-> ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi&logoColor=rgb(0%2C%2047%2C%20167)&color=rgb(0%2C%2047%2C%20167))
+> ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi)
 {.is-info}
 
 ### By operating system
