@@ -2,14 +2,10 @@
 title: Includes/FlexgetCurrentPythonRequirements
 description: 
 published: true
-date: 2025-04-22T17:38:44.266Z
+date: 2025-07-21T15:10:54.583Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:45.901Z
 ---
 
-- 3.9
-- 3.10
-- 3.11
-- 3.12
-- 3.13
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi&logoColor=rgb(0%2C%2047%2C%20167)&color=rgb(0%2C%2047%2C%20167))
