@@ -2,7 +2,7 @@
 title: InstallWizard
 description: 
 published: true
-date: 2025-07-21T15:13:31.133Z
+date: 2025-07-21T15:15:32.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:10.906Z
@@ -18,7 +18,7 @@ This guides you through installing FlexGet.
  * [Install using uv tool](/InstallWizard/uv)
 
 ## Other install methods
-> Supported python versions:
+> Supported Python versions:
 >
 > ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi&logoColor=rgb(0%2C%2047%2C%20167)&color=rgb(0%2C%2047%2C%20167))
 {.is-info}
