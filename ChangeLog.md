@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---5fdabff07251d52427bb084de2ec896311f8e30e--->
+<!---ebe0a8a2b76c06ffabc6c015eb419240929c1e82--->
 
-## 3.17.3.dev (unreleased)
+## 3.17.4.dev (unreleased)
+
+<!---f17f40c0b106a84aaa6ed5cecb73e5256e2d815a--->
+
+## 3.17.3 (2025-08-02)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.17.2...v3.17.3)
 
 ### Changed
 
 - Renamed colorspace quality `hybrid-hdr` to `hybrid_hdr`
-
-<!---52e7c3375612124e219ece7c762e55c03fefbc84--->
 
 ## 3.17.2 (2025-08-01)
 
