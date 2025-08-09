@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2022-09-18T04:48:50.416Z
+date: 2025-08-09T13:08:30.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -22,7 +22,7 @@ There are several rich web interfaces we support, accessible anywhere, with back
 There are a couple of ways to chat via IRC client now.
 
 ### #flexget on Libera.Chat
-You can still chat on our channel on the Libera.Chat IRC network. All chat from gitter is relayed to the channel via a bot (`FlexGet-Bot`.)
+You can still chat on [our channel](https://web.libera.chat/#flexget) on the Libera.Chat IRC network. All chat from gitter is relayed to the channel via a bot (`FlexGet-Bot`.)
 
 ### #Flexget/Flexget on irc.gitter.im
 Gitter runs its own IRC bridge, which allows you to log in to gitter via IRC. Here, all messages from freenode will be relayed via a bot (`FlexGet-Bot`.) Go [here](http://irc.gitter.im) for instructions on how to connect to the Gitter IRC bridge.
