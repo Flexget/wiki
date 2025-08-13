@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2025-04-24T18:00:38.571Z
+date: 2025-08-13T15:07:10.584Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -21,9 +21,15 @@ Follow the instructions for your operating system [here](https://docs.docker.com
 - [ghcr.io/flexget/flexget](https://github.com/flexget/flexget/pkgs/container/flexget)
 
 This image is based on python:3.11-alpine. It includes:
+- `boto3`
 - `deluge-client`
+- `ftputil`
+- `plexapi`
+- `pysftp`
 - `python-telegram-bot`
 - `qbittorrent-api`
+- `rarfile`
+- `subliminal`
 - `transmission-rpc`
 
 If you need other pip or alpine packages, you can create a custom script to run as an entrypoint to install them before running flexget or create your own custom image with this image as a base.
