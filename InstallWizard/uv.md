@@ -2,7 +2,7 @@
 title: Install FlexGet with uv
 description: Installing FlexGet using uv
 published: true
-date: 2025-04-23T08:17:24.332Z
+date: 2025-08-13T15:16:36.947Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-10T03:22:17.273Z
@@ -35,11 +35,17 @@ uv tool install flexget[locked] --python 3.13
 
 #### Adding extras
 There are several extras we include that install optional dependencies needed by some of the most common plugins. They are:
+- [boto3](/Plugins/sns)
 - [deluge](/Plugins/deluge)
+- ftp (used by [ftp_list](/Plugins/ftp_list) and [ftp_download](/Plugins/ftp_download) plugins)
 - [qbittorrent](/Plugins/qbittorrent)
+- [plexapi](/Plugins/plex)
+- [rarfile](/Plugins/decompress)
+- sftp (used by [sftp_list](/Plugins/sftp_list), [sftp_download](/Plugins/sftp_download) and [sftp_upload](/Plugins/sftp_upload) plugins)
+- [subliminal](https://flexget.com/en/Plugins/subliminal)
 - [transmission](/Plugins/transmission)
 - [telegram](/Plugins/Notifiers/telegram)
-- all (this will include all 4 of the above)
+- all (this will include all of the above)
 
 You can specify them when installing and an appropriate version of the dependency will be installed and upgraded alongside flexget for you. e.g.
 ```
