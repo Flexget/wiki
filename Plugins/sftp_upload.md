@@ -2,7 +2,7 @@
 title: sftp_upload
 description: 
 published: true
-date: 2022-12-03T03:51:45.779Z
+date: 2025-08-14T03:54:20.350Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:05.170Z
@@ -11,11 +11,11 @@ dateCreated: 2022-09-18T05:13:05.170Z
 # SFTP Upload
 Upload files to a SFTP server. 
 
-This plugin requires the pysftp Python module; to install it module run:
-
-```cmd
-pip install pysftp
-```
+## Prerequisites
+- The `sftp` extra provided by FlexGet is installed.
+  ```
+  pip install flexget[sftp]
+  ```
 
 pysftp depends on the Pycrypto library. If you are using Windows,you may have to install it manually. Windows binaries are available [here](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
 
