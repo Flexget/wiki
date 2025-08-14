@@ -2,7 +2,7 @@
 title: telegram
 description: 
 published: true
-date: 2025-04-20T19:09:50.691Z
+date: 2025-08-14T03:56:05.099Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:26:57.151Z
@@ -19,7 +19,7 @@ Send a message to one or more Telegram users or groups upon accepting a download
 
 - Install the `telegram` extra provided by FlexGet.
   ```bash
-  uv tool install flexget[telegram]
+  pip install flexget[telegram]
   ```
 - Create a bot & obtain a token for it (see https://core.telegram.org/bots#6-botfather).
 - For private messages (as opposed to group chats), initiate a dialogue with the bot and press `START` within the Telegram application.
