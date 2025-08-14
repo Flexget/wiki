@@ -2,7 +2,7 @@
 title: sns
 description: 
 published: true
-date: 2022-09-18T05:13:19.637Z
+date: 2025-08-14T03:42:51.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:13:17.013Z
@@ -18,7 +18,7 @@ SNS is a notification delivery system that can be connected to email, SMS, or ot
 In addition to FlexGet, you must install the boto3 AWS SDK using pip:
 
 ```
-pip install boto3
+pip install flexget[boto3]
 ```
 
 ## Configuration Options
