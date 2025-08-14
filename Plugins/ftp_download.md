@@ -2,7 +2,7 @@
 title: ftp_download
 description: 
 published: true
-date: 2022-09-18T05:06:02.253Z
+date: 2025-08-14T03:46:45.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:05:59.661Z
@@ -20,6 +20,12 @@ ftp_download:
   delete_origin: False
   ftp_tmp_path: /home/dl/tv
 ```
+
+## Prerequisites
+- The `ftp` extra provided by FlexGet is installed.
+  ```
+  pip install flexget[ftp]
+  ```
 
 
 ## Options
