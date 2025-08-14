@@ -2,7 +2,7 @@
 title: sftp_list
 description: 
 published: true
-date: 2022-12-03T03:29:30.570Z
+date: 2025-08-14T03:52:41.882Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:01.185Z
@@ -11,11 +11,11 @@ dateCreated: 2022-09-18T05:13:01.185Z
 # SFTP List
 Generate entries from SFTP to download with [sftp_download](/Plugins/sftp_download). This plugin requires the pysftp Python module and its dependencies.
 
-This plugin requires the pysftp Python module; to install it run:
-
-```
-pip install pysftp
-```
+## Prerequisites
+- The `sftp` extra provided by FlexGet is installed.
+  ```
+  pip install flexget[sftp]
+  ```
 **NOTE:** If experiencing issues with connections, you may need to [downgrade](https://github.com/Yenthe666/auto_backup/issues/47) pysftp to 0.2.8 (if using 0.2.9).
 
 This can easily be done by running:
