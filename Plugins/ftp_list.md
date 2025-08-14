@@ -2,7 +2,7 @@
 title: ftp_list
 description: 
 published: true
-date: 2022-09-18T05:06:06.157Z
+date: 2025-08-14T03:43:37.828Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:06:03.487Z
@@ -13,7 +13,7 @@ dateCreated: 2022-09-18T05:06:03.487Z
 
 Generate entries from a remote FTP server. Entries can be downloaded via [ftp_download](/Plugins/ftp_download) plugin or by passing it to other output plugins. See examples for details.
 
-**Note**: This plugin requires a 3rd party called [ftputil](http://ftputil.sschwarzer.net/trac/wiki/WikiStart). `pip install ftputil` in order to use.
+**Note**: This plugin requires a 3rd party called [ftputil](http://ftputil.sschwarzer.net/trac/wiki/WikiStart). `pip install flexget[ftp]` in order to use.
 
 ### Plugin Settings
 
