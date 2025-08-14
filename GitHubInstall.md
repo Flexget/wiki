@@ -2,7 +2,7 @@
 title: GitHubInstall
 description: 
 published: true
-date: 2025-04-14T23:34:33.282Z
+date: 2025-08-14T03:59:15.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:49.605Z
@@ -11,7 +11,10 @@ dateCreated: 2022-09-18T04:49:49.605Z
 # [Install Wizard](/InstallWizard) > GitHub Install
 ## Notes
 
- * Requires Python 3.9+, uv, and git client
+ * Supported Python versions:
+ ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python)
+{.is-info}
+ * Requires uv, and git client
  * This where we develop
  
 ## Install uv
