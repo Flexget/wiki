@@ -2,7 +2,7 @@
 title: transmission
 description: 
 published: true
-date: 2025-03-16T19:18:35.560Z
+date: 2025-08-14T03:55:25.116Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:15:21.461Z
@@ -14,7 +14,7 @@ Manages torrents within the [Transmission](https://transmissionbt.com) bittorren
 ## Requisites
 Install the `transmission` extra provided by FlexGet.
 ```bash
-uv tool install flexget[transmission]
+pip install flexget[transmission]
 ```
 
 ## Usage
