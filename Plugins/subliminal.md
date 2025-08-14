@@ -2,7 +2,7 @@
 title: subliminal
 description: 
 published: true
-date: 2022-12-05T03:41:06.473Z
+date: 2025-08-14T03:54:59.887Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:36.421Z
@@ -10,8 +10,11 @@ dateCreated: 2022-09-18T05:13:36.421Z
 
 # Subliminal
 
-> Plugin requires additional external library `subliminal`
-{.is-warning}
+## Prerequisites
+- The `subliminal` extra provided by FlexGet is installed.
+  ```
+  pip install flexget[subliminal]
+  ```
 
 Download subtitles for entries referring to existing video files. 
 
