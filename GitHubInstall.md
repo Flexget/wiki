@@ -2,7 +2,7 @@
 title: GitHubInstall
 description: 
 published: true
-date: 2025-08-14T03:59:15.419Z
+date: 2025-08-14T03:59:29.340Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:49.605Z
@@ -13,7 +13,6 @@ dateCreated: 2022-09-18T04:49:49.605Z
 
  * Supported Python versions:
  ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python)
-{.is-info}
  * Requires uv, and git client
  * This where we develop
  
