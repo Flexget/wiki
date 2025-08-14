@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-03-21T15:37:13.798Z
+date: 2025-08-14T03:47:04.998Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -14,7 +14,7 @@ Downloads content from entry URL and loads it into the  qBittorrent bittorrent c
 ## Requirements
 - The `qbittorrent` extra provided by FlexGet is installed.
   ```
-  uv tool install flexget[qbittorrent]
+  pip install flexget[qbittorrent]
   ```
 - The version of qBittorrent is 3.1.3 and above.
 - qBittorrent web UI is enabled in the options menu.
