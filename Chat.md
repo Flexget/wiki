@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2025-08-09T13:08:30.294Z
+date: 2025-08-15T15:05:12.212Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -14,6 +14,7 @@ Chat can be accessed via multiple ways. We are using a bot to sync chat between 
 ## Rich Web Clients
 There are several rich web interfaces we support, accessible anywhere, with backlog built in. If you are not already using IRC for anything else, these are probably the nicest chatting methods.
 
+- [Matrix](https://matrix.to/#/#flexget:matrix.org)
 - [Slack](https://join.slack.com/t/flexget/shared_invite/enQtNTQzNjM4MTY3ODYzLTA3NTRhZGNlMjBiN2FmNjZiZDVmZGQzMGFiODdhMWI1NjYyMzYwYWEyYjRlMGNjMWIzZTczMzMwZjdiODQ5OGI)
 - [Gitter](http://gitter.im/Flexget/Flexget)
 - [Discord](https://discord.gg/W6CQrJx)
