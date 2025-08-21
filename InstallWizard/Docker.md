@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2025-08-13T15:07:10.584Z
+date: 2025-08-21T05:38:53.376Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -36,7 +36,7 @@ If you need other pip or alpine packages, you can create a custom script to run 
 
 ### Usage
 
-docker cli:
+#### docker cli
 ```bash
 docker run -d \
   --name flexget \
@@ -47,7 +47,8 @@ docker run -d \
   daemon start --autoreload-config
 ```
 
-docker compose:
+#### docker compose
+Create a file called `compose.yaml`:
 ```yaml
 services:
   flexget:
@@ -64,6 +65,10 @@ services:
     volumes:
       - /host/config:/config        # required
       - /host/downloads:/downloads 
+```
+In the same directory as the `compose.yaml` file, run:
+```console
+docker compose up
 ```
 
 Replace `volumes:` host paths (eg. `/host/config`) with the host directory path you would like to use for the config and download folders. Add additional as needed.
