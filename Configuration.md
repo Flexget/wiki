@@ -2,22 +2,13 @@
 title: Configuration
 description: 
 published: true
-date: 2023-01-23T15:54:41.970Z
+date: 2025-08-22T03:36:39.512Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:51.632Z
 ---
 
 # Configuration
-
-On this page:
-- [Introduction](#introduction)
-- [Location](#location)
-- [Top-Level Keys](#top-level-keys)
-- [Step-by-Step Configuration Tutorial](#step-by-step-configuration-tutorial)
-- [Common Misconceptions](#common-misconceptions)
-- [Tips](#tips)
-- [References](#references)
 
 ## Introduction
 In order to use FlexGet you'll need to create a configuration file. 
