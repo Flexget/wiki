@@ -2,7 +2,7 @@
 title: crossmatch
 description: 
 published: true
-date: 2022-12-09T12:00:52.121Z
+date: 2025-08-24T00:14:46.242Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:03:19.274Z
@@ -30,7 +30,7 @@ Reject movies that you have already voted on imdb. This would be used in a task.
 ```yaml
 crossmatch:
   from:
-    - imdb_list:
+    - imdb_watchlist:
         user_id: ur9999999
         list: ratings
   fields:
