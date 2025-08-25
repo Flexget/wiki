@@ -2,7 +2,7 @@
 title: PythonPackage
 description: 
 published: true
-date: 2025-08-19T02:26:44.618Z
+date: 2025-08-25T05:30:03.348Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:24:07.782Z
@@ -14,7 +14,7 @@ dateCreated: 2022-09-18T05:24:07.782Z
 
  > Supported Python versions:
  >
- > ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi&logoColor=rgb(0%2C%2047%2C%20167)&color=rgb(0%2C%2047%2C%20167))
+ > ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=pypi&logoColor=white&color=rgb(0%2C%2047%2C%20167))
  {.is-info}
 
 The Python installation available in DSM’s Package Center provides Python 3.5.1, and as such, is not compatible with current releases of FlexGet. As a result, the current recommendation is to uninstall Python and Python 3 from the DSM Package Center, and to use Entware-NG’s opkg source instead.
