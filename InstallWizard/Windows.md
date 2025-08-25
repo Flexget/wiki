@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2025-08-25T06:41:27.944Z
+date: 2025-08-25T07:06:32.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:38.884Z
@@ -17,6 +17,7 @@ dateCreated: 2022-09-18T05:00:38.884Z
 
 ### Install Python
 Supported versions of Python:
+
 ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python&logoColor=white)
 
 If you already have a compatible version of Python installed, you can continue to the next step.
