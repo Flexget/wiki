@@ -2,7 +2,7 @@
 title: Windows
 description: 
 published: true
-date: 2025-03-16T18:32:02.691Z
+date: 2025-08-25T06:36:57.919Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:38.884Z
@@ -17,7 +17,7 @@ dateCreated: 2022-09-18T05:00:38.884Z
 
 ### Install Python
 Supported versions of Python:
-[FlexgetCurrentPythonRequirements](/Includes/FlexgetCurrentPythonRequirements){.include}
+[FlexgetCurrentPythonRequirement](/Includes/FlexgetCurrentPythonRequirements){.include}
 
 
 If you already have a compatible version of Python installed, you can continue to the next step.
