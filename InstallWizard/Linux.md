@@ -2,7 +2,7 @@
 title: Linux
 description: 
 published: true
-date: 2022-09-18T05:23:40.104Z
+date: 2025-08-25T07:06:14.475Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:12.084Z
@@ -14,8 +14,8 @@ dateCreated: 2022-09-18T05:00:12.084Z
 ### Python
 
 Supported versions of Python:
-[FlexgetCurrentPythonRequirements](/Includes/FlexgetCurrentPythonRequirements){.include}
 
+![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python&logoColor=white)
 
 You can check your installed version of Python with this command:
 
