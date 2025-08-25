@@ -2,7 +2,7 @@
 title: SynologyNAS
 description: 
 published: true
-date: 2025-08-14T04:00:21.216Z
+date: 2025-08-25T05:28:56.687Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:35.039Z
@@ -20,7 +20,7 @@ Running FlexGet in a Docker container gives you the ultimate level of control ov
 
 > Supported Python versions:
 >
-> ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python)
+> ![](https://img.shields.io/pypi/pyversions/flexget?style=for-the-badge&logo=python&logoColor=white)
 {.is-info}
 
 This method uses the Python installation available from Entware-ng's opkg Package Center. This is a relatively easy process for anyone with basic CLI experience, but does require some maintenance and troubleshooting.
