@@ -11,9 +11,10 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---93a61e90aeab02e35bce6e42ffda667a9f137557--->
+<!---aac318589865b5b63c5a9309e7a2ac044c16a0da--->
 
-## 3.17.18.dev (unreleased)
+## 3.18.0.dev (unreleased)
+
 
 <!---8105c62c6789be5954f2e805c6bde63431feb2ee--->
 
