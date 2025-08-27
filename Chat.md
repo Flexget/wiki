@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2025-08-27T13:25:00.242Z
+date: 2025-08-27T13:25:49.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -16,7 +16,7 @@ There are several rich web interfaces we support, accessible anywhere, with back
 
 - Matrix protocol:
   - [Matrix](https://matrix.to/#/#flexget:matrix.org) (Matrix official server)
-  - [Gitter](http://gitter.im/Flexget/Flexget) (Gitter is fully built on the Matrix protocol)
+  - [Gitter](http://gitter.im/Flexget/Flexget) (Gitter is another Matrix server)
 - [Slack](https://join.slack.com/t/flexget/shared_invite/enQtNTQzNjM4MTY3ODYzLTA3NTRhZGNlMjBiN2FmNjZiZDVmZGQzMGFiODdhMWI1NjYyMzYwYWEyYjRlMGNjMWIzZTczMzMwZjdiODQ5OGI)
 - [Discord](https://discord.gg/W6CQrJx)
 
