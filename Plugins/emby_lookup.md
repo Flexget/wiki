@@ -2,7 +2,7 @@
 title: emby_lookup
 description: 
 published: true
-date: 2022-09-18T05:12:53.598Z
+date: 2025-08-27T06:12:38.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:04:24.094Z
@@ -45,15 +45,15 @@ emby_lookup will populate several entry fields that can be used in other plugins
 ## Series Fields
 | Name | Description |
 | --- | --- |
-| emby_serie_year | Series year |
-| emby_serie_aired_date | Series aired date|
-| emby_serie_id | Series ID |
-| emby_serie_name | Series name | 
-| emby_serie_photo | Series photo | 
-| emby_serie_imdb_id | Series imdb id |
-| emby_serie_tvdb_id | Series tvdb id |
-| emby_serie_overview | Series overview |
-| emby_serie_page | Series page | 
+| emby_series_year | Series year |
+| emby_series_aired_date | Series aired date|
+| emby_series_id | Series ID |
+| emby_series_name | Series name | 
+| emby_series_photo | Series photo | 
+| emby_series_imdb_id | Series imdb id |
+| emby_series_tvdb_id | Series tvdb id |
+| emby_series_overview | Series overview |
+| emby_series_page | Series page | 
 
 ## Season Fields
 | Name | Description |
