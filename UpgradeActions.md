@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2025-08-27T06:28:43.066Z
+date: 2025-08-27T06:34:35.507Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -32,6 +32,20 @@ All series fields have been renamed:
 |emby_serie_tvdb_id|emby_series_tvdb_id|
 |emby_serie_overview|emby_series_overview|
 |emby_serie_page|emby_series_page|
+#### Removed sites no longer available
+- animeindex
+- archetorrent
+- deadfrog
+- descargas2020
+- filelist
+- frenchtorrentdb
+- fuzer
+- hliang
+- magnetdl
+- newtorrents
+- nnmclub
+- ptn
+- rmz
 
 ### **3.17.0** - 2025-07-24
 Dropped support for Python 3.9
