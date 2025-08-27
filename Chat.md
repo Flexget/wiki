@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2025-08-15T15:05:12.212Z
+date: 2025-08-27T13:16:52.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -14,25 +14,18 @@ Chat can be accessed via multiple ways. We are using a bot to sync chat between 
 ## Rich Web Clients
 There are several rich web interfaces we support, accessible anywhere, with backlog built in. If you are not already using IRC for anything else, these are probably the nicest chatting methods.
 
-- [Matrix](https://matrix.to/#/#flexget:matrix.org)
+- Matrix protocol:
+  - [Matrix](https://matrix.to/#/#flexget:matrix.org) (Matrix official server)
+  - [Gitter](http://gitter.im/Flexget/Flexget) (Gitter is fully built on the Matrix protocol)
 - [Slack](https://join.slack.com/t/flexget/shared_invite/enQtNTQzNjM4MTY3ODYzLTA3NTRhZGNlMjBiN2FmNjZiZDVmZGQzMGFiODdhMWI1NjYyMzYwYWEyYjRlMGNjMWIzZTczMzMwZjdiODQ5OGI)
-- [Gitter](http://gitter.im/Flexget/Flexget)
 - [Discord](https://discord.gg/W6CQrJx)
 
 ## IRC
-There are a couple of ways to chat via IRC client now.
+- [Libera.Chat](https://web.libera.chat/#flexget)
 
-### #flexget on Libera.Chat
-You can still chat on [our channel](https://web.libera.chat/#flexget) on the Libera.Chat IRC network. All chat from gitter is relayed to the channel via a bot (`FlexGet-Bot`.)
-
-### #Flexget/Flexget on irc.gitter.im
-Gitter runs its own IRC bridge, which allows you to log in to gitter via IRC. Here, all messages from freenode will be relayed via a bot (`FlexGet-Bot`.) Go [here](http://irc.gitter.im) for instructions on how to connect to the Gitter IRC bridge.
-
-### Fixing annoying bot nicks
-If you are connecting via IRC, it can get annoying when much of the chat is all done by the sync bot. You can mitigate this choosing to connect to the irc server where most of the chat is coming from. If you are more tenacious, there may be a plugin for your IRC client to spoof the real nicknames for chat relayed by the bot.
-
-**WeeChat**
+#### Fixing annoying bot nicks
+If you are connecting via IRC, it can get annoying when much of the chat is all done by the sync bot. There is a plugin for your IRC client to spoof the real nicknames for chat relayed by the bot.
+- WeeChat
 The [parse_relayed_msg.pl](https://weechat.org/scripts/source/parse_relayed_msg.pl.html/) script can pull usernames out of the message text from the relay bots and spoof them in nicklist (for auto complete) and the chat window.
-
-**Other Clients**
+- Other Clients
 If something similar is possible with other clients, somebody add some docs here.
