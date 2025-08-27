@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2025-08-27T13:34:48.211Z
+date: 2025-08-27T13:51:29.236Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -11,8 +11,9 @@ dateCreated: 2022-09-18T04:48:47.761Z
 # Chat
 Chat can be accessed via multiple ways. We are using a bot to sync chat between all of the chat services.
 
-## Rich Web Clients
-There are several rich web interfaces we support, accessible anywhere, with backlog built in. If you are not already using IRC for anything else, these are probably the nicest chatting methods.
+## Recommended Platforms
+
+We recommend joining our chat on one of these modern platforms for a richer and more user-friendly experience. They offer persistent message history, file and image sharing, emoji reactions, and cross-device syncing. Thanks to our sync bot, conversations are bridged across all services, so you can pick the platform you're most comfortable with and still be part of the same discussion.
 
 - Matrix protocol:
   - [Matrix](https://matrix.to/#/#flexget:matrix.org) (Matrix official server)
