@@ -2,7 +2,7 @@
 title: Chat
 description: 
 published: true
-date: 2025-08-27T14:00:59.291Z
+date: 2025-08-27T14:02:08.723Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:48:47.761Z
@@ -29,8 +29,3 @@ If you're considering IRC, we encourage you to look at Matrix as a modern altern
 When connecting via IRC, you may find that messages from other platforms are relayed by a single sync bot, which can be visually disruptive. Some IRC clients can be configured with scripts to parse these relayed messages and display the original user's nickname, creating a more natural chat experience.
 * **WeeChat**
 The [parse_relayed_msg.pl](https://weechat.org/scripts/source/parse_relayed_msg.pl.html/) script can pull usernames out of the message text from the relay bots and spoof them in nicklist (for auto complete) and the chat window.
-* **Other Clients**
-    Achieving similar functionality in other IRC clients typically requires custom scripting. While no out-of-the-box solutions are as straightforward as the WeeChat script, most clients offer powerful scripting capabilities:
-    *   **Irssi**: Known for its flexibility, Irssi can be extended with Perl scripts. You can find more information on how to get started with scripting in the official documentation and various online guides.
-    *   **HexChat**: This client supports scripting in languages like Python and Lua. The official documentation provides a comprehensive guide to its plugin interface.
-    *   **mIRC**: A long-standing Windows client with a powerful scripting language. Detailed documentation and community forums can help you create custom scripts to handle relayed messages.
