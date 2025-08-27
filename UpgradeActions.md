@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2025-07-25T02:07:25.399Z
+date: 2025-08-27T06:28:43.066Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,21 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.18.0** - 2025-08-27
+#### [Emby lookup](/Plugins/emby_lookup)
+All series fields have been renamed:
+|old name|new name|
+|---|---|
+|emby_serie_year|emby_series_year|
+|emby_serie_aired_date|emby_series_aired_date|
+|emby_serie_id|emby_series_id|
+|emby_serie_name|emby_series_name|
+|emby_serie_photo|emby_series_photo|
+|emby_serie_imdb_id|emby_series_imdb_id|
+|emby_serie_tvdb_id|emby_series_tvdb_id|
+|emby_serie_overview|emby_series_overview|
+|emby_serie_page|emby_series_page|
 
 ### **3.17.0** - 2025-07-24
 Dropped support for Python 3.9
