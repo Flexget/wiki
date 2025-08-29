@@ -2,7 +2,7 @@
 title: slack
 description: 
 published: true
-date: 2025-08-29T11:17:16.213Z
+date: 2025-08-29T11:17:35.552Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:49.250Z
@@ -33,7 +33,6 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 |icon_emoji|text|Override emoji icon||❌|
 |icon_url|URL|Image URL, will override notification icon||❌|
 |attachments|array|Override message attachments||❌|
-
 
 ## Examples
 
