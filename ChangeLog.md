@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---52bcb28ddea132712fdc0ed2bc0da225b544cd80--->
+<!---e0a43f552cd180da434517d11d5fce5e1612f10f--->
 
 ## 3.18.1.dev (unreleased)
+
+### Added
+
+- Update Slack notifier to handle two separate versions, Legacy and Block Kit- Update Slack notifier to handle two separate versions
 
 <!---56cf7cd8f70054a8d98d09b12872aefbbf3c5ac1--->
 
