@@ -2,7 +2,7 @@
 title: slack
 description: 
 published: true
-date: 2025-08-29T11:09:03.419Z
+date: 2025-08-29T11:09:47.926Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:49.250Z
