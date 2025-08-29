@@ -2,7 +2,7 @@
 title: slack
 description: 
 published: true
-date: 2022-09-18T05:26:51.909Z
+date: 2025-08-29T11:09:03.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:49.250Z
@@ -16,6 +16,15 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 
 ## Configuration
 
+### Block Kit
+
+| Option |Type|  Description | 
+| --- | ---| --- |---|
+|**web_hook_url**|URL|Web hook URL
+|blocks|array of objects|message content|
+
+### Legacy
+
 | Option |Type|  Description | Default |
 | --- | ---| --- |---|
 |**web_hook_url**|URL|Web hook URL. **Required**
@@ -27,8 +36,60 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 
 
 ## Examples
-> Examples show a specifc scenario usage of the [notify](/Plugins/notify) plugin. See its wiki for a more detailed usage exaplantion.
-{.is-warning}
+
+### Block Kit
+
+#### Config
+
+```yaml
+tasks:
+  slack:
+    mock:
+      - { ... }
+    accept_all: yes
+    notify:
+      entries:
+        via:
+          - slack:
+              web_hook_url: "https://hooks.slack.com/services/T0F1*****/B099*******/OOPTXTzIJfMyaHWG********"
+              blocks:
+                - section:
+                    text: '<{{ tvdb_url }}|{{ series_name }} ({{ series_id }})>'
+                - section:
+                    text: '{{ tvdb_ep_overview }}'
+                    image:
+                      url: "https://api.slack.com/img/blocks/bkb_template_images/plants.png"
+                      alt_text: 'plants'
+                    fields:
+                      - '*Score*'
+                      - '*Genres*'
+                      - '{{ imdb_score }}'
+                      - "{{ imdb_genres | join(', ') | title }}"
+                      - '*Rating*'
+                      - '*Cast*'
+                      - '{{ imdb_mpaa_rating }}'
+                      - >
+                        {% for key, value in imdb_actors.items() %}{{ value }}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                - image:
+                    url: "{{ tvdb_banner }}"
+                    alt_text: "{{ series_name }} Banner"
+                - divider: True
+                - context:
+                    - image:
+                        url: 'https://image.freepik.com/free-photo/red-drawing-pin_1156-445.jpg'
+                        alt_text: 'red pin'
+                    - text: ':round_pushpin:'
+                    - text: 'Task: {{ task }}'
+```
+
+#### Example output
+![image](https://user-images.githubusercontent.com/249456/74075454-4b5e1d00-49c7-11ea-9e58-438a90942812.png)
+
+#### Useful resources
+[Sending messages using incoming webhooks](https://api.slack.com/messaging/webhooks)
+
+### Legacy
 
 The following example sends a Slack message along with an attachment for more context. Refer to the [message attachment docs](https://api.slack.com/docs/message-attachments) for all available parameters.
 
@@ -70,3 +131,5 @@ notify:
                     {% endfor %}
                   short: false
 ```
+#### Useful resources
+[Legacy custom integrations incoming webhooks](https://api.slack.com/legacy/custom-integrations/messaging/webhooks)
