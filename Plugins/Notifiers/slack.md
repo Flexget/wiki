@@ -2,7 +2,7 @@
 title: slack
 description: 
 published: true
-date: 2025-08-30T07:37:23.501Z
+date: 2025-08-30T07:37:39.350Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:26:49.250Z
@@ -21,7 +21,7 @@ This plugin allows Flexget to send notifications to a [Slack](https://www.slack.
 | Option |Type|  Description | Required
 | --- | ---| --- |---|
 |**web_hook_url**|URL|Web hook URL|✅|
-|blocks|array|see example below|✅|
+|blocks|array|see example below|❌|
 
 ### Legacy
 
