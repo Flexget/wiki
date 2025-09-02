@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-08-14T03:47:04.998Z
+date: 2025-09-02T09:53:04.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -80,12 +80,14 @@ qbittorrent:
   ratio_limit: 1.3
 ```
 
-Dynamically set ratio limit and time limit
+Dynamically set ratio limit and time limit with set plugin.
 
 ```yaml
-tasks
+tasks:
   movies:
     set:
       ratio_limit: 3
-			seeding_time_limit: 1 week
+      seeding_time_limit: 1 week
+    qbittorrent:
+      label: tv
 ```
