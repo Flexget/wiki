@@ -2,7 +2,7 @@
 title: NeedHelp
 description: 
 published: true
-date: 2023-01-23T17:00:02.928Z
+date: 2025-09-03T09:45:51.546Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:50:52.841Z
@@ -19,7 +19,7 @@ Join support and development [Chat](/Chat)
 Join the [Forum](http://discuss.flexget.com/) for discussion and support.
 
 ## Bugs
-Please report all bugs and errors by using [github tickets](https://github.com/Flexget/Flexget/issues)! For more information see [bug report guide](/BugReport).  
+Please report all bugs and errors by using [GitHub issues](https://github.com/Flexget/Flexget/issues)! For more information see [bug report guide](/BugReport).  
 
 ### Feedback?
 We are always interested in feedback, may it be good or bad. Especially when you decide not to use FlexGet, tell us why so we can work to resolve those issues.
