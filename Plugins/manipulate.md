@@ -2,7 +2,7 @@
 title: manipulate
 description: 
 published: true
-date: 2023-07-15T16:59:41.080Z
+date: 2025-09-10T20:26:55.774Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:07:54.028Z
@@ -24,6 +24,7 @@ manipulate:
         regexp: <regexp>
         format: <regexp>
       [remove]: <boolean>
+      [erase]: <list of regex>
 ```
 
 Valid values for phase are: metainfo and filter, metainfo is the default behavior.
@@ -99,4 +100,16 @@ The series plugin operates on both the title and description fields. If you want
 manipulate:
   - description:
       remove: yes
+```
+
+### Example 6
+
+There are advertisement in the title. Let's erase them.
+
+```
+manipulate:
+  - title:
+      erase:
+        - '^advertisement.'
+        - '^more.ads.'
 ```
