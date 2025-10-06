@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---23c8053c62a8c44bcee4a4c7d2ee8a31cd27ea4c--->
+<!---c78437cca06212c3af60255d40ed83acb666e900--->
 
-## 3.18.14.dev (unreleased)
+## 3.18.15.dev (unreleased)
+
+<!---c1825023417efdea1827944bf1215cc6f6f4c1ab--->
+
+## 3.18.14 (2025-10-06)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.18.13...v3.18.14)
 
 ### Fixed
 
 - `tmdb_lookup` crashes due to new undocumented field from the API
-
-<!---4825febec61312b6c43b2dfb769304681464f59f--->
 
 ## 3.18.13 (2025-10-02)
 
