@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---1d63e7e493dbf5cd97f4f4be1bcf411001c61c5b--->
+<!---23c8053c62a8c44bcee4a4c7d2ee8a31cd27ea4c--->
 
 ## 3.18.14.dev (unreleased)
+
+### Fixed
+
+- `tmdb_lookup` crashes due to new undocumented field from the API
 
 <!---4825febec61312b6c43b2dfb769304681464f59f--->
 
