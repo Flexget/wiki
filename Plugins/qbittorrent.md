@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-09-02T09:53:04.936Z
+date: 2025-11-05T13:39:45.925Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -38,6 +38,7 @@ qbittorrent: yes
 | use_ssl | Connect to the provided hostname using https (default *False*) |
 | verify_cert | Enable or disable SSL certficate verification (default *True*) |
 | path | The download location |
+| incomplete_path | The temporary download location for incomplete downloads |
 | label | Assigns corresponding qBittorrent label/category |
 | tags | Assign one or more tags to torrent. Can be used both in config and in a task. |
 | maxdownspeed | Set torrent download speed limit. Unit in kilobytes/second |
