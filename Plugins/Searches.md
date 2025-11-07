@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2022-12-12T03:21:15.738Z
+date: 2025-11-07T05:23:28.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -36,7 +36,7 @@ You can always get an up to date overview of the available search plugins by usi
 
 | **Keyword** | **Description** |
 | --- | --- |
-| [133tx.to](/Searches/133tx) | Search [133tx.to](https://1337x.to/) |
+| [1337x.to](/Searches/1337x) | Search [1337x.to](https://1337x.to/) |
 | [argenteam](/Searches/argenteam) | Generates entries from [www.argenteam.net](http://www.argenteam.net/) |
 | [descargas2020](/Searches/descargas2020) | Generates entries from [descargas2020.com](http://descargas2020.com) |
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
