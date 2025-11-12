@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---e4130cf5d8249a391f9a645e67278d5346425657--->
+<!---234867b79ecf4f08f2b2e20306ebc6739e43cb8c--->
 
-## 3.18.22.dev (unreleased)
+## 3.18.23.dev (unreleased)
+
+<!---a818e751c5b2c8252cfbe708b4d35b86b373e061--->
+
+## 3.18.22 (2025-11-12)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.18.20...v3.18.22)
 
 ### Added
 
 - qBittorrent: add option for incomplete save path- qBittorrent: add option for incomplete save path
-
-<!---3c749f113251a1b436dcb214a290cbf55928b330--->
 
 ## 3.18.20 (2025-10-27)
 
