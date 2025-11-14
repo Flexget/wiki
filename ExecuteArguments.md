@@ -2,7 +2,7 @@
 title: ExecuteArguments
 description: 
 published: true
-date: 2022-09-18T05:28:46.416Z
+date: 2025-11-14T02:09:51.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:26.915Z
@@ -14,7 +14,6 @@ dateCreated: 2022-09-18T04:49:26.915Z
 | `--learn` | Matches are not downloaded but will be skipped in the future |
 | `--no-cache` | Disable caches; works only in plugins that have explicit support |
 | `--stop-waiting <name>` | Stop [timeframe](/Plugins/series/timeframe) for a given series |
-| `--disable-tracking` | Disable [episode advancement](/Plugins/series/tracking) for this run |
 | `--tail-reset <file|task>` | reset [tail position](/Plugins/tail) for a file or an entire task
 | `--discover-now` | Immediately try to discover everything, bypassing the `discover` option [`interval`](/Plugins/discover#interval) |
 | `-T NAME, --template <name>` | Execute tasks using given template |
