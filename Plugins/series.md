@@ -2,7 +2,7 @@
 title: series
 description: 
 published: true
-date: 2025-12-03T23:51:20.294Z
+date: 2025-12-03T23:53:29.009Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:12:38.011Z
@@ -37,7 +37,7 @@ So if we get same episode twice:
  * Some.Series.S2E10.720p.x264-FlexGet
  * Some.Series.S2E10.HR.x264-FooBar
 
-Only one of them is downloaded, with default configuration the first entry matching quality requirements is chosen. In this example we have none. To get the best quality within current execution you can sort qualities with [sort_by](/Plugins/sort_by) plugin.
+Only one of them is downloaded, with default configuration the first entry matching quality requirements is chosen. In this example we have no spesific requirements. To get the best quality within current execution you can sort qualities with [sort_by](/Plugins/sort_by) plugin.
 
 ```
 sort_by:
@@ -45,7 +45,7 @@ sort_by:
   reverse: yes
 ```
 
-But there are much better options avaialble in the plugin. For example specifying desired [quality](/Plugins/series/quality) or [timeframe](/Plugins/series/timeframe) to wait for one.
+However there are much better options avaialble in the plugin. For example specifying desired [quality](/Plugins/series/quality) or [timeframe](/Plugins/series/timeframe) to wait for one.
 
 ## Settings
 The series plugin supports a number of settings to customize it's behavior. Though the examples show the settings being applied to a single series, they can all be applied to a group of series as well.
