@@ -2,7 +2,7 @@
 title: series
 description: 
 published: true
-date: 2025-02-12T00:48:34.345Z
+date: 2025-12-03T23:51:20.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:12:38.011Z
@@ -37,7 +37,7 @@ So if we get same episode twice:
  * Some.Series.S2E10.720p.x264-FlexGet
  * Some.Series.S2E10.HR.x264-FooBar
 
-Only one of them is downloaded, with default configuration the first entry matching quality requirements is chosen. To get the best quality within specified timeframe use the sort_by plugin in the task.
+Only one of them is downloaded, with default configuration the first entry matching quality requirements is chosen. In this example we have none. To get the best quality within current execution you can sort qualities with [sort_by](/Plugins/sort_by) plugin.
 
 ```
 sort_by:
@@ -45,17 +45,7 @@ sort_by:
   reverse: yes
 ```
 
-## Related plugins
-These plugins are complementary to the series plugin.
-
-| Name | Description |
-| --- | --- |
-| [all_series](/Plugins/all_series) | Grab all series in the task|
-| [configure_series](/Plugins/configure_series) | Automatically configures series by using another input, some examples: [thetvdb_favorites](/Plugins/thetvdb_favorites), [trakt_list](/Plugins/List/trakt_list) and [filesystem](/Plugins/filesystem).<br> With this you don't need to maintain series configuration in the configuration file.  |
-| [series_premiere](/Plugins/series_premiere) | Download all premieres| 
-| [next_series_episodes](/Plugins/next_series_episodes) | Emit next episodes for [discover](/Plugins/discover) | 
-| [next_series_seasons](/Plugins/next_series_seasons) | Emit next seasons for [discover](/Plugins/discover) | 
-
+But there are much better options avaialble in the plugin. For example specifying desired [quality](/Plugins/series/quality) or [timeframe](/Plugins/series/timeframe) to wait for one.
 
 ## Settings
 The series plugin supports a number of settings to customize it's behavior. Though the examples show the settings being applied to a single series, they can all be applied to a group of series as well.
@@ -89,7 +79,19 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 | [upgrade](/Plugins/series/upgrade) | Keeps getting the better qualities as they become available. |
 | [season_packs](/Plugins/series/season_packs) | Enable downloading season packs. 
 
-#### Notes
+## Related plugins
+These plugins are complementary to the series plugin.
+
+| Name | Description |
+| --- | --- |
+| [all_series](/Plugins/all_series) | Grab all series in the task|
+| [configure_series](/Plugins/configure_series) | Automatically configures series by using another input, some examples: [thetvdb_favorites](/Plugins/thetvdb_favorites), [trakt_list](/Plugins/List/trakt_list) and [filesystem](/Plugins/filesystem).<br> With this you don't need to maintain series configuration in the configuration file.  |
+| [series_premiere](/Plugins/series_premiere) | Download all premieres| 
+| [next_series_episodes](/Plugins/next_series_episodes) | Emit next episodes for [discover](/Plugins/discover) | 
+| [next_series_seasons](/Plugins/next_series_seasons) | Emit next seasons for [discover](/Plugins/discover) | 
+
+
+## Notes
 
 * If the series appears in task(s) with slightly different naming conventions and spinoffs like FooBar and FooBar US read [this guide](/Plugins/series/closematch). 
 * FlexGet respects *propers* which means that the same episode will be downloaded twice if the second one contains words such as `proper`, `repack`, `rerip`, or `real`.
@@ -97,14 +99,15 @@ The series plugin supports a number of settings to customize it's behavior. Thou
 * Check [series cookbook](/Cookbook/Series) for more complete examples and advanced uses.
 * If using discover, existing collection can be imported with [this](/Cookbook/Series/SeedDB) recipe.
 
-## `series` Commandline Arguments
+## Commandline interface
+
+### `series` Commandline Arguments
 The series plugin has several features available at the command line via the [`flexget series` command](/CLI/series).
 
-## `execute` Commandline Arguments
+### `execute` Commandline Arguments
 There are also options to the `flexget execute` command which affect the series plugin:
 
 Using `series begin` to set new starting point is recommended and should resolve any tracking issues. If you for some reason need to record episode into history it can be achieved with command `flexget inject "Pioneer One 05" --task <name> --learn`.
-
 
 ### \-\-stop-waiting \<name\>
 Stops timeframe for given name, thus downloading any episode that is currently pending in the timeframe.
