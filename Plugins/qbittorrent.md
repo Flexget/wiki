@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-11-05T13:39:45.925Z
+date: 2025-12-06T22:53:25.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -63,7 +63,7 @@ qbittorrent:
 Dynamically set tags
 
 ```yaml
-tasks
+tasks:
   movies:
     set:
       tags:
