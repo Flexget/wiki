@@ -2,7 +2,7 @@
 title: Plugins/Searches
 description: 
 published: true
-date: 2025-12-06T22:37:01.163Z
+date: 2025-12-06T22:38:27.748Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:39.112Z
@@ -14,7 +14,7 @@ FlexGet provides framework for querying searches from supported sites. These can
 
 ### Important!
 
-This list is possibly out of date, it is maintained infrequently.
+This list is very possibly out of date, it is maintained infrequently.
 
 You can always get an up to date overview of the available search plugins by using the command line with command `flexget plugins --interface search`. Short documentation for a plugin can be obtained with [`flexget doc <plugin-name>`](https://flexget.com/CLI/doc) if included within source file.
 
@@ -42,7 +42,6 @@ You can always get an up to date overview of the available search plugins by usi
 | [divxatope](/Searches/divxatope) | Generates entries from [divxatope.com](http://divxatope.com/) |
 | [eztv](/Plugins/eztv) | Searches EZTV by IMDB ID |
 | [gazelle/gazellemusic](/Searches/gazelle) | Generates entries from gazelle-based websites like the now-defunct what.cd |
-| [newtorrents](/Searches/newtorrents) | Generates entries from [newtorrents.info](http://newtorrents.info) |
 | [nyaa](/Searches/nyaa) | Generates entries from [nyaa.si](http://nyaa.si/) |
 | [limetorrents](/Searches/limetorrents) | Generates entries from limetorrents.cc |
 | [piratebay](/Searches/piratebay) | Generates entries from [thepiratebay](http://thepiratebay.gl/) |
