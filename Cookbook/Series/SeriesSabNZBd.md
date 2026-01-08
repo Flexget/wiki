@@ -2,7 +2,7 @@
 title: SeriesSabNZBd
 description: 
 published: true
-date: 2022-12-03T03:26:34.842Z
+date: 2026-01-08T03:27:38.436Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:21:11.136Z
@@ -26,7 +26,7 @@ tasks:
         - name b
     sabnzbd:
       key: 1234567890
-      url: http://127.0.0.1:8080/sabnzbd/api?
+      url: http://127.0.0.1:8080/api?
 ```
 
 [Back to The Cookbook](/Cookbook)
