@@ -2,7 +2,7 @@
 title: sabnzbd
 description: 
 published: true
-date: 2022-09-18T05:21:14.981Z
+date: 2026-01-08T03:26:47.281Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:11:56.015Z
@@ -13,7 +13,7 @@ dateCreated: 2022-09-18T05:11:56.015Z
 ```
 sabnzbd:
   key: 123456
-  url: http://localhost/sabnzbd/api?
+  url: http://localhost:8080/api?
   category: movies
 ```
 
