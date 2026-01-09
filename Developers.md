@@ -2,7 +2,7 @@
 title: Developers
 description: 
 published: true
-date: 2025-04-20T19:12:34.032Z
+date: 2026-01-09T15:39:06.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:49:11.127Z
@@ -34,11 +34,6 @@ And then place this where you wish to hack:
 ```
 import IPython; IPython.embed()
 ```
-
--------------------------
-Thanks to JetBrains for the free open source PyCharm license!
-
-[![PyCharm Logo](https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm.png =200x)](https://www.jetbrains.com/pycharm/)
 
 ### Attachments  
 
