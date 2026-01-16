@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---71756aad7314644dd9731aefb925e724d10c55d8--->
+<!---13852fb2d6624b75b2be9547bb996b457d40182c--->
 
-## 3.18.38.dev (unreleased)
+## 3.18.39.dev (unreleased)
+
+<!---012797853023a253f60fcc29cbb3015aec386c1c--->
+
+## 3.18.38 (2026-01-16)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.18.37...v3.18.38)
 
 ### Fixed
 
 - Trakt Lookup
-
-<!---07df876ec1fd4d28bbee1184b272adfa6458bd1a--->
 
 ## 3.18.37 (2026-01-12)
 
