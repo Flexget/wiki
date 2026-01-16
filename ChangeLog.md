@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---9bb03dbca7d1dc129fb598cc364bfb045aeed5a0--->
+<!---71756aad7314644dd9731aefb925e724d10c55d8--->
 
 ## 3.18.38.dev (unreleased)
+
+### Fixed
+
+- Trakt Lookup
 
 <!---07df876ec1fd4d28bbee1184b272adfa6458bd1a--->
 
