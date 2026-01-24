@@ -2,7 +2,7 @@
 title: status
 description: 
 published: true
-date: 2022-09-18T04:54:35.751Z
+date: 2026-01-24T02:19:30.343Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:54:33.151Z
@@ -17,6 +17,12 @@ View task health status.
 | `--task <task>` | Limit to results in specified `<task>` |
 | `--limit <num>` | Limit to `<num>` results (default `50`) |
 [Includes/TableStylesDiv](/Includes/TableStylesDiv){.include}
+
+## Subcommands
+
+| Command | Description |
+| --- | --- |
+| remove | Remove a task and all its execution records. Supports glob pattern matching.| 
 
 ### Examples
 ```bash
