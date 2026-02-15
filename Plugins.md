@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2025-12-06T22:36:24.313Z
+date: 2026-02-15T00:36:35.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -107,6 +107,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |
 | [from_qbittorrent](/Plugins/from_qbittorrent) | Use torrents loaded in QBittorrent as input. |
+| [ombi_list](/Plugins/List/ombi_list) | Add or remove entries from ombi. |
 | [plex](/Plugins/plex) | Produce entries for shows present in a [Plex Media Server](http://www.plexapp.com) section. |
 | [plex_watchlist](/Plugins/List/plex_watchlist) | Plex watchlist [Managed List](/Plugins/List) |
 | [radarr_list](/Plugins/List/radarr_list) | Produce entries from or to radarr_list. [Managed List](/Plugins/List) |
