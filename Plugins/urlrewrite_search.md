@@ -2,7 +2,7 @@
 title: urlrewrite_search
 description: 
 published: true
-date: 2022-09-18T05:16:29.986Z
+date: 2026-02-15T18:56:06.607Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:16:27.393Z
@@ -18,7 +18,6 @@ This can be used when there is no other way to get working download URL, ie. whe
 
 ```yaml
 urlrewrite_search:
-  - newtorrents
   - piratebay: yes
   - nzbmatrix:
       apikey: myapikeyfromnzbmatrix
