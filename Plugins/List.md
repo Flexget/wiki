@@ -2,7 +2,7 @@
 title: List
 description: 
 published: true
-date: 2022-12-11T17:47:38.613Z
+date: 2026-02-15T00:32:15.932Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:01:09.230Z
@@ -30,6 +30,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. |
 | [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. |
+| [ombi_list](/Plugins/List/ombi_list) | Use or add entries from ombi. |
 | [pending_list](/Plugins/List/pending_list) | Manually approve entries to be accepted |
 | [plex_watchlist](/Plugins/List/plex_watchlist) | Use or add entries from plex |
 | [radarr_list](/Plugins/List/radarr_list) | Use or add entries from Radarr. |
