@@ -2,13 +2,13 @@
 title: Ombi list
 description: 
 published: true
-date: 2026-02-15T00:35:12.399Z
+date: 2026-02-15T22:42:56.826Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-15T00:35:12.399Z
 ---
 
-# Ombi List Plugin — Quick Guide
+# Ombi List Plugin
 
 The `ombi_list` plugin integrates FlexGet with your Ombi instance, allowing you to list, add, match, or remove movie and TV requests using the Ombi API.
 
@@ -44,5 +44,3 @@ tasks:
 - Use with `list_add`, `list_remove`, `list_match`, or directly in a task.
 - Use the correct `type` for your items (`movies`, `shows`, `seasons`, `episodes`).
 - Only `movies` and `episodes` support `status` and `hide_available`.
-
-```
