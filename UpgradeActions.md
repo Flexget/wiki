@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-03-05T14:42:50.320Z
+date: 2026-03-05T15:52:31.022Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -22,7 +22,7 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 
 #### [Torznab](/Searches/torznab)
 
-Configuration option website was renamed to url to be inline with other plugins.
+Configuration option `website` was renamed to `url` to be inline with other plugins.
 
 ### **3.18.0** - 2025-08-27
 #### [Emby lookup](/Plugins/emby_lookup)
