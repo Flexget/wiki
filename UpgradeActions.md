@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2025-08-27T06:34:35.507Z
+date: 2026-03-05T14:42:50.320Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,12 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.19.0** - 2026-03-05
+
+#### [Torznab](/Searches/torznab)
+
+Configuration option website was renamed to url to be inline with other plugins.
 
 ### **3.18.0** - 2025-08-27
 #### [Emby lookup](/Plugins/emby_lookup)
