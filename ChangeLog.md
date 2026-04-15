@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---4882e106078c294ba6d9b6e3bbc0d3281efd1141--->
+<!---df3862ae925b0b42653e93d09e8c4ef9be3a762e--->
 
-## 3.19.12.dev (unreleased)
+## 3.19.13.dev (unreleased)
+
+<!---742ee57847da34805996f8eaeac83fd83bafea84--->
+
+## 3.19.12 (2026-04-15)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.19.11...v3.19.12)
 
 ### Fixed
 
 - Update YTS search plugin
-
-<!---1105fbbe465387be4d6ec9de8f23f0d97a309835--->
 
 ## 3.19.11 (2026-04-13)
 
