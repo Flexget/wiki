@@ -2,7 +2,7 @@
 title: Plugins
 description: 
 published: true
-date: 2026-02-15T00:36:35.921Z
+date: 2026-04-25T01:23:20.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:51:15.647Z
@@ -311,6 +311,7 @@ These provide metainfo (ie. fields) to [Entry](/Entry).
 | [tvmaze_lookup](/Plugins/tvmaze_lookup) | Enable http://tvmaze.com/ parsing for tvmaze fields on-demand. |
 | [bluray_lookup](/Plugins/bluray_lookup) | Enable http://m.blu-ray.com/ parsing for bluray fields on-demand. |
 | [nfo_lookup](https://flexget.com/Plugins/nfo_lookup) | Read movie information from an [nfo file](http://kodi.wiki/view/NFO_files) (specially useful for [Kodi](https://kodi.tv/) libraries).
+| [anime_relations](/Plugins/anime_relations) | Populate IDs for different anime databases, TVDB, TMDB and IMDB |
 | [check_subtitles](/Plugins/check_subtitles) | Check subtitles presence for local files. |
 | [metainfo_movie](/Plugins/metainfo_movie) | Call internal movie parser to parse task entries and generated movie related data. |
 | [metainfo_series](/Plugins/metainfo_series) | Use internal series parser to parse task entries and generated series related data. |
