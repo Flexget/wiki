@@ -2,7 +2,7 @@
 title: Anime Relations
 description: Populate ID fields for different databases
 published: false
-date: 2026-04-25T01:10:26.352Z
+date: 2026-04-25T01:29:23.647Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-25T01:10:26.352Z
@@ -41,6 +41,7 @@ The plugin doesn't search for titles, only existing ID fields on the entry so at
 | `tvdb_season` | TVDB season in relation to AniDB | ❌ | ❌ |
 
 
+
 ## Example
 
 ```yaml
@@ -71,3 +72,7 @@ tvdb_id                    : 305089
 tvdb_offset                : None
 tvdb_season                : 2
 ```
+
+#### Additional Information:
+- The relations are based on AniDB
+- The plugin gets the information from [Fribb/anime-lists](https://github.com/Fribb/anime-lists) and [Anime-Lists/anime-lists](https://github.com/Anime-Lists/anime-lists)
