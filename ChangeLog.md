@@ -11,11 +11,16 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---470db0916cebe52c1d39e15eaf1b2eb9281c57ea--->
+<!---c19a49703063c105f7ac28a7d7619f3d200915d7--->
 
-## 3.19.28.dev (unreleased)
+## 3.19.29.dev (unreleased)
 
-<!---6a11967f7b838e1b80eca3ccaafbd8c5bcce09ab--->
+<!---9c3b3fba4f8769464fc80cc708632722005a053e--->
+
+## 3.19.28 (2026-07-13)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.19.27...v3.19.28)
+
 
 ## 3.19.27 (2026-07-06)
 
