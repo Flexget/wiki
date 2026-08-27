@@ -17,6 +17,11 @@ Finally, install FlexGet and its components (using `pip3` in place of `pip` if n
 $ pip install --upgrade flexget
 ```
 
+Alternatively, if you have homebrew installed, you could use the version in homebrew
+```bash
+$ brew install flexget
+```
+
 You can confirm FlexGet has been successfully installed by running the following command:
 ```bash
 $ flexget -V
