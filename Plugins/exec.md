@@ -2,14 +2,14 @@
 title: exec
 description: 
 published: true
-date: 2026-09-11T19:23:55.937Z
+date: 2026-09-11T19:29:56.025Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:04:46.977Z
 ---
 
 # Exec
-> Note that executing values directly from 3rd party (example rss feed) potentially opens up path for remote code execution. Escaping has been put in place but you should not fully trust that to protect you.
+> Note that executing values directly from 3rd party (example rss feed) potentially opens up path for remote code execution. Escaping has been improved to mitigate that.
 {.is-danger}
 
 
