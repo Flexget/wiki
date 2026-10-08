@@ -2,7 +2,7 @@
 title: convert_magnet
 description: 
 published: true
-date: 2026-10-08T13:34:03.734Z
+date: 2026-10-08T21:42:20.466Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:03:04.121Z
@@ -13,9 +13,9 @@ dateCreated: 2022-09-18T05:03:04.121Z
 Simple plugin for converting magnet links to torrent files without the use of torrent caches.
 
 ## Prerequisites
-- The `libtorrent` extra provided by FlexGet is installed.
+- `libtorrent` is installed.
   ```
-  pip install flexget[libtorrent]
+  pip install libtorrent
   ```
 
 ## Options
