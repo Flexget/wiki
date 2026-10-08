@@ -2,7 +2,7 @@
 title: subliminal
 description: 
 published: true
-date: 2025-08-14T03:54:59.887Z
+date: 2026-10-08T21:49:40.220Z
 tags: dependencies
 editor: markdown
 dateCreated: 2022-09-18T05:13:36.421Z
@@ -27,7 +27,7 @@ Download subtitles for entries referring to existing video files.
 | exact_match | [yes\|no] | Yes: precision search, will get only subs matching the video; No: download anything available for the corresponding movie/episode (default: yes) |
 | providers | list | List of providers from where to download subtitles.<br>Currently supported: legendastv, shooter, podnapisi, tvsubtitles, opensubtitles, addic7ed, subscenter, thesubdb|
 | single | [yes\|no] | Download subtitles in single mode (no language code added to subtitle filename) (default: yes) |
-| hearing_impaired | [yes\|no] | Download subtitles for the hearing impaired when available (default: no) (Flexget 2.20 or newer) |
+| subtitle_categories | string | Accepts strings as a comma-separated list of subtitle categories, from the three existing categories: `hi`, hearing impaired subtitle; `fo`, foreign only subtitle; `n`, narrative, standard subtitle. For instance `hi,n,fo` sorts the subtitles by hearing impaired first, then narrative and foreign only last. If a category is omitted, the corresponding subtitles will be skipped. For instance `hi` will select the best subtitle among hearing impaired only subtitles. An empty string (the default) with not sort or filter out the subtitles. |
 | authentication | dict | Set authentication options for providers that require it (currently `addic7ed`, `legendastv` and `opensubtitles`). Each key should be the provider name, associated with `username` and `password` keys, as in the complete example above (Flexget 2.20 or newer) |
 
 
