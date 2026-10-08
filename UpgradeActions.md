@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-10-08T13:25:26.386Z
+date: 2026-10-08T21:55:30.555Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -33,7 +33,7 @@ Added support for Python 3.15.
 
 #### [subliminal](/Plugins/subliminal)
 
-According to https://github.com/Diaoul/subliminal/pull/1357, the `hearing_impaired` option has been replaced by `subtitle_categories`. Therefore, the schema of FlexGet's `subliminal` plugin also needs to be updated accordingly.
+The `hearing_impaired` option has been replaced by `subtitle_categories`. `subtitle_categories` accepts strings as a comma-separated list of subtitle categories, from the three existing categories: `hi`, hearing impaired subtitle; `fo`, foreign only subtitle; `n`, narrative, standard subtitle. For instance `hi,n,fo` sorts the subtitles by hearing impaired first, then narrative and foreign only last. If a category is omitted, the corresponding subtitles will be skipped. For instance `hi` will select the best subtitle among hearing impaired only subtitles. An empty string (the default) with not sort or filter out the subtitles.
 
 ### **3.19.0** - 2026-03-05
 
