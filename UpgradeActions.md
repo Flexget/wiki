@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-03-05T15:52:31.022Z
+date: 2026-10-08T13:16:39.781Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -17,6 +17,19 @@ dateCreated: 2022-09-18T04:52:17.211Z
 This page contains information about configuration file format changes, as well as FlexGet behavioral changes that may affect the user. If your configuration file does not pass `flexget check` after upgrading, this page should contain instructions detailing what you need to change.
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
+
+### **3.20.0** - 2026-08-05
+
+### **3.21.0** - 2026-09-17
+
+Dropped support for Python 3.10.
+Added support for Python 3.15.
+
+### **3.20.0** - 2026-08-05
+
+#### [subliminal](/plugins/subliminal)
+
+According to https://github.com/Diaoul/subliminal/pull/1357, the `hearing_impaired` option has been replaced by `subtitle_categories`. Therefore, the schema of FlexGet's `subliminal` plugin also needs to be updated accordingly.
 
 ### **3.19.0** - 2026-03-05
 
@@ -54,7 +67,9 @@ All series fields have been renamed:
 - rmz
 
 ### **3.17.0** - 2025-07-24
-Dropped support for Python 3.9
+Dropped support for Python 3.9.
+Added support for Python 3.14.
+
 
 ### **3.16.0** - 2025-05-18
 #### [filesystem](/Plugins/filesystem)
