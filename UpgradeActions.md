@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-10-08T13:16:39.781Z
+date: 2026-10-08T13:20:48.296Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -18,7 +18,11 @@ This page contains information about configuration file format changes, as well 
 
 Starting from version 2.0.0 we are using semantic versioning, in the form that any increase in the second digit means that configuration is not necessarily backwards compatible and may need to be updated. Therefore this page is generally only updated after each 2.x.0 release.
 
-### **3.20.0** - 2026-08-05
+### **3.22.0** - 2026-10-08
+
+#### [convert_magnet](/plugins/convert_magnet]
+
+`force` config option is renamed to `fail_entry_on_error`.
 
 ### **3.21.0** - 2026-09-17
 
