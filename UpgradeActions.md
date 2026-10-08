@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-10-08T13:24:43.234Z
+date: 2026-10-08T13:25:26.386Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -20,7 +20,7 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 
 ### **3.22.0** - 2026-10-08
 
-#### [convert_magnet](/plugins/convert_magnet)
+#### [convert_magnet](/Plugins/convert_magnet)
 
 `force` config option is renamed to `fail_entry_on_error`.
 
@@ -31,7 +31,7 @@ Added support for Python 3.15.
 
 ### **3.20.0** - 2026-08-05
 
-#### [subliminal](/plugins/subliminal)
+#### [subliminal](/Plugins/subliminal)
 
 According to https://github.com/Diaoul/subliminal/pull/1357, the `hearing_impaired` option has been replaced by `subtitle_categories`. Therefore, the schema of FlexGet's `subliminal` plugin also needs to be updated accordingly.
 
