@@ -2,7 +2,7 @@
 title: UpgradeActions
 description: 
 published: true
-date: 2026-10-08T13:22:52.344Z
+date: 2026-10-08T13:24:18.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T04:52:17.211Z
@@ -20,7 +20,7 @@ Starting from version 2.0.0 we are using semantic versioning, in the form that a
 
 ### **3.22.0** - 2026-10-08
 
-#### [convert_magnet](/plugins/convert_magnet]
+#### [convertmagnet](/plugins/convert_magnet]
 
 `force` config option is renamed to `fail_entry_on_error`.
 
