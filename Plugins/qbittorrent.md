@@ -2,7 +2,7 @@
 title: qbittorrent
 description: 
 published: true
-date: 2025-12-06T22:53:25.792Z
+date: 2026-10-09T07:47:36.511Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:10:24.266Z
@@ -47,6 +47,7 @@ qbittorrent: yes
 | skip_check | Skip initial hash check (default: *False*) |
 | ratio_limit | Set torrent ratio limit. Unit is a float. Default is -2 if unspecified (server-side). -2 means the global limit should be used, -1 means no limit. |
 | seeding_time_limit | Set torrent seeding time limit. Specify as a time delta (see examples). Default is no limit (server-side). |
+| inactive_seeding_time_limit | Set innactive seeding time limit. Specify as a time delta (see examples). Default is no limit (server-side). |
 
 ### Examples
 
