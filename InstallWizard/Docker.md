@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2025-08-21T05:38:53.376Z
+date: 2026-10-10T00:31:41.012Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:00:08.245Z
@@ -44,7 +44,7 @@ docker run -d \
   -e TZ=$TIMEZONE \                # optional: defaults to UTC
   -p 5050:5050 \                   # optional: for webui
   flexget/flexget \
-  daemon start --autoreload-config
+  daemon start
 ```
 
 #### docker compose
