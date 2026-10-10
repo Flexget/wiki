@@ -103,6 +103,7 @@ Input plugins designed to retrieve data from 3rd party software, such as Sonarr,
 | Keyword | Description |
 | --- | --- |
 | [couchpotato_list ](/Plugins/List/couchpotato_list) | Produce entries from couchpotato wanted movies list. [Managed List](/Plugins/List) |
+| [floppy_list](/Plugins/List/floppy_list) | Produce entries from the lists and collection of a Floppy server. [Managed List](/Plugins/List) |
 | [from_deluge](/Plugins/from_deluge) | Use torrents loaded in a Deluge daemon as input. |
 | [from_rtorrent](/Plugins/rtorrent) | Use torrents loaded in a rTorrent as input. |
 | [from_transmission](/Plugins/from_transmission) | Use torrents loaded in Transmission as input. |

@@ -28,6 +28,7 @@ Managed list plugins are a class of plugin which work as input plugins, but can 
 | [couchpotato_list](/Plugins/List/couchpotato_list) | Use or add entries from one of your couchpotato watch list. |
 | [emby_list](https://flexget.com/Plugins/emby_list) | Allows list management in emby server |
 | [entry_list](/Plugins/List/entry_list) | Use or add entries to a custom made entry list. |
+| [floppy_list](/Plugins/List/floppy_list) | Use or add entries from the lists and collection of a Floppy server. |
 | [imdb_list](/Plugins/List/imdb_list) | Use or add entries from one of your IMDB lists. |
 | [movie_list](/Plugins/List/movie_list) | Use or add entries to a custom made movie list. |
 | [ombi_list](/Plugins/List/ombi_list) | Use or add entries from ombi. |
