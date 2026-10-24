@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---962450256cfa6ecbe3ec741c1f125f410e0546ae--->
+<!---25b98972431e9f03e5191e7e71d44aa29b1a24d7--->
 
 ## 3.22.7.dev (unreleased)
+
+### Fixed
+
+- trakt_lookup - Paginate trakt user data requests- trakt_lookup - guard pagination against non-list responses and add courtesy rate limit- trakt_lookup - Paginate trakt user data requests
 
 <!---f678285b2d38eefa9187cab905c9c3a620433911--->
 
