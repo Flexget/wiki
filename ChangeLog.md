@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---25b98972431e9f03e5191e7e71d44aa29b1a24d7--->
+<!---cae5345adc8b5ac17bc5372c56e7322d1590f740--->
 
-## 3.22.7.dev (unreleased)
+## 3.22.8.dev (unreleased)
+
+<!---b82e28cd56b60fe82f9513013b797e53addf5951--->
+
+## 3.22.7 (2026-10-25)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.22.6...v3.22.7)
 
 ### Fixed
 
 - trakt_lookup - Paginate trakt user data requests- trakt_lookup - guard pagination against non-list responses and add courtesy rate limit- trakt_lookup - Paginate trakt user data requests
-
-<!---f678285b2d38eefa9187cab905c9c3a620433911--->
 
 ## 3.22.6 (2026-10-19)
 
