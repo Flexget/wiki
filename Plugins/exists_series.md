@@ -2,7 +2,7 @@
 title: exists_series
 description: 
 published: true
-date: 2022-09-18T05:05:01.065Z
+date: 2026-11-02T15:39:25.018Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-18T05:04:58.504Z
@@ -24,7 +24,12 @@ exists_series:
   - /storage/series/
   - /downloads/series/
 ```
-
+By default, exists_series will not scan the entire directory tree pointed at by the configured paths. To have it recurse the entire directory tree, use the `recursive` directive. (Default: No; introduced in release `3.19.14`)
+```yaml
+exists_series:
+  path: /storage/series
+  recursive: yes
+```
 ## Advanced
 
 By default, the exists_series will not allow downloading of different qualities of the same episode. (If you already have Pioneer.One.S01E01.hdtv, Pioneer.One.S01E01.720p will be rejected.) If you would like to allow different qualities of the same episode, you can use the advanced form of configuration, like so:
