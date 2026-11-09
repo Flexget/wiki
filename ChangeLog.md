@@ -11,9 +11,13 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---43cd8bc82bb23404dfd70b39442187635daf51e6--->
+<!---62323bb41cfa6ee6adaa3d5f3c799155a074890e--->
 
 ## 3.22.12.dev (unreleased)
+
+### Fixed
+
+- torznab - Keep guid, link, comments and pubDate from feed items- torznab - Keep guid, link, comments and pubDate from feed items
 
 <!---12658e1c7c0eb616de8f4edefb1b8f4bd351254d--->
 
