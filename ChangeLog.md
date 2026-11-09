@@ -11,15 +11,19 @@ dateCreated: 2022-09-18T04:48:39.193Z
 # Changelog
 This changelog is in progress. It can be manually updated via the wiki, but is also updated automatically via select commit messages and new releases. The two comment lines with git hashes (`<!---a1234--->`) must not be changed or removed.
 
-<!---62323bb41cfa6ee6adaa3d5f3c799155a074890e--->
+<!---b752e146ec3edd46eb547857f1da20b10f09738f--->
 
-## 3.22.12.dev (unreleased)
+## 3.22.13.dev (unreleased)
+
+<!---453f70e40fbd60b9c489dcdf42a8e9a4ea1e8f9c--->
+
+## 3.22.12 (2026-11-09)
+
+[all commits](https://github.com/Flexget/Flexget/compare/v3.22.11...v3.22.12)
 
 ### Fixed
 
 - torznab - Keep guid, link, comments and pubDate from feed items- torznab - Keep guid, link, comments and pubDate from feed items
-
-<!---12658e1c7c0eb616de8f4edefb1b8f4bd351254d--->
 
 ## 3.22.11 (2026-11-08)
 
